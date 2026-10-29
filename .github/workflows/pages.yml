@@ -42,7 +42,7 @@ jobs:
           assert 'data/catalog.js' in html
           assert 'assets/js/app.js' in html
           catalog = Path("data/catalog.js").read_text(encoding="utf-8")
-          assert len(re.findall(r'"id":"ICT12_B\d{2}"', catalog)) >= 28, "Catalog appears to lack lesson IDs"
+          assert all(f'"ICT12_B{i:02d}"' in catalog for i in range(1, 29)), "Catalog appears to lack lesson IDs"
           print("Static file and catalog checks passed.")
           PY
 
