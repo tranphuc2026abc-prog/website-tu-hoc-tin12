@@ -36,7 +36,6 @@ jobs:
           test -d nguon
           python scripts/build_data.py nguon
           python - <<'PY'
-          import re
           from pathlib import Path
           html = Path("index.html").read_text(encoding="utf-8")
           assert 'assets/css/style.css' in html
