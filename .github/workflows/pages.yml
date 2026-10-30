@@ -2,7 +2,7 @@ name: Validate and deploy Tin hoc 12
 
 on:
   push:
-    branches: [main]
+    branches: [main, feature/supabase-lms]
   workflow_dispatch:
 
 permissions:
