@@ -1,82 +1,45 @@
 # Thiết lập Supabase cho website Tự học Tin học 12
 
-> Trạng thái: nền tảng cơ sở dữ liệu đã được chuẩn bị trong nhánh `feature/supabase-lms`. Website hiện tại **chưa tích hợp giao diện đăng nhập/đồng bộ**. Không bật sử dụng cho học sinh trước khi hoàn thành phần tích hợp và kiểm thử.
+## Trạng thái
+Nhánh `feature/supabase-lms` đã được cấu hình Project URL và Publishable key, có giao diện đăng nhập/tạo tài khoản và chức năng đồng bộ tiến độ bài học thủ công. Chưa chạy migration trên dự án thật và chưa kiểm thử RLS với các tài khoản thật.
 
-## 1. Tạo dự án
+## 1. Chạy migration trước khi đăng ký
+1. Mở Supabase Dashboard của dự án.
+2. Chọn **SQL Editor** → **New query**.
+3. Mở tệp `supabase/migrations/202610300001_initial_lms.sql` trên GitHub.
+4. Sao chép toàn bộ nội dung, dán vào SQL Editor và nhấn **Run**.
+5. Mở **Table Editor**, xác nhận có 5 bảng: `profiles`, `teacher_classes`, `lesson_progress`, `quiz_attempts`, `quiz_answers`.
+6. Kiểm tra RLS đã bật trên cả 5 bảng.
 
-1. Truy cập https://supabase.com/ và tạo dự án mới.
-2. Chọn khu vực lưu trữ phù hợp, đặt mật khẩu cơ sở dữ liệu mạnh và lưu ở nơi an toàn.
-3. Không gửi mật khẩu database, secret key hoặc `service_role` key vào GitHub hay cuộc trò chuyện.
-4. Trong Project Settings → API, lấy **Project URL** và **publishable key** (hoặc legacy anon key nếu dự án đang dùng kiểu khóa cũ). Đây là thông tin công khai dành cho trình duyệt; RLS vẫn là lớp bảo vệ bắt buộc.
+Phải chạy migration trước khi tạo tài khoản vì migration cài trigger tự tạo hồ sơ người dùng.
 
-## 2. Tạo cấu trúc dữ liệu và RLS
+## 2. Xác nhận email
+Trong **Authentication → Providers → Email**, kiểm tra thiết lập xác nhận email. Nếu bật, người dùng phải mở email xác nhận trước khi đăng nhập. Khuyến nghị giữ xác nhận email bật khi triển khai chính thức.
 
-1. Mở SQL Editor trong Supabase.
-2. Mở tệp `supabase/migrations/202610300001_initial_lms.sql` trong repository.
-3. Sao chép toàn bộ nội dung, dán vào SQL Editor và chạy.
-4. Kiểm tra các bảng `profiles`, `teacher_classes`, `lesson_progress`, `quiz_attempts`, `quiz_answers` đã được tạo và RLS đang bật.
+## 3. Tạo tài khoản và phân quyền
+- Tạo tài khoản giáo viên trong **Authentication → Users**.
+- Tài khoản mới đăng ký từ website luôn có vai trò học sinh.
+- Quản trị viên dự án dùng SQL Editor để đổi vai trò giáo viên và gán lớp cho giáo viên; đồng thời gán lớp cho học sinh.
+- Không dùng chung một tài khoản cho nhiều học sinh. Không đưa UUID hoặc dữ liệu cá nhân học sinh vào repository công khai.
 
-Migration tạo tài khoản mới với vai trò `student` mặc định. Không có luồng tự đăng ký giáo viên và người dùng không được cấp quyền sửa vai trò hoặc lớp học từ trình duyệt.
+## 4. Đăng nhập và đồng bộ
+1. Mở website qua GitHub Pages hoặc máy chủ web HTTPS.
+2. Chọn **Đăng nhập**, nhập email và mật khẩu.
+3. Học sinh mới chọn **Tạo tài khoản học sinh**.
+4. Xác nhận email nếu dự án yêu cầu, sau đó đăng nhập.
+5. Chọn **Đồng bộ tiến độ** để đồng bộ tiến độ 28 bài giữa thiết bị và Supabase.
 
-## 3. Tạo và phân quyền giáo viên
+Quy tắc hiện tại: đối chiếu theo thời điểm truy cập gần nhất. Bản máy chủ mới hơn sẽ được tải về; bản trên thiết bị mới hơn sẽ được gửi lên. Dữ liệu cục bộ với khóa `tin12.v1` vẫn được giữ lại.
 
-Tạo tài khoản giáo viên trong Supabase Authentication → Users. Sau khi tài khoản được tạo, lấy UUID của tài khoản và chạy SQL trong SQL Editor:
+## 5. Phạm vi hiện tại và giới hạn
+Hiện chỉ đồng bộ trạng thái bài học, 7 mục tiến độ, đánh dấu cần ôn lại và thời điểm truy cập. Người dùng cần bấm đồng bộ thủ công. Lịch sử kiểm tra, từng câu trả lời, dashboard giáo viên, xuất CSV và đồng bộ nền tự động chưa được triển khai.
 
-```sql
-update public.profiles
-set role = 'teacher', display_name = 'Tên giáo viên'
-where id = '<TEACHER_AUTH_USER_UUID>';
+Điểm số và thuật toán chấm hiện nằm ở trình duyệt; dữ liệu điểm do trình duyệt gửi lên không thể chống gian lận ở cấp máy chủ và không được dùng làm điểm chính thức.
 
-insert into public.teacher_classes (teacher_id, class_name)
-values ('<TEACHER_AUTH_USER_UUID>', '12A1');
-```
+## 6. Bảo vệ dữ liệu và kiểm thử
+- RLS giới hạn học sinh vào dữ liệu của chính mình; giáo viên chỉ đọc được học sinh thuộc lớp được phân công.
+- Tài khoản học sinh không được tự thay đổi vai trò hoặc lớp.
+- Trước khi triển khai chính thức, phải kiểm tra bằng ít nhất hai tài khoản học sinh và một tài khoản giáo viên: không đọc chéo dữ liệu, không tự nâng quyền, đồng bộ hai thiết bị, đăng xuất/đăng nhập và tiếp tục học offline.
+- Sao lưu tiến độ bằng **Tiến độ → Sao lưu tiến độ (JSON)** trước khi thử nghiệm. Không xóa dữ liệu trình duyệt hoặc khóa `tin12.v1` khi chưa sao lưu.
 
-Thay các giá trị minh họa bằng UUID và tên lớp thực tế. Chỉ quản trị dự án Supabase mới thực hiện bước phân quyền này.
-
-## 4. Tạo tài khoản học sinh và gán lớp
-
-Tạo từng tài khoản học sinh trong Authentication → Users. Nếu dùng email bí danh nội bộ, cần bảo đảm nhà trường quản lý được danh sách đối chiếu tài khoản với học sinh. Không dùng chung một tài khoản cho nhiều em.
-
-Gán tên hiển thị và lớp cho từng tài khoản bằng SQL Editor:
-
-```sql
-update public.profiles
-set display_name = 'Học sinh thử nghiệm',
-    class_name = '12A1'
-where id = '<STUDENT_AUTH_USER_UUID>';
-```
-
-Không đưa danh sách UUID hoặc dữ liệu cá nhân thật của học sinh vào repository công khai.
-
-## 5. Cấu hình website
-
-Tệp `assets/js/supabase-config.js` hiện chỉ chứa giá trị rỗng. Khi phần tích hợp client được hoàn tất, điền Project URL và publishable/anon key vào tệp này.
-
-- URL dự án: ví dụ `https://your-project.supabase.co`.
-- Publishable/anon key: khóa công khai của dự án.
-- Tuyệt đối không dùng `service_role`, secret key hoặc mật khẩu database trong JavaScript.
-
-Không bật đồng bộ trong bản production trước khi phần tích hợp được kiểm thử. Không commit khóa riêng tư; khóa publishable/anon được thiết kế để xuất hiện ở trình duyệt nhưng chỉ an toàn khi RLS được cấu hình đúng.
-
-## 6. Mô hình dữ liệu và giới hạn tin cậy
-
-- `profiles`: hồ sơ tối thiểu, vai trò và lớp.
-- `teacher_classes`: lớp mà giáo viên được phân công.
-- `lesson_progress`: trạng thái học tập hiện tại theo từng bài.
-- `quiz_attempts`: lịch sử lượt làm bài, chống trùng bằng `(user_id, client_attempt_id)`.
-- `quiz_answers`: câu trả lời theo từng câu, hỗ trợ đáp án JSON cho nhiều dạng câu hỏi.
-
-RLS giới hạn học sinh vào dữ liệu của chính mình; giáo viên chỉ đọc được học sinh thuộc lớp đã được phân công. Người dùng phía trình duyệt không được tự sửa vai trò/lớp, cũng không được cập nhật hoặc xóa lịch sử bài đã nộp.
-
-**Lưu ý quan trọng về điểm số:** trong kiến trúc HTML/JavaScript hiện tại, đáp án và thuật toán chấm điểm nằm ở trình duyệt. Vì vậy dữ liệu điểm do client gửi lên chỉ là kết quả ghi nhận từ ứng dụng, chưa phải điểm thi có thể chống gian lận ở cấp độ máy chủ. Không dùng dữ liệu này làm điểm chính thức. Muốn có điểm đáng tin cậy cần chuyển đáp án/chấm điểm sang RPC hoặc backend tin cậy và rà soát lại mô hình công khai ngân hàng câu hỏi.
-
-## 7. Sao lưu và khôi phục
-
-- Dùng chức năng sao lưu JSON hiện có trước khi thử nghiệm.
-- Sao lưu cơ sở dữ liệu Supabase theo công cụ và chính sách của gói dịch vụ đang sử dụng.
-- Thử khôi phục trên môi trường thử nghiệm trước khi thao tác với dữ liệu thật.
-- Không xóa `localStorage` hoặc khóa `tin12.v1` khi chưa có quy trình di chuyển được kiểm thử.
-
-## 8. Trạng thái triển khai
-
-Migration và tệp cấu hình mẫu là phần chuẩn bị nền tảng. Các chức năng đăng nhập, đồng bộ offline-first, nhập dữ liệu cục bộ, dashboard giáo viên và xuất CSV chưa được coi là hoàn thành chỉ vì các bảng đã được tạo. Chúng phải được tích hợp vào ứng dụng, kiểm thử với dự án Supabase thực tế và kiểm tra RLS bằng ít nhất hai tài khoản học sinh cùng một tài khoản giáo viên.
+Không triển khai cho toàn trường trước khi chạy migration và kiểm thử RLS thực tế.
