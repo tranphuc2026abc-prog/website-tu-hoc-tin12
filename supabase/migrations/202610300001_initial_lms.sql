@@ -144,6 +144,12 @@ create policy profiles_read_self_or_assigned_teacher on public.profiles
 for select to authenticated
 using (id = auth.uid() or public.is_teacher_for_student(id));
 
+drop policy if exists profiles_update_own_display_name on public.profiles;
+create policy profiles_update_own_display_name on public.profiles
+for update to authenticated
+using (id = auth.uid())
+with check (id = auth.uid());
+
 drop policy if exists teacher_classes_read_self on public.teacher_classes;
 create policy teacher_classes_read_self on public.teacher_classes
 for select to authenticated
