@@ -28,3 +28,9 @@
 - Nhánh phát triển: `feature/supabase-lms`.
 
 **Lưu ý:** đây mới là phần nền tảng cơ sở dữ liệu và tài liệu cấu hình. Giao diện đăng nhập, đồng bộ tiến trình, hàng đợi offline, di chuyển dữ liệu `tin12.v1`, trang giáo viên và xuất CSV chưa được tích hợp/kiểm thử. Website hiện tại vẫn tiếp tục dùng cơ chế lưu cục bộ như trước.
+
+## Đăng nhập và đồng bộ Supabase (nhánh thử nghiệm)
+
+Nhánh `feature/supabase-lms` bổ sung cấu hình Supabase, giao diện đăng nhập/tạo tài khoản học sinh và đồng bộ tiến độ 28 bài học thủ công. Trước khi dùng, cần chạy migration trong `supabase/migrations/202610300001_initial_lms.sql` theo hướng dẫn tại `docs/SUPABASE_SETUP.md`.
+
+**Chưa hoàn thành:** đồng bộ lịch sử kiểm tra/câu trả lời, dashboard giáo viên, xuất CSV và kiểm thử RLS trên dự án thực tế. Không dùng điểm từ trình duyệt làm điểm chính thức. Nhánh `main` vẫn giữ phiên bản ổn định trước khi tích hợp Supabase.
