@@ -18,3 +18,13 @@
 1. Sửa các tệp trong `nguon/` (giữ nguyên định dạng hiện có).
 2. Chạy `python scripts/build_data.py nguon`, sau đó `python scripts/build_single.py`.
 3. Đọc phần “Cần rà soát” in ra để biết dữ liệu nào cần giáo viên kiểm tra.
+
+
+## Nâng cấp quản lý tiến trình trực tuyến (đang triển khai)
+
+- Thiết kế cơ sở dữ liệu Supabase và chính sách RLS: `supabase/migrations/202610300001_initial_lms.sql`.
+- Hướng dẫn tạo dự án, phân quyền giáo viên/học sinh và kiểm tra cấu hình: `docs/SUPABASE_SETUP.md`.
+- Tệp cấu hình trình duyệt: `assets/js/supabase-config.js` (đang để trống; chưa kết nối dịch vụ).
+- Nhánh phát triển: `feature/supabase-lms`.
+
+**Lưu ý:** đây mới là phần nền tảng cơ sở dữ liệu và tài liệu cấu hình. Giao diện đăng nhập, đồng bộ tiến trình, hàng đợi offline, di chuyển dữ liệu `tin12.v1`, trang giáo viên và xuất CSV chưa được tích hợp/kiểm thử. Website hiện tại vẫn tiếp tục dùng cơ chế lưu cục bộ như trước.
