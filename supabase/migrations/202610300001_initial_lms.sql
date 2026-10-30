@@ -111,8 +111,13 @@ create trigger on_auth_user_created_profile
 after insert on auth.users
 for each row execute function public.handle_new_auth_user();
 
+-- Keep the RLS helper outside PostgREST-exposed schemas to avoid exposing it as an RPC.
+create schema if not exists private;
+revoke all on schema private from public;
+grant usage on schema private to authenticated;
+
 -- Security-definer helper avoids exposing the teacher roster through broad table policies.
-create or replace function public.is_teacher_for_student(target_student uuid)
+create or replace function private.is_teacher_for_student(target_student uuid)
 returns boolean
 language sql
 stable
@@ -130,8 +135,8 @@ as $$
   );
 $$;
 
-revoke all on function public.is_teacher_for_student(uuid) from public;
-grant execute on function public.is_teacher_for_student(uuid) to authenticated;
+revoke all on function private.is_teacher_for_student(uuid) from public;
+grant execute on function private.is_teacher_for_student(uuid) to authenticated;
 
 alter table public.profiles enable row level security;
 alter table public.teacher_classes enable row level security;
@@ -142,7 +147,7 @@ alter table public.quiz_answers enable row level security;
 drop policy if exists profiles_read_self_or_assigned_teacher on public.profiles;
 create policy profiles_read_self_or_assigned_teacher on public.profiles
 for select to authenticated
-using (id = auth.uid() or public.is_teacher_for_student(id));
+using (id = auth.uid() or private.is_teacher_for_student(id));
 
 drop policy if exists profiles_update_own_display_name on public.profiles;
 create policy profiles_update_own_display_name on public.profiles
@@ -158,7 +163,7 @@ using (teacher_id = auth.uid());
 drop policy if exists lesson_progress_read_owner_or_teacher on public.lesson_progress;
 create policy lesson_progress_read_owner_or_teacher on public.lesson_progress
 for select to authenticated
-using (user_id = auth.uid() or public.is_teacher_for_student(user_id));
+using (user_id = auth.uid() or private.is_teacher_for_student(user_id));
 
 drop policy if exists lesson_progress_insert_owner on public.lesson_progress;
 create policy lesson_progress_insert_owner on public.lesson_progress
@@ -174,7 +179,7 @@ with check (user_id = auth.uid());
 drop policy if exists quiz_attempts_read_owner_or_teacher on public.quiz_attempts;
 create policy quiz_attempts_read_owner_or_teacher on public.quiz_attempts
 for select to authenticated
-using (user_id = auth.uid() or public.is_teacher_for_student(user_id));
+using (user_id = auth.uid() or private.is_teacher_for_student(user_id));
 
 drop policy if exists quiz_attempts_insert_owner on public.quiz_attempts;
 create policy quiz_attempts_insert_owner on public.quiz_attempts
@@ -188,7 +193,7 @@ using (
   exists (
     select 1 from public.quiz_attempts a
     where a.id = attempt_id
-      and (a.user_id = auth.uid() or public.is_teacher_for_student(a.user_id))
+      and (a.user_id = auth.uid() or private.is_teacher_for_student(a.user_id))
   )
 );
 
