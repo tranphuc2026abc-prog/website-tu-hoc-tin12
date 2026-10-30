@@ -113,7 +113,7 @@ async function syncProgress() {
   setBusy(true); message('Đang đọc tiến độ trên máy chủ…');
   try {
     const userId = session.user.id, local = validLocal();
-    const remote = await api('/rest/v1/lesson_progress?select=lesson_id,status,section_progress,completed_at,last_accessed_at,needs_review');
+    const remote = await api('/rest/v1/lesson_progress?user_id=eq.' + encodeURIComponent(userId) + '&select=lesson_id,status,section_progress,completed_at,last_accessed_at,needs_review');
     const byId = new Map((remote || []).map(x => [x.lesson_id, x]));
     const writes = [];
     let downloaded = 0, uploaded = 0;
