@@ -38,7 +38,8 @@ function injectStyles() {
   s.textContent = `.cloud-area{display:inline-flex;align-items:center;margin-left:8px}.cloud-btn{white-space:nowrap}.cloud-modal{position:fixed;inset:0;z-index:9999;background:rgba(10,20,35,.62);display:grid;place-items:center;padding:16px}.cloud-modal[hidden]{display:none}.cloud-panel{position:relative;width:min(100%,480px);max-height:90vh;overflow:auto;background:var(--panel,#fff);color:var(--text,#172033);border-radius:18px;padding:26px;box-shadow:0 18px 60px rgba(0,0,0,.28)}.cloud-panel h2{margin-top:0}.cloud-panel label{display:grid;gap:6px;margin:12px 0;font-weight:600}.cloud-panel input{width:100%;padding:11px;border:1px solid #9aa5b5;border-radius:9px;background:transparent;color:inherit;font:inherit}.cloud-close{position:absolute;right:14px;top:10px;border:0;background:transparent;font-size:28px;cursor:pointer;color:inherit}.cloud-message{min-height:1.5em;margin:14px 0 4px;font-weight:600}.cloud-message.error{color:#b42318}.cloud-note{font-size:.88em}.cloud-panel button:disabled{opacity:.55;cursor:wait}@media(max-width:760px){.cloud-area{margin:8px 0 0}.cloud-btn{font-size:.88rem}.cloud-panel{padding:22px 18px}}`;
   document.head.append(s);
 }
-function render() {\n  injectStyles();
+function render() {
+  injectStyles();
   let host = $('#cloud-area');
   if (!host) {
     const nav = $('#nav');
