@@ -1,10 +1,7 @@
-/*
- * Public browser configuration for Supabase.
- * Replace the empty strings with your project's Project URL and publishable (anon) key.
- * These two values are intended for browser use; never put service_role/secret keys here.
- * Keep this file unconfigured until the database migration and RLS policies are installed.
+/* Public browser configuration. Publishable/anon keys are intended for browser use.
+ * Never place a Supabase secret/service_role key or database password in this file.
  */
 window.TIN12_SUPABASE = Object.freeze({
-  url: "",
-  anonKey: ""
+  url: "https://ggtguqqfbkneawwnbqhh.supabase.co",
+  anonKey: "sb_publishable_WhTgxrVYWxmT6YXFwRLj-A_R637qkou"
 });
