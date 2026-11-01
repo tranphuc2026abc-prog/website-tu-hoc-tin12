@@ -50,17 +50,36 @@ const chip = id => { const s = status(id); return `<span class="chip ${s}">${ST[
 
 /* ---------- các trang ---------- */
 function home() {
-  const n = C.lessons.length, d = C.lessons.filter(l => status(l.id) === 'done').length, g = C.lessons.filter(l => status(l.id) === 'doing').length;
-  const nxt = C.lessons.find(l => status(l.id) !== 'done'), last = S.last && L(S.last);
-  const terms = C.lessons.reduce((a, l) => a + T.L[l.id].terms.length, 0);
-  return `<section class="hero"><h1>TỰ HỌC TIN HỌC 12</h1><p class="sub">Kết nối tri thức với cuộc sống</p>
-<p>Học ${n} bài, ôn tập và luyện tập ngay trên thiết bị của em. Không cần tài khoản, không cần Internet; tiến độ được lưu trên máy này.</p>
-<div class="row">${last ? `<a class="btn pri" href="#/lesson/${last.id}">Tiếp tục: ${esc(last.title)}</a>` : `<a class="btn pri" href="#/lesson/${C.lessons[0].id}">Bắt đầu Bài 1</a>`}
-${nxt && (!last || nxt.id !== last.id) ? `<a class="btn" href="#/lesson/${nxt.id}">Bài đề xuất: ${esc(nxt.title)}</a>` : ''}</div></section>
-<div class="stats"><div><b>${n}</b>bài học</div><div><b>${d}</b>đã hoàn thành</div><div><b>${g}</b>đang học</div><div><b>${n - d - g}</b>chưa học</div><div><b>${QS().length}</b>câu hỏi nguồn</div><div><b>${terms}</b>thuật ngữ</div></div>
-${prog(Math.round(d / n * 100))}<p class="mut">Tiến độ tổng thể: ${Math.round(d / n * 100)}% số bài đã hoàn thành.</p>
-<h2>Bản đồ 28 bài</h2>${C.topics.map((t, i) => `<div class="topic">${esc(t)}</div><div class="map">${C.lessons.filter(l => l.topic === i).map(l => `<a class="cell ${status(l.id)}" href="#/lesson/${l.id}" title="${esc(l.title)} – ${ST[status(l.id)]}">${l.n}</a>`).join('')}</div>`).join('')}
-<div class="row"><a class="btn pri" href="#/review">Ôn tập nhanh</a><a class="btn pri" href="#/practice">Luyện tập và kiểm tra</a><a class="btn" href="#/lessons">Danh mục bài học</a></div>`;
+  const n=C.lessons.length,d=C.lessons.filter(l=>status(l.id)==='done').length,g=C.lessons.filter(l=>status(l.id)==='doing').length;
+  const nxt=C.lessons.find(l=>status(l.id)!=='done'),last=S.last&&L(S.last);
+  const terms=C.lessons.reduce((a,l)=>a+T.L[l.id].terms.length,0),pctAll=Math.round(d/n*100);
+  const continueLink=last?'<a class="btn pri" href="#/lesson/'+last.id+'">▶ Tiếp tục học</a>':'<a class="btn pri" href="#/lesson/'+C.lessons[0].id+'">▶ Bắt đầu học ngay</a>';
+  const nextLink=nxt?'<a class="btn" href="#/lesson/'+nxt.id+'">Bài tiếp theo: '+esc(nxt.title)+'</a>':'';
+  return `<section class="hero">
+    <span class="eyebrow">✦ DIGITAL LEARNING HUB · TIN HỌC 12</span>
+    <h1>Chạm công nghệ.<br>Kiến tạo tương lai.</h1>
+    <p class="sub">Không gian học tập số – Kết nối tri thức với cuộc sống</p>
+    <p>Khám phá 28 bài học, hệ thống kiến thức, luyện tập tương tác và theo dõi hành trình chinh phục Tin học 12 của em.</p>
+    <div class="row">${continueLink}${nextLink}</div>
+  </section>
+  <div class="stats">
+    <div><b>${n}</b>bài học trong chương trình</div><div><b>${d}</b>bài đã hoàn thành</div><div><b>${g}</b>bài đang học</div><div><b>${QS().length}</b>câu hỏi luyện tập</div><div><b>${terms}</b>thuật ngữ cốt lõi</div>
+  </div>
+  <section class="card" style="padding:20px 22px">
+    <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap"><div><h2 style="margin-bottom:3px">🚀 Hành trình học tập</h2><span class="mut">Tiến độ hoàn thành các bài học của em</span></div><strong style="font-size:1.5rem;color:var(--primary)">${pctAll}%</strong></div>
+    <div style="margin-top:13px">${prog(pctAll)}</div>
+    <p class="mut" style="margin:8px 0 0">${d}/${n} bài học đã hoàn thành · ${n-d} bài đang chờ khám phá</p>
+  </section>
+  <h2 style="margin-top:30px">⚡ Trạm học tập</h2>
+  <div class="quick-grid">
+    <a class="quick-card" href="#/lessons"><span class="quick-icon">▦</span><span><b>Kho bài học</b><small>Khám phá 28 bài theo chủ đề</small></span><span class="quick-arrow">↗</span></a>
+    <a class="quick-card" href="#/review"><span class="quick-icon purple">◈</span><span><b>Ôn tập thông minh</b><small>Thẻ ghi nhớ và kiến thức trọng tâm</small></span><span class="quick-arrow">↗</span></a>
+    <a class="quick-card" href="#/practice"><span class="quick-icon cyan">⌘</span><span><b>Phòng luyện tập</b><small>${QS().length} câu hỏi theo từng bài</small></span><span class="quick-arrow">↗</span></a>
+    <a class="quick-card" href="#/progress"><span class="quick-icon green">◴</span><span><b>Hồ sơ tiến độ</b><small>Xem kết quả và sao lưu dữ liệu</small></span><span class="quick-arrow">↗</span></a>
+  </div>
+  <div class="section-head"><div><span class="topic">LEARNING ROADMAP</span><h2>🧭 Bản đồ 28 bài học</h2><p class="mut">Chọn một bài để bắt đầu hoặc tiếp tục hành trình.</p></div><a class="btn sm" href="#/lessons">Xem toàn bộ bài học →</a></div>
+  ${C.topics.map((t,i)=>'<div class="topic">'+esc(t)+'</div><div class="map">'+C.lessons.filter(l=>l.topic===i).map(l=>'<a class="cell '+status(l.id)+'" href="#/lesson/'+l.id+'" title="'+esc(l.title)+' – '+ST[status(l.id)]+'">'+l.n+'</a>').join('')+'</div>').join('')}
+  <section class="bottom-banner"><span class="bottom-code">&lt;learn /&gt;</span><div><b>Mỗi ngày một bước tiến công nghệ</b><p>Học chủ động · Thực hành thường xuyên · Sáng tạo không giới hạn</p></div><a class="btn pri" href="#/practice">Thử thách bản thân →</a></section>`;
 }
 function lessons() {
   return `<h1>Danh mục bài học</h1><div class="row"><input id="lf" type="search" placeholder="Lọc theo tên bài…" aria-label="Lọc bài"><select id="sf" aria-label="Lọc trạng thái"><option value="">Mọi trạng thái</option>${Object.entries(ST).map(([k, v]) => `<option value="${k}">${v}</option>`).join('')}</select></div><div id="ll"></div>`;
