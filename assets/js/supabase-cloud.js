@@ -89,7 +89,7 @@ async function authenticate(kind) {
   const loginId = $('#cloud-email').value.trim(), password = $('#cloud-password').value, name = $('#cloud-name').value.trim();
   if (!loginId || !password) { message('Vui lòng nhập mã học sinh/email và mật khẩu.', true); return; }
   // Giáo viên tiếp tục đăng nhập bằng email; học sinh dùng mã học sinh.
-  const email = loginId.includes('@') ? loginId.toLowerCase() : (/^[A-Za-z0-9][A-Za-z0-9._-]{0,49}$/.test(loginId) ? 'hs-' + loginId.toLowerCase() + '@students.example.com' : '');
+  const email = loginId.includes('@') ? loginId.toLowerCase() : (/^[A-Za-z0-9][A-Za-z0-9_-]{0,49}$/.test(loginId) ? 'hs-' + loginId.toLowerCase() + '@students.example.com' : '');
   if (!email) { message('Mã học sinh không hợp lệ. Chỉ dùng chữ cái, chữ số, dấu chấm, gạch ngang hoặc gạch dưới.', true); return; }
   setBusy(true);
   try {
