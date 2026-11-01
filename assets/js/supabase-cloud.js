@@ -59,8 +59,8 @@ function render() {
       '<div id="cloud-auth"><label>Email<input id="cloud-email" type="email" autocomplete="username" required></label>' +
       '<label>Mật khẩu<input id="cloud-password" type="password" autocomplete="current-password" minlength="6" required></label>' +
       '<label>Họ và tên<input id="cloud-name" type="text" autocomplete="name" maxlength="100" placeholder="Tên hiển thị (khi tạo tài khoản)"></label>' +
-      '<div class="row"><button class="btn pri" id="cloud-login" type="button">Đăng nhập</button>' +
-      '<button class="btn" id="cloud-signup" type="button">Tạo tài khoản học sinh</button></div></div>' +
+      '<div class="row"><button class="btn pri" id="cloud-login" type="button">Đăng nhập</button></div>' +
+      '<p class="mut">Tài khoản học tập do giáo viên cấp. Nếu chưa có tài khoản, em hãy liên hệ giáo viên bộ môn.</p></div>' +
       '<div id="cloud-account" hidden><p id="cloud-profile"></p>' +
       '<div class="row"><button class="btn pri" id="cloud-sync" type="button">Đồng bộ tiến độ</button>' +
       '<button class="btn" id="cloud-logout" type="button">Đăng xuất</button></div>' +
