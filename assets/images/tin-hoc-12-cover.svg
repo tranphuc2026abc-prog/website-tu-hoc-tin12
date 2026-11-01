@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07142f"/><stop offset=".48" stop-color="#123e8a"/><stop offset="1" stop-color="#245ef0"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#4de8ff" stop-opacity=".42"/><stop offset="1" stop-color="#4de8ff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a2fbff"/><stop offset="1" stop-color="#36b8ff"/></linearGradient>
+ <linearGradient id="book" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#b8d8ff"/></linearGradient>
+ <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#b9e9ff" stroke-opacity=".12" stroke-width="1"/></pattern>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1600" height="560" rx="32" fill="url(#bg)"/><rect width="1600" height="560" rx="32" fill="url(#grid)"/>
+<circle cx="1230" cy="235" r="360" fill="url(#glow)"/><circle cx="1280" cy="265" r="205" fill="none" stroke="#8cecff" stroke-opacity=".25" stroke-width="2"/><circle cx="1280" cy="265" r="245" fill="none" stroke="#8cecff" stroke-opacity=".15" stroke-width="2" stroke-dasharray="7 14"/>
+<g opacity=".55" stroke="#75eaff" stroke-width="3" fill="none"><path d="M880 120h130v55h95"/><path d="M900 160h85v80h130"/><path d="M860 300h100v-45h80v-40h70"/><path d="M1020 385h100v-55h85"/><path d="M1360 135h90v65h80"/><path d="M1390 390h90v-55h70"/></g>
+<g fill="#9af3ff"><circle cx="1010" cy="120" r="6"/><circle cx="1105" cy="175" r="6"/><circle cx="1115" cy="240" r="6"/><circle cx="1110" cy="255" r="6"/><circle cx="1205" cy="330" r="6"/><circle cx="1450" cy="135" r="6"/><circle cx="1480" cy="335" r="6"/></g>
+<!-- digital brain / AI profile -->
+<g transform="translate(1165 68)">
+ <path d="M128 35c-46-25-103 4-105 54-30 17-35 61-8 84-10 36 16 65 48 65h94c34 0 57-29 48-61 28-23 21-65-7-82-2-33-29-57-70-60z" fill="#b7f5ff" fill-opacity=".12" stroke="url(#cyan)" stroke-width="4"/>
+ <path d="M91 66c-24 3-35 23-29 43-21 16-15 43 5 51-4 22 10 38 31 38h57c19 0 31-17 25-34 18-15 11-39-7-46 2-28-23-44-43-35-9-18-26-24-39-17z" fill="none" stroke="#83edff" stroke-width="3"/>
+ <g fill="#8af2ff"><circle cx="87" cy="96" r="5"/><circle cx="129" cy="82" r="5"/><circle cx="157" cy="119" r="5"/><circle cx="102" cy="143" r="5"/><circle cx="146" cy="169" r="5"/><circle cx="68" cy="177" r="5"/></g>
+ <g stroke="#8af2ff" stroke-width="2.5"><path d="M87 96l42-14 28 37-55 24 44 26-78 8"/><path d="M87 96l15 47 44 26"/></g>
+</g>
+<!-- open book and glowing knowledge lines -->
+<g transform="translate(1070 380)">
+ <ellipse cx="180" cy="108" rx="210" ry="28" fill="#020b22" opacity=".35" filter="url(#shadow)"/>
+ <path d="M18 22Q90-3 178 32Q264-5 340 20v102Q257 89 178 127Q95 88 18 122z" fill="url(#book)" stroke="#8cecff" stroke-width="4"/>
+ <path d="M178 32v95" stroke="#5a9eea" stroke-width="4"/>
+ <g stroke="#6d9ed8" stroke-width="3" opacity=".8"><path d="M42 43q58-14 111 8"/><path d="M42 63q58-14 111 8"/><path d="M42 83q58-14 111 8"/><path d="M207 51q57-19 108-8"/><path d="M207 72q57-19 108-8"/><path d="M207 93q57-19 108-8"/></g>
+ <path d="M45 14l-18-28m76 32L92-16m171 32 11-31m37 35 22-25" stroke="#ffd878" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- floating code cards -->
+<g transform="translate(910 255) rotate(-7)">
+ <rect width="170" height="104" rx="13" fill="#07162f" fill-opacity=".88" stroke="#7cecff" stroke-opacity=".7" stroke-width="2"/>
+ <circle cx="17" cy="16" r="4" fill="#ff7f9c"/><circle cx="31" cy="16" r="4" fill="#ffd878"/><circle cx="45" cy="16" r="4" fill="#65edc0"/>
+ <g fill="none" stroke-width="4" stroke-linecap="round"><path d="M22 42h45" stroke="#70e9ff"/><path d="M32 58h82" stroke="#a8c5ff"/><path d="M22 75h61" stroke="#8aeece"/><path d="M95 75h42" stroke="#ffd878"/></g>
+</g>
+<g transform="translate(1370 275) rotate(8)">
+ <rect width="142" height="88" rx="12" fill="#07162f" fill-opacity=".8" stroke="#7cecff" stroke-opacity=".6" stroke-width="2"/>
+ <text x="20" y="35" fill="#9ef5ff" font-family="monospace" font-size="23" font-weight="700">&lt;/&gt;</text><path d="M20 53h96M20 67h62" stroke="#83b9ff" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="translate(835 420)"><rect width="150" height="68" rx="12" fill="#ffffff" fill-opacity=".09" stroke="#c0f7ff" stroke-opacity=".25"/><text x="18" y="28" fill="#c6faff" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">LEARN</text><text x="18" y="50" fill="#ffffff" font-family="Arial,sans-serif" font-size="18" font-weight="800">CREATE · GROW</text></g>
+<text x="860" y="90" fill="#d4faff" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="5">DIGITAL LEARNING HUB</text>
+<text x="860" y="120" fill="#ffffff" font-family="Arial,sans-serif" font-size="25" font-weight="800" letter-spacing="2">TIN HỌC 12</text>
+</svg>
