@@ -87,11 +87,11 @@ Deno.serve(async (req: Request) => {
     const class_name = String(row.class_name ?? "").trim();
 
     const validCode = /^[A-Za-z0-9][A-Za-z0-9._-]{0,49}$/.test(student_code);
-    const validDate = /^\\d{4}-\\d{2}-\\d{2}$/.test(birth_date) &&
+    const validDate = /^\d{4}-\d{2}-\d{2}$/.test(birth_date) &&
       Number.isFinite(Date.parse(birth_date)) &&
       new Date(birth_date + "T00:00:00Z").toISOString().slice(0, 10) === birth_date;
     if (!display_name || display_name.length > 100 ||
-        (student_code ? (!validCode || !validDate) : !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) ||
+        (student_code ? (!validCode || !validDate) : !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) ||
         password.length < 8 || password.length > 72 ||
         !class_name || class_name.length > 40) {
       return { success: false, student_code, display_name, birth_date, class_name,
