@@ -7,7 +7,7 @@ const inl = s => { const k = []; s = esc(s).replace(/`([^`]+)`/g, (_, c) => '\0'
 const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').toLowerCase();
 const shuf = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const SECT = { obj: 'Mục tiêu bài học', key: 'Kiến thức trọng tâm', terms: 'Thuật ngữ & Từ khóa cốt lõi', ex: 'Ví dụ & Minh họa minh chứng', steps: 'Quy trình thực hành / Các bước thao tác', err: 'Lỗi thường gặp & Cách khắc phục', rem: 'Nội dung cần ghi nhớ' };
-const KEYS = Object.keys(SECT), KEY = 'tin12.v1';
+const KEYS = Object.keys(SECT), KEY = (() => { try { const u = JSON.parse(localStorage.getItem('tin12.supabase.session') || 'null'); return u && u.user && u.user.id ? 'tin12.v1.user.' + u.user.id : 'tin12.v1'; } catch (_) { return 'tin12.v1'; } })();
 let C, S, mem = false, run = null, rv = { mode: 'lesson', p: '' }, codes = [];
 
 /* ---------- lưu trữ trên thiết bị ---------- */
