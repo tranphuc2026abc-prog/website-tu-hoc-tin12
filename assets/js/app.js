@@ -169,7 +169,7 @@ function finish() {
   app.innerHTML = `<h1>Kết quả</h1><div class="stats"><div><b>${sc === null ? '–' : sc}</b>điểm / 10</div><div><b>${g.length - bad.length}/${g.length}</b>câu đúng hoàn toàn</div><div><b>${run.list.length - g.length}</b>câu tự luận (tự đánh giá)</div></div>
 <div class="row">${bad.length ? '<button class="btn pri" data-act="redo">Làm lại câu sai (' + bad.length + ')</button>' : ''}<button class="btn" data-act="again">Làm lại cả bộ</button><a class="btn" href="#/practice">Về trang luyện tập</a></div>
 <h2>Xem lại</h2>${run.list.map((q, j) => { const r = run.r[q.id], ok = q.type === 'essay' ? r.self : r.pt === 1; return `<div class="card"><b>${j + 1}. ${inl(q.q)}</b><br><span class="${ok ? 'pass' : 'fail'}">${q.type === 'essay' ? (r.self ? 'Tự đánh giá: đã làm được' : 'Tự đánh giá: cần xem lại') : ok ? 'Đúng' : 'Chưa đúng hoàn toàn (' + r.pt + '/1)'}</span>${q.type === 'mcq' ? `<p>Đáp án: ${inl(q.opts.find(x => x.k === q.ans).x)}. ${inl(q.exp)}</p>` : q.type === 'tf' ? '<ul>' + q.sts.map(s => `<li>${s.k}. ${inl(s.x)} → <b>${s.a ? 'Đúng' : 'Sai'}</b>${r.sel && r.sel[s.k] === s.a ? '' : ' <span class="fail">(em chọn khác)</span>'} ${inl(s.e)}</li>`).join('') + '</ul>' : ''}<p class="mut">Ôn lại: ${lnk(q.lesson)}</p></div>`; }).join('')}`;
-  window.scrollTo(0, 0);
+  // Giữ vị trí hiện tại khi chuyển sang màn hình kết quả, tránh tự nhảy lên đầu trang.
 }
 
 /* ---------- ôn tập ---------- */
