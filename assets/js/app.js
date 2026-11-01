@@ -55,8 +55,7 @@ function home() {
   const terms=C.lessons.reduce((a,l)=>a+T.L[l.id].terms.length,0),pctAll=Math.round(d/n*100);
   const continueLink=last?'<a class="btn pri" href="#/lesson/'+last.id+'">▶ Tiếp tục học</a>':'<a class="btn pri" href="#/lesson/'+C.lessons[0].id+'">▶ Bắt đầu học ngay</a>';
   const nextLink=nxt?'<a class="btn" href="#/lesson/'+nxt.id+'">Bài tiếp theo: '+esc(nxt.title)+'</a>':'';
-  return `<img class="home-cover" src="assets/images/file_000000002fe08230af08881e58e80a8e.png" alt="Ảnh bìa Tin học 12 – Trường THCS & THPT Phạm Kiệt">
-  <section class="hero">
+  return `<section class="hero">
     <span class="eyebrow">✦ DIGITAL LEARNING HUB · TIN HỌC 12</span>
     <h1>Chạm công nghệ.<br>Kiến tạo tương lai.</h1>
     <p class="sub">Không gian học tập số – Kết nối tri thức với cuộc sống</p>
