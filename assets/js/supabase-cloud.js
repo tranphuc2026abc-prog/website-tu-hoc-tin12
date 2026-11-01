@@ -7,6 +7,7 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const read = () => { try { return JSON.parse(localStorage.getItem(SESSION) || 'null'); } catch (_) { return null; } };
 let session = read(), profile = null, busy = false, hasInitialSync = false, pushTimer = null;
+const progressKey = () => session && session.user ? 'tin12.v1.user.' + session.user.id : KEY;
 const base = cfg.url.replace(/\/$/, '');
 async function api(path, options = {}, retry = true) {
   const headers = Object.assign({ apikey: cfg.anonKey, 'Content-Type': 'application/json' }, options.headers || {});
@@ -25,7 +26,7 @@ async function api(path, options = {}, retry = true) {
   if (!res.ok) throw new Error((data && (data.msg || data.message || data.error_description || data.error)) || ('Supabase HTTP ' + res.status));
   return data;
 }
-function signOutLocal() { session = null; profile = null; localStorage.removeItem(SESSION); render(); }
+function signOutLocal() { session = null; profile = null; localStorage.removeItem(SESSION); location.reload(); }
 function statusText() {
   if (!session || !session.user) return 'Chưa đăng nhập';
   const name = profile && profile.display_name || session.user.email || 'Tài khoản';
@@ -99,13 +100,14 @@ async function authenticate(kind) {
     }
     session = result; localStorage.setItem(SESSION, JSON.stringify(session));
     await loadProfile();
-    message('Đăng nhập thành công. Đang đồng bộ tiến độ lần đầu…', false);
+    message('Đăng nhập thành công. Đang chuẩn bị không gian học tập riêng…', false);
+    location.reload();
   } catch (e) { message(e.message || 'Không thể kết nối Supabase.', true); }
-  finally { setBusy(false); render(); if (session && profile) setTimeout(() => syncProgress(), 150); }
+  finally { setBusy(false); render(); }
 }
 function validLocal() {
   try {
-    const s = JSON.parse(localStorage.getItem(KEY) || 'null');
+    const s = JSON.parse(localStorage.getItem(progressKey()) || 'null');
     return s && typeof s === 'object' && s.les && typeof s.les === 'object' ? s : { v:1, les:{}, ans:{}, cards:{}, hist:[], last:null, th:null, tfm:0 };
   } catch (_) { return { v:1, les:{}, ans:{}, cards:{}, hist:[], last:null, th:null, tfm:0 }; }
 }
@@ -140,7 +142,7 @@ async function syncProgress() {
         writes.push(toRow(userId, lessonId, l)); uploaded++;
       }
     }
-    localStorage.setItem(KEY, JSON.stringify(local));
+    localStorage.setItem(progressKey(), JSON.stringify(local));
     if (writes.length) {
       await api('/rest/v1/lesson_progress?on_conflict=user_id,lesson_id', {
         method: 'POST',
@@ -149,12 +151,12 @@ async function syncProgress() {
       });
     }
     const attemptWrites = (local.hist || []).map(h => toAttemptRow(userId, h));
-    localStorage.setItem(KEY, JSON.stringify(local));
+    localStorage.setItem(progressKey(), JSON.stringify(local));
     if (attemptWrites.length) await api('/rest/v1/quiz_attempts?on_conflict=user_id,client_attempt_id', {
       method: 'POST', headers: { Prefer: 'resolution=merge-duplicates,return=minimal' }, body: JSON.stringify(attemptWrites)
     });
     hasInitialSync = true;
-    try { sessionStorage.setItem('tin12.initialSyncDone', '1'); } catch (_) {}
+    try { sessionStorage.setItem('tin12.initialSyncDone.' + userId, '1'); } catch (_) {}
     message('Đồng bộ xong: tải về ' + downloaded + ' bài, gửi lên ' + uploaded + ' bài. Trang sẽ tải lại để cập nhật tiến độ.');
     setTimeout(() => location.reload(), 900);
   } catch (e) { message('Đồng bộ chưa thành công: ' + (e.message || 'Lỗi kết nối/RLS.'), true); }
@@ -195,6 +197,6 @@ document.addEventListener('click', async e => {
   else if (t.id === 'cloud-logout') { signOutLocal(); $('#cloud-modal').hidden = true; }
 });
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && $('#cloud-modal')) $('#cloud-modal').hidden = true; });
-if (session && session.user) loadProfile().then(() => { try { hasInitialSync = sessionStorage.getItem('tin12.initialSyncDone') === '1'; } catch (_) {} if (!hasInitialSync) syncProgress(); }).catch(() => { session = null; localStorage.removeItem(SESSION); render(); });
+if (session && session.user) loadProfile().then(() => { try { hasInitialSync = sessionStorage.getItem('tin12.initialSyncDone.' + session.user.id) === '1'; } catch (_) {} if (!hasInitialSync) syncProgress(); }).catch(() => { session = null; localStorage.removeItem(SESSION); render(); });
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render, { once:true }); else render();
 })();
