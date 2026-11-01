@@ -6,7 +6,7 @@ const KEY = 'tin12.v1', SESSION = 'tin12.supabase.session';
 const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const read = () => { try { return JSON.parse(localStorage.getItem(SESSION) || 'null'); } catch (_) { return null; } };
-let session = read(), profile = null, busy = false;
+let session = read(), profile = null, busy = false, hasInitialSync = false, pushTimer = null;
 const base = cfg.url.replace(/\/$/, '');
 async function api(path, options = {}, retry = true) {
   const headers = Object.assign({ apikey: cfg.anonKey, 'Content-Type': 'application/json' }, options.headers || {});
@@ -73,6 +73,7 @@ function render() {
   $('#cloud-account').hidden = !session;
   $('#cloud-profile').textContent = profile ? ('Vai trò: ' + (profile.role === 'teacher' ? 'Giáo viên' : 'Học sinh') + (profile.class_name ? ' · Lớp ' + profile.class_name : '')) : '';
   $('#cloud-message').textContent = '';
+  document.dispatchEvent(new Event('tin12:auth-changed'));
 }
 function message(s, error = false) { const el = $('#cloud-message'); if (el) { el.textContent = s; el.className = 'cloud-message' + (error ? ' error' : ''); } }
 function setBusy(v) { busy = v; ['cloud-login','cloud-signup','cloud-sync','cloud-logout'].forEach(id => { const e = $('#' + id); if (e) e.disabled = v; }); }
@@ -98,9 +99,9 @@ async function authenticate(kind) {
     }
     session = result; localStorage.setItem(SESSION, JSON.stringify(session));
     await loadProfile();
-    message('Đăng nhập thành công. Tiến độ trên thiết bị chưa bị thay đổi.', false);
+    message('Đăng nhập thành công. Đang đồng bộ tiến độ lần đầu…', false);
   } catch (e) { message(e.message || 'Không thể kết nối Supabase.', true); }
-  finally { setBusy(false); render(); }
+  finally { setBusy(false); render(); if (session && profile) setTimeout(() => syncProgress(), 150); }
 }
 function validLocal() {
   try {
@@ -147,6 +148,7 @@ async function syncProgress() {
         body: JSON.stringify(writes)
       });
     }
+    hasInitialSync = true;
     message('Đồng bộ xong: tải về ' + downloaded + ' bài, gửi lên ' + uploaded + ' bài. Trang sẽ tải lại để cập nhật tiến độ.');
     setTimeout(() => location.reload(), 900);
   } catch (e) { message('Đồng bộ chưa thành công: ' + (e.message || 'Lỗi kết nối/RLS.'), true); }
@@ -163,6 +165,15 @@ function toRow(userId, lessonId, l) {
     needs_review: !!l.r
   };
 }
+async function pushProgressOnly() {
+ if (!hasInitialSync || !session || !session.user || busy) return;
+ try { const local=validLocal(),uid=session.user.id,writes=Object.entries(local.les||{}).map(([id,row])=>toRow(uid,id,row));
+ if(writes.length)await api('/rest/v1/lesson_progress?on_conflict=user_id,lesson_id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(writes)});
+ } catch(e){console.warn('Tin12 auto-sync:',e.message||e);}
+}
+window.TIN12_AUTH={api,getSession:()=>session,getProfile:()=>profile};
+document.addEventListener('tin12:progress-changed',()=>{if(!hasInitialSync||!session)return;clearTimeout(pushTimer);pushTimer=setTimeout(pushProgressOnly,1200);});
+
 document.addEventListener('click', async e => {
   const t = e.target;
   if (t.id === 'cloud-open') { $('#cloud-modal').hidden = false; $('#cloud-email').focus(); }
@@ -173,6 +184,6 @@ document.addEventListener('click', async e => {
   else if (t.id === 'cloud-logout') { signOutLocal(); $('#cloud-modal').hidden = true; }
 });
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && $('#cloud-modal')) $('#cloud-modal').hidden = true; });
-if (session && session.user) loadProfile().catch(() => { session = null; localStorage.removeItem(SESSION); render(); });
+if (session && session.user) loadProfile().then(() => syncProgress()).catch(() => { session = null; localStorage.removeItem(SESSION); render(); });
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render, { once:true }); else render();
 })();
