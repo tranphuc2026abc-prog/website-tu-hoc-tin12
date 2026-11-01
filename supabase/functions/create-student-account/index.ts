@@ -86,7 +86,7 @@ Deno.serve(async (req: Request) => {
     const password = String(row.password ?? "");
     const class_name = String(row.class_name ?? "").trim();
 
-    const validCode = /^[A-Za-z0-9][A-Za-z0-9._-]{0,49}$/.test(student_code);
+    const validCode = /^[A-Za-z0-9][A-Za-z0-9_-]{0,49}$/.test(student_code);
     const validDate = /^\d{4}-\d{2}-\d{2}$/.test(birth_date) &&
       Number.isFinite(Date.parse(birth_date)) &&
       new Date(birth_date + "T00:00:00Z").toISOString().slice(0, 10) === birth_date;
