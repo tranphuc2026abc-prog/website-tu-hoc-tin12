@@ -56,7 +56,7 @@ function render() {
     modal.innerHTML = '<section class="cloud-panel" role="dialog" aria-modal="true" aria-labelledby="cloud-title">' +
       '<button type="button" class="cloud-close" id="cloud-close" aria-label="Đóng">×</button>' +
       '<h2 id="cloud-title">Tài khoản học tập</h2><p class="mut" id="cloud-status"></p>' +
-      '<div id="cloud-auth"><label>Email<input id="cloud-email" type="email" autocomplete="username" required></label>' +
+      '<div id="cloud-auth"><label>Mã học sinh (hoặc email giáo viên)<input id="cloud-email" type="text" autocomplete="username" placeholder="Nhập mã học sinh hoặc email" required></label>' +
       '<label>Mật khẩu<input id="cloud-password" type="password" autocomplete="current-password" minlength="6" required></label>' +
       '<label>Họ và tên<input id="cloud-name" type="text" autocomplete="name" maxlength="100" placeholder="Tên hiển thị (khi tạo tài khoản)"></label>' +
       '<div class="row"><button class="btn pri" id="cloud-login" type="button">Đăng nhập</button></div>' +
@@ -80,14 +80,17 @@ function message(s, error = false) { const el = $('#cloud-message'); if (el) { e
 function setBusy(v) { busy = v; ['cloud-login','cloud-signup','cloud-sync','cloud-logout'].forEach(id => { const e = $('#' + id); if (e) e.disabled = v; }); }
 async function loadProfile() {
   if (!session || !session.user) return;
-  const rows = await api('/rest/v1/profiles?id=eq.' + encodeURIComponent(session.user.id) + '&select=id,display_name,role,class_name');
+  const rows = await api('/rest/v1/profiles?id=eq.' + encodeURIComponent(session.user.id) + '&select=id,display_name,role,class_name,student_code,birth_date');
   profile = Array.isArray(rows) ? rows[0] || null : null;
   render();
 }
 async function authenticate(kind) {
   if (busy) return;
-  const email = $('#cloud-email').value.trim(), password = $('#cloud-password').value, name = $('#cloud-name').value.trim();
-  if (!email || !password) { message('Vui lòng nhập email và mật khẩu.', true); return; }
+  const loginId = $('#cloud-email').value.trim(), password = $('#cloud-password').value, name = $('#cloud-name').value.trim();
+  if (!loginId || !password) { message('Vui lòng nhập mã học sinh/email và mật khẩu.', true); return; }
+  // Giáo viên tiếp tục đăng nhập bằng email; học sinh dùng mã học sinh.
+  const email = loginId.includes('@') ? loginId.toLowerCase() : (/^[A-Za-z0-9][A-Za-z0-9._-]{0,49}$/.test(loginId) ? 'hs-' + loginId.toLowerCase() + '@students.example.com' : '');
+  if (!email) { message('Mã học sinh không hợp lệ. Chỉ dùng chữ cái, chữ số, dấu chấm, gạch ngang hoặc gạch dưới.', true); return; }
   setBusy(true);
   try {
     const isSignup = kind === 'signup';
