@@ -77,46 +77,77 @@ Deno.serve(async (req: Request) => {
 
   async function createOne(row: Record<string, unknown>) {
     const display_name = String(row.display_name ?? "").trim();
-    const email = String(row.email ?? "").trim().toLowerCase();
+    const student_code = String(row.student_code ?? "").trim();
+    const birth_date = String(row.birth_date ?? "").trim();
+    const legacyEmail = String(row.email ?? "").trim().toLowerCase();
+    const email = student_code
+      ? "hs-" + student_code.toLowerCase() + "@students.example.com"
+      : legacyEmail;
     const password = String(row.password ?? "");
     const class_name = String(row.class_name ?? "").trim();
 
+    const validCode = /^[A-Za-z0-9][A-Za-z0-9._-]{0,49}$/.test(student_code);
+    const validDate = /^\\d{4}-\\d{2}-\\d{2}$/.test(birth_date) &&
+      Number.isFinite(Date.parse(birth_date)) &&
+      new Date(birth_date + "T00:00:00Z").toISOString().slice(0, 10) === birth_date;
     if (!display_name || display_name.length > 100 ||
-        !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ||
+        (student_code ? (!validCode || !validDate) : !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) ||
         password.length < 8 || password.length > 72 ||
         !class_name || class_name.length > 40) {
-      return { success: false, display_name, email, class_name, error: "Dữ liệu không hợp lệ (họ tên, email, lớp hoặc mật khẩu 8–72 ký tự)." };
+      return { success: false, student_code, display_name, birth_date, class_name,
+        error: "Dữ liệu không hợp lệ (mã học sinh, họ tên, ngày sinh, lớp hoặc mật khẩu 8–72 ký tự)." };
     }
     if (!assigned.has(class_name)) {
-      return { success: false, display_name, email, class_name, error: "Lớp chưa được phân công cho giáo viên." };
+      return { success: false, student_code, display_name, birth_date, class_name, error: "Lớp chưa được phân công cho giáo viên." };
     }
-    if (seen.has(email)) {
-      return { success: false, display_name, email, class_name, error: "Email bị trùng trong file tải lên." };
+
+    const duplicateKey = student_code ? "code:" + student_code.toLowerCase() : "email:" + email;
+    if (seen.has(duplicateKey)) {
+      return { success: false, student_code, display_name, birth_date, class_name, error: "Mã học sinh/email bị trùng trong file tải lên." };
     }
-    seen.add(email);
+    seen.add(duplicateKey);
+
+    if (student_code) {
+      const duplicateResponse = await fetch(
+        url + "/rest/v1/profiles?student_code=eq." + encodeURIComponent(student_code) + "&select=id",
+        { headers: adminHeaders }
+      );
+      const duplicateRows = await duplicateResponse.json();
+      if (!duplicateResponse.ok) {
+        return { success: false, student_code, display_name, birth_date, class_name, error: "Không kiểm tra được mã học sinh trong cơ sở dữ liệu." };
+      }
+      if (Array.isArray(duplicateRows) && duplicateRows.length) {
+        return { success: false, student_code, display_name, birth_date, class_name, error: "Mã học sinh đã được cấp tài khoản." };
+      }
+    }
 
     const createResponse = await fetch(url + "/auth/v1/admin/users", {
       method: "POST",
       headers: adminHeaders,
       body: JSON.stringify({
         email, password, email_confirm: true,
-        user_metadata: { display_name }
+        user_metadata: { display_name, ...(student_code ? { student_code } : {}) }
       })
     });
     const user = await createResponse.json();
     if (!createResponse.ok) {
       return {
-        success: false, display_name, email, class_name,
-        error: user?.msg || user?.message || user?.code || "Email đã tồn tại hoặc không thể tạo tài khoản."
+        success: false, student_code, display_name, birth_date, class_name,
+        error: user?.msg || user?.message || user?.code || "Mã học sinh/email đã tồn tại hoặc không thể tạo tài khoản."
       };
     }
 
+    const profilePayload: Record<string, unknown> = { display_name, role: "student", class_name };
+    if (student_code) {
+      profilePayload.student_code = student_code;
+      profilePayload.birth_date = birth_date;
+    }
     const profileResponse = await fetch(
       url + "/rest/v1/profiles?id=eq." + encodeURIComponent(user.id) + "&select=id",
       {
         method: "PATCH",
         headers: { ...adminHeaders, Prefer: "return=representation" },
-        body: JSON.stringify({ display_name, role: "student", class_name })
+        body: JSON.stringify(profilePayload)
       }
     );
     const updated = await profileResponse.json();
@@ -125,12 +156,15 @@ Deno.serve(async (req: Request) => {
         method: "DELETE", headers: adminHeaders
       });
       return {
-        success: false, display_name, email, class_name,
+        success: false, student_code, display_name, birth_date, class_name,
         error: "Không gán được hồ sơ/lớp; tài khoản vừa tạo đã được hoàn tác."
       };
     }
 
-    return { success: true, user_id: user.id, display_name, email, class_name, password };
+    return {
+      success: true, user_id: user.id, student_code, display_name, birth_date, class_name, password,
+      ...(student_code ? {} : { email })
+    };
   }
 
   if (!bulk) {
@@ -145,7 +179,9 @@ Deno.serve(async (req: Request) => {
       results.push({
         success: false,
         display_name: String(row.display_name ?? ""),
-        email: String(row.email ?? ""),
+        student_code: String(row.student_code ?? ""),
+        display_name: String(row.display_name ?? ""),
+        birth_date: String(row.birth_date ?? ""),
         class_name: String(row.class_name ?? ""),
         error: error instanceof Error ? error.message : "Lỗi máy chủ khi tạo tài khoản."
       });
