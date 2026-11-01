@@ -30,8 +30,9 @@ values ('<TEACHER_AUTH_USER_UUID>', '12A1')
 on conflict (teacher_id, class_name) do nothing;
 ```
 3. Đăng nhập website bằng tài khoản giáo viên. Nút **Lớp học** sẽ xuất hiện; giáo viên có thể cấp tài khoản học sinh cho các lớp đã được phân công.
-4. Giáo viên nhập họ tên, email, lớp và mật khẩu tạm thời. Hệ thống tạo Auth user, tự gán role `student` và lớp; tài khoản được xác nhận email để học sinh đăng nhập ngay.
-5. Gửi email/mật khẩu cho từng học sinh qua kênh riêng. Không gửi mật khẩu trong nhóm lớp công khai.
+4. Giáo viên nhập mã học sinh, họ tên, ngày sinh, lớp và mật khẩu tạm thời. Hệ thống tạo Auth user, tự gán role `student` và lớp; học sinh đăng nhập bằng mã học sinh.
+5. Sau khi tạo từng tài khoản, bấm **Tải thông tin tài khoản CSV** để lưu mã đăng nhập và mật khẩu tạm thời. Với cấp hàng loạt, tải file kết quả CSV ở màn hình hoàn tất.
+6. Gửi tên đăng nhập/mật khẩu cho từng học sinh qua kênh riêng. Không gửi mật khẩu trong nhóm lớp công khai.
 6. Khuyến nghị tắt public sign-ups trong Authentication settings để học sinh chỉ dùng tài khoản do giáo viên cấp.
 
 Không dùng chung một tài khoản cho nhiều học sinh. Không đưa UUID hoặc dữ liệu cá nhân học sinh vào repository công khai.
@@ -93,3 +94,13 @@ Lưu ý: Tài khoản được tạo qua Edge Function phía máy chủ; khóa b
 - Hệ thống dùng một địa chỉ email kỹ thuật nội bộ để tương thích Supabase Auth; học sinh không cần có email thật và hệ thống không gửi thư đến địa chỉ này.
 - Mật khẩu được sinh ngẫu nhiên, không dùng ngày sinh. Giáo viên tải file kết quả và gửi thông tin riêng cho từng học sinh.
 - Không tự động chuyển đổi hoặc xóa các tài khoản học sinh đã cấp trước đây bằng email.
+
+
+## Xuất tài khoản và đặt lại mật khẩu học sinh
+
+- Khi cấp tài khoản từng học sinh, màn hình thành công có nút **Tải thông tin tài khoản CSV**. Khi cấp hàng loạt, tải file kết quả CSV như trước.
+- Mật khẩu chỉ được xuất ngay tại thời điểm tạo hoặc đặt lại. Supabase không thể khôi phục mật khẩu cũ từ cơ sở dữ liệu.
+- Trong danh sách học sinh của lớp, giáo viên bấm **Đặt lại mật khẩu** tại đúng học sinh, xác nhận thao tác, sau đó tải file CSV chứa tên đăng nhập và mật khẩu mới.
+- Chỉ giáo viên được phân công lớp đó mới có thể đặt lại mật khẩu học sinh. Mật khẩu mới được sinh ngẫu nhiên; mật khẩu cũ không còn sử dụng được.
+- Với tài khoản cũ đăng nhập bằng email, file đặt lại sẽ ghi email làm tên đăng nhập. Với tài khoản mới, tên đăng nhập là mã học sinh.
+- Gửi file/mật khẩu riêng cho học sinh và xóa các bản tải tạm khỏi máy tính dùng chung sau khi bàn giao.
