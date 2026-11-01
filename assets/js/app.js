@@ -133,6 +133,8 @@ function record(q, r) {
   save();
 }
 function show() {
+  // Ghi nhớ vị trí cuộn trước khi dựng lại câu hỏi để không làm người học bị đưa về đầu trang.
+  const scrollTop = window.scrollY;
   const q = run.list[run.i], r = run.r[q.id] || (run.r[q.id] = {}), n = run.list.length, fin = !!r.done;
   const fbk = (ok, t) => `<div class="fb ${ok ? 'ok' : 'no'}"><b>${ok ? 'Chính xác.' : 'Chưa đúng.'}</b> ${t}</div>`;
   let b = '';
@@ -155,7 +157,8 @@ ${fin ? `<p class="mut">Đã ghi nhận: ${r.self ? 'đã làm được' : 'cầ
   app.innerHTML = `<p class="mut">${esc(run.title)} · ${run.ex ? 'Kiểm tra' : 'Luyện tập'} · ${esc(q.type === 'essay' ? q.kind : q.type === 'mcq' ? 'Trắc nghiệm' : 'Đúng/Sai')} · ${lnk(q.lesson)}</p>${prog(Math.round(run.i / n * 100))}
 <h2>Câu ${run.i + 1}/${n}</h2><div class="card"><p><b>${inl(q.q)}</b></p>${b}${q.st === 'review' ? `<p class="mut">Lưu ý: ${esc(q.nt)}</p>` : ''}</div>
 <div class="row"><button class="btn" data-act="prev" ${run.i ? '' : 'disabled'}>← Câu trước</button>${last ? `<button class="btn pri" data-act="end">${run.ex ? 'Nộp bài' : 'Xem kết quả'}</button>` : '<button class="btn pri" data-act="next">Câu sau →</button>'}</div>`;
-  if (fin && !run.ex || q.type === 'essay') window.scrollTo(0, 0);
+  // app.innerHTML thay thế nút vừa được nhấn; khôi phục vị trí cuộn sau khi cập nhật DOM.
+  window.scrollTo(0, scrollTop);
 }
 function finish() {
   const g = run.list.filter(gradable);
