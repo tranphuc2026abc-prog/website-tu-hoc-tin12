@@ -122,12 +122,12 @@ select,input[type=number]{font:inherit;padding:9px 11px;border:1px solid var(--b
 @media(max-width:560px){.quick-grid{grid-template-columns:1fr 1fr;gap:8px}.quick-card{padding:12px 10px;gap:8px}.quick-icon{width:35px;height:35px;flex-basis:35px;font-size:1.05rem}.quick-card b{font-size:.82rem}.quick-card small{font-size:.68rem}.quick-arrow{display:none}.section-head{align-items:start}.bottom-banner{padding:17px}.bottom-banner .btn{width:100%}}
 
 
-/* Banner ảnh bìa chính thức của Trường THCS & THPT Phạm Kiệt */
-.home-cover{
+/* Banner toàn chiều ngang ở đầu trang, phía trên menu học tập */
+.site-cover{width:100%;margin:0;padding:0;line-height:0;background:#061b4c;overflow:hidden}
+.site-cover .home-cover{
  display:block;width:100%;height:auto;aspect-ratio:3/1;object-fit:contain;
- margin:4px 0 22px;border-radius:20px;
- background:#061b4c;box-shadow:0 18px 42px rgba(26,62,153,.18);
+ margin:0;border-radius:0;background:#061b4c;box-shadow:none;
 }
 @media(max-width:640px){
- .home-cover{aspect-ratio:3/1;border-radius:12px;margin-bottom:16px}
+ .site-cover .home-cover{aspect-ratio:3/1;object-fit:contain}
 }
