@@ -66,3 +66,19 @@ Bản máy chủ mới hơn được tải về; bản trên thiết bị mới 
 - Sao lưu tiến độ bằng **Tiến độ → Sao lưu tiến độ (JSON)** trước khi thử nghiệm. Không xóa dữ liệu trình duyệt hoặc khóa `tin12.v1` khi chưa sao lưu.
 
 Chưa triển khai diện rộng trước khi hoàn tất kiểm thử RLS thực tế với tài khoản thử nghiệm.
+
+## Tạo tài khoản học sinh hàng loạt
+
+Giáo viên đăng nhập bằng tài khoản có quyền `teacher`, mở **Lớp học → Tải danh sách lên**.
+
+1. Tải file mẫu CSV trong cửa sổ quản lý lớp.
+2. Mở bằng Excel, nhập các cột:
+   - `HoTen`: họ và tên học sinh (bắt buộc).
+   - `Email`: email dùng để đăng nhập (bắt buộc, không trùng).
+   - `Lop`: lớp được phân công cho giáo viên; có thể bỏ trống để dùng lớp đang chọn.
+   - `MatKhau`: tùy chọn; để trống thì hệ thống tự sinh mật khẩu tạm thời.
+3. Trong Excel, lưu lại theo định dạng **CSV UTF-8** rồi tải lên.
+4. Hệ thống kiểm tra dữ liệu và email trùng trong file trước khi cho phép tạo tài khoản. Mỗi lần tối đa 100 học sinh.
+5. Sau khi tạo, tải file kết quả CSV để nhận danh sách tài khoản, mật khẩu tạm thời và trạng thái từng dòng.
+
+Lưu ý: Tài khoản được tạo qua Edge Function phía máy chủ; khóa bí mật không được gửi xuống trình duyệt. Chỉ giáo viên đã được phân công lớp mới có thể tạo tài khoản cho lớp đó. File kết quả có mật khẩu tạm thời nên cần lưu trữ và gửi riêng, không chia sẻ công khai.
