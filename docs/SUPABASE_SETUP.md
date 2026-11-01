@@ -82,3 +82,14 @@ Giáo viên đăng nhập bằng tài khoản có quyền `teacher`, mở **Lớ
 5. Sau khi tạo, tải file kết quả CSV để nhận danh sách tài khoản, mật khẩu tạm thời và trạng thái từng dòng.
 
 Lưu ý: Tài khoản được tạo qua Edge Function phía máy chủ; khóa bí mật không được gửi xuống trình duyệt. Chỉ giáo viên đã được phân công lớp mới có thể tạo tài khoản cho lớp đó. File kết quả có mật khẩu tạm thời nên cần lưu trữ và gửi riêng, không chia sẻ công khai.
+
+
+## Đăng nhập học sinh bằng mã học sinh
+
+- Giáo viên tải mẫu CSV trong mục **Lớp học → Cấp tài khoản → Tải danh sách học sinh lên**.
+- Các cột bắt buộc: `MaHocSinh`, `HoTen`, `NgaySinh`; cột `Lop` có thể để trống để dùng lớp đang chọn.
+- Ngày sinh chấp nhận `YYYY-MM-DD` hoặc định dạng ngày Việt Nam `DD/MM/YYYY` trong CSV. Mã học sinh chỉ gồm chữ cái, chữ số, dấu gạch ngang hoặc gạch dưới.
+- Học sinh đăng nhập bằng **mã học sinh + mật khẩu tạm thời**. Giáo viên tiếp tục đăng nhập bằng email như trước.
+- Hệ thống dùng một địa chỉ email kỹ thuật nội bộ để tương thích Supabase Auth; học sinh không cần có email thật và hệ thống không gửi thư đến địa chỉ này.
+- Mật khẩu được sinh ngẫu nhiên, không dùng ngày sinh. Giáo viên tải file kết quả và gửi thông tin riêng cho từng học sinh.
+- Không tự động chuyển đổi hoặc xóa các tài khoản học sinh đã cấp trước đây bằng email.
