@@ -20,7 +20,7 @@ function loadS() {
   if (!Array.isArray(S.hist)) S.hist = [];
   if (mem) $('#warn').hidden = false;
 }
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { mem = true; $('#warn').hidden = false; } };
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { mem = true; $('#warn').hidden = false; } try { window.dispatchEvent(new Event('tin12:progress-changed')); } catch (_) {} };
 
 /* ---------- tiện ích dữ liệu ---------- */
 const L = id => C.lessons.find(l => l.id === id);
