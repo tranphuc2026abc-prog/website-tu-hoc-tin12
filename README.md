@@ -27,7 +27,7 @@
 - Tệp cấu hình trình duyệt: `assets/js/supabase-config.js` (đang để trống; chưa kết nối dịch vụ).
 - Nhánh phát triển: `feature/supabase-lms`.
 
-**Lưu ý:** đây mới là phần nền tảng cơ sở dữ liệu và tài liệu cấu hình. Giao diện đăng nhập, đồng bộ tiến trình, hàng đợi offline, di chuyển dữ liệu `tin12.v1`, trang giáo viên và xuất CSV chưa được tích hợp/kiểm thử. Website hiện tại vẫn tiếp tục dùng cơ chế lưu cục bộ như trước.
+**Lưu ý:** nhánh `feature/student-accounts-teacher-dashboard` đang triển khai giao diện đăng nhập, vùng lưu riêng theo tài khoản, đồng bộ tiến độ tự động, dashboard giáo viên, cấp tài khoản học sinh và xuất CSV. Cần kiểm thử end-to-end bằng tài khoản giáo viên/học sinh trước khi hợp nhất vào `main`.
 
 ## Đăng nhập và đồng bộ Supabase (nhánh thử nghiệm)
 
