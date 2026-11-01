@@ -17,7 +17,7 @@
     4:['⇄','PROTOCOL','Tìm hiểu quy tắc giúp các thiết bị trao đổi dữ liệu'],
     5:['↗','SHARE','Thực hành chia sẻ tài nguyên trong môi trường mạng'],
     6:['◎','DIGITAL CITIZEN','Giao tiếp văn minh, an toàn và có trách nhiệm trên không gian mạng'],
-    7:['</>','HTML','Khám phá cấu trúc nền tảng của một trang web'],
+    7:['&lt;/&gt;','HTML','Khám phá cấu trúc nền tảng của một trang web'],
     8:['T','TYPOGRAPHY','Định dạng văn bản để nội dung web rõ ràng, dễ đọc'],
     9:['☷','STRUCTURE','Tổ chức thông tin bằng danh sách và bảng'],
     10:['↗','HYPERLINK','Kết nối các trang và tài nguyên bằng siêu liên kết'],
