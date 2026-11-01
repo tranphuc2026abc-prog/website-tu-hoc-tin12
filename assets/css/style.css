@@ -125,9 +125,9 @@ select,input[type=number]{font:inherit;padding:9px 11px;border:1px solid var(--b
 /* Banner toàn chiều ngang ở đầu trang, phía trên menu học tập */
 .site-cover{width:100%;margin:0;padding:0;line-height:0;background:#061b4c;overflow:hidden}
 .site-cover .home-cover{
- display:block;width:100%;height:clamp(112px,14vw,190px);aspect-ratio:auto;object-fit:contain;
+ display:block;width:100%;height:clamp(120px,16vw,210px);aspect-ratio:auto;object-fit:cover;object-position:center;
  margin:0;border-radius:0;background:#061b4c;box-shadow:none;
 }
 @media(max-width:640px){
- .site-cover .home-cover{height:112px;object-fit:contain}
+ .site-cover .home-cover{height:120px;object-fit:cover;object-position:center}
 }
