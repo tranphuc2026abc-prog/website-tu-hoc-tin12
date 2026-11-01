@@ -1,0 +1,202 @@
+(() => {
+'use strict';
+const cfg = window.TIN12_SUPABASE;
+if (!cfg || !cfg.url || !cfg.anonKey) return;
+const KEY = 'tin12.v1', SESSION = 'tin12.supabase.session';
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const read = () => { try { return JSON.parse(localStorage.getItem(SESSION) || 'null'); } catch (_) { return null; } };
+let session = read(), profile = null, busy = false, hasInitialSync = false, pushTimer = null;
+const progressKey = () => session && session.user ? 'tin12.v1.user.' + session.user.id : KEY;
+const base = cfg.url.replace(/\/$/, '');
+async function api(path, options = {}, retry = true) {
+  const headers = Object.assign({ apikey: cfg.anonKey, 'Content-Type': 'application/json' }, options.headers || {});
+  if (session && session.access_token) headers.Authorization = 'Bearer ' + session.access_token;
+  const res = await fetch(base + path, Object.assign({}, options, { headers }));
+  if (res.status === 401 && retry && session && session.refresh_token) {
+    const rr = await fetch(base + '/auth/v1/token?grant_type=refresh_token', {
+      method: 'POST', headers: { apikey: cfg.anonKey, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refresh_token: session.refresh_token })
+    });
+    if (rr.ok) { session = await rr.json(); localStorage.setItem(SESSION, JSON.stringify(session)); return api(path, options, false); }
+    signOutLocal();
+  }
+  const body = await res.text();
+  let data = null; try { data = body ? JSON.parse(body) : null; } catch (_) { data = body; }
+  if (!res.ok) throw new Error((data && (data.msg || data.message || data.error_description || data.error)) || ('Supabase HTTP ' + res.status));
+  return data;
+}
+function signOutLocal() { session = null; profile = null; localStorage.removeItem(SESSION); location.reload(); }
+function statusText() {
+  if (!session || !session.user) return 'Chưa đăng nhập';
+  const name = profile && profile.display_name || session.user.email || 'Tài khoản';
+  return name + (profile && profile.role === 'teacher' ? ' · Giáo viên' : ' · Học sinh');
+}
+
+function injectStyles() {
+  if ($('#cloud-style')) return;
+  const s = document.createElement('style'); s.id = 'cloud-style';
+  s.textContent = `.cloud-area{display:inline-flex;align-items:center;margin-left:8px}.cloud-btn{white-space:nowrap}.cloud-modal{position:fixed;inset:0;z-index:9999;background:rgba(10,20,35,.62);display:grid;place-items:center;padding:16px}.cloud-modal[hidden]{display:none}.cloud-panel{position:relative;width:min(100%,480px);max-height:90vh;overflow:auto;background:var(--panel,#fff);color:var(--text,#172033);border-radius:18px;padding:26px;box-shadow:0 18px 60px rgba(0,0,0,.28)}.cloud-panel h2{margin-top:0}.cloud-panel label{display:grid;gap:6px;margin:12px 0;font-weight:600}.cloud-panel input{width:100%;padding:11px;border:1px solid #9aa5b5;border-radius:9px;background:transparent;color:inherit;font:inherit}.cloud-close{position:absolute;right:14px;top:10px;border:0;background:transparent;font-size:28px;cursor:pointer;color:inherit}.cloud-message{min-height:1.5em;margin:14px 0 4px;font-weight:600}.cloud-message.error{color:#b42318}.cloud-note{font-size:.88em}.cloud-panel button:disabled{opacity:.55;cursor:wait}@media(max-width:760px){.cloud-area{margin:8px 0 0}.cloud-btn{font-size:.88rem}.cloud-panel{padding:22px 18px}}`;
+  document.head.append(s);
+}
+function render() {
+  injectStyles();
+  let host = $('#cloud-area');
+  if (!host) {
+    const nav = $('#nav');
+    if (!nav) return;
+    host = document.createElement('div'); host.id = 'cloud-area'; host.className = 'cloud-area';
+    nav.after(host);
+  }
+  host.innerHTML = '<button class="btn cloud-btn" id="cloud-open" type="button">' +
+    (session ? '☁ ' + esc(statusText()) : 'Đăng nhập') + '</button>';
+  let modal = $('#cloud-modal');
+  if (!modal) {
+    modal = document.createElement('div'); modal.id = 'cloud-modal'; modal.className = 'cloud-modal'; modal.hidden = true;
+    modal.innerHTML = '<section class="cloud-panel" role="dialog" aria-modal="true" aria-labelledby="cloud-title">' +
+      '<button type="button" class="cloud-close" id="cloud-close" aria-label="Đóng">×</button>' +
+      '<h2 id="cloud-title">Tài khoản học tập</h2><p class="mut" id="cloud-status"></p>' +
+      '<div id="cloud-auth"><label>Email<input id="cloud-email" type="email" autocomplete="username" required></label>' +
+      '<label>Mật khẩu<input id="cloud-password" type="password" autocomplete="current-password" minlength="6" required></label>' +
+      '<label>Họ và tên<input id="cloud-name" type="text" autocomplete="name" maxlength="100" placeholder="Tên hiển thị (khi tạo tài khoản)"></label>' +
+      '<div class="row"><button class="btn pri" id="cloud-login" type="button">Đăng nhập</button></div>' +
+      '<p class="mut">Tài khoản học tập do giáo viên cấp. Nếu chưa có tài khoản, em hãy liên hệ giáo viên bộ môn.</p></div>' +
+      '<div id="cloud-account" hidden><p id="cloud-profile"></p>' +
+      '<div class="row"><button class="btn pri" id="cloud-sync" type="button">Đồng bộ tiến độ</button>' +
+      '<button class="btn" id="cloud-logout" type="button">Đăng xuất</button></div>' +
+      '<p class="mut">Đồng bộ hiện áp dụng cho tiến độ 28 bài học. Lịch sử câu trả lời và báo cáo giáo viên chưa được đồng bộ ở phiên bản này.</p></div>' +
+      '<p id="cloud-message" class="cloud-message" role="status" aria-live="polite"></p>' +
+      '<p class="mut cloud-note">Dữ liệu cục bộ vẫn được giữ trên thiết bị. Không xóa dữ liệu trình duyệt sau khi đăng nhập.</p></section>';
+    document.body.append(modal);
+  }
+  $('#cloud-status').textContent = statusText();
+  $('#cloud-auth').hidden = !!session;
+  $('#cloud-account').hidden = !session;
+  $('#cloud-profile').textContent = profile ? ('Vai trò: ' + (profile.role === 'teacher' ? 'Giáo viên' : 'Học sinh') + (profile.class_name ? ' · Lớp ' + profile.class_name : '')) : '';
+  $('#cloud-message').textContent = '';
+  document.dispatchEvent(new Event('tin12:auth-changed'));
+}
+function message(s, error = false) { const el = $('#cloud-message'); if (el) { el.textContent = s; el.className = 'cloud-message' + (error ? ' error' : ''); } }
+function setBusy(v) { busy = v; ['cloud-login','cloud-signup','cloud-sync','cloud-logout'].forEach(id => { const e = $('#' + id); if (e) e.disabled = v; }); }
+async function loadProfile() {
+  if (!session || !session.user) return;
+  const rows = await api('/rest/v1/profiles?id=eq.' + encodeURIComponent(session.user.id) + '&select=id,display_name,role,class_name');
+  profile = Array.isArray(rows) ? rows[0] || null : null;
+  render();
+}
+async function authenticate(kind) {
+  if (busy) return;
+  const email = $('#cloud-email').value.trim(), password = $('#cloud-password').value, name = $('#cloud-name').value.trim();
+  if (!email || !password) { message('Vui lòng nhập email và mật khẩu.', true); return; }
+  setBusy(true);
+  try {
+    const isSignup = kind === 'signup';
+    const result = await api(isSignup ? '/auth/v1/signup' : '/auth/v1/token?grant_type=password', {
+      method: 'POST', body: JSON.stringify(isSignup ? { email, password, data: { display_name: name } } : { email, password })
+    }, false);
+    if (!result || !result.access_token) {
+      message('Tài khoản đã được gửi yêu cầu tạo. Nếu dự án bật xác nhận email, hãy mở email xác nhận rồi đăng nhập.', false);
+      return;
+    }
+    session = result; localStorage.setItem(SESSION, JSON.stringify(session));
+    await loadProfile();
+    message('Đăng nhập thành công. Đang chuẩn bị không gian học tập riêng…', false);
+    location.reload();
+  } catch (e) { message(e.message || 'Không thể kết nối Supabase.', true); }
+  finally { setBusy(false); render(); }
+}
+function validLocal() {
+  try {
+    const s = JSON.parse(localStorage.getItem(progressKey()) || 'null');
+    return s && typeof s === 'object' && s.les && typeof s.les === 'object' ? s : { v:1, les:{}, ans:{}, cards:{}, hist:[], last:null, th:null, tfm:0 };
+  } catch (_) { return { v:1, les:{}, ans:{}, cards:{}, hist:[], last:null, th:null, tfm:0 }; }
+}
+function dateMs(v) { const n = v ? Date.parse(v) : 0; return Number.isFinite(n) ? n : 0; }
+async function syncProgress() {
+  if (!session || !session.user || busy) return;
+  setBusy(true); message('Đang đọc tiến độ trên máy chủ…');
+  try {
+    const userId = session.user.id, local = validLocal();
+    const remote = await api('/rest/v1/lesson_progress?user_id=eq.' + encodeURIComponent(userId) + '&select=lesson_id,status,section_progress,completed_at,last_accessed_at,needs_review');
+    const byId = new Map((remote || []).map(x => [x.lesson_id, x]));
+    const writes = [];
+    let downloaded = 0, uploaded = 0;
+    for (const [lessonId, row] of byId.entries()) {
+      const l = local.les[lessonId] || { s:[0,0,0,0,0,0,0] };
+      const localTime = Number(l.o) || 0, remoteTime = dateMs(row.last_accessed_at || row.updated_at);
+      if (!local.les[lessonId] || remoteTime > localTime) {
+        const sections = Array.isArray(row.section_progress) ? row.section_progress : [];
+        local.les[lessonId] = {
+          s: Array.from({length:7}, (_,i) => sections[i] ? 1 : 0),
+          d: row.status === 'done' ? 1 : 0,
+          r: row.needs_review ? 1 : 0,
+          o: remoteTime || Date.now()
+        };
+        downloaded++;
+      } else {
+        writes.push(toRow(userId, lessonId, l)); uploaded++;
+      }
+    }
+    for (const [lessonId, l] of Object.entries(local.les)) {
+      if (!byId.has(lessonId) && (l.d || l.r || (Array.isArray(l.s) && l.s.some(Boolean)) || l.o)) {
+        writes.push(toRow(userId, lessonId, l)); uploaded++;
+      }
+    }
+    localStorage.setItem(progressKey(), JSON.stringify(local));
+    if (writes.length) {
+      await api('/rest/v1/lesson_progress?on_conflict=user_id,lesson_id', {
+        method: 'POST',
+        headers: { Prefer: 'resolution=merge-duplicates,return=minimal' },
+        body: JSON.stringify(writes)
+      });
+    }
+    const attemptWrites = (local.hist || []).map(h => toAttemptRow(userId, h));
+    localStorage.setItem(progressKey(), JSON.stringify(local));
+    if (attemptWrites.length) await api('/rest/v1/quiz_attempts?on_conflict=user_id,client_attempt_id', {
+      method: 'POST', headers: { Prefer: 'resolution=merge-duplicates,return=minimal' }, body: JSON.stringify(attemptWrites)
+    });
+    hasInitialSync = true;
+    try { sessionStorage.setItem('tin12.initialSyncDone.' + userId, '1'); } catch (_) {}
+    message('Đồng bộ xong: tải về ' + downloaded + ' bài, gửi lên ' + uploaded + ' bài. Trang sẽ tải lại để cập nhật tiến độ.');
+    setTimeout(() => location.reload(), 900);
+  } catch (e) { message('Đồng bộ chưa thành công: ' + (e.message || 'Lỗi kết nối/RLS.'), true); }
+  finally { setBusy(false); }
+}
+function toAttemptRow(userId, h) {
+  if (!h.cloud_id) h.cloud_id = crypto.randomUUID();
+  const completed = new Date(Number(h.t) || Date.now()).toISOString();
+  return { user_id: userId, client_attempt_id: h.cloud_id, attempt_type: 'exam', scope: String(h.title || ''), question_count: Number(h.n) || 0, correct_count: (Number(h.sc) || 0) / 10 * (Number(h.n) || 0), score: Number(h.sc), completed_at: completed };
+}
+function toRow(userId, lessonId, l) {
+  const touched = Number(l.o) || Date.now();
+  return {
+    user_id: userId, lesson_id: lessonId,
+    status: l.d ? 'done' : ((l.s || []).some(Boolean) ? 'doing' : 'todo'),
+    section_progress: Array.from({length:7}, (_,i) => !!(l.s || [])[i]),
+    completed_at: l.d ? new Date(touched).toISOString() : null,
+    last_accessed_at: new Date(touched).toISOString(),
+    needs_review: !!l.r
+  };
+}
+async function pushProgressOnly() {
+ if (!hasInitialSync || !session || !session.user || busy) return;
+ try { const local=validLocal(),uid=session.user.id,writes=Object.entries(local.les||{}).map(([id,row])=>toRow(uid,id,row));
+ if(writes.length)await api('/rest/v1/lesson_progress?on_conflict=user_id,lesson_id',{method:'POST',headers:{Prefer:'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(writes)});
+ } catch(e){console.warn('Tin12 auto-sync:',e.message||e);}
+}
+window.TIN12_AUTH={api,getSession:()=>session,getProfile:()=>profile};
+document.addEventListener('tin12:progress-changed',()=>{if(!hasInitialSync||!session)return;clearTimeout(pushTimer);pushTimer=setTimeout(pushProgressOnly,1200);});
+
+document.addEventListener('click', async e => {
+  const t = e.target;
+  if (t.id === 'cloud-open') { $('#cloud-modal').hidden = false; $('#cloud-email').focus(); }
+  else if (t.id === 'cloud-close' || t.id === 'cloud-modal') { $('#cloud-modal').hidden = true; }
+  else if (t.id === 'cloud-login') await authenticate('login');
+  else if (t.id === 'cloud-signup') await authenticate('signup');
+  else if (t.id === 'cloud-sync') await syncProgress();
+  else if (t.id === 'cloud-logout') { signOutLocal(); $('#cloud-modal').hidden = true; }
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && $('#cloud-modal')) $('#cloud-modal').hidden = true; });
+if (session && session.user) loadProfile().then(() => { try { hasInitialSync = sessionStorage.getItem('tin12.initialSyncDone.' + session.user.id) === '1'; } catch (_) {} if (!hasInitialSync) syncProgress(); }).catch(() => { session = null; localStorage.removeItem(SESSION); render(); });
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render, { once:true }); else render();
+})();
