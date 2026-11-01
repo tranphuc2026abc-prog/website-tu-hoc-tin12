@@ -148,11 +148,22 @@ async function syncProgress() {
         body: JSON.stringify(writes)
       });
     }
+    const attemptWrites = (local.hist || []).map(h => toAttemptRow(userId, h));
+    localStorage.setItem(KEY, JSON.stringify(local));
+    if (attemptWrites.length) await api('/rest/v1/quiz_attempts?on_conflict=user_id,client_attempt_id', {
+      method: 'POST', headers: { Prefer: 'resolution=merge-duplicates,return=minimal' }, body: JSON.stringify(attemptWrites)
+    });
     hasInitialSync = true;
+    try { sessionStorage.setItem('tin12.initialSyncDone', '1'); } catch (_) {}
     message('Đồng bộ xong: tải về ' + downloaded + ' bài, gửi lên ' + uploaded + ' bài. Trang sẽ tải lại để cập nhật tiến độ.');
     setTimeout(() => location.reload(), 900);
   } catch (e) { message('Đồng bộ chưa thành công: ' + (e.message || 'Lỗi kết nối/RLS.'), true); }
   finally { setBusy(false); }
+}
+function toAttemptRow(userId, h) {
+  if (!h.cloud_id) h.cloud_id = crypto.randomUUID();
+  const completed = new Date(Number(h.t) || Date.now()).toISOString();
+  return { user_id: userId, client_attempt_id: h.cloud_id, attempt_type: 'exam', scope: String(h.title || ''), question_count: Number(h.n) || 0, correct_count: (Number(h.sc) || 0) / 10 * (Number(h.n) || 0), score: Number(h.sc), completed_at: completed };
 }
 function toRow(userId, lessonId, l) {
   const touched = Number(l.o) || Date.now();
@@ -184,6 +195,6 @@ document.addEventListener('click', async e => {
   else if (t.id === 'cloud-logout') { signOutLocal(); $('#cloud-modal').hidden = true; }
 });
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && $('#cloud-modal')) $('#cloud-modal').hidden = true; });
-if (session && session.user) loadProfile().then(() => syncProgress()).catch(() => { session = null; localStorage.removeItem(SESSION); render(); });
+if (session && session.user) loadProfile().then(() => { try { hasInitialSync = sessionStorage.getItem('tin12.initialSyncDone') === '1'; } catch (_) {} if (!hasInitialSync) syncProgress(); }).catch(() => { session = null; localStorage.removeItem(SESSION); render(); });
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render, { once:true }); else render();
 })();
