@@ -104,13 +104,19 @@ Deno.serve(async (req: Request) => {
     if (!updateResponse.ok) {
       return reply({ error: updatedUser?.msg || updatedUser?.message || "Không thể cập nhật mật khẩu." }, 400);
     }
+    const authUserResponse = await fetch(
+      url + "/auth/v1/admin/users/" + encodeURIComponent(userId),
+      { headers: adminHeaders }
+    );
+    const authUser = authUserResponse.ok ? await authUserResponse.json() : null;
     return reply({
       success: true,
       student: {
         id: student.id,
         display_name: student.display_name,
         student_code: student.student_code,
-        class_name: student.class_name
+        class_name: student.class_name,
+        login_identifier: student.student_code || authUser?.email || ""
       }
     });
   }
