@@ -73,6 +73,48 @@ Deno.serve(async (req: Request) => {
     return reply({ error: "Không thể kiểm tra danh sách lớp được phân công." }, 500);
   }
   const assigned = new Set(assignedRows.map((x: { class_name: string }) => x.class_name));
+
+  // A teacher may reset a student's password only when that student belongs
+  // to one of the teacher's assigned classes. Never return or read old passwords.
+  if (body.action === "reset_password") {
+    const userId = String(body.user_id ?? "").trim();
+    const newPassword = String(body.password ?? "");
+    if (!/^[0-9a-f-]{36}$/i.test(userId) || newPassword.length < 12 || newPassword.length > 72) {
+      return reply({ error: "Thông tin đặt lại mật khẩu không hợp lệ." }, 400);
+    }
+    const studentResponse = await fetch(
+      url + "/rest/v1/profiles?id=eq." + encodeURIComponent(userId) + "&select=id,display_name,student_code,class_name,role",
+      { headers: adminHeaders }
+    );
+    const studentRows = await studentResponse.json();
+    if (!studentResponse.ok) return reply({ error: "Không kiểm tra được hồ sơ học sinh." }, 500);
+    const student = Array.isArray(studentRows) ? studentRows[0] : null;
+    if (!student || student.role !== "student" || !assigned.has(student.class_name)) {
+      return reply({ error: "Không tìm thấy học sinh thuộc lớp được phân công cho thầy/cô." }, 403);
+    }
+    const updateResponse = await fetch(
+      url + "/auth/v1/admin/users/" + encodeURIComponent(userId),
+      {
+        method: "PUT",
+        headers: adminHeaders,
+        body: JSON.stringify({ password: newPassword })
+      }
+    );
+    const updatedUser = await updateResponse.json();
+    if (!updateResponse.ok) {
+      return reply({ error: updatedUser?.msg || updatedUser?.message || "Không thể cập nhật mật khẩu." }, 400);
+    }
+    return reply({
+      success: true,
+      student: {
+        id: student.id,
+        display_name: student.display_name,
+        student_code: student.student_code,
+        class_name: student.class_name
+      }
+    });
+  }
+
   const seen = new Set<string>();
 
   async function createOne(row: Record<string, unknown>) {
@@ -178,7 +220,6 @@ Deno.serve(async (req: Request) => {
     catch (error) {
       results.push({
         success: false,
-        display_name: String(row.display_name ?? ""),
         student_code: String(row.student_code ?? ""),
         display_name: String(row.display_name ?? ""),
         birth_date: String(row.birth_date ?? ""),
