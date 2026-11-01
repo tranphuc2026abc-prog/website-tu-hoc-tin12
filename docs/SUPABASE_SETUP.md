@@ -29,7 +29,7 @@ insert into public.teacher_classes (teacher_id, class_name)
 values ('<TEACHER_AUTH_USER_UUID>', '12A1')
 on conflict (teacher_id, class_name) do nothing;
 ```
-3. Đăng nhập website bằng tài khoản giáo viên. Nút **Lớp học** sẽ xuất hiện; giáo viên có thể cấp tài khoản học sinh cho các lớp đã được phân công.
+3. Đăng nhập website bằng email giáo viên. Nút **Lớp học** sẽ xuất hiện; giáo viên có thể cấp tài khoản học sinh cho các lớp đã được phân công.
 4. Giáo viên nhập mã học sinh, họ tên, ngày sinh, lớp và mật khẩu tạm thời. Hệ thống tạo Auth user, tự gán role `student` và lớp; học sinh đăng nhập bằng mã học sinh.
 5. Sau khi tạo từng tài khoản, bấm **Tải thông tin tài khoản CSV** để lưu mã đăng nhập và mật khẩu tạm thời. Với cấp hàng loạt, tải file kết quả CSV ở màn hình hoàn tất.
 6. Gửi tên đăng nhập/mật khẩu cho từng học sinh qua kênh riêng. Không gửi mật khẩu trong nhóm lớp công khai.
@@ -47,7 +47,7 @@ values ('<TEACHER_AUTH_USER_UUID>', '12A1');
 
 ## 5. Đăng nhập và đồng bộ
 1. Mở website qua GitHub Pages hoặc máy chủ web HTTPS.
-2. Chọn **Đăng nhập**, nhập email và mật khẩu được giáo viên cấp.
+2. Chọn **Đăng nhập**; học sinh nhập mã học sinh và mật khẩu, giáo viên nhập email và mật khẩu.
 3. Sau lần đăng nhập đầu tiên, website tự đối chiếu tiến độ cục bộ và máy chủ theo thời điểm truy cập gần nhất.
 4. Sau khi đồng bộ lần đầu, các thay đổi tiến độ được tự động gửi lên máy chủ khi có Internet.
 5. Mỗi tài khoản có vùng lưu tiến độ cục bộ riêng (`tin12.v1.user.<user_id>`); dữ liệu chưa đăng nhập cũ (`tin12.v1`) được giữ riêng, không tự gộp vào tài khoản học sinh khác.
@@ -73,11 +73,7 @@ Chưa triển khai diện rộng trước khi hoàn tất kiểm thử RLS thự
 Giáo viên đăng nhập bằng tài khoản có quyền `teacher`, mở **Lớp học → Tải danh sách lên**.
 
 1. Tải file mẫu CSV trong cửa sổ quản lý lớp.
-2. Mở bằng Excel, nhập các cột:
-   - `HoTen`: họ và tên học sinh (bắt buộc).
-   - `Email`: email dùng để đăng nhập (bắt buộc, không trùng).
-   - `Lop`: lớp được phân công cho giáo viên; có thể bỏ trống để dùng lớp đang chọn.
-   - `MatKhau`: tùy chọn; để trống thì hệ thống tự sinh mật khẩu tạm thời.
+2. Mở bằng Excel, nhập các cột `MaHocSinh`, `HoTen`, `NgaySinh`, `Lop`. Mã học sinh, họ tên và ngày sinh là bắt buộc; lớp có thể bỏ trống để dùng lớp đang chọn. Không cần thu thập email. Mật khẩu được sinh ngẫu nhiên.
 3. Trong Excel, lưu lại theo định dạng **CSV UTF-8** rồi tải lên.
 4. Hệ thống kiểm tra dữ liệu và email trùng trong file trước khi cho phép tạo tài khoản. Mỗi lần tối đa 100 học sinh.
 5. Sau khi tạo, tải file kết quả CSV để nhận danh sách tài khoản, mật khẩu tạm thời và trạng thái từng dòng.
