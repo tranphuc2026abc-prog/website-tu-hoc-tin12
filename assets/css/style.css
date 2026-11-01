@@ -36,7 +36,7 @@ code{font:.9em "Cascadia Code",Consolas,monospace;background:var(--surface-2);co
 #th{min-width:42px;padding:8px 11px}
 .wrap{max-width:1240px;margin:auto;padding:32px 22px 76px;min-height:70vh}
 .warn{background:var(--gold);color:#18213a;padding:9px 14px;text-align:center;font-weight:650}
-.btn{font:650 .9rem/1.2 inherit;padding:11px 16px;border:1px solid var(--bd);background:var(--surface);color:var(--tx);border-radius:12px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .18s,border-color .18s,box-shadow .18s}
+ .btn{font:inherit;font-size:.9rem;font-weight:650;line-height:1.2;padding:11px 16px;border:1px solid var(--bd);background:var(--surface);color:var(--tx);border-radius:12px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .18s,border-color .18s,box-shadow .18s}
 .btn:hover{border-color:var(--primary);color:var(--primary);transform:translateY(-1px);box-shadow:var(--shadow-sm)}
 .btn.pri{background:linear-gradient(135deg,var(--primary),var(--violet));border-color:transparent;color:#fff;box-shadow:0 8px 20px rgba(49,92,245,.22)}
 [data-th=dark] .btn.pri{color:#fff}.btn.pri:hover{color:#fff;box-shadow:0 10px 25px rgba(49,92,245,.32)}
