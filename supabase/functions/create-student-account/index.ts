@@ -5,7 +5,12 @@ Deno.serve(async(req:Request)=>{
  if(req.method==="OPTIONS")return new Response("ok",{headers:cors});
  if(req.method!=="POST")return reply({error:"Method not allowed"},405);
  const m=(req.headers.get("Authorization")||"").match(/^Bearer\s+(.+)$/i);if(!m)return reply({error:"Bạn cần đăng nhập."},401);
- const url=Deno.env.get("SUPABASE_URL"),key=Deno.env.get("SUPABASE_SERVICE_ROLE_KEY"),anon=Deno.env.get("SUPABASE_ANON_KEY")||key;
+ const url=Deno.env.get("SUPABASE_URL");
+ let secretKey=Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")||"";
+ let publishableKey=Deno.env.get("SUPABASE_ANON_KEY")||"";
+ try { const secrets=JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS")||"{}"); secretKey=secretKey||secrets.default||Object.values(secrets)[0]||""; } catch (_) {}
+ try { const pubs=JSON.parse(Deno.env.get("SUPABASE_PUBLISHABLE_KEYS")||"{}"); publishableKey=publishableKey||pubs.default||Object.values(pubs)[0]||""; } catch (_) {}
+ const key=secretKey,anon=publishableKey||key;
  if(!url||!key||!anon)return reply({error:"Máy chủ chưa được cấu hình."},500);
  const token=m[1],who=await fetch(url+"/auth/v1/user",{headers:{apikey:anon,Authorization:"Bearer "+token}});
  if(!who.ok)return reply({error:"Phiên đăng nhập không hợp lệ."},401);
