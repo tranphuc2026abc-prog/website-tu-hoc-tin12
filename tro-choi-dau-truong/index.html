@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07152f">
+<title>Đấu trường Tin học 12</title>
+<style>
+:root{--bg:#07152f;--panel:#102447;--panel2:#142d55;--cyan:#48d9f5;--gold:#ffd166;--text:#f4f8ff;--muted:#a9bad4;--green:#42d392;--red:#ff6b78}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 15% 10%,#153b68 0,transparent 34%),radial-gradient(circle at 90% 90%,#18345c 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif}
+.wrap{max-width:1180px;margin:auto;padding:26px 22px 40px}.top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:24px}.brand{display:flex;align-items:center;gap:13px}.logo{width:48px;height:48px;border-radius:15px;background:linear-gradient(135deg,var(--cyan),#5875ff);display:grid;place-items:center;color:#07152f;font-size:25px;font-weight:900;box-shadow:0 8px 30px #48d9f544}.eyebrow{font-size:12px;letter-spacing:2px;color:var(--cyan);font-weight:800}.brand h1{font-size:clamp(20px,3vw,30px);margin:3px 0 0}.tag{border:1px solid #ffffff25;border-radius:999px;padding:9px 14px;color:var(--muted);font-size:13px}
+.scoreboard{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch;margin-bottom:20px}.team{background:linear-gradient(145deg,#14345e,#0e2141);border:1px solid #ffffff1c;border-radius:18px;padding:16px 18px;display:flex;justify-content:space-between;align-items:center;gap:10px}.team.active{border-color:var(--cyan);box-shadow:0 0 0 2px #48d9f522,0 12px 35px #0003}.team-name{font-weight:800;font-size:17px}.team small{display:block;color:var(--muted);font-size:12px;margin-top:4px}.score{font-size:clamp(28px,4vw,40px);font-weight:900;color:var(--gold);font-variant-numeric:tabular-nums}.vs{align-self:center;color:var(--muted);font-weight:900;letter-spacing:2px}
+.main{background:linear-gradient(145deg,#102648ee,#0b1c38ee);border:1px solid #ffffff20;border-radius:24px;padding:clamp(20px,4vw,38px);box-shadow:0 24px 70px #0005}.meta{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:13px;margin-bottom:18px}.progress{height:7px;background:#ffffff16;border-radius:99px;overflow:hidden;margin-bottom:26px}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--cyan),#7d8cff);transition:width .35s}
+.question{font-size:clamp(22px,3.5vw,34px);line-height:1.3;font-weight:800;max-width:900px;margin:0 auto 28px;text-align:center}.answers{display:grid;grid-template-columns:1fr 1fr;gap:13px}.answer{border:1px solid #ffffff24;background:#142d50;color:var(--text);border-radius:15px;padding:18px;text-align:left;display:flex;align-items:center;gap:14px;font-size:clamp(15px,2vw,18px);font-weight:650;cursor:pointer;min-height:76px;transition:.18s}.answer:hover:not(:disabled){transform:translateY(-2px);border-color:var(--cyan);background:#1b3b66}.key{width:34px;height:34px;flex:none;border-radius:10px;background:#ffffff15;display:grid;place-items:center;color:var(--cyan);font-weight:900}.answer.correct{border-color:var(--green);background:#123e3a}.answer.wrong{border-color:var(--red);background:#492638}.answer:disabled{cursor:default;opacity:1}
+.feedback{margin-top:20px;padding:16px 18px;border-radius:14px;background:#ffffff0d;border:1px solid #ffffff18;display:none;line-height:1.55}.feedback.show{display:block}.feedback strong{color:var(--green)}.feedback.bad strong{color:var(--red)}
+.controls{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:22px}.team-pick{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.team-pick span{font-size:13px;color:var(--muted);margin-right:3px}.btn{border:0;border-radius:12px;padding:12px 17px;font-weight:800;cursor:pointer;color:#07152f;background:var(--cyan);transition:.18s}.btn:hover{filter:brightness(1.08);transform:translateY(-1px)}.btn.secondary{color:var(--text);background:#ffffff17;border:1px solid #ffffff25}.btn.gold{background:var(--gold)}.btn:disabled{opacity:.35;cursor:not-allowed;transform:none}
+.note{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}.finish{display:none;text-align:center;padding:26px 10px}.finish.show{display:block}.finish h2{font-size:clamp(28px,5vw,44px);margin:10px 0;color:var(--gold)}.winner{font-size:22px;font-weight:800;margin:18px 0}
+@media(max-width:680px){.wrap{padding:18px 13px}.scoreboard{gap:7px}.team{padding:12px}.team-name{font-size:14px}.team small{font-size:10px}.answers{grid-template-columns:1fr}.top{align-items:flex-start}.tag{display:none}.main{padding:20px 15px}.controls{align-items:stretch}.controls>.btn{flex:1}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+ <div class="brand"><div class="logo">⌘</div><div><div class="eyebrow">PHÒNG THÍ NGHIỆM SỐ • TIN HỌC 12</div><h1>ĐẤU TRƯỜNG TIN HỌC</h1></div></div>
+ <div class="tag">BÀI 7 · HTML VÀ CẤU TRÚC TRANG WEB</div>
+</header>
+<section class="scoreboard">
+ <div class="team active" id="teamA"><div><div class="team-name">🔵 ĐỘI PIXEL</div><small>Đội A · Chọn để giao lượt</small></div><div class="score" id="scoreA">0</div></div>
+ <div class="vs">VS</div>
+ <div class="team" id="teamB"><div><div class="team-name">🟣 ĐỘI BYTE</div><small>Đội B · Chọn để giao lượt</small></div><div class="score" id="scoreB">0</div></div>
+</section>
+<main class="main">
+ <div id="game">
+  <div class="meta"><span id="counter">CÂU 1 / 10</span><span id="turn">LƯỢT: ĐỘI PIXEL</span></div>
+  <div class="progress"><div class="bar" id="bar"></div></div>
+  <h2 class="question" id="question">Đang tải câu hỏi…</h2>
+  <div class="answers" id="answers"></div>
+  <div class="feedback" id="feedback" aria-live="polite"></div>
+  <div class="controls">
+   <div class="team-pick"><span>Giao lượt:</span><button class="btn secondary" id="pickA" type="button">🔵 Đội Pixel</button><button class="btn secondary" id="pickB" type="button">🟣 Đội Byte</button></div>
+   <button class="btn gold" id="next" type="button" disabled>Câu tiếp theo →</button>
+  </div>
+ </div>
+ <div class="finish" id="finish"><div style="font-size:52px">🏆</div><h2>TRẬN ĐẤU KẾT THÚC!</h2><div class="winner" id="winner"></div><p id="finalScores" style="color:var(--muted)"></p><button class="btn" id="restart" type="button">Chơi lại từ đầu ↻</button></div>
+</main>
+<p class="note">Dùng máy tính giáo viên và máy chiếu · Không cần học sinh có điện thoại · Phím 1–4 để chọn đáp án, Enter để sang câu tiếp theo.</p>
+</div>
+<script>
+const questions = [
+ {q:"HTML là viết tắt của cụm từ nào?",a:["HyperText Markup Language","HighText Machine Language","Hyper Transfer Main Link","Home Tool Markup Language"],c:0,e:"HTML là ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung trang web."},
+ {q:"Thẻ nào khai báo loại tài liệu HTML5?",a:["<html>","<!DOCTYPE html>","<head>","<body>"],c:1,e:"<!DOCTYPE html> giúp trình duyệt hiểu tài liệu sử dụng chuẩn HTML5."},
+ {q:"Phần tử nào chứa nội dung hiển thị chính của trang web?",a:["<head>","<title>","<body>","<meta>"],c:2,e:"Nội dung hiển thị trên trang thường được đặt bên trong phần tử <body>."},
+ {q:"Thẻ nào tạo tiêu đề lớn nhất theo mặc định?",a:["<h6>","<heading>","<head>","<h1>"],c:3,e:"<h1> là cấp tiêu đề cao nhất trong nhóm thẻ tiêu đề từ h1 đến h6."},
+ {q:"Thuộc tính nào dùng để chỉ đường dẫn của ảnh trong thẻ <img>?",a:["href","src","alt","link"],c:1,e:"src (source) xác định địa chỉ hoặc đường dẫn đến tệp hình ảnh."},
+ {q:"Thẻ nào tạo siêu liên kết?",a:["<a>","<linkto>","<p>","<url>"],c:0,e:"Thẻ <a> tạo liên kết; thuộc tính href xác định địa chỉ đích."},
+ {q:"Trong cấu trúc HTML, phần <head> thường chứa nội dung nào?",a:["Toàn bộ bài viết hiển thị","Các đoạn văn bản chính","Thông tin mô tả, tiêu đề và liên kết tài nguyên","Chỉ hình ảnh"],c:2,e:"<head> chứa metadata, tiêu đề trang, liên kết CSS và các tài nguyên liên quan."},
+ {q:"Thẻ nào phù hợp để tạo một đoạn văn bản?",a:["<text>","<p>","<paragraph>","<divp>"],c:1,e:"<p> (paragraph) dùng để đánh dấu một đoạn văn."},
+ {q:"Phát biểu nào đúng về thẻ HTML?",a:["Mọi thẻ đều bắt buộc có thuộc tính","Tên thẻ phân biệt chữ hoa và chữ thường trong HTML","Thẻ thường gồm thẻ mở, nội dung và thẻ đóng; một số thẻ là thẻ rỗng","HTML chỉ dùng để định dạng màu sắc"],c:2,e:"Nhiều phần tử có thẻ mở và thẻ đóng; một số phần tử rỗng như img, br, meta."},
+ {q:"Muốn trình duyệt hiển thị chữ trên tab của trang web, ta đặt nội dung trong thẻ nào?",a:["<h1>","<caption>","<header>","<title>"],c:3,e:"Nội dung của <title> thường xuất hiện trên tab trình duyệt và trong kết quả tìm kiếm."}
+];
+let order=[], index=0, scores=[0,0], active=0, locked=false;
+const $=id=>document.getElementById(id);
+function shuffle(arr){return [...arr].sort(()=>Math.random()-.5)}
+function setTeam(n){active=n;$("teamA").classList.toggle("active",n===0);$("teamB").classList.toggle("active",n===1);$("turn").textContent="LƯỢT: "+(n===0?"ĐỘI PIXEL":"ĐỘI BYTE")}
+function render(){
+ if(index>=order.length){finish();return}
+ locked=false;const q=order[index];$("counter").textContent="CÂU "+(index+1)+" / "+order.length;$("bar").style.width=(index/order.length*100)+"%";$("question").textContent=q.q;$("feedback").className="feedback";$("feedback").innerHTML="";$("next").disabled=true;
+ const box=$("answers");box.innerHTML="";
+ q.a.forEach((v,i)=>{const b=document.createElement("button");b.className="answer";b.type="button";b.innerHTML='<span class="key">'+(i+1)+'</span><span></span>';b.querySelector("span:last-child").textContent=v;b.addEventListener("click",()=>answer(i));box.appendChild(b)});
+ setTeam(active);
+}
+function answer(choice){
+ if(locked)return;locked=true;const q=order[index], buttons=[...$("answers").children], correct=choice===q.c;
+ buttons.forEach((b,i)=>{b.disabled=true;if(i===q.c)b.classList.add("correct");else if(i===choice)b.classList.add("wrong")});
+ if(correct){scores[active]+=10;$("feedback").className="feedback show";$("feedback").innerHTML='<strong>CHÍNH XÁC! +10 ĐIỂM</strong><br>'+q.e}
+ else{$("feedback").className="feedback show bad";$("feedback").innerHTML='<strong>CHƯA CHÍNH XÁC!</strong><br>Đáp án đúng: <b>'+(q.c+1)+'. '+q.a[q.c]+'</b><br>'+q.e}
+ $("scoreA").textContent=scores[0];$("scoreB").textContent=scores[1];$("next").disabled=false;
+}
+function finish(){
+ $("game").style.display="none";$("finish").classList.add("show");$("bar").style.width="100%";
+ const result=scores[0]===scores[1]?"Hai đội hòa nhau!":scores[0]>scores[1]?"🔵 ĐỘI PIXEL chiến thắng!":"🟣 ĐỘI BYTE chiến thắng!";
+ $("winner").textContent=result;$("finalScores").textContent="PIXEL: "+scores[0]+" điểm · BYTE: "+scores[1]+" điểm";
+}
+function restart(){order=shuffle(questions);index=0;scores=[0,0];active=0;$("scoreA").textContent="0";$("scoreB").textContent="0";$("game").style.display="block";$("finish").classList.remove("show");render()}
+$("pickA").addEventListener("click",()=>setTeam(0));$("pickB").addEventListener("click",()=>setTeam(1));
+$("teamA").addEventListener("click",()=>setTeam(0));$("teamB").addEventListener("click",()=>setTeam(1));
+$("next").addEventListener("click",()=>{index++;active=1-active;render()});$("restart").addEventListener("click",restart);
+document.addEventListener("keydown",e=>{if(["1","2","3","4"].includes(e.key)&&!locked){answer(Number(e.key)-1)}if(e.key==="Enter"&&!$("next").disabled&&$("game").style.display!=="none"){$("next").click()}});
+restart();
+</script>
+</body>
+</html>
