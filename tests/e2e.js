@@ -38,7 +38,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   console.log('== Dung/Sai cham diem'); await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '9'); await p.uncheck('#sh'); await p.uncheck('.ty[value=mcq]'); await p.uncheck('.ty[value=essay]'); await p.click('[data-act=start]'); await p.waitForSelector('[data-act=tf]');
   await p.click('[data-act=tf][data-k=a][data-v=false]'); await p.click('[data-act=tf][data-k=b][data-v=false]'); await p.click('[data-act=tf][data-k=c][data-v=true]'); await p.click('[data-act=tf][data-k=d][data-v=true]'); await p.click('[data-act=tfok]'); ok((await p.textContent('.card')).includes('1/1'), '4/4 y dung -> 1/1 diem');
   console.log('== Sinh de ngau nhien / han che lap cau');
-  await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.waitForSelector('#cn'); await p.fill('#cn', '10'); await p.click('[data-act=start]'); await p.waitForSelector('.card[data-question-id]');
+  await p.goto(url + '#/'); await p.evaluate(() => { const k = 'tin12.v1', s = JSON.parse(localStorage.getItem(k) || '{}'); s.quizSeen = s.quizSeen || {}; s.quizSeen['ICT12_B01|essay,mcq,tf'] = ['ICT12_B01-A01','ICT12_B01-A02','ICT12_B01-A03','ICT12_B01-A04','ICT12_B01-A05','ICT12_B01-B01','ICT12_B01-C01','ICT12_B01-C02']; localStorage.setItem(k, JSON.stringify(s)); }); await p.reload(); await p.goto(url + '#/practice/ICT12_B01'); await p.waitForSelector('#cn'); ok(await p.locator('#cn').inputValue() === '10', 'B1 mac dinh 10 cau'); await p.fill('#cn', '10'); await p.click('[data-act=start]'); await p.waitForSelector('.card[data-question-id]');
   async function completeRandomSet() {
     const ids = [];
     for (let i = 0; i < 10; i++) {
