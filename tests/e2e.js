@@ -38,7 +38,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   console.log('== Dung/Sai cham diem'); await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '9'); await p.uncheck('#sh'); await p.uncheck('.ty[value=mcq]'); await p.uncheck('.ty[value=essay]'); await p.click('[data-act=start]'); await p.waitForSelector('[data-act=tf]');
   await p.click('[data-act=tf][data-k=a][data-v=false]'); await p.click('[data-act=tf][data-k=b][data-v=false]'); await p.click('[data-act=tf][data-k=c][data-v=true]'); await p.click('[data-act=tf][data-k=d][data-v=true]'); await p.click('[data-act=tfok]'); ok((await p.textContent('.card')).includes('1/1'), '4/4 y dung -> 1/1 diem');
   console.log('== Sinh de ngau nhien / han che lap cau');
-  await p.goto(url + '#/practice/ICT12_B01'); await p.waitForSelector('#cn'); await p.fill('#cn', '4');
+  await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.waitForSelector('#cn'); await p.fill('#cn', '4');
   async function completeRandomSet() {
     const ids = [];
     for (let i = 0; i < 4; i++) {
@@ -54,7 +54,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
     return ids;
   }
   const set1 = await completeRandomSet();
-  await p.goto(url + '#/practice/ICT12_B01'); await p.waitForSelector('#cn'); await p.fill('#cn', '4');
+  await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.waitForSelector('#cn'); await p.fill('#cn', '4');
   const set2 = await completeRandomSet();
   ok(new Set([...set1, ...set2]).size === 8, 'hai luot B1 lien tiep khong lap cau trong chu ky 8 cau');
   console.log('== On tap'); await p.goto(url + '#/review'); await p.waitForSelector('#rb button'); const modes = await p.locator('#rm option').count(); ok(modes === 9, '9 che do on tap'); let empty = [];
