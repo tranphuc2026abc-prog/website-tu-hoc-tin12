@@ -74,7 +74,13 @@ for part in re.split(r'\n(?=## BÀI )', rd('KHO_KIEN_THUC_THEO_BAI.md'))[1:]:
     lessons[lid] = L
 assert set(lessons) == set(ids), 'Kho kien thuc khong du 28 bai'
 
-Q = {i: [] for i in ids}; flags = []
+Q = {i: [] for i in ids}
+# Hai câu trong mục nguồn gộp được ánh xạ theo nội dung và đã đối chiếu với
+# KHO_KIEN_THUC_THEO_BAI: câu lưu trữ dự án thuộc Bài 24; câu nhúng Forms thuộc Bài 27.
+GROUPED_LESSON_MAP = {
+    ('A', 1): ('ICT12_B24', ('Google Sites', 'lưu trữ')),
+    ('A', 2): ('ICT12_B27', ('Google Sites', 'nhúng biểu mẫu')),
+}
 for part in re.split(r'\n(?=## )', rd('NGAN_HANG_CAU_HOI.md'))[1:]:
     h = part.split('\n')[0]
     m = re.match(r'## BÀI (\d+)(?: - (\d+))?', h)
@@ -85,12 +91,16 @@ for part in re.split(r'\n(?=## )', rd('NGAN_HANG_CAU_HOI.md'))[1:]:
         if sk in 'AB':
             for blk in re.split(r'\n(?=\*\*Câu \d+\.\*\*)', '\n' + '\n'.join(lines[1:]))[1:]:
                 bl = blk.split('\n'); mm = re.match(r'\*\*Câu (\d+)\.\*\* (.*)', bl[0]); num = int(mm.group(1))
-                lid = ('ICT12_B24' if num == 1 else 'ICT12_B27') if grp else 'ICT12_B%02d' % int(m.group(1))
+                if grp:
+                    mapped = GROUPED_LESSON_MAP.get((sk, num))
+                    assert mapped is not None, 'Cau trong nguon gop chua co anh xa bai hoc: %s-%d' % (sk, num)
+                    lid, expected_terms = mapped
+                    assert all(term.lower() in mm.group(2).lower() for term in expected_terms), \
+                        'Noi dung cau hoi khong khop bai hoc da anh xa: %s' % lid
+                else:
+                    lid = 'ICT12_B%02d' % int(m.group(1))
                 q = {'id': '%s-%s%02d' % (lid, sk, num), 'lesson': lid, 'q': mm.group(2), 'st': 'ok',
                      'src': 'NGAN_HANG_CAU_HOI.md - %s - mục %s - Câu %d' % (h[3:].strip(), sk, num)}
-                if grp:
-                    q['st'] = 'review'; flags.append(q['id'])
-                    q['nt'] = 'Nguồn gộp nhóm Bài 24–28; gắn bài theo đối chiếu kho kiến thức (cần giáo viên rà soát).'
                 if sk == 'A':
                     q['type'] = 'mcq'; q['opts'] = []
                     for l in bl[1:]:
@@ -158,4 +168,3 @@ for i in ids:
     print(i, c, 'thuat ngu', len(lessons[i]['terms']))
 print('TONG', tot, '| so cau', sum(tot.values()), '| so nhan dinh Dung/Sai:', sum(len(q['sts']) for v in Q.values() for q in v if q['type'] == 'tf'))
 print('Bai chua co cau hoi:', [i[-3:] for i in ids if not Q[i]])
-print('Can ra soat:', flags)
