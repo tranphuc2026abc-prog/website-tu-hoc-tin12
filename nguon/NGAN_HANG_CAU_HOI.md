@@ -41,6 +41,91 @@
 * D. 5.
 * *Đáp án đúng:* **A** | *Giải thích:* Phân loại chính theo chức năng gồm 2 loại: AI hẹp (Weak AI) và AI tổng quát (Strong AI).
 
+
+**Câu 6.** Trí tuệ nhân tạo (AI) hướng tới mục tiêu nào sau đây?
+* **A. Xây dựng hệ thống máy tính mô phỏng một số năng lực trí tuệ của con người.**
+* B. Chỉ tăng tốc độ xử lí phép tính số học.
+* C. Thay thế hoàn toàn mọi thiết bị điện tử.
+* D. Lưu trữ dữ liệu mà không cần xử lí.
+* *Đáp án đúng:* **A** | *Giải thích:* AI hướng tới mô phỏng các năng lực trí tuệ như suy luận, học hỏi, hiểu ngôn ngữ và giải quyết vấn đề.
+
+**Câu 7.** Đặc điểm nào phù hợp nhất với trí tuệ nhân tạo hẹp (Weak AI)?
+* A. Có trí thông minh tổng quát như con người trong mọi lĩnh vực.
+* **B. Được thiết kế để thực hiện hiệu quả một nhiệm vụ hoặc nhóm nhiệm vụ cụ thể.**
+* C. Không cần dữ liệu và không cần thuật toán.
+* D. Luôn có cảm xúc và ý thức như con người.
+* *Đáp án đúng:* **B** | *Giải thích:* AI hẹp tập trung giải quyết một nhiệm vụ cụ thể, chẳng hạn nhận dạng khuôn mặt hoặc hỗ trợ chẩn đoán.
+
+**Câu 8.** Trí tuệ nhân tạo tổng quát (Strong AI) được mô tả như thế nào?
+* A. Chỉ thực hiện một thao tác được lập trình cố định.
+* B. Chỉ nhận dạng được một loại hình ảnh.
+* **C. Có khả năng tự học, tự thích nghi và thực hiện đa dạng công việc giống con người.**
+* D. Chỉ lưu trữ thông tin do con người nhập vào.
+* *Đáp án đúng:* **C** | *Giải thích:* AI tổng quát được mô tả là có trí thông minh ngang tầm hoặc vượt con người, có khả năng tự học, thích nghi và làm nhiều loại công việc; hiện chưa hoàn thiện trong thực tế.
+
+**Câu 9.** Trong các năng lực của AI, khả năng suy luận được hiểu là gì?
+* A. Ghi nhớ mọi dữ liệu mà không xử lí.
+* B. Chỉ phát lại âm thanh đã được ghi sẵn.
+* C. Tự động bật thiết bị theo một lịch cố định.
+* **D. Vận dụng tri thức và logic để đưa ra quyết định hoặc kết luận.**
+* *Đáp án đúng:* **D** | *Giải thích:* Khả năng suy luận sử dụng tri thức và logic để đưa ra quyết định hoặc kết luận.
+
+**Câu 10.** Ứng dụng nào thể hiện rõ khả năng hiểu ngôn ngữ tự nhiên của AI?
+* **A. Trợ lý ảo tiếp nhận và hiểu yêu cầu bằng giọng nói của người dùng.**
+* B. Đèn bật theo công tắc cơ học.
+* C. Máy tính hiển thị giờ theo bộ đếm cố định.
+* D. Quạt quay ở một tốc độ được cài đặt sẵn.
+* *Đáp án đúng:* **A** | *Giải thích:* Hiểu ngôn ngữ tự nhiên giúp hệ thống tiếp nhận, xử lí và phản hồi yêu cầu bằng văn bản hoặc tiếng nói.
+
+**Câu 11.** Công nghệ nào của AI hỗ trợ máy tính nhận dạng khuôn mặt trong ảnh?
+* A. Xử lí văn bản.
+* **B. Thị giác máy tính (Computer Vision).**
+* C. Quản lí tệp tin.
+* D. Truyền dữ liệu qua mạng.
+* *Đáp án đúng:* **B** | *Giải thích:* Thị giác máy tính giúp hệ thống phân tích và nhận dạng hình ảnh, chẳng hạn nhận dạng khuôn mặt.
+
+**Câu 12.** Điểm khác biệt quan trọng giữa AI và dây chuyền tự động hóa cơ khí cố định là gì?
+* A. AI không sử dụng máy tính.
+* B. Tự động hóa luôn có khả năng tự học.
+* **C. AI có thể học hỏi, suy luận hoặc thích nghi; dây chuyền cố định thường chạy theo kịch bản định sẵn.**
+* D. Mọi thiết bị có động cơ đều là AI.
+* *Đáp án đúng:* **C** | *Giải thích:* Tự động hóa thông thường thực hiện theo kịch bản cố định; AI có thể học hỏi, suy luận hoặc điều chỉnh dựa trên dữ liệu.
+
+**Câu 13.** Theo kiến thức bài học, loại AI nào đang phổ biến chủ yếu trong thực tế hiện nay?
+* A. AI có ý thức.
+* B. AI siêu trí tuệ.
+* C. AI tổng quát hoàn thiện.
+* **D. AI hẹp, tập trung vào từng nhiệm vụ cụ thể.**
+* *Đáp án đúng:* **D** | *Giải thích:* Các ứng dụng AI hiện nay chủ yếu là AI hẹp, được xây dựng để giải quyết những nhiệm vụ cụ thể.
+
+**Câu 14.** Phần mềm nào sau đây là một ví dụ về trợ lý ảo?
+* **A. Siri.**
+* B. Phần mềm nén tệp.
+* C. Trình soạn thảo văn bản thuần túy.
+* D. Máy tính bỏ túi cơ bản.
+* *Đáp án đúng:* **A** | *Giải thích:* Siri là trợ lý ảo có khả năng tiếp nhận yêu cầu và phản hồi người dùng bằng ngôn ngữ tự nhiên.
+
+**Câu 15.** Khi người dùng nói một câu lệnh để trợ lý ảo hiểu và phản hồi, năng lực AI nào được sử dụng trực tiếp?
+* A. Chuyển mạch mạng.
+* **B. Xử lí ngôn ngữ tự nhiên.**
+* C. Định dạng ổ đĩa.
+* D. Nén dữ liệu.
+* *Đáp án đúng:* **B** | *Giải thích:* Xử lí ngôn ngữ tự nhiên giúp AI hiểu và xử lí ngôn ngữ con người, bao gồm yêu cầu bằng văn bản hoặc tiếng nói.
+
+**Câu 16.** Hệ chuyên gia MYCIN được xếp vào loại AI nào theo chức năng?
+* A. AI tổng quát có thể làm mọi công việc.
+* B. AI có ý thức.
+* **C. AI hẹp, phục vụ một nhiệm vụ chuyên biệt trong lĩnh vực y tế.**
+* D. Hệ thống tự động hóa không sử dụng AI.
+* *Đáp án đúng:* **C** | *Giải thích:* MYCIN là hệ chuyên gia y tế chuyên biệt, vì vậy là ví dụ về AI hẹp.
+
+**Câu 17.** Đâu là biểu hiện phù hợp nhất của khả năng học trong AI?
+* A. Chỉ thực hiện lại một chuỗi lệnh cố định, không thay đổi.
+* B. Chỉ hiển thị dữ liệu đã được nhập sẵn.
+* C. Tắt máy sau một khoảng thời gian được cài đặt.
+* **D. Rút ra quy luật từ dữ liệu để cải thiện kết quả thực hiện nhiệm vụ.**
+* *Đáp án đúng:* **D** | *Giải thích:* Khả năng học cho phép hệ thống rút ra quy luật từ dữ liệu và cải thiện hiệu quả thực hiện nhiệm vụ.
+
 ### B. PHẦN TRẮC NGHIỆM ĐÚNG - SAI
 **Câu 1.** Xét các phát biểu về mục tiêu và đặc điểm của Trí tuệ nhân tạo:
 * **a.** Khả năng học là khả năng vận dụng logic và tri thức để đưa ra quyết định hoặc kết luận. -> **Sai** (*Giải thích:* Đây là định nghĩa của Khả năng suy luận, không phải khả năng học).
