@@ -18,9 +18,9 @@
 
 - Khi học sinh bắt đầu luyện tập, website chọn ngẫu nhiên câu hỏi trong phạm vi bài/chủ đề đã chọn.
 - Mỗi phạm vi có chu kỳ ghi nhớ câu đã xuất hiện; lượt tiếp theo ưu tiên câu chưa làm. Khi dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.
-- Với một bài học, mặc định đề xuất 4 câu/lượt để ngân hàng nhỏ vẫn có thể tạo nhiều bộ đề khác nhau; học sinh có thể thay đổi số câu.
+- Với một bài học, mặc định đề xuất tối đa 10 câu/lượt; Bài 1 hiện có 20 câu để tạo nhiều bộ đề khác nhau; học sinh có thể thay đổi số câu.
 - Lịch sử câu đã xuất hiện được lưu trong dữ liệu cục bộ của từng hồ sơ trình duyệt/tài khoản trên thiết bị. Hiện cơ chế này chưa đồng bộ giữa các thiết bị qua Supabase.
-- Chỉ sử dụng câu hỏi đang có trong `data/questions/*.js`. Các JSON mới trong `nguon/ngan-hang-cau-hoi/` chưa được tích hợp vì cần thẩm định nội dung trước.
+- Chỉ sử dụng câu hỏi đang có trong `data/questions/*.js`. Các JSON mới trong `nguon/ngan-hang-cau-hoi/` chưa được tích hợp vì cần thẩm định nội dung trước. Riêng Bài 1 đã bổ sung 12 câu trắc nghiệm biên soạn từ kho kiến thức của bài, nâng ngân hàng lên 20 câu.
 
 ## Cập nhật nội dung
 1. Sửa các tệp trong `nguon/` (giữ nguyên định dạng hiện có).
