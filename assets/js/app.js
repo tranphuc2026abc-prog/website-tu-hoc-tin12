@@ -30,8 +30,11 @@ const mk = id => S.les[id] || (S.les[id] = { s: [0, 0, 0, 0, 0, 0, 0] });
 const status = id => { const l = ls(id); return l.d ? 'done' : (l.o || (l.s || []).some(Boolean)) ? 'doing' : 'todo'; };
 const pct = id => { const l = ls(id); return l.d ? 100 : Math.round((l.s || []).filter(Boolean).length / 7 * 100); };
 const ST = { todo: 'Chưa học', doing: 'Đang học', done: 'Đã hoàn thành' };
-const QS = () => C.qfiles.flatMap(i => T.Q[i] || []);
-const qOf = id => T.Q[id] || [];
+const isApprovedQuestion = q => q && q.st === 'ok';
+const allQuestions = () => C.qfiles.flatMap(i => T.Q[i] || []);
+const QS = () => allQuestions().filter(isApprovedQuestion);
+const qOf = id => (T.Q[id] || []).filter(isApprovedQuestion);
+const pendingQuestions = () => allQuestions().filter(q => q && q.st === 'review');
 const lnk = id => `<a href="#/lesson/${id}">${esc(L(id).title)}</a>`;
 const remItems = id => (T.L[id].sec.rem.find(b => b.t === 'ul') || { i: [] }).i.map(n => n.x);
 const cardsOf = ids => ids.flatMap(id => [...T.L[id].terms.map((t, i) => ({ id: id + '-T' + i, l: id, f: t.t, b: t.d, k: 'Thuật ngữ' })), ...remItems(id).map((x, i) => ({ id: id + '-R' + i, l: id, f: 'Ghi nhớ – ' + L(id).title, b: x, k: 'Ghi nhớ' }))]);
@@ -108,7 +111,8 @@ ${nq ? `<a class="btn" href="#/practice/${id}">Luyện tập bài này (${nq} c�
 function practice(pre) {
   const byL = C.lessons.map(l => ({ l, n: qOf(l.id).length }));
   const defaultCount = pre ? Math.min(10, qOf(pre).length) : Math.min(10, QS().length);
-  return `<h1>Luyện tập và kiểm tra</h1><p>Nguồn hiện có <b>${QS().length}</b> câu: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${QS().filter(q => q.type === 'essay').length} luyện tập/vận dụng. Bài nào chưa có câu hỏi trong nguồn sẽ không chọn được.</p>
+  const pending = pendingQuestions().length;
+  return `<h1>Luyện tập và kiểm tra</h1><p>Ngân hàng hiện có <b>${QS().length}</b> câu đã duyệt: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${QS().filter(q => q.type === 'essay').length} luyện tập/vận dụng. Bài nào chưa có câu hỏi trong nguồn sẽ không chọn được.</p>${pending ? `<p class="mut">Có ${pending} câu đang chờ giáo viên rà soát; hệ thống tạm thời không đưa các câu này vào luyện tập hoặc kiểm tra.</p>` : ''}
 <p class="mut">Mỗi lượt bắt đầu, hệ thống chọn câu hỏi ngẫu nhiên và ưu tiên câu chưa xuất hiện ở các lượt gần đây của cùng phạm vi. Khi đã dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.</p>
 <div class="card"><h3>1. Chọn bài</h3><div class="row"><button class="btn sm" data-act="all">Chọn tất cả</button><button class="btn sm" data-act="none">Bỏ chọn</button></div><div class="pick" id="pk">${byL.map(({ l, n }) => `<label><input type="checkbox" value="${l.id}" ${n ? '' : 'disabled'} ${pre === l.id ? 'checked' : ''}> ${l.n}. ${esc(l.title.replace(/^Bài \d+\.\s*/, ''))} <span class="mut">(${n})</span></label>`).join('')}</div></div>
 <div class="card"><h3>2. Dạng câu hỏi và cách làm</h3><div class="row">${[['mcq', 'Trắc nghiệm 4 lựa chọn'], ['tf', 'Đúng/Sai'], ['essay', 'Luyện tập / Vận dụng']].map(([k, v]) => `<label><input type="checkbox" class="ty" value="${k}" checked> ${v}</label>`).join('')}</div>
