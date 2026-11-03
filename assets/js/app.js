@@ -261,7 +261,7 @@ document.addEventListener('click', e => {
     S.tfm = $('#tfm').checked ? 1 : 0; save();
     if (!ids.length) { alert('Hãy chọn ít nhất một bài có câu hỏi.'); return; }
     const l = QS().filter(q => ids.includes(q.lesson) && ty.includes(q.type));
-    const scopeKey = ids.slice().sort().join(',') + '|' + ty.slice().sort().join(',');
+    const bankKey = l.map(q => q.id).sort().join(','); const scopeKey = ids.slice().sort().join(',') + '|' + ty.slice().sort().join(',') + '|' + bankKey;
     const selected = drawQuestions(l, Math.min(n, l.length), scopeKey, sh);
     const ex = document.querySelector('[name=md]:checked').value === 'e';
     start(selected, { ex, shuffle: sh, title: ids.length === 1 ? L(ids[0]).title : ids.length + ' bài' });
