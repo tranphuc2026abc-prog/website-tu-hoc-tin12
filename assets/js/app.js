@@ -11,13 +11,14 @@ const KEYS = Object.keys(SECT), KEY = (() => { try { const u = JSON.parse(localS
 let C, S, mem = false, run = null, rv = { mode: 'lesson', p: '' }, codes = [];
 
 /* ---------- lưu trữ trên thiết bị ---------- */
-const blank = () => ({ v: 1, les: {}, ans: {}, cards: {}, hist: [], last: null, th: null, tfm: 0 });
+const blank = () => ({ v: 1, les: {}, ans: {}, cards: {}, hist: [], quizSeen: {}, last: null, th: null, tfm: 0 });
 function loadS() {
   try { const r = localStorage.getItem(KEY); S = r ? JSON.parse(r) : blank(); } catch (e) { S = blank(); mem = true; }
   if (!S || typeof S !== 'object') S = blank();
   const b = blank(); for (const k in b) if (S[k] === undefined) S[k] = b[k];
   for (const k of ['les', 'ans', 'cards']) if (!S[k] || typeof S[k] !== 'object') S[k] = {};
   if (!Array.isArray(S.hist)) S.hist = [];
+  if (!S.quizSeen || typeof S.quizSeen !== 'object' || Array.isArray(S.quizSeen)) S.quizSeen = {};
   if (mem) $('#warn').hidden = false;
 }
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { mem = true; $('#warn').hidden = false; } try { window.dispatchEvent(new Event('tin12:progress-changed')); } catch (_) {} };
@@ -106,13 +107,31 @@ ${nq ? `<a class="btn" href="#/practice/${id}">Luyện tập bài này (${nq} c�
 /* ---------- luyện tập / kiểm tra ---------- */
 function practice(pre) {
   const byL = C.lessons.map(l => ({ l, n: qOf(l.id).length }));
+  const defaultCount = pre ? Math.min(4, qOf(pre).length) : Math.min(10, QS().length);
   return `<h1>Luyện tập và kiểm tra</h1><p>Nguồn hiện có <b>${QS().length}</b> câu: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${QS().filter(q => q.type === 'essay').length} luyện tập/vận dụng. Bài nào chưa có câu hỏi trong nguồn sẽ không chọn được.</p>
+<p class="mut">Mỗi lượt bắt đầu, hệ thống chọn câu hỏi ngẫu nhiên và ưu tiên câu chưa xuất hiện ở các lượt gần đây của cùng phạm vi. Khi đã dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.</p>
 <div class="card"><h3>1. Chọn bài</h3><div class="row"><button class="btn sm" data-act="all">Chọn tất cả</button><button class="btn sm" data-act="none">Bỏ chọn</button></div><div class="pick" id="pk">${byL.map(({ l, n }) => `<label><input type="checkbox" value="${l.id}" ${n ? '' : 'disabled'} ${pre === l.id ? 'checked' : ''}> ${l.n}. ${esc(l.title.replace(/^Bài \d+\.\s*/, ''))} <span class="mut">(${n})</span></label>`).join('')}</div></div>
 <div class="card"><h3>2. Dạng câu hỏi và cách làm</h3><div class="row">${[['mcq', 'Trắc nghiệm 4 lựa chọn'], ['tf', 'Đúng/Sai'], ['essay', 'Luyện tập / Vận dụng']].map(([k, v]) => `<label><input type="checkbox" class="ty" value="${k}" checked> ${v}</label>`).join('')}</div>
-<div class="row"><label>Số câu tối đa <input type="number" id="cn" min="1" max="${QS().length}" value="${QS().length}"></label><label><input type="checkbox" id="sh" checked> Trộn thứ tự câu và phương án</label></div>
+<div class="row"><label>Số câu tối đa <input type="number" id="cn" min="1" max="${QS().length}" value="${defaultCount}"></label><label><input type="checkbox" id="sh" checked> Trộn thứ tự câu và phương án</label></div>
 <div class="row"><label><input type="radio" name="md" value="p" checked> Luyện tập: có đáp án ngay sau mỗi câu</label><label><input type="radio" name="md" value="e"> Kiểm tra: chấm khi nộp bài</label></div>
 <div class="row"><label><input type="checkbox" id="tfm" ${S.tfm ? 'checked' : ''}> Câu Đúng/Sai chấm theo thang 0,1 – 0,25 – 0,5 – 1 điểm</label></div><p class="mut">Mặc định mỗi nhận định đúng được 1/4 điểm của câu (quy tắc của website). Thang 0,1–0,25–0,5–1 là cấu trúc đề thi tốt nghiệp THPT từ năm 2025; hồ sơ nguồn không quy định điểm, hãy đối chiếu văn bản hiện hành khi dùng chính thức.</p></div>
 <button class="btn pri" data-act="start">Bắt đầu</button>`;
+}
+function drawQuestions(pool, count, scopeKey, shuffleOrder) {
+  const all = pool.slice();
+  if (!all.length) return [];
+  let seen = Array.isArray(S.quizSeen[scopeKey]) ? S.quizSeen[scopeKey].filter(id => all.some(q => q.id === id)) : [];
+  let fresh = shuf(all.filter(q => !seen.includes(q.id)));
+  // Khi đã dùng hết câu hỏi trong chu kỳ, tự động bắt đầu chu kỳ mới.
+  if (!fresh.length) { seen = []; fresh = shuf(all); }
+  const chosen = fresh.slice(0, count);
+  if (chosen.length < count) {
+    const picked = new Set(chosen.map(q => q.id));
+    chosen.push(...shuf(all.filter(q => !picked.has(q.id))).slice(0, count - chosen.length));
+  }
+  S.quizSeen[scopeKey] = [...new Set([...seen, ...chosen.map(q => q.id)])];
+  save();
+  return shuffleOrder ? shuf(chosen) : chosen.sort((a, b) => all.indexOf(a) - all.indexOf(b));
 }
 function start(list, o) {
   if (!list.length) { app.insertAdjacentHTML('beforeend', '<p class="fail">Không có câu hỏi phù hợp để bắt đầu.</p>'); return; }
@@ -155,7 +174,7 @@ ${fin ? `<p class="mut">Đã ghi nhận: ${r.self ? 'đã làm được' : 'cầ
   }
   const last = run.i === n - 1;
   app.innerHTML = `<p class="mut">${esc(run.title)} · ${run.ex ? 'Kiểm tra' : 'Luyện tập'} · ${esc(q.type === 'essay' ? q.kind : q.type === 'mcq' ? 'Trắc nghiệm' : 'Đúng/Sai')} · ${lnk(q.lesson)}</p>${prog(Math.round(run.i / n * 100))}
-<h2>Câu ${run.i + 1}/${n}</h2><div class="card"><p><b>${inl(q.q)}</b></p>${b}${q.st === 'review' ? `<p class="mut">Lưu ý: ${esc(q.nt)}</p>` : ''}</div>
+<h2>Câu ${run.i + 1}/${n}</h2><div class="card" data-question-id="${esc(q.id)}"><p><b>${inl(q.q)}</b></p>${b}${q.st === 'review' ? `<p class="mut">Lưu ý: ${esc(q.nt)}</p>` : ''}</div>
 <div class="row"><button class="btn" data-act="prev" ${run.i ? '' : 'disabled'}>← Câu trước</button>${last ? `<button class="btn pri" data-act="end">${run.ex ? 'Nộp bài' : 'Xem kết quả'}</button>` : '<button class="btn pri" data-act="next">Câu sau →</button>'}</div>`;
   // app.innerHTML thay thế nút vừa được nhấn; khôi phục vị trí cuộn sau khi cập nhật DOM.
   window.scrollTo(0, scrollTop);
@@ -241,9 +260,11 @@ document.addEventListener('click', e => {
     const ids = [...document.querySelectorAll('#pk input:checked')].map(x => x.value), ty = [...document.querySelectorAll('.ty:checked')].map(x => x.value), sh = $('#sh').checked, n = Math.max(1, +$('#cn').value || 1);
     S.tfm = $('#tfm').checked ? 1 : 0; save();
     if (!ids.length) { alert('Hãy chọn ít nhất một bài có câu hỏi.'); return; }
-    let l = QS().filter(q => ids.includes(q.lesson) && ty.includes(q.type)); if (sh) l = shuf(l); l = l.slice(0, n);
+    const l = QS().filter(q => ids.includes(q.lesson) && ty.includes(q.type));
+    const scopeKey = ids.slice().sort().join(',') + '|' + ty.slice().sort().join(',');
+    const selected = drawQuestions(l, Math.min(n, l.length), scopeKey, sh);
     const ex = document.querySelector('[name=md]:checked').value === 'e';
-    start(l, { ex, shuffle: sh, title: ids.length === 1 ? L(ids[0]).title : ids.length + ' bài' });
+    start(selected, { ex, shuffle: sh, title: ids.length === 1 ? L(ids[0]).title : ids.length + ' bài' });
   }
   else if (a === 'pick') { const r = rr(); if (r.done && !run.ex) return; r.sel = b.dataset.k; if (!run.ex) { r.done = 1; record(cur(), r); } show(); }
   else if (a === 'tf') { const r = rr(); r.sel = r.sel || {}; r.sel[b.dataset.k] = b.dataset.v === 'true'; show(); }
@@ -274,7 +295,7 @@ document.addEventListener('change', e => {
     f.readAsText(t.files[0]);
   }
 });
-function loadS2() { const b = blank(); for (const k in b) if (S[k] === undefined) S[k] = b[k]; if (!Array.isArray(S.hist)) S.hist = []; if (!S.cards || typeof S.cards !== 'object') S.cards = {}; }
+function loadS2() { const b = blank(); for (const k in b) if (S[k] === undefined) S[k] = b[k]; if (!Array.isArray(S.hist)) S.hist = []; if (!S.cards || typeof S.cards !== 'object') S.cards = {}; if (!S.quizSeen || typeof S.quizSeen !== 'object' || Array.isArray(S.quizSeen)) S.quizSeen = {}; }
 document.addEventListener('input', e => {
   const t = e.target;
   if (t.id === 'lf') lessonList();
