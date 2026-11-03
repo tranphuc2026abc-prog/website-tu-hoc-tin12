@@ -122,7 +122,7 @@ function drawQuestions(pool, count, scopeKey, shuffleOrder) {
   if (!all.length) return [];
   let seen = Array.isArray(S.quizSeen[scopeKey]) ? S.quizSeen[scopeKey].filter(id => all.some(q => q.id === id)) : [];
   let fresh = shuf(all.filter(q => !seen.includes(q.id)));
-  // Kiedy cykl pytań się wyczerpie, rozpocznij następny bez blokowania kolejnych prób.
+  // Khi đã dùng hết câu hỏi trong chu kỳ, tự động bắt đầu chu kỳ mới.
   if (!fresh.length) { seen = []; fresh = shuf(all); }
   const chosen = fresh.slice(0, count);
   if (chosen.length < count) {
