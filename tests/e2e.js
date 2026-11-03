@@ -33,7 +33,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
     total++; if (i < 42) await p.click('[data-act=next]'); }
   ok(seen.mcq === 35 && seen.tf === 5 && seen.essay === 3, 'lam du 43 cau: ' + JSON.stringify(seen));
   await p.click('[data-act=end]'); await p.waitForSelector('h1:has-text("Kết quả")'); ok(await p.locator('[data-act=redo]').count() === 1, 'co nut lam lai cau sai');
-  console.log('== Dap an dung'); await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '5'); await p.uncheck('#sh'); await p.uncheck('.ty[value=tf]'); await p.uncheck('.ty[value=essay]'); await p.click('[data-act=start]'); await p.waitForSelector('.opt');
+  console.log('== Dap an dung'); await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '17'); await p.uncheck('#sh'); await p.uncheck('.ty[value=tf]'); await p.uncheck('.ty[value=essay]'); await p.click('[data-act=start]'); await p.waitForSelector('.opt');
   const q1 = await p.textContent('.card p b'); ok(q1.includes('1956') || q1.includes('Hội thảo'), 'cau 1 bai 1 dung noi dung'); const opts = await p.locator('.opt').allTextContents(); const j = opts.findIndex(t => t.includes('1956')); await p.locator('.opt').nth(j).click(); ok(await p.locator('.opt.ok').count() === 1 && (await p.locator('.fb.ok').count()) === 1, 'chon 1956 -> dung');
   console.log('== Dung/Sai cham diem'); await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '9'); await p.uncheck('#sh'); await p.uncheck('.ty[value=mcq]'); await p.uncheck('.ty[value=essay]'); await p.click('[data-act=start]'); await p.waitForSelector('[data-act=tf]');
   await p.click('[data-act=tf][data-k=a][data-v=false]'); await p.click('[data-act=tf][data-k=b][data-v=false]'); await p.click('[data-act=tf][data-k=c][data-v=true]'); await p.click('[data-act=tf][data-k=d][data-v=true]'); await p.click('[data-act=tfok]'); ok((await p.textContent('.card')).includes('1/1'), '4/4 y dung -> 1/1 diem');
@@ -54,7 +54,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
     return ids;
   }
   const set1 = await completeRandomSet();
-  await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.waitForSelector('#cn'); await p.fill('#cn', '4'); await p.click('[data-act=start]'); await p.waitForSelector('.card[data-question-id]');
+  await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.waitForSelector('#cn'); await p.fill('#cn', '10'); await p.click('[data-act=start]'); await p.waitForSelector('.card[data-question-id]');
   const set2 = await completeRandomSet();
   ok(new Set([...set1, ...set2]).size === 20, 'hai luot B1 moi luot 10 cau, khong lap trong chu ky 20 cau');
   console.log('== On tap'); await p.goto(url + '#/review'); await p.waitForSelector('#rb button'); const modes = await p.locator('#rm option').count(); ok(modes === 9, '9 che do on tap'); let empty = [];
