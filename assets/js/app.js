@@ -107,7 +107,7 @@ ${nq ? `<a class="btn" href="#/practice/${id}">Luyện tập bài này (${nq} c�
 /* ---------- luyện tập / kiểm tra ---------- */
 function practice(pre) {
   const byL = C.lessons.map(l => ({ l, n: qOf(l.id).length }));
-  const defaultCount = pre ? Math.min(4, qOf(pre).length) : Math.min(10, QS().length);
+  const defaultCount = pre ? Math.min(10, qOf(pre).length) : Math.min(10, QS().length);
   return `<h1>Luyện tập và kiểm tra</h1><p>Nguồn hiện có <b>${QS().length}</b> câu: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${QS().filter(q => q.type === 'essay').length} luyện tập/vận dụng. Bài nào chưa có câu hỏi trong nguồn sẽ không chọn được.</p>
 <p class="mut">Mỗi lượt bắt đầu, hệ thống chọn câu hỏi ngẫu nhiên và ưu tiên câu chưa xuất hiện ở các lượt gần đây của cùng phạm vi. Khi đã dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.</p>
 <div class="card"><h3>1. Chọn bài</h3><div class="row"><button class="btn sm" data-act="all">Chọn tất cả</button><button class="btn sm" data-act="none">Bỏ chọn</button></div><div class="pick" id="pk">${byL.map(({ l, n }) => `<label><input type="checkbox" value="${l.id}" ${n ? '' : 'disabled'} ${pre === l.id ? 'checked' : ''}> ${l.n}. ${esc(l.title.replace(/^Bài \d+\.\s*/, ''))} <span class="mut">(${n})</span></label>`).join('')}</div></div>
