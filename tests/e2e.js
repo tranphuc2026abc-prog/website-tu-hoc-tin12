@@ -37,6 +37,26 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   const q1 = await p.textContent('.card p b'); ok(q1.includes('1956') || q1.includes('Hội thảo'), 'cau 1 bai 1 dung noi dung'); const opts = await p.locator('.opt').allTextContents(); const j = opts.findIndex(t => t.includes('1956')); await p.locator('.opt').nth(j).click(); ok(await p.locator('.opt.ok').count() === 1 && (await p.locator('.fb.ok').count()) === 1, 'chon 1956 -> dung');
   console.log('== Dung/Sai cham diem'); await p.goto(url + '#/'); await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '9'); await p.uncheck('#sh'); await p.uncheck('.ty[value=mcq]'); await p.uncheck('.ty[value=essay]'); await p.click('[data-act=start]'); await p.waitForSelector('[data-act=tf]');
   await p.click('[data-act=tf][data-k=a][data-v=false]'); await p.click('[data-act=tf][data-k=b][data-v=false]'); await p.click('[data-act=tf][data-k=c][data-v=true]'); await p.click('[data-act=tf][data-k=d][data-v=true]'); await p.click('[data-act=tfok]'); ok((await p.textContent('.card')).includes('1/1'), '4/4 y dung -> 1/1 diem');
+  console.log('== Sinh de ngau nhien / han che lap cau');
+  await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '4');
+  async function completeRandomSet() {
+    const ids = [];
+    for (let i = 0; i < 4; i++) {
+      ids.push(await p.locator('.card[data-question-id]').getAttribute('data-question-id'));
+      if (await p.locator('[data-act=pick]').count()) await p.locator('[data-act=pick]').first().click();
+      else if (await p.locator('[data-act=tf]').count()) {
+        for (const k of 'abcd') await p.click(`[data-act=tf][data-k=${k}][data-v=true]`);
+        await p.click('[data-act=tfok]');
+      } else { await p.click('[data-act=hint]'); await p.click('[data-act=self][data-v="1"]'); }
+      if (i < 3) await p.click('[data-act=next]');
+    }
+    await p.click('[data-act=end]'); await p.waitForSelector('h1:has-text("Kết quả")');
+    return ids;
+  }
+  const set1 = await completeRandomSet();
+  await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '4');
+  const set2 = await completeRandomSet();
+  ok(new Set([...set1, ...set2]).size === 8, 'hai luot B1 lien tiep khong lap cau trong chu ky 8 cau');
   console.log('== On tap'); await p.goto(url + '#/review'); await p.waitForSelector('#rb button'); const modes = await p.locator('#rm option').count(); ok(modes === 9, '9 che do on tap'); let empty = [];
   for (const m of ['lesson', 'topic', 'multi', 'all', 'terms', 'wrong', 'flag', 'random', 'hk']) { await p.selectOption('#rm', m); if (m === 'multi') await p.locator('#rp input').first().check(); const t = await p.textContent('#rb'); const e = /\(0\)/.test(t); if (e) empty.push(m); }
   console.log('  che do rong (hop le neu chua co du lieu):', empty.join(',')); ok(!empty.includes('all') && !empty.includes('terms') && !empty.includes('random') && !empty.includes('hk'), 'che do chinh co noi dung');
