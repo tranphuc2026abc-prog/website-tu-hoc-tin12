@@ -141,7 +141,7 @@ def norm_question(text):
 
 
 for n in range(1, 29):
-    lid = I(n)
+    lid = 'ICT12_B%02d' % n
     jf = os.path.join(SRC, 'ngan-hang-cau-hoi', 'BAI_%02d_QUESTIONS.json' % n)
     with open(jf, encoding='utf-8') as f:
         doc = json.load(f)
