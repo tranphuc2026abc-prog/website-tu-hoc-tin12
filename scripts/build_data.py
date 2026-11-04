@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Doc ho so nguon (CSV + KHO_KIEN_THUC + NGAN_HANG_CAU_HOI) -> data/*.js
 Chay: python scripts/build_data.py nguon"""
-import csv, json, re, sys, os
+import csv, json, re, sys, os, unicodedata
 SRC = sys.argv[1] if len(sys.argv) > 1 else 'nguon'
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 rd = lambda f: open(os.path.join(SRC, f), encoding='utf-8').read()
@@ -131,6 +131,51 @@ for part in re.split(r'\n(?=## )', rd('NGAN_HANG_CAU_HOI.md'))[1:]:
                     elif t: q['nt'] = t.group(1)
                     elif p: q['pts'].append(p.group(1))
                 Q[lid].append(q)
+
+
+# Nguon JSON da duoc tham dinh la nguon chinh; giu nguyen noi dung va dap an.
+def norm_question(text):
+    text = unicodedata.normalize('NFD', str(text or '').lower())
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn').replace('đ', 'd')
+    return re.sub(r'[^a-z0-9]+', ' ', text).strip()
+
+
+for n in range(1, 29):
+    lid = 'ICT12_B%02d' % n
+    jf = os.path.join(SRC, 'ngan-hang-cau-hoi', 'BAI_%02d_QUESTIONS.json' % n)
+    with open(jf, encoding='utf-8') as f:
+        doc = json.load(f)
+    srcq = []
+    def add_mc(e):
+        srcq.append({'id': e['id'], 'lesson': lid, 'q': e['noi_dung'], 'st': 'ok',
+                     'src': 'nguon/ngan-hang-cau-hoi/BAI_%02d_QUESTIONS.json - %s' % (n, e['id']),
+                     'type': 'mcq', 'opts': [{'k': k, 'x': v} for k, v in e['lua_chon'].items()],
+                     'ans': e['dap_an'], 'exp': e.get('giai_thich', '')})
+    for e in doc['cau_hoi_goc']['trac_nghiem']:
+        add_mc(e)
+    for e in doc['cau_hoi_goc']['dung_sai']:
+        srcq.append({'id': e['id'], 'lesson': lid, 'q': e['noi_dung'], 'st': 'ok',
+                     'src': 'nguon/ngan-hang-cau-hoi/BAI_%02d_QUESTIONS.json - %s' % (n, e['id']),
+                     'type': 'tf', 'sts': [{'k': k, 'x': v, 'a': e['dap_an'][k],
+                                           'e': e.get('giai_thich', '')} for k, v in e['y_kien'].items()]})
+    for e in doc['cau_hoi_goc']['tu_luan']:
+        srcq.append({'id': e['id'], 'lesson': lid, 'q': e['noi_dung'], 'st': 'ok',
+                     'src': 'nguon/ngan-hang-cau-hoi/BAI_%02d_QUESTIONS.json - %s' % (n, e['id']),
+                     'type': 'essay', 'kind': 'Tự luận', 'ref': 'Ngân hàng câu hỏi đã duyệt',
+                     'hint': e.get('dap_an_goi_y', ''), 'pts': [],
+                     'nt': 'Học sinh tự trình bày và đối chiếu với đáp án gợi ý.'})
+    for e in doc['cau_hoi_bo_sung']['trac_nghiem']:
+        add_mc(e)
+    assert len(srcq) == 25, 'BAI_%02d phai co 25 muc, hien co %d' % (n, len(srcq))
+    # Giu nguon JSON truoc; chi bo cac cau Markdown trung noi dung.
+    merged, seen = [], set()
+    for q in srcq + Q[lid]:
+        key = norm_question(q['q'])
+        if key and key not in seen:
+            seen.add(key)
+            merged.append(q)
+    assert len({q['id'] for q in merged}) == len(merged), 'ID trung trong %s' % lid
+    Q[lid] = merged
 
 R = {i: {'pre': [], 'rel': [], 'nx': [], 'why': []} for i in ids}
 I = lambda n: 'ICT12_B%02d' % n

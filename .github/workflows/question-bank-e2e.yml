@@ -1,0 +1,32 @@
+name: Question bank E2E
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "assets/js/**"
+      - "index.html"
+      - "tests/**"
+      - "scripts/build_data.py"
+      - ".github/workflows/question-bank-e2e.yml"
+  workflow_dispatch:
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright
+        run: npm install --no-save playwright
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run website E2E tests
+        env:
+          PW: playwright
+        run: node tests/e2e.js http
