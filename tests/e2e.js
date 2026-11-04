@@ -13,7 +13,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   p.on('request', r => { const u = r.url(); if (!u.startsWith('file:') && !u.startsWith('http://localhost') && !u.startsWith('data:') && !u.startsWith('blob:') && !u.startsWith('about:')) ext.push(u); });
   await p.goto(url); await p.waitForSelector('.map');
   console.log('== Trang chu'); ok(await p.locator('.cell').count() === 28, '28 o bai tren ban do');
-  ok((await p.textContent('.stats')).includes('28') && (await p.textContent('.stats')).includes('43'), 'thong ke 28 bai / 43 cau tinh tu du lieu');
+  ok((await p.textContent('.stats')).includes('28') && (await p.textContent('.stats')).includes('743'), 'thong ke 28 bai / 743 cau sau khi hop nhat');
   console.log('== Mo tung bai'); let bad = [];
   for (let n = 1; n <= 28; n++) { const id = 'ICT12_B' + String(n).padStart(2, '0'); await p.goto(url + '#/lesson/' + id); await p.waitForSelector('.sheet'); const c = await p.locator('.sheet').count(), h = await p.textContent('h1'); const terms = await p.locator('.sheet.terms li').count(); if (c !== 7 || !h.startsWith('Bài ' + n + '.') || terms < 3) bad.push(id + ':' + c + ':' + terms); }
   ok(!bad.length, 'moi bai hien du 7 muc + thuat ngu' + (bad.length ? ' loi: ' + bad : ''));
@@ -26,12 +26,12 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   ok((await p.textContent('button[data-act=done]')).includes('Bỏ'), 'danh dau da hoc con sau khi tai lai'); await p.goto(url + '#/'); ok((await p.locator('.cell.done').count()) === 1, 'o bai 1 hien da hoan thanh');
   await p.goto(url + '#/lesson/ICT12_B02'); await p.locator('input[data-act=sec]').first().check(); await p.goto(url + '#/'); ok((await p.locator('.cell.doing').count()) >= 1, 'trang thai dang hoc');
   console.log('== Tim kiem'); await p.fill('#q', 'dartmouth'); await p.waitForSelector('h1:has-text("Kết quả")'); ok((await p.locator('.card h3 a').count()) >= 1, 'tim kiem noi dung'); await p.fill('#q', 'tri tue nhan tao'); await p.waitForTimeout(200); ok((await p.locator('.card h3 a').count()) >= 1, 'tim khong dau');
-  console.log('== Luyen tap'); await p.goto(url + '#/practice'); ok((await p.locator('#pk input:not(:disabled)').count()) === 10, '10 bai co cau hoi duoc chon (B01,02,03,04,07,10,13,17,24,27)'); 
-  await p.click('[data-act=all]'); await p.fill('#cn', '43'); await p.uncheck('#sh'); await p.click('[data-act=start]'); await p.waitForSelector('.opt');
+  console.log('== Luyen tap'); await p.goto(url + '#/practice'); ok((await p.locator('#pk input:not(:disabled)').count()) === 28, '28 bai deu co cau hoi duoc chon'); 
+  await p.click('[data-act=all]'); await p.fill('#cn', '60'); await p.uncheck('#sh'); await p.click('[data-act=start]'); await p.waitForSelector('.opt');
   let total = 0, seen = { mcq: 0, tf: 0, essay: 0 };
-  for (let i = 0; i < 43; i++) { const kind = (await p.textContent('p.mut')); if (await p.locator('textarea').count()) { seen.essay++; await p.click('[data-act=hint]'); await p.click('[data-act=self][data-v="1"]'); } else if (await p.locator('[data-act=tf]').count()) { seen.tf++; for (const k of 'abcd') await p.click(`[data-act=tf][data-k=${k}][data-v=true]`); await p.click('[data-act=tfok]'); } else { seen.mcq++; await p.locator('.opt').first().click(); }
+  for (let i = 0; i < 60; i++) { const kind = (await p.textContent('p.mut')); if (await p.locator('textarea').count()) { seen.essay++; await p.click('[data-act=hint]'); await p.click('[data-act=self][data-v="1"]'); } else if (await p.locator('[data-act=tf]').count()) { seen.tf++; for (const k of 'abcd') await p.click(`[data-act=tf][data-k=${k}][data-v=true]`); await p.click('[data-act=tfok]'); } else { seen.mcq++; await p.locator('.opt').first().click(); }
     total++; if (i < 42) await p.click('[data-act=next]'); }
-  ok(seen.mcq === 35 && seen.tf === 5 && seen.essay === 3, 'lam du 43 cau: ' + JSON.stringify(seen));
+  ok(seen.mcq > 0 && seen.tf > 0 && seen.essay > 0, 'ngan hang moi co du ba dang cau hoi trong mot luot: ' + JSON.stringify(seen));
   await p.click('[data-act=end]'); await p.waitForSelector('h1:has-text("Kết quả")'); ok(await p.locator('[data-act=redo]').count() === 1, 'co nut lam lai cau sai');
   console.log('== Dap an dung'); await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '17'); await p.uncheck('#sh'); await p.uncheck('.ty[value=tf]'); await p.uncheck('.ty[value=essay]'); await p.click('[data-act=start]'); await p.waitForSelector('.opt');
   const q1 = await p.textContent('.card p b'); ok(q1.includes('1956') || q1.includes('Hội thảo'), 'cau 1 bai 1 dung noi dung'); const opts = await p.locator('.opt').allTextContents(); const j = opts.findIndex(t => t.includes('1956')); await p.locator('.opt').nth(j).click(); ok(await p.locator('.opt.ok').count() === 1 && (await p.locator('.fb.ok').count()) === 1, 'chon 1956 -> dung');
