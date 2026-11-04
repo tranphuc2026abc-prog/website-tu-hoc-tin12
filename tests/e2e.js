@@ -5,13 +5,13 @@ const root = path.resolve(__dirname, '..'); const entry = process.argv[3] || 'in
 let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log('  FAIL:', m)); if (c) console.log('  ok  :', m); };
 (async () => {
   let url, srv;
-  if (mode === 'http') { srv = http.createServer((q, r) => { const f = path.join(root, decodeURIComponent(q.url.split('?')[0]).replace(/^\/$/, '/' + entry)); fs.readFile(f, (e, d) => { if (e) { r.writeHead(404); r.end(); } else { r.writeHead(200, { 'Content-Type': f.endsWith('.js') ? 'text/javascript' : f.endsWith('.css') ? 'text/css' : 'text/html' }); r.end(d); } }); }).listen(8765); url = 'http://localhost:8765/index.html'; }
+  if (mode === 'http') { srv = http.createServer((q, r) => { const reqPath = decodeURIComponent(q.url.split('?')[0]); const f = path.join(root, reqPath === '/' ? entry : reqPath.replace(/^\\//, '')); fs.readFile(f, (e, d) => { if (e) { r.writeHead(404); r.end(); } else { r.writeHead(200, { 'Content-Type': f.endsWith('.js') ? 'text/javascript' : f.endsWith('.css') ? 'text/css' : 'text/html' }); r.end(d); } }); }).listen(8765); url = 'http://localhost:8765/index.html'; }
   else url = 'file://' + root + '/' + entry;
   const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: 1100, height: 800 }, acceptDownloads: true }); const p = await ctx.newPage();
   const errs = [], ext = [];
   p.on('pageerror', e => errs.push(e.message)); p.on('console', m => m.type() === 'error' && errs.push(m.text()));
   p.on('request', r => { const u = r.url(); if (!u.startsWith('file:') && !u.startsWith('http://localhost') && !u.startsWith('data:') && !u.startsWith('blob:') && !u.startsWith('about:')) ext.push(u); });
-  await p.goto(url); await p.waitForSelector('.map');
+  await p.goto(url); try { await p.waitForSelector('.map', { timeout: 15000 }); } catch (e) { console.log('INIT BODY:', await p.locator('body').innerText()); console.log('INIT ERRORS:', errs); throw e; }
   console.log('== Trang chu'); ok(await p.locator('.cell').count() === 28, '28 o bai tren ban do');
   ok((await p.textContent('.stats')).includes('28') && (await p.textContent('.stats')).includes('743'), 'thong ke 28 bai / 743 cau sau khi hop nhat');
   console.log('== Mo tung bai'); let bad = [];
@@ -27,7 +27,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   await p.goto(url + '#/lesson/ICT12_B02'); await p.locator('input[data-act=sec]').first().check(); await p.goto(url + '#/'); ok((await p.locator('.cell.doing').count()) >= 1, 'trang thai dang hoc');
   console.log('== Tim kiem'); await p.fill('#q', 'dartmouth'); await p.waitForSelector('h1:has-text("Kết quả")'); ok((await p.locator('.card h3 a').count()) >= 1, 'tim kiem noi dung'); await p.fill('#q', 'tri tue nhan tao'); await p.waitForTimeout(200); ok((await p.locator('.card h3 a').count()) >= 1, 'tim khong dau');
   console.log('== Luyen tap'); await p.goto(url + '#/practice'); ok((await p.locator('#pk input:not(:disabled)').count()) === 28, '28 bai deu co cau hoi duoc chon'); 
-  await p.click('[data-act=all]'); await p.fill('#cn', '60'); await p.uncheck('#sh'); await p.click('[data-act=start]'); await p.waitForSelector('.opt');
+  await p.click('[data-act=all]'); await p.fill('#cn', '60'); await p.uncheck('#sh'); await p.click('[data-act=start]'); await p.waitForSelector('.opt, textarea');
   let total = 0, seen = { mcq: 0, tf: 0, essay: 0 };
   for (let i = 0; i < 60; i++) { const kind = (await p.textContent('p.mut')); if (await p.locator('textarea').count()) { seen.essay++; await p.click('[data-act=hint]'); await p.click('[data-act=self][data-v="1"]'); } else if (await p.locator('[data-act=tf]').count()) { seen.tf++; for (const k of 'abcd') await p.click(`[data-act=tf][data-k=${k}][data-v=true]`); await p.click('[data-act=tfok]'); } else { seen.mcq++; await p.locator('.opt').first().click(); }
     total++; if (i < 42) await p.click('[data-act=next]'); }
