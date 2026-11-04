@@ -30,7 +30,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   await p.click('[data-act=all]'); await p.fill('#cn', '60'); await p.uncheck('#sh'); await p.click('[data-act=start]'); await p.waitForSelector('.opt, textarea');
   let total = 0, seen = { mcq: 0, tf: 0, essay: 0 };
   for (let i = 0; i < 60; i++) { const kind = (await p.textContent('p.mut')); if (await p.locator('textarea').count()) { seen.essay++; await p.click('[data-act=hint]'); await p.click('[data-act=self][data-v="1"]'); } else if (await p.locator('[data-act=tf]').count()) { seen.tf++; for (const k of 'abcd') await p.click(`[data-act=tf][data-k=${k}][data-v=true]`); await p.click('[data-act=tfok]'); } else { seen.mcq++; await p.locator('.opt').first().click(); }
-    total++; if (i < 42) await p.click('[data-act=next]'); }
+    total++; if (i < 59) await p.click('[data-act=next]'); }
   ok(seen.mcq > 0 && seen.tf > 0 && seen.essay > 0, 'ngan hang moi co du ba dang cau hoi trong mot luot: ' + JSON.stringify(seen));
   await p.click('[data-act=end]'); await p.waitForSelector('h1:has-text("Kết quả")'); ok(await p.locator('[data-act=redo]').count() === 1, 'co nut lam lai cau sai');
   console.log('== Dap an dung'); await p.goto(url + '#/practice/ICT12_B01'); await p.fill('#cn', '17'); await p.uncheck('#sh'); await p.uncheck('.ty[value=tf]'); await p.uncheck('.ty[value=essay]'); await p.click('[data-act=start]'); await p.waitForSelector('.opt');
