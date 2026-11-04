@@ -1,11 +1,11 @@
 // Kiem thu tu dong bang Chromium that: node tests/e2e.js [file|http]
 const { chromium } = require(process.env.PW || '/home/claude/.npm-global/lib/node_modules/playwright');
 const path = require('path'), http = require('http'), fs = require('fs');
-const root = path.resolve(__dirname, '..'); const entry = process.argv[3] || 'index.html'; const mode = process.argv[2] || 'file';
+const root = path.resolve(__dirname, '..'); console.log('ROOT CHECK:', root, fs.existsSync(path.join(root, 'data/questions/ICT12_B01.js'))); const entry = process.argv[3] || 'index.html'; const mode = process.argv[2] || 'file';
 let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log('  FAIL:', m)); if (c) console.log('  ok  :', m); };
 (async () => {
   let url, srv;
-  if (mode === 'http') { srv = http.createServer((q, r) => { const reqPath = decodeURIComponent(q.url.split('?')[0]); const f = path.join(root, reqPath === '/' ? entry : reqPath.substring(1)); fs.readFile(f, (e, d) => { if (e) { r.writeHead(404); r.end(); } else { r.writeHead(200, { 'Content-Type': f.endsWith('.js') ? 'text/javascript' : f.endsWith('.css') ? 'text/css' : 'text/html' }); r.end(d); } }); }).listen(8765); url = 'http://localhost:8765/index.html'; }
+  if (mode === 'http') { srv = http.createServer((q, r) => { const reqPath = decodeURIComponent(q.url.split('?')[0]); const f = path.join(root, reqPath === '/' ? entry : reqPath.substring(1)); fs.readFile(f, (e, d) => { if (e) { console.log('404 PATH:', reqPath, f); r.writeHead(404); r.end(); } else { r.writeHead(200, { 'Content-Type': f.endsWith('.js') ? 'text/javascript' : f.endsWith('.css') ? 'text/css' : 'text/html' }); r.end(d); } }); }).listen(8765); url = 'http://localhost:8765/index.html'; }
   else url = 'file://' + root + '/' + entry;
   const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: 1100, height: 800 }, acceptDownloads: true }); const p = await ctx.newPage();
   const errs = [], ext = [];
