@@ -18,7 +18,7 @@
 
 - Khi học sinh bắt đầu luyện tập, website chọn ngẫu nhiên câu hỏi trong phạm vi bài/chủ đề đã chọn.
 - Mỗi phạm vi có chu kỳ ghi nhớ câu đã xuất hiện; lượt tiếp theo ưu tiên câu chưa làm. Khi dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.
-- Mỗi bài có 25 câu trong nguồn chuẩn; website giữ thêm các câu chỉ có trong dữ liệu website. Mỗi lượt mặc định đề xuất 10 câu, học sinh có thể điều chỉnh số lượng.
+- Mỗi bài có 25 câu trong nguồn chuẩn; website giữ thêm các câu chỉ có trong dữ liệu website. Mỗi lượt lấy tối đa 10 câu; nếu bộ lọc chọn ít hơn 10 câu phù hợp thì lượt đó dùng tất cả câu phù hợp.
 - Lịch sử câu đã xuất hiện được lưu trong dữ liệu cục bộ của từng hồ sơ trình duyệt/tài khoản trên thiết bị. Hiện cơ chế này chưa đồng bộ giữa các thiết bị qua Supabase.
 - Ngân hàng chuẩn được đọc từ `nguon/ngan-hang-cau-hoi/BAI_XX_QUESTIONS.json`. 700 câu nguồn đã được tích hợp; các câu chỉ có trên website vẫn được giữ lại.
 

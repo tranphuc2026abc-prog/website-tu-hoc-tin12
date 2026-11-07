@@ -412,13 +412,12 @@ ${nq ? `<a class="btn" href="#/practice/${id}">Luyện tập bài này (${nq} c�
 /* ---------- luyện tập / kiểm tra ---------- */
 function practice(pre) {
   const byL = C.lessons.map(l => ({ l, n: qOf(l.id).length }));
-  const defaultCount = pre ? Math.min(10, qOf(pre).length) : Math.min(10, QS().length);
   const pending = pendingQuestions().length;
   return `<h1>Luyện tập và kiểm tra</h1><p>Ngân hàng hiện có <b>${QS().length}</b> câu đã duyệt: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${QS().filter(q => q.type === 'essay').length} luyện tập/vận dụng. Bài nào chưa có câu hỏi trong nguồn sẽ không chọn được.</p>${pending ? `<p class="mut">Có ${pending} câu đang chờ giáo viên rà soát; hệ thống tạm thời không đưa các câu này vào luyện tập hoặc kiểm tra.</p>` : ''}
 <p class="mut">Mỗi lượt bắt đầu, hệ thống chọn câu hỏi ngẫu nhiên và ưu tiên câu chưa xuất hiện ở các lượt gần đây của cùng phạm vi. Khi đã dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.</p>
 <div class="card"><h3>1. Chọn bài</h3><div class="row"><button class="btn sm" data-act="all">Chọn tất cả</button><button class="btn sm" data-act="none">Bỏ chọn</button></div><div class="pick" id="pk">${byL.map(({ l, n }) => `<label><input type="checkbox" value="${l.id}" ${n ? '' : 'disabled'} ${pre === l.id ? 'checked' : ''}> ${l.n}. ${esc(l.title.replace(/^Bài \d+\.\s*/, ''))} <span class="mut">(${n})</span></label>`).join('')}</div></div>
 <div class="card"><h3>2. Dạng câu hỏi và cách làm</h3><div class="row">${[['mcq', 'Trắc nghiệm 4 lựa chọn'], ['tf', 'Đúng/Sai'], ['essay', 'Luyện tập / Vận dụng']].map(([k, v]) => `<label><input type="checkbox" class="ty" value="${k}" checked> ${v}</label>`).join('')}</div>
-<div class="row"><label>Số câu tối đa <input type="number" id="cn" min="1" max="${QS().length}" value="${defaultCount}"></label><label><input type="checkbox" id="sh" checked> Trộn thứ tự câu và phương án</label></div>
+<p class="mut">Mỗi lượt lấy tối đa 10 câu ngẫu nhiên từ các bài và dạng đã chọn; nếu ngân hàng phù hợp có ít hơn 10 câu, hệ thống dùng tất cả câu phù hợp.</p><div class="row"><label><input type="checkbox" id="sh" checked> Trộn thứ tự câu và phương án</label></div>
 <div class="row"><label><input type="radio" name="md" value="p" checked> Luyện tập: có đáp án ngay sau mỗi câu</label><label><input type="radio" name="md" value="e"> Kiểm tra: chấm khi nộp bài</label></div>
 <div class="row"><label><input type="checkbox" id="tfm" ${S.tfm ? 'checked' : ''}> Câu Đúng/Sai chấm theo thang 0,1 – 0,25 – 0,5 – 1 điểm</label></div><p class="mut">Mặc định mỗi nhận định đúng được 1/4 điểm của câu (quy tắc của website). Thang 0,1–0,25–0,5–1 là cấu trúc đề thi tốt nghiệp THPT từ năm 2025; hồ sơ nguồn không quy định điểm, hãy đối chiếu văn bản hiện hành khi dùng chính thức.</p></div>
 <button class="btn pri" data-act="start">Bắt đầu</button>`;
@@ -563,12 +562,12 @@ document.addEventListener('click', e => {
   else if (a === 'flag') { const l = mk(id); l.r = !l.r; save(); route(); }
   else if (a === 'all' || a === 'none') document.querySelectorAll('#pk input:not(:disabled)').forEach(x => x.checked = a === 'all');
   else if (a === 'start') {
-    const ids = [...document.querySelectorAll('#pk input:checked')].map(x => x.value), ty = [...document.querySelectorAll('.ty:checked')].map(x => x.value), sh = $('#sh').checked, n = Math.max(1, +$('#cn').value || 1);
+    const ids = [...document.querySelectorAll('#pk input:checked')].map(x => x.value), ty = [...document.querySelectorAll('.ty:checked')].map(x => x.value), sh = $('#sh').checked;
     S.tfm = $('#tfm').checked ? 1 : 0; save();
     if (!ids.length) { alert('Hãy chọn ít nhất một bài có câu hỏi.'); return; }
     const l = QS().filter(q => ids.includes(q.lesson) && ty.includes(q.type));
     const bankKey = l.map(q => q.id).sort().join(','); const scopeKey = ids.slice().sort().join(',') + '|' + ty.slice().sort().join(',') + '|' + bankKey;
-    const selected = drawQuestions(l, Math.min(n, l.length), scopeKey, sh);
+    const selected = drawQuestions(l, Math.min(10, l.length), scopeKey, sh);
     const ex = document.querySelector('[name=md]:checked').value === 'e';
     start(selected, { ex, shuffle: sh, title: ids.length === 1 ? L(ids[0]).title : ids.length + ' bài' });
   }
