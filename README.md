@@ -10,9 +10,16 @@
 - `index.html`, `assets/css`, `assets/js/app.js`: giao diện và logic.
 - `data/catalog.js`, `data/lessons/*.js` (28 bài), `data/questions/*.js`: dữ liệu sinh tự động từ hồ sơ nguồn.
 - `nguon/`: nguồn chính thức gồm 28 JSON ngân hàng câu hỏi và 28 tệp kiến thức chuẩn hóa; các tài liệu tổng hợp được giữ trong kho.
-- `scripts/build_data.py`: sinh `data/lessons/*.js`, `data/questions/*.js`, catalog và `BAO_CAO_NGHIEM_THU.md` từ nguồn; giữ lại câu chỉ có trên website.
+- `scripts/build_data.py`: sinh `data/lessons/*.js`, `data/questions/*.js`, catalog và `BAO_CAO_NGHIEM_THU.md` từ nguồn; giữ lại câu chỉ có trên website. Nội dung kiến thức được chia theo tiêu đề nguồn; nội dung cũ còn khác biệt được giữ ở mục mở rộng trong bài học.
 - `scripts/build_single.py`: gộp đúng 28 bài, ngân hàng câu hỏi, CSS và các script giao diện vào `Tin12_MotFile.html`.
 - `tests/e2e.js`: kiểm thử tự động bằng Playwright (`node tests/e2e.js file`).
+
+## Trải nghiệm học tập
+
+- Trong bài học, các mục tiêu và phần kiến thức được giữ theo tiêu đề trong tài liệu nguồn. Nếu còn khối nội dung từ phiên bản website trước, khối đó nằm trong mục mở rộng để không lấn át mạch nội dung chính.
+- Bài 1 có ghi chú giúp phân biệt hai mốc lịch sử được nêu trong học liệu: Phép thử Turing năm 1950 và Hội thảo Dartmouth năm 1956.
+- Với câu tự luận, website hiển thị gợi ý tự rà soát và đáp án tham khảo; tự đánh giá không phải điểm chấm tự động hay rubric chính thức.
+- Quy trình GitHub Pages tạo lại cả dữ liệu nhiều tệp và `Tin12_MotFile.html` từ nguồn trước khi kiểm thử và triển khai.
 
 ## Sinh đề ngẫu nhiên theo lượt học
 

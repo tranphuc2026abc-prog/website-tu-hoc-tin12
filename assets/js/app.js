@@ -97,10 +97,18 @@ function lesson(id) {
   const d = T.L[id], l = mk(id); l.o = Date.now(); S.last = id; save(); codes = [];
   const i = m.n - 1, pv = C.lessons[i - 1], nx = C.lessons[i + 1], r = C.rel[id], nq = qOf(id).length;
   const rl = (a, t) => a.length ? `<p><b>${t}:</b> ${a.map(lnk).join(' · ')}</p>` : '';
+  const learningNote = id === 'ICT12_B01' ? '<div class="callout"><b>Phân biệt hai mốc thời gian:</b> Phép thử Turing (1950) là đề xuất về cách đánh giá hành vi thông minh của máy tính; theo tài liệu bài học, Hội thảo Dartmouth (1956) là mốc thuật ngữ AI được đề xuất chính thức.</div>' : '';
+  const sections = KEYS.map((k, j) => {
+    const parts = d.parts && d.parts[k] ? d.parts[k] : [{ title: '', blocks: d.sec[k] || [] }];
+    const body = parts.map(p => (parts.length > 1 ? '<h3 class="part-title">' + esc(p.title) + '</h3>' : '') + (p.blocks || []).map(blk).join('')).join('');
+    const extra = d.extra && d.extra[k] || [];
+    const supplemental = extra.length ? '<details class="supplement"><summary>Nội dung bổ sung đã có (' + extra.length + ' khối)</summary><p class="mut">Phần này giữ lại nội dung có từ phiên bản trước để em tham khảo khi cần.</p>' + extra.map(blk).join('') + '</details>' : '';
+    return '<section class="sheet ' + k + '" id="s-' + k + '"><h2>' + (j + 1) + '. ' + esc(SECT[k]) + '</h2>' + body + supplemental + '<label class="chk"><input type="checkbox" data-act="sec" data-j="' + j + '" ' + (l.s[j] ? 'checked' : '') + '> Đã nắm phần này</label></section>';
+  }).join('');
   return `<p class="mut">${esc(C.topics[m.topic])} · ${m.tiet} tiết · ${m.id}</p><h1>${esc(m.title)}</h1>${prog(pct(id))}
 <div class="row toc">${KEYS.map((k, j) => `<a href="#" data-act="go" data-k="${k}">${j + 1}. ${['Mục tiêu','Trọng tâm','Thuật ngữ','Ví dụ','Thực hành','Lỗi thường gặp','Ghi nhớ'][j]}</a>`).join('')}</div>
-<div class="sum"><b>Tóm tắt nhanh</b>${ul((d.sec.rem.find(b => b.t === 'ul') || { i: [] }).i)}</div>
-${KEYS.map((k, j) => `<section class="sheet ${k}" id="s-${k}"><h2>${j + 1}. ${esc(SECT[k])}</h2>${d.sec[k].map(blk).join('')}<label class="chk"><input type="checkbox" data-act="sec" data-j="${j}" ${l.s[j] ? 'checked' : ''}> Đã nắm phần này</label></section>`).join('')}
+<div class="card study-route"><b>Cách học gợi ý</b><p>Đọc mục tiêu → học trọng tâm → xem thuật ngữ và ví dụ → thử hoạt động → tự kiểm tra bằng câu hỏi.</p><p class="mut">Dấu “Đã nắm phần này” dùng để theo dõi tiến độ cá nhân; em vẫn nên tự trả lời câu hỏi để kiểm tra mức độ hiểu.</p></div>
+${learningNote}<div class="sum"><b>Tóm tắt nhanh</b>${ul((d.sec.rem.find(b => b.t === 'ul') || { i: [] }).i)}</div>${sections}
 <div class="card"><h3>Kiến thức liên quan</h3>${r.pre.length ? `<a class="btn" href="#/lesson/${r.pre[r.pre.length - 1]}">Ôn lại kiến thức nền</a>` : ''}${rl(r.pre, 'Cần học trước')}${rl(r.rel, 'Bài có nội dung liên quan')}${nx ? rl([nx.id], 'Học tiếp') : ''}${r.why.map(w => `<p class="mut">Căn cứ: ${esc(w)}</p>`).join('')}</div>
 <div class="row"><button class="btn pri" data-act="done">${l.d ? 'Bỏ đánh dấu đã học' : 'Đánh dấu đã học'}</button><button class="btn" data-act="flag">${l.r ? 'Bỏ đánh dấu cần ôn lại' : 'Đánh dấu cần ôn lại'}</button>
 ${nq ? `<a class="btn" href="#/practice/${id}">Luyện tập bài này (${nq} câu)</a>` : '<span class="mut">Nguồn chưa có câu hỏi cho bài này – hãy ôn bằng thẻ ghi nhớ.</span>'}<a class="btn" href="#/review/${id}">Ôn bằng thẻ ghi nhớ</a></div>
@@ -111,7 +119,7 @@ ${nq ? `<a class="btn" href="#/practice/${id}">Luyện tập bài này (${nq} c�
 function practice(pre) {
   const byL = C.lessons.map(l => ({ l, n: qOf(l.id).length }));
   const pending = pendingQuestions().length;
-  return `<h1>Luyện tập và kiểm tra</h1><p>Ngân hàng hiện có <b>${QS().length}</b> câu đã duyệt: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${QS().filter(q => q.type === 'essay').length} luyện tập/vận dụng. Bài nào chưa có câu hỏi trong nguồn sẽ không chọn được.</p>${pending ? `<p class="mut">Có ${pending} câu đang chờ giáo viên rà soát; hệ thống tạm thời không đưa các câu này vào luyện tập hoặc kiểm tra.</p>` : ''}
+  return `<h1>Luyện tập và kiểm tra</h1><p>Ngân hàng đang dùng có <b>${QS().length}</b> câu: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${QS().filter(q => q.type === 'essay').length} câu tự luận/luyện tập. Câu tự luận không được chấm tự động; hãy đối chiếu với đáp án gợi ý. Bài chưa có câu hỏi nguồn sẽ không chọn được.</p>${pending ? `<p class="mut">Có ${pending} câu đang chờ giáo viên rà soát; hệ thống tạm thời không đưa các câu này vào luyện tập hoặc kiểm tra.</p>` : ''}
 <p class="mut">Mỗi lượt bắt đầu, hệ thống chọn câu hỏi ngẫu nhiên và ưu tiên câu chưa xuất hiện ở các lượt gần đây của cùng phạm vi. Khi đã dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.</p>
 <div class="card"><h3>1. Chọn bài</h3><div class="row"><button class="btn sm" data-act="all">Chọn tất cả</button><button class="btn sm" data-act="none">Bỏ chọn</button></div><div class="pick" id="pk">${byL.map(({ l, n }) => `<label><input type="checkbox" value="${l.id}" ${n ? '' : 'disabled'} ${pre === l.id ? 'checked' : ''}> ${l.n}. ${esc(l.title.replace(/^Bài \d+\.\s*/, ''))} <span class="mut">(${n})</span></label>`).join('')}</div></div>
 <div class="card"><h3>2. Dạng câu hỏi và cách làm</h3><div class="row">${[['mcq', 'Trắc nghiệm 4 lựa chọn'], ['tf', 'Đúng/Sai'], ['essay', 'Luyện tập / Vận dụng']].map(([k, v]) => `<label><input type="checkbox" class="ty" value="${k}" checked> ${v}</label>`).join('')}</div>
@@ -172,6 +180,7 @@ function show() {
     const a = S.ans[q.id] || {};
     b = `<p class="mut">${esc(q.kind)} (${esc(q.ref)})</p><textarea id="ta" aria-label="Câu trả lời của em" placeholder="Viết câu trả lời của em…">${esc(a.tx || '')}</textarea>
 <div class="row"><button class="btn" data-act="hint">${r.hint ? 'Ẩn đáp án tham khảo' : 'Xem đáp án tham khảo'}</button></div>
+<div class="essay-guide"><b>Gợi ý tự rà soát (không phải thang điểm)</b><ul><li>Em đã trả lời đúng trọng tâm câu hỏi chưa?</li><li>Em đã dùng thuật ngữ phù hợp với bài học chưa?</li><li>Nếu đề yêu cầu, em đã nêu lý do hoặc ví dụ chưa?</li></ul></div>
 ${r.hint ? `<div class="fb">${q.hint ? '<p>' + inl(q.hint) + '</p>' : ''}${q.pts.length ? '<p><b>Tự đối chiếu:</b></p>' + q.pts.map((p, j) => `<label class="chk"><input type="checkbox"> ${inl(p)}</label>`).join('') : ''}${q.nt ? `<p class="mut">${inl(q.nt)} Hãy tự thực hiện rồi đánh dấu hoàn thành.</p>` : ''}</div><div class="row"><button class="btn pri" data-act="self" data-v="1">Em đã làm được</button><button class="btn" data-act="self" data-v="0">Cần xem lại bài</button></div>` : ''}
 ${fin ? `<p class="mut">Đã ghi nhận: ${r.self ? 'đã làm được' : 'cần xem lại'}. Câu tự luận không tính vào điểm số.</p>` : ''}`;
   }
