@@ -18,6 +18,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build source data
+        run: |
+          python scripts/build_data.py nguon
+          python scripts/build_single.py
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -29,4 +37,6 @@ jobs:
       - name: Run website E2E tests
         env:
           PW: playwright
-        run: node tests/e2e.js http
+        run: |
+          node tests/e2e.js http index.html
+          node tests/e2e.js file Tin12_MotFile.html

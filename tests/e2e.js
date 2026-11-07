@@ -13,7 +13,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   p.on('request', r => { const u = r.url(); if (!u.startsWith('file:') && !u.startsWith('http://localhost') && !u.startsWith('data:') && !u.startsWith('blob:') && !u.startsWith('about:')) ext.push(u); });
   await p.goto(url); try { await p.waitForSelector('.map', { timeout: 15000 }); } catch (e) { console.log('INIT BODY:', await p.locator('body').innerText()); console.log('INIT ERRORS:', errs); throw e; }
   console.log('== Trang chu'); ok(await p.locator('.cell').count() === 28, '28 o bai tren ban do');
-  ok((await p.textContent('.stats')).includes('28') && (await p.textContent('.stats')).includes('743'), 'thong ke 28 bai / 743 cau sau khi hop nhat');
+  const shownQuestionCount = Number(await p.locator('.stats > div').nth(3).locator('b').textContent()); const loadedQuestionCount = await p.evaluate(() => window.T.cat.qfiles.reduce((n, id) => n + (window.T.Q[id] || []).filter(q => q.st === 'ok').length, 0)); ok(await p.locator('.cell').count() === 28 && shownQuestionCount === loadedQuestionCount, 'thong ke 28 bai / dung so cau da nap: ' + loadedQuestionCount);
   console.log('== Mo tung bai'); let bad = [];
   for (let n = 1; n <= 28; n++) { const id = 'ICT12_B' + String(n).padStart(2, '0'); await p.goto(url + '#/lesson/' + id); await p.waitForSelector('.sheet'); const c = await p.locator('.sheet').count(), h = await p.textContent('h1'); const terms = await p.locator('.sheet.terms li').count(); if (c !== 7 || !h.startsWith('Bài ' + n + '.') || terms < 3) bad.push(id + ':' + c + ':' + terms); }
   ok(!bad.length, 'moi bai hien du 7 muc + thuat ngu' + (bad.length ? ' loi: ' + bad : ''));
