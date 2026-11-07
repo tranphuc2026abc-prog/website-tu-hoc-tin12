@@ -1,16 +1,16 @@
 # Báo cáo nghiệm thu – Hợp nhất kho học liệu Tin học 12
 
-Nguồn kiến thức: `nguon/kien-thuc-chuan-hoa/BAI_XX.md`. Nguồn câu hỏi chuẩn: `nguon/ngan-hang-cau-hoi/BAI_XX_QUESTIONS.json`. Dữ liệu nguồn không bị sửa.
+Nguồn kiến thức: `nguon/kien-thuc-chuan-hoa/BAI_XX.md`. Nguồn câu hỏi chuẩn: `nguon/ngan-hang-cau-hoi/BAI_XX_QUESTIONS.json`. Các tệp trong `nguon/` được giữ nguyên.
 
 ## Đối chiếu câu hỏi
 
-- Tổng nguồn: **700 câu** (616 MCQ, 28 đúng/sai, 56 tự luận).
-- Website trước hợp nhất: **743 bản ghi**.
-- Câu nguồn đã có khớp ID trên website: **700**; câu nguồn nhập mới: **0**.
-- Câu trùng thực sự bị loại: **0**; không có câu nguồn bị thiếu.
-- Sau hợp nhất: **743 câu**. Giữ nguyên **43 câu chỉ có trên website** vì chưa có căn cứ xác định chúng là trùng hoặc cần loại.
-- Phân loại sau hợp nhất: **651 MCQ, 33 đúng/sai, 59 tự luận**.
-- Đối chiếu ID và nội dung nguồn: 700/700 khớp bài học, loại câu, nội dung câu; MCQ khớp phương án/đáp án; đúng/sai khớp mệnh đề; tự luận khớp hướng dẫn trả lời.
+- Tổng câu nguồn: **700** (616 MCQ, 28 đúng/sai, 56 tự luận).
+- Website trước build: **743** bản ghi.
+- Câu nguồn đã có khớp ID: **700**; câu nguồn nhập mới: **0**.
+- Bản ghi trùng thực sự loại khi build: **0**; câu nguồn thiếu: **0**.
+- Tổng sau build: **743**, gồm **43 câu chỉ có trên website** được giữ nguyên.
+- Phân loại sau build: **651 MCQ, 33 đúng/sai, 59 tự luận**.
+- Đã so khớp 700/700 ID, bài học, loại, nội dung, phương án/đáp án MCQ, mệnh đề đúng/sai và gợi ý tự luận.
 
 ## Thống kê theo bài
 
@@ -45,16 +45,20 @@ Nguồn kiến thức: `nguon/kien-thuc-chuan-hoa/BAI_XX.md`. Nguồn câu hỏi
 | 27 | 25 | 25 | 0 | 0 | 26 | 23 | 1 | 2 | Đạt |
 | 28 | 25 | 25 | 0 | 0 | 25 | 22 | 1 | 2 | Đạt |
 
-## Kiến thức và build
+## Kiến thức và quy trình build
 
-- 28/28 tệp kiến thức chuẩn hóa được ánh xạ đúng bài. Nội dung từ 7 phần nguồn được chuyển sang cấu trúc hiển thị; phần kiến thức cũ không có trong nguồn giữ lại.
-- Đã phát hiện ứng dụng nạp `data/lessons/` nhưng dữ liệu cũ nằm ở `data/lesons/`. Bản build mới tạo đúng `data/lessons/`; thư mục cũ không bị xóa.
-- `scripts/build_data.py` đọc JSON câu hỏi từng bài và Markdown kiến thức chuẩn hóa; giữ lại câu web-only, tạo catalog, dữ liệu bài/câu hỏi và báo cáo.
-- `scripts/build_single.py` được cập nhật để gộp 28 bài, dữ liệu câu hỏi, CSS và script ứng dụng.
+- 28/28 tệp kiến thức chuẩn hóa được chuyển vào đúng bài, giữ nội dung các phần và bảng thuật ngữ; nội dung cũ không có trong nguồn được giữ lại.
+- Website nạp `data/lessons/`, trong khi repository trước đó chỉ có `data/lesons/`. Build tạo đúng `data/lessons/`; dữ liệu trong thư mục cũ không bị xóa.
+- `scripts/build_data.py` đọc JSON câu hỏi theo bài và Markdown kiến thức chuẩn hóa, giữ câu web-only, dựng dữ liệu/catalog và tạo lại báo cáo.
+- `scripts/build_single.py` gộp catalog, 28 bài, câu hỏi, CSS và script ứng dụng vào `Tin12_MotFile.html`.
 
 ## Kết quả kiểm thử
 
-- Kiểm tra thống kê và đối chiếu nguồn/đích: **đạt qua phân tích dữ liệu GitHub**.
-- Kiểm tra cú pháp và chạy `scripts/build_data.py`: **chưa chạy cục bộ** vì môi trường không có Python; workflow CI được cập nhật để chạy build trước E2E.
-- Playwright E2E bản nhiều tệp và bản một tệp: **chờ workflow GitHub Actions chạy sau khi mở PR**.
-- Các chức năng lưu tiến độ/localStorage, Supabase và giao diện không được sửa trong thay đổi này.
+GitHub Actions workflow `Question bank E2E`, run **42373522108**: **đạt**.
+
+- `python scripts/build_data.py nguon`: đạt; build 28 bài và toàn bộ ngân hàng.
+- `python scripts/build_single.py`: đạt; tạo bản một tệp.
+- `node tests/e2e.js http index.html`: **33 đạt, 0 lỗi**.
+- `node tests/e2e.js file Tin12_MotFile.html`: **33 đạt, 0 lỗi**.
+- E2E bao gồm tải 28 bài, đếm câu, luyện tập ba loại câu hỏi, chấm điểm, làm lại câu sai, lịch sử/tiến độ, backup/restore, responsive và offline.
+- Cấu hình Supabase và chính sách cơ sở dữ liệu không thay đổi; kiểm thử kết nối Supabase thực tế không nằm trong E2E này.
