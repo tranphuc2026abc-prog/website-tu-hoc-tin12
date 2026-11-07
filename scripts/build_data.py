@@ -6,7 +6,7 @@ SRC = sys.argv[1] if len(sys.argv) > 1 else 'nguon'
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 rd = lambda f: open(os.path.join(SRC, f), encoding='utf-8').read()
 SEC = {'1': 'obj', '2': 'key', '3': 'terms', '4': 'ex', '5': 'steps', '6': 'err', '7': 'rem'}
-LI = re.compile(r'^(\s*)(?:[*-]|\d+\.)\s+(.*)$')
+LI = re.compile(r'^(\s*)(?:[*+-]|\d+\.)\s+(.*)$')
 
 
 def blocks(lines):
@@ -88,27 +88,37 @@ for n in range(1, 29):
     assert set(sections) == set(ROMAN), 'Bai %d phai co du 7 muc I-VII' % n
     old = old_lesson(lid)
     old_sec = old.get('sec', {})
+    old_extra = old.get('extra', {})
     sec = {k: [] for k in ('obj', 'key', 'terms', 'ex', 'steps', 'err', 'rem')}
-    for roman, key in ROMAN.items(): sec[key].extend(sections[roman]['blocks'])
-    # Giữ lại các khối bài học cũ không có trong nguồn chuẩn hóa.
+    parts = {k: [] for k in sec}
+    extra = {k: [] for k in sec}
+    for roman, key in ROMAN.items():
+        part = sections[roman]
+        parts[key].append({'title': roman + '. ' + part['title'], 'blocks': part['blocks']})
+        sec[key].extend(part['blocks'])
+    # Nội dung cũ không trùng cấu trúc với nguồn được giữ riêng để người học mở khi cần.
     for key in sec:
-        seen_blocks = {json.dumps(x, ensure_ascii=False, sort_keys=True) for x in sec[key]}
-        for block in old_sec.get(key, []):
+        source_blocks = {json.dumps(x, ensure_ascii=False, sort_keys=True) for x in sec[key]}
+        seen_extra = set()
+        for block in old_sec.get(key, []) + old_extra.get(key, []):
             sig = json.dumps(block, ensure_ascii=False, sort_keys=True)
-            if sig not in seen_blocks:
-                sec[key].append(block); seen_blocks.add(sig)
+            if sig not in source_blocks and sig not in seen_extra:
+                extra[key].append(block); seen_extra.add(sig)
     terms = []
     for block in sections['VI']['blocks']:
         if block['t'] == 'tb':
             for row in block['r'][1:]:
                 if len(row) >= 3: terms.append({'t': row[0], 'd': row[1] + ': ' + row[2]})
-    term_keys = {norm_question(x['t']) for x in terms} if 'norm_question' in globals() else {x['t'].lower() for x in terms}
+    term_keys = {unicodedata.normalize('NFD', x['t'].lower()).replace('đ', 'd') for x in terms}
+    term_keys = {re.sub(r'[^a-z0-9]+', ' ', ''.join(c for c in x if unicodedata.category(c) != 'Mn')).strip() for x in term_keys}
     for item in old.get('terms', []):
-        if item.get('t', '').lower() not in term_keys:
-            terms.append(item)
+        key = re.sub(r'[^a-z0-9]+', ' ', ''.join(c for c in unicodedata.normalize('NFD', item.get('t', '').lower().replace('đ', 'd')) if unicodedata.category(c) != 'Mn')).strip()
+        if key and key not in term_keys:
+            terms.append(item); term_keys.add(key)
     L = dict(old)
-    L.update({'sec': sec, 'terms': terms, 'src': 'nguon/kien-thuc-chuan-hoa/BAI_%02d.md' % n})
-    L['txt'] = ' '.join(x for key in sec for x in flat(sec[key]))
+    L.update({'sec': sec, 'parts': parts, 'extra': extra, 'terms': terms,
+              'src': 'nguon/kien-thuc-chuan-hoa/BAI_%02d.md' % n})
+    L['txt'] = ' '.join(x for key in sec for x in flat(sec[key] + extra[key]))
     lessons[lid] = L
 assert len(lessons) == 28, 'Kho kien thuc chuan hoa khong du 28 bai'
 
@@ -271,7 +281,7 @@ for d in ('lessons', 'questions'):
     os.makedirs(os.path.join(OUT, d), exist_ok=True)
 reg = '(window.T=window.T||{L:{},Q:{}}).%s%s=%s;\n'
 for lid, L in lessons.items():
-    open(os.path.join(OUT, 'lessons', lid + '.js'), 'w', encoding='utf-8').write(reg % ('L', '["%s"]' % lid, js({'sec': L['sec'], 'terms': L['terms'], 'txt': L['txt']})))
+    open(os.path.join(OUT, 'lessons', lid + '.js'), 'w', encoding='utf-8').write(reg % ('L', '["%s"]' % lid, js({'sec': L['sec'], 'parts': L['parts'], 'extra': L['extra'], 'terms': L['terms'], 'txt': L['txt']})))
     if Q[lid]: open(os.path.join(OUT, 'questions', lid + '.js'), 'w', encoding='utf-8').write(reg % ('Q', '["%s"]' % lid, js(Q[lid])))
 
 cat = {'topics': topics, 'rel': R, 'hk': {'HK1': [1, 14], 'HK2': [15, 28]}, 'qfiles': [i for i in ids if Q[i]],

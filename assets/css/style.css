@@ -1,6 +1,6 @@
 /* TIN HOC 12 — DIGITAL LEARNING HUB */
 :root{
- --bg:#f4f7fc;--surface:#fff;--surface-2:#edf3fb;--ink:#101c3d;--tx:#263552;--mut:#71809e;
+ --bg:#f4f7fc;--surface:#fff;--surface-2:#edf3fb;--ink:#101c3d;--tx:#263552;--mut:#5b6c86;
  --primary:#315cf5;--primary-2:#6b83ff;--cyan:#22c7dc;--violet:#7a62f5;--green:#16a579;
  --danger:#dc4964;--gold:#f5b942;--bd:#dce5f2;--grid:rgba(49,92,245,.045);
  --code:#0a1530;--shadow:0 14px 40px rgba(22,42,91,.08);--shadow-sm:0 5px 18px rgba(22,42,91,.06);
@@ -125,9 +125,23 @@ select,input[type=number]{font:inherit;padding:9px 11px;border:1px solid var(--b
 /* Banner toàn chiều ngang ở đầu trang, phía trên menu học tập */
 .site-cover{width:100%;margin:0;padding:0;line-height:0;background:#061b4c;overflow:hidden}
 .site-cover .home-cover{
- display:block;width:100%;height:clamp(120px,16vw,210px);aspect-ratio:auto;object-fit:cover;object-position:center;
+ display:block;width:100%;height:clamp(88px,11vw,152px);aspect-ratio:auto;object-fit:cover;object-position:center;
  margin:0;border-radius:0;background:#061b4c;box-shadow:none;
 }
 @media(max-width:640px){
- .site-cover .home-cover{height:120px;object-fit:cover;object-position:center}
+ .site-cover .home-cover{height:84px;object-fit:cover;object-position:center}
 }
+
+
+/* Learning experience refinements */
+:focus-visible{outline:3px solid var(--primary);outline-offset:3px}
+.study-route{border-left:4px solid var(--primary);background:color-mix(in srgb,var(--primary) 6%,var(--surface));margin:16px 0}
+.study-route p{margin:7px 0 0}
+.callout{margin:14px 0;padding:14px 17px;border-left:4px solid var(--gold);border-radius:12px;background:color-mix(in srgb,var(--gold) 12%,var(--surface));color:var(--tx)}
+.part-title{margin:18px 0 8px;font-size:1.04rem;letter-spacing:0;color:var(--primary)}
+.supplement{margin:16px 0;padding:12px 15px;border:1px solid var(--bd);border-radius:13px;background:var(--surface-2)}
+.supplement summary{cursor:pointer;color:var(--primary);font-weight:700}
+.supplement[open] summary{margin-bottom:12px}
+.essay-guide{margin:12px 0;padding:13px 16px;border-radius:12px;background:var(--surface-2);color:var(--tx)}
+.essay-guide ul{margin:7px 0 0;padding-left:22px}
+@media(max-width:640px){.site-cover .home-cover{height:84px}}
