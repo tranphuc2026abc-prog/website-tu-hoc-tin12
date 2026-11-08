@@ -32,14 +32,15 @@ def blocks(text):
     chunks = [x.strip() for x in re.split(r"\n\s*\n", text) if x.strip()]
     return [{"t": "p", "x": x} for x in chunks]
 
-def knowledge_blocks(md):
-    """Extract student-facing knowledge summaries from KHBD products or objectives."""
+def knowledge_blocks(md, fallback=""):
+    """Extract concise student-facing knowledge from expected products/objectives."""
     start = md.find("```text")
     if start < 0:
-        return blocks(md)
-    start = md.find("\n", start) + 1
-    end = md.find("\n```", start)
-    raw = md[start:end if end >= 0 else len(md)]
+        raw = md
+    else:
+        start = md.find("\\n", start) + 1
+        end = md.find("\\n```", start)
+        raw = md[start:end if end >= 0 else len(md)]
 
     items = []
     for row in raw.split("[BẢNG]")[1:]:
@@ -47,47 +48,38 @@ def knowledge_blocks(md):
         left = columns[0].strip()
         value = columns[1].strip() if len(columns) > 1 else ""
         if (not value or left.upper().startswith("HOẠT ĐỘNG")
-                or re.match(r"^(?:Câu\s+\d+|[A-D])$", left, re.I)
+                or re.match(r"^(?:Câu\\s+\\d+|[A-D])$", left, re.I)
                 or value.upper().startswith("NLS")
-                or re.match(r"^(?:Câu\s+\d+|[A-D])$", value, re.I)):
+                or re.match(r"^(?:Câu\\s+\\d+|[A-D])$", value, re.I)):
             continue
 
-        # Practice answers and the full lesson plan remain in nguon/.
         cut = re.search(
-            r"Thực hành\s+\d+\s*:|Luyện tập\s+\d+\s*:|"
-            r"Vận dụng\s+\d+\s*:|Câu hỏi củng cố|"
-            r"3\.\s*HOẠT ĐỘNG LUYỆN TẬP|"
-            r"\r?\nBước\s+\d+\s*:\s*GV|"
-            r"\r?\nHoạt động\s+\d+\s*:",
-            value, re.I)
+            r"Thực hành\\s+\\d+\\s*:|Luyện tập\\s+\\d+\\s*:|"
+            r"Vận dụng\\s+\\d+\\s*:|Câu hỏi củng cố|"
+            r"3\\.\\s*HOẠT ĐỘNG LUYỆN TẬP|"
+            r"\\r?\\nBước\\s+\\d+\\s*:\\s*GV|"
+            r"\\r?\\nHoạt động\\s+\\d+\\s*:", value, re.I)
         if cut:
             value = value[:cut.start()]
-        value = value.strip()
-        if not re.match(r"^\d+\.", value):
+        value = re.sub(r"^Nhiệm vụ\\s+\\d+\\s*:\\s*", "", value, flags=re.I).strip()
+        if not value or re.match(r"^(?:GV|HS thực hiện|Học sinh thực hiện)\\b", value, re.I):
             continue
 
-        title_match = re.match(
-            r"^\d+\.\s*(.+?)(?=(?:[a-z]\)\s+)|"
-            r"(?:Thiết bị số có ưu điểm:)|(?:-\s)|(?:\+\s)|$)",
-            value, re.I)
-        title = title_match.group(1).strip() if title_match else ""
-        body = value[title_match.end():] if title_match else value
-        body = re.sub(r"(?<=[.!?])(?=[a-z]\)\s+)", "\n", body)
-        body = re.sub(r"([a-z]\)\s+)", r"\n\1", body)
-        body = re.sub(r"(?<=[.!?])(?=[A-ZÀ-Ỵ0-9])", "\n", body)
+        if re.match(r"^\\d+\\.", value):
+            title_match = re.match(r"^\\d+\\.\\s*(.+?)(?=(?:[a-z]\\)\\s+)|(?:-\\s)|(?:\\+\\s)|$)", value, re.I)
+            if title_match:
+                items.append({"x": "**" + title_match.group(1).strip() + "**"})
+                value = value[title_match.end():]
+        value = re.sub(r"(?<=[.!?])(?=[a-z]\\)\\s+)", "\\n", value)
+        value = re.sub(r"(?<=[.!?])(?=[A-ZÀ-Ỵ0-9])", "\\n", value)
+        for point in re.split(r"[-+]\\s+|\\n+", value):
+            point = re.sub(r"\\s+", " ", point).strip(" :;")
+            if point and not re.match(r"^(?:Bước\\s+\\d+|GV|HS thực hiện)\\b", point, re.I):
+                items.append({"x": point})
 
-        points = [point.strip().strip(":; ") for point in re.split(r"[-+]\s+", body) if point.strip(":; ")]
-        entry = []
-        if title:
-            entry.append({"x": "**" + title + "**"})
-        for point in points:
-            point = re.sub(r"\s+", " ", point).strip()
-            if re.match(r"^[a-z]\)\s+", point, re.I):
-                point = "**" + point + "**"
-            if point:
-                entry.append({"x": point})
-        items.extend(entry)
-
+    # Long lesson-plan products contain worked exercises; use the KHBD's concise learning goals instead.
+    if (not items or sum(len(item["x"]) for item in items) > 1000) and fallback:
+        items = [{"x": point.strip()} for point in re.split(r"\\n+", fallback) if point.strip()]
     if not items:
         raise AssertionError("No concise knowledge extracted from KHBD")
     return [{"t": "ul", "i": items}]
@@ -154,7 +146,7 @@ def build_grade(grade, expected):
         sec = {k: [] for k in SECTION_KEYS}
         if goals:
             sec["obj"] = [{"t": "ul", "i": [{"x": x} for x in goals]}]
-        sec["key"] = knowledge_blocks(md)
+        sec["key"] = knowledge_blocks(md, "\\n".join(goals))
         if acts:
             sec["steps"] = [{"t": "ul", "i": [{"x": x} for x in acts]}]
         lessons_data = {"sec": sec, "terms": [], "txt": full_text, "src": str(path.relative_to(ROOT)).replace("\\", "/")}
