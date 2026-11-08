@@ -155,7 +155,7 @@ def lesson_sections(md, title, goals, key):
                 and not re.match(r"^(?:Bước\s+\d+|Nhiệm vụ\s+\d+|Hoạt động\s+\d+)", text, re.I))
 
     term_pairs, seen_terms = [], set()
-    def add_term(term, definition):
+    def add_term(term, definition, strict=False):
         term = re.sub(r"\s+", " ", term).strip(" -*:;.")
         definition = re.sub(r"\s+", " ", definition).strip(" -*:;.")
         norm = re.sub(r"[^\w]+", "", term.lower())
@@ -186,7 +186,7 @@ def lesson_sections(md, title, goals, key):
             continue
         definition = re.search(r"^(.{2,75}?)\s+(?:là|được gọi là|gọi là)\s+(.{12,})$", sentence, re.I)
         if definition:
-            add_term(definition.group(1), sentence)
+            add_term(definition.group(1), sentence, strict=True)
     if not term_pairs:
         add_term(title, goals[0] if goals else "Nội dung chính của bài học.")
     if len(term_pairs) < 3:
