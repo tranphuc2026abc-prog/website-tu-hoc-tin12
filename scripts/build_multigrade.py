@@ -274,10 +274,6 @@ def build_grade(grade, expected):
             sec["obj"] = [{"t": "ul", "i": [{"x": x} for x in goals]}]
         sec["key"] = knowledge_blocks(md, "\n".join(goals))
         terms, examples, cautions, reminders = lesson_sections(md, title, goals, sec["key"])
-        sec["terms"] = [{"t": "ul", "i": [{"x": "**" + item["t"] + "** — " + item["d"]} for item in terms]}]
-        sec["ex"] = [{"t": "ul", "i": [{"x": item} for item in examples]}]
-        sec["err"] = [{"t": "ul", "i": [{"x": item} for item in cautions]}]
-        sec["rem"] = [{"t": "ul", "i": [{"x": item} for item in reminders]}]
         # Guarantee renderable section content even when a KHBD has sparse or malformed headings.
         if not terms:
             terms = [{"t": title, "d": goals[0] if goals else "Nội dung trọng tâm theo KHBD của bài."}]
@@ -291,6 +287,10 @@ def build_grade(grade, expected):
             lesson_id + " missing enriched lesson section: "
             + str(tuple(map(len, (terms, examples, cautions, reminders))))
         )
+        sec["terms"] = [{"t": "ul", "i": [{"x": "**" + item["t"] + "** — " + item["d"]} for item in terms]}]
+        sec["ex"] = [{"t": "ul", "i": [{"x": item} for item in examples]}]
+        sec["err"] = [{"t": "ul", "i": [{"x": item} for item in cautions]}]
+        sec["rem"] = [{"t": "ul", "i": [{"x": item} for item in reminders]}]
         if acts:
             sec["steps"] = [{"t": "ul", "i": [{"x": x} for x in acts]}]
         lessons_data = {"sec": sec, "terms": terms, "txt": full_text, "src": str(path.relative_to(ROOT)).replace("\\", "/")}
