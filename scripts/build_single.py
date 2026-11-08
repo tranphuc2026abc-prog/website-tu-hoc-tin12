@@ -16,7 +16,7 @@ for lesson_id in ids:
     question_path = 'data/questions/%s.js' % lesson_id
     if os.path.exists(os.path.join(ROOT, question_path)): data.append(read(question_path))
 
-html = read('index.html')
+html = read('course.html')
 nl = chr(10)
 escape_script = '<' + chr(92) + '/script'
 for css in ('assets/css/style.css', 'assets/css/panels.css'):
@@ -28,6 +28,7 @@ bundle = '<script>' + nl + nl.join(data).replace('</script', escape_script) + nl
 for script in scripts:
     source = read(script).replace('</script', escape_script)
     bundle += '<script>' + nl + source + nl + '</script>' + nl
+html = html.replace('<script src="assets/js/course-loader.js"></script>', '')
 for script in ('data/catalog.js',) + scripts:
     html = html.replace('<script src="%s"></script>' % script, '')
 html = html.replace('</body>', bundle + '</body>')
