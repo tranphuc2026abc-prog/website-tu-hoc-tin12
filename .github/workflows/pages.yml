@@ -3,6 +3,8 @@ name: Validate and deploy Tin hoc 12
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -32,18 +34,23 @@ jobs:
           test -f assets/css/style.css
           test -f assets/js/app.js
           test -f data/catalog.js
+          test -f data/catalog-10.js
+          test -f data/catalog-11.js
           test -f tests/e2e.js
           test -d nguon
-          python scripts/build_data.py nguon
+          python scripts/build_all_grades.py nguon
           python - <<'PY'
           from pathlib import Path
-          html = Path("index.html").read_text(encoding="utf-8")
-          assert 'assets/css/style.css' in html
-          assert 'data/catalog.js' in html
-          assert 'assets/js/app.js' in html
-          catalog = Path("data/catalog.js").read_text(encoding="utf-8")
-          assert all(f'"ICT12_B{i:02d}"' in catalog for i in range(1, 29)), "Catalog appears to lack lesson IDs"
-          print("Static file and catalog checks passed.")
+          from json import loads
+          portal = Path("index.html").read_text(encoding="utf-8")
+          course = Path("course.html").read_text(encoding="utf-8")
+          assert all(f'course.html?grade={g}' in portal for g in (10, 11, 12))
+          assert 'assets/js/course-loader.js' in course
+          for grade, expected in ((10, 34), (11, 31), (12, 28)):
+              path = Path("data") / (f"catalog-{grade}.js" if grade < 12 else "catalog.js")
+              text = path.read_text(encoding="utf-8")
+              assert text.count('"id":"ICT%d_B' % grade) == expected, f"Grade {grade} catalog lesson count"
+          print("Portal and all three catalogs passed static checks.")
           PY
 
       - name: Set up Node.js
@@ -67,6 +74,7 @@ jobs:
           path: .
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
