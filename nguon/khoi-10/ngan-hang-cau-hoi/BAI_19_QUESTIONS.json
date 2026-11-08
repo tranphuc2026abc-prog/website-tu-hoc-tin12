@@ -1,0 +1,632 @@
+{
+  "ma_bai": "BAI_19",
+  "bai_so": 19,
+  "ten_bai": "Câu lệnh rẽ nhánh if",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B19-MC-001",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Điều kiện?",
+        "options": [
+          {
+            "id": "A",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "B",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          },
+          {
+            "id": "C",
+            "text": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
+          },
+          {
+            "id": "D",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Điều kiện trong if được đánh giá thành True hoặc False.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B19-MC-002",
+        "type": "mcq",
+        "question": "Giá trị logic.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "C",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          },
+          {
+            "id": "D",
+            "text": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-003",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Điều kiện?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?"
+          },
+          {
+            "id": "B",
+            "text": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?"
+          },
+          {
+            "id": "C",
+            "text": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?"
+          },
+          {
+            "id": "D",
+            "text": "Phân loại điểm thành nhiều mức: cấu trúc nào có thể thêm?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-004",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về if?",
+        "options": [
+          {
+            "id": "A",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "B",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "C",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          },
+          {
+            "id": "D",
+            "text": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
+          }
+        ],
+        "answer": "A",
+        "explanation": "if thực hiện khối lệnh khi điều kiện đúng.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B19-MC-005",
+        "type": "mcq",
+        "question": "if condition:.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          },
+          {
+            "id": "D",
+            "text": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
+          }
+        ],
+        "answer": "B",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-006",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho if?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?"
+          },
+          {
+            "id": "B",
+            "text": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?"
+          },
+          {
+            "id": "C",
+            "text": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?"
+          },
+          {
+            "id": "D",
+            "text": "Phân loại điểm thành nhiều mức: cấu trúc nào có thể thêm?"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-007",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về if-else?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          },
+          {
+            "id": "C",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "D",
+            "text": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
+          }
+        ],
+        "answer": "B",
+        "explanation": "if-else chọn một trong hai khối tùy kết quả điều kiện.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B19-MC-008",
+        "type": "mcq",
+        "question": "if-else.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-009",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho if-else?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?"
+          },
+          {
+            "id": "B",
+            "text": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?"
+          },
+          {
+            "id": "C",
+            "text": "Phân loại điểm thành nhiều mức: cấu trúc nào có thể thêm?"
+          },
+          {
+            "id": "D",
+            "text": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-010",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về elif?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "C",
+            "text": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
+          },
+          {
+            "id": "D",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          }
+        ],
+        "answer": "C",
+        "explanation": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B19-MC-011",
+        "type": "mcq",
+        "question": "elif.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "C",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-012",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho elif?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phân loại điểm thành nhiều mức: cấu trúc nào có thể thêm?"
+          },
+          {
+            "id": "B",
+            "text": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?"
+          },
+          {
+            "id": "C",
+            "text": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?"
+          },
+          {
+            "id": "D",
+            "text": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Phân loại điểm thành nhiều mức: cấu trúc nào có thể thêm?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-013",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Thụt lề?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "C",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          },
+          {
+            "id": "D",
+            "text": "Python dùng thụt lề để xác định khối lệnh."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Python dùng thụt lề để xác định khối lệnh.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B19-MC-014",
+        "type": "mcq",
+        "question": "Thụt lề thống nhất sau dấu hai chấm.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "C",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "D",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-015",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Thụt lề?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?"
+          },
+          {
+            "id": "B",
+            "text": "Lệnh cần nằm trong nhánh if: cần định dạng thế nào?"
+          },
+          {
+            "id": "C",
+            "text": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?"
+          },
+          {
+            "id": "D",
+            "text": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Lệnh cần nằm trong nhánh if: cần định dạng thế nào?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-016",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về So sánh?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Các toán tử ==, !=, <, >, <=, >= so sánh giá trị."
+          },
+          {
+            "id": "B",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "C",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "D",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Các toán tử ==, !=, <, >, <=, >= so sánh giá trị.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B19-MC-017",
+        "type": "mcq",
+        "question": "==.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "D",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          }
+        ],
+        "answer": "B",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-018",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho So sánh?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?"
+          },
+          {
+            "id": "B",
+            "text": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?"
+          },
+          {
+            "id": "C",
+            "text": "Kiểm tra x có bằng 0 không: toán tử nào phù hợp?"
+          },
+          {
+            "id": "D",
+            "text": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Kiểm tra x có bằng 0 không: toán tử nào phù hợp?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-019",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Điều kiện kết hợp?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B",
+            "text": "and, or, not kết hợp hoặc đảo các điều kiện logic."
+          },
+          {
+            "id": "C",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "D",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          }
+        ],
+        "answer": "B",
+        "explanation": "and, or, not kết hợp hoặc đảo các điều kiện logic.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B19-MC-020",
+        "type": "mcq",
+        "question": "Dùng hai phép so sánh với and.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "B",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-021",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Điều kiện kết hợp?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?"
+          },
+          {
+            "id": "B",
+            "text": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?"
+          },
+          {
+            "id": "C",
+            "text": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?"
+          },
+          {
+            "id": "D",
+            "text": "Cần kiểm tra tuổi trong một khoảng: kết hợp thế nào?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Cần kiểm tra tuổi trong một khoảng: kết hợp thế nào?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B19-MC-022",
+        "type": "mcq",
+        "question": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Câu lệnh rẽ nhánh if”?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Điều kiện trong if được đánh giá thành True hoặc False. if thực hiện khối lệnh khi điều kiện đúng."
+          },
+          {
+            "id": "B",
+            "text": "if thực hiện khối lệnh khi điều kiện đúng. if luôn chạy khối lệnh bất kể điều kiện đúng hay sai."
+          },
+          {
+            "id": "C",
+            "text": "Python xác định khối if bằng dấu ngoặc nhọn thay vì thụt lề. Điều kiện trong if được đánh giá thành True hoặc False."
+          },
+          {
+            "id": "D",
+            "text": "if luôn chạy khối lệnh bất kể điều kiện đúng hay sai. Python xác định khối if bằng dấu ngoặc nhọn thay vì thụt lề."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Điều kiện trong if được đánh giá thành True hoặc False. if thực hiện khối lệnh khi điều kiện đúng.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B19-TF-001",
+        "type": "true_false",
+        "question": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Câu lệnh rẽ nhánh if”.",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Điều kiện trong if được đánh giá thành True hoặc False.",
+            "answer": true
+          },
+          {
+            "id": "b",
+            "statement": "if luôn chạy khối lệnh bất kể điều kiện đúng hay sai.",
+            "answer": false
+          },
+          {
+            "id": "c",
+            "statement": "if-else chọn một trong hai khối tùy kết quả điều kiện.",
+            "answer": true
+          },
+          {
+            "id": "d",
+            "statement": "Python xác định khối if bằng dấu ngoặc nhọn thay vì thụt lề.",
+            "answer": false
+          }
+        ],
+        "explanation": "a đúng: Điều kiện trong if được đánh giá thành True hoặc False. b sai: if luôn chạy khối lệnh bất kể điều kiện đúng hay sai. c đúng: if-else chọn một trong hai khối tùy kết quả điều kiện. d sai: Python xác định khối if bằng dấu ngoặc nhọn thay vì thụt lề.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B19-TL-001",
+        "type": "essay",
+        "question": "Trình bày hai nội dung sau trong bài “Câu lệnh rẽ nhánh if”: Điều kiện trong if được đánh giá thành True hoặc False. if thực hiện khối lệnh khi điều kiện đúng.",
+        "answer_guide": "Nêu đúng hai ý: Điều kiện trong if được đánh giá thành True hoặc False. if thực hiện khối lệnh khi điều kiện đúng.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B19-TL-002",
+        "type": "essay",
+        "question": "Giải thích cách vận dụng nội dung “if-else chọn một trong hai khối tùy kết quả điều kiện.” trong một tình huống học tập hoặc thực tế.",
+        "answer_guide": "Cần giải thích đúng ý “if-else chọn một trong hai khối tùy kết quả điều kiện.” và liên hệ phù hợp với bài “Câu lệnh rẽ nhánh if”.",
+        "muc_do": "van_dung"
+      }
+    ]
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "ma_bai": "BAI_10",
+  "bai_so": 10,
+  "ten_bai": "Thực hành khai thác tài nguyên trên Internet",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B10-MC-001",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Máy tìm kiếm?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "B",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          },
+          {
+            "id": "C",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "D",
+            "text": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B10-MC-002",
+        "type": "mcq",
+        "question": "Máy tìm kiếm.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "B",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          },
+          {
+            "id": "C",
+            "text": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-003",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Máy tìm kiếm?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cần tìm bài giảng về Python: công cụ nào phù hợp?"
+          },
+          {
+            "id": "B",
+            "text": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?"
+          },
+          {
+            "id": "C",
+            "text": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
+          },
+          {
+            "id": "D",
+            "text": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-004",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Từ khóa?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "B",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          },
+          {
+            "id": "C",
+            "text": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
+          },
+          {
+            "id": "D",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B10-MC-005",
+        "type": "mcq",
+        "question": "Dùng từ khóa đủ cụ thể.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "C",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          },
+          {
+            "id": "D",
+            "text": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-006",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Từ khóa?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cần tìm bài giảng về Python: công cụ nào phù hợp?"
+          },
+          {
+            "id": "B",
+            "text": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?"
+          },
+          {
+            "id": "C",
+            "text": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
+          },
+          {
+            "id": "D",
+            "text": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-007",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Đánh giá nguồn?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          },
+          {
+            "id": "B",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "C",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "D",
+            "text": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B10-MC-008",
+        "type": "mcq",
+        "question": "Đối chiếu nguồn đáng tin trước khi dùng.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "D",
+            "text": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
+          }
+        ],
+        "answer": "B",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-009",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Đánh giá nguồn?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cần tìm bài giảng về Python: công cụ nào phù hợp?"
+          },
+          {
+            "id": "B",
+            "text": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?"
+          },
+          {
+            "id": "C",
+            "text": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
+          },
+          {
+            "id": "D",
+            "text": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-010",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Dịch vụ Internet?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "B",
+            "text": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
+          },
+          {
+            "id": "C",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "D",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          }
+        ],
+        "answer": "B",
+        "explanation": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B10-MC-011",
+        "type": "mcq",
+        "question": "Thư điện tử hoặc dịch vụ chia sẻ tệp.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "B",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-012",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Dịch vụ Internet?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cần tìm bài giảng về Python: công cụ nào phù hợp?"
+          },
+          {
+            "id": "B",
+            "text": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?"
+          },
+          {
+            "id": "C",
+            "text": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
+          },
+          {
+            "id": "D",
+            "text": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-013",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Quyền sử dụng?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "B",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "C",
+            "text": "Tài nguyên trực tuyến có thể chịu điều kiện bản quyền."
+          },
+          {
+            "id": "D",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Tài nguyên trực tuyến có thể chịu điều kiện bản quyền.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B10-MC-014",
+        "type": "mcq",
+        "question": "Giấy phép và nguồn trích dẫn.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "B",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "C",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-015",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Quyền sử dụng?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Muốn đưa ảnh tìm được vào bài thuyết trình: cần kiểm tra gì?"
+          },
+          {
+            "id": "B",
+            "text": "Cần tìm bài giảng về Python: công cụ nào phù hợp?"
+          },
+          {
+            "id": "C",
+            "text": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?"
+          },
+          {
+            "id": "D",
+            "text": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Muốn đưa ảnh tìm được vào bài thuyết trình: cần kiểm tra gì?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-016",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Tìm kiếm hiệu quả?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "B",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "C",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          },
+          {
+            "id": "D",
+            "text": "Bộ lọc và cụm từ chính xác giúp giảm kết quả không phù hợp."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Bộ lọc và cụm từ chính xác giúp giảm kết quả không phù hợp.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B10-MC-017",
+        "type": "mcq",
+        "question": "Lọc theo định dạng và thời gian.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "C",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "D",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-018",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Tìm kiếm hiệu quả?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cần tìm bài giảng về Python: công cụ nào phù hợp?"
+          },
+          {
+            "id": "B",
+            "text": "Chỉ cần PDF được cập nhật gần đây: lựa chọn nào hỗ trợ?"
+          },
+          {
+            "id": "C",
+            "text": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?"
+          },
+          {
+            "id": "D",
+            "text": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Chỉ cần PDF được cập nhật gần đây: lựa chọn nào hỗ trợ?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-019",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Tải xuống an toàn?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tệp nên được tải từ trang/nhà cung cấp đáng tin cậy."
+          },
+          {
+            "id": "B",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "C",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "D",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Tệp nên được tải từ trang/nhà cung cấp đáng tin cậy.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B10-MC-020",
+        "type": "mcq",
+        "question": "Không tải/cài khi chưa xác minh nguồn.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "D",
+            "text": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
+          }
+        ],
+        "answer": "B",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-021",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Tải xuống an toàn?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cần tìm bài giảng về Python: công cụ nào phù hợp?"
+          },
+          {
+            "id": "B",
+            "text": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?"
+          },
+          {
+            "id": "C",
+            "text": "Trang lạ yêu cầu cài tệp để xem tài liệu: hành động nào an toàn?"
+          },
+          {
+            "id": "D",
+            "text": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Trang lạ yêu cầu cài tệp để xem tài liệu: hành động nào an toàn?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B10-MC-022",
+        "type": "mcq",
+        "question": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Thực hành khai thác tài nguyên trên Internet”?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
+          },
+          {
+            "id": "B",
+            "text": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả. Kết quả đầu tiên của máy tìm kiếm luôn đáng tin hơn mọi nguồn khác."
+          },
+          {
+            "id": "C",
+            "text": "Mọi tài nguyên Internet đều được phép sao chép không cần ghi nguồn. Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
+          },
+          {
+            "id": "D",
+            "text": "Kết quả đầu tiên của máy tìm kiếm luôn đáng tin hơn mọi nguồn khác. Mọi tài nguyên Internet đều được phép sao chép không cần ghi nguồn."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B10-TF-001",
+        "type": "true_false",
+        "question": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Thực hành khai thác tài nguyên trên Internet”.",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
+            "answer": true
+          },
+          {
+            "id": "b",
+            "statement": "Kết quả đầu tiên của máy tìm kiếm luôn đáng tin hơn mọi nguồn khác.",
+            "answer": false
+          },
+          {
+            "id": "c",
+            "statement": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
+            "answer": true
+          },
+          {
+            "id": "d",
+            "statement": "Mọi tài nguyên Internet đều được phép sao chép không cần ghi nguồn.",
+            "answer": false
+          }
+        ],
+        "explanation": "a đúng: Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. b sai: Kết quả đầu tiên của máy tìm kiếm luôn đáng tin hơn mọi nguồn khác. c đúng: Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn. d sai: Mọi tài nguyên Internet đều được phép sao chép không cần ghi nguồn.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B10-TL-001",
+        "type": "essay",
+        "question": "Trình bày hai nội dung sau trong bài “Thực hành khai thác tài nguyên trên Internet”: Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
+        "answer_guide": "Nêu đúng hai ý: Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B10-TL-002",
+        "type": "essay",
+        "question": "Giải thích cách vận dụng nội dung “Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.” trong một tình huống học tập hoặc thực tế.",
+        "answer_guide": "Cần giải thích đúng ý “Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.” và liên hệ phù hợp với bài “Thực hành khai thác tài nguyên trên Internet”.",
+        "muc_do": "van_dung"
+      }
+    ]
+  }
+}

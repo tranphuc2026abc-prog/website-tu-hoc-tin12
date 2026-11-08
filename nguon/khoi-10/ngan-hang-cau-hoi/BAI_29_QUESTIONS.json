@@ -1,0 +1,632 @@
+{
+  "ma_bai": "BAI_29",
+  "bai_so": 29,
+  "ten_bai": "Nhận biết lỗi chương trình",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B29-MC-001",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Lỗi cú pháp?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "C",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          },
+          {
+            "id": "D",
+            "text": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
+          }
+        ],
+        "answer": "B",
+        "explanation": "Lỗi cú pháp vi phạm quy tắc viết mã.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B29-MC-002",
+        "type": "mcq",
+        "question": "Lỗi cú pháp.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-003",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Lỗi cú pháp?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chia một số cho 0: loại lỗi nào có thể xảy ra?"
+          },
+          {
+            "id": "B",
+            "text": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
+          },
+          {
+            "id": "C",
+            "text": "Mở tệp không tồn tại: điều gì có thể được phát sinh?"
+          },
+          {
+            "id": "D",
+            "text": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-004",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Lỗi thực thi?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          },
+          {
+            "id": "C",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "D",
+            "text": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B29-MC-005",
+        "type": "mcq",
+        "question": "Lỗi thực thi/ngoại lệ.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          },
+          {
+            "id": "C",
+            "text": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-006",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Lỗi thực thi?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chia một số cho 0: loại lỗi nào có thể xảy ra?"
+          },
+          {
+            "id": "B",
+            "text": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
+          },
+          {
+            "id": "C",
+            "text": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
+          },
+          {
+            "id": "D",
+            "text": "Mở tệp không tồn tại: điều gì có thể được phát sinh?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-007",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Lỗi logic?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "C",
+            "text": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
+          },
+          {
+            "id": "D",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B29-MC-008",
+        "type": "mcq",
+        "question": "Lỗi logic.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "C",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "D",
+            "text": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-009",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Lỗi logic?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
+          },
+          {
+            "id": "B",
+            "text": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
+          },
+          {
+            "id": "C",
+            "text": "Chia một số cho 0: loại lỗi nào có thể xảy ra?"
+          },
+          {
+            "id": "D",
+            "text": "Mở tệp không tồn tại: điều gì có thể được phát sinh?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-010",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Ngoại lệ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "C",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "D",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B29-MC-011",
+        "type": "mcq",
+        "question": "Ngoại lệ.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "D",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          }
+        ],
+        "answer": "B",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-012",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Ngoại lệ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
+          },
+          {
+            "id": "B",
+            "text": "Chia một số cho 0: loại lỗi nào có thể xảy ra?"
+          },
+          {
+            "id": "C",
+            "text": "Mở tệp không tồn tại: điều gì có thể được phát sinh?"
+          },
+          {
+            "id": "D",
+            "text": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Mở tệp không tồn tại: điều gì có thể được phát sinh?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-013",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Traceback?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B",
+            "text": "Thông báo lỗi thường cho biết loại lỗi và vị trí gần nơi phát sinh."
+          },
+          {
+            "id": "C",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "D",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          }
+        ],
+        "answer": "B",
+        "explanation": "Thông báo lỗi thường cho biết loại lỗi và vị trí gần nơi phát sinh.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B29-MC-014",
+        "type": "mcq",
+        "question": "Đọc traceback và kiểm tra dòng báo lỗi.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-015",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Traceback?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
+          },
+          {
+            "id": "B",
+            "text": "Chia một số cho 0: loại lỗi nào có thể xảy ra?"
+          },
+          {
+            "id": "C",
+            "text": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
+          },
+          {
+            "id": "D",
+            "text": "Python hiển thị traceback: bước nào giúp tìm nguyên nhân?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Python hiển thị traceback: bước nào giúp tìm nguyên nhân?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-016",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Kiểm tra kiểu?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "C",
+            "text": "Kiểu dữ liệu không phù hợp có thể gây lỗi khi thực hiện phép toán."
+          },
+          {
+            "id": "D",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Kiểu dữ liệu không phù hợp có thể gây lỗi khi thực hiện phép toán.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B29-MC-017",
+        "type": "mcq",
+        "question": "Kiểu của toán hạng.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "C",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-018",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Kiểm tra kiểu?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cộng số với xâu không chuyển kiểu: điều gì cần kiểm tra?"
+          },
+          {
+            "id": "B",
+            "text": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
+          },
+          {
+            "id": "C",
+            "text": "Chia một số cho 0: loại lỗi nào có thể xảy ra?"
+          },
+          {
+            "id": "D",
+            "text": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Cộng số với xâu không chuyển kiểu: điều gì cần kiểm tra?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-019",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Tên chưa định nghĩa?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "C",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          },
+          {
+            "id": "D",
+            "text": "Dùng tên biến chưa được khai báo có thể gây NameError."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Dùng tên biến chưa được khai báo có thể gây NameError.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B29-MC-020",
+        "type": "mcq",
+        "question": "NameError.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "C",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "D",
+            "text": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-021",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Tên chưa định nghĩa?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
+          },
+          {
+            "id": "B",
+            "text": "Viết sai tên biến ở một dòng: lỗi nào có thể gặp?"
+          },
+          {
+            "id": "C",
+            "text": "Chia một số cho 0: loại lỗi nào có thể xảy ra?"
+          },
+          {
+            "id": "D",
+            "text": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Viết sai tên biến ở một dòng: lỗi nào có thể gặp?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B29-MC-022",
+        "type": "mcq",
+        "question": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Nhận biết lỗi chương trình”?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy."
+          },
+          {
+            "id": "B",
+            "text": "Lỗi thực thi xuất hiện khi chương trình đang chạy. Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình."
+          },
+          {
+            "id": "C",
+            "text": "Mọi lỗi chương trình đều do sai dấu câu. Lỗi cú pháp vi phạm quy tắc viết mã."
+          },
+          {
+            "id": "D",
+            "text": "Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình. Mọi lỗi chương trình đều do sai dấu câu."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B29-TF-001",
+        "type": "true_false",
+        "question": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Nhận biết lỗi chương trình”.",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Lỗi cú pháp vi phạm quy tắc viết mã.",
+            "answer": true
+          },
+          {
+            "id": "b",
+            "statement": "Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình.",
+            "answer": false
+          },
+          {
+            "id": "c",
+            "statement": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
+            "answer": true
+          },
+          {
+            "id": "d",
+            "statement": "Mọi lỗi chương trình đều do sai dấu câu.",
+            "answer": false
+          }
+        ],
+        "explanation": "a đúng: Lỗi cú pháp vi phạm quy tắc viết mã. b sai: Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình. c đúng: Lỗi logic khiến chương trình chạy nhưng kết quả sai. d sai: Mọi lỗi chương trình đều do sai dấu câu.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B29-TL-001",
+        "type": "essay",
+        "question": "Trình bày hai nội dung sau trong bài “Nhận biết lỗi chương trình”: Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
+        "answer_guide": "Nêu đúng hai ý: Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B29-TL-002",
+        "type": "essay",
+        "question": "Giải thích cách vận dụng nội dung “Lỗi logic khiến chương trình chạy nhưng kết quả sai.” trong một tình huống học tập hoặc thực tế.",
+        "answer_guide": "Cần giải thích đúng ý “Lỗi logic khiến chương trình chạy nhưng kết quả sai.” và liên hệ phù hợp với bài “Nhận biết lỗi chương trình”.",
+        "muc_do": "van_dung"
+      }
+    ]
+  }
+}

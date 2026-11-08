@@ -1,0 +1,632 @@
+{
+  "ma_bai": "BAI_09",
+  "bai_so": 9,
+  "ten_bai": "An toàn trên không gian mạng",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B09-MC-001",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Phishing?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "B",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "C",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          },
+          {
+            "id": "D",
+            "text": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
+          }
+        ],
+        "answer": "B",
+        "explanation": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B09-MC-002",
+        "type": "mcq",
+        "question": "Lừa đảo giả mạo (phishing).",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "B",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-003",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Phishing?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?"
+          },
+          {
+            "id": "B",
+            "text": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?"
+          },
+          {
+            "id": "C",
+            "text": "Tệp đính kèm lạ yêu cầu bật macro: nguy cơ nào cần đề phòng?"
+          },
+          {
+            "id": "D",
+            "text": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-004",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Mật khẩu?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          },
+          {
+            "id": "C",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "D",
+            "text": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B09-MC-005",
+        "type": "mcq",
+        "question": "Dùng mật khẩu mạnh và không dùng lại.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          },
+          {
+            "id": "C",
+            "text": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-006",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Mật khẩu?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?"
+          },
+          {
+            "id": "B",
+            "text": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?"
+          },
+          {
+            "id": "C",
+            "text": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?"
+          },
+          {
+            "id": "D",
+            "text": "Tệp đính kèm lạ yêu cầu bật macro: nguy cơ nào cần đề phòng?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-007",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Xác thực nhiều bước?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "C",
+            "text": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
+          },
+          {
+            "id": "D",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B09-MC-008",
+        "type": "mcq",
+        "question": "Xác thực hai yếu tố/nhiều bước.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "C",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "D",
+            "text": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-009",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Xác thực nhiều bước?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?"
+          },
+          {
+            "id": "B",
+            "text": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?"
+          },
+          {
+            "id": "C",
+            "text": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?"
+          },
+          {
+            "id": "D",
+            "text": "Tệp đính kèm lạ yêu cầu bật macro: nguy cơ nào cần đề phòng?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-010",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Mã độc?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
+          },
+          {
+            "id": "B",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "C",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "D",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B09-MC-011",
+        "type": "mcq",
+        "question": "Mã độc.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "D",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          }
+        ],
+        "answer": "B",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-012",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Mã độc?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?"
+          },
+          {
+            "id": "B",
+            "text": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?"
+          },
+          {
+            "id": "C",
+            "text": "Tệp đính kèm lạ yêu cầu bật macro: nguy cơ nào cần đề phòng?"
+          },
+          {
+            "id": "D",
+            "text": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Tệp đính kèm lạ yêu cầu bật macro: nguy cơ nào cần đề phòng?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-013",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Dữ liệu cá nhân?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B",
+            "text": "Chỉ chia sẻ thông tin cá nhân khi có mục đích và nguồn đáng tin."
+          },
+          {
+            "id": "C",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "D",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          }
+        ],
+        "answer": "B",
+        "explanation": "Chỉ chia sẻ thông tin cá nhân khi có mục đích và nguồn đáng tin.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B09-MC-014",
+        "type": "mcq",
+        "question": "Không cung cấp và kiểm tra độ tin cậy.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-015",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Dữ liệu cá nhân?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?"
+          },
+          {
+            "id": "B",
+            "text": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?"
+          },
+          {
+            "id": "C",
+            "text": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?"
+          },
+          {
+            "id": "D",
+            "text": "Trang lạ hỏi số căn cước và địa chỉ nhà: cách xử lí nào an toàn?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Trang lạ hỏi số căn cước và địa chỉ nhà: cách xử lí nào an toàn?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-016",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Sao lưu?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "C",
+            "text": "Sao lưu giúp phục hồi dữ liệu sau mất mát hoặc nhiễm mã độc."
+          },
+          {
+            "id": "D",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Sao lưu giúp phục hồi dữ liệu sau mất mát hoặc nhiễm mã độc.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B09-MC-017",
+        "type": "mcq",
+        "question": "Tạo bản sao lưu riêng, an toàn.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "C",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-018",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Sao lưu?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tệp học tập quan trọng chỉ có một bản: biện pháp nào bổ sung?"
+          },
+          {
+            "id": "B",
+            "text": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?"
+          },
+          {
+            "id": "C",
+            "text": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?"
+          },
+          {
+            "id": "D",
+            "text": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Tệp học tập quan trọng chỉ có một bản: biện pháp nào bổ sung?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-019",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Cập nhật bảo mật?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "B",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "C",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          },
+          {
+            "id": "D",
+            "text": "Cập nhật và công cụ bảo vệ giúp giảm rủi ro từ lỗ hổng/mã độc."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Cập nhật và công cụ bảo vệ giúp giảm rủi ro từ lỗ hổng/mã độc.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B09-MC-020",
+        "type": "mcq",
+        "question": "Cập nhật từ nguồn chính thức.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "C",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "D",
+            "text": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-021",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Cập nhật bảo mật?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?"
+          },
+          {
+            "id": "B",
+            "text": "Hệ điều hành có bản vá bảo mật chính thức: nên làm gì?"
+          },
+          {
+            "id": "C",
+            "text": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?"
+          },
+          {
+            "id": "D",
+            "text": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Hệ điều hành có bản vá bảo mật chính thức: nên làm gì?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B09-MC-022",
+        "type": "mcq",
+        "question": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “An toàn trên không gian mạng”?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản."
+          },
+          {
+            "id": "B",
+            "text": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản. Có thể chia sẻ OTP qua điện thoại nếu người gọi tự xưng là ngân hàng."
+          },
+          {
+            "id": "C",
+            "text": "Sao lưu dữ liệu làm cho mọi mã độc tự động bị loại bỏ. Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền."
+          },
+          {
+            "id": "D",
+            "text": "Có thể chia sẻ OTP qua điện thoại nếu người gọi tự xưng là ngân hàng. Sao lưu dữ liệu làm cho mọi mã độc tự động bị loại bỏ."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B09-TF-001",
+        "type": "true_false",
+        "question": "Đánh dấu đúng hoặc sai cho các nhận định về bài “An toàn trên không gian mạng”.",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
+            "answer": true
+          },
+          {
+            "id": "b",
+            "statement": "Có thể chia sẻ OTP qua điện thoại nếu người gọi tự xưng là ngân hàng.",
+            "answer": false
+          },
+          {
+            "id": "c",
+            "statement": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.",
+            "answer": true
+          },
+          {
+            "id": "d",
+            "statement": "Sao lưu dữ liệu làm cho mọi mã độc tự động bị loại bỏ.",
+            "answer": false
+          }
+        ],
+        "explanation": "a đúng: Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. b sai: Có thể chia sẻ OTP qua điện thoại nếu người gọi tự xưng là ngân hàng. c đúng: Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu. d sai: Sao lưu dữ liệu làm cho mọi mã độc tự động bị loại bỏ.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B09-TL-001",
+        "type": "essay",
+        "question": "Trình bày hai nội dung sau trong bài “An toàn trên không gian mạng”: Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
+        "answer_guide": "Nêu đúng hai ý: Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B09-TL-002",
+        "type": "essay",
+        "question": "Giải thích cách vận dụng nội dung “Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.” trong một tình huống học tập hoặc thực tế.",
+        "answer_guide": "Cần giải thích đúng ý “Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.” và liên hệ phù hợp với bài “An toàn trên không gian mạng”.",
+        "muc_do": "van_dung"
+      }
+    ]
+  }
+}

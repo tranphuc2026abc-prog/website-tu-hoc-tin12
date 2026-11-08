@@ -1,0 +1,632 @@
+{
+  "ma_bai": "BAI_04",
+  "bai_so": 4,
+  "ten_bai": "Hệ nhị phân",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B04-MC-001",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Cơ số 2?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "C",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          },
+          {
+            "id": "D",
+            "text": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B04-MC-002",
+        "type": "mcq",
+        "question": "Hệ nhị phân.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          },
+          {
+            "id": "D",
+            "text": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+          }
+        ],
+        "answer": "B",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-003",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Cơ số 2?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+          },
+          {
+            "id": "B",
+            "text": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+          },
+          {
+            "id": "C",
+            "text": "Đọc số 1011₂: hệ đếm nào đang được dùng?"
+          },
+          {
+            "id": "D",
+            "text": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-004",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Giá trị vị trí?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "C",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          },
+          {
+            "id": "D",
+            "text": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+          }
+        ],
+        "answer": "B",
+        "explanation": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B04-MC-005",
+        "type": "mcq",
+        "question": "Cộng các chữ số nhân với lũy thừa 2 tương ứng.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-006",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Giá trị vị trí?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Đọc số 1011₂: hệ đếm nào đang được dùng?"
+          },
+          {
+            "id": "B",
+            "text": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+          },
+          {
+            "id": "C",
+            "text": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?"
+          },
+          {
+            "id": "D",
+            "text": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Tính giá trị thập phân của 101₂: cách nào phù hợp?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-007",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Đổi nhị phân sang thập phân?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "C",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          },
+          {
+            "id": "D",
+            "text": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+          }
+        ],
+        "answer": "C",
+        "explanation": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+        "muc_do": "nhan_biet"
+      },
+      {
+        "id": "T10-B04-MC-008",
+        "type": "mcq",
+        "question": "5.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "C",
+            "text": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-009",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Đổi nhị phân sang thập phân?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+          },
+          {
+            "id": "B",
+            "text": "Đọc số 1011₂: hệ đếm nào đang được dùng?"
+          },
+          {
+            "id": "C",
+            "text": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+          },
+          {
+            "id": "D",
+            "text": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-010",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Đổi thập phân sang nhị phân?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "C",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          },
+          {
+            "id": "D",
+            "text": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+          }
+        ],
+        "answer": "D",
+        "explanation": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B04-MC-011",
+        "type": "mcq",
+        "question": "Chia liên tiếp cho 2, đọc số dư từ dưới lên.",
+        "options": [
+          {
+            "id": "A"
+          },
+          {
+            "id": "B",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "C",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "D",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          }
+        ],
+        "answer": "A",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-012",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Đổi thập phân sang nhị phân?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Đọc số 1011₂: hệ đếm nào đang được dùng?"
+          },
+          {
+            "id": "B",
+            "text": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?"
+          },
+          {
+            "id": "C",
+            "text": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+          },
+          {
+            "id": "D",
+            "text": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-013",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Biểu diễn bằng bit?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Máy tính dùng các trạng thái nhị phân để mã hóa dữ liệu."
+          },
+          {
+            "id": "B",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "C",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "D",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Máy tính dùng các trạng thái nhị phân để mã hóa dữ liệu.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B04-MC-014",
+        "type": "mcq",
+        "question": "Hệ nhị phân.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B"
+          },
+          {
+            "id": "C",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "D",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          }
+        ],
+        "answer": "B",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-015",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Biểu diễn bằng bit?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Đọc số 1011₂: hệ đếm nào đang được dùng?"
+          },
+          {
+            "id": "B",
+            "text": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+          },
+          {
+            "id": "C",
+            "text": "Mạch điện tử nhận hai mức tín hiệu: hệ đếm nào phù hợp?"
+          },
+          {
+            "id": "D",
+            "text": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+          }
+        ],
+        "answer": "C",
+        "explanation": "Mạch điện tử nhận hai mức tín hiệu: hệ đếm nào phù hợp?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-016",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Cộng nhị phân?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Trong nhị phân, 1+1 tạo tổng 10₂."
+          },
+          {
+            "id": "C",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "D",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          }
+        ],
+        "answer": "B",
+        "explanation": "Trong nhị phân, 1+1 tạo tổng 10₂.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B04-MC-017",
+        "type": "mcq",
+        "question": "0, nhớ 1 sang cột kế tiếp.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "C"
+          },
+          {
+            "id": "D",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          }
+        ],
+        "answer": "C",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-018",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Cộng nhị phân?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Đọc số 1011₂: hệ đếm nào đang được dùng?"
+          },
+          {
+            "id": "B",
+            "text": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+          },
+          {
+            "id": "C",
+            "text": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+          },
+          {
+            "id": "D",
+            "text": "Cộng hai bit 1 và 1: kết quả là gì?"
+          }
+        ],
+        "answer": "D",
+        "explanation": "Cộng hai bit 1 và 1: kết quả là gì?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-019",
+        "type": "mcq",
+        "question": "Phát biểu nào đúng về Lưu trữ số nguyên?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "C",
+            "text": "Số nguyên được mã hóa bằng bit theo quy ước của máy tính."
+          },
+          {
+            "id": "D",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Số nguyên được mã hóa bằng bit theo quy ước của máy tính.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B04-MC-020",
+        "type": "mcq",
+        "question": "Dãy bit theo định dạng số nguyên.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "C",
+            "text": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+          },
+          {
+            "id": "D"
+          }
+        ],
+        "answer": "D",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-021",
+        "type": "mcq",
+        "question": "Tình huống nào minh họa phù hợp cho Lưu trữ số nguyên?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chương trình lưu giá trị số nguyên: dữ liệu được biểu diễn ra sao?"
+          },
+          {
+            "id": "B",
+            "text": "Đọc số 1011₂: hệ đếm nào đang được dùng?"
+          },
+          {
+            "id": "C",
+            "text": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+          },
+          {
+            "id": "D",
+            "text": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+          }
+        ],
+        "answer": "A",
+        "explanation": "Chương trình lưu giá trị số nguyên: dữ liệu được biểu diễn ra sao?",
+        "muc_do": "van_dung"
+      },
+      {
+        "id": "T10-B04-MC-022",
+        "type": "mcq",
+        "question": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Hệ nhị phân”?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1. Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+          },
+          {
+            "id": "B",
+            "text": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2. Hệ nhị phân dùng mười chữ số từ 0 đến 9."
+          },
+          {
+            "id": "C",
+            "text": "Số 101₂ có giá trị thập phân bằng 101. Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+          },
+          {
+            "id": "D",
+            "text": "Hệ nhị phân dùng mười chữ số từ 0 đến 9. Số 101₂ có giá trị thập phân bằng 101."
+          }
+        ],
+        "answer": "A",
+        "explanation": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1. Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B04-TF-001",
+        "type": "true_false",
+        "question": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Hệ nhị phân”.",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+            "answer": true
+          },
+          {
+            "id": "b",
+            "statement": "Hệ nhị phân dùng mười chữ số từ 0 đến 9.",
+            "answer": false
+          },
+          {
+            "id": "c",
+            "statement": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+            "answer": true
+          },
+          {
+            "id": "d",
+            "statement": "Số 101₂ có giá trị thập phân bằng 101.",
+            "answer": false
+          }
+        ],
+        "explanation": "a đúng: Hệ nhị phân chỉ dùng hai chữ số 0 và 1. b sai: Hệ nhị phân dùng mười chữ số từ 0 đến 9. c đúng: 101₂ = 1×4 + 0×2 + 1×1 = 5₁₀. d sai: Số 101₂ có giá trị thập phân bằng 101.",
+        "muc_do": "thong_hieu"
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B04-TL-001",
+        "type": "essay",
+        "question": "Trình bày hai nội dung sau trong bài “Hệ nhị phân”: Hệ nhị phân chỉ dùng hai chữ số 0 và 1. Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+        "answer_guide": "Nêu đúng hai ý: Hệ nhị phân chỉ dùng hai chữ số 0 và 1. Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+        "muc_do": "thong_hieu"
+      },
+      {
+        "id": "T10-B04-TL-002",
+        "type": "essay",
+        "question": "Giải thích cách vận dụng nội dung “101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.” trong một tình huống học tập hoặc thực tế.",
+        "answer_guide": "Cần giải thích đúng ý “101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.” và liên hệ phù hợp với bài “Hệ nhị phân”.",
+        "muc_do": "van_dung"
+      }
+    ]
+  }
+}
