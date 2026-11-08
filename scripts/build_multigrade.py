@@ -161,7 +161,7 @@ def lesson_sections(md, title, goals, key):
         norm = re.sub(r"[^\w]+", "", term.lower())
         if (len(term) < 2 or len(term) > 80 or len(term.split()) > 7
                 or len(definition) < 8 or norm in seen_terms
-                or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy|mỗi|các|một|khi|vì|do|với|nếu|bởi)\b", term, re.I)):
+                or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)\b", term, re.I)):
             return
         seen_terms.add(norm)
         term_pairs.append({"t": term, "d": definition[:300].rstrip()})
