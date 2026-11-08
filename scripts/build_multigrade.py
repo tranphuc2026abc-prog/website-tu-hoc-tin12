@@ -131,6 +131,117 @@ def question_records(doc, lesson_id):
     assert len({q["id"] for q in merged}) == len(merged), lesson_id + " duplicate question id"
     return merged
 
+
+def lesson_sections(md, title, goals, key):
+    """Fill terms, examples, cautions and review points from the KHBD."""
+    start = md.find(chr(96) * 3 + "text")
+    if start >= 0:
+        start = md.find("\n", start) + 1
+        end = md.find("\n" + chr(96) * 3, start)
+        raw = md[start:end if end >= 0 else len(md)]
+    else:
+        raw = md
+    clean = re.sub(r"\[BẢNG\]\s*(?:HOẠT ĐỘNG CỦA GV VÀ HS|SẢN PHẨM DỰ KIẾN|NLS)\s*\|?", " ", raw, flags=re.I)
+    clean = re.sub(r"\s*\|\s*", " ", clean)
+    sentences = [re.sub(r"\s+", " ", x).strip(" -*\t:;")
+                 for x in re.split(r"(?<=[.!?])\s+|\r?\n+", clean) if x.strip()]
+
+    def student_facing(text):
+        text = re.sub(r"^(?:Bước\s+\d+\s*:\s*)?(?:GV|HS|Học sinh)\b[^:]{0,100}:\s*", "", text, flags=re.I).strip()
+        return (len(text) >= 20 and len(text) <= 360
+                and not re.match(r"^(?:BÀI\s+\d+|CHỦ ĐỀ|Ngày soạn|Ngày dạy|I\. MỤC TIÊU|"
+                                 r"II\. THIẾT BỊ|III\. TIẾN TRÌNH|HƯỚNG DẪN VỀ NHÀ|"
+                                 r"Năng lực|Phẩm chất|[A-D]\.)", text, re.I)
+                and not re.match(r"^(?:Bước\s+\d+|Nhiệm vụ\s+\d+|Hoạt động\s+\d+)", text, re.I))
+
+    term_pairs, seen_terms = [], set()
+    def add_term(term, definition):
+        term = re.sub(r"\s+", " ", term).strip(" -*:;.")
+        definition = re.sub(r"\s+", " ", definition).strip(" -*:;.")
+        norm = re.sub(r"[^\w]+", "", term.lower())
+        if len(term) < 2 or len(term) > 80 or len(definition) < 8 or norm in seen_terms:
+            return
+        seen_terms.add(norm)
+        term_pairs.append({"t": term, "d": definition[:300].rstrip()})
+
+    # Prefer explicit definitions and labeled concepts from the source.
+    for sentence in sentences:
+        if not student_facing(sentence):
+            continue
+        definition = re.search(r"^(.{2,75}?)\s+(?:là|được gọi là|gọi là)\s+(.{12,})$", sentence, re.I)
+        if definition:
+            add_term(definition.group(1), sentence)
+    for block in key:
+        if block.get("t") == "ul":
+            for item in block.get("i", []):
+                text = item.get("x", "")
+                heading = re.match(r"^\*\*(.+?)\*\*$", text)
+                if heading:
+                    add_term(heading.group(1), "Nội dung trọng tâm được nêu trong KHBD của bài.")
+    verbs = r"(?:Phân biệt|Trình bày|Nêu|Hiểu|Biết|Nhận biết|Sử dụng|Thực hiện|Tạo|Viết|Xác định|Mô tả|Giải thích)"
+    for goal in goals:
+        goal = re.sub(r"\s+", " ", goal).strip()
+        m = re.search(verbs + r"\s+(?:được\s+)?(.+)", goal, re.I)
+        if m:
+            term = re.split(r"[,;.]| để ", m.group(1))[0].strip()
+            add_term(term, goal)
+    if not term_pairs:
+        add_term(title, goals[0] if goals else "Nội dung chính của bài học.")
+    if len(term_pairs) < 3:
+        add_term(title, goals[0] if goals else "Nội dung chính của bài học.")
+        for goal in goals:
+            m = re.search(verbs + r"\s+(?:được\s+)?(.+)", goal, re.I)
+            if m:
+                add_term(re.split(r"[,;.]| để ", m.group(1))[0], goal)
+            if len(term_pairs) >= 5:
+                break
+    term_pairs = term_pairs[:6]
+
+    # Keep examples explicitly present in the KHBD; if absent, use its expected student product.
+    examples = []
+    for sentence in sentences:
+        if re.search(r"\b(?:Ví dụ|Chẳng hạn|Minh họa|Minh hoạ)\b", sentence, re.I) and student_facing(sentence):
+            examples.append(sentence)
+    if not examples:
+        for row in raw.split("[BẢNG]")[1:]:
+            columns = row.split("|")
+            value = columns[1].strip() if len(columns) > 1 else ""
+            if value and not value.upper().startswith(("SẢN PHẨM", "DỰ KIẾN")):
+                for part in re.split(r"(?<=[.!?])\s+|\r?\n|[-+]\s+", value):
+                    part = re.sub(r"\s+", " ", part).strip(" -*:;")
+                    if student_facing(part) and not re.match(r"^(?:NLS|GV|HS thực hiện)", part, re.I):
+                        examples.append(part)
+                        if len(examples) >= 3:
+                            break
+            if len(examples) >= 3:
+                break
+    if not examples:
+        examples = [goals[0] if goals else title + " trong một tình huống học tập."]
+    examples = list(dict.fromkeys(examples))[:3]
+
+    cautions = []
+    for sentence in sentences:
+        if re.search(r"\b(?:Lưu ý|Chú ý|Không nên|Tránh|Sai lầm|Nhầm lẫn|Lỗi)\b", sentence, re.I) and student_facing(sentence):
+            cautions.append(sentence)
+    if not cautions:
+        cautions = ["Với chủ đề " + title + ", tránh nhầm khái niệm hoặc bỏ qua điều kiện của yêu cầu; hãy đối chiếu thao tác và kết quả với nội dung trọng tâm trong bài."]
+    cautions = list(dict.fromkeys(cautions))[:3]
+
+    reminders = []
+    for block in key:
+        texts = block.get("i", []) if block.get("t") == "ul" else [{"x": block.get("x", "")}]
+        for item in texts:
+            value = re.sub(r"\*\*", "", item.get("x", "")).strip()
+            if value and not value.startswith("Nhiệm vụ"):
+                reminders.append(value)
+    if len(reminders) < 2:
+        reminders.extend(x for x in goals if x not in reminders)
+    reminders = list(dict.fromkeys(reminders))[:5]
+    if not reminders:
+        reminders = [title]
+    return term_pairs, examples, cautions, reminders
+
+
 def build_grade(grade, expected):
     folder = SRC / ("khoi-" + str(grade))
     lessons = sorted(folder.glob("BAI_[0-9][0-9].md"))
