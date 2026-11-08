@@ -54,6 +54,42 @@ def flat(bl):
         elif b['t'] == 'tb': r.extend(c for row in b['r'] for c in row)
     return r
 
+def content_signature(value):
+    value = unicodedata.normalize('NFD', str(value or '').lower()).replace('đ', 'd')
+    value = ''.join(c for c in value if unicodedata.category(c) != 'Mn')
+    return re.sub(r'\s+', ' ', value).strip()
+
+def dedupe_blocks(source):
+    """Remove only identical text items within one lesson section; keep distinct wording."""
+    out, seen_blocks = [], set()
+    for block in source:
+        item = dict(block)
+        if block.get('t') == 'ul':
+            children, seen_items = [], set()
+            for raw in block.get('i', []):
+                node = dict(raw)
+                nested = dedupe_blocks([{'t': 'ul', 'i': raw.get('c', [])}])[0]['i'] if raw.get('c') else []
+                if nested:
+                    node['c'] = nested
+                signature = content_signature(node.get('x', '')) + '|' + '|'.join(
+                    content_signature(x.get('x', '')) for x in nested)
+                if signature in seen_items:
+                    continue
+                seen_items.add(signature)
+                children.append(node)
+            item['i'] = children
+            sig = 'ul:' + '|'.join(content_signature(x.get('x', '')) for x in children)
+        elif block.get('t') in ('p', 'code'):
+            sig = block.get('t', '') + ':' + content_signature(block.get('x', ''))
+        elif block.get('t') == 'tb':
+            sig = 'tb:' + '|'.join(content_signature(c) for row in block.get('r', []) for c in row)
+        else:
+            sig = json.dumps(block, ensure_ascii=False, sort_keys=True)
+        if sig and sig not in seen_blocks:
+            seen_blocks.add(sig)
+            out.append(item)
+    return out
+
 
 rows = list(csv.DictReader(open(os.path.join(SRC, 'MUC_LUC_BAI_HOC.csv'), encoding='utf-8-sig')))
 assert len(rows) == 28 and len({r['Ma_Bai'] for r in rows}) == 28, 'Danh muc phai co 28 bai khong trung ma'
@@ -97,6 +133,7 @@ for n in range(1, 29):
             sig = json.dumps(block, ensure_ascii=False, sort_keys=True)
             if sig not in seen_blocks:
                 sec[key].append(block); seen_blocks.add(sig)
+        sec[key] = dedupe_blocks(sec[key])
     terms = []
     for block in sections['VI']['blocks']:
         if block['t'] == 'tb':
