@@ -47,11 +47,12 @@
 - Đã đọc/đếm các catalog, JSON nguồn và JavaScript ngân hàng qua GitHub Connector; số liệu tổng hợp ở mục 1 là kết quả thực tế, không ước lượng.
 - Thử `python scripts/build_all_grades.py nguon`: **không chạy được** vì môi trường không có lệnh `python`; thử `py -3` cũng không khả dụng. Bản workspace cục bộ không phải checkout đầy đủ và thiếu khối 12.
 - Thử `node tests/e2e.js http`: **không chạy được cục bộ** vì thư mục workspace không có `tests/e2e.js`. Tệp này có trên GitHub; lỗi là giới hạn bản sao làm việc, không phải kết quả lỗi từ E2E của repository.
-- Không chụp và lưu ảnh minh họa vào repository: phiên này không có checkout đầy đủ kèm Playwright/Chromium và không có đường dẫn ghi ảnh từ tab trình duyệt vào repository qua công cụ đang dùng.
+- Không chụp và lưu ảnh minh họa vào repository: dù có thể xem trang qua tab trình duyệt, workspace không có checkout đầy đủ/Playwright cục bộ và công cụ GitHub đang dùng chỉ cập nhật tệp văn bản; CI không xuất ảnh E2E thành artifact để đưa vào `assets/screenshots/`.
 
 ### Bằng chứng CI trên repository
 
 - GitHub Actions run [42482710967](https://github.com/tranphuc2026abc-prog/website-tu-hoc-tin12/actions/runs/42482710967), commit `8da565d63e90e23f9e75019ac3b5f8c66fcf806d`, workflow `Validate and deploy Tin hoc 12`: **completed / success**.
+- GitHub Actions run [42485101295](https://github.com/tranphuc2026abc-prog/website-tu-hoc-tin12/actions/runs/42485101295), trên PR #26 hiện tại: job `validate` **completed / success**; job triển khai bị bỏ qua như đúng cấu hình cho pull request.
 - Workflow `pages.yml` chạy build ba khối (`python scripts/build_all_grades.py nguon`), build bản một tệp (`python scripts/build_single.py`), xác nhận catalog có lần lượt 34/31/28 bài và chạy E2E qua HTTP bằng Playwright/Chromium. Theo kết quả workflow, các bước trên đạt.
 - Workflow `question-bank-e2e.yml` chạy E2E HTTP cho website nhiều tệp và E2E `file` cho bản `Tin12_MotFile.html`; lịch sử PR #25 hiển thị hai check thành công trước khi hợp nhất. Kết quả này không thay thế việc chạy lại cục bộ trong phiên hiện tại.
 
