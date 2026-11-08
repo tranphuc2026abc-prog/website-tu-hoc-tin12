@@ -152,14 +152,15 @@ def lesson_sections(md, title, goals, key):
                 and not re.match(r"^(?:BÀI\s+\d+|CHỦ ĐỀ|Ngày soạn|Ngày dạy|I\. MỤC TIÊU|"
                                  r"II\. THIẾT BỊ|III\. TIẾN TRÌNH|HƯỚNG DẪN VỀ NHÀ|"
                                  r"Năng lực|Phẩm chất|[A-D]\.)", text, re.I)
-                and not re.match(r"^(?:Bước\s+\d+|Nhiệm vụ\s+\d+|Hoạt động\s+\d+)", text, re.I))
+                and not re.match(r"^(?:Bước\s+\d+|Nhiệm vụ\s+\d+|Hoạt động\s+\d+)", text, re.I)
+                and not re.match(r"^(?:HS\b|GV\b|Học sinh\b|Năng lực\b|\d\.\d\.NC\d+[a-z]?:)", text, re.I))
 
     term_pairs, seen_terms = [], set()
     def add_term(term, definition, strict=False):
         term = re.sub(r"\s+", " ", term).strip(" -*:;.")
         definition = re.sub(r"\s+", " ", definition).strip(" -*:;.")
         norm = re.sub(r"[^\w]+", "", term.lower())
-        if (len(term) < 2 or len(term) > 80 or len(term.split()) > 7
+        if (len(term) < 2 or len(term) > 80 or len(term.split()) > 12
                 or len(definition) < 8 or norm in seen_terms
                 or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)\b", term, re.I)):
             return
