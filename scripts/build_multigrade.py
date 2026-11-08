@@ -229,8 +229,9 @@ def lesson_sections(md, title, goals, key):
     if not cautions:
         risk_terms = r"thiết bị lạ|chưa từng đăng nhập|không nên|không được|không thể|bản quyền|mật khẩu|quyền riêng tư|cảnh báo|xác thực|xóa nhầm|mất dữ liệu|lộ thông tin|sai cú pháp|lỗi"
         for sentence in sentences:
-            if re.search(risk_terms, sentence, re.I) and student_facing(sentence):
-                cautions.append(sentence)
+            candidate = re.sub(r"^\d+\.\d+\.NC\d+[a-z]?:\s*", "", sentence, flags=re.I)
+            if re.search(risk_terms, candidate, re.I) and student_facing(candidate):
+                cautions.append(candidate)
         if not cautions:
             cautions = ["Với chủ đề " + title + ", tránh nhầm khái niệm hoặc bỏ qua điều kiện của yêu cầu; hãy đối chiếu thao tác và kết quả với nội dung trọng tâm trong bài."]
     cautions = list(dict.fromkeys(cautions))[:3]
