@@ -48,7 +48,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
             x.termNames.every(n => !/^(đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)/i.test(n))));
         ok(sections.length === expectedLessons[grade] && invalidSections.length === 0,
           'khối ' + grade + ' đủ thuật ngữ, ví dụ, lưu ý và ghi nhớ cho từng bài'
-          + (invalidSections.length ? ': ' + invalidSections.map(x => x.id + ' terms=' + x.termNames.join('|')).join('; ') : ''));
+          + (invalidSections.length ? ': ' + invalidSections.map(x => x.id + ' terms=' + x.termNames.join('|') + ' fields=' + [!!x.termSection, !!x.ex, !!x.err, !!x.rem].join(',')).join('; ') : ''));
       }
     }
     url = new URL('course.html?grade=12', portalUrl).href;
