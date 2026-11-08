@@ -1,7 +1,32 @@
-# Bài 27. CÔNG CỤ VẼ VÀ MỘT SỐ ỨNG DỤNG  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu về lớp ảnh
+# Bài 27. CÔNG CỤ VẼ VÀ MỘT SỐ ỨNG DỤNG
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nắm được khái niệm lớp ảnh.
+Biết được một số công cụ vẽ đơn giản.
+Thực hiện được một số ứng dụng để tẩy, làm sạch và xóa các vết xước trên ảnh.
+Vẽ thêm các chi tiết đơn giản.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu về lớp ảnh
 Hoạt động 2: Tìm hiểu về một số công cụ vẽ
 Hoạt động 3: Tìm hiểu về thiết lập màu sắc
-Hoạt động 4: Thực hành  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+Hoạt động 4: Thực hành
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 27: CÔNG CỤ VẼ VÀ MỘT SỐ ỨNG DỤNG
 I. MỤC TIÊU
@@ -178,4 +203,8 @@ Thông thường sử dụng Clone sẽ nhanh hơn so với Healing.
 * HƯỚNG DẪN VỀ NHÀ
 - Ghi nhớ kiến thức trong bài.
 - Hoàn thành các bài tập trong SBT.
-- Chuẩn bị bài mới Bài 28 – Tạo ảnh động. ```  </details> 
+- Chuẩn bị bài mới Bài 28 – Tạo ảnh động.
+```
+
+</details>
+

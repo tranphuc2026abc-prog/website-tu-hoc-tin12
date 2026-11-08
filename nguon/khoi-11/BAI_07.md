@@ -1,4 +1,28 @@
-# Bài 7. THỰC HÀNH TÌM KIẾM  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 2: Xác lập được các lựa chọn theo tiêu chí tìm kiếm để nâng cao hiệu quả tìm kiếm thông tin  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 7. THỰC HÀNH TÌM KIẾM
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+TỔ CHỨC LƯU TRỮ, TÌM KIẾM
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nắm được kiến thức chung về tìm kiếm thông tin trên Internet.
+Sử dụng được máy tìm kiếm trên máy tính và thiết bị số thông minh bằng cách gõ từ khóa hoặc bằng tiếng nói.
+Xác lập được các lựa chọn theo tiêu chí tìm kiếm để nâng cao hiệu quả tìm kiếm.
+
+## Trọng tâm hoạt động
+
+Hoạt động 2: Xác lập được các lựa chọn theo tiêu chí tìm kiếm để nâng cao hiệu quả tìm kiếm thông tin
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 7: THỰC HÀNH TÌM KIẾM 
 THÔNG TIN TRÊN INTERNET
@@ -111,4 +135,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 8 - Thực hành nâng cao sử dụng thư điện tử và mạng xã hội. ```  </details> 
+Chuẩn bị bài mới Bài 8 - Thực hành nâng cao sử dụng thư điện tử và mạng xã hội.
+```
+
+</details>
+

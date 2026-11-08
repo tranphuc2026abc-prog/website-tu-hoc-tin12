@@ -1,6 +1,30 @@
-# Bài 3. PHẦN MỀM NGUỒN MỞ  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu phần mềm nguồn mở
+# Bài 3. PHẦN MỀM NGUỒN MỞ
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+MÁY TÍNH VÀ XÃ HỘI TRI THỨC
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Trình bày được một số khái niệm và nắm được sự khác nhau giữa phần mềm nguồn mở với phần mềm thương mại.
+Hiểu được vai trò của phần mềm nguồn mở và phần mềm thương mại đối với sự phát triển của công nghệ thông tin.
+Biết được phần mềm chạy trên Internet và lợi ích của chúng.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu phần mềm nguồn mở
 Hoạt động 2: Tìm hiểu vai trò của phần mềm thương mại và phần mềm nguồn mở
-Hoạt động 3: Tìm hiểu phần mềm chạy trên Internet  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+Hoạt động 3: Tìm hiểu phần mềm chạy trên Internet
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 3: PHẦN MỀM NGUỒN MỞ
 VÀ PHẦN MỀM CHẠY TRÊN INTERNET
@@ -161,4 +185,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 4 - Bên trong máy tính. ```  </details> 
+Chuẩn bị bài mới Bài 4 - Bên trong máy tính.
+```
+
+</details>
+

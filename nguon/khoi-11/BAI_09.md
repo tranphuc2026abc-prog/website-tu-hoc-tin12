@@ -1,5 +1,28 @@
-# Bài 9. GIAO TIẾP AN TOÀN TRÊN INTERNET  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Trao đổi về cách xử lí những tình huống bất thường
-Hoạt động 2: Quy tắc ứng xử chung trong môi trường số  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: …/…/…
+# Bài 9. GIAO TIẾP AN TOÀN TRÊN INTERNET
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+ĐẠO ĐỨC, PHÁP LUẬT
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nêu được một số dạng lừa đảo phổ biến trên không gian số và những biện pháp phòng tránh.
+Biết giao tiếp một cách văn minh, phù hợp với các quy tắc và văn hóa ứng xử trong môi trường số.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Trao đổi về cách xử lí những tình huống bất thường
+Hoạt động 2: Quy tắc ứng xử chung trong môi trường số
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: …/…/…
 Ngày dạy: …/…/…
 CHỦ ĐỀ 3: ĐẠO ĐỨC, PHÁP LUẬT 
 VÀ VĂN HOÁ TRONG MÔI TRƯỜNG SỐ
@@ -198,4 +221,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài.
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 10 – Lưu trữ dữ liệu và khai thác thông tin phục vụ quản lí. ```  </details> 
+Chuẩn bị bài mới Bài 10 – Lưu trữ dữ liệu và khai thác thông tin phục vụ quản lí.
+```
+
+</details>
+

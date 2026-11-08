@@ -1,5 +1,28 @@
-# Bài 17. QUẢN TRỊ CƠ SỞ DỮ LIỆU TRÊN MÁY TÍNH  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu về lợi ích của việc quản trị cơ sở dữ liệu trên máy tính
-Hoạt động 2: Tìm hiểu về hệ quản trị cơ sở dữ liệu MySQL và phần mềm HeidiSQL  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 17. QUẢN TRỊ CƠ SỞ DỮ LIỆU TRÊN MÁY TÍNH
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết được lợi ích của việc quản trị CSDL trên máy tính.
+Làm quen với MySQL và HeidiSQL – bộ cung cụ hỗ trợ việc quản trị CSDL trên máy tính.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu về lợi ích của việc quản trị cơ sở dữ liệu trên máy tính
+Hoạt động 2: Tìm hiểu về hệ quản trị cơ sở dữ liệu MySQL và phần mềm HeidiSQL
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 CHỦ ĐỀ 6: THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
 BÀI 17: QUẢN TRỊ CƠ SỞ DỮ LIỆU TRÊN MÁY TÍNH
@@ -136,4 +159,8 @@ Bước 3: Báo cáo kết quả hoạt động, thảo luận
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 18 – Thực hành xác định cấu trúc bảng và các trường khóa. ```  </details> 
+Chuẩn bị bài mới Bài 18 – Thực hành xác định cấu trúc bảng và các trường khóa.
+```
+
+</details>
+

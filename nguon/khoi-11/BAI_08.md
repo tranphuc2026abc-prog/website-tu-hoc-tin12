@@ -1,5 +1,28 @@
-# Bài 8. THỰC HÀNH NÂNG CAO  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Đánh dấu và phân loại thư điện tử
-Hoạt động 2: Khai thác một số chức năng nâng cao của mạng xã hội  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: …/…/…
+# Bài 8. THỰC HÀNH NÂNG CAO
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+TỔ CHỨC LƯU TRỮ, TÌM KIẾM
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết đánh dấu và phân loại thư điện tử.
+Khai thác được một số chức năng nâng cao của mạng xã hội
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Đánh dấu và phân loại thư điện tử
+Hoạt động 2: Khai thác một số chức năng nâng cao của mạng xã hội
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: …/…/…
 Ngày dạy: …/…/…
 BÀI 8: THỰC HÀNH NÂNG CAO 
 SỬ DỤNG THƯ ĐIỆN TỬ VÀ MẠNG XÃ HỘI
@@ -131,4 +154,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 9 - Giao tiếp an toàn trên Internet. ```  </details> 
+Chuẩn bị bài mới Bài 9 - Giao tiếp an toàn trên Internet.
+```
+
+</details>
+

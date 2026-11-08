@@ -1,4 +1,26 @@
-# Bài 22. THỰC HÀNH CẬP NHẬT BẢNG DỮ LIỆU CÓ THAM CHIẾU  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Không phát hiện tiêu đề hoạt động theo mẫu.  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 22. THỰC HÀNH CẬP NHẬT BẢNG DỮ LIỆU CÓ THAM CHIẾU
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Hiểu được cách thức nhập dữ liệu đối với các bảng có trường khóa ngoài – trường tham chiếu đến một khóa chính thức của bảng khác.
+
+## Trọng tâm hoạt động
+
+Không phát hiện tiêu đề hoạt động theo mẫu.
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 22: THỰC HÀNH CẬP NHẬT BẢNG DỮ LIỆU CÓ THAM CHIẾU
 I. MỤC TIÊU
@@ -110,4 +132,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 23 – Thực hành truy xuất dữ liệu qua liên kết các bảng. ```  </details> 
+Chuẩn bị bài mới Bài 23 – Thực hành truy xuất dữ liệu qua liên kết các bảng.
+```
+
+</details>
+

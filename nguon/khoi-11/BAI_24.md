@@ -1,4 +1,27 @@
-# Bài 24. THỰC HÀNH SAO LƯU DỮ LIỆU  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Không phát hiện tiêu đề hoạt động theo mẫu.  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 24. THỰC HÀNH SAO LƯU DỮ LIỆU
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nắm được các thao tác sao lưu và phục hồi dữ liệu.
+Nâng cao kĩ năng sử dụng máy tính, phần mềm.
+
+## Trọng tâm hoạt động
+
+Không phát hiện tiêu đề hoạt động theo mẫu.
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 24: THỰC HÀNH SAO LƯU DỮ LIỆU
 I. MỤC TIÊU
@@ -117,4 +140,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 25 – Phần mềm chỉnh sửa ảnh. ```  </details> 
+Chuẩn bị bài mới Bài 25 – Phần mềm chỉnh sửa ảnh.
+```
+
+</details>
+

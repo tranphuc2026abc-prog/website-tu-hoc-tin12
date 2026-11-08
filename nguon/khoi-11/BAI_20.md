@@ -1,6 +1,29 @@
-# Bài 20. THỰC HÀNH TẠO LẬP BẢNG CÓ KHÓA NGOÀI  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Khai báo bảng bannhac với các trường idBannhac, tenBannhac
+# Bài 20. THỰC HÀNH TẠO LẬP BẢNG CÓ KHÓA NGOÀI
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+: 
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết cách tạo mới các bảng có khóa ngoài.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Khai báo bảng bannhac với các trường idBannhac, tenBannhac
 Hoạt động 2: Khai báo các trường là khóa ngoài
-Hoạt động 3: Khai báo các trường khóa  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+Hoạt động 3: Khai báo các trường khóa
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 20: THỰC HÀNH TẠO LẬP BẢNG CÓ KHÓA NGOÀI
 I. MỤC TIÊU:
@@ -117,4 +140,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 21 – Thực hành cập nhật và truy xuất dữ liệu các bảng. ```  </details> 
+Chuẩn bị bài mới Bài 21 – Thực hành cập nhật và truy xuất dữ liệu các bảng.
+```
+
+</details>
+

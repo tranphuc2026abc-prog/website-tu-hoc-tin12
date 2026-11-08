@@ -1,5 +1,28 @@
-# Bài 6. LƯU TRỮ VÀ CHIA SẺ TỆP TIN TRÊN INTERNET  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Lưu trữ và chia sẻ tệp tin trên Internet - ổ đĩa trực tuyến
-Hoạt động 2: Thực hành lưu trữ và chia sẻ tệp tin trên ổ đĩa trực tuyến  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 6. LƯU TRỮ VÀ CHIA SẺ TỆP TIN TRÊN INTERNET
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+TỔ CHỨC LƯU TRỮ, TÌM KIẾM
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nắm được kiến thức chung về công cụ để lưu trữ và chia sẻ tệp tin trên mạng Internet.
+Sử dụng được một số công cụ trực tuyến như Google Drive hay Drop Box... để lưu trữ và chia sẻ tệp tin.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Lưu trữ và chia sẻ tệp tin trên Internet - ổ đĩa trực tuyến
+Hoạt động 2: Thực hành lưu trữ và chia sẻ tệp tin trên ổ đĩa trực tuyến
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 CHỦ ĐỀ 2: TỔ CHỨC LƯU TRỮ, TÌM KIẾM 
 VÀ TRAO ĐỔI THÔNG TIN
@@ -162,4 +185,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành bài tập phần Vận dụng và các bài tập trong SBT.
-Chuẩn bị bài mới Bài 7 - Thực hành tìm kiếm thông tin trên Internet. ```  </details> 
+Chuẩn bị bài mới Bài 7 - Thực hành tìm kiếm thông tin trên Internet.
+```
+
+</details>
+

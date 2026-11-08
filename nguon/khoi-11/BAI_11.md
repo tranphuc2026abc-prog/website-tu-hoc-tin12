@@ -1,5 +1,29 @@
-# Bài 11. CƠ SỞ DỮ LIỆU  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Có cần lưu trữ bảng điểm lớp học không?
-Hoạt động 2: Sự cần thiết phải lưu trữ dữ liệu theo một cấu trúc xác định  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: …/…/…
+# Bài 11. CƠ SỞ DỮ LIỆU
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+GIỚI THIỆU CÁC HỆ CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết được việc lưu trữ dữ liệu trên máy tính đòi hỏi phải được tổ chức một cách khoa học với những yêu cầu đã được khái quát và hệ thống hóa. 
+Hiểu được khái niệm CSDL và các thuộc tính cơ bản của CSDL.
+Trình bày được khái niệm CSDL và các thuộc tính cơ bản của CSDL.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Có cần lưu trữ bảng điểm lớp học không?
+Hoạt động 2: Sự cần thiết phải lưu trữ dữ liệu theo một cấu trúc xác định
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: …/…/…
 Ngày dạy: …/…/…
 BÀI 11: CƠ SỞ DỮ LIỆU
 I. MỤC TIÊU
@@ -149,4 +173,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài.
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 12 – Hệ quản trị cơ sở dữ liệu và hệ cơ sở dữ liệu. ```  </details> 
+Chuẩn bị bài mới Bài 12 – Hệ quản trị cơ sở dữ liệu và hệ cơ sở dữ liệu.
+```
+
+</details>
+

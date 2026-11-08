@@ -1,4 +1,27 @@
-# Bài 13. CƠ SỞ DỮ LIỆU QUAN HỆ  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu về một CSDL thông tin âm nhạc  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: …/…/…
+# Bài 13. CƠ SỞ DỮ LIỆU QUAN HỆ
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+GIỚI THIỆU CÁC HỆ CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Hiểu được mô hình CSDL quan hệ.
+Hiểu được các thuật ngữ và khái niệm liên quan: bản ghi, trường (thuộc tính), khóa, khóa chính, khóa ngoài, liên kết dữ liệu, các kiểu dữ liệu,…
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu về một CSDL thông tin âm nhạc
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: …/…/…
 Ngày dạy: …/…/…
 BÀI 13: CƠ SỞ DỮ LIỆU QUAN HỆ
 I. MỤC TIÊU
@@ -161,4 +184,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài.
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 14 – SQL – Ngôn ngữ truy vấn có cấu trúc. ```  </details> 
+Chuẩn bị bài mới Bài 14 – SQL – Ngôn ngữ truy vấn có cấu trúc.
+```
+
+</details>
+

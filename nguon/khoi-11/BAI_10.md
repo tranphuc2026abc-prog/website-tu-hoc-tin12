@@ -1,6 +1,29 @@
-# Bài 10. LƯU TRỮ DỮ LIỆU VÀ KHAI THÁC  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Thảo luận về ghi chép điểm môn học
+# Bài 10. LƯU TRỮ DỮ LIỆU VÀ KHAI THÁC
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+GIỚI THIỆU CÁC HỆ CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nhận thức và trình bày được việc lưu trữ dữ liệu và khai thác thông tin từ các dữ liệu lưu trữ là một công việc thiết yếu, được thực hiện một cách thường xuyên trong các công tác quản lí. 
+Hiểu, phân biệt và trình bày được các khái niệm cập nhật, truy xuất dữ liệu và khai thác thông tin.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Thảo luận về ghi chép điểm môn học
 Hoạt động 2: Truy xuất dữ liệu và khai thác thông tin
-Hoạt động 3: Thu thập dữ liệu tự động  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: …/…/…
+Hoạt động 3: Thu thập dữ liệu tự động
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: …/…/…
 Ngày dạy: …/…/…
 CHỦ ĐỀ 4: GIỚI THIỆU CÁC HỆ CƠ SỞ DỮ LIỆU
 BÀI 10: LƯU TRỮ DỮ LIỆU VÀ KHAI THÁC
@@ -182,4 +205,8 @@ Thông tin được ghi nhận ở mỗi cột bơm xăng dầu bao gồm: loạ
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài.
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 11 – Cơ sở dữ liệu ```  </details> 
+Chuẩn bị bài mới Bài 11 – Cơ sở dữ liệu
+```
+
+</details>
+

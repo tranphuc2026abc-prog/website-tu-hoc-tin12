@@ -1,6 +1,31 @@
-# Bài 25. PHẦN MỀM CHỈNH SỬA ẢNH  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu về ảnh số
+# Bài 25. PHẦN MỀM CHỈNH SỬA ẢNH
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nhận biết ảnh bitmap.
+Nhận biết giao diện phần mềm chỉnh sửa ảnh.
+Phân biệt được các vùng làm việc, hộp công cụ chính.
+Thực hiện được một số thao tác đơn giản với ảnh: phóng to, thu nhỏ, xoay, cắt ảnh.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu về ảnh số
 Hoạt động 2: Tìm hiểu về phần mềm chỉnh sửa ảnh
-Hoạt động 3: Thực hành  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+Hoạt động 3: Thực hành
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 25: PHẦN MỀM CHỈNH SỬA ẢNH
 I. MỤC TIÊU
@@ -171,4 +196,8 @@ Bước 7. Nhấn phím Enter.
 * HƯỚNG DẪN VỀ NHÀ
 - Ghi nhớ kiến thức trong bài.
 - Hoàn thành các bài tập trong SBT.
-- Chuẩn bị bài mới Bài 26 – Công cụ tinh chỉnh màu sắc và công cụ chọn. ```  </details> 
+- Chuẩn bị bài mới Bài 26 – Công cụ tinh chỉnh màu sắc và công cụ chọn.
+```
+
+</details>
+

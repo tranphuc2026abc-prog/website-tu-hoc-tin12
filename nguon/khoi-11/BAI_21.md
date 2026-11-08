@@ -1,8 +1,30 @@
-# Bài 21. THỰC HÀNH CẬP NHẬT VÀ TRUY XUẤT DỮ LIỆU CÁC BẢNG  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Thêm mới dữ liệu vào bảng nhacsi
+# Bài 21. THỰC HÀNH CẬP NHẬT VÀ TRUY XUẤT DỮ LIỆU CÁC BẢNG
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết cách cập nhật và truy xuất CSDL.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Thêm mới dữ liệu vào bảng nhacsi
 Hoạt động 2: Chỉnh sửa dữ liệu trong bảng nhacsi
 Hoạt động 3: Xóa dòng dữ liệu trong bảng nhacsi
 Hoạt động 4: Truy xuất dữ liệu từ bảng nhacsi
-Hoạt động 5: Truy xuất dữ liệu với câu truy vấn SQL  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+Hoạt động 5: Truy xuất dữ liệu với câu truy vấn SQL
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 21: THỰC HÀNH CẬP NHẬT VÀ TRUY XUẤT DỮ LIỆU CÁC BẢNG
 I. MỤC TIÊU:
@@ -135,4 +157,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 22 – Thực hành cập nhật bảng dữ liệu có tham chiếu. ```  </details> 
+Chuẩn bị bài mới Bài 22 – Thực hành cập nhật bảng dữ liệu có tham chiếu.
+```
+
+</details>
+

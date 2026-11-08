@@ -1,5 +1,28 @@
-# Bài 19. THỰC HÀNH TẠO LẬP  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tạo lập CSDL mymusic
-Hoạt động 2: Tạo lập bảng  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 19. THỰC HÀNH TẠO LẬP
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết tạo mới một CSDL, thực hiện thông qua giao diện của phần mềm khách quản trị CSDL HeidiSQL.
+Tạo được các bảng không có khóa ngoài, chỉ định được khóa chính cho mỗi bảng, khóa cấm trùng lặp cho những trường không được có giá trị trùng lặp.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tạo lập CSDL mymusic
+Hoạt động 2: Tạo lập bảng
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 19: THỰC HÀNH TẠO LẬP
 CƠ SỞ DỮ LIỆU VÀ CÁC BẢNG
@@ -112,4 +135,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 20 – Thực hành tạo lập bảng có khóa ngoài. ```  </details> 
+Chuẩn bị bài mới Bài 20 – Thực hành tạo lập bảng có khóa ngoài.
+```
+
+</details>
+

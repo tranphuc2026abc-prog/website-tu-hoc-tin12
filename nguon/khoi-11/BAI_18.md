@@ -1,8 +1,30 @@
-# Bài 18. THỰC HÀNH XÁC ĐỊNH  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Xem xét bài toán
+# Bài 18. THỰC HÀNH XÁC ĐỊNH
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Có được hình dung về công việc xác định các bảng dữ liệu, cấu trúc của chúng và các trường khóa trước khi bước vào tạo lập CSDL.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Xem xét bài toán
 Hoạt động 2: Xác định cấu trúc bảng
 Hoạt động 3: Tổ chức lại bảng dữ liệu
 Hoạt động 4: Các loại khóa
-Hoạt động 5: Về các kiểu dữ liệu của các trường  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+Hoạt động 5: Về các kiểu dữ liệu của các trường
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 18: THỰC HÀNH XÁC ĐỊNH
 CẤU TRÚC BẢNG VÀ CÁC TRƯỜNG KHÓA
@@ -134,4 +156,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 19 – Thực hành tạo lập cơ sở dữ liệu và các bảng. ```  </details> 
+Chuẩn bị bài mới Bài 19 – Thực hành tạo lập cơ sở dữ liệu và các bảng.
+```
+
+</details>
+

@@ -1,4 +1,28 @@
-# Bài 2. THỰC HÀNH SỬ DỤNG HỆ ĐIỀU HÀNH  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Không phát hiện tiêu đề hoạt động theo mẫu.  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 2. THỰC HÀNH SỬ DỤNG HỆ ĐIỀU HÀNH
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+MÁY TÍNH VÀ XÃ HỘI TRI THỨC
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Sử dụng được một số chức năng cơ bản của hệ điều hành cho máy tính cá nhân.
+Sử dụng được một vài tiện ích của hệ điều hành nâng cao hiệu quả của máy tính cá nhân.
+Sử dụng được một vài tiện ích cơ bản của hệ điều hành trên thiết bị di động.
+
+## Trọng tâm hoạt động
+
+Không phát hiện tiêu đề hoạt động theo mẫu.
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 2: THỰC HÀNH SỬ DỤNG HỆ ĐIỀU HÀNH
 I. MỤC TIÊU
@@ -153,4 +177,8 @@ Bài 2:
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 3 - Phần mềm nguồn mở và phần mềm chạy trên Internet. ```  </details> 
+Chuẩn bị bài mới Bài 3 - Phần mềm nguồn mở và phần mềm chạy trên Internet.
+```
+
+</details>
+

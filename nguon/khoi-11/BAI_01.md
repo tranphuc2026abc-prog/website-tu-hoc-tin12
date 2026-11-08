@@ -1,6 +1,31 @@
-# Bài 1. HỆ ĐIỀU HÀNH  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu lịch sử phát triển của hệ điều hành máy tính cá nhân
+# Bài 1. HỆ ĐIỀU HÀNH
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+MÁY TÍNH VÀ XÃ HỘI TRI THỨC
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Sơ bộ nắm được lịch sử phát triển của các hệ điều hành thông dụng cho máy tính cá nhân (PC), một hệ điều hành thương mại và một hệ điều hành nguồn mở.
+Hiểu được đặc điểm của hệ điều hành cho thiết bị di động.
+Hiểu được một cách khái quát mối quan hệ giữa phần cứng, hệ điều hành và phần mềm ứng dụng cũng như vai trò của mỗi thành phần trong hoạt động chung của cả hệ thống.
+Trình bày được nội dung kiến thức kể trên.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu lịch sử phát triển của hệ điều hành máy tính cá nhân
 Hoạt động 2: Tìm hiểu hệ điều hành cho thiết bị di động
-Hoạt động 3: Tìm hiểu quan hệ giữa hệ điều hành, phần cứng và phần mềm ứng dụng  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+Hoạt động 3: Tìm hiểu quan hệ giữa hệ điều hành, phần cứng và phần mềm ứng dụng
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 CHỦ ĐỀ 1: MÁY TÍNH VÀ XÃ HỘI TRI THỨC 
 BÀI 1: HỆ ĐIỀU HÀNH
@@ -165,4 +190,8 @@ GV có thể hướng dẫn HS tham khảo theo địa chỉ https://vi.wikipedi
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 2 - Thực hành sử dụng hệ điều hành. ```  </details> 
+Chuẩn bị bài mới Bài 2 - Thực hành sử dụng hệ điều hành.
+```
+
+</details>
+

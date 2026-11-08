@@ -1,5 +1,27 @@
-# Bài 15. BẢO MẬT VÀ AN TOÀN HỆ CƠ SỞ DỮ LIỆU  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tổ chức phân quyền với website âm nhạc
-Hoạt động 2: Bảo đảm an toàn dữ liệu  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 15. BẢO MẬT VÀ AN TOÀN HỆ CƠ SỞ DỮ LIỆU
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+GIỚI THIỆU CÁC HỆ CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Hiểu được ở mức khái quát các vấn đề về bảo mật và an toàn CSDL.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tổ chức phân quyền với website âm nhạc
+Hoạt động 2: Bảo đảm an toàn dữ liệu
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 15: BẢO MẬT VÀ AN TOÀN HỆ CƠ SỞ DỮ LIỆU
 I. MỤC TIÊU
@@ -152,4 +174,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài.
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 16 – Công việc quản trị cơ sở dữ liệu. ```  </details> 
+Chuẩn bị bài mới Bài 16 – Công việc quản trị cơ sở dữ liệu.
+```
+
+</details>
+

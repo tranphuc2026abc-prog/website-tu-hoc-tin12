@@ -1,5 +1,28 @@
-# Bài 4. BÊN TRONG MÁY TÍNH  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu các thiết bị bên trong máy tính
-Hoạt động 2: Tìm hiểu mạch logic và vai trò của mạch logic  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 4. BÊN TRONG MÁY TÍNH
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+MÁY TÍNH VÀ XÃ HỘI TRI THỨC
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nhận diện được một số thiết bị trong thân máy, nắm được chức năng và các thông số do hiệu năng của chúng.
+Nhận biết được sơ đồ của các mạch logic AND, OR, NOT và giải thích được vai trò của các mạch logic đó trong thực hiện các tính toán nhị phân.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu các thiết bị bên trong máy tính
+Hoạt động 2: Tìm hiểu mạch logic và vai trò của mạch logic
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 4: BÊN TRONG MÁY TÍNH
 I. MỤC TIÊU
@@ -142,4 +165,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 5 - Kết nối máy tính với các thiết bị số. ```  </details> 
+Chuẩn bị bài mới Bài 5 - Kết nối máy tính với các thiết bị số.
+```
+
+</details>
+

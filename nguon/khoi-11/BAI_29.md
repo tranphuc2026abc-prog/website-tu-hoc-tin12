@@ -1,5 +1,27 @@
-# Bài 29. KHÁM PHÁ PHẦN MỀM LÀM PHIM  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Khám phá phần mềm làm phim
-Hoạt động 2: Thực hành tạo và biên tập một đoạn phim từ tư liệu ảnh và video có sẵn  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 29. KHÁM PHÁ PHẦN MỀM LÀM PHIM
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Tạo được các đoạn phim, nhập tư liệu từ ảnh và video có sẵn, biên tập được đoạn phim phục vụ học tập và giải trí.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Khám phá phần mềm làm phim
+Hoạt động 2: Thực hành tạo và biên tập một đoạn phim từ tư liệu ảnh và video có sẵn
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 29: KHÁM PHÁ PHẦN MỀM LÀM PHIM
 I. MỤC TIÊU
@@ -147,4 +169,8 @@ Bước 3: Báo cáo kết quả hoạt động, thảo luận
 * HƯỚNG DẪN VỀ NHÀ
 - Ghi nhớ kiến thức trong bài.
 - Hoàn thành các bài tập trong SBT.
-- Chuẩn bị bài mới Bài 30 – Biên tập phim. ```  </details> 
+- Chuẩn bị bài mới Bài 30 – Biên tập phim.
+```
+
+</details>
+

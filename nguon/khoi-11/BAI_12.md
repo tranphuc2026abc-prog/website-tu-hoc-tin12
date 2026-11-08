@@ -1,5 +1,29 @@
-# Bài 12. HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU VÀ HỆ CƠ SỞ DỮ LIỆU  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Thảo luận về một phần mềm hỗ trợ thao tác dữ liệu
-Hoạt động 3: Tìm hiểu hệ cơ sở dữ liệu tập trung và phân tán  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: …/…/…
+# Bài 12. HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU VÀ HỆ CƠ SỞ DỮ LIỆU
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+GIỚI THIỆU CÁC HỆ CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Hiểu được khái niệm hệ quản trị CSDL và vai trò của hệ QTCSDL trong việc lưu trữ, cập nhật và truy xuất dữ liệu.
+Hiểu được khái niệm hệ CSDL.
+Phân biệt được CSDL tập trung và CSDL phân tán.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Thảo luận về một phần mềm hỗ trợ thao tác dữ liệu
+Hoạt động 3: Tìm hiểu hệ cơ sở dữ liệu tập trung và phân tán
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: …/…/…
 Ngày dạy: …/…/…
 BÀI 12: HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU VÀ HỆ CƠ SỞ DỮ LIỆU
 I. MỤC TIÊU
@@ -170,4 +194,8 @@ Một số hệ quản trị CSDL quan hệ được sử dụng phổ biến: O
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài.
 Hoàn thành các bài tập trong SBT.
-Chuẩn bị bài mới Bài 13 – Cơ sở dữ liệu quan hệ. ```  </details> 
+Chuẩn bị bài mới Bài 13 – Cơ sở dữ liệu quan hệ.
+```
+
+</details>
+

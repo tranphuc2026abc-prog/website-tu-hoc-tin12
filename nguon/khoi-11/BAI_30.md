@@ -1,5 +1,27 @@
-# Bài 30. BIÊN TẬP PHIM  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Biên tập phim
-Hoạt động 2: Thực hành  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 30. BIÊN TẬP PHIM
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Sử dụng được một số công cụ cơ bản biên tập phim: chỉnh sửa hình ảnh, âm thanh, tạo phụ đề, tạo các hiệu ứng chuyển cảnh, căn chỉnh thời gian.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Biên tập phim
+Hoạt động 2: Thực hành
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 30: BIÊN TẬP PHIM
 I. MỤC TIÊU
@@ -138,4 +160,8 @@ Bước 3: Báo cáo kết quả hoạt động, thảo luận
 * HƯỚNG DẪN VỀ NHÀ
 - Ghi nhớ kiến thức trong bài.
 - Hoàn thành các bài tập trong SBT.
-- Chuẩn bị bài mới Bài 31 – Thực hành tạo phim hoạt hình. ```  </details> 
+- Chuẩn bị bài mới Bài 31 – Thực hành tạo phim hoạt hình.
+```
+
+</details>
+

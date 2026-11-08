@@ -1,6 +1,31 @@
-# Bài 26. CÔNG CỤ TINH CHỈNH MÀU SẮC VÀ CÔNG CỤ CHỌN  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu về công cụ tinh chỉnh màu sắc
+# Bài 26. CÔNG CỤ TINH CHỈNH MÀU SẮC VÀ CÔNG CỤ CHỌN
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết được thành phần màu trong hệ màu RGB và ý nghĩa cũng như cách thay đổi để chỉnh sửa màu theo mong muốn.
+Biết được cách tạo vùng chọn đơn giản để chỉnh sửa từng phần trên ảnh.
+Thực hiện tạo vùng chọn.
+Thực hiện được một số lệnh căn chỉnh màu đơn giản.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu về công cụ tinh chỉnh màu sắc
 Hoạt động 2: Tìm hiểu về vai trò, ý nghĩa và cách thiết lập vùng chọn
-Hoạt động 3: Thực hành  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+Hoạt động 3: Thực hành
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 26: CÔNG CỤ TINH CHỈNH MÀU SẮC VÀ CÔNG CỤ CHỌN
 I. MỤC TIÊU
@@ -164,4 +189,8 @@ Bước 3: Báo cáo kết quả hoạt động, thảo luận
 * HƯỚNG DẪN VỀ NHÀ
 - Ghi nhớ kiến thức trong bài.
 - Hoàn thành các bài tập trong SBT.
-- Chuẩn bị bài mới Bài 27 – Công cụ vẽ và một số ứng dụng. ```  </details> 
+- Chuẩn bị bài mới Bài 27 – Công cụ vẽ và một số ứng dụng.
+```
+
+</details>
+

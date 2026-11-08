@@ -1,5 +1,29 @@
-# Bài 5. KẾT NỐI MÁY TÍNH VỚI CÁC THIẾT BỊ SỐ  > Học liệu được chuẩn hóa từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.  ## Chủ đề True  ## Mục tiêu kiến thức từ KHBD  True  ## Trọng tâm hoạt động  Hoạt động 1: Tìm hiểu một số thiết bị vào - ra thông dụng
-Hoạt động 2: Tìm hiểu cách kết nối máy tính với thiết bị số  ## KHBD đầy đủ đã chuyển định dạng  <details> <summary>Mở toàn bộ nội dung trích xuất từ tài liệu Word</summary>  ```text Ngày soạn: .../.../...
+# Bài 5. KẾT NỐI MÁY TÍNH VỚI CÁC THIẾT BỊ SỐ
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+MÁY TÍNH VÀ XÃ HỘI TRI THỨC
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết một số thông số cơ bản của thiết bị vào - ra thông dụng.
+Biết cách kết nối với máy tính cũng như tùy chỉnh được một số chức năng cơ bản để nâng cao hiệu quả và đáp ứng nhu cầu sử dụng.
+Đọc hiểu và giải thích được một số thông số cơ bản của các thiết bị số thông dụng trong các tài liệu để kết nối chúng với máy tính.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu một số thiết bị vào - ra thông dụng
+Hoạt động 2: Tìm hiểu cách kết nối máy tính với thiết bị số
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
 Ngày dạy: .../.../...
 BÀI 5: KẾT NỐI MÁY TÍNH VỚI CÁC THIẾT BỊ SỐ
 I. MỤC TIÊU
@@ -148,4 +172,8 @@ Bước 4: Đánh giá kết quả thực hiện
 * HƯỚNG DẪN VỀ NHÀ
 Ghi nhớ kiến thức trong bài. 
 Hoàn thành bài tập phần Vận dụng và các bài tập trong SBT.
-Chuẩn bị bài mới Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet. ```  </details> 
+Chuẩn bị bài mới Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet.
+```
+
+</details>
+
