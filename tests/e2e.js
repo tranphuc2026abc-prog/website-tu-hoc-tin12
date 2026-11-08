@@ -16,14 +16,14 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   console.log('== Chon khoi'); ok(await p.locator('.grade-card').count() === 3, 'hien thi du ba khoi lop');
   const expectedLessons = { 10: 34, 11: 31, 12: 28 };
   for (const grade of [10, 11, 12]) {
-    url = portalUrl.replace(/index\\.html$/, '') + 'course.html?grade=' + grade;
+    url = new URL('course.html?grade=' + grade, portalUrl).href;
     await p.goto(url); try { await p.waitForSelector('.map', { timeout: 15000 }); } catch (e) { console.log('GRADE ' + grade + ' BODY:', await p.locator('body').innerText()); console.log('GRADE ' + grade + ' ERRORS:', errs); throw e; }
     const shown = Number(await p.locator('.stats > div').nth(3).locator('b').textContent());
     const loaded = await p.evaluate(() => window.T.cat.qfiles.reduce((n, id) => n + (window.T.Q[id] || []).filter(q => q.st === 'ok').length, 0));
     ok(Number(await p.locator('.cell').count()) === expectedLessons[grade], 'khối ' + grade + ' mở đủ ' + expectedLessons[grade] + ' bài');
     ok(shown === loaded, 'khối ' + grade + ' thống kê đủ ' + loaded + ' câu hỏi đã nạp');
   }
-  url = portalUrl.replace(/index\\.html$/, '') + 'course.html?grade=12';
+  url = new URL('course.html?grade=12', portalUrl).href;
   console.log('== Trang chu Tin hoc 12'); ok(await p.locator('.cell').count() === 28, '28 o bai tren ban do');
   const shownQuestionCount = Number(await p.locator('.stats > div').nth(3).locator('b').textContent()); const loadedQuestionCount = await p.evaluate(() => window.T.cat.qfiles.reduce((n, id) => n + (window.T.Q[id] || []).filter(q => q.st === 'ok').length, 0)); ok(await p.locator('.cell').count() === 28 && shownQuestionCount === loadedQuestionCount, 'thong ke 28 bai / dung so cau da nap: ' + loadedQuestionCount);
   console.log('== Mo tung bai'); let bad = [];
