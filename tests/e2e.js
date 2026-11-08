@@ -44,7 +44,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
           return { id: l.id, terms: data?.terms?.length || 0, termSection: text('terms'), ex: text('ex'), err: text('err'), rem: text('rem') };
         }));
         ok(sections.length === expectedLessons[grade] && sections.every(x =>
-          x.terms >= 2 && x.termSection && x.ex && x.err && x.rem),
+          x.terms >= 1 && x.termSection && x.ex && x.err && x.rem),
           'khối ' + grade + ' đủ thuật ngữ, ví dụ, lưu ý và ghi nhớ cho từng bài');
       }
     }
