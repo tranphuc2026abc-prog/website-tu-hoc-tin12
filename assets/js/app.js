@@ -308,7 +308,7 @@ document.addEventListener('input', e => {
   else if (t.id === 'ta' && run) { const q = cur(), a = S.ans[q.id] || (S.ans[q.id] = { n: 0 }); a.tx = t.value; save(); }
   else if (t.id === 'q') { const v = t.value.trim(); if (v) location.hash = '#/search/' + encodeURIComponent(v); }
 });
-$('#th').onclick = () => { S.th = document.documentElement.dataset.th === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.th = S.th; save(); };
+const themeButton = $('#th'); if (themeButton) themeButton.onclick = () => { S.th = document.documentElement.dataset.th === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.th = S.th; save(); };
 
 /* ---------- khởi động ---------- */
 const ld = u => new Promise(r => { const s = document.createElement('script'); s.src = u; s.onload = () => r(1); s.onerror = () => r(0); document.head.append(s); });
