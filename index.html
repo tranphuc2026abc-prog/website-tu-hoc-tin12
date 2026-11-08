@@ -10,16 +10,36 @@
 <link rel="stylesheet" href="assets/css/multigrade.css">
 </head>
 <body>
-<header class="top"><div class="bar-in"><a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span><span class="brand-copy"><strong>TIN HỌC THPT</strong><small>KHÔNG GIAN TỰ HỌC</small></span></a></div></header>
+<header class="top"><div class="bar-in"><a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span><span class="brand-copy"><strong>TỰ HỌC TIN HỌC THPT</strong><small>KHỐI 10 · 11 · 12</small></span></a></div></header>
 <main class="wrap portal">
-<section class="portal-hero"><span class="eyebrow">✦ DIGITAL LEARNING HUB · THPT</span><h1>Chọn hành trình học tập</h1><p class="sub">Một không gian học Tin học xuyên suốt ba năm THPT.</p><p>Chọn khối lớp để mở bài học, ôn tập và luyện tập theo đúng chương trình.</p></section>
+<section class="portal-hero"><span class="eyebrow">TIN HỌC · KHỐI 10–12</span><h1>Chọn hành trình học tập</h1><p class="sub">Một không gian học Tin học xuyên suốt ba năm THPT.</p><p>Chọn khối lớp để mở bài học, ôn tập và luyện tập theo đúng chương trình.</p></section>
 <section class="grade-grid" aria-label="Chọn khối lớp">
 <a class="grade-card grade-10" href="course.html?grade=10"><span class="grade-label">KHỐI</span><strong>10</strong><span class="grade-count">34 bài học</span><span class="grade-desc">Dữ liệu · Internet · Đồ họa · Python</span><span class="grade-open">Vào học <span aria-hidden="true">→</span></span></a>
 <a class="grade-card grade-11" href="course.html?grade=11"><span class="grade-label">KHỐI</span><strong>11</strong><span class="grade-count">31 bài học</span><span class="grade-desc">Hệ điều hành · Cơ sở dữ liệu · Đồ họa · Phim</span><span class="grade-open">Vào học <span aria-hidden="true">→</span></span></a>
 <a class="grade-card grade-12" href="course.html?grade=12"><span class="grade-label">KHỐI</span><strong>12</strong><span class="grade-count">28 bài học</span><span class="grade-desc">AI · Mạng · Giải quyết vấn đề · Ứng dụng</span><span class="grade-open">Vào học <span aria-hidden="true">→</span></span></a>
 </section>
 <p class="portal-note">Tiến độ và ngân hàng câu hỏi được mở theo từng khối lớp.</p>
-<section class="portal-hero" aria-label="Chức năng tạm khóa" style="margin-top:1.5rem;opacity:.82"><span class="eyebrow">TẠM THỜI KHÓA</span><h2>Ôn thi tốt nghiệp và đề tham khảo</h2><p class="sub">Mục này đang được rà soát. Bạn vẫn có thể học bài, ôn tập và luyện tập theo từng khối lớp.</p></section>
+<section id="continue-card" class="continue-card" hidden aria-live="polite"></section>
+<section class="locked-note" aria-label="Chức năng đang rà soát"><span class="eyebrow">SẮP CÓ</span><span><strong>Ôn thi tốt nghiệp và đề tham khảo</strong><small>Mục này đang được rà soát; các chức năng học theo khối vẫn sử dụng bình thường.</small></span></section>
+<script>
+(() => {
+  const card = document.getElementById('continue-card');
+  const grades = ['10', '11', '12'];
+  for (const grade of grades) {
+    try {
+      const saved = JSON.parse(localStorage.getItem('tin' + grade + '.v1') || 'null');
+      if (!saved || !saved.last) continue;
+      const link = document.createElement('a');
+      link.className = 'continue-link';
+      link.href = 'course.html?grade=' + grade + '#/lesson/' + encodeURIComponent(saved.last);
+      link.innerHTML = '<span class="continue-mark" aria-hidden="true">▶</span><span><strong>Tiếp tục học · Khối ' + grade + '</strong><small>Mở bài học gần nhất trên thiết bị này</small></span><span aria-hidden="true">→</span>';
+      card.append(link);
+      card.hidden = false;
+      break;
+    } catch (_) {}
+  }
+})();
+</script>
 </main>
 <footer class="wrap portal-footer">Tự học Tin học THPT · Học chủ động, thực hành thường xuyên.</footer>
 </body></html>
