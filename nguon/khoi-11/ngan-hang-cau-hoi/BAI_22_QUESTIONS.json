@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác. Em nên làm gì?",
+        "noi_dung": "Tình huống: Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Mã 12 có tồn tại trong Nhacsi.",
           "B": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Thêm bản nhạc có khóa ngoài idNhacsi. Em nên làm gì?",
+        "noi_dung": "Tình huống: Thêm bản nhạc có khóa ngoài idNhacsi. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Mã 12 có tồn tại trong Nhacsi.",
           "B": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Câu lệnh thêm dữ liệu bị từ chối. Em nên làm gì?",
+        "noi_dung": "Tình huống: Câu lệnh thêm dữ liệu bị từ chối. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
           "B": "Khóa ngoài của bản ghi Bannhac.",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Bản nhạc được gán nhầm nhạc sĩ. Em nên làm gì?",
+        "noi_dung": "Tình huống: Bản nhạc được gán nhầm nhạc sĩ. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
           "B": "Khóa ngoài của bản ghi Bannhac.",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Nhạc sĩ còn bản nhạc liên kết. Em nên làm gì?",
+        "noi_dung": "Tình huống: Nhạc sĩ còn bản nhạc liên kết. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Để bảo vệ toàn vẹn tham chiếu.",
           "B": "Mã 12 có tồn tại trong Nhacsi.",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Bản nhạc thuộc nhạc sĩ mới. Em nên làm gì?",
+        "noi_dung": "Tình huống: Bản nhạc thuộc nhạc sĩ mới. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Mã 12 có tồn tại trong Nhacsi.",
           "B": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Đã sửa idNhacsi cho một bản nhạc. Em nên làm gì?",
+        "noi_dung": "Tình huống: Đã sửa idNhacsi cho một bản nhạc. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
           "B": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
@@ -395,7 +395,7 @@
           "c": false,
           "d": true
         },
-        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
       }
     ],
     "tu_luan": [

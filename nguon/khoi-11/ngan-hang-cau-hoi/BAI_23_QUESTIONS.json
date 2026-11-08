@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Cần tên bài hát và tên nhạc sĩ ở hai bảng. Em nên làm gì?",
+        "noi_dung": "Tình huống: Cần tên bài hát và tên nhạc sĩ ở hai bảng. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Dùng bí danh bảng và tiền tố.",
           "B": "JOIN theo khóa chính/khóa ngoài.",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi. Em nên làm gì?",
+        "noi_dung": "Tình huống: Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Hai trường idNhacsi bằng nhau.",
           "B": "JOIN theo khóa chính/khóa ngoài.",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Chỉ cần tenBannhac và tenNhacsi. Em nên làm gì?",
+        "noi_dung": "Tình huống: Chỉ cần tenBannhac và tenNhacsi. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "JOIN theo khóa chính/khóa ngoài.",
           "B": "Hai trường idNhacsi bằng nhau.",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Truy vấn nhiều bảng có tên trường giống nhau. Em nên làm gì?",
+        "noi_dung": "Tình huống: Truy vấn nhiều bảng có tên trường giống nhau. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Hai trường idNhacsi bằng nhau.",
           "B": "Hai trường tên tương ứng.",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Chỉ xem bản nhạc của một nhạc sĩ. Em nên làm gì?",
+        "noi_dung": "Tình huống: Chỉ xem bản nhạc của một nhạc sĩ. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Hai trường tên tương ứng.",
           "B": "Điều kiện lọc trên mã nhạc sĩ.",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Truy vấn hai bảng trả hàng nghìn tổ hợp sai. Em nên làm gì?",
+        "noi_dung": "Tình huống: Truy vấn hai bảng trả hàng nghìn tổ hợp sai. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "Điều kiện nối giữa các bảng.",
           "B": "JOIN theo khóa chính/khóa ngoài.",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Nhiều bài hát thuộc một nhạc sĩ. Em nên làm gì?",
+        "noi_dung": "Tình huống: Nhiều bài hát thuộc một nhạc sĩ. Lựa chọn nào phù hợp?",
         "lua_chon": {
           "A": "JOIN theo khóa chính/khóa ngoài.",
           "B": "Hai trường idNhacsi bằng nhau.",
@@ -395,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
       }
     ],
     "tu_luan": [
