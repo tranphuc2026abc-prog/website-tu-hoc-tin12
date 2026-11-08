@@ -30,7 +30,7 @@ Khối 10 và 11 có 25 câu mỗi bài. Khối 12 có 700 câu trong bộ ngu�
 
 ### Trên web
 
-Mở [bản demo GitHub Pages](https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/), chọn khối rồi chọn chức năng. Bài học và dữ liệu tĩnh được đóng gói trong website; đăng nhập/đồng bộ Supabase cần kết nối Internet.
+Mở [bản demo GitHub Pages](https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/), chọn khối rồi chọn chức năng. Truy cập Pages cần Internet để tải trang và dữ liệu. Muốn học ngoại tuyến, tải và giải nén đầy đủ ZIP về máy trước; đăng nhập/đồng bộ Supabase luôn cần Internet.
 
 ### Trên máy tính
 
