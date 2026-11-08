@@ -153,7 +153,9 @@ def lesson_sections(md, title, goals, key):
                                  r"II\. THIẾT BỊ|III\. TIẾN TRÌNH|HƯỚNG DẪN VỀ NHÀ|"
                                  r"Năng lực|Phẩm chất|[A-D]\.)", text, re.I)
                 and not re.match(r"^(?:Bước\s+\d+|Nhiệm vụ\s+\d+|Hoạt động\s+\d+)", text, re.I)
-                and not re.match(r"^(?:HS\b|GV\b|Học sinh\b|Năng lực\b|\d\.\d\.NC\d+[a-z]?:)", text, re.I))
+                and not re.match(r"^(?:HS\b|GV\b|Học sinh\b|Năng lực\b|\d\.\d\.NC\d+[a-z]?:)", text, re.I)
+                and not re.search(r"\b(?:GV yêu cầu|GV tổ chức|GV gọi|GV nhận xét|GV chữa|GV hướng dẫn|HS đọc|HS thực hiện|HS thảo luận|HS chú ý|HS quan sát|HS hoạt động|các HS khác|đại diện nhóm|học sinh hoạt động nhóm)\b", text, re.I)
+                and not re.search(r"\b(?:Bước\s+\d+|Hướng dẫn về nhà|mục tiêu|nội dung|tổ chức thực hiện|sản phẩm dự kiến)\b", text[:100], re.I))
 
     term_pairs, seen_terms = [], set()
     def add_term(term, definition, strict=False):
@@ -219,7 +221,7 @@ def lesson_sections(md, title, goals, key):
             if len(examples) >= 3:
                 break
     if not examples:
-        examples = [goals[0] if goals else title + " trong một tình huống học tập."]
+        examples = ["KHBD chưa nêu ví dụ minh họa riêng; hãy xem các minh họa có trong phần kiến thức trọng tâm."]
     examples = list(dict.fromkeys(examples))[:3]
 
     cautions = []
@@ -233,7 +235,7 @@ def lesson_sections(md, title, goals, key):
             if re.search(risk_terms, candidate, re.I) and student_facing(candidate):
                 cautions.append(candidate)
         if not cautions:
-            cautions = ["Với chủ đề " + title + ", tránh nhầm khái niệm hoặc bỏ qua điều kiện của yêu cầu; hãy đối chiếu thao tác và kết quả với nội dung trọng tâm trong bài."]
+            cautions = ["KHBD chưa nêu lỗi thường gặp cụ thể cho bài này. Hãy kiểm tra lại kết quả theo mục tiêu bài học: " + (goals[0] if goals else title) + "."]
     cautions = list(dict.fromkeys(cautions))[:3]
 
     reminders = []

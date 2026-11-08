@@ -54,6 +54,45 @@ def flat(bl):
         elif b['t'] == 'tb': r.extend(c for row in b['r'] for c in row)
     return r
 
+def content_signature(value):
+    value = unicodedata.normalize('NFD', str(value or '').lower()).replace('đ', 'd')
+    value = ''.join(c for c in value if unicodedata.category(c) != 'Mn')
+    return re.sub(r'\s+', ' ', value).strip()
+
+def node_signature(node):
+    return content_signature(node.get('x', '')) + '[' + '|'.join(
+        node_signature(child) for child in node.get('c', [])) + ']'
+
+def dedupe_nodes(source):
+    out, seen = [], set()
+    for raw in source:
+        node = dict(raw)
+        if raw.get('c'):
+            node['c'] = dedupe_nodes(raw['c'])
+        signature = node_signature(node)
+        if signature not in seen:
+            seen.add(signature)
+            out.append(node)
+    return out
+
+def dedupe_blocks(source):
+    """Remove only identical text items within one lesson section; keep distinct wording."""
+    out, seen = [], set()
+    for block in source:
+        item = dict(block)
+        if block.get('t') == 'ul':
+            item['i'] = dedupe_nodes(block.get('i', []))
+            sig = 'ul:' + '|'.join(node_signature(x) for x in item['i'])
+        elif block.get('t') in ('p', 'code'):
+            sig = block.get('t', '') + ':' + content_signature(block.get('x', ''))
+        elif block.get('t') == 'tb':
+            sig = 'tb:' + '|'.join(content_signature(c) for row in block.get('r', []) for c in row)
+        else:
+            sig = json.dumps(block, ensure_ascii=False, sort_keys=True)
+        if sig and sig not in seen:
+            seen.add(sig)
+            out.append(item)
+    return out
 
 rows = list(csv.DictReader(open(os.path.join(SRC, 'MUC_LUC_BAI_HOC.csv'), encoding='utf-8-sig')))
 assert len(rows) == 28 and len({r['Ma_Bai'] for r in rows}) == 28, 'Danh muc phai co 28 bai khong trung ma'
@@ -97,6 +136,7 @@ for n in range(1, 29):
             sig = json.dumps(block, ensure_ascii=False, sort_keys=True)
             if sig not in seen_blocks:
                 sec[key].append(block); seen_blocks.add(sig)
+        sec[key] = dedupe_blocks(sec[key])
     terms = []
     for block in sections['VI']['blocks']:
         if block['t'] == 'tb':

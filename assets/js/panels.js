@@ -44,7 +44,7 @@
   function panel({kind,title,desc,icon,mark,theme,n,meta=[]}) {
     const [a,b,c] = theme;
     return '<section class="learning-panel '+kind+'" style="--p1:'+a+';--p2:'+b+';--accent:'+c+'" data-mark="'+esc(mark)+'" aria-label="'+esc(title)+'">'+
-      '<div class="learning-panel-copy"><span class="learning-panel-kicker">✦ TIN HỌC 12 · '+esc(mark)+'</span>'+
+      '<div class="learning-panel-copy"><span class="learning-panel-kicker">✦ '+esc((window.T && window.T.cat && window.T.cat.courseTitle) || 'TIN HỌC')+' · '+esc(mark)+'</span>'+
       '<'+(kind==='topic-panel'?'h1':'h2')+'>'+esc(title)+'</'+(kind==='topic-panel'?'h1':'h2')+'>'+
       '<p>'+esc(desc)+'</p><div class="panel-meta">'+meta.map(x=>'<span>'+esc(x)+'</span>').join('')+'</div></div>'+
       '<div class="learning-panel-badge" aria-hidden="true">'+icon+'</div></section>';
@@ -56,7 +56,10 @@
     if (path.startsWith('#/lesson/')) {
       const id = path.split('/')[2], lesson = window.T.cat.lessons.find(x=>x.id===id);
       if (!lesson || app.querySelector('.learning-panel.lesson-panel')) return;
-      const t = lessonThemes[lesson.n] || ['✦','LESSON','Cùng khám phá kiến thức và thực hành Tin học 12'];
+      const grade = Number(window.T.cat.grade || 12);
+      const t = grade === 12
+        ? (lessonThemes[lesson.n] || ['✦','LESSON','Cùng khám phá kiến thức và thực hành Tin học 12'])
+        : ['✦','BÀI '+lesson.n,'Tìm hiểu '+lesson.title.toLocaleLowerCase('vi')+' qua nội dung và hoạt động học tập.'];
       const th = topicThemes[lesson.topic] || topicThemes[0];
       const node = app.querySelector('h1');
       if (!node) return;
@@ -67,7 +70,7 @@
       if (app.querySelector('.learning-panel.topic-panel')) return;
       const node = app.querySelector('h1');
       if (!node) return;
-      node.insertAdjacentHTML('beforebegin', panel({kind:'topic-panel',title:'Bản đồ tri thức Tin học 12',desc:'28 bài học · 7 chủ đề · Học có lộ trình, thực hành có mục tiêu, theo dõi tiến bộ của chính mình.',icon:'🧭',mark:'LEARNING ROADMAP',theme:['#101b4c','#315cf5','#48d8e8'],meta:['7 CHỦ ĐỀ','28 BÀI HỌC','HỌC TẬP SỐ']}));
+      node.insertAdjacentHTML('beforebegin', panel({kind:'topic-panel',title:'Bản đồ tri thức '+window.T.cat.courseTitle,desc:window.T.cat.lessons.length+' bài học · '+window.T.cat.topics.length+' chủ đề · Học có lộ trình, thực hành có mục tiêu, theo dõi tiến bộ của chính mình.',icon:'🧭',mark:'LEARNING ROADMAP',theme:['#101b4c','#315cf5','#48d8e8'],meta:[window.T.cat.topics.length+' CHỦ ĐỀ',window.T.cat.lessons.length+' BÀI HỌC','HỌC TẬP SỐ']}));
       return;
     }
     if (path.startsWith('#/practice')) {
