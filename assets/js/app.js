@@ -37,7 +37,10 @@ const qOf = id => (T.Q[id] || []).filter(isApprovedQuestion);
 const pendingQuestions = () => allQuestions().filter(q => q && q.st === 'review');
 const lnk = id => `<a href="#/lesson/${id}">${esc(L(id).title)}</a>`;
 const remItems = id => (T.L[id].sec.rem.find(b => b.t === 'ul') || { i: [] }).i.map(n => n.x);
-const cardsOf = ids => ids.flatMap(id => [...T.L[id].terms.map((t, i) => ({ id: id + '-T' + i, l: id, f: t.t, b: t.d, k: 'Thuật ngữ' })), ...remItems(id).map((x, i) => ({ id: id + '-R' + i, l: id, f: 'Ghi nhớ – ' + L(id).title, b: x, k: 'Ghi nhớ' }))]);
+const cardsOf = ids => ids.flatMap(id => {
+  const base = [...(T.L[id].terms || []).map((t, i) => ({ id: id + '-T' + i, l: id, f: t.t, b: t.d, k: 'Thuật ngữ' })), ...remItems(id).map((x, i) => ({ id: id + '-R' + i, l: id, f: 'Ghi nhớ – ' + L(id).title, b: x, k: 'Ghi nhớ' }))];
+  return base.length ? base : qOf(id).filter(q => q.type === 'essay' && q.hint).map(q => ({ id: id + '-Q-' + q.id, l: id, f: q.q, b: q.hint, k: 'Câu tự luận' }));
+});
 const termCards = ids => cardsOf(ids).filter(c => c.k === 'Thuật ngữ');
 
 /* ---------- hiển thị nội dung bài ---------- */
