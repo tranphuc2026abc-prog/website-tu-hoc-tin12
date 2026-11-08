@@ -40,4 +40,4 @@
 
 ## Ngân hàng câu hỏi
 
-Ngân hàng bổ sung tại `ngan-hang-cau-hoi/` hiện có 3 câu mỗi bài cho 31 bài (93 câu): 1 MCQ, 1 câu đúng/sai gồm 4 mệnh đề, 1 tự luận. Đây là bộ câu hỏi mới biên soạn theo mục tiêu và nội dung KHBD; khóa đáp án rời trong KHBD không bị biến thành câu hỏi. Quy mô hiện tại chưa tương đương 25 câu mỗi bài của kho khối 12.
+Ngân hàng tại `ngan-hang-cau-hoi/` có 25 câu cho mỗi bài (775 câu): 22 trắc nghiệm, 1 câu đúng/sai gồm 4 mệnh đề và 2 câu tự luận. Mỗi câu có đáp án/hướng dẫn và giải thích. Câu hỏi được biên soạn theo mục tiêu, hoạt động và nội dung KHBD; các khóa đáp án rời trong KHBD không bị biến thành câu hỏi.

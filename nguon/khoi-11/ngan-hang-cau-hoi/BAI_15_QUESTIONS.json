@@ -3,16 +3,16 @@
   "bai_so": 15,
   "ten_bai": "Bảo mật và an toàn hệ CSDL",
   "thong_ke": {
-    "tong_so_cau": 3,
+    "tong_so_cau": 25,
     "so_cau_goc": {
       "trac_nghiem": 0,
       "dung_sai": 0,
       "tu_luan": 0
     },
     "so_cau_bo_sung": {
-      "trac_nghiem": 1,
+      "trac_nghiem": 22,
       "dung_sai": 1,
-      "tu_luan": 1
+      "tu_luan": 2
     }
   },
   "cau_hoi_goc": {
@@ -37,6 +37,342 @@
         },
         "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Hạn chế truy cập hoặc thay đổi trái phép; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B15-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Phát biểu nào đúng về Phân quyền tối thiểu?",
+        "lua_chon": {
+          "A": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
+          "B": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
+          "C": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
+          "D": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố."
+        },
+        "dap_an": "A",
+        "giai_thich": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ."
+      },
+      {
+        "id": "T11-B15-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+        "lua_chon": {
+          "A": "Dùng bản sao lưu đã kiểm tra.",
+          "B": "Chỉ cấp quyền xem phạm vi được phép.",
+          "C": "Xác thực người dùng.",
+          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Chỉ cấp quyền xem phạm vi được phép."
+      },
+      {
+        "id": "T11-B15-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Cách cấp quyền nào phù hợp?",
+        "lua_chon": {
+          "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "B": "Dùng bản sao lưu đã kiểm tra.",
+          "C": "Chỉ cấp quyền xem phạm vi được phép.",
+          "D": "Xác thực người dùng."
+        },
+        "dap_an": "C",
+        "giai_thich": "Chỉ cấp quyền xem phạm vi được phép. phù hợp vì phân quyền tối thiểu."
+      },
+      {
+        "id": "T11-B15-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Phát biểu nào đúng về Xác thực?",
+        "lua_chon": {
+          "A": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
+          "B": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
+          "C": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố.",
+          "D": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không."
+        },
+        "dap_an": "D",
+        "giai_thich": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không."
+      },
+      {
+        "id": "T11-B15-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "CSDL yêu cầu đăng nhập tài khoản hợp lệ.",
+        "lua_chon": {
+          "A": "Xác thực người dùng.",
+          "B": "Chỉ cấp quyền xem phạm vi được phép.",
+          "C": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "D": "Dùng bản sao lưu đã kiểm tra."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Xác thực người dùng."
+      },
+      {
+        "id": "T11-B15-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Cơ chế nào đang được dùng?",
+        "lua_chon": {
+          "A": "Dùng bản sao lưu đã kiểm tra.",
+          "B": "Xác thực người dùng.",
+          "C": "Chỉ cấp quyền xem phạm vi được phép.",
+          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+        },
+        "dap_an": "B",
+        "giai_thich": "Xác thực người dùng. phù hợp vì xác thực."
+      },
+      {
+        "id": "T11-B15-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Phát biểu nào đúng về Mật khẩu?",
+        "lua_chon": {
+          "A": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
+          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố.",
+          "C": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
+          "D": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ."
+        },
+        "dap_an": "C",
+        "giai_thich": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản."
+      },
+      {
+        "id": "T11-B15-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
+        "lua_chon": {
+          "A": "Chỉ cấp quyền xem phạm vi được phép.",
+          "B": "Xác thực người dùng.",
+          "C": "Dùng bản sao lưu đã kiểm tra.",
+          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Đổi sang mật khẩu mạnh, không dùng lại."
+      },
+      {
+        "id": "T11-B15-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Việc nào cần làm?",
+        "lua_chon": {
+          "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "B": "Chỉ cấp quyền xem phạm vi được phép.",
+          "C": "Xác thực người dùng.",
+          "D": "Dùng bản sao lưu đã kiểm tra."
+        },
+        "dap_an": "A",
+        "giai_thich": "Đổi sang mật khẩu mạnh, không dùng lại. phù hợp vì mật khẩu."
+      },
+      {
+        "id": "T11-B15-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Phát biểu nào đúng về Sao lưu?",
+        "lua_chon": {
+          "A": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
+          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố.",
+          "C": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
+          "D": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không."
+        },
+        "dap_an": "B",
+        "giai_thich": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố."
+      },
+      {
+        "id": "T11-B15-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Tệp dữ liệu bị hỏng do lỗi thiết bị.",
+        "lua_chon": {
+          "A": "Xác thực người dùng.",
+          "B": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "C": "Dùng bản sao lưu đã kiểm tra.",
+          "D": "Chỉ cấp quyền xem phạm vi được phép."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Dùng bản sao lưu đã kiểm tra."
+      },
+      {
+        "id": "T11-B15-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Biện pháp nào hỗ trợ khôi phục?",
+        "lua_chon": {
+          "A": "Chỉ cấp quyền xem phạm vi được phép.",
+          "B": "Xác thực người dùng.",
+          "C": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "D": "Dùng bản sao lưu đã kiểm tra."
+        },
+        "dap_an": "D",
+        "giai_thich": "Dùng bản sao lưu đã kiểm tra. phù hợp vì sao lưu."
+      },
+      {
+        "id": "T11-B15-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Phát biểu nào đúng về Cập nhật bảo mật?",
+        "lua_chon": {
+          "A": "Cập nhật có thể vá lỗ hổng đã biết.",
+          "B": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
+          "C": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
+          "D": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản."
+        },
+        "dap_an": "A",
+        "giai_thich": "Cập nhật có thể vá lỗ hổng đã biết."
+      },
+      {
+        "id": "T11-B15-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Hệ QTCSDL có bản vá chính thức.",
+        "lua_chon": {
+          "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "B": "Kiểm tra và cài bản vá theo quy trình.",
+          "C": "Chỉ cấp quyền xem phạm vi được phép.",
+          "D": "Xác thực người dùng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Kiểm tra và cài bản vá theo quy trình."
+      },
+      {
+        "id": "T11-B15-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Thao tác nào giảm rủi ro?",
+        "lua_chon": {
+          "A": "Xác thực người dùng.",
+          "B": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "C": "Kiểm tra và cài bản vá theo quy trình.",
+          "D": "Chỉ cấp quyền xem phạm vi được phép."
+        },
+        "dap_an": "C",
+        "giai_thich": "Kiểm tra và cài bản vá theo quy trình. phù hợp vì cập nhật bảo mật."
+      },
+      {
+        "id": "T11-B15-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Phát biểu nào đúng về Nhật kí hoạt động?",
+        "lua_chon": {
+          "A": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
+          "B": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
+          "C": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
+          "D": "Nhật kí hỗ trợ theo dõi thao tác và điều tra sự cố."
+        },
+        "dap_an": "D",
+        "giai_thich": "Nhật kí hỗ trợ theo dõi thao tác và điều tra sự cố."
+      },
+      {
+        "id": "T11-B15-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Cần biết ai đã thay đổi bản ghi.",
+        "lua_chon": {
+          "A": "Ghi nhật kí truy cập/thay đổi.",
+          "B": "Chỉ cấp quyền xem phạm vi được phép.",
+          "C": "Xác thực người dùng.",
+          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Ghi nhật kí truy cập/thay đổi."
+      },
+      {
+        "id": "T11-B15-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Cơ chế nào hỗ trợ?",
+        "lua_chon": {
+          "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "B": "Ghi nhật kí truy cập/thay đổi.",
+          "C": "Chỉ cấp quyền xem phạm vi được phép.",
+          "D": "Xác thực người dùng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Ghi nhật kí truy cập/thay đổi. phù hợp vì nhật kí hoạt động."
+      },
+      {
+        "id": "T11-B15-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Phát biểu nào đúng về Mã hóa?",
+        "lua_chon": {
+          "A": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
+          "B": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
+          "C": "Mã hóa giúp dữ liệu khó đọc khi bị truy cập trái phép vào bản lưu/truyền phù hợp.",
+          "D": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ."
+        },
+        "dap_an": "C",
+        "giai_thich": "Mã hóa giúp dữ liệu khó đọc khi bị truy cập trái phép vào bản lưu/truyền phù hợp."
+      },
+      {
+        "id": "T11-B15-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Bản sao lưu có thông tin nhạy cảm cần bảo vệ.",
+        "lua_chon": {
+          "A": "Chỉ cấp quyền xem phạm vi được phép.",
+          "B": "Xác thực người dùng.",
+          "C": "Đổi sang mật khẩu mạnh, không dùng lại.",
+          "D": "Mã hóa dữ liệu và bảo vệ khóa."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Mã hóa dữ liệu và bảo vệ khóa."
+      },
+      {
+        "id": "T11-B15-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Biện pháp nào có ích?",
+        "lua_chon": {
+          "A": "Mã hóa dữ liệu và bảo vệ khóa.",
+          "B": "Chỉ cấp quyền xem phạm vi được phép.",
+          "C": "Xác thực người dùng.",
+          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+        },
+        "dap_an": "A",
+        "giai_thich": "Mã hóa dữ liệu và bảo vệ khóa. phù hợp vì mã hóa."
       }
     ],
     "dung_sai": [
@@ -72,6 +408,16 @@
         "noi_dung": "Đề xuất biện pháp bảo vệ CSDL trường học.",
         "dap_an_goi_y": "Phân quyền tối thiểu, xác thực mạnh, cập nhật, ghi nhật kí phù hợp, sao lưu định kì, bảo vệ máy chủ và thử phục hồi.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B15-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Dựa vào kiến thức “Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ. Vận dụng: Chỉ cấp quyền xem phạm vi được phép. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
       }
     ]
   }

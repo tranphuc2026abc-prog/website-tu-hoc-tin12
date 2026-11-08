@@ -3,16 +3,16 @@
   "bai_so": 7,
   "ten_bai": "Thực hành tìm kiếm",
   "thong_ke": {
-    "tong_so_cau": 3,
+    "tong_so_cau": 25,
     "so_cau_goc": {
       "trac_nghiem": 0,
       "dung_sai": 0,
       "tu_luan": 0
     },
     "so_cau_bo_sung": {
-      "trac_nghiem": 1,
+      "trac_nghiem": 22,
       "dung_sai": 1,
-      "tu_luan": 1
+      "tu_luan": 2
     }
   },
   "cau_hoi_goc": {
@@ -37,6 +37,342 @@
         },
         "dap_an": "B",
         "giai_thich": "Đáp án đúng vì an toàn mạng học sinh hướng dẫn; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B07-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Phát biểu nào đúng về Từ khóa cụ thể?",
+        "lua_chon": {
+          "A": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
+          "B": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
+          "C": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
+          "D": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn."
+        },
+        "dap_an": "A",
+        "giai_thich": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan."
+      },
+      {
+        "id": "T11-B07-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Tìm hướng dẫn an toàn mạng cho học sinh.",
+        "lua_chon": {
+          "A": "Loại tệp PDF.",
+          "B": "“an toàn mạng học sinh hướng dẫn”.",
+          "C": "Đặt cụm từ trong dấu ngoặc kép.",
+          "D": "Giới hạn theo thời gian gần đây."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, “an toàn mạng học sinh hướng dẫn”."
+      },
+      {
+        "id": "T11-B07-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Truy vấn nào hữu ích hơn từ đơn lẻ “mạng”?",
+        "lua_chon": {
+          "A": "Giới hạn theo thời gian gần đây.",
+          "B": "Loại tệp PDF.",
+          "C": "“an toàn mạng học sinh hướng dẫn”.",
+          "D": "Đặt cụm từ trong dấu ngoặc kép."
+        },
+        "dap_an": "C",
+        "giai_thich": "“an toàn mạng học sinh hướng dẫn”. phù hợp vì từ khóa cụ thể."
+      },
+      {
+        "id": "T11-B07-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Phát biểu nào đúng về Cụm từ chính xác?",
+        "lua_chon": {
+          "A": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
+          "B": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
+          "C": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn.",
+          "D": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm."
+        },
+        "dap_an": "D",
+        "giai_thich": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm."
+      },
+      {
+        "id": "T11-B07-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Cần tìm đúng tên một văn bản.",
+        "lua_chon": {
+          "A": "Đặt cụm từ trong dấu ngoặc kép.",
+          "B": "“an toàn mạng học sinh hướng dẫn”.",
+          "C": "Giới hạn theo thời gian gần đây.",
+          "D": "Loại tệp PDF."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Đặt cụm từ trong dấu ngoặc kép."
+      },
+      {
+        "id": "T11-B07-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Cách nhập nào có thể giới hạn cụm từ?",
+        "lua_chon": {
+          "A": "Loại tệp PDF.",
+          "B": "Đặt cụm từ trong dấu ngoặc kép.",
+          "C": "“an toàn mạng học sinh hướng dẫn”.",
+          "D": "Giới hạn theo thời gian gần đây."
+        },
+        "dap_an": "B",
+        "giai_thich": "Đặt cụm từ trong dấu ngoặc kép. phù hợp vì cụm từ chính xác."
+      },
+      {
+        "id": "T11-B07-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Phát biểu nào đúng về Bộ lọc thời gian?",
+        "lua_chon": {
+          "A": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
+          "B": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn.",
+          "C": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
+          "D": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan."
+        },
+        "dap_an": "C",
+        "giai_thich": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật."
+      },
+      {
+        "id": "T11-B07-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Tìm quy định mới ban hành.",
+        "lua_chon": {
+          "A": "“an toàn mạng học sinh hướng dẫn”.",
+          "B": "Đặt cụm từ trong dấu ngoặc kép.",
+          "C": "Loại tệp PDF.",
+          "D": "Giới hạn theo thời gian gần đây."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Giới hạn theo thời gian gần đây."
+      },
+      {
+        "id": "T11-B07-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Bộ lọc nào nên sử dụng?",
+        "lua_chon": {
+          "A": "Giới hạn theo thời gian gần đây.",
+          "B": "“an toàn mạng học sinh hướng dẫn”.",
+          "C": "Đặt cụm từ trong dấu ngoặc kép.",
+          "D": "Loại tệp PDF."
+        },
+        "dap_an": "A",
+        "giai_thich": "Giới hạn theo thời gian gần đây. phù hợp vì bộ lọc thời gian."
+      },
+      {
+        "id": "T11-B07-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Phát biểu nào đúng về Loại tệp?",
+        "lua_chon": {
+          "A": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
+          "B": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn.",
+          "C": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
+          "D": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm."
+        },
+        "dap_an": "B",
+        "giai_thich": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn."
+      },
+      {
+        "id": "T11-B07-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Cần tìm hướng dẫn PDF.",
+        "lua_chon": {
+          "A": "Đặt cụm từ trong dấu ngoặc kép.",
+          "B": "Giới hạn theo thời gian gần đây.",
+          "C": "Loại tệp PDF.",
+          "D": "“an toàn mạng học sinh hướng dẫn”."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Loại tệp PDF."
+      },
+      {
+        "id": "T11-B07-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Tiêu chí nào giúp thu hẹp?",
+        "lua_chon": {
+          "A": "“an toàn mạng học sinh hướng dẫn”.",
+          "B": "Đặt cụm từ trong dấu ngoặc kép.",
+          "C": "Giới hạn theo thời gian gần đây.",
+          "D": "Loại tệp PDF."
+        },
+        "dap_an": "D",
+        "giai_thich": "Loại tệp PDF. phù hợp vì loại tệp."
+      },
+      {
+        "id": "T11-B07-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Phát biểu nào đúng về Đánh giá nguồn?",
+        "lua_chon": {
+          "A": "Cần xem tác giả, cơ quan, bằng chứng và ngày cập nhật khi đánh giá thông tin.",
+          "B": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
+          "C": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
+          "D": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật."
+        },
+        "dap_an": "A",
+        "giai_thich": "Cần xem tác giả, cơ quan, bằng chứng và ngày cập nhật khi đánh giá thông tin."
+      },
+      {
+        "id": "T11-B07-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Một trang nặc danh đưa ra tuyên bố y tế.",
+        "lua_chon": {
+          "A": "Giới hạn theo thời gian gần đây.",
+          "B": "Đối chiếu với cơ quan/chuyên gia đáng tin cậy.",
+          "C": "“an toàn mạng học sinh hướng dẫn”.",
+          "D": "Đặt cụm từ trong dấu ngoặc kép."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Đối chiếu với cơ quan/chuyên gia đáng tin cậy."
+      },
+      {
+        "id": "T11-B07-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Bước nào giúp kiểm chứng?",
+        "lua_chon": {
+          "A": "Đặt cụm từ trong dấu ngoặc kép.",
+          "B": "Giới hạn theo thời gian gần đây.",
+          "C": "Đối chiếu với cơ quan/chuyên gia đáng tin cậy.",
+          "D": "“an toàn mạng học sinh hướng dẫn”."
+        },
+        "dap_an": "C",
+        "giai_thich": "Đối chiếu với cơ quan/chuyên gia đáng tin cậy. phù hợp vì đánh giá nguồn."
+      },
+      {
+        "id": "T11-B07-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Phát biểu nào đúng về Tìm kiếm bằng giọng nói?",
+        "lua_chon": {
+          "A": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
+          "B": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
+          "C": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
+          "D": "Máy tìm kiếm có thể nhận truy vấn bằng giọng nói trên thiết bị hỗ trợ."
+        },
+        "dap_an": "D",
+        "giai_thich": "Máy tìm kiếm có thể nhận truy vấn bằng giọng nói trên thiết bị hỗ trợ."
+      },
+      {
+        "id": "T11-B07-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Không tiện gõ từ khóa trên điện thoại.",
+        "lua_chon": {
+          "A": "Nhập truy vấn bằng tiếng nói.",
+          "B": "“an toàn mạng học sinh hướng dẫn”.",
+          "C": "Đặt cụm từ trong dấu ngoặc kép.",
+          "D": "Giới hạn theo thời gian gần đây."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Nhập truy vấn bằng tiếng nói."
+      },
+      {
+        "id": "T11-B07-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Phương thức nào có thể dùng?",
+        "lua_chon": {
+          "A": "Giới hạn theo thời gian gần đây.",
+          "B": "Nhập truy vấn bằng tiếng nói.",
+          "C": "“an toàn mạng học sinh hướng dẫn”.",
+          "D": "Đặt cụm từ trong dấu ngoặc kép."
+        },
+        "dap_an": "B",
+        "giai_thich": "Nhập truy vấn bằng tiếng nói. phù hợp vì tìm kiếm bằng giọng nói."
+      },
+      {
+        "id": "T11-B07-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Phát biểu nào đúng về Điều chỉnh truy vấn?",
+        "lua_chon": {
+          "A": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
+          "B": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
+          "C": "Thay đổi từ khóa và bộ lọc giúp cải thiện kết quả khi tìm kiếm chưa đạt.",
+          "D": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan."
+        },
+        "dap_an": "C",
+        "giai_thich": "Thay đổi từ khóa và bộ lọc giúp cải thiện kết quả khi tìm kiếm chưa đạt."
+      },
+      {
+        "id": "T11-B07-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Trang đầu không có kết quả phù hợp.",
+        "lua_chon": {
+          "A": "“an toàn mạng học sinh hướng dẫn”.",
+          "B": "Đặt cụm từ trong dấu ngoặc kép.",
+          "C": "Giới hạn theo thời gian gần đây.",
+          "D": "Bổ sung từ khóa cụ thể hoặc thay bộ lọc."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Bổ sung từ khóa cụ thể hoặc thay bộ lọc."
+      },
+      {
+        "id": "T11-B07-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Hành động nào nên thử?",
+        "lua_chon": {
+          "A": "Bổ sung từ khóa cụ thể hoặc thay bộ lọc.",
+          "B": "“an toàn mạng học sinh hướng dẫn”.",
+          "C": "Đặt cụm từ trong dấu ngoặc kép.",
+          "D": "Giới hạn theo thời gian gần đây."
+        },
+        "dap_an": "A",
+        "giai_thich": "Bổ sung từ khóa cụ thể hoặc thay bộ lọc. phù hợp vì điều chỉnh truy vấn."
       }
     ],
     "dung_sai": [
@@ -72,6 +408,16 @@
         "noi_dung": "Nêu cách tìm và đánh giá thông tin đáng tin cậy.",
         "dap_an_goi_y": "Xác định nhu cầu, chọn từ khóa cụ thể, lọc kết quả, đối chiếu nguồn, kiểm tra tác giả/cơ quan và ngày cập nhật.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B07-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 7 - Thực hành tìm kiếm",
+        "noi_dung": "Dựa vào kiến thức “Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Tìm hướng dẫn an toàn mạng cho học sinh.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan. Vận dụng: “an toàn mạng học sinh hướng dẫn”. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
       }
     ]
   }

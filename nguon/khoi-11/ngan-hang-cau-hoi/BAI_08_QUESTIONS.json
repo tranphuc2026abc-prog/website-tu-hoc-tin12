@@ -3,16 +3,16 @@
   "bai_so": 8,
   "ten_bai": "Thực hành nâng cao",
   "thong_ke": {
-    "tong_so_cau": 3,
+    "tong_so_cau": 25,
     "so_cau_goc": {
       "trac_nghiem": 0,
       "dung_sai": 0,
       "tu_luan": 0
     },
     "so_cau_bo_sung": {
-      "trac_nghiem": 1,
+      "trac_nghiem": 22,
       "dung_sai": 1,
-      "tu_luan": 1
+      "tu_luan": 2
     }
   },
   "cau_hoi_goc": {
@@ -37,6 +37,342 @@
         },
         "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Phân loại và tìm lại thư; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B08-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Phát biểu nào đúng về Nhãn thư?",
+        "lua_chon": {
+          "A": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ.",
+          "B": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
+          "C": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
+          "D": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại."
+        },
+        "dap_an": "B",
+        "giai_thich": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí."
+      },
+      {
+        "id": "T11-B08-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Hộp thư có nhiều thư từ các môn học.",
+        "lua_chon": {
+          "A": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "B": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm.",
+          "C": "Tạo nhãn theo môn học/chủ đề.",
+          "D": "Tạo bộ lọc theo người gửi hoặc chủ đề."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Tạo nhãn theo môn học/chủ đề."
+      },
+      {
+        "id": "T11-B08-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Cách tổ chức nào hữu ích?",
+        "lua_chon": {
+          "A": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "B": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "C": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm.",
+          "D": "Tạo nhãn theo môn học/chủ đề."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tạo nhãn theo môn học/chủ đề. phù hợp vì nhãn thư."
+      },
+      {
+        "id": "T11-B08-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Phát biểu nào đúng về Bộ lọc thư?",
+        "lua_chon": {
+          "A": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
+          "B": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
+          "C": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại.",
+          "D": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ."
+        },
+        "dap_an": "A",
+        "giai_thich": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện."
+      },
+      {
+        "id": "T11-B08-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Thư từ giáo viên cần được gắn nhãn tự động.",
+        "lua_chon": {
+          "A": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm.",
+          "B": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "C": "Tạo nhãn theo môn học/chủ đề.",
+          "D": "Đánh dấu hoặc gắn nhãn ưu tiên."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Tạo bộ lọc theo người gửi hoặc chủ đề."
+      },
+      {
+        "id": "T11-B08-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Chức năng nào phù hợp?",
+        "lua_chon": {
+          "A": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "B": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm.",
+          "C": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "D": "Tạo nhãn theo môn học/chủ đề."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tạo bộ lọc theo người gửi hoặc chủ đề. phù hợp vì bộ lọc thư."
+      },
+      {
+        "id": "T11-B08-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Phát biểu nào đúng về Đánh dấu quan trọng?",
+        "lua_chon": {
+          "A": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
+          "B": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
+          "C": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ.",
+          "D": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại."
+        },
+        "dap_an": "D",
+        "giai_thich": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại."
+      },
+      {
+        "id": "T11-B08-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Có thư cần trả lời trước cuối tuần.",
+        "lua_chon": {
+          "A": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "B": "Tạo nhãn theo môn học/chủ đề.",
+          "C": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "D": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Đánh dấu hoặc gắn nhãn ưu tiên."
+      },
+      {
+        "id": "T11-B08-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Thao tác nào giúp theo dõi?",
+        "lua_chon": {
+          "A": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm.",
+          "B": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "C": "Tạo nhãn theo môn học/chủ đề.",
+          "D": "Tạo bộ lọc theo người gửi hoặc chủ đề."
+        },
+        "dap_an": "B",
+        "giai_thich": "Đánh dấu hoặc gắn nhãn ưu tiên. phù hợp vì đánh dấu quan trọng."
+      },
+      {
+        "id": "T11-B08-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Phát biểu nào đúng về Tìm thư?",
+        "lua_chon": {
+          "A": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
+          "B": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại.",
+          "C": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ.",
+          "D": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ."
+      },
+      {
+        "id": "T11-B08-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Cần tìm thư có tệp đính kèm từ giáo viên.",
+        "lua_chon": {
+          "A": "Tạo nhãn theo môn học/chủ đề.",
+          "B": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "C": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "D": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm."
+      },
+      {
+        "id": "T11-B08-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Tiêu chí nào có thể dùng?",
+        "lua_chon": {
+          "A": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm.",
+          "B": "Tạo nhãn theo môn học/chủ đề.",
+          "C": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "D": "Đánh dấu hoặc gắn nhãn ưu tiên."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm. phù hợp vì tìm thư."
+      },
+      {
+        "id": "T11-B08-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Phát biểu nào đúng về Quyền riêng tư mạng xã hội?",
+        "lua_chon": {
+          "A": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại.",
+          "B": "Cài đặt quyền riêng tư giúp giới hạn đối tượng xem bài đăng.",
+          "C": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
+          "D": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện."
+        },
+        "dap_an": "B",
+        "giai_thich": "Cài đặt quyền riêng tư giúp giới hạn đối tượng xem bài đăng."
+      },
+      {
+        "id": "T11-B08-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Bài viết chỉ dành cho một nhóm bạn.",
+        "lua_chon": {
+          "A": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "B": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "C": "Đối tượng xem và thiết lập quyền riêng tư.",
+          "D": "Tạo nhãn theo môn học/chủ đề."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Đối tượng xem và thiết lập quyền riêng tư."
+      },
+      {
+        "id": "T11-B08-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Cần kiểm tra điều gì trước khi đăng?",
+        "lua_chon": {
+          "A": "Tạo nhãn theo môn học/chủ đề.",
+          "B": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "C": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "D": "Đối tượng xem và thiết lập quyền riêng tư."
+        },
+        "dap_an": "D",
+        "giai_thich": "Đối tượng xem và thiết lập quyền riêng tư. phù hợp vì quyền riêng tư mạng xã hội."
+      },
+      {
+        "id": "T11-B08-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Phát biểu nào đúng về Tương tác có trách nhiệm?",
+        "lua_chon": {
+          "A": "Bình luận và chia sẻ cần tôn trọng người khác và cân nhắc hậu quả.",
+          "B": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
+          "C": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
+          "D": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại."
+        },
+        "dap_an": "A",
+        "giai_thich": "Bình luận và chia sẻ cần tôn trọng người khác và cân nhắc hậu quả."
+      },
+      {
+        "id": "T11-B08-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Một cuộc trao đổi bất đồng trên mạng xã hội.",
+        "lua_chon": {
+          "A": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "B": "Trao đổi lịch sự, nêu ý kiến có căn cứ.",
+          "C": "Tạo nhãn theo môn học/chủ đề.",
+          "D": "Tạo bộ lọc theo người gửi hoặc chủ đề."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Trao đổi lịch sự, nêu ý kiến có căn cứ."
+      },
+      {
+        "id": "T11-B08-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Cách phản hồi nào phù hợp?",
+        "lua_chon": {
+          "A": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "B": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "C": "Trao đổi lịch sự, nêu ý kiến có căn cứ.",
+          "D": "Tạo nhãn theo môn học/chủ đề."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trao đổi lịch sự, nêu ý kiến có căn cứ. phù hợp vì tương tác có trách nhiệm."
+      },
+      {
+        "id": "T11-B08-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Phát biểu nào đúng về Dấu vết số?",
+        "lua_chon": {
+          "A": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
+          "B": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
+          "C": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại.",
+          "D": "Nội dung chia sẻ có thể được lưu lại hoặc lan truyền ngoài ý muốn."
+        },
+        "dap_an": "D",
+        "giai_thich": "Nội dung chia sẻ có thể được lưu lại hoặc lan truyền ngoài ý muốn."
+      },
+      {
+        "id": "T11-B08-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Chuẩn bị đăng ảnh có thông tin trường lớp và vị trí.",
+        "lua_chon": {
+          "A": "Kiểm tra nội dung và thông tin cá nhân bị lộ.",
+          "B": "Tạo nhãn theo môn học/chủ đề.",
+          "C": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
+          "D": "Đánh dấu hoặc gắn nhãn ưu tiên."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Kiểm tra nội dung và thông tin cá nhân bị lộ."
+      },
+      {
+        "id": "T11-B08-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Nên làm gì trước?",
+        "lua_chon": {
+          "A": "Đánh dấu hoặc gắn nhãn ưu tiên.",
+          "B": "Kiểm tra nội dung và thông tin cá nhân bị lộ.",
+          "C": "Tạo nhãn theo môn học/chủ đề.",
+          "D": "Tạo bộ lọc theo người gửi hoặc chủ đề."
+        },
+        "dap_an": "B",
+        "giai_thich": "Kiểm tra nội dung và thông tin cá nhân bị lộ. phù hợp vì dấu vết số."
       }
     ],
     "dung_sai": [
@@ -72,6 +408,16 @@
         "noi_dung": "Đề xuất cách tổ chức hộp thư và chia sẻ có trách nhiệm trên mạng xã hội.",
         "dap_an_goi_y": "Tạo nhãn theo chủ đề, dùng tìm kiếm/lọc; kiểm tra quyền riêng tư, hạn chế dữ liệu cá nhân và xác minh nội dung trước khi chia sẻ.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B08-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 8 - Thực hành nâng cao",
+        "noi_dung": "Dựa vào kiến thức “Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Hộp thư có nhiều thư từ các môn học.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí. Vận dụng: Tạo nhãn theo môn học/chủ đề. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
       }
     ]
   }

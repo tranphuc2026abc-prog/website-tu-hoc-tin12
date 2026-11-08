@@ -3,16 +3,16 @@
   "bai_so": 17,
   "ten_bai": "Quản trị CSDL trên máy tính",
   "thong_ke": {
-    "tong_so_cau": 3,
+    "tong_so_cau": 25,
     "so_cau_goc": {
       "trac_nghiem": 0,
       "dung_sai": 0,
       "tu_luan": 0
     },
     "so_cau_bo_sung": {
-      "trac_nghiem": 1,
+      "trac_nghiem": 22,
       "dung_sai": 1,
-      "tu_luan": 1
+      "tu_luan": 2
     }
   },
   "cau_hoi_goc": {
@@ -37,6 +37,342 @@
         },
         "dap_an": "A",
         "giai_thich": "Đáp án đúng vì Kết nối và thao tác quản trị CSDL qua giao diện; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B17-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Phát biểu nào đúng về MySQL?",
+        "lua_chon": {
+          "A": "Máy chủ MySQL cần chạy để ứng dụng khách kết nối.",
+          "B": "Phiên kết nối lưu cấu hình máy chủ và thông tin truy cập.",
+          "C": "MySQL là hệ quản trị CSDL quan hệ.",
+          "D": "HeidiSQL là ứng dụng khách giao diện hỗ trợ kết nối và quản trị CSDL."
+        },
+        "dap_an": "C",
+        "giai_thich": "MySQL là hệ quản trị CSDL quan hệ."
+      },
+      {
+        "id": "T11-B17-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Cần phần mềm quản lí các bảng và truy vấn SQL.",
+        "lua_chon": {
+          "A": "HeidiSQL.",
+          "B": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "C": "Phiên kết nối phù hợp.",
+          "D": "MySQL."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, MySQL."
+      },
+      {
+        "id": "T11-B17-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Công cụ nào trong bài được giới thiệu?",
+        "lua_chon": {
+          "A": "MySQL.",
+          "B": "HeidiSQL.",
+          "C": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "D": "Phiên kết nối phù hợp."
+        },
+        "dap_an": "A",
+        "giai_thich": "MySQL. phù hợp vì mysql."
+      },
+      {
+        "id": "T11-B17-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Phát biểu nào đúng về HeidiSQL?",
+        "lua_chon": {
+          "A": "Phiên kết nối lưu cấu hình máy chủ và thông tin truy cập.",
+          "B": "HeidiSQL là ứng dụng khách giao diện hỗ trợ kết nối và quản trị CSDL.",
+          "C": "MySQL là hệ quản trị CSDL quan hệ.",
+          "D": "Máy chủ MySQL cần chạy để ứng dụng khách kết nối."
+        },
+        "dap_an": "B",
+        "giai_thich": "HeidiSQL là ứng dụng khách giao diện hỗ trợ kết nối và quản trị CSDL."
+      },
+      {
+        "id": "T11-B17-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Muốn xem bảng MySQL qua giao diện.",
+        "lua_chon": {
+          "A": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "B": "Phiên kết nối phù hợp.",
+          "C": "HeidiSQL.",
+          "D": "MySQL."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, HeidiSQL."
+      },
+      {
+        "id": "T11-B17-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Phần mềm nào phù hợp?",
+        "lua_chon": {
+          "A": "MySQL.",
+          "B": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "C": "Phiên kết nối phù hợp.",
+          "D": "HeidiSQL."
+        },
+        "dap_an": "D",
+        "giai_thich": "HeidiSQL. phù hợp vì heidisql."
+      },
+      {
+        "id": "T11-B17-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Phát biểu nào đúng về Máy chủ CSDL?",
+        "lua_chon": {
+          "A": "Máy chủ MySQL cần chạy để ứng dụng khách kết nối.",
+          "B": "MySQL là hệ quản trị CSDL quan hệ.",
+          "C": "HeidiSQL là ứng dụng khách giao diện hỗ trợ kết nối và quản trị CSDL.",
+          "D": "Phiên kết nối lưu cấu hình máy chủ và thông tin truy cập."
+        },
+        "dap_an": "A",
+        "giai_thich": "Máy chủ MySQL cần chạy để ứng dụng khách kết nối."
+      },
+      {
+        "id": "T11-B17-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "HeidiSQL báo không thể kết nối.",
+        "lua_chon": {
+          "A": "Phiên kết nối phù hợp.",
+          "B": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "C": "MySQL.",
+          "D": "HeidiSQL."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Máy chủ, địa chỉ, cổng và thông tin đăng nhập."
+      },
+      {
+        "id": "T11-B17-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Điều gì nên kiểm tra đầu tiên?",
+        "lua_chon": {
+          "A": "HeidiSQL.",
+          "B": "Phiên kết nối phù hợp.",
+          "C": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "D": "MySQL."
+        },
+        "dap_an": "C",
+        "giai_thich": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập. phù hợp vì máy chủ csdl."
+      },
+      {
+        "id": "T11-B17-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Phát biểu nào đúng về Phiên kết nối?",
+        "lua_chon": {
+          "A": "MySQL là hệ quản trị CSDL quan hệ.",
+          "B": "HeidiSQL là ứng dụng khách giao diện hỗ trợ kết nối và quản trị CSDL.",
+          "C": "Máy chủ MySQL cần chạy để ứng dụng khách kết nối.",
+          "D": "Phiên kết nối lưu cấu hình máy chủ và thông tin truy cập."
+        },
+        "dap_an": "D",
+        "giai_thich": "Phiên kết nối lưu cấu hình máy chủ và thông tin truy cập."
+      },
+      {
+        "id": "T11-B17-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Muốn tái sử dụng cấu hình kết nối.",
+        "lua_chon": {
+          "A": "Phiên kết nối phù hợp.",
+          "B": "MySQL.",
+          "C": "HeidiSQL.",
+          "D": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Phiên kết nối phù hợp."
+      },
+      {
+        "id": "T11-B17-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Đối tượng nào cần tạo?",
+        "lua_chon": {
+          "A": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "B": "Phiên kết nối phù hợp.",
+          "C": "MySQL.",
+          "D": "HeidiSQL."
+        },
+        "dap_an": "B",
+        "giai_thich": "Phiên kết nối phù hợp. phù hợp vì phiên kết nối."
+      },
+      {
+        "id": "T11-B17-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Phát biểu nào đúng về CSDL và bảng?",
+        "lua_chon": {
+          "A": "HeidiSQL là ứng dụng khách giao diện hỗ trợ kết nối và quản trị CSDL.",
+          "B": "Máy chủ MySQL cần chạy để ứng dụng khách kết nối.",
+          "C": "Sau khi kết nối có thể chọn CSDL và thao tác các bảng theo quyền.",
+          "D": "MySQL là hệ quản trị CSDL quan hệ."
+        },
+        "dap_an": "C",
+        "giai_thich": "Sau khi kết nối có thể chọn CSDL và thao tác các bảng theo quyền."
+      },
+      {
+        "id": "T11-B17-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Muốn tạo bảng nhacsi trong CSDL mymusic.",
+        "lua_chon": {
+          "A": "MySQL.",
+          "B": "HeidiSQL.",
+          "C": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "D": "CSDL đích đúng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, CSDL đích đúng."
+      },
+      {
+        "id": "T11-B17-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Cần chọn gì trước?",
+        "lua_chon": {
+          "A": "CSDL đích đúng.",
+          "B": "MySQL.",
+          "C": "HeidiSQL.",
+          "D": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập."
+        },
+        "dap_an": "A",
+        "giai_thich": "CSDL đích đúng. phù hợp vì csdl và bảng."
+      },
+      {
+        "id": "T11-B17-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Phát biểu nào đúng về Quyền người dùng?",
+        "lua_chon": {
+          "A": "Máy chủ MySQL cần chạy để ứng dụng khách kết nối.",
+          "B": "Thao tác trên CSDL phụ thuộc quyền đã cấp.",
+          "C": "MySQL là hệ quản trị CSDL quan hệ.",
+          "D": "HeidiSQL là ứng dụng khách giao diện hỗ trợ kết nối và quản trị CSDL."
+        },
+        "dap_an": "B",
+        "giai_thich": "Thao tác trên CSDL phụ thuộc quyền đã cấp."
+      },
+      {
+        "id": "T11-B17-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Tài khoản chỉ đọc thử tạo bảng.",
+        "lua_chon": {
+          "A": "HeidiSQL.",
+          "B": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "C": "Tài khoản không có quyền tạo bảng.",
+          "D": "MySQL."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Tài khoản không có quyền tạo bảng."
+      },
+      {
+        "id": "T11-B17-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Vì sao thao tác có thể bị từ chối?",
+        "lua_chon": {
+          "A": "MySQL.",
+          "B": "HeidiSQL.",
+          "C": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "D": "Tài khoản không có quyền tạo bảng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tài khoản không có quyền tạo bảng. phù hợp vì quyền người dùng."
+      },
+      {
+        "id": "T11-B17-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Phát biểu nào đúng về Kiểm tra kết nối?",
+        "lua_chon": {
+          "A": "Thông tin máy chủ, cổng, người dùng và mật khẩu cần khớp.",
+          "B": "MySQL là hệ quản trị CSDL quan hệ.",
+          "C": "HeidiSQL là ứng dụng khách giao diện hỗ trợ kết nối và quản trị CSDL.",
+          "D": "Máy chủ MySQL cần chạy để ứng dụng khách kết nối."
+        },
+        "dap_an": "A",
+        "giai_thich": "Thông tin máy chủ, cổng, người dùng và mật khẩu cần khớp."
+      },
+      {
+        "id": "T11-B17-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Kết nối thất bại dù phần mềm khách mở bình thường.",
+        "lua_chon": {
+          "A": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "B": "Cấu hình kết nối và trạng thái máy chủ.",
+          "C": "MySQL.",
+          "D": "HeidiSQL."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Cấu hình kết nối và trạng thái máy chủ."
+      },
+      {
+        "id": "T11-B17-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Thông tin nào nên rà soát?",
+        "lua_chon": {
+          "A": "HeidiSQL.",
+          "B": "Máy chủ, địa chỉ, cổng và thông tin đăng nhập.",
+          "C": "Cấu hình kết nối và trạng thái máy chủ.",
+          "D": "MySQL."
+        },
+        "dap_an": "C",
+        "giai_thich": "Cấu hình kết nối và trạng thái máy chủ. phù hợp vì kiểm tra kết nối."
       }
     ],
     "dung_sai": [
@@ -72,6 +408,16 @@
         "noi_dung": "Nêu thành phần cần có để quản trị CSDL MySQL bằng HeidiSQL.",
         "dap_an_goi_y": "Cần máy chủ MySQL chạy, thông tin kết nối hợp lệ và HeidiSQL làm ứng dụng khách; kết nối rồi chọn CSDL và thao tác theo quyền.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B17-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Dựa vào kiến thức “MySQL là hệ quản trị CSDL quan hệ.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần phần mềm quản lí các bảng và truy vấn SQL.",
+        "dap_an_goi_y": "Nêu ý kiến thức: MySQL là hệ quản trị CSDL quan hệ. Vận dụng: MySQL. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
       }
     ]
   }

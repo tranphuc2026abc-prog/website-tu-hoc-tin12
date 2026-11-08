@@ -3,16 +3,16 @@
   "bai_so": 19,
   "ten_bai": "Thực hành tạo lập bảng",
   "thong_ke": {
-    "tong_so_cau": 3,
+    "tong_so_cau": 25,
     "so_cau_goc": {
       "trac_nghiem": 0,
       "dung_sai": 0,
       "tu_luan": 0
     },
     "so_cau_bo_sung": {
-      "trac_nghiem": 1,
+      "trac_nghiem": 22,
       "dung_sai": 1,
-      "tu_luan": 1
+      "tu_luan": 2
     }
   },
   "cau_hoi_goc": {
@@ -37,6 +37,342 @@
         },
         "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Khóa chính; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B19-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Phát biểu nào đúng về Tạo CSDL?",
+        "lua_chon": {
+          "A": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
+          "B": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
+          "C": "Khóa chính định danh duy nhất từng dòng.",
+          "D": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí."
+      },
+      {
+        "id": "T11-B19-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Bắt đầu dự án mymusic.",
+        "lua_chon": {
+          "A": "UNIQUE.",
+          "B": "Tạo CSDL mới.",
+          "C": "Các trường với tên và kiểu tương ứng.",
+          "D": "Mã nhạc sĩ duy nhất."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Tạo CSDL mới."
+      },
+      {
+        "id": "T11-B19-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Thao tác nào tạo vùng lưu trữ dữ liệu?",
+        "lua_chon": {
+          "A": "Mã nhạc sĩ duy nhất.",
+          "B": "UNIQUE.",
+          "C": "Tạo CSDL mới.",
+          "D": "Các trường với tên và kiểu tương ứng."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tạo CSDL mới. phù hợp vì tạo csdl."
+      },
+      {
+        "id": "T11-B19-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Phát biểu nào đúng về Khai báo trường?",
+        "lua_chon": {
+          "A": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
+          "B": "Khóa chính định danh duy nhất từng dòng.",
+          "C": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc.",
+          "D": "Mỗi trường cần tên và kiểu dữ liệu phù hợp."
+        },
+        "dap_an": "D",
+        "giai_thich": "Mỗi trường cần tên và kiểu dữ liệu phù hợp."
+      },
+      {
+        "id": "T11-B19-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Bảng nhacsi cần lưu tên và năm sinh.",
+        "lua_chon": {
+          "A": "Các trường với tên và kiểu tương ứng.",
+          "B": "Tạo CSDL mới.",
+          "C": "Mã nhạc sĩ duy nhất.",
+          "D": "UNIQUE."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Các trường với tên và kiểu tương ứng."
+      },
+      {
+        "id": "T11-B19-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Cần khai báo gì?",
+        "lua_chon": {
+          "A": "UNIQUE.",
+          "B": "Các trường với tên và kiểu tương ứng.",
+          "C": "Tạo CSDL mới.",
+          "D": "Mã nhạc sĩ duy nhất."
+        },
+        "dap_an": "B",
+        "giai_thich": "Các trường với tên và kiểu tương ứng. phù hợp vì khai báo trường."
+      },
+      {
+        "id": "T11-B19-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Phát biểu nào đúng về Khóa chính?",
+        "lua_chon": {
+          "A": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
+          "B": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc.",
+          "C": "Khóa chính định danh duy nhất từng dòng.",
+          "D": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí."
+        },
+        "dap_an": "C",
+        "giai_thich": "Khóa chính định danh duy nhất từng dòng."
+      },
+      {
+        "id": "T11-B19-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Có nhiều nhạc sĩ cùng tên.",
+        "lua_chon": {
+          "A": "Tạo CSDL mới.",
+          "B": "Các trường với tên và kiểu tương ứng.",
+          "C": "UNIQUE.",
+          "D": "Mã nhạc sĩ duy nhất."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Mã nhạc sĩ duy nhất."
+      },
+      {
+        "id": "T11-B19-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Trường nào phân biệt chính xác?",
+        "lua_chon": {
+          "A": "Mã nhạc sĩ duy nhất.",
+          "B": "Tạo CSDL mới.",
+          "C": "Các trường với tên và kiểu tương ứng.",
+          "D": "UNIQUE."
+        },
+        "dap_an": "A",
+        "giai_thich": "Mã nhạc sĩ duy nhất. phù hợp vì khóa chính."
+      },
+      {
+        "id": "T11-B19-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Phát biểu nào đúng về UNIQUE?",
+        "lua_chon": {
+          "A": "Khóa chính định danh duy nhất từng dòng.",
+          "B": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc.",
+          "C": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
+          "D": "Mỗi trường cần tên và kiểu dữ liệu phù hợp."
+        },
+        "dap_an": "B",
+        "giai_thich": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc."
+      },
+      {
+        "id": "T11-B19-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Email mỗi tài khoản phải khác nhau.",
+        "lua_chon": {
+          "A": "Các trường với tên và kiểu tương ứng.",
+          "B": "Mã nhạc sĩ duy nhất.",
+          "C": "UNIQUE.",
+          "D": "Tạo CSDL mới."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, UNIQUE."
+      },
+      {
+        "id": "T11-B19-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Ràng buộc nào phù hợp?",
+        "lua_chon": {
+          "A": "Tạo CSDL mới.",
+          "B": "Các trường với tên và kiểu tương ứng.",
+          "C": "Mã nhạc sĩ duy nhất.",
+          "D": "UNIQUE."
+        },
+        "dap_an": "D",
+        "giai_thich": "UNIQUE. phù hợp vì unique."
+      },
+      {
+        "id": "T11-B19-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Phát biểu nào đúng về NOT NULL?",
+        "lua_chon": {
+          "A": "NOT NULL cấm trường không có giá trị.",
+          "B": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
+          "C": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
+          "D": "Khóa chính định danh duy nhất từng dòng."
+        },
+        "dap_an": "A",
+        "giai_thich": "NOT NULL cấm trường không có giá trị."
+      },
+      {
+        "id": "T11-B19-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Mã định danh bắt buộc nhập.",
+        "lua_chon": {
+          "A": "Mã nhạc sĩ duy nhất.",
+          "B": "NOT NULL.",
+          "C": "Tạo CSDL mới.",
+          "D": "Các trường với tên và kiểu tương ứng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, NOT NULL."
+      },
+      {
+        "id": "T11-B19-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Ràng buộc nào phù hợp?",
+        "lua_chon": {
+          "A": "Các trường với tên và kiểu tương ứng.",
+          "B": "Mã nhạc sĩ duy nhất.",
+          "C": "NOT NULL.",
+          "D": "Tạo CSDL mới."
+        },
+        "dap_an": "C",
+        "giai_thich": "NOT NULL. phù hợp vì not null."
+      },
+      {
+        "id": "T11-B19-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Phát biểu nào đúng về Lưu cấu trúc?",
+        "lua_chon": {
+          "A": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
+          "B": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
+          "C": "Khóa chính định danh duy nhất từng dòng.",
+          "D": "Lưu thiết kế bảng áp dụng tên trường, kiểu và ràng buộc."
+        },
+        "dap_an": "D",
+        "giai_thich": "Lưu thiết kế bảng áp dụng tên trường, kiểu và ràng buộc."
+      },
+      {
+        "id": "T11-B19-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Tạo xong khai báo nhưng chưa lưu.",
+        "lua_chon": {
+          "A": "Lưu cấu trúc và kiểm tra bảng.",
+          "B": "Tạo CSDL mới.",
+          "C": "Các trường với tên và kiểu tương ứng.",
+          "D": "Mã nhạc sĩ duy nhất."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Lưu cấu trúc và kiểm tra bảng."
+      },
+      {
+        "id": "T11-B19-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Cần làm gì để hoàn tất?",
+        "lua_chon": {
+          "A": "Mã nhạc sĩ duy nhất.",
+          "B": "Lưu cấu trúc và kiểm tra bảng.",
+          "C": "Tạo CSDL mới.",
+          "D": "Các trường với tên và kiểu tương ứng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Lưu cấu trúc và kiểm tra bảng. phù hợp vì lưu cấu trúc."
+      },
+      {
+        "id": "T11-B19-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Phát biểu nào đúng về Kiểm tra bảng?",
+        "lua_chon": {
+          "A": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
+          "B": "Khóa chính định danh duy nhất từng dòng.",
+          "C": "Xem lại cấu trúc giúp phát hiện sai tên, kiểu hoặc khóa.",
+          "D": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí."
+        },
+        "dap_an": "C",
+        "giai_thich": "Xem lại cấu trúc giúp phát hiện sai tên, kiểu hoặc khóa."
+      },
+      {
+        "id": "T11-B19-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Ứng dụng báo lỗi khi thêm bản ghi.",
+        "lua_chon": {
+          "A": "Tạo CSDL mới.",
+          "B": "Các trường với tên và kiểu tương ứng.",
+          "C": "Mã nhạc sĩ duy nhất.",
+          "D": "Kiểm tra định nghĩa trường và ràng buộc."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Kiểm tra định nghĩa trường và ràng buộc."
+      },
+      {
+        "id": "T11-B19-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Bước đầu nào hữu ích?",
+        "lua_chon": {
+          "A": "Kiểm tra định nghĩa trường và ràng buộc.",
+          "B": "Tạo CSDL mới.",
+          "C": "Các trường với tên và kiểu tương ứng.",
+          "D": "Mã nhạc sĩ duy nhất."
+        },
+        "dap_an": "A",
+        "giai_thich": "Kiểm tra định nghĩa trường và ràng buộc. phù hợp vì kiểm tra bảng."
       }
     ],
     "dung_sai": [
@@ -72,6 +408,16 @@
         "noi_dung": "Mô tả tạo CSDL và bảng có khóa chính.",
         "dap_an_goi_y": "Tạo CSDL, khai báo bảng/trường/kiểu, chọn khóa chính, thêm UNIQUE cho trường cần không trùng, lưu và kiểm tra cấu trúc.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B19-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Dựa vào kiến thức “Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Bắt đầu dự án mymusic.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí. Vận dụng: Tạo CSDL mới. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
       }
     ]
   }

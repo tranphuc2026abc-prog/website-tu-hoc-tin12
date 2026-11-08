@@ -3,16 +3,16 @@
   "bai_so": 2,
   "ten_bai": "Thực hành sử dụng hệ điều hành",
   "thong_ke": {
-    "tong_so_cau": 3,
+    "tong_so_cau": 25,
     "so_cau_goc": {
       "trac_nghiem": 0,
       "dung_sai": 0,
       "tu_luan": 0
     },
     "so_cau_bo_sung": {
-      "trac_nghiem": 1,
+      "trac_nghiem": 22,
       "dung_sai": 1,
-      "tu_luan": 1
+      "tu_luan": 2
     }
   },
   "cau_hoi_goc": {
@@ -37,6 +37,342 @@
         },
         "dap_an": "B",
         "giai_thich": "Đáp án đúng vì Tạo thư mục phù hợp và đặt tên rõ ràng; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B02-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Tệp và thư mục?",
+        "lua_chon": {
+          "A": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
+          "B": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
+          "C": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống.",
+          "D": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích."
+        },
+        "dap_an": "D",
+        "giai_thich": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích."
+      },
+      {
+        "id": "T11-B02-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Tài liệu của một dự án bị lẫn với các tệp khác.",
+        "lua_chon": {
+          "A": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "B": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "C": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "D": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Tạo thư mục phù hợp và chuyển tệp vào đó."
+      },
+      {
+        "id": "T11-B02-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Thao tác nào giúp tổ chức lại?",
+        "lua_chon": {
+          "A": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
+          "B": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "C": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "D": "Tìm kiếm tệp bằng từ khóa phù hợp."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tạo thư mục phù hợp và chuyển tệp vào đó. phù hợp vì tệp và thư mục."
+      },
+      {
+        "id": "T11-B02-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Đổi tên tệp?",
+        "lua_chon": {
+          "A": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
+          "B": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống.",
+          "C": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
+          "D": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm."
+      },
+      {
+        "id": "T11-B02-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Tên tài liệu hiện là New Document 1.",
+        "lua_chon": {
+          "A": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "B": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "C": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
+          "D": "Đổi tên bằng mô tả ngắn, dễ hiểu."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Đổi tên bằng mô tả ngắn, dễ hiểu."
+      },
+      {
+        "id": "T11-B02-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Cách nào giúp dễ nhận ra nội dung?",
+        "lua_chon": {
+          "A": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "B": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "C": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "D": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy."
+        },
+        "dap_an": "A",
+        "giai_thich": "Đổi tên bằng mô tả ngắn, dễ hiểu. phù hợp vì đổi tên tệp."
+      },
+      {
+        "id": "T11-B02-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Tìm kiếm?",
+        "lua_chon": {
+          "A": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống.",
+          "B": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
+          "C": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.",
+          "D": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm."
+        },
+        "dap_an": "B",
+        "giai_thich": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính."
+      },
+      {
+        "id": "T11-B02-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Không nhớ tệp được lưu ở thư mục nào.",
+        "lua_chon": {
+          "A": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "B": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
+          "C": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "D": "Tạo thư mục phù hợp và chuyển tệp vào đó."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Tìm kiếm tệp bằng từ khóa phù hợp."
+      },
+      {
+        "id": "T11-B02-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Tiện ích nào nên dùng trước?",
+        "lua_chon": {
+          "A": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "B": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "C": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
+          "D": "Tìm kiếm tệp bằng từ khóa phù hợp."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tìm kiếm tệp bằng từ khóa phù hợp. phù hợp vì tìm kiếm."
+      },
+      {
+        "id": "T11-B02-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Cài ứng dụng?",
+        "lua_chon": {
+          "A": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống.",
+          "B": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.",
+          "C": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
+          "D": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính."
+        },
+        "dap_an": "A",
+        "giai_thich": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống."
+      },
+      {
+        "id": "T11-B02-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Cần cài phần mềm học tập.",
+        "lua_chon": {
+          "A": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "B": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
+          "C": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "D": "Đổi tên bằng mô tả ngắn, dễ hiểu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy."
+      },
+      {
+        "id": "T11-B02-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Bước nào giảm rủi ro từ tệp cài đặt giả?",
+        "lua_chon": {
+          "A": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "B": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "C": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
+          "D": "Tạo thư mục phù hợp và chuyển tệp vào đó."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy. phù hợp vì cài ứng dụng."
+      },
+      {
+        "id": "T11-B02-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Cập nhật?",
+        "lua_chon": {
+          "A": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.",
+          "B": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
+          "C": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
+          "D": "Cập nhật có thể sửa lỗi và vá lỗ hổng bảo mật."
+        },
+        "dap_an": "D",
+        "giai_thich": "Cập nhật có thể sửa lỗi và vá lỗ hổng bảo mật."
+      },
+      {
+        "id": "T11-B02-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Thiết bị thông báo có bản cập nhật bảo mật chính thức.",
+        "lua_chon": {
+          "A": "Kiểm tra thông tin và cài bản cập nhật từ nguồn chính thức.",
+          "B": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "C": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "D": "Tìm kiếm tệp bằng từ khóa phù hợp."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Kiểm tra thông tin và cài bản cập nhật từ nguồn chính thức."
+      },
+      {
+        "id": "T11-B02-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Hành động nào thường phù hợp?",
+        "lua_chon": {
+          "A": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "B": "Kiểm tra thông tin và cài bản cập nhật từ nguồn chính thức.",
+          "C": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "D": "Đổi tên bằng mô tả ngắn, dễ hiểu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Kiểm tra thông tin và cài bản cập nhật từ nguồn chính thức. phù hợp vì cập nhật."
+      },
+      {
+        "id": "T11-B02-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Quyền ứng dụng?",
+        "lua_chon": {
+          "A": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
+          "B": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
+          "C": "Quyền ứng dụng kiểm soát khả năng truy cập camera, vị trí và dữ liệu.",
+          "D": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích."
+        },
+        "dap_an": "C",
+        "giai_thich": "Quyền ứng dụng kiểm soát khả năng truy cập camera, vị trí và dữ liệu."
+      },
+      {
+        "id": "T11-B02-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Ứng dụng đèn pin yêu cầu quyền đọc danh bạ.",
+        "lua_chon": {
+          "A": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "B": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "C": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "D": "Từ chối quyền không cần thiết và xem lại độ tin cậy ứng dụng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Từ chối quyền không cần thiết và xem lại độ tin cậy ứng dụng."
+      },
+      {
+        "id": "T11-B02-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Cách xử lí nào hợp lí?",
+        "lua_chon": {
+          "A": "Từ chối quyền không cần thiết và xem lại độ tin cậy ứng dụng.",
+          "B": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "C": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "D": "Tìm kiếm tệp bằng từ khóa phù hợp."
+        },
+        "dap_an": "A",
+        "giai_thich": "Từ chối quyền không cần thiết và xem lại độ tin cậy ứng dụng. phù hợp vì quyền ứng dụng."
+      },
+      {
+        "id": "T11-B02-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Gỡ cài đặt?",
+        "lua_chon": {
+          "A": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
+          "B": "Công cụ gỡ ứng dụng giúp loại bỏ ứng dụng theo quy trình của hệ điều hành.",
+          "C": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.",
+          "D": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm."
+        },
+        "dap_an": "B",
+        "giai_thich": "Công cụ gỡ ứng dụng giúp loại bỏ ứng dụng theo quy trình của hệ điều hành."
+      },
+      {
+        "id": "T11-B02-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Muốn xóa ứng dụng không còn dùng.",
+        "lua_chon": {
+          "A": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "B": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "C": "Dùng chức năng gỡ cài đặt trong cài đặt hệ điều hành.",
+          "D": "Tạo thư mục phù hợp và chuyển tệp vào đó."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Dùng chức năng gỡ cài đặt trong cài đặt hệ điều hành."
+      },
+      {
+        "id": "T11-B02-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Cách nào an toàn hơn xóa ngẫu nhiên tệp hệ thống?",
+        "lua_chon": {
+          "A": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
+          "B": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
+          "C": "Tìm kiếm tệp bằng từ khóa phù hợp.",
+          "D": "Dùng chức năng gỡ cài đặt trong cài đặt hệ điều hành."
+        },
+        "dap_an": "D",
+        "giai_thich": "Dùng chức năng gỡ cài đặt trong cài đặt hệ điều hành. phù hợp vì gỡ cài đặt."
       }
     ],
     "dung_sai": [
@@ -72,6 +408,16 @@
         "noi_dung": "Nêu quy trình tải, cài và gỡ ứng dụng an toàn.",
         "dap_an_goi_y": "Chọn nguồn tin cậy, kiểm tra yêu cầu/quyền, cài theo hướng dẫn; khi gỡ dùng công cụ quản lí ứng dụng và xác nhận dữ liệu cần giữ.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B02-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Dựa vào kiến thức “Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Tài liệu của một dự án bị lẫn với các tệp khác.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích. Vận dụng: Tạo thư mục phù hợp và chuyển tệp vào đó. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
       }
     ]
   }

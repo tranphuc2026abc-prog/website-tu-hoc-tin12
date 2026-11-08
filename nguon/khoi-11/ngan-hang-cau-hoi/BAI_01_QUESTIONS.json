@@ -3,16 +3,16 @@
   "bai_so": 1,
   "ten_bai": "Hệ điều hành",
   "thong_ke": {
-    "tong_so_cau": 3,
+    "tong_so_cau": 25,
     "so_cau_goc": {
       "trac_nghiem": 0,
       "dung_sai": 0,
       "tu_luan": 0
     },
     "so_cau_bo_sung": {
-      "trac_nghiem": 1,
+      "trac_nghiem": 22,
       "dung_sai": 1,
-      "tu_luan": 1
+      "tu_luan": 2
     }
   },
   "cau_hoi_goc": {
@@ -37,6 +37,342 @@
         },
         "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Hệ điều hành; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B01-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Quản lí tài nguyên?",
+        "lua_chon": {
+          "A": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
+          "B": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh.",
+          "C": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
+          "D": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị."
+        },
+        "dap_an": "C",
+        "giai_thich": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình."
+      },
+      {
+        "id": "T11-B01-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
+        "lua_chon": {
+          "A": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "B": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "C": "Giao diện người dùng của hệ điều hành.",
+          "D": "Phân phối tài nguyên và lập lịch cho tiến trình."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Phân phối tài nguyên và lập lịch cho tiến trình."
+      },
+      {
+        "id": "T11-B01-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Ưu tiên hoạt động hệ điều hành nào?",
+        "lua_chon": {
+          "A": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "B": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "C": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "D": "Giao diện người dùng của hệ điều hành."
+        },
+        "dap_an": "A",
+        "giai_thich": "Phân phối tài nguyên và lập lịch cho tiến trình. phù hợp vì quản lí tài nguyên."
+      },
+      {
+        "id": "T11-B01-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Giao tiếp phần cứng?",
+        "lua_chon": {
+          "A": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh.",
+          "B": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
+          "C": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
+          "D": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị."
+      },
+      {
+        "id": "T11-B01-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Ứng dụng muốn ghi tệp lên ổ lưu trữ.",
+        "lua_chon": {
+          "A": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "B": "Giao diện người dùng của hệ điều hành.",
+          "C": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "D": "Phân phối tài nguyên và lập lịch cho tiến trình."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị."
+      },
+      {
+        "id": "T11-B01-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Thành phần nào làm trung gian để ứng dụng yêu cầu thiết bị?",
+        "lua_chon": {
+          "A": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "B": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "C": "Giao diện người dùng của hệ điều hành.",
+          "D": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị."
+        },
+        "dap_an": "D",
+        "giai_thich": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị. phù hợp vì giao tiếp phần cứng."
+      },
+      {
+        "id": "T11-B01-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Quản lí tệp?",
+        "lua_chon": {
+          "A": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
+          "B": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
+          "C": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
+          "D": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu."
+      },
+      {
+        "id": "T11-B01-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Cần sắp xếp tài liệu của nhiều môn học.",
+        "lua_chon": {
+          "A": "Giao diện người dùng của hệ điều hành.",
+          "B": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "C": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "D": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Tổ chức hệ thống tệp bằng thư mục và tên tệp."
+      },
+      {
+        "id": "T11-B01-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Chức năng nào giúp phân loại và tìm lại dữ liệu?",
+        "lua_chon": {
+          "A": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "B": "Giao diện người dùng của hệ điều hành.",
+          "C": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "D": "Phân phối tài nguyên và lập lịch cho tiến trình."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tổ chức hệ thống tệp bằng thư mục và tên tệp. phù hợp vì quản lí tệp."
+      },
+      {
+        "id": "T11-B01-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Giao diện người dùng?",
+        "lua_chon": {
+          "A": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
+          "B": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
+          "C": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
+          "D": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh."
+        },
+        "dap_an": "D",
+        "giai_thich": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh."
+      },
+      {
+        "id": "T11-B01-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Người học muốn khởi chạy ứng dụng bằng thao tác trực quan.",
+        "lua_chon": {
+          "A": "Giao diện người dùng của hệ điều hành.",
+          "B": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "C": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "D": "Tổ chức hệ thống tệp bằng thư mục và tên tệp."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Giao diện người dùng của hệ điều hành."
+      },
+      {
+        "id": "T11-B01-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Thành phần nào cung cấp cách tương tác với máy tính?",
+        "lua_chon": {
+          "A": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "B": "Giao diện người dùng của hệ điều hành.",
+          "C": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "D": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Giao diện người dùng của hệ điều hành. phù hợp vì giao diện người dùng."
+      },
+      {
+        "id": "T11-B01-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Hệ điều hành di động?",
+        "lua_chon": {
+          "A": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
+          "B": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
+          "C": "Hệ điều hành di động được thiết kế cho thiết bị nhỏ, cảm ứng và thường dùng pin.",
+          "D": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình."
+        },
+        "dap_an": "C",
+        "giai_thich": "Hệ điều hành di động được thiết kế cho thiết bị nhỏ, cảm ứng và thường dùng pin."
+      },
+      {
+        "id": "T11-B01-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Người dùng thao tác trên điện thoại bằng cử chỉ chạm.",
+        "lua_chon": {
+          "A": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "B": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "C": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "D": "Tối ưu giao diện cảm ứng và mức tiêu thụ tài nguyên/năng lượng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Tối ưu giao diện cảm ứng và mức tiêu thụ tài nguyên/năng lượng."
+      },
+      {
+        "id": "T11-B01-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Đặc điểm thiết kế nào phù hợp nhất?",
+        "lua_chon": {
+          "A": "Tối ưu giao diện cảm ứng và mức tiêu thụ tài nguyên/năng lượng.",
+          "B": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "C": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "D": "Tổ chức hệ thống tệp bằng thư mục và tên tệp."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tối ưu giao diện cảm ứng và mức tiêu thụ tài nguyên/năng lượng. phù hợp vì hệ điều hành di động."
+      },
+      {
+        "id": "T11-B01-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Hệ điều hành và ứng dụng?",
+        "lua_chon": {
+          "A": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
+          "B": "Phần mềm ứng dụng cung cấp chức năng cho người dùng, còn hệ điều hành quản lí môi trường chạy.",
+          "C": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
+          "D": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Phần mềm ứng dụng cung cấp chức năng cho người dùng, còn hệ điều hành quản lí môi trường chạy."
+      },
+      {
+        "id": "T11-B01-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Ứng dụng soạn thảo cần mở một tài liệu.",
+        "lua_chon": {
+          "A": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "B": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "C": "Phần mềm ứng dụng.",
+          "D": "Phân phối tài nguyên và lập lịch cho tiến trình."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Phần mềm ứng dụng."
+      },
+      {
+        "id": "T11-B01-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Thành phần nào cung cấp chức năng soạn thảo?",
+        "lua_chon": {
+          "A": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "B": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "C": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "D": "Phần mềm ứng dụng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Phần mềm ứng dụng. phù hợp vì hệ điều hành và ứng dụng."
+      },
+      {
+        "id": "T11-B01-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Phát biểu nào đúng về Tiến trình?",
+        "lua_chon": {
+          "A": "Hệ điều hành quản lí việc khởi chạy, tạm dừng và kết thúc tiến trình.",
+          "B": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
+          "C": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
+          "D": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Hệ điều hành quản lí việc khởi chạy, tạm dừng và kết thúc tiến trình."
+      },
+      {
+        "id": "T11-B01-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Một ứng dụng bị treo và cần đóng riêng.",
+        "lua_chon": {
+          "A": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "B": "Quản lí tiến trình.",
+          "C": "Phân phối tài nguyên và lập lịch cho tiến trình.",
+          "D": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Quản lí tiến trình."
+      },
+      {
+        "id": "T11-B01-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Chức năng nào cho phép quản lí ứng dụng đang chạy?",
+        "lua_chon": {
+          "A": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
+          "B": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
+          "C": "Quản lí tiến trình.",
+          "D": "Phân phối tài nguyên và lập lịch cho tiến trình."
+        },
+        "dap_an": "C",
+        "giai_thich": "Quản lí tiến trình. phù hợp vì tiến trình."
       }
     ],
     "dung_sai": [
@@ -72,6 +408,16 @@
         "noi_dung": "Mô tả vai trò của phần cứng, hệ điều hành và ứng dụng khi mở một chương trình.",
         "dap_an_goi_y": "Ứng dụng gửi yêu cầu; hệ điều hành phân phối tài nguyên, giao tiếp với phần cứng và trả kết quả cho ứng dụng.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B01-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Dựa vào kiến thức “Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình. Vận dụng: Phân phối tài nguyên và lập lịch cho tiến trình. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
       }
     ]
   }
