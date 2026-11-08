@@ -30,12 +30,12 @@
         "chu_de": "Bài 16 - Công việc quản trị CSDL",
         "noi_dung": "Nhiệm vụ nào phù hợp với nhà quản trị CSDL?",
         "lua_chon": {
-          "A": "Quản lí truy cập, hiệu năng, sao lưu và phục hồi",
-          "B": "Chỉ thiết kế logo",
-          "C": "Chỉ sửa bàn phím",
-          "D": "Chỉ nhập điểm hằng ngày"
+          "A": "Chỉ nhập điểm hằng ngày",
+          "B": "Quản lí truy cập, hiệu năng, sao lưu và phục hồi",
+          "C": "Chỉ thiết kế logo",
+          "D": "Chỉ sửa bàn phím"
         },
-        "dap_an": "A",
+        "dap_an": "B",
         "giai_thich": "Đáp án đúng vì Quản lí truy cập, hiệu năng, sao lưu và phục hồi; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 16 - Công việc quản trị CSDL",
         "noi_dung": "Xét tính đúng/sai về Công việc quản trị CSDL:",
         "y_kien": {
-          "a": "DBA cần hiểu CSDL và an toàn thông tin.",
-          "b": "Quản trị CSDL không cần giao tiếp với người dùng hay nhóm phát triển.",
-          "c": true,
-          "d": false
+          "a": false,
+          "b": "DBA cần hiểu CSDL và an toàn thông tin.",
+          "c": "Quản trị CSDL không cần giao tiếp với người dùng hay nhóm phát triển.",
+          "d": true
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

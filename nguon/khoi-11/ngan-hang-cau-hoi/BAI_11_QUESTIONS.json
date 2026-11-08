@@ -30,12 +30,12 @@
         "chu_de": "Bài 11 - Cơ sở dữ liệu",
         "noi_dung": "Đặc điểm cốt lõi của CSDL có cấu trúc là gì?",
         "lua_chon": {
-          "A": "Dữ liệu liên quan được tổ chức để lưu trữ và khai thác",
-          "B": "Không bao giờ cần cập nhật",
-          "C": "Mọi người đều có quyền sửa",
-          "D": "Không cần sao lưu"
+          "A": "Không cần sao lưu",
+          "B": "Dữ liệu liên quan được tổ chức để lưu trữ và khai thác",
+          "C": "Không bao giờ cần cập nhật",
+          "D": "Mọi người đều có quyền sửa"
         },
-        "dap_an": "A",
+        "dap_an": "B",
         "giai_thich": "Đáp án đúng vì Dữ liệu liên quan được tổ chức để lưu trữ và khai thác; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,10 +48,10 @@
         "chu_de": "Bài 11 - Cơ sở dữ liệu",
         "noi_dung": "Xét tính đúng/sai về Cơ sở dữ liệu:",
         "y_kien": {
-          "a": "Hạn chế dư thừa và bảo đảm nhất quán là yêu cầu quan trọng.",
-          "b": "CSDL chỉ có thể lưu dữ liệu dạng văn bản.",
-          "c": true,
-          "d": false
+          "a": true,
+          "b": false,
+          "c": "Hạn chế dư thừa và bảo đảm nhất quán là yêu cầu quan trọng.",
+          "d": "CSDL chỉ có thể lưu dữ liệu dạng văn bản."
         },
         "dap_an": {
           "a": true,

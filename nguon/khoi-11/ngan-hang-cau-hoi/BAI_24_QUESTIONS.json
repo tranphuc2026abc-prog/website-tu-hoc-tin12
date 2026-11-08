@@ -30,12 +30,12 @@
         "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
         "noi_dung": "Mục đích chính của bản sao lưu CSDL là gì?",
         "lua_chon": {
-          "A": "Khôi phục dữ liệu khi mất mát hoặc hỏng",
-          "B": "Tăng tốc mọi truy vấn",
-          "C": "Thay thế phân quyền",
-          "D": "Xóa dữ liệu khỏi máy chủ"
+          "A": "Xóa dữ liệu khỏi máy chủ",
+          "B": "Khôi phục dữ liệu khi mất mát hoặc hỏng",
+          "C": "Tăng tốc mọi truy vấn",
+          "D": "Thay thế phân quyền"
         },
-        "dap_an": "A",
+        "dap_an": "B",
         "giai_thich": "Đáp án đúng vì Khôi phục dữ liệu khi mất mát hoặc hỏng; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
         "noi_dung": "Xét tính đúng/sai về Thực hành sao lưu dữ liệu:",
         "y_kien": {
-          "a": "Cần định kì kiểm tra thử khả năng phục hồi.",
-          "b": "Có tệp sao lưu nhưng chưa thử khôi phục vẫn bảo đảm chắc chắn phục hồi.",
-          "c": true,
-          "d": false
+          "a": false,
+          "b": "Cần định kì kiểm tra thử khả năng phục hồi.",
+          "c": "Có tệp sao lưu nhưng chưa thử khôi phục vẫn bảo đảm chắc chắn phục hồi.",
+          "d": true
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

@@ -48,16 +48,16 @@
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
         "noi_dung": "Xét tính đúng/sai về SQL – Ngôn ngữ truy vấn có cấu trúc:",
         "y_kien": {
-          "a": "INSERT thêm bản ghi mới.",
-          "b": "UPDATE sửa dữ liệu theo điều kiện.",
+          "a": "UPDATE sửa dữ liệu theo điều kiện.",
+          "b": true,
           "c": true,
-          "d": true
+          "d": "INSERT thêm bản ghi mới."
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

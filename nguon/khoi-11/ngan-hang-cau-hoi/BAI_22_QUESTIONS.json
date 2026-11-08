@@ -30,12 +30,12 @@
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
         "noi_dung": "Khi nhập bản nhạc có khóa ngoài idNhacsi, cần kiểm tra điều gì?",
         "lua_chon": {
-          "A": "Mã nhạc sĩ tồn tại ở bảng được tham chiếu",
-          "B": "Tên ảnh bìa",
-          "C": "Màu bảng",
-          "D": "Độ phân giải màn hình"
+          "A": "Tên ảnh bìa",
+          "B": "Màu bảng",
+          "C": "Độ phân giải màn hình",
+          "D": "Mã nhạc sĩ tồn tại ở bảng được tham chiếu"
         },
-        "dap_an": "A",
+        "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Mã nhạc sĩ tồn tại ở bảng được tham chiếu; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
         "noi_dung": "Xét tính đúng/sai về Thực hành cập nhật bảng có tham chiếu:",
         "y_kien": {
-          "a": "Khóa ngoài bảo đảm quan hệ giữa bảng con và bảng cha.",
-          "b": "Có thể luôn nhập khóa ngoài không tồn tại mà không vi phạm ràng buộc.",
-          "c": true,
-          "d": false
+          "a": "Có thể luôn nhập khóa ngoài không tồn tại mà không vi phạm ràng buộc.",
+          "b": true,
+          "c": false,
+          "d": "Khóa ngoài bảo đảm quan hệ giữa bảng con và bảng cha."
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

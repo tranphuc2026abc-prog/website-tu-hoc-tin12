@@ -30,12 +30,12 @@
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
         "noi_dung": "Thuộc tính nào định danh duy nhất bản ghi trong bảng?",
         "lua_chon": {
-          "A": "Khóa chính",
-          "B": "Khóa ngoài",
-          "C": "Nhãn bảng",
-          "D": "Điều kiện sắp xếp"
+          "A": "Khóa ngoài",
+          "B": "Nhãn bảng",
+          "C": "Điều kiện sắp xếp",
+          "D": "Khóa chính"
         },
-        "dap_an": "A",
+        "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Khóa chính; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,10 +48,10 @@
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
         "noi_dung": "Xét tính đúng/sai về Thực hành tạo lập bảng:",
         "y_kien": {
-          "a": "Ràng buộc UNIQUE ngăn giá trị trùng.",
-          "b": "Khóa chính có thể lặp tùy ý.",
-          "c": true,
-          "d": false
+          "a": true,
+          "b": false,
+          "c": "Ràng buộc UNIQUE ngăn giá trị trùng.",
+          "d": "Khóa chính có thể lặp tùy ý."
         },
         "dap_an": {
           "a": true,

@@ -30,12 +30,12 @@
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
         "noi_dung": "Bước đầu khi thiết kế CSDL cho một bài toán là gì?",
         "lua_chon": {
-          "A": "Phân tích yêu cầu và đối tượng dữ liệu",
-          "B": "Nhập dữ liệu ngẫu nhiên",
-          "C": "Chọn màu giao diện",
-          "D": "Xóa bảng cũ"
+          "A": "Chọn màu giao diện",
+          "B": "Xóa bảng cũ",
+          "C": "Phân tích yêu cầu và đối tượng dữ liệu",
+          "D": "Nhập dữ liệu ngẫu nhiên"
         },
-        "dap_an": "A",
+        "dap_an": "C",
         "giai_thich": "Đáp án đúng vì Phân tích yêu cầu và đối tượng dữ liệu; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
         "noi_dung": "Xét tính đúng/sai về Thực hành xác định cấu trúc CSDL:",
         "y_kien": {
-          "a": "Kiểu dữ liệu cần phù hợp nội dung trường.",
-          "b": "Mọi dữ liệu nên đặt chung một bảng duy nhất.",
-          "c": true,
-          "d": false
+          "a": "Mọi dữ liệu nên đặt chung một bảng duy nhất.",
+          "b": true,
+          "c": false,
+          "d": "Kiểu dữ liệu cần phù hợp nội dung trường."
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

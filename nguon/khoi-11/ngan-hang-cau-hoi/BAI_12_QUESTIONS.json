@@ -30,12 +30,12 @@
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
         "noi_dung": "Phần mềm hỗ trợ tạo lập, cập nhật và truy xuất CSDL gọi là gì?",
         "lua_chon": {
-          "A": "Hệ quản trị CSDL",
-          "B": "Hệ điều hành",
-          "C": "Trình chiếu",
-          "D": "Máy tìm kiếm"
+          "A": "Hệ điều hành",
+          "B": "Trình chiếu",
+          "C": "Máy tìm kiếm",
+          "D": "Hệ quản trị CSDL"
         },
-        "dap_an": "A",
+        "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Hệ quản trị CSDL; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
         "noi_dung": "Xét tính đúng/sai về Hệ quản trị CSDL và hệ CSDL:",
         "y_kien": {
-          "a": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
-          "b": "CSDL phân tán chỉ có thể đặt toàn bộ dữ liệu ở một máy duy nhất.",
-          "c": true,
-          "d": false
+          "a": false,
+          "b": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
+          "c": "CSDL phân tán chỉ có thể đặt toàn bộ dữ liệu ở một máy duy nhất.",
+          "d": true
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

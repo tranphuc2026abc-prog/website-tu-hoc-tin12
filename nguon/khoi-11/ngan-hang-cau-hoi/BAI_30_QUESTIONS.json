@@ -30,12 +30,12 @@
         "chu_de": "Bài 30 - Biên tập phim",
         "noi_dung": "Muốn phụ đề khớp lời thoại cần căn chỉnh điều gì?",
         "lua_chon": {
-          "A": "Vị trí và thời lượng phụ đề trên dòng thời gian",
-          "B": "Tên tệp ảnh bìa",
-          "C": "Kiểu khóa CSDL",
-          "D": "Quyền Bluetooth"
+          "A": "Quyền Bluetooth",
+          "B": "Vị trí và thời lượng phụ đề trên dòng thời gian",
+          "C": "Tên tệp ảnh bìa",
+          "D": "Kiểu khóa CSDL"
         },
-        "dap_an": "A",
+        "dap_an": "B",
         "giai_thich": "Đáp án đúng vì Vị trí và thời lượng phụ đề trên dòng thời gian; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 30 - Biên tập phim",
         "noi_dung": "Xét tính đúng/sai về Biên tập phim:",
         "y_kien": {
-          "a": "Âm lượng nhạc nền cần cân đối với lời thoại.",
-          "b": "Nên xem trước sản phẩm để phát hiện lỗi.",
+          "a": "Nên xem trước sản phẩm để phát hiện lỗi.",
+          "b": true,
           "c": true,
-          "d": true
+          "d": "Âm lượng nhạc nền cần cân đối với lời thoại."
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

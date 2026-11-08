@@ -30,12 +30,12 @@
         "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
         "noi_dung": "Thêm một điểm kiểm tra mới vào bảng điểm là thao tác gì?",
         "lua_chon": {
-          "A": "Cập nhật dữ liệu",
-          "B": "Truy xuất dữ liệu",
-          "C": "Sao lưu dữ liệu",
-          "D": "Mã hóa dữ liệu"
+          "A": "Sao lưu dữ liệu",
+          "B": "Mã hóa dữ liệu",
+          "C": "Cập nhật dữ liệu",
+          "D": "Truy xuất dữ liệu"
         },
-        "dap_an": "A",
+        "dap_an": "C",
         "giai_thich": "Đáp án đúng vì Cập nhật dữ liệu; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
         "noi_dung": "Xét tính đúng/sai về Lưu trữ dữ liệu và khai thác:",
         "y_kien": {
-          "a": "Truy xuất là lấy các dữ liệu đáp ứng điều kiện.",
-          "b": "Khai thác thông tin có thể gồm tổng hợp, phân tích dữ liệu.",
+          "a": "Khai thác thông tin có thể gồm tổng hợp, phân tích dữ liệu.",
+          "b": true,
           "c": true,
-          "d": true
+          "d": "Truy xuất là lấy các dữ liệu đáp ứng điều kiện."
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

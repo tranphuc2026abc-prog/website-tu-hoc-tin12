@@ -30,12 +30,12 @@
         "chu_de": "Bài 28 - Tạo ảnh động",
         "noi_dung": "Các lớp/khung hình trong ảnh động thường được hiển thị như thế nào?",
         "lua_chon": {
-          "A": "Lần lượt theo thứ tự để tạo cảm giác chuyển động",
-          "B": "Đồng thời thành một bảng",
-          "C": "Chỉ dùng để lưu âm thanh",
-          "D": "Không cần sắp xếp"
+          "A": "Đồng thời thành một bảng",
+          "B": "Chỉ dùng để lưu âm thanh",
+          "C": "Không cần sắp xếp",
+          "D": "Lần lượt theo thứ tự để tạo cảm giác chuyển động"
         },
-        "dap_an": "A",
+        "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Lần lượt theo thứ tự để tạo cảm giác chuyển động; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 28 - Tạo ảnh động",
         "noi_dung": "Xét tính đúng/sai về Tạo ảnh động:",
         "y_kien": {
-          "a": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ chuyển động.",
-          "b": "Cần xem trước để kiểm tra trình tự và nhịp.",
-          "c": true,
+          "a": true,
+          "b": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ chuyển động.",
+          "c": "Cần xem trước để kiểm tra trình tự và nhịp.",
           "d": true
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }

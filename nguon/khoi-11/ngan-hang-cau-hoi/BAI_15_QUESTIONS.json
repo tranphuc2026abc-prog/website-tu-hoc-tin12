@@ -30,12 +30,12 @@
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
         "noi_dung": "Vì sao nên cấp mỗi người dùng đúng quyền cần thiết?",
         "lua_chon": {
-          "A": "Hạn chế truy cập hoặc thay đổi trái phép",
-          "B": "Để khỏi sao lưu",
-          "C": "Để mọi truy vấn nhanh hơn",
-          "D": "Để tăng số bản sao"
+          "A": "Để khỏi sao lưu",
+          "B": "Để mọi truy vấn nhanh hơn",
+          "C": "Để tăng số bản sao",
+          "D": "Hạn chế truy cập hoặc thay đổi trái phép"
         },
-        "dap_an": "A",
+        "dap_an": "D",
         "giai_thich": "Đáp án đúng vì Hạn chế truy cập hoặc thay đổi trái phép; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,10 +48,10 @@
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
         "noi_dung": "Xét tính đúng/sai về Bảo mật và an toàn hệ CSDL:",
         "y_kien": {
-          "a": "Sao lưu hỗ trợ phục hồi dữ liệu sau sự cố.",
-          "b": "Có bản sao lưu thì không cần kiểm soát truy cập.",
-          "c": true,
-          "d": false
+          "a": true,
+          "b": false,
+          "c": "Sao lưu hỗ trợ phục hồi dữ liệu sau sự cố.",
+          "d": "Có bản sao lưu thì không cần kiểm soát truy cập."
         },
         "dap_an": {
           "a": true,

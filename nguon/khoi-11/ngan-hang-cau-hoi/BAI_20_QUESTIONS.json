@@ -30,12 +30,12 @@
         "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
         "noi_dung": "Khóa ngoài idNhacsi ở bảng Bannhac dùng để làm gì?",
         "lua_chon": {
-          "A": "Tham chiếu nhạc sĩ trong bảng Nhacsi",
-          "B": "Sắp xếp tên bài hát",
-          "C": "Mã hóa bảng",
-          "D": "Đếm bản ghi"
+          "A": "Đếm bản ghi",
+          "B": "Tham chiếu nhạc sĩ trong bảng Nhacsi",
+          "C": "Sắp xếp tên bài hát",
+          "D": "Mã hóa bảng"
         },
-        "dap_an": "A",
+        "dap_an": "B",
         "giai_thich": "Đáp án đúng vì Tham chiếu nhạc sĩ trong bảng Nhacsi; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
       }
     ],
@@ -48,16 +48,16 @@
         "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
         "noi_dung": "Xét tính đúng/sai về Thực hành tạo lập bảng có khóa ngoài:",
         "y_kien": {
-          "a": "Khóa ngoài giúp duy trì toàn vẹn tham chiếu.",
-          "b": "Kiểu khóa ngoài cần tương thích trường được tham chiếu.",
-          "c": true,
+          "a": true,
+          "b": "Khóa ngoài giúp duy trì toàn vẹn tham chiếu.",
+          "c": "Kiểu khóa ngoài cần tương thích trường được tham chiếu.",
           "d": true
         },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
         "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
       }
