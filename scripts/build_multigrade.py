@@ -82,6 +82,14 @@ def knowledge_blocks(md, fallback=""):
         items = [{"x": point.strip()} for point in re.split(r"\n+", fallback) if point.strip()]
     if not items:
         raise AssertionError("No concise knowledge extracted from KHBD")
+    total = sum(len(item["x"]) for item in items)
+    if total > 1000:
+        text = re.sub(r"\s+", " ", " ".join(item["x"] for item in items)).strip()
+        text = text[:997]
+        boundary = text.rfind(" ")
+        if boundary > 700:
+            text = text[:boundary].rstrip(" ,;:")
+        items = [{"x": text}]
     return [{"t": "ul", "i": items}]
 
 def question_records(doc, lesson_id):
