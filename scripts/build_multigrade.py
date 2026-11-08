@@ -159,18 +159,14 @@ def lesson_sections(md, title, goals, key):
         term = re.sub(r"\s+", " ", term).strip(" -*:;.")
         definition = re.sub(r"\s+", " ", definition).strip(" -*:;.")
         norm = re.sub(r"[^\w]+", "", term.lower())
-        if len(term) < 2 or len(term) > 80 or len(definition) < 8 or norm in seen_terms:
+        if (len(term) < 2 or len(term) > 80 or len(term.split()) > 7
+                or len(definition) < 8 or norm in seen_terms
+                or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy|mỗi|các|một|khi|vì|do|với|nếu|bởi)\\b", term, re.I)):
             return
         seen_terms.add(norm)
         term_pairs.append({"t": term, "d": definition[:300].rstrip()})
 
-    # Prefer explicit definitions and labeled concepts from the source.
-    for sentence in sentences:
-        if not student_facing(sentence):
-            continue
-        definition = re.search(r"^(.{2,75}?)\s+(?:là|được gọi là|gọi là)\s+(.{12,})$", sentence, re.I)
-        if definition:
-            add_term(definition.group(1), sentence)
+    # Prefer named lesson concepts and learning goals over incidental prose.
     for block in key:
         if block.get("t") == "ul":
             for item in block.get("i", []):
@@ -185,6 +181,12 @@ def lesson_sections(md, title, goals, key):
         if m:
             term = re.split(r"[,;.]| để ", m.group(1))[0].strip()
             add_term(term, goal)
+    for sentence in sentences:
+        if not student_facing(sentence):
+            continue
+        definition = re.search(r"^(.{2,75}?)\s+(?:là|được gọi là|gọi là)\s+(.{12,})$", sentence, re.I)
+        if definition:
+            add_term(definition.group(1), sentence)
     if not term_pairs:
         add_term(title, goals[0] if goals else "Nội dung chính của bài học.")
     if len(term_pairs) < 3:
@@ -224,7 +226,12 @@ def lesson_sections(md, title, goals, key):
         if re.search(r"\b(?:Lưu ý|Chú ý|Không nên|Tránh|Sai lầm|Nhầm lẫn|Lỗi)\b", sentence, re.I) and student_facing(sentence):
             cautions.append(sentence)
     if not cautions:
-        cautions = ["Với chủ đề " + title + ", tránh nhầm khái niệm hoặc bỏ qua điều kiện của yêu cầu; hãy đối chiếu thao tác và kết quả với nội dung trọng tâm trong bài."]
+        risk_terms = r"thiết bị lạ|chưa từng đăng nhập|không nên|không được|không thể|bản quyền|mật khẩu|quyền riêng tư|cảnh báo|xác thực|xóa nhầm|mất dữ liệu|lộ thông tin|sai cú pháp|lỗi"
+        for sentence in sentences:
+            if re.search(risk_terms, sentence, re.I) and student_facing(sentence):
+                cautions.append(sentence)
+        if not cautions:
+            cautions = ["Với chủ đề " + title + ", tránh nhầm khái niệm hoặc bỏ qua điều kiện của yêu cầu; hãy đối chiếu thao tác và kết quả với nội dung trọng tâm trong bài."]
     cautions = list(dict.fromkeys(cautions))[:3]
 
     reminders = []
