@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_24",
+  "bai_so": 24,
+  "ten_bai": "Thực hành sao lưu dữ liệu",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B24-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Mục đích chính của bản sao lưu CSDL là gì?",
+        "lua_chon": {
+          "A": "Khôi phục dữ liệu khi mất mát hoặc hỏng",
+          "B": "Tăng tốc mọi truy vấn",
+          "C": "Thay thế phân quyền",
+          "D": "Xóa dữ liệu khỏi máy chủ"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Khôi phục dữ liệu khi mất mát hoặc hỏng; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B24-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Xét tính đúng/sai về Thực hành sao lưu dữ liệu:",
+        "y_kien": {
+          "a": "Cần định kì kiểm tra thử khả năng phục hồi.",
+          "b": "Có tệp sao lưu nhưng chưa thử khôi phục vẫn bảo đảm chắc chắn phục hồi.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B24-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Đề xuất quy trình sao lưu và kiểm tra phục hồi.",
+        "dap_an_goi_y": "Chọn lịch và phạm vi, tạo bản sao, lưu an toàn, ghi phiên bản, định kì thử phục hồi và cập nhật quy trình.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

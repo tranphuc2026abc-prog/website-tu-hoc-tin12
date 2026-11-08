@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_23",
+  "bai_so": 23,
+  "ten_bai": "Thực hành truy xuất dữ liệu qua liên kết bảng",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B23-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
+        "noi_dung": "Muốn hiển thị tên bản nhạc và tên nhạc sĩ từ hai bảng, cần làm gì?",
+        "lua_chon": {
+          "A": "Nối hai bảng theo trường khóa liên quan",
+          "B": "Xóa một bảng",
+          "C": "Đổi mọi cột thành văn bản",
+          "D": "Sao chép thủ công toàn bộ"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Nối hai bảng theo trường khóa liên quan; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B23-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
+        "noi_dung": "Xét tính đúng/sai về Thực hành truy xuất dữ liệu qua liên kết bảng:",
+        "y_kien": {
+          "a": "JOIN kết hợp các bảng theo điều kiện liên kết.",
+          "b": "Cần điều kiện nối để tránh tạo tổ hợp dòng ngoài ý muốn.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B23-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
+        "noi_dung": "Mô tả truy vấn lấy tên bản nhạc và nhạc sĩ.",
+        "dap_an_goi_y": "Chọn cột tên cần hiển thị, nối Bannhac với Nhacsi theo khóa ngoài idNhacsi và khóa chính tương ứng, thêm điều kiện lọc nếu cần.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

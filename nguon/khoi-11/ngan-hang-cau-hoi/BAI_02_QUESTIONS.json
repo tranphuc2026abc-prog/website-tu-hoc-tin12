@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_02",
+  "bai_so": 2,
+  "ten_bai": "Thực hành sử dụng hệ điều hành",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B02-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Cách nào giúp sắp xếp tệp của một dự án để dễ tìm lại?",
+        "lua_chon": {
+          "A": "Tạo thư mục phù hợp và đặt tên rõ ràng",
+          "B": "Đặt mọi tệp trên màn hình nền",
+          "C": "Đặt mọi tệp cùng tên",
+          "D": "Xóa tệp cũ không kiểm tra"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Tạo thư mục phù hợp và đặt tên rõ ràng; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B02-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Xét tính đúng/sai về Thực hành sử dụng hệ điều hành:",
+        "y_kien": {
+          "a": "Thư mục giúp phân loại và tìm lại dữ liệu.",
+          "b": "Gỡ ứng dụng bằng cách xóa ngẫu nhiên các tệp hệ thống là cách an toàn nhất.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B02-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
+        "noi_dung": "Nêu quy trình tải, cài và gỡ ứng dụng an toàn.",
+        "dap_an_goi_y": "Chọn nguồn tin cậy, kiểm tra yêu cầu/quyền, cài theo hướng dẫn; khi gỡ dùng công cụ quản lí ứng dụng và xác nhận dữ liệu cần giữ.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

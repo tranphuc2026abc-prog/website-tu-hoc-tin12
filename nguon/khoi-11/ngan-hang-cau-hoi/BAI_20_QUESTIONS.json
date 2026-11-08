@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_20",
+  "bai_so": 20,
+  "ten_bai": "Thực hành tạo lập bảng có khóa ngoài",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B20-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Khóa ngoài idNhacsi ở bảng Bannhac dùng để làm gì?",
+        "lua_chon": {
+          "A": "Tham chiếu nhạc sĩ trong bảng Nhacsi",
+          "B": "Sắp xếp tên bài hát",
+          "C": "Mã hóa bảng",
+          "D": "Đếm bản ghi"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Tham chiếu nhạc sĩ trong bảng Nhacsi; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B20-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Xét tính đúng/sai về Thực hành tạo lập bảng có khóa ngoài:",
+        "y_kien": {
+          "a": "Khóa ngoài giúp duy trì toàn vẹn tham chiếu.",
+          "b": "Kiểu khóa ngoài cần tương thích trường được tham chiếu.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B20-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Giải thích cách thiết lập khóa ngoài giữa Bannhac và Nhacsi.",
+        "dap_an_goi_y": "Đặt idNhacsi làm khóa chính bên Nhacsi; tạo trường kiểu tương thích ở Bannhac; khai báo nó tham chiếu khóa chính.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

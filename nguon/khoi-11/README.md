@@ -38,6 +38,6 @@
 | Bài 30 | BIÊN TẬP PHIM | THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU | b30_bien_tap_phim.f1c9ef8dae.txt | 0 |
 | Bài 31 | THỰC HÀNH TẠO PHIM HOẠT HÌNH | THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU | b31_thuc_hanh_ss_hinh.447a51bb29.txt | 0 |
 
-## Phạm vi câu hỏi
+## Ngân hàng câu hỏi
 
-KHBD có câu hỏi/hoạt động và hướng dẫn trả lời trong văn bản; một số nơi chỉ có khóa đáp án trắc nghiệm mà không có câu hỏi và phương án. Gói hiện giữ nguyên toàn bộ các phần đó trong từng bài. Khóa đáp án chưa được biến thành câu hỏi. Ngân hàng câu hỏi tương tác có cấu trúc (MCQ, đúng/sai, tự luận) chưa được biên soạn trong phiên bản này.
+Ngân hàng bổ sung tại `ngan-hang-cau-hoi/` hiện có 3 câu mỗi bài cho 31 bài (93 câu): 1 MCQ, 1 câu đúng/sai gồm 4 mệnh đề, 1 tự luận. Đây là bộ câu hỏi mới biên soạn theo mục tiêu và nội dung KHBD; khóa đáp án rời trong KHBD không bị biến thành câu hỏi. Quy mô hiện tại chưa tương đương 25 câu mỗi bài của kho khối 12.

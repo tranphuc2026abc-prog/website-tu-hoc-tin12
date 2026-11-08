@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_17",
+  "bai_so": 17,
+  "ten_bai": "Quản trị CSDL trên máy tính",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B17-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "HeidiSQL trong bài học chủ yếu dùng để làm gì?",
+        "lua_chon": {
+          "A": "Kết nối và thao tác quản trị CSDL qua giao diện",
+          "B": "Chỉnh sửa ảnh",
+          "C": "Dựng phim",
+          "D": "Tạo hệ điều hành"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Kết nối và thao tác quản trị CSDL qua giao diện; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B17-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Xét tính đúng/sai về Quản trị CSDL trên máy tính:",
+        "y_kien": {
+          "a": "MySQL là một hệ quản trị CSDL.",
+          "b": "Cài HeidiSQL tự động đồng nghĩa MySQL server đã hoạt động.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B17-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Quản trị CSDL trên máy tính",
+        "noi_dung": "Nêu thành phần cần có để quản trị CSDL MySQL bằng HeidiSQL.",
+        "dap_an_goi_y": "Cần máy chủ MySQL chạy, thông tin kết nối hợp lệ và HeidiSQL làm ứng dụng khách; kết nối rồi chọn CSDL và thao tác theo quyền.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

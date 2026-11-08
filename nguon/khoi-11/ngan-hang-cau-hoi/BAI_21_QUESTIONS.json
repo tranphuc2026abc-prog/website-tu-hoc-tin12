@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_21",
+  "bai_so": 21,
+  "ten_bai": "Thực hành cập nhật và truy xuất dữ liệu",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B21-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Muốn liệt kê nhạc sĩ mà không sửa dữ liệu, dùng thao tác nào?",
+        "lua_chon": {
+          "A": "SELECT",
+          "B": "DELETE",
+          "C": "UPDATE",
+          "D": "DROP TABLE"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì SELECT; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B21-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Xét tính đúng/sai về Thực hành cập nhật và truy xuất dữ liệu:",
+        "y_kien": {
+          "a": "INSERT thường thêm bản ghi.",
+          "b": "Cần kiểm tra điều kiện trước khi cập nhật hoặc xóa.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B21-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phân biệt thêm, sửa, xóa và truy xuất dữ liệu.",
+        "dap_an_goi_y": "INSERT thêm; UPDATE sửa; DELETE xóa; SELECT truy xuất. Trước sửa/xóa cần kiểm tra điều kiện và dữ liệu liên quan.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

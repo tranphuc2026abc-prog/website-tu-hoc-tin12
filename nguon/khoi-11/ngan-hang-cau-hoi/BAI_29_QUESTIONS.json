@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_29",
+  "bai_so": 29,
+  "ten_bai": "Khám phá phần mềm làm phim",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B29-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Khu vực nào dùng để sắp xếp clip theo thời gian?",
+        "lua_chon": {
+          "A": "Dòng thời gian",
+          "B": "Bảng màu",
+          "C": "Bảng dữ liệu",
+          "D": "Cửa sổ đăng nhập"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Dòng thời gian; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B29-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Xét tính đúng/sai về Khám phá phần mềm làm phim:",
+        "y_kien": {
+          "a": "Có thể nhập ảnh và video vào dự án phim.",
+          "b": "Cần kiểm tra định dạng tư liệu có tương thích không.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B29-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Nêu quy trình tạo phim ngắn từ ảnh và video.",
+        "dap_an_goi_y": "Tạo dự án, nhập tư liệu phù hợp, sắp xếp/cắt clip trên dòng thời gian, thêm tiêu đề hoặc âm thanh, xem trước và xuất.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

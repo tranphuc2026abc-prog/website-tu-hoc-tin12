@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_10",
+  "bai_so": 10,
+  "ten_bai": "Lưu trữ dữ liệu và khai thác",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B10-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Thêm một điểm kiểm tra mới vào bảng điểm là thao tác gì?",
+        "lua_chon": {
+          "A": "Cập nhật dữ liệu",
+          "B": "Truy xuất dữ liệu",
+          "C": "Sao lưu dữ liệu",
+          "D": "Mã hóa dữ liệu"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Cập nhật dữ liệu; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B10-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Xét tính đúng/sai về Lưu trữ dữ liệu và khai thác:",
+        "y_kien": {
+          "a": "Truy xuất là lấy các dữ liệu đáp ứng điều kiện.",
+          "b": "Khai thác thông tin có thể gồm tổng hợp, phân tích dữ liệu.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B10-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phân biệt cập nhật, truy xuất và khai thác thông tin bằng ví dụ điểm số.",
+        "dap_an_goi_y": "Cập nhật thêm/sửa điểm; truy xuất lọc điểm một học sinh; khai thác tính trung bình hoặc thống kê kết quả.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

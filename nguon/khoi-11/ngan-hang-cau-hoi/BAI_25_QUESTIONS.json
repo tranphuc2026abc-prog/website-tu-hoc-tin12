@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_25",
+  "bai_so": 25,
+  "ten_bai": "Phần mềm chỉnh sửa ảnh",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B25-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
+        "noi_dung": "Ảnh bitmap chủ yếu được cấu tạo từ gì?",
+        "lua_chon": {
+          "A": "Các điểm ảnh",
+          "B": "Các bản ghi",
+          "C": "Các câu lệnh SQL",
+          "D": "Các khung âm thanh"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Các điểm ảnh; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B25-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
+        "noi_dung": "Xét tính đúng/sai về Phần mềm chỉnh sửa ảnh:",
+        "y_kien": {
+          "a": "Ảnh bitmap phóng lớn quá mức có thể lộ các điểm ảnh.",
+          "b": "Cắt ảnh là chọn vùng khung hình cần giữ lại.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B25-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
+        "noi_dung": "Nêu quy trình mở, cắt/xoay và lưu ảnh an toàn.",
+        "dap_an_goi_y": "Tạo bản sao, mở ảnh, cắt hoặc xoay, xem trước, hoàn tác nếu cần, lưu bản chỉnh sửa với tên phù hợp và giữ bản gốc.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

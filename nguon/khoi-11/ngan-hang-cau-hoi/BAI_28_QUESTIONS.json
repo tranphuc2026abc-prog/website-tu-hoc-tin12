@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_28",
+  "bai_so": 28,
+  "ten_bai": "Tạo ảnh động",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B28-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Các lớp/khung hình trong ảnh động thường được hiển thị như thế nào?",
+        "lua_chon": {
+          "A": "Lần lượt theo thứ tự để tạo cảm giác chuyển động",
+          "B": "Đồng thời thành một bảng",
+          "C": "Chỉ dùng để lưu âm thanh",
+          "D": "Không cần sắp xếp"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Lần lượt theo thứ tự để tạo cảm giác chuyển động; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B28-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Xét tính đúng/sai về Tạo ảnh động:",
+        "y_kien": {
+          "a": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ chuyển động.",
+          "b": "Cần xem trước để kiểm tra trình tự và nhịp.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B28-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Mô tả tạo ảnh động đơn giản từ các lớp.",
+        "dap_an_goi_y": "Chuẩn bị lớp/khung có trạng thái khác nhau, xếp thứ tự, đặt thời gian, xem trước, điều chỉnh và xuất định dạng ảnh động.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

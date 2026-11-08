@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_30",
+  "bai_so": 30,
+  "ten_bai": "Biên tập phim",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B30-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Muốn phụ đề khớp lời thoại cần căn chỉnh điều gì?",
+        "lua_chon": {
+          "A": "Vị trí và thời lượng phụ đề trên dòng thời gian",
+          "B": "Tên tệp ảnh bìa",
+          "C": "Kiểu khóa CSDL",
+          "D": "Quyền Bluetooth"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Vị trí và thời lượng phụ đề trên dòng thời gian; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B30-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Xét tính đúng/sai về Biên tập phim:",
+        "y_kien": {
+          "a": "Âm lượng nhạc nền cần cân đối với lời thoại.",
+          "b": "Nên xem trước sản phẩm để phát hiện lỗi.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B30-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Nêu quy trình biên tập phim có âm thanh, phụ đề và chuyển cảnh.",
+        "dap_an_goi_y": "Sắp xếp/cắt clip, cân âm lượng, thêm phụ đề đúng thời điểm, chọn chuyển cảnh vừa phải, xem trước, sửa lỗi rồi xuất phim.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

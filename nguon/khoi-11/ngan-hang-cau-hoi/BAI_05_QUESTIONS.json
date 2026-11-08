@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_05",
+  "bai_so": 5,
+  "ten_bai": "Kết nối máy tính với các thiết bị số",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B05-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Cổng nào thường truyền hình ảnh và âm thanh số đến màn hình?",
+        "lua_chon": {
+          "A": "HDMI",
+          "B": "RJ-45",
+          "C": "PS/2",
+          "D": "Âm thanh 3,5 mm"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì HDMI; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B05-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Xét tính đúng/sai về Kết nối máy tính với các thiết bị số:",
+        "y_kien": {
+          "a": "Máy in là thiết bị đầu ra.",
+          "b": "Cần kiểm tra cổng và chuẩn kết nối tương thích.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B05-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Nêu các bước kết nối thiết bị số với máy tính.",
+        "dap_an_goi_y": "Kiểm tra cổng/chuẩn, kết nối bằng cáp hoặc ghép đôi, cài trình điều khiển nếu cần, chọn thiết bị trong cài đặt và thử.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

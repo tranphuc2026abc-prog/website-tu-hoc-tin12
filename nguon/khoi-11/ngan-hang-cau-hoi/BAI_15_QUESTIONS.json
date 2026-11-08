@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_15",
+  "bai_so": 15,
+  "ten_bai": "Bảo mật và an toàn hệ CSDL",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B15-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Vì sao nên cấp mỗi người dùng đúng quyền cần thiết?",
+        "lua_chon": {
+          "A": "Hạn chế truy cập hoặc thay đổi trái phép",
+          "B": "Để khỏi sao lưu",
+          "C": "Để mọi truy vấn nhanh hơn",
+          "D": "Để tăng số bản sao"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Hạn chế truy cập hoặc thay đổi trái phép; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B15-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Xét tính đúng/sai về Bảo mật và an toàn hệ CSDL:",
+        "y_kien": {
+          "a": "Sao lưu hỗ trợ phục hồi dữ liệu sau sự cố.",
+          "b": "Có bản sao lưu thì không cần kiểm soát truy cập.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B15-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
+        "noi_dung": "Đề xuất biện pháp bảo vệ CSDL trường học.",
+        "dap_an_goi_y": "Phân quyền tối thiểu, xác thực mạnh, cập nhật, ghi nhật kí phù hợp, sao lưu định kì, bảo vệ máy chủ và thử phục hồi.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_01",
+  "bai_so": 1,
+  "ten_bai": "Hệ điều hành",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B01-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Thành phần nào quản lí tài nguyên phần cứng và cung cấp môi trường để ứng dụng chạy?",
+        "lua_chon": {
+          "A": "Hệ điều hành",
+          "B": "Trình duyệt",
+          "C": "Bàn phím",
+          "D": "Bộ xử lí văn bản"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Hệ điều hành; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B01-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Xét tính đúng/sai về Hệ điều hành:",
+        "y_kien": {
+          "a": "Hệ điều hành là lớp trung gian giữa ứng dụng và phần cứng.",
+          "b": "Hệ điều hành di động thường được thiết kế cho thao tác cảm ứng và tài nguyên giới hạn.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B01-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Hệ điều hành",
+        "noi_dung": "Mô tả vai trò của phần cứng, hệ điều hành và ứng dụng khi mở một chương trình.",
+        "dap_an_goi_y": "Ứng dụng gửi yêu cầu; hệ điều hành phân phối tài nguyên, giao tiếp với phần cứng và trả kết quả cho ứng dụng.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

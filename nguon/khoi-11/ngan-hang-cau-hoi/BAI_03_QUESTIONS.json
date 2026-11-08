@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_03",
+  "bai_so": 3,
+  "ten_bai": "Phần mềm nguồn mở",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B03-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Phần mềm nguồn mở",
+        "noi_dung": "Điểm cốt lõi của phần mềm nguồn mở là gì?",
+        "lua_chon": {
+          "A": "Mã nguồn và quyền sử dụng được quy định bởi giấy phép nguồn mở",
+          "B": "Luôn miễn phí và không có điều kiện",
+          "C": "Chỉ chạy khi có Internet",
+          "D": "Không thể được dùng trong kinh doanh"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Mã nguồn và quyền sử dụng được quy định bởi giấy phép nguồn mở; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B03-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Phần mềm nguồn mở",
+        "noi_dung": "Xét tính đúng/sai về Phần mềm nguồn mở:",
+        "y_kien": {
+          "a": "Giấy phép nguồn mở quy định quyền xem, sửa đổi hoặc phân phối mã.",
+          "b": "Phần mềm thương mại luôn đồng nghĩa với phần mềm mã nguồn đóng.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B03-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Phần mềm nguồn mở",
+        "noi_dung": "So sánh phần mềm nguồn mở và phần mềm thương mại.",
+        "dap_an_goi_y": "Nguồn mở cho quyền tiếp cận/sửa/phân phối theo giấy phép; thương mại thường cấp quyền theo điều kiện nhà cung cấp và có thể có hỗ trợ chính thức.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

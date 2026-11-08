@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_13",
+  "bai_so": 13,
+  "ten_bai": "Cơ sở dữ liệu quan hệ",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B13-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
+        "noi_dung": "Một hàng trong bảng quan hệ thường biểu diễn gì?",
+        "lua_chon": {
+          "A": "Một bản ghi",
+          "B": "Một trường",
+          "C": "Một bảng khác",
+          "D": "Một câu truy vấn"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Một bản ghi; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B13-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
+        "noi_dung": "Xét tính đúng/sai về Cơ sở dữ liệu quan hệ:",
+        "y_kien": {
+          "a": "Khóa chính định danh duy nhất bản ghi.",
+          "b": "Khóa ngoài có thể tham chiếu đến khóa chính bảng khác.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B13-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
+        "noi_dung": "Giải thích trường, bản ghi, khóa chính và khóa ngoài bằng CSDL âm nhạc.",
+        "dap_an_goi_y": "Trong bảng Nhacsi, các cột là trường, mỗi hàng là bản ghi; idNhacsi là khóa chính. Bannhac có thể lưu idNhacsi làm khóa ngoài.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

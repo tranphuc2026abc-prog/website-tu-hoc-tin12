@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_27",
+  "bai_so": 27,
+  "ten_bai": "Công cụ vẽ và một số ứng dụng",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B27-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Lợi ích của việc tách ảnh thành nhiều lớp là gì?",
+        "lua_chon": {
+          "A": "Chỉnh sửa từng thành phần độc lập",
+          "B": "Tự tạo phim",
+          "C": "Không cần lưu dự án",
+          "D": "Mọi lớp có nội dung giống nhau"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Chỉnh sửa từng thành phần độc lập; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B27-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Xét tính đúng/sai về Công cụ vẽ và một số ứng dụng:",
+        "y_kien": {
+          "a": "Lớp riêng giúp dễ chỉnh sửa và hoàn tác.",
+          "b": "Nên dùng lớp mới/bản sao khi retouch để bảo vệ ảnh gốc.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B27-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Nêu cách dùng lớp và công cụ vẽ để làm sạch ảnh.",
+        "dap_an_goi_y": "Tạo lớp hoặc bản sao, chọn công cụ vẽ/xóa/retouch, chỉnh màu/kích thước, thao tác cẩn thận, kiểm tra và lưu dự án có lớp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

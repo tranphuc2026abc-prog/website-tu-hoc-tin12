@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_09",
+  "bai_so": 9,
+  "ten_bai": "Giao tiếp an toàn trên Internet",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B09-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
+        "noi_dung": "Tin nhắn báo trúng thưởng yêu cầu mật khẩu và OTP. Em nên làm gì?",
+        "lua_chon": {
+          "A": "Không cung cấp mã, xác minh qua kênh chính thức và báo cáo",
+          "B": "Gửi OTP để nhận thưởng",
+          "C": "Mở liên kết và nhập thông tin",
+          "D": "Chuyển tiếp tin cho nhiều người"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Không cung cấp mã, xác minh qua kênh chính thức và báo cáo; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B09-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
+        "noi_dung": "Xét tính đúng/sai về Giao tiếp an toàn trên Internet:",
+        "y_kien": {
+          "a": "Mật khẩu và OTP không được cung cấp qua tin nhắn lạ.",
+          "b": "Giao tiếp văn minh cần tôn trọng người khác và không phát tán tin chưa kiểm chứng.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B09-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
+        "noi_dung": "Nêu cách xử lí tin nhắn đáng ngờ và nguyên tắc giao tiếp văn minh.",
+        "dap_an_goi_y": "Không nhấp liên kết/cung cấp thông tin; xác minh độc lập, lưu bằng chứng và báo cáo; giao tiếp tôn trọng, bảo vệ dữ liệu riêng tư.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

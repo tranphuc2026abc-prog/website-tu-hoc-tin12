@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_12",
+  "bai_so": 12,
+  "ten_bai": "Hệ quản trị CSDL và hệ CSDL",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B12-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
+        "noi_dung": "Phần mềm hỗ trợ tạo lập, cập nhật và truy xuất CSDL gọi là gì?",
+        "lua_chon": {
+          "A": "Hệ quản trị CSDL",
+          "B": "Hệ điều hành",
+          "C": "Trình chiếu",
+          "D": "Máy tìm kiếm"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Hệ quản trị CSDL; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B12-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
+        "noi_dung": "Xét tính đúng/sai về Hệ quản trị CSDL và hệ CSDL:",
+        "y_kien": {
+          "a": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
+          "b": "CSDL phân tán chỉ có thể đặt toàn bộ dữ liệu ở một máy duy nhất.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B12-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
+        "noi_dung": "Phân biệt CSDL, hệ QTCSDL và hệ CSDL; nêu tập trung và phân tán.",
+        "dap_an_goi_y": "CSDL là dữ liệu; hệ QTCSDL là phần mềm quản lí; hệ CSDL gồm dữ liệu, phần mềm và môi trường vận hành. Tập trung lưu một nơi, phân tán lưu nhiều nút phối hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_26",
+  "bai_so": 26,
+  "ten_bai": "Công cụ tinh chỉnh màu sắc và công cụ chọn",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B26-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "RGB gồm các thành phần màu nào?",
+        "lua_chon": {
+          "A": "Đỏ, lục, lam",
+          "B": "Đỏ, vàng, đen",
+          "C": "Lục, lam, trắng",
+          "D": "Cyan, magenta, vàng"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Đỏ, lục, lam; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B26-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Xét tính đúng/sai về Công cụ tinh chỉnh màu sắc và công cụ chọn:",
+        "y_kien": {
+          "a": "Vùng chọn giới hạn phần ảnh bị tác động.",
+          "b": "Khi có vùng chọn, mọi thao tác luôn ảnh hưởng toàn ảnh.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B26-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Giải thích chỉnh riêng một vùng ảnh bằng vùng chọn và RGB.",
+        "dap_an_goi_y": "Tạo vùng chọn phù hợp, kiểm tra biên, điều chỉnh kênh R/G/B hoặc công cụ màu, xem trước rồi bỏ chọn.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

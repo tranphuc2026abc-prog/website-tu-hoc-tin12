@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_19",
+  "bai_so": 19,
+  "ten_bai": "Thực hành tạo lập bảng",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B19-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Thuộc tính nào định danh duy nhất bản ghi trong bảng?",
+        "lua_chon": {
+          "A": "Khóa chính",
+          "B": "Khóa ngoài",
+          "C": "Nhãn bảng",
+          "D": "Điều kiện sắp xếp"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Khóa chính; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B19-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Xét tính đúng/sai về Thực hành tạo lập bảng:",
+        "y_kien": {
+          "a": "Ràng buộc UNIQUE ngăn giá trị trùng.",
+          "b": "Khóa chính có thể lặp tùy ý.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B19-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
+        "noi_dung": "Mô tả tạo CSDL và bảng có khóa chính.",
+        "dap_an_goi_y": "Tạo CSDL, khai báo bảng/trường/kiểu, chọn khóa chính, thêm UNIQUE cho trường cần không trùng, lưu và kiểm tra cấu trúc.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "ma_bai": "BAI_11",
+  "bai_so": 11,
+  "ten_bai": "Cơ sở dữ liệu",
+  "thong_ke": {
+    "tong_so_cau": 3,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 1,
+      "dung_sai": 1,
+      "tu_luan": 1
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B11-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Đặc điểm cốt lõi của CSDL có cấu trúc là gì?",
+        "lua_chon": {
+          "A": "Dữ liệu liên quan được tổ chức để lưu trữ và khai thác",
+          "B": "Không bao giờ cần cập nhật",
+          "C": "Mọi người đều có quyền sửa",
+          "D": "Không cần sao lưu"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Dữ liệu liên quan được tổ chức để lưu trữ và khai thác; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B11-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Xét tính đúng/sai về Cơ sở dữ liệu:",
+        "y_kien": {
+          "a": "Hạn chế dư thừa và bảo đảm nhất quán là yêu cầu quan trọng.",
+          "b": "CSDL chỉ có thể lưu dữ liệu dạng văn bản.",
+          "c": true,
+          "d": false
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b, d sai theo các kiến thức và thực hành trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B11-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Nêu yêu cầu của CSDL quản lí lớp học.",
+        "dap_an_goi_y": "Dữ liệu có cấu trúc, liên quan, nhất quán; dễ cập nhật/truy xuất, hạn chế trùng lặp, chia sẻ có kiểm soát và được bảo vệ.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}
