@@ -39,13 +39,17 @@ jobs:
           test -f tests/e2e.js
           test -d nguon
           python scripts/build_all_grades.py nguon
+          python scripts/build_single.py
           python - <<'PY'
           from pathlib import Path
           from json import loads
           portal = Path("index.html").read_text(encoding="utf-8")
           course = Path("course.html").read_text(encoding="utf-8")
+          single = Path("Tin12_MotFile.html").read_text(encoding="utf-8")
           assert all(f'course.html?grade={g}' in portal for g in (10, 11, 12))
           assert 'assets/js/course-loader.js' in course
+          assert '<main id="app"' in single
+          assert 'assets/js/course-loader.js' not in single
           for grade, expected in ((10, 34), (11, 31), (12, 28)):
               path = Path("data") / (f"catalog-{grade}.js" if grade < 12 else "catalog.js")
               text = path.read_text(encoding="utf-8")
