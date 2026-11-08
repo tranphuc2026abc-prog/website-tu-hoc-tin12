@@ -9,7 +9,7 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   else url = 'file://' + root + '/' + entry;
   const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: 1100, height: 800 }, acceptDownloads: true }); const p = await ctx.newPage();
   const errs = [], ext = [];
-  p.on('pageerror', e => errs.push(e.message)); p.on('console', m => m.type() === 'error' && errs.push(m.text()));
+  p.on('pageerror', e => errs.push(e.stack || e.message)); p.on('console', m => m.type() === 'error' && errs.push(m.text()));
   p.on('request', r => { const u = r.url(); if (!u.startsWith('file:') && !u.startsWith('http://localhost') && !u.startsWith('data:') && !u.startsWith('blob:') && !u.startsWith('about:')) ext.push(u); });
   const portalUrl = url; await p.goto(portalUrl);
   try { await p.waitForSelector('.grade-card', { timeout: 15000 }); } catch (e) { console.log('PORTAL BODY:', await p.locator('body').innerText()); console.log('PORTAL ERRORS:', errs); throw e; }
