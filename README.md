@@ -1,31 +1,32 @@
-# Tự học Tin học 12 – Kết nối tri thức với cuộc sống (bản offline)
+# Tự học Tin học THPT – bản offline
 
 ## Cách dùng
 - **Máy tính (Windows/macOS/Linux):** giải nén thư mục, bấm đúp `index.html` (Chrome hoặc Edge). Không cần cài đặt, không cần Internet.
-- **Điện thoại:** chép tệp `Tin12_MotFile.html` vào máy, mở bằng Chrome. Đây là bản gộp toàn bộ website trong một tệp.
+- **Điện thoại:** dùng `index.html` cùng thư mục website để học cả ba khối. `Tin12_MotFile.html` là bản gộp riêng của khối 12.
 - Tiến độ lưu trong trình duyệt của thiết bị. Mỗi thiết bị/trình duyệt có dữ liệu riêng, **không đồng bộ**. Dùng *Tiến độ → Sao lưu tiến độ* để chuyển sang máy khác.
 - Lưu ý: đổi trình duyệt, xóa dữ liệu duyệt web hoặc chép `index.html` sang vị trí khác có thể làm tiến độ không còn; hãy sao lưu định kỳ.
 
 ## Cấu trúc
-- `index.html`, `assets/css`, `assets/js/app.js`: giao diện và logic.
-- `data/catalog.js`, `data/lessons/*.js` (28 bài), `data/questions/*.js`: dữ liệu sinh tự động từ hồ sơ nguồn.
-- `nguon/`: nguồn chính thức gồm 28 JSON ngân hàng câu hỏi và 28 tệp kiến thức chuẩn hóa; các tài liệu tổng hợp được giữ trong kho.
-- `scripts/build_data.py`: sinh `data/lessons/*.js`, `data/questions/*.js`, catalog và `BAO_CAO_NGHIEM_THU.md` từ nguồn; giữ lại câu chỉ có trên website.
+- `index.html`: màn hình chọn khối; `course.html`: lớp học dùng chung; `assets/css`, `assets/js`: giao diện và logic.
+- `data/catalog.js` và `data/catalog-10.js`, `data/catalog-11.js`; `data/lessons/*.js`, `data/questions/*.js`: dữ liệu dùng chung, mã bài có tiền tố theo khối.
+- `nguon/`: lưu học liệu khối 10 (34 bài), khối 11 (31 bài) và nguồn chuẩn hóa khối 12 (28 bài).
+- `scripts/build_all_grades.py`: gọi bộ dựng khối 12 hiện tại và `scripts/build_multigrade.py` để dựng khối 10, 11 từ Markdown/JSON trong `nguon/khoi-10/` và `nguon/khoi-11/`.
 - `scripts/build_single.py`: gộp đúng 28 bài, ngân hàng câu hỏi, CSS và các script giao diện vào `Tin12_MotFile.html`.
-- `tests/e2e.js`: kiểm thử tự động bằng Playwright (`node tests/e2e.js file`).
+- `Tin12_MotFile.html`: bản đóng gói một tệp của khối 12; bản nhiều khối dùng `index.html` và `course.html`.
 
 ## Sinh đề ngẫu nhiên theo lượt học
 
 - Khi học sinh bắt đầu luyện tập, website chọn ngẫu nhiên câu hỏi trong phạm vi bài/chủ đề đã chọn.
 - Mỗi phạm vi có chu kỳ ghi nhớ câu đã xuất hiện; lượt tiếp theo ưu tiên câu chưa làm. Khi dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.
-- Mỗi bài có 25 câu trong nguồn chuẩn; website giữ thêm các câu chỉ có trong dữ liệu website. Mỗi lượt lấy tối đa 10 câu; nếu bộ lọc chọn ít hơn 10 câu phù hợp thì lượt đó dùng tất cả câu phù hợp.
+- Mỗi bài khối 10 và 11 có 25 câu từ ngân hàng riêng của khối; khối 12 giữ 700 câu nguồn và các câu chỉ có trên website. Mỗi lượt lấy tối đa 10 câu; nếu bộ lọc chọn ít hơn 10 câu phù hợp thì lượt đó dùng tất cả câu phù hợp.
 - Lịch sử câu đã xuất hiện được lưu trong dữ liệu cục bộ của từng hồ sơ trình duyệt/tài khoản trên thiết bị. Hiện cơ chế này chưa đồng bộ giữa các thiết bị qua Supabase.
-- Ngân hàng chuẩn được đọc từ `nguon/ngan-hang-cau-hoi/BAI_XX_QUESTIONS.json`. 700 câu nguồn đã được tích hợp; các câu chỉ có trên website vẫn được giữ lại.
+- Ngân hàng chuẩn được đọc từ khối 10/11 tại `nguon/khoi-10/` và `nguon/khoi-11/`, khối 12 tại `nguon/ngan-hang-cau-hoi/`. Khi dựng, mỗi khối chỉ nạp đúng danh mục và ngân hàng của mình.
 
 ## Cập nhật nội dung
-1. Sửa các tệp trong `nguon/` (giữ nguyên định dạng hiện có).
-2. Chạy `python scripts/build_data.py nguon`, sau đó `python scripts/build_single.py`.
-3. Đọc phần “Cần rà soát” in ra để biết dữ liệu nào cần giáo viên kiểm tra.
+1. Cập nhật nguồn trong `nguon/` theo định dạng của từng khối.
+2. Chạy `python scripts/build_all_grades.py nguon`.
+3. Với bản một tệp khối 12, chạy tiếp `python scripts/build_single.py`.
+4. Kiểm tra báo cáo và mở `index.html` để chọn khối.
 
 
 ## Nâng cấp quản lý tiến trình trực tuyến (đang triển khai)

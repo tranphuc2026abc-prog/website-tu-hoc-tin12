@@ -9,10 +9,30 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
   else url = 'file://' + root + '/' + entry;
   const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: 1100, height: 800 }, acceptDownloads: true }); const p = await ctx.newPage();
   const errs = [], ext = [];
-  p.on('pageerror', e => errs.push(e.message)); p.on('console', m => m.type() === 'error' && errs.push(m.text()));
+  p.on('pageerror', e => errs.push(e.stack || e.message)); p.on('console', m => m.type() === 'error' && errs.push(m.text()));
   p.on('request', r => { const u = r.url(); if (!u.startsWith('file:') && !u.startsWith('http://localhost') && !u.startsWith('data:') && !u.startsWith('blob:') && !u.startsWith('about:')) ext.push(u); });
-  await p.goto(url); try { await p.waitForSelector('.map', { timeout: 15000 }); } catch (e) { console.log('INIT BODY:', await p.locator('body').innerText()); console.log('INIT ERRORS:', errs); throw e; }
-  console.log('== Trang chu'); ok(await p.locator('.cell').count() === 28, '28 o bai tren ban do');
+  if (mode === 'file' && entry.endsWith('Tin12_MotFile.html')) {
+    await p.goto(url); try { await p.waitForSelector('.map', { timeout: 15000 }); } catch (e) { console.log('SINGLE FILE BODY:', await p.locator('body').innerText()); console.log('SINGLE FILE ERRORS:', errs); throw e; }
+    ok(await p.locator('.cell').count() === 28, 'ban mot tep mo du 28 bai Tin hoc 12');
+    const shown = Number(await p.locator('.stats > div').nth(3).locator('b').textContent());
+    const loaded = await p.evaluate(() => window.T.cat.qfiles.reduce((n, id) => n + (window.T.Q[id] || []).filter(q => q.st === 'ok').length, 0));
+    ok(shown === loaded, 'ban mot tep nap du ' + loaded + ' cau hoi');
+  } else {
+    const portalUrl = url; await p.goto(portalUrl);
+    try { await p.waitForSelector('.grade-card', { timeout: 15000 }); } catch (e) { console.log('PORTAL BODY:', await p.locator('body').innerText()); console.log('PORTAL ERRORS:', errs); throw e; }
+    console.log('== Chon khoi'); ok(await p.locator('.grade-card').count() === 3, 'hien thi du ba khoi lop');
+    const expectedLessons = { 10: 34, 11: 31, 12: 28 };
+    for (const grade of [10, 11, 12]) {
+      url = new URL('course.html?grade=' + grade, portalUrl).href;
+      await p.goto(url); try { await p.waitForSelector('.map', { timeout: 15000 }); } catch (e) { console.log('GRADE ' + grade + ' BODY:', await p.locator('body').innerText()); console.log('GRADE ' + grade + ' ERRORS:', errs); throw e; }
+      const shown = Number(await p.locator('.stats > div').nth(3).locator('b').textContent());
+      const loaded = await p.evaluate(() => window.T.cat.qfiles.reduce((n, id) => n + (window.T.Q[id] || []).filter(q => q.st === 'ok').length, 0));
+      ok(Number(await p.locator('.cell').count()) === expectedLessons[grade], 'khối ' + grade + ' mở đủ ' + expectedLessons[grade] + ' bài');
+      ok(shown === loaded, 'khối ' + grade + ' thống kê đủ ' + loaded + ' câu hỏi đã nạp');
+    }
+    url = new URL('course.html?grade=12', portalUrl).href;
+  }
+  console.log('== Trang chu Tin hoc 12'); ok(await p.locator('.cell').count() === 28, '28 o bai tren ban do');
   const shownQuestionCount = Number(await p.locator('.stats > div').nth(3).locator('b').textContent()); const loadedQuestionCount = await p.evaluate(() => window.T.cat.qfiles.reduce((n, id) => n + (window.T.Q[id] || []).filter(q => q.st === 'ok').length, 0)); ok(await p.locator('.cell').count() === 28 && shownQuestionCount === loadedQuestionCount, 'thong ke 28 bai / dung so cau da nap: ' + loadedQuestionCount);
   console.log('== Mo tung bai'); let bad = [];
   for (let n = 1; n <= 28; n++) { const id = 'ICT12_B' + String(n).padStart(2, '0'); await p.goto(url + '#/lesson/' + id); await p.waitForSelector('.sheet'); const c = await p.locator('.sheet').count(), h = await p.textContent('h1'); const terms = await p.locator('.sheet.terms li').count(); if (c !== 7 || !h.startsWith('Bài ' + n + '.') || terms < 3) bad.push(id + ':' + c + ':' + terms); }
