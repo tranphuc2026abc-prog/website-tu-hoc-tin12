@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
+        "noi_dung": "Tình huống: Phóng một ảnh nhỏ lên rất lớn thấy ô vuông. Em nên làm gì?",
         "lua_chon": {
           "A": "Kích thước ảnh theo pixel.",
           "B": "Zoom vùng làm việc.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Đặc điểm nào giải thích hiện tượng?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bitmap?",
         "lua_chon": {
-          "A": "Ảnh được cấu tạo từ pixel.",
-          "B": "Kích thước ảnh theo pixel.",
-          "C": "Zoom vùng làm việc.",
-          "D": "Công cụ cắt."
+          "A": "Ảnh 1920 × 1080.",
+          "B": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
+          "C": "Ảnh có viền thừa cần loại bỏ.",
+          "D": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông."
         },
-        "dap_an": "A",
-        "giai_thich": "Ảnh được cấu tạo từ pixel. phù hợp vì bitmap."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Bitmap trong bài Phần mềm chỉnh sửa ảnh."
       },
       {
         "id": "T11-B25-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Ảnh 1920 × 1080.",
+        "noi_dung": "Tình huống: Ảnh 1920 × 1080. Em nên làm gì?",
         "lua_chon": {
           "A": "Zoom vùng làm việc.",
           "B": "Công cụ cắt.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Thông số đó cho biết điều gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Độ phân giải?",
         "lua_chon": {
-          "A": "Ảnh được cấu tạo từ pixel.",
-          "B": "Zoom vùng làm việc.",
-          "C": "Công cụ cắt.",
-          "D": "Kích thước ảnh theo pixel."
+          "A": "Ảnh có viền thừa cần loại bỏ.",
+          "B": "Ảnh 1920 × 1080.",
+          "C": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
+          "D": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa."
         },
-        "dap_an": "D",
-        "giai_thich": "Kích thước ảnh theo pixel. phù hợp vì độ phân giải."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Độ phân giải trong bài Phần mềm chỉnh sửa ảnh."
       },
       {
         "id": "T11-B25-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
+        "noi_dung": "Tình huống: Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa. Em nên làm gì?",
         "lua_chon": {
           "A": "Công cụ cắt.",
           "B": "Zoom vùng làm việc.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Thao tác nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Phóng to/thu nhỏ?",
         "lua_chon": {
-          "A": "Kích thước ảnh theo pixel.",
-          "B": "Công cụ cắt.",
-          "C": "Zoom vùng làm việc.",
-          "D": "Ảnh được cấu tạo từ pixel."
+          "A": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
+          "B": "Ảnh 1920 × 1080.",
+          "C": "Ảnh có viền thừa cần loại bỏ.",
+          "D": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa."
         },
-        "dap_an": "C",
-        "giai_thich": "Zoom vùng làm việc. phù hợp vì phóng to/thu nhỏ."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Phóng to/thu nhỏ trong bài Phần mềm chỉnh sửa ảnh."
       },
       {
         "id": "T11-B25-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Ảnh có viền thừa cần loại bỏ.",
+        "noi_dung": "Tình huống: Ảnh có viền thừa cần loại bỏ. Em nên làm gì?",
         "lua_chon": {
           "A": "Công cụ cắt.",
           "B": "Ảnh được cấu tạo từ pixel.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Công cụ nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Cắt ảnh?",
         "lua_chon": {
-          "A": "Zoom vùng làm việc.",
-          "B": "Công cụ cắt.",
-          "C": "Ảnh được cấu tạo từ pixel.",
-          "D": "Kích thước ảnh theo pixel."
+          "A": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
+          "B": "Ảnh có viền thừa cần loại bỏ.",
+          "C": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
+          "D": "Ảnh 1920 × 1080."
         },
         "dap_an": "B",
-        "giai_thich": "Công cụ cắt. phù hợp vì cắt ảnh."
+        "giai_thich": "Tình huống này gắn với Cắt ảnh trong bài Phần mềm chỉnh sửa ảnh."
       },
       {
         "id": "T11-B25-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Ảnh chụp bị nằm ngang.",
+        "noi_dung": "Tình huống: Ảnh chụp bị nằm ngang. Em nên làm gì?",
         "lua_chon": {
           "A": "Ảnh được cấu tạo từ pixel.",
           "B": "Kích thước ảnh theo pixel.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Thao tác nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Xoay ảnh?",
         "lua_chon": {
-          "A": "Xoay ảnh theo góc cần thiết.",
-          "B": "Ảnh được cấu tạo từ pixel.",
-          "C": "Kích thước ảnh theo pixel.",
-          "D": "Zoom vùng làm việc."
+          "A": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
+          "B": "Ảnh 1920 × 1080.",
+          "C": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
+          "D": "Ảnh chụp bị nằm ngang."
         },
-        "dap_an": "A",
-        "giai_thich": "Xoay ảnh theo góc cần thiết. phù hợp vì xoay ảnh."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Xoay ảnh trong bài Phần mềm chỉnh sửa ảnh."
       },
       {
         "id": "T11-B25-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Ảnh duy nhất cần cắt và chỉnh sửa.",
+        "noi_dung": "Tình huống: Ảnh duy nhất cần cắt và chỉnh sửa. Em nên làm gì?",
         "lua_chon": {
           "A": "Kích thước ảnh theo pixel.",
           "B": "Zoom vùng làm việc.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Bước an toàn nào nên làm?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bản gốc?",
         "lua_chon": {
-          "A": "Ảnh được cấu tạo từ pixel.",
-          "B": "Kích thước ảnh theo pixel.",
-          "C": "Zoom vùng làm việc.",
-          "D": "Tạo bản sao trước khi chỉnh sửa."
+          "A": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
+          "B": "Ảnh duy nhất cần cắt và chỉnh sửa.",
+          "C": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
+          "D": "Ảnh 1920 × 1080."
         },
-        "dap_an": "D",
-        "giai_thich": "Tạo bản sao trước khi chỉnh sửa. phù hợp vì bản gốc."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Bản gốc trong bài Phần mềm chỉnh sửa ảnh."
       },
       {
         "id": "T11-B25-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Cần chọn công cụ cắt và xem kết quả.",
+        "noi_dung": "Tình huống: Cần chọn công cụ cắt và xem kết quả. Em nên làm gì?",
         "lua_chon": {
           "A": "Zoom vùng làm việc.",
           "B": "Vùng làm việc/canvas.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Khu vực nào hiển thị ảnh đang thao tác?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Giao diện biên tập?",
         "lua_chon": {
-          "A": "Kích thước ảnh theo pixel.",
-          "B": "Zoom vùng làm việc.",
-          "C": "Vùng làm việc/canvas.",
-          "D": "Ảnh được cấu tạo từ pixel."
+          "A": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
+          "B": "Ảnh 1920 × 1080.",
+          "C": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
+          "D": "Cần chọn công cụ cắt và xem kết quả."
         },
-        "dap_an": "C",
-        "giai_thich": "Vùng làm việc/canvas. phù hợp vì giao diện biên tập."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Giao diện biên tập trong bài Phần mềm chỉnh sửa ảnh."
       }
     ],
     "dung_sai": [

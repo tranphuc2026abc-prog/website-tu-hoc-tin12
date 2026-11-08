@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Máy tính cần xử lí lệnh của phần mềm.",
+        "noi_dung": "Tình huống: Máy tính cần xử lí lệnh của phần mềm. Em nên làm gì?",
         "lua_chon": {
           "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
           "B": "Bo mạch chủ.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Bộ phận nào thực hiện xử lí chính?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về CPU?",
         "lua_chon": {
-          "A": "RAM.",
-          "B": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "C": "Bo mạch chủ.",
-          "D": "CPU."
+          "A": "Máy tính cần xử lí lệnh của phần mềm.",
+          "B": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "C": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "D": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu."
         },
-        "dap_an": "D",
-        "giai_thich": "CPU. phù hợp vì cpu."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với CPU trong bài Bên trong máy tính."
       },
       {
         "id": "T11-B04-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+        "noi_dung": "Tình huống: Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất. Em nên làm gì?",
         "lua_chon": {
           "A": "Bo mạch chủ.",
           "B": "RAM.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Loại bộ nhớ nào được mô tả?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về RAM?",
         "lua_chon": {
-          "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "B": "Bo mạch chủ.",
-          "C": "RAM.",
-          "D": "CPU."
+          "A": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "B": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu.",
+          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "D": "Máy tính cần xử lí lệnh của phần mềm."
         },
         "dap_an": "C",
-        "giai_thich": "RAM. phù hợp vì ram."
+        "giai_thich": "Tình huống này gắn với RAM trong bài Bên trong máy tính."
       },
       {
         "id": "T11-B04-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+        "noi_dung": "Tình huống: Cần lưu tài liệu để mở lại sau khi tắt máy. Em nên làm gì?",
         "lua_chon": {
           "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
           "B": "CPU.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Thành phần nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thiết bị lưu trữ?",
         "lua_chon": {
-          "A": "Bo mạch chủ.",
-          "B": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "C": "CPU.",
-          "D": "RAM."
+          "A": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "B": "Máy tính cần xử lí lệnh của phần mềm.",
+          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "D": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu."
         },
-        "dap_an": "B",
-        "giai_thich": "Thiết bị lưu trữ như SSD hoặc HDD. phù hợp vì thiết bị lưu trữ."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Thiết bị lưu trữ trong bài Bên trong máy tính."
       },
       {
         "id": "T11-B04-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu.",
+        "noi_dung": "Tình huống: CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu. Em nên làm gì?",
         "lua_chon": {
           "A": "CPU.",
           "B": "RAM.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Bộ phận nào kết nối các thành phần?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bo mạch chủ?",
         "lua_chon": {
-          "A": "Bo mạch chủ.",
-          "B": "CPU.",
-          "C": "RAM.",
-          "D": "Thiết bị lưu trữ như SSD hoặc HDD."
+          "A": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "B": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "C": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu.",
+          "D": "Máy tính cần xử lí lệnh của phần mềm."
         },
-        "dap_an": "A",
-        "giai_thich": "Bo mạch chủ. phù hợp vì bo mạch chủ."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Bo mạch chủ trong bài Bên trong máy tính."
       },
       {
         "id": "T11-B04-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Hai tín hiệu đầu vào đều bật.",
+        "noi_dung": "Tình huống: Hai tín hiệu đầu vào đều bật. Em nên làm gì?",
         "lua_chon": {
           "A": "RAM.",
           "B": "Thiết bị lưu trữ như SSD hoặc HDD.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Đầu ra của AND là gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về AND?",
         "lua_chon": {
-          "A": "CPU.",
-          "B": "RAM.",
-          "C": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "D": "1."
+          "A": "Hai tín hiệu đầu vào đều bật.",
+          "B": "Máy tính cần xử lí lệnh của phần mềm.",
+          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "D": "Cần lưu tài liệu để mở lại sau khi tắt máy."
         },
-        "dap_an": "D",
-        "giai_thich": "1. phù hợp vì and."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với AND trong bài Bên trong máy tính."
       },
       {
         "id": "T11-B04-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Một đầu vào OR bằng 1; sau đó đưa đầu ra 1 qua NOT.",
+        "noi_dung": "Tình huống: Một đầu vào OR bằng 1; sau đó đưa đầu ra 1 qua NOT. Em nên làm gì?",
         "lua_chon": {
           "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
           "B": "0.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Đầu ra cuối cùng là gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về OR và NOT?",
         "lua_chon": {
-          "A": "RAM.",
-          "B": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "C": "0.",
-          "D": "CPU."
+          "A": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "B": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "C": "Một đầu vào OR bằng 1; sau đó đưa đầu ra 1 qua NOT.",
+          "D": "Máy tính cần xử lí lệnh của phần mềm."
         },
         "dap_an": "C",
-        "giai_thich": "0. phù hợp vì or và not."
+        "giai_thich": "Tình huống này gắn với OR và NOT trong bài Bên trong máy tính."
       },
       {
         "id": "T11-B04-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Máy chậm khi mở nhiều ứng dụng cùng lúc.",
+        "noi_dung": "Tình huống: Máy chậm khi mở nhiều ứng dụng cùng lúc. Em nên làm gì?",
         "lua_chon": {
           "A": "Tăng dung lượng RAM phù hợp.",
           "B": "CPU.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Nâng cấp nào thường tăng khả năng chạy nhiều ứng dụng?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thông số hiệu năng?",
         "lua_chon": {
-          "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "B": "Tăng dung lượng RAM phù hợp.",
-          "C": "CPU.",
-          "D": "RAM."
+          "A": "Máy chậm khi mở nhiều ứng dụng cùng lúc.",
+          "B": "Máy tính cần xử lí lệnh của phần mềm.",
+          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "D": "Cần lưu tài liệu để mở lại sau khi tắt máy."
         },
-        "dap_an": "B",
-        "giai_thich": "Tăng dung lượng RAM phù hợp. phù hợp vì thông số hiệu năng."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Thông số hiệu năng trong bài Bên trong máy tính."
       }
     ],
     "dung_sai": [

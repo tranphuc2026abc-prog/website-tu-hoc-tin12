@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
+        "noi_dung": "Tình huống: Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác. Em nên làm gì?",
         "lua_chon": {
           "A": "Mã 12 có tồn tại trong Nhacsi.",
           "B": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Cần kiểm tra gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Mã tham chiếu?",
         "lua_chon": {
-          "A": "Khóa ngoài của bản ghi Bannhac.",
-          "B": "Mã 12 có tồn tại trong Nhacsi.",
-          "C": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "D": "Giá trị khóa ngoài và bản ghi cha tương ứng."
+          "A": "Câu lệnh thêm dữ liệu bị từ chối.",
+          "B": "Bản nhạc được gán nhầm nhạc sĩ.",
+          "C": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
+          "D": "Thêm bản nhạc có khóa ngoài idNhacsi."
         },
-        "dap_an": "B",
-        "giai_thich": "Mã 12 có tồn tại trong Nhacsi. phù hợp vì mã tham chiếu."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Mã tham chiếu trong bài Thực hành cập nhật bảng có tham chiếu."
       },
       {
         "id": "T11-B22-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Thêm bản nhạc có khóa ngoài idNhacsi.",
+        "noi_dung": "Tình huống: Thêm bản nhạc có khóa ngoài idNhacsi. Em nên làm gì?",
         "lua_chon": {
           "A": "Mã 12 có tồn tại trong Nhacsi.",
           "B": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Nên bảo đảm gì trước?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thứ tự nhập?",
         "lua_chon": {
-          "A": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "B": "Mã 12 có tồn tại trong Nhacsi.",
-          "C": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "D": "Khóa ngoài của bản ghi Bannhac."
+          "A": "Thêm bản nhạc có khóa ngoài idNhacsi.",
+          "B": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
+          "C": "Câu lệnh thêm dữ liệu bị từ chối.",
+          "D": "Bản nhạc được gán nhầm nhạc sĩ."
         },
         "dap_an": "A",
-        "giai_thich": "Bản ghi nhạc sĩ tham chiếu đã tồn tại. phù hợp vì thứ tự nhập."
+        "giai_thich": "Tình huống này gắn với Thứ tự nhập trong bài Thực hành cập nhật bảng có tham chiếu."
       },
       {
         "id": "T11-B22-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Câu lệnh thêm dữ liệu bị từ chối.",
+        "noi_dung": "Tình huống: Câu lệnh thêm dữ liệu bị từ chối. Em nên làm gì?",
         "lua_chon": {
           "A": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
           "B": "Khóa ngoài của bản ghi Bannhac.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Nguyên nhân nào cần kiểm tra?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lỗi khóa ngoài?",
         "lua_chon": {
-          "A": "Mã 12 có tồn tại trong Nhacsi.",
-          "B": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "C": "Khóa ngoài của bản ghi Bannhac.",
-          "D": "Giá trị khóa ngoài và bản ghi cha tương ứng."
+          "A": "Thêm bản nhạc có khóa ngoài idNhacsi.",
+          "B": "Bản nhạc được gán nhầm nhạc sĩ.",
+          "C": "Câu lệnh thêm dữ liệu bị từ chối.",
+          "D": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác."
         },
-        "dap_an": "D",
-        "giai_thich": "Giá trị khóa ngoài và bản ghi cha tương ứng. phù hợp vì lỗi khóa ngoài."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Lỗi khóa ngoài trong bài Thực hành cập nhật bảng có tham chiếu."
       },
       {
         "id": "T11-B22-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Bản nhạc được gán nhầm nhạc sĩ.",
+        "noi_dung": "Tình huống: Bản nhạc được gán nhầm nhạc sĩ. Em nên làm gì?",
         "lua_chon": {
           "A": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
           "B": "Khóa ngoài của bản ghi Bannhac.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Cần sửa trường nào?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Sửa tham chiếu?",
         "lua_chon": {
-          "A": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "B": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "C": "Khóa ngoài của bản ghi Bannhac.",
-          "D": "Mã 12 có tồn tại trong Nhacsi."
+          "A": "Bản nhạc được gán nhầm nhạc sĩ.",
+          "B": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
+          "C": "Thêm bản nhạc có khóa ngoài idNhacsi.",
+          "D": "Câu lệnh thêm dữ liệu bị từ chối."
         },
-        "dap_an": "C",
-        "giai_thich": "Khóa ngoài của bản ghi Bannhac. phù hợp vì sửa tham chiếu."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Sửa tham chiếu trong bài Thực hành cập nhật bảng có tham chiếu."
       },
       {
         "id": "T11-B22-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Nhạc sĩ còn bản nhạc liên kết.",
+        "noi_dung": "Tình huống: Nhạc sĩ còn bản nhạc liên kết. Em nên làm gì?",
         "lua_chon": {
           "A": "Để bảo vệ toàn vẹn tham chiếu.",
           "B": "Mã 12 có tồn tại trong Nhacsi.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Vì sao CSDL từ chối xóa?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Xóa bản ghi cha?",
         "lua_chon": {
-          "A": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "B": "Để bảo vệ toàn vẹn tham chiếu.",
-          "C": "Mã 12 có tồn tại trong Nhacsi.",
-          "D": "Bản ghi nhạc sĩ tham chiếu đã tồn tại."
+          "A": "Thêm bản nhạc có khóa ngoài idNhacsi.",
+          "B": "Câu lệnh thêm dữ liệu bị từ chối.",
+          "C": "Nhạc sĩ còn bản nhạc liên kết.",
+          "D": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác."
         },
-        "dap_an": "B",
-        "giai_thich": "Để bảo vệ toàn vẹn tham chiếu. phù hợp vì xóa bản ghi cha."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Xóa bản ghi cha trong bài Thực hành cập nhật bảng có tham chiếu."
       },
       {
         "id": "T11-B22-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Bản nhạc thuộc nhạc sĩ mới.",
+        "noi_dung": "Tình huống: Bản nhạc thuộc nhạc sĩ mới. Em nên làm gì?",
         "lua_chon": {
           "A": "Mã 12 có tồn tại trong Nhacsi.",
           "B": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Làm gì trước khi thêm bản nhạc?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tạo bản ghi cha?",
         "lua_chon": {
-          "A": "Thêm nhạc sĩ vào bảng cha rồi dùng mã đó.",
-          "B": "Mã 12 có tồn tại trong Nhacsi.",
-          "C": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "D": "Giá trị khóa ngoài và bản ghi cha tương ứng."
+          "A": "Bản nhạc thuộc nhạc sĩ mới.",
+          "B": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
+          "C": "Thêm bản nhạc có khóa ngoài idNhacsi.",
+          "D": "Câu lệnh thêm dữ liệu bị từ chối."
         },
         "dap_an": "A",
-        "giai_thich": "Thêm nhạc sĩ vào bảng cha rồi dùng mã đó. phù hợp vì tạo bản ghi cha."
+        "giai_thich": "Tình huống này gắn với Tạo bản ghi cha trong bài Thực hành cập nhật bảng có tham chiếu."
       },
       {
         "id": "T11-B22-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Đã sửa idNhacsi cho một bản nhạc.",
+        "noi_dung": "Tình huống: Đã sửa idNhacsi cho một bản nhạc. Em nên làm gì?",
         "lua_chon": {
           "A": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
           "B": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Bước nào kiểm tra kết quả?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra sau cập nhật?",
         "lua_chon": {
-          "A": "Mã 12 có tồn tại trong Nhacsi.",
-          "B": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "C": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "D": "Truy xuất lại hai bảng theo quan hệ khóa."
+          "A": "Thêm bản nhạc có khóa ngoài idNhacsi.",
+          "B": "Câu lệnh thêm dữ liệu bị từ chối.",
+          "C": "Đã sửa idNhacsi cho một bản nhạc.",
+          "D": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác."
         },
-        "dap_an": "D",
-        "giai_thich": "Truy xuất lại hai bảng theo quan hệ khóa. phù hợp vì kiểm tra sau cập nhật."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Kiểm tra sau cập nhật trong bài Thực hành cập nhật bảng có tham chiếu."
       }
     ],
     "dung_sai": [

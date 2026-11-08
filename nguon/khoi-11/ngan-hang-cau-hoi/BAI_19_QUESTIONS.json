@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Bắt đầu dự án mymusic.",
+        "noi_dung": "Tình huống: Bắt đầu dự án mymusic. Em nên làm gì?",
         "lua_chon": {
           "A": "UNIQUE.",
           "B": "Tạo CSDL mới.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Thao tác nào tạo vùng lưu trữ dữ liệu?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tạo CSDL?",
         "lua_chon": {
-          "A": "Mã nhạc sĩ duy nhất.",
-          "B": "UNIQUE.",
-          "C": "Tạo CSDL mới.",
-          "D": "Các trường với tên và kiểu tương ứng."
+          "A": "Email mỗi tài khoản phải khác nhau.",
+          "B": "Bắt đầu dự án mymusic.",
+          "C": "Bảng nhacsi cần lưu tên và năm sinh.",
+          "D": "Có nhiều nhạc sĩ cùng tên."
         },
-        "dap_an": "C",
-        "giai_thich": "Tạo CSDL mới. phù hợp vì tạo csdl."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Tạo CSDL trong bài Thực hành tạo lập bảng."
       },
       {
         "id": "T11-B19-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Bảng nhacsi cần lưu tên và năm sinh.",
+        "noi_dung": "Tình huống: Bảng nhacsi cần lưu tên và năm sinh. Em nên làm gì?",
         "lua_chon": {
           "A": "Các trường với tên và kiểu tương ứng.",
           "B": "Tạo CSDL mới.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Cần khai báo gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Khai báo trường?",
         "lua_chon": {
-          "A": "UNIQUE.",
-          "B": "Các trường với tên và kiểu tương ứng.",
-          "C": "Tạo CSDL mới.",
-          "D": "Mã nhạc sĩ duy nhất."
+          "A": "Bắt đầu dự án mymusic.",
+          "B": "Có nhiều nhạc sĩ cùng tên.",
+          "C": "Email mỗi tài khoản phải khác nhau.",
+          "D": "Bảng nhacsi cần lưu tên và năm sinh."
         },
-        "dap_an": "B",
-        "giai_thich": "Các trường với tên và kiểu tương ứng. phù hợp vì khai báo trường."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Khai báo trường trong bài Thực hành tạo lập bảng."
       },
       {
         "id": "T11-B19-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Có nhiều nhạc sĩ cùng tên.",
+        "noi_dung": "Tình huống: Có nhiều nhạc sĩ cùng tên. Em nên làm gì?",
         "lua_chon": {
           "A": "Tạo CSDL mới.",
           "B": "Các trường với tên và kiểu tương ứng.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Trường nào phân biệt chính xác?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Khóa chính?",
         "lua_chon": {
-          "A": "Mã nhạc sĩ duy nhất.",
-          "B": "Tạo CSDL mới.",
-          "C": "Các trường với tên và kiểu tương ứng.",
-          "D": "UNIQUE."
+          "A": "Email mỗi tài khoản phải khác nhau.",
+          "B": "Có nhiều nhạc sĩ cùng tên.",
+          "C": "Bắt đầu dự án mymusic.",
+          "D": "Bảng nhacsi cần lưu tên và năm sinh."
         },
-        "dap_an": "A",
-        "giai_thich": "Mã nhạc sĩ duy nhất. phù hợp vì khóa chính."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Khóa chính trong bài Thực hành tạo lập bảng."
       },
       {
         "id": "T11-B19-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Email mỗi tài khoản phải khác nhau.",
+        "noi_dung": "Tình huống: Email mỗi tài khoản phải khác nhau. Em nên làm gì?",
         "lua_chon": {
           "A": "Các trường với tên và kiểu tương ứng.",
           "B": "Mã nhạc sĩ duy nhất.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Ràng buộc nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về UNIQUE?",
         "lua_chon": {
-          "A": "Tạo CSDL mới.",
-          "B": "Các trường với tên và kiểu tương ứng.",
-          "C": "Mã nhạc sĩ duy nhất.",
-          "D": "UNIQUE."
+          "A": "Bắt đầu dự án mymusic.",
+          "B": "Bảng nhacsi cần lưu tên và năm sinh.",
+          "C": "Có nhiều nhạc sĩ cùng tên.",
+          "D": "Email mỗi tài khoản phải khác nhau."
         },
         "dap_an": "D",
-        "giai_thich": "UNIQUE. phù hợp vì unique."
+        "giai_thich": "Tình huống này gắn với UNIQUE trong bài Thực hành tạo lập bảng."
       },
       {
         "id": "T11-B19-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Mã định danh bắt buộc nhập.",
+        "noi_dung": "Tình huống: Mã định danh bắt buộc nhập. Em nên làm gì?",
         "lua_chon": {
           "A": "Mã nhạc sĩ duy nhất.",
           "B": "NOT NULL.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Ràng buộc nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về NOT NULL?",
         "lua_chon": {
-          "A": "Các trường với tên và kiểu tương ứng.",
-          "B": "Mã nhạc sĩ duy nhất.",
-          "C": "NOT NULL.",
-          "D": "Tạo CSDL mới."
+          "A": "Có nhiều nhạc sĩ cùng tên.",
+          "B": "Mã định danh bắt buộc nhập.",
+          "C": "Bắt đầu dự án mymusic.",
+          "D": "Bảng nhacsi cần lưu tên và năm sinh."
         },
-        "dap_an": "C",
-        "giai_thich": "NOT NULL. phù hợp vì not null."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với NOT NULL trong bài Thực hành tạo lập bảng."
       },
       {
         "id": "T11-B19-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tạo xong khai báo nhưng chưa lưu.",
+        "noi_dung": "Tình huống: Tạo xong khai báo nhưng chưa lưu. Em nên làm gì?",
         "lua_chon": {
           "A": "Lưu cấu trúc và kiểm tra bảng.",
           "B": "Tạo CSDL mới.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Cần làm gì để hoàn tất?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lưu cấu trúc?",
         "lua_chon": {
-          "A": "Mã nhạc sĩ duy nhất.",
-          "B": "Lưu cấu trúc và kiểm tra bảng.",
-          "C": "Tạo CSDL mới.",
-          "D": "Các trường với tên và kiểu tương ứng."
+          "A": "Bắt đầu dự án mymusic.",
+          "B": "Bảng nhacsi cần lưu tên và năm sinh.",
+          "C": "Có nhiều nhạc sĩ cùng tên.",
+          "D": "Tạo xong khai báo nhưng chưa lưu."
         },
-        "dap_an": "B",
-        "giai_thich": "Lưu cấu trúc và kiểm tra bảng. phù hợp vì lưu cấu trúc."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Lưu cấu trúc trong bài Thực hành tạo lập bảng."
       },
       {
         "id": "T11-B19-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Ứng dụng báo lỗi khi thêm bản ghi.",
+        "noi_dung": "Tình huống: Ứng dụng báo lỗi khi thêm bản ghi. Em nên làm gì?",
         "lua_chon": {
           "A": "Tạo CSDL mới.",
           "B": "Các trường với tên và kiểu tương ứng.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Bước đầu nào hữu ích?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra bảng?",
         "lua_chon": {
-          "A": "Kiểm tra định nghĩa trường và ràng buộc.",
-          "B": "Tạo CSDL mới.",
-          "C": "Các trường với tên và kiểu tương ứng.",
-          "D": "Mã nhạc sĩ duy nhất."
+          "A": "Có nhiều nhạc sĩ cùng tên.",
+          "B": "Ứng dụng báo lỗi khi thêm bản ghi.",
+          "C": "Bắt đầu dự án mymusic.",
+          "D": "Bảng nhacsi cần lưu tên và năm sinh."
         },
-        "dap_an": "A",
-        "giai_thich": "Kiểm tra định nghĩa trường và ràng buộc. phù hợp vì kiểm tra bảng."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Kiểm tra bảng trong bài Thực hành tạo lập bảng."
       }
     ],
     "dung_sai": [

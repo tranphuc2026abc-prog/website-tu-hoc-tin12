@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Thêm một nhạc sĩ mới.",
+        "noi_dung": "Tình huống: Thêm một nhạc sĩ mới. Em nên làm gì?",
         "lua_chon": {
           "A": "UPDATE với WHERE id=5.",
           "B": "DELETE với điều kiện WHERE chính xác.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Lệnh SQL nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về INSERT?",
         "lua_chon": {
-          "A": "INSERT.",
-          "B": "UPDATE với WHERE id=5.",
-          "C": "DELETE với điều kiện WHERE chính xác.",
-          "D": "SELECT."
+          "A": "Sửa tên nhạc sĩ có id 5.",
+          "B": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "C": "Liệt kê tên các nhạc sĩ.",
+          "D": "Thêm một nhạc sĩ mới."
         },
-        "dap_an": "A",
-        "giai_thich": "INSERT. phù hợp vì insert."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với INSERT trong bài Thực hành cập nhật và truy xuất dữ liệu."
       },
       {
         "id": "T11-B21-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Sửa tên nhạc sĩ có id 5.",
+        "noi_dung": "Tình huống: Sửa tên nhạc sĩ có id 5. Em nên làm gì?",
         "lua_chon": {
           "A": "DELETE với điều kiện WHERE chính xác.",
           "B": "SELECT.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Lệnh nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về UPDATE?",
         "lua_chon": {
-          "A": "INSERT.",
-          "B": "DELETE với điều kiện WHERE chính xác.",
-          "C": "SELECT.",
-          "D": "UPDATE với WHERE id=5."
+          "A": "Liệt kê tên các nhạc sĩ.",
+          "B": "Sửa tên nhạc sĩ có id 5.",
+          "C": "Thêm một nhạc sĩ mới.",
+          "D": "Xóa bản ghi nhạc sĩ đã xác định."
         },
-        "dap_an": "D",
-        "giai_thich": "UPDATE với WHERE id=5. phù hợp vì update."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với UPDATE trong bài Thực hành cập nhật và truy xuất dữ liệu."
       },
       {
         "id": "T11-B21-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Xóa bản ghi nhạc sĩ đã xác định.",
+        "noi_dung": "Tình huống: Xóa bản ghi nhạc sĩ đã xác định. Em nên làm gì?",
         "lua_chon": {
           "A": "SELECT.",
           "B": "DELETE với điều kiện WHERE chính xác.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Lệnh nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về DELETE?",
         "lua_chon": {
-          "A": "UPDATE với WHERE id=5.",
-          "B": "SELECT.",
-          "C": "DELETE với điều kiện WHERE chính xác.",
-          "D": "INSERT."
+          "A": "Thêm một nhạc sĩ mới.",
+          "B": "Sửa tên nhạc sĩ có id 5.",
+          "C": "Liệt kê tên các nhạc sĩ.",
+          "D": "Xóa bản ghi nhạc sĩ đã xác định."
         },
-        "dap_an": "C",
-        "giai_thich": "DELETE với điều kiện WHERE chính xác. phù hợp vì delete."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với DELETE trong bài Thực hành cập nhật và truy xuất dữ liệu."
       },
       {
         "id": "T11-B21-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Liệt kê tên các nhạc sĩ.",
+        "noi_dung": "Tình huống: Liệt kê tên các nhạc sĩ. Em nên làm gì?",
         "lua_chon": {
           "A": "SELECT.",
           "B": "INSERT.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Lệnh nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về SELECT?",
         "lua_chon": {
-          "A": "DELETE với điều kiện WHERE chính xác.",
-          "B": "SELECT.",
-          "C": "INSERT.",
-          "D": "UPDATE với WHERE id=5."
+          "A": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "B": "Liệt kê tên các nhạc sĩ.",
+          "C": "Thêm một nhạc sĩ mới.",
+          "D": "Sửa tên nhạc sĩ có id 5."
         },
         "dap_an": "B",
-        "giai_thich": "SELECT. phù hợp vì select."
+        "giai_thich": "Tình huống này gắn với SELECT trong bài Thực hành cập nhật và truy xuất dữ liệu."
       },
       {
         "id": "T11-B21-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Chỉ lấy dữ liệu của một mã nhạc sĩ.",
+        "noi_dung": "Tình huống: Chỉ lấy dữ liệu của một mã nhạc sĩ. Em nên làm gì?",
         "lua_chon": {
           "A": "INSERT.",
           "B": "UPDATE với WHERE id=5.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Mệnh đề nào cần dùng?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về WHERE?",
         "lua_chon": {
-          "A": "WHERE.",
-          "B": "INSERT.",
-          "C": "UPDATE với WHERE id=5.",
-          "D": "DELETE với điều kiện WHERE chính xác."
+          "A": "Thêm một nhạc sĩ mới.",
+          "B": "Sửa tên nhạc sĩ có id 5.",
+          "C": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "D": "Chỉ lấy dữ liệu của một mã nhạc sĩ."
         },
-        "dap_an": "A",
-        "giai_thich": "WHERE. phù hợp vì where."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với WHERE trong bài Thực hành cập nhật và truy xuất dữ liệu."
       },
       {
         "id": "T11-B21-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Chỉ cần xem tenNhacsi.",
+        "noi_dung": "Tình huống: Chỉ cần xem tenNhacsi. Em nên làm gì?",
         "lua_chon": {
           "A": "UPDATE với WHERE id=5.",
           "B": "DELETE với điều kiện WHERE chính xác.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Có thể chọn gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về SELECT cột?",
         "lua_chon": {
-          "A": "INSERT.",
-          "B": "UPDATE với WHERE id=5.",
-          "C": "DELETE với điều kiện WHERE chính xác.",
-          "D": "Chỉ chọn trường tenNhacsi."
+          "A": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "B": "Chỉ cần xem tenNhacsi.",
+          "C": "Thêm một nhạc sĩ mới.",
+          "D": "Sửa tên nhạc sĩ có id 5."
         },
-        "dap_an": "D",
-        "giai_thich": "Chỉ chọn trường tenNhacsi. phù hợp vì select cột."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với SELECT cột trong bài Thực hành cập nhật và truy xuất dữ liệu."
       },
       {
         "id": "T11-B21-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Chạy lệnh cập nhật trên bảng nhiều dòng.",
+        "noi_dung": "Tình huống: Chạy lệnh cập nhật trên bảng nhiều dòng. Em nên làm gì?",
         "lua_chon": {
           "A": "DELETE với điều kiện WHERE chính xác.",
           "B": "Chạy SELECT với cùng điều kiện để kiểm tra phạm vi.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Nên làm gì trước?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra ảnh hưởng?",
         "lua_chon": {
-          "A": "UPDATE với WHERE id=5.",
-          "B": "DELETE với điều kiện WHERE chính xác.",
-          "C": "Chạy SELECT với cùng điều kiện để kiểm tra phạm vi.",
-          "D": "INSERT."
+          "A": "Thêm một nhạc sĩ mới.",
+          "B": "Sửa tên nhạc sĩ có id 5.",
+          "C": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "D": "Chạy lệnh cập nhật trên bảng nhiều dòng."
         },
-        "dap_an": "C",
-        "giai_thich": "Chạy SELECT với cùng điều kiện để kiểm tra phạm vi. phù hợp vì kiểm tra ảnh hưởng."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Kiểm tra ảnh hưởng trong bài Thực hành cập nhật và truy xuất dữ liệu."
       }
     ],
     "dung_sai": [

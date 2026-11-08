@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+        "noi_dung": "Tình huống: Bài toán thư viện cần theo dõi sách và lượt mượn. Em nên làm gì?",
         "lua_chon": {
           "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
           "B": "HọcSinh và Lớp.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Bước nào nên làm trước?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Phân tích yêu cầu?",
         "lua_chon": {
-          "A": "Mã sách duy nhất.",
-          "B": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "C": "HọcSinh và Lớp.",
-          "D": "Thuộc tính/trường."
+          "A": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "B": "Hai sách có thể trùng tên.",
+          "C": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+          "D": "Quản lí học sinh và lớp học."
         },
-        "dap_an": "B",
-        "giai_thich": "Phân tích yêu cầu và đối tượng dữ liệu. phù hợp vì phân tích yêu cầu."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Phân tích yêu cầu trong bài Thực hành xác định cấu trúc CSDL."
       },
       {
         "id": "T11-B18-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Quản lí học sinh và lớp học.",
+        "noi_dung": "Tình huống: Quản lí học sinh và lớp học. Em nên làm gì?",
         "lua_chon": {
           "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
           "B": "Thuộc tính/trường.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Có thể cần những bảng nào?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Đối tượng dữ liệu?",
         "lua_chon": {
-          "A": "HọcSinh và Lớp.",
-          "B": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "C": "Thuộc tính/trường.",
-          "D": "Mã sách duy nhất."
+          "A": "Quản lí học sinh và lớp học.",
+          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+          "C": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "D": "Hai sách có thể trùng tên."
         },
         "dap_an": "A",
-        "giai_thich": "HọcSinh và Lớp. phù hợp vì đối tượng dữ liệu."
+        "giai_thich": "Tình huống này gắn với Đối tượng dữ liệu trong bài Thực hành xác định cấu trúc CSDL."
       },
       {
         "id": "T11-B18-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+        "noi_dung": "Tình huống: Mã sách, tên sách, năm xuất bản mô tả sách. Em nên làm gì?",
         "lua_chon": {
           "A": "HọcSinh và Lớp.",
           "B": "Mã sách duy nhất.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Các mục này thuộc khái niệm nào?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thuộc tính?",
         "lua_chon": {
-          "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "B": "HọcSinh và Lớp.",
-          "C": "Mã sách duy nhất.",
-          "D": "Thuộc tính/trường."
+          "A": "Quản lí học sinh và lớp học.",
+          "B": "Hai sách có thể trùng tên.",
+          "C": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
         },
-        "dap_an": "D",
-        "giai_thich": "Thuộc tính/trường. phù hợp vì thuộc tính."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Thuộc tính trong bài Thực hành xác định cấu trúc CSDL."
       },
       {
         "id": "T11-B18-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Hai sách có thể trùng tên.",
+        "noi_dung": "Tình huống: Hai sách có thể trùng tên. Em nên làm gì?",
         "lua_chon": {
           "A": "Thuộc tính/trường.",
           "B": "Mã sách duy nhất.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Trường nào phù hợp làm định danh?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn khóa?",
         "lua_chon": {
-          "A": "HọcSinh và Lớp.",
-          "B": "Thuộc tính/trường.",
-          "C": "Mã sách duy nhất.",
-          "D": "Phân tích yêu cầu và đối tượng dữ liệu."
+          "A": "Hai sách có thể trùng tên.",
+          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+          "C": "Quản lí học sinh và lớp học.",
+          "D": "Mã sách, tên sách, năm xuất bản mô tả sách."
         },
-        "dap_an": "C",
-        "giai_thich": "Mã sách duy nhất. phù hợp vì chọn khóa."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Chọn khóa trong bài Thực hành xác định cấu trúc CSDL."
       },
       {
         "id": "T11-B18-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tên lớp lặp lại ở mọi bản ghi học sinh.",
+        "noi_dung": "Tình huống: Tên lớp lặp lại ở mọi bản ghi học sinh. Em nên làm gì?",
         "lua_chon": {
           "A": "Tách bảng lớp và tham chiếu mã lớp.",
           "B": "Phân tích yêu cầu và đối tượng dữ liệu.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Thiết kế nào giảm lặp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tách bảng?",
         "lua_chon": {
-          "A": "Thuộc tính/trường.",
-          "B": "Tách bảng lớp và tham chiếu mã lớp.",
-          "C": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "D": "HọcSinh và Lớp."
+          "A": "Quản lí học sinh và lớp học.",
+          "B": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "C": "Tên lớp lặp lại ở mọi bản ghi học sinh.",
+          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
         },
-        "dap_an": "B",
-        "giai_thich": "Tách bảng lớp và tham chiếu mã lớp. phù hợp vì tách bảng."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Tách bảng trong bài Thực hành xác định cấu trúc CSDL."
       },
       {
         "id": "T11-B18-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Giá ngày mượn cần dùng để sắp xếp thời gian.",
+        "noi_dung": "Tình huống: Giá ngày mượn cần dùng để sắp xếp thời gian. Em nên làm gì?",
         "lua_chon": {
           "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
           "B": "HọcSinh và Lớp.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Kiểu nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểu dữ liệu?",
         "lua_chon": {
-          "A": "Ngày/thời gian.",
-          "B": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "C": "HọcSinh và Lớp.",
-          "D": "Thuộc tính/trường."
+          "A": "Giá ngày mượn cần dùng để sắp xếp thời gian.",
+          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+          "C": "Quản lí học sinh và lớp học.",
+          "D": "Mã sách, tên sách, năm xuất bản mô tả sách."
         },
         "dap_an": "A",
-        "giai_thich": "Ngày/thời gian. phù hợp vì kiểu dữ liệu."
+        "giai_thich": "Tình huống này gắn với Kiểu dữ liệu trong bài Thực hành xác định cấu trúc CSDL."
       },
       {
         "id": "T11-B18-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Một bảng không có trường định danh và lưu trùng thông tin.",
+        "noi_dung": "Tình huống: Một bảng không có trường định danh và lưu trùng thông tin. Em nên làm gì?",
         "lua_chon": {
           "A": "HọcSinh và Lớp.",
           "B": "Thuộc tính/trường.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Bước nào phát hiện vấn đề?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Rà soát thiết kế?",
         "lua_chon": {
-          "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "B": "HọcSinh và Lớp.",
-          "C": "Thuộc tính/trường.",
-          "D": "Rà soát cấu trúc và quan hệ trước khi tạo bảng."
+          "A": "Quản lí học sinh và lớp học.",
+          "B": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "C": "Một bảng không có trường định danh và lưu trùng thông tin.",
+          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
         },
-        "dap_an": "D",
-        "giai_thich": "Rà soát cấu trúc và quan hệ trước khi tạo bảng. phù hợp vì rà soát thiết kế."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Rà soát thiết kế trong bài Thực hành xác định cấu trúc CSDL."
       }
     ],
     "dung_sai": [

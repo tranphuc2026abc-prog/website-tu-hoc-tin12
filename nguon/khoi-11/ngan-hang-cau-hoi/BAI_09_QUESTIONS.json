@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh.",
+        "noi_dung": "Tình huống: Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh. Em nên làm gì?",
         "lua_chon": {
           "A": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức.",
           "B": "Không mở; xác minh nguồn gửi trước.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Cách xử lí an toàn là gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lừa đảo giả danh?",
         "lua_chon": {
-          "A": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ.",
-          "B": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức.",
-          "C": "Không mở; xác minh nguồn gửi trước.",
-          "D": "Không cung cấp khi không có nhu cầu/chưa xác minh."
+          "A": "Người gọi yêu cầu đọc OTP để hủy giao dịch giả.",
+          "B": "Tin nhắn trúng thưởng gửi đường dẫn rút gọn.",
+          "C": "Trò chơi trực tuyến hỏi địa chỉ nhà và số điện thoại.",
+          "D": "Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh."
         },
-        "dap_an": "A",
-        "giai_thich": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ. phù hợp vì lừa đảo giả danh."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Lừa đảo giả danh trong bài Giao tiếp an toàn trên Internet."
       },
       {
         "id": "T11-B09-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Người gọi yêu cầu đọc OTP để hủy giao dịch giả.",
+        "noi_dung": "Tình huống: Người gọi yêu cầu đọc OTP để hủy giao dịch giả. Em nên làm gì?",
         "lua_chon": {
           "A": "Không mở; xác minh nguồn gửi trước.",
           "B": "Không cung cấp khi không có nhu cầu/chưa xác minh.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Nên làm gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Mã OTP?",
         "lua_chon": {
-          "A": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ.",
-          "B": "Không mở; xác minh nguồn gửi trước.",
-          "C": "Không cung cấp khi không có nhu cầu/chưa xác minh.",
-          "D": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức."
+          "A": "Trò chơi trực tuyến hỏi địa chỉ nhà và số điện thoại.",
+          "B": "Người gọi yêu cầu đọc OTP để hủy giao dịch giả.",
+          "C": "Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh.",
+          "D": "Tin nhắn trúng thưởng gửi đường dẫn rút gọn."
         },
-        "dap_an": "D",
-        "giai_thich": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức. phù hợp vì mã otp."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Mã OTP trong bài Giao tiếp an toàn trên Internet."
       },
       {
         "id": "T11-B09-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Tin nhắn trúng thưởng gửi đường dẫn rút gọn.",
+        "noi_dung": "Tình huống: Tin nhắn trúng thưởng gửi đường dẫn rút gọn. Em nên làm gì?",
         "lua_chon": {
           "A": "Không cung cấp khi không có nhu cầu/chưa xác minh.",
           "B": "Không mở; xác minh nguồn gửi trước.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Thao tác nào giảm rủi ro?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Liên kết đáng ngờ?",
         "lua_chon": {
-          "A": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức.",
-          "B": "Không cung cấp khi không có nhu cầu/chưa xác minh.",
-          "C": "Không mở; xác minh nguồn gửi trước.",
-          "D": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ."
+          "A": "Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh.",
+          "B": "Người gọi yêu cầu đọc OTP để hủy giao dịch giả.",
+          "C": "Trò chơi trực tuyến hỏi địa chỉ nhà và số điện thoại.",
+          "D": "Tin nhắn trúng thưởng gửi đường dẫn rút gọn."
         },
-        "dap_an": "C",
-        "giai_thich": "Không mở; xác minh nguồn gửi trước. phù hợp vì liên kết đáng ngờ."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Liên kết đáng ngờ trong bài Giao tiếp an toàn trên Internet."
       },
       {
         "id": "T11-B09-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Trò chơi trực tuyến hỏi địa chỉ nhà và số điện thoại.",
+        "noi_dung": "Tình huống: Trò chơi trực tuyến hỏi địa chỉ nhà và số điện thoại. Em nên làm gì?",
         "lua_chon": {
           "A": "Không cung cấp khi không có nhu cầu/chưa xác minh.",
           "B": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Lựa chọn nào bảo vệ riêng tư?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thông tin cá nhân?",
         "lua_chon": {
-          "A": "Không mở; xác minh nguồn gửi trước.",
-          "B": "Không cung cấp khi không có nhu cầu/chưa xác minh.",
-          "C": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ.",
-          "D": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức."
+          "A": "Tin nhắn trúng thưởng gửi đường dẫn rút gọn.",
+          "B": "Trò chơi trực tuyến hỏi địa chỉ nhà và số điện thoại.",
+          "C": "Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh.",
+          "D": "Người gọi yêu cầu đọc OTP để hủy giao dịch giả."
         },
         "dap_an": "B",
-        "giai_thich": "Không cung cấp khi không có nhu cầu/chưa xác minh. phù hợp vì thông tin cá nhân."
+        "giai_thich": "Tình huống này gắn với Thông tin cá nhân trong bài Giao tiếp an toàn trên Internet."
       },
       {
         "id": "T11-B09-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Bạn không đồng ý với ý kiến bạn học.",
+        "noi_dung": "Tình huống: Bạn không đồng ý với ý kiến bạn học. Em nên làm gì?",
         "lua_chon": {
           "A": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ.",
           "B": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Cách phản hồi nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Ứng xử văn minh?",
         "lua_chon": {
-          "A": "Phản biện vào nội dung bằng lời lẽ tôn trọng.",
-          "B": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ.",
-          "C": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức.",
-          "D": "Không mở; xác minh nguồn gửi trước."
+          "A": "Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh.",
+          "B": "Người gọi yêu cầu đọc OTP để hủy giao dịch giả.",
+          "C": "Tin nhắn trúng thưởng gửi đường dẫn rút gọn.",
+          "D": "Bạn không đồng ý với ý kiến bạn học."
         },
-        "dap_an": "A",
-        "giai_thich": "Phản biện vào nội dung bằng lời lẽ tôn trọng. phù hợp vì ứng xử văn minh."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Ứng xử văn minh trong bài Giao tiếp an toàn trên Internet."
       },
       {
         "id": "T11-B09-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Một bài đăng gây sốc nhưng không dẫn nguồn.",
+        "noi_dung": "Tình huống: Một bài đăng gây sốc nhưng không dẫn nguồn. Em nên làm gì?",
         "lua_chon": {
           "A": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức.",
           "B": "Không mở; xác minh nguồn gửi trước.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Nên làm gì trước khi chia sẻ?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm chứng thông tin?",
         "lua_chon": {
-          "A": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ.",
-          "B": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức.",
-          "C": "Không mở; xác minh nguồn gửi trước.",
-          "D": "Kiểm tra nguồn và đối chiếu với nguồn đáng tin."
+          "A": "Tin nhắn trúng thưởng gửi đường dẫn rút gọn.",
+          "B": "Một bài đăng gây sốc nhưng không dẫn nguồn.",
+          "C": "Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh.",
+          "D": "Người gọi yêu cầu đọc OTP để hủy giao dịch giả."
         },
-        "dap_an": "D",
-        "giai_thich": "Kiểm tra nguồn và đối chiếu với nguồn đáng tin. phù hợp vì kiểm chứng thông tin."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Kiểm chứng thông tin trong bài Giao tiếp an toàn trên Internet."
       },
       {
         "id": "T11-B09-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Nhận được tin nhắn đe dọa/lừa đảo.",
+        "noi_dung": "Tình huống: Nhận được tin nhắn đe dọa/lừa đảo. Em nên làm gì?",
         "lua_chon": {
           "A": "Không mở; xác minh nguồn gửi trước.",
           "B": "Chặn và báo cáo qua chức năng nền tảng.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - Giao tiếp an toàn trên Internet",
-        "noi_dung": "Có thể làm gì sau khi lưu bằng chứng?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Báo cáo sự cố?",
         "lua_chon": {
-          "A": "Không cung cấp OTP và liên hệ đơn vị qua số chính thức.",
-          "B": "Không mở; xác minh nguồn gửi trước.",
-          "C": "Chặn và báo cáo qua chức năng nền tảng.",
-          "D": "Liên hệ ngân hàng qua kênh chính thức, không dùng liên kết lạ."
+          "A": "Tin nhắn tự xưng ngân hàng yêu cầu bấm liên kết xác minh.",
+          "B": "Người gọi yêu cầu đọc OTP để hủy giao dịch giả.",
+          "C": "Tin nhắn trúng thưởng gửi đường dẫn rút gọn.",
+          "D": "Nhận được tin nhắn đe dọa/lừa đảo."
         },
-        "dap_an": "C",
-        "giai_thich": "Chặn và báo cáo qua chức năng nền tảng. phù hợp vì báo cáo sự cố."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Báo cáo sự cố trong bài Giao tiếp an toàn trên Internet."
       }
     ],
     "dung_sai": [

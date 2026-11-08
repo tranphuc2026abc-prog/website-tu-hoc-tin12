@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Cần xem tên các bản nhạc trong bảng.",
+        "noi_dung": "Tình huống: Cần xem tên các bản nhạc trong bảng. Em nên làm gì?",
         "lua_chon": {
           "A": "SELECT.",
           "B": "INSERT.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Lệnh nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về SELECT?",
         "lua_chon": {
-          "A": "DELETE với điều kiện phù hợp.",
-          "B": "SELECT.",
-          "C": "INSERT.",
-          "D": "UPDATE."
+          "A": "Cần sửa tên một nhạc sĩ đã có.",
+          "B": "Cần xóa một bản ghi đã xác định.",
+          "C": "Cần xem tên các bản nhạc trong bảng.",
+          "D": "Cần thêm một nhạc sĩ mới."
         },
-        "dap_an": "B",
-        "giai_thich": "SELECT. phù hợp vì select."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với SELECT trong bài SQL – Ngôn ngữ truy vấn có cấu trúc."
       },
       {
         "id": "T11-B14-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Cần thêm một nhạc sĩ mới.",
+        "noi_dung": "Tình huống: Cần thêm một nhạc sĩ mới. Em nên làm gì?",
         "lua_chon": {
           "A": "SELECT.",
           "B": "UPDATE.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Lệnh nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về INSERT?",
         "lua_chon": {
-          "A": "INSERT.",
-          "B": "SELECT.",
-          "C": "UPDATE.",
-          "D": "DELETE với điều kiện phù hợp."
+          "A": "Cần thêm một nhạc sĩ mới.",
+          "B": "Cần xem tên các bản nhạc trong bảng.",
+          "C": "Cần sửa tên một nhạc sĩ đã có.",
+          "D": "Cần xóa một bản ghi đã xác định."
         },
         "dap_an": "A",
-        "giai_thich": "INSERT. phù hợp vì insert."
+        "giai_thich": "Tình huống này gắn với INSERT trong bài SQL – Ngôn ngữ truy vấn có cấu trúc."
       },
       {
         "id": "T11-B14-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Cần sửa tên một nhạc sĩ đã có.",
+        "noi_dung": "Tình huống: Cần sửa tên một nhạc sĩ đã có. Em nên làm gì?",
         "lua_chon": {
           "A": "INSERT.",
           "B": "DELETE với điều kiện phù hợp.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Lệnh nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về UPDATE?",
         "lua_chon": {
-          "A": "SELECT.",
-          "B": "INSERT.",
-          "C": "DELETE với điều kiện phù hợp.",
-          "D": "UPDATE."
+          "A": "Cần thêm một nhạc sĩ mới.",
+          "B": "Cần xóa một bản ghi đã xác định.",
+          "C": "Cần sửa tên một nhạc sĩ đã có.",
+          "D": "Cần xem tên các bản nhạc trong bảng."
         },
-        "dap_an": "D",
-        "giai_thich": "UPDATE. phù hợp vì update."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với UPDATE trong bài SQL – Ngôn ngữ truy vấn có cấu trúc."
       },
       {
         "id": "T11-B14-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Cần xóa một bản ghi đã xác định.",
+        "noi_dung": "Tình huống: Cần xóa một bản ghi đã xác định. Em nên làm gì?",
         "lua_chon": {
           "A": "UPDATE.",
           "B": "DELETE với điều kiện phù hợp.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Lệnh nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về DELETE?",
         "lua_chon": {
-          "A": "INSERT.",
-          "B": "UPDATE.",
-          "C": "DELETE với điều kiện phù hợp.",
-          "D": "SELECT."
+          "A": "Cần xóa một bản ghi đã xác định.",
+          "B": "Cần xem tên các bản nhạc trong bảng.",
+          "C": "Cần thêm một nhạc sĩ mới.",
+          "D": "Cần sửa tên một nhạc sĩ đã có."
         },
-        "dap_an": "C",
-        "giai_thich": "DELETE với điều kiện phù hợp. phù hợp vì delete."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với DELETE trong bài SQL – Ngôn ngữ truy vấn có cấu trúc."
       },
       {
         "id": "T11-B14-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Chỉ muốn xem nhạc sĩ có idNhacsi bằng 5.",
+        "noi_dung": "Tình huống: Chỉ muốn xem nhạc sĩ có idNhacsi bằng 5. Em nên làm gì?",
         "lua_chon": {
           "A": "WHERE.",
           "B": "SELECT.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Mệnh đề nào giới hạn dòng?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về WHERE?",
         "lua_chon": {
-          "A": "UPDATE.",
-          "B": "WHERE.",
-          "C": "SELECT.",
-          "D": "INSERT."
+          "A": "Cần thêm một nhạc sĩ mới.",
+          "B": "Cần sửa tên một nhạc sĩ đã có.",
+          "C": "Chỉ muốn xem nhạc sĩ có idNhacsi bằng 5.",
+          "D": "Cần xem tên các bản nhạc trong bảng."
         },
-        "dap_an": "B",
-        "giai_thich": "WHERE. phù hợp vì where."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với WHERE trong bài SQL – Ngôn ngữ truy vấn có cấu trúc."
       },
       {
         "id": "T11-B14-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Cần khai báo bảng nhacsi với các trường.",
+        "noi_dung": "Tình huống: Cần khai báo bảng nhacsi với các trường. Em nên làm gì?",
         "lua_chon": {
           "A": "SELECT.",
           "B": "INSERT.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Lệnh nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về CREATE TABLE?",
         "lua_chon": {
-          "A": "CREATE TABLE.",
-          "B": "SELECT.",
-          "C": "INSERT.",
-          "D": "UPDATE."
+          "A": "Cần khai báo bảng nhacsi với các trường.",
+          "B": "Cần xem tên các bản nhạc trong bảng.",
+          "C": "Cần thêm một nhạc sĩ mới.",
+          "D": "Cần sửa tên một nhạc sĩ đã có."
         },
         "dap_an": "A",
-        "giai_thich": "CREATE TABLE. phù hợp vì create table."
+        "giai_thich": "Tình huống này gắn với CREATE TABLE trong bài SQL – Ngôn ngữ truy vấn có cấu trúc."
       },
       {
         "id": "T11-B14-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Chuẩn bị chạy UPDATE trên bảng lớn.",
+        "noi_dung": "Tình huống: Chuẩn bị chạy UPDATE trên bảng lớn. Em nên làm gì?",
         "lua_chon": {
           "A": "INSERT.",
           "B": "UPDATE.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 14 - SQL – Ngôn ngữ truy vấn có cấu trúc",
-        "noi_dung": "Bước an toàn nào cần làm?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra UPDATE/DELETE?",
         "lua_chon": {
-          "A": "SELECT.",
-          "B": "INSERT.",
-          "C": "UPDATE.",
-          "D": "Xem lại điều kiện và phạm vi dòng trước khi thực thi."
+          "A": "Cần thêm một nhạc sĩ mới.",
+          "B": "Cần sửa tên một nhạc sĩ đã có.",
+          "C": "Chuẩn bị chạy UPDATE trên bảng lớn.",
+          "D": "Cần xem tên các bản nhạc trong bảng."
         },
-        "dap_an": "D",
-        "giai_thich": "Xem lại điều kiện và phạm vi dòng trước khi thực thi. phù hợp vì kiểm tra update/delete."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Kiểm tra UPDATE/DELETE trong bài SQL – Ngôn ngữ truy vấn có cấu trúc."
       }
     ],
     "dung_sai": [

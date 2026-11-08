@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Cần công cụ tạo bảng và quản lí người dùng.",
+        "noi_dung": "Tình huống: Cần công cụ tạo bảng và quản lí người dùng. Em nên làm gì?",
         "lua_chon": {
           "A": "CSDL tập trung.",
           "B": "CSDL phân tán.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Thành phần nào đảm nhiệm?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Hệ QTCSDL?",
         "lua_chon": {
-          "A": "Hệ cơ sở dữ liệu.",
-          "B": "CSDL tập trung.",
-          "C": "CSDL phân tán.",
-          "D": "Hệ quản trị cơ sở dữ liệu."
+          "A": "Cần công cụ tạo bảng và quản lí người dùng.",
+          "B": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
+          "C": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
+          "D": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập."
         },
-        "dap_an": "D",
-        "giai_thich": "Hệ quản trị cơ sở dữ liệu. phù hợp vì hệ qtcsdl."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Hệ QTCSDL trong bài Hệ quản trị CSDL và hệ CSDL."
       },
       {
         "id": "T11-B12-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
+        "noi_dung": "Tình huống: Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành. Em nên làm gì?",
         "lua_chon": {
           "A": "CSDL phân tán.",
           "B": "Hệ cơ sở dữ liệu.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Khái niệm nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Hệ CSDL?",
         "lua_chon": {
-          "A": "CSDL tập trung.",
-          "B": "CSDL phân tán.",
-          "C": "Hệ cơ sở dữ liệu.",
-          "D": "Hệ quản trị cơ sở dữ liệu."
+          "A": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
+          "B": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập.",
+          "C": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
+          "D": "Cần công cụ tạo bảng và quản lí người dùng."
         },
         "dap_an": "C",
-        "giai_thich": "Hệ cơ sở dữ liệu. phù hợp vì hệ csdl."
+        "giai_thich": "Tình huống này gắn với Hệ CSDL trong bài Hệ quản trị CSDL và hệ CSDL."
       },
       {
         "id": "T11-B12-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
+        "noi_dung": "Tình huống: Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính. Em nên làm gì?",
         "lua_chon": {
           "A": "CSDL tập trung.",
           "B": "Hệ quản trị cơ sở dữ liệu.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Mô hình nào được mô tả?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về CSDL tập trung?",
         "lua_chon": {
-          "A": "CSDL phân tán.",
-          "B": "CSDL tập trung.",
-          "C": "Hệ quản trị cơ sở dữ liệu.",
-          "D": "Hệ cơ sở dữ liệu."
+          "A": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
+          "B": "Cần công cụ tạo bảng và quản lí người dùng.",
+          "C": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
+          "D": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập."
         },
-        "dap_an": "B",
-        "giai_thich": "CSDL tập trung. phù hợp vì csdl tập trung."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với CSDL tập trung trong bài Hệ quản trị CSDL và hệ CSDL."
       },
       {
         "id": "T11-B12-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập.",
+        "noi_dung": "Tình huống: Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập. Em nên làm gì?",
         "lua_chon": {
           "A": "Hệ quản trị cơ sở dữ liệu.",
           "B": "Hệ cơ sở dữ liệu.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Mô hình nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về CSDL phân tán?",
         "lua_chon": {
-          "A": "CSDL phân tán.",
-          "B": "Hệ quản trị cơ sở dữ liệu.",
-          "C": "Hệ cơ sở dữ liệu.",
-          "D": "CSDL tập trung."
+          "A": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
+          "B": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
+          "C": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập.",
+          "D": "Cần công cụ tạo bảng và quản lí người dùng."
         },
-        "dap_an": "A",
-        "giai_thich": "CSDL phân tán. phù hợp vì csdl phân tán."
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với CSDL phân tán trong bài Hệ quản trị CSDL và hệ CSDL."
       },
       {
         "id": "T11-B12-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Một người chỉ được xem, người khác được cập nhật.",
+        "noi_dung": "Tình huống: Một người chỉ được xem, người khác được cập nhật. Em nên làm gì?",
         "lua_chon": {
           "A": "Hệ cơ sở dữ liệu.",
           "B": "CSDL tập trung.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Chức năng nào hỗ trợ?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Điều khiển truy cập?",
         "lua_chon": {
-          "A": "Hệ quản trị cơ sở dữ liệu.",
-          "B": "Hệ cơ sở dữ liệu.",
-          "C": "CSDL tập trung.",
-          "D": "Phân quyền truy cập."
+          "A": "Một người chỉ được xem, người khác được cập nhật.",
+          "B": "Cần công cụ tạo bảng và quản lí người dùng.",
+          "C": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
+          "D": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính."
         },
-        "dap_an": "D",
-        "giai_thich": "Phân quyền truy cập. phù hợp vì điều khiển truy cập."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Điều khiển truy cập trong bài Hệ quản trị CSDL và hệ CSDL."
       },
       {
         "id": "T11-B12-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Không cho nhập điểm ngoài phạm vi quy định.",
+        "noi_dung": "Tình huống: Không cho nhập điểm ngoài phạm vi quy định. Em nên làm gì?",
         "lua_chon": {
           "A": "CSDL tập trung.",
           "B": "Ràng buộc toàn vẹn dữ liệu.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Cơ chế nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tính toàn vẹn?",
         "lua_chon": {
-          "A": "Hệ cơ sở dữ liệu.",
-          "B": "CSDL tập trung.",
-          "C": "Ràng buộc toàn vẹn dữ liệu.",
-          "D": "Hệ quản trị cơ sở dữ liệu."
+          "A": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
+          "B": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
+          "C": "Không cho nhập điểm ngoài phạm vi quy định.",
+          "D": "Cần công cụ tạo bảng và quản lí người dùng."
         },
         "dap_an": "C",
-        "giai_thich": "Ràng buộc toàn vẹn dữ liệu. phù hợp vì tính toàn vẹn."
+        "giai_thich": "Tình huống này gắn với Tính toàn vẹn trong bài Hệ quản trị CSDL và hệ CSDL."
       },
       {
         "id": "T11-B12-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Máy chủ gặp sự cố và cần khôi phục dữ liệu.",
+        "noi_dung": "Tình huống: Máy chủ gặp sự cố và cần khôi phục dữ liệu. Em nên làm gì?",
         "lua_chon": {
           "A": "Sao lưu và phục hồi.",
           "B": "Hệ quản trị cơ sở dữ liệu.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Khả năng nào cần có?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Sao lưu và phục hồi?",
         "lua_chon": {
-          "A": "CSDL tập trung.",
-          "B": "Sao lưu và phục hồi.",
-          "C": "Hệ quản trị cơ sở dữ liệu.",
-          "D": "Hệ cơ sở dữ liệu."
+          "A": "Máy chủ gặp sự cố và cần khôi phục dữ liệu.",
+          "B": "Cần công cụ tạo bảng và quản lí người dùng.",
+          "C": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
+          "D": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính."
         },
-        "dap_an": "B",
-        "giai_thich": "Sao lưu và phục hồi. phù hợp vì sao lưu và phục hồi."
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Sao lưu và phục hồi trong bài Hệ quản trị CSDL và hệ CSDL."
       }
     ],
     "dung_sai": [

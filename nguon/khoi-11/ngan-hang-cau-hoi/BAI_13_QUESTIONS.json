@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
+        "noi_dung": "Tình huống: Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc. Em nên làm gì?",
         "lua_chon": {
           "A": "Bản ghi.",
           "B": "Trường/thuộc tính.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Cách tổ chức nào được dùng?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bảng?",
         "lua_chon": {
-          "A": "Mô hình bảng quan hệ.",
-          "B": "Bản ghi.",
-          "C": "Trường/thuộc tính.",
-          "D": "Mã nhạc sĩ duy nhất làm khóa chính."
+          "A": "Một hàng chứa thông tin của một nhạc sĩ.",
+          "B": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
+          "C": "Cần phân biệt hai nhạc sĩ trùng tên.",
+          "D": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc."
         },
-        "dap_an": "A",
-        "giai_thich": "Mô hình bảng quan hệ. phù hợp vì bảng."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Bảng trong bài Cơ sở dữ liệu quan hệ."
       },
       {
         "id": "T11-B13-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Một hàng chứa thông tin của một nhạc sĩ.",
+        "noi_dung": "Tình huống: Một hàng chứa thông tin của một nhạc sĩ. Em nên làm gì?",
         "lua_chon": {
           "A": "Trường/thuộc tính.",
           "B": "Mã nhạc sĩ duy nhất làm khóa chính.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Thành phần nào được mô tả?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bản ghi?",
         "lua_chon": {
-          "A": "Mô hình bảng quan hệ.",
-          "B": "Trường/thuộc tính.",
-          "C": "Mã nhạc sĩ duy nhất làm khóa chính.",
-          "D": "Bản ghi."
+          "A": "Cần phân biệt hai nhạc sĩ trùng tên.",
+          "B": "Một hàng chứa thông tin của một nhạc sĩ.",
+          "C": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
+          "D": "Cột tenNhacsi lưu tên từng nhạc sĩ."
         },
-        "dap_an": "D",
-        "giai_thich": "Bản ghi. phù hợp vì bản ghi."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Bản ghi trong bài Cơ sở dữ liệu quan hệ."
       },
       {
         "id": "T11-B13-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
+        "noi_dung": "Tình huống: Cột tenNhacsi lưu tên từng nhạc sĩ. Em nên làm gì?",
         "lua_chon": {
           "A": "Mã nhạc sĩ duy nhất làm khóa chính.",
           "B": "Trường/thuộc tính.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Cột đó gọi là gì?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Trường?",
         "lua_chon": {
-          "A": "Bản ghi.",
-          "B": "Mã nhạc sĩ duy nhất làm khóa chính.",
-          "C": "Trường/thuộc tính.",
-          "D": "Mô hình bảng quan hệ."
+          "A": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
+          "B": "Một hàng chứa thông tin của một nhạc sĩ.",
+          "C": "Cần phân biệt hai nhạc sĩ trùng tên.",
+          "D": "Cột tenNhacsi lưu tên từng nhạc sĩ."
         },
-        "dap_an": "C",
-        "giai_thich": "Trường/thuộc tính. phù hợp vì trường."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Trường trong bài Cơ sở dữ liệu quan hệ."
       },
       {
         "id": "T11-B13-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Cần phân biệt hai nhạc sĩ trùng tên.",
+        "noi_dung": "Tình huống: Cần phân biệt hai nhạc sĩ trùng tên. Em nên làm gì?",
         "lua_chon": {
           "A": "Mã nhạc sĩ duy nhất làm khóa chính.",
           "B": "Mô hình bảng quan hệ.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Trường nào nên dùng?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Khóa chính?",
         "lua_chon": {
-          "A": "Trường/thuộc tính.",
-          "B": "Mã nhạc sĩ duy nhất làm khóa chính.",
-          "C": "Mô hình bảng quan hệ.",
-          "D": "Bản ghi."
+          "A": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
+          "B": "Cần phân biệt hai nhạc sĩ trùng tên.",
+          "C": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
+          "D": "Một hàng chứa thông tin của một nhạc sĩ."
         },
         "dap_an": "B",
-        "giai_thich": "Mã nhạc sĩ duy nhất làm khóa chính. phù hợp vì khóa chính."
+        "giai_thich": "Tình huống này gắn với Khóa chính trong bài Cơ sở dữ liệu quan hệ."
       },
       {
         "id": "T11-B13-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Bản nhạc cần chỉ ra nhạc sĩ sáng tác.",
+        "noi_dung": "Tình huống: Bản nhạc cần chỉ ra nhạc sĩ sáng tác. Em nên làm gì?",
         "lua_chon": {
           "A": "Mô hình bảng quan hệ.",
           "B": "Bản ghi.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Trường nào tạo liên kết?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Khóa ngoài?",
         "lua_chon": {
-          "A": "Khóa ngoài idNhacsi.",
-          "B": "Mô hình bảng quan hệ.",
-          "C": "Bản ghi.",
-          "D": "Trường/thuộc tính."
+          "A": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
+          "B": "Một hàng chứa thông tin của một nhạc sĩ.",
+          "C": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
+          "D": "Bản nhạc cần chỉ ra nhạc sĩ sáng tác."
         },
-        "dap_an": "A",
-        "giai_thich": "Khóa ngoài idNhacsi. phù hợp vì khóa ngoài."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Khóa ngoài trong bài Cơ sở dữ liệu quan hệ."
       },
       {
         "id": "T11-B13-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Trường ngày sinh cần lưu ngày tháng.",
+        "noi_dung": "Tình huống: Trường ngày sinh cần lưu ngày tháng. Em nên làm gì?",
         "lua_chon": {
           "A": "Bản ghi.",
           "B": "Trường/thuộc tính.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Kiểu dữ liệu nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểu dữ liệu?",
         "lua_chon": {
-          "A": "Mô hình bảng quan hệ.",
-          "B": "Bản ghi.",
-          "C": "Trường/thuộc tính.",
-          "D": "Kiểu ngày/thời gian."
+          "A": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
+          "B": "Trường ngày sinh cần lưu ngày tháng.",
+          "C": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
+          "D": "Một hàng chứa thông tin của một nhạc sĩ."
         },
-        "dap_an": "D",
-        "giai_thich": "Kiểu ngày/thời gian. phù hợp vì kiểu dữ liệu."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Kiểu dữ liệu trong bài Cơ sở dữ liệu quan hệ."
       },
       {
         "id": "T11-B13-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Nhiều bản nhạc cùng do một nhạc sĩ sáng tác.",
+        "noi_dung": "Tình huống: Nhiều bản nhạc cùng do một nhạc sĩ sáng tác. Em nên làm gì?",
         "lua_chon": {
           "A": "Trường/thuộc tính.",
           "B": "Lưu nhạc sĩ một lần và tham chiếu bằng khóa ngoài.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Thiết kế nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Quan hệ bảng?",
         "lua_chon": {
-          "A": "Bản ghi.",
-          "B": "Trường/thuộc tính.",
-          "C": "Lưu nhạc sĩ một lần và tham chiếu bằng khóa ngoài.",
-          "D": "Mô hình bảng quan hệ."
+          "A": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
+          "B": "Một hàng chứa thông tin của một nhạc sĩ.",
+          "C": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
+          "D": "Nhiều bản nhạc cùng do một nhạc sĩ sáng tác."
         },
-        "dap_an": "C",
-        "giai_thich": "Lưu nhạc sĩ một lần và tham chiếu bằng khóa ngoài. phù hợp vì quan hệ bảng."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Quan hệ bảng trong bài Cơ sở dữ liệu quan hệ."
       }
     ],
     "dung_sai": [

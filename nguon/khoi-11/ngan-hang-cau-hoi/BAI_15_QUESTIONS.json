@@ -60,7 +60,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+        "noi_dung": "Tình huống: Học sinh cần xem điểm của mình nhưng không sửa bảng điểm. Em nên làm gì?",
         "lua_chon": {
           "A": "Dùng bản sao lưu đã kiểm tra.",
           "B": "Chỉ cấp quyền xem phạm vi được phép.",
@@ -76,15 +76,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Cách cấp quyền nào phù hợp?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Phân quyền tối thiểu?",
         "lua_chon": {
-          "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "B": "Dùng bản sao lưu đã kiểm tra.",
-          "C": "Chỉ cấp quyền xem phạm vi được phép.",
-          "D": "Xác thực người dùng."
+          "A": "Tệp dữ liệu bị hỏng do lỗi thiết bị.",
+          "B": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+          "C": "CSDL yêu cầu đăng nhập tài khoản hợp lệ.",
+          "D": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định."
         },
-        "dap_an": "C",
-        "giai_thich": "Chỉ cấp quyền xem phạm vi được phép. phù hợp vì phân quyền tối thiểu."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Phân quyền tối thiểu trong bài Bảo mật và an toàn hệ CSDL."
       },
       {
         "id": "T11-B15-MC-005",
@@ -108,7 +108,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "CSDL yêu cầu đăng nhập tài khoản hợp lệ.",
+        "noi_dung": "Tình huống: CSDL yêu cầu đăng nhập tài khoản hợp lệ. Em nên làm gì?",
         "lua_chon": {
           "A": "Xác thực người dùng.",
           "B": "Chỉ cấp quyền xem phạm vi được phép.",
@@ -124,15 +124,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Cơ chế nào đang được dùng?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Xác thực?",
         "lua_chon": {
-          "A": "Dùng bản sao lưu đã kiểm tra.",
-          "B": "Xác thực người dùng.",
-          "C": "Chỉ cấp quyền xem phạm vi được phép.",
-          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+          "A": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+          "B": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
+          "C": "Tệp dữ liệu bị hỏng do lỗi thiết bị.",
+          "D": "CSDL yêu cầu đăng nhập tài khoản hợp lệ."
         },
-        "dap_an": "B",
-        "giai_thich": "Xác thực người dùng. phù hợp vì xác thực."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Xác thực trong bài Bảo mật và an toàn hệ CSDL."
       },
       {
         "id": "T11-B15-MC-008",
@@ -156,7 +156,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
+        "noi_dung": "Tình huống: Một tài khoản quản trị vẫn dùng mật khẩu mặc định. Em nên làm gì?",
         "lua_chon": {
           "A": "Chỉ cấp quyền xem phạm vi được phép.",
           "B": "Xác thực người dùng.",
@@ -172,15 +172,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Việc nào cần làm?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Mật khẩu?",
         "lua_chon": {
-          "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "B": "Chỉ cấp quyền xem phạm vi được phép.",
-          "C": "Xác thực người dùng.",
-          "D": "Dùng bản sao lưu đã kiểm tra."
+          "A": "Tệp dữ liệu bị hỏng do lỗi thiết bị.",
+          "B": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
+          "C": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+          "D": "CSDL yêu cầu đăng nhập tài khoản hợp lệ."
         },
-        "dap_an": "A",
-        "giai_thich": "Đổi sang mật khẩu mạnh, không dùng lại. phù hợp vì mật khẩu."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Mật khẩu trong bài Bảo mật và an toàn hệ CSDL."
       },
       {
         "id": "T11-B15-MC-011",
@@ -204,7 +204,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tệp dữ liệu bị hỏng do lỗi thiết bị.",
+        "noi_dung": "Tình huống: Tệp dữ liệu bị hỏng do lỗi thiết bị. Em nên làm gì?",
         "lua_chon": {
           "A": "Xác thực người dùng.",
           "B": "Đổi sang mật khẩu mạnh, không dùng lại.",
@@ -220,15 +220,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Biện pháp nào hỗ trợ khôi phục?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Sao lưu?",
         "lua_chon": {
-          "A": "Chỉ cấp quyền xem phạm vi được phép.",
-          "B": "Xác thực người dùng.",
-          "C": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "D": "Dùng bản sao lưu đã kiểm tra."
+          "A": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+          "B": "CSDL yêu cầu đăng nhập tài khoản hợp lệ.",
+          "C": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
+          "D": "Tệp dữ liệu bị hỏng do lỗi thiết bị."
         },
         "dap_an": "D",
-        "giai_thich": "Dùng bản sao lưu đã kiểm tra. phù hợp vì sao lưu."
+        "giai_thich": "Tình huống này gắn với Sao lưu trong bài Bảo mật và an toàn hệ CSDL."
       },
       {
         "id": "T11-B15-MC-014",
@@ -252,7 +252,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Hệ QTCSDL có bản vá chính thức.",
+        "noi_dung": "Tình huống: Hệ QTCSDL có bản vá chính thức. Em nên làm gì?",
         "lua_chon": {
           "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
           "B": "Kiểm tra và cài bản vá theo quy trình.",
@@ -268,15 +268,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Thao tác nào giảm rủi ro?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Cập nhật bảo mật?",
         "lua_chon": {
-          "A": "Xác thực người dùng.",
-          "B": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "C": "Kiểm tra và cài bản vá theo quy trình.",
-          "D": "Chỉ cấp quyền xem phạm vi được phép."
+          "A": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
+          "B": "Hệ QTCSDL có bản vá chính thức.",
+          "C": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+          "D": "CSDL yêu cầu đăng nhập tài khoản hợp lệ."
         },
-        "dap_an": "C",
-        "giai_thich": "Kiểm tra và cài bản vá theo quy trình. phù hợp vì cập nhật bảo mật."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Cập nhật bảo mật trong bài Bảo mật và an toàn hệ CSDL."
       },
       {
         "id": "T11-B15-MC-017",
@@ -300,7 +300,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Cần biết ai đã thay đổi bản ghi.",
+        "noi_dung": "Tình huống: Cần biết ai đã thay đổi bản ghi. Em nên làm gì?",
         "lua_chon": {
           "A": "Ghi nhật kí truy cập/thay đổi.",
           "B": "Chỉ cấp quyền xem phạm vi được phép.",
@@ -316,15 +316,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Cơ chế nào hỗ trợ?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Nhật kí hoạt động?",
         "lua_chon": {
-          "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "B": "Ghi nhật kí truy cập/thay đổi.",
-          "C": "Chỉ cấp quyền xem phạm vi được phép.",
-          "D": "Xác thực người dùng."
+          "A": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+          "B": "CSDL yêu cầu đăng nhập tài khoản hợp lệ.",
+          "C": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
+          "D": "Cần biết ai đã thay đổi bản ghi."
         },
-        "dap_an": "B",
-        "giai_thich": "Ghi nhật kí truy cập/thay đổi. phù hợp vì nhật kí hoạt động."
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Nhật kí hoạt động trong bài Bảo mật và an toàn hệ CSDL."
       },
       {
         "id": "T11-B15-MC-020",
@@ -348,7 +348,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Bản sao lưu có thông tin nhạy cảm cần bảo vệ.",
+        "noi_dung": "Tình huống: Bản sao lưu có thông tin nhạy cảm cần bảo vệ. Em nên làm gì?",
         "lua_chon": {
           "A": "Chỉ cấp quyền xem phạm vi được phép.",
           "B": "Xác thực người dùng.",
@@ -364,15 +364,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Biện pháp nào có ích?",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Mã hóa?",
         "lua_chon": {
-          "A": "Mã hóa dữ liệu và bảo vệ khóa.",
-          "B": "Chỉ cấp quyền xem phạm vi được phép.",
-          "C": "Xác thực người dùng.",
-          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+          "A": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
+          "B": "Bản sao lưu có thông tin nhạy cảm cần bảo vệ.",
+          "C": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
+          "D": "CSDL yêu cầu đăng nhập tài khoản hợp lệ."
         },
-        "dap_an": "A",
-        "giai_thich": "Mã hóa dữ liệu và bảo vệ khóa. phù hợp vì mã hóa."
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Mã hóa trong bài Bảo mật và an toàn hệ CSDL."
       }
     ],
     "dung_sai": [
