@@ -33,7 +33,7 @@ def blocks(text):
     return [{"t": "p", "x": x} for x in chunks]
 
 def knowledge_blocks(md):
-    """Extract concise knowledge from KHBD's expected-product table cells."""
+    """Extract student-facing knowledge summaries from KHBD products or objectives."""
     start = md.find("```text")
     if start < 0:
         return blocks(md)
