@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_26",
+  "bai_so": 26,
+  "ten_bai": "Hàm trong Python",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B26-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Phát biểu nào đúng về Hàm?",
+        "lua_chon": {
+          "A": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "B": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.",
+          "C": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "D": "return trả kết quả từ hàm về nơi gọi."
+        },
+        "dap_an": "C",
+        "giai_thich": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại."
+      },
+      {
+        "id": "T10-B26-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?",
+        "lua_chon": {
+          "A": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "B": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.",
+          "C": "return trả kết quả từ hàm về nơi gọi.",
+          "D": "Viết hàm tính diện tích."
+        },
+        "dap_an": "D",
+        "giai_thich": "Viết hàm tính diện tích."
+      },
+      {
+        "id": "T10-B26-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Hàm?",
+        "lua_chon": {
+          "A": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?",
+          "B": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?",
+          "C": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?",
+          "D": "Hàm tính tổng cần cung cấp số tổng: câu lệnh nào phù hợp?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?"
+      },
+      {
+        "id": "T10-B26-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Phát biểu nào đúng về def?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "B": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.",
+          "C": "return trả kết quả từ hàm về nơi gọi.",
+          "D": "Từ khóa def bắt đầu định nghĩa hàm."
+        },
+        "dap_an": "D",
+        "giai_thich": "Từ khóa def bắt đầu định nghĩa hàm."
+      },
+      {
+        "id": "T10-B26-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?",
+        "lua_chon": {
+          "A": "def tong(a, b):.",
+          "B": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "C": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.",
+          "D": "return trả kết quả từ hàm về nơi gọi."
+        },
+        "dap_an": "A",
+        "giai_thich": "def tong(a, b):."
+      },
+      {
+        "id": "T10-B26-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho def?",
+        "lua_chon": {
+          "A": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?",
+          "B": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?",
+          "C": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?",
+          "D": "Hàm tính tổng cần cung cấp số tổng: câu lệnh nào phù hợp?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?"
+      },
+      {
+        "id": "T10-B26-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Phát biểu nào đúng về Gọi hàm?",
+        "lua_chon": {
+          "A": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.",
+          "B": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "C": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "D": "return trả kết quả từ hàm về nơi gọi."
+        },
+        "dap_an": "A",
+        "giai_thich": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm."
+      },
+      {
+        "id": "T10-B26-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "B": "Gọi tinh_tong(...).",
+          "C": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "D": "return trả kết quả từ hàm về nơi gọi."
+        },
+        "dap_an": "B",
+        "giai_thich": "Gọi tinh_tong(...)."
+      },
+      {
+        "id": "T10-B26-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Gọi hàm?",
+        "lua_chon": {
+          "A": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?",
+          "B": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?",
+          "C": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?",
+          "D": "Hàm tính tổng cần cung cấp số tổng: câu lệnh nào phù hợp?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?"
+      },
+      {
+        "id": "T10-B26-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Phát biểu nào đúng về return?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "B": "return trả kết quả từ hàm về nơi gọi.",
+          "C": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "D": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm."
+        },
+        "dap_an": "B",
+        "giai_thich": "return trả kết quả từ hàm về nơi gọi."
+      },
+      {
+        "id": "T10-B26-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Hàm tính tổng cần cung cấp số tổng: câu lệnh nào phù hợp?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "B": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "C": "return tong.",
+          "D": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm."
+        },
+        "dap_an": "C",
+        "giai_thich": "return tong."
+      },
+      {
+        "id": "T10-B26-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho return?",
+        "lua_chon": {
+          "A": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?",
+          "B": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?",
+          "C": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?",
+          "D": "Hàm tính tổng cần cung cấp số tổng: câu lệnh nào phù hợp?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Hàm tính tổng cần cung cấp số tổng: câu lệnh nào phù hợp?"
+      },
+      {
+        "id": "T10-B26-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Phát biểu nào đúng về Tái sử dụng?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "B": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "C": "Hàm giúp tránh lặp mã và chia chương trình thành phần.",
+          "D": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm."
+        },
+        "dap_an": "C",
+        "giai_thich": "Hàm giúp tránh lặp mã và chia chương trình thành phần."
+      },
+      {
+        "id": "T10-B26-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Cùng phép tính được dùng nhiều nơi: lợi ích nào đạt được?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "B": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "C": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.",
+          "D": "Gọi lại một hàm đã định nghĩa."
+        },
+        "dap_an": "D",
+        "giai_thich": "Gọi lại một hàm đã định nghĩa."
+      },
+      {
+        "id": "T10-B26-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Tái sử dụng?",
+        "lua_chon": {
+          "A": "Cùng phép tính được dùng nhiều nơi: lợi ích nào đạt được?",
+          "B": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?",
+          "C": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?",
+          "D": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Cùng phép tính được dùng nhiều nơi: lợi ích nào đạt được?"
+      },
+      {
+        "id": "T10-B26-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Phát biểu nào đúng về Tham số?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "B": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "C": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.",
+          "D": "Tham số là tên nhận dữ liệu khi hàm được gọi."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tham số là tên nhận dữ liệu khi hàm được gọi."
+      },
+      {
+        "id": "T10-B26-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Hàm chào cần nhận tên người dùng: cần khai báo gì?",
+        "lua_chon": {
+          "A": "Tham số ten.",
+          "B": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "C": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "D": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tham số ten."
+      },
+      {
+        "id": "T10-B26-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Tham số?",
+        "lua_chon": {
+          "A": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?",
+          "B": "Hàm chào cần nhận tên người dùng: cần khai báo gì?",
+          "C": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?",
+          "D": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Hàm chào cần nhận tên người dùng: cần khai báo gì?"
+      },
+      {
+        "id": "T10-B26-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Phát biểu nào đúng về Phạm vi hàm?",
+        "lua_chon": {
+          "A": "Biến khai báo trong hàm thường chỉ dùng trong phạm vi hàm.",
+          "B": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "C": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "D": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm."
+        },
+        "dap_an": "A",
+        "giai_thich": "Biến khai báo trong hàm thường chỉ dùng trong phạm vi hàm."
+      },
+      {
+        "id": "T10-B26-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Biến tạm tạo khi tính toán trong hàm: biến đó thường là gì?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "B": "Biến cục bộ.",
+          "C": "Từ khóa def bắt đầu định nghĩa hàm.",
+          "D": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm."
+        },
+        "dap_an": "B",
+        "giai_thich": "Biến cục bộ."
+      },
+      {
+        "id": "T10-B26-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Phạm vi hàm?",
+        "lua_chon": {
+          "A": "Cần tái sử dụng phép tính diện tích: nên tổ chức thế nào?",
+          "B": "Tạo hàm tong(a,b): cú pháp bắt đầu là gì?",
+          "C": "Biến tạm tạo khi tính toán trong hàm: biến đó thường là gì?",
+          "D": "Đã tạo hàm tinh_tong nhưng chưa thấy kết quả: cần làm gì?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Biến tạm tạo khi tính toán trong hàm: biến đó thường là gì?"
+      },
+      {
+        "id": "T10-B26-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Hàm trong Python”?",
+        "lua_chon": {
+          "A": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại. Từ khóa def bắt đầu định nghĩa hàm.",
+          "B": "Từ khóa def bắt đầu định nghĩa hàm. Hàm được định nghĩa bằng từ khóa loop.",
+          "C": "Định nghĩa hàm đồng nghĩa thân hàm đã chạy ngay lập tức. Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "D": "Hàm được định nghĩa bằng từ khóa loop. Định nghĩa hàm đồng nghĩa thân hàm đã chạy ngay lập tức."
+        },
+        "dap_an": "A",
+        "giai_thich": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại. Từ khóa def bắt đầu định nghĩa hàm."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B26-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Xét tính đúng/sai về bài “Hàm trong Python”:",
+        "y_kien": {
+          "a": "Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.",
+          "b": "Hàm được định nghĩa bằng từ khóa loop.",
+          "c": "Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.",
+          "d": "Định nghĩa hàm đồng nghĩa thân hàm đã chạy ngay lập tức."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại.; b sai: Hàm được định nghĩa bằng từ khóa loop.; c đúng: Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.; d sai: Định nghĩa hàm đồng nghĩa thân hàm đã chạy ngay lập tức.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B26-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Trình bày hai nội dung của bài: Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại. Từ khóa def bắt đầu định nghĩa hàm.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Hàm là khối lệnh có tên thực hiện nhiệm vụ có thể gọi lại. Từ khóa def bắt đầu định nghĩa hàm.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B26-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Hàm trong Python",
+        "noi_dung": "Giải thích và vận dụng nội dung “Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Định nghĩa hàm không tự chạy thân hàm; cần gọi tên hàm.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

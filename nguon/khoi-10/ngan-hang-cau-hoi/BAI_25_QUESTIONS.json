@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_25",
+  "bai_so": 25,
+  "ten_bai": "Một số lệnh làm việc với xâu kí tự",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B25-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Phát biểu nào đúng về lower?",
+        "lua_chon": {
+          "A": "upper() tạo xâu chữ hoa.",
+          "B": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "C": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
+          "D": "replace(old,new) thay các đoạn con phù hợp."
+        },
+        "dap_an": "B",
+        "giai_thich": "lower() tạo xâu chữ thường từ xâu ban đầu."
+      },
+      {
+        "id": "T10-B25-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
+        "lua_chon": {
+          "A": "upper() tạo xâu chữ hoa.",
+          "B": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
+          "C": "lower().",
+          "D": "replace(old,new) thay các đoạn con phù hợp."
+        },
+        "dap_an": "C",
+        "giai_thich": "lower()."
+      },
+      {
+        "id": "T10-B25-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho lower?",
+        "lua_chon": {
+          "A": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
+          "B": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
+          "C": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?",
+          "D": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?"
+      },
+      {
+        "id": "T10-B25-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Phát biểu nào đúng về upper?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
+          "C": "upper() tạo xâu chữ hoa.",
+          "D": "replace(old,new) thay các đoạn con phù hợp."
+        },
+        "dap_an": "C",
+        "giai_thich": "upper() tạo xâu chữ hoa."
+      },
+      {
+        "id": "T10-B25-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
+          "C": "replace(old,new) thay các đoạn con phù hợp.",
+          "D": "upper()."
+        },
+        "dap_an": "D",
+        "giai_thich": "upper()."
+      },
+      {
+        "id": "T10-B25-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho upper?",
+        "lua_chon": {
+          "A": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
+          "B": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
+          "C": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
+          "D": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?"
+      },
+      {
+        "id": "T10-B25-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Phát biểu nào đúng về strip?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "upper() tạo xâu chữ hoa.",
+          "C": "replace(old,new) thay các đoạn con phù hợp.",
+          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
+        },
+        "dap_an": "D",
+        "giai_thich": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
+      },
+      {
+        "id": "T10-B25-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
+        "lua_chon": {
+          "A": "strip().",
+          "B": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "C": "upper() tạo xâu chữ hoa.",
+          "D": "replace(old,new) thay các đoạn con phù hợp."
+        },
+        "dap_an": "A",
+        "giai_thich": "strip()."
+      },
+      {
+        "id": "T10-B25-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho strip?",
+        "lua_chon": {
+          "A": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
+          "B": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
+          "C": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
+          "D": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?"
+      },
+      {
+        "id": "T10-B25-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Phát biểu nào đúng về replace?",
+        "lua_chon": {
+          "A": "replace(old,new) thay các đoạn con phù hợp.",
+          "B": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "C": "upper() tạo xâu chữ hoa.",
+          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
+        },
+        "dap_an": "A",
+        "giai_thich": "replace(old,new) thay các đoạn con phù hợp."
+      },
+      {
+        "id": "T10-B25-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "replace().",
+          "C": "upper() tạo xâu chữ hoa.",
+          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
+        },
+        "dap_an": "B",
+        "giai_thich": "replace()."
+      },
+      {
+        "id": "T10-B25-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho replace?",
+        "lua_chon": {
+          "A": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
+          "B": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
+          "C": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?",
+          "D": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?"
+      },
+      {
+        "id": "T10-B25-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Phát biểu nào đúng về split?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "split() tách xâu thành danh sách theo dấu phân cách.",
+          "C": "upper() tạo xâu chữ hoa.",
+          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
+        },
+        "dap_an": "B",
+        "giai_thich": "split() tách xâu thành danh sách theo dấu phân cách."
+      },
+      {
+        "id": "T10-B25-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tách các từ trong một dòng: phương thức nào dùng?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "upper() tạo xâu chữ hoa.",
+          "C": "split().",
+          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
+        },
+        "dap_an": "C",
+        "giai_thich": "split()."
+      },
+      {
+        "id": "T10-B25-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho split?",
+        "lua_chon": {
+          "A": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
+          "B": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
+          "C": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
+          "D": "Tách các từ trong một dòng: phương thức nào dùng?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Tách các từ trong một dòng: phương thức nào dùng?"
+      },
+      {
+        "id": "T10-B25-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Phát biểu nào đúng về find?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "upper() tạo xâu chữ hoa.",
+          "C": "find() tìm vị trí xuất hiện của chuỗi con hoặc trả kết quả báo không tìm thấy.",
+          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
+        },
+        "dap_an": "C",
+        "giai_thich": "find() tìm vị trí xuất hiện của chuỗi con hoặc trả kết quả báo không tìm thấy."
+      },
+      {
+        "id": "T10-B25-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tìm vị trí dấu @ trong email: phương thức nào có thể dùng?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "upper() tạo xâu chữ hoa.",
+          "C": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
+          "D": "find('@')."
+        },
+        "dap_an": "D",
+        "giai_thich": "find('@')."
+      },
+      {
+        "id": "T10-B25-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho find?",
+        "lua_chon": {
+          "A": "Tìm vị trí dấu @ trong email: phương thức nào có thể dùng?",
+          "B": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
+          "C": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
+          "D": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Tìm vị trí dấu @ trong email: phương thức nào có thể dùng?"
+      },
+      {
+        "id": "T10-B25-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Phát biểu nào đúng về Xâu không đổi tại chỗ?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "B": "upper() tạo xâu chữ hoa.",
+          "C": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
+          "D": "Các phương thức xâu thường trả về xâu mới."
+        },
+        "dap_an": "D",
+        "giai_thich": "Các phương thức xâu thường trả về xâu mới."
+      },
+      {
+        "id": "T10-B25-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Gọi s.upper() nhưng không gán lại: điều gì thường đúng?",
+        "lua_chon": {
+          "A": "s ban đầu không đổi; cần lưu kết quả nếu muốn giữ.",
+          "B": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "C": "upper() tạo xâu chữ hoa.",
+          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
+        },
+        "dap_an": "A",
+        "giai_thich": "s ban đầu không đổi; cần lưu kết quả nếu muốn giữ."
+      },
+      {
+        "id": "T10-B25-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Xâu không đổi tại chỗ?",
+        "lua_chon": {
+          "A": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
+          "B": "Gọi s.upper() nhưng không gán lại: điều gì thường đúng?",
+          "C": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
+          "D": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Gọi s.upper() nhưng không gán lại: điều gì thường đúng?"
+      },
+      {
+        "id": "T10-B25-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Một số lệnh làm việc với xâu kí tự”?",
+        "lua_chon": {
+          "A": "lower() tạo xâu chữ thường từ xâu ban đầu. upper() tạo xâu chữ hoa.",
+          "B": "upper() tạo xâu chữ hoa. strip() xóa mọi khoảng trắng ở giữa xâu.",
+          "C": "replace() luôn sửa trực tiếp nội dung xâu gốc. lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "D": "strip() xóa mọi khoảng trắng ở giữa xâu. replace() luôn sửa trực tiếp nội dung xâu gốc."
+        },
+        "dap_an": "A",
+        "giai_thich": "lower() tạo xâu chữ thường từ xâu ban đầu. upper() tạo xâu chữ hoa."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B25-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Xét tính đúng/sai về bài “Một số lệnh làm việc với xâu kí tự”:",
+        "y_kien": {
+          "a": "lower() tạo xâu chữ thường từ xâu ban đầu.",
+          "b": "strip() xóa mọi khoảng trắng ở giữa xâu.",
+          "c": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
+          "d": "replace() luôn sửa trực tiếp nội dung xâu gốc."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: lower() tạo xâu chữ thường từ xâu ban đầu.; b sai: strip() xóa mọi khoảng trắng ở giữa xâu.; c đúng: strip() loại bỏ khoảng trắng ở đầu/cuối xâu.; d sai: replace() luôn sửa trực tiếp nội dung xâu gốc.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B25-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Trình bày hai nội dung của bài: lower() tạo xâu chữ thường từ xâu ban đầu. upper() tạo xâu chữ hoa.",
+        "dap_an_goi_y": "Nêu đúng hai ý: lower() tạo xâu chữ thường từ xâu ban đầu. upper() tạo xâu chữ hoa.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B25-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
+        "noi_dung": "Giải thích và vận dụng nội dung “strip() loại bỏ khoảng trắng ở đầu/cuối xâu.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “strip() loại bỏ khoảng trắng ở đầu/cuối xâu.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

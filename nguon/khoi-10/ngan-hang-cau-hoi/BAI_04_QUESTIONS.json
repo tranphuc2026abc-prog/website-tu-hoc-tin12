@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_04",
+  "bai_so": 4,
+  "ten_bai": "Hệ nhị phân",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B04-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Phát biểu nào đúng về Cơ số 2?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "C": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+          "D": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+        },
+        "dap_an": "A",
+        "giai_thich": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1."
+      },
+      {
+        "id": "T10-B04-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+        "lua_chon": {
+          "A": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "B": "Hệ nhị phân.",
+          "C": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+          "D": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+        },
+        "dap_an": "B",
+        "giai_thich": "Hệ nhị phân."
+      },
+      {
+        "id": "T10-B04-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Cơ số 2?",
+        "lua_chon": {
+          "A": "Tính giá trị thập phân của 101₂: cách nào phù hợp?",
+          "B": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?",
+          "C": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+          "D": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đọc số 1011₂: hệ đếm nào đang được dùng?"
+      },
+      {
+        "id": "T10-B04-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Phát biểu nào đúng về Giá trị vị trí?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "C": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+          "D": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+        },
+        "dap_an": "B",
+        "giai_thich": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+      },
+      {
+        "id": "T10-B04-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Tính giá trị thập phân của 101₂: cách nào phù hợp?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+          "C": "Cộng các chữ số nhân với lũy thừa 2 tương ứng.",
+          "D": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+        },
+        "dap_an": "C",
+        "giai_thich": "Cộng các chữ số nhân với lũy thừa 2 tương ứng."
+      },
+      {
+        "id": "T10-B04-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Giá trị vị trí?",
+        "lua_chon": {
+          "A": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+          "B": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?",
+          "C": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?",
+          "D": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Tính giá trị thập phân của 101₂: cách nào phù hợp?"
+      },
+      {
+        "id": "T10-B04-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Phát biểu nào đúng về Đổi nhị phân sang thập phân?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "C": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+          "D": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+        },
+        "dap_an": "C",
+        "giai_thich": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+      },
+      {
+        "id": "T10-B04-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "C": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự.",
+          "D": "5."
+        },
+        "dap_an": "D",
+        "giai_thich": "5."
+      },
+      {
+        "id": "T10-B04-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Đổi nhị phân sang thập phân?",
+        "lua_chon": {
+          "A": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?",
+          "B": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+          "C": "Tính giá trị thập phân của 101₂: cách nào phù hợp?",
+          "D": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+      },
+      {
+        "id": "T10-B04-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Phát biểu nào đúng về Đổi thập phân sang nhị phân?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "C": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+          "D": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+        },
+        "dap_an": "D",
+        "giai_thich": "Có thể chia liên tiếp cho 2 và đọc các số dư ngược thứ tự."
+      },
+      {
+        "id": "T10-B04-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?",
+        "lua_chon": {
+          "A": "Chia liên tiếp cho 2, đọc số dư từ dưới lên.",
+          "B": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "C": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "D": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+        },
+        "dap_an": "A",
+        "giai_thich": "Chia liên tiếp cho 2, đọc số dư từ dưới lên."
+      },
+      {
+        "id": "T10-B04-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Đổi thập phân sang nhị phân?",
+        "lua_chon": {
+          "A": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+          "B": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?",
+          "C": "Tính giá trị thập phân của 101₂: cách nào phù hợp?",
+          "D": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Đổi 6₁₀ sang nhị phân: cách nào thường dùng?"
+      },
+      {
+        "id": "T10-B04-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Phát biểu nào đúng về Biểu diễn bằng bit?",
+        "lua_chon": {
+          "A": "Máy tính dùng các trạng thái nhị phân để mã hóa dữ liệu.",
+          "B": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "C": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "D": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+        },
+        "dap_an": "A",
+        "giai_thich": "Máy tính dùng các trạng thái nhị phân để mã hóa dữ liệu."
+      },
+      {
+        "id": "T10-B04-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Mạch điện tử nhận hai mức tín hiệu: hệ đếm nào phù hợp?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Hệ nhị phân.",
+          "C": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "D": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+        },
+        "dap_an": "B",
+        "giai_thich": "Hệ nhị phân."
+      },
+      {
+        "id": "T10-B04-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Biểu diễn bằng bit?",
+        "lua_chon": {
+          "A": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+          "B": "Tính giá trị thập phân của 101₂: cách nào phù hợp?",
+          "C": "Mạch điện tử nhận hai mức tín hiệu: hệ đếm nào phù hợp?",
+          "D": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Mạch điện tử nhận hai mức tín hiệu: hệ đếm nào phù hợp?"
+      },
+      {
+        "id": "T10-B04-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Phát biểu nào đúng về Cộng nhị phân?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Trong nhị phân, 1+1 tạo tổng 10₂.",
+          "C": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "D": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong nhị phân, 1+1 tạo tổng 10₂."
+      },
+      {
+        "id": "T10-B04-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Cộng hai bit 1 và 1: kết quả là gì?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "C": "0, nhớ 1 sang cột kế tiếp.",
+          "D": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+        },
+        "dap_an": "C",
+        "giai_thich": "0, nhớ 1 sang cột kế tiếp."
+      },
+      {
+        "id": "T10-B04-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Cộng nhị phân?",
+        "lua_chon": {
+          "A": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+          "B": "Tính giá trị thập phân của 101₂: cách nào phù hợp?",
+          "C": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?",
+          "D": "Cộng hai bit 1 và 1: kết quả là gì?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Cộng hai bit 1 và 1: kết quả là gì?"
+      },
+      {
+        "id": "T10-B04-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Phát biểu nào đúng về Lưu trữ số nguyên?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "C": "Số nguyên được mã hóa bằng bit theo quy ước của máy tính.",
+          "D": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀."
+        },
+        "dap_an": "C",
+        "giai_thich": "Số nguyên được mã hóa bằng bit theo quy ước của máy tính."
+      },
+      {
+        "id": "T10-B04-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Chương trình lưu giá trị số nguyên: dữ liệu được biểu diễn ra sao?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "C": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+          "D": "Dãy bit theo định dạng số nguyên."
+        },
+        "dap_an": "D",
+        "giai_thich": "Dãy bit theo định dạng số nguyên."
+      },
+      {
+        "id": "T10-B04-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Lưu trữ số nguyên?",
+        "lua_chon": {
+          "A": "Chương trình lưu giá trị số nguyên: dữ liệu được biểu diễn ra sao?",
+          "B": "Đọc số 1011₂: hệ đếm nào đang được dùng?",
+          "C": "Tính giá trị thập phân của 101₂: cách nào phù hợp?",
+          "D": "Đổi 101₂ sang thập phân: kết quả là bao nhiêu?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Chương trình lưu giá trị số nguyên: dữ liệu được biểu diễn ra sao?"
+      },
+      {
+        "id": "T10-B04-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Hệ nhị phân”?",
+        "lua_chon": {
+          "A": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1. Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+          "B": "Mỗi vị trí nhị phân ứng với một lũy thừa của 2. Hệ nhị phân dùng mười chữ số từ 0 đến 9.",
+          "C": "Số 101₂ có giá trị thập phân bằng 101. Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "D": "Hệ nhị phân dùng mười chữ số từ 0 đến 9. Số 101₂ có giá trị thập phân bằng 101."
+        },
+        "dap_an": "A",
+        "giai_thich": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1. Mỗi vị trí nhị phân ứng với một lũy thừa của 2."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B04-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Xét tính đúng/sai về bài “Hệ nhị phân”:",
+        "y_kien": {
+          "a": "Hệ nhị phân chỉ dùng hai chữ số 0 và 1.",
+          "b": "Hệ nhị phân dùng mười chữ số từ 0 đến 9.",
+          "c": "101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.",
+          "d": "Số 101₂ có giá trị thập phân bằng 101."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Hệ nhị phân chỉ dùng hai chữ số 0 và 1.; b sai: Hệ nhị phân dùng mười chữ số từ 0 đến 9.; c đúng: 101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.; d sai: Số 101₂ có giá trị thập phân bằng 101.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B04-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Trình bày hai nội dung của bài: Hệ nhị phân chỉ dùng hai chữ số 0 và 1. Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Hệ nhị phân chỉ dùng hai chữ số 0 và 1. Mỗi vị trí nhị phân ứng với một lũy thừa của 2.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B04-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Hệ nhị phân",
+        "noi_dung": "Giải thích và vận dụng nội dung “101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “101₂ = 1×4 + 0×2 + 1×1 = 5₁₀.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

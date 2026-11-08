@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_17",
+  "bai_so": 17,
+  "ten_bai": "Biến và lệnh gán",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B17-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Phát biểu nào đúng về Biến?",
+        "lua_chon": {
+          "A": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "B": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "C": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "D": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến."
+        },
+        "dap_an": "B",
+        "giai_thich": "Biến là tên gắn với giá trị được chương trình sử dụng."
+      },
+      {
+        "id": "T10-B17-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?",
+        "lua_chon": {
+          "A": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "B": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "C": "Biến như diem.",
+          "D": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến."
+        },
+        "dap_an": "C",
+        "giai_thich": "Biến như diem."
+      },
+      {
+        "id": "T10-B17-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Biến?",
+        "lua_chon": {
+          "A": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
+          "B": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?",
+          "C": "Định đặt biến tên if: vì sao không phù hợp?",
+          "D": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?"
+      },
+      {
+        "id": "T10-B17-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Phát biểu nào đúng về Lệnh gán?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "D": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến."
+        },
+        "dap_an": "C",
+        "giai_thich": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái."
+      },
+      {
+        "id": "T10-B17-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "C": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến.",
+          "D": "5."
+        },
+        "dap_an": "D",
+        "giai_thich": "5."
+      },
+      {
+        "id": "T10-B17-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Lệnh gán?",
+        "lua_chon": {
+          "A": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
+          "B": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?",
+          "C": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?",
+          "D": "Định đặt biến tên if: vì sao không phù hợp?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?"
+      },
+      {
+        "id": "T10-B17-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Phát biểu nào đúng về Tên biến?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "C": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến.",
+          "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+      },
+      {
+        "id": "T10-B17-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?",
+        "lua_chon": {
+          "A": "so_hoc_sinh.",
+          "B": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "D": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến."
+        },
+        "dap_an": "A",
+        "giai_thich": "so_hoc_sinh."
+      },
+      {
+        "id": "T10-B17-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Tên biến?",
+        "lua_chon": {
+          "A": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?",
+          "B": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?",
+          "C": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
+          "D": "Định đặt biến tên if: vì sao không phù hợp?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?"
+      },
+      {
+        "id": "T10-B17-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Phát biểu nào đúng về Từ khóa?",
+        "lua_chon": {
+          "A": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến.",
+          "B": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+        },
+        "dap_an": "A",
+        "giai_thich": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến."
+      },
+      {
+        "id": "T10-B17-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Định đặt biến tên if: vì sao không phù hợp?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "if là từ khóa Python.",
+          "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+        },
+        "dap_an": "B",
+        "giai_thich": "if là từ khóa Python."
+      },
+      {
+        "id": "T10-B17-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Từ khóa?",
+        "lua_chon": {
+          "A": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?",
+          "B": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
+          "C": "Định đặt biến tên if: vì sao không phù hợp?",
+          "D": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Định đặt biến tên if: vì sao không phù hợp?"
+      },
+      {
+        "id": "T10-B17-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Phát biểu nào đúng về Kiểu số nguyên?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "int biểu diễn số nguyên.",
+          "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+        },
+        "dap_an": "B",
+        "giai_thich": "int biểu diễn số nguyên."
+      },
+      {
+        "id": "T10-B17-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Cần lưu số lượng học sinh không có phần lẻ: kiểu nào phù hợp?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "C": "int.",
+          "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+        },
+        "dap_an": "C",
+        "giai_thich": "int."
+      },
+      {
+        "id": "T10-B17-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Kiểu số nguyên?",
+        "lua_chon": {
+          "A": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?",
+          "B": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
+          "C": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?",
+          "D": "Cần lưu số lượng học sinh không có phần lẻ: kiểu nào phù hợp?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Cần lưu số lượng học sinh không có phần lẻ: kiểu nào phù hợp?"
+      },
+      {
+        "id": "T10-B17-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Phát biểu nào đúng về Xâu kí tự?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "C": "Xâu kí tự biểu diễn văn bản và thường đặt trong dấu nháy.",
+          "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+        },
+        "dap_an": "C",
+        "giai_thich": "Xâu kí tự biểu diễn văn bản và thường đặt trong dấu nháy."
+      },
+      {
+        "id": "T10-B17-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Lưu tên học sinh: kiểu dữ liệu nào phù hợp?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "C": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "D": "str."
+        },
+        "dap_an": "D",
+        "giai_thich": "str."
+      },
+      {
+        "id": "T10-B17-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Xâu kí tự?",
+        "lua_chon": {
+          "A": "Lưu tên học sinh: kiểu dữ liệu nào phù hợp?",
+          "B": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?",
+          "C": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
+          "D": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Lưu tên học sinh: kiểu dữ liệu nào phù hợp?"
+      },
+      {
+        "id": "T10-B17-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Phát biểu nào đúng về Phép toán?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "C": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "D": "Python hỗ trợ các phép toán số học trên dữ liệu số."
+        },
+        "dap_an": "D",
+        "giai_thich": "Python hỗ trợ các phép toán số học trên dữ liệu số."
+      },
+      {
+        "id": "T10-B17-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Tính tổng a và b: biểu thức nào dùng?",
+        "lua_chon": {
+          "A": "a + b.",
+          "B": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+        },
+        "dap_an": "A",
+        "giai_thich": "a + b."
+      },
+      {
+        "id": "T10-B17-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Phép toán?",
+        "lua_chon": {
+          "A": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?",
+          "B": "Tính tổng a và b: biểu thức nào dùng?",
+          "C": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
+          "D": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Tính tổng a và b: biểu thức nào dùng?"
+      },
+      {
+        "id": "T10-B17-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Biến và lệnh gán”?",
+        "lua_chon": {
+          "A": "Biến là tên gắn với giá trị được chương trình sử dụng. Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái. Lệnh gán trong Python luôn so sánh hai giá trị.",
+          "C": "Tên biến có thể trùng mọi từ khóa mà không ảnh hưởng cú pháp. Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "D": "Lệnh gán trong Python luôn so sánh hai giá trị. Tên biến có thể trùng mọi từ khóa mà không ảnh hưởng cú pháp."
+        },
+        "dap_an": "A",
+        "giai_thich": "Biến là tên gắn với giá trị được chương trình sử dụng. Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B17-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Xét tính đúng/sai về bài “Biến và lệnh gán”:",
+        "y_kien": {
+          "a": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "b": "Lệnh gán trong Python luôn so sánh hai giá trị.",
+          "c": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "d": "Tên biến có thể trùng mọi từ khóa mà không ảnh hưởng cú pháp."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Biến là tên gắn với giá trị được chương trình sử dụng.; b sai: Lệnh gán trong Python luôn so sánh hai giá trị.; c đúng: Tên biến cần hợp lệ và không trùng từ khóa Python.; d sai: Tên biến có thể trùng mọi từ khóa mà không ảnh hưởng cú pháp.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B17-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Trình bày hai nội dung của bài: Biến là tên gắn với giá trị được chương trình sử dụng. Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Biến là tên gắn với giá trị được chương trình sử dụng. Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B17-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 17 - Biến và lệnh gán",
+        "noi_dung": "Giải thích và vận dụng nội dung “Tên biến cần hợp lệ và không trùng từ khóa Python.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Tên biến cần hợp lệ và không trùng từ khóa Python.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

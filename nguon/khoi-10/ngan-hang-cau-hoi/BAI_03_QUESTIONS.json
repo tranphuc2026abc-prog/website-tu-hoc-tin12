@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_03",
+  "bai_so": 3,
+  "ten_bai": "Một số kiểu dữ liệu",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B03-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Văn bản?",
+        "lua_chon": {
+          "A": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "B": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.",
+          "C": "Số hóa văn bản chuyển kí tự thành mã để lưu trong máy tính.",
+          "D": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí."
+        },
+        "dap_an": "D",
+        "giai_thich": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí."
+      },
+      {
+        "id": "T10-B03-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Dữ liệu được mã hóa thành gì?",
+        "lua_chon": {
+          "A": "Các mã kí tự.",
+          "B": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "C": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.",
+          "D": "Số hóa văn bản chuyển kí tự thành mã để lưu trong máy tính."
+        },
+        "dap_an": "A",
+        "giai_thich": "Các mã kí tự."
+      },
+      {
+        "id": "T10-B03-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Văn bản?",
+        "lua_chon": {
+          "A": "Cần biểu diễn chữ cái Latin và một số kí hiệu cơ bản.",
+          "B": "Máy tính lưu chữ tiếng Việt trong tài liệu.",
+          "C": "Tài liệu chứa tiếng Việt và nhiều ngôn ngữ.",
+          "D": "Gõ từ “Tin học” vào tệp."
+        },
+        "dap_an": "B",
+        "giai_thich": "Máy tính lưu chữ tiếng Việt trong tài liệu."
+      },
+      {
+        "id": "T10-B03-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về ASCII?",
+        "lua_chon": {
+          "A": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "B": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "C": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.",
+          "D": "Số hóa văn bản chuyển kí tự thành mã để lưu trong máy tính."
+        },
+        "dap_an": "A",
+        "giai_thich": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản."
+      },
+      {
+        "id": "T10-B03-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Bảng mã nào thường được nhắc tới?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "ASCII.",
+          "C": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.",
+          "D": "Số hóa văn bản chuyển kí tự thành mã để lưu trong máy tính."
+        },
+        "dap_an": "B",
+        "giai_thich": "ASCII."
+      },
+      {
+        "id": "T10-B03-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho ASCII?",
+        "lua_chon": {
+          "A": "Máy tính lưu chữ tiếng Việt trong tài liệu.",
+          "B": "Tài liệu chứa tiếng Việt và nhiều ngôn ngữ.",
+          "C": "Cần biểu diễn chữ cái Latin và một số kí hiệu cơ bản.",
+          "D": "Gõ từ “Tin học” vào tệp."
+        },
+        "dap_an": "C",
+        "giai_thich": "Cần biểu diễn chữ cái Latin và một số kí hiệu cơ bản."
+      },
+      {
+        "id": "T10-B03-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Unicode?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.",
+          "C": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "D": "Số hóa văn bản chuyển kí tự thành mã để lưu trong máy tính."
+        },
+        "dap_an": "B",
+        "giai_thich": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới."
+      },
+      {
+        "id": "T10-B03-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Bảng mã nào phù hợp hơn?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "C": "Unicode.",
+          "D": "Số hóa văn bản chuyển kí tự thành mã để lưu trong máy tính."
+        },
+        "dap_an": "C",
+        "giai_thich": "Unicode."
+      },
+      {
+        "id": "T10-B03-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Unicode?",
+        "lua_chon": {
+          "A": "Máy tính lưu chữ tiếng Việt trong tài liệu.",
+          "B": "Cần biểu diễn chữ cái Latin và một số kí hiệu cơ bản.",
+          "C": "Gõ từ “Tin học” vào tệp.",
+          "D": "Tài liệu chứa tiếng Việt và nhiều ngôn ngữ."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tài liệu chứa tiếng Việt và nhiều ngôn ngữ."
+      },
+      {
+        "id": "T10-B03-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Số hóa văn bản?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "C": "Số hóa văn bản chuyển kí tự thành mã để lưu trong máy tính.",
+          "D": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới."
+        },
+        "dap_an": "C",
+        "giai_thich": "Số hóa văn bản chuyển kí tự thành mã để lưu trong máy tính."
+      },
+      {
+        "id": "T10-B03-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Máy tính lưu nội dung bằng cách nào?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "C": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.",
+          "D": "Mã hóa từng kí tự theo bảng mã."
+        },
+        "dap_an": "D",
+        "giai_thich": "Mã hóa từng kí tự theo bảng mã."
+      },
+      {
+        "id": "T10-B03-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Số hóa văn bản?",
+        "lua_chon": {
+          "A": "Gõ từ “Tin học” vào tệp.",
+          "B": "Máy tính lưu chữ tiếng Việt trong tài liệu.",
+          "C": "Cần biểu diễn chữ cái Latin và một số kí hiệu cơ bản.",
+          "D": "Tài liệu chứa tiếng Việt và nhiều ngôn ngữ."
+        },
+        "dap_an": "A",
+        "giai_thich": "Gõ từ “Tin học” vào tệp."
+      },
+      {
+        "id": "T10-B03-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Kiểu số?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "C": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.",
+          "D": "Dữ liệu số biểu diễn đại lượng có thể tính toán."
+        },
+        "dap_an": "D",
+        "giai_thich": "Dữ liệu số biểu diễn đại lượng có thể tính toán."
+      },
+      {
+        "id": "T10-B03-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Kiểu dữ liệu nào phù hợp?",
+        "lua_chon": {
+          "A": "Kiểu số nguyên.",
+          "B": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "C": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "D": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới."
+        },
+        "dap_an": "A",
+        "giai_thich": "Kiểu số nguyên."
+      },
+      {
+        "id": "T10-B03-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Kiểu số?",
+        "lua_chon": {
+          "A": "Máy tính lưu chữ tiếng Việt trong tài liệu.",
+          "B": "Tệp có trường tuổi của học sinh.",
+          "C": "Cần biểu diễn chữ cái Latin và một số kí hiệu cơ bản.",
+          "D": "Tài liệu chứa tiếng Việt và nhiều ngôn ngữ."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tệp có trường tuổi của học sinh."
+      },
+      {
+        "id": "T10-B03-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Ảnh và âm thanh?",
+        "lua_chon": {
+          "A": "Ảnh, âm thanh có thể được số hóa thành dữ liệu số.",
+          "B": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "C": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "D": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới."
+        },
+        "dap_an": "A",
+        "giai_thich": "Ảnh, âm thanh có thể được số hóa thành dữ liệu số."
+      },
+      {
+        "id": "T10-B03-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Có thể biểu diễn các nội dung đó thế nào?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "Dưới dạng dữ liệu số được mã hóa.",
+          "C": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "D": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới."
+        },
+        "dap_an": "B",
+        "giai_thich": "Dưới dạng dữ liệu số được mã hóa."
+      },
+      {
+        "id": "T10-B03-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Ảnh và âm thanh?",
+        "lua_chon": {
+          "A": "Máy tính lưu chữ tiếng Việt trong tài liệu.",
+          "B": "Cần biểu diễn chữ cái Latin và một số kí hiệu cơ bản.",
+          "C": "Máy tính nhận một tệp ảnh hoặc bản ghi âm.",
+          "D": "Tài liệu chứa tiếng Việt và nhiều ngôn ngữ."
+        },
+        "dap_an": "C",
+        "giai_thich": "Máy tính nhận một tệp ảnh hoặc bản ghi âm."
+      },
+      {
+        "id": "T10-B03-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Tương thích bảng mã?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "Hai hệ thống cần hiểu cùng bảng mã để hiển thị kí tự thống nhất.",
+          "C": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "D": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới."
+        },
+        "dap_an": "B",
+        "giai_thich": "Hai hệ thống cần hiểu cùng bảng mã để hiển thị kí tự thống nhất."
+      },
+      {
+        "id": "T10-B03-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Điều gì nên kiểm tra?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "B": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "C": "Bảng mã và cách giải mã kí tự.",
+          "D": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới."
+        },
+        "dap_an": "C",
+        "giai_thich": "Bảng mã và cách giải mã kí tự."
+      },
+      {
+        "id": "T10-B03-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Tương thích bảng mã?",
+        "lua_chon": {
+          "A": "Máy tính lưu chữ tiếng Việt trong tài liệu.",
+          "B": "Cần biểu diễn chữ cái Latin và một số kí hiệu cơ bản.",
+          "C": "Tài liệu chứa tiếng Việt và nhiều ngôn ngữ.",
+          "D": "Văn bản tiếng Việt bị lỗi dấu khi mở."
+        },
+        "dap_an": "D",
+        "giai_thich": "Văn bản tiếng Việt bị lỗi dấu khi mở."
+      },
+      {
+        "id": "T10-B03-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Một số kiểu dữ liệu”?",
+        "lua_chon": {
+          "A": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí. ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+          "B": "ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản. ASCII có thể biểu diễn đầy đủ mọi hệ chữ viết trên thế giới.",
+          "C": "Unicode chỉ dùng để lưu hình ảnh, không mã hóa văn bản. Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "D": "ASCII có thể biểu diễn đầy đủ mọi hệ chữ viết trên thế giới. Unicode chỉ dùng để lưu hình ảnh, không mã hóa văn bản."
+        },
+        "dap_an": "A",
+        "giai_thich": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí. ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B03-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Xét tính đúng/sai về bài “Một số kiểu dữ liệu”:",
+        "y_kien": {
+          "a": "Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.",
+          "b": "ASCII có thể biểu diễn đầy đủ mọi hệ chữ viết trên thế giới.",
+          "c": "Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.",
+          "d": "Unicode chỉ dùng để lưu hình ảnh, không mã hóa văn bản."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí.; b sai: ASCII có thể biểu diễn đầy đủ mọi hệ chữ viết trên thế giới.; c đúng: Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.; d sai: Unicode chỉ dùng để lưu hình ảnh, không mã hóa văn bản.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B03-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Trình bày hai nội dung của bài: Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí. ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Văn bản số được mã hóa kí tự thành các mã để máy tính lưu và xử lí. ASCII là bảng mã kí tự dùng mã số cho một tập kí tự cơ bản.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B03-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 3 - Một số kiểu dữ liệu",
+        "noi_dung": "Giải thích và vận dụng nội dung “Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Unicode cung cấp mã cho nhiều hệ chữ viết và kí tự trên thế giới.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

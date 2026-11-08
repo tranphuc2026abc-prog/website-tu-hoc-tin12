@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_12",
+  "bai_so": 12,
+  "ten_bai": "Phần mềm thiết kế đồ họa",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B12-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phát biểu nào đúng về Thiết kế đồ họa?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
+          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
+        },
+        "dap_an": "A",
+        "giai_thich": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục."
+      },
+      {
+        "id": "T10-B12-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
+        "lua_chon": {
+          "A": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "B": "Thiết kế đồ họa.",
+          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
+          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
+        },
+        "dap_an": "B",
+        "giai_thich": "Thiết kế đồ họa."
+      },
+      {
+        "id": "T10-B12-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Thiết kế đồ họa?",
+        "lua_chon": {
+          "A": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
+          "B": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
+          "C": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
+          "D": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?"
+      },
+      {
+        "id": "T10-B12-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phát biểu nào đúng về Đồ họa vectơ?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
+          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
+        },
+        "dap_an": "B",
+        "giai_thich": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình."
+      },
+      {
+        "id": "T10-B12-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
+          "C": "Đồ họa vectơ.",
+          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
+        },
+        "dap_an": "C",
+        "giai_thich": "Đồ họa vectơ."
+      },
+      {
+        "id": "T10-B12-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Đồ họa vectơ?",
+        "lua_chon": {
+          "A": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
+          "B": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
+          "C": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?",
+          "D": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?"
+      },
+      {
+        "id": "T10-B12-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phát biểu nào đúng về Đồ họa điểm ảnh?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
+          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
+        },
+        "dap_an": "C",
+        "giai_thich": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
+      },
+      {
+        "id": "T10-B12-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "C": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap.",
+          "D": "Đồ họa điểm ảnh."
+        },
+        "dap_an": "D",
+        "giai_thich": "Đồ họa điểm ảnh."
+      },
+      {
+        "id": "T10-B12-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Đồ họa điểm ảnh?",
+        "lua_chon": {
+          "A": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
+          "B": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
+          "C": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
+          "D": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?"
+      },
+      {
+        "id": "T10-B12-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phát biểu nào đúng về Co giãn vectơ?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
+          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
+        },
+        "dap_an": "D",
+        "giai_thich": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
+      },
+      {
+        "id": "T10-B12-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?",
+        "lua_chon": {
+          "A": "Khả năng co giãn của đồ họa vectơ.",
+          "B": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "C": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
+        },
+        "dap_an": "A",
+        "giai_thich": "Khả năng co giãn của đồ họa vectơ."
+      },
+      {
+        "id": "T10-B12-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Co giãn vectơ?",
+        "lua_chon": {
+          "A": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
+          "B": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?",
+          "C": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
+          "D": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?"
+      },
+      {
+        "id": "T10-B12-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phát biểu nào đúng về Công cụ đồ họa?",
+        "lua_chon": {
+          "A": "Phần mềm đồ họa cung cấp công cụ tạo và chỉnh sửa đối tượng.",
+          "B": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "C": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
+        },
+        "dap_an": "A",
+        "giai_thich": "Phần mềm đồ họa cung cấp công cụ tạo và chỉnh sửa đối tượng."
+      },
+      {
+        "id": "T10-B12-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Cần vẽ biểu tượng bằng hình cơ bản: nhóm công cụ nào dùng?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Công cụ tạo/chỉnh sửa hình vectơ.",
+          "C": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
+        },
+        "dap_an": "B",
+        "giai_thich": "Công cụ tạo/chỉnh sửa hình vectơ."
+      },
+      {
+        "id": "T10-B12-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Công cụ đồ họa?",
+        "lua_chon": {
+          "A": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
+          "B": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
+          "C": "Cần vẽ biểu tượng bằng hình cơ bản: nhóm công cụ nào dùng?",
+          "D": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Cần vẽ biểu tượng bằng hình cơ bản: nhóm công cụ nào dùng?"
+      },
+      {
+        "id": "T10-B12-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phát biểu nào đúng về Định dạng SVG?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "SVG thường lưu đồ họa vectơ.",
+          "C": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
+        },
+        "dap_an": "B",
+        "giai_thich": "SVG thường lưu đồ họa vectơ."
+      },
+      {
+        "id": "T10-B12-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Cần lưu logo vectơ để chỉnh sửa tiếp: định dạng nào phù hợp?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "C": "SVG.",
+          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
+        },
+        "dap_an": "C",
+        "giai_thich": "SVG."
+      },
+      {
+        "id": "T10-B12-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Định dạng SVG?",
+        "lua_chon": {
+          "A": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
+          "B": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
+          "C": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
+          "D": "Cần lưu logo vectơ để chỉnh sửa tiếp: định dạng nào phù hợp?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Cần lưu logo vectơ để chỉnh sửa tiếp: định dạng nào phù hợp?"
+      },
+      {
+        "id": "T10-B12-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Phát biểu nào đúng về Bố cục?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "C": "Bố cục tổ chức chữ và hình để thông tin dễ đọc.",
+          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
+        },
+        "dap_an": "C",
+        "giai_thich": "Bố cục tổ chức chữ và hình để thông tin dễ đọc."
+      },
+      {
+        "id": "T10-B12-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Áp phích có chữ chồng lên hình nền rối: điều gì cần điều chỉnh?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
+          "D": "Bố cục và độ tương phản."
+        },
+        "dap_an": "D",
+        "giai_thich": "Bố cục và độ tương phản."
+      },
+      {
+        "id": "T10-B12-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Bố cục?",
+        "lua_chon": {
+          "A": "Áp phích có chữ chồng lên hình nền rối: điều gì cần điều chỉnh?",
+          "B": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
+          "C": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
+          "D": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Áp phích có chữ chồng lên hình nền rối: điều gì cần điều chỉnh?"
+      },
+      {
+        "id": "T10-B12-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Phần mềm thiết kế đồ họa”?",
+        "lua_chon": {
+          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục. Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình. Đồ họa điểm ảnh luôn phóng to vô hạn mà không giảm chất lượng.",
+          "C": "Đồ họa vectơ chỉ dùng để lưu âm thanh. Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "D": "Đồ họa điểm ảnh luôn phóng to vô hạn mà không giảm chất lượng. Đồ họa vectơ chỉ dùng để lưu âm thanh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục. Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B12-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Xét tính đúng/sai về bài “Phần mềm thiết kế đồ họa”:",
+        "y_kien": {
+          "a": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
+          "b": "Đồ họa điểm ảnh luôn phóng to vô hạn mà không giảm chất lượng.",
+          "c": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
+          "d": "Đồ họa vectơ chỉ dùng để lưu âm thanh."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.; b sai: Đồ họa điểm ảnh luôn phóng to vô hạn mà không giảm chất lượng.; c đúng: Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.; d sai: Đồ họa vectơ chỉ dùng để lưu âm thanh.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B12-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Trình bày hai nội dung của bài: Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục. Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục. Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B12-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
+        "noi_dung": "Giải thích và vận dụng nội dung “Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

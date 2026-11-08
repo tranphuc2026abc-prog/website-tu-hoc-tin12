@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_18",
+  "bai_so": 18,
+  "ten_bai": "Các lệnh vào ra đơn giản",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B18-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Phát biểu nào đúng về input()?",
+        "lua_chon": {
+          "A": "print() hiển thị dữ liệu ra màn hình.",
+          "B": "int() chuyển giá trị phù hợp thành số nguyên.",
+          "C": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "D": "float() chuyển giá trị phù hợp thành số thực."
+        },
+        "dap_an": "C",
+        "giai_thich": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự."
+      },
+      {
+        "id": "T10-B18-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
+        "lua_chon": {
+          "A": "print() hiển thị dữ liệu ra màn hình.",
+          "B": "int() chuyển giá trị phù hợp thành số nguyên.",
+          "C": "float() chuyển giá trị phù hợp thành số thực.",
+          "D": "input()."
+        },
+        "dap_an": "D",
+        "giai_thich": "input()."
+      },
+      {
+        "id": "T10-B18-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho input()?",
+        "lua_chon": {
+          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
+          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
+          "C": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
+          "D": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Cần hỏi tên học sinh: lệnh nào phù hợp?"
+      },
+      {
+        "id": "T10-B18-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Phát biểu nào đúng về print()?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "B": "int() chuyển giá trị phù hợp thành số nguyên.",
+          "C": "float() chuyển giá trị phù hợp thành số thực.",
+          "D": "print() hiển thị dữ liệu ra màn hình."
+        },
+        "dap_an": "D",
+        "giai_thich": "print() hiển thị dữ liệu ra màn hình."
+      },
+      {
+        "id": "T10-B18-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
+        "lua_chon": {
+          "A": "print().",
+          "B": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "C": "int() chuyển giá trị phù hợp thành số nguyên.",
+          "D": "float() chuyển giá trị phù hợp thành số thực."
+        },
+        "dap_an": "A",
+        "giai_thich": "print()."
+      },
+      {
+        "id": "T10-B18-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho print()?",
+        "lua_chon": {
+          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
+          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
+          "C": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
+          "D": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Cần báo kết quả phép tính: lệnh nào phù hợp?"
+      },
+      {
+        "id": "T10-B18-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Phát biểu nào đúng về Chuyển kiểu int?",
+        "lua_chon": {
+          "A": "int() chuyển giá trị phù hợp thành số nguyên.",
+          "B": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "C": "print() hiển thị dữ liệu ra màn hình.",
+          "D": "float() chuyển giá trị phù hợp thành số thực."
+        },
+        "dap_an": "A",
+        "giai_thich": "int() chuyển giá trị phù hợp thành số nguyên."
+      },
+      {
+        "id": "T10-B18-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "B": "int().",
+          "C": "print() hiển thị dữ liệu ra màn hình.",
+          "D": "float() chuyển giá trị phù hợp thành số thực."
+        },
+        "dap_an": "B",
+        "giai_thich": "int()."
+      },
+      {
+        "id": "T10-B18-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Chuyển kiểu int?",
+        "lua_chon": {
+          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
+          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
+          "C": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
+          "D": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
+        },
+        "dap_an": "C",
+        "giai_thich": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?"
+      },
+      {
+        "id": "T10-B18-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Phát biểu nào đúng về Chuyển kiểu float?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "B": "float() chuyển giá trị phù hợp thành số thực.",
+          "C": "print() hiển thị dữ liệu ra màn hình.",
+          "D": "int() chuyển giá trị phù hợp thành số nguyên."
+        },
+        "dap_an": "B",
+        "giai_thich": "float() chuyển giá trị phù hợp thành số thực."
+      },
+      {
+        "id": "T10-B18-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Nhập chiều cao có phần thập phân: dùng hàm nào?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "B": "print() hiển thị dữ liệu ra màn hình.",
+          "C": "float().",
+          "D": "int() chuyển giá trị phù hợp thành số nguyên."
+        },
+        "dap_an": "C",
+        "giai_thich": "float()."
+      },
+      {
+        "id": "T10-B18-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Chuyển kiểu float?",
+        "lua_chon": {
+          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
+          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
+          "C": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
+          "D": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
+      },
+      {
+        "id": "T10-B18-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Phát biểu nào đúng về Nối chuỗi?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "B": "print() hiển thị dữ liệu ra màn hình.",
+          "C": "Có thể dùng dấu + để nối các xâu kí tự.",
+          "D": "int() chuyển giá trị phù hợp thành số nguyên."
+        },
+        "dap_an": "C",
+        "giai_thich": "Có thể dùng dấu + để nối các xâu kí tự."
+      },
+      {
+        "id": "T10-B18-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "In lời chào và tên đã nhập: cách nào phù hợp?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "B": "print() hiển thị dữ liệu ra màn hình.",
+          "C": "int() chuyển giá trị phù hợp thành số nguyên.",
+          "D": "Ghép chuỗi bằng + hoặc tham số print."
+        },
+        "dap_an": "D",
+        "giai_thich": "Ghép chuỗi bằng + hoặc tham số print."
+      },
+      {
+        "id": "T10-B18-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nối chuỗi?",
+        "lua_chon": {
+          "A": "In lời chào và tên đã nhập: cách nào phù hợp?",
+          "B": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
+          "C": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
+          "D": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?"
+        },
+        "dap_an": "A",
+        "giai_thich": "In lời chào và tên đã nhập: cách nào phù hợp?"
+      },
+      {
+        "id": "T10-B18-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Phát biểu nào đúng về Biểu thức đầu ra?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "B": "print() hiển thị dữ liệu ra màn hình.",
+          "C": "int() chuyển giá trị phù hợp thành số nguyên.",
+          "D": "print() có thể hiển thị kết quả của biểu thức."
+        },
+        "dap_an": "D",
+        "giai_thich": "print() có thể hiển thị kết quả của biểu thức."
+      },
+      {
+        "id": "T10-B18-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "In tổng của hai biến: cần truyền gì vào print?",
+        "lua_chon": {
+          "A": "Biểu thức tổng.",
+          "B": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "C": "print() hiển thị dữ liệu ra màn hình.",
+          "D": "int() chuyển giá trị phù hợp thành số nguyên."
+        },
+        "dap_an": "A",
+        "giai_thich": "Biểu thức tổng."
+      },
+      {
+        "id": "T10-B18-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Biểu thức đầu ra?",
+        "lua_chon": {
+          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
+          "B": "In tổng của hai biến: cần truyền gì vào print?",
+          "C": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
+          "D": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?"
+        },
+        "dap_an": "B",
+        "giai_thich": "In tổng của hai biến: cần truyền gì vào print?"
+      },
+      {
+        "id": "T10-B18-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Phát biểu nào đúng về Kiểm tra dữ liệu nhập?",
+        "lua_chon": {
+          "A": "Dữ liệu nhập cần chuyển kiểu và phù hợp với yêu cầu chương trình.",
+          "B": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "C": "print() hiển thị dữ liệu ra màn hình.",
+          "D": "int() chuyển giá trị phù hợp thành số nguyên."
+        },
+        "dap_an": "A",
+        "giai_thich": "Dữ liệu nhập cần chuyển kiểu và phù hợp với yêu cầu chương trình."
+      },
+      {
+        "id": "T10-B18-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Người dùng nhập chữ vào ô cần số: cần kiểm tra gì?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "B": "Kiểu và tính hợp lệ của giá trị.",
+          "C": "print() hiển thị dữ liệu ra màn hình.",
+          "D": "int() chuyển giá trị phù hợp thành số nguyên."
+        },
+        "dap_an": "B",
+        "giai_thich": "Kiểu và tính hợp lệ của giá trị."
+      },
+      {
+        "id": "T10-B18-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Kiểm tra dữ liệu nhập?",
+        "lua_chon": {
+          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
+          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
+          "C": "Người dùng nhập chữ vào ô cần số: cần kiểm tra gì?",
+          "D": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Người dùng nhập chữ vào ô cần số: cần kiểm tra gì?"
+      },
+      {
+        "id": "T10-B18-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Các lệnh vào ra đơn giản”?",
+        "lua_chon": {
+          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự. print() hiển thị dữ liệu ra màn hình.",
+          "B": "print() hiển thị dữ liệu ra màn hình. input() tự chuyển mọi dữ liệu nhập thành số nguyên.",
+          "C": "print() dùng để nhận dữ liệu từ bàn phím. input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "D": "input() tự chuyển mọi dữ liệu nhập thành số nguyên. print() dùng để nhận dữ liệu từ bàn phím."
+        },
+        "dap_an": "A",
+        "giai_thich": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự. print() hiển thị dữ liệu ra màn hình."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B18-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Xét tính đúng/sai về bài “Các lệnh vào ra đơn giản”:",
+        "y_kien": {
+          "a": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
+          "b": "input() tự chuyển mọi dữ liệu nhập thành số nguyên.",
+          "c": "int() chuyển giá trị phù hợp thành số nguyên.",
+          "d": "print() dùng để nhận dữ liệu từ bàn phím."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.; b sai: input() tự chuyển mọi dữ liệu nhập thành số nguyên.; c đúng: int() chuyển giá trị phù hợp thành số nguyên.; d sai: print() dùng để nhận dữ liệu từ bàn phím.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B18-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Trình bày hai nội dung của bài: input() nhận dữ liệu người dùng nhập và trả về xâu kí tự. print() hiển thị dữ liệu ra màn hình.",
+        "dap_an_goi_y": "Nêu đúng hai ý: input() nhận dữ liệu người dùng nhập và trả về xâu kí tự. print() hiển thị dữ liệu ra màn hình.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B18-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
+        "noi_dung": "Giải thích và vận dụng nội dung “int() chuyển giá trị phù hợp thành số nguyên.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “int() chuyển giá trị phù hợp thành số nguyên.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

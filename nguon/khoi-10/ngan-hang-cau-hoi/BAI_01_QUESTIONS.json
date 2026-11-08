@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_01",
+  "bai_so": 1,
+  "ten_bai": "Thông tin và xử lí thông tin",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B01-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Phát biểu nào đúng về Thông tin?",
+        "lua_chon": {
+          "A": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "B": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "C": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.",
+          "D": "Một byte thường gồm 8 bit."
+        },
+        "dap_an": "B",
+        "giai_thich": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh."
+      },
+      {
+        "id": "T10-B01-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Dữ liệu nào giúp diễn giải thời tiết?",
+        "lua_chon": {
+          "A": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "B": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.",
+          "C": "Dãy số đo kèm ngày và đơn vị để hiểu xu hướng nhiệt độ.",
+          "D": "Một byte thường gồm 8 bit."
+        },
+        "dap_an": "C",
+        "giai_thich": "Dãy số đo kèm ngày và đơn vị để hiểu xu hướng nhiệt độ."
+      },
+      {
+        "id": "T10-B01-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Thông tin?",
+        "lua_chon": {
+          "A": "Máy tính cần lưu kết quả khảo sát.",
+          "B": "Mạch điện cần biểu diễn hai trạng thái.",
+          "C": "Tệp cần lưu nhiều kí tự và dữ liệu.",
+          "D": "Một bảng ghi nhiệt độ 18, 20, 23 độ theo ba ngày."
+        },
+        "dap_an": "D",
+        "giai_thich": "Một bảng ghi nhiệt độ 18, 20, 23 độ theo ba ngày."
+      },
+      {
+        "id": "T10-B01-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Phát biểu nào đúng về Dữ liệu?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.",
+          "C": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "D": "Một byte thường gồm 8 bit."
+        },
+        "dap_an": "C",
+        "giai_thich": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi."
+      },
+      {
+        "id": "T10-B01-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Nội dung nào phù hợp để nhập vào máy?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.",
+          "C": "Một byte thường gồm 8 bit.",
+          "D": "Các giá trị dữ liệu được mã hóa thành dạng số."
+        },
+        "dap_an": "D",
+        "giai_thich": "Các giá trị dữ liệu được mã hóa thành dạng số."
+      },
+      {
+        "id": "T10-B01-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Dữ liệu?",
+        "lua_chon": {
+          "A": "Máy tính cần lưu kết quả khảo sát.",
+          "B": "Một bảng ghi nhiệt độ 18, 20, 23 độ theo ba ngày.",
+          "C": "Mạch điện cần biểu diễn hai trạng thái.",
+          "D": "Tệp cần lưu nhiều kí tự và dữ liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Máy tính cần lưu kết quả khảo sát."
+      },
+      {
+        "id": "T10-B01-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Phát biểu nào đúng về Bit?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "C": "Một byte thường gồm 8 bit.",
+          "D": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1."
+        },
+        "dap_an": "D",
+        "giai_thich": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1."
+      },
+      {
+        "id": "T10-B01-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Đơn vị nào có hai giá trị cơ bản?",
+        "lua_chon": {
+          "A": "Bit.",
+          "B": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "C": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "D": "Một byte thường gồm 8 bit."
+        },
+        "dap_an": "A",
+        "giai_thich": "Bit."
+      },
+      {
+        "id": "T10-B01-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Bit?",
+        "lua_chon": {
+          "A": "Một bảng ghi nhiệt độ 18, 20, 23 độ theo ba ngày.",
+          "B": "Mạch điện cần biểu diễn hai trạng thái.",
+          "C": "Máy tính cần lưu kết quả khảo sát.",
+          "D": "Tệp cần lưu nhiều kí tự và dữ liệu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Mạch điện cần biểu diễn hai trạng thái."
+      },
+      {
+        "id": "T10-B01-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Phát biểu nào đúng về Byte?",
+        "lua_chon": {
+          "A": "Một byte thường gồm 8 bit.",
+          "B": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "C": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "D": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1."
+        },
+        "dap_an": "A",
+        "giai_thich": "Một byte thường gồm 8 bit."
+      },
+      {
+        "id": "T10-B01-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Đơn vị nào bằng 8 bit?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Byte.",
+          "C": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "D": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1."
+        },
+        "dap_an": "B",
+        "giai_thich": "Byte."
+      },
+      {
+        "id": "T10-B01-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Byte?",
+        "lua_chon": {
+          "A": "Một bảng ghi nhiệt độ 18, 20, 23 độ theo ba ngày.",
+          "B": "Máy tính cần lưu kết quả khảo sát.",
+          "C": "Tệp cần lưu nhiều kí tự và dữ liệu.",
+          "D": "Mạch điện cần biểu diễn hai trạng thái."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tệp cần lưu nhiều kí tự và dữ liệu."
+      },
+      {
+        "id": "T10-B01-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Phát biểu nào đúng về Lưu trữ số?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Thiết bị số lưu dữ liệu dưới dạng mã nhị phân.",
+          "C": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "D": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1."
+        },
+        "dap_an": "B",
+        "giai_thich": "Thiết bị số lưu dữ liệu dưới dạng mã nhị phân."
+      },
+      {
+        "id": "T10-B01-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Dữ liệu được lưu dưới dạng nào?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "C": "Chuỗi bit 0 và 1.",
+          "D": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1."
+        },
+        "dap_an": "C",
+        "giai_thich": "Chuỗi bit 0 và 1."
+      },
+      {
+        "id": "T10-B01-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Lưu trữ số?",
+        "lua_chon": {
+          "A": "Một bảng ghi nhiệt độ 18, 20, 23 độ theo ba ngày.",
+          "B": "Máy tính cần lưu kết quả khảo sát.",
+          "C": "Mạch điện cần biểu diễn hai trạng thái.",
+          "D": "Máy tính ghi một bức ảnh vào bộ nhớ."
+        },
+        "dap_an": "D",
+        "giai_thich": "Máy tính ghi một bức ảnh vào bộ nhớ."
+      },
+      {
+        "id": "T10-B01-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Phát biểu nào đúng về Xử lí số?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "C": "Máy tính có thể xử lí dữ liệu nhanh và lặp lại theo thuật toán.",
+          "D": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1."
+        },
+        "dap_an": "C",
+        "giai_thich": "Máy tính có thể xử lí dữ liệu nhanh và lặp lại theo thuật toán."
+      },
+      {
+        "id": "T10-B01-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Ưu điểm nào có ích?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "C": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.",
+          "D": "Xử lí tự động với tốc độ cao."
+        },
+        "dap_an": "D",
+        "giai_thich": "Xử lí tự động với tốc độ cao."
+      },
+      {
+        "id": "T10-B01-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Xử lí số?",
+        "lua_chon": {
+          "A": "Cần tính tổng hàng nghìn số liệu khảo sát.",
+          "B": "Một bảng ghi nhiệt độ 18, 20, 23 độ theo ba ngày.",
+          "C": "Máy tính cần lưu kết quả khảo sát.",
+          "D": "Mạch điện cần biểu diễn hai trạng thái."
+        },
+        "dap_an": "A",
+        "giai_thich": "Cần tính tổng hàng nghìn số liệu khảo sát."
+      },
+      {
+        "id": "T10-B01-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Phát biểu nào đúng về Truyền thông số?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "B": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "C": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.",
+          "D": "Dữ liệu số có thể được truyền qua mạng và sao chép với độ chính xác cao khi đường truyền tốt."
+        },
+        "dap_an": "D",
+        "giai_thich": "Dữ liệu số có thể được truyền qua mạng và sao chép với độ chính xác cao khi đường truyền tốt."
+      },
+      {
+        "id": "T10-B01-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Cách nào phù hợp?",
+        "lua_chon": {
+          "A": "Truyền tệp qua mạng số.",
+          "B": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "C": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "D": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1."
+        },
+        "dap_an": "A",
+        "giai_thich": "Truyền tệp qua mạng số."
+      },
+      {
+        "id": "T10-B01-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Truyền thông số?",
+        "lua_chon": {
+          "A": "Một bảng ghi nhiệt độ 18, 20, 23 độ theo ba ngày.",
+          "B": "Gửi tài liệu điện tử đến bạn ở xa.",
+          "C": "Máy tính cần lưu kết quả khảo sát.",
+          "D": "Mạch điện cần biểu diễn hai trạng thái."
+        },
+        "dap_an": "B",
+        "giai_thich": "Gửi tài liệu điện tử đến bạn ở xa."
+      },
+      {
+        "id": "T10-B01-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Thông tin và xử lí thông tin”?",
+        "lua_chon": {
+          "A": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh. Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+          "B": "Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi. Thông tin và dữ liệu là một khái niệm hoàn toàn đồng nhất.",
+          "C": "Dữ liệu số không thể được truyền qua mạng. Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "D": "Thông tin và dữ liệu là một khái niệm hoàn toàn đồng nhất. Dữ liệu số không thể được truyền qua mạng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh. Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B01-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Xét tính đúng/sai về bài “Thông tin và xử lí thông tin”:",
+        "y_kien": {
+          "a": "Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.",
+          "b": "Thông tin và dữ liệu là một khái niệm hoàn toàn đồng nhất.",
+          "c": "Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.",
+          "d": "Dữ liệu số không thể được truyền qua mạng."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh.; b sai: Thông tin và dữ liệu là một khái niệm hoàn toàn đồng nhất.; c đúng: Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.; d sai: Dữ liệu số không thể được truyền qua mạng.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B01-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Trình bày hai nội dung của bài: Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh. Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Thông tin là ý nghĩa con người rút ra từ dữ liệu trong một bối cảnh. Dữ liệu là cách biểu diễn thông tin để lưu trữ, xử lí hoặc truyền đi.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B01-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 1 - Thông tin và xử lí thông tin",
+        "noi_dung": "Giải thích và vận dụng nội dung “Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Bit là đơn vị dữ liệu nhỏ nhất, có thể nhận giá trị 0 hoặc 1.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}

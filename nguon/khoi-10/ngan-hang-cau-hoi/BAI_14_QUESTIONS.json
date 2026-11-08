@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_14",
+  "bai_so": 14,
+  "ten_bai": "Làm việc với đối tượng đường và văn bản",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T10-B14-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Phát biểu nào đúng về Đường vectơ?",
+        "lua_chon": {
+          "A": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "B": "Nút xác định vị trí và dạng đoạn trên đường.",
+          "C": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "D": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
+        },
+        "dap_an": "C",
+        "giai_thich": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa."
+      },
+      {
+        "id": "T10-B14-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
+        "lua_chon": {
+          "A": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "B": "Nút xác định vị trí và dạng đoạn trên đường.",
+          "C": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa.",
+          "D": "Các nút/điểm điều khiển trên đường."
+        },
+        "dap_an": "D",
+        "giai_thich": "Các nút/điểm điều khiển trên đường."
+      },
+      {
+        "id": "T10-B14-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Đường vectơ?",
+        "lua_chon": {
+          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
+          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
+          "C": "Đường bị gãy ở một điểm: cần sửa gì?",
+          "D": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?"
+      },
+      {
+        "id": "T10-B14-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Phát biểu nào đúng về Đường Bezier?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "B": "Nút xác định vị trí và dạng đoạn trên đường.",
+          "C": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa.",
+          "D": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong."
+        },
+        "dap_an": "D",
+        "giai_thich": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong."
+      },
+      {
+        "id": "T10-B14-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
+        "lua_chon": {
+          "A": "Công cụ Bezier.",
+          "B": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "C": "Nút xác định vị trí và dạng đoạn trên đường.",
+          "D": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
+        },
+        "dap_an": "A",
+        "giai_thich": "Công cụ Bezier."
+      },
+      {
+        "id": "T10-B14-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Đường Bezier?",
+        "lua_chon": {
+          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
+          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
+          "C": "Đường bị gãy ở một điểm: cần sửa gì?",
+          "D": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Cần vẽ đường cong mượt: công cụ nào phù hợp?"
+      },
+      {
+        "id": "T10-B14-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Phát biểu nào đúng về Nút đường?",
+        "lua_chon": {
+          "A": "Nút xác định vị trí và dạng đoạn trên đường.",
+          "B": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "D": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
+        },
+        "dap_an": "A",
+        "giai_thich": "Nút xác định vị trí và dạng đoạn trên đường."
+      },
+      {
+        "id": "T10-B14-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Đường bị gãy ở một điểm: cần sửa gì?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "B": "Nút và tay nắm điều khiển.",
+          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "D": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
+        },
+        "dap_an": "B",
+        "giai_thich": "Nút và tay nắm điều khiển."
+      },
+      {
+        "id": "T10-B14-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nút đường?",
+        "lua_chon": {
+          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
+          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
+          "C": "Đường bị gãy ở một điểm: cần sửa gì?",
+          "D": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đường bị gãy ở một điểm: cần sửa gì?"
+      },
+      {
+        "id": "T10-B14-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Phát biểu nào đúng về Văn bản?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "B": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa.",
+          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "D": "Nút xác định vị trí và dạng đoạn trên đường."
+        },
+        "dap_an": "B",
+        "giai_thich": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
+      },
+      {
+        "id": "T10-B14-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "C": "Công cụ văn bản.",
+          "D": "Nút xác định vị trí và dạng đoạn trên đường."
+        },
+        "dap_an": "C",
+        "giai_thich": "Công cụ văn bản."
+      },
+      {
+        "id": "T10-B14-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Văn bản?",
+        "lua_chon": {
+          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
+          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
+          "C": "Đường bị gãy ở một điểm: cần sửa gì?",
+          "D": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
+        },
+        "dap_an": "D",
+        "giai_thich": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
+      },
+      {
+        "id": "T10-B14-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Phát biểu nào đúng về Định dạng chữ?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "C": "Phông, cỡ, màu và căn lề ảnh hưởng khả năng đọc.",
+          "D": "Nút xác định vị trí và dạng đoạn trên đường."
+        },
+        "dap_an": "C",
+        "giai_thich": "Phông, cỡ, màu và căn lề ảnh hưởng khả năng đọc."
+      },
+      {
+        "id": "T10-B14-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Chú thích quá nhỏ so với nền: thuộc tính nào cần sửa?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "C": "Nút xác định vị trí và dạng đoạn trên đường.",
+          "D": "Cỡ chữ, màu và tương phản."
+        },
+        "dap_an": "D",
+        "giai_thich": "Cỡ chữ, màu và tương phản."
+      },
+      {
+        "id": "T10-B14-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Định dạng chữ?",
+        "lua_chon": {
+          "A": "Chú thích quá nhỏ so với nền: thuộc tính nào cần sửa?",
+          "B": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
+          "C": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
+          "D": "Đường bị gãy ở một điểm: cần sửa gì?"
+        },
+        "dap_an": "A",
+        "giai_thich": "Chú thích quá nhỏ so với nền: thuộc tính nào cần sửa?"
+      },
+      {
+        "id": "T10-B14-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Phát biểu nào đúng về Chọn riêng đối tượng?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "C": "Nút xác định vị trí và dạng đoạn trên đường.",
+          "D": "Mỗi đường hoặc văn bản có thể là đối tượng riêng để chỉnh sửa."
+        },
+        "dap_an": "D",
+        "giai_thich": "Mỗi đường hoặc văn bản có thể là đối tượng riêng để chỉnh sửa."
+      },
+      {
+        "id": "T10-B14-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Muốn đổi màu chữ nhưng giữ nguyên đường viền: cần chọn gì?",
+        "lua_chon": {
+          "A": "Chọn riêng đối tượng văn bản.",
+          "B": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "D": "Nút xác định vị trí và dạng đoạn trên đường."
+        },
+        "dap_an": "A",
+        "giai_thich": "Chọn riêng đối tượng văn bản."
+      },
+      {
+        "id": "T10-B14-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Chọn riêng đối tượng?",
+        "lua_chon": {
+          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
+          "B": "Muốn đổi màu chữ nhưng giữ nguyên đường viền: cần chọn gì?",
+          "C": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
+          "D": "Đường bị gãy ở một điểm: cần sửa gì?"
+        },
+        "dap_an": "B",
+        "giai_thich": "Muốn đổi màu chữ nhưng giữ nguyên đường viền: cần chọn gì?"
+      },
+      {
+        "id": "T10-B14-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Phát biểu nào đúng về Căn chỉnh?",
+        "lua_chon": {
+          "A": "Căn chỉnh giúp các đối tượng thẳng hàng và bố cục cân đối.",
+          "B": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "D": "Nút xác định vị trí và dạng đoạn trên đường."
+        },
+        "dap_an": "A",
+        "giai_thich": "Căn chỉnh giúp các đối tượng thẳng hàng và bố cục cân đối."
+      },
+      {
+        "id": "T10-B14-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Các dòng tiêu đề lệch nhau: công cụ nào hỗ trợ?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "B": "Căn chỉnh đối tượng.",
+          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "D": "Nút xác định vị trí và dạng đoạn trên đường."
+        },
+        "dap_an": "B",
+        "giai_thich": "Căn chỉnh đối tượng."
+      },
+      {
+        "id": "T10-B14-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Căn chỉnh?",
+        "lua_chon": {
+          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
+          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
+          "C": "Các dòng tiêu đề lệch nhau: công cụ nào hỗ trợ?",
+          "D": "Đường bị gãy ở một điểm: cần sửa gì?"
+        },
+        "dap_an": "C",
+        "giai_thich": "Các dòng tiêu đề lệch nhau: công cụ nào hỗ trợ?"
+      },
+      {
+        "id": "T10-B14-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Làm việc với đối tượng đường và văn bản”?",
+        "lua_chon": {
+          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa. Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong. Văn bản trong hình đồ họa không thể đổi màu hoặc cỡ chữ.",
+          "C": "Chỉnh một nút trên đường luôn làm thay đổi mọi đối tượng khác. Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "D": "Văn bản trong hình đồ họa không thể đổi màu hoặc cỡ chữ. Chỉnh một nút trên đường luôn làm thay đổi mọi đối tượng khác."
+        },
+        "dap_an": "A",
+        "giai_thich": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa. Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T10-B14-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Xét tính đúng/sai về bài “Làm việc với đối tượng đường và văn bản”:",
+        "y_kien": {
+          "a": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
+          "b": "Văn bản trong hình đồ họa không thể đổi màu hoặc cỡ chữ.",
+          "c": "Nút xác định vị trí và dạng đoạn trên đường.",
+          "d": "Chỉnh một nút trên đường luôn làm thay đổi mọi đối tượng khác."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.; b sai: Văn bản trong hình đồ họa không thể đổi màu hoặc cỡ chữ.; c đúng: Nút xác định vị trí và dạng đoạn trên đường.; d sai: Chỉnh một nút trên đường luôn làm thay đổi mọi đối tượng khác.."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T10-B14-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Trình bày hai nội dung của bài: Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa. Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa. Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T10-B14-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
+        "noi_dung": "Giải thích và vận dụng nội dung “Nút xác định vị trí và dạng đoạn trên đường.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Nút xác định vị trí và dạng đoạn trên đường.” và nêu cách vận dụng phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      }
+    ]
+  }
+}
