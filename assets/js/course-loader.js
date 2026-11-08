@@ -4,6 +4,7 @@ const params = new URLSearchParams(location.search);
 const grade = String(params.get('grade') || '12');
 if (!['10','11','12'].includes(grade)) { location.replace('index.html'); return; }
 const app = document.getElementById('app');
+document.title = 'Tự học Tin học ' + grade;
 const load = src => new Promise((resolve,reject) => { const s=document.createElement('script'); s.src=src; s.onload=resolve; s.onerror=()=>reject(new Error(src)); document.head.append(s); });
 (async () => {
  try {
@@ -20,7 +21,7 @@ const load = src => new Promise((resolve,reject) => { const s=document.createEle
    await load('assets/js/supabase-cloud.js');
    await load('assets/js/teacher-dashboard.js');
  } catch (error) {
-   app.innerHTML = '<h1>Chưa tải được học liệu</h1><p>Hãy chạy bộ dựng dữ liệu cho cả ba khối rồi mở lại website.</p><p><a class="btn" href="index.html">Chọn khối khác</a></p>';
+   app.innerHTML = '<section class="load-error" role="alert"><h1>Chưa tải được học liệu khối ' + grade + '</h1><p>Hãy kiểm tra kết nối tới tệp dữ liệu, tải lại trang hoặc mở trang chọn khối để thử lại.</p><p><a class="btn pri" href="course.html?grade=' + grade + '">Tải lại khối này</a> <a class="btn" href="index.html">Chọn khối khác</a></p></section>';
    console.error(error);
  }
 })();
