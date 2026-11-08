@@ -38,8 +38,8 @@ def knowledge_blocks(md, fallback=""):
     if start < 0:
         raw = md
     else:
-        start = md.find("\\n", start) + 1
-        end = md.find("\\n```", start)
+        start = md.find("\n", start) + 1
+        end = md.find("\n```", start)
         raw = md[start:end if end >= 0 else len(md)]
 
     items = []
@@ -48,38 +48,38 @@ def knowledge_blocks(md, fallback=""):
         left = columns[0].strip()
         value = columns[1].strip() if len(columns) > 1 else ""
         if (not value or left.upper().startswith("HOẠT ĐỘNG")
-                or re.match(r"^(?:Câu\\s+\\d+|[A-D])$", left, re.I)
+                or re.match(r"^(?:Câu\s+\d+|[A-D])$", left, re.I)
                 or value.upper().startswith("NLS")
-                or re.match(r"^(?:Câu\\s+\\d+|[A-D])$", value, re.I)):
+                or re.match(r"^(?:Câu\s+\d+|[A-D])$", value, re.I)):
             continue
 
         cut = re.search(
-            r"Thực hành\\s+\\d+\\s*:|Luyện tập\\s+\\d+\\s*:|"
-            r"Vận dụng\\s+\\d+\\s*:|Câu hỏi củng cố|"
-            r"3\\.\\s*HOẠT ĐỘNG LUYỆN TẬP|"
-            r"\\r?\\nBước\\s+\\d+\\s*:\\s*GV|"
-            r"\\r?\\nHoạt động\\s+\\d+\\s*:", value, re.I)
+            r"Thực hành\s+\d+\s*:|Luyện tập\s+\d+\s*:|"
+            r"Vận dụng\s+\d+\s*:|Câu hỏi củng cố|"
+            r"3\.\s*HOẠT ĐỘNG LUYỆN TẬP|"
+            r"\r?\nBước\s+\d+\s*:\s*GV|"
+            r"\r?\nHoạt động\s+\d+\s*:", value, re.I)
         if cut:
             value = value[:cut.start()]
-        value = re.sub(r"^Nhiệm vụ\\s+\\d+\\s*:\\s*", "", value, flags=re.I).strip()
-        if not value or re.match(r"^(?:GV|HS thực hiện|Học sinh thực hiện)\\b", value, re.I):
+        value = re.sub(r"^Nhiệm vụ\s+\d+\s*:\s*", "", value, flags=re.I).strip()
+        if not value or re.match(r"^(?:GV|HS thực hiện|Học sinh thực hiện)\b", value, re.I):
             continue
 
-        if re.match(r"^\\d+\\.", value):
-            title_match = re.match(r"^\\d+\\.\\s*(.+?)(?=(?:[a-z]\\)\\s+)|(?:-\\s)|(?:\\+\\s)|$)", value, re.I)
+        if re.match(r"^\d+\.", value):
+            title_match = re.match(r"^\d+\.\s*(.+?)(?=(?:[a-z]\)\s+)|(?:-\s)|(?:\+\s)|$)", value, re.I)
             if title_match:
                 items.append({"x": "**" + title_match.group(1).strip() + "**"})
                 value = value[title_match.end():]
-        value = re.sub(r"(?<=[.!?])(?=[a-z]\\)\\s+)", "\\n", value)
-        value = re.sub(r"(?<=[.!?])(?=[A-ZÀ-Ỵ0-9])", "\\n", value)
-        for point in re.split(r"[-+]\\s+|\\n+", value):
-            point = re.sub(r"\\s+", " ", point).strip(" :;")
-            if point and not re.match(r"^(?:Bước\\s+\\d+|GV|HS thực hiện)\\b", point, re.I):
+        value = re.sub(r"(?<=[.!?])(?=[a-z]\)\s+)", "\n", value)
+        value = re.sub(r"(?<=[.!?])(?=[A-ZÀ-Ỵ0-9])", "\n", value)
+        for point in re.split(r"[-+]\s+|\n+", value):
+            point = re.sub(r"\s+", " ", point).strip(" :;")
+            if point and not re.match(r"^(?:Bước\s+\d+|GV|HS thực hiện)\b", point, re.I):
                 items.append({"x": point})
 
     # Long lesson-plan products contain worked exercises; use the KHBD's concise learning goals instead.
     if (not items or sum(len(item["x"]) for item in items) > 1000) and fallback:
-        items = [{"x": point.strip()} for point in re.split(r"\\n+", fallback) if point.strip()]
+        items = [{"x": point.strip()} for point in re.split(r"\n+", fallback) if point.strip()]
     if not items:
         raise AssertionError("No concise knowledge extracted from KHBD")
     return [{"t": "ul", "i": items}]
@@ -146,7 +146,7 @@ def build_grade(grade, expected):
         sec = {k: [] for k in SECTION_KEYS}
         if goals:
             sec["obj"] = [{"t": "ul", "i": [{"x": x} for x in goals]}]
-        sec["key"] = knowledge_blocks(md, "\\n".join(goals))
+        sec["key"] = knowledge_blocks(md, "\n".join(goals))
         if acts:
             sec["steps"] = [{"t": "ul", "i": [{"x": x} for x in acts]}]
         lessons_data = {"sec": sec, "terms": [], "txt": full_text, "src": str(path.relative_to(ROOT)).replace("\\", "/")}
