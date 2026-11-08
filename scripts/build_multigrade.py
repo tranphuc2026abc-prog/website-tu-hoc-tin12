@@ -148,13 +148,15 @@ def lesson_sections(md, title, goals, key):
 
     def student_facing(text):
         text = re.sub(r"^(?:Bước\s+\d+\s*:\s*)?(?:GV|HS|Học sinh)\b[^:]{0,100}:\s*", "", text, flags=re.I).strip()
+        if re.match(r"^(?:Bước\s+\d+|GV\b|HS\b|Học sinh\b|các HS\b|đại diện nhóm\b)", text, re.I):
+            return False
         return (len(text) >= 20 and len(text) <= 360
                 and not re.match(r"^(?:BÀI\s+\d+|CHỦ ĐỀ|Ngày soạn|Ngày dạy|I\. MỤC TIÊU|"
                                  r"II\. THIẾT BỊ|III\. TIẾN TRÌNH|HƯỚNG DẪN VỀ NHÀ|"
                                  r"Năng lực|Phẩm chất|[A-D]\.)", text, re.I)
                 and not re.match(r"^(?:Bước\s+\d+|Nhiệm vụ\s+\d+|Hoạt động\s+\d+)", text, re.I)
                 and not re.match(r"^(?:HS\b|GV\b|Học sinh\b|Năng lực\b|\d\.\d\.NC\d+[a-z]?:)", text, re.I)
-                and not re.search(r"\b(?:GV yêu cầu|GV tổ chức|GV gọi|GV nhận xét|GV chữa|GV hướng dẫn|HS đọc|HS thực hiện|HS thảo luận|HS chú ý|HS quan sát|HS hoạt động|các HS khác|đại diện nhóm|học sinh hoạt động nhóm)\b", text, re.I)
+                and not re.search(r"\b(?:GV\s+(?:yêu cầu|tổ chức|gọi|nhận xét|chữa|hướng dẫn|quan sát|đánh giá)|HS\s+(?:đọc|thực hiện|thảo luận|chú ý|quan sát|hoạt động|theo dõi|sử dụng|hoàn thành|trình bày|trả lời)|các HS|đại diện nhóm|học sinh hoạt động nhóm)\b", text, re.I)
                 and not re.search(r"\b(?:Bước\s+\d+|Hướng dẫn về nhà|mục tiêu|nội dung|tổ chức thực hiện|sản phẩm dự kiến)\b", text[:100], re.I))
 
     term_pairs, seen_terms = [], set()
@@ -164,7 +166,7 @@ def lesson_sections(md, title, goals, key):
         norm = re.sub(r"[^\w]+", "", term.lower())
         if (len(term) < 2 or len(term) > 80 or len(term.split()) > 12
                 or len(definition) < 8 or norm in seen_terms
-                or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)\b", term, re.I)):
+                or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy|hình\s+\d+|câu hỏi|câu\s+\d+|hoạt động|nhiệm vụ)\b", term, re.I)):
             return
         seen_terms.add(norm)
         term_pairs.append({"t": term, "d": definition[:300].rstrip()})
