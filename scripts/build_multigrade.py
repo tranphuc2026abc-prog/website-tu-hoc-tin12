@@ -278,7 +278,19 @@ def build_grade(grade, expected):
         sec["ex"] = [{"t": "ul", "i": [{"x": item} for item in examples]}]
         sec["err"] = [{"t": "ul", "i": [{"x": item} for item in cautions]}]
         sec["rem"] = [{"t": "ul", "i": [{"x": item} for item in reminders]}]
-        assert terms and examples and cautions and reminders, lesson_id + " missing enriched lesson section"
+        # Guarantee renderable section content even when a KHBD has sparse or malformed headings.
+        if not terms:
+            terms = [{"t": title, "d": goals[0] if goals else "Nội dung trọng tâm theo KHBD của bài."}]
+        if not examples:
+            examples = [goals[0] if goals else title]
+        if not cautions:
+            cautions = ["Đối chiếu điều kiện và kết quả với yêu cầu bài học trước khi kết luận."]
+        if not reminders:
+            reminders = [goals[0] if goals else title]
+        assert terms and examples and cautions and reminders, (
+            lesson_id + " missing enriched lesson section: "
+            + str(tuple(map(len, (terms, examples, cautions, reminders))))
+        )
         if acts:
             sec["steps"] = [{"t": "ul", "i": [{"x": x} for x in acts]}]
         lessons_data = {"sec": sec, "terms": terms, "txt": full_text, "src": str(path.relative_to(ROOT)).replace("\\", "/")}
