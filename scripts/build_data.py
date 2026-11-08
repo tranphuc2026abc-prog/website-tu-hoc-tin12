@@ -2,6 +2,7 @@
 """Doc ho so nguon (CSV + KHO_KIEN_THUC + NGAN_HANG_CAU_HOI) -> data/*.js
 Chay: python scripts/build_data.py nguon"""
 import csv, hashlib, json, re, sys, os, unicodedata
+from pathlib import Path
 SRC = sys.argv[1] if len(sys.argv) > 1 else 'nguon'
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 rd = lambda f: open(os.path.join(SRC, f), encoding='utf-8').read()
