@@ -3,6 +3,9 @@
 import json, re, sys
 from pathlib import Path
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='backslashreplace')
+
 ROOT = Path(__file__).resolve().parents[1]
 SRC = Path(sys.argv[1] if len(sys.argv) > 1 else ROOT / "nguon").resolve()
 OUT = ROOT / "data"
