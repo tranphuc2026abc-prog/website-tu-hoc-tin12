@@ -59,37 +59,40 @@ def content_signature(value):
     value = ''.join(c for c in value if unicodedata.category(c) != 'Mn')
     return re.sub(r'\s+', ' ', value).strip()
 
+def node_signature(node):
+    return content_signature(node.get('x', '')) + '[' + '|'.join(
+        node_signature(child) for child in node.get('c', [])) + ']'
+
+def dedupe_nodes(source):
+    out, seen = [], set()
+    for raw in source:
+        node = dict(raw)
+        if raw.get('c'):
+            node['c'] = dedupe_nodes(raw['c'])
+        signature = node_signature(node)
+        if signature not in seen:
+            seen.add(signature)
+            out.append(node)
+    return out
+
 def dedupe_blocks(source):
     """Remove only identical text items within one lesson section; keep distinct wording."""
-    out, seen_blocks = [], set()
+    out, seen = [], set()
     for block in source:
         item = dict(block)
         if block.get('t') == 'ul':
-            children, seen_items = [], set()
-            for raw in block.get('i', []):
-                node = dict(raw)
-                nested = dedupe_blocks([{'t': 'ul', 'i': raw.get('c', [])}])[0]['i'] if raw.get('c') else []
-                if nested:
-                    node['c'] = nested
-                signature = content_signature(node.get('x', '')) + '|' + '|'.join(
-                    content_signature(x.get('x', '')) for x in nested)
-                if signature in seen_items:
-                    continue
-                seen_items.add(signature)
-                children.append(node)
-            item['i'] = children
-            sig = 'ul:' + '|'.join(content_signature(x.get('x', '')) for x in children)
+            item['i'] = dedupe_nodes(block.get('i', []))
+            sig = 'ul:' + '|'.join(node_signature(x) for x in item['i'])
         elif block.get('t') in ('p', 'code'):
             sig = block.get('t', '') + ':' + content_signature(block.get('x', ''))
         elif block.get('t') == 'tb':
             sig = 'tb:' + '|'.join(content_signature(c) for row in block.get('r', []) for c in row)
         else:
             sig = json.dumps(block, ensure_ascii=False, sort_keys=True)
-        if sig and sig not in seen_blocks:
-            seen_blocks.add(sig)
+        if sig and sig not in seen:
+            seen.add(sig)
             out.append(item)
     return out
-
 
 rows = list(csv.DictReader(open(os.path.join(SRC, 'MUC_LUC_BAI_HOC.csv'), encoding='utf-8-sig')))
 assert len(rows) == 28 and len({r['Ma_Bai'] for r in rows}) == 28, 'Danh muc phai co 28 bai khong trung ma'
