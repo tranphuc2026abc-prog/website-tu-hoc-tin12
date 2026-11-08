@@ -24,622 +24,400 @@
     "trac_nghiem": [
       {
         "id": "T10-B32-MC-001",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 1?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "D",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Biến lưu giá trị và phép gán cập nhật giá trị.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 1?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "if lựa chọn nhánh theo điều kiện.",
+          "D": "Vòng lặp thực hiện lại một nhóm lệnh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Biến lưu giá trị và phép gán cập nhật giá trị."
       },
       {
         "id": "T10-B32-MC-002",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Biến lưu giá trị và phép gán cập nhật giá trị.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "B",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "C",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "D",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Biến lưu giá trị và phép gán cập nhật giá trị.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Biến lưu giá trị và phép gán cập nhật giá trị.",
+        "lua_chon": {
+          "A": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "B": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "C": "if lựa chọn nhánh theo điều kiện.",
+          "D": "Vòng lặp thực hiện lại một nhóm lệnh."
+        },
+        "dap_an": "B",
+        "giai_thich": "Biến lưu giá trị và phép gán cập nhật giá trị."
       },
       {
         "id": "T10-B32-MC-003",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 1?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "B",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "C",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Biến lưu giá trị và phép gán cập nhật giá trị.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 1?",
+        "lua_chon": {
+          "A": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "B": "if lựa chọn nhánh theo điều kiện.",
+          "C": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "D": "Vòng lặp thực hiện lại một nhóm lệnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Biến lưu giá trị và phép gán cập nhật giá trị."
       },
       {
         "id": "T10-B32-MC-004",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 2?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "D",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 2?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "if lựa chọn nhánh theo điều kiện.",
+          "D": "Vòng lặp thực hiện lại một nhóm lệnh."
+        },
+        "dap_an": "B",
+        "giai_thich": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
       },
       {
         "id": "T10-B32-MC-005",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "C",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "D",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "if lựa chọn nhánh theo điều kiện.",
+          "C": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "D": "Vòng lặp thực hiện lại một nhóm lệnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
       },
       {
         "id": "T10-B32-MC-006",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 2?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "C",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          },
-          {
-            "id": "D",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 2?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "if lựa chọn nhánh theo điều kiện.",
+          "C": "Vòng lặp thực hiện lại một nhóm lệnh.",
+          "D": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
+        },
+        "dap_an": "D",
+        "giai_thich": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
       },
       {
         "id": "T10-B32-MC-007",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 3?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "D",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          }
-        ],
-        "answer": "C",
-        "explanation": "if lựa chọn nhánh theo điều kiện.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 3?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "if lựa chọn nhánh theo điều kiện.",
+          "D": "Vòng lặp thực hiện lại một nhóm lệnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "if lựa chọn nhánh theo điều kiện."
       },
       {
         "id": "T10-B32-MC-008",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: if lựa chọn nhánh theo điều kiện.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "D",
-        "explanation": "if lựa chọn nhánh theo điều kiện.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: if lựa chọn nhánh theo điều kiện.",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "Vòng lặp thực hiện lại một nhóm lệnh.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "D",
+        "giai_thich": "if lựa chọn nhánh theo điều kiện."
       },
       {
         "id": "T10-B32-MC-009",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 3?",
-        "options": [
-          {
-            "id": "A",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "B",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "C",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "D",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          }
-        ],
-        "answer": "A",
-        "explanation": "if lựa chọn nhánh theo điều kiện.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 3?",
+        "lua_chon": {
+          "A": "if lựa chọn nhánh theo điều kiện.",
+          "B": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "C": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "D": "Vòng lặp thực hiện lại một nhóm lệnh."
+        },
+        "dap_an": "A",
+        "giai_thich": "if lựa chọn nhánh theo điều kiện."
       },
       {
         "id": "T10-B32-MC-010",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 4?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "D",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Vòng lặp thực hiện lại một nhóm lệnh.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 4?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "if lựa chọn nhánh theo điều kiện.",
+          "D": "Vòng lặp thực hiện lại một nhóm lệnh."
+        },
+        "dap_an": "D",
+        "giai_thich": "Vòng lặp thực hiện lại một nhóm lệnh."
       },
       {
         "id": "T10-B32-MC-011",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Vòng lặp thực hiện lại một nhóm lệnh.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          },
-          {
-            "id": "B",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "C",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Vòng lặp thực hiện lại một nhóm lệnh.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Vòng lặp thực hiện lại một nhóm lệnh.",
+        "lua_chon": {
+          "A": "Vòng lặp thực hiện lại một nhóm lệnh.",
+          "B": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "C": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "A",
+        "giai_thich": "Vòng lặp thực hiện lại một nhóm lệnh."
       },
       {
         "id": "T10-B32-MC-012",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 4?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Vòng lặp thực hiện lại một nhóm lệnh."
-          },
-          {
-            "id": "C",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Vòng lặp thực hiện lại một nhóm lệnh.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 4?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Vòng lặp thực hiện lại một nhóm lệnh.",
+          "C": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "B",
+        "giai_thich": "Vòng lặp thực hiện lại một nhóm lệnh."
       },
       {
         "id": "T10-B32-MC-013",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 5?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Danh sách lưu dãy phần tử có thứ tự."
-          },
-          {
-            "id": "B",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "C",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Danh sách lưu dãy phần tử có thứ tự.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 5?",
+        "lua_chon": {
+          "A": "Danh sách lưu dãy phần tử có thứ tự.",
+          "B": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "C": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "A",
+        "giai_thich": "Danh sách lưu dãy phần tử có thứ tự."
       },
       {
         "id": "T10-B32-MC-014",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Danh sách lưu dãy phần tử có thứ tự.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Danh sách lưu dãy phần tử có thứ tự."
-          },
-          {
-            "id": "C",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Danh sách lưu dãy phần tử có thứ tự.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Danh sách lưu dãy phần tử có thứ tự.",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Danh sách lưu dãy phần tử có thứ tự.",
+          "C": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "B",
+        "giai_thich": "Danh sách lưu dãy phần tử có thứ tự."
       },
       {
         "id": "T10-B32-MC-015",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 5?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "Danh sách lưu dãy phần tử có thứ tự."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Danh sách lưu dãy phần tử có thứ tự.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 5?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "Danh sách lưu dãy phần tử có thứ tự.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "C",
+        "giai_thich": "Danh sách lưu dãy phần tử có thứ tự."
       },
       {
         "id": "T10-B32-MC-016",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 6?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Hàm đóng gói nhóm lệnh để gọi lại."
-          },
-          {
-            "id": "C",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Hàm đóng gói nhóm lệnh để gọi lại.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 6?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Hàm đóng gói nhóm lệnh để gọi lại.",
+          "C": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "B",
+        "giai_thich": "Hàm đóng gói nhóm lệnh để gọi lại."
       },
       {
         "id": "T10-B32-MC-017",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Hàm đóng gói nhóm lệnh để gọi lại.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "Hàm đóng gói nhóm lệnh để gọi lại."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Hàm đóng gói nhóm lệnh để gọi lại.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Hàm đóng gói nhóm lệnh để gọi lại.",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "Hàm đóng gói nhóm lệnh để gọi lại.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "C",
+        "giai_thich": "Hàm đóng gói nhóm lệnh để gọi lại."
       },
       {
         "id": "T10-B32-MC-018",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 6?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "D",
-            "text": "Hàm đóng gói nhóm lệnh để gọi lại."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Hàm đóng gói nhóm lệnh để gọi lại.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 6?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "if lựa chọn nhánh theo điều kiện.",
+          "D": "Hàm đóng gói nhóm lệnh để gọi lại."
+        },
+        "dap_an": "D",
+        "giai_thich": "Hàm đóng gói nhóm lệnh để gọi lại."
       },
       {
         "id": "T10-B32-MC-019",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 7?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "Kiểm thử đối chiếu kết quả với mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Kiểm thử đối chiếu kết quả với mong đợi.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 7?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "Kiểm thử đối chiếu kết quả với mong đợi.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "C",
+        "giai_thich": "Kiểm thử đối chiếu kết quả với mong đợi."
       },
       {
         "id": "T10-B32-MC-020",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Kiểm thử đối chiếu kết quả với mong đợi.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "C",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          },
-          {
-            "id": "D",
-            "text": "Kiểm thử đối chiếu kết quả với mong đợi."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Kiểm thử đối chiếu kết quả với mong đợi.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Kiểm thử đối chiếu kết quả với mong đợi.",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "C": "if lựa chọn nhánh theo điều kiện.",
+          "D": "Kiểm thử đối chiếu kết quả với mong đợi."
+        },
+        "dap_an": "D",
+        "giai_thich": "Kiểm thử đối chiếu kết quả với mong đợi."
       },
       {
         "id": "T10-B32-MC-021",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 7?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử đối chiếu kết quả với mong đợi."
-          },
-          {
-            "id": "B",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "C",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "D",
-            "text": "if lựa chọn nhánh theo điều kiện."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Kiểm thử đối chiếu kết quả với mong đợi.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 7?",
+        "lua_chon": {
+          "A": "Kiểm thử đối chiếu kết quả với mong đợi.",
+          "B": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "C": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "D": "if lựa chọn nhánh theo điều kiện."
+        },
+        "dap_an": "A",
+        "giai_thich": "Kiểm thử đối chiếu kết quả với mong đợi."
       },
       {
         "id": "T10-B32-MC-022",
-        "type": "mcq",
-        "question": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Ôn tập lập trình Python”?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Biến lưu giá trị và phép gán cập nhật giá trị. Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
-          },
-          {
-            "id": "B",
-            "text": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp. Python không có biến, rẽ nhánh hoặc vòng lặp."
-          },
-          {
-            "id": "C",
-            "text": "Kiểm thử không cần so sánh với kết quả mong đợi. Biến lưu giá trị và phép gán cập nhật giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Python không có biến, rẽ nhánh hoặc vòng lặp. Kiểm thử không cần so sánh với kết quả mong đợi."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Biến lưu giá trị và phép gán cập nhật giá trị. Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Ôn tập lập trình Python”?",
+        "lua_chon": {
+          "A": "Biến lưu giá trị và phép gán cập nhật giá trị. Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+          "B": "Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp. Python không có biến, rẽ nhánh hoặc vòng lặp.",
+          "C": "Kiểm thử không cần so sánh với kết quả mong đợi. Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "D": "Python không có biến, rẽ nhánh hoặc vòng lặp. Kiểm thử không cần so sánh với kết quả mong đợi."
+        },
+        "dap_an": "A",
+        "giai_thich": "Biến lưu giá trị và phép gán cập nhật giá trị. Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp."
       }
     ],
     "dung_sai": [
       {
         "id": "T10-B32-TF-001",
-        "type": "true_false",
-        "question": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Ôn tập lập trình Python”.",
-        "statements": [
-          {
-            "id": "a",
-            "statement": "Biến lưu giá trị và phép gán cập nhật giá trị.",
-            "answer": true
-          },
-          {
-            "id": "b",
-            "statement": "Python không có biến, rẽ nhánh hoặc vòng lặp.",
-            "answer": false
-          },
-          {
-            "id": "c",
-            "statement": "if lựa chọn nhánh theo điều kiện.",
-            "answer": true
-          },
-          {
-            "id": "d",
-            "statement": "Kiểm thử không cần so sánh với kết quả mong đợi.",
-            "answer": false
-          }
-        ],
-        "explanation": "a đúng: Biến lưu giá trị và phép gán cập nhật giá trị. b sai: Python không có biến, rẽ nhánh hoặc vòng lặp. c đúng: if lựa chọn nhánh theo điều kiện. d sai: Kiểm thử không cần so sánh với kết quả mong đợi.",
-        "muc_do": "thong_hieu"
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Ôn tập lập trình Python”.",
+        "y_kien": {
+          "a": "Biến lưu giá trị và phép gán cập nhật giá trị.",
+          "b": "Python không có biến, rẽ nhánh hoặc vòng lặp.",
+          "c": "if lựa chọn nhánh theo điều kiện.",
+          "d": "Kiểm thử không cần so sánh với kết quả mong đợi."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Biến lưu giá trị và phép gán cập nhật giá trị. b sai: Python không có biến, rẽ nhánh hoặc vòng lặp. c đúng: if lựa chọn nhánh theo điều kiện. d sai: Kiểm thử không cần so sánh với kết quả mong đợi."
       }
     ],
     "tu_luan": [
       {
         "id": "T10-B32-TL-001",
-        "type": "essay",
-        "question": "Trình bày hai nội dung sau trong bài “Ôn tập lập trình Python”: Biến lưu giá trị và phép gán cập nhật giá trị. Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
-        "answer_guide": "Nêu đúng hai ý: Biến lưu giá trị và phép gán cập nhật giá trị. Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
-        "muc_do": "thong_hieu"
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Trình bày hai nội dung sau trong bài “Ôn tập lập trình Python”: Biến lưu giá trị và phép gán cập nhật giá trị. Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Biến lưu giá trị và phép gán cập nhật giá trị. Kiểu dữ liệu xác định dạng giá trị và thao tác phù hợp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
       {
         "id": "T10-B32-TL-002",
-        "type": "essay",
-        "question": "Giải thích cách vận dụng nội dung “if lựa chọn nhánh theo điều kiện.” trong một tình huống học tập hoặc thực tế.",
-        "answer_guide": "Cần giải thích đúng ý “if lựa chọn nhánh theo điều kiện.” và liên hệ phù hợp với bài “Ôn tập lập trình Python”.",
-        "muc_do": "van_dung"
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 32 - Ôn tập lập trình Python",
+        "noi_dung": "Giải thích cách vận dụng nội dung “if lựa chọn nhánh theo điều kiện.” trong một tình huống học tập hoặc thực tế.",
+        "dap_an_goi_y": "Cần giải thích đúng ý “if lựa chọn nhánh theo điều kiện.” và liên hệ phù hợp với bài “Ôn tập lập trình Python”.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]
   }

@@ -24,622 +24,400 @@
     "trac_nghiem": [
       {
         "id": "T10-B30-MC-001",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 1?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "B",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "C",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "D",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 1?",
+        "lua_chon": {
+          "A": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "B": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "C": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
+        },
+        "dap_an": "C",
+        "giai_thich": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
       },
       {
         "id": "T10-B30-MC-002",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "B",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "C",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          },
-          {
-            "id": "D",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+        "lua_chon": {
+          "A": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "B": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "C": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
+          "D": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
+        },
+        "dap_an": "D",
+        "giai_thich": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
       },
       {
         "id": "T10-B30-MC-003",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 1?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 1?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
+        },
+        "dap_an": "A",
+        "giai_thich": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
       },
       {
         "id": "T10-B30-MC-004",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 2?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "C",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          },
-          {
-            "id": "D",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 2?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "C": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
+          "D": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
+        },
+        "dap_an": "D",
+        "giai_thich": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
       },
       {
         "id": "T10-B30-MC-005",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "B",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "C",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+        "lua_chon": {
+          "A": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
+        },
+        "dap_an": "A",
+        "giai_thich": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
       },
       {
         "id": "T10-B30-MC-006",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 2?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 2?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
+        },
+        "dap_an": "B",
+        "giai_thich": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
       },
       {
         "id": "T10-B30-MC-007",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 3?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "B",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "C",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 3?",
+        "lua_chon": {
+          "A": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
+        },
+        "dap_an": "A",
+        "giai_thich": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
       },
       {
         "id": "T10-B30-MC-008",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "C",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
+        },
+        "dap_an": "B",
+        "giai_thich": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
       },
       {
         "id": "T10-B30-MC-009",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 3?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 3?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
+        },
+        "dap_an": "C",
+        "giai_thich": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
       },
       {
         "id": "T10-B30-MC-010",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 4?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          },
-          {
-            "id": "C",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 4?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
+          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
       },
       {
         "id": "T10-B30-MC-011",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "C",
+        "giai_thich": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
       },
       {
         "id": "T10-B30-MC-012",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 4?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 4?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
+        },
+        "dap_an": "D",
+        "giai_thich": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
       },
       {
         "id": "T10-B30-MC-013",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 5?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 5?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "C",
+        "giai_thich": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
       },
       {
         "id": "T10-B30-MC-014",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "D": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
+        },
+        "dap_an": "D",
+        "giai_thich": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
       },
       {
         "id": "T10-B30-MC-015",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 5?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
-          },
-          {
-            "id": "B",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "C",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 5?",
+        "lua_chon": {
+          "A": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
+          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "A",
+        "giai_thich": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
       },
       {
         "id": "T10-B30-MC-016",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 6?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          },
-          {
-            "id": "D",
-            "text": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 6?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "D": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
+        },
+        "dap_an": "D",
+        "giai_thich": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
       },
       {
         "id": "T10-B30-MC-017",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "C",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
+        "lua_chon": {
+          "A": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
+          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "A",
+        "giai_thich": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
       },
       {
         "id": "T10-B30-MC-018",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 6?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
-          },
-          {
-            "id": "C",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 6?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
+          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
       },
       {
         "id": "T10-B30-MC-019",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 7?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Sau khi sửa cần chạy lại các ca kiểm thử."
-          },
-          {
-            "id": "B",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "C",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Sau khi sửa cần chạy lại các ca kiểm thử.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 7?",
+        "lua_chon": {
+          "A": "Sau khi sửa cần chạy lại các ca kiểm thử.",
+          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "A",
+        "giai_thich": "Sau khi sửa cần chạy lại các ca kiểm thử."
       },
       {
         "id": "T10-B30-MC-020",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Sau khi sửa cần chạy lại các ca kiểm thử.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Sau khi sửa cần chạy lại các ca kiểm thử."
-          },
-          {
-            "id": "C",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Sau khi sửa cần chạy lại các ca kiểm thử.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Sau khi sửa cần chạy lại các ca kiểm thử.",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Sau khi sửa cần chạy lại các ca kiểm thử.",
+          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Sau khi sửa cần chạy lại các ca kiểm thử."
       },
       {
         "id": "T10-B30-MC-021",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 7?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Sau khi sửa cần chạy lại các ca kiểm thử."
-          },
-          {
-            "id": "D",
-            "text": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Sau khi sửa cần chạy lại các ca kiểm thử.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 7?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "C": "Sau khi sửa cần chạy lại các ca kiểm thử.",
+          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
+        },
+        "dap_an": "C",
+        "giai_thich": "Sau khi sửa cần chạy lại các ca kiểm thử."
       },
       {
         "id": "T10-B30-MC-022",
-        "type": "mcq",
-        "question": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Kiểm thử và gỡ lỗi chương trình”?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-          },
-          {
-            "id": "B",
-            "text": "Ca kiểm thử gồm đầu vào và kết quả mong đợi. Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Sau khi sửa lỗi không cần chạy lại chương trình. Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-          },
-          {
-            "id": "D",
-            "text": "Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi. Sau khi sửa lỗi không cần chạy lại chương trình."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Kiểm thử và gỡ lỗi chương trình”?",
+        "lua_chon": {
+          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi. Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi.",
+          "C": "Sau khi sửa lỗi không cần chạy lại chương trình. Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "D": "Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi. Sau khi sửa lỗi không cần chạy lại chương trình."
+        },
+        "dap_an": "A",
+        "giai_thich": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi."
       }
     ],
     "dung_sai": [
       {
         "id": "T10-B30-TF-001",
-        "type": "true_false",
-        "question": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Kiểm thử và gỡ lỗi chương trình”.",
-        "statements": [
-          {
-            "id": "a",
-            "statement": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-            "answer": true
-          },
-          {
-            "id": "b",
-            "statement": "Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi.",
-            "answer": false
-          },
-          {
-            "id": "c",
-            "statement": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-            "answer": true
-          },
-          {
-            "id": "d",
-            "statement": "Sau khi sửa lỗi không cần chạy lại chương trình.",
-            "answer": false
-          }
-        ],
-        "explanation": "a đúng: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. b sai: Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi. c đúng: Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị. d sai: Sau khi sửa lỗi không cần chạy lại chương trình.",
-        "muc_do": "thong_hieu"
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Kiểm thử và gỡ lỗi chương trình”.",
+        "y_kien": {
+          "a": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
+          "b": "Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi.",
+          "c": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
+          "d": "Sau khi sửa lỗi không cần chạy lại chương trình."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. b sai: Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi. c đúng: Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị. d sai: Sau khi sửa lỗi không cần chạy lại chương trình."
       }
     ],
     "tu_luan": [
       {
         "id": "T10-B30-TL-001",
-        "type": "essay",
-        "question": "Trình bày hai nội dung sau trong bài “Kiểm thử và gỡ lỗi chương trình”: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "answer_guide": "Nêu đúng hai ý: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "muc_do": "thong_hieu"
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Trình bày hai nội dung sau trong bài “Kiểm thử và gỡ lỗi chương trình”: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
       {
         "id": "T10-B30-TL-002",
-        "type": "essay",
-        "question": "Giải thích cách vận dụng nội dung “Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.” trong một tình huống học tập hoặc thực tế.",
-        "answer_guide": "Cần giải thích đúng ý “Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.” và liên hệ phù hợp với bài “Kiểm thử và gỡ lỗi chương trình”.",
-        "muc_do": "van_dung"
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
+        "noi_dung": "Giải thích cách vận dụng nội dung “Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.” trong một tình huống học tập hoặc thực tế.",
+        "dap_an_goi_y": "Cần giải thích đúng ý “Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.” và liên hệ phù hợp với bài “Kiểm thử và gỡ lỗi chương trình”.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]
   }

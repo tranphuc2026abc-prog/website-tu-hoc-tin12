@@ -24,622 +24,400 @@
     "trac_nghiem": [
       {
         "id": "T10-B31-MC-001",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 1?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "B",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "C",
-            "text": "Chạy chương trình để quan sát kết quả."
-          },
-          {
-            "id": "D",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 1?",
+        "lua_chon": {
+          "A": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "B": "Viết thuật toán thành câu lệnh Python.",
+          "C": "Chạy chương trình để quan sát kết quả.",
+          "D": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
+        },
+        "dap_an": "D",
+        "giai_thich": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
       },
       {
         "id": "T10-B31-MC-002",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "D",
-            "text": "Chạy chương trình để quan sát kết quả."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Viết thuật toán thành câu lệnh Python.",
+          "D": "Chạy chương trình để quan sát kết quả."
+        },
+        "dap_an": "A",
+        "giai_thich": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
       },
       {
         "id": "T10-B31-MC-003",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 1?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "B",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "C",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "D",
-            "text": "Chạy chương trình để quan sát kết quả."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 1?",
+        "lua_chon": {
+          "A": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "B": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "C": "Viết thuật toán thành câu lệnh Python.",
+          "D": "Chạy chương trình để quan sát kết quả."
+        },
+        "dap_an": "B",
+        "giai_thich": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
       },
       {
         "id": "T10-B31-MC-004",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 2?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "B",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "C",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "D",
-            "text": "Chạy chương trình để quan sát kết quả."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Chia nhỏ bài toán thành các bước dễ quản lí.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 2?",
+        "lua_chon": {
+          "A": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "B": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "C": "Viết thuật toán thành câu lệnh Python.",
+          "D": "Chạy chương trình để quan sát kết quả."
+        },
+        "dap_an": "A",
+        "giai_thich": "Chia nhỏ bài toán thành các bước dễ quản lí."
       },
       {
         "id": "T10-B31-MC-005",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Chia nhỏ bài toán thành các bước dễ quản lí.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "D",
-            "text": "Chạy chương trình để quan sát kết quả."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Chia nhỏ bài toán thành các bước dễ quản lí.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Chia nhỏ bài toán thành các bước dễ quản lí.",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Viết thuật toán thành câu lệnh Python.",
+          "D": "Chạy chương trình để quan sát kết quả."
+        },
+        "dap_an": "B",
+        "giai_thich": "Chia nhỏ bài toán thành các bước dễ quản lí."
       },
       {
         "id": "T10-B31-MC-006",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 2?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "C",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "D",
-            "text": "Chạy chương trình để quan sát kết quả."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Chia nhỏ bài toán thành các bước dễ quản lí.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 2?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Viết thuật toán thành câu lệnh Python.",
+          "C": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "D": "Chạy chương trình để quan sát kết quả."
+        },
+        "dap_an": "C",
+        "giai_thich": "Chia nhỏ bài toán thành các bước dễ quản lí."
       },
       {
         "id": "T10-B31-MC-007",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 3?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "C",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "D",
-            "text": "Chạy chương trình để quan sát kết quả."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Viết thuật toán thành câu lệnh Python.",
-        "muc_do": "nhan_biet"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 3?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Viết thuật toán thành câu lệnh Python.",
+          "C": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "D": "Chạy chương trình để quan sát kết quả."
+        },
+        "dap_an": "B",
+        "giai_thich": "Viết thuật toán thành câu lệnh Python."
       },
       {
         "id": "T10-B31-MC-008",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Viết thuật toán thành câu lệnh Python.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "D",
-            "text": "Chạy chương trình để quan sát kết quả."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Viết thuật toán thành câu lệnh Python.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Viết thuật toán thành câu lệnh Python.",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Viết thuật toán thành câu lệnh Python.",
+          "D": "Chạy chương trình để quan sát kết quả."
+        },
+        "dap_an": "C",
+        "giai_thich": "Viết thuật toán thành câu lệnh Python."
       },
       {
         "id": "T10-B31-MC-009",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 3?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Chạy chương trình để quan sát kết quả."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Viết thuật toán thành câu lệnh Python.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 3?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Chạy chương trình để quan sát kết quả.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "D",
+        "giai_thich": "Viết thuật toán thành câu lệnh Python."
       },
       {
         "id": "T10-B31-MC-010",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 4?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Chạy chương trình để quan sát kết quả."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Chạy chương trình để quan sát kết quả.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 4?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Chạy chương trình để quan sát kết quả.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "C",
+        "giai_thich": "Chạy chương trình để quan sát kết quả."
       },
       {
         "id": "T10-B31-MC-011",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Chạy chương trình để quan sát kết quả.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "D",
-            "text": "Chạy chương trình để quan sát kết quả."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Chạy chương trình để quan sát kết quả.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Chạy chương trình để quan sát kết quả.",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Viết thuật toán thành câu lệnh Python.",
+          "D": "Chạy chương trình để quan sát kết quả."
+        },
+        "dap_an": "D",
+        "giai_thich": "Chạy chương trình để quan sát kết quả."
       },
       {
         "id": "T10-B31-MC-012",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 4?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Chạy chương trình để quan sát kết quả."
-          },
-          {
-            "id": "B",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "C",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Chạy chương trình để quan sát kết quả.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 4?",
+        "lua_chon": {
+          "A": "Chạy chương trình để quan sát kết quả.",
+          "B": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "C": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "A",
+        "giai_thich": "Chạy chương trình để quan sát kết quả."
       },
       {
         "id": "T10-B31-MC-013",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 5?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "D",
-            "text": "Đối chiếu kết quả thực tế với kết quả mong đợi."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Đối chiếu kết quả thực tế với kết quả mong đợi.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 5?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Viết thuật toán thành câu lệnh Python.",
+          "D": "Đối chiếu kết quả thực tế với kết quả mong đợi."
+        },
+        "dap_an": "D",
+        "giai_thich": "Đối chiếu kết quả thực tế với kết quả mong đợi."
       },
       {
         "id": "T10-B31-MC-014",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Đối chiếu kết quả thực tế với kết quả mong đợi.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Đối chiếu kết quả thực tế với kết quả mong đợi."
-          },
-          {
-            "id": "B",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "C",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Đối chiếu kết quả thực tế với kết quả mong đợi.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Đối chiếu kết quả thực tế với kết quả mong đợi.",
+        "lua_chon": {
+          "A": "Đối chiếu kết quả thực tế với kết quả mong đợi.",
+          "B": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "C": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "A",
+        "giai_thich": "Đối chiếu kết quả thực tế với kết quả mong đợi."
       },
       {
         "id": "T10-B31-MC-015",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 5?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Đối chiếu kết quả thực tế với kết quả mong đợi."
-          },
-          {
-            "id": "C",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Đối chiếu kết quả thực tế với kết quả mong đợi.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 5?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Đối chiếu kết quả thực tế với kết quả mong đợi.",
+          "C": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "B",
+        "giai_thich": "Đối chiếu kết quả thực tế với kết quả mong đợi."
       },
       {
         "id": "T10-B31-MC-016",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 6?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu."
-          },
-          {
-            "id": "B",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "C",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 6?",
+        "lua_chon": {
+          "A": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu.",
+          "B": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "C": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "A",
+        "giai_thich": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu."
       },
       {
         "id": "T10-B31-MC-017",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Sai khác báo hiệu cần kiểm tra mã và dữ liệu.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu."
-          },
-          {
-            "id": "C",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Sai khác báo hiệu cần kiểm tra mã và dữ liệu.",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu.",
+          "C": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "B",
+        "giai_thich": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu."
       },
       {
         "id": "T10-B31-MC-018",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 6?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 6?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "C",
+        "giai_thich": "Sai khác báo hiệu cần kiểm tra mã và dữ liệu."
       },
       {
         "id": "T10-B31-MC-019",
-        "type": "mcq",
-        "question": "Phát biểu nào đúng về Nội dung 7?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng."
-          },
-          {
-            "id": "C",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "B",
-        "explanation": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Phát biểu nào đúng về Nội dung 7?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng.",
+          "C": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "B",
+        "giai_thich": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng."
       },
       {
         "id": "T10-B31-MC-020",
-        "type": "mcq",
-        "question": "Nhận định nào phù hợp với nội dung: Hoàn thiện sản phẩm sau khi xác nhận chạy đúng.",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng."
-          },
-          {
-            "id": "D",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          }
-        ],
-        "answer": "C",
-        "explanation": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Nhận định nào phù hợp với nội dung: Hoàn thiện sản phẩm sau khi xác nhận chạy đúng.",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng.",
+          "D": "Viết thuật toán thành câu lệnh Python."
+        },
+        "dap_an": "C",
+        "giai_thich": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng."
       },
       {
         "id": "T10-B31-MC-021",
-        "type": "mcq",
-        "question": "Tình huống nào minh họa phù hợp cho Nội dung 7?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "C",
-            "text": "Viết thuật toán thành câu lệnh Python."
-          },
-          {
-            "id": "D",
-            "text": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng."
-          }
-        ],
-        "answer": "D",
-        "explanation": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng.",
-        "muc_do": "van_dung"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Tình huống nào minh họa phù hợp cho Nội dung 7?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "C": "Viết thuật toán thành câu lệnh Python.",
+          "D": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Hoàn thiện sản phẩm sau khi xác nhận chạy đúng."
       },
       {
         "id": "T10-B31-MC-022",
-        "type": "mcq",
-        "question": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Thực hành”?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. Chia nhỏ bài toán thành các bước dễ quản lí."
-          },
-          {
-            "id": "B",
-            "text": "Chia nhỏ bài toán thành các bước dễ quản lí. Có thể bỏ qua yêu cầu đầu bài và viết mã theo phỏng đoán."
-          },
-          {
-            "id": "C",
-            "text": "Kết quả khác mong đợi vẫn được xem là đúng nếu không báo lỗi. Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra."
-          },
-          {
-            "id": "D",
-            "text": "Có thể bỏ qua yêu cầu đầu bài và viết mã theo phỏng đoán. Kết quả khác mong đợi vẫn được xem là đúng nếu không báo lỗi."
-          }
-        ],
-        "answer": "A",
-        "explanation": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. Chia nhỏ bài toán thành các bước dễ quản lí.",
-        "muc_do": "thong_hieu"
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Thực hành”?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. Chia nhỏ bài toán thành các bước dễ quản lí.",
+          "B": "Chia nhỏ bài toán thành các bước dễ quản lí. Có thể bỏ qua yêu cầu đầu bài và viết mã theo phỏng đoán.",
+          "C": "Kết quả khác mong đợi vẫn được xem là đúng nếu không báo lỗi. Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "D": "Có thể bỏ qua yêu cầu đầu bài và viết mã theo phỏng đoán. Kết quả khác mong đợi vẫn được xem là đúng nếu không báo lỗi."
+        },
+        "dap_an": "A",
+        "giai_thich": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. Chia nhỏ bài toán thành các bước dễ quản lí."
       }
     ],
     "dung_sai": [
       {
         "id": "T10-B31-TF-001",
-        "type": "true_false",
-        "question": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Thực hành”.",
-        "statements": [
-          {
-            "id": "a",
-            "statement": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
-            "answer": true
-          },
-          {
-            "id": "b",
-            "statement": "Có thể bỏ qua yêu cầu đầu bài và viết mã theo phỏng đoán.",
-            "answer": false
-          },
-          {
-            "id": "c",
-            "statement": "Viết thuật toán thành câu lệnh Python.",
-            "answer": true
-          },
-          {
-            "id": "d",
-            "statement": "Kết quả khác mong đợi vẫn được xem là đúng nếu không báo lỗi.",
-            "answer": false
-          }
-        ],
-        "explanation": "a đúng: Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. b sai: Có thể bỏ qua yêu cầu đầu bài và viết mã theo phỏng đoán. c đúng: Viết thuật toán thành câu lệnh Python. d sai: Kết quả khác mong đợi vẫn được xem là đúng nếu không báo lỗi.",
-        "muc_do": "thong_hieu"
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Thực hành”.",
+        "y_kien": {
+          "a": "Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra.",
+          "b": "Có thể bỏ qua yêu cầu đầu bài và viết mã theo phỏng đoán.",
+          "c": "Viết thuật toán thành câu lệnh Python.",
+          "d": "Kết quả khác mong đợi vẫn được xem là đúng nếu không báo lỗi."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a đúng: Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. b sai: Có thể bỏ qua yêu cầu đầu bài và viết mã theo phỏng đoán. c đúng: Viết thuật toán thành câu lệnh Python. d sai: Kết quả khác mong đợi vẫn được xem là đúng nếu không báo lỗi."
       }
     ],
     "tu_luan": [
       {
         "id": "T10-B31-TL-001",
-        "type": "essay",
-        "question": "Trình bày hai nội dung sau trong bài “Thực hành”: Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. Chia nhỏ bài toán thành các bước dễ quản lí.",
-        "answer_guide": "Nêu đúng hai ý: Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. Chia nhỏ bài toán thành các bước dễ quản lí.",
-        "muc_do": "thong_hieu"
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Trình bày hai nội dung sau trong bài “Thực hành”: Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. Chia nhỏ bài toán thành các bước dễ quản lí.",
+        "dap_an_goi_y": "Nêu đúng hai ý: Phân tích yêu cầu để xác định đầu vào, xử lí và đầu ra. Chia nhỏ bài toán thành các bước dễ quản lí.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
       {
         "id": "T10-B31-TL-002",
-        "type": "essay",
-        "question": "Giải thích cách vận dụng nội dung “Viết thuật toán thành câu lệnh Python.” trong một tình huống học tập hoặc thực tế.",
-        "answer_guide": "Cần giải thích đúng ý “Viết thuật toán thành câu lệnh Python.” và liên hệ phù hợp với bài “Thực hành”.",
-        "muc_do": "van_dung"
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 31 - Thực hành",
+        "noi_dung": "Giải thích cách vận dụng nội dung “Viết thuật toán thành câu lệnh Python.” trong một tình huống học tập hoặc thực tế.",
+        "dap_an_goi_y": "Cần giải thích đúng ý “Viết thuật toán thành câu lệnh Python.” và liên hệ phù hợp với bài “Thực hành”.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]
   }
