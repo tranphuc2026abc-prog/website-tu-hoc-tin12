@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build Tin hoc 10/11 browser data from the KHBD Markdown and JSON banks."""
-import json, re, sys
+import hashlib, json, re, sys
 from pathlib import Path
 
 if hasattr(sys.stdout, 'reconfigure'):
@@ -14,6 +14,13 @@ SECTION_KEYS = ("obj", "key", "terms", "ex", "steps", "err", "rem")
 
 def js(value):
     return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+
+def data_version(paths):
+    digest = hashlib.sha256(Path(__file__).read_bytes())
+    for path in sorted(paths, key=lambda item: item.as_posix()):
+        digest.update(path.as_posix().encode("utf-8"))
+        digest.update(path.read_bytes())
+    return digest.hexdigest()[:16]
 
 def find_topic(md, full_text):
     match = re.search(r"^## Chủ đề\s*$([\s\S]*?)(?=^## |\Z)", md, re.M | re.I)
@@ -320,7 +327,9 @@ def build_grade(grade, expected):
         topic_name = find_topic((folder / ("BAI_%02d.md" % item["n"])).read_text(encoding="utf-8"),
                                 re.search(r"```text\s*\n([\s\S]*?)\n```", (folder / ("BAI_%02d.md" % item["n"])).read_text(encoding="utf-8")).group(1) if re.search(r"```text\s*\n([\s\S]*?)\n```", (folder / ("BAI_%02d.md" % item["n"])).read_text(encoding="utf-8")) else "")
         item["topic"] = topics.index(topic_name)
-    cat = {"grade": grade, "courseTitle": "Tin học %d" % grade, "topics": topics, "rel": rel,
+    data_files = lessons + [folder / "ngan-hang-cau-hoi" / ("BAI_%02d_QUESTIONS.json" % i) for i in range(1, expected + 1)]
+    version = data_version(data_files)
+    cat = {"grade": grade, "courseTitle": "Tin học %d" % grade, "dataVersion": version, "topics": topics, "rel": rel,
            "hk": {"HK1": [1, (expected + 1)//2], "HK2": [(expected + 1)//2 + 1, expected]},
            "qfiles": qfiles, "lessons": catalog_lessons}
     (OUT / ("catalog-%d.js" % grade)).write_text('(window.T=window.T||{L:{},Q:{}}).cat=' + js(cat) + ";\n", encoding="utf-8")
