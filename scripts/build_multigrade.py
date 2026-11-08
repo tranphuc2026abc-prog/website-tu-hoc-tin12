@@ -152,14 +152,15 @@ def lesson_sections(md, title, goals, key):
                 and not re.match(r"^(?:BÀI\s+\d+|CHỦ ĐỀ|Ngày soạn|Ngày dạy|I\. MỤC TIÊU|"
                                  r"II\. THIẾT BỊ|III\. TIẾN TRÌNH|HƯỚNG DẪN VỀ NHÀ|"
                                  r"Năng lực|Phẩm chất|[A-D]\.)", text, re.I)
-                and not re.match(r"^(?:Bước\s+\d+|Nhiệm vụ\s+\d+|Hoạt động\s+\d+)", text, re.I))
+                and not re.match(r"^(?:Bước\s+\d+|Nhiệm vụ\s+\d+|Hoạt động\s+\d+)", text, re.I)
+                and not re.match(r"^(?:HS\b|GV\b|Học sinh\b|Năng lực\b|\d\.\d\.NC\d+[a-z]?:)", text, re.I))
 
     term_pairs, seen_terms = [], set()
     def add_term(term, definition, strict=False):
         term = re.sub(r"\s+", " ", term).strip(" -*:;.")
         definition = re.sub(r"\s+", " ", definition).strip(" -*:;.")
         norm = re.sub(r"[^\w]+", "", term.lower())
-        if (len(term) < 2 or len(term) > 80 or len(term.split()) > 7
+        if (len(term) < 2 or len(term) > 80 or len(term.split()) > 12
                 or len(definition) < 8 or norm in seen_terms
                 or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)\b", term, re.I)):
             return
@@ -228,8 +229,9 @@ def lesson_sections(md, title, goals, key):
     if not cautions:
         risk_terms = r"thiết bị lạ|chưa từng đăng nhập|không nên|không được|không thể|bản quyền|mật khẩu|quyền riêng tư|cảnh báo|xác thực|xóa nhầm|mất dữ liệu|lộ thông tin|sai cú pháp|lỗi"
         for sentence in sentences:
-            if re.search(risk_terms, sentence, re.I) and student_facing(sentence):
-                cautions.append(sentence)
+            candidate = re.sub(r"^\d+\.\d+\.NC\d+[a-z]?:\s*", "", sentence, flags=re.I)
+            if re.search(risk_terms, candidate, re.I) and student_facing(candidate):
+                cautions.append(candidate)
         if not cautions:
             cautions = ["Với chủ đề " + title + ", tránh nhầm khái niệm hoặc bỏ qua điều kiện của yêu cầu; hãy đối chiếu thao tác và kết quả với nội dung trọng tâm trong bài."]
     cautions = list(dict.fromkeys(cautions))[:3]
