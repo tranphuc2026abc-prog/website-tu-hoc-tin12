@@ -43,10 +43,12 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
           const text = key => (sec[key] || []).flatMap(b => b.t === 'ul' ? b.i.map(x => x.x) : [b.x || '']).join(' ').trim();
           return { id: l.id, terms: data?.terms?.length || 0, termNames: (data?.terms || []).map(x => x.t), termSection: text('terms'), ex: text('ex'), err: text('err'), rem: text('rem') };
         }));
-        ok(sections.length === expectedLessons[grade] && sections.every(x =>
-          x.terms >= 1 && x.termSection && x.ex && x.err && x.rem &&
-          x.termNames.every(n => !/^(đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)/i.test(n))),
-          'khối ' + grade + ' đủ thuật ngữ, ví dụ, lưu ý và ghi nhớ cho từng bài');
+        const invalidSections = sections.filter(x =>
+          !(x.terms >= 1 && x.termSection && x.ex && x.err && x.rem &&
+            x.termNames.every(n => !/^(đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)/i.test(n))));
+        ok(sections.length === expectedLessons[grade] && invalidSections.length === 0,
+          'khối ' + grade + ' đủ thuật ngữ, ví dụ, lưu ý và ghi nhớ cho từng bài'
+          + (invalidSections.length ? ': ' + invalidSections.map(x => x.id + ' terms=' + x.termNames.join('|')).join('; ') : ''));
       }
     }
     url = new URL('course.html?grade=12', portalUrl).href;
