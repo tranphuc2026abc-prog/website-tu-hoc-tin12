@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_24",
+  "bai_so": 24,
+  "ten_bai": "Thực hành sao lưu dữ liệu",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B24-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Mục đích chính của bản sao lưu CSDL là gì?",
+        "lua_chon": {
+          "A": "Xóa dữ liệu khỏi máy chủ",
+          "B": "Khôi phục dữ liệu khi mất mát hoặc hỏng",
+          "C": "Tăng tốc mọi truy vấn",
+          "D": "Thay thế phân quyền"
+        },
+        "dap_an": "B",
+        "giai_thich": "Đáp án đúng vì Khôi phục dữ liệu khi mất mát hoặc hỏng; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B24-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Sao lưu?",
+        "lua_chon": {
+          "A": "Thử phục hồi kiểm tra bản sao có dùng được không.",
+          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
+          "C": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
+          "D": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính."
+        },
+        "dap_an": "B",
+        "giai_thich": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc."
+      },
+      {
+        "id": "T11-B24-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống: Ổ lưu trữ gặp sự cố. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Lưu thêm bản sao tại vị trí an toàn khác.",
+          "B": "Thử phục hồi định kì.",
+          "C": "Khôi phục từ bản sao lưu phù hợp.",
+          "D": "Sao lưu định kì theo lịch phù hợp."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Khôi phục từ bản sao lưu phù hợp."
+      },
+      {
+        "id": "T11-B24-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Sao lưu?",
+        "lua_chon": {
+          "A": "Ổ lưu trữ gặp sự cố.",
+          "B": "Dữ liệu thay đổi hằng ngày.",
+          "C": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
+          "D": "Tệp backup tồn tại nhưng chưa từng mở thử."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Sao lưu trong bài Thực hành sao lưu dữ liệu."
+      },
+      {
+        "id": "T11-B24-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Lịch sao lưu?",
+        "lua_chon": {
+          "A": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
+          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
+          "C": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính.",
+          "D": "Thử phục hồi kiểm tra bản sao có dùng được không."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu."
+      },
+      {
+        "id": "T11-B24-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống: Dữ liệu thay đổi hằng ngày. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thử phục hồi định kì.",
+          "B": "Sao lưu định kì theo lịch phù hợp.",
+          "C": "Khôi phục từ bản sao lưu phù hợp.",
+          "D": "Lưu thêm bản sao tại vị trí an toàn khác."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Sao lưu định kì theo lịch phù hợp."
+      },
+      {
+        "id": "T11-B24-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lịch sao lưu?",
+        "lua_chon": {
+          "A": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
+          "B": "Tệp backup tồn tại nhưng chưa từng mở thử.",
+          "C": "Dữ liệu thay đổi hằng ngày.",
+          "D": "Ổ lưu trữ gặp sự cố."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Lịch sao lưu trong bài Thực hành sao lưu dữ liệu."
+      },
+      {
+        "id": "T11-B24-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Nơi lưu bản sao?",
+        "lua_chon": {
+          "A": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
+          "B": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
+          "C": "Thử phục hồi kiểm tra bản sao có dùng được không.",
+          "D": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính."
+        },
+        "dap_an": "D",
+        "giai_thich": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính."
+      },
+      {
+        "id": "T11-B24-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống: Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Lưu thêm bản sao tại vị trí an toàn khác.",
+          "B": "Khôi phục từ bản sao lưu phù hợp.",
+          "C": "Sao lưu định kì theo lịch phù hợp.",
+          "D": "Thử phục hồi định kì."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Lưu thêm bản sao tại vị trí an toàn khác."
+      },
+      {
+        "id": "T11-B24-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Nơi lưu bản sao?",
+        "lua_chon": {
+          "A": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
+          "B": "Ổ lưu trữ gặp sự cố.",
+          "C": "Dữ liệu thay đổi hằng ngày.",
+          "D": "Tệp backup tồn tại nhưng chưa từng mở thử."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Nơi lưu bản sao trong bài Thực hành sao lưu dữ liệu."
+      },
+      {
+        "id": "T11-B24-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Kiểm tra phục hồi?",
+        "lua_chon": {
+          "A": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
+          "B": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính.",
+          "C": "Thử phục hồi kiểm tra bản sao có dùng được không.",
+          "D": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc."
+        },
+        "dap_an": "C",
+        "giai_thich": "Thử phục hồi kiểm tra bản sao có dùng được không."
+      },
+      {
+        "id": "T11-B24-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống: Tệp backup tồn tại nhưng chưa từng mở thử. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Khôi phục từ bản sao lưu phù hợp.",
+          "B": "Sao lưu định kì theo lịch phù hợp.",
+          "C": "Lưu thêm bản sao tại vị trí an toàn khác.",
+          "D": "Thử phục hồi định kì."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Thử phục hồi định kì."
+      },
+      {
+        "id": "T11-B24-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra phục hồi?",
+        "lua_chon": {
+          "A": "Dữ liệu thay đổi hằng ngày.",
+          "B": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
+          "C": "Tệp backup tồn tại nhưng chưa từng mở thử.",
+          "D": "Ổ lưu trữ gặp sự cố."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Kiểm tra phục hồi trong bài Thực hành sao lưu dữ liệu."
+      },
+      {
+        "id": "T11-B24-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Bảo mật bản sao?",
+        "lua_chon": {
+          "A": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính.",
+          "B": "Bản sao lưu có thể chứa dữ liệu nhạy cảm nên cần kiểm soát và mã hóa.",
+          "C": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
+          "D": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Bản sao lưu có thể chứa dữ liệu nhạy cảm nên cần kiểm soát và mã hóa."
+      },
+      {
+        "id": "T11-B24-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống: Mang bản sao ra ngoài tổ chức. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Sao lưu định kì theo lịch phù hợp.",
+          "B": "Lưu thêm bản sao tại vị trí an toàn khác.",
+          "C": "Mã hóa và giới hạn quyền truy cập.",
+          "D": "Khôi phục từ bản sao lưu phù hợp."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Mã hóa và giới hạn quyền truy cập."
+      },
+      {
+        "id": "T11-B24-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bảo mật bản sao?",
+        "lua_chon": {
+          "A": "Mang bản sao ra ngoài tổ chức.",
+          "B": "Ổ lưu trữ gặp sự cố.",
+          "C": "Dữ liệu thay đổi hằng ngày.",
+          "D": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Bảo mật bản sao trong bài Thực hành sao lưu dữ liệu."
+      },
+      {
+        "id": "T11-B24-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Phiên bản sao lưu?",
+        "lua_chon": {
+          "A": "Ghi thời gian/phiên bản giúp chọn đúng bản cần phục hồi.",
+          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
+          "C": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
+          "D": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính."
+        },
+        "dap_an": "A",
+        "giai_thich": "Ghi thời gian/phiên bản giúp chọn đúng bản cần phục hồi."
+      },
+      {
+        "id": "T11-B24-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống: Có nhiều bản sao từ các ngày khác nhau. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Lưu thêm bản sao tại vị trí an toàn khác.",
+          "B": "Ngày và trạng thái của từng bản.",
+          "C": "Khôi phục từ bản sao lưu phù hợp.",
+          "D": "Sao lưu định kì theo lịch phù hợp."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Ngày và trạng thái của từng bản."
+      },
+      {
+        "id": "T11-B24-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Phiên bản sao lưu?",
+        "lua_chon": {
+          "A": "Dữ liệu thay đổi hằng ngày.",
+          "B": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
+          "C": "Có nhiều bản sao từ các ngày khác nhau.",
+          "D": "Ổ lưu trữ gặp sự cố."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Phiên bản sao lưu trong bài Thực hành sao lưu dữ liệu."
+      },
+      {
+        "id": "T11-B24-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Quy trình phục hồi?",
+        "lua_chon": {
+          "A": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
+          "B": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
+          "C": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính.",
+          "D": "Phục hồi cần chọn đúng bản và kiểm tra tính toàn vẹn sau khi nạp."
+        },
+        "dap_an": "D",
+        "giai_thich": "Phục hồi cần chọn đúng bản và kiểm tra tính toàn vẹn sau khi nạp."
+      },
+      {
+        "id": "T11-B24-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống: Đã nạp bản backup vào máy chủ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Kiểm tra dữ liệu và hoạt động ứng dụng.",
+          "B": "Khôi phục từ bản sao lưu phù hợp.",
+          "C": "Sao lưu định kì theo lịch phù hợp.",
+          "D": "Lưu thêm bản sao tại vị trí an toàn khác."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Kiểm tra dữ liệu và hoạt động ứng dụng."
+      },
+      {
+        "id": "T11-B24-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Quy trình phục hồi?",
+        "lua_chon": {
+          "A": "Đã nạp bản backup vào máy chủ.",
+          "B": "Ổ lưu trữ gặp sự cố.",
+          "C": "Dữ liệu thay đổi hằng ngày.",
+          "D": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Quy trình phục hồi trong bài Thực hành sao lưu dữ liệu."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B24-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Xét tính đúng/sai về Thực hành sao lưu dữ liệu:",
+        "y_kien": {
+          "a": false,
+          "b": "Cần định kì kiểm tra thử khả năng phục hồi.",
+          "c": "Có tệp sao lưu nhưng chưa thử khôi phục vẫn bảo đảm chắc chắn phục hồi.",
+          "d": true
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B24-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Đề xuất quy trình sao lưu và kiểm tra phục hồi.",
+        "dap_an_goi_y": "Chọn lịch và phạm vi, tạo bản sao, lưu an toàn, ghi phiên bản, định kì thử phục hồi và cập nhật quy trình.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B24-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
+        "noi_dung": "Dựa vào kiến thức “Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Ổ lưu trữ gặp sự cố.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc. Vận dụng: Khôi phục từ bản sao lưu phù hợp. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

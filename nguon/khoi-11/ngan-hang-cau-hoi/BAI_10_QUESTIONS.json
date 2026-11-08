@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_10",
+  "bai_so": 10,
+  "ten_bai": "Lưu trữ dữ liệu và khai thác",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B10-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Thêm một điểm kiểm tra mới vào bảng điểm là thao tác gì?",
+        "lua_chon": {
+          "A": "Sao lưu dữ liệu",
+          "B": "Mã hóa dữ liệu",
+          "C": "Cập nhật dữ liệu",
+          "D": "Truy xuất dữ liệu"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đáp án đúng vì Cập nhật dữ liệu; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B10-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phát biểu nào đúng về Cập nhật dữ liệu?",
+        "lua_chon": {
+          "A": "Truy xuất là lấy dữ liệu theo yêu cầu hoặc điều kiện.",
+          "B": "Khai thác có thể tổng hợp dữ liệu thành thông tin có ích.",
+          "C": "Hoạt động quản lí thường xuyên lưu và cập nhật dữ liệu.",
+          "D": "Cập nhật gồm thêm, sửa hoặc xóa dữ liệu."
+        },
+        "dap_an": "D",
+        "giai_thich": "Cập nhật gồm thêm, sửa hoặc xóa dữ liệu."
+      },
+      {
+        "id": "T11-B10-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống: Giáo viên nhập điểm kiểm tra mới. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cập nhật dữ liệu.",
+          "B": "Truy xuất dữ liệu.",
+          "C": "Khai thác thông tin.",
+          "D": "Để tra cứu trạng thái, tổng hợp và hỗ trợ quyết định."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Cập nhật dữ liệu."
+      },
+      {
+        "id": "T11-B10-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Cập nhật dữ liệu?",
+        "lua_chon": {
+          "A": "Tính điểm trung bình của lớp từ bảng điểm.",
+          "B": "Thư viện theo dõi sách mượn và ngày trả.",
+          "C": "Giáo viên nhập điểm kiểm tra mới.",
+          "D": "Tìm điểm của một học sinh theo mã số."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Cập nhật dữ liệu trong bài Lưu trữ dữ liệu và khai thác."
+      },
+      {
+        "id": "T11-B10-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phát biểu nào đúng về Truy xuất dữ liệu?",
+        "lua_chon": {
+          "A": "Khai thác có thể tổng hợp dữ liệu thành thông tin có ích.",
+          "B": "Hoạt động quản lí thường xuyên lưu và cập nhật dữ liệu.",
+          "C": "Truy xuất là lấy dữ liệu theo yêu cầu hoặc điều kiện.",
+          "D": "Cập nhật gồm thêm, sửa hoặc xóa dữ liệu."
+        },
+        "dap_an": "C",
+        "giai_thich": "Truy xuất là lấy dữ liệu theo yêu cầu hoặc điều kiện."
+      },
+      {
+        "id": "T11-B10-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống: Tìm điểm của một học sinh theo mã số. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cập nhật dữ liệu.",
+          "B": "Khai thác thông tin.",
+          "C": "Để tra cứu trạng thái, tổng hợp và hỗ trợ quyết định.",
+          "D": "Truy xuất dữ liệu."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Truy xuất dữ liệu."
+      },
+      {
+        "id": "T11-B10-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Truy xuất dữ liệu?",
+        "lua_chon": {
+          "A": "Tìm điểm của một học sinh theo mã số.",
+          "B": "Giáo viên nhập điểm kiểm tra mới.",
+          "C": "Tính điểm trung bình của lớp từ bảng điểm.",
+          "D": "Thư viện theo dõi sách mượn và ngày trả."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Truy xuất dữ liệu trong bài Lưu trữ dữ liệu và khai thác."
+      },
+      {
+        "id": "T11-B10-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phát biểu nào đúng về Khai thác thông tin?",
+        "lua_chon": {
+          "A": "Hoạt động quản lí thường xuyên lưu và cập nhật dữ liệu.",
+          "B": "Khai thác có thể tổng hợp dữ liệu thành thông tin có ích.",
+          "C": "Cập nhật gồm thêm, sửa hoặc xóa dữ liệu.",
+          "D": "Truy xuất là lấy dữ liệu theo yêu cầu hoặc điều kiện."
+        },
+        "dap_an": "B",
+        "giai_thich": "Khai thác có thể tổng hợp dữ liệu thành thông tin có ích."
+      },
+      {
+        "id": "T11-B10-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống: Tính điểm trung bình của lớp từ bảng điểm. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Truy xuất dữ liệu.",
+          "B": "Để tra cứu trạng thái, tổng hợp và hỗ trợ quyết định.",
+          "C": "Khai thác thông tin.",
+          "D": "Cập nhật dữ liệu."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Khai thác thông tin."
+      },
+      {
+        "id": "T11-B10-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Khai thác thông tin?",
+        "lua_chon": {
+          "A": "Tìm điểm của một học sinh theo mã số.",
+          "B": "Thư viện theo dõi sách mượn và ngày trả.",
+          "C": "Tính điểm trung bình của lớp từ bảng điểm.",
+          "D": "Giáo viên nhập điểm kiểm tra mới."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Khai thác thông tin trong bài Lưu trữ dữ liệu và khai thác."
+      },
+      {
+        "id": "T11-B10-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phát biểu nào đúng về Dữ liệu quản lí?",
+        "lua_chon": {
+          "A": "Hoạt động quản lí thường xuyên lưu và cập nhật dữ liệu.",
+          "B": "Cập nhật gồm thêm, sửa hoặc xóa dữ liệu.",
+          "C": "Truy xuất là lấy dữ liệu theo yêu cầu hoặc điều kiện.",
+          "D": "Khai thác có thể tổng hợp dữ liệu thành thông tin có ích."
+        },
+        "dap_an": "A",
+        "giai_thich": "Hoạt động quản lí thường xuyên lưu và cập nhật dữ liệu."
+      },
+      {
+        "id": "T11-B10-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống: Thư viện theo dõi sách mượn và ngày trả. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Khai thác thông tin.",
+          "B": "Để tra cứu trạng thái, tổng hợp và hỗ trợ quyết định.",
+          "C": "Cập nhật dữ liệu.",
+          "D": "Truy xuất dữ liệu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Để tra cứu trạng thái, tổng hợp và hỗ trợ quyết định."
+      },
+      {
+        "id": "T11-B10-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Dữ liệu quản lí?",
+        "lua_chon": {
+          "A": "Thư viện theo dõi sách mượn và ngày trả.",
+          "B": "Giáo viên nhập điểm kiểm tra mới.",
+          "C": "Tìm điểm của một học sinh theo mã số.",
+          "D": "Tính điểm trung bình của lớp từ bảng điểm."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Dữ liệu quản lí trong bài Lưu trữ dữ liệu và khai thác."
+      },
+      {
+        "id": "T11-B10-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phát biểu nào đúng về Thu thập tự động?",
+        "lua_chon": {
+          "A": "Cập nhật gồm thêm, sửa hoặc xóa dữ liệu.",
+          "B": "Truy xuất là lấy dữ liệu theo yêu cầu hoặc điều kiện.",
+          "C": "Khai thác có thể tổng hợp dữ liệu thành thông tin có ích.",
+          "D": "Cảm biến và thiết bị số có thể ghi nhận dữ liệu tự động."
+        },
+        "dap_an": "D",
+        "giai_thich": "Cảm biến và thiết bị số có thể ghi nhận dữ liệu tự động."
+      },
+      {
+        "id": "T11-B10-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống: Thiết bị đo nhiệt độ gửi số liệu định kì. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thu thập tự động qua cảm biến.",
+          "B": "Cập nhật dữ liệu.",
+          "C": "Truy xuất dữ liệu.",
+          "D": "Khai thác thông tin."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Thu thập tự động qua cảm biến."
+      },
+      {
+        "id": "T11-B10-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thu thập tự động?",
+        "lua_chon": {
+          "A": "Tìm điểm của một học sinh theo mã số.",
+          "B": "Tính điểm trung bình của lớp từ bảng điểm.",
+          "C": "Thiết bị đo nhiệt độ gửi số liệu định kì.",
+          "D": "Giáo viên nhập điểm kiểm tra mới."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Thu thập tự động trong bài Lưu trữ dữ liệu và khai thác."
+      },
+      {
+        "id": "T11-B10-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phát biểu nào đúng về Công thức tính toán?",
+        "lua_chon": {
+          "A": "Truy xuất là lấy dữ liệu theo yêu cầu hoặc điều kiện.",
+          "B": "Khai thác có thể tổng hợp dữ liệu thành thông tin có ích.",
+          "C": "Một kết quả tính theo công thức cố định có thể được suy ra từ dữ liệu đầu vào.",
+          "D": "Cập nhật gồm thêm, sửa hoặc xóa dữ liệu."
+        },
+        "dap_an": "C",
+        "giai_thich": "Một kết quả tính theo công thức cố định có thể được suy ra từ dữ liệu đầu vào."
+      },
+      {
+        "id": "T11-B10-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống: Tính điểm trung bình từ các điểm thành phần. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cập nhật dữ liệu.",
+          "B": "Truy xuất dữ liệu.",
+          "C": "Khai thác thông tin.",
+          "D": "Thông tin tính được từ dữ liệu đã lưu."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Thông tin tính được từ dữ liệu đã lưu."
+      },
+      {
+        "id": "T11-B10-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Công thức tính toán?",
+        "lua_chon": {
+          "A": "Tính điểm trung bình từ các điểm thành phần.",
+          "B": "Giáo viên nhập điểm kiểm tra mới.",
+          "C": "Tìm điểm của một học sinh theo mã số.",
+          "D": "Tính điểm trung bình của lớp từ bảng điểm."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Công thức tính toán trong bài Lưu trữ dữ liệu và khai thác."
+      },
+      {
+        "id": "T11-B10-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phát biểu nào đúng về Chất lượng dữ liệu?",
+        "lua_chon": {
+          "A": "Khai thác có thể tổng hợp dữ liệu thành thông tin có ích.",
+          "B": "Dữ liệu chính xác, đầy đủ và cập nhật hỗ trợ khai thác đáng tin cậy.",
+          "C": "Cập nhật gồm thêm, sửa hoặc xóa dữ liệu.",
+          "D": "Truy xuất là lấy dữ liệu theo yêu cầu hoặc điều kiện."
+        },
+        "dap_an": "B",
+        "giai_thich": "Dữ liệu chính xác, đầy đủ và cập nhật hỗ trợ khai thác đáng tin cậy."
+      },
+      {
+        "id": "T11-B10-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống: Một bản ghi thiếu mã học sinh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Truy xuất dữ liệu.",
+          "B": "Khai thác thông tin.",
+          "C": "Kiểm tra và chuẩn hóa dữ liệu thiếu/sai.",
+          "D": "Cập nhật dữ liệu."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Kiểm tra và chuẩn hóa dữ liệu thiếu/sai."
+      },
+      {
+        "id": "T11-B10-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Chất lượng dữ liệu?",
+        "lua_chon": {
+          "A": "Tìm điểm của một học sinh theo mã số.",
+          "B": "Tính điểm trung bình của lớp từ bảng điểm.",
+          "C": "Một bản ghi thiếu mã học sinh.",
+          "D": "Giáo viên nhập điểm kiểm tra mới."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Chất lượng dữ liệu trong bài Lưu trữ dữ liệu và khai thác."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B10-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Xét tính đúng/sai về Lưu trữ dữ liệu và khai thác:",
+        "y_kien": {
+          "a": "Khai thác thông tin có thể gồm tổng hợp, phân tích dữ liệu.",
+          "b": true,
+          "c": true,
+          "d": "Truy xuất là lấy các dữ liệu đáp ứng điều kiện."
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B10-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Phân biệt cập nhật, truy xuất và khai thác thông tin bằng ví dụ điểm số.",
+        "dap_an_goi_y": "Cập nhật thêm/sửa điểm; truy xuất lọc điểm một học sinh; khai thác tính trung bình hoặc thống kê kết quả.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B10-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 10 - Lưu trữ dữ liệu và khai thác",
+        "noi_dung": "Dựa vào kiến thức “Cập nhật gồm thêm, sửa hoặc xóa dữ liệu.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Giáo viên nhập điểm kiểm tra mới.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Cập nhật gồm thêm, sửa hoặc xóa dữ liệu. Vận dụng: Cập nhật dữ liệu. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

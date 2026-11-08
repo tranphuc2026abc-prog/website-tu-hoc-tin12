@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_11",
+  "bai_so": 11,
+  "ten_bai": "Cơ sở dữ liệu",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B11-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Đặc điểm cốt lõi của CSDL có cấu trúc là gì?",
+        "lua_chon": {
+          "A": "Không cần sao lưu",
+          "B": "Dữ liệu liên quan được tổ chức để lưu trữ và khai thác",
+          "C": "Không bao giờ cần cập nhật",
+          "D": "Mọi người đều có quyền sửa"
+        },
+        "dap_an": "B",
+        "giai_thich": "Đáp án đúng vì Dữ liệu liên quan được tổ chức để lưu trữ và khai thác; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B11-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Khái niệm CSDL?",
+        "lua_chon": {
+          "A": "CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác.",
+          "B": "Tổ chức dữ liệu tốt hạn chế lưu lặp cùng thông tin ở nhiều nơi.",
+          "C": "CSDL cần tránh tình trạng cùng thông tin có nhiều giá trị mâu thuẫn.",
+          "D": "CSDL có thể hỗ trợ nhiều người dùng khai thác dữ liệu theo quyền."
+        },
+        "dap_an": "A",
+        "giai_thich": "CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác."
+      },
+      {
+        "id": "T11-B11-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống: Trường lưu thông tin học sinh có cấu trúc và liên kết. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Chia sẻ có kiểm soát.",
+          "B": "Cơ sở dữ liệu.",
+          "C": "Giảm dư thừa dữ liệu.",
+          "D": "Tính nhất quán."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Cơ sở dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Khái niệm CSDL?",
+        "lua_chon": {
+          "A": "Giáo viên và nhân viên được xem những phần hồ sơ khác nhau.",
+          "B": "Trường lưu thông tin học sinh có cấu trúc và liên kết.",
+          "C": "Tên học sinh bị nhập lại trong nhiều bảng rời.",
+          "D": "Một học sinh có hai ngày sinh khác nhau trong hồ sơ."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Khái niệm CSDL trong bài Cơ sở dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Giảm dư thừa?",
+        "lua_chon": {
+          "A": "CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác.",
+          "B": "CSDL cần tránh tình trạng cùng thông tin có nhiều giá trị mâu thuẫn.",
+          "C": "CSDL có thể hỗ trợ nhiều người dùng khai thác dữ liệu theo quyền.",
+          "D": "Tổ chức dữ liệu tốt hạn chế lưu lặp cùng thông tin ở nhiều nơi."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tổ chức dữ liệu tốt hạn chế lưu lặp cùng thông tin ở nhiều nơi."
+      },
+      {
+        "id": "T11-B11-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống: Tên học sinh bị nhập lại trong nhiều bảng rời. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Giảm dư thừa dữ liệu.",
+          "B": "Cơ sở dữ liệu.",
+          "C": "Tính nhất quán.",
+          "D": "Chia sẻ có kiểm soát."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Giảm dư thừa dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Giảm dư thừa?",
+        "lua_chon": {
+          "A": "Trường lưu thông tin học sinh có cấu trúc và liên kết.",
+          "B": "Một học sinh có hai ngày sinh khác nhau trong hồ sơ.",
+          "C": "Giáo viên và nhân viên được xem những phần hồ sơ khác nhau.",
+          "D": "Tên học sinh bị nhập lại trong nhiều bảng rời."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Giảm dư thừa trong bài Cơ sở dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Tính nhất quán?",
+        "lua_chon": {
+          "A": "Tổ chức dữ liệu tốt hạn chế lưu lặp cùng thông tin ở nhiều nơi.",
+          "B": "CSDL có thể hỗ trợ nhiều người dùng khai thác dữ liệu theo quyền.",
+          "C": "CSDL cần tránh tình trạng cùng thông tin có nhiều giá trị mâu thuẫn.",
+          "D": "CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác."
+        },
+        "dap_an": "C",
+        "giai_thich": "CSDL cần tránh tình trạng cùng thông tin có nhiều giá trị mâu thuẫn."
+      },
+      {
+        "id": "T11-B11-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống: Một học sinh có hai ngày sinh khác nhau trong hồ sơ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cơ sở dữ liệu.",
+          "B": "Giảm dư thừa dữ liệu.",
+          "C": "Chia sẻ có kiểm soát.",
+          "D": "Tính nhất quán."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Tính nhất quán."
+      },
+      {
+        "id": "T11-B11-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tính nhất quán?",
+        "lua_chon": {
+          "A": "Giáo viên và nhân viên được xem những phần hồ sơ khác nhau.",
+          "B": "Một học sinh có hai ngày sinh khác nhau trong hồ sơ.",
+          "C": "Trường lưu thông tin học sinh có cấu trúc và liên kết.",
+          "D": "Tên học sinh bị nhập lại trong nhiều bảng rời."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Tính nhất quán trong bài Cơ sở dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Chia sẻ dữ liệu?",
+        "lua_chon": {
+          "A": "CSDL cần tránh tình trạng cùng thông tin có nhiều giá trị mâu thuẫn.",
+          "B": "CSDL có thể hỗ trợ nhiều người dùng khai thác dữ liệu theo quyền.",
+          "C": "CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác.",
+          "D": "Tổ chức dữ liệu tốt hạn chế lưu lặp cùng thông tin ở nhiều nơi."
+        },
+        "dap_an": "B",
+        "giai_thich": "CSDL có thể hỗ trợ nhiều người dùng khai thác dữ liệu theo quyền."
+      },
+      {
+        "id": "T11-B11-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống: Giáo viên và nhân viên được xem những phần hồ sơ khác nhau. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Giảm dư thừa dữ liệu.",
+          "B": "Tính nhất quán.",
+          "C": "Chia sẻ có kiểm soát.",
+          "D": "Cơ sở dữ liệu."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Chia sẻ có kiểm soát."
+      },
+      {
+        "id": "T11-B11-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Chia sẻ dữ liệu?",
+        "lua_chon": {
+          "A": "Trường lưu thông tin học sinh có cấu trúc và liên kết.",
+          "B": "Tên học sinh bị nhập lại trong nhiều bảng rời.",
+          "C": "Một học sinh có hai ngày sinh khác nhau trong hồ sơ.",
+          "D": "Giáo viên và nhân viên được xem những phần hồ sơ khác nhau."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Chia sẻ dữ liệu trong bài Cơ sở dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Độc lập dữ liệu?",
+        "lua_chon": {
+          "A": "CSDL được tổ chức để giảm phụ thuộc của chương trình vào cách lưu vật lí.",
+          "B": "CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác.",
+          "C": "Tổ chức dữ liệu tốt hạn chế lưu lặp cùng thông tin ở nhiều nơi.",
+          "D": "CSDL cần tránh tình trạng cùng thông tin có nhiều giá trị mâu thuẫn."
+        },
+        "dap_an": "A",
+        "giai_thich": "CSDL được tổ chức để giảm phụ thuộc của chương trình vào cách lưu vật lí."
+      },
+      {
+        "id": "T11-B11-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống: Thay đổi một phần lưu trữ nhưng không muốn sửa mọi ứng dụng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tính nhất quán.",
+          "B": "Tính độc lập dữ liệu.",
+          "C": "Cơ sở dữ liệu.",
+          "D": "Giảm dư thừa dữ liệu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Tính độc lập dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Độc lập dữ liệu?",
+        "lua_chon": {
+          "A": "Một học sinh có hai ngày sinh khác nhau trong hồ sơ.",
+          "B": "Thay đổi một phần lưu trữ nhưng không muốn sửa mọi ứng dụng.",
+          "C": "Trường lưu thông tin học sinh có cấu trúc và liên kết.",
+          "D": "Tên học sinh bị nhập lại trong nhiều bảng rời."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Độc lập dữ liệu trong bài Cơ sở dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về An toàn dữ liệu?",
+        "lua_chon": {
+          "A": "CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác.",
+          "B": "Tổ chức dữ liệu tốt hạn chế lưu lặp cùng thông tin ở nhiều nơi.",
+          "C": "CSDL cần tránh tình trạng cùng thông tin có nhiều giá trị mâu thuẫn.",
+          "D": "Dữ liệu quản lí cần được bảo vệ khỏi mất mát và truy cập trái phép."
+        },
+        "dap_an": "D",
+        "giai_thich": "Dữ liệu quản lí cần được bảo vệ khỏi mất mát và truy cập trái phép."
+      },
+      {
+        "id": "T11-B11-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống: Bảng điểm chỉ nhân viên được phân quyền mới được sửa. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Bảo mật và an toàn CSDL.",
+          "B": "Cơ sở dữ liệu.",
+          "C": "Giảm dư thừa dữ liệu.",
+          "D": "Tính nhất quán."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Bảo mật và an toàn CSDL."
+      },
+      {
+        "id": "T11-B11-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về An toàn dữ liệu?",
+        "lua_chon": {
+          "A": "Trường lưu thông tin học sinh có cấu trúc và liên kết.",
+          "B": "Tên học sinh bị nhập lại trong nhiều bảng rời.",
+          "C": "Một học sinh có hai ngày sinh khác nhau trong hồ sơ.",
+          "D": "Bảng điểm chỉ nhân viên được phân quyền mới được sửa."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với An toàn dữ liệu trong bài Cơ sở dữ liệu."
+      },
+      {
+        "id": "T11-B11-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Truy xuất có cấu trúc?",
+        "lua_chon": {
+          "A": "Tổ chức dữ liệu tốt hạn chế lưu lặp cùng thông tin ở nhiều nơi.",
+          "B": "CSDL cần tránh tình trạng cùng thông tin có nhiều giá trị mâu thuẫn.",
+          "C": "Cấu trúc dữ liệu giúp tìm và tổng hợp thông tin theo yêu cầu.",
+          "D": "CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác."
+        },
+        "dap_an": "C",
+        "giai_thich": "Cấu trúc dữ liệu giúp tìm và tổng hợp thông tin theo yêu cầu."
+      },
+      {
+        "id": "T11-B11-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống: Cần lập danh sách học sinh theo lớp. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cơ sở dữ liệu.",
+          "B": "Giảm dư thừa dữ liệu.",
+          "C": "Tính nhất quán.",
+          "D": "Tổ chức trường và bản ghi theo cấu trúc."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Tổ chức trường và bản ghi theo cấu trúc."
+      },
+      {
+        "id": "T11-B11-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Truy xuất có cấu trúc?",
+        "lua_chon": {
+          "A": "Một học sinh có hai ngày sinh khác nhau trong hồ sơ.",
+          "B": "Cần lập danh sách học sinh theo lớp.",
+          "C": "Trường lưu thông tin học sinh có cấu trúc và liên kết.",
+          "D": "Tên học sinh bị nhập lại trong nhiều bảng rời."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Truy xuất có cấu trúc trong bài Cơ sở dữ liệu."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B11-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Xét tính đúng/sai về Cơ sở dữ liệu:",
+        "y_kien": {
+          "a": true,
+          "b": false,
+          "c": "Hạn chế dư thừa và bảo đảm nhất quán là yêu cầu quan trọng.",
+          "d": "CSDL chỉ có thể lưu dữ liệu dạng văn bản."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B11-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Nêu yêu cầu của CSDL quản lí lớp học.",
+        "dap_an_goi_y": "Dữ liệu có cấu trúc, liên quan, nhất quán; dễ cập nhật/truy xuất, hạn chế trùng lặp, chia sẻ có kiểm soát và được bảo vệ.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B11-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 11 - Cơ sở dữ liệu",
+        "noi_dung": "Dựa vào kiến thức “CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Trường lưu thông tin học sinh có cấu trúc và liên kết.",
+        "dap_an_goi_y": "Nêu ý kiến thức: CSDL là tập hợp dữ liệu có liên quan được tổ chức để lưu trữ và khai thác. Vận dụng: Cơ sở dữ liệu. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

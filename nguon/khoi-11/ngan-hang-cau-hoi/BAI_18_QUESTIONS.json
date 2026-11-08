@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_18",
+  "bai_so": 18,
+  "ten_bai": "Thực hành xác định cấu trúc CSDL",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B18-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Bước đầu khi thiết kế CSDL cho một bài toán là gì?",
+        "lua_chon": {
+          "A": "Chọn màu giao diện",
+          "B": "Xóa bảng cũ",
+          "C": "Phân tích yêu cầu và đối tượng dữ liệu",
+          "D": "Nhập dữ liệu ngẫu nhiên"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đáp án đúng vì Phân tích yêu cầu và đối tượng dữ liệu; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B18-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Phát biểu nào đúng về Phân tích yêu cầu?",
+        "lua_chon": {
+          "A": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
+          "B": "Thuộc tính mô tả đặc điểm của đối tượng.",
+          "C": "Khóa cần nhận diện duy nhất mỗi đối tượng.",
+          "D": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí."
+        },
+        "dap_an": "D",
+        "giai_thich": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí."
+      },
+      {
+        "id": "T11-B18-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống: Bài toán thư viện cần theo dõi sách và lượt mượn. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
+          "B": "HọcSinh và Lớp.",
+          "C": "Thuộc tính/trường.",
+          "D": "Mã sách duy nhất."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Phân tích yêu cầu và đối tượng dữ liệu."
+      },
+      {
+        "id": "T11-B18-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Phân tích yêu cầu?",
+        "lua_chon": {
+          "A": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "B": "Hai sách có thể trùng tên.",
+          "C": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+          "D": "Quản lí học sinh và lớp học."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Phân tích yêu cầu trong bài Thực hành xác định cấu trúc CSDL."
+      },
+      {
+        "id": "T11-B18-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Phát biểu nào đúng về Đối tượng dữ liệu?",
+        "lua_chon": {
+          "A": "Thuộc tính mô tả đặc điểm của đối tượng.",
+          "B": "Khóa cần nhận diện duy nhất mỗi đối tượng.",
+          "C": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
+          "D": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí."
+        },
+        "dap_an": "C",
+        "giai_thich": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng."
+      },
+      {
+        "id": "T11-B18-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống: Quản lí học sinh và lớp học. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
+          "B": "Thuộc tính/trường.",
+          "C": "Mã sách duy nhất.",
+          "D": "HọcSinh và Lớp."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, HọcSinh và Lớp."
+      },
+      {
+        "id": "T11-B18-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Đối tượng dữ liệu?",
+        "lua_chon": {
+          "A": "Quản lí học sinh và lớp học.",
+          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+          "C": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "D": "Hai sách có thể trùng tên."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Đối tượng dữ liệu trong bài Thực hành xác định cấu trúc CSDL."
+      },
+      {
+        "id": "T11-B18-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Phát biểu nào đúng về Thuộc tính?",
+        "lua_chon": {
+          "A": "Khóa cần nhận diện duy nhất mỗi đối tượng.",
+          "B": "Thuộc tính mô tả đặc điểm của đối tượng.",
+          "C": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.",
+          "D": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Thuộc tính mô tả đặc điểm của đối tượng."
+      },
+      {
+        "id": "T11-B18-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống: Mã sách, tên sách, năm xuất bản mô tả sách. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "HọcSinh và Lớp.",
+          "B": "Mã sách duy nhất.",
+          "C": "Thuộc tính/trường.",
+          "D": "Phân tích yêu cầu và đối tượng dữ liệu."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Thuộc tính/trường."
+      },
+      {
+        "id": "T11-B18-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thuộc tính?",
+        "lua_chon": {
+          "A": "Quản lí học sinh và lớp học.",
+          "B": "Hai sách có thể trùng tên.",
+          "C": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Thuộc tính trong bài Thực hành xác định cấu trúc CSDL."
+      },
+      {
+        "id": "T11-B18-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Phát biểu nào đúng về Chọn khóa?",
+        "lua_chon": {
+          "A": "Khóa cần nhận diện duy nhất mỗi đối tượng.",
+          "B": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.",
+          "C": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
+          "D": "Thuộc tính mô tả đặc điểm của đối tượng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Khóa cần nhận diện duy nhất mỗi đối tượng."
+      },
+      {
+        "id": "T11-B18-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống: Hai sách có thể trùng tên. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thuộc tính/trường.",
+          "B": "Mã sách duy nhất.",
+          "C": "Phân tích yêu cầu và đối tượng dữ liệu.",
+          "D": "HọcSinh và Lớp."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Mã sách duy nhất."
+      },
+      {
+        "id": "T11-B18-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn khóa?",
+        "lua_chon": {
+          "A": "Hai sách có thể trùng tên.",
+          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+          "C": "Quản lí học sinh và lớp học.",
+          "D": "Mã sách, tên sách, năm xuất bản mô tả sách."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Chọn khóa trong bài Thực hành xác định cấu trúc CSDL."
+      },
+      {
+        "id": "T11-B18-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Phát biểu nào đúng về Tách bảng?",
+        "lua_chon": {
+          "A": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.",
+          "B": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
+          "C": "Thuộc tính mô tả đặc điểm của đối tượng.",
+          "D": "Tách dữ liệu hợp lí giúp giảm lặp và mâu thuẫn."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tách dữ liệu hợp lí giúp giảm lặp và mâu thuẫn."
+      },
+      {
+        "id": "T11-B18-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống: Tên lớp lặp lại ở mọi bản ghi học sinh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tách bảng lớp và tham chiếu mã lớp.",
+          "B": "Phân tích yêu cầu và đối tượng dữ liệu.",
+          "C": "HọcSinh và Lớp.",
+          "D": "Thuộc tính/trường."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Tách bảng lớp và tham chiếu mã lớp."
+      },
+      {
+        "id": "T11-B18-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tách bảng?",
+        "lua_chon": {
+          "A": "Quản lí học sinh và lớp học.",
+          "B": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "C": "Tên lớp lặp lại ở mọi bản ghi học sinh.",
+          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Tách bảng trong bài Thực hành xác định cấu trúc CSDL."
+      },
+      {
+        "id": "T11-B18-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Phát biểu nào đúng về Kiểu dữ liệu?",
+        "lua_chon": {
+          "A": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
+          "B": "Thuộc tính mô tả đặc điểm của đối tượng.",
+          "C": "Kiểu dữ liệu cần phù hợp loại thông tin và thao tác.",
+          "D": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí."
+        },
+        "dap_an": "C",
+        "giai_thich": "Kiểu dữ liệu cần phù hợp loại thông tin và thao tác."
+      },
+      {
+        "id": "T11-B18-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống: Giá ngày mượn cần dùng để sắp xếp thời gian. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
+          "B": "HọcSinh và Lớp.",
+          "C": "Thuộc tính/trường.",
+          "D": "Ngày/thời gian."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Ngày/thời gian."
+      },
+      {
+        "id": "T11-B18-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểu dữ liệu?",
+        "lua_chon": {
+          "A": "Giá ngày mượn cần dùng để sắp xếp thời gian.",
+          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
+          "C": "Quản lí học sinh và lớp học.",
+          "D": "Mã sách, tên sách, năm xuất bản mô tả sách."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Kiểu dữ liệu trong bài Thực hành xác định cấu trúc CSDL."
+      },
+      {
+        "id": "T11-B18-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Phát biểu nào đúng về Rà soát thiết kế?",
+        "lua_chon": {
+          "A": "Thuộc tính mô tả đặc điểm của đối tượng.",
+          "B": "Thiết kế cần kiểm tra tính đầy đủ, dư thừa và liên kết.",
+          "C": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.",
+          "D": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Thiết kế cần kiểm tra tính đầy đủ, dư thừa và liên kết."
+      },
+      {
+        "id": "T11-B18-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống: Một bảng không có trường định danh và lưu trùng thông tin. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "HọcSinh và Lớp.",
+          "B": "Thuộc tính/trường.",
+          "C": "Rà soát cấu trúc và quan hệ trước khi tạo bảng.",
+          "D": "Phân tích yêu cầu và đối tượng dữ liệu."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Rà soát cấu trúc và quan hệ trước khi tạo bảng."
+      },
+      {
+        "id": "T11-B18-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Rà soát thiết kế?",
+        "lua_chon": {
+          "A": "Quản lí học sinh và lớp học.",
+          "B": "Mã sách, tên sách, năm xuất bản mô tả sách.",
+          "C": "Một bảng không có trường định danh và lưu trùng thông tin.",
+          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Rà soát thiết kế trong bài Thực hành xác định cấu trúc CSDL."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B18-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Xét tính đúng/sai về Thực hành xác định cấu trúc CSDL:",
+        "y_kien": {
+          "a": "Mọi dữ liệu nên đặt chung một bảng duy nhất.",
+          "b": true,
+          "c": false,
+          "d": "Kiểu dữ liệu cần phù hợp nội dung trường."
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B18-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Nêu các bước từ yêu cầu quản lí đến cấu trúc bảng.",
+        "dap_an_goi_y": "Xác định đối tượng/thông tin, nhóm thành bảng, chọn trường và kiểu dữ liệu, chọn khóa, xác định quan hệ và rà soát dư thừa.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B18-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
+        "noi_dung": "Dựa vào kiến thức “Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Bài toán thư viện cần theo dõi sách và lượt mượn.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí. Vận dụng: Phân tích yêu cầu và đối tượng dữ liệu. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

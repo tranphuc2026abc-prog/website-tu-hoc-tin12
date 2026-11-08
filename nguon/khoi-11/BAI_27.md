@@ -1,0 +1,210 @@
+# Bài 27. CÔNG CỤ VẼ VÀ MỘT SỐ ỨNG DỤNG
+
+> Học liệu được chuyển định dạng từ KHBD khối 11; nội dung gốc được giữ đầy đủ ở phần cuối để đối chiếu.
+
+## Chủ đề
+THỰC HÀNH TẠO VÀ KHAI THÁC CƠ SỞ DỮ LIỆU
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nắm được khái niệm lớp ảnh.
+Biết được một số công cụ vẽ đơn giản.
+Thực hiện được một số ứng dụng để tẩy, làm sạch và xóa các vết xước trên ảnh.
+Vẽ thêm các chi tiết đơn giản.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Tìm hiểu về lớp ảnh
+Hoạt động 2: Tìm hiểu về một số công cụ vẽ
+Hoạt động 3: Tìm hiểu về thiết lập màu sắc
+Hoạt động 4: Thực hành
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
+Ngày dạy: .../.../...
+BÀI 27: CÔNG CỤ VẼ VÀ MỘT SỐ ỨNG DỤNG
+I. MỤC TIÊU
+1. Kiến thức
+Học xong bài này, HS đạt các yêu cầu sau:
+Nắm được khái niệm lớp ảnh.
+Biết được một số công cụ vẽ đơn giản.
+Thực hiện được một số ứng dụng để tẩy, làm sạch và xóa các vết xước trên ảnh.
+Vẽ thêm các chi tiết đơn giản.
+2. Năng lực
+Năng lực chung:
+Tự chủ và tự học: biết lắng nghe, tự giác học tập và hoàn thành nhiệm vụ; tích cực tham gia các hoạt động học tập trong lớp.
+Giao tiếp và hợp tác: có thói quen trao đổi, giúp đỡ nhau trong học tập; biết cùng nhau hoàn thành nhiệm vụ học tập theo sự hướng dẫn của GV.
+Giải quyết vấn đề và sáng tạo: ứng dụng các kiến thức đã học vào thực tế, phát triển khả năng giải quyết vấn đề có tính tích hợp liên môn giữa Tin học với các môn học khác.
+Năng lực riêng:
+Sử dụng và quản lí các phương tiện công nghệ thông tin và truyền thông: 
+Nắm được khái niệm lớp ảnh.
+Biết một số công cụ vẽ đơn giản.
+Giải quyết vấn đề với sự hỗ trợ của công nghệ thông tin và truyền thông: Vận dụng kiến thức đã học về công cụ vẽ để thực hành tạo sản phẩm ảnh số.
+Năng lực số:
+6.1.NC1a: Hiểu bản chất của lớp ảnh (Layers) và kênh Alpha (Transparency) trong cấu trúc dữ liệu ảnh số.
+5.2.NC1b: Phân tích lỗi trên ảnh (vết xước, vật thừa) để lựa chọn công cụ phù hợp (Clone vs Healing) nhằm khắc phục sự cố.
+3.2.NC1a: Tạo ra sản phẩm ảnh ghép hoàn chỉnh từ nhiều nguồn dữ liệu khác nhau (ảnh gốc, màu gradient, lớp văn bản).
+6.2.NC1b: So sánh cơ chế hoạt động của công cụ Healing thủ công với công nghệ AI Inpainting (xóa vật thể bằng AI) để hiểu sự tiến bộ của công nghệ.
+3. Phẩm chất
+Trách nhiệm, tính cẩn thận, chăm chỉ trong học tập và công việc.
+Kiên trì, tỉ mỉ, thẩm mĩ tốt.
+II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU 
+1. Đối với GV 
+KHBD, tài liệu giảng dạy, giáo án PPT.
+Phòng thực hành máy tính cài đặt phần mềm GIMP và kết nối Internet.
+Máy chiếu.
+Video AI tạo bằng công cụ AI được dùng để khởi động bài học.
+2. Đối với HS 
+SGK, SBT Tin học 11, vở ghi chép.
+III. TIẾN TRÌNH DẠY HỌC
+1. HOẠT ĐỘNG KHỞI ĐỘNG
+a) Mục tiêu: Gợi sự chú ý của HS về các thao tác cần thay đổi chi tiết trên ảnh. Từ đó đi vào giới thiệu các công cụ để sửa và vẽ thêm lên ảnh.
+b) Nội dung: GV đặt vấn đề, HS trả lời câu hỏi Khởi động trang 128 SGK.
+c) Sản phẩm: Câu trả lời của HS cho câu hỏi khởi động trang 128 SGK.
+d) Tổ chức thực hiện:
+Bước 1: GV chuyển giao nhiệm vụ:
+- GV yêu cầu xem video AI được thiết kế để phục vụ bài dạy và trả lời câu hỏi xuất hiện trong video đó.
+- GV đặt vấn đề, yêu cầu HS thảo luận nhóm đôi trả lời câu hỏi Khởi động tr.128 SGK: 
+Khi chỉnh sửa ảnh em muốn thực hiện những công việc gì? Em đã dùng những phần mềm chỉnh sửa ảnh nào?
+Bước 2: HS thực hiện nhiệm vụ học tập: 
+- HS xem video và suy nghĩ câu trả lời.
+- HS lắng nghe, suy nghĩ câu trả lời.
+- GV hướng HS tập trung vào việc chỉnh những khuyết điểm trên ảnh.
+Bước 3: Báo cáo kết quả hoạt động, thảo luận:
+- GV gọi đại diện một số HS trả lời.
++ Xóa nhược điểm (nốt ruồi, tàn nhang, chi tiết không mong muốn như rác trên bãi cỏ).
++ Chỉnh sửa chi tiết (mắt nhắm, thêm người vắng mặt,...)
++ Một số phần mềm chỉnh sửa ảnh: photoshop, snapseed,...
+- HS khác nhận xét, bổ sung.
+Bước 4: Đánh giá kết quả thực hiện:
+- GV nhận xét, đánh giá và kết luận.
+[6.1.NC1a: HS sử dụng công cụ AI hoặc sản phẩm số do GV cung cấp để tiếp nhận thông tin, trả lời câu hỏi đơn giản.
+2.1.NC1a: HS thực hiện các tương tác cơ bản với học liệu số (xem video, trả lời câu hỏi trên môi trường số).
+1.1.NC1a: HS tiếp cận, khai thác được thông tin từ nguồn học liệu số dưới sự hướng dẫn của GV.]
+ - GV dẫn dắt HS vào bài học mới: Bài 27: Công cụ vẽ và một số ứng dụng.
+2. HOẠT ĐỘNG HÌNH THÀNH KIẾN THỨC
+Hoạt động 1: Tìm hiểu về lớp ảnh
+a) Mục tiêu: 
+- Giới thiệu với HS về lớp ảnh.
+- Chỉ ra cho HS thấy sự cần thiết của việc chỉnh sửa ảnh trên các lớp khác nhau.
+b) Nội dung: GV nêu nhiệm vụ, hướng dẫn HS các tác vụ trên lớp; HS đọc hiểu mục, quan sát Hình 27.1 - 27.2 và hướng dẫn của GV, thực hiện nhiệm vụ. 
+c) Sản phẩm: Giới thiệu về lớp ảnh.
+d) Tổ chức thực hiện:
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ- GV chiếu Hình 27.1, yêu cầu HS thảo luận nhóm đôi và trả lời câu hỏi Hoạt động 1 tr.128 SGK:Khi làm phim, các cảnh quay thường diễn ra như Hình 27.1. Em có biết nền màu xanh để làm gì không?Hình 27.1. Ảnh với nền xanh- Sau khi HS trả lời câu hỏi Hoạt động 1, GV dẫn dắt vào kiến thức mới: Nhờ có phần phông xanh, hình ảnh được tách thành các lớp khác nhau, hình ảnh trên các lớp này được xử lí riêng biệt và tổng hợp lại để thu được hình ảnh như chúng ta xem được trên phim. - GV yêu cầu HS: Sử dụng AI tìm hiểu khái niệm, vai trò của lớp ảnh trong chỉnh sửa ảnh.- GV tiếp tục giao nhiệm vụ cho HS: Mở hộp thoại Layer và tìm hiểu các thao tác quản lí các lớp ảnh.- GV hướng dẫn HS một số tác vụ cơ bản trên lớp (tạo một lớp mới, xóa lớp, tạo bản sao, gộp lớp) và mời 1 HS lên thao tác cho cả lớp quan sát.- GV yêu cầu HS trả lời câu hỏi củng cố tr.128 SGK: Trong Hình 27.2, lớp nào được hiển thị, lớp nào không?Bước 2: HS thực hiện nhiệm vụ học tập:- HS sử dụng AI tìm hiểu kiến thức.- HS thực hiện một số thao tác trên lớp ảnh theo hướng dẫn của GV.- GV quan sát, hướng dẫn (nếu cần thiết).Bước 3: Báo cáo kết quả hoạt động, thảo luận:- GV mời 1 - 2 nhóm HS trả lời câu hỏi Hoạt động 1:Phần màu xanh được loại bỏ đi trong khi xử lí kĩ xảo và ghép hình ảnh khác vào cho phù hợp với khung cảnh và diễn xuất của diễn viên.- HS đọc kết quả từ AI, đối chiếu với SGK và rút ra kết luận.- GV gọi 1 - 2 HS trả lời câu hỏi củng cố tr.128 SGK:Hai lớp được hiển thị là LSC và SK, lớp Org không được hiển thị.- GV mời 1 - 2 HS lên trình bày và thực hiện các tác vụ cơ bản trên lớp.- Các HS khác nhận xét, bổ sung cho bạn.Bước 4: Đánh giá kết quả thực hiện:- GV nhấn mạnh với HS về việc thực hiện chỉnh sửa trên bản sao của lớp cần sửa.- GV nhận xét, đánh giá và chốt kiến thức.- GV chuyển sang hoạt động tiếp theo. | 1. Giới thiệu về lớp ảnh- Mỗi lớp ảnh chứa một số đối tượng của ảnh để có thể xử lí riêng.- Thứ tự sắp xếp của các lớp quyết định ảnh sản phẩm.- Một số tác vụ cơ bản trên lớp:+ Tạo một lớp mới New Layer.+ Xóa lớp được chọn Delete Layer.+ Tạo bản sao của lớp được chọn Duplicate Layer.+ Gộp lớp Merge Down.Lưu ý: - Các lớp không có hình con mắt sẽ không được hiển thị trong vùng hiển thị ảnh ở giữa màn hình.- Lớp đang chỉnh sửa là lớp được đánh dấu xanh trong hộp thoại Layer. Các tác động chỉnh sửa chỉ tác động lên lớp này, không tác động lên lớp khác. Nếu lớp này nằm ở phía dưới, cần đảm bảo hiển thị đúng lớp (ví dụ: tắt hiển thị các lớp trên) để có thể nhìn rõ tác động của các thao tác chỉnh sửa mà mình đang thực hiện. | - 6.2.NC1a: Sử dụng AI để tìm kiếm thông tin phục vụ học tập.- 6.1.NC1a: HS tư duy phân lớp dữ liệu; hình dung cấu trúc của một tệp ảnh kỹ thuật số không phải là một mặt phẳng duy nhất mà là sự chồng xếp của nhiều tầng dữ liệu độc lập; hiểu cơ chế “hiển thị ưu tiên” (lớp trên che lớp dưới) và “kênh trong suốt” để quản lý các thành phần của bức ảnh.- 3.2.NC1a: HS sử dụng phần mềm GIMP để thao tác trên các các lớp ảnh.
+Hoạt động 2: Tìm hiểu về một số công cụ vẽ
+a) Mục tiêu: HS biết được một số công cụ vẽ đơn giản.
+b) Nội dung: GV nêu nhiệm vụ, hướng dẫn HS các thao tác với công cụ vẽ; HS đọc hiểu mục, quan sát Hình 27.3, Bảng 27.1 và hướng dẫn của GV, thực hiện nhiệm vụ. 
+c) Sản phẩm: Giới thiệu một số công cụ vẽ.
+d) Tổ chức thực hiện:
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ- GV chiếu Hình 27.3, yêu cầu HS thảo luận nhóm đôi trả lời câu hỏi Hoạt động 2 tr.129 SGK: Hình 27.3 là một bức ảnh nổi tiếng của nhiếp ảnh gia Kusakabe Kimbei được chụp từ những năm 1870. Em có thể xác định được tác giả đã phải vẽ thêm những gì để thu được tấm hình này không?- Sau khi HS trả lời câu hỏi Hoạt động 2, GV dẫn dắt vào kiến thức mới: Nhu cầu vẽ thêm ảnh xuất hiện từ khi bắt đầu có ảnh chụp, với các phần mềm chỉnh sửa ngày nay, ta không chỉ vẽ thêm mà còn cắt bớt hay chỉnh lại các chi tiết trên ảnh.- GV yêu cầu HS: Sử dụng AI tìm hiểu một số công cụ vẽ thường dùng được giới thiệu trong bảng 27.1.- GV giới thiệu với HS về việc vẽ các hình cơ bản như hình chữ nhật, hình tròn,... bằng cách tạo vùng chọn rồi sử dụng công cụ Bucket Fill để đổ màu. Thay đổi thông số như Rounded corners để thu được hình có góc cong hay thay đổi thông số Position và Size để xác định vị rí và kích thước cụ thể tùy theo hình cần vẽ.- GV lưu ý HS về việc sử dụng công cụ tẩy và màu nền của lớp tương ứng.- GV mời 1 HS thực hiện các thao tác với công cụ vẽ cho cả lớp quan sát.- GV yêu cầu HS trả lời câu hỏi củng cố tr.129 SGK: Nêu sự khác nhau giữa hai công cụ Clone và Healing.Bước 2: HS thực hiện nhiệm vụ học tập:- HS thảo luận nhóm đôi, đọc SGK, quan sát Hình 27.3 trả lời câu hỏi.- HS sử dụng AI tìm hiểu kiến thức.- HS thao tác sử dụng các công cụ theo hướng dẫn của GV.- GV quan sát, hướng dẫn.Bước 3: Báo cáo kết quả hoạt động, thảo luận:- GV mời đại diện 1 - 2 nhóm HS trả lời câu hỏi Hoạt động 2 tr.129 SGK: Toàn bộ bức ảnh này được tô màu bằng tay. Các vệt mưa được tạo bởi các vết xước trên phim âm bản.- HS đọc kết quả từ AI, đối chiếu với SGK và rút ra kết luận.- GV mời 1 - 2 HS trả lời câu hỏi Củng cố tr.129 SGK: Clone sử dụng chính xác vùng chọn để dán lên điểm cần vẽ trong khi Healing sẽ hòa trộn mẫu tại hai vị trí để thực hiện.- Các HS khác nhận xét, bổ sung.Bước 4: Đánh giá kết quả thực hiện:- GV nhận xét, đánh giá kết quả của HS.- GV tổng kết kiến thức và yêu cầu HS ghi chép vào vở. | 2. Giới thiệu một số công cụ vẽ- Các công cụ vẽ là phương tiện để chúng ta vẽ thêm chi tiết hoặc loại bỏ các nhược điểm trên ảnh.- Các công cụ vẽ trong GIMP được cung cấp trong bảng chọn Tools → Paint Tools.- Công cụ vẽ gồm ba nhóm chính:+ Vẽ thêm: Paint Brush, Bucket Fill, Gradient.+ Tẩy: Eraser.+ Vẽ bằng vùng chọn: Clone, Healing (thường dùng để sửa nhược điểm trên ảnh hay lấp đầy một vùng ảnh đã cắt).Bảng 27.1. Một số công cụ vẽ thường dùng (Đính kèm dưới hoạt động) | - 6.2.NC1a: Sử dụng AI để tìm kiếm thông tin phục vụ học tập.- 5.2.NC1b: HS phân biệt được chức năng của các công cụ vẽ; nhận diện sự khác biệt thuật toán giữa công cụ Clone và Healing, từ đó lựa chọn đúng công cụ cho từng tình huống sửa ảnh cụ thể.- 3.2.NC1a: HS sử dụng phần mềm GIMP để thao tác trên các các lớp ảnh.
+Bảng 27.1. Một số công cụ vẽ thường dùng
+[BẢNG] Công cụ | Chức năng | Lưu ý
+[BẢNG] Paint Brush | Vẽ thêm cho lớp đang chọn | Chọn kiểu cọ vẽ trong hộp thoại Brushes bên phải màn hình.
+[BẢNG] Bucket Fill | Tô màu vùng chọn. | Mặc định dùng màu nổi và tô cả vùng chọn. Có thể thay đổi trong mục Fill Type và Affected.
+[BẢNG] Gradient | Tô màu chuyển sắc vùng chọn. | Mặc định chuyển từ màu nổi sang màu nền tuy nhiên có thể thay đổi trong hộp tùy chọn.
+[BẢNG] Eraser | Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn. | Nếu lớp đang chọn không có kênh alpha thì điểm ảnh được xóa sẽ có màu nền. Ngược lại, nếu lớp có kênh alpha thì điểm ảnh trong suốt, hiển thị bởi lưới ô vuông xám – đen.
+[BẢNG] Clone | Vẽ bằng cách sao chép chính xác một vùng chọn. | Chọn độ nhòe và kích thước nét vẽ trong hộp tùy chọn.
+[BẢNG] Healing | Vẽ bằng cách sao chép một vùng chọn. | Tương tự như Clone nhưng công cụ này kết hợp giữa điểm ảnh ở vùng chọn và điểm ảnh cần vẽ (chỉnh sửa).
+Hoạt động 3: Tìm hiểu về thiết lập màu sắc
+a) Mục tiêu: Giúp HS dễ hiểu hơn về khái niệm màu nền (background) và màu nổi (foreground).
+b) Nội dung: GV nêu nhiệm vụ, hướng dẫn HS các thao tác với công cụ vẽ; HS đọc hiểu mục, quan sát Hình 27.3, Bảng 27.1 và hướng dẫn của GV, thực hiện nhiệm vụ. 
+c) Sản phẩm: Thiết lập màu sắc.
+d) Tổ chức thực hiện:
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ- GV yêu cầu HS hoạt động cá nhân trả lời câu hỏi Hoạt động 3 tr.130 SGK: Khi viết trên bảng, các thầy cô sử dụng phấn màu trắng, còn khi viết trong vở học sinh thường dùng mực màu gì? Tại sao không dùng bút mực trắng?- Sau khi HS trả lời câu hỏi Hoạt động 3, GV dẫn dắt vào kiến thức mới: Màu của bảng hay của giấy viết đóng vai trò là màu nền, còn màu bút viết lên là màu nổi, được chọn tùy theo ý định – cần làm nổi bật hay không.Khi tẩy một hình đã vẽ hãy một chữ đã viết thì màu ta nhìn thấy sẽ là màu nền trong hai trường hợp trên.Còn khi viết trên một tấm bìa mica trong suốt thì khi tẩy đi ta sẽ nhìn thấy hình ảnh ở phía sau, giống như khi một lớp có kênh alpha.- GV yêu cầu HS: Quan sát Hình 27.4 và sử dụng AI tìm hiểu về cách phần mềm GIMP phân biệt màu nổi và màu nền của một bức ảnh.- GV minh họa việc chọn màu cho HS – chọn trên thanh màu sắc để xác định dải màu trước, sau đó chọn vị trí màu trên hình chữ nhật để xác định màu chính xác. - GV hướng dẫn HS chọn nhanh trong các màu được dùng gần đây bằng cách chọn trong các ô hình chữ nhật nằm bên dưới hộp thoại, phía trên cụm các nút Reset – OK – Cancel.- Nếu đã biết giá trị màu, chỉ cần nhập vào ô HTML notation.- GV hướng dẫn HS sử dụng công cụ Color Picker để chọn màu cần thiết nhanh và chính xác. (Nếu chọn chính xác một màu đã xuất hiện ở một vùng khác ta chỉ cần chọn công cụ và nháy chuột vào vùng đó; thay đổi một chút trên vùng chọn vị trí màu nếu ta muốn thay đổi một chút so với màu gốc.- GV yêu cầu một số HS lên thực hiện các thao tác thiết lập màu sắc.- GV yêu cầu HS thảo luận nhóm đôi, trả lời câu hỏi củng cố tr.130 SGK: Có ba lớp ảnh theo thứ tự từ dưới lên là 1, 2 và 3. Lớp 1 có một bông hoa, lớp 2 có một quả táo và lớp 3 có một chiếc bàn. Biết chỉ có lớp 2 có kênh alpha và độ mờ của cả 3 lớp là 100. Hỏi khi hiển thị cả ba lớp em thấy hình gì?Bước 2: HS thực hiện nhiệm vụ học tập:- HS trả lời câu hỏi Hoạt động 3 tr.130 SGK.- HS sử dụng AI tìm hiểu kiến thức.- HS thảo luận nhóm đôi, trả lời câu hỏi củng cố tr.130 SGK.- GV quan sát, hướng dẫn.Bước 3: Báo cáo kết quả hoạt động, thảo luận:- GV mời đại diện 1 - 2 HS trả lời câu hỏi Hoạt động 3 tr.130 SGK: Khi viết trên bảng  thông thường các thầy cô sử dụng phấn màu trắng vì bảng có màu đen hoặc xanh nên viết bằng màu n trắng sẽ nổi hơn các màu đỏ, vàng, xanh.Khi viết lên giấy – nền trắng – nên màu mực cần chọn màu nổi như đen, xanh 3 đậm để dễ nhìn.- HS đọc kết quả từ AI, đối chiếu với SGK và rút ra kết luận.- GV mời 1 - 2 HS lên trình bày và thực hành các thao tác thiết lập màu sắc.- GV mời 1 - 2 nhóm HS trả lời câu hỏi Củng cố tr.130 SGK: Theo thứ tự hiển thị, lớp 3 nằm trên cùng, độ mờ là 100 nên ta không nhìn thấy hình bên dưới. Do đó ta nhìn thấy chiếc bàn.- Các HS khác nhận xét, bổ sung.Bước 4: Đánh giá kết quả thực hiện:- GV nhận xét, đánh giá kết quả của HS.- GV tổng kết kiến thức và yêu cầu HS ghi chép vào vở. | 3. Thiết lập màu sắc- Ngoài ba kênh màu cơ bản R, G và B, giá trị màu sắc của các điểm ảnh còn có một kênh nữa là kênh alpha. - Để thêm kênh alpha vào một lớp: nháy nút phải vào lớp và chọn Add Alpha Chanel. Ngược lại, để xóa kênh alpha chọn Remove Alpha Chanel.- Màu nổi (Foreground) là màu dùng cho các công cụ vẽ.- Màu nền (Background) được coi là màu giấy vẽ.- Khi dùng công cụ Eraser để xóa một điểm ảnh, nếu không có kênh alpha thì điểm ảnh đó sẽ có màu nền, còn nếu có kênh alpha thì điểm ảnh đó không có màu, ta có thể nhìn thấy hình ảnh ở lớp dưới tại vị trí được xóa.- Để chọn màu cho màu nổi/màu nền: nháy chuột vào ô tương ứng. Trong hộp thoại chọn màu, chọn dải màu trước rồi nháy chuột vào màu muốn chọn. Có thể sử dụng công cụ Color Picker để lấy màu từ một điểm ảnh. | - 6.2.NC1a: Sử dụng AI để tìm kiếm thông tin phục vụ học tập.- 1.1.NC1a: HS thực hiện quản lý thuộc tính dữ liệu; thiết lập và chuyển đổi giữa các không gian màu và kênh Alpha để kiểm soát kết quả hiển thị của công cụ vẽ.- 3.2.NC1a: HS sử dụng phần mềm GIMP để thiết lập màu sắc cho ảnh.
+Hoạt động 4: Thực hành
+a) Mục tiêu: 
+- Thực hành lệnh Clone và Healing để xóa nhược điểm trên ảnh.
+- Thực hành thêm lớp, thêm kênh alpha và vẽ thêm để hình vẽ đẹp hơn.
+b) Nội dung: GV giao nhiệm vụ, HS quan sát hướng dẫn và Hình 27.5 - 27.11 trong SGK trang 130 - 132 và thực hành nhiệm vụ được giao.
+c) Sản phẩm: Sản phẩm thực hành của HS.
+d) Tổ chức thực hiện:
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ- GV chuẩn bị sẵn một số tệp theo yêu cầu của bài thực hành.- GV chia lớp thành các nhóm thực hành, mỗi nhóm 2 - 3 HS.- GV giao nhiệm vụ, yêu cầu các nhóm HS đọc hướng dẫn và quan sát hình 27.5 - 27.11 SGK tr.130 - 132: Nhiệm vụ 1. Xóa đoạn chi tiết thừa bằng công cụ Clone và Healing.Nhiệm vụ 2. Thay nền trời cho canh đồng hoa.- GV yêu cầu các nhóm thảo luận, phân công nhiệm vụ và thực hành tạo sản phẩm ảnh số.Bước 2: HS thực hiện nhiệm vụ học tập:- HS thảo luận nhóm, đọc hướng dẫn và quan sát Hình 27.5 - 27.11 SGK tr.130 - 132, thực hành nhiệm vụ được giao.- GV quan sát, hướng dẫn.Bước 3: Báo cáo kết quả hoạt động, thảo luận:- Các nhóm báo cáo sản phẩm thực hành.- Các HS khác nhận xét, bổ sung.Bước 4: Đánh giá kết quả thực hiện:- GV nhận xét sản phẩm thực hành của HS.- GV chỉ ra một vài lỗi và hướng dẫn chỉnh sửa (nếu có).- GV phân tích cho  HS thấy tác động của hai lệnh. Trong đó dễ thấy là Clone thực hiện nhanh hơn nhưng cần chú ý để vùng ảnh được chọn có màu sắc và các chi tiết đồng nhất. Nếu chọn vùng ảnh có màu sắc hay họa tiết khác sẽ làm cho phần được chỉnh sửa khác hẳn so với phần còn lại.- GV chốt kiến thức và chuyển sang hoạt động tiếp theo. | 4. Thực hànhNhiệm vụ 1. Xóa đoạn chi tiết thừa bằng công cụ Clone và Healing- Xóa hình dây điện: Chọn công cụ Healing , rồi chọn loại cọ và độ lớn của cọ vẽ (sử dụng cọ đầu tròn, độ lớn 300).Đưa con trỏ chuột lên vùng trời màu xanh, nhấn giữ phím Ctrl và nháy chuột để sao (vùng nguồn). Nhấn giữ và di chuyển chuột vào vùng dây điện để sao chép điểm ảnh ở vùng nguồn vào vùng chỉnh sửa để xóa hình dây điện.- Xóa gạch đen: Sử dụng công cụ Clone, và làm tương tự công cụ Healing Lưu ý: Với phần ảnh sát với lá cây, cần giảm độ lớn của cọ (10) để không làm ảnh hưởng đến phần là cây.Nhiệm vụ 2. Thay nền trời trong ảnh cánh đồng hoaTách phần phong cảnhBước 1. Sau khi mở tệp ảnh chỉ có một lớp duy nhất chứa ảnh cánh đồng hoa. Nhảy nút phải chuột vào tên lớp trong hộp thoại Layer và chọn Duplicate layer. Sửa tên lớp mới thành phong canh. Sửa trên bàn sao phong canh để không ảnh hưởng đến ảnh gốc.Bước 2. Nháy nút phải chuột vào lớp phong_canh và chọn Add Alpha Channel. Bước 3. Sử dụng công cụ chọn tự do để chọn phần bầu trờiLưu ý: Nên phóng to ảnh để dễ thực hiện, để đơn giản, nên cắt cả phần cây phía trên. Bước 4. Nháy nút phải chuột vào vùng vừa chọn, chọn Edit → Clear. Phần lưới ô vuông xám - đen là phần trong suốt, có thể nhìn thấy lớp bên dướiBước 5. Chỉnh lại cây: Sử dụng công cụ Eraser để tẩy các phần còn sót lại hoặc dùng cọ vẽ để thêm viền cây cho đẹp. Có thể chỉnh màu sắc của cây bằng các công cụ đã học trong Bài 26.Vẽ nền trờiBước 5. Nháy nút phải chuột vào lớp dưới cùng (ảnh gốc) và chọn New Layer, nhập tên lớp mới là bau_troi trong ô Layer Name. Lớp bau_troi mới tạo sẽ nằm dưới lớp phong_canh.Để tiện thao tác với lớp này, ta tắt hiển thị của tất cả các lớp còn lại (nháy chuột vào hình con mắt bên cạnh mỗi lớp).Bước 6. Chọn màu nổi và màu nền là hai tông màu của màu xanh lam (các màu có giá trị 4b9dde và c1e6fb, nhập vào ô HTML notation trong hộp thoại chọn màu).Bước 7. Chọn công cụ màu chuyển Gradient  trong hộp công cụ.Bước 8. Chọn kiểu chuyển FB to GB (RGB) trong hộp thoại Gradient.Bước 9. Nháy chuột vào điểm sát phía trên cùng của ảnh, kéo thả chuột theo phương thẳng đứng xuống phía dưới để đồ màu cho lớp.Để xem ảnh tổng thể, em hiển thị lại lớp phong_canh. | 5.2.NC1b: HS phân tích đối tượng cần xử lý để lựa chọn công cụ chỉnh sửa ảnh phù hợp.
+3. HOẠT ĐỘNG LUYỆN TẬP
+a) Mục tiêu: HS củng cố kiến thức về công cụ vẽ và một số ứng dụng
+b) Nội dung: HS trả lời câu hỏi trắc nghiệm và hoàn thành bài tập phần Luyện tập SGK trang 132.
+c) Sản phẩm học tập: Câu trả lời của HS cho câu hỏi trắc nghiệm và bài tập Luyện tập SGK trang 132.
+d) Tổ chức thực hiện:
+Bước 1: GV chuyển giao nhiệm vụ:
+Nhiệm vụ 1: Trả lời câu hỏi trắc nghiệm khách quan
+- GV tổ chức trò chơi trắc nghiệm nhanh trên Quizizz hoặc Kahoot để củng cố toàn bài.
+- GV cung cấp mã QR hoặc đường Links cho HS làm Phiếu bài tập, trả lời nhanh một số câu hỏi trắc nghiệm tổng kết bài học.
+Câu 1: Các thao tác quản lí lớp ảnh nằm trong hộp thoại nào sau đây?
+A. Channels.B. Undo.C. Paths.D. Layers.
+Câu 2: Để sử dụng các công cụ vẽ trong GIMP chọn
+A. Tools → Paint Tools.B. Colors → Color Balance.
+C. Image → Fit Canvas to Layers.D. File → Export.
+Câu 3: Công cụ nào sau đây dùng để xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn?
+A. B. C. D. 
+Câu 4: Công cụ Paint Brush dùng để
+A. Tô màu vùng chọn.
+B. Vẽ bằng cách sao chép chính xác một vùng chọn.
+C. Vẽ thêm cho lớp đang chọn.
+D. Tô màu chuyển sắc vùng chọn.
+Câu 5: Công cụ nào dùng để tô màu chuyển sắc vùng chọn?
+A. Bucket Fill.B. Clone.C. Healing.D. Gradient.
+Nhiệm vụ 2: Câu hỏi luyện tập tr.132 SGK
+1. Trong Nhiệm vụ 2, nếu thực hiện các bước từ 5 đến 9 trước thì khi hiển thị cả ba lớp ta thu được ảnh như thế nào?
+2. Giả sử màu nổi và màu nền đang có giá trị theo hệ RGB là (100, 125, 125) và (225, 225, 0). Nếu ta thực hiện bước 3 và 4 trên lớp ảnh ban đầu (ảnh gốc sau khi mở) thì hình ảnh mới của lớp như thế nào?
+3. Nếu ta cần sử dụng công cụ Clone trên một vùng ảnh hình chữ nhật thì theo em ta nên dùng đầu cọ nào?
+Bước 2: HS thực hiện nhiệm vụ học tập:
+- HS hoàn thành bài tập GV yêu cầu.
+- GV quan sát và hỗ trợ, hướng dẫn.
+Bước 3: Báo cáo kết quả hoạt động, thảo luận:
+- HS xung phong báo cáo bài tập mình làm.
+- Các HS khác nhận xét, bổ sung bài làm của bạn.
+Gợi ý trả lời:
+[BẢNG] Câu 1 | Câu 2 | Câu 3 | Câu 4 | Câu 5
+[BẢNG] D | A | B | C | D
+[2.1.NC1a: HS thực hiện các tương tác được xác định rõ ràng với công nghệ số (làm bài tập online) trong lớp học.]
+Câu hỏi Luyện tập 1 tr.132 SGK: Khi thực hiện các bước 5 đến 9 trước thì ta có hai lớp ảnh, ảnh gốc ở dưới, lớp nền trời ở trên.
+Khi thực hiện bước 1 đến 4, lớp ảnh phong_canh nằm trên lớp ảnh gốc do vậy thứ tự của ba lớp ảnh từ dưới lên trên là: Ảnh gốc – phong_canh – bau_troi.
+Lớp bầu trời che kín toàn bộ ảnh nên khi bật cả ba lớp ta chỉ nhìn thấy ảnh ở lớp bau_troi.
+[6.1.NC1a: HS tư duy logic về cấu trúc lớp; mô phỏng trong tư duy cơ chế che khuất của phần mềm đồ họa: Lớp nằm trên sẽ che khuất lớp nằm dưới.]
+Câu hỏi Luyện tập 2 tr.132 SGK:  Màu nền (255, 255, 0) tương ứng với màu vàng.
+Sau khi thực hiện bước 3 và 4, phần nền trời được xoá đi sẽ có màu nến là màu vàng Do đó hình ảnh mới gồm phần cánh đồng hoa bên dưới và bầu trời bên trên có màu vàng.
+[1.1.NC1a: HS giải mã dữ liệu màu sắc, phân biệt được trạng thái dữ liệu của lệnh Xóa.]
+Câu hỏi Luyện tập 3 tr.132 SGK:  Dùng đầu cọ hình chữ nhật.
+[5.2.NC1b: HS phân tích đối tượng cần xử lý để lựa chọn công cụ chỉnh sửa ảnh phù hợp.]
+Bước 4: Đánh giá kết quả thực hiện:
+- GV nhận xét, tuyên dương các hoạt động tốt, nhanh và chính xác.
+4. HOẠT ĐỘNG VẬN DỤNG
+a) Mục tiêu: HS vận dụng được kiến thức đã học về công cụ vẽ và một số ứng dụng.
+b) Nội dung: HS vận dụng hiểu biết của bản thân để làm bài tập phần câu hỏi vận dụng trang 132 SGK.
+c) Sản phẩm: Câu trả lời của HS cho câu hỏi vận dụng trang 132 SGK.
+d) Tổ chức thực hiện:
+Bước 1: GV chuyển giao nhiệm vụ
+- GV yêu cầu HS hoàn thành bài tập phần Vận dụng SGK trang 132:
+Lấy một ảnh chụp chân dung có nhược điểm như nám, mụn,... Thực hiện việc xóa các vết này bằng công cụ Clone và Healing. So sánh kết quả khi chỉ dùng một trong hai loại.
+- GV ví dụ một số ảnh chân dung có nhược điểm:
+- GV chú ý HS:
++ Thay đổi kích thước đầu cọ để sử dụng cho phù hợp.
++ Khi chọn vùng Clone, để bức ảnh liền mạch, không tạo ra các vùng chuyển dễ nhận ra trên ảnh sau khi chỉnh sửa.
+Bước 2: HS thực hiện nhiệm vụ học tập
+- HS lựa chọn hình ảnh, vận dụng kiến thức đã học về công cụ vẽ để thực hiện bài tập Vận dụng tr.132 SGK.
+- GV điều hành, quan sát, hỗ trợ.
+Bước 3: Báo cáo kết quả hoạt động, thảo luận
+- GV mời 1 - 2 HS báo cáo sản phẩm ảnh số đã chỉnh sửa.
+Thông thường sử dụng Clone sẽ nhanh hơn so với Healing. 
+- HS khác quan sát và nhận xét.
+ Bước 4: Đánh giá kết quả thực hiện
+- GV nhận xét, tuyên dương, kết thúc tiết học.
+[5.2.NC1b: HS vận dụng khéo léo công cụ Clone và Healing để loại bỏ các điểm ảnh lỗi (mụn, nám) trên khuôn mặt.
+1.2.NC1a: HS thực hiện đánh giá so sánh kết quả chỉnh sửa ảnh khi sử dụng một trong hai công cụ.]
+* HƯỚNG DẪN VỀ NHÀ
+- Ghi nhớ kiến thức trong bài.
+- Hoàn thành các bài tập trong SBT.
+- Chuẩn bị bài mới Bài 28 – Tạo ảnh động.
+```
+
+</details>
+

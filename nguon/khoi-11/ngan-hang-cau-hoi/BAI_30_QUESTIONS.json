@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_30",
+  "bai_so": 30,
+  "ten_bai": "Biên tập phim",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B30-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Muốn phụ đề khớp lời thoại cần căn chỉnh điều gì?",
+        "lua_chon": {
+          "A": "Quyền Bluetooth",
+          "B": "Vị trí và thời lượng phụ đề trên dòng thời gian",
+          "C": "Tên tệp ảnh bìa",
+          "D": "Kiểu khóa CSDL"
+        },
+        "dap_an": "B",
+        "giai_thich": "Đáp án đúng vì Vị trí và thời lượng phụ đề trên dòng thời gian; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B30-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Phát biểu nào đúng về Cắt clip?",
+        "lua_chon": {
+          "A": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
+          "B": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
+          "C": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc.",
+          "D": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng."
+      },
+      {
+        "id": "T11-B30-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống: Đầu video có khoảng chờ dài. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cắt bỏ phần đầu không cần.",
+          "B": "Hiệu ứng chuyển cảnh phù hợp.",
+          "C": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
+          "D": "Vị trí bắt đầu/kết thúc trên dòng thời gian."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Cắt bỏ phần đầu không cần."
+      },
+      {
+        "id": "T11-B30-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Cắt clip?",
+        "lua_chon": {
+          "A": "Nhạc nền át tiếng người nói.",
+          "B": "Dòng chữ xuất hiện sau lời nói.",
+          "C": "Đầu video có khoảng chờ dài.",
+          "D": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Cắt clip trong bài Biên tập phim."
+      },
+      {
+        "id": "T11-B30-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Phát biểu nào đúng về Chuyển cảnh?",
+        "lua_chon": {
+          "A": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
+          "B": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc.",
+          "C": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
+          "D": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng."
+        },
+        "dap_an": "C",
+        "giai_thich": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip."
+      },
+      {
+        "id": "T11-B30-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống: Hai cảnh thay đổi đột ngột và cần chuyển nhẹ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cắt bỏ phần đầu không cần.",
+          "B": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
+          "C": "Vị trí bắt đầu/kết thúc trên dòng thời gian.",
+          "D": "Hiệu ứng chuyển cảnh phù hợp."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Hiệu ứng chuyển cảnh phù hợp."
+      },
+      {
+        "id": "T11-B30-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Chuyển cảnh?",
+        "lua_chon": {
+          "A": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
+          "B": "Đầu video có khoảng chờ dài.",
+          "C": "Nhạc nền át tiếng người nói.",
+          "D": "Dòng chữ xuất hiện sau lời nói."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Chuyển cảnh trong bài Biên tập phim."
+      },
+      {
+        "id": "T11-B30-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Phát biểu nào đúng về Âm thanh?",
+        "lua_chon": {
+          "A": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc.",
+          "B": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
+          "C": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.",
+          "D": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip."
+        },
+        "dap_an": "B",
+        "giai_thich": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền."
+      },
+      {
+        "id": "T11-B30-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống: Nhạc nền át tiếng người nói. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Hiệu ứng chuyển cảnh phù hợp.",
+          "B": "Vị trí bắt đầu/kết thúc trên dòng thời gian.",
+          "C": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
+          "D": "Cắt bỏ phần đầu không cần."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Giảm nhạc nền hoặc cân bằng mức âm thanh."
+      },
+      {
+        "id": "T11-B30-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Âm thanh?",
+        "lua_chon": {
+          "A": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
+          "B": "Dòng chữ xuất hiện sau lời nói.",
+          "C": "Nhạc nền át tiếng người nói.",
+          "D": "Đầu video có khoảng chờ dài."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Âm thanh trong bài Biên tập phim."
+      },
+      {
+        "id": "T11-B30-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Phát biểu nào đúng về Phụ đề?",
+        "lua_chon": {
+          "A": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc.",
+          "B": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.",
+          "C": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
+          "D": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền."
+        },
+        "dap_an": "A",
+        "giai_thich": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc."
+      },
+      {
+        "id": "T11-B30-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống: Dòng chữ xuất hiện sau lời nói. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
+          "B": "Vị trí bắt đầu/kết thúc trên dòng thời gian.",
+          "C": "Cắt bỏ phần đầu không cần.",
+          "D": "Hiệu ứng chuyển cảnh phù hợp."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Vị trí bắt đầu/kết thúc trên dòng thời gian."
+      },
+      {
+        "id": "T11-B30-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Phụ đề?",
+        "lua_chon": {
+          "A": "Dòng chữ xuất hiện sau lời nói.",
+          "B": "Đầu video có khoảng chờ dài.",
+          "C": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
+          "D": "Nhạc nền át tiếng người nói."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Phụ đề trong bài Biên tập phim."
+      },
+      {
+        "id": "T11-B30-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Phát biểu nào đúng về Hiệu ứng?",
+        "lua_chon": {
+          "A": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.",
+          "B": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
+          "C": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
+          "D": "Hiệu ứng nên phục vụ nội dung và tránh gây rối."
+        },
+        "dap_an": "D",
+        "giai_thich": "Hiệu ứng nên phục vụ nội dung và tránh gây rối."
+      },
+      {
+        "id": "T11-B30-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống: Video có quá nhiều hiệu ứng nhấp nháy. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Giảm và chọn hiệu ứng có mục đích.",
+          "B": "Cắt bỏ phần đầu không cần.",
+          "C": "Hiệu ứng chuyển cảnh phù hợp.",
+          "D": "Giảm nhạc nền hoặc cân bằng mức âm thanh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Giảm và chọn hiệu ứng có mục đích."
+      },
+      {
+        "id": "T11-B30-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Hiệu ứng?",
+        "lua_chon": {
+          "A": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
+          "B": "Nhạc nền át tiếng người nói.",
+          "C": "Video có quá nhiều hiệu ứng nhấp nháy.",
+          "D": "Đầu video có khoảng chờ dài."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Hiệu ứng trong bài Biên tập phim."
+      },
+      {
+        "id": "T11-B30-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Phát biểu nào đúng về Căn chỉnh thời gian?",
+        "lua_chon": {
+          "A": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
+          "B": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
+          "C": "Căn chỉnh thời lượng giúp hình, tiếng và phụ đề đồng bộ.",
+          "D": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng."
+        },
+        "dap_an": "C",
+        "giai_thich": "Căn chỉnh thời lượng giúp hình, tiếng và phụ đề đồng bộ."
+      },
+      {
+        "id": "T11-B30-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống: Lời thoại kết thúc nhưng phụ đề còn hiện lâu. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cắt bỏ phần đầu không cần.",
+          "B": "Hiệu ứng chuyển cảnh phù hợp.",
+          "C": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
+          "D": "Thời lượng phụ đề."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Thời lượng phụ đề."
+      },
+      {
+        "id": "T11-B30-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Căn chỉnh thời gian?",
+        "lua_chon": {
+          "A": "Lời thoại kết thúc nhưng phụ đề còn hiện lâu.",
+          "B": "Đầu video có khoảng chờ dài.",
+          "C": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
+          "D": "Nhạc nền át tiếng người nói."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Căn chỉnh thời gian trong bài Biên tập phim."
+      },
+      {
+        "id": "T11-B30-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Phát biểu nào đúng về Kiểm tra xuất bản?",
+        "lua_chon": {
+          "A": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
+          "B": "Xem lại tệp sau khi xuất giúp phát hiện lỗi cuối cùng.",
+          "C": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.",
+          "D": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip."
+        },
+        "dap_an": "B",
+        "giai_thich": "Xem lại tệp sau khi xuất giúp phát hiện lỗi cuối cùng."
+      },
+      {
+        "id": "T11-B30-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống: Video xuất xong nhưng chưa xem thử. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Hiệu ứng chuyển cảnh phù hợp.",
+          "B": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
+          "C": "Phát tệp xuất và kiểm tra hình/tiếng/phụ đề.",
+          "D": "Cắt bỏ phần đầu không cần."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Phát tệp xuất và kiểm tra hình/tiếng/phụ đề."
+      },
+      {
+        "id": "T11-B30-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra xuất bản?",
+        "lua_chon": {
+          "A": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
+          "B": "Nhạc nền át tiếng người nói.",
+          "C": "Video xuất xong nhưng chưa xem thử.",
+          "D": "Đầu video có khoảng chờ dài."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Kiểm tra xuất bản trong bài Biên tập phim."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B30-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Xét tính đúng/sai về Biên tập phim:",
+        "y_kien": {
+          "a": "Nên xem trước sản phẩm để phát hiện lỗi.",
+          "b": true,
+          "c": true,
+          "d": "Âm lượng nhạc nền cần cân đối với lời thoại."
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B30-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Nêu quy trình biên tập phim có âm thanh, phụ đề và chuyển cảnh.",
+        "dap_an_goi_y": "Sắp xếp/cắt clip, cân âm lượng, thêm phụ đề đúng thời điểm, chọn chuyển cảnh vừa phải, xem trước, sửa lỗi rồi xuất phim.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B30-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 30 - Biên tập phim",
+        "noi_dung": "Dựa vào kiến thức “Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Đầu video có khoảng chờ dài.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng. Vận dụng: Cắt bỏ phần đầu không cần. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

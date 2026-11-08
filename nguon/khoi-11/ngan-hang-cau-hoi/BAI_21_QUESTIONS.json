@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_21",
+  "bai_so": 21,
+  "ten_bai": "Thực hành cập nhật và truy xuất dữ liệu",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B21-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Muốn liệt kê nhạc sĩ mà không sửa dữ liệu, dùng thao tác nào?",
+        "lua_chon": {
+          "A": "UPDATE",
+          "B": "DROP TABLE",
+          "C": "SELECT",
+          "D": "DELETE"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đáp án đúng vì SELECT; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B21-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về INSERT?",
+        "lua_chon": {
+          "A": "DELETE xóa các bản ghi thỏa điều kiện.",
+          "B": "SELECT truy xuất dữ liệu mà không thay đổi bảng.",
+          "C": "INSERT thêm bản ghi vào bảng.",
+          "D": "UPDATE sửa giá trị của các bản ghi khớp điều kiện."
+        },
+        "dap_an": "C",
+        "giai_thich": "INSERT thêm bản ghi vào bảng."
+      },
+      {
+        "id": "T11-B21-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống: Thêm một nhạc sĩ mới. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "UPDATE với WHERE id=5.",
+          "B": "DELETE với điều kiện WHERE chính xác.",
+          "C": "SELECT.",
+          "D": "INSERT."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, INSERT."
+      },
+      {
+        "id": "T11-B21-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về INSERT?",
+        "lua_chon": {
+          "A": "Sửa tên nhạc sĩ có id 5.",
+          "B": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "C": "Liệt kê tên các nhạc sĩ.",
+          "D": "Thêm một nhạc sĩ mới."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với INSERT trong bài Thực hành cập nhật và truy xuất dữ liệu."
+      },
+      {
+        "id": "T11-B21-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về UPDATE?",
+        "lua_chon": {
+          "A": "SELECT truy xuất dữ liệu mà không thay đổi bảng.",
+          "B": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
+          "C": "INSERT thêm bản ghi vào bảng.",
+          "D": "DELETE xóa các bản ghi thỏa điều kiện."
+        },
+        "dap_an": "B",
+        "giai_thich": "UPDATE sửa giá trị của các bản ghi khớp điều kiện."
+      },
+      {
+        "id": "T11-B21-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống: Sửa tên nhạc sĩ có id 5. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "DELETE với điều kiện WHERE chính xác.",
+          "B": "SELECT.",
+          "C": "UPDATE với WHERE id=5.",
+          "D": "INSERT."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, UPDATE với WHERE id=5."
+      },
+      {
+        "id": "T11-B21-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về UPDATE?",
+        "lua_chon": {
+          "A": "Liệt kê tên các nhạc sĩ.",
+          "B": "Sửa tên nhạc sĩ có id 5.",
+          "C": "Thêm một nhạc sĩ mới.",
+          "D": "Xóa bản ghi nhạc sĩ đã xác định."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với UPDATE trong bài Thực hành cập nhật và truy xuất dữ liệu."
+      },
+      {
+        "id": "T11-B21-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về DELETE?",
+        "lua_chon": {
+          "A": "DELETE xóa các bản ghi thỏa điều kiện.",
+          "B": "INSERT thêm bản ghi vào bảng.",
+          "C": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
+          "D": "SELECT truy xuất dữ liệu mà không thay đổi bảng."
+        },
+        "dap_an": "A",
+        "giai_thich": "DELETE xóa các bản ghi thỏa điều kiện."
+      },
+      {
+        "id": "T11-B21-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống: Xóa bản ghi nhạc sĩ đã xác định. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "SELECT.",
+          "B": "DELETE với điều kiện WHERE chính xác.",
+          "C": "INSERT.",
+          "D": "UPDATE với WHERE id=5."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, DELETE với điều kiện WHERE chính xác."
+      },
+      {
+        "id": "T11-B21-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về DELETE?",
+        "lua_chon": {
+          "A": "Thêm một nhạc sĩ mới.",
+          "B": "Sửa tên nhạc sĩ có id 5.",
+          "C": "Liệt kê tên các nhạc sĩ.",
+          "D": "Xóa bản ghi nhạc sĩ đã xác định."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với DELETE trong bài Thực hành cập nhật và truy xuất dữ liệu."
+      },
+      {
+        "id": "T11-B21-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về SELECT?",
+        "lua_chon": {
+          "A": "INSERT thêm bản ghi vào bảng.",
+          "B": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
+          "C": "DELETE xóa các bản ghi thỏa điều kiện.",
+          "D": "SELECT truy xuất dữ liệu mà không thay đổi bảng."
+        },
+        "dap_an": "D",
+        "giai_thich": "SELECT truy xuất dữ liệu mà không thay đổi bảng."
+      },
+      {
+        "id": "T11-B21-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống: Liệt kê tên các nhạc sĩ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "SELECT.",
+          "B": "INSERT.",
+          "C": "UPDATE với WHERE id=5.",
+          "D": "DELETE với điều kiện WHERE chính xác."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, SELECT."
+      },
+      {
+        "id": "T11-B21-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về SELECT?",
+        "lua_chon": {
+          "A": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "B": "Liệt kê tên các nhạc sĩ.",
+          "C": "Thêm một nhạc sĩ mới.",
+          "D": "Sửa tên nhạc sĩ có id 5."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với SELECT trong bài Thực hành cập nhật và truy xuất dữ liệu."
+      },
+      {
+        "id": "T11-B21-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về WHERE?",
+        "lua_chon": {
+          "A": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
+          "B": "DELETE xóa các bản ghi thỏa điều kiện.",
+          "C": "WHERE lọc bản ghi theo điều kiện.",
+          "D": "INSERT thêm bản ghi vào bảng."
+        },
+        "dap_an": "C",
+        "giai_thich": "WHERE lọc bản ghi theo điều kiện."
+      },
+      {
+        "id": "T11-B21-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống: Chỉ lấy dữ liệu của một mã nhạc sĩ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "INSERT.",
+          "B": "UPDATE với WHERE id=5.",
+          "C": "DELETE với điều kiện WHERE chính xác.",
+          "D": "WHERE."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, WHERE."
+      },
+      {
+        "id": "T11-B21-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về WHERE?",
+        "lua_chon": {
+          "A": "Thêm một nhạc sĩ mới.",
+          "B": "Sửa tên nhạc sĩ có id 5.",
+          "C": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "D": "Chỉ lấy dữ liệu của một mã nhạc sĩ."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với WHERE trong bài Thực hành cập nhật và truy xuất dữ liệu."
+      },
+      {
+        "id": "T11-B21-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về SELECT cột?",
+        "lua_chon": {
+          "A": "DELETE xóa các bản ghi thỏa điều kiện.",
+          "B": "Danh sách sau SELECT xác định cột cần hiển thị.",
+          "C": "INSERT thêm bản ghi vào bảng.",
+          "D": "UPDATE sửa giá trị của các bản ghi khớp điều kiện."
+        },
+        "dap_an": "B",
+        "giai_thich": "Danh sách sau SELECT xác định cột cần hiển thị."
+      },
+      {
+        "id": "T11-B21-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống: Chỉ cần xem tenNhacsi. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "UPDATE với WHERE id=5.",
+          "B": "DELETE với điều kiện WHERE chính xác.",
+          "C": "Chỉ chọn trường tenNhacsi.",
+          "D": "INSERT."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Chỉ chọn trường tenNhacsi."
+      },
+      {
+        "id": "T11-B21-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về SELECT cột?",
+        "lua_chon": {
+          "A": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "B": "Chỉ cần xem tenNhacsi.",
+          "C": "Thêm một nhạc sĩ mới.",
+          "D": "Sửa tên nhạc sĩ có id 5."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với SELECT cột trong bài Thực hành cập nhật và truy xuất dữ liệu."
+      },
+      {
+        "id": "T11-B21-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phát biểu nào đúng về Kiểm tra ảnh hưởng?",
+        "lua_chon": {
+          "A": "Xem các dòng bị tác động giúp hạn chế sửa/xóa nhầm.",
+          "B": "INSERT thêm bản ghi vào bảng.",
+          "C": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
+          "D": "DELETE xóa các bản ghi thỏa điều kiện."
+        },
+        "dap_an": "A",
+        "giai_thich": "Xem các dòng bị tác động giúp hạn chế sửa/xóa nhầm."
+      },
+      {
+        "id": "T11-B21-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống: Chạy lệnh cập nhật trên bảng nhiều dòng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "DELETE với điều kiện WHERE chính xác.",
+          "B": "Chạy SELECT với cùng điều kiện để kiểm tra phạm vi.",
+          "C": "INSERT.",
+          "D": "UPDATE với WHERE id=5."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Chạy SELECT với cùng điều kiện để kiểm tra phạm vi."
+      },
+      {
+        "id": "T11-B21-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra ảnh hưởng?",
+        "lua_chon": {
+          "A": "Thêm một nhạc sĩ mới.",
+          "B": "Sửa tên nhạc sĩ có id 5.",
+          "C": "Xóa bản ghi nhạc sĩ đã xác định.",
+          "D": "Chạy lệnh cập nhật trên bảng nhiều dòng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Kiểm tra ảnh hưởng trong bài Thực hành cập nhật và truy xuất dữ liệu."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B21-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Xét tính đúng/sai về Thực hành cập nhật và truy xuất dữ liệu:",
+        "y_kien": {
+          "a": "INSERT thường thêm bản ghi.",
+          "b": "Cần kiểm tra điều kiện trước khi cập nhật hoặc xóa.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B21-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Phân biệt thêm, sửa, xóa và truy xuất dữ liệu.",
+        "dap_an_goi_y": "INSERT thêm; UPDATE sửa; DELETE xóa; SELECT truy xuất. Trước sửa/xóa cần kiểm tra điều kiện và dữ liệu liên quan.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B21-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
+        "noi_dung": "Dựa vào kiến thức “INSERT thêm bản ghi vào bảng.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Thêm một nhạc sĩ mới.",
+        "dap_an_goi_y": "Nêu ý kiến thức: INSERT thêm bản ghi vào bảng. Vận dụng: INSERT. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

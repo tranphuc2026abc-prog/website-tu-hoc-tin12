@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_29",
+  "bai_so": 29,
+  "ten_bai": "Khám phá phần mềm làm phim",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B29-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Khu vực nào dùng để sắp xếp clip theo thời gian?",
+        "lua_chon": {
+          "A": "Dòng thời gian",
+          "B": "Bảng màu",
+          "C": "Bảng dữ liệu",
+          "D": "Cửa sổ đăng nhập"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Dòng thời gian; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B29-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Phát biểu nào đúng về Dòng thời gian?",
+        "lua_chon": {
+          "A": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
+          "B": "Clip là đoạn tư liệu được sử dụng trong trình dựng.",
+          "C": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
+          "D": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng."
+        },
+        "dap_an": "C",
+        "giai_thich": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng."
+      },
+      {
+        "id": "T11-B29-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống: Muốn đặt cảnh mở đầu trước cảnh kết thúc. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Import/nhập tệp tư liệu.",
+          "B": "Tệp dự án cùng tư liệu được quản lí.",
+          "C": "Clip trên dòng thời gian.",
+          "D": "Dòng thời gian."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Dòng thời gian."
+      },
+      {
+        "id": "T11-B29-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Dòng thời gian?",
+        "lua_chon": {
+          "A": "Cần dùng clip từ máy tính.",
+          "B": "Cần tiếp tục chỉnh sửa sau này.",
+          "C": "Muốn bỏ vài giây đầu của cảnh quay.",
+          "D": "Muốn đặt cảnh mở đầu trước cảnh kết thúc."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Dòng thời gian trong bài Khám phá phần mềm làm phim."
+      },
+      {
+        "id": "T11-B29-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Phát biểu nào đúng về Nhập tư liệu?",
+        "lua_chon": {
+          "A": "Clip là đoạn tư liệu được sử dụng trong trình dựng.",
+          "B": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
+          "C": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
+          "D": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng."
+      },
+      {
+        "id": "T11-B29-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống: Cần dùng clip từ máy tính. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tệp dự án cùng tư liệu được quản lí.",
+          "B": "Clip trên dòng thời gian.",
+          "C": "Import/nhập tệp tư liệu.",
+          "D": "Dòng thời gian."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Import/nhập tệp tư liệu."
+      },
+      {
+        "id": "T11-B29-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Nhập tư liệu?",
+        "lua_chon": {
+          "A": "Muốn bỏ vài giây đầu của cảnh quay.",
+          "B": "Cần dùng clip từ máy tính.",
+          "C": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
+          "D": "Cần tiếp tục chỉnh sửa sau này."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Nhập tư liệu trong bài Khám phá phần mềm làm phim."
+      },
+      {
+        "id": "T11-B29-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Phát biểu nào đúng về Tệp dự án?",
+        "lua_chon": {
+          "A": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
+          "B": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
+          "C": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
+          "D": "Clip là đoạn tư liệu được sử dụng trong trình dựng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu."
+      },
+      {
+        "id": "T11-B29-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống: Cần tiếp tục chỉnh sửa sau này. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Clip trên dòng thời gian.",
+          "B": "Tệp dự án cùng tư liệu được quản lí.",
+          "C": "Dòng thời gian.",
+          "D": "Import/nhập tệp tư liệu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Tệp dự án cùng tư liệu được quản lí."
+      },
+      {
+        "id": "T11-B29-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tệp dự án?",
+        "lua_chon": {
+          "A": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
+          "B": "Cần dùng clip từ máy tính.",
+          "C": "Muốn bỏ vài giây đầu của cảnh quay.",
+          "D": "Cần tiếp tục chỉnh sửa sau này."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Tệp dự án trong bài Khám phá phần mềm làm phim."
+      },
+      {
+        "id": "T11-B29-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Phát biểu nào đúng về Clip?",
+        "lua_chon": {
+          "A": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
+          "B": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
+          "C": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
+          "D": "Clip là đoạn tư liệu được sử dụng trong trình dựng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Clip là đoạn tư liệu được sử dụng trong trình dựng."
+      },
+      {
+        "id": "T11-B29-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống: Muốn bỏ vài giây đầu của cảnh quay. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Clip trên dòng thời gian.",
+          "B": "Dòng thời gian.",
+          "C": "Import/nhập tệp tư liệu.",
+          "D": "Tệp dự án cùng tư liệu được quản lí."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Clip trên dòng thời gian."
+      },
+      {
+        "id": "T11-B29-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Clip?",
+        "lua_chon": {
+          "A": "Cần tiếp tục chỉnh sửa sau này.",
+          "B": "Muốn bỏ vài giây đầu của cảnh quay.",
+          "C": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
+          "D": "Cần dùng clip từ máy tính."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Clip trong bài Khám phá phần mềm làm phim."
+      },
+      {
+        "id": "T11-B29-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Phát biểu nào đúng về Xem trước?",
+        "lua_chon": {
+          "A": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
+          "B": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
+          "C": "Cửa sổ xem trước cho biết kết quả dựng ở thời điểm hiện tại.",
+          "D": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng."
+        },
+        "dap_an": "C",
+        "giai_thich": "Cửa sổ xem trước cho biết kết quả dựng ở thời điểm hiện tại."
+      },
+      {
+        "id": "T11-B29-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống: Cần kiểm tra cảnh và tiếng trước khi xuất. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Dòng thời gian.",
+          "B": "Import/nhập tệp tư liệu.",
+          "C": "Tệp dự án cùng tư liệu được quản lí.",
+          "D": "Phát thử ở cửa sổ xem trước."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Phát thử ở cửa sổ xem trước."
+      },
+      {
+        "id": "T11-B29-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Xem trước?",
+        "lua_chon": {
+          "A": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
+          "B": "Cần dùng clip từ máy tính.",
+          "C": "Cần tiếp tục chỉnh sửa sau này.",
+          "D": "Cần kiểm tra cảnh và tiếng trước khi xuất."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Xem trước trong bài Khám phá phần mềm làm phim."
+      },
+      {
+        "id": "T11-B29-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Phát biểu nào đúng về Tư liệu hợp pháp?",
+        "lua_chon": {
+          "A": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
+          "B": "Cần tôn trọng giấy phép và bản quyền ảnh, video, nhạc.",
+          "C": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
+          "D": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Cần tôn trọng giấy phép và bản quyền ảnh, video, nhạc."
+      },
+      {
+        "id": "T11-B29-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống: Tìm nhạc nền để làm bài học. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Import/nhập tệp tư liệu.",
+          "B": "Tệp dự án cùng tư liệu được quản lí.",
+          "C": "Tư liệu tự tạo hoặc được phép sử dụng.",
+          "D": "Dòng thời gian."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Tư liệu tự tạo hoặc được phép sử dụng."
+      },
+      {
+        "id": "T11-B29-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tư liệu hợp pháp?",
+        "lua_chon": {
+          "A": "Cần tiếp tục chỉnh sửa sau này.",
+          "B": "Tìm nhạc nền để làm bài học.",
+          "C": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
+          "D": "Cần dùng clip từ máy tính."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Tư liệu hợp pháp trong bài Khám phá phần mềm làm phim."
+      },
+      {
+        "id": "T11-B29-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Phát biểu nào đúng về Xuất video?",
+        "lua_chon": {
+          "A": "Xuất video tạo tệp phát được từ dự án dựng.",
+          "B": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
+          "C": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
+          "D": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Xuất video tạo tệp phát được từ dự án dựng."
+      },
+      {
+        "id": "T11-B29-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống: Dự án đã sắp xếp xong và muốn gửi cho người khác. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tệp dự án cùng tư liệu được quản lí.",
+          "B": "Render/export với định dạng phù hợp.",
+          "C": "Dòng thời gian.",
+          "D": "Import/nhập tệp tư liệu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Render/export với định dạng phù hợp."
+      },
+      {
+        "id": "T11-B29-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Xuất video?",
+        "lua_chon": {
+          "A": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
+          "B": "Cần dùng clip từ máy tính.",
+          "C": "Cần tiếp tục chỉnh sửa sau này.",
+          "D": "Dự án đã sắp xếp xong và muốn gửi cho người khác."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Xuất video trong bài Khám phá phần mềm làm phim."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B29-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Xét tính đúng/sai về Khám phá phần mềm làm phim:",
+        "y_kien": {
+          "a": "Có thể nhập ảnh và video vào dự án phim.",
+          "b": "Cần kiểm tra định dạng tư liệu có tương thích không.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B29-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Nêu quy trình tạo phim ngắn từ ảnh và video.",
+        "dap_an_goi_y": "Tạo dự án, nhập tư liệu phù hợp, sắp xếp/cắt clip trên dòng thời gian, thêm tiêu đề hoặc âm thanh, xem trước và xuất.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B29-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
+        "noi_dung": "Dựa vào kiến thức “Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Dòng thời gian sắp xếp clip theo thứ tự và thời lượng. Vận dụng: Dòng thời gian. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

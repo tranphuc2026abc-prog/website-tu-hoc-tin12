@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_27",
+  "bai_so": 27,
+  "ten_bai": "Công cụ vẽ và một số ứng dụng",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B27-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Lợi ích của việc tách ảnh thành nhiều lớp là gì?",
+        "lua_chon": {
+          "A": "Không cần lưu dự án",
+          "B": "Mọi lớp có nội dung giống nhau",
+          "C": "Chỉnh sửa từng thành phần độc lập",
+          "D": "Tự tạo phim"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đáp án đúng vì Chỉnh sửa từng thành phần độc lập; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B27-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Phát biểu nào đúng về Lớp ảnh?",
+        "lua_chon": {
+          "A": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
+          "B": "Lớp phía trên có thể che một phần lớp bên dưới.",
+          "C": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
+          "D": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập."
+        },
+        "dap_an": "A",
+        "giai_thich": "Lớp cho phép tổ chức các thành phần ảnh độc lập."
+      },
+      {
+        "id": "T11-B27-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống: Muốn thêm chữ mà vẫn giữ ảnh nền riêng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tẩy trên đúng lớp.",
+          "B": "Tạo lớp mới.",
+          "C": "Thứ tự lớp.",
+          "D": "Cọ vẽ với màu/kích thước phù hợp."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Tạo lớp mới."
+      },
+      {
+        "id": "T11-B27-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lớp ảnh?",
+        "lua_chon": {
+          "A": "Muốn xóa một nét sai ở lớp riêng.",
+          "B": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
+          "C": "Chữ nằm sau hình minh họa dù cần nổi bật.",
+          "D": "Cần vẽ thêm một chi tiết nhỏ."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Lớp ảnh trong bài Công cụ vẽ và một số ứng dụng."
+      },
+      {
+        "id": "T11-B27-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Phát biểu nào đúng về Thứ tự lớp?",
+        "lua_chon": {
+          "A": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
+          "B": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
+          "C": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập.",
+          "D": "Lớp phía trên có thể che một phần lớp bên dưới."
+        },
+        "dap_an": "D",
+        "giai_thich": "Lớp phía trên có thể che một phần lớp bên dưới."
+      },
+      {
+        "id": "T11-B27-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống: Chữ nằm sau hình minh họa dù cần nổi bật. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thứ tự lớp.",
+          "B": "Tạo lớp mới.",
+          "C": "Cọ vẽ với màu/kích thước phù hợp.",
+          "D": "Tẩy trên đúng lớp."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Thứ tự lớp."
+      },
+      {
+        "id": "T11-B27-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thứ tự lớp?",
+        "lua_chon": {
+          "A": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
+          "B": "Cần vẽ thêm một chi tiết nhỏ.",
+          "C": "Muốn xóa một nét sai ở lớp riêng.",
+          "D": "Chữ nằm sau hình minh họa dù cần nổi bật."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Thứ tự lớp trong bài Công cụ vẽ và một số ứng dụng."
+      },
+      {
+        "id": "T11-B27-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Phát biểu nào đúng về Cọ vẽ?",
+        "lua_chon": {
+          "A": "Lớp phía trên có thể che một phần lớp bên dưới.",
+          "B": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập.",
+          "C": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
+          "D": "Lớp cho phép tổ chức các thành phần ảnh độc lập."
+        },
+        "dap_an": "C",
+        "giai_thich": "Cọ vẽ tạo nét màu trên lớp đang chọn."
+      },
+      {
+        "id": "T11-B27-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống: Cần vẽ thêm một chi tiết nhỏ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tạo lớp mới.",
+          "B": "Thứ tự lớp.",
+          "C": "Tẩy trên đúng lớp.",
+          "D": "Cọ vẽ với màu/kích thước phù hợp."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Cọ vẽ với màu/kích thước phù hợp."
+      },
+      {
+        "id": "T11-B27-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Cọ vẽ?",
+        "lua_chon": {
+          "A": "Muốn xóa một nét sai ở lớp riêng.",
+          "B": "Cần vẽ thêm một chi tiết nhỏ.",
+          "C": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
+          "D": "Chữ nằm sau hình minh họa dù cần nổi bật."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Cọ vẽ trong bài Công cụ vẽ và một số ứng dụng."
+      },
+      {
+        "id": "T11-B27-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Phát biểu nào đúng về Tẩy?",
+        "lua_chon": {
+          "A": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
+          "B": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập.",
+          "C": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
+          "D": "Lớp phía trên có thể che một phần lớp bên dưới."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập."
+      },
+      {
+        "id": "T11-B27-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống: Muốn xóa một nét sai ở lớp riêng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thứ tự lớp.",
+          "B": "Cọ vẽ với màu/kích thước phù hợp.",
+          "C": "Tẩy trên đúng lớp.",
+          "D": "Tạo lớp mới."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Tẩy trên đúng lớp."
+      },
+      {
+        "id": "T11-B27-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tẩy?",
+        "lua_chon": {
+          "A": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
+          "B": "Chữ nằm sau hình minh họa dù cần nổi bật.",
+          "C": "Cần vẽ thêm một chi tiết nhỏ.",
+          "D": "Muốn xóa một nét sai ở lớp riêng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Tẩy trong bài Công cụ vẽ và một số ứng dụng."
+      },
+      {
+        "id": "T11-B27-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Phát biểu nào đúng về Clone/nhân bản?",
+        "lua_chon": {
+          "A": "Công cụ nhân bản lấy mẫu một vùng để vẽ lên vùng khác.",
+          "B": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
+          "C": "Lớp phía trên có thể che một phần lớp bên dưới.",
+          "D": "Cọ vẽ tạo nét màu trên lớp đang chọn."
+        },
+        "dap_an": "A",
+        "giai_thich": "Công cụ nhân bản lấy mẫu một vùng để vẽ lên vùng khác."
+      },
+      {
+        "id": "T11-B27-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống: Cần che một vết xước bằng vùng ảnh lân cận. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cọ vẽ với màu/kích thước phù hợp.",
+          "B": "Clone/nhân bản.",
+          "C": "Tạo lớp mới.",
+          "D": "Thứ tự lớp."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Clone/nhân bản."
+      },
+      {
+        "id": "T11-B27-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Clone/nhân bản?",
+        "lua_chon": {
+          "A": "Cần vẽ thêm một chi tiết nhỏ.",
+          "B": "Cần che một vết xước bằng vùng ảnh lân cận.",
+          "C": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
+          "D": "Chữ nằm sau hình minh họa dù cần nổi bật."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Clone/nhân bản trong bài Công cụ vẽ và một số ứng dụng."
+      },
+      {
+        "id": "T11-B27-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Phát biểu nào đúng về Heal/chữa lỗi?",
+        "lua_chon": {
+          "A": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
+          "B": "Lớp phía trên có thể che một phần lớp bên dưới.",
+          "C": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
+          "D": "Công cụ chữa lỗi hòa mẫu với vùng xung quanh."
+        },
+        "dap_an": "D",
+        "giai_thich": "Công cụ chữa lỗi hòa mẫu với vùng xung quanh."
+      },
+      {
+        "id": "T11-B27-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống: Cần làm đều một khuyết điểm nhỏ trên ảnh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Heal/chữa lỗi.",
+          "B": "Tạo lớp mới.",
+          "C": "Thứ tự lớp.",
+          "D": "Cọ vẽ với màu/kích thước phù hợp."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Heal/chữa lỗi."
+      },
+      {
+        "id": "T11-B27-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Heal/chữa lỗi?",
+        "lua_chon": {
+          "A": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
+          "B": "Chữ nằm sau hình minh họa dù cần nổi bật.",
+          "C": "Cần vẽ thêm một chi tiết nhỏ.",
+          "D": "Cần làm đều một khuyết điểm nhỏ trên ảnh."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Heal/chữa lỗi trong bài Công cụ vẽ và một số ứng dụng."
+      },
+      {
+        "id": "T11-B27-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Phát biểu nào đúng về Làm việc không phá hủy?",
+        "lua_chon": {
+          "A": "Lớp phía trên có thể che một phần lớp bên dưới.",
+          "B": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
+          "C": "Chỉnh sửa trên bản sao/lớp riêng giúp bảo vệ ảnh gốc.",
+          "D": "Lớp cho phép tổ chức các thành phần ảnh độc lập."
+        },
+        "dap_an": "C",
+        "giai_thich": "Chỉnh sửa trên bản sao/lớp riêng giúp bảo vệ ảnh gốc."
+      },
+      {
+        "id": "T11-B27-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống: Cần retouch nhưng có thể muốn hoàn tác sau này. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tạo lớp mới.",
+          "B": "Thứ tự lớp.",
+          "C": "Cọ vẽ với màu/kích thước phù hợp.",
+          "D": "Tạo lớp/bản sao và giữ lớp gốc."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Tạo lớp/bản sao và giữ lớp gốc."
+      },
+      {
+        "id": "T11-B27-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Làm việc không phá hủy?",
+        "lua_chon": {
+          "A": "Cần vẽ thêm một chi tiết nhỏ.",
+          "B": "Cần retouch nhưng có thể muốn hoàn tác sau này.",
+          "C": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
+          "D": "Chữ nằm sau hình minh họa dù cần nổi bật."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Làm việc không phá hủy trong bài Công cụ vẽ và một số ứng dụng."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B27-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Xét tính đúng/sai về Công cụ vẽ và một số ứng dụng:",
+        "y_kien": {
+          "a": true,
+          "b": true,
+          "c": "Lớp riêng giúp dễ chỉnh sửa và hoàn tác.",
+          "d": "Nên dùng lớp mới/bản sao khi retouch để bảo vệ ảnh gốc."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B27-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Nêu cách dùng lớp và công cụ vẽ để làm sạch ảnh.",
+        "dap_an_goi_y": "Tạo lớp hoặc bản sao, chọn công cụ vẽ/xóa/retouch, chỉnh màu/kích thước, thao tác cẩn thận, kiểm tra và lưu dự án có lớp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B27-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
+        "noi_dung": "Dựa vào kiến thức “Lớp cho phép tổ chức các thành phần ảnh độc lập.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Lớp cho phép tổ chức các thành phần ảnh độc lập. Vận dụng: Tạo lớp mới. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

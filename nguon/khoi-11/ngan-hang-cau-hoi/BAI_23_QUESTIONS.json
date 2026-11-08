@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_23",
+  "bai_so": 23,
+  "ten_bai": "Thực hành truy xuất dữ liệu qua liên kết bảng",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B23-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
+        "noi_dung": "Muốn hiển thị tên bản nhạc và tên nhạc sĩ từ hai bảng, cần làm gì?",
+        "lua_chon": {
+          "A": "Nối hai bảng theo trường khóa liên quan",
+          "B": "Xóa một bảng",
+          "C": "Đổi mọi cột thành văn bản",
+          "D": "Sao chép thủ công toàn bộ"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Nối hai bảng theo trường khóa liên quan; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B23-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Phát biểu nào đúng về JOIN?",
+        "lua_chon": {
+          "A": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
+          "B": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
+          "C": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
+          "D": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc."
+        },
+        "dap_an": "A",
+        "giai_thich": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết."
+      },
+      {
+        "id": "T11-B23-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống: Cần tên bài hát và tên nhạc sĩ ở hai bảng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Dùng bí danh bảng và tiền tố.",
+          "B": "JOIN theo khóa chính/khóa ngoài.",
+          "C": "Hai trường idNhacsi bằng nhau.",
+          "D": "Hai trường tên tương ứng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, JOIN theo khóa chính/khóa ngoài."
+      },
+      {
+        "id": "T11-B23-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về JOIN?",
+        "lua_chon": {
+          "A": "Truy vấn nhiều bảng có tên trường giống nhau.",
+          "B": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
+          "C": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi.",
+          "D": "Chỉ cần tenBannhac và tenNhacsi."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với JOIN trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
+      },
+      {
+        "id": "T11-B23-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Phát biểu nào đúng về Điều kiện nối?",
+        "lua_chon": {
+          "A": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
+          "B": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
+          "C": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc.",
+          "D": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng."
+      },
+      {
+        "id": "T11-B23-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống: Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Hai trường idNhacsi bằng nhau.",
+          "B": "JOIN theo khóa chính/khóa ngoài.",
+          "C": "Hai trường tên tương ứng.",
+          "D": "Dùng bí danh bảng và tiền tố."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Hai trường idNhacsi bằng nhau."
+      },
+      {
+        "id": "T11-B23-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Điều kiện nối?",
+        "lua_chon": {
+          "A": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
+          "B": "Chỉ cần tenBannhac và tenNhacsi.",
+          "C": "Truy vấn nhiều bảng có tên trường giống nhau.",
+          "D": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Điều kiện nối trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
+      },
+      {
+        "id": "T11-B23-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Phát biểu nào đúng về Chọn cột kết quả?",
+        "lua_chon": {
+          "A": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
+          "B": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc.",
+          "C": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
+          "D": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết."
+        },
+        "dap_an": "C",
+        "giai_thich": "SELECT có thể lấy cột từ cả hai bảng đã nối."
+      },
+      {
+        "id": "T11-B23-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống: Chỉ cần tenBannhac và tenNhacsi. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "JOIN theo khóa chính/khóa ngoài.",
+          "B": "Hai trường idNhacsi bằng nhau.",
+          "C": "Dùng bí danh bảng và tiền tố.",
+          "D": "Hai trường tên tương ứng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Hai trường tên tương ứng."
+      },
+      {
+        "id": "T11-B23-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn cột kết quả?",
+        "lua_chon": {
+          "A": "Truy vấn nhiều bảng có tên trường giống nhau.",
+          "B": "Chỉ cần tenBannhac và tenNhacsi.",
+          "C": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
+          "D": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Chọn cột kết quả trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
+      },
+      {
+        "id": "T11-B23-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Phát biểu nào đúng về Bí danh bảng?",
+        "lua_chon": {
+          "A": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
+          "B": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc.",
+          "C": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
+          "D": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc."
+      },
+      {
+        "id": "T11-B23-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống: Truy vấn nhiều bảng có tên trường giống nhau. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Hai trường idNhacsi bằng nhau.",
+          "B": "Hai trường tên tương ứng.",
+          "C": "Dùng bí danh bảng và tiền tố.",
+          "D": "JOIN theo khóa chính/khóa ngoài."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Dùng bí danh bảng và tiền tố."
+      },
+      {
+        "id": "T11-B23-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bí danh bảng?",
+        "lua_chon": {
+          "A": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
+          "B": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi.",
+          "C": "Chỉ cần tenBannhac và tenNhacsi.",
+          "D": "Truy vấn nhiều bảng có tên trường giống nhau."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Bí danh bảng trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
+      },
+      {
+        "id": "T11-B23-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Phát biểu nào đúng về Lọc sau khi nối?",
+        "lua_chon": {
+          "A": "WHERE có thể lọc kết quả của truy vấn nhiều bảng.",
+          "B": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
+          "C": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
+          "D": "SELECT có thể lấy cột từ cả hai bảng đã nối."
+        },
+        "dap_an": "A",
+        "giai_thich": "WHERE có thể lọc kết quả của truy vấn nhiều bảng."
+      },
+      {
+        "id": "T11-B23-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống: Chỉ xem bản nhạc của một nhạc sĩ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Hai trường tên tương ứng.",
+          "B": "Điều kiện lọc trên mã nhạc sĩ.",
+          "C": "JOIN theo khóa chính/khóa ngoài.",
+          "D": "Hai trường idNhacsi bằng nhau."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Điều kiện lọc trên mã nhạc sĩ."
+      },
+      {
+        "id": "T11-B23-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lọc sau khi nối?",
+        "lua_chon": {
+          "A": "Chỉ cần tenBannhac và tenNhacsi.",
+          "B": "Chỉ xem bản nhạc của một nhạc sĩ.",
+          "C": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
+          "D": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Lọc sau khi nối trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
+      },
+      {
+        "id": "T11-B23-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Phát biểu nào đúng về Lỗi thiếu điều kiện?",
+        "lua_chon": {
+          "A": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
+          "B": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
+          "C": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
+          "D": "Thiếu điều kiện nối có thể tạo tích Descartes nhiều dòng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Thiếu điều kiện nối có thể tạo tích Descartes nhiều dòng."
+      },
+      {
+        "id": "T11-B23-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống: Truy vấn hai bảng trả hàng nghìn tổ hợp sai. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Điều kiện nối giữa các bảng.",
+          "B": "JOIN theo khóa chính/khóa ngoài.",
+          "C": "Hai trường idNhacsi bằng nhau.",
+          "D": "Hai trường tên tương ứng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Điều kiện nối giữa các bảng."
+      },
+      {
+        "id": "T11-B23-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lỗi thiếu điều kiện?",
+        "lua_chon": {
+          "A": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
+          "B": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi.",
+          "C": "Chỉ cần tenBannhac và tenNhacsi.",
+          "D": "Truy vấn hai bảng trả hàng nghìn tổ hợp sai."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Lỗi thiếu điều kiện trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
+      },
+      {
+        "id": "T11-B23-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Phát biểu nào đúng về Liên kết dữ liệu?",
+        "lua_chon": {
+          "A": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
+          "B": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
+          "C": "Liên kết bảng cho phép lưu thông tin thực thể một lần rồi tham chiếu.",
+          "D": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết."
+        },
+        "dap_an": "C",
+        "giai_thich": "Liên kết bảng cho phép lưu thông tin thực thể một lần rồi tham chiếu."
+      },
+      {
+        "id": "T11-B23-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống: Nhiều bài hát thuộc một nhạc sĩ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "JOIN theo khóa chính/khóa ngoài.",
+          "B": "Hai trường idNhacsi bằng nhau.",
+          "C": "Hai trường tên tương ứng.",
+          "D": "Giảm lặp tên nhạc sĩ trong bảng bài hát."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Giảm lặp tên nhạc sĩ trong bảng bài hát."
+      },
+      {
+        "id": "T11-B23-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Liên kết dữ liệu?",
+        "lua_chon": {
+          "A": "Chỉ cần tenBannhac và tenNhacsi.",
+          "B": "Nhiều bài hát thuộc một nhạc sĩ.",
+          "C": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
+          "D": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Liên kết dữ liệu trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B23-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
+        "noi_dung": "Xét tính đúng/sai về Thực hành truy xuất dữ liệu qua liên kết bảng:",
+        "y_kien": {
+          "a": true,
+          "b": true,
+          "c": "JOIN kết hợp các bảng theo điều kiện liên kết.",
+          "d": "Cần điều kiện nối để tránh tạo tổ hợp dòng ngoài ý muốn."
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B23-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
+        "noi_dung": "Mô tả truy vấn lấy tên bản nhạc và nhạc sĩ.",
+        "dap_an_goi_y": "Chọn cột tên cần hiển thị, nối Bannhac với Nhacsi theo khóa ngoài idNhacsi và khóa chính tương ứng, thêm điều kiện lọc nếu cần.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B23-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
+        "noi_dung": "Dựa vào kiến thức “JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
+        "dap_an_goi_y": "Nêu ý kiến thức: JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết. Vận dụng: JOIN theo khóa chính/khóa ngoài. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

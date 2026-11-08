@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_20",
+  "bai_so": 20,
+  "ten_bai": "Thực hành tạo lập bảng có khóa ngoài",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B20-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Khóa ngoài idNhacsi ở bảng Bannhac dùng để làm gì?",
+        "lua_chon": {
+          "A": "Đếm bản ghi",
+          "B": "Tham chiếu nhạc sĩ trong bảng Nhacsi",
+          "C": "Sắp xếp tên bài hát",
+          "D": "Mã hóa bảng"
+        },
+        "dap_an": "B",
+        "giai_thich": "Đáp án đúng vì Tham chiếu nhạc sĩ trong bảng Nhacsi; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B20-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Phát biểu nào đúng về Quan hệ khóa ngoài?",
+        "lua_chon": {
+          "A": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng.",
+          "B": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
+          "C": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
+          "D": "Bảng được khóa ngoài tham chiếu là bảng cha."
+        },
+        "dap_an": "B",
+        "giai_thich": "Khóa ngoài tham chiếu khóa chính ở bảng khác."
+      },
+      {
+        "id": "T11-B20-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống: Bản nhạc gắn với mã nhạc sĩ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Nhacsi.",
+          "B": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ.",
+          "C": "idNhacsi ở bảng Bannhac.",
+          "D": "Kiểu tương thích với khóa chính."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, idNhacsi ở bảng Bannhac."
+      },
+      {
+        "id": "T11-B20-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Quan hệ khóa ngoài?",
+        "lua_chon": {
+          "A": "Bản nhạc gắn với mã nhạc sĩ.",
+          "B": "idNhacsi ở bảng cha là số nguyên.",
+          "C": "Bannhac tham chiếu Nhacsi.",
+          "D": "Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Quan hệ khóa ngoài trong bài Thực hành tạo lập bảng có khóa ngoài."
+      },
+      {
+        "id": "T11-B20-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Phát biểu nào đúng về Kiểu tương thích?",
+        "lua_chon": {
+          "A": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
+          "B": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
+          "C": "Bảng được khóa ngoài tham chiếu là bảng cha.",
+          "D": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu."
+      },
+      {
+        "id": "T11-B20-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống: idNhacsi ở bảng cha là số nguyên. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ.",
+          "B": "Kiểu tương thích với khóa chính.",
+          "C": "idNhacsi ở bảng Bannhac.",
+          "D": "Nhacsi."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Kiểu tương thích với khóa chính."
+      },
+      {
+        "id": "T11-B20-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểu tương thích?",
+        "lua_chon": {
+          "A": "Bannhac tham chiếu Nhacsi.",
+          "B": "Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó.",
+          "C": "idNhacsi ở bảng cha là số nguyên.",
+          "D": "Bản nhạc gắn với mã nhạc sĩ."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Kiểu tương thích trong bài Thực hành tạo lập bảng có khóa ngoài."
+      },
+      {
+        "id": "T11-B20-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Phát biểu nào đúng về Bảng cha?",
+        "lua_chon": {
+          "A": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
+          "B": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
+          "C": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng.",
+          "D": "Bảng được khóa ngoài tham chiếu là bảng cha."
+        },
+        "dap_an": "D",
+        "giai_thich": "Bảng được khóa ngoài tham chiếu là bảng cha."
+      },
+      {
+        "id": "T11-B20-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống: Bannhac tham chiếu Nhacsi. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Nhacsi.",
+          "B": "idNhacsi ở bảng Bannhac.",
+          "C": "Kiểu tương thích với khóa chính.",
+          "D": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Nhacsi."
+      },
+      {
+        "id": "T11-B20-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bảng cha?",
+        "lua_chon": {
+          "A": "Bannhac tham chiếu Nhacsi.",
+          "B": "Bản nhạc gắn với mã nhạc sĩ.",
+          "C": "idNhacsi ở bảng cha là số nguyên.",
+          "D": "Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Bảng cha trong bài Thực hành tạo lập bảng có khóa ngoài."
+      },
+      {
+        "id": "T11-B20-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Phát biểu nào đúng về Toàn vẹn tham chiếu?",
+        "lua_chon": {
+          "A": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
+          "B": "Bảng được khóa ngoài tham chiếu là bảng cha.",
+          "C": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng.",
+          "D": "Khóa ngoài tham chiếu khóa chính ở bảng khác."
+        },
+        "dap_an": "C",
+        "giai_thich": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng."
+      },
+      {
+        "id": "T11-B20-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống: Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "idNhacsi ở bảng Bannhac.",
+          "B": "Kiểu tương thích với khóa chính.",
+          "C": "Nhacsi.",
+          "D": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ."
+      },
+      {
+        "id": "T11-B20-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Toàn vẹn tham chiếu?",
+        "lua_chon": {
+          "A": "idNhacsi ở bảng cha là số nguyên.",
+          "B": "Bannhac tham chiếu Nhacsi.",
+          "C": "Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó.",
+          "D": "Bản nhạc gắn với mã nhạc sĩ."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Toàn vẹn tham chiếu trong bài Thực hành tạo lập bảng có khóa ngoài."
+      },
+      {
+        "id": "T11-B20-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Phát biểu nào đúng về Tạo bảng theo thứ tự?",
+        "lua_chon": {
+          "A": "Bảng được khóa ngoài tham chiếu là bảng cha.",
+          "B": "Thường cần tạo bảng được tham chiếu trước bảng có khóa ngoài.",
+          "C": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
+          "D": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu."
+        },
+        "dap_an": "B",
+        "giai_thich": "Thường cần tạo bảng được tham chiếu trước bảng có khóa ngoài."
+      },
+      {
+        "id": "T11-B20-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống: Tạo Nhacsi và Bannhac. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Kiểu tương thích với khóa chính.",
+          "B": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ.",
+          "C": "Nhacsi.",
+          "D": "idNhacsi ở bảng Bannhac."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Nhacsi."
+      },
+      {
+        "id": "T11-B20-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Tạo bảng theo thứ tự?",
+        "lua_chon": {
+          "A": "Tạo Nhacsi và Bannhac.",
+          "B": "Bản nhạc gắn với mã nhạc sĩ.",
+          "C": "idNhacsi ở bảng cha là số nguyên.",
+          "D": "Bannhac tham chiếu Nhacsi."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Tạo bảng theo thứ tự trong bài Thực hành tạo lập bảng có khóa ngoài."
+      },
+      {
+        "id": "T11-B20-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Phát biểu nào đúng về Hành vi xóa?",
+        "lua_chon": {
+          "A": "Xóa bản ghi cha có thể bị chặn nếu bản ghi con còn tham chiếu.",
+          "B": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
+          "C": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
+          "D": "Bảng được khóa ngoài tham chiếu là bảng cha."
+        },
+        "dap_an": "A",
+        "giai_thich": "Xóa bản ghi cha có thể bị chặn nếu bản ghi con còn tham chiếu."
+      },
+      {
+        "id": "T11-B20-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống: Nhạc sĩ vẫn có nhiều bản nhạc liên kết. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Nhacsi.",
+          "B": "Ràng buộc ngăn xóa để tránh mồ côi dữ liệu.",
+          "C": "idNhacsi ở bảng Bannhac.",
+          "D": "Kiểu tương thích với khóa chính."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Ràng buộc ngăn xóa để tránh mồ côi dữ liệu."
+      },
+      {
+        "id": "T11-B20-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Hành vi xóa?",
+        "lua_chon": {
+          "A": "idNhacsi ở bảng cha là số nguyên.",
+          "B": "Bannhac tham chiếu Nhacsi.",
+          "C": "Nhạc sĩ vẫn có nhiều bản nhạc liên kết.",
+          "D": "Bản nhạc gắn với mã nhạc sĩ."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Hành vi xóa trong bài Thực hành tạo lập bảng có khóa ngoài."
+      },
+      {
+        "id": "T11-B20-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Phát biểu nào đúng về Kiểm tra quan hệ?",
+        "lua_chon": {
+          "A": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
+          "B": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
+          "C": "Bảng được khóa ngoài tham chiếu là bảng cha.",
+          "D": "Kiểm tra khóa giúp xác nhận quan hệ trỏ đúng trường."
+        },
+        "dap_an": "D",
+        "giai_thich": "Kiểm tra khóa giúp xác nhận quan hệ trỏ đúng trường."
+      },
+      {
+        "id": "T11-B20-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống: Liên kết đang trỏ nhầm trường tên. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Trường khóa chính được tham chiếu và kiểu của khóa ngoài.",
+          "B": "idNhacsi ở bảng Bannhac.",
+          "C": "Kiểu tương thích với khóa chính.",
+          "D": "Nhacsi."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Trường khóa chính được tham chiếu và kiểu của khóa ngoài."
+      },
+      {
+        "id": "T11-B20-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra quan hệ?",
+        "lua_chon": {
+          "A": "Liên kết đang trỏ nhầm trường tên.",
+          "B": "Bản nhạc gắn với mã nhạc sĩ.",
+          "C": "idNhacsi ở bảng cha là số nguyên.",
+          "D": "Bannhac tham chiếu Nhacsi."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Kiểm tra quan hệ trong bài Thực hành tạo lập bảng có khóa ngoài."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B20-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Xét tính đúng/sai về Thực hành tạo lập bảng có khóa ngoài:",
+        "y_kien": {
+          "a": true,
+          "b": "Khóa ngoài giúp duy trì toàn vẹn tham chiếu.",
+          "c": "Kiểu khóa ngoài cần tương thích trường được tham chiếu.",
+          "d": true
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B20-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Giải thích cách thiết lập khóa ngoài giữa Bannhac và Nhacsi.",
+        "dap_an_goi_y": "Đặt idNhacsi làm khóa chính bên Nhacsi; tạo trường kiểu tương thích ở Bannhac; khai báo nó tham chiếu khóa chính.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B20-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
+        "noi_dung": "Dựa vào kiến thức “Khóa ngoài tham chiếu khóa chính ở bảng khác.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Bản nhạc gắn với mã nhạc sĩ.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Khóa ngoài tham chiếu khóa chính ở bảng khác. Vận dụng: idNhacsi ở bảng Bannhac. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

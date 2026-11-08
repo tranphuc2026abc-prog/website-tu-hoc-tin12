@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_04",
+  "bai_so": 4,
+  "ten_bai": "Bên trong máy tính",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B04-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Cổng AND cho kết quả 1 khi nào?",
+        "lua_chon": {
+          "A": "Các đầu vào khác nhau",
+          "B": "Tất cả đầu vào đều bằng 0",
+          "C": "Tất cả đầu vào đều bằng 1",
+          "D": "Có ít nhất một đầu vào bằng 1"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đáp án đúng vì Tất cả đầu vào đều bằng 1; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B04-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Phát biểu nào đúng về CPU?",
+        "lua_chon": {
+          "A": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng.",
+          "B": "CPU thực hiện lệnh và phép tính của chương trình.",
+          "C": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
+          "D": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM."
+        },
+        "dap_an": "B",
+        "giai_thich": "CPU thực hiện lệnh và phép tính của chương trình."
+      },
+      {
+        "id": "T11-B04-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống: Máy tính cần xử lí lệnh của phần mềm. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
+          "B": "Bo mạch chủ.",
+          "C": "CPU.",
+          "D": "RAM."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, CPU."
+      },
+      {
+        "id": "T11-B04-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về CPU?",
+        "lua_chon": {
+          "A": "Máy tính cần xử lí lệnh của phần mềm.",
+          "B": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "C": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "D": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với CPU trong bài Bên trong máy tính."
+      },
+      {
+        "id": "T11-B04-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Phát biểu nào đúng về RAM?",
+        "lua_chon": {
+          "A": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
+          "B": "CPU thực hiện lệnh và phép tính của chương trình.",
+          "C": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM.",
+          "D": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng."
+        },
+        "dap_an": "A",
+        "giai_thich": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng."
+      },
+      {
+        "id": "T11-B04-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống: Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Bo mạch chủ.",
+          "B": "RAM.",
+          "C": "CPU.",
+          "D": "Thiết bị lưu trữ như SSD hoặc HDD."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, RAM."
+      },
+      {
+        "id": "T11-B04-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về RAM?",
+        "lua_chon": {
+          "A": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "B": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu.",
+          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "D": "Máy tính cần xử lí lệnh của phần mềm."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với RAM trong bài Bên trong máy tính."
+      },
+      {
+        "id": "T11-B04-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Phát biểu nào đúng về Thiết bị lưu trữ?",
+        "lua_chon": {
+          "A": "CPU thực hiện lệnh và phép tính của chương trình.",
+          "B": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
+          "C": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng.",
+          "D": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM."
+        },
+        "dap_an": "D",
+        "giai_thich": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM."
+      },
+      {
+        "id": "T11-B04-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống: Cần lưu tài liệu để mở lại sau khi tắt máy. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
+          "B": "CPU.",
+          "C": "RAM.",
+          "D": "Bo mạch chủ."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Thiết bị lưu trữ như SSD hoặc HDD."
+      },
+      {
+        "id": "T11-B04-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thiết bị lưu trữ?",
+        "lua_chon": {
+          "A": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "B": "Máy tính cần xử lí lệnh của phần mềm.",
+          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "D": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Thiết bị lưu trữ trong bài Bên trong máy tính."
+      },
+      {
+        "id": "T11-B04-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Phát biểu nào đúng về Bo mạch chủ?",
+        "lua_chon": {
+          "A": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
+          "B": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM.",
+          "C": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng.",
+          "D": "CPU thực hiện lệnh và phép tính của chương trình."
+        },
+        "dap_an": "C",
+        "giai_thich": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng."
+      },
+      {
+        "id": "T11-B04-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống: CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "CPU.",
+          "B": "RAM.",
+          "C": "Thiết bị lưu trữ như SSD hoặc HDD.",
+          "D": "Bo mạch chủ."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Bo mạch chủ."
+      },
+      {
+        "id": "T11-B04-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bo mạch chủ?",
+        "lua_chon": {
+          "A": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "B": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "C": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu.",
+          "D": "Máy tính cần xử lí lệnh của phần mềm."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Bo mạch chủ trong bài Bên trong máy tính."
+      },
+      {
+        "id": "T11-B04-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Phát biểu nào đúng về AND?",
+        "lua_chon": {
+          "A": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM.",
+          "B": "Cổng AND cho đầu ra 1 khi tất cả đầu vào đều là 1.",
+          "C": "CPU thực hiện lệnh và phép tính của chương trình.",
+          "D": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Cổng AND cho đầu ra 1 khi tất cả đầu vào đều là 1."
+      },
+      {
+        "id": "T11-B04-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống: Hai tín hiệu đầu vào đều bật. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "RAM.",
+          "B": "Thiết bị lưu trữ như SSD hoặc HDD.",
+          "C": "1.",
+          "D": "CPU."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, 1."
+      },
+      {
+        "id": "T11-B04-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về AND?",
+        "lua_chon": {
+          "A": "Hai tín hiệu đầu vào đều bật.",
+          "B": "Máy tính cần xử lí lệnh của phần mềm.",
+          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "D": "Cần lưu tài liệu để mở lại sau khi tắt máy."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với AND trong bài Bên trong máy tính."
+      },
+      {
+        "id": "T11-B04-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Phát biểu nào đúng về OR và NOT?",
+        "lua_chon": {
+          "A": "OR cho 1 nếu có ít nhất một đầu vào 1; NOT đảo giá trị đầu vào.",
+          "B": "CPU thực hiện lệnh và phép tính của chương trình.",
+          "C": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
+          "D": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM."
+        },
+        "dap_an": "A",
+        "giai_thich": "OR cho 1 nếu có ít nhất một đầu vào 1; NOT đảo giá trị đầu vào."
+      },
+      {
+        "id": "T11-B04-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống: Một đầu vào OR bằng 1; sau đó đưa đầu ra 1 qua NOT. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
+          "B": "0.",
+          "C": "CPU.",
+          "D": "RAM."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, 0."
+      },
+      {
+        "id": "T11-B04-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về OR và NOT?",
+        "lua_chon": {
+          "A": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "B": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
+          "C": "Một đầu vào OR bằng 1; sau đó đưa đầu ra 1 qua NOT.",
+          "D": "Máy tính cần xử lí lệnh của phần mềm."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với OR và NOT trong bài Bên trong máy tính."
+      },
+      {
+        "id": "T11-B04-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Phát biểu nào đúng về Thông số hiệu năng?",
+        "lua_chon": {
+          "A": "CPU thực hiện lệnh và phép tính của chương trình.",
+          "B": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
+          "C": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM.",
+          "D": "Tốc độ CPU, dung lượng RAM và loại ổ lưu trữ ảnh hưởng hiệu năng theo những cách khác nhau."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tốc độ CPU, dung lượng RAM và loại ổ lưu trữ ảnh hưởng hiệu năng theo những cách khác nhau."
+      },
+      {
+        "id": "T11-B04-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống: Máy chậm khi mở nhiều ứng dụng cùng lúc. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tăng dung lượng RAM phù hợp.",
+          "B": "CPU.",
+          "C": "RAM.",
+          "D": "Thiết bị lưu trữ như SSD hoặc HDD."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Tăng dung lượng RAM phù hợp."
+      },
+      {
+        "id": "T11-B04-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thông số hiệu năng?",
+        "lua_chon": {
+          "A": "Máy chậm khi mở nhiều ứng dụng cùng lúc.",
+          "B": "Máy tính cần xử lí lệnh của phần mềm.",
+          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
+          "D": "Cần lưu tài liệu để mở lại sau khi tắt máy."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Thông số hiệu năng trong bài Bên trong máy tính."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B04-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Xét tính đúng/sai về Bên trong máy tính:",
+        "y_kien": {
+          "a": true,
+          "b": "CPU thực hiện lệnh và phép toán.",
+          "c": "Cổng NOT đảo giá trị logic đầu vào.",
+          "d": true
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B04-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Nêu vai trò của CPU, RAM và bộ nhớ lưu trữ.",
+        "dap_an_goi_y": "CPU xử lí lệnh; RAM giữ tạm dữ liệu/chương trình đang chạy; ổ lưu trữ giữ dữ liệu lâu dài.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B04-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 4 - Bên trong máy tính",
+        "noi_dung": "Dựa vào kiến thức “CPU thực hiện lệnh và phép tính của chương trình.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Máy tính cần xử lí lệnh của phần mềm.",
+        "dap_an_goi_y": "Nêu ý kiến thức: CPU thực hiện lệnh và phép tính của chương trình. Vận dụng: CPU. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

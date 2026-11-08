@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_26",
+  "bai_so": 26,
+  "ten_bai": "Công cụ tinh chỉnh màu sắc và công cụ chọn",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B26-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "RGB gồm các thành phần màu nào?",
+        "lua_chon": {
+          "A": "Đỏ, lục, lam",
+          "B": "Đỏ, vàng, đen",
+          "C": "Lục, lam, trắng",
+          "D": "Cyan, magenta, vàng"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Đỏ, lục, lam; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B26-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Phát biểu nào đúng về RGB?",
+        "lua_chon": {
+          "A": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
+          "B": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
+          "C": "Biên vùng chọn quyết định phần ảnh chịu tác động.",
+          "D": "RGB gồm các kênh đỏ, lục và lam."
+        },
+        "dap_an": "D",
+        "giai_thich": "RGB gồm các kênh đỏ, lục và lam."
+      },
+      {
+        "id": "T11-B26-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống: Cần điều chỉnh cường độ màu đỏ của ảnh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Kênh R.",
+          "B": "RGB.",
+          "C": "Tạo vùng chọn quanh chiếc áo.",
+          "D": "Chỉnh lại biên vùng chọn."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Kênh R."
+      },
+      {
+        "id": "T11-B26-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về RGB?",
+        "lua_chon": {
+          "A": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
+          "B": "Điều chỉnh màu lan ra ngoài đối tượng.",
+          "C": "Cần điều chỉnh cường độ màu đỏ của ảnh.",
+          "D": "Màn hình hiển thị một màu pha từ các kênh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với RGB trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
+      },
+      {
+        "id": "T11-B26-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Phát biểu nào đúng về Cộng màu?",
+        "lua_chon": {
+          "A": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
+          "B": "Biên vùng chọn quyết định phần ảnh chịu tác động.",
+          "C": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
+          "D": "RGB gồm các kênh đỏ, lục và lam."
+        },
+        "dap_an": "C",
+        "giai_thich": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị."
+      },
+      {
+        "id": "T11-B26-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống: Màn hình hiển thị một màu pha từ các kênh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Kênh R.",
+          "B": "Tạo vùng chọn quanh chiếc áo.",
+          "C": "Chỉnh lại biên vùng chọn.",
+          "D": "RGB."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, RGB."
+      },
+      {
+        "id": "T11-B26-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Cộng màu?",
+        "lua_chon": {
+          "A": "Màn hình hiển thị một màu pha từ các kênh.",
+          "B": "Cần điều chỉnh cường độ màu đỏ của ảnh.",
+          "C": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
+          "D": "Điều chỉnh màu lan ra ngoài đối tượng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Cộng màu trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
+      },
+      {
+        "id": "T11-B26-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Phát biểu nào đúng về Vùng chọn?",
+        "lua_chon": {
+          "A": "Biên vùng chọn quyết định phần ảnh chịu tác động.",
+          "B": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
+          "C": "RGB gồm các kênh đỏ, lục và lam.",
+          "D": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng."
+      },
+      {
+        "id": "T11-B26-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống: Chỉ muốn chỉnh màu chiếc áo trong ảnh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "RGB.",
+          "B": "Chỉnh lại biên vùng chọn.",
+          "C": "Tạo vùng chọn quanh chiếc áo.",
+          "D": "Kênh R."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Tạo vùng chọn quanh chiếc áo."
+      },
+      {
+        "id": "T11-B26-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Vùng chọn?",
+        "lua_chon": {
+          "A": "Màn hình hiển thị một màu pha từ các kênh.",
+          "B": "Điều chỉnh màu lan ra ngoài đối tượng.",
+          "C": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
+          "D": "Cần điều chỉnh cường độ màu đỏ của ảnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Vùng chọn trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
+      },
+      {
+        "id": "T11-B26-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Phát biểu nào đúng về Biên vùng chọn?",
+        "lua_chon": {
+          "A": "Biên vùng chọn quyết định phần ảnh chịu tác động.",
+          "B": "RGB gồm các kênh đỏ, lục và lam.",
+          "C": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
+          "D": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Biên vùng chọn quyết định phần ảnh chịu tác động."
+      },
+      {
+        "id": "T11-B26-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống: Điều chỉnh màu lan ra ngoài đối tượng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Tạo vùng chọn quanh chiếc áo.",
+          "B": "Chỉnh lại biên vùng chọn.",
+          "C": "Kênh R.",
+          "D": "RGB."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Chỉnh lại biên vùng chọn."
+      },
+      {
+        "id": "T11-B26-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Biên vùng chọn?",
+        "lua_chon": {
+          "A": "Điều chỉnh màu lan ra ngoài đối tượng.",
+          "B": "Cần điều chỉnh cường độ màu đỏ của ảnh.",
+          "C": "Màn hình hiển thị một màu pha từ các kênh.",
+          "D": "Chỉ muốn chỉnh màu chiếc áo trong ảnh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Biên vùng chọn trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
+      },
+      {
+        "id": "T11-B26-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Phát biểu nào đúng về Chọn hình chữ nhật/elip?",
+        "lua_chon": {
+          "A": "RGB gồm các kênh đỏ, lục và lam.",
+          "B": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
+          "C": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
+          "D": "Công cụ chọn hình học phù hợp vùng có hình dạng đơn giản."
+        },
+        "dap_an": "D",
+        "giai_thich": "Công cụ chọn hình học phù hợp vùng có hình dạng đơn giản."
+      },
+      {
+        "id": "T11-B26-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống: Chọn một vùng ảnh hình chữ nhật. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Vùng chọn hình chữ nhật.",
+          "B": "Kênh R.",
+          "C": "RGB.",
+          "D": "Tạo vùng chọn quanh chiếc áo."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Vùng chọn hình chữ nhật."
+      },
+      {
+        "id": "T11-B26-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn hình chữ nhật/elip?",
+        "lua_chon": {
+          "A": "Màn hình hiển thị một màu pha từ các kênh.",
+          "B": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
+          "C": "Chọn một vùng ảnh hình chữ nhật.",
+          "D": "Cần điều chỉnh cường độ màu đỏ của ảnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Chọn hình chữ nhật/elip trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
+      },
+      {
+        "id": "T11-B26-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Phát biểu nào đúng về Chọn tự do?",
+        "lua_chon": {
+          "A": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
+          "B": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
+          "C": "Công cụ chọn tự do phù hợp đường bao không đều.",
+          "D": "RGB gồm các kênh đỏ, lục và lam."
+        },
+        "dap_an": "C",
+        "giai_thich": "Công cụ chọn tự do phù hợp đường bao không đều."
+      },
+      {
+        "id": "T11-B26-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống: Chọn một vật thể méo không theo hình cơ bản. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Kênh R.",
+          "B": "RGB.",
+          "C": "Tạo vùng chọn quanh chiếc áo.",
+          "D": "Vùng chọn tự do."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Vùng chọn tự do."
+      },
+      {
+        "id": "T11-B26-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn tự do?",
+        "lua_chon": {
+          "A": "Chọn một vật thể méo không theo hình cơ bản.",
+          "B": "Cần điều chỉnh cường độ màu đỏ của ảnh.",
+          "C": "Màn hình hiển thị một màu pha từ các kênh.",
+          "D": "Chỉ muốn chỉnh màu chiếc áo trong ảnh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Chọn tự do trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
+      },
+      {
+        "id": "T11-B26-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Phát biểu nào đúng về Bỏ vùng chọn?",
+        "lua_chon": {
+          "A": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
+          "B": "Bỏ vùng chọn khi muốn tiếp tục chỉnh toàn ảnh.",
+          "C": "RGB gồm các kênh đỏ, lục và lam.",
+          "D": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị."
+        },
+        "dap_an": "B",
+        "giai_thich": "Bỏ vùng chọn khi muốn tiếp tục chỉnh toàn ảnh."
+      },
+      {
+        "id": "T11-B26-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống: Đã hoàn tất chỉnh sửa vùng cục bộ. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "RGB.",
+          "B": "Tạo vùng chọn quanh chiếc áo.",
+          "C": "Bỏ chọn/deselect.",
+          "D": "Kênh R."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Bỏ chọn/deselect."
+      },
+      {
+        "id": "T11-B26-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bỏ vùng chọn?",
+        "lua_chon": {
+          "A": "Màn hình hiển thị một màu pha từ các kênh.",
+          "B": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
+          "C": "Đã hoàn tất chỉnh sửa vùng cục bộ.",
+          "D": "Cần điều chỉnh cường độ màu đỏ của ảnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Bỏ vùng chọn trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B26-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Xét tính đúng/sai về Công cụ tinh chỉnh màu sắc và công cụ chọn:",
+        "y_kien": {
+          "a": "Khi có vùng chọn, mọi thao tác luôn ảnh hưởng toàn ảnh.",
+          "b": true,
+          "c": false,
+          "d": "Vùng chọn giới hạn phần ảnh bị tác động."
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B26-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Giải thích chỉnh riêng một vùng ảnh bằng vùng chọn và RGB.",
+        "dap_an_goi_y": "Tạo vùng chọn phù hợp, kiểm tra biên, điều chỉnh kênh R/G/B hoặc công cụ màu, xem trước rồi bỏ chọn.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B26-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
+        "noi_dung": "Dựa vào kiến thức “RGB gồm các kênh đỏ, lục và lam.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần điều chỉnh cường độ màu đỏ của ảnh.",
+        "dap_an_goi_y": "Nêu ý kiến thức: RGB gồm các kênh đỏ, lục và lam. Vận dụng: Kênh R. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

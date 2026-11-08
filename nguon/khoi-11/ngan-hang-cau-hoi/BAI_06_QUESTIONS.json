@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_06",
+  "bai_so": 6,
+  "ten_bai": "Lưu trữ và chia sẻ tệp tin trên Internet",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B06-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Bạn chỉ cần đọc tài liệu trên ổ đĩa trực tuyến. Nên cấp quyền nào?",
+        "lua_chon": {
+          "A": "Người xem",
+          "B": "Người chỉnh sửa",
+          "C": "Chủ sở hữu",
+          "D": "Quản trị viên"
+        },
+        "dap_an": "A",
+        "giai_thich": "Đáp án đúng vì Người xem; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B06-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Phát biểu nào đúng về Ổ đĩa trực tuyến?",
+        "lua_chon": {
+          "A": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
+          "B": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
+          "C": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ.",
+          "D": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet."
+        },
+        "dap_an": "D",
+        "giai_thich": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet."
+      },
+      {
+        "id": "T11-B06-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống: Cần mở tài liệu từ máy ở nhà và ở trường. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
+          "B": "Đồng bộ tệp.",
+          "C": "Người xem.",
+          "D": "Người chỉnh sửa."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình."
+      },
+      {
+        "id": "T11-B06-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Ổ đĩa trực tuyến?",
+        "lua_chon": {
+          "A": "Bạn cùng lớp chỉ cần đọc tài liệu.",
+          "B": "Bạn cùng nhóm cần cùng cập nhật bản kế hoạch.",
+          "C": "Cần mở tài liệu từ máy ở nhà và ở trường.",
+          "D": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Ổ đĩa trực tuyến trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
+      },
+      {
+        "id": "T11-B06-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Phát biểu nào đúng về Đồng bộ?",
+        "lua_chon": {
+          "A": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
+          "B": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ.",
+          "C": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
+          "D": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet."
+        },
+        "dap_an": "C",
+        "giai_thich": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình."
+      },
+      {
+        "id": "T11-B06-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống: Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
+          "B": "Người xem.",
+          "C": "Người chỉnh sửa.",
+          "D": "Đồng bộ tệp."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Đồng bộ tệp."
+      },
+      {
+        "id": "T11-B06-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Đồng bộ?",
+        "lua_chon": {
+          "A": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
+          "B": "Cần mở tài liệu từ máy ở nhà và ở trường.",
+          "C": "Bạn cùng lớp chỉ cần đọc tài liệu.",
+          "D": "Bạn cùng nhóm cần cùng cập nhật bản kế hoạch."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Đồng bộ trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
+      },
+      {
+        "id": "T11-B06-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Phát biểu nào đúng về Quyền xem?",
+        "lua_chon": {
+          "A": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ.",
+          "B": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
+          "C": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.",
+          "D": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình."
+        },
+        "dap_an": "B",
+        "giai_thich": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung."
+      },
+      {
+        "id": "T11-B06-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống: Bạn cùng lớp chỉ cần đọc tài liệu. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Đồng bộ tệp.",
+          "B": "Người chỉnh sửa.",
+          "C": "Người xem.",
+          "D": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Người xem."
+      },
+      {
+        "id": "T11-B06-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Quyền xem?",
+        "lua_chon": {
+          "A": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
+          "B": "Bạn cùng nhóm cần cùng cập nhật bản kế hoạch.",
+          "C": "Bạn cùng lớp chỉ cần đọc tài liệu.",
+          "D": "Cần mở tài liệu từ máy ở nhà và ở trường."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Quyền xem trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
+      },
+      {
+        "id": "T11-B06-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Phát biểu nào đúng về Quyền chỉnh sửa?",
+        "lua_chon": {
+          "A": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ.",
+          "B": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.",
+          "C": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
+          "D": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung."
+        },
+        "dap_an": "A",
+        "giai_thich": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ."
+      },
+      {
+        "id": "T11-B06-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống: Bạn cùng nhóm cần cùng cập nhật bản kế hoạch. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Người xem.",
+          "B": "Người chỉnh sửa.",
+          "C": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
+          "D": "Đồng bộ tệp."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Người chỉnh sửa."
+      },
+      {
+        "id": "T11-B06-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Quyền chỉnh sửa?",
+        "lua_chon": {
+          "A": "Bạn cùng nhóm cần cùng cập nhật bản kế hoạch.",
+          "B": "Cần mở tài liệu từ máy ở nhà và ở trường.",
+          "C": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
+          "D": "Bạn cùng lớp chỉ cần đọc tài liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Quyền chỉnh sửa trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
+      },
+      {
+        "id": "T11-B06-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Phát biểu nào đúng về Liên kết công khai?",
+        "lua_chon": {
+          "A": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.",
+          "B": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
+          "C": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
+          "D": "Liên kết công khai có thể mở rộng khả năng truy cập ngoài nhóm dự kiến."
+        },
+        "dap_an": "D",
+        "giai_thich": "Liên kết công khai có thể mở rộng khả năng truy cập ngoài nhóm dự kiến."
+      },
+      {
+        "id": "T11-B06-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống: Tài liệu chứa thông tin cá nhân cần gửi cho một giáo viên. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Chỉ chia sẻ trực tiếp với tài khoản người nhận.",
+          "B": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
+          "C": "Đồng bộ tệp.",
+          "D": "Người xem."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Chỉ chia sẻ trực tiếp với tài khoản người nhận."
+      },
+      {
+        "id": "T11-B06-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Liên kết công khai?",
+        "lua_chon": {
+          "A": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
+          "B": "Bạn cùng lớp chỉ cần đọc tài liệu.",
+          "C": "Tài liệu chứa thông tin cá nhân cần gửi cho một giáo viên.",
+          "D": "Cần mở tài liệu từ máy ở nhà và ở trường."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Liên kết công khai trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
+      },
+      {
+        "id": "T11-B06-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Phát biểu nào đúng về Thu hồi quyền?",
+        "lua_chon": {
+          "A": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
+          "B": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
+          "C": "Chủ sở hữu có thể thay đổi hoặc thu hồi quyền chia sẻ.",
+          "D": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet."
+        },
+        "dap_an": "C",
+        "giai_thich": "Chủ sở hữu có thể thay đổi hoặc thu hồi quyền chia sẻ."
+      },
+      {
+        "id": "T11-B06-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống: Dự án đã kết thúc và người ngoài nhóm không cần truy cập nữa. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
+          "B": "Đồng bộ tệp.",
+          "C": "Người xem.",
+          "D": "Thu hồi hoặc giảm quyền chia sẻ."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Thu hồi hoặc giảm quyền chia sẻ."
+      },
+      {
+        "id": "T11-B06-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thu hồi quyền?",
+        "lua_chon": {
+          "A": "Dự án đã kết thúc và người ngoài nhóm không cần truy cập nữa.",
+          "B": "Cần mở tài liệu từ máy ở nhà và ở trường.",
+          "C": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
+          "D": "Bạn cùng lớp chỉ cần đọc tài liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Thu hồi quyền trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
+      },
+      {
+        "id": "T11-B06-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Phát biểu nào đúng về Bảo vệ tài khoản?",
+        "lua_chon": {
+          "A": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
+          "B": "Tài khoản ổ đĩa trực tuyến cần mật khẩu mạnh và xác thực bổ sung.",
+          "C": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.",
+          "D": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tài khoản ổ đĩa trực tuyến cần mật khẩu mạnh và xác thực bổ sung."
+      },
+      {
+        "id": "T11-B06-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống: Người lạ có thể đăng nhập và xem mọi tệp. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Đồng bộ tệp.",
+          "B": "Người xem.",
+          "C": "Bật xác thực nhiều bước và bảo vệ thông tin đăng nhập.",
+          "D": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Bật xác thực nhiều bước và bảo vệ thông tin đăng nhập."
+      },
+      {
+        "id": "T11-B06-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bảo vệ tài khoản?",
+        "lua_chon": {
+          "A": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
+          "B": "Bạn cùng lớp chỉ cần đọc tài liệu.",
+          "C": "Người lạ có thể đăng nhập và xem mọi tệp.",
+          "D": "Cần mở tài liệu từ máy ở nhà và ở trường."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Bảo vệ tài khoản trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B06-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Xét tính đúng/sai về Lưu trữ và chia sẻ tệp tin trên Internet:",
+        "y_kien": {
+          "a": "Liên kết công khai có thể cho người ngoài dự kiến truy cập.",
+          "b": true,
+          "c": true,
+          "d": "Ổ đĩa trực tuyến cho phép truy cập tệp qua Internet."
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B06-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Trình bày cách chia sẻ tệp trực tuyến an toàn.",
+        "dap_an_goi_y": "Tải lên dịch vụ tin cậy, chọn người nhận hoặc quyền tối thiểu, kiểm tra liên kết và thu hồi quyền khi không cần.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B06-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
+        "noi_dung": "Dựa vào kiến thức “Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần mở tài liệu từ máy ở nhà và ở trường.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet. Vận dụng: Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

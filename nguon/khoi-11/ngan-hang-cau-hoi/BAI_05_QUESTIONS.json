@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_05",
+  "bai_so": 5,
+  "ten_bai": "Kết nối máy tính với các thiết bị số",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B05-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Cổng nào thường truyền hình ảnh và âm thanh số đến màn hình?",
+        "lua_chon": {
+          "A": "PS/2",
+          "B": "Âm thanh 3,5 mm",
+          "C": "HDMI",
+          "D": "RJ-45"
+        },
+        "dap_an": "C",
+        "giai_thich": "Đáp án đúng vì HDMI; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B05-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Phát biểu nào đúng về Thiết bị vào?",
+        "lua_chon": {
+          "A": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
+          "B": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ.",
+          "C": "Bàn phím và micro đưa dữ liệu vào máy tính.",
+          "D": "Màn hình và loa biểu diễn kết quả cho người dùng."
+        },
+        "dap_an": "C",
+        "giai_thich": "Bàn phím và micro đưa dữ liệu vào máy tính."
+      },
+      {
+        "id": "T11-B05-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống: Cần ghi âm lời nói vào máy tính. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Loa hoặc tai nghe.",
+          "B": "HDMI.",
+          "C": "USB tương thích với thiết bị.",
+          "D": "Micro."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Micro."
+      },
+      {
+        "id": "T11-B05-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thiết bị vào?",
+        "lua_chon": {
+          "A": "Cần nghe âm thanh do ứng dụng phát.",
+          "B": "Muốn xuất cả hình và tiếng đến TV.",
+          "C": "Cần kết nối ổ lưu trữ ngoài.",
+          "D": "Cần ghi âm lời nói vào máy tính."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Thiết bị vào trong bài Kết nối máy tính với các thiết bị số."
+      },
+      {
+        "id": "T11-B05-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Phát biểu nào đúng về Thiết bị ra?",
+        "lua_chon": {
+          "A": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ.",
+          "B": "Màn hình và loa biểu diễn kết quả cho người dùng.",
+          "C": "Bàn phím và micro đưa dữ liệu vào máy tính.",
+          "D": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích."
+        },
+        "dap_an": "B",
+        "giai_thich": "Màn hình và loa biểu diễn kết quả cho người dùng."
+      },
+      {
+        "id": "T11-B05-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống: Cần nghe âm thanh do ứng dụng phát. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "HDMI.",
+          "B": "USB tương thích với thiết bị.",
+          "C": "Loa hoặc tai nghe.",
+          "D": "Micro."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Loa hoặc tai nghe."
+      },
+      {
+        "id": "T11-B05-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thiết bị ra?",
+        "lua_chon": {
+          "A": "Cần kết nối ổ lưu trữ ngoài.",
+          "B": "Cần nghe âm thanh do ứng dụng phát.",
+          "C": "Cần ghi âm lời nói vào máy tính.",
+          "D": "Muốn xuất cả hình và tiếng đến TV."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Thiết bị ra trong bài Kết nối máy tính với các thiết bị số."
+      },
+      {
+        "id": "T11-B05-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Phát biểu nào đúng về HDMI?",
+        "lua_chon": {
+          "A": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
+          "B": "Bàn phím và micro đưa dữ liệu vào máy tính.",
+          "C": "Màn hình và loa biểu diễn kết quả cho người dùng.",
+          "D": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ."
+        },
+        "dap_an": "A",
+        "giai_thich": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích."
+      },
+      {
+        "id": "T11-B05-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống: Muốn xuất cả hình và tiếng đến TV. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "USB tương thích với thiết bị.",
+          "B": "HDMI.",
+          "C": "Micro.",
+          "D": "Loa hoặc tai nghe."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, HDMI."
+      },
+      {
+        "id": "T11-B05-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về HDMI?",
+        "lua_chon": {
+          "A": "Cần ghi âm lời nói vào máy tính.",
+          "B": "Cần nghe âm thanh do ứng dụng phát.",
+          "C": "Cần kết nối ổ lưu trữ ngoài.",
+          "D": "Muốn xuất cả hình và tiếng đến TV."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với HDMI trong bài Kết nối máy tính với các thiết bị số."
+      },
+      {
+        "id": "T11-B05-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Phát biểu nào đúng về USB?",
+        "lua_chon": {
+          "A": "Bàn phím và micro đưa dữ liệu vào máy tính.",
+          "B": "Màn hình và loa biểu diễn kết quả cho người dùng.",
+          "C": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
+          "D": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ."
+        },
+        "dap_an": "D",
+        "giai_thich": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ."
+      },
+      {
+        "id": "T11-B05-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống: Cần kết nối ổ lưu trữ ngoài. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "USB tương thích với thiết bị.",
+          "B": "Micro.",
+          "C": "Loa hoặc tai nghe.",
+          "D": "HDMI."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, USB tương thích với thiết bị."
+      },
+      {
+        "id": "T11-B05-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về USB?",
+        "lua_chon": {
+          "A": "Muốn xuất cả hình và tiếng đến TV.",
+          "B": "Cần kết nối ổ lưu trữ ngoài.",
+          "C": "Cần ghi âm lời nói vào máy tính.",
+          "D": "Cần nghe âm thanh do ứng dụng phát."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với USB trong bài Kết nối máy tính với các thiết bị số."
+      },
+      {
+        "id": "T11-B05-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Phát biểu nào đúng về Bluetooth?",
+        "lua_chon": {
+          "A": "Màn hình và loa biểu diễn kết quả cho người dùng.",
+          "B": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
+          "C": "Bluetooth kết nối không dây tầm gần giữa các thiết bị tương thích.",
+          "D": "Bàn phím và micro đưa dữ liệu vào máy tính."
+        },
+        "dap_an": "C",
+        "giai_thich": "Bluetooth kết nối không dây tầm gần giữa các thiết bị tương thích."
+      },
+      {
+        "id": "T11-B05-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống: Muốn ghép tai nghe không dây với laptop. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Micro.",
+          "B": "Loa hoặc tai nghe.",
+          "C": "HDMI.",
+          "D": "Bật Bluetooth, đưa thiết bị vào chế độ ghép đôi và chọn đúng thiết bị."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Bật Bluetooth, đưa thiết bị vào chế độ ghép đôi và chọn đúng thiết bị."
+      },
+      {
+        "id": "T11-B05-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Bluetooth?",
+        "lua_chon": {
+          "A": "Cần ghi âm lời nói vào máy tính.",
+          "B": "Cần nghe âm thanh do ứng dụng phát.",
+          "C": "Muốn xuất cả hình và tiếng đến TV.",
+          "D": "Muốn ghép tai nghe không dây với laptop."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Bluetooth trong bài Kết nối máy tính với các thiết bị số."
+      },
+      {
+        "id": "T11-B05-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Phát biểu nào đúng về Độ phân giải?",
+        "lua_chon": {
+          "A": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
+          "B": "Độ phân giải biểu thị số điểm ảnh theo chiều ngang và chiều dọc.",
+          "C": "Bàn phím và micro đưa dữ liệu vào máy tính.",
+          "D": "Màn hình và loa biểu diễn kết quả cho người dùng."
+        },
+        "dap_an": "B",
+        "giai_thich": "Độ phân giải biểu thị số điểm ảnh theo chiều ngang và chiều dọc."
+      },
+      {
+        "id": "T11-B05-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống: Màn hình ghi 1920 × 1080. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Loa hoặc tai nghe.",
+          "B": "HDMI.",
+          "C": "Số điểm ảnh của màn hình.",
+          "D": "Micro."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Số điểm ảnh của màn hình."
+      },
+      {
+        "id": "T11-B05-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Độ phân giải?",
+        "lua_chon": {
+          "A": "Muốn xuất cả hình và tiếng đến TV.",
+          "B": "Màn hình ghi 1920 × 1080.",
+          "C": "Cần ghi âm lời nói vào máy tính.",
+          "D": "Cần nghe âm thanh do ứng dụng phát."
+        },
+        "dap_an": "B",
+        "giai_thich": "Tình huống này gắn với Độ phân giải trong bài Kết nối máy tính với các thiết bị số."
+      },
+      {
+        "id": "T11-B05-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Phát biểu nào đúng về Trình điều khiển?",
+        "lua_chon": {
+          "A": "Trình điều khiển giúp hệ điều hành giao tiếp với thiết bị.",
+          "B": "Bàn phím và micro đưa dữ liệu vào máy tính.",
+          "C": "Màn hình và loa biểu diễn kết quả cho người dùng.",
+          "D": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trình điều khiển giúp hệ điều hành giao tiếp với thiết bị."
+      },
+      {
+        "id": "T11-B05-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống: Máy tính nhận thiết bị nhưng chưa dùng được đầy đủ chức năng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "HDMI.",
+          "B": "Trình điều khiển phù hợp từ nhà sản xuất.",
+          "C": "Micro.",
+          "D": "Loa hoặc tai nghe."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Trình điều khiển phù hợp từ nhà sản xuất."
+      },
+      {
+        "id": "T11-B05-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Trình điều khiển?",
+        "lua_chon": {
+          "A": "Cần ghi âm lời nói vào máy tính.",
+          "B": "Cần nghe âm thanh do ứng dụng phát.",
+          "C": "Muốn xuất cả hình và tiếng đến TV.",
+          "D": "Máy tính nhận thiết bị nhưng chưa dùng được đầy đủ chức năng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Tình huống này gắn với Trình điều khiển trong bài Kết nối máy tính với các thiết bị số."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B05-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Xét tính đúng/sai về Kết nối máy tính với các thiết bị số:",
+        "y_kien": {
+          "a": "Máy in là thiết bị đầu ra.",
+          "b": "Cần kiểm tra cổng và chuẩn kết nối tương thích.",
+          "c": true,
+          "d": true
+        },
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B05-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Nêu các bước kết nối thiết bị số với máy tính.",
+        "dap_an_goi_y": "Kiểm tra cổng/chuẩn, kết nối bằng cáp hoặc ghép đôi, cài trình điều khiển nếu cần, chọn thiết bị trong cài đặt và thử.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B05-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
+        "noi_dung": "Dựa vào kiến thức “Bàn phím và micro đưa dữ liệu vào máy tính.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần ghi âm lời nói vào máy tính.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Bàn phím và micro đưa dữ liệu vào máy tính. Vận dụng: Micro. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

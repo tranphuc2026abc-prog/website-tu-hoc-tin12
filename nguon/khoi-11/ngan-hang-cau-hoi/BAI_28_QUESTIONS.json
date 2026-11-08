@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_28",
+  "bai_so": 28,
+  "ten_bai": "Tạo ảnh động",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B28-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Các lớp/khung hình trong ảnh động thường được hiển thị như thế nào?",
+        "lua_chon": {
+          "A": "Đồng thời thành một bảng",
+          "B": "Chỉ dùng để lưu âm thanh",
+          "C": "Không cần sắp xếp",
+          "D": "Lần lượt theo thứ tự để tạo cảm giác chuyển động"
+        },
+        "dap_an": "D",
+        "giai_thich": "Đáp án đúng vì Lần lượt theo thứ tự để tạo cảm giác chuyển động; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B28-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Phát biểu nào đúng về Khung hình?",
+        "lua_chon": {
+          "A": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh.",
+          "B": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
+          "C": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
+          "D": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh."
+        },
+        "dap_an": "B",
+        "giai_thich": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự."
+      },
+      {
+        "id": "T11-B28-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống: Vật thể dịch chuyển một chút giữa các ảnh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thời gian hiển thị mỗi khung.",
+          "B": "Sắp xếp thành trình tự khung.",
+          "C": "Các khung hình của hoạt ảnh.",
+          "D": "Chuyển động chạy sai thứ tự."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Các khung hình của hoạt ảnh."
+      },
+      {
+        "id": "T11-B28-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Khung hình?",
+        "lua_chon": {
+          "A": "Vật thể dịch chuyển một chút giữa các ảnh.",
+          "B": "Các khung bị xếp ngược.",
+          "C": "Ảnh động chạy quá nhanh.",
+          "D": "Dựng hoạt ảnh từ các lớp đã chuẩn bị."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Khung hình trong bài Tạo ảnh động."
+      },
+      {
+        "id": "T11-B28-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Phát biểu nào đúng về Thứ tự khung?",
+        "lua_chon": {
+          "A": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
+          "B": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
+          "C": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh.",
+          "D": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Thứ tự khung ảnh quyết định diễn tiến chuyển động."
+      },
+      {
+        "id": "T11-B28-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống: Các khung bị xếp ngược. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Sắp xếp thành trình tự khung.",
+          "B": "Chuyển động chạy sai thứ tự.",
+          "C": "Các khung hình của hoạt ảnh.",
+          "D": "Thời gian hiển thị mỗi khung."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Chuyển động chạy sai thứ tự."
+      },
+      {
+        "id": "T11-B28-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thứ tự khung?",
+        "lua_chon": {
+          "A": "Ảnh động chạy quá nhanh.",
+          "B": "Dựng hoạt ảnh từ các lớp đã chuẩn bị.",
+          "C": "Các khung bị xếp ngược.",
+          "D": "Vật thể dịch chuyển một chút giữa các ảnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Thứ tự khung trong bài Tạo ảnh động."
+      },
+      {
+        "id": "T11-B28-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Phát biểu nào đúng về Thời gian khung?",
+        "lua_chon": {
+          "A": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
+          "B": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
+          "C": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh.",
+          "D": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh."
+        },
+        "dap_an": "D",
+        "giai_thich": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh."
+      },
+      {
+        "id": "T11-B28-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống: Ảnh động chạy quá nhanh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thời gian hiển thị mỗi khung.",
+          "B": "Các khung hình của hoạt ảnh.",
+          "C": "Chuyển động chạy sai thứ tự.",
+          "D": "Sắp xếp thành trình tự khung."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Thời gian hiển thị mỗi khung."
+      },
+      {
+        "id": "T11-B28-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Thời gian khung?",
+        "lua_chon": {
+          "A": "Ảnh động chạy quá nhanh.",
+          "B": "Vật thể dịch chuyển một chút giữa các ảnh.",
+          "C": "Các khung bị xếp ngược.",
+          "D": "Dựng hoạt ảnh từ các lớp đã chuẩn bị."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Thời gian khung trong bài Tạo ảnh động."
+      },
+      {
+        "id": "T11-B28-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Phát biểu nào đúng về Lớp và khung?",
+        "lua_chon": {
+          "A": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
+          "B": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh.",
+          "C": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh.",
+          "D": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh."
+      },
+      {
+        "id": "T11-B28-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống: Dựng hoạt ảnh từ các lớp đã chuẩn bị. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Các khung hình của hoạt ảnh.",
+          "B": "Chuyển động chạy sai thứ tự.",
+          "C": "Thời gian hiển thị mỗi khung.",
+          "D": "Sắp xếp thành trình tự khung."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Sắp xếp thành trình tự khung."
+      },
+      {
+        "id": "T11-B28-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lớp và khung?",
+        "lua_chon": {
+          "A": "Các khung bị xếp ngược.",
+          "B": "Ảnh động chạy quá nhanh.",
+          "C": "Dựng hoạt ảnh từ các lớp đã chuẩn bị.",
+          "D": "Vật thể dịch chuyển một chút giữa các ảnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Lớp và khung trong bài Tạo ảnh động."
+      },
+      {
+        "id": "T11-B28-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Phát biểu nào đúng về Lặp hoạt ảnh?",
+        "lua_chon": {
+          "A": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh.",
+          "B": "Thiết lập lặp quyết định hoạt ảnh phát một lần hay lặp lại.",
+          "C": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
+          "D": "Thứ tự khung ảnh quyết định diễn tiến chuyển động."
+        },
+        "dap_an": "B",
+        "giai_thich": "Thiết lập lặp quyết định hoạt ảnh phát một lần hay lặp lại."
+      },
+      {
+        "id": "T11-B28-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống: Ảnh động biểu tượng cần chạy liên tục. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Chuyển động chạy sai thứ tự.",
+          "B": "Thời gian hiển thị mỗi khung.",
+          "C": "Chế độ lặp.",
+          "D": "Các khung hình của hoạt ảnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Chế độ lặp."
+      },
+      {
+        "id": "T11-B28-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Lặp hoạt ảnh?",
+        "lua_chon": {
+          "A": "Ảnh động biểu tượng cần chạy liên tục.",
+          "B": "Vật thể dịch chuyển một chút giữa các ảnh.",
+          "C": "Các khung bị xếp ngược.",
+          "D": "Ảnh động chạy quá nhanh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Lặp hoạt ảnh trong bài Tạo ảnh động."
+      },
+      {
+        "id": "T11-B28-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Phát biểu nào đúng về Xem trước?",
+        "lua_chon": {
+          "A": "Xem trước cho phép đánh giá tốc độ và tính liên tục.",
+          "B": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
+          "C": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
+          "D": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Xem trước cho phép đánh giá tốc độ và tính liên tục."
+      },
+      {
+        "id": "T11-B28-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống: Chuyển động giật cục khi phát thử. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thời gian hiển thị mỗi khung.",
+          "B": "Xem trước và điều chỉnh khung/thời gian.",
+          "C": "Các khung hình của hoạt ảnh.",
+          "D": "Chuyển động chạy sai thứ tự."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Xem trước và điều chỉnh khung/thời gian."
+      },
+      {
+        "id": "T11-B28-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Xem trước?",
+        "lua_chon": {
+          "A": "Các khung bị xếp ngược.",
+          "B": "Ảnh động chạy quá nhanh.",
+          "C": "Chuyển động giật cục khi phát thử.",
+          "D": "Vật thể dịch chuyển một chút giữa các ảnh."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Xem trước trong bài Tạo ảnh động."
+      },
+      {
+        "id": "T11-B28-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Phát biểu nào đúng về Xuất tệp?",
+        "lua_chon": {
+          "A": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
+          "B": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
+          "C": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh.",
+          "D": "Xuất đúng định dạng động giúp giữ chuyển động khi chia sẻ."
+        },
+        "dap_an": "D",
+        "giai_thich": "Xuất đúng định dạng động giúp giữ chuyển động khi chia sẻ."
+      },
+      {
+        "id": "T11-B28-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống: Lưu thành định dạng chỉ hỗ trợ ảnh tĩnh. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thông tin các khung chuyển động.",
+          "B": "Các khung hình của hoạt ảnh.",
+          "C": "Chuyển động chạy sai thứ tự.",
+          "D": "Thời gian hiển thị mỗi khung."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Thông tin các khung chuyển động."
+      },
+      {
+        "id": "T11-B28-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Xuất tệp?",
+        "lua_chon": {
+          "A": "Lưu thành định dạng chỉ hỗ trợ ảnh tĩnh.",
+          "B": "Vật thể dịch chuyển một chút giữa các ảnh.",
+          "C": "Các khung bị xếp ngược.",
+          "D": "Ảnh động chạy quá nhanh."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Xuất tệp trong bài Tạo ảnh động."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B28-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Xét tính đúng/sai về Tạo ảnh động:",
+        "y_kien": {
+          "a": true,
+          "b": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ chuyển động.",
+          "c": "Cần xem trước để kiểm tra trình tự và nhịp.",
+          "d": true
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B28-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Mô tả tạo ảnh động đơn giản từ các lớp.",
+        "dap_an_goi_y": "Chuẩn bị lớp/khung có trạng thái khác nhau, xếp thứ tự, đặt thời gian, xem trước, điều chỉnh và xuất định dạng ảnh động.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B28-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 28 - Tạo ảnh động",
+        "noi_dung": "Dựa vào kiến thức “Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Vật thể dịch chuyển một chút giữa các ảnh.",
+        "dap_an_goi_y": "Nêu ý kiến thức: Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự. Vận dụng: Các khung hình của hoạt ảnh. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}

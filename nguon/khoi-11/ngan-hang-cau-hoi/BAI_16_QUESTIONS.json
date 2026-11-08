@@ -1,0 +1,424 @@
+{
+  "ma_bai": "BAI_16",
+  "bai_so": 16,
+  "ten_bai": "Công việc quản trị CSDL",
+  "thong_ke": {
+    "tong_so_cau": 25,
+    "so_cau_goc": {
+      "trac_nghiem": 0,
+      "dung_sai": 0,
+      "tu_luan": 0
+    },
+    "so_cau_bo_sung": {
+      "trac_nghiem": 22,
+      "dung_sai": 1,
+      "tu_luan": 2
+    }
+  },
+  "cau_hoi_goc": {
+    "trac_nghiem": [],
+    "dung_sai": [],
+    "tu_luan": []
+  },
+  "cau_hoi_bo_sung": {
+    "trac_nghiem": [
+      {
+        "id": "T11-B16-MC-001",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Nhiệm vụ nào phù hợp với nhà quản trị CSDL?",
+        "lua_chon": {
+          "A": "Chỉ nhập điểm hằng ngày",
+          "B": "Quản lí truy cập, hiệu năng, sao lưu và phục hồi",
+          "C": "Chỉ thiết kế logo",
+          "D": "Chỉ sửa bàn phím"
+        },
+        "dap_an": "B",
+        "giai_thich": "Đáp án đúng vì Quản lí truy cập, hiệu năng, sao lưu và phục hồi; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
+      },
+      {
+        "id": "T11-B16-MC-002",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Phát biểu nào đúng về Cài đặt và cấu hình?",
+        "lua_chon": {
+          "A": "DBA theo dõi tải và tối ưu hoạt động truy vấn.",
+          "B": "DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL.",
+          "C": "DBA cấp và thu hồi quyền theo vai trò.",
+          "D": "DBA lập kế hoạch sao lưu và kiểm tra khôi phục."
+        },
+        "dap_an": "B",
+        "giai_thich": "DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL."
+      },
+      {
+        "id": "T11-B16-MC-003",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống: Tổ chức đưa máy chủ CSDL mới vào vận hành. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thiết kế và kiểm thử quy trình sao lưu/phục hồi.",
+          "B": "Phân tích và tối ưu hiệu năng.",
+          "C": "Cấu hình hệ QTCSDL và môi trường.",
+          "D": "Điều chỉnh quyền truy cập."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Cấu hình hệ QTCSDL và môi trường."
+      },
+      {
+        "id": "T11-B16-MC-004",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Cài đặt và cấu hình?",
+        "lua_chon": {
+          "A": "Tổ chức đưa máy chủ CSDL mới vào vận hành.",
+          "B": "Nhân viên chuyển công tác không còn cần sửa dữ liệu.",
+          "C": "CSDL quan trọng có nguy cơ mất dữ liệu.",
+          "D": "Truy vấn chậm khi số bản ghi tăng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Cài đặt và cấu hình trong bài Công việc quản trị CSDL."
+      },
+      {
+        "id": "T11-B16-MC-005",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Phát biểu nào đúng về Quản lí quyền?",
+        "lua_chon": {
+          "A": "DBA cấp và thu hồi quyền theo vai trò.",
+          "B": "DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL.",
+          "C": "DBA lập kế hoạch sao lưu và kiểm tra khôi phục.",
+          "D": "DBA theo dõi tải và tối ưu hoạt động truy vấn."
+        },
+        "dap_an": "A",
+        "giai_thich": "DBA cấp và thu hồi quyền theo vai trò."
+      },
+      {
+        "id": "T11-B16-MC-006",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống: Nhân viên chuyển công tác không còn cần sửa dữ liệu. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Phân tích và tối ưu hiệu năng.",
+          "B": "Điều chỉnh quyền truy cập.",
+          "C": "Cấu hình hệ QTCSDL và môi trường.",
+          "D": "Thiết kế và kiểm thử quy trình sao lưu/phục hồi."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Điều chỉnh quyền truy cập."
+      },
+      {
+        "id": "T11-B16-MC-007",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Quản lí quyền?",
+        "lua_chon": {
+          "A": "CSDL quan trọng có nguy cơ mất dữ liệu.",
+          "B": "Truy vấn chậm khi số bản ghi tăng.",
+          "C": "Nhân viên chuyển công tác không còn cần sửa dữ liệu.",
+          "D": "Tổ chức đưa máy chủ CSDL mới vào vận hành."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Quản lí quyền trong bài Công việc quản trị CSDL."
+      },
+      {
+        "id": "T11-B16-MC-008",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Phát biểu nào đúng về Sao lưu/phục hồi?",
+        "lua_chon": {
+          "A": "DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL.",
+          "B": "DBA cấp và thu hồi quyền theo vai trò.",
+          "C": "DBA theo dõi tải và tối ưu hoạt động truy vấn.",
+          "D": "DBA lập kế hoạch sao lưu và kiểm tra khôi phục."
+        },
+        "dap_an": "D",
+        "giai_thich": "DBA lập kế hoạch sao lưu và kiểm tra khôi phục."
+      },
+      {
+        "id": "T11-B16-MC-009",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống: CSDL quan trọng có nguy cơ mất dữ liệu. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thiết kế và kiểm thử quy trình sao lưu/phục hồi.",
+          "B": "Cấu hình hệ QTCSDL và môi trường.",
+          "C": "Điều chỉnh quyền truy cập.",
+          "D": "Phân tích và tối ưu hiệu năng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Thiết kế và kiểm thử quy trình sao lưu/phục hồi."
+      },
+      {
+        "id": "T11-B16-MC-010",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Sao lưu/phục hồi?",
+        "lua_chon": {
+          "A": "CSDL quan trọng có nguy cơ mất dữ liệu.",
+          "B": "Tổ chức đưa máy chủ CSDL mới vào vận hành.",
+          "C": "Nhân viên chuyển công tác không còn cần sửa dữ liệu.",
+          "D": "Truy vấn chậm khi số bản ghi tăng."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Sao lưu/phục hồi trong bài Công việc quản trị CSDL."
+      },
+      {
+        "id": "T11-B16-MC-011",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Phát biểu nào đúng về Giám sát hiệu năng?",
+        "lua_chon": {
+          "A": "DBA cấp và thu hồi quyền theo vai trò.",
+          "B": "DBA lập kế hoạch sao lưu và kiểm tra khôi phục.",
+          "C": "DBA theo dõi tải và tối ưu hoạt động truy vấn.",
+          "D": "DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL."
+        },
+        "dap_an": "C",
+        "giai_thich": "DBA theo dõi tải và tối ưu hoạt động truy vấn."
+      },
+      {
+        "id": "T11-B16-MC-012",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống: Truy vấn chậm khi số bản ghi tăng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Cấu hình hệ QTCSDL và môi trường.",
+          "B": "Điều chỉnh quyền truy cập.",
+          "C": "Thiết kế và kiểm thử quy trình sao lưu/phục hồi.",
+          "D": "Phân tích và tối ưu hiệu năng."
+        },
+        "dap_an": "D",
+        "giai_thich": "Trong tình huống nêu ra, Phân tích và tối ưu hiệu năng."
+      },
+      {
+        "id": "T11-B16-MC-013",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Giám sát hiệu năng?",
+        "lua_chon": {
+          "A": "Nhân viên chuyển công tác không còn cần sửa dữ liệu.",
+          "B": "CSDL quan trọng có nguy cơ mất dữ liệu.",
+          "C": "Truy vấn chậm khi số bản ghi tăng.",
+          "D": "Tổ chức đưa máy chủ CSDL mới vào vận hành."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Giám sát hiệu năng trong bài Công việc quản trị CSDL."
+      },
+      {
+        "id": "T11-B16-MC-014",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Phát biểu nào đúng về An toàn?",
+        "lua_chon": {
+          "A": "DBA lập kế hoạch sao lưu và kiểm tra khôi phục.",
+          "B": "DBA áp dụng biện pháp bảo vệ CSDL và cập nhật bản vá.",
+          "C": "DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL.",
+          "D": "DBA cấp và thu hồi quyền theo vai trò."
+        },
+        "dap_an": "B",
+        "giai_thich": "DBA áp dụng biện pháp bảo vệ CSDL và cập nhật bản vá."
+      },
+      {
+        "id": "T11-B16-MC-015",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống: Phát hiện tài khoản có quyền quá rộng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Điều chỉnh quyền truy cập.",
+          "B": "Thiết kế và kiểm thử quy trình sao lưu/phục hồi.",
+          "C": "Rà soát bảo mật và thu hẹp quyền.",
+          "D": "Cấu hình hệ QTCSDL và môi trường."
+        },
+        "dap_an": "C",
+        "giai_thich": "Trong tình huống nêu ra, Rà soát bảo mật và thu hẹp quyền."
+      },
+      {
+        "id": "T11-B16-MC-016",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về An toàn?",
+        "lua_chon": {
+          "A": "Phát hiện tài khoản có quyền quá rộng.",
+          "B": "Tổ chức đưa máy chủ CSDL mới vào vận hành.",
+          "C": "Nhân viên chuyển công tác không còn cần sửa dữ liệu.",
+          "D": "CSDL quan trọng có nguy cơ mất dữ liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với An toàn trong bài Công việc quản trị CSDL."
+      },
+      {
+        "id": "T11-B16-MC-017",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Phát biểu nào đúng về Năng lực nghề nghiệp?",
+        "lua_chon": {
+          "A": "DBA cần kiến thức CSDL, mạng, hệ điều hành và bảo mật.",
+          "B": "DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL.",
+          "C": "DBA cấp và thu hồi quyền theo vai trò.",
+          "D": "DBA lập kế hoạch sao lưu và kiểm tra khôi phục."
+        },
+        "dap_an": "A",
+        "giai_thich": "DBA cần kiến thức CSDL, mạng, hệ điều hành và bảo mật."
+      },
+      {
+        "id": "T11-B16-MC-018",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống: Học sinh tìm hiểu lộ trình nghề quản trị CSDL. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Thiết kế và kiểm thử quy trình sao lưu/phục hồi.",
+          "B": "Nền tảng kỹ thuật cùng khả năng giải quyết vấn đề.",
+          "C": "Cấu hình hệ QTCSDL và môi trường.",
+          "D": "Điều chỉnh quyền truy cập."
+        },
+        "dap_an": "B",
+        "giai_thich": "Trong tình huống nêu ra, Nền tảng kỹ thuật cùng khả năng giải quyết vấn đề."
+      },
+      {
+        "id": "T11-B16-MC-019",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Năng lực nghề nghiệp?",
+        "lua_chon": {
+          "A": "Nhân viên chuyển công tác không còn cần sửa dữ liệu.",
+          "B": "CSDL quan trọng có nguy cơ mất dữ liệu.",
+          "C": "Học sinh tìm hiểu lộ trình nghề quản trị CSDL.",
+          "D": "Tổ chức đưa máy chủ CSDL mới vào vận hành."
+        },
+        "dap_an": "C",
+        "giai_thich": "Tình huống này gắn với Năng lực nghề nghiệp trong bài Công việc quản trị CSDL."
+      },
+      {
+        "id": "T11-B16-MC-020",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Nhận biết",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Phát biểu nào đúng về Giao tiếp công việc?",
+        "lua_chon": {
+          "A": "DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL.",
+          "B": "DBA cấp và thu hồi quyền theo vai trò.",
+          "C": "DBA lập kế hoạch sao lưu và kiểm tra khôi phục.",
+          "D": "DBA cần phối hợp với người dùng và nhóm phát triển để hiểu yêu cầu."
+        },
+        "dap_an": "D",
+        "giai_thich": "DBA cần phối hợp với người dùng và nhóm phát triển để hiểu yêu cầu."
+      },
+      {
+        "id": "T11-B16-MC-021",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống: Đội phát triển đề nghị thay đổi cấu trúc bảng. Lựa chọn nào phù hợp?",
+        "lua_chon": {
+          "A": "Trao đổi yêu cầu và đánh giá ảnh hưởng.",
+          "B": "Cấu hình hệ QTCSDL và môi trường.",
+          "C": "Điều chỉnh quyền truy cập.",
+          "D": "Thiết kế và kiểm thử quy trình sao lưu/phục hồi."
+        },
+        "dap_an": "A",
+        "giai_thich": "Trong tình huống nêu ra, Trao đổi yêu cầu và đánh giá ảnh hưởng."
+      },
+      {
+        "id": "T11-B16-MC-022",
+        "loai": "trac_nghiem",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Tình huống nào minh họa nhu cầu về Giao tiếp công việc?",
+        "lua_chon": {
+          "A": "Đội phát triển đề nghị thay đổi cấu trúc bảng.",
+          "B": "Tổ chức đưa máy chủ CSDL mới vào vận hành.",
+          "C": "Nhân viên chuyển công tác không còn cần sửa dữ liệu.",
+          "D": "CSDL quan trọng có nguy cơ mất dữ liệu."
+        },
+        "dap_an": "A",
+        "giai_thich": "Tình huống này gắn với Giao tiếp công việc trong bài Công việc quản trị CSDL."
+      }
+    ],
+    "dung_sai": [
+      {
+        "id": "T11-B16-TF-001",
+        "loai": "dung_sai",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Thông hiểu",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Xét tính đúng/sai về Công việc quản trị CSDL:",
+        "y_kien": {
+          "a": false,
+          "b": "DBA cần hiểu CSDL và an toàn thông tin.",
+          "c": "Quản trị CSDL không cần giao tiếp với người dùng hay nhóm phát triển.",
+          "d": true
+        },
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
+      }
+    ],
+    "tu_luan": [
+      {
+        "id": "T11-B16-TL-001",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Nêu nhiệm vụ và năng lực cần có của DBA.",
+        "dap_an_goi_y": "DBA cài đặt, phân quyền, giám sát, sao lưu/phục hồi, tối ưu; cần kiến thức CSDL/bảo mật, cẩn trọng, trách nhiệm và giao tiếp.",
+        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+      },
+      {
+        "id": "T11-B16-TL-002",
+        "loai": "tu_luan",
+        "nguon": "bien_soan_tu_khbd",
+        "muc_do": "Vận dụng",
+        "chu_de": "Bài 16 - Công việc quản trị CSDL",
+        "noi_dung": "Dựa vào kiến thức “DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Tổ chức đưa máy chủ CSDL mới vào vận hành.",
+        "dap_an_goi_y": "Nêu ý kiến thức: DBA có thể cài đặt, cấu hình và duy trì hệ QTCSDL. Vận dụng: Cấu hình hệ QTCSDL và môi trường. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
+        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
+      }
+    ]
+  }
+}
