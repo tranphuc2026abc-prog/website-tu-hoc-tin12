@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Hai tham số dai, rong.",
+        "noi_dung": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
         "lua_chon": {
+          "A": "Hai tham số dai, rong.",
           "B": "Đối số là giá trị truyền vào khi gọi hàm.",
           "C": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
           "D": "Đối số từ khóa gắn giá trị với tên tham số."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Hai tham số dai, rong."
       },
       {
         "id": "T10-B27-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Đối số.",
+        "noi_dung": "Gọi f(3,5): các số 3 và 5 là gì?",
         "lua_chon": {
           "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
+          "B": "Đối số.",
           "C": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
           "D": "Đối số từ khóa gắn giá trị với tên tham số."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Đối số."
       },
       {
         "id": "T10-B27-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "a=2, b=7.",
+        "noi_dung": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?",
         "lua_chon": {
           "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
           "B": "Đối số là giá trị truyền vào khi gọi hàm.",
+          "C": "a=2, b=7.",
           "D": "Đối số từ khóa gắn giá trị với tên tham số."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "a=2, b=7."
       },
       {
         "id": "T10-B27-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Truyền đối số theo tên.",
+        "noi_dung": "Gọi hàm với dai=4, rong=2: cách gọi này là gì?",
         "lua_chon": {
           "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
           "B": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "C": "Đối số vị trí được gán tham số theo thứ tự khai báo."
+          "C": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
+          "D": "Truyền đối số theo tên."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Truyền đối số theo tên."
       },
       {
         "id": "T10-B27-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "loi_chao.",
+        "noi_dung": "Hàm chao(ten, loi_chao='Xin chào'): có thể bỏ đối số nào?",
         "lua_chon": {
+          "A": "loi_chao.",
           "B": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
           "C": "Đối số là giá trị truyền vào khi gọi hàm.",
           "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "loi_chao."
       },
       {
         "id": "T10-B27-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Viết một hàm nhận kích thước qua tham số.",
+        "noi_dung": "Không muốn viết phép tính diện tích riêng cho từng hình: cách nào tốt?",
         "lua_chon": {
           "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
+          "B": "Viết một hàm nhận kích thước qua tham số.",
           "C": "Đối số là giá trị truyền vào khi gọi hàm.",
           "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Viết một hàm nhận kích thước qua tham số."
       },
       {
         "id": "T10-B27-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Kiểm tra/chuyển kiểu dữ liệu đầu vào.",
+        "noi_dung": "Hàm cần cộng hai số nhưng nhận một xâu: vấn đề nào cần xử lí?",
         "lua_chon": {
           "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
           "B": "Đối số là giá trị truyền vào khi gọi hàm.",
+          "C": "Kiểm tra/chuyển kiểu dữ liệu đầu vào.",
           "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Kiểm tra/chuyển kiểu dữ liệu đầu vào."
       },
       {
         "id": "T10-B27-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Tham số của hàm”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Tham số của hàm”?",
         "lua_chon": {
           "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. Đối số là giá trị truyền vào khi gọi hàm.",
           "B": "Đối số là giá trị truyền vào khi gọi hàm. Tham số là giá trị cụ thể đã truyền khi gọi hàm.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Tham số của hàm”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Tham số của hàm”:",
         "y_kien": {
           "a": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
           "b": "Tham số là giá trị cụ thể đã truyền khi gọi hàm.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. b sai: Tham số là giá trị cụ thể đã truyền khi gọi hàm. c đúng: Đối số vị trí được gán tham số theo thứ tự khai báo. d sai: Đối số được khai báo trong phần thân hàm thay vì khi gọi."
+        "giai_thich": "a đúng: Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.; b sai: Tham số là giá trị cụ thể đã truyền khi gọi hàm.; c đúng: Đối số vị trí được gán tham số theo thứ tự khai báo.; d sai: Đối số được khai báo trong phần thân hàm thay vì khi gọi.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Tham số của hàm”: Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. Đối số là giá trị truyền vào khi gọi hàm.",
+        "noi_dung": "Trình bày hai nội dung của bài: Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. Đối số là giá trị truyền vào khi gọi hàm.",
         "dap_an_goi_y": "Nêu đúng hai ý: Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. Đối số là giá trị truyền vào khi gọi hàm.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Đối số vị trí được gán tham số theo thứ tự khai báo.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Đối số vị trí được gán tham số theo thứ tự khai báo.” và liên hệ phù hợp với bài “Tham số của hàm”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Đối số vị trí được gán tham số theo thứ tự khai báo.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Đối số vị trí được gán tham số theo thứ tự khai báo.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

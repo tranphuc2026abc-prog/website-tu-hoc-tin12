@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Lừa đảo giả mạo (phishing).",
+        "noi_dung": "Tin nhắn ngân hàng gửi liên kết xác minh lạ: nguy cơ nào được mô tả?",
         "lua_chon": {
           "A": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
           "B": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.",
+          "C": "Lừa đảo giả mạo (phishing).",
           "D": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Lừa đảo giả mạo (phishing)."
       },
       {
         "id": "T10-B09-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Dùng mật khẩu mạnh và không dùng lại.",
+        "noi_dung": "Một mật khẩu đang dùng cho nhiều dịch vụ: cải thiện nào nên làm?",
         "lua_chon": {
           "A": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
           "B": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.",
-          "C": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
+          "C": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu.",
+          "D": "Dùng mật khẩu mạnh và không dùng lại."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Dùng mật khẩu mạnh và không dùng lại."
       },
       {
         "id": "T10-B09-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Xác thực hai yếu tố/nhiều bước.",
+        "noi_dung": "Kẻ khác biết mật khẩu nhưng không có mã xác thực: cơ chế nào tăng bảo vệ?",
         "lua_chon": {
+          "A": "Xác thực hai yếu tố/nhiều bước.",
           "B": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
           "C": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
           "D": "Mã độc có thể phá hoại, theo dõi hoặc đánh cắp dữ liệu."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Xác thực hai yếu tố/nhiều bước."
       },
       {
         "id": "T10-B09-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Mã độc.",
+        "noi_dung": "Tệp đính kèm lạ yêu cầu bật macro: nguy cơ nào cần đề phòng?",
         "lua_chon": {
           "A": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
+          "B": "Mã độc.",
           "C": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
           "D": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Mã độc."
       },
       {
         "id": "T10-B09-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Không cung cấp và kiểm tra độ tin cậy.",
+        "noi_dung": "Trang lạ hỏi số căn cước và địa chỉ nhà: cách xử lí nào an toàn?",
         "lua_chon": {
           "A": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
           "B": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
+          "C": "Không cung cấp và kiểm tra độ tin cậy.",
           "D": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Không cung cấp và kiểm tra độ tin cậy."
       },
       {
         "id": "T10-B09-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Tạo bản sao lưu riêng, an toàn.",
+        "noi_dung": "Tệp học tập quan trọng chỉ có một bản: biện pháp nào bổ sung?",
         "lua_chon": {
           "A": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
           "B": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
-          "C": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
+          "C": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.",
+          "D": "Tạo bản sao lưu riêng, an toàn."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Tạo bản sao lưu riêng, an toàn."
       },
       {
         "id": "T10-B09-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Cập nhật từ nguồn chính thức.",
+        "noi_dung": "Hệ điều hành có bản vá bảo mật chính thức: nên làm gì?",
         "lua_chon": {
+          "A": "Cập nhật từ nguồn chính thức.",
           "B": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
           "C": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
           "D": "Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Cập nhật từ nguồn chính thức."
       },
       {
         "id": "T10-B09-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “An toàn trên không gian mạng”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “An toàn trên không gian mạng”?",
         "lua_chon": {
           "A": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
           "B": "Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản. Có thể chia sẻ OTP qua điện thoại nếu người gọi tự xưng là ngân hàng.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “An toàn trên không gian mạng”.",
+        "noi_dung": "Xét tính đúng/sai về bài “An toàn trên không gian mạng”:",
         "y_kien": {
           "a": "Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.",
           "b": "Có thể chia sẻ OTP qua điện thoại nếu người gọi tự xưng là ngân hàng.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. b sai: Có thể chia sẻ OTP qua điện thoại nếu người gọi tự xưng là ngân hàng. c đúng: Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu. d sai: Sao lưu dữ liệu làm cho mọi mã độc tự động bị loại bỏ."
+        "giai_thich": "a đúng: Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền.; b sai: Có thể chia sẻ OTP qua điện thoại nếu người gọi tự xưng là ngân hàng.; c đúng: Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.; d sai: Sao lưu dữ liệu làm cho mọi mã độc tự động bị loại bỏ.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “An toàn trên không gian mạng”: Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
+        "noi_dung": "Trình bày hai nội dung của bài: Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
         "dap_an_goi_y": "Nêu đúng hai ý: Phishing giả mạo tổ chức/người quen để lấy thông tin hoặc tiền. Mật khẩu mạnh, riêng biệt làm giảm nguy cơ chiếm tài khoản.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 9 - An toàn trên không gian mạng",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.” và liên hệ phù hợp với bài “An toàn trên không gian mạng”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Xác thực nhiều bước yêu cầu thêm yếu tố ngoài mật khẩu.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

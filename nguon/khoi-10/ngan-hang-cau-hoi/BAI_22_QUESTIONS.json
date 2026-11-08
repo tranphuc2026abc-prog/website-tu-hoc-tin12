@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "Danh sách (list).",
+        "noi_dung": "Lưu điểm của nhiều học sinh: kiểu nào phù hợp?",
         "lua_chon": {
           "A": "Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
           "B": "Chỉ số phần tử list trong Python bắt đầu từ 0.",
-          "C": "len(list) trả về số phần tử."
+          "C": "len(list) trả về số phần tử.",
+          "D": "Danh sách (list)."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Danh sách (list)."
       },
       {
         "id": "T10-B22-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "[2, 4, 6].",
+        "noi_dung": "Tạo danh sách 2, 4, 6: cú pháp nào phù hợp?",
         "lua_chon": {
+          "A": "[2, 4, 6].",
           "B": "List lưu nhiều phần tử có thứ tự trong một biến.",
           "C": "Chỉ số phần tử list trong Python bắt đầu từ 0.",
           "D": "len(list) trả về số phần tử."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "[2, 4, 6]."
       },
       {
         "id": "T10-B22-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "a[0].",
+        "noi_dung": "Lấy phần tử đầu của a: truy cập thế nào?",
         "lua_chon": {
           "A": "List lưu nhiều phần tử có thứ tự trong một biến.",
+          "B": "a[0].",
           "C": "Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
           "D": "len(list) trả về số phần tử."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "a[0]."
       },
       {
         "id": "T10-B22-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "len().",
+        "noi_dung": "Cần biết có bao nhiêu điểm: dùng hàm nào?",
         "lua_chon": {
           "A": "List lưu nhiều phần tử có thứ tự trong một biến.",
           "B": "Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
+          "C": "len().",
           "D": "Chỉ số phần tử list trong Python bắt đầu từ 0."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "len()."
       },
       {
         "id": "T10-B22-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "a[0] = giá_trị.",
+        "noi_dung": "Đổi phần tử thứ nhất: lệnh nào phù hợp?",
         "lua_chon": {
           "A": "List lưu nhiều phần tử có thứ tự trong một biến.",
           "B": "Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
-          "C": "Chỉ số phần tử list trong Python bắt đầu từ 0."
+          "C": "Chỉ số phần tử list trong Python bắt đầu từ 0.",
+          "D": "a[0] = giá_trị."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "a[0] = giá_trị."
       },
       {
         "id": "T10-B22-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "for ten in ds_ten.",
+        "noi_dung": "In từng tên trong ds_ten: cách nào phù hợp?",
         "lua_chon": {
+          "A": "for ten in ds_ten.",
           "B": "List lưu nhiều phần tử có thứ tự trong một biến.",
           "C": "Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
           "D": "Chỉ số phần tử list trong Python bắt đầu từ 0."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "for ten in ds_ten."
       },
       {
         "id": "T10-B22-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "[].",
+        "noi_dung": "Tạo nơi lưu kết quả chưa có phần tử: cú pháp nào dùng?",
         "lua_chon": {
           "A": "List lưu nhiều phần tử có thứ tự trong một biến.",
+          "B": "[].",
           "C": "Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
           "D": "Chỉ số phần tử list trong Python bắt đầu từ 0."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "[]."
       },
       {
         "id": "T10-B22-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Kiểu dữ liệu danh sách”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Kiểu dữ liệu danh sách”?",
         "lua_chon": {
           "A": "List lưu nhiều phần tử có thứ tự trong một biến. Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
           "B": "Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông. Chỉ số phần tử list trong Python bắt đầu từ 1.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Kiểu dữ liệu danh sách”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Kiểu dữ liệu danh sách”:",
         "y_kien": {
           "a": "List lưu nhiều phần tử có thứ tự trong một biến.",
           "b": "Chỉ số phần tử list trong Python bắt đầu từ 1.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: List lưu nhiều phần tử có thứ tự trong một biến. b sai: Chỉ số phần tử list trong Python bắt đầu từ 1. c đúng: Chỉ số phần tử list trong Python bắt đầu từ 0. d sai: List chỉ lưu được một phần tử duy nhất."
+        "giai_thich": "a đúng: List lưu nhiều phần tử có thứ tự trong một biến.; b sai: Chỉ số phần tử list trong Python bắt đầu từ 1.; c đúng: Chỉ số phần tử list trong Python bắt đầu từ 0.; d sai: List chỉ lưu được một phần tử duy nhất.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Kiểu dữ liệu danh sách”: List lưu nhiều phần tử có thứ tự trong một biến. Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
+        "noi_dung": "Trình bày hai nội dung của bài: List lưu nhiều phần tử có thứ tự trong một biến. Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
         "dap_an_goi_y": "Nêu đúng hai ý: List lưu nhiều phần tử có thứ tự trong một biến. Danh sách có thể tạo bằng các giá trị trong dấu ngoặc vuông.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 22 - Kiểu dữ liệu danh sách",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Chỉ số phần tử list trong Python bắt đầu từ 0.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Chỉ số phần tử list trong Python bắt đầu từ 0.” và liên hệ phù hợp với bài “Kiểu dữ liệu danh sách”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Chỉ số phần tử list trong Python bắt đầu từ 0.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Chỉ số phần tử list trong Python bắt đầu từ 0.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

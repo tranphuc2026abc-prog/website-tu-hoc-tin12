@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Giá trị lôgic.",
+        "noi_dung": "Kiểm tra điều kiện x > 0: kết quả thuộc kiểu nào?",
         "lua_chon": {
           "A": "AND chỉ đúng khi mọi toán hạng đều đúng.",
           "B": "OR đúng nếu có ít nhất một toán hạng đúng.",
+          "C": "Giá trị lôgic.",
           "D": "XOR đúng khi hai toán hạng khác nhau."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Giá trị lôgic."
       },
       {
         "id": "T10-B05-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Đúng.",
+        "noi_dung": "Hai điều kiện a và b đều đúng: kết quả a AND b là gì?",
         "lua_chon": {
           "A": "Giá trị lôgic thường có hai trạng thái đúng và sai.",
           "B": "OR đúng nếu có ít nhất một toán hạng đúng.",
-          "C": "XOR đúng khi hai toán hạng khác nhau."
+          "C": "XOR đúng khi hai toán hạng khác nhau.",
+          "D": "Đúng."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Đúng."
       },
       {
         "id": "T10-B05-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Đúng.",
+        "noi_dung": "Một trong hai điều kiện đúng: kết quả OR là gì?",
         "lua_chon": {
+          "A": "Đúng.",
           "B": "Giá trị lôgic thường có hai trạng thái đúng và sai.",
           "C": "AND chỉ đúng khi mọi toán hạng đều đúng.",
           "D": "XOR đúng khi hai toán hạng khác nhau."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Đúng."
       },
       {
         "id": "T10-B05-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Đúng.",
+        "noi_dung": "Một đầu vào đúng, một đầu vào sai: XOR cho kết quả gì?",
         "lua_chon": {
           "A": "Giá trị lôgic thường có hai trạng thái đúng và sai.",
+          "B": "Đúng.",
           "C": "AND chỉ đúng khi mọi toán hạng đều đúng.",
           "D": "OR đúng nếu có ít nhất một toán hạng đúng."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Đúng."
       },
       {
         "id": "T10-B05-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "True.",
+        "noi_dung": "NOT(False): kết quả là gì?",
         "lua_chon": {
           "A": "Giá trị lôgic thường có hai trạng thái đúng và sai.",
           "B": "AND chỉ đúng khi mọi toán hạng đều đúng.",
+          "C": "True.",
           "D": "OR đúng nếu có ít nhất một toán hạng đúng."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "True."
       },
       {
         "id": "T10-B05-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Bảng chân trị.",
+        "noi_dung": "Muốn kiểm tra biểu thức gồm hai biến Boolean: dùng gì?",
         "lua_chon": {
           "A": "Giá trị lôgic thường có hai trạng thái đúng và sai.",
           "B": "AND chỉ đúng khi mọi toán hạng đều đúng.",
-          "C": "OR đúng nếu có ít nhất một toán hạng đúng."
+          "C": "OR đúng nếu có ít nhất một toán hạng đúng.",
+          "D": "Bảng chân trị."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Bảng chân trị."
       },
       {
         "id": "T10-B05-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Hai trạng thái 0/1 theo quy ước.",
+        "noi_dung": "Máy tính cần lưu kết quả đúng/sai: biểu diễn nào phù hợp?",
         "lua_chon": {
+          "A": "Hai trạng thái 0/1 theo quy ước.",
           "B": "Giá trị lôgic thường có hai trạng thái đúng và sai.",
           "C": "AND chỉ đúng khi mọi toán hạng đều đúng.",
           "D": "OR đúng nếu có ít nhất một toán hạng đúng."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Hai trạng thái 0/1 theo quy ước."
       },
       {
         "id": "T10-B05-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Dữ liệu lôgic”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Dữ liệu lôgic”?",
         "lua_chon": {
           "A": "Giá trị lôgic thường có hai trạng thái đúng và sai. AND chỉ đúng khi mọi toán hạng đều đúng.",
           "B": "AND chỉ đúng khi mọi toán hạng đều đúng. AND đúng khi chỉ cần một toán hạng đúng.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Dữ liệu lôgic”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Dữ liệu lôgic”:",
         "y_kien": {
           "a": "Giá trị lôgic thường có hai trạng thái đúng và sai.",
           "b": "AND đúng khi chỉ cần một toán hạng đúng.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Giá trị lôgic thường có hai trạng thái đúng và sai. b sai: AND đúng khi chỉ cần một toán hạng đúng. c đúng: OR đúng nếu có ít nhất một toán hạng đúng. d sai: NOT giữ nguyên giá trị chân lí đầu vào."
+        "giai_thich": "a đúng: Giá trị lôgic thường có hai trạng thái đúng và sai.; b sai: AND đúng khi chỉ cần một toán hạng đúng.; c đúng: OR đúng nếu có ít nhất một toán hạng đúng.; d sai: NOT giữ nguyên giá trị chân lí đầu vào.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Dữ liệu lôgic”: Giá trị lôgic thường có hai trạng thái đúng và sai. AND chỉ đúng khi mọi toán hạng đều đúng.",
+        "noi_dung": "Trình bày hai nội dung của bài: Giá trị lôgic thường có hai trạng thái đúng và sai. AND chỉ đúng khi mọi toán hạng đều đúng.",
         "dap_an_goi_y": "Nêu đúng hai ý: Giá trị lôgic thường có hai trạng thái đúng và sai. AND chỉ đúng khi mọi toán hạng đều đúng.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 5 - Dữ liệu lôgic",
-        "noi_dung": "Giải thích cách vận dụng nội dung “OR đúng nếu có ít nhất một toán hạng đúng.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “OR đúng nếu có ít nhất một toán hạng đúng.” và liên hệ phù hợp với bài “Dữ liệu lôgic”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “OR đúng nếu có ít nhất một toán hạng đúng.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “OR đúng nếu có ít nhất một toán hạng đúng.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

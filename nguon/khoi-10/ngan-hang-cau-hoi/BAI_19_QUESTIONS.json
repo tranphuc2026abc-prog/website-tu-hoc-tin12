@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "Giá trị logic.",
+        "noi_dung": "Kiểm tra điểm >= 5: biểu thức tạo ra kiểu gì?",
         "lua_chon": {
+          "A": "Giá trị logic.",
           "B": "if thực hiện khối lệnh khi điều kiện đúng.",
           "C": "if-else chọn một trong hai khối tùy kết quả điều kiện.",
           "D": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Giá trị logic."
       },
       {
         "id": "T10-B19-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "if condition:.",
+        "noi_dung": "Nếu tuổi >= 18 thì in thông báo: cấu trúc nào phù hợp?",
         "lua_chon": {
           "A": "Điều kiện trong if được đánh giá thành True hoặc False.",
+          "B": "if condition:.",
           "C": "if-else chọn một trong hai khối tùy kết quả điều kiện.",
           "D": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "if condition:."
       },
       {
         "id": "T10-B19-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "if-else.",
+        "noi_dung": "Nếu trời mưa mang áo mưa, nếu không thì đi bình thường: cấu trúc nào mô tả?",
         "lua_chon": {
           "A": "Điều kiện trong if được đánh giá thành True hoặc False.",
           "B": "if thực hiện khối lệnh khi điều kiện đúng.",
+          "C": "if-else.",
           "D": "elif kiểm tra thêm điều kiện khi các điều kiện trước sai."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "if-else."
       },
       {
         "id": "T10-B19-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "elif.",
+        "noi_dung": "Phân loại điểm thành nhiều mức: cấu trúc nào có thể thêm?",
         "lua_chon": {
           "A": "Điều kiện trong if được đánh giá thành True hoặc False.",
           "B": "if thực hiện khối lệnh khi điều kiện đúng.",
-          "C": "if-else chọn một trong hai khối tùy kết quả điều kiện."
+          "C": "if-else chọn một trong hai khối tùy kết quả điều kiện.",
+          "D": "elif."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "elif."
       },
       {
         "id": "T10-B19-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "Thụt lề thống nhất sau dấu hai chấm.",
+        "noi_dung": "Lệnh cần nằm trong nhánh if: cần định dạng thế nào?",
         "lua_chon": {
+          "A": "Thụt lề thống nhất sau dấu hai chấm.",
           "B": "Điều kiện trong if được đánh giá thành True hoặc False.",
           "C": "if thực hiện khối lệnh khi điều kiện đúng.",
           "D": "if-else chọn một trong hai khối tùy kết quả điều kiện."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Thụt lề thống nhất sau dấu hai chấm."
       },
       {
         "id": "T10-B19-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "==.",
+        "noi_dung": "Kiểm tra x có bằng 0 không: toán tử nào phù hợp?",
         "lua_chon": {
           "A": "Điều kiện trong if được đánh giá thành True hoặc False.",
+          "B": "==.",
           "C": "if thực hiện khối lệnh khi điều kiện đúng.",
           "D": "if-else chọn một trong hai khối tùy kết quả điều kiện."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "==."
       },
       {
         "id": "T10-B19-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "Dùng hai phép so sánh với and.",
+        "noi_dung": "Cần kiểm tra tuổi trong một khoảng: kết hợp thế nào?",
         "lua_chon": {
           "A": "Điều kiện trong if được đánh giá thành True hoặc False.",
           "B": "if thực hiện khối lệnh khi điều kiện đúng.",
+          "C": "Dùng hai phép so sánh với and.",
           "D": "if-else chọn một trong hai khối tùy kết quả điều kiện."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Dùng hai phép so sánh với and."
       },
       {
         "id": "T10-B19-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Câu lệnh rẽ nhánh if”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Câu lệnh rẽ nhánh if”?",
         "lua_chon": {
           "A": "Điều kiện trong if được đánh giá thành True hoặc False. if thực hiện khối lệnh khi điều kiện đúng.",
           "B": "if thực hiện khối lệnh khi điều kiện đúng. if luôn chạy khối lệnh bất kể điều kiện đúng hay sai.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Câu lệnh rẽ nhánh if”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Câu lệnh rẽ nhánh if”:",
         "y_kien": {
           "a": "Điều kiện trong if được đánh giá thành True hoặc False.",
           "b": "if luôn chạy khối lệnh bất kể điều kiện đúng hay sai.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Điều kiện trong if được đánh giá thành True hoặc False. b sai: if luôn chạy khối lệnh bất kể điều kiện đúng hay sai. c đúng: if-else chọn một trong hai khối tùy kết quả điều kiện. d sai: Python xác định khối if bằng dấu ngoặc nhọn thay vì thụt lề."
+        "giai_thich": "a đúng: Điều kiện trong if được đánh giá thành True hoặc False.; b sai: if luôn chạy khối lệnh bất kể điều kiện đúng hay sai.; c đúng: if-else chọn một trong hai khối tùy kết quả điều kiện.; d sai: Python xác định khối if bằng dấu ngoặc nhọn thay vì thụt lề.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Câu lệnh rẽ nhánh if”: Điều kiện trong if được đánh giá thành True hoặc False. if thực hiện khối lệnh khi điều kiện đúng.",
+        "noi_dung": "Trình bày hai nội dung của bài: Điều kiện trong if được đánh giá thành True hoặc False. if thực hiện khối lệnh khi điều kiện đúng.",
         "dap_an_goi_y": "Nêu đúng hai ý: Điều kiện trong if được đánh giá thành True hoặc False. if thực hiện khối lệnh khi điều kiện đúng.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 19 - Câu lệnh rẽ nhánh if",
-        "noi_dung": "Giải thích cách vận dụng nội dung “if-else chọn một trong hai khối tùy kết quả điều kiện.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “if-else chọn một trong hai khối tùy kết quả điều kiện.” và liên hệ phù hợp với bài “Câu lệnh rẽ nhánh if”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “if-else chọn một trong hai khối tùy kết quả điều kiện.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “if-else chọn một trong hai khối tùy kết quả điều kiện.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

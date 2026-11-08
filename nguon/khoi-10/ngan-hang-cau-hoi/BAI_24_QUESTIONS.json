@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "str.",
+        "noi_dung": "Lưu họ tên người dùng: kiểu nào phù hợp?",
         "lua_chon": {
           "A": "Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
+          "B": "str.",
           "C": "Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0.",
           "D": "for có thể duyệt lần lượt từng kí tự."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "str."
       },
       {
         "id": "T10-B24-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "ten = 'An'.",
+        "noi_dung": "Gán tên An cho biến: ví dụ nào đúng?",
         "lua_chon": {
           "A": "Xâu kí tự biểu diễn dãy kí tự văn bản.",
           "B": "Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0.",
+          "C": "ten = 'An'.",
           "D": "for có thể duyệt lần lượt từng kí tự."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "ten = 'An'."
       },
       {
         "id": "T10-B24-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "s[0].",
+        "noi_dung": "Lấy kí tự đầu của s: cách nào phù hợp?",
         "lua_chon": {
           "A": "Xâu kí tự biểu diễn dãy kí tự văn bản.",
           "B": "Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
-          "C": "for có thể duyệt lần lượt từng kí tự."
+          "C": "for có thể duyệt lần lượt từng kí tự.",
+          "D": "s[0]."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "s[0]."
       },
       {
         "id": "T10-B24-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "for ch in s.",
+        "noi_dung": "In từng kí tự của từ: cấu trúc nào dùng?",
         "lua_chon": {
+          "A": "for ch in s.",
           "B": "Xâu kí tự biểu diễn dãy kí tự văn bản.",
           "C": "Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
           "D": "Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "for ch in s."
       },
       {
         "id": "T10-B24-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "Tạo xâu mới từ nội dung đã chỉnh.",
+        "noi_dung": "Muốn đổi kí tự s[0]: cần làm gì?",
         "lua_chon": {
           "A": "Xâu kí tự biểu diễn dãy kí tự văn bản.",
+          "B": "Tạo xâu mới từ nội dung đã chỉnh.",
           "C": "Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
           "D": "Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Tạo xâu mới từ nội dung đã chỉnh."
       },
       {
         "id": "T10-B24-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "len().",
+        "noi_dung": "Đếm độ dài mật khẩu: hàm nào dùng?",
         "lua_chon": {
           "A": "Xâu kí tự biểu diễn dãy kí tự văn bản.",
           "B": "Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
+          "C": "len().",
           "D": "Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "len()."
       },
       {
         "id": "T10-B24-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "Ghép bằng + hoặc f-string.",
+        "noi_dung": "Ghép họ và tên: cách nào phù hợp?",
         "lua_chon": {
           "A": "Xâu kí tự biểu diễn dãy kí tự văn bản.",
           "B": "Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
-          "C": "Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0."
+          "C": "Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0.",
+          "D": "Ghép bằng + hoặc f-string."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Ghép bằng + hoặc f-string."
       },
       {
         "id": "T10-B24-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Xâu kí tự”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Xâu kí tự”?",
         "lua_chon": {
           "A": "Xâu kí tự biểu diễn dãy kí tự văn bản. Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
           "B": "Xâu có thể đặt trong dấu nháy đơn hoặc kép. Chỉ số đầu tiên của xâu trong Python là 1.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Xâu kí tự”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Xâu kí tự”:",
         "y_kien": {
           "a": "Xâu kí tự biểu diễn dãy kí tự văn bản.",
           "b": "Chỉ số đầu tiên của xâu trong Python là 1.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Xâu kí tự biểu diễn dãy kí tự văn bản. b sai: Chỉ số đầu tiên của xâu trong Python là 1. c đúng: Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0. d sai: Xâu kí tự không thể duyệt bằng vòng lặp."
+        "giai_thich": "a đúng: Xâu kí tự biểu diễn dãy kí tự văn bản.; b sai: Chỉ số đầu tiên của xâu trong Python là 1.; c đúng: Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0.; d sai: Xâu kí tự không thể duyệt bằng vòng lặp.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Xâu kí tự”: Xâu kí tự biểu diễn dãy kí tự văn bản. Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
+        "noi_dung": "Trình bày hai nội dung của bài: Xâu kí tự biểu diễn dãy kí tự văn bản. Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
         "dap_an_goi_y": "Nêu đúng hai ý: Xâu kí tự biểu diễn dãy kí tự văn bản. Xâu có thể đặt trong dấu nháy đơn hoặc kép.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 24 - Xâu kí tự",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0.” và liên hệ phù hợp với bài “Xâu kí tự”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Truy cập kí tự xâu bằng chỉ số bắt đầu từ 0.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

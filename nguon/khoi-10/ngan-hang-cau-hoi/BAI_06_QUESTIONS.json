@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Lấy mẫu tín hiệu âm thanh.",
+        "noi_dung": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
         "lua_chon": {
           "A": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
           "B": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "C": "Ảnh bitmap gồm các điểm ảnh."
+          "C": "Ảnh bitmap gồm các điểm ảnh.",
+          "D": "Lấy mẫu tín hiệu âm thanh."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Lấy mẫu tín hiệu âm thanh."
       },
       {
         "id": "T10-B06-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tần số lấy mẫu.",
+        "noi_dung": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
         "lua_chon": {
+          "A": "Tần số lấy mẫu.",
           "B": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
           "C": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
           "D": "Ảnh bitmap gồm các điểm ảnh."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Tần số lấy mẫu."
       },
       {
         "id": "T10-B06-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Lượng tử hóa.",
+        "noi_dung": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?",
         "lua_chon": {
           "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
+          "B": "Lượng tử hóa.",
           "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
           "D": "Ảnh bitmap gồm các điểm ảnh."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Lượng tử hóa."
       },
       {
         "id": "T10-B06-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Pixel.",
+        "noi_dung": "Phóng ảnh nhỏ lên lớn thấy ô vuông: thành phần nào tạo nên ảnh?",
         "lua_chon": {
           "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
           "B": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
+          "C": "Pixel.",
           "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Pixel."
       },
       {
         "id": "T10-B06-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Kích thước ảnh theo pixel.",
+        "noi_dung": "Ảnh 1280×720: thông số này biểu thị điều gì?",
         "lua_chon": {
           "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
           "B": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "C": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
+          "C": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
+          "D": "Kích thước ảnh theo pixel."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Kích thước ảnh theo pixel."
       },
       {
         "id": "T10-B06-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Số bit dùng biểu diễn màu mỗi pixel.",
+        "noi_dung": "Ảnh cần biểu diễn nhiều sắc độ hơn: thông số nào quan trọng?",
         "lua_chon": {
+          "A": "Số bit dùng biểu diễn màu mỗi pixel.",
           "B": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
           "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
           "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Số bit dùng biểu diễn màu mỗi pixel."
       },
       {
         "id": "T10-B06-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Dung lượng dữ liệu có xu hướng tăng.",
+        "noi_dung": "Giữ nguyên thời lượng nhưng tăng tần số lấy mẫu: điều gì thường xảy ra?",
         "lua_chon": {
           "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
+          "B": "Dung lượng dữ liệu có xu hướng tăng.",
           "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
           "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Dung lượng dữ liệu có xu hướng tăng."
       },
       {
         "id": "T10-B06-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Dữ liệu âm thanh và hình ảnh”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Dữ liệu âm thanh và hình ảnh”?",
         "lua_chon": {
           "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
           "B": "Tần số lấy mẫu là số lần lấy mẫu trong một giây. Ảnh bitmap không được cấu tạo từ pixel.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Dữ liệu âm thanh và hình ảnh”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Dữ liệu âm thanh và hình ảnh”:",
         "y_kien": {
           "a": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
           "b": "Ảnh bitmap không được cấu tạo từ pixel.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. b sai: Ảnh bitmap không được cấu tạo từ pixel. c đúng: Lượng tử hóa gán mẫu biên độ vào các mức rời rạc. d sai: Giảm tần số lấy mẫu luôn làm tăng chất lượng âm thanh."
+        "giai_thich": "a đúng: Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.; b sai: Ảnh bitmap không được cấu tạo từ pixel.; c đúng: Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.; d sai: Giảm tần số lấy mẫu luôn làm tăng chất lượng âm thanh.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Dữ liệu âm thanh và hình ảnh”: Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
+        "noi_dung": "Trình bày hai nội dung của bài: Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
         "dap_an_goi_y": "Nêu đúng hai ý: Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.” và liên hệ phù hợp với bài “Dữ liệu âm thanh và hình ảnh”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

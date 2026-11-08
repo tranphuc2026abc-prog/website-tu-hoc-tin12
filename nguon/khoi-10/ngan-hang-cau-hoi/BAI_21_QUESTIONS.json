@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "while.",
+        "noi_dung": "Lặp đến khi người dùng nhập lệnh dừng: cấu trúc nào phù hợp?",
         "lua_chon": {
           "A": "Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
           "B": "Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc.",
+          "C": "while.",
           "D": "Điều kiện luôn đúng và không cập nhật có thể gây vòng lặp vô hạn."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "while."
       },
       {
         "id": "T10-B21-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Khởi tạo i.",
+        "noi_dung": "Dùng i < 5 trong điều kiện: cần làm gì trước vòng lặp?",
         "lua_chon": {
           "A": "while lặp khi điều kiện còn đúng.",
           "B": "Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc.",
-          "C": "Điều kiện luôn đúng và không cập nhật có thể gây vòng lặp vô hạn."
+          "C": "Điều kiện luôn đúng và không cập nhật có thể gây vòng lặp vô hạn.",
+          "D": "Khởi tạo i."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Khởi tạo i."
       },
       {
         "id": "T10-B21-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Tăng i phù hợp.",
+        "noi_dung": "i bắt đầu 0 và điều kiện i<5: cần thực hiện gì trong vòng?",
         "lua_chon": {
+          "A": "Tăng i phù hợp.",
           "B": "while lặp khi điều kiện còn đúng.",
           "C": "Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
           "D": "Điều kiện luôn đúng và không cập nhật có thể gây vòng lặp vô hạn."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Tăng i phù hợp."
       },
       {
         "id": "T10-B21-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Vòng lặp không kết thúc.",
+        "noi_dung": "while True không có lệnh dừng: nguy cơ nào xảy ra?",
         "lua_chon": {
           "A": "while lặp khi điều kiện còn đúng.",
+          "B": "Vòng lặp không kết thúc.",
           "C": "Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
           "D": "Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Vòng lặp không kết thúc."
       },
       {
         "id": "T10-B21-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Giá trị nhập bằng 0.",
+        "noi_dung": "Nhập số đến khi gặp 0: điều kiện nào kết thúc lặp?",
         "lua_chon": {
           "A": "while lặp khi điều kiện còn đúng.",
           "B": "Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
+          "C": "Giá trị nhập bằng 0.",
           "D": "Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Giá trị nhập bằng 0."
       },
       {
         "id": "T10-B21-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "while với điều kiện kiểm tra.",
+        "noi_dung": "Lặp cho đến khi người dùng nhập đúng mật khẩu: cấu trúc nào thích hợp?",
         "lua_chon": {
           "A": "while lặp khi điều kiện còn đúng.",
           "B": "Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
-          "C": "Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc."
+          "C": "Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc.",
+          "D": "while với điều kiện kiểm tra."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "while với điều kiện kiểm tra."
       },
       {
         "id": "T10-B21-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Điều kiện và cập nhật biến.",
+        "noi_dung": "Chương trình không dừng khi nhập dữ liệu biên: cần rà soát gì?",
         "lua_chon": {
+          "A": "Điều kiện và cập nhật biến.",
           "B": "while lặp khi điều kiện còn đúng.",
           "C": "Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
           "D": "Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Điều kiện và cập nhật biến."
       },
       {
         "id": "T10-B21-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Câu lệnh lặp while”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Câu lệnh lặp while”?",
         "lua_chon": {
           "A": "while lặp khi điều kiện còn đúng. Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
           "B": "Biến điều kiện cần có giá trị trước khi kiểm tra vòng while. while luôn chạy đúng một lần dù điều kiện ban đầu sai.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Câu lệnh lặp while”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Câu lệnh lặp while”:",
         "y_kien": {
           "a": "while lặp khi điều kiện còn đúng.",
           "b": "while luôn chạy đúng một lần dù điều kiện ban đầu sai.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: while lặp khi điều kiện còn đúng. b sai: while luôn chạy đúng một lần dù điều kiện ban đầu sai. c đúng: Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc. d sai: Không cần cập nhật biến trong vòng while."
+        "giai_thich": "a đúng: while lặp khi điều kiện còn đúng.; b sai: while luôn chạy đúng một lần dù điều kiện ban đầu sai.; c đúng: Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc.; d sai: Không cần cập nhật biến trong vòng while.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Câu lệnh lặp while”: while lặp khi điều kiện còn đúng. Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
+        "noi_dung": "Trình bày hai nội dung của bài: while lặp khi điều kiện còn đúng. Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
         "dap_an_goi_y": "Nêu đúng hai ý: while lặp khi điều kiện còn đúng. Biến điều kiện cần có giá trị trước khi kiểm tra vòng while.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 21 - Câu lệnh lặp while",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc.” và liên hệ phù hợp với bài “Câu lệnh lặp while”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Biến liên quan điều kiện cần thay đổi để vòng có thể kết thúc.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

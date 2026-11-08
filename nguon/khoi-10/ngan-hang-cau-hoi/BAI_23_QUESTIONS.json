@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "5 in ds.",
+        "noi_dung": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
         "lua_chon": {
+          "A": "5 in ds.",
           "B": "append(x) thêm x vào cuối danh sách.",
           "C": "insert(i,x) chèn x tại vị trí i.",
           "D": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "5 in ds."
       },
       {
         "id": "T10-B23-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "ds_diem.append(x).",
+        "noi_dung": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
         "lua_chon": {
           "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
+          "B": "ds_diem.append(x).",
           "C": "insert(i,x) chèn x tại vị trí i.",
           "D": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "ds_diem.append(x)."
       },
       {
         "id": "T10-B23-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "insert(0, ten).",
+        "noi_dung": "Chèn tên vào đầu danh sách: dùng phương thức nào?",
         "lua_chon": {
           "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
           "B": "append(x) thêm x vào cuối danh sách.",
+          "C": "insert(0, ten).",
           "D": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "insert(0, ten)."
       },
       {
         "id": "T10-B23-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "remove(x).",
+        "noi_dung": "Loại bỏ phần tử có giá trị cụ thể: phương thức nào phù hợp?",
         "lua_chon": {
           "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
           "B": "append(x) thêm x vào cuối danh sách.",
-          "C": "insert(i,x) chèn x tại vị trí i."
+          "C": "insert(i,x) chèn x tại vị trí i.",
+          "D": "remove(x)."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "remove(x)."
       },
       {
         "id": "T10-B23-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "pop() không chỉ số.",
+        "noi_dung": "Lấy và xóa phần tử cuối: lệnh nào có thể dùng?",
         "lua_chon": {
+          "A": "pop() không chỉ số.",
           "B": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
           "C": "append(x) thêm x vào cuối danh sách.",
           "D": "insert(i,x) chèn x tại vị trí i."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "pop() không chỉ số."
       },
       {
         "id": "T10-B23-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "sort().",
+        "noi_dung": "Sắp xếp điểm tăng dần: phương thức nào phù hợp?",
         "lua_chon": {
           "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
+          "B": "sort().",
           "C": "append(x) thêm x vào cuối danh sách.",
           "D": "insert(i,x) chèn x tại vị trí i."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "sort()."
       },
       {
         "id": "T10-B23-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Duyệt giá trị bằng for và kiểm tra điều kiện.",
+        "noi_dung": "Cần đếm số phần tử thỏa điều kiện: cách nào phù hợp?",
         "lua_chon": {
           "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
           "B": "append(x) thêm x vào cuối danh sách.",
+          "C": "Duyệt giá trị bằng for và kiểm tra điều kiện.",
           "D": "insert(i,x) chèn x tại vị trí i."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Duyệt giá trị bằng for và kiểm tra điều kiện."
       },
       {
         "id": "T10-B23-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Một số lệnh làm việc với dữ liệu danh sách”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Một số lệnh làm việc với dữ liệu danh sách”?",
         "lua_chon": {
           "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không. append(x) thêm x vào cuối danh sách.",
           "B": "append(x) thêm x vào cuối danh sách. append(x) thêm x vào đầu danh sách.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Một số lệnh làm việc với dữ liệu danh sách”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Một số lệnh làm việc với dữ liệu danh sách”:",
         "y_kien": {
           "a": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
           "b": "append(x) thêm x vào đầu danh sách.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Toán tử in kiểm tra một phần tử có nằm trong danh sách không. b sai: append(x) thêm x vào đầu danh sách. c đúng: insert(i,x) chèn x tại vị trí i. d sai: remove(x) trả về và xóa phần tử theo chỉ số."
+        "giai_thich": "a đúng: Toán tử in kiểm tra một phần tử có nằm trong danh sách không.; b sai: append(x) thêm x vào đầu danh sách.; c đúng: insert(i,x) chèn x tại vị trí i.; d sai: remove(x) trả về và xóa phần tử theo chỉ số.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Một số lệnh làm việc với dữ liệu danh sách”: Toán tử in kiểm tra một phần tử có nằm trong danh sách không. append(x) thêm x vào cuối danh sách.",
+        "noi_dung": "Trình bày hai nội dung của bài: Toán tử in kiểm tra một phần tử có nằm trong danh sách không. append(x) thêm x vào cuối danh sách.",
         "dap_an_goi_y": "Nêu đúng hai ý: Toán tử in kiểm tra một phần tử có nằm trong danh sách không. append(x) thêm x vào cuối danh sách.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Giải thích cách vận dụng nội dung “insert(i,x) chèn x tại vị trí i.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “insert(i,x) chèn x tại vị trí i.” và liên hệ phù hợp với bài “Một số lệnh làm việc với dữ liệu danh sách”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “insert(i,x) chèn x tại vị trí i.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “insert(i,x) chèn x tại vị trí i.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

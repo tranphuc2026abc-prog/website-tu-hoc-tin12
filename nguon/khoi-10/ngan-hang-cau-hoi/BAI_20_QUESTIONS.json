@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "for.",
+        "noi_dung": "Cần in các số trong danh sách: cấu trúc nào phù hợp?",
         "lua_chon": {
           "A": "range(n) tạo các số từ 0 đến n-1.",
+          "B": "for.",
           "C": "range(a,b) gồm a và dừng trước b.",
           "D": "range(start, stop, step) có thể tăng/giảm theo step."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "for."
       },
       {
         "id": "T10-B20-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "0, 1, 2, 3.",
+        "noi_dung": "Dùng range(4): dãy giá trị nào được tạo?",
         "lua_chon": {
           "A": "for lặp qua các phần tử của một dãy hoặc vùng giá trị.",
           "B": "range(a,b) gồm a và dừng trước b.",
+          "C": "0, 1, 2, 3.",
           "D": "range(start, stop, step) có thể tăng/giảm theo step."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "0, 1, 2, 3."
       },
       {
         "id": "T10-B20-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "2, 3, 4, 5.",
+        "noi_dung": "Dùng range(2,6): giá trị nào được duyệt?",
         "lua_chon": {
           "A": "for lặp qua các phần tử của một dãy hoặc vùng giá trị.",
           "B": "range(n) tạo các số từ 0 đến n-1.",
-          "C": "range(start, stop, step) có thể tăng/giảm theo step."
+          "C": "range(start, stop, step) có thể tăng/giảm theo step.",
+          "D": "2, 3, 4, 5."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "2, 3, 4, 5."
       },
       {
         "id": "T10-B20-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "step bằng 2.",
+        "noi_dung": "Duyệt số chẵn từ 0 đến 8: bước nào phù hợp?",
         "lua_chon": {
+          "A": "step bằng 2.",
           "B": "for lặp qua các phần tử của một dãy hoặc vùng giá trị.",
           "C": "range(n) tạo các số từ 0 đến n-1.",
           "D": "range(a,b) gồm a và dừng trước b."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "step bằng 2."
       },
       {
         "id": "T10-B20-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "Số vòng lặp.",
+        "noi_dung": "Lặp qua 10 số đầu: điều gì có thể xác định trước?",
         "lua_chon": {
           "A": "for lặp qua các phần tử của một dãy hoặc vùng giá trị.",
+          "B": "Số vòng lặp.",
           "C": "range(n) tạo các số từ 0 đến n-1.",
           "D": "range(a,b) gồm a và dừng trước b."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Số vòng lặp."
       },
       {
         "id": "T10-B20-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "0, 1, 2.",
+        "noi_dung": "Dùng for i in range(3): i lần lượt nhận gì?",
         "lua_chon": {
           "A": "for lặp qua các phần tử của một dãy hoặc vùng giá trị.",
           "B": "range(n) tạo các số từ 0 đến n-1.",
+          "C": "0, 1, 2.",
           "D": "range(a,b) gồm a và dừng trước b."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "0, 1, 2."
       },
       {
         "id": "T10-B20-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "Khởi tạo tổng rồi cộng thêm mỗi giá trị trong vòng lặp.",
+        "noi_dung": "Tính tổng các số từ 1 đến 5: cách làm phù hợp?",
         "lua_chon": {
           "A": "for lặp qua các phần tử của một dãy hoặc vùng giá trị.",
           "B": "range(n) tạo các số từ 0 đến n-1.",
-          "C": "range(a,b) gồm a và dừng trước b."
+          "C": "range(a,b) gồm a và dừng trước b.",
+          "D": "Khởi tạo tổng rồi cộng thêm mỗi giá trị trong vòng lặp."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Khởi tạo tổng rồi cộng thêm mỗi giá trị trong vòng lặp."
       },
       {
         "id": "T10-B20-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Câu lệnh lặp for”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Câu lệnh lặp for”?",
         "lua_chon": {
           "A": "for lặp qua các phần tử của một dãy hoặc vùng giá trị. range(n) tạo các số từ 0 đến n-1.",
           "B": "range(n) tạo các số từ 0 đến n-1. range(4) tạo các số từ 1 đến 4.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Câu lệnh lặp for”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Câu lệnh lặp for”:",
         "y_kien": {
           "a": "for lặp qua các phần tử của một dãy hoặc vùng giá trị.",
           "b": "range(4) tạo các số từ 1 đến 4.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: for lặp qua các phần tử của một dãy hoặc vùng giá trị. b sai: range(4) tạo các số từ 1 đến 4. c đúng: range(a,b) gồm a và dừng trước b. d sai: Vòng for không thể lặp qua từng phần tử danh sách."
+        "giai_thich": "a đúng: for lặp qua các phần tử của một dãy hoặc vùng giá trị.; b sai: range(4) tạo các số từ 1 đến 4.; c đúng: range(a,b) gồm a và dừng trước b.; d sai: Vòng for không thể lặp qua từng phần tử danh sách.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Câu lệnh lặp for”: for lặp qua các phần tử của một dãy hoặc vùng giá trị. range(n) tạo các số từ 0 đến n-1.",
+        "noi_dung": "Trình bày hai nội dung của bài: for lặp qua các phần tử của một dãy hoặc vùng giá trị. range(n) tạo các số từ 0 đến n-1.",
         "dap_an_goi_y": "Nêu đúng hai ý: for lặp qua các phần tử của một dãy hoặc vùng giá trị. range(n) tạo các số từ 0 đến n-1.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 20 - Câu lệnh lặp for",
-        "noi_dung": "Giải thích cách vận dụng nội dung “range(a,b) gồm a và dừng trước b.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “range(a,b) gồm a và dừng trước b.” và liên hệ phù hợp với bài “Câu lệnh lặp for”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “range(a,b) gồm a và dừng trước b.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “range(a,b) gồm a và dừng trước b.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Lỗi cú pháp.",
+        "noi_dung": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
         "lua_chon": {
           "A": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
           "B": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
+          "C": "Lỗi cú pháp.",
           "D": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Lỗi cú pháp."
       },
       {
         "id": "T10-B29-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Lỗi thực thi/ngoại lệ.",
+        "noi_dung": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
         "lua_chon": {
           "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
           "B": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
-          "C": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
+          "C": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh.",
+          "D": "Lỗi thực thi/ngoại lệ."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Lỗi thực thi/ngoại lệ."
       },
       {
         "id": "T10-B29-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Lỗi logic.",
+        "noi_dung": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?",
         "lua_chon": {
+          "A": "Lỗi logic.",
           "B": "Lỗi cú pháp vi phạm quy tắc viết mã.",
           "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
           "D": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Lỗi logic."
       },
       {
         "id": "T10-B29-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Ngoại lệ.",
+        "noi_dung": "Mở tệp không tồn tại: điều gì có thể được phát sinh?",
         "lua_chon": {
           "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
+          "B": "Ngoại lệ.",
           "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
           "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Ngoại lệ."
       },
       {
         "id": "T10-B29-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Đọc traceback và kiểm tra dòng báo lỗi.",
+        "noi_dung": "Python hiển thị traceback: bước nào giúp tìm nguyên nhân?",
         "lua_chon": {
           "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
           "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
+          "C": "Đọc traceback và kiểm tra dòng báo lỗi.",
           "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Đọc traceback và kiểm tra dòng báo lỗi."
       },
       {
         "id": "T10-B29-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Kiểu của toán hạng.",
+        "noi_dung": "Cộng số với xâu không chuyển kiểu: điều gì cần kiểm tra?",
         "lua_chon": {
           "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
           "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "C": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
+          "C": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
+          "D": "Kiểu của toán hạng."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Kiểu của toán hạng."
       },
       {
         "id": "T10-B29-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "NameError.",
+        "noi_dung": "Viết sai tên biến ở một dòng: lỗi nào có thể gặp?",
         "lua_chon": {
+          "A": "NameError.",
           "B": "Lỗi cú pháp vi phạm quy tắc viết mã.",
           "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
           "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "NameError."
       },
       {
         "id": "T10-B29-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Nhận biết lỗi chương trình”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Nhận biết lỗi chương trình”?",
         "lua_chon": {
           "A": "Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
           "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy. Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Nhận biết lỗi chương trình”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Nhận biết lỗi chương trình”:",
         "y_kien": {
           "a": "Lỗi cú pháp vi phạm quy tắc viết mã.",
           "b": "Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Lỗi cú pháp vi phạm quy tắc viết mã. b sai: Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình. c đúng: Lỗi logic khiến chương trình chạy nhưng kết quả sai. d sai: Mọi lỗi chương trình đều do sai dấu câu."
+        "giai_thich": "a đúng: Lỗi cú pháp vi phạm quy tắc viết mã.; b sai: Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình.; c đúng: Lỗi logic khiến chương trình chạy nhưng kết quả sai.; d sai: Mọi lỗi chương trình đều do sai dấu câu.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Nhận biết lỗi chương trình”: Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
+        "noi_dung": "Trình bày hai nội dung của bài: Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
         "dap_an_goi_y": "Nêu đúng hai ý: Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Lỗi logic khiến chương trình chạy nhưng kết quả sai.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Lỗi logic khiến chương trình chạy nhưng kết quả sai.” và liên hệ phù hợp với bài “Nhận biết lỗi chương trình”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Lỗi logic khiến chương trình chạy nhưng kết quả sai.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Lỗi logic khiến chương trình chạy nhưng kết quả sai.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

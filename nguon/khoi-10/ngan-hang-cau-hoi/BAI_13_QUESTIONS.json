@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Tạo các đối tượng hình cơ bản.",
+        "noi_dung": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?",
         "lua_chon": {
           "A": "Đối tượng có thể được tô màu nền và đặt màu nét.",
           "B": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
+          "C": "Tạo các đối tượng hình cơ bản.",
           "D": "Đối tượng phía trước có thể che đối tượng phía sau."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Tạo các đối tượng hình cơ bản."
       },
       {
         "id": "T10-B13-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Màu tô và màu nét.",
+        "noi_dung": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
         "lua_chon": {
           "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
           "B": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
-          "C": "Đối tượng phía trước có thể che đối tượng phía sau."
+          "C": "Đối tượng phía trước có thể che đối tượng phía sau.",
+          "D": "Màu tô và màu nét."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Màu tô và màu nét."
       },
       {
         "id": "T10-B13-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Chọn đối tượng đó.",
+        "noi_dung": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?",
         "lua_chon": {
+          "A": "Chọn đối tượng đó.",
           "B": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
           "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
           "D": "Đối tượng phía trước có thể che đối tượng phía sau."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Chọn đối tượng đó."
       },
       {
         "id": "T10-B13-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Đưa đối tượng lên trước/đưa ra sau.",
+        "noi_dung": "Vòng tròn bị che bởi hình chữ nhật: cần dùng lệnh nào?",
         "lua_chon": {
           "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
+          "B": "Đưa đối tượng lên trước/đưa ra sau.",
           "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
           "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "Đưa đối tượng lên trước/đưa ra sau."
       },
       {
         "id": "T10-B13-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Nhóm các đối tượng.",
+        "noi_dung": "Logo gồm nhiều hình cần đặt cùng vị trí: thao tác nào tiện?",
         "lua_chon": {
           "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
           "B": "Đối tượng có thể được tô màu nền và đặt màu nét.",
+          "C": "Nhóm các đối tượng.",
           "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Nhóm các đối tượng."
       },
       {
         "id": "T10-B13-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Hợp (union).",
+        "noi_dung": "Cần ghép hai hình thành một đối tượng liền: phép nào phù hợp?",
         "lua_chon": {
           "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
           "B": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "C": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
+          "C": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
+          "D": "Hợp (union)."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "Hợp (union)."
       },
       {
         "id": "T10-B13-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Giao (intersection).",
+        "noi_dung": "Cần tạo hình chỉ còn phần chồng lấp: phép nào chọn?",
         "lua_chon": {
+          "A": "Giao (intersection).",
           "B": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
           "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
           "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "Giao (intersection)."
       },
       {
         "id": "T10-B13-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Bổ sung các đối tượng đồ họa”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Bổ sung các đối tượng đồ họa”?",
         "lua_chon": {
           "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. Đối tượng có thể được tô màu nền và đặt màu nét.",
           "B": "Đối tượng có thể được tô màu nền và đặt màu nét. Phép giao giữ lại toàn bộ phần không chồng lấp của hai hình.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Bổ sung các đối tượng đồ họa”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Bổ sung các đối tượng đồ họa”:",
         "y_kien": {
           "a": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
           "b": "Phép giao giữ lại toàn bộ phần không chồng lấp của hai hình.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. b sai: Phép giao giữ lại toàn bộ phần không chồng lấp của hai hình. c đúng: Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng. d sai: Nhóm đối tượng làm mất khả năng chọn từng thành phần sau khi bỏ nhóm."
+        "giai_thich": "a đúng: Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.; b sai: Phép giao giữ lại toàn bộ phần không chồng lấp của hai hình.; c đúng: Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.; d sai: Nhóm đối tượng làm mất khả năng chọn từng thành phần sau khi bỏ nhóm.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Bổ sung các đối tượng đồ họa”: Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. Đối tượng có thể được tô màu nền và đặt màu nét.",
+        "noi_dung": "Trình bày hai nội dung của bài: Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. Đối tượng có thể được tô màu nền và đặt màu nét.",
         "dap_an_goi_y": "Nêu đúng hai ý: Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. Đối tượng có thể được tô màu nền và đặt màu nét.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.” và liên hệ phù hợp với bài “Bổ sung các đối tượng đồ họa”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]

@@ -44,13 +44,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "Biến như diem.",
+        "noi_dung": "Cần lưu điểm kiểm tra trong chương trình: thiết lập gì?",
         "lua_chon": {
           "A": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
           "B": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "C": "Biến như diem.",
           "D": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "Biến như diem."
       },
       {
         "id": "T10-B17-MC-003",
@@ -90,13 +92,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "5.",
+        "noi_dung": "Thực hiện x = 5: sau lệnh đó x có giá trị gì?",
         "lua_chon": {
           "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
           "B": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
-          "C": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến."
+          "C": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến.",
+          "D": "5."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "5."
       },
       {
         "id": "T10-B17-MC-006",
@@ -136,13 +140,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "so_hoc_sinh.",
+        "noi_dung": "Muốn đặt tên lưu số học sinh: tên nào phù hợp?",
         "lua_chon": {
+          "A": "so_hoc_sinh.",
           "B": "Biến là tên gắn với giá trị được chương trình sử dụng.",
           "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
           "D": "Từ khóa có ý nghĩa cú pháp riêng và không dùng làm tên biến."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "so_hoc_sinh."
       },
       {
         "id": "T10-B17-MC-009",
@@ -182,13 +188,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "if là từ khóa Python.",
+        "noi_dung": "Định đặt biến tên if: vì sao không phù hợp?",
         "lua_chon": {
           "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
+          "B": "if là từ khóa Python.",
           "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
           "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
         },
-        "dap_an": "B"
+        "dap_an": "B",
+        "giai_thich": "if là từ khóa Python."
       },
       {
         "id": "T10-B17-MC-012",
@@ -228,13 +236,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "int.",
+        "noi_dung": "Cần lưu số lượng học sinh không có phần lẻ: kiểu nào phù hợp?",
         "lua_chon": {
           "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
           "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+          "C": "int.",
           "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
         },
-        "dap_an": "C"
+        "dap_an": "C",
+        "giai_thich": "int."
       },
       {
         "id": "T10-B17-MC-015",
@@ -274,13 +284,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "str.",
+        "noi_dung": "Lưu tên học sinh: kiểu dữ liệu nào phù hợp?",
         "lua_chon": {
           "A": "Biến là tên gắn với giá trị được chương trình sử dụng.",
           "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
-          "C": "Tên biến cần hợp lệ và không trùng từ khóa Python."
+          "C": "Tên biến cần hợp lệ và không trùng từ khóa Python.",
+          "D": "str."
         },
-        "dap_an": "D"
+        "dap_an": "D",
+        "giai_thich": "str."
       },
       {
         "id": "T10-B17-MC-018",
@@ -320,13 +332,15 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "a + b.",
+        "noi_dung": "Tính tổng a và b: biểu thức nào dùng?",
         "lua_chon": {
+          "A": "a + b.",
           "B": "Biến là tên gắn với giá trị được chương trình sử dụng.",
           "C": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
           "D": "Tên biến cần hợp lệ và không trùng từ khóa Python."
         },
-        "dap_an": "A"
+        "dap_an": "A",
+        "giai_thich": "a + b."
       },
       {
         "id": "T10-B17-MC-021",
@@ -350,7 +364,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung được học trong bài “Biến và lệnh gán”?",
+        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Biến và lệnh gán”?",
         "lua_chon": {
           "A": "Biến là tên gắn với giá trị được chương trình sử dụng. Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
           "B": "Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái. Lệnh gán trong Python luôn so sánh hai giá trị.",
@@ -368,7 +382,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "Đánh dấu đúng hoặc sai cho các nhận định về bài “Biến và lệnh gán”.",
+        "noi_dung": "Xét tính đúng/sai về bài “Biến và lệnh gán”:",
         "y_kien": {
           "a": "Biến là tên gắn với giá trị được chương trình sử dụng.",
           "b": "Lệnh gán trong Python luôn so sánh hai giá trị.",
@@ -381,7 +395,7 @@
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Biến là tên gắn với giá trị được chương trình sử dụng. b sai: Lệnh gán trong Python luôn so sánh hai giá trị. c đúng: Tên biến cần hợp lệ và không trùng từ khóa Python. d sai: Tên biến có thể trùng mọi từ khóa mà không ảnh hưởng cú pháp."
+        "giai_thich": "a đúng: Biến là tên gắn với giá trị được chương trình sử dụng.; b sai: Lệnh gán trong Python luôn so sánh hai giá trị.; c đúng: Tên biến cần hợp lệ và không trùng từ khóa Python.; d sai: Tên biến có thể trùng mọi từ khóa mà không ảnh hưởng cú pháp.."
       }
     ],
     "tu_luan": [
@@ -391,7 +405,7 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Thông hiểu",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "Trình bày hai nội dung sau trong bài “Biến và lệnh gán”: Biến là tên gắn với giá trị được chương trình sử dụng. Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
+        "noi_dung": "Trình bày hai nội dung của bài: Biến là tên gắn với giá trị được chương trình sử dụng. Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
         "dap_an_goi_y": "Nêu đúng hai ý: Biến là tên gắn với giá trị được chương trình sử dụng. Dấu = trong câu lệnh gán đặt giá trị bên phải vào biến bên trái.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       },
@@ -401,8 +415,8 @@
         "nguon": "bien_soan_tu_khbd",
         "muc_do": "Vận dụng",
         "chu_de": "Bài 17 - Biến và lệnh gán",
-        "noi_dung": "Giải thích cách vận dụng nội dung “Tên biến cần hợp lệ và không trùng từ khóa Python.” trong một tình huống học tập hoặc thực tế.",
-        "dap_an_goi_y": "Cần giải thích đúng ý “Tên biến cần hợp lệ và không trùng từ khóa Python.” và liên hệ phù hợp với bài “Biến và lệnh gán”.",
+        "noi_dung": "Giải thích và vận dụng nội dung “Tên biến cần hợp lệ và không trùng từ khóa Python.” trong một tình huống phù hợp.",
+        "dap_an_goi_y": "Giải thích đúng ý “Tên biến cần hợp lệ và không trùng từ khóa Python.” và nêu cách vận dụng phù hợp.",
         "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
       }
     ]
