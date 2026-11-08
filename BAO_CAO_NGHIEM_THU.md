@@ -47,7 +47,7 @@
 - Đã đọc/đếm các catalog, JSON nguồn và JavaScript ngân hàng qua GitHub Connector; số liệu tổng hợp ở mục 1 là kết quả thực tế, không ước lượng.
 - Thử `python scripts/build_all_grades.py nguon`: **không chạy được** vì môi trường không có lệnh `python`; thử `py -3` cũng không khả dụng. Bản workspace cục bộ không phải checkout đầy đủ và thiếu khối 12.
 - Thử `node tests/e2e.js http`: **không chạy được cục bộ** vì thư mục workspace không có `tests/e2e.js`. Tệp này có trên GitHub; lỗi là giới hạn bản sao làm việc, không phải kết quả lỗi từ E2E của repository.
-- Không chụp và lưu ảnh minh họa vào repository: dù có thể xem trang qua tab trình duyệt, workspace không có checkout đầy đủ/Playwright cục bộ và công cụ GitHub đang dùng chỉ cập nhật tệp văn bản; CI không xuất ảnh E2E thành artifact để đưa vào `assets/screenshots/`.
+- Không chụp và lưu ảnh minh họa vào repository: workspace hiện không có checkout đầy đủ và Playwright cục bộ để tự động mở các trang, chụp đủ các trạng thái; CI không xuất ảnh E2E thành artifact để đưa vào `assets/screenshots/`.
 
 ### Bằng chứng CI trên repository
 
