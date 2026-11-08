@@ -320,7 +320,8 @@ const ld = u => new Promise(r => { const s = document.createElement('script'); s
   loadS();
   document.documentElement.dataset.th = S.th || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
   if (!C) { app.innerHTML = '<h1>Không tải được dữ liệu</h1><p>Thiếu tệp <code>data/catalog.js</code>. Hãy giải nén đầy đủ thư mục website rồi mở lại <code>index.html</code>.</p>'; return; }
-  await Promise.all([...C.lessons.filter(l => !T.L[l.id]).map(l => ld('data/lessons/' + l.id + '.js')), ...C.qfiles.filter(i => !T.Q[i]).map(i => ld('data/questions/' + i + '.js'))]);
+  const dataQuery = '?v=' + encodeURIComponent(C.dataVersion || '1');
+  await Promise.all([...C.lessons.filter(l => !T.L[l.id]).map(l => ld('data/lessons/' + l.id + '.js' + dataQuery)), ...C.qfiles.filter(i => !T.Q[i]).map(i => ld('data/questions/' + i + '.js' + dataQuery))]);
   const miss = C.lessons.filter(l => !T.L[l.id]).map(l => l.id).concat(C.qfiles.filter(i => !T.Q[i]));
   if (miss.length) { app.innerHTML = `<h1>Thiếu tệp dữ liệu</h1><p>Không nạp được: ${miss.map(esc).join(', ')}. Hãy giải nén đầy đủ thư mục website.</p>`; return; }
   addEventListener('hashchange', route); route();

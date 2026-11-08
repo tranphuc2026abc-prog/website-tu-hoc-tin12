@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Doc ho so nguon (CSV + KHO_KIEN_THUC + NGAN_HANG_CAU_HOI) -> data/*.js
 Chay: python scripts/build_data.py nguon"""
-import csv, json, re, sys, os, unicodedata
+import csv, hashlib, json, re, sys, os, unicodedata
+from pathlib import Path
 SRC = sys.argv[1] if len(sys.argv) > 1 else 'nguon'
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 rd = lambda f: open(os.path.join(SRC, f), encoding='utf-8').read()
@@ -314,7 +315,13 @@ for lid, L in lessons.items():
     open(os.path.join(OUT, 'lessons', lid + '.js'), 'w', encoding='utf-8').write(reg % ('L', '["%s"]' % lid, js({'sec': L['sec'], 'terms': L['terms'], 'txt': L['txt']})))
     if Q[lid]: open(os.path.join(OUT, 'questions', lid + '.js'), 'w', encoding='utf-8').write(reg % ('Q', '["%s"]' % lid, js(Q[lid])))
 
-cat = {'topics': topics, 'rel': R, 'hk': {'HK1': [1, 14], 'HK2': [15, 28]}, 'qfiles': [i for i in ids if Q[i]],
+version_files = [Path(__file__)] + [p for p in Path(SRC).rglob('*') if p.is_file() and p.suffix.lower() in ('.md', '.csv', '.json')]
+version_hash = hashlib.sha256()
+for version_file in sorted(version_files, key=lambda p: p.as_posix()):
+    version_hash.update(version_file.as_posix().encode('utf-8'))
+    version_hash.update(version_file.read_bytes())
+data_version = version_hash.hexdigest()[:16]
+cat = {'dataVersion': data_version, 'topics': topics, 'rel': R, 'hk': {'HK1': [1, 14], 'HK2': [15, 28]}, 'qfiles': [i for i in ids if Q[i]],
        'lessons': [{'id': r['Ma_Bai'], 'title': r['Ten_Bai'], 'n': int(r['Thu_Tu']), 'topic': topics.index(r['Chu_De']), 'src': r['Nguon_File'], 'tiet': int(r['So_Tiet'])} for r in rows]}
 open(os.path.join(OUT, 'catalog.js'), 'w', encoding='utf-8').write(reg % ('cat', '', js(cat)))
 
