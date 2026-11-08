@@ -1,0 +1,202 @@
+# Bài 19. CÂU LỆNH RẼ NHÁNH IF (2 TIẾT)
+
+> Học liệu được chuyển định dạng từ KHBD Tin học 10 do giáo viên cung cấp. Nội dung trích xuất đầy đủ được giữ ở phần cuối để đối chiếu.
+
+## Chủ đề
+GIẢI QUYẾT VẤN ĐỀ VỚI SỰ TRỢ GIÚP CỦA MÁY TÍNH
+
+## Mục tiêu kiến thức từ KHBD
+
+: 
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết và trình bày được các phép toán với kiểu dữ liệu lôgic.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Biểu thức lôgic
+Hoạt động 2: Lệnh if
+Hoạt động 3: Thực hành các bài tập liên quan đến kiểu dữ liệu bool và lệnh if
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn: .../.../...
+Ngày dạy: .../.../...
+BÀI 19: CÂU LỆNH RẼ NHÁNH IF (2 TIẾT)
+I. MỤC TIÊU:
+1. Kiến thức: 
+Học xong bài này, HS đạt các yêu cầu sau:
+Biết và trình bày được các phép toán với kiểu dữ liệu lôgic.
+2. Năng lực 
+ - Năng lực chung:
+Năng lực tự chủ và tự học trong tìm tòi khám phá
+Năng lực giao tiếp và hợp tác trong trình bày, thảo luận và làm việc nhóm
+Năng lực tư duy và giải quyết vấn đề một cách sáng tạo trong thực hành, vận dụng.
+- Năng lực riêng: 
+Sử dụng được lệnh rẽ nhánh if trong lập trình.
+- Năng lực số:
+5.2.NC1a: Viết và chạy được các đoạn mã Python sử dụng câu lệnh điều kiện đúng cú pháp và logic.
+6.1.NC1a: Chủ động đọc thông báo lỗi (SyntaxError, IndentationError) của trình biên dịch để tự sửa lỗi cú pháp (đặc biệt là lỗi thụt đầu dòng).
+6.2.NC1a: Sử dụng Chatbot AI để sinh bộ dữ liệu kiểm thử (Test Case) cho các bài toán tính toán phức tạp (như tính tiền điện bậc thang) nhằm kiểm chứng độ chính xác của chương trình.
+1.2.NC1a: Phân tích bài toán thực tế để xác định các điều kiện biên (Boundary Conditions) cần đưa vào biểu thức lôgic.
+3. Phẩm chất
+Hình thành ý thức trách nhiệm, tính cẩn thận khi làm việc nhóm, phẩm chất làm việc chăm chỉ, chuyên cần để hoàn thành một nhiệm vụ.
+Nghiêm túc, tập trung, tích cực và chủ động.
+II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU 
+1. Đối với GV
+- SGK, tài liệu giảng dạy, giáo án PPT.
+- Máy tính, máy chiếu.
+- Video AI tạo bằng công cụ AI được dùng để khởi động bài học.
+2. Đối với HS 
+- SGK, SBT, vở ghi.
+- Thiết bị di động/máy tính có kết nối Internet (sử dụng theo nhóm).
+III. TIẾN TRÌNH DẠY HỌC
+A. HOẠT ĐỘNG KHỞI ĐỘNG 
+a) Mục tiêu: Gợi mở cho HS hướng đến lệnh if của Python.
+b) Nội dung: HS dựa vào hiểu biết của bản thân để trả lời câu hỏi.
+c) Sản phẩm: Từ yêu cầu HS vận dụng kiến thức để trả lời câu hỏi GV đưa ra.
+d) Tổ chức thực hiện: 
+Bước 1: GV chuyển giao nhiệm vụ: 
+- GV yêu cầu xem video AI được thiết kế để phục vụ bài dạy và trả lời câu hỏi xuất hiện trong video đó.
+- GV đặt vấn đề: Trong cuộc sống, chúng ta vẫn thường gặp các tình huống một việc được thực hiện hay không phụ thuộc vào một điều kiện. Ví dụ, em dự định, nếu ngày mai trời không mưa em sẽ đi chơi cùng bạn, ngược lại nếu trời mưa em sẽ ở nhà làm bài tập. Các tình huống như vậy trong lập trình được gọi là rẽ nhánh. 
+- GV yêu cầu HS: Em hãy điền thông tin ở tình huống trên vào vị trí <Điều kiện> và lệnh tương ứng trong sơ đồ cấu trúc rẽ nhánh ở Hình 19.1.
+Bước 2: HS thực hiện nhiệm vụ: 
+- HS xem video và suy nghĩ câu trả lời.
+- HS chú ý lắng nghe, suy nghĩ câu trả lời.
+Bước 3: Báo cáo kết quả học tập, thảo luận: HS giơ tay lên bảng trình bày kết quả, HS khác nhận xét, bổ sung:
+Bước 4: Đánh giá kết quả thực hiện: 
+- GV nhận xét, đánh giá và kết luận.
+[6.1.NC1a: HS sử dụng công cụ AI hoặc sản phẩm số do GV cung cấp để tiếp nhận thông tin, trả lời câu hỏi đơn giản.
+2.1.NC1a: HS thực hiện các tương tác cơ bản với học liệu số (xem video, trả lời câu hỏi trên môi trường số).
+1.1.NC1a: HS tiếp cận, khai thác được thông tin từ nguồn học liệu số dưới sự hướng dẫn của GV.]
+- GV đánh giá kết quả của HS, trên cơ sở đó dẫn dắt HS vào bài học mới - Bài 19. Câu lệnh rẽ nhánh if.
+B. HÌNH THÀNH KIẾN THỨC MỚI
+Hoạt động 1: Biểu thức lôgic
+a) Mục tiêu: HS hiểu được khái niệm biểu thức lôgic và các phép toán trên biểu thức lôgic trong Python.
+b) Nội dung: HS tìm hiểu khái niệm biểu thức lôgic. 
+c) Sản phẩm: HS thực hiện Hoạt động 1, hoàn thành tìm hiểu kiến thức.
+d) Tổ chức thực hiện:
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ:- GV cho HS đọc và thực hiện Hoạt động 1 trong SGK trang 101 theo nhóm đôi:Biểu thức nào sau đây có thể đưa vào vị trí <điều kiện> trong lệnh: Nếu <điều kiện> thì <lệnh> của các ngôn ngữ lập trình bậc cao?A. m, n = 1, 2             B. a + b > 1             C. a* b < a + b          D. 12 + 15 > 2* 13- GV giới thiệu cho HS các phép so sánh các giá trị số trong Python và bảng các phép toán lôgic.- GV yêu cầu HS: So sánh 5 > '3'=> Gặp lỗi TypeError- GV cho HS đọc hiểu Ví dụ (SGK - tr102): Cho các lệnh sau và dự đoán giá trị của các biến lôgic a, b, c.- GV yêu cầu HS: Hãy giải thích sự khác nhau giữa phép toán AND và OR trong lập trình.- GV yêu cầu HS ghi chép khung kiến thức trọng tâm vào vở.- GV cho HS hoạt động cá nhân để hoàn thành Câu hỏi và bài tập củng cố SGK trang 102: Mỗi biểu thức sau có giá trị True hay False?a) 100%4==0                                b)111//5 != 20 or 20%3 != 0Bước 2: HS thực hiện nhiệm vụ: - HS hình thành nhóm, thảo luận để trả lời các vấn đề được đưa ra. - HS đọc thông báo lỗi "not supported between instances of 'int' and 'str'" để hiểu rằng máy tính rất chặt chẽ về kiểu dữ liệu (Data Type) trong so sánh.- HS nhập lệnh vào ChatbotAI: "Hãy giải thích sự khác nhau giữa phép toán AND và OR trong lập trình bằng một ví dụ thực tế."- HS theo dõi, chú ý lắng nghe GV hướng dẫn.- HS đọc hiểu ví dụ trong SGK.- HS ghi nhớ và củng cố kiến thức bằng cách hoàn thành bài tập.Bước 3: Báo cáo kết quả hoạt động, thảo luận: - Đại diện nhóm trình bày.- Một số HS khác nhận xét, bổ sung cho bạn. Bước 4: Đánh giá kết quả thực hiện: - GV nêu nhận xét, tổng quát lại kiến thức. | 1. Biểu thức lôgic- Hoạt động 1: Đáp án B, C, D.- Các phép so sánh các giá trị số trong Python:<nhỏ hơn<=nhỏ hơn hoặc bằng>lớn hơn>=lớn hơn hoặc bằng==bằng nhau!=khác nhau- Bảng các phép toán lôgic:- Ví dụ (SGK - tr102): Giải thích:+ Ta có x = 10, z = 9 do đó x < 11 là đúng, z > 5 đúng. Theo bảng phép toán and ta có b = x < 11 and z > 5 nhận giá trị đúng.+ Ta lại có: x > 15 sai (vì x = 10) nhưng y < 9 đúng vì (y = 5). Theo bảng phép toán or suy ra c = x > 15 or y < 9 nhận giá trị đúng.+ Cuối cùng, vì b là đúng nên a = not b sẽ nhận giá trị sai.* Kết luận:- Biểu thức lôgic là biểu thức chỉ nhận giá trị True hoặc False. Giá trị các biểu thức lôgic thuộc kiểu bool.- Các phép toán trên kiểu dữ liệu lôgic là and (và), or (hoặc) và not (phủ định).Câu hỏi và bài tập củng cố:a) True.b) True. | - 2.4.NC1a: Vận hành môi trường lập trình để thực nghiệm thay vì chỉ tư duy trên giấy.- 6.1.NC1a: Tự phát hiện và giải thích lỗi kỹ thuật cơ bản liên quan đến kiểu dữ liệu khi thực hiện phép toán.- 6.2.NC1a: Sử dụng AI để chuyển đổi các khái niệm trừu tượng thành ví dụ trực quan, dễ hiểu.
+Hoạt động 2: Lệnh if
+a) Mục tiêu: HS làm quen với lệnh rẽ nhánh if, một lệnh đặc thù đầu tiên của mọi ngôn ngữ lập trình bậc cao.
+b) Nội dung: Tìm hiểu cấu trúc lệnh if trong Python.
+c) Sản phẩm: HS hoàn thành tìm hiểu kiến thức.
+d) Tổ chức thực hiện: 
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ:- GV yêu cầu HS thảo luận nhóm đôi, hoàn thành Hoạt động 2 SGK trang 102:Cho trước số tự nhiên n (được gán hoặc nhập từ bàn phím). Đoạn chương trình như sau kiểm tra n > 0 thì thông báo "n là số lớn hơn 0".Em có nhận xét gì về cấu trúc lệnh if? Sau <điều kiện> lệnh if có kí tự gì? Lệnh print() được viết như thế nào?- GV yêu cầu HS: Viết một đoạn code sai thụt đầu dòng và thử chạy.- GV yêu cầu HS đọc thông tin SGK và thực hiện các yêu cầu:+ Trình bày cú pháp của lệnh if trong Python.+ Nêu những lưu ý khi viết câu lệnh if.- GV cho HS đọc lại khung kiến thức trọng tâm.- GV yêu cầu HS suy nghĩ và thực hiện cá nhân Câu hỏi và bài tập củng cố SGK trang 102: Đoạn chương trình sau thực hiện công việc gì?Bước 2: HS thực hiện nhiệm vụ: - HS theo dõi SGK, thảo luận nhóm và thực hiện các yêu cầu đặt ra.- HS cố tình tạo lỗi thụt dòng trên máy, đọc thông báo lỗi màu đỏ của Python để nhận diện và ghi nhớ cách sửa lỗi kỹ thuật này.- HS đọc thông tin SGK, hoàn thành bài tập.- HS ghi chép, ghi nhớ kiến thức.- GV quan sát và trợ giúp HS. Bước 3: Báo cáo kết quả hoạt động, thảo luận: - HS giơ tay phát biểu, trình bày kết quả.- Một số HS khác nhận xét, bổ sung cho bạn. Bước 4: Đánh giá kết quả thực hiện: GV tổng quát lưu ý lại kiến thức và yêu cầu HS ghi chép đầy đủ vào vở. | 2. Lệnh if- Hoạt động 2: + Sau điều kiện lệnh if có kí tự dấu hai chấm ":"+ Lệnh print() được viết thụt vào.- Câu lệnh rẽ nhánh dạng thiếu:if  <điều kiện>:     <khối lệnh>- Câu lệnh rẽ nhánh dạng đủ:if   <điều kiện>:     <khối lệnh 1>else:     <khối lệnh 2>- Chú ý cú pháp đặc biệt của lệnh if: sau <điều kiện> là dấu ":", sau đó xuống dòng và các lệnh cần viết thụt vào (1 tab hoặc 4 dấu cách). → Cách viết này làm cho chương trình Python trở nên rất dễ hiểu và tường minh hơn.Câu hỏi và bài tập củng cố:Chương trình yêu cầu nhập số một số nguyên dương và đưa vào biến k. Nếu k <=0 thì sẽ thông báo "Bạn nhập sai rồi!". | - 6.1.NC1a: Chủ động tạo và xử lý lỗi cú pháp (Syntax Error) để nâng cao kỹ năng gỡ lỗi.- 5.2.NC1a: Chuyển đổi tư duy giải thuật (sơ đồ khối) thành mã nguồn phần mềm.
+Hoạt động 3: Thực hành các bài tập liên quan đến kiểu dữ liệu bool và lệnh if
+a) Mục tiêu: HS thực hiện được việc nhập dữ liệu từ bàn phím bằng lệnh input().
+b) Nội dung: HS thực hành viết chương trình nhập dữ liệu từ bàn phím bằng lệnh input().
+c) Sản phẩm: HS sử dụng lệnh input() để nhập dữ liệu từ bàn phím trong môi trường lập trình Python.
+d) Tổ chức thực hiện: 
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ:- GV nêu từng nhiệm vụ và yêu cầu HS thực hành theo nhóm đôi:+ Nhiệm vụ 1: Viết chương trình nhập số tự nhiên n từ bàn phím. Sau đó thông báo số em đã nhập là số chẵn hay số lẻ phụ thuộc vào n là chẵn hay lẻ.+ Nhiệm vụ 2: Giả sử giá điện sinh hoạt trong khu vực gia đình em ở được tính lũy kế theo từng tháng như sau (giá tính theo từng kWh điện tiêu thụ).- Với mức tiêu thụ điện từ 0 đến 50 kWh, giá thành mỗi kWh là 1,678 nghìn đồng. - Với mức từ 51 đến 100, giá thành mỗi kWh là 1,734 nghìn đồng.- Từ mức 101 trở lên, giá thành mỗi kWh là 2,014 nghìn đồng.Viết chương trình nhập số điện tiêu thụ trong tháng của gia đình em và tính số tiền điện phải trả.Bước 2: HS thực hiện nhiệm vụ: - HS thực hành theo nhóm đôi.- GV quan sát và trợ giúp HS. Bước 3: Báo cáo kết quả hoạt động, thảo luận: - HS thực hiện phép tính và soạn thảo chương trình trong môi trường Python.Bước 4: Đánh giá kết quả thực hiện: GV quan sát, nhận xét kết quả của HS. | - Nhiệm vụ 1:Hướng dẫn: Chương trình có thể viết như sau:- Nhiệm vụ 2:Hướng dẫn: Chương trình có thể viết như sau: | - 5.2.NC1a: Viết được chương trình Python giải quyết bài toán thực tế.
+C. HOẠT ĐỘNG LUYỆN TẬP
+a) Mục tiêu: HS củng cố lại kiến thức về câu lệnh rẽ nhánh if.
+b) Nội dung: HS vận dụng các kiến thức đã học để giải bài tập trong phần Luyện tập (SGK - tr104) và một số bài tập làm thêm.
+c) Sản phẩm học tập: Bài làm của học sinh, kĩ năng giải quyết nhiệm vụ học tập.
+d) Tổ chức thực hiện: 
+Bước 1: GV chuyển giao nhiệm vụ: 
+- GV tổ chức trò chơi trắc nghiệm nhanh trên Quizizz hoặc Kahoot để củng cố toàn bài.
+- GV cung cấp mã QR hoặc đường Links cho HS làm Phiếu bài tập, trả lời nhanh một số câu hỏi trắc nghiệm tổng kết bài học.
+Câu 1. Câu lệnh if trong lập trình dùng để làm gì?
+A. Lặp lại một khối lệnh nhiều lần
+B. Thực hiện chương trình theo điều kiện đúng/sai
+C. Khai báo biến trong chương trình
+D. Kết thúc chương trình
+Câu 2. Trong câu lệnh if, điều kiện kiểm tra thường có kiểu dữ liệu nào?
+A. Số nguyên
+B. Chuỗi ký tự
+C. Logic (đúng/sai)
+D. Số thực
+Câu 3. Cho đoạn lệnh (giả sử a = 5):
+if a > 3:
+    print("OK")
+Kết quả của chương trình là gì?
+A. Không in ra gì
+B. Báo lỗi
+C. In ra số 5
+D. In ra chữ "OK"
+Câu 4. Cấu trúc đầy đủ của câu lệnh rẽ nhánh dạng đủ là:
+A. if <điều kiện> then <lệnh>
+B. if <điều kiện>: <lệnh>
+C. if <điều kiện>: <lệnh 1> else: <lệnh 2>
+D. if <lệnh 1> else <điều kiện>
+Câu 5. Khi điều kiện trong câu lệnh if là sai, chương trình sẽ:
+A. Bỏ qua khối lệnh trong if
+B. Luôn thực hiện khối lệnh trong if
+C. Dừng chương trình ngay lập tức
+D. In ra thông báo lỗi
+- GV tổ chức cho HS làm bài tập phần Luyện tập trang 104 SGK:
+Bài 1: Viết chương trình cho nhập vào một số thực x từ bàn phím và đưa ra giá trị tuyệt đối của x (|x|).
+Bài 2: Chương trình sau đây cho nhập vào ba số nguyên a, b, c sau đó đưa ra số nghiệm phân biệt của chương trình (x – a)(x – b)(x – c) = 0 (với a, b, c là các hằng số). Tuy nhiên, chương trình vẫn có lỗi, em hãy tìm và sửa lỗi đó:
+Bước 2: HS thực hiện nhiệm vụ: 
+- HS suy nghĩ, hoàn thành các bài tập GV yêu cầu.
+- GV quan sát và hỗ trợ, hướng dẫn.
+Bước 3: Báo cáo kết quả hoạt động, thảo luận: 
+- Mỗi BT GV mời 1 đến 2 HS trình bày. 
+- Các HS khác chú ý chữa bài, theo dõi nhận xét bài các nhóm trên bảng.
+Bước 4: Đánh giá kết quả thực hiện: 
+- GV chữa bài, chốt đáp án, tuyên dương các hoạt động tốt, nhanh và chính xác.
+Kết quả: 
+Trò chơi trắc nghiệm:
+[BẢNG] Câu 1 | Câu 2 | Câu 3 | Câu 4 | Câu 5
+[BẢNG] B | C | D | C | A
+Luyện tập 1:
+a) 0 < x < 10.
+b) y < 1 or y > 2.
+c) 0 <= z <= 1 or 5 <= z <=10.
+Luyện tập 2: 
+a) Ví dụ: m = 50, 10, 5; n = 6, 7, 9.
+b) Ví dụ: m = 100, 200, 500.
+c) Ví dụ: n = 3, 6, 8.
+Bài tập làm thêm:
+Bài 1: Sau khi nhập vào x, ta kiểm tra nếu x < 0 thì đặt x = - x; sau đó in ra x. 
+Chương trình:
+Bài 2: Phép so sánh bằng nhau là ==.
+Vậy câu lệnh có lỗi là: if (a = b) and (a = c).
+Cần sửa lại thành: if (a == b) and (a == c).
+[2.1.NC1a: HS thực hiện các tương tác được xác định rõ ràng với công nghệ số (làm bài tập online) trong lớp học.
+5.2.NC1a: HS chuyển đổi được các mệnh đề toán học thành ngôn ngữ máy tính.
+1.2.NC1a: Xử lý và phân tích dữ liệu, thông tin (Tư duy dữ liệu).
+6.1.NC1a: Xác định nhu cầu và giải quyết vấn đề kỹ thuật.]
+D. HOẠT ĐỘNG VẬN DỤNG
+a) Mục tiêu: Học sinh thực hiện làm bài tập vận dụng để nắm vững kiến thức.
+b) Nội dung: HS vận dụng kiến thức đã học để làm bài tập Vận dụng (SGK – tr104).
+c) Sản phẩm: Bài làm của học sinh, kĩ năng giải quyết nhiệm vụ học tập.
+d) Tổ chức thực hiện: 
+Bước 1: GV chuyển giao nhiệm vụ
+- GV yêu cầu HS hoàn thành bài tập 1, 2 phần Vận dụng (SGK -tr104).
+- GV đưa câu hỏi, HS thảo luận nhóm đôi làm Bài 3. Giao về nhà Bài 4, 5.
+Bài 3: Một công ty sản xuất văn phòng phẩm nhận được đơn hàng mua n cái bút chì. Công ty cần đóng bút chì vào hộp để chuyển hàng đi, biết rằng mỗi hộp chứa được tối đa k cái bút chì. Viết chương trình nhập vào hai số nguyên dương n, k và đưa ra số hộp đựng bút nhỏ nhất mà công ty cần nhập.
+Bài 4: Để khuyến khích tiêu thụ cam, một chủ vườn đã đưa ra chính sách khuyến mại sau: Nếu số cam mua lớn hơn 10 kg thì đơn giá mua phần lớn hơn đó chỉ bằng 90% đơn giá cho 10 kg cam đầu tiên. Em hãy viết chương trình tính số tiền mua cam phải trả với đơn giá và số cam mua được nhập từ bàn phím.
+Bài 5: Mặt phẳng trong hệ tọa độ Đề-các được chia thành bốn phần như hình sau:
+Hãy viết chương trình nhập từ bàn phím hai số thực x và y khác 0, lần lượt là hoành độ và tung độ của điểm A và xác định A thuộc góc phần tư nào của mặt phẳng tọa độ. Kết quả đưa ra có dạng: “Điểm A thuộc góc phần tư thứ k”, trong đó k nhận giá trị 1, 2, 3 hoặc 4 phụ thuộc vào tọa độ của A.
+Bước 2: HS thực hiện nhiệm vụ
+- HS hợp tác thảo luận đưa ra ý kiến.
+- GV điều hành, quan sát, hỗ trợ.
+Bước 3: Báo cáo kết quả hoạt động, thảo luận
+- Đại diện nhóm trình bày kết quả thảo luận, các nhóm khác theo dõi, đưa ý kiến.
+Bước 4: Đánh giá kết quả thực hiện
+- GV nhận xét, đánh giá, đưa ra một vài ý mà HS còn thiếu, chốt đáp án.
+[5.2.NC1a: Viết được chương trình Python sử dụng câu lệnh rẽ nhánh giải quyết bài toán thực tế.]
+Đáp án:
+Vận dụng 1: Chương trình có thể như sau:
+Vận dụng 2: Chương trình có thể như sau:
+Bài 3: Để đóng hộp n cái bút chì, nếu n chia hết cho k thì ta cần  hộp đầy. Nếu n không chia hết cho k thì ta cần thêm một hộp nữa để chứa những chiếc bút còn dư ra. Tham khảo chương trình sau đây: 
+Cách khác: Bỏ riêng ra một chiếc bút chì và đóng gói n – 1 chiếc bút còn lại. Nếu n – 1 chia hết cho k thì ta cần dùng  hộp và thêm 1 hộp để đựng chiếc bút được bỏ riêng ra, do đó cần tổng cộng  hộp.
+Nếu n – 1 không chia hết cho k thì ta vẫn cần số hộp như trên để đựng hết số bút. Vậy đáp số là  hay . Tham khảo chương trình sau:
+Bài 4: Chương trình có thể viết như sau:
+Bài 5: Chương trình có thể viết như sau:
+* HƯỚNG DẪN VỀ NHÀ
+Ghi nhớ kiến thức trong bài. 
+Hoàn thành bài tập còn lại ở phần Vận dụng và bài tập trong SBT.
+Chuẩn bị bài mới Bài 20 - Câu lệnh lặp for.
+```
+
+</details>
+

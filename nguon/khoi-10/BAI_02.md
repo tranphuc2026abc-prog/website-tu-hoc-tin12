@@ -1,0 +1,183 @@
+# Bài 2. VAI TRÒ CỦA THIẾT BỊ
+
+> Học liệu được chuyển định dạng từ KHBD Tin học 10 do giáo viên cung cấp. Nội dung trích xuất đầy đủ được giữ ở phần cuối để đối chiếu.
+
+## Chủ đề
+Chủ đề không ghi trong tệp
+
+## Mục tiêu kiến thức từ KHBD
+
+Học xong bài này, HS đạt các yêu cầu sau:
+Nhận biết được một số thiết bị thông minh thông dụng.
+Biết được vai trò của thiết bị thông minh trong xã hội và cuộc cách mạng công nghiệp lần thứ tư.
+Hiểu được vai trò của tin học đối với xã hội và sự phát triển của tin học.
+Biết được các thành tựu nổi bật của ngành tin học.
+
+## Trọng tâm hoạt động
+
+Hoạt động 1: Nhận biết thiết bị thông minh
+Hoạt động 2: Vai trò của tin học đối với xã hội
+
+## Nội dung KHBD đầy đủ đã trích xuất
+
+<details>
+<summary>Mở nội dung KHBD</summary>
+
+```text
+Ngày soạn:…/…/… 
+Ngày dạy:…/…/…
+BÀI 2: VAI TRÒ CỦA THIẾT BỊ
+THÔNG MINH VÀ TIN HỌC ĐỐI VỚI XÃ HỘI
+(2 tiết)
+I. MỤC TIÊU
+1. Kiến thức
+Học xong bài này, HS đạt các yêu cầu sau:
+Nhận biết được một số thiết bị thông minh thông dụng.
+Biết được vai trò của thiết bị thông minh trong xã hội và cuộc cách mạng công nghiệp lần thứ tư.
+Hiểu được vai trò của tin học đối với xã hội và sự phát triển của tin học.
+Biết được các thành tựu nổi bật của ngành tin học.
+2. Năng lực 
+Năng lực chung:
+Năng lực tự chủ và tự học trong tìm tòi khám phá.
+Năng lực giải quyết được những nhiệm vụ học tập một cách độc lập, theo nhóm và thể hiện sự sáng tạo trong các hoạt động thực hành, vận dụng. 
+Năng lực giao tiếp và hợp tác qua hoạt động nhóm và trao đổi nhiệm vụ học tập với giáo viên.
+Năng lực riêng: 
+Phân biệt thiết bị thông minh và thiết bị điện tử thông thường.
+- Năng lực số:
+1.1.NC1b: Áp dụng được kỹ thuật tìm kiếm để lấy được dữ liệu, thông tin và nội dung trong môi trường số.
+5.2.NC1b: Áp dụng được các công cụ số khác nhau và các giải pháp công nghệ có thể có để giải quyết vấn đề.
+6.1.NC1a: HS sử dụng công cụ AI hoặc sản phẩm số do GV cung cấp để tiếp nhận thông tin, trả lời câu hỏi đơn giản.
+2.4.NC1a: Lựa chọn được các công cụ và công nghệ số cho các quá trình hợp tác.
+2.1.NC1a: HS thực hiện các tương tác cơ bản với học liệu số (xem video, trả lời câu hỏi trên môi trường số).
+1.1.NC1a: HS tiếp cận, khai thác được thông tin từ nguồn học liệu số dưới sự hướng dẫn của GV.
+3. Phẩm chất
+Có ý thức học tập, ý thức tìm tòi, khám phá và sáng tạo, có ý thức làm việc nhóm, tôn trọng ý kiến các thành viên khi hợp tác.
+Chăm chỉ tích cực xây dựng bài, có trách nhiệm, chủ động chiếm lĩnh kiến thức theo sự hướng dẫn của GV.
+Hình thành tư duy logic, lập luận chặt chẽ, và linh hoạt trong quá trình học tập, tự giải quyết vấn đề có sáng tạo.
+II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU 
+- GV: KHBD, SGK, SBT Tin học 10 – Kết nối tri thức, bài trình chiếu (Slide), phòng thực hành máy tính kết nối Internet, máy chiếu, video AI tạo bằng công cụ AI được dùng để khởi động bài học, bộ câu hỏi trắc nghiệm trên phần mềm Quizizz.
+- HS: SGK, SBT Tin học 10 – Kết nối tri thức, vở ghi.
+III. TIẾN TRÌNH DẠY HỌC
+1. HOẠT ĐỘNG KHỞI ĐỘNG 
+a) Mục tiêu: HS được gợi mở về vai trò của các thiết bị thông minh và tin học đối với xã hội.
+b) Nội dung: HS trả lời câu hỏi mở về các thiết bị thông minh .
+c) Sản phẩm: HS trả lời được câu hỏi về các thiết bị thông minh, lắng nghe và tiếp thu kiến thức.
+d) Tổ chức thực hiện: 
+Bước 1: GV chuyển giao nhiệm vụ: 
+- GV yêu cầu xem video AI được thiết kế để phục vụ bài dạy và trả lời câu hỏi xuất hiện trong video đó.
+- GV yêu cầu HS trả lời câu hỏi: Trên thực tế, chúng ta từng được nghe rất nhiều thứ gắn với từ smart như smart TV, smart phone, smart watch,…Đó là tên gọi của các thiết bị thông minh. Vậy theo em, thiết bị thông minh là gì? Máy tính xách tay có phải là một thiết bị thông minh không?
+Bước 2: HS thực hiện nhiệm vụ học tập: 
+- HS xem video và suy nghĩ câu trả lời.
+- HS chú ý lắng nghe, suy nghĩ câu trả lời.
+Bước 3: Báo cáo kết quả hoạt động, thảo luận: 
+- GV gọi một số HS trả lời, HS khác nhận xét, bổ sung.
+Bước 4: Đánh giá kết quả thực hiện: 
+- GV nhận xét, đánh giá và kết luận.
+[6.1.NC1a: HS sử dụng công cụ AI hoặc sản phẩm số do GV cung cấp để tiếp nhận thông tin, trả lời câu hỏi đơn giản.
+2.1.NC1a: HS thực hiện các tương tác cơ bản với học liệu số (xem video, trả lời câu hỏi trên môi trường số).
+1.1.NC1a: HS tiếp cận, khai thác được thông tin từ nguồn học liệu số dưới sự hướng dẫn của GV.]
+- GV đánh giá kết quả của HS, trên cơ sở đó dẫn dắt HS vào bài học mới.
+- GV dẫn dắt vấn đề: Để nhận biết được một số thiết bị thông minh thông dụng, biết được vai trò của thiết bị thông minh trong xã hội và cuộc cách mạng công nghiệp lần thứ tư, cũng như vai trò của tin học đối với xã hội và sự phát triển của tin học, chúng ta cùng tìm hiểu trong bài học ngày hôm nay – Bài 2: Vai trò của thiết bị thông minh và tin học đối với xã hội. 
+2. HÌNH THÀNH KIẾN THỨC MỚI
+Hoạt động 1: Nhận biết thiết bị thông minh
+a) Mục tiêu: Thông qua hoạt động, HS hiểu được thiết bị thông minh là một hệ thống xử lí thông tin; nắm được vai trò của thiết bị thông minh đối với xã hội trong công cuộc cách mạng công nghiệp lần thứ tư. 
+b) Nội dung: GV trình bày vấn đề; HS lắng nghe, đọc SGK, quan sát hình ảnh, thảo luận và trả lời câu hỏi.
+c) Sản phẩm học tập: HS làm việc cá nhân, làm việc theo cặp đôi, làm việc theo nhóm và trả lời câu hỏi. 
+d) Tổ chức thực hiện:
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ học tập- GV yêu cầu HS quan sát Hình 2.1 SGK tr.11 và trả lời câu hỏi: Thiết bị nào sau đây là thiết bị thông minh?- GV nhận xét: Các em chỉ có thể đoán được theo mức độ thông minh của các thiết bị đồng hồ lịch vạn niên, điện thoại di động, camera kết nối internet, máy ánh số chứ chưa biết được tiêu chuẩn chính xác về thiết bị thông minh. - GV giới thiệu kiến thức: Các tiêu chuẩn của thiết bị thông minh, là thiết bị điện tử có khả năng + Làm việc tự chủ (autonomous) theo nghĩa có thể tự tổ chức làm việc một cách tự động, không cần sự can thiệp của con người. Khái niệm tự động (automatic) liên quan đến khả năng hoạt động không cần sự can thiệp của con người. Trong khi đó tự chủ (autonomous, ngoài tính tự động thông thường, còn có khía cạnh về tính thông minh: khả năng tự phối hợp, khả năng thích ứng với hoàn cảnh làm việc,…Ví dụ: camera thông minh ngày nay ghi hình khi phát hiện hình ảnh thay đổi. Nếu ảnh tĩnh hoàn toàn camera sẽ không làm gì, khi có người hoặc vật đi trước ống kính, camera sẽ tiến hành ghi hình. + Kết nối (conectivity) với thiết bị thông minh khác để trao đổi dữ liệu. Việc kết nối có thể thực hiện qua bất cứ phương thức truyền dữ liệu nào như: mạng có dây, bluetooth, wifi, trong mạng cục bộ hoặc qua internet. + Ngoài ra các thiết bị có trí tuệ nhân tạo (AI) có khả năng bắt chước những hành vi của con người ở một mức độ nào đó cũng là thiết bị thông minh.- GV yêu cầu HS: Sử dụng công cụ số (máy tìm kiếm hoặc Chatbot AI) tìm hiểu về đồng hồ vạn niên và máy ảnh số sau đó trả lời câu hỏi “Vì sao đồng hồ vạn niên và máy ảnh số không phải là thiết bị thông minh?”- GV yêu cầu HS thảo luận theo cặp đôi và trả lời câu hỏi:+ Kể tên một số thiết bị thông minh khác mà em biết?+ Máy tính để bàn thông thường có được xem là một thiết bị thông minh không?- GV chia HS thành 4 nhóm, yêu cầu HS quan sát Hình 2.2 – Các thời kí của cách mạng công nghiệp (CMCN) SGK tr.12, thảo luận và trả lời câu hỏi:+ Nhóm 1: Tìm hiểu về cuộc CMCN lần thứ nhất.+ Nhóm 2: Tìm hiểu về cuộc CMCN lần thứ hai.+ Nhóm 3: Tìm hiểu về cuộc CMCN lần thứ ba.+ Nhóm 4: Tìm hiểu về cuộc CMCN lần thứ tư. - GV yêu cầu: Các nhóm tổng hợp kết quả vào Padlet chung của lớp.- GV giới thiệu kiến thức cho HS: + Vai trò của thiết bị thông minh 4.0 thể hiện ở chỗ: thiết bị thông minh là thành phần chủ chốt của các hệ thống IoT mà IoT là một trong những đặc trưng chủ yếu của CMCN 4.0. + Diễn đàn Hợp tác Kinh tế châu Á Thái Bình Dương (APEC) đã đưa ra khái niệm Nền kinh tế tri thức là nền kinh tế mà ở trong đó quá trình sản xuất, phân phối và sử dụng tri thức trở thành động lực chính cho tăng trưởng, cho quá trình tạo ra của cải và việc làm trong tất cả ngành kinh tế. - GV chốt lại hoạt động:- GV yêu cầu HS thảo luận theo cặp đôi, trả lời câu hỏi và bài tập củng cố:+ Thiết bị nào trong Hình 2.3 SGK tr.13 là thiết bị thông minh? Tại sao?+ Ngoài những thiết bị đã nêu trong bài học, nhà em có những thiết bị thông minh nào?- GV trình chiếu và bổ sung thêm một số thiết bị thông minh: camera an ninh, robot quét nhà, thiết bị bay có điều khiển (drone) dùng để chụp ảnh, quay phim từ trên cao; khóa cửa thông minh có thể mở bằng nhiều kiểu giao tiếp như sóng radio, nhận dạng mặt người hay mở từ xa qua internet. Bước 2: HS thực hiện nhiệm vụ học tập- HS đọc SGK, quan sát hình ảnh, trả lời câu hỏi. - HS sử dụng công cụ số tìm kiếm thông tin.- Đăng tải thông tin lên Padlet.- GV hướng dẫn, theo dõi, hỗ trợ HS nếu cần thiết. Bước 3: Báo cáo kết quả hoạt động và thảo luận- HS đọc kết quả tìm kiếm và rút ra kết luận.- GV mời đại diện HS trả lời. - GV chiếu Padlet. Đại diện các nhóm báo cáo kết quả thảo luận.- GV mời HS khác nhận xét, bổ sung. Bước 4: Đánh giá kết quả thực hiện GV đánh giá, nhận xét, chuẩn kiến thức, chuyển sang nội dung mới. | 1. Thiết bị thông minha. Thiết bị thông minh là một hệ thống xử lí thông tin- Điện thoại di động và camera kết nối internet là thiết bị thông minh. - Đồng hồ vạn niên và máy ảnh số không phải là thiết bị thông minh vì:+ Đồng hồ vạn niên không có tính kết nối.+ Máy ảnh không có tính năng hoạt động tự chủ. - Tên một số thiết bị thông minh khác: máy tính bảng, máy tính xách tay, đồng hồ thông minh, ti vi kết nối được internet,...- Máy tính để bàn thông thường không được xem là một thiết bị thông minh vì không có sẵn kết nối mạng. b. Vai trò của thiết bị thông minh đối với xã hội trong cuộc cách mạng công nghiệp lần thứ tư- Cuộc CMCN lần thứ nhất:+ Xảy ra vào cuối thế kỉ XVIII đầu thế kỉ XIX.+ Nội dung: cơ giới hóa, khởi đầu là phát minh ra động cơ hơi nước. Máy móc bắt đầu thay thế cho lao động thủ công. - Cuộc CMCN lần thứ hai:+ Xảy ra vào cuối thế kỉ XIX đầu thế kỉ XX.+ Nội dung: phát triển ngành công nghiệp nặng như luyện kim, hóa chất, khai thác mỏ, chế tạo máy. Sử dụng điện và cho phép truyền tải và biến đổi năng lượng dễ dàng. Một đặc điểm khác trong tổ chức sản xuất là sản xuất tập trung theo dây chuyền. - Cuộc CMCN lần thứ ba:+ Xảy ra vào cuối thế kỉ XX và một số năm đầu của thế kỉ XXI.+ Nội dung: công nghiệp phát triển với các phát minh khoa học quan trọng như điện tử, năng lượng hạt nhân,...Sự xuất hiện của máy tính điện tử đánh dấu thời kì máy có thể hỗ trợ con người trong các hoạt động trí tuệ.- Cuộc CMCN lần thứ tư (cách mạng 4.0):+ Xảy ra ở đầu thế kỉ XXI. Là thời kì phát triển đột phá với hàng loạt công nghệ có ảnh hưởng sâu sắc tới cuộc sống: CNTT, công nghệ vật liệu, công nghệ gen, tự động hóa,...+ Đặc điểm:Nền sản xuất thông minh: sản phẩm được sản xuất trong thế giới vật lí nhưng quá trình tính toán, thiết kế, tạo mẫu,...được thực hiện trên không gian số. + Việc liên kết các thiết bị thông tin, giúp thu nhập, trao đổi và xử lí thông tin trên phạm vi rộng một cách tức thời. - Câu hỏi và bài tập củng cố: Đồng hồ kết nối với điện thoại qua bluetooth là thiết bị thông minh.  | - 1.1.NC1b: Áp dụng được kỹ thuật tìm kiếm để lấy được dữ liệu, thông tin và nội dung trong môi trường số.- 5.2.NC1b: HS sử dụng công cụ số để tìm kiếm thông tin.- 2.1.NC1a: Lựa chọn được công nghệ số cụ thể để tương tác trong lớp học.- 2.4.NC1a: HS lựa chọn công cụ Padlet được xác định rõ ràng để hợp tác tổng hợp kết quả nhóm.
+Hoạt động 2: Vai trò của tin học đối với xã hội
+a) Mục tiêu: Thông qua hoạt động, HS thấy được những đóng góp của tin học đối với xã hội 
+b) Nội dung: GV trình bày vấn đề; HS lắng nghe, đọc SGK, quan sát hình ảnh, thảo luận và trả lời câu hỏi.
+c) Sản phẩm học tập: HS làm việc cá nhân, làm việc theo cặp đôi, làm việc theo nhóm và trả lời câu hỏi. 
+d) Tổ chức thực hiện:
+[BẢNG] HOẠT ĐỘNG CỦA GV VÀ HS | SẢN PHẨM DỰ KIẾN | NLS
+[BẢNG] Bước 1: GV chuyển giao nhiệm vụ học tập- GV chia HS thành 5 nhóm, yêu cầu HS đọc mục 2a SGK tr.13, 14 và thực hiện nhiệm vụ:+ Nhóm 1: Tìm hiểu về đóng góp của tin học trên lĩnh vực quản lí. + Nhóm 2: Tìm hiểu về đóng góp của tin học trên lĩnh vực tự động hóa.+ Nhóm 3: Tìm hiểu về đóng góp của tin học trên lĩnh vực giải quyết các bài toán khoa học kĩ thuật. + Nhóm 4: Tìm hiểu về đóng góp của tin học trên lĩnh vực thay đổi cách thức làm việc của nhiều ngành nghề. + Nhóm 5: Tìm hiểu về đóng góp của tin học trên lĩnh vực giao tiếp cộng đồng. - GV yêu cầu: Các nhóm sử dụng công cụ số tìm kiếm thông tin trên Internet sau đó tổng hợp kết quả vào Padlet chung của lớp.- GV giới thiệu kiến thức: Ở các lớp dưới ta đã biết sự phát triển mạnh mẽ của phần cứng bao gồm máy tính, các thiết bị ngoại vi và các thiết bị số nói chung, giúp cho tin học phát triển vượt bậc. Một số thành tựu giúp cho tin học nói chung và máy tính nói riêng trở thành một phần không thể thiếu trong xã hội hiện đại. - GV chia HS thành 6 nhóm, đọc thông tin mục 2b SGK tr.14, 15 và thực hành nhiệm vụ:+ Nhóm 1: Tìm hiểu thành tựu phát triển của tin học qua sự kiện hệ điều hành. + Nhóm 2: Tìm hiểu thành tựu phát triển của tin học qua sự kiện mạng máy tính và internet. + Nhóm 3: Tìm hiểu thành tựu phát triển của tin học qua sự kiện ngôn ngữ lập trình bậc cao.+ Nhóm 4: Tìm hiểu thành tựu phát triển của tin học qua sự kiện.+ Nhóm 5: Tìm hiểu thành tựu phát triển của tin học qua sự kiện các hệ quản trị cơ sở dữ liệu (CSLD).+ Nhóm 6: Tìm hiểu thành tựu phát triển của tin học qua các thành quả nghiên cứu khoa học của tin học. - GV yêu cầu: Các nhóm sử dụng công cụ số tìm kiếm thông tin trên Internet sau đó tổng hợp kết quả vào Padlet chung của lớp.- GV chốt lại hoạt động:- GV yêu cầu HS thảo luận theo cặp đôi, trả lời câu hỏi và bài tập củng cố:+ Tin học đã giúp gì cho em trong học tập?+ Em hãy cho ví dụ về một số ứng dụng trực tuyến.Bước 2: HS thực hiện nhiệm vụ học tập- HS sử dụng công cụ số tìm kiếm thông tin.- Các nhóm đăng tải thông tin lên Padlet.- GV hướng dẫn, theo dõi, hỗ trợ HS nếu cần thiết. Bước 3: Báo cáo kết quả hoạt động và thảo luận- HS đọc kết quả tìm kiếm và rút ra kết luận.- GV mời đại diện HS trả lời. - GV chiếu Padlet. Đại diện các nhóm báo cáo kết quả thảo luận.- GV mời HS khác nhận xét, bổ sung. Bước 4: Đánh giá kết quả thực hiện GV đánh giá, nhận xét, chuẩn kiến thức. | 2. Vai trò của tin học đối với xã hộia. Đóng góp của tin học với xã hội- Quản lí: máy tính quản lí các quy trình nghiệp vụ xử lí công việc nhanh chóng, hiệu quả và tiện lợi, tiết kiệm chi phí.- Tự động hóa: các thiết bị thông minh hoạt động theo chương trình có thể thực hiện tốt nhiều công việc thay cho con người.  - Giải quyết các bài toán KHKT: máy tính hỗ trợ cho công việc tính toán, mô phỏng, kiểm nghiệm trong nghiên cứu, thiết kế các công trình, dự báo thời tiết, giải mã gen, ứng dụng bản đồ số,...- Thay đổi cách thức làm việc của nhiều ngành nghề: + Nhiều ứng dụng được thực hiện trực tuyến như dạy học, mua hàng. + Ứng dụng tin học văn phòng đã góp phần tăng chất lượng và hiệu quả hoạt động hành chính. + Nhiều ngành nghề thay đổi hoàn toàn công nghệ in theo kiểu sắp chữ được thay thế bằng chế bản trên máy tính,...+ Giao tiếp cộng đồng: tin học giúp trao đổi thông tin nhanh chóng, hiệu quả qua các ứng dụng thư điện tử, các diễn đàn trên các trang web và các mạng xã hội như FB, Zalo,...MXH trở thành môi trường giao tiếp thuận lợi, mọi hoạt động đều dễ dàng, trực quan, tương tác nhanh.b. Một số thành tựu phát triển của tin học - Một số thành tựu phát triển của tin học:+ Hệ điều hành:Bắt đầu có trên máy tính thế hệ thứ 2 với nội dung nghèo nàn. Hệ điều hành đầu tiên đủ mạnh mẽ, đưa ra hầu hết các nguyên lí của hệ điều hành là OS/360 với dòng máy tính IBM/360 năm 1964.+ Mạng máy tính và internet: Mạng máy tính được phôi thai ngay trong những năm 60. Các ý tưởng về kết nối mạng diện rộng bắt đầu từ dự án ARPANET.Internet được phổ cập nhờ việc phát minh ra giao thức siêu bản nguồn gốc của World Wide Web vào năm 1992. + Ngôn ngữ lập trình bậc cao: Được đề xuất vào năm 1953 nhưng chính thức được công bố vào năm 1957. Sau này, có nhiều ngôn ngữ lập trình khác như Algol, Cobol, Pascal, Python,...+ Các hệ hệ quản trị cơ sở dữ liệu (CSDL):Hệ quản trị dữ liệu đầu tiên xuất hiện năm 1960.Tới những năm 1970 mới có hệ quản trị CSDL theo mô hình quan hệ (dữ liệu tổ chức theo bảng) được sử dụng thông dụng như ngày nay. + Các thành quả nghiên cứu của khoa học tin học: trí tuệ nhân tạo (AI), dữ liệu lớn (Big Data),...- Câu hỏi và bài tập củng cố: Một số ích lợi của tin học đối với học tập: + Các kho tài liệu học tập rất phong phú có thể lấy từ internet.+ Học ngoại ngữ.+ Học trực tuyến.- Một số ứng dụng trực tuyến:+ Học trực tuyến.+ Mua sắm trực tuyến.+ Thanh toán trực tuyến trên điện thoại.+ Các thủ tục hành chính trực tuyến (đăng kí khai sinh, đổi bằng xe máy, đóng thuế,...).  | - 1.1.NC1b: Áp dụng được kỹ thuật tìm kiếm để lấy được dữ liệu, thông tin và nội dung trong môi trường số.- 5.2.NC1b: HS sử dụng công cụ số để tìm kiếm thông tin.- 2.1.NC1a: Lựa chọn được công nghệ số cụ thể để tương tác trong lớp học.- 2.4.NC1a: HS lựa chọn công cụ Padlet được xác định rõ ràng để hợp tác tổng hợp kết quả nhóm.
+3. HOẠT ĐỘNG LUYỆN TẬP
+a) Mục tiêu: Học sinh củng cố lại kiến thức về vai trò của các thiết bị thông minh và tin học đối với xã hội.
+b) Nội dung: HS vận dụng các kiến thức đã học giải bài Luyện tập (SGK)
+c) Sản phẩm học tập: HS giải được bài về thông tin, dữ liệu, đơn vị lưu trữ số liệu.
+d) Tổ chức thực hiện: 
+Bước 1: GV chuyển giao nhiệm vụ: 
+- GV tổng hợp các kiến thức cần ghi nhớ cho HS.
+- GV tổ chức trò chơi trắc nghiệm nhanh trên Quizizz để củng cố toàn bài.
+- GV cung cấp mã QR hoặc đường Links cho HS trả lời nhanh một số câu hỏi trắc nghiệm tổng kết bài học.
+Câu 1: Autonomous được hiểu theo nghĩa:
+A. Khả năng hoạt động không cần sự can thiệp của con người.
+B. Khả năng thích ứng với hoàn cảnh làm việc.
+C. Kết nối với thiết bị thông minh khác. 
+D. Khả năng tự chủ, tự động, thông minh, tự phối hợp, tự đáp ứng. 
+Câu 2: Đặc trưng của cuộc cách mạng lần thứ tư là:
+A. Chuyển từ lao động thủ công sang cơ giới với dấu ấn là động cơ hơi nước. 
+B. Hệ thống IoT và các hệ thống kết hợp thực - ảo trở nên phổ biến.
+C. Công nghiệp phát triển, điện năng được dùng phổ biến, sản xuất dây chuyền tập trung. 
+D. Máy tính hỗ trợ con người trong các hoạt động trí tuệ. Tin học làm thay đổi cuộc sống. 
+Câu 3. Đâu không phải là một thiết bị thông minh?
+A. Máy tính để bàn. 
+B. Camera kết nối internet.
+B. Robot quét nhà.
+D. Thiết bị bay có điều khiển dùng để chụp ảnh. 
+Câu 4. Robot có thể làm việc ở những môi trường nguy hiểm là đóng góp của tin học trên lĩnh vực:
+A. Quản lí.
+B. Giải quyết các bài toán khoa học kĩ thuật.
+C. Tự động hóa.
+D. Giao tiếp cộng đồng. 
+Câu 5. Đâu là một ngôn ngữ lập trình bậc cao?
+A. Python.
+B. Pascal.
+C. Cobol.
+D. Cả A, B, C đều đúng. 
+- GV cho HS thực hiện bài tập 1, 2 phần Luyện tập SGK – tr15.
+Bước 2: HS thực hiện nhiệm vụ: 
+- HS  suy nghĩ, hoàn thành các bài tập GV yêu cầu.
+- GV quan sát và hỗ trợ, hướng dẫn.
+Bước 3: Báo cáo kết quả hoạt động, thảo luận: 
+- Mỗi BT GV mời 1 đến 2 HS trình bày. Các HS khác chú ý chữa bài, theo dõi nhận xét bài các nhóm trên bảng.
+Kết quả: 
+Đáp án trắc nghiệm:
+[BẢNG] Câu 1 | Câu 2 | Câu 3 | Câu 4 | Câu 5
+[BẢNG] D | B | A | C | D
+[2.1.NC1a: HS thực hiện các tương tác được xác định rõ ràng với công nghệ số (làm bài tập online) trong lớp học.]
+Luyện tập 1: Một số thiết bị thông minh có thể nhận dạng được hình ảnh:
+- Một số hệ thống nhận gửi xe ở các trung tâm thương mại nhận dạng biển số ở cổng vào và đối chiếu khi trả xe ở cổng ra.
+- Camera an ninh có khả năng nhận dạng mặt người trong kiểm soát ra vào ở các công sở.
+- Máy bán hàng tự động nhận tiền giấy. 
+Luyện tập 2: Lợi ích của các ứng dụng tin học văn phòng:
+- Với phần mềm soạn thảo văn bản: làm tài liệu thuận lợi, lưu trữ, tìm kiếm dễ dàng, không nhất thiết phải để trên giấy. 
+- Với phần mềm máy tính bảng: lưu trữ số liệu tiện lợi, tính toán tự động đơn giản, sử dụng dễ dàng. 
+- Với phần mềm trình chiếu: trình bày ý tưởng, báo cáo sinh động, không cần dùng bảng viết. 
+Bước 4: Đánh giá kết quả thực hiện: 
+- GV chữa bài, chốt đáp án, tuyên dương các hoạt động tốt, nhanh và chính xác.
+4. HOẠT ĐỘNG VẬN DỤNG
+a) Mục tiêu: Học sinh thực hiện làm bài tập vận dụng để nắm vững kiến thức.
+b) Nội dung: HS sử dụng SGK và vận dụng kiến thức đã học để làm bài tập Vận dụng (SGK – tr15).
+c) Sản phẩm: HS vận dụng kiến thức đã học để tìm hiểu về lợi ích của hệ thống giám sát giao thông và lợi ích của xe tự hành đối với xã hội.
+d) Tổ chức thực hiện: 
+Bước 1: GV chuyển giao nhiệm vụ
+- GV yêu cầu HS hoạt động nhóm 4, sử dụng công cụ số tìm hiểu thông tin trên Internet và hoàn thành bài tập Vận dụng (SGK - tr15).
+Bước 2: HS thực hiện nhiệm vụ học tập
+- HS tự phân công nhóm trưởng, hợp tác thảo luận đưa ra ý kiến.
+- GV điều hành, quan sát, hỗ trợ.
+Bước 3: Báo cáo kết quả hoạt động, thảo luận
+- Đại diện nhóm trình bày kết quả thảo luận, các nhóm khác theo dõi, đưa ý kiến.
+Đáp án:
+Vận dụng 1: 
+- Thiết bị giám sát phát hiện, mô tô, xe máy chạy quá tốc độ, vượt đèn đỏ, sai làn là hệ thống bao gồm phần cứng và phần mềm có chức năng tự động phát hiện và xác định phương tiện vi phạm. Quá trình phát hiện và xác định phương tiện vi phạm được tiến hành hoàn toàn tự động. Dữ liệu được gửi từ các camera về các trung tâm xử lí. 
+- Bằng chứng vi phạm được tự động kết xuất dưới dạng hình ảnh thấy rõ trạng thái vi phạm tốc độ thực tế của phương tiện vượt quá tốc độ quy định, biển số của phương tiện,...phục vụ cho công tác tra cứu sau này. 
+Vận dụng 2:
+Xe tự hành được xem là một thành tựu điển hình của cuộc CMCN 4.0. 
+- Người dân kết hợp hệ thống đặt xe với xe tự hành giúp người dân không cần mua xe riêng, muốn đi chỉ cần đặt xe qua internet là xe tới đón.
+- Xe tự lái có thể phục vụ từng người hoặc nhiều người theo kiểu đi chung. 
+🡪 Đầu tư xã hội để mua xe giảm đi nhiều lần và hiệu quả sử dụng xã hội mỗi xe tăng lên nhiều lần, giúp giảm ách tắc giao thông, giảm chi phí xây dựng các công trình giao thông và giảm ô nhiễm do giao thông. 
+[1.1.NC1b: Áp dụng được kỹ thuật tìm kiếm để lấy được dữ liệu, thông tin và nội dung trong môi trường số.
+5.2.NC1b: HS sử dụng công cụ số để tìm kiếm thông tin.]
+Bước 4: Đánh giá kết quả thực hiện
+- GV nhận xét, đánh giá, đưa ra một vài ý mà HS còn thiếu, chốt đáp án.
+* HƯỚNG DẪN VỀ NHÀ
+Ghi nhớ kiến thức trong bài. 
+Hoàn thành các bài tập trong SBT.
+Chuẩn bị bài mới Bài 3 - Một số kiểu dữ liệu và dữ liệu văn bản.
+```
+
+</details>
+
