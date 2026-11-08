@@ -266,9 +266,15 @@ def build_grade(grade, expected):
         if goals:
             sec["obj"] = [{"t": "ul", "i": [{"x": x} for x in goals]}]
         sec["key"] = knowledge_blocks(md, "\n".join(goals))
+        terms, examples, cautions, reminders = lesson_sections(md, title, goals, sec["key"])
+        sec["terms"] = [{"t": "ul", "i": [{"x": "**" + item["t"] + "** — " + item["d"]} for item in terms]}]
+        sec["ex"] = [{"t": "ul", "i": [{"x": item} for item in examples]}]
+        sec["err"] = [{"t": "ul", "i": [{"x": item} for item in cautions]}]
+        sec["rem"] = [{"t": "ul", "i": [{"x": item} for item in reminders]}]
+        assert terms and examples and cautions and reminders, lesson_id + " missing enriched lesson section"
         if acts:
             sec["steps"] = [{"t": "ul", "i": [{"x": x} for x in acts]}]
-        lessons_data = {"sec": sec, "terms": [], "txt": full_text, "src": str(path.relative_to(ROOT)).replace("\\", "/")}
+        lessons_data = {"sec": sec, "terms": terms, "txt": full_text, "src": str(path.relative_to(ROOT)).replace("\\", "/")}
         (OUT / "lessons").mkdir(parents=True, exist_ok=True)
         (OUT / "lessons" / (lesson_id + ".js")).write_text(REG % ("L", lesson_id, js(lessons_data)), encoding="utf-8")
         qpath = folder / "ngan-hang-cau-hoi" / ("BAI_%02d_QUESTIONS.json" % n)
