@@ -41,10 +41,11 @@ let pass = 0, fail = 0; const ok = (c, m) => { c ? pass++ : (fail++, console.log
         const sections = await p.evaluate(() => window.T.cat.lessons.map(l => {
           const data = window.T.L[l.id], sec = data?.sec || {};
           const text = key => (sec[key] || []).flatMap(b => b.t === 'ul' ? b.i.map(x => x.x) : [b.x || '']).join(' ').trim();
-          return { id: l.id, terms: data?.terms?.length || 0, termSection: text('terms'), ex: text('ex'), err: text('err'), rem: text('rem') };
+          return { id: l.id, terms: data?.terms?.length || 0, termNames: (data?.terms || []).map(x => x.t), termSection: text('terms'), ex: text('ex'), err: text('err'), rem: text('rem') };
         }));
         ok(sections.length === expectedLessons[grade] && sections.every(x =>
-          x.terms >= 1 && x.termSection && x.ex && x.err && x.rem),
+          x.terms >= 1 && x.termSection && x.ex && x.err && x.rem &&
+          x.termNames.every(n => !/^(đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)/i.test(n))),
           'khối ' + grade + ' đủ thuật ngữ, ví dụ, lưu ý và ghi nhớ cho từng bài');
       }
     }
