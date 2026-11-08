@@ -7,7 +7,7 @@ const inl = s => { const k = []; s = esc(s).replace(/`([^`]+)`/g, (_, c) => '\0'
 const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').toLowerCase();
 const shuf = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const SECT = { obj: 'Mục tiêu bài học', key: 'Kiến thức trọng tâm', terms: 'Thuật ngữ & Từ khóa cốt lõi', ex: 'Ví dụ & Minh họa minh chứng', steps: 'Quy trình thực hành / Các bước thao tác', err: 'Lỗi thường gặp & Cách khắc phục', rem: 'Nội dung cần ghi nhớ' };
-const KEYS = Object.keys(SECT), KEY = (() => { try { const u = JSON.parse(localStorage.getItem('tin12.supabase.session') || 'null'); return u && u.user && u.user.id ? 'tin12.v1.user.' + u.user.id : 'tin12.v1'; } catch (_) { return 'tin12.v1'; } })();
+const KEYS = Object.keys(SECT); let KEY = 'tin12.v1';
 let C, S, mem = false, run = null, rv = { mode: 'lesson', p: '' }, codes = [];
 
 /* ---------- lưu trữ trên thiết bị ---------- */
@@ -60,10 +60,10 @@ function home() {
   const continueLink=last?'<a class="btn pri" href="#/lesson/'+last.id+'">▶ Tiếp tục học</a>':'<a class="btn pri" href="#/lesson/'+C.lessons[0].id+'">▶ Bắt đầu học ngay</a>';
   const nextLink=nxt?'<a class="btn" href="#/lesson/'+nxt.id+'">Bài tiếp theo: '+esc(nxt.title)+'</a>':'';
   return `<section class="hero">
-    <span class="eyebrow">✦ DIGITAL LEARNING HUB · TIN HỌC 12</span>
+    <span class="eyebrow">✦ DIGITAL LEARNING HUB · TIN HỌC ${C.grade || 12}</span>
     <h1>Chạm công nghệ.<br>Kiến tạo tương lai.</h1>
     <p class="sub">Không gian học tập số – Kết nối tri thức với cuộc sống</p>
-    <p>Khám phá 28 bài học, hệ thống kiến thức, luyện tập tương tác và theo dõi hành trình chinh phục Tin học 12 của em.</p>
+    <p>Khám phá ${n} bài học, hệ thống kiến thức, luyện tập tương tác và theo dõi hành trình chinh phục ${esc(C.courseTitle || `Tin học ${C.grade || 12}`)} của em.</p>
     <div class="row">${continueLink}${nextLink}</div>
   </section>
   <div class="stats">
@@ -76,12 +76,12 @@ function home() {
   </section>
   <h2 style="margin-top:30px">⚡ Trạm học tập</h2>
   <div class="quick-grid">
-    <a class="quick-card" href="#/lessons"><span class="quick-icon">▦</span><span><b>Kho bài học</b><small>Khám phá 28 bài theo chủ đề</small></span><span class="quick-arrow">↗</span></a>
+    <a class="quick-card" href="#/lessons"><span class="quick-icon">▦</span><span><b>Kho bài học</b><small>Khám phá ${n} bài theo chủ đề</small></span><span class="quick-arrow">↗</span></a>
     <a class="quick-card" href="#/review"><span class="quick-icon purple">◈</span><span><b>Ôn tập thông minh</b><small>Thẻ ghi nhớ và kiến thức trọng tâm</small></span><span class="quick-arrow">↗</span></a>
     <a class="quick-card" href="#/practice"><span class="quick-icon cyan">⌘</span><span><b>Phòng luyện tập</b><small>${QS().length} câu hỏi theo từng bài</small></span><span class="quick-arrow">↗</span></a>
     <a class="quick-card" href="#/progress"><span class="quick-icon green">◴</span><span><b>Hồ sơ tiến độ</b><small>Xem kết quả và sao lưu dữ liệu</small></span><span class="quick-arrow">↗</span></a>
   </div>
-  <div class="section-head"><div><span class="topic">LEARNING ROADMAP</span><h2>🧭 Bản đồ 28 bài học</h2><p class="mut">Chọn một bài để bắt đầu hoặc tiếp tục hành trình.</p></div><a class="btn sm" href="#/lessons">Xem toàn bộ bài học →</a></div>
+  <div class="section-head"><div><span class="topic">LEARNING ROADMAP</span><h2>🧭 Bản đồ ${n} bài học</h2><p class="mut">Chọn một bài để bắt đầu hoặc tiếp tục hành trình.</p></div><a class="btn sm" href="#/lessons">Xem toàn bộ bài học →</a></div>
   ${C.topics.map((t,i)=>'<div class="topic">'+esc(t)+'</div><div class="map">'+C.lessons.filter(l=>l.topic===i).map(l=>'<a class="cell '+status(l.id)+'" href="#/lesson/'+l.id+'" title="'+esc(l.title)+' – '+ST[status(l.id)]+'">'+l.n+'</a>').join('')+'</div>').join('')}
   <section class="bottom-banner"><span class="bottom-code">&lt;learn /&gt;</span><div><b>Mỗi ngày một bước tiến công nghệ</b><p>Học chủ động · Thực hành thường xuyên · Sáng tạo không giới hạn</p></div><a class="btn pri" href="#/practice">Thử thách bản thân →</a></section>`;
 }
@@ -249,7 +249,7 @@ function route() {
   const v = { '': home, lessons, lesson: () => lesson(a), practice: () => practice(a), review: () => review(a), progress, search: () => search(a) }[p || ''];
   app.innerHTML = v ? v() : '<h1>Không tìm thấy trang</h1><p><a href="#/">Về trang chủ</a></p>';
   if (p === 'lessons') lessonList(); if (p === 'review') reviewBtns();
-  document.title = (p === 'lesson' && L(a) ? L(a).title + ' – ' : '') + 'Tự học Tin học 12'; window.scrollTo(0, 0);
+  document.title = (p === 'lesson' && L(a) ? L(a).title + ' – ' : '') + (C.courseTitle || 'Tự học Tin học 12'); window.scrollTo(0, 0);
 }
 const cur = () => run.list[run.i], rr = () => run.r[cur().id];
 document.addEventListener('click', e => {
@@ -282,7 +282,7 @@ document.addEventListener('click', e => {
   else if (a === 'flip') { cr.f = 1; cardShow(); }
   else if (a === 'know') { S.cards[cr.c[cr.i].id] = +b.dataset.v; save(); cr.i++; cr.f = 0; cardShow(); }
   else if (a === 'cagain') { cr = { c: cr.c.filter(c => S.cards[c.id] === 0), i: 0, f: 0 }; cardShow(); }
-  else if (a === 'exp') { const t = new Blob([JSON.stringify({ app: 'tin12', v: 1, exported: new Date().toISOString(), data: S })], { type: 'application/json' }), u = URL.createObjectURL(t), x = document.createElement('a'); x.href = u; x.download = 'tin12-tien-do-' + new Date().toISOString().slice(0, 10) + '.json'; document.body.append(x); x.click(); x.remove(); setTimeout(() => URL.revokeObjectURL(u), 1000); $('#msg').textContent = 'Đã tạo tệp sao lưu.'; }
+  else if (a === 'exp') { const t = new Blob([JSON.stringify({ app: 'tin12', grade: C.grade || 12, v: 1, exported: new Date().toISOString(), data: S })], { type: 'application/json' }), u = URL.createObjectURL(t), x = document.createElement('a'); x.href = u; x.download = 'tin' + (C.grade || 12) + '-tien-do-' + new Date().toISOString().slice(0, 10) + '.json'; document.body.append(x); x.click(); x.remove(); setTimeout(() => URL.revokeObjectURL(u), 1000); $('#msg').textContent = 'Đã tạo tệp sao lưu.'; }
   else if (a === 'rst') { if (confirm('Xóa toàn bộ tiến độ, kết quả và câu trả lời trên thiết bị này? Thao tác không thể hoàn tác.') && confirm('Xác nhận lần cuối: xóa tất cả dữ liệu học tập?')) { S = blank(); save(); route(); } }
 });
 document.addEventListener('change', e => {
@@ -294,7 +294,7 @@ document.addEventListener('change', e => {
   else if (t.closest('#rp')) reviewBtns();
   else if (t.id === 'imp' && t.files[0]) {
     const f = new FileReader();
-    f.onload = () => { try { const j = JSON.parse(f.result), d = j.data; if (j.app !== 'tin12' || !d || typeof d.les !== 'object' || typeof d.ans !== 'object') throw 0; if (!confirm('Khôi phục sẽ thay thế tiến độ hiện tại bằng nội dung trong tệp. Tiếp tục?')) return; S = d; loadS2(); save(); route(); } catch (x) { $('#msg').textContent = 'Tệp không hợp lệ: cần tệp sao lưu do website này tạo ra.'; } };
+    f.onload = () => { try { const j = JSON.parse(f.result), d = j.data; if (j.app !== 'tin12' || (j.grade && j.grade !== (C.grade || 12)) || !d || typeof d.les !== 'object' || typeof d.ans !== 'object') throw 0; if (!confirm('Khôi phục sẽ thay thế tiến độ hiện tại bằng nội dung trong tệp. Tiếp tục?')) return; S = d; loadS2(); save(); route(); } catch (x) { $('#msg').textContent = 'Tệp không hợp lệ: cần tệp sao lưu do website này tạo ra.'; } };
     f.readAsText(t.files[0]);
   }
 });
@@ -310,7 +310,7 @@ $('#th').onclick = () => { S.th = document.documentElement.dataset.th === 'dark'
 /* ---------- khởi động ---------- */
 const ld = u => new Promise(r => { const s = document.createElement('script'); s.src = u; s.onload = () => r(1); s.onerror = () => r(0); document.head.append(s); });
 (async () => {
-  C = T.cat; loadS();
+  C = T.cat; KEY = C && C.grade ? `tin${C.grade}.v1` : 'tin12.v1'; loadS();
   document.documentElement.dataset.th = S.th || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
   if (!C) { app.innerHTML = '<h1>Không tải được dữ liệu</h1><p>Thiếu tệp <code>data/catalog.js</code>. Hãy giải nén đầy đủ thư mục website rồi mở lại <code>index.html</code>.</p>'; return; }
   await Promise.all([...C.lessons.filter(l => !T.L[l.id]).map(l => ld('data/lessons/' + l.id + '.js')), ...C.qfiles.filter(i => !T.Q[i]).map(i => ld('data/questions/' + i + '.js'))]);
