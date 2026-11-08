@@ -170,10 +170,11 @@ def lesson_sections(md, title, goals, key):
     def add_term(term, definition, strict=False):
         term = re.sub(r"\s+", " ", term).strip(" -*:;.")
         definition = re.sub(r"\s+", " ", definition).strip(" -*:;.")
+        definition = re.split(r"(?i)câu hỏi (?:và bài tập|củng cố)|\bCâu\s+\d+\s*:", definition)[0].strip(" -*:;.")
         norm = re.sub(r"[^\w]+", "", term.lower())
         if (len(term) < 2 or len(term) > 80 or len(term.split()) > 12
                 or len(definition) < 8 or norm in seen_terms
-                or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy|hình\s+\d+|câu hỏi|câu\s+\d+|hoạt động|nhiệm vụ)\b", term, re.I)):
+                or re.match(r"^(?:đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy|vì thế|vì vậy|hình\s+\d+|câu hỏi|câu\s+\d+|hoạt động|nhiệm vụ|gv\b|hs\b|học sinh\b|đặc điểm nào|em hãy|hãy chọn)\b", term, re.I)):
             return
         seen_terms.add(norm)
         term_pairs.append({"t": term, "d": definition[:300].rstrip()})
@@ -234,17 +235,12 @@ def lesson_sections(md, title, goals, key):
     examples = list(dict.fromkeys(examples))[:3]
 
     cautions = []
+    caution_marker = re.compile(r"^(?:Lưu ý|Chú ý|Không nên|Tránh|Sai lầm|Nhầm lẫn|Lỗi(?: thường gặp)?)(?:\s*[:—-]|\s+|$)", re.I)
     for sentence in sentences:
-        if re.search(r"\b(?:Lưu ý|Chú ý|Không nên|Tránh|Sai lầm|Nhầm lẫn|Lỗi)\b", sentence, re.I) and student_facing(sentence):
+        if caution_marker.search(sentence) and student_facing(sentence):
             cautions.append(sentence)
     if not cautions:
-        risk_terms = r"thiết bị lạ|chưa từng đăng nhập|không nên|không được|không thể|bản quyền|mật khẩu|quyền riêng tư|cảnh báo|xác thực|xóa nhầm|mất dữ liệu|lộ thông tin|sai cú pháp|lỗi"
-        for sentence in sentences:
-            candidate = re.sub(r"^\d+\.\d+\.NC\d+[a-z]?:\s*", "", sentence, flags=re.I)
-            if re.search(risk_terms, candidate, re.I) and student_facing(candidate):
-                cautions.append(candidate)
-        if not cautions:
-            cautions = ["KHBD chưa nêu lỗi thường gặp cụ thể cho bài này. Hãy kiểm tra lại kết quả theo mục tiêu bài học: " + (goals[0] if goals else title) + "."]
+        cautions = ["KHBD chưa nêu lỗi thường gặp cụ thể cho bài này. Hãy kiểm tra lại kết quả theo mục tiêu bài học: " + (goals[0] if goals else title) + "."]
     cautions = list(dict.fromkeys(cautions))[:3]
 
     reminders = []
