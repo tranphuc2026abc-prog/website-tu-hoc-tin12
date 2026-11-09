@@ -36,6 +36,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Dựng lại dữ liệu nhiều khối và bản một tệp
+        run: |
+          python scripts/build_all_grades.py
+          python scripts/build_single.py
       - name: Kiểm toán cấu trúc, số lượng và mã định danh
         run: python scripts/kiem_toan_du_lieu.py --baseline docs/chuan-hoa/TRANG_THAI_GOC.json
       - name: Xem trước chuẩn hóa cơ học
@@ -47,7 +51,3 @@ jobs:
           cp scripts/chuan_hoa_nguon.py "$temp_root/scripts/"
           cp -a nguon "$temp_root/nguon"
           python "$temp_root/scripts/chuan_hoa_nguon.py" --ap-dung --root "$temp_root"
-      - name: Dựng lại dữ liệu nhiều khối và bản một tệp
-        run: |
-          python scripts/build_all_grades.py
-          python scripts/build_single.py
