@@ -51,3 +51,15 @@ jobs:
           cp scripts/chuan_hoa_nguon.py "$temp_root/scripts/"
           cp -a nguon "$temp_root/nguon"
           python "$temp_root/scripts/chuan_hoa_nguon.py" --ap-dung --root "$temp_root"
+      - name: Cài Node và Playwright cho kiểm thử tương thích tiến độ
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Cài Playwright trên runner
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Kiểm tra tiếp tục học, dữ liệu cũ và lưu trữ lỗi
+        env:
+          PW: playwright
+        run: node tests/compatibility-progress.js
