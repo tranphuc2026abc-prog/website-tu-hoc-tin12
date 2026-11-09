@@ -79,8 +79,9 @@ async function screenshotSet() {
     await page.locator('[data-act=exp]').waitFor({ state: 'visible' });
       await shot(page, 'tien-do-toi-khoi-' + grade + '-360x740');
     for (const type of ['mcq', 'tf', 'essay']) {
-      await page.goto(base + 'course.html?grade=' + grade + '#/practice/' + firstLesson[grade]);
+      await page.locator('#nav a[href="#/practice"]').click();
       await page.locator('#pk').waitFor({ state: 'visible' });
+      await page.locator('#pk input').evaluateAll((boxes, selected) => boxes.forEach(box => { box.checked = box.value === selected; }), firstLesson[grade]);
       await page.locator('.ty').evaluateAll((boxes, selected) => boxes.forEach(box => { box.checked = box.value === selected; }), type);
       await page.locator('[data-act=start]').click();
       await page.locator('.card[data-question-id]').waitFor({ state: 'visible' });
