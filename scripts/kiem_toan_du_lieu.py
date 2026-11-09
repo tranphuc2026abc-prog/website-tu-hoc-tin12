@@ -60,7 +60,7 @@ def source_lesson(path):
     number = re.search(r"BAI_(\d+)_QUESTIONS\.json$", path.name)
     if not number:
         return None
-    grade = int(re.search(r"khối-(10|11)", path.as_posix()).group(1)) if "khối-" in path.as_posix() else 12
+    grade = int(re.search(r"khoi-(10|11)", path.as_posix()).group(1)) if "khối-" in path.as_posix() else 12
     return "ICT%d_B%02d" % (grade, int(number.group(1)))
 
 def audit(root, baseline_path=None):
@@ -228,10 +228,31 @@ def audit(root, baseline_path=None):
             if norm:
                 stem_groups[norm].append(q.get("id"))
         duplicates = [{"stem": stem, "ids": ids} for stem, ids in stem_groups.items() if len(ids) > 1]
-        result["findings"]["duplicateStems"][str(grade)] = duplicates
+        near_candidates = []
+        unique_stems = [(q.get("id"), q.get("type"), normalized_text(q_stem(q)))
+                        for q in program_questions if q.get("id") and normalized_text(q_stem(q))]
+        for index, (left_id, left_type, left_text) in enumerate(unique_stems):
+            left_tokens = set(left_text.split())
+            for right_id, right_type, right_text in unique_stems[index + 1:]:
+                if left_type != right_type or left_text == right_text:
+                    continue
+                if abs(len(left_text) - len(right_text)) > max(4, int(max(len(left_text), len(right_text)) * 0.12)):
+                    continue
+                right_tokens = set(right_text.split())
+                union = left_tokens | right_tokens
+                similarity = len(left_tokens & right_tokens) / len(union) if union else 0
+                if similarity >= 0.85:
+                    near_candidates.append({"ids": [left_id, right_id], "similarity": round(similarity, 3),
+                                            "stems": [left_text, right_text]})
+        result["findings"]["duplicateStems"][str(grade)] = {
+            "exactStemGroups": duplicates, "nearStemCount": len(near_candidates),
+            "nearStemCandidatesFirst100": near_candidates[:100]}
         if duplicates:
             warnings.append("Khối %d: %d nhóm trùng câu chữ; chưa kết luận là bản ghi trùng." %
                             (grade, len(duplicates)))
+        if near_candidates:
+            warnings.append("Khối %d: %d cặp gần trùng theo độ giống từ vựng >= 0,85; cần rà soát, không xóa." %
+                            (grade, len(near_candidates)))
 
         if grade == 10:
             topics = catalog.get("topics", [])
