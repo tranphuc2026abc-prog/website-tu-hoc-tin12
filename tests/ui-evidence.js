@@ -63,15 +63,14 @@ async function screenshotSet() {
   const mobile = { width: 360, height: 740 };
   for (const grade of [10, 11, 12]) {
     const ctx = await browser.newContext({ viewport: mobile });
-    await ctx.addInitScript(grade => localStorage.setItem('tin' + grade + '.v1', JSON.stringify({
-      v: 1, les: {}, ans: {}, cards: {}, hist: [], quizSeen: {}, last: firstLesson[grade], th: 'dark', tfm: 0
-    })), grade);
+    await ctx.addInitScript(({ grade, lesson }) => localStorage.setItem('tin' + grade + '.v1', JSON.stringify({
+      v: 1, les: {}, ans: {}, cards: {}, hist: [], quizSeen: {}, last: lesson, th: 'dark', tfm: 0
+    })), { grade, lesson: firstLesson[grade] });
     const page = await ctx.newPage();
     await page.goto(base + 'index.html');
     await page.locator('.continue-link').waitFor({ state: 'visible' });
     await shot(page, 'trang-chon-khoi-tiep-tuc-khoi-' + grade + '-360x740');
     await open(page, grade, '#/');
-    if (await page.locator('#th').count()) await page.locator('#th').click();
     await shot(page, 'tong-quan-toi-khoi-' + grade + '-360x740');
     await page.goto(base + 'course.html?grade=' + grade + '#/lesson/' + firstLesson[grade]);
     await page.locator('#app h1').waitFor({ state: 'visible' });
@@ -106,7 +105,7 @@ async function screenshotSet() {
     const ctx = await browser.newContext({ viewport: mobile });
     const page = await ctx.newPage();
     await page.route('**/data/catalog-10.js', route => new Promise(() => {}));
-    await page.goto(base + 'course.html?grade=10');
+    await page.goto(base + 'course.html?grade=10', { waitUntil: 'domcontentloaded' });
     await page.locator('#app').waitFor({ state: 'visible' });
     await shot(page, 'trang-dang-tai-360x740');
     await ctx.close();
