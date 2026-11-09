@@ -41,19 +41,19 @@ async function screenshotSet() {
       await open(page, grade, '#/');
       await shot(page, 'tong-quan-khoi-' + grade + '-' + size.w + 'x' + size.h);
       await page.goto(base + 'course.html?grade=' + grade + '#/lessons');
-      await page.locator('#app h1').waitFor({ state: 'visible' });
+      await page.locator('#app h1').last().waitFor({ state: 'visible' });
       await shot(page, 'danh-sach-bai-khoi-' + grade + '-' + size.w + 'x' + size.h);
       await page.goto(base + 'course.html?grade=' + grade + '#/lesson/' + firstLesson[grade]);
-      await page.locator('#app h1').waitFor({ state: 'visible' });
+      await page.locator('#app h1').last().waitFor({ state: 'visible' });
       await shot(page, 'bai-hoc-khoi-' + grade + '-' + size.w + 'x' + size.h);
       await page.goto(base + 'course.html?grade=' + grade + '#/review');
-      await page.locator('#app h1').waitFor({ state: 'visible' });
+      await page.locator('#app h1').last().waitFor({ state: 'visible' });
       await shot(page, 'on-tap-khoi-' + grade + '-' + size.w + 'x' + size.h);
       await page.goto(base + 'course.html?grade=' + grade + '#/practice');
-      await page.locator('#app h1').waitFor({ state: 'visible' });
+      await page.locator('#app h1').last().waitFor({ state: 'visible' });
       await shot(page, 'cau-hinh-luyen-tap-khoi-' + grade + '-' + size.w + 'x' + size.h);
       await page.goto(base + 'course.html?grade=' + grade + '#/progress');
-      await page.locator('#app h1').waitFor({ state: 'visible' });
+      await page.locator('#app h1').last().waitFor({ state: 'visible' });
       await shot(page, 'tien-do-khoi-' + grade + '-' + size.w + 'x' + size.h);
     }
     await ctx.close();
@@ -73,10 +73,10 @@ async function screenshotSet() {
     await open(page, grade, '#/');
     await shot(page, 'tong-quan-toi-khoi-' + grade + '-360x740');
     await page.goto(base + 'course.html?grade=' + grade + '#/lesson/' + firstLesson[grade]);
-    await page.locator('#app h1').waitFor({ state: 'visible' });
+    await page.locator('#app h1').last().waitFor({ state: 'visible' });
     await shot(page, 'bai-hoc-toi-khoi-' + grade + '-360x740');
     await page.goto(base + 'course.html?grade=' + grade + '#/progress');
-    await page.locator('#app h1').waitFor({ state: 'visible' });
+    await page.locator('#app h1').last().waitFor({ state: 'visible' });
     await shot(page, 'tien-do-toi-khoi-' + grade + '-360x740');
     for (const type of ['mcq', 'tf', 'essay']) {
       await page.goto(base + 'course.html?grade=' + grade + '#/practice/' + firstLesson[grade]);
@@ -147,9 +147,9 @@ async function measure() {
   await page.keyboard.press('Tab');
   const focus=await page.evaluate(()=>{const el=document.activeElement,s=getComputedStyle(el);return {tag:el.tagName,id:el.id,cls:String(el.className),outline:s.outlineStyle,width:s.outlineWidth};});
   assert(focus.outline!=='none' && parseFloat(focus.width)>=1, 'focus ban phim hien thi tren trang chu');
-  const cards=await page.locator('.grade-card').all();
-  for(let i=0;i<cards.length;i++){
-    await cards[i].click();
+  const cardCount=await page.locator('.grade-card').count();
+  for(let i=0;i<cardCount;i++){
+    await page.locator('.grade-card').nth(i).click();
     await page.waitForURL(/course\.html/);
     const snap=await page.evaluate(()=>({grade:new URL(location.href).searchParams.get('grade'),width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
     assert(snap.grade===String(10+i), 'mo dung khoi '+(10+i));
