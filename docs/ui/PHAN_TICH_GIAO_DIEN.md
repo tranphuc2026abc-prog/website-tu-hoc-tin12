@@ -1,48 +1,56 @@
 # Thẩm định giao diện hiện trạng
 
-Ngày quan sát: 08/11/2026. Bản chạy: https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/
+Ngày kiểm tra trực tiếp: 09/11/2026. Bản chạy: https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/  
+Cơ sở thay đổi đề xuất: PR-1 `chuan-hoa/du-lieu` (đang chờ xem xét; chưa merge).
 
-## Phạm vi và bằng chứng
+## Bằng chứng hiện có
 
-Đã mở trên GitHub Pages trang chọn khối, tổng quan khối 10, danh sách bài, bài học B08, ôn tập, cấu hình luyện tập và tiến độ. Giao diện quan sát được ở kích thước cửa sổ trình duyệt desktop khoảng 1265 × 716 px. Mã đối chiếu từ `index.html`, `course.html`, `assets/css/style.css`, `assets/css/multigrade.css`, `assets/js/course-loader.js`, `assets/js/app.js` và `data/catalog-10.js`.
-
-Ảnh đã xem trong phiên trình duyệt không có đường xuất tệp ảnh vào repository. Vì vậy không tạo ảnh giả và chưa có thư mục ảnh minh chứng; đánh giá kích thước 360, 768 và 1366 px chưa được chụp/đo trực tiếp. Đây là giới hạn bằng chứng.
+- Mở trang chọn khối và khóa học Tin học 10 trên GitHub Pages bằng trình duyệt thật, cửa sổ hiển thị khoảng 1265 × 716 px.
+- Trang chọn khối hiện 3 thẻ 10/11/12; khi trình duyệt có dữ liệu cũ, thẻ “Tiếp tục học · Khối 10” xuất hiện.
+- Trang tổng quan khối 10 nêu 34 bài, 850 câu; main còn nhóm “CHỦ ĐỀ CHƯA PHÂN LOẠI” gồm 14 bài. PR-1 cập nhật nhãn trong `nguon/`; builder của PR-1 hết nhóm chưa phân loại.
+- Điều hướng có 5 mục: Tổng quan, Bài học, Ôn tập, Luyện tập, Tiến độ.
+- `course.html` có title động “Tự học Tin học 10”; header đổi thành Tin học 10. Hero vẫn có dòng “DIGITAL LEARNING HUB”.
+- Mục đề tham khảo đã thu gọn thành “SẮP CÓ” và một dòng thông báo.
+- `assets/css/style.css` có theme sáng/tối, `:focus-visible`, tokens màu và `prefers-reduced-motion`; danh sách bài có tìm kiếm/lọc, bài học liên kết ôn tập/luyện tập.
+- Workflow E2E hiện có chạy qua HTTP và file; PR-1 bổ sung kiểm thử tiến độ cũ 13/13. Chưa đo giao diện ở ba viewport.
+- Ảnh trang chủ được xem trong phiên trình duyệt nhưng chưa lưu được vào repository. Workflow mới chụp ảnh và tải artifact; chưa coi ảnh CI là có cho đến khi chạy xong.
 
 ## Chấm điểm hiện trạng
 
-| Tiêu chí | Điểm / 5 | Bằng chứng và nhận xét |
+| Tiêu chí | Điểm / 5 | Căn cứ và giới hạn |
 |---|---:|---|
-| Cấu trúc thông tin, điều hướng | 3 | Ba khối hiện rõ; trong khóa học có năm khu vực. Điều hướng dùng ký tự Unicode thay icon nhất quán. |
-| Bố cục, phân cấp thị giác | 4 | Thẻ khối, banner, tiêu đề và nhóm bài phân biệt rõ trên desktop. Khu vực ôn thi khóa ở trang chủ chiếm một khối lớn. |
-| Màu sắc, tương phản | 3 | Đã tính theo công thức WCAG: `#71809e` trên trắng = 3.97:1, trên nền `#f4f7fc` = 3.70:1, không đạt 4.5:1 cho chữ thường. `#263552` trên trắng = 12.26:1; `#315cf5` trên trắng = 5.28:1. |
-| Chữ, khả năng đọc bài | 4 | CSS đặt chữ cơ sở 15.5 px, dòng 1.7; bài có mục lục và các phần nội dung. Chưa đo chiều dài dòng theo từng màn hình. |
-| Trải nghiệm điện thoại | 3 | CSS có các breakpoint và trang danh sách có tìm kiếm/lọc. Chưa có ảnh hoặc phép đo viewport 360 px; một số nút nhỏ có padding 6 px theo chiều dọc. |
-| Trải nghiệm học | 4 | Bài học liên kết sang luyện tập; luyện tập cấu hình theo bài, loại câu và 10 câu/lượt; trang tiến độ có lịch sử, bảng bài và sao lưu/khôi phục. |
-| Truy cập | 3 | Có `:focus-visible`, nhãn cho tìm kiếm và nav; biểu tượng điều hướng là ký tự Unicode và một số vùng chạm dưới 44 px. Chưa kiểm thử đầy đủ bàn phím/đọc màn hình. |
-| Hiệu năng cảm nhận, trạng thái | 3 | Tải dữ liệu lần lượt qua các script; trước sửa chỉ có dòng “Đang tải dữ liệu…”. Khi lỗi có thông báo và liên kết nhưng chưa chỉ dẫn cụ thể theo khối. Chưa mô phỏng mạng chậm. |
-| Nhất quán thương hiệu | 2 | Đồng thời xuất hiện “TIN HỌC THPT”, “KHÔNG GIAN TỰ HỌC”, “DIGITAL LEARNING HUB” và “Tự học Tin học THPT”. |
+| Cấu trúc thông tin và điều hướng | 4 | 3 khối ở trang đầu, 5 mục trong khóa; đường đi tới kho bài học/luyện tập rõ. |
+| Bố cục và phân cấp thị giác | 4 | Thẻ khối lớn, màu nhận diện riêng, tiêu đề rõ; chưa đo các viewport nhỏ bằng Playwright. |
+| Màu và tương phản | 4* | Tokens hiện tại: `--mut:#5c6c89`, chữ chính `#263552`, nền `#f4f7fc`; tỷ lệ runtime sẽ ghi sau CI. Điểm tạm, chưa chứng nhận WCAG. |
+| Chữ và khả năng đọc | 4 | Chữ cơ sở 15.5 px, line-height 1.7; chưa đo chiều dài dòng ở 360 px. |
+| Điện thoại | 3 | Có breakpoint; chưa có ảnh/đo thực tế 360 × 740 và 768 × 1024. |
+| Trải nghiệm học | 4 | Bài, ôn tập, luyện tập và tiến độ liên kết; lượt tập tối đa 10 câu, có MCQ/đúng-sai/tự luận. |
+| Truy cập | 3 | Có nhãn nav/tìm kiếm và focus-visible; cây truy cập hiện đọc cả glyph và chữ; chưa đo toàn bộ tên/vùng chạm/bàn phím. |
+| Tải và lỗi | 3 | Trạng thái tải là dòng chữ; loader có hướng dẫn lỗi và nút tải lại/chọn khối. Chưa mô phỏng mạng chậm. |
+| Nhất quán thương hiệu | 3 | Tên header tiếng Việt, nhưng hero còn “DIGITAL LEARNING HUB”; glyph icon lặp với SVG. |
 
 ## Kiểm chứng H1–H9
 
-| Giả thuyết | Kết luận | Bằng chứng |
+| Mã | Kết luận | Bằng chứng |
 |---|---|---|
-| H1. Tên thương hiệu lẫn lộn | ĐÚNG | Header trang chọn khối, hero và banner khóa học dùng các tên tiếng Việt/Anh khác nhau. |
-| H2. Trang chủ thiếu “Tiếp tục học” | ĐÚNG một phần | Trang chọn khối không có nút tiếp tục; tổng quan bên trong từng khối đã có “Tiếp tục học”. |
-| H3. Mục ôn thi đang khóa chiếm vị trí nổi bật | ĐÚNG | Trang chọn khối hiển thị một section lớn với tiêu đề, mô tả và eyebrow “TẠM THỜI KHÓA”. |
-| H4. Điều hướng dùng ký tự làm biểu tượng | ĐÚNG | `course.html` dùng ⌂, ▦, ◈, ⌘, ◴ và ◐. |
-| H5. Trạng thái tải/lỗi còn sơ sài | ĐÚNG | HTML khởi tạo chỉ có dòng tải; nhánh lỗi trong loader hiển thị hướng dẫn chung, chưa có khung trạng thái. |
-| H6. Tiêu đề khóa học chung chung | ĐÚNG một phần | `course.html` bắt đầu bằng tiêu đề chung; loader đổi document title và tên khối sau khi catalog tải xong. |
-| H7. Nền xanh đậm gây mỏi, chưa có nền sáng | SAI | Trang đang chạy mặc định nền sáng; CSS và nút chuyển chế độ có hỗ trợ dark mode. Chưa làm đo thời gian đọc hay nghiên cứu người dùng. |
-| H8. Danh sách bài dài, phân loại/học kỳ chưa hợp | ĐÚNG | Khối 10 có 34 bài, trong đó ảnh quan sát cho thấy nhóm “Chủ đề chưa phân loại”; catalog khối 10 có 14 bài ở nhóm này. Bộ lọc tìm kiếm/trạng thái đã có. Mã ôn tập ghi cố định HK1 bài 1–14 và HK2 bài 15–28 dù catalog từng khối có khoảng khác nhau. |
-| H9. Tương phản, chữ, chạm, mọi loại câu, phản hồi, tiến độ, mạng lỗi chưa rõ | KHÔNG KẾT LUẬN ĐƯỢC toàn bộ | Đã xác nhận một cặp chữ phụ không đạt AA, có hỗ trợ trắc nghiệm/đúng-sai/tự luận, có phản hồi và tiến độ trong mã. Chưa kiểm thử bằng bàn phím, viewport nhỏ, mạng chậm, mọi trạng thái và mọi dạng câu hỏi đầu-cuối. |
+| H1 | **ĐÚNG một phần** | Header chọn khối dùng tiếng Việt; hero khóa học còn “DIGITAL LEARNING HUB”. |
+| H2 | **SAI** | Trang chọn khối có thẻ tiếp tục khi tìm thấy dữ liệu `tin10.v1` hoặc khóa khác. PR-1 kiểm tra cả ba và trạng thái mới. |
+| H3 | **SAI** | Mục đề tham khảo đã thu thành dòng “SẮP CÓ” dưới ba thẻ khối. |
+| H4 | **ĐÚNG một phần** | Có SVG nhưng cây truy cập còn glyph ⌂ ▦ ◈ ⌘ ◴ cùng nhãn chữ; có khả năng đọc lặp. |
+| H5 | **ĐÚNG một phần** | Tải dùng dòng đơn; lỗi có heading, hướng dẫn thử lại và liên kết chọn khối. |
+| H6 | **SAI** | `course-loader.js` đặt document title/header theo khối, ví dụ “Tự học Tin học 10”/“TIN HỌC 10”. |
+| H7 | **SAI** | Mặc định nền sáng; có nút đổi theme và CSS dark mode. Chưa nghiên cứu mỏi mắt khi đọc dài. |
+| H8 | **ĐÚNG ở main hiện tại** | Main còn 14/34 bài khối 10 trong nhóm chưa phân loại. PR-1 gắn nhãn nguồn; builder đã hết nhóm này. Tìm kiếm/lọc trạng thái đang có. |
+| H9 | **KHÔNG KẾT LUẬN ĐƯỢC toàn bộ** | Đã xác minh có 3 dạng câu hỏi, phản hồi, theme, tiến độ. Tương phản runtime, vùng chạm, bàn phím mọi trang, bảng/code cuộn riêng và các trạng thái còn chờ workflow. |
 
-## Vấn đề ưu tiên
+## Vấn đề theo mức ưu tiên
 
-1. **Cao — tương phản chữ phụ:** 3.70–3.97:1 trên nền sáng; cần đạt tối thiểu 4.5:1.
-2. **Cao — xác minh responsive và vùng chạm:** chưa có bằng chứng trực tiếp ở 360 px; cần đo trước khi xem là đạt.
-3. **Trung bình — nhãn học kỳ cố định:** không phù hợp khối 10/11.
-4. **Trung bình — trạng thái lỗi/tải:** thiếu cấu trúc trực quan và hướng dẫn khắc phục cụ thể.
-5. **Thấp — thương hiệu và biểu tượng:** nhiều tên gọi và glyph Unicode làm giảm tính nhất quán.
-6. **Thấp — danh sách dài:** 14 bài khối 10 chưa phân loại; lọc đã có nhưng nhóm chưa phân loại vẫn dài.
+1. **Cao — đo trực tiếp màn hình điện thoại:** chưa có bằng chứng trước ở 360/768 px.
+2. **Trung bình — tên truy cập lặp glyph và nhãn:** markup nav có ký tự và SVG cùng lúc.
+3. **Trung bình — hero dùng tiếng Anh:** còn “DIGITAL LEARNING HUB”.
+4. **Trung bình — phân nhóm bài khối 10:** main chưa nhận PR-1; cần xác nhận build của nhánh xếp chồng.
+5. **Thấp — trạng thái chờ:** dòng tải gọn; trạng thái lỗi đã có hướng dẫn.
 
-Không thay đổi nội dung học liệu, ngân hàng câu hỏi, đáp án, cấu trúc lưu tiến độ, Supabase hay quy trình triển khai trong phạm vi đợt này.
+## Phạm vi và phần chưa kiểm chứng
+
+Không thay đổi nội dung bài, câu hỏi, đáp án, chấm điểm, localStorage, Supabase hoặc triển khai Pages. Chưa thử trình đọc màn hình thật; kiểm tra tên accessible trong Playwright là kiểm tra DOM, không phải chứng nhận WCAG. Tương phản phải tính theo màu runtime từng thành phần và nền thực tế.
