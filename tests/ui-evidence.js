@@ -53,7 +53,7 @@ async function screenshotSet() {
       await page.locator('#pk').waitFor({ state: 'visible' });
       await shot(page, 'cau-hinh-luyen-tap-khoi-' + grade + '-' + size.w + 'x' + size.h);
       await page.goto(base + 'course.html?grade=' + grade + '#/progress');
-      await page.locator('#msg').waitFor({ state: 'visible' });
+      await page.locator('[data-act=exp]').waitFor({ state: 'visible' });
       await shot(page, 'tien-do-khoi-' + grade + '-' + size.w + 'x' + size.h);
     }
     await ctx.close();
@@ -76,7 +76,7 @@ async function screenshotSet() {
     await page.locator('.toc').waitFor({ state: 'visible' });
       await shot(page, 'bai-hoc-toi-khoi-' + grade + '-360x740');
     await page.goto(base + 'course.html?grade=' + grade + '#/progress');
-    await page.locator('#msg').waitFor({ state: 'visible' });
+    await page.locator('[data-act=exp]').waitFor({ state: 'visible' });
       await shot(page, 'tien-do-toi-khoi-' + grade + '-360x740');
     for (const type of ['mcq', 'tf', 'essay']) {
       await page.goto(base + 'course.html?grade=' + grade + '#/practice/' + firstLesson[grade]);
