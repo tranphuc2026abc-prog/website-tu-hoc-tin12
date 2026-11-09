@@ -1,13 +1,26 @@
 // Kiem tra tuong thich tien do da co; chi dung localStorage tam trong Chromium.
 const { chromium } = require(process.env.PW || 'playwright');
-const path = require('path');
+const path = require('path'), fs = require('fs'), http = require('http');
 
 const root = path.resolve(__dirname, '..');
-const url = 'file://' + path.join(root, 'index.html').replace(/\\/g, '/');
+const server = http.createServer((request, response) => {
+  const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
+  const file = path.resolve(root, '.' + pathname);
+  if (!file.startsWith(root + path.sep) && file !== path.join(root, 'index.html')) {
+    response.writeHead(403); response.end(); return;
+  }
+  fs.readFile(file, (error, data) => {
+    if (error) { response.writeHead(404); response.end(); return; }
+    const type = file.endsWith('.js') ? 'text/javascript' : file.endsWith('.css') ? 'text/css' : 'text/html';
+    response.writeHead(200, { 'Content-Type': type }); response.end(data);
+  });
+});
 const lessons = { 10: 'ICT10_B08', 11: 'ICT11_B05', 12: 'ICT12_B03' };
 
 (async () => {
-  const browser = await chromium.launch({ headless: true, args: ['--allow-file-access-from-files'] });
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+  const url = 'http://127.0.0.1:' + server.address().port + '/index.html';
+  const browser = await chromium.launch({ headless: true });
   let checks = 0;
   const ok = (condition, message) => {
     if (!condition) throw new Error('FAIL: ' + message);
@@ -31,7 +44,7 @@ const lessons = { 10: 'ICT10_B08', 11: 'ICT11_B05', 12: 'ICT12_B03' };
         'the tiep tuc tro den dung bai cua khoi ' + grade);
       await link.click();
       await page.waitForURL(new RegExp('course\\.html\\?grade=' + grade + '#/lesson/' + lesson));
-      await page.locator('h1').filter({ hasText: 'Bài' }).waitFor({ state: 'visible' });
+      await page.locator('.chk input[type=checkbox]').first().waitFor({ state: 'visible' });
       ok(await page.locator('.chk input[type=checkbox]:checked').count() === 2,
         'tien do cac muc bai cu duoc doc lai o khoi ' + grade);
       await context.close();
@@ -72,6 +85,7 @@ const lessons = { 10: 'ICT10_B08', 11: 'ICT11_B05', 12: 'ICT12_B03' };
     console.log('KET QUA: ' + checks + ' dat, 0 loi');
   } finally {
     await browser.close();
+    await new Promise(resolve => server.close(resolve));
   }
 })().catch(error => {
   console.error(error);
