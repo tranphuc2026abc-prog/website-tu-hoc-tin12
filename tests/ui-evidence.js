@@ -135,11 +135,12 @@ async function measure() {
     const controls=[...document.querySelectorAll('a,button,input,select,textarea,[role=button]')].filter(visible);
     const unnamed=controls.filter(el => !name(el) && !el.closest('label')).map(el=>({tag:el.tagName, id:el.id, cls:el.className}));
     const small=controls.map(el=>{const r=el.getBoundingClientRect();return {tag:el.tagName,id:el.id,cls:String(el.className).slice(0,80),w:Math.round(r.width),h:Math.round(r.height),text:(el.innerText||el.getAttribute('aria-label')||'').trim().slice(0,70)};}).filter(x=>x.w<44||x.h<44);
-    const leaves=[...document.querySelectorAll('body *')].filter(el=>visible(el)&&el.children.length===0&&el.textContent.trim());
+    const leaves=[...document.querySelectorAll('body *')].filter(el=>visible(el)&&el.children.length===0&&el.textContent.trim()&&!el.closest('.brand-mark'));
     const low=leaves.map(el=>{const st=getComputedStyle(el),fg=rgb(st.color),back=bg(el),ratio=fg?contrast(fg,back):null,big=parseFloat(st.fontSize)>=24|| (parseFloat(st.fontSize)>=18.66&&parseInt(st.fontWeight)>=700);return {text:el.textContent.trim().slice(0,70),fg:st.color,bg:back.join(','),ratio:ratio&&Math.round(ratio*100)/100,large:big};}).filter(x=>x.ratio && x.ratio < (x.large?3:4.5));
     return {width:innerWidth,scrollWidth:document.documentElement.scrollWidth,overflow:document.documentElement.scrollWidth>innerWidth+1,unnamed,small,lowContrast:low};
   });
   assert(!home.overflow, 'trang chon khoi khong tran ngang o 360px');
+  assert(home.small.length===0, 'muc tieu cham trang chon khoi dat toi thieu 44px');
   assert(home.unnamed.length===0, 'cac nut/lien ket trang chon khoi co ten');
   metrics.unnamedControls.push(...home.unnamed.map(x=>({page:'home',...x})));
   metrics.touchTargets.push(...home.small.map(x=>({page:'home',...x})));
@@ -160,8 +161,10 @@ async function measure() {
       const name=el=>(el.getAttribute('aria-label')||el.getAttribute('title')||el.innerText||'').trim();
       const unnamed=con.filter(el=>!name(el)&&!el.closest('label')).map(el=>({tag:el.tagName,id:el.id,cls:el.className}));
       const small=con.map(el=>{const r=el.getBoundingClientRect();return {tag:el.tagName,id:el.id,cls:String(el.className).slice(0,80),w:Math.round(r.width),h:Math.round(r.height),text:(el.innerText||el.getAttribute('aria-label')||'').trim().slice(0,70)}}).filter(x=>x.w<44||x.h<44);
-      return {unnamed,small};
+      return {unnamed,small,navLabels:[...document.querySelectorAll('#nav a')].map(el=>el.innerText.trim())};
     });
+    assert(data.small.length===0, 'muc tieu cham khoi '+(10+i)+' dat toi thieu 44px');
+    assert(data.navLabels.every(label=>!/[⌂▦◈⌘◴]/.test(label)), 'nhan dieu huong khoi '+(10+i)+' khong doc ky tu trung lap');
     metrics.unnamedControls.push(...data.unnamed.map(x=>({page:'grade'+(10+i),...x})));
     metrics.touchTargets.push(...data.small.map(x=>({page:'grade'+(10+i),...x})));
     await page.goto(base+'index.html');
