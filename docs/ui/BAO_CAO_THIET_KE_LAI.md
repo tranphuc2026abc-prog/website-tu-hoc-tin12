@@ -32,9 +32,11 @@
 - Quan sát trình duyệt thật trên Pages: trang chọn khối, tổng quan khối 10, danh sách bài, bài B08, ôn tập, cấu hình luyện tập, tiến độ; cửa sổ khoảng 1265 × 716 px.
 - Tính tương phản WCAG theo công thức sRGB: chữ phụ cũ 3.70:1 trên nền chính; màu mới 4.94:1. Nút tím mới 6.03:1 trên trắng.
 - Kiểm tra tĩnh mã: các chế độ ôn tập, chọn loại câu hỏi, 10 câu/lượt, lưu localStorage và sao lưu/khôi phục có trong mã hiện tại.
-- Chưa chạy được Python build hoặc E2E cục bộ: thư mục làm việc không có repository Git đầy đủ, thiếu `tests/e2e.js`, Python/py và Playwright. Node có sẵn.
-- Chưa có ảnh minh chứng được lưu: giao diện CUA xem được nhưng môi trường không cung cấp luồng xuất ảnh trực tiếp vào repo. Chưa kiểm tra 360/768/1366 px, bàn phím, mạng chậm, console trên từng dạng câu hỏi, hay Lighthouse.
-- PR kích hoạt GitHub Actions; kết quả CI phải được đọc sau khi PR được tạo. Không báo đạt trước khi workflow hoàn tất.
+- Build trên GitHub Actions `Validate and deploy Tin hoc 12` (run 125): bước xác thực/dựng dữ liệu ba khối và bản một tệp thành công; kiểm tra tĩnh portal/catalog thành công; E2E HTTP thành công; upload artifact Pages thành công. Bước deploy bị bỏ qua do đây là PR.
+- GitHub Actions `Question bank E2E` (run 53): build nguồn thành công; E2E HTTP và file mode của `Tin12_MotFile.html` thành công.
+- Kiểm tra cú pháp JavaScript bằng `new Function` với hai tệp sửa: hợp lệ. So sánh GitHub xác nhận catalog 10/11/12 giữ nguyên SHA; không có thay đổi trong `data/` hoặc `nguon/`.
+- Không chạy build/E2E cục bộ do thư mục làm việc thiếu Git checkout đầy đủ, Python/py và Playwright; các kiểm thử trên do GitHub Actions thực hiện.
+- Chưa lưu ảnh trước/sau: giao diện CUA xem được nhưng không xuất ảnh vào repo. Chưa đo trực tiếp viewport 360/768/1366 px, chạy bàn phím/đọc màn hình, mô phỏng mạng chậm, kiểm tra Lighthouse hoặc mọi trạng thái mọi câu hỏi.
 
 ## Dữ liệu và tương thích
 
