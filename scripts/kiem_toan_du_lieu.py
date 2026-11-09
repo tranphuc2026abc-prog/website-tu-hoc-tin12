@@ -60,7 +60,8 @@ def source_lesson(path):
     number = re.search(r"BAI_(\d+)_QUESTIONS\.json$", path.name)
     if not number:
         return None
-    grade = int(re.search(r"khoi-(10|11)", path.as_posix()).group(1)) if "khối-" in path.as_posix() else 12
+    grade_match = re.search(r"khoi-(10|11)", path.as_posix())
+    grade = int(grade_match.group(1)) if grade_match else 12
     return "ICT%d_B%02d" % (grade, int(number.group(1)))
 
 def audit(root, baseline_path=None):
