@@ -3,7 +3,7 @@ const { chromium } = require(process.env.PW || 'playwright');
 const path = require('path');
 
 const root = path.resolve(__dirname, '..');
-const url = 'file://' + path.join(root, 'index.html').replace(/\\\\/g, '/');
+const url = 'file://' + path.join(root, 'index.html').replace(/\\/g, '/');
 const lessons = { 10: 'ICT10_B08', 11: 'ICT11_B05', 12: 'ICT12_B03' };
 
 (async () => {
