@@ -80,11 +80,15 @@ node tests/e2e.js file Tin12_MotFile.html
 
 Kiểm thử HTTP bao gồm chọn khối, mở bài, số câu, luyện tập, chấm điểm, tiến độ, sao lưu/khôi phục, giao diện responsive, lỗi JavaScript và hoạt động khi ngắt mạng. Bản một tệp hiện chỉ kiểm thử khối 12. Trong môi trường biên soạn tài liệu lần này, không chạy được lệnh build cục bộ vì thiếu Python; thư mục làm việc cũng thiếu `tests/e2e.js`. Kết quả CI gần nhất được ghi trong [báo cáo nghiệm thu](BAO_CAO_NGHIEM_THU.md).
 
+## Giao diện
+
+Nhánh đề xuất thống nhất tên thương hiệu, thêm lối tiếp tục bài gần nhất từ tiến độ cũ, thay glyph điều hướng bằng SVG, cải thiện tương phản, vùng thao tác và trạng thái tải/lỗi. Chi tiết thẩm định và giới hạn bằng chứng xem [phân tích giao diện](docs/ui/PHAN_TICH_GIAO_DIEN.md), [thiết kế](docs/ui/THIET_KE_GIAO_DIEN.md) và [báo cáo triển khai](docs/ui/BAO_CAO_THIET_KE_LAI.md). Chưa đính kèm ảnh trước/sau do không có khả năng xuất ảnh trình duyệt vào repository trong môi trường làm việc.
+
 ## Tình trạng và hạn chế đã xác minh
 
 - Có đủ catalog 34 bài khối 10, 31 bài khối 11 và 28 bài khối 12; ngân hàng website có 2.368 bản ghi.
 - 14/34 bài khối 10 đang được catalog xếp vào “Chủ đề chưa phân loại”.
-- Nhãn chế độ ôn theo học kỳ vẫn ghi cố định “Bài 1–14 / Bài 15–28”, trong khi catalog khối 10 chia 1–17/18–34 và khối 11 chia 1–16/17–31. Logic lọc dùng khoảng bài trong catalog, nhưng nhãn trên giao diện cần được sửa.
+- Trên nhánh giao diện này, nhãn chế độ ôn theo học kỳ lấy khoảng bài từ catalog của khối hiện chọn: khối 10 (1–17/18–34), khối 11 (1–16/17–31), khối 12 (1–14/15–28).
 - Repository có cấu hình Supabase và mã xác thực/đồng bộ. Cần quyết định rõ phạm vi vận hành ngoại tuyến và trực tuyến trước khi giới thiệu tính năng “không tài khoản, không server”.
 - Thư mục `data/lesons/` cũ vẫn còn bên cạnh `data/lessons/`; chưa xóa vì cần rà soát tham chiếu trước.
 - Phần ôn thi tốt nghiệp và đề tham khảo đang khóa.
