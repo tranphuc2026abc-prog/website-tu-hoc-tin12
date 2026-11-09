@@ -38,6 +38,13 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
+      - name: Kiểm thử E2E và tiến độ tương thích
+        env:
+          PW: playwright
+        run: |
+          node tests/compatibility-progress.js
+          node tests/e2e.js http
+          node tests/e2e.js file Tin12_MotFile.html
       - name: Chụp ảnh và đo giao diện
         env:
           PW: playwright
