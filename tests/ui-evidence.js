@@ -80,11 +80,8 @@ async function screenshotSet() {
       await shot(page, 'tien-do-toi-khoi-' + grade + '-360x740');
     for (const type of ['mcq', 'tf', 'essay']) {
       await page.goto(base + 'course.html?grade=' + grade + '#/practice/' + firstLesson[grade]);
-      await page.locator('.ty').first().waitFor({ state: 'visible' });
-      for (const checkbox of await page.locator('.ty').all()) {
-        const value = await checkbox.getAttribute('value');
-        await checkbox.setChecked(value === type);
-      }
+      await page.locator('#pk').waitFor({ state: 'visible' });
+      await page.locator('.ty').evaluateAll((boxes, selected) => boxes.forEach(box => { box.checked = box.value === selected; }), type);
       await page.locator('[data-act=start]').click();
       await page.locator('.card[data-question-id]').waitFor({ state: 'visible' });
       await shot(page, 'luyen-tap-' + type + '-khoi-' + grade + '-360x740');
