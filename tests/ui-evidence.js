@@ -36,6 +36,7 @@ async function screenshotSet() {
     const page = await ctx.newPage();
     await page.goto(base + 'index.html');
     await page.locator('.grade-card').first().waitFor({ state: 'visible' });
+    assert(await page.locator('.continue-link').count() === 0, 'hoc sinh moi khong hien the tiep tuc');
     await shot(page, 'trang-chon-khoi-moi-' + size.w + 'x' + size.h);
     for (const grade of [10, 11, 12]) {
       await open(page, grade, '#/');
@@ -69,6 +70,8 @@ async function screenshotSet() {
     const page = await ctx.newPage();
     await page.goto(base + 'index.html');
     await page.locator('.continue-link').waitFor({ state: 'visible' });
+    const continueHref = await page.locator('.continue-link').getAttribute('href');
+    assert(continueHref.includes('grade=' + grade) && continueHref.includes(firstLesson[grade]), 'the tiep tuc mo dung khoi va bai ' + grade);
     await shot(page, 'trang-chon-khoi-tiep-tuc-khoi-' + grade + '-360x740');
     await open(page, grade, '#/');
     await shot(page, 'tong-quan-toi-khoi-' + grade + '-360x740');
@@ -155,6 +158,9 @@ async function measure() {
     const snap=await page.evaluate(()=>({grade:new URL(location.href).searchParams.get('grade'),width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
     assert(snap.grade===String(10+i), 'mo dung khoi '+(10+i));
     assert(snap.scrollWidth<=snap.width+1, 'khoa hoc khoi '+(10+i)+' khong tran ngang o 360px');
+    await page.keyboard.press('Tab');
+    const courseFocus=await page.evaluate(()=>{const s=getComputedStyle(document.activeElement);return {style:s.outlineStyle,width:parseFloat(s.outlineWidth)};});
+    assert(courseFocus.style!=='none' && courseFocus.width>=1, 'focus ban phim hien thi trong khoa hoc khoi '+(10+i));
     const data=await page.evaluate(() => {
       const visible=el=>!!(el.offsetWidth||el.offsetHeight||el.getClientRects().length);
       const con=[...document.querySelectorAll('a,button,input,select,textarea,[role=button]')].filter(visible);
