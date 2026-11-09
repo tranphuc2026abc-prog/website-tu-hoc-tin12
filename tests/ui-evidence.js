@@ -41,7 +41,7 @@ async function screenshotSet() {
       await open(page, grade, '#/');
       await shot(page, 'tong-quan-khoi-' + grade + '-' + size.w + 'x' + size.h);
       await page.goto(base + 'course.html?grade=' + grade + '#/lessons');
-      await page.locator('#app h1').last().waitFor({ state: 'visible' });
+      await page.locator('#ll').waitFor({ state: 'visible' });
       await shot(page, 'danh-sach-bai-khoi-' + grade + '-' + size.w + 'x' + size.h);
       await page.goto(base + 'course.html?grade=' + grade + '#/lesson/' + firstLesson[grade]);
       await page.locator('#app h1').last().waitFor({ state: 'visible' });
