@@ -317,7 +317,8 @@ def audit(root, baseline_path=None):
             old_program = set(before.get("questionIdsProgram", []))
             old_source = set(before.get("questionIdsSource", []))
             current_lessons = {x.get("id") for x in parse_js_object(root / CATALOGS[grade], ".cat=").get("lessons", [])}
-            current_program = {qid for qid in union_program_ids\n                               if qid.startswith(("T%d-" % grade, "ICT%d_" % grade))}
+            current_program = {qid for qid in union_program_ids
+                               if qid.startswith(("T%d-" % grade, "ICT%d_" % grade))}
             current_source = {qid for qid in union_source_ids if qid.startswith("T%d-" % grade)}
             if old_lessons != current_lessons:
                 errors.append("Khối %d: mã bài thay đổi so với trạng thái gốc." % grade)
