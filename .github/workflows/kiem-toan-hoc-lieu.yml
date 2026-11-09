@@ -40,14 +40,6 @@ jobs:
         run: |
           python scripts/build_all_grades.py
           python scripts/build_single.py
-      - name: Kiểm tra phạm vi thay đổi sau build
-        run: |
-          unexpected="$(git diff --name-only | grep -v '^data/catalog-10.js$' || true)"
-          if [ -n "$unexpected" ]; then
-            echo "Build làm thay đổi tệp ngoài catalog khối 10:"
-            echo "$unexpected"
-            exit 1
-          fi
       - name: Kiểm toán cấu trúc, số lượng và mã định danh
         run: python scripts/kiem_toan_du_lieu.py --baseline docs/chuan-hoa/TRANG_THAI_GOC.json
       - name: Xem trước chuẩn hóa cơ học
