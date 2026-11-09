@@ -1,56 +1,59 @@
-# Thẩm định giao diện hiện trạng
+# Thẩm định giao diện và bằng chứng
 
-Ngày kiểm tra trực tiếp: 09/11/2026. Bản chạy: https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/  
-Cơ sở thay đổi đề xuất: PR-1 `chuan-hoa/du-lieu` (đang chờ xem xét; chưa merge).
+Ngày kiểm tra: 09/11/2026. Bản chạy thật: https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/  
+Nhánh chụp ảnh: `chuan-hoa/giao-dien-bang-chung`, xếp trên PR-1 #28. Chưa merge hay triển khai.
 
-## Bằng chứng hiện có
+## Phạm vi và bằng chứng
 
-- Mở trang chọn khối và khóa học Tin học 10 trên GitHub Pages bằng trình duyệt thật, cửa sổ hiển thị khoảng 1265 × 716 px.
-- Trang chọn khối hiện 3 thẻ 10/11/12; khi trình duyệt có dữ liệu cũ, thẻ “Tiếp tục học · Khối 10” xuất hiện.
-- Trang tổng quan khối 10 nêu 34 bài, 850 câu; main còn nhóm “CHỦ ĐỀ CHƯA PHÂN LOẠI” gồm 14 bài. PR-1 cập nhật nhãn trong `nguon/`; builder của PR-1 hết nhóm chưa phân loại.
-- Điều hướng có 5 mục: Tổng quan, Bài học, Ôn tập, Luyện tập, Tiến độ.
-- `course.html` có title động “Tự học Tin học 10”; header đổi thành Tin học 10. Hero vẫn có dòng “DIGITAL LEARNING HUB”.
-- Mục đề tham khảo đã thu gọn thành “SẮP CÓ” và một dòng thông báo.
-- `assets/css/style.css` có theme sáng/tối, `:focus-visible`, tokens màu và `prefers-reduced-motion`; danh sách bài có tìm kiếm/lọc, bài học liên kết ôn tập/luyện tập.
-- Workflow E2E hiện có chạy qua HTTP và file; PR-1 bổ sung kiểm thử tiến độ cũ 13/13. Chưa đo giao diện ở ba viewport.
-- Ảnh trang chủ được xem trong phiên trình duyệt nhưng chưa lưu được vào repository. Workflow mới chụp ảnh và tải artifact; chưa coi ảnh CI là có cho đến khi chạy xong.
+- Trình duyệt thật trên GitHub Pages xác nhận trang chọn khối, thẻ tiếp tục theo tiến độ đang có, tổng quan và danh sách 34 bài khối 10. Trước khi PR-1 được áp dụng, 14 bài hiện trong nhóm “CHỦ ĐỀ CHƯA PHÂN LOẠI”.
+- Playwright dựng dữ liệu từ `nguon/`, chạy trên máy chủ tĩnh nội bộ và chụp 81 ảnh: chọn khối, tổng quan, danh sách bài, bài học, ôn tập, cấu hình luyện tập, tiến độ ở 360 × 740, 768 × 1024, 1366 × 768; thêm theme tối, ba dạng câu hỏi, trạng thái rỗng, tải và lỗi ở điện thoại.
+- [Ảnh trước — artifact GitHub Actions, run #8](https://github.com/tranphuc2026abc-prog/website-tu-hoc-tin12/actions/runs/42548475155) (81 ảnh; trước các sửa giao diện).
+- [Ảnh sau — artifact GitHub Actions, run #14](https://github.com/tranphuc2026abc-prog/website-tu-hoc-tin12/actions/runs/42549392559) (81 ảnh và báo cáo số đo).
+- Artifact được giữ 30 ngày. Môi trường kết nối không chuyển được ZIP artifact vào cây tệp để commit ảnh PNG dưới `docs/ui/anh/`; vì vậy ảnh đang nằm trong artifact CI, chưa nằm trong lịch sử repository.
+- Kiểm tra DOM ở 360 px: trang chọn khối và tổng quan từng khối không tràn ngang; không tìm thấy điều khiển thiếu tên; sau sửa không còn điều khiển nhỏ hơn 44 × 44 px trên các màn này; focus nhìn thấy ở trang chủ và ba trang khóa học.
+- Tính từ màu token CSS theo công thức WCAG `(Lcao + 0,05) / (Lthấp + 0,05)`: chữ phụ sáng `#5c6c89` trên `--bg #f4f7fc` là 4,94:1, trên `--surface #fff` là 5,30:1; chữ chính `#263552` lần lượt 11,41:1 và 12,26:1. Ở theme tối, chữ phụ `#9aaccb` lần lượt 8,12:1 trên `#081226`, 7,30:1 trên `#101d36`; chữ chính `#d9e4fb` lần lượt 14,62:1 và 13,14:1. Đây là cặp màu token phẳng, không phải kiểm định mọi nội dung, ảnh nền hay gradient.
+- Workflow chụp ảnh không kiểm tra bằng trình đọc màn hình thật. Kiểm tra bàn phím mới xác nhận focus đầu tiên ở trang chủ và trang khóa học, không bao phủ toàn bộ thứ tự focus mọi màn.
+- PR-1 có kiểm tra tương thích tiến độ: 13/13 trường hợp, gồm khóa cũ của cả ba khối, học sinh mới, JSON hỏng và localStorage bị chặn.
 
-## Chấm điểm hiện trạng
+## Chấm điểm
 
-| Tiêu chí | Điểm / 5 | Căn cứ và giới hạn |
+| Tiêu chí | Điểm / 5 | Bằng chứng và giới hạn |
 |---|---:|---|
-| Cấu trúc thông tin và điều hướng | 4 | 3 khối ở trang đầu, 5 mục trong khóa; đường đi tới kho bài học/luyện tập rõ. |
-| Bố cục và phân cấp thị giác | 4 | Thẻ khối lớn, màu nhận diện riêng, tiêu đề rõ; chưa đo các viewport nhỏ bằng Playwright. |
-| Màu và tương phản | 4* | Tokens hiện tại: `--mut:#5c6c89`, chữ chính `#263552`, nền `#f4f7fc`; tỷ lệ runtime sẽ ghi sau CI. Điểm tạm, chưa chứng nhận WCAG. |
-| Chữ và khả năng đọc | 4 | Chữ cơ sở 15.5 px, line-height 1.7; chưa đo chiều dài dòng ở 360 px. |
-| Điện thoại | 3 | Có breakpoint; chưa có ảnh/đo thực tế 360 × 740 và 768 × 1024. |
-| Trải nghiệm học | 4 | Bài, ôn tập, luyện tập và tiến độ liên kết; lượt tập tối đa 10 câu, có MCQ/đúng-sai/tự luận. |
-| Truy cập | 3 | Có nhãn nav/tìm kiếm và focus-visible; cây truy cập hiện đọc cả glyph và chữ; chưa đo toàn bộ tên/vùng chạm/bàn phím. |
-| Tải và lỗi | 3 | Trạng thái tải là dòng chữ; loader có hướng dẫn lỗi và nút tải lại/chọn khối. Chưa mô phỏng mạng chậm. |
-| Nhất quán thương hiệu | 3 | Tên header tiếng Việt, nhưng hero còn “DIGITAL LEARNING HUB”; glyph icon lặp với SVG. |
+| Cấu trúc thông tin và điều hướng | 4 | Chọn khối, 5 mục điều hướng và các đường đến bài/luyện tập; tên điều hướng đã bỏ glyph lặp. |
+| Bố cục và phân cấp thị giác | 4 | 81 ảnh ba viewport; ảnh cho thấy các màn chính; chưa có đánh giá người dùng đại diện. |
+| Màu và tương phản | 4 | Các cặp token chữ/nền phẳng nêu trên đạt AA; chưa kiểm đầy đủ gradient, trạng thái đúng/sai và mọi component. |
+| Chữ và khả năng đọc | 4 | Chữ cơ sở 15 px trong trình duyệt chạy kiểm tra; chưa có thử nghiệm đọc bài dài với học sinh. |
+| Điện thoại | 4 | Không tràn ngang ở 360 px trên trang chọn khối/tổng quan; vùng chạm đo được đạt 44 px sau sửa. |
+| Trải nghiệm học | 4 | Bài, ôn tập, luyện tập theo ba dạng và tiến độ được chụp; không đo hiệu quả học tập. |
+| Truy cập | 4 | Điều hướng có tên, không còn glyph lặp, focus nhìn thấy ở màn đã đo; chưa thử screen reader và chưa rà mọi trang bằng bàn phím. |
+| Tải và lỗi | 3 | Ảnh trạng thái tải/lỗi; trang tải còn gọn, lỗi có hướng dẫn tải lại/chọn khối. |
+| Nhất quán thương hiệu | 4 | Các nhãn lộ trình tiếng Anh đã chuyển sang tiếng Việt; tên khóa động theo khối. |
 
 ## Kiểm chứng H1–H9
 
 | Mã | Kết luận | Bằng chứng |
 |---|---|---|
-| H1 | **ĐÚNG một phần** | Header chọn khối dùng tiếng Việt; hero khóa học còn “DIGITAL LEARNING HUB”. |
-| H2 | **SAI** | Trang chọn khối có thẻ tiếp tục khi tìm thấy dữ liệu `tin10.v1` hoặc khóa khác. PR-1 kiểm tra cả ba và trạng thái mới. |
-| H3 | **SAI** | Mục đề tham khảo đã thu thành dòng “SẮP CÓ” dưới ba thẻ khối. |
-| H4 | **ĐÚNG một phần** | Có SVG nhưng cây truy cập còn glyph ⌂ ▦ ◈ ⌘ ◴ cùng nhãn chữ; có khả năng đọc lặp. |
-| H5 | **ĐÚNG một phần** | Tải dùng dòng đơn; lỗi có heading, hướng dẫn thử lại và liên kết chọn khối. |
-| H6 | **SAI** | `course-loader.js` đặt document title/header theo khối, ví dụ “Tự học Tin học 10”/“TIN HỌC 10”. |
-| H7 | **SAI** | Mặc định nền sáng; có nút đổi theme và CSS dark mode. Chưa nghiên cứu mỏi mắt khi đọc dài. |
-| H8 | **ĐÚNG ở main hiện tại** | Main còn 14/34 bài khối 10 trong nhóm chưa phân loại. PR-1 gắn nhãn nguồn; builder đã hết nhóm này. Tìm kiếm/lọc trạng thái đang có. |
-| H9 | **KHÔNG KẾT LUẬN ĐƯỢC toàn bộ** | Đã xác minh có 3 dạng câu hỏi, phản hồi, theme, tiến độ. Tương phản runtime, vùng chạm, bàn phím mọi trang, bảng/code cuộn riêng và các trạng thái còn chờ workflow. |
+| H1 | **ĐÚNG một phần; đã xử lý phần nhìn thấy** | Hero trước đây có “DIGITAL LEARNING HUB” và “LEARNING ROADMAP”; nhánh này chuyển nhãn đó sang tiếng Việt. |
+| H2 | **SAI** | Thẻ “Tiếp tục học” đã có khi tồn tại tiến độ; kiểm tra mới xác nhận link đúng khối/bài cho cả 10, 11, 12 và vắng mặt với học sinh mới. Kiểm tra tương thích cũ đạt 13/13 ở PR-1. |
+| H3 | **SAI** | Mục ôn thi đã thu gọn thành dòng “SẮP CÓ” trên giao diện đang chạy. |
+| H4 | **ĐÚNG; đã sửa** | Cây truy cập trước đây đọc glyph và nhãn chữ lặp. Bản sửa bỏ glyph ký tự ở điều hướng, giữ SVG trang trí có `aria-hidden`; Playwright xác nhận không còn các glyph đó trong nhãn. |
+| H5 | **ĐÚNG một phần** | Trang chờ dùng khung trạng thái tải; lỗi có hướng dẫn thử lại và chọn khối. Chưa thiết kế lại thành bộ khung chờ. |
+| H6 | **SAI** | Tiêu đề khóa học và document title lấy đúng khối, ví dụ “Tự học Tin học 10”. |
+| H7 | **SAI** | Theme sáng là mặc định và có chế độ tối. Không có dữ liệu người dùng về mỏi mắt khi đọc lâu. |
+| H8 | **ĐÚNG trên Pages/main trước PR-1; được xử lý trong nguồn của PR-1** | Trình duyệt Pages trước thay đổi cho thấy 14/34 bài khối 10 trong nhóm chưa phân loại. PR-1 gán chủ đề độ tin cậy cao trong `nguon/`; build của nhánh PR-1 hết nhóm. Bản chạy chính thức chỉ đổi sau khi chủ sản phẩm xem xét và merge theo quy trình. |
+| H9 | **ĐÚNG một phần** | Có 81 ảnh, 16 kiểm tra DOM/keyboard vượt qua, không có điều khiển thiếu tên, mục tiêu chạm nhỏ, hoặc cảnh báo tương phản trong mẫu chữ nền phẳng. Chưa kết luận được screen reader, toàn bộ bàn phím, mọi màu trạng thái, hành vi mạng yếu và mọi kiểu câu hỏi sau khi nộp/chấm. |
 
-## Vấn đề theo mức ưu tiên
+## Thay đổi giao diện đã chọn
 
-1. **Cao — đo trực tiếp màn hình điện thoại:** chưa có bằng chứng trước ở 360/768 px.
-2. **Trung bình — tên truy cập lặp glyph và nhãn:** markup nav có ký tự và SVG cùng lúc.
-3. **Trung bình — hero dùng tiếng Anh:** còn “DIGITAL LEARNING HUB”.
-4. **Trung bình — phân nhóm bài khối 10:** main chưa nhận PR-1; cần xác nhận build của nhánh xếp chồng.
-5. **Thấp — trạng thái chờ:** dòng tải gọn; trạng thái lỗi đã có hướng dẫn.
+1. Tăng mục tiêu chạm logo và nút theme lên ít nhất 44 px; tăng ô bài trên điện thoại từ 39 lên 44 px.
+2. Bỏ ký tự glyph đứng trước biểu tượng SVG ở 5 mục điều hướng để tên không bị đọc lặp.
+3. Việt hóa nhãn thương hiệu phụ trong hero và bản đồ bài học.
 
-## Phạm vi và phần chưa kiểm chứng
+Các thay đổi giữ nguyên route, dữ liệu, mã bài/câu hỏi, localStorage, Supabase và logic chấm điểm. `git compare` PR-2 với PR-1 không có tệp `data/` hoặc `nguon/` thay đổi.
 
-Không thay đổi nội dung bài, câu hỏi, đáp án, chấm điểm, localStorage, Supabase hoặc triển khai Pages. Chưa thử trình đọc màn hình thật; kiểm tra tên accessible trong Playwright là kiểm tra DOM, không phải chứng nhận WCAG. Tương phản phải tính theo màu runtime từng thành phần và nền thực tế.
+## Vấn đề còn lại
+
+- Ảnh có thể xem ở artifact trước/sau; chưa lưu PNG trong repository.
+- Nhóm “Chủ đề chưa phân loại” không còn xuất hiện sau khi build nhánh có phân loại của PR-1; chưa có ảnh kiểm thử riêng cho fallback này.
+- Cần kiểm tra screen reader, bàn phím qua toàn bộ các màn, tương phản gradient/trạng thái đúng sai, bảng và khối mã trên màn nhỏ.
+- Cấu hình Supabase, LICENSE và nội dung nghi vấn nằm ngoài phạm vi PR giao diện; xem báo cáo dữ liệu/README.
