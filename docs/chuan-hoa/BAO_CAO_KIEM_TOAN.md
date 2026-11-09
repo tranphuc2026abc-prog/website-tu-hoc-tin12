@@ -2,7 +2,7 @@
 
 ## Phạm vi và bằng chứng chạy
 
-Kiểm toán được chạy trong GitHub Actions trên PR #28, commit `9c211e6864ceed7af4f83d6094ddf7079f6e91a6`, bằng:
+Kiểm toán được chạy trong GitHub Actions trên PR #28, commit `ae5ca7cf202a667e8c3f9f5e44982ffc7d317704`, bằng:
 
 - `python scripts/build_all_grades.py`
 - `python scripts/build_single.py`
@@ -38,8 +38,10 @@ Sau khi chạy builder trước kiểm toán, catalog không còn bài khối 10
 
 ## Tình trạng build và giới hạn kiểm chứng
 
-- Cả hai lệnh build kết thúc thành công; E2E hiện có kết thúc thành công với 36/36 kiểm tra ở chế độ tệp ngoại tuyến.
-- Workflow kiểm toán đã đạt; build tạo đầu ra hợp lệ để kiểm toán.
+- Cả hai lệnh build kết thúc thành công. Workflow kiểm toán #22 (run ID `42545952675`) đạt; kiểm thử tiến độ cũ đạt 13/13.
+- E2E hiện có: workflow #67 (run ID `42545952677`) đạt 47/47 qua HTTP và 36/36 qua tệp ngoại tuyến; kiểm tra Pages #140 (run ID `42545952679`) đạt phần xác thực, bước deploy bị bỏ qua theo điều kiện của PR.
+- Kiểm thử tương thích tiến độ cũ đặt dữ liệu mẫu trong Chromium cô lập: thẻ tiếp tục và hai mục tiến độ được đọc đúng cho khối 10/11/12; học sinh mới không thấy thẻ; JSON hỏng được bỏ qua; trang vẫn mở khi localStorage bị chặn.
+- So sánh PR #28 với commit gốc xác nhận không có tệp `data/` trong diff; mã bài/câu giữ nguyên theo snapshot và audit.
 - Trong bản checkout CI, builder tạo khác biệt ở nhiều tệp sinh dưới `data/` so với phiên bản đã commit. Những đầu ra này không được đưa vào PR; so sánh GitHub PR #28 với commit gốc xác nhận không có tệp `data/` trong danh sách thay đổi. Đây là khác biệt giữa kết quả build và bản sinh đang lưu; cần duy trì việc rà soát output trước khi commit dữ liệu sinh.
 - Kiểm thử trình duyệt của workflow hiện có chủ yếu dùng khối 12 và chế độ file. Chưa có bằng chứng riêng trong giai đoạn này cho khả năng tương thích mọi mẫu tiến độ cũ ở cả ba khối.
 - Chưa thẩm định tính đúng/sai chuyên môn; các cảnh báo chỉ nhằm chỉ điểm cấu trúc, mã định danh và văn bản cần người phụ trách xem xét.
