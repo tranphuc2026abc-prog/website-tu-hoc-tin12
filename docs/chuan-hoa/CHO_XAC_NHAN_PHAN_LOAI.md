@@ -22,6 +22,6 @@ Bài 1, 16–32, 33–34 giữ nguyên nhãn chủ đề hiện có trong nguồ
 - Bảng mục lục nguồn được cập nhật tại `nguon/khoi-10/README.md`; nhãn từng bài được ghi trong phần `## Chủ đề` của tệp tương ứng.
 - Nhãn được dùng để phân nhóm điều hướng trong website, không khẳng định đây là tên chủ đề ghi nguyên văn trong KHBD.
 
-## Còn cần rà soát
+## Kết quả kiểm tra
 
-Chưa chạy lại bộ dựng dữ liệu sau thay đổi trong phiên làm việc này. CI của nhánh cần xác nhận catalog sinh ra phản ánh nhãn mới và không làm thay đổi số lượng/mã câu hỏi. Các đề xuất ghép mạch là phân loại điều hướng dựa trên nội dung và chương trình chính thức, cần giáo viên chủ sản phẩm xem xét trước khi hợp nhất.
+GitHub Actions đã chạy builder trước kiểm toán. Catalog sinh ra không còn bài Tin học 10 mang nhãn “Chủ đề chưa phân loại”; số bài, tổng câu, loại câu và tập ID giữ nguyên so với snapshot. Chi tiết kiểm toán tại `BAO_CAO_KIEM_TOAN.md`. Phân nhóm trên là metadata điều hướng dựa trên nội dung KHBD và mạch chương trình chính thức; giáo viên chủ sản phẩm có thể rà lại lựa chọn nhóm trước khi hợp nhất.
