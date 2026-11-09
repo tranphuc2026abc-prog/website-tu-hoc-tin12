@@ -40,6 +40,26 @@ jobs:
         run: |
           python scripts/build_all_grades.py
           python scripts/build_single.py
+      - name: Kiểm tra phạm vi thay đổi sau build
+        run: |
+          changed="$(git diff --name-only)"
+          printf '%s\\n' "$changed"
+          unexpected="$(printf '%s\\n' "$changed" | grep -Ev '^(data/catalog-10.js)?        run: python scripts/kiem_toan_du_lieu.py --baseline docs/chuan-hoa/TRANG_THAI_GOC.json
+      - name: Xem trước chuẩn hóa cơ học
+        run: python scripts/chuan_hoa_nguon.py --kiem-tra
+      - name: Kiểm tra chế độ áp dụng trên bản sao tạm
+        run: |
+          temp_root="$(mktemp -d)"
+          mkdir -p "$temp_root/scripts"
+          cp scripts/chuan_hoa_nguon.py "$temp_root/scripts/"
+          cp -a nguon "$temp_root/nguon"
+          python "$temp_root/scripts/chuan_hoa_nguon.py" --ap-dung --root "$temp_root"
+ || true)"
+          if [ -n "$unexpected" ]; then
+            echo "Build làm thay đổi tệp ngoài catalog khối 10:"
+            printf '%s\\n' "$unexpected"
+            exit 1
+          fi
       - name: Kiểm toán cấu trúc, số lượng và mã định danh
         run: python scripts/kiem_toan_du_lieu.py --baseline docs/chuan-hoa/TRANG_THAI_GOC.json
       - name: Xem trước chuẩn hóa cơ học
