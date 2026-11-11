@@ -1,0 +1,17 @@
+[
+  {
+    "loi": "Đồng nhất dữ liệu với thông tin.",
+    "nguyen_nhan": "Chưa phân biệt dữ liệu là biểu diễn ban đầu và thông tin là ý nghĩa rút ra sau khi xử lí.",
+    "khac_phuc": "Lấy ví dụ '38,5' là dữ liệu; khi biết đó là nhiệt độ cơ thể đo bằng °C, em mới hiểu thông tin về tình trạng sốt. Luôn hỏi dữ liệu này nói về điều gì."
+  },
+  {
+    "loi": "Đổi đơn vị dung lượng theo hệ số 1000 trong bài tập dùng hệ nhị phân.",
+    "nguyen_nhan": "Nhầm quy ước 1 KiB = 1024 byte với đơn vị thập phân.",
+    "khac_phuc": "Đọc rõ đơn vị đề bài; với KiB, MiB, GiB dùng hệ số 1024. Ví dụ 2 KiB = 2048 byte; ghi đơn vị sau kết quả."
+  },
+  {
+    "loi": "Cho rằng máy tính tự hiểu đúng mọi dữ liệu đầu vào.",
+    "nguyen_nhan": "Bỏ qua việc nhập dữ liệu chính xác và chọn cách xử lí phù hợp.",
+    "khac_phuc": "Kiểm tra nguồn và định dạng dữ liệu trước khi tính toán; đối chiếu kết quả với thực tế, nhất là khi dữ liệu thiếu hoặc nhập sai."
+  }
+]
