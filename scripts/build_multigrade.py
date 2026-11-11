@@ -298,6 +298,15 @@ def build_grade(grade, expected):
         )
         sec["terms"] = [{"t": "ul", "i": [{"x": "**" + item["t"] + "** — " + item["d"]} for item in terms]}]
         sec["ex"] = [{"t": "ul", "i": [{"x": item} for item in examples]}]
+        # Prefer hand-authored student-facing errors over raw KHBD extraction.
+        # Each record explains the mistake, its cause, and an actionable remedy.
+        curated_path = ROOT / "hoc-lieu-chuan-hoa" / ("khoi-" + str(grade)) / ("BAI_%02d_ERRORS.json" % n)
+        if curated_path.exists():
+            curated = json.loads(curated_path.read_text(encoding="utf-8"))
+            assert isinstance(curated, list) and curated, "Empty curated errors: " + str(curated_path)
+            for item in curated:
+                assert all(isinstance(item.get(k), str) and item[k].strip() for k in ("loi", "nguyen_nhan", "khac_phuc")), curated_path
+            cautions = ["**Lỗi:** " + item["loi"].strip() + " **Nguyên nhân:** " + item["nguyen_nhan"].strip() + " **Cách khắc phục:** " + item["khac_phuc"].strip() for item in curated]
         sec["err"] = [{"t": "ul", "i": [{"x": item} for item in cautions]}]
         sec["rem"] = [{"t": "ul", "i": [{"x": item} for item in reminders]}]
         if acts:
@@ -324,6 +333,7 @@ def build_grade(grade, expected):
                                 re.search(r"```text\s*\n([\s\S]*?)\n```", (folder / ("BAI_%02d.md" % item["n"])).read_text(encoding="utf-8")).group(1) if re.search(r"```text\s*\n([\s\S]*?)\n```", (folder / ("BAI_%02d.md" % item["n"])).read_text(encoding="utf-8")) else "")
         item["topic"] = topics.index(topic_name)
     data_files = lessons + [folder / "ngan-hang-cau-hoi" / ("BAI_%02d_QUESTIONS.json" % i) for i in range(1, expected + 1)]
+    data_files += sorted((ROOT / "hoc-lieu-chuan-hoa" / ("khoi-" + str(grade))).glob("BAI_*_ERRORS.json"))
     version = data_version(data_files)
     cat = {"grade": grade, "courseTitle": "Tin học %d" % grade, "dataVersion": version, "topics": topics, "rel": rel,
            "hk": {"HK1": [1, (expected + 1)//2], "HK2": [(expected + 1)//2 + 1, expected]},
