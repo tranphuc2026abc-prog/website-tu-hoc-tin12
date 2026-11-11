@@ -311,7 +311,14 @@ def build_grade(grade, expected):
         sec["rem"] = [{"t": "ul", "i": [{"x": item} for item in reminders]}]
         if acts:
             sec["steps"] = [{"t": "ul", "i": [{"x": x} for x in acts]}]
-        lessons_data = {"sec": sec, "terms": terms, "txt": full_text, "src": str(path.relative_to(ROOT)).replace("\\", "/")}
+        # Index student-facing content only; keep raw KHBD in nguon/ for reference.
+        searchable = []
+        for section_blocks in sec.values():
+            for block in section_blocks:
+                searchable.append(block.get("x", ""))
+                searchable.extend(item.get("x", "") for item in block.get("i", []))
+        lessons_data = {"sec": sec, "terms": terms, "txt": "\n".join(searchable),
+                        "src": str(path.relative_to(ROOT)).replace("\\", "/")}
         (OUT / "lessons").mkdir(parents=True, exist_ok=True)
         (OUT / "lessons" / (lesson_id + ".js")).write_text(REG % ("L", lesson_id, js(lessons_data)), encoding="utf-8")
         qpath = folder / "ngan-hang-cau-hoi" / ("BAI_%02d_QUESTIONS.json" % n)
