@@ -1,0 +1,17 @@
+[
+  {
+    "loi": "Nhầm kí tự số với giá trị số",
+    "nguyen_nhan": "Cả hai cùng hiển thị dạng chữ số",
+    "khac_phuc": "So sánh văn bản '12' với số 12: văn bản dùng để ghép kí tự, số dùng để tính toán; xác định kiểu dữ liệu trước khi xử lí"
+  },
+  {
+    "loi": "Cho rằng ASCII biểu diễn đầy đủ chữ tiếng Việt có dấu",
+    "nguyen_nhan": "Chưa phân biệt bảng mã ASCII cơ bản với Unicode",
+    "khac_phuc": "Dùng Unicode cho văn bản tiếng Việt; khi chữ bị lỗi, kiểm tra bảng mã và cách lưu tệp, ưu tiên UTF-8"
+  },
+  {
+    "loi": "Nhầm mã hóa kí tự với hình ảnh chụp chữ",
+    "nguyen_nhan": "Không hiểu văn bản số lưu các mã kí tự thay vì lưu hình dạng từng chữ",
+    "khac_phuc": "Thử sao chép và tìm kiếm một đoạn văn bản thật, rồi so sánh với ảnh chụp đoạn văn; giải thích vì sao ảnh không thể tìm chữ trực tiếp nếu chưa nhận dạng"
+  }
+]
