@@ -240,7 +240,7 @@ def lesson_sections(md, title, goals, key):
         if caution_marker.search(sentence) and student_facing(sentence):
             cautions.append(sentence)
     if not cautions:
-        cautions = ["KHBD chưa nêu lỗi thường gặp cụ thể cho bài này. Hãy kiểm tra lại kết quả theo mục tiêu bài học: " + (goals[0] if goals else title) + "."]
+        cautions = []  # Never publish placeholder KHBD text as student-facing advice.
     cautions = list(dict.fromkeys(cautions))[:3]
 
     reminders = []
@@ -307,6 +307,12 @@ def build_grade(grade, expected):
             for item in curated:
                 assert all(isinstance(item.get(k), str) and item[k].strip() for k in ("loi", "nguyen_nhan", "khac_phuc")), curated_path
             cautions = ["**Lỗi:** " + item["loi"].strip() + " **Nguyên nhân:** " + item["nguyen_nhan"].strip() + " **Cách khắc phục:** " + item["khac_phuc"].strip() for item in curated]
+        # Quality gate: every lesson must have real, curated errors before publishing.
+        assert curated_path.exists(), (
+            "Missing student-facing common errors for " + lesson_id
+            + "; do not publish a placeholder extracted from KHBD."
+        )
+        assert len(cautions) >= 2, "Insufficient common errors: " + lesson_id
         sec["err"] = [{"t": "ul", "i": [{"x": item} for item in cautions]}]
         sec["rem"] = [{"t": "ul", "i": [{"x": item} for item in reminders]}]
         if acts:
