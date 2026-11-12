@@ -8,7 +8,7 @@ document.title = 'Tự học Tin học ' + grade;
 const load = src => new Promise((resolve,reject) => { const s=document.createElement('script'); s.src=src; s.onload=resolve; s.onerror=()=>reject(new Error(src)); document.head.append(s); });
 (async () => {
  try {
-   await load(grade === '12' ? 'data/catalog.js' : 'data/catalog-' + grade + '.js');
+   await load(grade === '12' ? 'data/catalog.js' : 'data/catalog-' + grade + '.js?v=20261112-errors-v2');
    const T = window.T;
    if (!T || !T.cat) throw new Error('catalog');
    T.cat.grade = Number(grade);
