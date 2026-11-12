@@ -240,7 +240,7 @@ def lesson_sections(md, title, goals, key):
         if caution_marker.search(sentence) and student_facing(sentence):
             cautions.append(sentence)
     if not cautions:
-        cautions = ["KHBD chưa nêu lỗi thường gặp cụ thể cho bài này. Hãy kiểm tra lại kết quả theo mục tiêu bài học: " + (goals[0] if goals else title) + "."]
+        cautions = []  # Never publish placeholder KHBD text as student-facing advice.
     cautions = list(dict.fromkeys(cautions))[:3]
 
     reminders = []
@@ -298,11 +298,33 @@ def build_grade(grade, expected):
         )
         sec["terms"] = [{"t": "ul", "i": [{"x": "**" + item["t"] + "** — " + item["d"]} for item in terms]}]
         sec["ex"] = [{"t": "ul", "i": [{"x": item} for item in examples]}]
+        # Prefer hand-authored student-facing errors over raw KHBD extraction.
+        # Each record explains the mistake, its cause, and an actionable remedy.
+        curated_path = ROOT / "hoc-lieu-chuan-hoa" / ("khoi-" + str(grade)) / ("BAI_%02d_ERRORS.json" % n)
+        if curated_path.exists():
+            curated = json.loads(curated_path.read_text(encoding="utf-8"))
+            assert isinstance(curated, list) and curated, "Empty curated errors: " + str(curated_path)
+            for item in curated:
+                assert all(isinstance(item.get(k), str) and item[k].strip() for k in ("loi", "nguyen_nhan", "khac_phuc")), curated_path
+            cautions = ["**Lỗi:** " + item["loi"].strip() + " **Nguyên nhân:** " + item["nguyen_nhan"].strip() + " **Cách khắc phục:** " + item["khac_phuc"].strip() for item in curated]
+        # Quality gate: every lesson must have real, curated errors before publishing.
+        assert curated_path.exists(), (
+            "Missing student-facing common errors for " + lesson_id
+            + "; do not publish a placeholder extracted from KHBD."
+        )
+        assert len(cautions) >= 2, "Insufficient common errors: " + lesson_id
         sec["err"] = [{"t": "ul", "i": [{"x": item} for item in cautions]}]
         sec["rem"] = [{"t": "ul", "i": [{"x": item} for item in reminders]}]
         if acts:
             sec["steps"] = [{"t": "ul", "i": [{"x": x} for x in acts]}]
-        lessons_data = {"sec": sec, "terms": terms, "txt": full_text, "src": str(path.relative_to(ROOT)).replace("\\", "/")}
+        # Index student-facing content only; keep raw KHBD in nguon/ for reference.
+        searchable = []
+        for section_blocks in sec.values():
+            for block in section_blocks:
+                searchable.append(block.get("x", ""))
+                searchable.extend(item.get("x", "") for item in block.get("i", []))
+        lessons_data = {"sec": sec, "terms": terms, "txt": "\n".join(searchable),
+                        "src": str(path.relative_to(ROOT)).replace("\\", "/")}
         (OUT / "lessons").mkdir(parents=True, exist_ok=True)
         (OUT / "lessons" / (lesson_id + ".js")).write_text(REG % ("L", lesson_id, js(lessons_data)), encoding="utf-8")
         qpath = folder / "ngan-hang-cau-hoi" / ("BAI_%02d_QUESTIONS.json" % n)
@@ -324,6 +346,7 @@ def build_grade(grade, expected):
                                 re.search(r"```text\s*\n([\s\S]*?)\n```", (folder / ("BAI_%02d.md" % item["n"])).read_text(encoding="utf-8")).group(1) if re.search(r"```text\s*\n([\s\S]*?)\n```", (folder / ("BAI_%02d.md" % item["n"])).read_text(encoding="utf-8")) else "")
         item["topic"] = topics.index(topic_name)
     data_files = lessons + [folder / "ngan-hang-cau-hoi" / ("BAI_%02d_QUESTIONS.json" % i) for i in range(1, expected + 1)]
+    data_files += sorted((ROOT / "hoc-lieu-chuan-hoa" / ("khoi-" + str(grade))).glob("BAI_*_ERRORS.json"))
     version = data_version(data_files)
     cat = {"grade": grade, "courseTitle": "Tin học %d" % grade, "dataVersion": version, "topics": topics, "rel": rel,
            "hk": {"HK1": [1, (expected + 1)//2], "HK2": [(expected + 1)//2 + 1, expected]},
