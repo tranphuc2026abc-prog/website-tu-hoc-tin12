@@ -3,7 +3,7 @@
 > Học liệu được chuyển định dạng từ KHBD Tin học 10 do giáo viên cung cấp. Nội dung trích xuất đầy đủ được giữ ở phần cuối để đối chiếu.
 
 ## Chủ đề
-Chủ đề không ghi trong tệp
+ĐẠO ĐỨC, PHÁP LUẬT VÀ VĂN HÓA TRONG MÔI TRƯỜNG SỐ
 
 ## Mục tiêu kiến thức từ KHBD
 

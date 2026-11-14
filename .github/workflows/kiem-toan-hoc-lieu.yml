@@ -1,0 +1,65 @@
+name: Kiểm toán kho học liệu
+
+on:
+  push:
+    branches: [chuan-hoa/du-lieu]
+    paths:
+      - 'scripts/kiem_toan_du_lieu.py'
+      - 'scripts/chuan_hoa_nguon.py'
+      - 'docs/chuan-hoa/**'
+      - 'nguon/khoi-10/**'
+      - 'nguon/khoi-11/**'
+      - 'nguon/ngan-hang-cau-hoi/**'
+      - 'nguon/kien-thuc-chuan-hoa/**'
+      - '.github/workflows/kiem-toan-hoc-lieu.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/kiem_toan_du_lieu.py'
+      - 'scripts/chuan_hoa_nguon.py'
+      - 'docs/chuan-hoa/**'
+      - 'nguon/khoi-10/**'
+      - 'nguon/khoi-11/**'
+      - 'nguon/ngan-hang-cau-hoi/**'
+      - 'nguon/kien-thuc-chuan-hoa/**'
+      - '.github/workflows/kiem-toan-hoc-lieu.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dựng lại dữ liệu nhiều khối và bản một tệp
+        run: |
+          python scripts/build_all_grades.py
+          python scripts/build_single.py
+      - name: Kiểm toán cấu trúc, số lượng và mã định danh
+        run: python scripts/kiem_toan_du_lieu.py --baseline docs/chuan-hoa/TRANG_THAI_GOC.json
+      - name: Xem trước chuẩn hóa cơ học
+        run: python scripts/chuan_hoa_nguon.py --kiem-tra
+      - name: Kiểm tra chế độ áp dụng trên bản sao tạm
+        run: |
+          temp_root="$(mktemp -d)"
+          mkdir -p "$temp_root/scripts"
+          cp scripts/chuan_hoa_nguon.py "$temp_root/scripts/"
+          cp -a nguon "$temp_root/nguon"
+          python "$temp_root/scripts/chuan_hoa_nguon.py" --ap-dung --root "$temp_root"
+      - name: Cài Node và Playwright cho kiểm thử tương thích tiến độ
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Cài Playwright trên runner
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Kiểm tra tiếp tục học, dữ liệu cũ và lưu trữ lỗi
+        env:
+          PW: playwright
+        run: node tests/compatibility-progress.js
