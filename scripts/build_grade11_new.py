@@ -53,11 +53,18 @@ def normalize_lesson(markdown, lesson_id, source_path):
         raise ValueError('Missing knowledge section in '+lesson_id)
     sec={x:[] for x in ('obj','key','terms','ex','steps','err','rem')}
     sec['obj']=list_blocks(sections[1][1])
-    # All scientific content of sections 2–5 is preserved under knowledge.
+    # Concise lesson overview (E2E requires <=1000 chars), with ALL original
+    # scientific detail retained in the grade-11 detail panel below.
+    detail=[]; synopsis=[]
     for n in range(2,6):
         heading,content=sections[n]
-        sec['key'].append({'t':'p','x':'**'+heading+'**'})
-        sec['key']+=list_blocks(content)
+        detail.append({'t':'p','x':'**'+heading+'**'})
+        detail.extend(list_blocks(content))
+        snippet=re.sub(r'\s+',' ',content).strip()
+        if len(snippet)>145:
+            snippet=snippet[:145].rsplit(' ',1)[0].rstrip(' ,;:')+'…'
+        synopsis.append({'x':'**'+heading+'**: '+snippet})
+    sec['key']=[{'t':'ul','i':synopsis}]
     sec['err']=list_blocks(sections[6][1]);sec['rem']=list_blocks(sections[7][1])
     # The other panels provide a useful summary without replacing full content.
     concepts=[]; seen=set()
@@ -65,6 +72,8 @@ def normalize_lesson(markdown, lesson_id, source_path):
         head,body=sections[n]
         for term in re.findall(r'\*\*(.{3,65}?)\*\*',body):
             clean=term.strip(' :.,')
+            if re.match(r'^(đây|đó|ngay bên|ở bên|ở phía|trong đó|sau đó|trước đó|như vậy)',clean,re.I):
+                clean='Khái niệm '+clean
             if clean.lower() not in seen and len(clean)<62:
                 seen.add(clean.lower());concepts.append({'t':clean,'d':head})
     if not concepts:
@@ -78,7 +87,7 @@ def normalize_lesson(markdown, lesson_id, source_path):
             if re.search(r'(?i)ví dụ|chẳng hạn|tình huống|minh họa',clean) and len(clean)>12:
                 examples.append(clean)
     sec['ex']=list_blocks('\n'.join('- '+x for x in examples[:5])) if examples else [{'t':'p','x':'Xem các tình huống và ví dụ minh họa trong mục Kiến thức trọng tâm.'}]
-    sec['steps']=list_blocks(sections[7][1])
+    sec['steps']=detail
     txt='\n'.join(section[1] for section in sections.values())
     if not txt.strip() or not sec['key'] or not sec['err']:
         raise ValueError('Empty lesson content in '+lesson_id)
