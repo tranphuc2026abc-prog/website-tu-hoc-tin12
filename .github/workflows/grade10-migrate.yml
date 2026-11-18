@@ -1,0 +1,51 @@
+name: Import reviewed Tin hoc 10 source bank
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/grade10_payload/NGAN_HANG_CAU_HOI_TIN_10_DA_THAM_DINH.zip'
+      - '.github/grade10_payload/part-*.txt'
+permissions:
+  contents: write
+jobs:
+  import-reviewed-bank:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Restore and verify the 34 reviewed JSON files
+        run: python scripts/grade10_migrate.py
+      - name: Rebuild grade 10 without changing grade 11 or 12 sources
+        run: python scripts/build_all_grades.py nguon
+      - name: Validate grade-10 output
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+          n=0
+          for i in range(1,35):
+              p=Path(f'nguon/khoi-10/ngan-hang-cau-hoi/BAI_{i:02d}_QUESTIONS.json')
+              d=json.loads(p.read_text(encoding='utf-8'))
+              n+=d['thong_ke']['tong_so_cau']
+              js=Path(f'data/questions/ICT10_B{i:02d}.js').read_text(encoding='utf-8')
+              a=json.loads(js.split("]=",1)[1].rstrip(';\n'))
+              assert len(a)==d['thong_ke']['tong_so_cau'], (i,len(a))
+          assert n==1117,n
+          print('Validated 34 lessons / 1117 questions')
+          PY
+      - name: Commit only grade-10 source and generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nguon/khoi-10/ngan-hang-cau-hoi/BAI_*_QUESTIONS.json
+          git add data/questions/ICT10_B*.js data/catalog-10.js
+          git rm -r .github/grade10_payload
+          git diff --cached --quiet && exit 0
+          git commit -m "Import reviewed Tin hoc 10 bank: 1117 questions"
+          git push
