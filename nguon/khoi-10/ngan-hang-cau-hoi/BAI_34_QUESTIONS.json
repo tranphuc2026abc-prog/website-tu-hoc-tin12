@@ -1,424 +1,452 @@
 {
-  "ma_bai": "BAI_34",
   "bai_so": 34,
-  "ten_bai": "Nghề phát triển phần mềm",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
+    "dung_sai": [],
+    "tra_loi_ngan": [
       {
-        "id": "T10-B34-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Bảo trì phần mềm",
+        "giai_thich": "Bảo trì giúp phần mềm duy trì ổn định và thích nghi với nhu cầu mới.",
+        "id": "B34_BS_TLN_01",
         "muc_do": "Nhận biết",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Phát biểu nào đúng về nội dung 1?",
-        "lua_chon": {
-          "A": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "B": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "C": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "D": "Lập trình chuyển thiết kế thành mã lệnh."
-        },
-        "dap_an": "C",
-        "giai_thich": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu."
-      },
-      {
-        "id": "T10-B34-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-        "lua_chon": {
-          "A": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "B": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "C": "Lập trình chuyển thiết kế thành mã lệnh.",
-          "D": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu."
-        },
-        "dap_an": "D",
-        "giai_thich": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu."
-      },
-      {
-        "id": "T10-B34-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 1?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "D": "Lập trình chuyển thiết kế thành mã lệnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu."
-      },
-      {
-        "id": "T10-B34-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Phát biểu nào đúng về nội dung 2?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "C": "Lập trình chuyển thiết kế thành mã lệnh.",
-          "D": "Phân tích yêu cầu giúp xác định người dùng cần gì."
-        },
-        "dap_an": "D",
-        "giai_thich": "Phân tích yêu cầu giúp xác định người dùng cần gì."
-      },
-      {
-        "id": "T10-B34-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Phân tích yêu cầu giúp xác định người dùng cần gì.",
-        "lua_chon": {
-          "A": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "B": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "C": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "D": "Lập trình chuyển thiết kế thành mã lệnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Phân tích yêu cầu giúp xác định người dùng cần gì."
-      },
-      {
-        "id": "T10-B34-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 2?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "D": "Lập trình chuyển thiết kế thành mã lệnh."
-        },
-        "dap_an": "B",
-        "giai_thich": "Phân tích yêu cầu giúp xác định người dùng cần gì."
-      },
-      {
-        "id": "T10-B34-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Phát biểu nào đúng về nội dung 3?",
-        "lua_chon": {
-          "A": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "B": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "C": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "D": "Lập trình chuyển thiết kế thành mã lệnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-      },
-      {
-        "id": "T10-B34-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "C": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "D": "Lập trình chuyển thiết kế thành mã lệnh."
-        },
-        "dap_an": "B",
-        "giai_thich": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-      },
-      {
-        "id": "T10-B34-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 3?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "D": "Lập trình chuyển thiết kế thành mã lệnh."
-        },
-        "dap_an": "C",
-        "giai_thich": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-      },
-      {
-        "id": "T10-B34-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Phát biểu nào đúng về nội dung 4?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Lập trình chuyển thiết kế thành mã lệnh.",
-          "C": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "B",
-        "giai_thich": "Lập trình chuyển thiết kế thành mã lệnh."
-      },
-      {
-        "id": "T10-B34-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Lập trình chuyển thiết kế thành mã lệnh.",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Lập trình chuyển thiết kế thành mã lệnh.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "C",
-        "giai_thich": "Lập trình chuyển thiết kế thành mã lệnh."
-      },
-      {
-        "id": "T10-B34-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 4?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "D": "Lập trình chuyển thiết kế thành mã lệnh."
-        },
-        "dap_an": "D",
-        "giai_thich": "Lập trình chuyển thiết kế thành mã lệnh."
-      },
-      {
-        "id": "T10-B34-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Phát biểu nào đúng về nội dung 5?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Kiểm thử tìm lỗi và xác nhận chức năng.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "C",
-        "giai_thich": "Kiểm thử tìm lỗi và xác nhận chức năng."
-      },
-      {
-        "id": "T10-B34-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Kiểm thử tìm lỗi và xác nhận chức năng.",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "D": "Kiểm thử tìm lỗi và xác nhận chức năng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Kiểm thử tìm lỗi và xác nhận chức năng."
-      },
-      {
-        "id": "T10-B34-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 5?",
-        "lua_chon": {
-          "A": "Kiểm thử tìm lỗi và xác nhận chức năng.",
-          "B": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "C": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "A",
-        "giai_thich": "Kiểm thử tìm lỗi và xác nhận chức năng."
-      },
-      {
-        "id": "T10-B34-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Phát biểu nào đúng về nội dung 6?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "D": "Dự án phần mềm cần giao tiếp và phối hợp nhóm."
-        },
-        "dap_an": "D",
-        "giai_thich": "Dự án phần mềm cần giao tiếp và phối hợp nhóm."
-      },
-      {
-        "id": "T10-B34-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Dự án phần mềm cần giao tiếp và phối hợp nhóm.",
-        "lua_chon": {
-          "A": "Dự án phần mềm cần giao tiếp và phối hợp nhóm.",
-          "B": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "C": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "A",
-        "giai_thich": "Dự án phần mềm cần giao tiếp và phối hợp nhóm."
-      },
-      {
-        "id": "T10-B34-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 6?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Dự án phần mềm cần giao tiếp và phối hợp nhóm.",
-          "C": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "B",
-        "giai_thich": "Dự án phần mềm cần giao tiếp và phối hợp nhóm."
-      },
-      {
-        "id": "T10-B34-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Phát biểu nào đúng về nội dung 7?",
-        "lua_chon": {
-          "A": "Bảo trì sửa lỗi và cập nhật sau phát hành.",
-          "B": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "C": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "A",
-        "giai_thich": "Bảo trì sửa lỗi và cập nhật sau phát hành."
-      },
-      {
-        "id": "T10-B34-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Bảo trì sửa lỗi và cập nhật sau phát hành.",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Bảo trì sửa lỗi và cập nhật sau phát hành.",
-          "C": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "B",
-        "giai_thich": "Bảo trì sửa lỗi và cập nhật sau phát hành."
-      },
-      {
-        "id": "T10-B34-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 7?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "C": "Bảo trì sửa lỗi và cập nhật sau phát hành.",
-          "D": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp."
-        },
-        "dap_an": "C",
-        "giai_thich": "Bảo trì sửa lỗi và cập nhật sau phát hành."
-      },
-      {
-        "id": "T10-B34-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Nghề phát triển phần mềm”?",
-        "lua_chon": {
-          "A": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu. Phân tích yêu cầu giúp xác định người dùng cần gì.",
-          "B": "Phân tích yêu cầu giúp xác định người dùng cần gì. Phần mềm phát hành rồi không cần kiểm thử hay bảo trì.",
-          "C": "Phát triển phần mềm chỉ gồm viết mã, không cần tìm hiểu yêu cầu. Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "D": "Phần mềm phát hành rồi không cần kiểm thử hay bảo trì. Phát triển phần mềm chỉ gồm viết mã, không cần tìm hiểu yêu cầu."
-        },
-        "dap_an": "A",
-        "giai_thich": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu. Phân tích yêu cầu giúp xác định người dùng cần gì."
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Công đoạn nâng cấp, mở rộng chức năng và sửa lỗi phát sinh sau khi phần mềm đã đưa vào sử dụng gọi là gì?"
       }
     ],
+    "trac_nghiem": [
+      {
+        "dap_an": "A",
+        "giai_thich": "Toán học và Tin học rèn luyện tư duy thuật toán, logic và giải quyết vấn đề.",
+        "id": "B34_BS_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Ở bậc phổ thông, hai môn học nào đóng vai trò nền tảng trực tiếp để hình thành tư duy logic cho nghề phát triển phần mềm?",
+        "phuong_an": {
+          "A": "Tin học và Toán học.",
+          "B": "Ngữ văn và Lịch sử.",
+          "C": "Địa lí và Sinh học.",
+          "D": "Giáo dục công dân và Âm nhạc."
+        }
+      }
+    ],
+    "tu_luan": []
+  },
+  "cau_hoi_goc": {
     "dung_sai": [
       {
-        "id": "T10-B34-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Xét tính đúng/sai về bài “Nghề phát triển phần mềm”:",
-        "y_kien": {
-          "a": "Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.",
-          "b": "Phần mềm phát hành rồi không cần kiểm thử hay bảo trì.",
-          "c": "Thiết kế xác định cấu trúc và cách các thành phần phối hợp.",
-          "d": "Phát triển phần mềm chỉ gồm viết mã, không cần tìm hiểu yêu cầu."
-        },
         "dap_an": {
-          "a": true,
+          "a": false,
           "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Sai. b) Sai, có 7 công đoạn. c) Đúng. d) Đúng.",
+        "id": "B34_G_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_34.docx",
+        "nhan_dinh": {
+          "a": "Giai đoạn kiểm thử không cần thiết nếu phần mềm đã được lập trình xong.",
+          "b": "Quy trình phát triển phần mềm chỉ bao gồm lập trình và kiểm thử.",
+          "c": "Điều tra khảo sát là bước đầu tiên trong quy trình phát triển phần mềm.",
+          "d": "Bảo trì phần mềm là quá trình sửa lỗi và cập nhật phần mềm sau khi đã được phát hành."
+        },
+        "noi_dung": "Cho đoạn thông tin: Phát triển phần mềm gồm nhiều giai đoạn từ điều tra khảo sát, phân tích, thiết kế, lập trình, kiểm thử đến chuyển giao và bảo trì."
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Sai, công nghệ thay đổi liên tục. b) Sai, cần giao tiếp để phối hợp nhóm và hiểu yêu cầu. c) Đúng. d) Đúng.",
+        "id": "B34_G_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_34.docx",
+        "nhan_dinh": {
+          "a": "Lập trình viên chỉ cần biết một ngôn ngữ lập trình duy nhất cho mọi dự án suốt đời.",
+          "b": "Kĩ năng giao tiếp không quan trọng đối với lập trình viên.",
+          "c": "Lập trình viên nên có khả năng học hỏi và sử dụng nhiều ngôn ngữ/công nghệ khác nhau.",
+          "d": "Làm việc nhóm là một phần quan trọng trong phát triển phần mềm."
+        },
+        "noi_dung": "Cho đoạn thông tin: Lập trình viên viết mã cho phần mềm, cần vững ngôn ngữ lập trình và có kĩ năng giao tiếp, làm việc nhóm."
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Sai, phát triển phần mềm lớn luôn đòi hỏi làm việc nhóm. d) Đúng.",
+        "id": "B34_G_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_34.docx",
+        "nhan_dinh": {
+          "a": "Kĩ sư phần mềm không cần phải hiểu về phân tích yêu cầu.",
+          "b": "Tư duy logic là một kĩ năng quan trọng đối với kĩ sư phần mềm.",
+          "c": "Kĩ sư phần mềm chỉ làm việc một mình và không cần hợp tác với người khác.",
+          "d": "Kĩ sư phần mềm cần có khả năng giải quyết vấn đề tốt."
+        },
+        "noi_dung": "Cho đoạn thông tin: Kĩ sư phần mềm thiết kế và phát triển hệ thống phức tạp, tham gia phân tích yêu cầu và thiết kế hệ thống."
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu.; b sai: Phần mềm phát hành rồi không cần kiểm thử hay bảo trì.; c đúng: Thiết kế xác định cấu trúc và cách các thành phần phối hợp.; d sai: Phát triển phần mềm chỉ gồm viết mã, không cần tìm hiểu yêu cầu.."
+        "giai_thich": "a) Sai, hiểu biết CNTT và kinh nghiệm phần mềm giúp điều phối nguồn lực hiệu quả hơn. b) Đúng. c) Đúng. d) Sai, quản lí vốn/ngân sách là nhiệm vụ cốt lõi.",
+        "id": "B34_G_DS_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_34.docx",
+        "nhan_dinh": {
+          "a": "Người quản trị dự án không cần có bất kì hiểu biết nào về công nghệ thông tin.",
+          "b": "Quản trị dự án bao gồm việc lập kế hoạch và giám sát tiến độ dự án.",
+          "c": "Kĩ năng quản lí thời gian là quan trọng đối với người quản trị dự án.",
+          "d": "Quản trị dự án không liên quan đến ngân sách."
+        },
+        "noi_dung": "Cho đoạn thông tin: Quản trị dự án phần mềm bao gồm lập kế hoạch, thực hiện và giám sát tiến độ, thời gian, ngân sách và nguồn lực."
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai, kiểm thử diễn ra lặp lại qua nhiều giai đoạn. b) Đúng. c) Đúng. d) Sai, mọi phần mềm kết nối mạng đều cần bảo đảm an toàn bảo mật.",
+        "id": "B34_G_DS_05",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_34.docx",
+        "nhan_dinh": {
+          "a": "Kiểm thử phần mềm chỉ cần thực hiện một lần duy nhất ở cuối dự án.",
+          "b": "Kiểm thử chức năng là một phần của quy trình kiểm thử phần mềm.",
+          "c": "Kiểm thử hiệu suất giúp đánh giá tốc độ và khả năng xử lí của phần mềm.",
+          "d": "Kiểm thử bảo mật không cần thiết nếu phần mềm không chứa thông tin nhạy cảm."
+        },
+        "noi_dung": "Cho đoạn thông tin: Kiểm thử phần mềm nhằm phát hiện và sửa lỗi trước khi phát hành, gồm kiểm thử chức năng, hiệu suất và bảo mật."
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Python, Java, C++ (hoặc JavaScript, C#)",
+        "giai_thich": "Đây là các ngôn ngữ phổ biến cho web, ứng dụng, AI và hệ thống.",
+        "id": "B34_G_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_34_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Kể tên 3 ngôn ngữ lập trình phổ biến hiện nay trong phát triển phần mềm."
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "D",
+        "giai_thich": "Công đoạn chuyển giao đưa phần mềm vào vận hành thực tế tại đơn vị sử dụng.",
+        "id": "B34_G_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Cài đặt, khởi tạo dữ liệu, hướng dẫn sử dụng và bàn giao cho khách hàng là nội dung của công đoạn nào?",
+        "phuong_an": {
+          "A": "Lập trình.",
+          "B": "Điều tra khảo sát.",
+          "C": "Kiểm thử.",
+          "D": "Chuyển giao."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Quy trình phát triển phần mềm cần sự phối hợp của lập trình viên, kĩ sư phần mềm và quản trị dự án.",
+        "id": "B34_G_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Những vị trí nào đảm nhận các công việc quan trọng trong phát triển phần mềm?",
+        "phuong_an": {
+          "A": "Lập trình viên.",
+          "B": "Kĩ sư phần mềm.",
+          "C": "Người quản trị dự án.",
+          "D": "Cả 3 ý trên."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Phát triển phần mềm gồm 3 nhóm hoạt động lớn: lập trình, tổ chức phát triển và quản trị dự án.",
+        "id": "B34_G_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Các hoạt động chính trong phát triển phần mềm là gì?",
+        "phuong_an": {
+          "A": "Lập trình.",
+          "B": "Tổ chức phát triển phần mềm (khảo sát, phân tích, thiết kế, kiểm thử...).",
+          "C": "Quản trị dự án phát triển phần mềm.",
+          "D": "Tất cả đều đúng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Quản trị dự án phần mềm bao trùm việc lập kế hoạch, điều phối nguồn lực và giám sát tiến độ.",
+        "id": "B34_G_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Hoạt động có tính bao trùm lên toàn bộ các công việc cơ bản của sản xuất phần mềm là gì?",
+        "phuong_an": {
+          "A": "Sản xuất phần mềm.",
+          "B": "Quản trị dự án phần mềm.",
+          "C": "Quản trị phần mềm.",
+          "D": "Dự án phần mềm."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Toán học, cấu trúc dữ liệu và giải thuật là nền tảng cốt lõi của phát triển phần mềm.",
+        "id": "B34_G_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Nghề phát triển phần mềm có những yêu cầu nào về kiến thức, kĩ năng?",
+        "phuong_an": {
+          "A": "Có kiến thức nhất định về toán học.",
+          "B": "Có kiến thức về cấu trúc dữ liệu.",
+          "C": "Có kiến thức về giải thuật.",
+          "D": "Tất cả đều đúng."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Kĩ sư phần mềm đảm nhận việc tổ chức xây dựng, phân tích, thiết kế và phát triển phần mềm.",
+        "id": "B34_G_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Thuật ngữ 'Kĩ sư phần mềm' dùng để chỉ ai?",
+        "phuong_an": {
+          "A": "Những người sản xuất phần cứng máy tính.",
+          "B": "Những người sáng tạo thiết bị thông minh.",
+          "C": "Những người tổ chức, phân tích, thiết kế và làm phần mềm.",
+          "D": "Cả A, B, C."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Ngoài ra còn có web, di động, AI/học máy, game, phần mềm hệ thống...",
+        "id": "B34_G_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Đâu là lĩnh vực mà người phát triển phần mềm có thể tham gia?",
+        "phuong_an": {
+          "A": "Lập trình ứng dụng.",
+          "B": "Phát triển giao diện người dùng.",
+          "C": "Cả A và B đều đúng.",
+          "D": "Cả A và B đều sai."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Điều tra khảo sát là bước đầu tiên để thu thập yêu cầu thực tế từ khách hàng.",
+        "id": "B34_G_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Tiếp xúc với khách hàng, tìm hiểu yêu cầu nghiệp vụ, xây dựng hồ sơ yêu cầu là nội dung công đoạn nào?",
+        "phuong_an": {
+          "A": "Lập trình.",
+          "B": "Kiểm thử.",
+          "C": "Chuyển giao.",
+          "D": "Điều tra khảo sát."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Chuyển giao bao gồm cài đặt hệ thống, khởi tạo dữ liệu ban đầu và hướng dẫn người dùng.",
+        "id": "B34_G_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Công đoạn chuyển giao cần làm những việc gì?",
+        "phuong_an": {
+          "A": "Cài đặt.",
+          "B": "Khởi tạo dữ liệu.",
+          "C": "Hướng dẫn sử dụng và bàn giao.",
+          "D": "Tất cả đều đúng."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Lập trình viên cần cả nền tảng chuyên môn lẫn đức tính cẩn thận, kiên trì.",
+        "id": "B34_G_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Tố chất cần thiết đối với lập trình viên là:",
+        "phuong_an": {
+          "A": "Hiểu biết thuật toán, cấu trúc dữ liệu.",
+          "B": "Kiến thức về khoa học máy tính.",
+          "C": "Đức tính cẩn thận, tỉ mỉ.",
+          "D": "Cả A, B, C."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Thứ tự: 1. Điều tra khảo sát -> 2. Phân tích hệ thống -> 3. Thiết kế hệ thống -> 4. Lập trình -> 5. Kiểm thử -> 6. Chuyển giao -> 7. Bảo trì.",
+        "id": "B34_G_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Trong quy trình sản xuất phần mềm (7 công đoạn), công đoạn thứ 5 là gì?",
+        "phuong_an": {
+          "A": "Phân tích hệ thống.",
+          "B": "Thiết kế hệ thống.",
+          "C": "Kiểm thử.",
+          "D": "Bảo trì."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Kĩ sư phần mềm tham gia xuyên suốt vòng đời hệ thống phần mềm.",
+        "id": "B34_G_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Công việc của kĩ sư phần mềm gồm có:",
+        "phuong_an": {
+          "A": "Phân tích, thiết kế, phát triển phần mềm.",
+          "B": "Kiểm định và bảo trì phần mềm.",
+          "C": "Định hướng cho người phát triển phần mềm.",
+          "D": "Tất cả những điều trên."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Gồm 7 công đoạn: Khảo sát, Phân tích, Thiết kế, Lập trình, Kiểm thử, Chuyển giao, Bảo trì.",
+        "id": "B34_G_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Có mấy công đoạn cơ bản để thực hiện sản xuất một phần mềm?",
+        "phuong_an": {
+          "A": "5.",
+          "B": "6.",
+          "C": "7.",
+          "D": "8."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "3 hoạt động chính: Lập trình, Tổ chức phát triển phần mềm, Quản trị dự án.",
+        "id": "B34_G_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Có mấy nhóm hoạt động chính trong phát triển phần mềm?",
+        "phuong_an": {
+          "A": "2.",
+          "B": "3.",
+          "C": "4.",
+          "D": "5."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Chuyển đổi số làm nhu cầu nhân lực phần mềm chất lượng cao liên tục tăng.",
+        "id": "B34_G_TN_15",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Nhận định nào đúng về cơ hội việc làm trong tương lai đối với nghề phát triển phần mềm?",
+        "phuong_an": {
+          "A": "Nhu cầu nhân lực không ngừng tăng cao.",
+          "B": "Ngày càng yêu cầu ít nhân lực.",
+          "C": "Chỉ cần nhân lực trình độ thấp.",
+          "D": "Cả 3 ý trên."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Quy trình phát triển phần mềm gồm nhiều công đoạn và có thể lặp lại theo chu trình cải tiến.",
+        "id": "B34_G_TN_16",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Điều nào là đúng nhất khi nói về phát triển phần mềm?",
+        "phuong_an": {
+          "A": "Phát triển phần mềm chỉ là lập trình.",
+          "B": "Phát triển phần mềm là quá trình gồm nhiều công việc và hoạt động.",
+          "C": "Phát triển phần mềm là quá trình gồm nhiều công việc và hoạt động, có thể lặp đi lặp lại.",
+          "D": "Phát triển phần mềm là quản trị dự án phần mềm."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Phát triển game là một trong những lĩnh vực ứng dụng trực tiếp của nghề phát triển phần mềm.",
+        "id": "B34_G_TN_17",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Đâu là ngành nghề tiêu biểu sau khi học phát triển phần mềm có thể tham gia?",
+        "phuong_an": {
+          "A": "Bác sĩ đa khoa.",
+          "B": "Kiến trúc sư xây dựng.",
+          "C": "Phát triển games / ứng dụng.",
+          "D": "Kĩ sư nông nghiệp."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Vị trí kĩ sư phần mềm đòi hỏi nền tảng bài bản ở bậc đại học ngành CNTT/Kĩ thuật phần mềm.",
+        "id": "B34_G_TN_18",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Nếu muốn tham gia phát triển phần mềm ở vị trí kĩ sư phần mềm chuyên sâu, em cần theo học ở đâu?",
+        "phuong_an": {
+          "A": "Các trung tâm dạy nghề ngắn hạn.",
+          "B": "Chỉ tự đọc sách ở nhà.",
+          "C": "Bậc đại học về Tin học hay Công nghệ thông tin.",
+          "D": "Không cần học chuyên ngành."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Cơ hội nghề nghiệp trải rộng trên web, di động, desktop, UI/UX, AI và hệ thống.",
+        "id": "B34_G_TN_19",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_34_-_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Sau khi tốt nghiệp các ngành đào tạo CNTT, em có thể tham gia phát triển phần mềm ở lĩnh vực nào?",
+        "phuong_an": {
+          "A": "Lập trình ứng dụng.",
+          "B": "Phát triển giao diện người dùng.",
+          "C": "Phát triển ứng dụng trên web.",
+          "D": "Cả 3 đáp án trên."
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B34-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "1. Điều tra khảo sát (tìm hiểu nghiệp vụ, nhu cầu).\n2. Phân tích hệ thống (lập hồ sơ yêu cầu).\n3. Thiết kế hệ thống (dữ liệu, chức năng, giao diện).\n4. Lập trình (viết mã nguồn).\n5. Kiểm thử (tìm và sửa lỗi).\n6. Chuyển giao (cài đặt, hướng dẫn).\n7. Bảo trì (nâng cấp, sửa lỗi phát sinh).",
+        "giai_thich": "Bảy công đoạn tạo nên vòng đời sản xuất phần mềm hoàn chỉnh.",
+        "id": "B34_G_TL_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Trình bày hai nội dung của bài: Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu. Phân tích yêu cầu giúp xác định người dùng cần gì.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Phát triển phần mềm tạo và duy trì chương trình đáp ứng nhu cầu. Phân tích yêu cầu giúp xác định người dùng cần gì.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "da_tin_hoc_10_bai_34_nghe_phat_trien_phan_mem.docx",
+        "noi_dung": "Mô tả ngắn gọn 7 công đoạn trong quy trình phát triển phần mềm."
       },
       {
-        "id": "T10-B34-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "- Người lập trình: nắm vững ngôn ngữ lập trình, thuật toán, cấu trúc dữ liệu, cẩn thận tỉ mỉ.\n- Người phân tích thiết kế: hiểu phương pháp phân tích thiết kế, khả năng tự học nghiệp vụ.\n- Người quản trị dự án: có tầm nhìn, khả năng tổ chức và điều phối nguồn lực (con người, vốn, thời gian, phương tiện).",
+        "giai_thich": "Mỗi vai trò trong đội ngũ phần mềm đòi hỏi thế mạnh chuyên biệt.",
+        "id": "B34_G_TL_02",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 34 - Nghề phát triển phần mềm",
-        "noi_dung": "Giải thích và vận dụng nội dung “Thiết kế xác định cấu trúc và cách các thành phần phối hợp.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Thiết kế xác định cấu trúc và cách các thành phần phối hợp.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "ndc_b34._nghe_phat_trien_phan_mem_.docx",
+        "noi_dung": "Phân biệt yêu cầu tố chất giữa người lập trình, người phân tích thiết kế và người quản trị dự án phần mềm."
       }
     ]
+  },
+  "ma_bai": "BAI_34",
+  "ten_bai": "Nghề phát triển phần mềm",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 0,
+      "tong": 2,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 1,
+      "tu_luan": 0
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 5,
+      "tong": 27,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 19,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 12,
+      "thong_hieu": 11,
+      "van_dung": 6
+    },
+    "tong_so_cau": 29
   }
 }

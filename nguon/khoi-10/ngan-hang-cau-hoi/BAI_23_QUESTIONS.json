@@ -1,424 +1,436 @@
 {
-  "ma_bai": "BAI_23",
   "bai_so": 23,
-  "ten_bai": "Một số lệnh làm việc với dữ liệu danh sách",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B23-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Phát biểu nào đúng về in?",
-        "lua_chon": {
-          "A": "append(x) thêm x vào cuối danh sách.",
-          "B": "insert(i,x) chèn x tại vị trí i.",
-          "C": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x.",
-          "D": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không."
-        },
-        "dap_an": "D",
-        "giai_thich": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không."
-      },
-      {
-        "id": "T10-B23-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
-        "lua_chon": {
-          "A": "5 in ds.",
-          "B": "append(x) thêm x vào cuối danh sách.",
-          "C": "insert(i,x) chèn x tại vị trí i.",
-          "D": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
-        },
-        "dap_an": "A",
-        "giai_thich": "5 in ds."
-      },
-      {
-        "id": "T10-B23-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho in?",
-        "lua_chon": {
-          "A": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
-          "B": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
-          "C": "Chèn tên vào đầu danh sách: dùng phương thức nào?",
-          "D": "Loại bỏ phần tử có giá trị cụ thể: phương thức nào phù hợp?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?"
-      },
-      {
-        "id": "T10-B23-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Phát biểu nào đúng về append?",
-        "lua_chon": {
-          "A": "append(x) thêm x vào cuối danh sách.",
-          "B": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "C": "insert(i,x) chèn x tại vị trí i.",
-          "D": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
-        },
-        "dap_an": "A",
-        "giai_thich": "append(x) thêm x vào cuối danh sách."
-      },
-      {
-        "id": "T10-B23-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "ds_diem.append(x).",
-          "C": "insert(i,x) chèn x tại vị trí i.",
-          "D": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
-        },
-        "dap_an": "B",
-        "giai_thich": "ds_diem.append(x)."
-      },
-      {
-        "id": "T10-B23-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho append?",
-        "lua_chon": {
-          "A": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
-          "B": "Chèn tên vào đầu danh sách: dùng phương thức nào?",
-          "C": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
-          "D": "Loại bỏ phần tử có giá trị cụ thể: phương thức nào phù hợp?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?"
-      },
-      {
-        "id": "T10-B23-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Phát biểu nào đúng về insert?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "insert(i,x) chèn x tại vị trí i.",
-          "C": "append(x) thêm x vào cuối danh sách.",
-          "D": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
-        },
-        "dap_an": "B",
-        "giai_thich": "insert(i,x) chèn x tại vị trí i."
-      },
-      {
-        "id": "T10-B23-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Chèn tên vào đầu danh sách: dùng phương thức nào?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "append(x) thêm x vào cuối danh sách.",
-          "C": "insert(0, ten).",
-          "D": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
-        },
-        "dap_an": "C",
-        "giai_thich": "insert(0, ten)."
-      },
-      {
-        "id": "T10-B23-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho insert?",
-        "lua_chon": {
-          "A": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
-          "B": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
-          "C": "Loại bỏ phần tử có giá trị cụ thể: phương thức nào phù hợp?",
-          "D": "Chèn tên vào đầu danh sách: dùng phương thức nào?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Chèn tên vào đầu danh sách: dùng phương thức nào?"
-      },
-      {
-        "id": "T10-B23-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Phát biểu nào đúng về remove?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "append(x) thêm x vào cuối danh sách.",
-          "C": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x.",
-          "D": "insert(i,x) chèn x tại vị trí i."
-        },
-        "dap_an": "C",
-        "giai_thich": "remove(x) xóa lần xuất hiện đầu tiên của giá trị x."
-      },
-      {
-        "id": "T10-B23-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Loại bỏ phần tử có giá trị cụ thể: phương thức nào phù hợp?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "append(x) thêm x vào cuối danh sách.",
-          "C": "insert(i,x) chèn x tại vị trí i.",
-          "D": "remove(x)."
-        },
-        "dap_an": "D",
-        "giai_thich": "remove(x)."
-      },
-      {
-        "id": "T10-B23-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho remove?",
-        "lua_chon": {
-          "A": "Loại bỏ phần tử có giá trị cụ thể: phương thức nào phù hợp?",
-          "B": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
-          "C": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
-          "D": "Chèn tên vào đầu danh sách: dùng phương thức nào?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Loại bỏ phần tử có giá trị cụ thể: phương thức nào phù hợp?"
-      },
-      {
-        "id": "T10-B23-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Phát biểu nào đúng về pop?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "append(x) thêm x vào cuối danh sách.",
-          "C": "insert(i,x) chèn x tại vị trí i.",
-          "D": "pop(i) loại bỏ và trả về phần tử tại chỉ số i."
-        },
-        "dap_an": "D",
-        "giai_thich": "pop(i) loại bỏ và trả về phần tử tại chỉ số i."
-      },
-      {
-        "id": "T10-B23-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Lấy và xóa phần tử cuối: lệnh nào có thể dùng?",
-        "lua_chon": {
-          "A": "pop() không chỉ số.",
-          "B": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "C": "append(x) thêm x vào cuối danh sách.",
-          "D": "insert(i,x) chèn x tại vị trí i."
-        },
-        "dap_an": "A",
-        "giai_thich": "pop() không chỉ số."
-      },
-      {
-        "id": "T10-B23-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho pop?",
-        "lua_chon": {
-          "A": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
-          "B": "Lấy và xóa phần tử cuối: lệnh nào có thể dùng?",
-          "C": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
-          "D": "Chèn tên vào đầu danh sách: dùng phương thức nào?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Lấy và xóa phần tử cuối: lệnh nào có thể dùng?"
-      },
-      {
-        "id": "T10-B23-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Phát biểu nào đúng về sort?",
-        "lua_chon": {
-          "A": "sort() sắp xếp danh sách tại chỗ.",
-          "B": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "C": "append(x) thêm x vào cuối danh sách.",
-          "D": "insert(i,x) chèn x tại vị trí i."
-        },
-        "dap_an": "A",
-        "giai_thich": "sort() sắp xếp danh sách tại chỗ."
-      },
-      {
-        "id": "T10-B23-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Sắp xếp điểm tăng dần: phương thức nào phù hợp?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "sort().",
-          "C": "append(x) thêm x vào cuối danh sách.",
-          "D": "insert(i,x) chèn x tại vị trí i."
-        },
-        "dap_an": "B",
-        "giai_thich": "sort()."
-      },
-      {
-        "id": "T10-B23-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho sort?",
-        "lua_chon": {
-          "A": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
-          "B": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
-          "C": "Sắp xếp điểm tăng dần: phương thức nào phù hợp?",
-          "D": "Chèn tên vào đầu danh sách: dùng phương thức nào?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Sắp xếp điểm tăng dần: phương thức nào phù hợp?"
-      },
-      {
-        "id": "T10-B23-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Phát biểu nào đúng về Duyệt danh sách?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "for x in ds duyệt từng giá trị trực tiếp.",
-          "C": "append(x) thêm x vào cuối danh sách.",
-          "D": "insert(i,x) chèn x tại vị trí i."
-        },
-        "dap_an": "B",
-        "giai_thich": "for x in ds duyệt từng giá trị trực tiếp."
-      },
-      {
-        "id": "T10-B23-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Cần đếm số phần tử thỏa điều kiện: cách nào phù hợp?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "B": "append(x) thêm x vào cuối danh sách.",
-          "C": "Duyệt giá trị bằng for và kiểm tra điều kiện.",
-          "D": "insert(i,x) chèn x tại vị trí i."
-        },
-        "dap_an": "C",
-        "giai_thich": "Duyệt giá trị bằng for và kiểm tra điều kiện."
-      },
-      {
-        "id": "T10-B23-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Duyệt danh sách?",
-        "lua_chon": {
-          "A": "Kiểm tra 5 có trong ds: biểu thức nào phù hợp?",
-          "B": "Thêm điểm mới vào cuối ds_diem: phương thức nào phù hợp?",
-          "C": "Chèn tên vào đầu danh sách: dùng phương thức nào?",
-          "D": "Cần đếm số phần tử thỏa điều kiện: cách nào phù hợp?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Cần đếm số phần tử thỏa điều kiện: cách nào phù hợp?"
-      },
-      {
-        "id": "T10-B23-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Một số lệnh làm việc với dữ liệu danh sách”?",
-        "lua_chon": {
-          "A": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không. append(x) thêm x vào cuối danh sách.",
-          "B": "append(x) thêm x vào cuối danh sách. append(x) thêm x vào đầu danh sách.",
-          "C": "remove(x) trả về và xóa phần tử theo chỉ số. Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "D": "append(x) thêm x vào đầu danh sách. remove(x) trả về và xóa phần tử theo chỉ số."
-        },
-        "dap_an": "A",
-        "giai_thich": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không. append(x) thêm x vào cuối danh sách."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B23-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Xét tính đúng/sai về bài “Một số lệnh làm việc với dữ liệu danh sách”:",
-        "y_kien": {
-          "a": "Toán tử in kiểm tra một phần tử có nằm trong danh sách không.",
-          "b": "append(x) thêm x vào đầu danh sách.",
-          "c": "insert(i,x) chèn x tại vị trí i.",
-          "d": "remove(x) trả về và xóa phần tử theo chỉ số."
-        },
         "dap_an": {
           "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "b": true,
+          "c": false,
+          "d": true
         },
-        "giai_thich": "a đúng: Toán tử in kiểm tra một phần tử có nằm trong danh sách không.; b sai: append(x) thêm x vào đầu danh sách.; c đúng: insert(i,x) chèn x tại vị trí i.; d sai: remove(x) trả về và xóa phần tử theo chỉ số.."
+        "giai_thich": "c) Sai vì `ds.remove(2)` chỉ xóa số 2 đầu tiên, kết quả là `[4, 7, 2]`.",
+        "id": "BAI23_BS_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung theo chuẩn GDPT 2018",
+        "nhan_dinh": {
+          "a": "`2 in ds` trả về `True`.",
+          "b": "`ds.insert(10, 9)` chèn 9 vào cuối thành `[4, 2, 7, 2, 9]`.",
+          "c": "`ds.remove(2)` biến `ds` thành `[4, 7]`.",
+          "d": "`ds.clear()` biến `ds` thành `[]`."
+        },
+        "noi_dung": "Cho `ds = [4, 2, 7, 2]`. Xét các thao tác độc lập trên `ds` ban đầu:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "[1, 2, 3, 5, 6]",
+        "giai_thich": "Chèn 2 vào chỉ số 1 được [1, 2, 3, 5], sau đó append(6) được [1, 2, 3, 5, 6].",
+        "id": "BAI23_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Bổ sung theo chuẩn GDPT 2018",
+        "noi_dung": "Cho `A = [1, 3, 5]`. Sau hai lệnh `A.insert(1, 2)` và `A.append(6)`, danh sách A có giá trị là gì?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Khi giá trị cần xóa không tồn tại trong danh sách, `remove()` sẽ phát sinh lỗi `ValueError`.",
+        "id": "BAI23_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung theo chuẩn GDPT 2018",
+        "noi_dung": "Cho `A = [10, 20, 30]`. Nếu thực hiện `A.remove(50)` thì điều gì xảy ra?",
+        "phuong_an": {
+          "A": "Danh sách A giữ nguyên",
+          "B": "Trả về False",
+          "C": "Chương trình báo lỗi ValueError",
+          "D": "Xóa phần tử cuối cùng"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Vì `remove(5)` chỉ xóa 1 phần tử mỗi lần gọi nên cần vòng lặp `while 5 in A:` để xóa hết.",
+        "id": "BAI23_BS_TN_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Bổ sung theo chuẩn GDPT 2018",
+        "noi_dung": "Để xóa **tất cả** các số 5 có trong danh sách `A = [5, 1, 5, 2, 5]`, đoạn lệnh nào sau đây đúng?",
+        "phuong_an": {
+          "A": "A.remove(5)",
+          "B": "while 5 in A: A.remove(5)",
+          "C": "A.clear(5)",
+          "D": "del A[5]"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B23-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Trình bày hai nội dung của bài: Toán tử in kiểm tra một phần tử có nằm trong danh sách không. append(x) thêm x vào cuối danh sách.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Toán tử in kiểm tra một phần tử có nằm trong danh sách không. append(x) thêm x vào cuối danh sách.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B23-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "A = [int(k) for k in input('Nhập dãy số: ').split()]\nx = int(input('Nhập x: '))\nif x in A:\n    while x in A:\n        A.remove(x)\nelse:\n    A.insert(0, x)\nprint(A)",
+        "giai_thich": "Kết hợp toán tử `in`, `while ... remove()` và `insert(0, x)`.",
+        "id": "BAI23_BS_TL_01",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Một số lệnh làm việc với dữ liệu danh sách",
-        "noi_dung": "Giải thích và vận dụng nội dung “insert(i,x) chèn x tại vị trí i.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “insert(i,x) chèn x tại vị trí i.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Bổ sung theo chuẩn GDPT 2018",
+        "noi_dung": "Viết chương trình nhập danh sách các số nguyên A và một số nguyên x. Nếu x có trong A thì xóa tất cả các phần tử có giá trị x khỏi A, ngược lại chèn x vào đầu danh sách A."
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a), c), d) Đúng. b) Sai vì remove(value) chỉ xóa phần tử đầu tiên khớp giá trị.",
+        "id": "BAI23_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_23.docx",
+        "nhan_dinh": {
+          "a": "Lệnh clear() sẽ xóa toàn bộ phần tử của danh sách.",
+          "b": "Lệnh remove(value) xóa tất cả các phần tử có giá trị tương ứng trong một lần gọi.",
+          "c": "Lệnh insert(index, value) cho phép chèn một phần tử vào vị trí chỉ định.",
+          "d": "Danh sách trong Python có thể chứa nhiều kiểu dữ liệu khác nhau."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Các lệnh như clear(), remove(value), và insert(index, value) được sử dụng để thao tác với danh sách.'\nĐánh giá tính đúng/sai:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "b) Sai vì nếu value không có trong list, Python ném ngoại lệ ValueError.",
+        "id": "BAI23_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_23.docx",
+        "nhan_dinh": {
+          "a": "Lệnh remove(value) sẽ không xóa tất cả các phần tử trùng nhau.",
+          "b": "Nếu giá trị không tồn tại, lệnh remove(value) sẽ không gây ra lỗi.",
+          "c": "Nên kiểm tra sự tồn tại bằng toán tử `in` trước khi gọi remove(value).",
+          "d": "Lệnh remove(value) xóa phần tử dựa trên giá trị, không cần biết chỉ số vị trí."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Lệnh remove(value) chỉ xóa phần tử đầu tiên có giá trị tương ứng. Nếu giá trị không tồn tại, nó sẽ gây ra lỗi.'\nĐánh giá tính đúng/sai:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai vì insert(len(A), x) chèn vào cuối. c) Sai vì insert hỗ trợ chỉ số âm không gây lỗi.",
+        "id": "BAI23_GOC_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_23.docx",
+        "nhan_dinh": {
+          "a": "Lệnh insert(index, value) không thể chèn giá trị vào cuối danh sách.",
+          "b": "Nếu chỉ số vượt quá độ dài của danh sách, giá trị sẽ được thêm vào cuối danh sách.",
+          "c": "Lệnh insert(index, value) gây lỗi nếu chỉ số âm.",
+          "d": "Chỉ số dương trong danh sách bắt đầu từ 0."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Để chèn một giá trị vào danh sách tại một vị trí cụ thể, dùng insert(index, value). Nếu chỉ số vượt quá độ dài danh sách, giá trị được thêm vào cuối.'\nĐánh giá tính đúng/sai:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "d) Sai vì clear() hoạt động với mọi danh sách bất kể kiểu dữ liệu phần tử.",
+        "id": "BAI23_GOC_DS_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_23.docx",
+        "nhan_dinh": {
+          "a": "Lệnh clear() làm danh sách mất toàn bộ phần tử hiện có.",
+          "b": "Sau khi sử dụng clear(), `len(ds)` bằng 0.",
+          "c": "Sau khi dùng clear(), biến danh sách vẫn tồn tại dưới dạng `[]`.",
+          "d": "Lệnh clear() chỉ hoạt động trên danh sách chứa số nguyên."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Lệnh clear() xóa toàn bộ các phần tử trong danh sách, đưa danh sách về trạng thái rỗng.'\nĐánh giá tính đúng/sai:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Khi danh sách A ban đầu là danh sách rỗng ([]).",
+        "giai_thich": "Khi A rỗng, chèn vào đầu (chỉ số 0) hay thêm vào cuối đều cho kết quả [1].",
+        "id": "BAI23_GOC_TLN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_23_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Khi nào thì lệnh `A.append(1)` và `A.insert(0, 1)` có tác dụng giống nhau?"
+      },
+      {
+        "dap_an": "A.insert(3, 5)",
+        "giai_thich": "Số 5 được chèn vào vị trí chỉ số 3 (sau số 10, trước số 0).",
+        "id": "BAI23_GOC_TLN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "da_tin_hoc_10_bai_23_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Danh sách A trước và sau lệnh insert() là `[1, 4, 10, 0]` và `[1, 4, 10, 5, 0]`. Lệnh đã dùng là gì?"
+      },
+      {
+        "dap_an": "Sai. Vì clear() không nhận tham số và dùng để xóa toàn bộ danh sách; muốn xóa phần tử có giá trị x phải dùng A.remove(x).",
+        "giai_thich": "Cần phân biệt rõ remove(x) (xóa 1 phần tử có giá trị x) và clear() (xóa sạch cả danh sách).",
+        "id": "BAI23_GOC_TLN_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_23_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Cho nhận định: 'Để xóa phần tử có giá trị x từ danh sách A ta dùng lệnh A.clear(x)'. Nhận định này đúng hay sai? Tại sao?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "`A.clear()` xóa toàn bộ phần tử, đưa danh sách A về danh sách rỗng `[]`.",
+        "id": "BAI23_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Để xóa tất cả các phần tử trong danh sách ta dùng phương thức gì?",
+        "phuong_an": {
+          "A": "append()",
+          "B": "pop()",
+          "C": "clear()",
+          "D": "remove()"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "`A.remove(x)` xóa phần tử đầu tiên trong danh sách có giá trị bằng `x`.",
+        "id": "BAI23_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Muốn xóa một phần tử có giá trị cho trước từ danh sách ta dùng lệnh gì?",
+        "phuong_an": {
+          "A": "remove()",
+          "B": "insert()",
+          "C": "append()",
+          "D": "clear()"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "`A.remove(2)` xóa phần tử có giá trị là 2 (không phải chỉ số 2), kết quả còn [1, 3, 4, 5].",
+        "id": "BAI23_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Sau khi thực hiện các câu lệnh sau, danh sách A là:\nA = [1, 2, 3, 4, 5]\nA.remove(2)\nprint(A)",
+        "phuong_an": {
+          "A": "[1, 2, 3, 4]",
+          "B": "[2, 3, 4, 5]",
+          "C": "[1, 2, 4, 5]",
+          "D": "[1, 3, 4, 5]"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Số 3 xuất hiện đầu tiên ở vị trí thứ 3 (chỉ số 2), nên `remove(3)` xóa phần tử thứ 3.",
+        "id": "BAI23_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Phần tử thứ mấy (theo thứ tự từ 1) trong danh sách A bị xóa?\nA = [10, 20, 3, 30, 20, 30, 20, 6, 3, 2, 8, 9]\nA.remove(3)",
+        "phuong_an": {
+          "A": "2",
+          "B": "3",
+          "C": "8",
+          "D": "4"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Cú pháp `insert(k, x)` chèn giá trị `x = 4` vào chỉ số `k = 2` (trước số 5).",
+        "id": "BAI23_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Danh sách A trước và sau lệnh insert() là `[1, 3, 5, 0]` và `[1, 3, 4, 5, 0]`. Lệnh đã dùng là:",
+        "phuong_an": {
+          "A": "A.insert(2, 4)",
+          "B": "A.insert(4, 2)",
+          "C": "A.insert(3, 4)",
+          "D": "A.insert(4, 3)"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Dùng `for x in A:` với toán tử `in` để duyệt trực tiếp từng phần tử của danh sách A.",
+        "id": "BAI23_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Ngoài việc kết hợp `for` và `range()` để duyệt phần tử trong danh sách, có thể sử dụng từ khóa nào để duyệt trực tiếp?",
+        "phuong_an": {
+          "A": "int",
+          "B": "while",
+          "C": "in range",
+          "D": "in"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "`insert(k, x)` chèn phần tử `x` vào vị trí `k`.",
+        "id": "BAI23_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Lệnh nào được dùng để chèn phần tử vào vị trí k trong danh sách?",
+        "phuong_an": {
+          "A": "append()",
+          "B": "clear()",
+          "C": "insert()",
+          "D": "remove()"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "3 + 4 - 5 + 18 // 4 = 2 + 4 = 6. Vì 6 có trong A nên trả về True.",
+        "id": "BAI23_GOC_TN_08",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Giả sử `A = [5, 6, 7, 8, 9, 10, 11, 12]`. Biểu thức `(3 + 4 - 5 + 18 // 4) in A` trả về giá trị gì?",
+        "phuong_an": {
+          "A": "True",
+          "B": "False",
+          "C": "Không xác định",
+          "D": "Câu lệnh bị lỗi"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "6 không có trong A (False); 'a' có trong A (True).",
+        "id": "BAI23_GOC_TN_09",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Giả sử `A = ['a', 'b', 'c', 'd', 2, 3, 4]`. Hai biểu thức `6 in A` và `'a' in A` trả về lần lượt là:",
+        "phuong_an": {
+          "A": "True, False",
+          "B": "True, True",
+          "C": "False, True",
+          "D": "False, False"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Chỉ có (3) đúng. (1) sai vì clear() làm danh sách rỗng `[]`; (2) sai vì remove() báo lỗi ValueError nếu không tìm thấy; (4) sai vì remove() xóa theo giá trị, không phải vị trí.",
+        "id": "BAI23_GOC_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Có bao nhiêu phát biểu đúng trong các phát biểu sau?\n1) Sau khi thực hiện lệnh clear(), các phần tử trả về giá trị 0.\n2) Lệnh remove() trả về giá trị False nếu không có trong danh sách.\n3) remove() có tác dụng xóa phần tử đầu tiên có giá trị cho trước trong list.\n4) Lệnh remove() có tác dụng xóa phần tử ở vị trí cho trước.",
+        "phuong_an": {
+          "A": "1",
+          "B": "2",
+          "C": "0",
+          "D": "3"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "`remove(x)` chỉ xóa phần tử đầu tiên tìm thấy có giá trị `x`, không xóa tất cả.",
+        "id": "BAI23_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Phát biểu nào sau đây là sai?",
+        "phuong_an": {
+          "A": "Sau khi thực hiện lệnh clear(), danh sách gốc trở thành rỗng.",
+          "B": "Lệnh remove() có chức năng xóa một phần tử có giá trị cho trước.",
+          "C": "Lệnh remove() xóa tất cả các phần tử có giá trị cho trước trong list.",
+          "D": "Khi thực hiện `del A`, biến danh sách A bị xóa khỏi bộ nhớ."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Chèn 4 vào vị trí chỉ số 2 (đẩy 3 và 5 sang phải), được [1, 2, 4, 3, 5].",
+        "id": "BAI23_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Kết quả khi thực hiện chương trình sau là gì?\nA = [1, 2, 3, 5]\nA.insert(2, 4)\nprint(A)",
+        "phuong_an": {
+          "A": "[1, 2, 3, 4]",
+          "B": "[1, 2, 4, 3, 5]",
+          "C": "[1, 2, 3, 4, 5]",
+          "D": "[1, 2, 4, 5]"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Toán tử `in` trên danh sách kiểm tra khớp toàn bộ phần tử; 'Hà' không bằng 'Hà Nội' nên trả về False.",
+        "id": "BAI23_GOC_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Khi thực hiện lệnh `'Hà' in A` với `A = [2, 4, '5', 'Hà Nội', 'Việt Nam', 9]` sẽ cho kết quả:",
+        "phuong_an": {
+          "A": "True",
+          "B": "true",
+          "C": "False",
+          "D": "Báo lỗi"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Chèn số 2 vào chỉ số 0 (đầu danh sách), được [2, 1, 2, 3].",
+        "id": "BAI23_GOC_TN_14",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Cho đoạn chương trình:\na = [1, 2, 3]\na.insert(0, 2)\nprint(a)\nKết quả là:",
+        "phuong_an": {
+          "A": "[0, 1, 2, 3]",
+          "B": "[2, 3]",
+          "C": "[2, 1, 2, 3]",
+          "D": "[1, 2, 3, 2]"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "i lần lượt nhận giá trị 2, 4, 6 nên 2*i in ra 4 8 12.",
+        "id": "BAI23_GOC_TN_15",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_23_-_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Cho đoạn chương trình:\na = [2, 4, 6]\nfor i in a:\n    print(2 * i, end=' ')\nTrên màn hình sẽ có các giá trị:",
+        "phuong_an": {
+          "A": "2 4 6",
+          "B": "4 6 8",
+          "C": "4 6 12",
+          "D": "4 8 12"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "C = len(A)\nif C % 2 != 0:\n    del A[C // 2]\nelse:\n    del A[C // 2 - 1 : C // 2 + 1]\nprint(A)",
+        "giai_thich": "Dùng `del` theo chỉ số chính xác hơn `remove(A[C//2])` (tránh trường hợp có phần tử trùng giá trị đứng trước giữa).",
+        "id": "BAI23_GOC_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_23_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Cho trước dãy số A (khác rỗng). Viết chương trình xóa đi 1 phần tử ở chính giữa nếu số phần tử lẻ, và xóa đi 2 phần tử ở chính giữa nếu số phần tử chẵn."
+      },
+      {
+        "dap_an": "n = int(input('Nhập n: '))\nA = [0, 1]\nfor i in range(2, n):\n    A.append(A[i - 1] + A[i - 2])\nprint(A[:n])",
+        "giai_thich": "Khởi tạo A = [0, 1], lặp từ 2 đến n - 1 và dùng append() thêm tổng hai phần tử liền trước.",
+        "id": "BAI23_GOC_TL_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_23_mot_so_lenh_lam_viec_voi_du_lieu_danh_sach.docx",
+        "noi_dung": "Dãy Fibonacci xác định bởi F0 = 0, F1 = 1, Fn = Fn-1 + Fn-2 (n >= 2). Viết chương trình nhập n (n >= 2) và tạo danh sách A gồm n số hạng đầu tiên của dãy Fibonacci."
+      }
+    ]
+  },
+  "ma_bai": "BAI_23",
+  "ten_bai": "Một số lệnh làm việc với dữ liệu danh sách",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 5,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 2,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 4,
+      "tong": 24,
+      "tra_loi_ngan": 3,
+      "trac_nghiem": 15,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 11,
+      "thong_hieu": 12,
+      "van_dung": 6
+    },
+    "tong_so_cau": 29
   }
 }

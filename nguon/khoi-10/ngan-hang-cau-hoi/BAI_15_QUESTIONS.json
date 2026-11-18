@@ -1,424 +1,366 @@
 {
-  "ma_bai": "BAI_15",
   "bai_so": 15,
-  "ten_bai": "Hoàn thiện hình ảnh đồ họa",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B15-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Phân tích yêu cầu?",
-        "lua_chon": {
-          "A": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "B": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.",
-          "C": "Xem ở kích thước thực và kiểm tra lỗi trước xuất.",
-          "D": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem."
-        },
-        "dap_an": "D",
-        "giai_thich": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem."
-      },
-      {
-        "id": "T10-B15-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?",
-        "lua_chon": {
-          "A": "Phân tích yêu cầu và đối tượng người xem.",
-          "B": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "C": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.",
-          "D": "Xem ở kích thước thực và kiểm tra lỗi trước xuất."
-        },
-        "dap_an": "A",
-        "giai_thich": "Phân tích yêu cầu và đối tượng người xem."
-      },
-      {
-        "id": "T10-B15-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Phân tích yêu cầu?",
-        "lua_chon": {
-          "A": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?",
-          "B": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?",
-          "C": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?",
-          "D": "Chữ nhỏ khó đọc khi in: bước nào phát hiện vấn đề?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?"
-      },
-      {
-        "id": "T10-B15-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Bố cục?",
-        "lua_chon": {
-          "A": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "B": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "C": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.",
-          "D": "Xem ở kích thước thực và kiểm tra lỗi trước xuất."
-        },
-        "dap_an": "A",
-        "giai_thich": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh."
-      },
-      {
-        "id": "T10-B15-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Phân cấp và sắp xếp bố cục.",
-          "C": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.",
-          "D": "Xem ở kích thước thực và kiểm tra lỗi trước xuất."
-        },
-        "dap_an": "B",
-        "giai_thich": "Phân cấp và sắp xếp bố cục."
-      },
-      {
-        "id": "T10-B15-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Bố cục?",
-        "lua_chon": {
-          "A": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?",
-          "B": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?",
-          "C": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?",
-          "D": "Chữ nhỏ khó đọc khi in: bước nào phát hiện vấn đề?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?"
-      },
-      {
-        "id": "T10-B15-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Tính nhất quán?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.",
-          "C": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "D": "Xem ở kích thước thực và kiểm tra lỗi trước xuất."
-        },
-        "dap_an": "B",
-        "giai_thich": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất."
-      },
-      {
-        "id": "T10-B15-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "C": "Giới hạn bảng màu và kiểu chữ phù hợp.",
-          "D": "Xem ở kích thước thực và kiểm tra lỗi trước xuất."
-        },
-        "dap_an": "C",
-        "giai_thich": "Giới hạn bảng màu và kiểu chữ phù hợp."
-      },
-      {
-        "id": "T10-B15-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tính nhất quán?",
-        "lua_chon": {
-          "A": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?",
-          "B": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?",
-          "C": "Chữ nhỏ khó đọc khi in: bước nào phát hiện vấn đề?",
-          "D": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?"
-      },
-      {
-        "id": "T10-B15-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra trước xuất?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "C": "Xem ở kích thước thực và kiểm tra lỗi trước xuất.",
-          "D": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất."
-        },
-        "dap_an": "C",
-        "giai_thich": "Xem ở kích thước thực và kiểm tra lỗi trước xuất."
-      },
-      {
-        "id": "T10-B15-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Chữ nhỏ khó đọc khi in: bước nào phát hiện vấn đề?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "C": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.",
-          "D": "Xem trước và kiểm tra nội dung/độ đọc."
-        },
-        "dap_an": "D",
-        "giai_thich": "Xem trước và kiểm tra nội dung/độ đọc."
-      },
-      {
-        "id": "T10-B15-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Kiểm tra trước xuất?",
-        "lua_chon": {
-          "A": "Chữ nhỏ khó đọc khi in: bước nào phát hiện vấn đề?",
-          "B": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?",
-          "C": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?",
-          "D": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Chữ nhỏ khó đọc khi in: bước nào phát hiện vấn đề?"
-      },
-      {
-        "id": "T10-B15-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Phát biểu nào đúng về PNG?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "C": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.",
-          "D": "PNG là định dạng ảnh điểm ảnh, thường hỗ trợ nền trong suốt."
-        },
-        "dap_an": "D",
-        "giai_thich": "PNG là định dạng ảnh điểm ảnh, thường hỗ trợ nền trong suốt."
-      },
-      {
-        "id": "T10-B15-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Cần xuất biểu tượng có nền trong: định dạng nào phù hợp?",
-        "lua_chon": {
-          "A": "PNG.",
-          "B": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "C": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "D": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất."
-        },
-        "dap_an": "A",
-        "giai_thich": "PNG."
-      },
-      {
-        "id": "T10-B15-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho PNG?",
-        "lua_chon": {
-          "A": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?",
-          "B": "Cần xuất biểu tượng có nền trong: định dạng nào phù hợp?",
-          "C": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?",
-          "D": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần xuất biểu tượng có nền trong: định dạng nào phù hợp?"
-      },
-      {
-        "id": "T10-B15-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Kích thước đầu ra?",
-        "lua_chon": {
-          "A": "Kích thước và độ phân giải xuất cần phù hợp mục đích dùng.",
-          "B": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "C": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "D": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất."
-        },
-        "dap_an": "A",
-        "giai_thich": "Kích thước và độ phân giải xuất cần phù hợp mục đích dùng."
-      },
-      {
-        "id": "T10-B15-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Ảnh dùng trên màn hình và bản in có yêu cầu khác: cần chọn gì?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Kích thước/độ phân giải đầu ra phù hợp.",
-          "C": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "D": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất."
-        },
-        "dap_an": "B",
-        "giai_thich": "Kích thước/độ phân giải đầu ra phù hợp."
-      },
-      {
-        "id": "T10-B15-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Kích thước đầu ra?",
-        "lua_chon": {
-          "A": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?",
-          "B": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?",
-          "C": "Ảnh dùng trên màn hình và bản in có yêu cầu khác: cần chọn gì?",
-          "D": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Ảnh dùng trên màn hình và bản in có yêu cầu khác: cần chọn gì?"
-      },
-      {
-        "id": "T10-B15-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Tệp nguồn?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Giữ tệp dự án cho phép sửa các đối tượng sau này.",
-          "C": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "D": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất."
-        },
-        "dap_an": "B",
-        "giai_thich": "Giữ tệp dự án cho phép sửa các đối tượng sau này."
-      },
-      {
-        "id": "T10-B15-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Thiết kế có thể cần đổi nội dung: nên lưu gì ngoài ảnh xuất?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "B": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "C": "Tệp nguồn có đối tượng chỉnh sửa.",
-          "D": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tệp nguồn có đối tượng chỉnh sửa."
-      },
-      {
-        "id": "T10-B15-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tệp nguồn?",
-        "lua_chon": {
-          "A": "Được giao làm áp phích cho ngày hội trường: bước nào nên làm trước?",
-          "B": "Người xem không biết đâu là thông tin chính: cần cải thiện gì?",
-          "C": "Áp phích dùng nhiều kiểu chữ không liên quan: nên làm gì?",
-          "D": "Thiết kế có thể cần đổi nội dung: nên lưu gì ngoài ảnh xuất?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Thiết kế có thể cần đổi nội dung: nên lưu gì ngoài ảnh xuất?"
-      },
-      {
-        "id": "T10-B15-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Hoàn thiện hình ảnh đồ họa”?",
-        "lua_chon": {
-          "A": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem. Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-          "B": "Bố cục phân cấp tiêu đề, nội dung và hình ảnh. Xuất PNG luôn giữ nguyên các đối tượng vectơ ở dạng chỉnh sửa được.",
-          "C": "Không cần kiểm tra bố cục trước khi xuất sản phẩm. Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "D": "Xuất PNG luôn giữ nguyên các đối tượng vectơ ở dạng chỉnh sửa được. Không cần kiểm tra bố cục trước khi xuất sản phẩm."
-        },
-        "dap_an": "A",
-        "giai_thich": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem. Bố cục phân cấp tiêu đề, nội dung và hình ảnh."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B15-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Xét tính đúng/sai về bài “Hoàn thiện hình ảnh đồ họa”:",
-        "y_kien": {
-          "a": "Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.",
-          "b": "Xuất PNG luôn giữ nguyên các đối tượng vectơ ở dạng chỉnh sửa được.",
-          "c": "Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.",
-          "d": "Không cần kiểm tra bố cục trước khi xuất sản phẩm."
-        },
         "dap_an": {
           "a": true,
-          "b": false,
-          "c": true,
+          "b": true,
+          "c": false,
           "d": false
         },
-        "giai_thich": "a đúng: Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem.; b sai: Xuất PNG luôn giữ nguyên các đối tượng vectơ ở dạng chỉnh sửa được.; c đúng: Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.; d sai: Không cần kiểm tra bố cục trước khi xuất sản phẩm.."
+        "giai_thich": "a) Đúng. b) Đúng, DPI cao cho độ phân giải điểm ảnh lớn hơn. c) Sai, Selection đòi hỏi phải có đối tượng được chọn. d) Sai, PNG là ảnh bitmap nên sẽ bị vỡ hạt nếu phóng quá lớn so với kích thước xuất.",
+        "id": "B15_BS_DS_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "nhan_dinh": {
+          "a": "Nên lưu một bản định dạng .svg trước khi xuất .png để dễ dàng sửa lỗi chính tả hoặc thay đổi màu sắc sau này.",
+          "b": "Khi xuất sang .png, tăng thông số DPI (ví dụ từ 96 lên 300 DPI) sẽ giúp ảnh sắc nét hơn khi in ấn.",
+          "c": "Nếu chọn chế độ xuất Selection khi chưa chọn đối tượng nào, Inkscape vẫn tự động xuất toàn bộ trang.",
+          "d": "Tệp .png xuất ra có thể phóng to vô hạn mà không bao giờ bị vỡ hạt."
+        },
+        "noi_dung": "Một học sinh hoàn thiện tấm thiệp chúc mừng sinh nhật trong Inkscape và chuẩn bị xuất file gửi qua mạng. Đánh giá tính đúng/sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Ctrl + G",
+        "giai_thich": "Ctrl + G dùng để Group (nhóm); Ctrl + Shift + G dùng để Ungroup (rã nhóm).",
+        "id": "B15_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Tổ hợp phím tắt nào dùng để nhóm (Group) nhiều đối tượng đồ họa thành một nhóm trong Inkscape?"
+      },
+      {
+        "dap_an": "Page",
+        "giai_thich": "Chế độ Page xuất phần nội dung nằm trong ranh giới trang tài liệu.",
+        "id": "B15_BS_TLN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Trong hộp thoại Export PNG Image, chế độ nào chỉ xuất đúng phần bản vẽ nằm trong khung trang thiết kế?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "A",
+        "giai_thich": "Ctrl + Shift + E mở bảng Export PNG Image (trong phiên bản mới là Export) để xuất tệp ảnh điểm ảnh.",
+        "id": "B15_BS_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Để xuất bản vẽ từ Inkscape ra tệp ảnh PNG, em sử dụng tổ hợp phím tắt nào sau đây?",
+        "phuong_an": {
+          "A": "Ctrl + Shift + E",
+          "B": "Ctrl + Shift + F",
+          "C": "Ctrl + Shift + A",
+          "D": "Ctrl + G"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Page xuất đúng phạm vi trang thiết kế; Drawing xuất toàn bộ đối tượng có mặt; Selection chỉ xuất đối tượng đang chọn.",
+        "id": "B15_BS_TN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Khi xuất ảnh PNG trong hộp thoại Export của Inkscape, tùy chọn 'Page' có ý nghĩa gì?",
+        "phuong_an": {
+          "A": "Chỉ xuất đối tượng đang được chọn.",
+          "B": "Xuất toàn bộ vùng nằm trong khung trang giấy (Canvas page).",
+          "C": "Xuất toàn bộ mọi đối tượng kể cả ngoài trang giấy.",
+          "D": "Chỉ xuất phần chữ."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Kiểu nét liền/nét đứt (Dashes) và độ dày nét (Width) được thiết lập tại thẻ Stroke style.",
+        "id": "B15_BS_TN_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Để vẽ đoạn nét đứt ngăn cách giữa thông tin thời gian và địa điểm trên tờ rơi, sau khi vẽ đoạn thẳng bằng Pen, ta chỉnh thông số nào trong hộp thoại Fill and Stroke?",
+        "phuong_an": {
+          "A": "Thẻ Fill -> chọn Gradient.",
+          "B": "Thẻ Stroke paint -> chọn No paint.",
+          "C": "Thẻ Stroke style -> mục Dashes -> chọn kiểu nét đứt.",
+          "D": "Thẻ Fill -> giảm Opacity."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Nhóm đối tượng (Object -> Group, Ctrl + G) giữ nguyên màu sắc riêng của từng chi tiết nhưng cho phép di chuyển, co giãn đồng bộ như một khối.",
+        "id": "B15_BS_TN_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Khi thiết kế tờ rơi gồm nhiều chi tiết nhỏ (như một chồng sách gồm nhiều hình chữ nhật), thao tác nào giúp em di chuyển hoặc co giãn cả chồng sách cùng lúc mà không bị lệch vị trí tương đối?",
+        "phuong_an": {
+          "A": "Chọn các đối tượng và nhấn Ctrl + G (Group) để nhóm lại.",
+          "B": "Chọn các đối tượng và thực hiện Path -> Difference.",
+          "C": "Xuất ra PNG rồi đưa lại vào Inkscape.",
+          "D": "Khóa trang giấy."
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B15-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "- Tệp .svg (Scalable Vector Graphics): Lưu dưới dạng đồ họa vector, giữ nguyên cấu trúc từng đối tượng, lớp, văn bản, điểm neo; phóng to thu nhỏ không vỡ nét; dùng để lưu trữ dự án, tiếp tục chỉnh sửa hoặc nhúng web sắc nét. - Tệp .png (Portable Network Graphics): Lưu dưới dạng đồ họa điểm ảnh (bitmap), gộp thành một ảnh phẳng; mọi thiết bị và mạng xã hội đều xem được dễ dàng nhưng không sửa lại từng chi tiết vector được và bị giảm nét nếu phóng quá to; dùng để chia sẻ, chèn vào báo cáo hoặc in ấn.",
+        "giai_thich": "Hiểu bản chất hai định dạng giúp chọn đúng tệp cho mục đích lưu trữ/chỉnh sửa và chia sẻ/in ấn.",
+        "id": "B15_BS_TL_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Trình bày hai nội dung của bài: Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem. Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Thiết kế bắt đầu bằng xác định mục tiêu, thông điệp và người xem. Bố cục phân cấp tiêu đề, nội dung và hình ảnh.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B15-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Hoàn thiện hình ảnh đồ họa",
-        "noi_dung": "Giải thích và vận dụng nội dung “Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Màu sắc, phông và kiểu hình nhất quán giúp sản phẩm thống nhất.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "So sánh sự khác nhau giữa tệp lưu gốc (.svg) và tệp xuất bản (.png) của cùng một sản phẩm thiết kế trong Inkscape. Khi nào nên dùng định dạng nào?"
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Sai, Inkscape là phần mềm đồ họa vector. b) Đúng. c) Đúng, qua lệnh File -> Export PNG Image. d) Đúng.",
+        "id": "B15_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_15.docx",
+        "nhan_dinh": {
+          "a": "Inkscape chỉ hỗ trợ vẽ hình ảnh bitmap.",
+          "b": "Người dùng có thể tạo ra các hình ảnh vector chất lượng cao bằng Inkscape.",
+          "c": "Inkscape cho phép xuất sản phẩm hoàn thiện sang định dạng ảnh điểm ảnh (PNG) để chia sẻ.",
+          "d": "Phần mềm Inkscape hoàn toàn miễn phí cho người dùng."
+        },
+        "noi_dung": "Cho đoạn thông tin: Inkscape là phần mềm đồ họa vector miễn phí cho phép vẽ nền, tạo hình dạng và thêm hiệu ứng để hoàn thiện sản phẩm đồ họa. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Sai, đặt Corners = 3 trong công cụ Polygon tạo ra tam giác. c) Đúng. d) Đúng.",
+        "id": "B15_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_15.docx",
+        "nhan_dinh": {
+          "a": "Các lá cờ tam giác có thể được tạo bằng công cụ hình đa giác (đặt Corners = 3) hoặc công cụ Pen.",
+          "b": "Inkscape không hỗ trợ vẽ hình tam giác.",
+          "c": "Người dùng có thể sao chép, đổi màu và sắp xếp các hình tam giác theo dây dẫn thẳng hoặc cong.",
+          "d": "Để dây cờ đều đẹp, có thể sử dụng hộp thoại Align and Distribute."
+        },
+        "noi_dung": "Trong nhiệm vụ thiết kế tờ rơi quảng bá Hội chợ sách, để vẽ dây cờ tam giác trong Inkscape, hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Sai. b) Đúng, ghép elip/chữ nhật bo góc với tam giác bằng Path -> Union rất phổ biến. c) Đúng. d) Đúng.",
+        "id": "B15_GOC_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_15.docx",
+        "nhan_dinh": {
+          "a": "Bóng hội thoại không thể tạo ra trong Inkscape.",
+          "b": "Có thể dùng công cụ Pen (Bézier) vẽ trực tiếp hoặc ghép (Union) hình tròn/elip với một hình tam giác nhọn.",
+          "c": "Màu sắc, viền và văn bản có thể được đặt vào bên trong bóng hội thoại để làm nổi bật thông tin ưu đãi.",
+          "d": "Bóng hội thoại sau khi ghép vẫn có thể chỉnh sửa màu tô và kích thước."
+        },
+        "noi_dung": "Khi vẽ bóng hội thoại (speech bubble) trong tờ rơi Hội chợ sách bằng Inkscape, hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Đúng. c) Sai, lớp nền phải đặt ở dưới cùng (Lower to Bottom - End). d) Đúng.",
+        "id": "B15_GOC_DS_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_15.docx",
+        "nhan_dinh": {
+          "a": "Sử dụng tô màu chuyển sắc (Gradient) cho hình nền giúp tạo hiệu ứng chiều sâu và sinh động hơn.",
+          "b": "Có thể sử dụng hình chữ nhật với kích thước và màu sắc khác nhau để vẽ sách và giá sách.",
+          "c": "Lớp nền (background) nên được đặt ở lớp trên cùng để che các đối tượng khác.",
+          "d": "Khi hoàn thiện sản phẩm, nên lưu cả tệp gốc .svg để chỉnh sửa sau này và xuất tệp .png để sử dụng."
+        },
+        "noi_dung": "Khi vẽ nền và sách/giá sách cho sản phẩm đồ họa trong Inkscape, hãy đánh giá tính đúng/sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Hội chợ sách",
+        "giai_thich": "Bài 15 hướng dẫn 7 nhiệm vụ để thiết kế hoàn chỉnh tờ rơi quảng bá cho Hội chợ sách.",
+        "id": "B15_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ndc_b15._hoan_thien_hinh_anh_do_hoa_.docx",
+        "noi_dung": "Trong Bài 15, sản phẩm thực hành tổng hợp yêu cầu thiết kế tờ rơi quảng bá cho sự kiện gì?"
+      },
+      {
+        "dap_an": "PNG",
+        "giai_thich": "Nhiệm vụ 7 của Bài 15 yêu cầu xuất sản phẩm hoàn thiện ra định dạng đồ họa điểm ảnh PNG (File -> Export PNG Image).",
+        "id": "B15_GOC_TLN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ndc_b15._hoan_thien_hinh_anh_do_hoa_.docx",
+        "noi_dung": "Định dạng đồ họa điểm ảnh phổ biến mà Inkscape xuất ra ở nhiệm vụ cuối cùng để đăng tải hoặc in ấn là gì?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Inkscape là phần mềm thiết kế đồ họa vector mã nguồn mở miễn phí.",
+        "id": "B15_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_4_phan_1.docx",
+        "noi_dung": "Inkscape là phần mềm thuộc loại nào?",
+        "phuong_an": {
+          "A": "Một trình duyệt web.",
+          "B": "Một phần mềm chỉnh sửa ảnh điểm ảnh chuyên sâu.",
+          "C": "Một phần mềm thiết kế đồ họa vector.",
+          "D": "Một công cụ quản lý tệp tin."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Inkscape làm việc với hình ảnh tĩnh vector/raster (SVG, PNG, PDF, EPS...), không hỗ trợ định dạng video MP4.",
+        "id": "B15_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_4_phan_1.docx",
+        "noi_dung": "Inkscape KHÔNG hỗ trợ xuất hoặc mở định dạng tệp nào sau đây?",
+        "phuong_an": {
+          "A": "JPEG/PNG.",
+          "B": "PDF.",
+          "C": "SVG.",
+          "D": "MP4."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Inkscape là phần mềm tự do mã nguồn mở (GNU GPL).",
+        "id": "B15_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_4_phan_1.docx",
+        "noi_dung": "Inkscape là phần mềm mã nguồn mở hay độc quyền?",
+        "phuong_an": {
+          "A": "Mã nguồn mở.",
+          "B": "Độc quyền.",
+          "C": "Cả A và B đúng.",
+          "D": "Cả A và B sai."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Thanh bảng chọn (File, Edit, View, Layer, Object, Path, Text...) chứa các lệnh xử lý tệp và biến đổi đối tượng.",
+        "id": "B15_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_4_phan_1.docx",
+        "noi_dung": "Trong giao diện làm việc của Inkscape, các lệnh thường dùng liên quan đến tệp tin (lưu, xuất ảnh...), các lệnh tạo và biến đổi đối tượng nằm ở đâu?",
+        "phuong_an": {
+          "A": "Thanh trạng thái.",
+          "B": "Thanh bảng chọn (Menu bar).",
+          "C": "Thanh điều khiển thuộc tính.",
+          "D": "Hộp công cụ."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Visual Studio là môi trường phát triển phần mềm (IDE), không phải phần mềm đồ họa.",
+        "id": "B15_GOC_TN_05",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_4_phan_1.docx",
+        "noi_dung": "Đâu KHÔNG phải là phần mềm thiết kế, chỉnh sửa hình ảnh đồ họa?",
+        "phuong_an": {
+          "A": "Adobe Photoshop.",
+          "B": "Visual Studio.",
+          "C": "Inkscape.",
+          "D": "GIMP."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "GIMP là phần mềm chỉnh sửa ảnh điểm ảnh (bitmap/raster); Illustrator, CorelDRAW và Inkscape là phần mềm đồ họa vector.",
+        "id": "B15_GOC_TN_06",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_4_phan_1.docx",
+        "noi_dung": "Đâu KHÔNG phải là phần mềm tạo, chỉnh sửa hình đồ họa vector?",
+        "phuong_an": {
+          "A": "GIMP.",
+          "B": "Adobe Illustrator.",
+          "C": "CorelDRAW.",
+          "D": "Inkscape."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Có 2 loại đồ họa cơ bản là đồ họa điểm ảnh (bitmap/raster) và đồ họa vector.",
+        "id": "B15_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_4_phan_1.docx",
+        "noi_dung": "Có mấy loại đồ họa cơ bản được đề cập trong Chủ đề 4?",
+        "phuong_an": {
+          "A": "3.",
+          "B": "5.",
+          "C": "2.",
+          "D": "4."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Thiết kế đồ họa là quá trình sáng tạo và giải quyết vấn đề truyền thông thị giác thông qua sự kết hợp giữa hình ảnh và chữ.",
+        "id": "B15_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_4_phan_1.docx",
+        "noi_dung": "Thiết kế đồ họa là gì?",
+        "phuong_an": {
+          "A": "Chỉ vẽ tranh phong cảnh bằng tay.",
+          "B": "Quá trình giải quyết vấn đề thông qua sự kết hợp giữa hình ảnh và chữ.",
+          "C": "Chỉ tạo ra sản phẩm bằng văn bản.",
+          "D": "Quá trình xử lý âm thanh số."
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "1) Vẽ nền (dùng hình chữ nhật phủ trang và tô màu chuyển sắc/Gradient). 2) Vẽ dây cờ tam giác. 3) Vẽ sách và giá sách. 4) Nhập các đoạn văn bản (tên sự kiện, thời gian, địa điểm, ưu đãi). 5) Vẽ bóng hội thoại. 6) Vẽ đoạn nét đứt ngăn cách giữa thời gian và địa điểm. 7) Xuất sản phẩm hoàn thiện ra định dạng đồ họa điểm ảnh (PNG).",
+        "giai_thich": "Quy trình 7 bước đi từ lớp nền, các đối tượng trang trí, nội dung chữ đến xuất bản sản phẩm.",
+        "id": "B15_GOC_TL_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ndc_b15._hoan_thien_hinh_anh_do_hoa_.docx",
+        "noi_dung": "Hãy liệt kê 7 nhiệm vụ chính để hoàn thiện sản phẩm tờ rơi quảng bá Hội chợ sách trong Bài 15."
+      },
+      {
+        "dap_an": "- Màu sắc: Phối màu hài hòa theo chủ đề (không dùng quá nhiều màu sặc sỡ gây rối mắt), đảm bảo độ tương phản giữa màu chữ và màu nền để dễ đọc. - Bố cục: Phân cấp thông tin rõ ràng (tiêu đề lớn nổi bật, thời gian/địa điểm/ưu đãi sắp xếp cân đối), căn lề và giãn cách đều nhau bằng Align and Distribute, giữ khoảng trống hợp lý xung quanh viền trang.",
+        "giai_thich": "Áp dụng nguyên tắc thiết kế đồ họa cơ bản vào sản phẩm thực tế.",
+        "id": "B15_GOC_TL_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_15_hoan_thien_hinh_anh_do_hoa.docx",
+        "noi_dung": "Nêu những yếu tố cần lưu ý khi lựa chọn màu sắc và bố cục để hoàn thiện một tờ rơi hoặc thiệp chúc mừng trong Inkscape."
+      }
+    ]
+  },
+  "ma_bai": "BAI_15",
+  "ten_bai": "Hoàn thiện hình ảnh đồ họa",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 8,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 4,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 4,
+      "tong": 16,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 8,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 12,
+      "thong_hieu": 8,
+      "van_dung": 4
+    },
+    "tong_so_cau": 24
   }
 }

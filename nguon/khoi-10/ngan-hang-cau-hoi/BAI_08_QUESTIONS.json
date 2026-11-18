@@ -1,424 +1,784 @@
 {
-  "ma_bai": "BAI_08",
   "bai_so": 8,
-  "ten_bai": "Mạng máy tính trong cuộc sống hiện đại",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
+    "dung_sai": [],
+    "tra_loi_ngan": [
       {
-        "id": "T10-B08-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Phát biểu nào đúng về LAN?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "C": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.",
-          "D": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-        },
-        "dap_an": "A",
-        "giai_thich": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường."
-      },
-      {
-        "id": "T10-B08-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?",
-        "lua_chon": {
-          "A": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "B": "LAN.",
-          "C": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.",
-          "D": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-        },
-        "dap_an": "B",
-        "giai_thich": "LAN."
-      },
-      {
-        "id": "T10-B08-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho LAN?",
-        "lua_chon": {
-          "A": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?",
-          "B": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?",
-          "C": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?",
-          "D": "Lưu tệp trên dịch vụ trực tuyến: dịch vụ nào được dùng?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?"
-      },
-      {
-        "id": "T10-B08-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Phát biểu nào đúng về Internet?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "C": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.",
-          "D": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-        },
-        "dap_an": "B",
-        "giai_thich": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau."
-      },
-      {
-        "id": "T10-B08-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.",
-          "C": "Internet.",
-          "D": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-        },
-        "dap_an": "C",
-        "giai_thich": "Internet."
-      },
-      {
-        "id": "T10-B08-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Internet?",
-        "lua_chon": {
-          "A": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?",
-          "B": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?",
-          "C": "Lưu tệp trên dịch vụ trực tuyến: dịch vụ nào được dùng?",
-          "D": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?"
-      },
-      {
-        "id": "T10-B08-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Phát biểu nào đúng về Khác biệt LAN/Internet?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "C": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.",
-          "D": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-        },
-        "dap_an": "C",
-        "giai_thich": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu."
-      },
-      {
-        "id": "T10-B08-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "C": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng.",
-          "D": "Đó có thể là LAN riêng; không đồng nghĩa với Internet."
-        },
-        "dap_an": "D",
-        "giai_thich": "Đó có thể là LAN riêng; không đồng nghĩa với Internet."
-      },
-      {
-        "id": "T10-B08-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Khác biệt LAN/Internet?",
-        "lua_chon": {
-          "A": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?",
-          "B": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?",
-          "C": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?",
-          "D": "Lưu tệp trên dịch vụ trực tuyến: dịch vụ nào được dùng?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?"
-      },
-      {
-        "id": "T10-B08-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "IaaS",
+        "giai_thich": "IaaS (Infrastructure as a Service) là dịch vụ cho thuê hạ tầng công nghệ thông tin.",
+        "id": "BAI_08_BS_TLN_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Phát biểu nào đúng về Điện toán đám mây?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "C": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.",
-          "D": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-      },
-      {
-        "id": "T10-B08-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Lưu tệp trên dịch vụ trực tuyến: dịch vụ nào được dùng?",
-        "lua_chon": {
-          "A": "Điện toán đám mây.",
-          "B": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "C": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "D": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu."
-        },
-        "dap_an": "A",
-        "giai_thich": "Điện toán đám mây."
-      },
-      {
-        "id": "T10-B08-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Điện toán đám mây?",
-        "lua_chon": {
-          "A": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?",
-          "B": "Lưu tệp trên dịch vụ trực tuyến: dịch vụ nào được dùng?",
-          "C": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?",
-          "D": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Lưu tệp trên dịch vụ trực tuyến: dịch vụ nào được dùng?"
-      },
-      {
-        "id": "T10-B08-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Phát biểu nào đúng về IoT?",
-        "lua_chon": {
-          "A": "IoT kết nối thiết bị vật lí có cảm biến để trao đổi dữ liệu.",
-          "B": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "C": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "D": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu."
-        },
-        "dap_an": "A",
-        "giai_thich": "IoT kết nối thiết bị vật lí có cảm biến để trao đổi dữ liệu."
-      },
-      {
-        "id": "T10-B08-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Cảm biến tưới cây tự gửi độ ẩm lên mạng: công nghệ nào phù hợp?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet vạn vật.",
-          "C": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "D": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu."
-        },
-        "dap_an": "B",
-        "giai_thich": "Internet vạn vật."
-      },
-      {
-        "id": "T10-B08-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho IoT?",
-        "lua_chon": {
-          "A": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?",
-          "B": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?",
-          "C": "Cảm biến tưới cây tự gửi độ ẩm lên mạng: công nghệ nào phù hợp?",
-          "D": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Cảm biến tưới cây tự gửi độ ẩm lên mạng: công nghệ nào phù hợp?"
-      },
-      {
-        "id": "T10-B08-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Phát biểu nào đúng về Cộng tác từ xa?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Mạng hỗ trợ họp, học và cộng tác từ xa.",
-          "C": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "D": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu."
-        },
-        "dap_an": "B",
-        "giai_thich": "Mạng hỗ trợ họp, học và cộng tác từ xa."
-      },
-      {
-        "id": "T10-B08-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Nhóm cùng chỉnh sửa tài liệu dù ở nhiều nơi: lợi ích nào được thể hiện?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "C": "Cộng tác và chia sẻ tài nguyên từ xa.",
-          "D": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu."
-        },
-        "dap_an": "C",
-        "giai_thich": "Cộng tác và chia sẻ tài nguyên từ xa."
-      },
-      {
-        "id": "T10-B08-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Cộng tác từ xa?",
-        "lua_chon": {
-          "A": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?",
-          "B": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?",
-          "C": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?",
-          "D": "Nhóm cùng chỉnh sửa tài liệu dù ở nhiều nơi: lợi ích nào được thể hiện?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Nhóm cùng chỉnh sửa tài liệu dù ở nhiều nơi: lợi ích nào được thể hiện?"
-      },
-      {
-        "id": "T10-B08-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Phát biểu nào đúng về Rủi ro kết nối?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "C": "Kết nối rộng làm tăng nhu cầu bảo vệ dữ liệu và tài khoản.",
-          "D": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu."
-        },
-        "dap_an": "C",
-        "giai_thich": "Kết nối rộng làm tăng nhu cầu bảo vệ dữ liệu và tài khoản."
-      },
-      {
-        "id": "T10-B08-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Thiết bị IoT dùng mật khẩu mặc định: điều gì nên làm?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "C": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.",
-          "D": "Đổi mật khẩu và cập nhật thiết bị."
-        },
-        "dap_an": "D",
-        "giai_thich": "Đổi mật khẩu và cập nhật thiết bị."
-      },
-      {
-        "id": "T10-B08-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Rủi ro kết nối?",
-        "lua_chon": {
-          "A": "Thiết bị IoT dùng mật khẩu mặc định: điều gì nên làm?",
-          "B": "Các máy tính trong phòng thực hành cùng kết nối bộ chuyển mạch: mạng nào được mô tả?",
-          "C": "Truy cập trang web của tổ chức ở nước khác: mạng nào được sử dụng?",
-          "D": "Mạng nội bộ của trường không truy cập được từ ngoài: mô tả nào đúng?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Thiết bị IoT dùng mật khẩu mặc định: điều gì nên làm?"
-      },
-      {
-        "id": "T10-B08-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Mạng máy tính trong cuộc sống hiện đại”?",
-        "lua_chon": {
-          "A": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường. Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-          "B": "Internet là mạng toàn cầu kết nối nhiều mạng với nhau. LAN và Internet là cùng một khái niệm, có phạm vi giống hệt nhau.",
-          "C": "Điện toán đám mây chỉ hoạt động khi lưu dữ liệu trên ổ USB. LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "D": "LAN và Internet là cùng một khái niệm, có phạm vi giống hệt nhau. Điện toán đám mây chỉ hoạt động khi lưu dữ liệu trên ổ USB."
-        },
-        "dap_an": "A",
-        "giai_thich": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường. Internet là mạng toàn cầu kết nối nhiều mạng với nhau."
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "Trong các mô hình dịch vụ điện toán đám mây (SaaS, PaaS, IaaS), dịch vụ cho thuê máy chủ ảo và không gian lưu trữ thuộc mô hình nào?"
       }
     ],
+    "trac_nghiem": [],
+    "tu_luan": [
+      {
+        "dap_an": "Phạm vi: LAN trong tòa nhà/cơ quan, Internet toàn cầu. Thiết bị/Kết nối: LAN dùng Switch/Hub/Wi-Fi nội bộ; Internet kết nối các LAN qua Router và ISP. Sở hữu: LAN có chủ sở hữu rõ ràng; Internet không thuộc sở hữu của riêng ai.",
+        "giai_thich": "Hệ thống hóa 3 tiêu chí phân biệt LAN và Internet theo SGK Tin học 10 KNTT.",
+        "id": "BAI_08_BS_TL_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "So sánh sự khác nhau cơ bản giữa mạng cục bộ (LAN) và mạng Internet về phạm vi, thiết bị kết nối chính và quyền sở hữu."
+      }
+    ]
+  },
+  "cau_hoi_goc": {
     "dung_sai": [
       {
-        "id": "T10-B08-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Xét tính đúng/sai về bài “Mạng máy tính trong cuộc sống hiện đại”:",
-        "y_kien": {
-          "a": "LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.",
-          "b": "LAN và Internet là cùng một khái niệm, có phạm vi giống hệt nhau.",
-          "c": "LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.",
-          "d": "Điện toán đám mây chỉ hoạt động khi lưu dữ liệu trên ổ USB."
-        },
         "dap_an": {
-          "a": true,
-          "b": false,
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a sai vì LAN có thể kết nối hàng chục đến hàng trăm thiết bị; c sai vì chia sẻ dữ liệu là mục đích chính của LAN; b, d đúng.",
+        "id": "BAI_08_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_8.docx",
+        "nhan_dinh": {
+          "a": "Mạng LAN chỉ có thể kết nối tối đa 10 máy tính.",
+          "b": "Internet là một loại mạng máy tính lớn nhất và phổ biến nhất hiện nay.",
+          "c": "Mạng LAN không thể sử dụng cho việc chia sẻ dữ liệu.",
+          "d": "Mạng máy tính giúp tiết kiệm thời gian và chi phí trong giao tiếp."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nMạng máy tính là một hệ thống các máy tính và thiết bị kết nối với nhau để chia sẻ tài nguyên và thông tin. Mạng LAN (Local Area Network) thường được sử dụng trong các văn phòng hoặc trường học, trong khi Internet là mạng toàn cầu kết nối hàng triệu máy tính trên khắp thế giới. (Nguồn: Cisco)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a, c sai vì Internet phục vụ cả học tập, làm việc từ xa, y tế, kinh tế; b, d đúng.",
+        "id": "BAI_08_GOC_DS_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_8.docx",
+        "nhan_dinh": {
+          "a": "Internet chỉ được sử dụng cho việc giải trí.",
+          "b": "Giao tiếp qua Internet có thể diễn ra mọi lúc, mọi nơi.",
+          "c": "Internet không ảnh hưởng đến cách mà chúng ta học tập và làm việc.",
+          "d": "Các dịch vụ trên Internet có thể giúp kết nối mọi người từ xa."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nInternet đã trở thành một phần không thể thiếu trong cuộc sống hiện đại, giúp con người giao tiếp, học tập và làm việc từ xa. Nó cung cấp nhiều dịch vụ như email, mạng xã hội, và hội nghị trực tuyến.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a sai (dùng được trên PC, laptop, di động); c sai (nhà cung cấp quản lý hạ tầng); b, d đúng.",
+        "id": "BAI_08_GOC_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_8.docx",
+        "nhan_dinh": {
+          "a": "Điện toán đám mây chỉ có thể được sử dụng trên các thiết bị di động.",
+          "b": "Dịch vụ đám mây giúp giảm chi phí và tăng tính linh hoạt cho người dùng.",
+          "c": "Người dùng phải sở hữu toàn bộ hạ tầng máy chủ để sử dụng dịch vụ đám mây.",
+          "d": "Lưu trữ dữ liệu trên đám mây giúp dễ dàng truy cập từ bất kỳ đâu có Internet."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nĐiện toán đám mây (Cloud Computing) là một mô hình cung cấp dịch vụ công nghệ thông tin qua Internet, cho phép người dùng truy cập và lưu trữ dữ liệu mà không cần phải quản lý cơ sở hạ tầng vật lý. Các dịch vụ đám mây cơ bản bao gồm lưu trữ, tính toán và phần mềm như dịch vụ. (Nguồn: IBM)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a sai (mở rộng linh hoạt theo nhu cầu); c sai (bắt buộc có Internet để truy cập tài nguyên đám mây); b, d đúng.",
+        "id": "BAI_08_GOC_DS_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_8.docx",
+        "nhan_dinh": {
+          "a": "Điện toán đám mây không thể mở rộng tài nguyên khi cần thiết.",
+          "b": "Doanh nghiệp có thể tiết kiệm chi phí nhờ vào điện toán đám mây.",
+          "c": "Việc sử dụng điện toán đám mây không cần phải có kết nối Internet.",
+          "d": "Điện toán đám mây giúp doanh nghiệp nhanh chóng thích ứng với thay đổi trong nhu cầu."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nMột trong những lợi ích lớn của điện toán đám mây là khả năng mở rộng. Người dùng có thể tăng hoặc giảm tài nguyên theo nhu cầu mà không cần phải đầu tư vào phần cứng mới. Điều này giúp doanh nghiệp tiết kiệm chi phí và thời gian. (Nguồn: Microsoft)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường.; b sai: LAN và Internet là cùng một khái niệm, có phạm vi giống hệt nhau.; c đúng: LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.; d sai: Điện toán đám mây chỉ hoạt động khi lưu dữ liệu trên ổ USB.."
+        "giai_thich": "a sai (IoT ứng dụng cả nông nghiệp, y tế, giao thông, nhà thông minh); d sai (IoT dựa trên kết nối Internet hoặc mạng truyền thông); b, c đúng.",
+        "id": "BAI_08_GOC_DS_05",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_8.docx",
+        "nhan_dinh": {
+          "a": "Kết nối vạn vật chỉ có thể áp dụng trong lĩnh vực công nghiệp.",
+          "b": "IoT giúp các thiết bị giao tiếp và chia sẻ dữ liệu với nhau.",
+          "c": "Kết nối vạn vật có thể giúp cải thiện hiệu suất trong nông nghiệp.",
+          "d": "IoT không cần thiết phải có Internet để hoạt động."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nKết nối vạn vật (IoT) là khái niệm chỉ việc kết nối các thiết bị vật lý với Internet để thu thập và chia sẻ dữ liệu. IoT có thể cải thiện hiệu suất trong nhiều lĩnh vực, từ nông nghiệp đến y tế. (Nguồn: Gartner)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "(1) switch; (2) LAN",
+        "giai_thich": "Switch (bộ chuyển mạch) dùng để kết nối các máy tính trong mạng cục bộ (LAN) tại văn phòng, trường học.",
+        "id": "BAI_08_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai.docx",
+        "noi_dung": "Điền từ còn thiếu vào chỗ trống:\n(1) Để kết nối các máy tính trong một mạng cục bộ, người ta thường sử dụng ......................... (bộ định tuyến, switch, modem).\n(2) Mạng .......................... (LAN, WAN, MAN) thường được sử dụng trong các văn phòng hoặc trường học."
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Theo phạm vi địa lý, mạng máy tính chia thành mạng cục bộ (LAN) và mạng diện rộng (WAN).",
+        "id": "BAI_08_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Theo phạm vi hoạt động, các mạng có thể chia thành",
+        "phuong_an": {
+          "A": "Mạng bộ phận và mạng diện rộng.",
+          "B": "Mạng cục bộ và mạng toàn cầu.",
+          "C": "Mạng cục bộ và mạng diện rộng.",
+          "D": "Mạng bộ phận và mạng toàn cầu."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "LAN (Local Area Network) được dịch chuẩn là Mạng cục bộ.",
+        "id": "BAI_08_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Local Area Network, viết tắt là LAN là",
+        "phuong_an": {
+          "A": "Mạng không gian hẹp.",
+          "B": "Mạng bộ phận.",
+          "C": "Mạng cục bộ.",
+          "D": "Mạng địa phương."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "WAN (Wide Area Network) là Mạng diện rộng.",
+        "id": "BAI_08_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Wide Area Network, viết tắt là WAN là",
+        "phuong_an": {
+          "A": "Mạng diện rộng.",
+          "B": "Mạng toàn cầu.",
+          "C": "Kết nối vệ tinh.",
+          "D": "Kết nối cơ sở."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Mạng diện rộng (WAN) liên kết các mạng LAN hoặc các máy tính đơn lẻ trên phạm vi địa lý rộng lớn.",
+        "id": "BAI_08_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Mạng diện rộng được hình thành bằng cách",
+        "phuong_an": {
+          "A": "Liên kết các LAN.",
+          "B": "Liên kết các LAN hay các máy tính đơn lẻ.",
+          "C": "Kết nối chung tín hiệu vệ tinh.",
+          "D": "Sử dụng chung Internet."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Internet là mạng diện rộng (WAN) lớn nhất có quy mô toàn cầu.",
+        "id": "BAI_08_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Internet là",
+        "phuong_an": {
+          "A": "Mạng diện rộng có quy mô toàn cầu.",
+          "B": "Mạng diện rộng duy nhất trên thế giới.",
+          "C": "Mạng cục bộ có quy mô rất lớn.",
+          "D": "Mạng cục bộ có quy mô toàn cầu."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Internet không thuộc quyền sở hữu của riêng cá nhân, tổ chức hay quốc gia nào.",
+        "id": "BAI_08_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Internet thuộc quyền sở hữu của",
+        "phuong_an": {
+          "A": "Một vài cơ quan quản lý phi lợi nhuận.",
+          "B": "Không của riêng ai.",
+          "C": "Các nước trên thế giới.",
+          "D": "Tập đoàn Google."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Bộ định tuyến (Router) có chức năng kết nối các mạng LAN với nhau và định tuyến đường đi cho dữ liệu.",
+        "id": "BAI_08_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong mạng máy tính, bộ định tuyến dùng để",
+        "phuong_an": {
+          "A": "Lưu trữ dữ liệu của từng LAN.",
+          "B": "Chuyển tiếp dữ liệu trong nội bộ LAN.",
+          "C": "Kết nối các LAN với nhau.",
+          "D": "Kết nối dữ liệu của các LAN với nhau."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Router kiểm tra địa chỉ đích; nếu không nằm trong LAN nội bộ, gói tin được chuyển ra cổng kết nối bên ngoài (Internet).",
+        "id": "BAI_08_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Nguyên lí hoạt động của bộ định tuyến là",
+        "phuong_an": {
+          "A": "Chỉ chuyển tiếp dữ liệu trong nội bộ LAN.",
+          "B": "Kết nối các LAN với nhau bằng Internet.",
+          "C": "Kết nối các LAN với nhau theo thứ tự từ gần đến xa.",
+          "D": "Nếu địa chỉ nơi nhận của dữ liệu không có trong LAN thì nó gửi theo cổng Internet."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Internet tác động sâu rộng đến giáo dục, kinh tế, y tế, giải trí và giao tiếp cộng đồng.",
+        "id": "BAI_08_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Internet có ảnh hưởng tới lĩnh vực nào của đời sống xã hội?",
+        "phuong_an": {
+          "A": "Giáo dục.",
+          "B": "Kinh tế - xã hội.",
+          "C": "Giao tiếp cộng đồng.",
+          "D": "Tất cả đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Đây là định nghĩa chuẩn về dịch vụ điện toán đám mây (Cloud Computing).",
+        "id": "BAI_08_GOC_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Việc chia sẻ các tài nguyên mạng theo nhu cầu qua Internet miễn phí hoặc trả phí theo hạn mức sử dụng được gọi là",
+        "phuong_an": {
+          "A": "Dịch vụ số.",
+          "B": "Dịch vụ điện toán đám mây.",
+          "C": "Dịch vụ điện toán số.",
+          "D": "Dịch vụ big data."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Trong điện toán đám mây (theo SGK KNTT), phần mềm được chia thành phần mềm ứng dụng và phần mềm nền tảng.",
+        "id": "BAI_08_GOC_TN_11",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Người ta chia phần mềm thành hai nhóm",
+        "phuong_an": {
+          "A": "Phần mềm ứng dụng và phần mềm nền tảng.",
+          "B": "Phần mềm dịch vụ và phần mềm nền tảng.",
+          "C": "Phần mềm ứng dụng và phần mềm lưu trữ.",
+          "D": "Phần mềm lưu trữ và phần mềm nền tảng."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "SaaS (Software as a Service) là dịch vụ cho thuê phần mềm ứng dụng qua Internet.",
+        "id": "BAI_08_GOC_TN_12",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "SaaS là viết tắt của",
+        "phuong_an": {
+          "A": "Việc cho thuê phần mềm ứng dụng.",
+          "B": "Việc cho thuê phần mềm lưu trữ.",
+          "C": "Việc cho thuê nền tảng.",
+          "D": "Việc cho thuê phần mềm dịch vụ."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "PaaS (Platform as a Service) là dịch vụ cho thuê nền tảng phát triển/vận hành ứng dụng.",
+        "id": "BAI_08_GOC_TN_13",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "PaaS là viết tắt của",
+        "phuong_an": {
+          "A": "Việc cho thuê phần mềm ứng dụng.",
+          "B": "Việc cho thuê phần mềm dịch vụ.",
+          "C": "Việc cho thuê nền tảng.",
+          "D": "Việc cho thuê cơ sở dữ liệu."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "IaaS (Infrastructure as a Service) là dịch vụ cho thuê hạ tầng phần cứng/mạng (máy chủ ảo, lưu trữ...).",
+        "id": "BAI_08_GOC_TN_14",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "IaaS là viết tắt của",
+        "phuong_an": {
+          "A": "Việc cho thuê phần mềm ứng dụng.",
+          "B": "Việc cho thuê cơ sở dữ liệu.",
+          "C": "Việc cho thuê nền tảng.",
+          "D": "Việc cho thuê hạ tầng."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Ba mô hình dịch vụ đám mây cốt lõi là SaaS, PaaS và IaaS.",
+        "id": "BAI_08_GOC_TN_15",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu là loại dịch vụ chủ yếu của điện toán đám mây?",
+        "phuong_an": {
+          "A": "SaaS.",
+          "B": "PaaS.",
+          "C": "IaaS.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Theo SGK KNTT, ba lợi ích chính được nhấn mạnh là tính mềm dẻo/độ sẵn sàng cao, chất lượng cao và kinh tế hơn (dữ liệu đưa lên đám mây vẫn tiềm ẩn rủi ro bảo mật nếu không cấu hình đúng).",
+        "id": "BAI_08_GOC_TN_16",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải lợi ích của dịch vụ đám mây?",
+        "phuong_an": {
+          "A": "Tính mềm dẻo và độ sẵn sàng cao.",
+          "B": "Chất lượng cao.",
+          "C": "Bảo mật cao.",
+          "D": "Kinh tế hơn."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Internet kết nối các mạng trên phạm vi toàn cầu.",
+        "id": "BAI_08_GOC_TN_17",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phạm vi sử dụng của Internet là",
+        "phuong_an": {
+          "A": "Trong gia đình.",
+          "B": "Trong từng quốc gia.",
+          "C": "Chỉ ở trên máy tính và điện thoại.",
+          "D": "Toàn cầu."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "LAN viết tắt của Local Area Network.",
+        "id": "BAI_08_GOC_TN_18",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Mạng LAN là viết tắt của cụm từ nào?",
+        "phuong_an": {
+          "A": "Local Area.",
+          "B": "Local Arian Network.",
+          "C": "Lome Area Network.",
+          "D": "Local Area Network."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Mạng LAN hoạt động trong phạm vi địa lý nhỏ như phòng học, tòa nhà, cơ quan.",
+        "id": "BAI_08_GOC_TN_19",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Mạng LAN là mạng kết nối dùng trong phạm vi",
+        "phuong_an": {
+          "A": "Lớn.",
+          "B": "Nhỏ.",
+          "C": "Trong một quốc gia.",
+          "D": "Trên toàn thế giới."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Cloud Computing là thuật ngữ tiếng Anh của điện toán đám mây.",
+        "id": "BAI_08_GOC_TN_20",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tên tiếng Anh của điện toán đám mây là",
+        "phuong_an": {
+          "A": "Cloud Computing.",
+          "B": "Zoom Cloud Meeting.",
+          "C": "Google Meet.",
+          "D": "Gmail."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Mạng LAN có thể dùng có dây hoặc không dây, kết nối trong quy mô địa lý nhỏ (không bắt buộc cùng một phòng).",
+        "id": "BAI_08_GOC_TN_21",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây đúng khi nói về mạng LAN?",
+        "phuong_an": {
+          "A": "Mạng LAN là mạng mà các máy tính được kết nối trực tiếp với nhau qua cáp truyền tín hiệu.",
+          "B": "Mạng LAN là mạng kết nối các máy tính trong một quy mô địa lí nhỏ.",
+          "C": "Các máy tính trong mạng LAN cần được đặt trong một phòng.",
+          "D": "Mạng LAN là mạng mà các máy tính được kết nối qua cùng một bộ thu phát wifi."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Internet không thuộc sở hữu riêng của ai, có các tổ chức điều phối kỹ thuật (như ICANN, IETF) và kết nối qua ISP.",
+        "id": "BAI_08_GOC_TN_22",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây đúng khi nói về Internet?",
+        "phuong_an": {
+          "A": "Internet do Liên hợp quốc quản lí.",
+          "B": "Internet được hình thành một cách tự phát, không có tổ chức điều phối.",
+          "C": "Mỹ là quốc gia chủ sở hữu Internet.",
+          "D": "Internet không có chủ nhưng có một tổ chức điều phối kĩ thuật và chính sách. Các tổ chức hay cá nhân tự nguyện tham gia thông qua nhà cung cấp dịch vụ Internet."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Web-mail (như Gmail) cung cấp phần mềm xử lý thư và lưu trữ trên máy chủ đám mây qua Internet (SaaS).",
+        "id": "BAI_08_GOC_TN_23",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây đúng khi nói về dịch vụ đám mây?",
+        "phuong_an": {
+          "A": "Nhắn tin ngắn trên điện thoại (SMS) là sử dụng dịch vụ đám mây.",
+          "B": "Báo điện tử đăng tin tức hàng ngày là dịch vụ đám mây.",
+          "C": "Web-mail (thư điện tử trên giao diện web) là dịch vụ đám mây.",
+          "D": "Bất cứ dịch vụ trực tuyến nào đều là dịch vụ đám mây."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "IoT (Internet of Things) liên kết các thiết bị thông minh để tự động thu thập, trao đổi và xử lý dữ liệu.",
+        "id": "BAI_08_GOC_TN_24",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây đúng khi nói về IoT?",
+        "phuong_an": {
+          "A": "IoT là mạng của các thiết bị tiếp nhận tín hiệu.",
+          "B": "IoT là mạng của các thiết bị thông minh nhằm thu thập và xử lí dữ liệu tự động.",
+          "C": "IoT là mạng của các máy tính, nhằm trao đổi dữ liệu với nhau.",
+          "D": "IoT là mạng kết nối các thiết bị thông minh thông qua mạng Internet nhằm thu thập dữ liệu trên phạm vi toàn cầu."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Số cổng mạng trên Router phụ thuộc vào thiết kế phần cứng (từ vài cổng gia đình đến hàng chục/hàng trăm cổng chuyên dụng).",
+        "id": "BAI_08_GOC_TN_25",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Bộ định tuyến (Router) có thể có mấy cổng mạng?",
+        "phuong_an": {
+          "A": "3.",
+          "B": "4.",
+          "C": "5.",
+          "D": "Vô số (nhiều cổng tùy loại)."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Smartphone kết nối Internet linh hoạt qua mạng di động (3G/4G/5G) hoặc Wi-Fi.",
+        "id": "BAI_08_GOC_TN_26",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Điện thoại thông minh được kết nối Internet bằng cách",
+        "phuong_an": {
+          "A": "Không thể kết nối.",
+          "B": "Cả C và D đều đúng.",
+          "C": "Qua dịch vụ 3G, 4G, 5G.",
+          "D": "Kết nối gián tiếp qua wifi."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "LAN là mạng cục bộ nên phạm vi địa lý nhỏ hơn mạng diện rộng (WAN).",
+        "id": "BAI_08_GOC_TN_27",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Điền từ còn thiếu vào chỗ trống: Mạng LAN có phạm vi địa lí ……...... mạng WAN.",
+        "phuong_an": {
+          "A": "Bằng hoặc lớn hơn.",
+          "B": "Lớn hơn.",
+          "C": "Bằng.",
+          "D": "Bé hơn."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Router (bộ định tuyến) đóng vai trò kết nối và định tuyến dữ liệu giữa các mạng LAN khác nhau.",
+        "id": "BAI_08_GOC_TN_28",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Các LAN có thể kết nối với nhau thông qua thiết bị",
+        "phuong_an": {
+          "A": "Switch.",
+          "B": "HUB.",
+          "C": "Router.",
+          "D": "Mạng Internet."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Zoom là phần mềm ứng dụng phục vụ hội nghị và dạy học trực tuyến (SaaS).",
+        "id": "BAI_08_GOC_TN_29",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phần mềm tạo lớp học ảo Zoom là phần mềm",
+        "phuong_an": {
+          "A": "Phần mềm ứng dụng.",
+          "B": "Phần mềm nền tảng.",
+          "C": "Cả A và B đều đúng.",
+          "D": "Phần mềm giao tiếp."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "IoT ứng dụng rộng rãi trong nhà thông minh, xe thông minh, đồng hồ thông minh và nhiều lĩnh vực khác.",
+        "id": "BAI_08_GOC_TN_30",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong thực tế, IoT có thể ứng dụng trong lĩnh vực",
+        "phuong_an": {
+          "A": "Tất cả các đáp án dưới đây đều đúng.",
+          "B": "Smart home.",
+          "C": "Smart car.",
+          "D": "Smart watch."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Thuê không gian lưu trữ trên Google Drive tương ứng với việc thuê tài nguyên phần cứng (thiết bị lưu trữ từ xa).",
+        "id": "BAI_08_GOC_TN_31",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Lưu trữ thông tin trên Internet qua Google Drive là thuê",
+        "phuong_an": {
+          "A": "Phần mềm ứng dụng.",
+          "B": "Phần mềm.",
+          "C": "Phần cứng.",
+          "D": "Hạ tầng dịch vụ."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "OneDrive là dịch vụ lưu trữ đám mây chính thức của Microsoft.",
+        "id": "BAI_08_GOC_TN_32",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Dịch vụ lưu trữ đám mây của Microsoft là gì?",
+        "phuong_an": {
+          "A": "Mediafire.",
+          "B": "OneDrive.",
+          "C": "Google Drive.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Viettel, VNPT, FPT Telecom, CMC Telecom đều là các ISP lớn tại Việt Nam.",
+        "id": "BAI_08_GOC_TN_33",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu là nhà mạng cung cấp dịch vụ Internet tại Việt Nam?",
+        "phuong_an": {
+          "A": "Viettelco (Viettel).",
+          "B": "FPT Telecom.",
+          "C": "CMC Telecom.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Mục đích của mạng máy tính là trao đổi dữ liệu và chia sẻ tài nguyên, thiết bị dùng chung.",
+        "id": "BAI_08_GOC_TN_34",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Máy tính kết nối với nhau để",
+        "phuong_an": {
+          "A": "Chia sẻ mạng.",
+          "B": "Cả C và D đều đúng.",
+          "C": "Chia sẻ các thiết bị.",
+          "D": "Trao đổi dữ liệu."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Phạm vi quận/huyện quá rộng, vượt quá quy mô kết nối trực tiếp của mạng LAN.",
+        "id": "BAI_08_GOC_TN_35",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trường hợp nào không thích hợp để sử dụng mạng LAN?",
+        "phuong_an": {
+          "A": "Tòa nhà.",
+          "B": "Cơ quan.",
+          "C": "Nhà riêng.",
+          "D": "Quận/huyện."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Các phát biểu (2), (3), (4), (5) đúng; (1) sai vì đọc tin tức trên báo điện tử thông thường không phải dịch vụ thuê bao đám mây.",
+        "id": "BAI_08_GOC_TN_36",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Số phát biểu đúng là:\n(1) Báo điện tử giúp mọi người đọc tin tức hàng ngày là dịch vụ đám mây.\n(2) Trong một mạng IoT, các thiết bị thông minh có thể nối với nhau qua Internet hoặc các liên kết khác.\n(3) Gọi điện thoại qua Zalo, Messenger trên Facebook hay Viber là dịch vụ đám mây.\n(4) Mạng cục bộ kết nối trực tiếp trong mạng qua thiết bị kết nối như Hub, Switch, Wifi.\n(5) Internet là một kho tri thức khổng lồ thường xuyên cập nhật, có thể truy cập ở bất cứ đâu, bất cứ lúc nào.",
+        "phuong_an": {
+          "A": "4.",
+          "B": "2.",
+          "C": "3.",
+          "D": "1."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Theo hình thức kết nối bằng dây cáp mạng, đây là mạng có dây (xét về phạm vi tòa nhà là mạng LAN).",
+        "id": "BAI_08_GOC_TN_37",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Hơn 100 máy tính ở ba tầng liền nhau của một tòa nhà cao tầng, được nối với nhau bằng dây cáp mạng để chia sẻ dữ liệu và máy in. Theo em, các máy tính này dùng loại mạng nào?",
+        "phuong_an": {
+          "A": "Mạng LAN.",
+          "B": "Mạng WAN.",
+          "C": "Mạng có dây.",
+          "D": "Mạng không dây."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Có 2 phát biểu sai: (3) lưu trữ là thuê phần cứng/hạ tầng (IaaS), không phải thuê phần mềm ứng dụng; (5) cho thuê hạ tầng viết tắt là IaaS, không phải SaaS.",
+        "id": "BAI_08_GOC_TN_38",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Số phát biểu không đúng là:\n(1) Ứng dụng bán hàng qua mạng như Shopee, Sendo, Tiki,... là dịch vụ điện toán đám mây.\n(2) Để sử dụng dịch vụ đám mây, người dùng phải đăng kí thuê bao, thỏa thuận hạn mức sử dụng nếu phải trả phí và được cấp tài khoản truy cập.\n(3) Lưu trữ thông tin trên Internet thông qua Dropbox hay Google Drive là thuê phần mềm ứng dụng.\n(4) Các công ty chuyên làm website thuê phần mềm quản trị cơ sở dữ liệu, phần mềm quản lí tin tức là thuê phần mềm dịch vụ.\n(5) Việc cho thuê hạ tầng được viết tắt là SaaS.",
+        "phuong_an": {
+          "A": "5.",
+          "B": "3.",
+          "C": "4.",
+          "D": "2."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Khi hai mạng LAN kết nối với nhau thông qua môi trường Internet (hoặc đường truyền diện rộng), chúng hợp thành mạng diện rộng (WAN).",
+        "id": "BAI_08_GOC_TN_39",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trường em có hai phòng máy thực hành cạnh nhau, các máy tính trong mỗi phòng kết nối với nhau qua một mạng LAN. Phát biểu nào dưới đây đúng?",
+        "phuong_an": {
+          "A": "Nếu nối HUB, switch, wifi của hai phòng qua một HUB hay switch khác thì mạng LAN của hai phòng nhập thành một mạng WAN.",
+          "B": "Nếu mỗi mạng LAN đều kết nối ra Internet một cách độc lập và kết nối giữa hai mạng thông qua Internet thì ta có mạng WAN.",
+          "C": "Máy tính hai phòng được kết nối với nhau bằng mạng có dây.",
+          "D": "Nếu kết nối hai phòng lại với nhau luôn tạo ra một mạng LAN lớn hơn."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "IP camera hiện đại có chi phí hợp lý, lắp đặt và cấu hình rất đơn giản qua ứng dụng điện thoại (cắm nguồn và quét mã QR).",
+        "id": "BAI_08_GOC_TN_40",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ngày nay các gia đình thường dùng IP camera có gắn thẻ nhớ và có kết nối Internet. Phát biểu nào dưới đây không đúng?",
+        "phuong_an": {
+          "A": "Hệ thống camera gia đình tương tác với máy tính, điện thoại qua mạng là một hệ thống IoT.",
+          "B": "Nhược điểm của IP camera là chi phí hệ thống cao; việc lắp đặt và cấu hình hệ thống phức tạp.",
+          "C": "Thuật ngữ IP camera chỉ các camera giao tiếp trên nền tảng Internet.",
+          "D": "IP camera phân tích ảnh, nếu thấy cảnh động mới ghi lại giúp giảm khối lượng lưu trữ."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Không có cách phân loại mạng máy tính thành 'mạng ở trên và mạng ở dưới'.",
+        "id": "BAI_08_GOC_TN_41",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai.docx",
+        "noi_dung": "Mạng máy tính không được phân loại thành các loại nào?",
+        "phuong_an": {
+          "A": "Mạng cục bộ và mạng diện rộng",
+          "B": "Mạng không dây và mạng có dây",
+          "C": "Mạng công cộng và mạng riêng",
+          "D": "Mạng ở trên và mạng ở dưới"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Bộ giao thức TCP/IP là nền tảng truyền tải dữ liệu trên mạng Internet.",
+        "id": "BAI_08_GOC_TN_42",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai.docx",
+        "noi_dung": "Giao thức nào được sử dụng phổ biến nhất để truyền tải dữ liệu trên Internet?",
+        "phuong_an": {
+          "A": "FTP",
+          "B": "HTTP",
+          "C": "SMTP",
+          "D": "TCP/IP"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B08-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Sai. Mạng máy tính và Internet đã làm thay đổi căn bản cách giao tiếp của con người: cho phép trao đổi tức thời qua email, mạng xã hội, gọi video không giới hạn khoảng cách địa lý.",
+        "giai_thich": "Nhờ mạng máy tính, con người kết nối nhanh chóng, tiết kiệm thời gian và chi phí.",
+        "id": "BAI_08_GOC_TL_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Trình bày hai nội dung của bài: LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường. Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-        "dap_an_goi_y": "Nêu đúng hai ý: LAN là mạng cục bộ kết nối thiết bị trong phạm vi giới hạn như nhà hoặc trường. Internet là mạng toàn cầu kết nối nhiều mạng với nhau.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai.docx",
+        "noi_dung": "Mạng máy tính không ảnh hưởng đến việc giao tiếp giữa con người là nhận định đúng hay sai? Tại sao?"
       },
       {
-        "id": "T10-B08-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Không thực hiện giao dịch ngân hàng hoặc nhập mật khẩu quan trọng; tắt tính năng tự động kết nối Wi-Fi; ưu tiên dùng kết nối HTTPS hoặc VPN; đăng xuất tài khoản sau khi dùng.",
+        "giai_thich": "Wi-Fi công cộng dễ bị nghe lén dữ liệu (tấn công trung gian), cần hạn chế truyền thông tin nhạy cảm.",
+        "id": "BAI_08_GOC_TL_02",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Mạng máy tính trong cuộc sống hiện đại",
-        "noi_dung": "Giải thích và vận dụng nội dung “LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “LAN có phạm vi cục bộ, còn Internet kết nối các mạng trên phạm vi toàn cầu.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai.docx",
+        "noi_dung": "Khi sử dụng mạng Wifi công cộng, bạn cần lưu ý những điều gì để bảo vệ thông tin cá nhân?"
+      },
+      {
+        "dap_an": "Giúp phương tiện qua trạm nhanh chóng, không cần tiền mặt, giảm ùn tắc và ô nhiễm môi trường; tiết kiệm chi phí in vé và nhân sự; dữ liệu truyền tức thời về cơ sở dữ liệu giúp minh bạch và chống thất thoát.",
+        "giai_thich": "Thu phí không dừng là ví dụ điển hình về IoT tự động thu thập và xử lý dữ liệu thời gian thực.",
+        "id": "BAI_08_GOC_TL_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai.docx",
+        "noi_dung": "Phân tích ích lợi của giải pháp thu phí không dừng (ETC) trên đường cao tốc — một ứng dụng tiêu biểu của IoT."
+      },
+      {
+        "dap_an": "Đúng. Vì Internet liên kết hàng triệu mạng LAN và máy tính trên phạm vi toàn cầu thông qua các bộ định tuyến (Router) và hạ tầng viễn thông của các nhà cung cấp dịch vụ.",
+        "giai_thich": "Quy mô toàn cầu và cấu trúc liên kết nhiều LAN tạo nên mạng diện rộng lớn nhất thế giới.",
+        "id": "BAI_08_GOC_TL_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_8_mang_may_tinh_trong_cuoc_song_hien_dai.docx",
+        "noi_dung": "Internet là một ví dụ điển hình về mạng diện rộng là nhận định đúng hay sai? Giải thích tại sao?"
       }
     ]
+  },
+  "ma_bai": "BAI_08",
+  "ten_bai": "Mạng máy tính trong cuộc sống hiện đại",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 0,
+      "tong": 2,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 0,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 5,
+      "tong": 52,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 42,
+      "tu_luan": 4
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 25,
+      "thong_hieu": 21,
+      "van_dung": 8
+    },
+    "tong_so_cau": 54
   }
 }

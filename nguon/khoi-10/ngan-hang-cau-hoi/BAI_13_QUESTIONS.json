@@ -1,424 +1,528 @@
 {
-  "ma_bai": "BAI_13",
   "bai_so": 13,
-  "ten_bai": "Bổ sung các đối tượng đồ họa",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B13-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Đối tượng hình?",
-        "lua_chon": {
-          "A": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "B": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "C": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
-          "D": "Đối tượng phía trước có thể che đối tượng phía sau."
-        },
-        "dap_an": "B",
-        "giai_thich": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa."
-      },
-      {
-        "id": "T10-B13-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?",
-        "lua_chon": {
-          "A": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "B": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
-          "C": "Tạo các đối tượng hình cơ bản.",
-          "D": "Đối tượng phía trước có thể che đối tượng phía sau."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tạo các đối tượng hình cơ bản."
-      },
-      {
-        "id": "T10-B13-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Đối tượng hình?",
-        "lua_chon": {
-          "A": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
-          "B": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?",
-          "C": "Vòng tròn bị che bởi hình chữ nhật: cần dùng lệnh nào?",
-          "D": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?"
-      },
-      {
-        "id": "T10-B13-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Tô màu?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
-          "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "D": "Đối tượng phía trước có thể che đối tượng phía sau."
-        },
-        "dap_an": "C",
-        "giai_thich": "Đối tượng có thể được tô màu nền và đặt màu nét."
-      },
-      {
-        "id": "T10-B13-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
-          "C": "Đối tượng phía trước có thể che đối tượng phía sau.",
-          "D": "Màu tô và màu nét."
-        },
-        "dap_an": "D",
-        "giai_thich": "Màu tô và màu nét."
-      },
-      {
-        "id": "T10-B13-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tô màu?",
-        "lua_chon": {
-          "A": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
-          "B": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?",
-          "C": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?",
-          "D": "Vòng tròn bị che bởi hình chữ nhật: cần dùng lệnh nào?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?"
-      },
-      {
-        "id": "T10-B13-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Chọn đối tượng?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "C": "Đối tượng phía trước có thể che đối tượng phía sau.",
-          "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
-      },
-      {
-        "id": "T10-B13-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?",
-        "lua_chon": {
-          "A": "Chọn đối tượng đó.",
-          "B": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "D": "Đối tượng phía trước có thể che đối tượng phía sau."
-        },
-        "dap_an": "A",
-        "giai_thich": "Chọn đối tượng đó."
-      },
-      {
-        "id": "T10-B13-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Chọn đối tượng?",
-        "lua_chon": {
-          "A": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?",
-          "B": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?",
-          "C": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
-          "D": "Vòng tròn bị che bởi hình chữ nhật: cần dùng lệnh nào?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?"
-      },
-      {
-        "id": "T10-B13-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Sắp xếp lớp?",
-        "lua_chon": {
-          "A": "Đối tượng phía trước có thể che đối tượng phía sau.",
-          "B": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
-        },
-        "dap_an": "A",
-        "giai_thich": "Đối tượng phía trước có thể che đối tượng phía sau."
-      },
-      {
-        "id": "T10-B13-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Vòng tròn bị che bởi hình chữ nhật: cần dùng lệnh nào?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Đưa đối tượng lên trước/đưa ra sau.",
-          "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
-        },
-        "dap_an": "B",
-        "giai_thich": "Đưa đối tượng lên trước/đưa ra sau."
-      },
-      {
-        "id": "T10-B13-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Sắp xếp lớp?",
-        "lua_chon": {
-          "A": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?",
-          "B": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
-          "C": "Vòng tròn bị che bởi hình chữ nhật: cần dùng lệnh nào?",
-          "D": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Vòng tròn bị che bởi hình chữ nhật: cần dùng lệnh nào?"
-      },
-      {
-        "id": "T10-B13-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Nhóm đối tượng?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Nhóm nhiều đối tượng giúp di chuyển/chỉnh như một đơn vị.",
-          "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
-        },
-        "dap_an": "B",
-        "giai_thich": "Nhóm nhiều đối tượng giúp di chuyển/chỉnh như một đơn vị."
-      },
-      {
-        "id": "T10-B13-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Logo gồm nhiều hình cần đặt cùng vị trí: thao tác nào tiện?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "C": "Nhóm các đối tượng.",
-          "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
-        },
-        "dap_an": "C",
-        "giai_thich": "Nhóm các đối tượng."
-      },
-      {
-        "id": "T10-B13-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Nhóm đối tượng?",
-        "lua_chon": {
-          "A": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?",
-          "B": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
-          "C": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?",
-          "D": "Logo gồm nhiều hình cần đặt cùng vị trí: thao tác nào tiện?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Logo gồm nhiều hình cần đặt cùng vị trí: thao tác nào tiện?"
-      },
-      {
-        "id": "T10-B13-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Phép hợp?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "C": "Hợp hai hình tạo vùng bao gồm phần của cả hai.",
-          "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
-        },
-        "dap_an": "C",
-        "giai_thich": "Hợp hai hình tạo vùng bao gồm phần của cả hai."
-      },
-      {
-        "id": "T10-B13-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Cần ghép hai hình thành một đối tượng liền: phép nào phù hợp?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "C": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
-          "D": "Hợp (union)."
-        },
-        "dap_an": "D",
-        "giai_thich": "Hợp (union)."
-      },
-      {
-        "id": "T10-B13-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Phép hợp?",
-        "lua_chon": {
-          "A": "Cần ghép hai hình thành một đối tượng liền: phép nào phù hợp?",
-          "B": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?",
-          "C": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
-          "D": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Cần ghép hai hình thành một đối tượng liền: phép nào phù hợp?"
-      },
-      {
-        "id": "T10-B13-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Phép giao?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "B": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "C": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
-          "D": "Giao giữ phần chung của các đối tượng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Giao giữ phần chung của các đối tượng."
-      },
-      {
-        "id": "T10-B13-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Cần tạo hình chỉ còn phần chồng lấp: phép nào chọn?",
-        "lua_chon": {
-          "A": "Giao (intersection).",
-          "B": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "C": "Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "D": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng."
-        },
-        "dap_an": "A",
-        "giai_thich": "Giao (intersection)."
-      },
-      {
-        "id": "T10-B13-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Phép giao?",
-        "lua_chon": {
-          "A": "Cần tạo biểu tượng từ hình tròn và hình chữ nhật: cách làm nào phù hợp?",
-          "B": "Cần tạo hình chỉ còn phần chồng lấp: phép nào chọn?",
-          "C": "Hình cần nền xanh và viền đen: thiết lập nào cần điều chỉnh?",
-          "D": "Cần chỉnh riêng hình ngôi sao: thao tác nào trước?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần tạo hình chỉ còn phần chồng lấp: phép nào chọn?"
-      },
-      {
-        "id": "T10-B13-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Bổ sung các đối tượng đồ họa”?",
-        "lua_chon": {
-          "A": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. Đối tượng có thể được tô màu nền và đặt màu nét.",
-          "B": "Đối tượng có thể được tô màu nền và đặt màu nét. Phép giao giữ lại toàn bộ phần không chồng lấp của hai hình.",
-          "C": "Nhóm đối tượng làm mất khả năng chọn từng thành phần sau khi bỏ nhóm. Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "D": "Phép giao giữ lại toàn bộ phần không chồng lấp của hai hình. Nhóm đối tượng làm mất khả năng chọn từng thành phần sau khi bỏ nhóm."
-        },
-        "dap_an": "A",
-        "giai_thich": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. Đối tượng có thể được tô màu nền và đặt màu nét."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B13-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Xét tính đúng/sai về bài “Bổ sung các đối tượng đồ họa”:",
-        "y_kien": {
-          "a": "Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.",
-          "b": "Phép giao giữ lại toàn bộ phần không chồng lấp của hai hình.",
-          "c": "Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.",
-          "d": "Nhóm đối tượng làm mất khả năng chọn từng thành phần sau khi bỏ nhóm."
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": true
         },
+        "giai_thich": "a) Đúng, Union lấy thuộc tính màu của đối tượng dưới cùng. b) Đúng. c) Sai, Difference lấy hình dưới (A) trừ đi hình trên (B). d) Đúng, Union áp dụng được cho 2 hay nhiều đối tượng.",
+        "id": "B13_BS_DS_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "nhan_dinh": {
+          "a": "Nếu chọn Path -> Union, kết quả là một hình hợp nhất mang màu của hình nằm dưới (đỏ).",
+          "b": "Nếu chọn Path -> Intersection, kết quả chỉ giữ lại phần giao nhau của A và B.",
+          "c": "Nếu chọn Path -> Difference, hình B nằm trên sẽ bị khoét đi phần giao với A.",
+          "d": "Có thể chọn 3 hình tròn cùng lúc để thực hiện phép Union."
+        },
+        "noi_dung": "Một học sinh vẽ hai hình tròn A (màu đỏ, nằm dưới) và B (màu xanh, nằm trên) chồng một phần lên nhau rồi thử các lệnh trong bảng chọn Path. Đánh giá tính đúng/sai của các kết quả sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Spoke ratio",
+        "giai_thich": "Spoke ratio điều chỉnh độ nhọn/nông của cánh sao bằng tỉ lệ bán kính góc trong trên bán kính đỉnh ngoài.",
+        "id": "B13_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Trong công cụ vẽ hình sao của Inkscape, tham số nào xác định tỉ lệ giữa bán kính trong và bán kính ngoài của cánh sao?"
+      },
+      {
+        "dap_an": "Ctrl + Shift + F",
+        "giai_thich": "Nhấn Ctrl + Shift + F mở bảng điều khiển Fill and Stroke.",
+        "id": "B13_BS_TLN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Tổ hợp phím tắt nào dùng để mở nhanh hộp thoại Fill and Stroke trong Inkscape?"
+      },
+      {
+        "dap_an": "Difference (Phép hiệu)",
+        "giai_thich": "Dùng hình tròn nằm trên trừ khỏi hình tròn nằm dưới bằng Path -> Difference (Ctrl + -) sẽ tạo thành hình trăng khuyết.",
+        "id": "B13_BS_TLN_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Để tạo hình trăng khuyết từ hai hình tròn chồng lệch nhau, em sử dụng phép ghép nào trong bảng chọn Path?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "Nháy chuột trái vào Palette đổi màu tô (Fill); giữ Shift + nháy chuột trái vào Palette đổi màu viền (Stroke).",
+        "id": "B13_BS_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Để chọn nhanh màu viền (Stroke) cho một đối tượng từ bảng màu Palette ở phía dưới cửa sổ Inkscape, ta thực hiện thao tác nào?",
+        "phuong_an": {
+          "A": "Nháy chuột trái vào ô màu.",
+          "B": "Giữ phím Shift và nháy chuột trái vào ô màu.",
+          "C": "Giữ phím Ctrl và nháy đúp vào ô màu.",
+          "D": "Giữ phím Alt và kéo ô màu vào đối tượng."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Giữ phím Ctrl khi kéo vẽ với công cụ hình chữ nhật/elip giúp khóa tỉ lệ 1:1 để tạo hình vuông hoặc hình tròn chuẩn.",
+        "id": "B13_BS_TN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Khi vẽ hình tròn bằng công cụ hình elip, để giữ tỉ lệ chiều rộng và chiều cao bằng nhau (tạo hình tròn chính xác), em cần giữ phím nào trong khi kéo chuột?",
+        "phuong_an": {
+          "A": "Alt.",
+          "B": "Space.",
+          "C": "Ctrl.",
+          "D": "Tab."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Exclusion (hiệu đối xứng) giữ lại phần riêng của cả hai đối tượng và khoét rỗng phần giao nhau.",
+        "id": "B13_BS_TN_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Trong bảng chọn Path, phép toán nào cho phép giữ lại phần KHÔNG giao nhau của hai đối tượng xếp chồng và loại bỏ phần trùng nhau ở giữa?",
+        "phuong_an": {
+          "A": "Union.",
+          "B": "Intersection.",
+          "C": "Difference.",
+          "D": "Exclusion."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Phép hiệu lấy đối tượng nằm dưới trừ đi phần giao với đối tượng nằm trên; đối tượng nằm trên đóng vai trò dao cắt và biến mất sau phép toán.",
+        "id": "B13_BS_TN_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Khi thực hiện phép hiệu (Difference) trên hai đối tượng A (nằm dưới) và B (nằm trên), kết quả thu được là gì?",
+        "phuong_an": {
+          "A": "Hình B bị mất phần giao với hình A.",
+          "B": "Hình A bị cắt bỏ phần giao với hình B, hình B biến mất.",
+          "C": "Cả hai hình A và B đều được giữ lại và tách rời.",
+          "D": "Chỉ giữ lại phần giao nhau của A và B."
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "- Phép chia (Division, Ctrl + /): Cắt hình lớp dưới thành các hình khối kín riêng biệt dọc theo đường viền của hình lớp trên; các phần mới vẫn giữ màu tô ban đầu và có thể tách rời, tô màu khác nhau. - Phép cắt (Cut Path, Ctrl + Alt + /): Chỉ cắt đường viền của hình lớp dưới tại các giao điểm với viền hình lớp trên thành các đoạn nét hở, đồng thời xóa bỏ màu tô của hình lớp dưới.",
+        "giai_thich": "Division tạo ra các vùng kín có tô màu; Cut Path chỉ cắt đường nét (stroke) và bỏ màu tô (fill).",
+        "id": "B13_BS_TL_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Phân biệt sự khác nhau giữa phép chia (Division) và phép cắt (Cut Path) trong Inkscape khi áp dụng lên hai hình tròn chồng lên nhau."
+      }
+    ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai, Inkscape tạo được đa dạng hình khối (đa giác, sao, xoắn ốc...) và hình phức tạp qua ghép hình/đường Bezier. b) Đúng. c) Sai, Inkscape hỗ trợ đầy đủ Union, Intersection, Difference... d) Đúng.",
+        "id": "B13_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_13.docx",
+        "nhan_dinh": {
+          "a": "Inkscape chỉ cho phép tạo ra các hình dạng đơn giản như hình tròn và hình vuông.",
+          "b": "Người dùng có thể tô màu cho các đối tượng trong Inkscape bằng cách sử dụng bảng màu (Palette) hoặc hộp thoại Fill and Stroke.",
+          "c": "Inkscape không hỗ trợ các phép toán hình học như phép hợp và phép giao.",
+          "d": "Inkscape là phần mềm miễn phí và mã nguồn mở."
+        },
+        "noi_dung": "Cho đoạn thông tin: Inkscape là phần mềm đồ họa vector mã nguồn mở cho phép tạo và chỉnh sửa các đối tượng hình khối, hỗ trợ tô màu, vẽ đường và thực hiện các phép toán hình học. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
         "dap_an": {
           "a": true,
           "b": false,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa.; b sai: Phép giao giữ lại toàn bộ phần không chồng lấp của hai hình.; c đúng: Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.; d sai: Nhóm đối tượng làm mất khả năng chọn từng thành phần sau khi bỏ nhóm.."
+        "giai_thich": "a) Đúng. b) Sai, có thể chỉnh sửa lại bất cứ lúc nào. c) Đúng, hỗ trợ Linear và Radial gradient. d) Sai, màu vẽ có thể chọn bất kỳ màu nào hoặc không màu.",
+        "id": "B13_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_13.docx",
+        "nhan_dinh": {
+          "a": "Màu tô và màu vẽ được thiết lập hoàn toàn độc lập với nhau cho mỗi đối tượng.",
+          "b": "Màu tô không thể thay đổi sau khi đã thiết lập lần đầu.",
+          "c": "Người dùng có thể sử dụng màu chuyển sắc (gradient) để tô màu cho các đối tượng.",
+          "d": "Màu vẽ (viền) chỉ có thể là màu đen hoặc trắng."
+        },
+        "noi_dung": "Cho đoạn thông tin: Trong Inkscape, màu tô (Fill) và màu vẽ (Stroke) có thể thiết lập cho các đối tượng hình khối. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Sai, áp dụng cho mọi đối tượng đường/hình khối. c) Sai, đây là cách chính tạo hình phức tạp từ hình đơn giản. d) Đúng.",
+        "id": "B13_GOC_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_13.docx",
+        "nhan_dinh": {
+          "a": "Phép hợp (Union) cho phép kết hợp hai hoặc nhiều hình khối thành một hình khối mới.",
+          "b": "Phép hiệu (Difference) chỉ có thể áp dụng cho hai hình tròn.",
+          "c": "Người dùng không thể sử dụng các phép toán hình học để tạo hình dạng mới.",
+          "d": "Phép giao (Intersection) cho phép lấy phần giao nhau của các hình khối."
+        },
+        "noi_dung": "Cho đoạn thông tin về các phép toán hình học (Path) trong Inkscape. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Sai, phép chia tách hình lớp dưới thành các hình mới có thể tô màu độc lập. c) Đúng. d) Đúng.",
+        "id": "B13_GOC_DS_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_13.docx",
+        "nhan_dinh": {
+          "a": "Phép cắt dùng đường viền đối tượng lớp trên để cắt đường viền đối tượng lớp dưới tại các giao điểm.",
+          "b": "Phép chia không thể tạo ra các hình dạng mới từ các đối tượng hiện có.",
+          "c": "Phép chia (Division) chia hình lớp dưới thành các mảng riêng biệt bởi đường viền của hình lớp trên.",
+          "d": "Có thể hoàn tác (Ctrl + Z) sau khi thực hiện các phép ghép, cắt, chia."
+        },
+        "noi_dung": "Cho đoạn thông tin về phép cắt (Cut Path) và phép chia (Division) trong Inkscape. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Rounded",
+        "giai_thich": "Tham số Rounded quy định độ cong tại các đỉnh của đa giác hoặc hình sao.",
+        "id": "B13_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "da_tin_hoc_10_bai_13_bo_sung_cac_doi_tuong_do_hoa.docx",
+        "noi_dung": "Nếu trên hình vẽ có sẵn một hình sao 5 cánh nhọn, em cần thay đổi tham số nào trên thanh điều khiển thuộc tính để các đỉnh ngôi sao trở nên cong?"
+      },
+      {
+        "dap_an": "Fill",
+        "giai_thich": "Hộp thoại Fill and Stroke có 3 thẻ: Fill (màu tô), Stroke paint (màu viền), Stroke style (kiểu đường viền).",
+        "id": "B13_GOC_TLN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_13_bo_sung_cac_doi_tuong_do_hoa.docx",
+        "noi_dung": "Trong hộp thoại Fill and Stroke, để thiết lập màu tô cho phần bên trong đối tượng ta chọn thẻ nào?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Inkscape cung cấp các công cụ vẽ hình khối có sẵn gồm: hình vuông/chữ nhật, hình tròn/elip, hình đa giác/ngôi sao, hình xoắn ốc, hình hộp 3D. Hình trăng khuyết hay đám mây phải ghép hoặc vẽ thêm.",
+        "id": "B13_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu KHÔNG phải là hình khối có sẵn mà Inkscape cung cấp?",
+        "phuong_an": {
+          "A": "Hình vuông, hình chữ nhật.",
+          "B": "Hình tròn, hình elip.",
+          "C": "Hình trăng khuyết, hình đám mây.",
+          "D": "Hình đa giác, hình ngôi sao."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Hình vuông/chữ nhật trong Inkscape có các thuộc tính W (chiều rộng), H (chiều cao), Rx và Ry (bán kính góc bo), không có thuộc tính đường chéo.",
+        "id": "B13_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu KHÔNG phải thuộc tính cơ bản của đối tượng hình vuông, hình chữ nhật được Inkscape cung cấp trên thanh điều khiển thuộc tính?",
+        "phuong_an": {
+          "A": "Chiều rộng (W).",
+          "B": "Chiều dài/chiều cao (H).",
+          "C": "Đường chéo.",
+          "D": "Bán kính của góc bo (Rx, Ry)."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Hình tròn/elip có các thuộc tính Rx, Ry, Start, End. Bán kính góc bo là thuộc tính của hình chữ nhật.",
+        "id": "B13_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu KHÔNG phải thuộc tính cơ bản của đối tượng hình tròn, hình elip được Inkscape cung cấp?",
+        "phuong_an": {
+          "A": "Bán kính của góc bo.",
+          "B": "Bán kính theo phương ngang (Rx).",
+          "C": "Bán kính theo phương thẳng đứng (Ry).",
+          "D": "Góc của điểm đầu và điểm cuối (Start, End)."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Thanh điều khiển thuộc tính của đa giác/hình sao gồm: Corners (số đỉnh/cánh), Spoke ratio (tỉ lệ bán kính), Rounded (độ cong tại đỉnh), Randomized (làm méo ngẫu nhiên); không có thuộc tính riêng tên là 'số cạnh của hình'.",
+        "id": "B13_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu KHÔNG phải thuộc tính cơ bản của đối tượng hình đa giác, hình sao trong Inkscape?",
+        "phuong_an": {
+          "A": "Số đỉnh của đa giác hoặc số cánh của hình sao (Corners).",
+          "B": "Số cạnh của hình.",
+          "C": "Độ cong tại các đỉnh của hình (Rounded).",
+          "D": "Tham số làm méo hình ngẫu nhiên (Randomized)."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Hộp thoại Fill and Stroke (Ctrl + Shift + F) gồm 3 trang Fill, Stroke paint và Stroke style để tùy chỉnh màu tô, màu viền và kiểu nét vẽ.",
+        "id": "B13_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong Inkscape, để tùy chỉnh chi tiết màu tô và màu vẽ của đối tượng, ta sử dụng hộp thoại nào?",
+        "phuong_an": {
+          "A": "Color.",
+          "B": "Fill and Stroke.",
+          "C": "Status bar.",
+          "D": "Canvas."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Inkscape hỗ trợ tô không màu, màu đồng nhất (Flat color), tô chuyển sắc tuyến tính (Linear gradient), chuyển sắc tỏa tròn (Radial gradient), lưới, mẫu tô (Pattern)..., không có chế độ 'tự động theo thứ tự cầu vồng'.",
+        "id": "B13_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong Inkscape, hộp thoại Fill and Stroke KHÔNG có kiểu tô nào sau đây?",
+        "phuong_an": {
+          "A": "Màu chuyển từ tâm đối tượng (Radial gradient).",
+          "B": "Màu chuyển tuyến tính giữa hai hoặc nhiều màu (Linear gradient).",
+          "C": "Màu biến đổi tự động theo thứ tự cầu vồng.",
+          "D": "Màu đồng nhất (Flat color)."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Các phép ghép cơ bản trong bảng chọn Path của Inkscape gồm: Union (hợp), Difference (hiệu), Intersection (giao), Exclusion (hiệu đối xứng), Division (chia), Cut Path (cắt). Không có phép tổng.",
+        "id": "B13_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu KHÔNG phải là phép ghép (Path) được sử dụng để ghép và cắt hình trong Inkscape?",
+        "phuong_an": {
+          "A": "Phép hợp (Union).",
+          "B": "Phép giao (Intersection).",
+          "C": "Phép hiệu (Difference).",
+          "D": "Phép tổng (Sum)."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Trong bảng chọn Path của Inkscape: Union (Ctrl + +), Difference (Ctrl + -), Intersection (Ctrl + *), Exclusion (Ctrl + ^), Division (Ctrl + /), Cut Path (Ctrl + Alt + /).",
+        "id": "B13_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tổ hợp phím tắt của phép hợp (Union) trong Inkscape là gì?",
+        "phuong_an": {
+          "A": "Ctrl + *",
+          "B": "Ctrl + +",
+          "C": "Ctrl + &",
+          "D": "Ctrl + ^"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Phép hiệu (Path -> Difference) có phím tắt là Ctrl + -.",
+        "id": "B13_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tổ hợp phím tắt của phép hiệu (Difference) trong Inkscape là gì?",
+        "phuong_an": {
+          "A": "Ctrl + -",
+          "B": "Ctrl + /",
+          "C": "Ctrl + Alt + /",
+          "D": "Ctrl + *"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Phép giao (Path -> Intersection) có phím tắt là Ctrl + *.",
+        "id": "B13_GOC_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tổ hợp phím tắt của phép giao (Intersection) trong Inkscape là gì?",
+        "phuong_an": {
+          "A": "Ctrl + *",
+          "B": "Ctrl + ^",
+          "C": "Ctrl + &",
+          "D": "Ctrl + +"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Phép hiệu đối xứng (Path -> Exclusion) có phím tắt là Ctrl + ^.",
+        "id": "B13_GOC_TN_11",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tổ hợp phím tắt của phép hiệu đối xứng (Exclusion) trong Inkscape là gì?",
+        "phuong_an": {
+          "A": "Ctrl + &",
+          "B": "Ctrl + -",
+          "C": "Ctrl + ^",
+          "D": "Ctrl + Alt + /"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Phép chia (Path -> Division) có phím tắt là Ctrl + /.",
+        "id": "B13_GOC_TN_12",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tổ hợp phím tắt của phép chia (Division) trong Inkscape là gì?",
+        "phuong_an": {
+          "A": "Ctrl + <",
+          "B": "Ctrl + ^",
+          "C": "Ctrl + Alt + /",
+          "D": "Ctrl + /"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Phép cắt (Path -> Cut Path) có phím tắt là Ctrl + Alt + /. (Lưu ý: file nguồn ghi nhầm đáp án D; đáp án chính xác theo Inkscape và SGK là A).",
+        "id": "B13_GOC_TN_13",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tổ hợp phím tắt của phép cắt (Cut Path) trong Inkscape là gì?",
+        "phuong_an": {
+          "A": "Ctrl + Alt + /",
+          "B": "Ctrl + /",
+          "C": "Ctrl + &",
+          "D": "Ctrl + -"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Trang Stroke style trong hộp thoại Fill and Stroke dùng để thiết lập độ dày (Width), kiểu nét liền/nét đứt (Dashes), đầu mút (Cap) và góc nối (Join). (Lưu ý: file đáp án nguồn ghi nhầm D).",
+        "id": "B13_GOC_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_13_bo_sung_cac_doi_tuong_do_hoa.docx",
+        "noi_dung": "Để xác định đường viền của đối tượng dạng nét đứt, em cần chọn trang nào trong hộp thoại Fill and Stroke?",
+        "phuong_an": {
+          "A": "Fill.",
+          "B": "Stroke paint.",
+          "C": "Stroke style.",
+          "D": "Cả A và B."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Phép cắt (Cut Path) dùng đường viền của đối tượng lớp trên cắt đường viền của đối tượng lớp dưới tại các giao điểm, đối tượng trên biến mất và phần tô màu của đối tượng dưới bị bỏ.",
+        "id": "B13_GOC_TN_15",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phép cắt (Cut Path) trong Inkscape cho phép thực hiện điều gì đối với hai đối tượng xếp chồng?",
+        "phuong_an": {
+          "A": "Cắt phần không trùng nhau của hình lớp trên và hình lớp dưới.",
+          "B": "Cắt cả hình lớp dưới và hình lớp trên thành khối mới.",
+          "C": "Cắt hình lớp trên thành các phần bởi giao điểm ở viền hình lớp dưới.",
+          "D": "Cắt đường viền của hình lớp dưới thành các đoạn tại giao điểm với viền hình lớp trên (và xóa màu tô)."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Cut Path chỉ cắt đường nét (path) nên kết quả các đoạn đường mới không có màu tô (Fill = None).",
+        "id": "B13_GOC_TN_16",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Sau khi thực hiện phép cắt (Cut Path) trong Inkscape thì hình mới tạo thành sẽ như thế nào về màu tô?",
+        "phuong_an": {
+          "A": "Giữ nguyên màu tô ban đầu.",
+          "B": "Bị phân chia màu theo hai hình gốc.",
+          "C": "Tự động chuyển sang màu đen.",
+          "D": "Không có màu tô (chỉ còn đường nét)."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Thanh điều khiển thuộc tính (Tool Controls Bar) hiển thị ngữ cảnh động theo công cụ hoặc loại đối tượng đang chọn (hình chữ nhật, hình tròn, ngôi sao...).",
+        "id": "B13_GOC_TN_17",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào sau đây đúng về thanh điều khiển thuộc tính (Tool Controls Bar) trong Inkscape?",
+        "phuong_an": {
+          "A": "Các biểu tượng trên thanh điều khiển thuộc tính luôn cố định, không bao giờ thay đổi.",
+          "B": "Các biểu tượng trong thanh điều khiển thuộc tính thay đổi tùy theo công cụ hoặc đối tượng đang được chọn.",
+          "C": "Thanh điều khiển thuộc tính chỉ hiển thị các màu tô (Fill) và màu nét vẽ (Stroke).",
+          "D": "Thanh điều khiển thuộc tính chỉ xuất hiện khi làm việc với văn bản."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Giảm giá trị Alpha/Opacity xuống nhỏ hơn mức tối đa giúp đối tượng lớp trên bán trong suốt và thấy được màu đối tượng lớp dưới.",
+        "id": "B13_GOC_TN_18",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Khi tô màu cho một đối tượng nằm trên (ví dụ lớp bóng sáng trên quả bóng bay), để nhìn thấy được màu của đối tượng nằm dưới, ta cần đặt giá trị Alpha (hoặc Opacity) như thế nào?",
+        "phuong_an": {
+          "A": "Nhỏ hơn 100% (ví dụ Alpha = 90 hoặc 50).",
+          "B": "Luôn bằng 255.",
+          "C": "Bằng 0 để đối tượng hoàn toàn trong suốt không thấy gì.",
+          "D": "Bằng 100% để che phủ hoàn toàn."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Opacity trong Inkscape tính theo phần trăm từ 0% (trong suốt hoàn toàn) đến 100% (đặc hoàn toàn, che phủ lớp dưới).",
+        "id": "B13_GOC_TN_19",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd4_bai_13_bo_sung_cac_doi_tuong_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Khi tô màu cho một đối tượng, nếu muốn đối tượng đó che phủ hoàn toàn các đối tượng nằm dưới, ta phải đặt giá trị Opacity (%) bằng bao nhiêu?",
+        "phuong_an": {
+          "A": "255.",
+          "B": "50.",
+          "C": "100.",
+          "D": "0."
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B13-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Trình bày hai nội dung của bài: Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. Đối tượng có thể được tô màu nền và đặt màu nét.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Hình chữ nhật, elip và đa giác là đối tượng đồ họa có thể chỉnh sửa. Đối tượng có thể được tô màu nền và đặt màu nét.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "dap_an": "Bước 1: Dùng công cụ hình tròn/elip vẽ nhiều hình tròn kích thước khác nhau xếp chồng lên nhau tạo dáng đám mây (và có thể thêm hình chữ nhật làm đáy phẳng). Bước 2: Chọn tất cả các hình đã vẽ (kéo thả vùng chọn hoặc giữ Shift nháy chọn từng hình). Bước 3: Chọn Path -> Union (Ctrl + +) để hợp nhất thành một đối tượng đám mây duy nhất, sau đó tô màu và bỏ/chỉnh viền.",
+        "giai_thich": "Phép hợp (Union) gộp nhiều hình đơn giản xếp chồng thành một đối tượng vector thống nhất.",
+        "id": "B13_GOC_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ndc_b13._bo_sung_cac_doi_tuong_do_hoa_.docx",
+        "noi_dung": "Hãy nêu các bước thực hiện để vẽ hình đám mây từ các hình tròn bằng phép ghép hình trong Inkscape."
       },
       {
-        "id": "T10-B13-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "1) Vỏ: Vẽ hình tròn xanh lá và hình chữ nhật rộng hơn đường kính che nửa trên, chọn cả hai và thực hiện Path -> Difference để cắt thành nửa hình tròn. 2) Ruột: Nhân bản (Duplicate) phần vỏ, thu nhỏ lại và tô màu đỏ (có thể dùng Gradient). 3) Hạt: Hợp (Union) một hình tam giác đã bo tròn (Rounded) với một hình tròn nhỏ, tô màu nâu rồi nhân bản, xoay và đặt lên phần ruột.",
+        "giai_thich": "Kết hợp phép hiệu (Difference), nhân bản (Duplicate), phép hợp (Union) và tô màu chuyển sắc để tạo sản phẩm hoàn chỉnh.",
+        "id": "B13_GOC_TL_02",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Bổ sung các đối tượng đồ họa",
-        "noi_dung": "Giải thích và vận dụng nội dung “Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Công cụ chọn cho phép di chuyển, thay đổi kích thước hoặc thuộc tính đối tượng.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "ndc_b13._bo_sung_cac_doi_tuong_do_hoa_.docx",
+        "noi_dung": "Hãy nêu quy trình 3 phần (vỏ, ruột, hạt) để vẽ miếng dưa hấu bằng các phép ghép hình và tô màu trong Inkscape."
       }
     ]
+  },
+  "ma_bai": "BAI_13",
+  "ten_bai": "Bổ sung các đối tượng đồ họa",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 9,
+      "tra_loi_ngan": 3,
+      "trac_nghiem": 4,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 4,
+      "tong": 27,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 19,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 19,
+      "thong_hieu": 9,
+      "van_dung": 8
+    },
+    "tong_so_cau": 36
   }
 }

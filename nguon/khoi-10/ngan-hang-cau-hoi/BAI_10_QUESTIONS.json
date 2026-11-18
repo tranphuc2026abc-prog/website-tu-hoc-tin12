@@ -1,424 +1,537 @@
 {
-  "ma_bai": "BAI_10",
   "bai_so": 10,
-  "ten_bai": "Thực hành khai thác tài nguyên trên Internet",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B10-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Máy tìm kiếm?",
-        "lua_chon": {
-          "A": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "B": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
-          "C": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "D": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
-        },
-        "dap_an": "C",
-        "giai_thich": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn."
-      },
-      {
-        "id": "T10-B10-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
-        "lua_chon": {
-          "A": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "B": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
-          "C": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp.",
-          "D": "Máy tìm kiếm."
-        },
-        "dap_an": "D",
-        "giai_thich": "Máy tìm kiếm."
-      },
-      {
-        "id": "T10-B10-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Máy tìm kiếm?",
-        "lua_chon": {
-          "A": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
-          "B": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
-          "C": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?",
-          "D": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Cần tìm bài giảng về Python: công cụ nào phù hợp?"
-      },
-      {
-        "id": "T10-B10-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Từ khóa?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "B": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
-          "C": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp.",
-          "D": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
-        },
-        "dap_an": "D",
-        "giai_thich": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
-      },
-      {
-        "id": "T10-B10-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
-        "lua_chon": {
-          "A": "Dùng từ khóa đủ cụ thể.",
-          "B": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "C": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
-          "D": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
-        },
-        "dap_an": "A",
-        "giai_thich": "Dùng từ khóa đủ cụ thể."
-      },
-      {
-        "id": "T10-B10-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Từ khóa?",
-        "lua_chon": {
-          "A": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
-          "B": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
-          "C": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?",
-          "D": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?"
-      },
-      {
-        "id": "T10-B10-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Đánh giá nguồn?",
-        "lua_chon": {
-          "A": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
-          "B": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "C": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "D": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
-      },
-      {
-        "id": "T10-B10-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "B": "Đối chiếu nguồn đáng tin trước khi dùng.",
-          "C": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "D": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
-        },
-        "dap_an": "B",
-        "giai_thich": "Đối chiếu nguồn đáng tin trước khi dùng."
-      },
-      {
-        "id": "T10-B10-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Đánh giá nguồn?",
-        "lua_chon": {
-          "A": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
-          "B": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
-          "C": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?",
-          "D": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
-      },
-      {
-        "id": "T10-B10-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Dịch vụ Internet?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "B": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp.",
-          "C": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "D": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
-        },
-        "dap_an": "B",
-        "giai_thich": "Internet cung cấp tìm kiếm, thư điện tử, lưu trữ và giao tiếp."
-      },
-      {
-        "id": "T10-B10-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "B": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "C": "Thư điện tử hoặc dịch vụ chia sẻ tệp.",
-          "D": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
-        },
-        "dap_an": "C",
-        "giai_thich": "Thư điện tử hoặc dịch vụ chia sẻ tệp."
-      },
-      {
-        "id": "T10-B10-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Dịch vụ Internet?",
-        "lua_chon": {
-          "A": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
-          "B": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
-          "C": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?",
-          "D": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Cần gửi tệp cho giáo viên: dịch vụ nào có thể dùng?"
-      },
-      {
-        "id": "T10-B10-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Quyền sử dụng?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "B": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "C": "Tài nguyên trực tuyến có thể chịu điều kiện bản quyền.",
-          "D": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tài nguyên trực tuyến có thể chịu điều kiện bản quyền."
-      },
-      {
-        "id": "T10-B10-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Muốn đưa ảnh tìm được vào bài thuyết trình: cần kiểm tra gì?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "B": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "C": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
-          "D": "Giấy phép và nguồn trích dẫn."
-        },
-        "dap_an": "D",
-        "giai_thich": "Giấy phép và nguồn trích dẫn."
-      },
-      {
-        "id": "T10-B10-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Quyền sử dụng?",
-        "lua_chon": {
-          "A": "Muốn đưa ảnh tìm được vào bài thuyết trình: cần kiểm tra gì?",
-          "B": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
-          "C": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
-          "D": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Muốn đưa ảnh tìm được vào bài thuyết trình: cần kiểm tra gì?"
-      },
-      {
-        "id": "T10-B10-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Tìm kiếm hiệu quả?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "B": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "C": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
-          "D": "Bộ lọc và cụm từ chính xác giúp giảm kết quả không phù hợp."
-        },
-        "dap_an": "D",
-        "giai_thich": "Bộ lọc và cụm từ chính xác giúp giảm kết quả không phù hợp."
-      },
-      {
-        "id": "T10-B10-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Chỉ cần PDF được cập nhật gần đây: lựa chọn nào hỗ trợ?",
-        "lua_chon": {
-          "A": "Lọc theo định dạng và thời gian.",
-          "B": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "C": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "D": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
-        },
-        "dap_an": "A",
-        "giai_thich": "Lọc theo định dạng và thời gian."
-      },
-      {
-        "id": "T10-B10-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tìm kiếm hiệu quả?",
-        "lua_chon": {
-          "A": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
-          "B": "Chỉ cần PDF được cập nhật gần đây: lựa chọn nào hỗ trợ?",
-          "C": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
-          "D": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Chỉ cần PDF được cập nhật gần đây: lựa chọn nào hỗ trợ?"
-      },
-      {
-        "id": "T10-B10-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Tải xuống an toàn?",
-        "lua_chon": {
-          "A": "Tệp nên được tải từ trang/nhà cung cấp đáng tin cậy.",
-          "B": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "C": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "D": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tệp nên được tải từ trang/nhà cung cấp đáng tin cậy."
-      },
-      {
-        "id": "T10-B10-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Trang lạ yêu cầu cài tệp để xem tài liệu: hành động nào an toàn?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "B": "Không tải/cài khi chưa xác minh nguồn.",
-          "C": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "D": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn."
-        },
-        "dap_an": "B",
-        "giai_thich": "Không tải/cài khi chưa xác minh nguồn."
-      },
-      {
-        "id": "T10-B10-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tải xuống an toàn?",
-        "lua_chon": {
-          "A": "Cần tìm bài giảng về Python: công cụ nào phù hợp?",
-          "B": "Tìm tài liệu cụ thể cho học sinh lớp 10: cách viết truy vấn nào tốt?",
-          "C": "Trang lạ yêu cầu cài tệp để xem tài liệu: hành động nào an toàn?",
-          "D": "Trang nặc danh nêu thông tin gây sốc: bước nào nên làm?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Trang lạ yêu cầu cài tệp để xem tài liệu: hành động nào an toàn?"
-      },
-      {
-        "id": "T10-B10-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Thực hành khai thác tài nguyên trên Internet”?",
-        "lua_chon": {
-          "A": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-          "B": "Từ khóa mô tả nhu cầu thông tin và định hướng kết quả. Kết quả đầu tiên của máy tìm kiếm luôn đáng tin hơn mọi nguồn khác.",
-          "C": "Mọi tài nguyên Internet đều được phép sao chép không cần ghi nguồn. Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "D": "Kết quả đầu tiên của máy tìm kiếm luôn đáng tin hơn mọi nguồn khác. Mọi tài nguyên Internet đều được phép sao chép không cần ghi nguồn."
-        },
-        "dap_an": "A",
-        "giai_thich": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. Từ khóa mô tả nhu cầu thông tin và định hướng kết quả."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B10-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Xét tính đúng/sai về bài “Thực hành khai thác tài nguyên trên Internet”:",
-        "y_kien": {
-          "a": "Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.",
-          "b": "Kết quả đầu tiên của máy tìm kiếm luôn đáng tin hơn mọi nguồn khác.",
-          "c": "Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.",
-          "d": "Mọi tài nguyên Internet đều được phép sao chép không cần ghi nguồn."
-        },
         "dap_an": {
           "a": true,
           "b": false,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn.; b sai: Kết quả đầu tiên của máy tìm kiếm luôn đáng tin hơn mọi nguồn khác.; c đúng: Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.; d sai: Mọi tài nguyên Internet đều được phép sao chép không cần ghi nguồn.."
+        "giai_thich": "a, c đúng theo tính năng Google Translate; b sai (hỗ trợ hơn 100 ngôn ngữ); d sai (cần biên tập/kiểm tra lại ngữ cảnh).",
+        "id": "BAI_10_BS_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Để dịch bằng Google Translate, người dùng cần xác định ngôn ngữ nguồn và ngôn ngữ đích.",
+          "b": "Google Translate chỉ hỗ trợ dịch duy nhất giữa tiếng Việt và tiếng Anh.",
+          "c": "Người dùng có thể nghe phần mềm đọc phát âm câu đã dịch để luyện nghe.",
+          "d": "Kết quả dịch tự động của máy luôn chính xác 100% về ngữ cảnh văn học và chuyên ngành sâu, không cần kiểm tra lại."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nGoogle Translate (https://translate.google.com) là công cụ dịch đa ngữ trực tuyến miễn phí cho phép người dùng dịch văn bản, tài liệu, trang web và hỗ trợ phát âm bằng giọng nói, rất hữu ích trong việc tự học ngoại ngữ.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a, d đúng; b sai (igiaoduc.vn miễn phí); c sai (bao gồm đầy đủ các cấp học phổ thông).",
+        "id": "BAI_10_BS_DS_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Học sinh có thể truy cập igiaoduc.vn để xem bài giảng trực tuyến phục vụ tự học.",
+          "b": "Mọi bài giảng trên igiaoduc.vn đều yêu cầu trả phí theo tháng mới được xem.",
+          "c": "Kho học liệu mở chỉ chứa sách giáo khoa lớp 10, không có các cấp học khác.",
+          "d": "Ngoài igiaoduc.vn, học sinh còn có thể tham khảo sách giáo khoa điện tử tại hanhtrangso.nxbgd.vn."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nHệ tri thức Việt số hóa hợp tác cùng Bộ Giáo dục và Đào tạo xây dựng kho học liệu mở tại địa chỉ https://igiaoduc.vn nhằm cung cấp miễn phí bài giảng điện tử, sách giáo khoa, thí nghiệm ảo và phần mềm mô phỏng cho học sinh, giáo viên.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "giai_thich": "a, b đúng; c sai (site: giới hạn tìm TRONG tên miền đó); d sai (kết quả đầu có thể là quảng cáo hoặc trang SEO chưa kiểm chứng).",
+        "id": "BAI_10_BS_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Đặt cụm từ trong dấu ngoặc kép giúp tìm kiếm chính xác cả cụm từ theo đúng thứ tự.",
+          "b": "Cú pháp filetype:pdf giúp lọc các kết quả là tệp tin định dạng PDF.",
+          "c": "Cú pháp site:moet.gov.vn sẽ tìm kiếm thông tin trên toàn bộ mọi trang web trừ trang của Bộ GDĐT.",
+          "d": "Mọi kết quả đứng đầu trang tìm kiếm đều chắc chắn là tài liệu khoa học đáng tin cậy nhất."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nKhi tìm kiếm tài liệu học tập trên Internet bằng máy tìm kiếm như Google, người dùng có thể kết hợp các toán tử tìm kiếm như đặt cụm từ trong dấu ngoặc kép \"...\", dùng site: hoặc filetype: để lọc kết quả nhanh chóng.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng; b sai (có 3 vai trò: Người xem, Người nhận xét, Người chỉnh sửa); d sai (chỉ cần trình duyệt web và tài khoản Google).",
+        "id": "BAI_10_BS_DS_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Tài khoản Google miễn phí cung cấp 15GB dung lượng lưu trữ dùng chung cho Drive, Gmail và Google Photos.",
+          "b": "Khi chia sẻ tệp trên Google Drive, chỉ có duy nhất một quyền là 'Người xem'.",
+          "c": "Nếu lỡ xóa nhầm tệp trên Google Drive, người dùng vẫn có thể khôi phục từ mục Thùng rác trong thời gian quy định.",
+          "d": "Để sử dụng Google Drive, người dùng bắt buộc phải cài đặt bộ Microsoft Office."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nGoogle Drive và OneDrive là hai dịch vụ lưu trữ đám mây phổ biến giúp học sinh lưu giữ bài tập, tài liệu học tập và chia sẻ cho nhóm cùng làm việc trực tuyến.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a, b, d là các thao tác tìm kiếm nâng cao, dịch thuật có kiểm chứng và cộng tác đám mây đúng chuẩn; c sai vì vi phạm bản quyền và liêm chính học thuật.",
+        "id": "BAI_10_BS_DS_05",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Minh có thể nhập từ khóa: \"An toàn thông tin mạng\" site:gov.vn filetype:pdf vào Google.",
+          "b": "Minh có thể dùng Google Translate để dịch nhanh đoạn văn bản tiếng Anh, sau đó tự đọc lại để chỉnh sửa câu chữ cho tự nhiên.",
+          "c": "Minh nên sao chép nguyên văn bài viết tìm được trên mạng mà không cần ghi nguồn trích dẫn.",
+          "d": "Sau khi hoàn thành bài thuyết trình, Minh có thể tải lên Google Drive và chia sẻ liên kết chế độ 'Người nhận xét' để các bạn cùng góp ý."
+        },
+        "noi_dung": "Cho tình huống thực hành:\nMinh cần tìm tài liệu PDF về 'An toàn thông tin mạng' từ các trang web của cơ quan chính phủ Việt Nam (.gov.vn) và dịch một đoạn tóm tắt từ tiếng Anh sang tiếng Việt để đưa vào bài thuyết trình.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "filetype:pptx (hoặc filetype:ppt)",
+        "giai_thich": "Toán tử filetype:pptx yêu cầu máy tìm kiếm chỉ trả về các tệp có phần mở rộng .pptx.",
+        "id": "BAI_10_BS_TLN_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "Để tìm kiếm chính xác các tệp trình chiếu PowerPoint (.pptx) về chủ đề 'Mạng máy tính' trên Google, em sử dụng toán tử tìm kiếm nào kèm theo từ khóa?"
+      }
+    ],
+    "trac_nghiem": [],
+    "tu_luan": []
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "(1) văn bản, hình ảnh, âm thanh, video, học liệu số, phần mềm; (2) site:",
+        "giai_thich": "Toán tử site:tenmien giúp giới hạn kết quả tìm kiếm chỉ nằm trong trang web chỉ định.",
+        "id": "BAI_10_GOC_TLN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet.docx",
+        "noi_dung": "Điền từ còn thiếu vào chỗ trống:\n(1) Tài nguyên trên Internet có thể bao gồm .......................................................................\n(2) Để tìm kiếm thông tin từ một trang web cụ thể, bạn có thể sử dụng cú pháp ....................................... (site:, file:, link:)."
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "vtv.gov.vn là cổng thông tin của Đài Truyền hình Việt Nam, không phải kho học liệu mở chuyên dụng như igiaoduc.vn, tech12h.com, thuvienhoclieu.com.",
+        "id": "BAI_10_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải một nguồn học liệu mở trên Internet?",
+        "phuong_an": {
+          "A": "igiaoduc.vn",
+          "B": "tech12h.com",
+          "C": "vtv.gov.vn",
+          "D": "thuvienhoclieu.com"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "tailieumoi.com.vn cung cấp tài liệu học tập; các trang còn lại là trang tin tức hoặc giải trí.",
+        "id": "BAI_10_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu là một nguồn học liệu mở trên Internet?",
+        "phuong_an": {
+          "A": "phimmoi.net",
+          "B": "tuoitre.vn",
+          "C": "tailieumoi.com.vn",
+          "D": "vtv.vn"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Prodigy là ứng dụng hỗ trợ học Toán (Math), không phải ứng dụng học tiếng Anh như Duolingo, Memrise, Cake.",
+        "id": "BAI_10_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải một ứng dụng hỗ trợ học tiếng Anh?",
+        "phuong_an": {
+          "A": "Prodigy.",
+          "B": "Duolingo.",
+          "C": "Memrise.",
+          "D": "Cake."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "RapidTyping là phần mềm luyện gõ bàn phím 10 ngón, không phải ứng dụng học Toán.",
+        "id": "BAI_10_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải một ứng dụng hỗ trợ học toán?",
+        "phuong_an": {
+          "A": "Elephant Learning.",
+          "B": "RapidTyping.",
+          "C": "Maths Solver.",
+          "D": "Prodigy."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "RapidTyping là phần mềm chuyên dụng rèn luyện kỹ năng gõ phím nhanh bằng 10 ngón.",
+        "id": "BAI_10_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ứng dụng RapidTyping hỗ trợ",
+        "phuong_an": {
+          "A": "Rèn luyện kĩ năng gõ phím (gõ nhanh, gõ mười ngón).",
+          "B": "Rèn luyện kĩ năng định dạng văn bản khi sử dụng Word.",
+          "C": "Rèn luyện kĩ năng sử dụng PowerPoint cơ bản.",
+          "D": "Học lập trình Python cơ bản."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Google Translate (Google Dịch) là công cụ dịch đa ngữ tự động phổ biến.",
+        "id": "BAI_10_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu là một phần mềm dịch tự động?",
+        "phuong_an": {
+          "A": "Prodigy.",
+          "B": "Google Translate.",
+          "C": "coLearn.",
+          "D": "Hocmai."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Adobe Photoshop là phần mềm chỉnh sửa ảnh bitmap, không phải công cụ dịch thuật/từ điển.",
+        "id": "BAI_10_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải là một phần mềm dịch tự động?",
+        "phuong_an": {
+          "A": "Microsoft Translator.",
+          "B": "Oxford Dictionary.",
+          "C": "Adobe Photoshop.",
+          "D": "Google Translate."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Dropbox, Box và OneDrive đều là các dịch vụ lưu trữ đám mây trực tuyến.",
+        "id": "BAI_10_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Em có thể lưu trữ các thông tin trực tuyến trên",
+        "phuong_an": {
+          "A": "Dropbox.",
+          "B": "Box.",
+          "C": "OneDrive.",
+          "D": "Tất cả các đáp án trên."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Google Drive là dịch vụ lưu trữ và chia sẻ tệp trực tuyến của Google.",
+        "id": "BAI_10_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Em có thể lưu trữ các thông tin trên",
+        "phuong_an": {
+          "A": "Google Maps.",
+          "B": "Google Scholar.",
+          "C": "Google Meet.",
+          "D": "Google Drive."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Google Scholar là công cụ tìm kiếm chuyên biệt cho tài liệu, bài báo nghiên cứu học thuật.",
+        "id": "BAI_10_GOC_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Google Scholar (trong đề gốc ghi Google School) là",
+        "phuong_an": {
+          "A": "Công cụ lưu trữ thông tin trực tuyến.",
+          "B": "Công cụ tìm kiếm tài liệu học thuật.",
+          "C": "Công cụ dịch văn bản tự động.",
+          "D": "Công cụ tìm kiếm về các trường đại học."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Cake tập trung vào kỹ năng nghe, nói và chỉnh phát âm giao tiếp tiếng Anh qua video mẫu câu, không phải công cụ AI chỉnh sửa bài viết dài.",
+        "id": "BAI_10_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải chức năng được cung cấp bởi ứng dụng Cake?",
+        "phuong_an": {
+          "A": "Tự động cập nhật lịch sử những bài đã học.",
+          "B": "AI chỉnh sửa bài viết.",
+          "C": "Cung cấp các bài nghe đa dạng.",
+          "D": "Chỉnh phát âm khi đọc theo mẫu câu."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "tech12h.com là trang web chia sẻ tài liệu học tập, bài giải và đề kiểm tra phổ thông.",
+        "id": "BAI_10_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Chức năng chính của website tech12h.com là",
+        "phuong_an": {
+          "A": "Luyện đề thi THPT QG.",
+          "B": "Giải đáp bài tập.",
+          "C": "Cung cấp thư viện video bài giảng.",
+          "D": "Cung cấp tài liệu học tập."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "TFlat hỗ trợ dịch văn bản, dịch hình ảnh (camera), dịch màn hình; không hỗ trợ dịch trực tiếp từ tệp ghi âm sẵn.",
+        "id": "BAI_10_GOC_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ứng dụng TFlat Dịch không cung cấp chức năng",
+        "phuong_an": {
+          "A": "Dịch hình ảnh.",
+          "B": "Dịch tiếng Anh văn bản.",
+          "C": "Dịch tiếng Anh từ file ghi âm.",
+          "D": "Dịch màn hình."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "igiaoduc.vn là kho học liệu số mở miễn phí phục vụ cộng đồng giáo dục, không thu phí người học.",
+        "id": "BAI_10_GOC_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào sau đây không đúng khi nói về website igiaoduc.vn?",
+        "phuong_an": {
+          "A": "Đối tượng sử dụng website igiaoduc.vn gồm cả giáo viên, học sinh và phụ huynh.",
+          "B": "igiaoduc.vn có các chức năng miễn phí và các chức năng thu phí.",
+          "C": "igiaoduc.vn là sản phẩm hợp tác giữa Bộ GDĐT với Đề án “Phát triển Hệ tri thức Việt số hóa”.",
+          "D": "igiaoduc.vn cung cấp bài giảng điện tử, bài giảng dạy trên truyền hình, giáo án điện tử, thí nghiệm ảo, phần mềm mô phỏng,…"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Duolingo là nền tảng học đa ngôn ngữ (tiếng Anh, Nhật, Đức, Pháp, Trung...).",
+        "id": "BAI_10_GOC_TN_15",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ứng dụng Duolingo cung cấp các bài học",
+        "phuong_an": {
+          "A": "Tiếng Anh.",
+          "B": "Tiếng Nhật.",
+          "C": "Tiếng Đức.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "OneDrive của Microsoft cung cấp gói lưu trữ miễn phí 5GB và dùng được trên cả web, máy tính, điện thoại.",
+        "id": "BAI_10_GOC_TN_16",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào sau đây đúng khi nói về OneDrive?",
+        "phuong_an": {
+          "A": "OneDrive chỉ có thể sử dụng nếu có máy tính.",
+          "B": "Giới hạn lưu trữ miễn phí của OneDrive là 5GB.",
+          "C": "OneDrive được phát triển bởi tập đoàn Apple.",
+          "D": "Không thể chia sẻ tài liệu đã lưu trữ trên OneDrive cho người khác."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Dung lượng lưu trữ miễn phí mặc định của tài khoản Google Drive cá nhân là 15GB (không phải 10GB).",
+        "id": "BAI_10_GOC_TN_17",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào sau đây không đúng khi nói về Google Drive?",
+        "phuong_an": {
+          "A": "Google Drive hỗ trợ trên các hệ điều hành Windows, Mac OS, Android, iOS.",
+          "B": "Google Drive hỗ trợ tải lên tối đa 5 TB/tệp.",
+          "C": "Google Drive có thể lưu trữ bất kỳ loại dữ liệu nào.",
+          "D": "Giới hạn lưu trữ miễn phí của Google Drive là 10GB (đề gốc ghi nhầm OneDrive 10GB)."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Người dùng có thể truy cập và xem học liệu mở trên igiaoduc.vn miễn phí mà không cần đăng ký gói thành viên trả phí.",
+        "id": "BAI_10_GOC_TN_18",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây không đúng khi nói về website igiaoduc.vn?",
+        "phuong_an": {
+          "A": "Thư mục cấp một gồm ba loại là Học liệu số, Sách giáo khoa và Dư địa chí.",
+          "B": "Để xem học liệu nào, chỉ cần nháy chuột vào ảnh học liệu tương ứng.",
+          "C": "Để xem học liệu, cần phải đăng kí gói thành viên.",
+          "D": "Nếu sử dụng máy tính, cây thư mục đa cấp ở phía bên trái màn hình."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Theo kết quả đối chiếu chuẩn của Google Translate trong bộ đề gốc cd2_bai_10.",
+        "id": "BAI_10_GOC_TN_19",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Kết quả dịch câu tiếng Việt về bạo lực mạng sang tiếng Anh bằng Google Dịch chuẩn xác nhất trong các phương án là",
+        "phuong_an": {
+          "A": "In particular, cyber violence often appears, becoming an unending problem with huge consequences.",
+          "B": "In particular, cyber-violence often appears to become an unending social network phenomenon with serious consequences.",
+          "C": "In particular, cyber violence often occurs, becoming an unending problem with enormous consequences.",
+          "D": "In particular, cyber-violence that frequently appears becomes an unending phenomenon with serious consequences."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Google Drive sử dụng chung hệ sinh thái tài khoản Google (Gmail).",
+        "id": "BAI_10_GOC_TN_20",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Để đăng nhập vào Google Drive, chúng ta cần có",
+        "phuong_an": {
+          "A": "Tài khoản Instagram.",
+          "B": "Tài khoản Facebook.",
+          "C": "Tài khoản Gmail (Tài khoản Google).",
+          "D": "Tài khoản Outlook."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Tài liệu bị xóa trên Google Drive được chuyển vào mục Thùng rác (Trash/Bin) trong 30 ngày trước khi xóa vĩnh viễn.",
+        "id": "BAI_10_GOC_TN_21",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trên giao diện Google Drive, An vô tình ấn xóa nhầm một tài liệu quan trọng. Để giúp An tìm lại tài liệu đó, chúng ta chọn",
+        "phuong_an": {
+          "A": "Có gắn dấu sao.",
+          "B": "Drive của tôi.",
+          "C": "Gần đây.",
+          "D": "Thùng rác."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Theo đáp án bộ đề gốc chọn C (4 loại: văn bản, giọng nói, tài liệu, trang web; lưu ý trên web/app hiện đại Google Dịch hỗ trợ cả 5 bao gồm dịch hình ảnh).",
+        "id": "BAI_10_GOC_TN_22",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Số định dạng/phương thức mà Google Dịch hỗ trợ dịch:\n(1) Văn bản.\n(2) Tiếng nói.\n(3) Tài liệu .docx, .pdf, .pptx, .xlsx.\n(4) Ảnh định dạng .png, .jpg.\n(5) Trang web.",
+        "phuong_an": {
+          "A": "2.",
+          "B": "3.",
+          "C": "4.",
+          "D": "5."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Nguyên văn tiếng Anh: 'You will face many defeats in life, but never let yourself be defeated.' — Maya Angelou.",
+        "id": "BAI_10_GOC_TN_23",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Kết quả dịch câu danh ngôn của Maya Angelou từ ảnh bằng TFlat Dịch là",
+        "phuong_an": {
+          "A": "Bạn sẽ phải đối mặt với nhiều thất bại trong cuộc sống, nhưng đừng bao giờ để bản thân bị đánh bại. MAYA ANGELOU",
+          "B": "Bạn sẽ phải đối mặt với nhiều thất bại trong cuộc sống, nhưng đừng bao giờ từ bỏ ước mơ của bản thân. MAYA ANGELOU",
+          "C": "Bạn sẽ phải đối mặt với nhiều thất bại trong cuộc sống, nhưng đừng bao giờ từ bỏ. MAYA ANGELOU",
+          "D": "Bạn sẽ phải đối mặt với nhiều thất bại trong cuộc sống, nhưng đừng bao giờ đổ lỗi cho bản thân. MAYA ANGELOU"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Có 3 phát biểu đúng: (1), (2), (4). Phát biểu (3) sai vì chủ sở hữu có thể cấp quyền Người xem, Người nhận xét hoặc Người chỉnh sửa.",
+        "id": "BAI_10_GOC_TN_24",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd2_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet_ket_noi_tri_thuc.docx",
+        "noi_dung": "Số phát biểu đúng khi nói về chia sẻ tài liệu được lưu trên Google Drive:\n(1) Có thể chia sẻ tài liệu lưu trên Google Drive cho người khác bằng đường liên kết.\n(2) Có 2 loại quyền truy cập là hạn chế và bất kỳ ai có đường liên kết.\n(3) Người được chia sẻ chỉ có thể đọc và tải xuống, không thể chỉnh sửa và thay đổi các quyền chia sẻ.\n(4) Với quyền truy cập hạn chế, chỉ những người có quyền truy cập mới có thể mở bằng đường liên kết.",
+        "phuong_an": {
+          "A": "4.",
+          "B": "3.",
+          "C": "2.",
+          "D": "1."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Công cụ tìm kiếm (Search Engine như Google, Bing) chuyên dùng để tra cứu thông tin trên Internet.",
+        "id": "BAI_10_GOC_TN_25",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet.docx",
+        "noi_dung": "Công cụ nào sau đây được sử dụng phổ biến nhất để tìm kiếm thông tin trên Internet?",
+        "phuong_an": {
+          "A": "Trình duyệt web",
+          "B": "Công cụ tìm kiếm",
+          "C": "Mạng xã hội",
+          "D": "Email"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B10-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Bước 1: Xác định rõ nội dung cần tìm và từ khóa chính xác. Bước 2: Mở công cụ tìm kiếm (Google/Bing) và nhập từ khóa (có thể dùng dấu ngoặc kép \"\", toán tử site:, filetype:). Bước 3: Đánh giá độ tin cậy của nguồn kết quả và chọn lọc thông tin phù hợp.",
+        "giai_thich": "Quy trình tìm kiếm giúp tiết kiệm thời gian và tránh nguồn tin sai lệch.",
+        "id": "BAI_10_GOC_TL_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Trình bày hai nội dung của bài: Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Máy tìm kiếm lập chỉ mục và giúp tìm trang/tài nguyên theo truy vấn. Từ khóa mô tả nhu cầu thông tin và định hướng kết quả.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet.docx",
+        "noi_dung": "Hãy nêu các bước cơ bản để tìm kiếm thông tin hiệu quả trên Internet?"
       },
       {
-        "id": "T10-B10-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Không đúng. Vì bất kỳ ai cũng có thể đăng tải nội dung lên Internet mà không qua kiểm duyệt; tồn tại nhiều tin giả, thông tin lỗi thời hoặc mang tính chủ quan. Cần đối chiếu từ các nguồn chính thống (cơ quan nhà nước, trường đại học, báo chí uy tín).",
+        "giai_thich": "Kỹ năng kiểm chứng thông tin là yêu cầu cốt lõi khi khai thác tài nguyên số.",
+        "id": "BAI_10_GOC_TL_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet.docx",
+        "noi_dung": "Tất cả thông tin trên Internet đều chính xác và đáng tin cậy có đúng hay không? Vì sao?"
+      },
+      {
+        "dap_an": "Lợi ích: Kho tri thức khổng lồ, cập nhật liên tục, học mọi lúc mọi nơi, hỗ trợ đa phương tiện và dịch thuật nhanh. Nhược điểm: Dễ gặp thông tin sai lệch nếu không biết chọn lọc; nguy cơ sao chép thụ động (đạo văn); dễ mất tập trung bởi quảng cáo/mạng xã hội.",
+        "giai_thich": "Nhìn nhận hai mặt giúp học sinh khai thác hiệu quả và chủ động phòng tránh hạn chế.",
+        "id": "BAI_10_GOC_TL_03",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 10 - Thực hành khai thác tài nguyên trên Internet",
-        "noi_dung": "Giải thích và vận dụng nội dung “Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Tác giả, cơ quan, ngày cập nhật và bằng chứng giúp đánh giá nguồn.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet.docx",
+        "noi_dung": "Phân tích lợi ích và nhược điểm của việc khai thác tài nguyên trên Internet trong học tập?"
+      },
+      {
+        "dap_an": "Đúng. Từ khóa cụ thể giúp thu hẹp phạm vi tìm kiếm và trả về kết quả sát nhu cầu hơn. Ví dụ: thay vì gõ 'Tin học', nên gõ 'Tin học 10 Kết nối tri thức bài 10 filetype:pdf' hoặc 'site:igiaoduc.vn Tin học 10'.",
+        "giai_thich": "Sử dụng từ khóa và toán tử tìm kiếm nâng cao giúp tăng độ chính xác của kết quả.",
+        "id": "BAI_10_GOC_TL_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_10_thuc_hanh_khai_thac_tai_nguyen_tren_internet.docx",
+        "noi_dung": "Việc sử dụng từ khóa phù hợp có thể giúp cải thiện kết quả tìm kiếm trên Internet là nhận định đúng hay sai? Hãy nêu một ví dụ cụ thể?"
       }
     ]
+  },
+  "ma_bai": "BAI_10",
+  "ten_bai": "Thực hành khai thác tài nguyên trên Internet",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 5,
+      "tong": 6,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 0,
+      "tu_luan": 0
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 0,
+      "tong": 30,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 25,
+      "tu_luan": 4
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 13,
+      "thong_hieu": 13,
+      "van_dung": 10
+    },
+    "tong_so_cau": 36
   }
 }

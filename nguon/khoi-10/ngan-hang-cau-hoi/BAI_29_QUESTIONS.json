@@ -1,424 +1,419 @@
 {
-  "ma_bai": "BAI_29",
   "bai_so": 29,
-  "ten_bai": "Nhận biết lỗi chương trình",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B29-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về Lỗi cú pháp?",
-        "lua_chon": {
-          "A": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "B": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "C": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
-          "D": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
-        },
-        "dap_an": "B",
-        "giai_thich": "Lỗi cú pháp vi phạm quy tắc viết mã."
-      },
-      {
-        "id": "T10-B29-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
-        "lua_chon": {
-          "A": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "B": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
-          "C": "Lỗi cú pháp.",
-          "D": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
-        },
-        "dap_an": "C",
-        "giai_thich": "Lỗi cú pháp."
-      },
-      {
-        "id": "T10-B29-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Lỗi cú pháp?",
-        "lua_chon": {
-          "A": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
-          "B": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?",
-          "C": "Mở tệp không tồn tại: điều gì có thể được phát sinh?",
-          "D": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?"
-      },
-      {
-        "id": "T10-B29-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về Lỗi thực thi?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
-          "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "D": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
-        },
-        "dap_an": "C",
-        "giai_thich": "Lỗi thực thi xuất hiện khi chương trình đang chạy."
-      },
-      {
-        "id": "T10-B29-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
-          "C": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh.",
-          "D": "Lỗi thực thi/ngoại lệ."
-        },
-        "dap_an": "D",
-        "giai_thich": "Lỗi thực thi/ngoại lệ."
-      },
-      {
-        "id": "T10-B29-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Lỗi thực thi?",
-        "lua_chon": {
-          "A": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
-          "B": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
-          "C": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?",
-          "D": "Mở tệp không tồn tại: điều gì có thể được phát sinh?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Chia một số cho 0: loại lỗi nào có thể xảy ra?"
-      },
-      {
-        "id": "T10-B29-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về Lỗi logic?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "C": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh.",
-          "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
-        },
-        "dap_an": "D",
-        "giai_thich": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
-      },
-      {
-        "id": "T10-B29-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?",
-        "lua_chon": {
-          "A": "Lỗi logic.",
-          "B": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "D": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Lỗi logic."
-      },
-      {
-        "id": "T10-B29-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Lỗi logic?",
-        "lua_chon": {
-          "A": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
-          "B": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?",
-          "C": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
-          "D": "Mở tệp không tồn tại: điều gì có thể được phát sinh?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
-      },
-      {
-        "id": "T10-B29-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về Ngoại lệ?",
-        "lua_chon": {
-          "A": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh.",
-          "B": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
-        },
-        "dap_an": "A",
-        "giai_thich": "Ngoại lệ là tình huống lỗi xảy ra khi thực thi lệnh."
-      },
-      {
-        "id": "T10-B29-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Mở tệp không tồn tại: điều gì có thể được phát sinh?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Ngoại lệ.",
-          "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
-        },
-        "dap_an": "B",
-        "giai_thich": "Ngoại lệ."
-      },
-      {
-        "id": "T10-B29-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Ngoại lệ?",
-        "lua_chon": {
-          "A": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
-          "B": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
-          "C": "Mở tệp không tồn tại: điều gì có thể được phát sinh?",
-          "D": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Mở tệp không tồn tại: điều gì có thể được phát sinh?"
-      },
-      {
-        "id": "T10-B29-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về Traceback?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Thông báo lỗi thường cho biết loại lỗi và vị trí gần nơi phát sinh.",
-          "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
-        },
-        "dap_an": "B",
-        "giai_thich": "Thông báo lỗi thường cho biết loại lỗi và vị trí gần nơi phát sinh."
-      },
-      {
-        "id": "T10-B29-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Python hiển thị traceback: bước nào giúp tìm nguyên nhân?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "C": "Đọc traceback và kiểm tra dòng báo lỗi.",
-          "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
-        },
-        "dap_an": "C",
-        "giai_thich": "Đọc traceback và kiểm tra dòng báo lỗi."
-      },
-      {
-        "id": "T10-B29-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Traceback?",
-        "lua_chon": {
-          "A": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
-          "B": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
-          "C": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?",
-          "D": "Python hiển thị traceback: bước nào giúp tìm nguyên nhân?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Python hiển thị traceback: bước nào giúp tìm nguyên nhân?"
-      },
-      {
-        "id": "T10-B29-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra kiểu?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "C": "Kiểu dữ liệu không phù hợp có thể gây lỗi khi thực hiện phép toán.",
-          "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
-        },
-        "dap_an": "C",
-        "giai_thich": "Kiểu dữ liệu không phù hợp có thể gây lỗi khi thực hiện phép toán."
-      },
-      {
-        "id": "T10-B29-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Cộng số với xâu không chuyển kiểu: điều gì cần kiểm tra?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "C": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
-          "D": "Kiểu của toán hạng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Kiểu của toán hạng."
-      },
-      {
-        "id": "T10-B29-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Kiểm tra kiểu?",
-        "lua_chon": {
-          "A": "Cộng số với xâu không chuyển kiểu: điều gì cần kiểm tra?",
-          "B": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
-          "C": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
-          "D": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Cộng số với xâu không chuyển kiểu: điều gì cần kiểm tra?"
-      },
-      {
-        "id": "T10-B29-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về Tên chưa định nghĩa?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "C": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
-          "D": "Dùng tên biến chưa được khai báo có thể gây NameError."
-        },
-        "dap_an": "D",
-        "giai_thich": "Dùng tên biến chưa được khai báo có thể gây NameError."
-      },
-      {
-        "id": "T10-B29-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Viết sai tên biến ở một dòng: lỗi nào có thể gặp?",
-        "lua_chon": {
-          "A": "NameError.",
-          "B": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "C": "Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "D": "Lỗi logic khiến chương trình chạy nhưng kết quả sai."
-        },
-        "dap_an": "A",
-        "giai_thich": "NameError."
-      },
-      {
-        "id": "T10-B29-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tên chưa định nghĩa?",
-        "lua_chon": {
-          "A": "Thiếu dấu hai chấm sau if: loại lỗi nào xuất hiện?",
-          "B": "Viết sai tên biến ở một dòng: lỗi nào có thể gặp?",
-          "C": "Chia một số cho 0: loại lỗi nào có thể xảy ra?",
-          "D": "Tính trung bình nhưng chia nhầm cho số môn khác: loại lỗi nào?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Viết sai tên biến ở một dòng: lỗi nào có thể gặp?"
-      },
-      {
-        "id": "T10-B29-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Nhận biết lỗi chương trình”?",
-        "lua_chon": {
-          "A": "Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-          "B": "Lỗi thực thi xuất hiện khi chương trình đang chạy. Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình.",
-          "C": "Mọi lỗi chương trình đều do sai dấu câu. Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "D": "Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình. Mọi lỗi chương trình đều do sai dấu câu."
-        },
-        "dap_an": "A",
-        "giai_thich": "Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B29-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Xét tính đúng/sai về bài “Nhận biết lỗi chương trình”:",
-        "y_kien": {
-          "a": "Lỗi cú pháp vi phạm quy tắc viết mã.",
-          "b": "Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình.",
-          "c": "Lỗi logic khiến chương trình chạy nhưng kết quả sai.",
-          "d": "Mọi lỗi chương trình đều do sai dấu câu."
-        },
         "dap_an": {
           "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "b": true,
+          "c": false,
+          "d": true
         },
-        "giai_thich": "a đúng: Lỗi cú pháp vi phạm quy tắc viết mã.; b sai: Lỗi logic luôn làm Python không thể bắt đầu chạy chương trình.; c đúng: Lỗi logic khiến chương trình chạy nhưng kết quả sai.; d sai: Mọi lỗi chương trình đều do sai dấu câu.."
+        "giai_thich": "a) Đúng vì `x` vẫn là `str`. b) Đúng. c) Sai vì cú pháp hoàn toàn hợp lệ. d) Đúng.",
+        "id": "B29_BS_DS_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "nhan_dinh": {
+          "a": "Nếu nhập `a = \"10\"` và `b = 2`, chương trình sinh lỗi `TypeError` tại dòng 2.",
+          "b": "Nếu sửa dòng 3 thành `x = int(input(\"Nhập a: \"))` và nhập `b = 0`, chương trình sinh lỗi `ZeroDivisionError`.",
+          "c": "Đoạn chương trình trên có lỗi cú pháp (`SyntaxError`).",
+          "d": "Nếu người dùng nhập `b = \"abc\"` ở dòng 4, chương trình sinh lỗi `ValueError`."
+        },
+        "noi_dung": "Cho đoạn chương trình:\n```python\n1: def chia(a, b):\n2:     return a / b\n3: x = input(\"Nhập a: \")\n4: y = int(input(\"Nhập b: \"))\n5: print(chia(x, y))\n```\nĐánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "IndentationError",
+        "giai_thich": "Thiếu thụt lề cho khối lệnh con sau dấu `:` gây `IndentationError`.",
+        "id": "B29_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Mã lỗi ngoại lệ nào phát sinh khi viết `if x > 0:` mà dòng lệnh bên dưới không thụt lề vào?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "`int()` chỉ chuyển trực tiếp xâu chứa chữ số nguyên; xâu `\"3.14\"` có dấu chấm nên gây `ValueError`.",
+        "id": "B29_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Lệnh `int(\"3.14\")` sinh ra mã lỗi ngoại lệ nào?",
+        "phuong_an": {
+          "A": "TypeError",
+          "B": "ValueError",
+          "C": "SyntaxError",
+          "D": "IndexError"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Danh sách `a` có 3 phần tử nên chỉ số hợp lệ là 0, 1, 2; `a[3]` vượt giới hạn -> `IndexError`.",
+        "id": "B29_BS_TN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Đoạn lệnh sau sinh lỗi gì?\n```python\na = [1, 2, 3]\nprint(a[3])\n```",
+        "phuong_an": {
+          "A": "IndexError",
+          "B": "ValueError",
+          "C": "TypeError",
+          "D": "NameError"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B29-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Trình bày hai nội dung của bài: Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Lỗi cú pháp vi phạm quy tắc viết mã. Lỗi thực thi xuất hiện khi chương trình đang chạy.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B29-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "1) Lỗi ngoại lệ tiềm ẩn: nếu `A` không có số dương nào thì `dem == 0`, lệnh `tong / dem` gây `ZeroDivisionError`. Khắc phục: kiểm tra `if dem > 0:` trước khi chia.\n2) (Nếu yêu cầu tính trung bình khi `dem == 0` cần thông báo riêng thay vì chia): thêm nhánh `else: print(\"Không có số dương\")`.",
+        "giai_thich": "Nhận diện được trường hợp biên `dem == 0` gây chia cho 0.",
+        "id": "B29_BS_TL_01",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Nhận biết lỗi chương trình",
-        "noi_dung": "Giải thích và vận dụng nội dung “Lỗi logic khiến chương trình chạy nhưng kết quả sai.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Lỗi logic khiến chương trình chạy nhưng kết quả sai.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Tìm và sửa 2 lỗi (1 lỗi ngoại lệ tiềm ẩn, 1 lỗi logic) trong đoạn code tính trung bình cộng các số dương trong danh sách `A` sau:\n```python\ntong = 0\ndem = 0\nfor x in A:\n    if x > 0:\n        tong += x\n        dem += 1\nprint(tong / dem)\n```"
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Sai vì `try...except ZeroDivisionError:` bắt được lỗi này. c) Đúng. d) Đúng.",
+        "id": "B29_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_29.docx",
+        "nhan_dinh": {
+          "a": "ZeroDivisionError xảy ra khi chia một số cho 0.",
+          "b": "Lỗi này không thể được xử lý bằng khối lệnh try và except.",
+          "c": "Lỗi ZeroDivisionError làm chương trình dừng đột ngột nếu không được xử lý.",
+          "d": "Việc nhận biết lỗi giúp lập trình viên khắc phục sự cố và làm chương trình chạy ổn định hơn."
+        },
+        "noi_dung": "Cho đoạn thông tin: Trong Python, ZeroDivisionError xảy ra khi cố gắng chia một số cho 0. Để xử lý lỗi này, lập trình viên có thể kiểm tra điều kiện hoặc sử dụng khối lệnh try và except.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Đúng. b) Đúng. c) Đúng. d) Sai vì ngoại lệ không được xử lý sẽ dừng chương trình.",
+        "id": "B29_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_29.docx",
+        "nhan_dinh": {
+          "a": "IndexError xảy ra khi chỉ số truy cập nằm ngoài phạm vi của danh sách.",
+          "b": "Lỗi này xảy ra khi danh sách rỗng và cố gắng truy cập phần tử đầu tiên `A[0]`.",
+          "c": "Có thể phòng tránh IndexError bằng cách kiểm tra độ dài danh sách với `if` trước khi truy cập.",
+          "d": "Lỗi IndexError không làm dừng việc thực thi của chương trình."
+        },
+        "noi_dung": "Cho đoạn thông tin: IndexError là lỗi thường gặp khi cố gắng truy cập một phần tử không tồn tại trong danh sách do chỉ số vượt quá giới hạn.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Đúng. c) Sai vì Python dừng ngay và không chạy được chương trình. d) Đúng.",
+        "id": "B29_GOC_DS_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_29.docx",
+        "nhan_dinh": {
+          "a": "IndentationError xảy ra nếu thiếu thụt lề ở đầu dòng lệnh thuộc thân hàm hoặc vòng lặp.",
+          "b": "Lỗi này được sửa bằng cách căn chỉnh thụt lề các dòng trong cùng khối cho thẳng hàng.",
+          "c": "IndentationError là lỗi logic không ảnh hưởng đến việc chạy chương trình.",
+          "d": "Thụt lề đúng cách giúp xác định đúng cấu trúc khối lệnh và mã dễ đọc hơn."
+        },
+        "noi_dung": "Cho đoạn thông tin: Lỗi IndentationError xảy ra khi mã nguồn không được thụt lề đúng cách trong Python. Việc thụt lề xác định cấu trúc khối lệnh.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Lỗi logic",
+        "giai_thich": "Chương trình chạy không báo lỗi ngoại lệ nhưng kết quả không đúng yêu cầu -> lỗi logic (ngữ nghĩa).",
+        "id": "B29_GOC_TLN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_29_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Bài toán yêu cầu sắp xếp tăng dần dãy `[3, 1, 8, 10, 0]`, chương trình chạy xong thu được `[1, 3, 8, 10, 0]`. Lỗi này thuộc loại lỗi nào?"
+      },
+      {
+        "dap_an": "TypeError",
+        "giai_thich": "Chỉ số danh sách phải là số nguyên (`int`), dùng số thực `1.5` gây `TypeError`.",
+        "id": "B29_GOC_TLN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_29_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Nêu mã ngoại lệ của lệnh `A[1.5]` (với `A` là một danh sách)."
+      },
+      {
+        "dap_an": "ValueError",
+        "giai_thich": "`\"abc\"` là xâu kí tự nhưng giá trị không biểu diễn số nguyên hợp lệ -> `ValueError`.",
+        "id": "B29_GOC_TLN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "da_tin_hoc_10_bai_29_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Nêu mã ngoại lệ của lệnh `int(\"abc\")`."
+      },
+      {
+        "dap_an": "TypeError",
+        "giai_thich": "Xâu chỉ nhân được với số nguyên, không thể nhân với số thực `3.5` -> `TypeError`.",
+        "id": "B29_GOC_TLN_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_29_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Nêu mã ngoại lệ của lệnh `\"10\" * 3.5`."
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Đối số truyền vào là kiểu `str` đúng loại, nhưng nội dung `\"2 + 3\"` không phải giá trị số thực hợp lệ -> `ValueError`.",
+        "id": "B29_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Mã lỗi ngoại lệ của lệnh `float(\"2 + 3\")` là gì?",
+        "phuong_an": {
+          "A": "IndexError",
+          "B": "TypeError",
+          "C": "ValueError",
+          "D": "SyntaxError"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Thiếu dấu hai chấm `:` sau `range(10)` là lỗi sai cú pháp (`SyntaxError`).",
+        "id": "B29_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình sau thông báo lỗi gì?\n```python\nfor i in range(10) print(i)\n```",
+        "phuong_an": {
+          "A": "TypeError",
+          "B": "NameError",
+          "C": "SyntaxError",
+          "D": "ValueError"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Không thể cộng trực tiếp xâu `str` với số nguyên `int` -> `TypeError`.",
+        "id": "B29_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Mã lỗi ngoại lệ của lệnh `s = \"12\" + 12` là gì?",
+        "phuong_an": {
+          "A": "ZeroDivisionError",
+          "B": "TypeError",
+          "C": "IndentationError",
+          "D": "SyntaxError"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Phép chia `/`, `//` hoặc `%` với số chia bằng `0` sinh lỗi `ZeroDivisionError`.",
+        "id": "B29_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Mã lỗi nào được đưa ra khi lệnh thực hiện phép chia cho giá trị 0?",
+        "phuong_an": {
+          "A": "ZeroDivisionError",
+          "B": "TypeError",
+          "C": "ValueError",
+          "D": "SyntaxError"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Python báo `TypeError: ... missing ... required positional argument`.",
+        "id": "B29_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Trong lời gọi hàm, nếu số đối số truyền vào bị thiếu so với tham số bắt buộc thì lỗi ngoại lệ phát sinh thuộc loại nào?",
+        "phuong_an": {
+          "A": "SyntaxError",
+          "B": "NameError",
+          "C": "TypeError",
+          "D": "Không phát sinh lỗi"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "`IndentationError` xảy ra khi thụt đầu dòng sai quy tắc khối lệnh trong Python.",
+        "id": "B29_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "`IndentationError` là lỗi ngoại lệ như thế nào?",
+        "phuong_an": {
+          "A": "Lỗi liên quan đến giá trị của đối tượng.",
+          "B": "Lỗi khi các dòng lệnh thụt lề vào không thẳng hàng hoặc không đúng vị trí.",
+          "C": "Lỗi tính biểu thức số có toán hạng không phải số.",
+          "D": "Lỗi chia cho 0."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Lỗi ngoại lệ xảy ra trong thời gian chạy (runtime) khi một lệnh hợp lệ về cú pháp nhưng không thể thực thi.",
+        "id": "B29_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Lỗi ngoại lệ (Exception) trong Python là gì?",
+        "phuong_an": {
+          "A": "Lỗi khi viết một câu lệnh sai cú pháp của ngôn ngữ.",
+          "B": "Lỗi khi chương trình chạy xong nhưng kết quả sai.",
+          "C": "Lỗi khi chương trình không thể thực hiện một lệnh nào đó lúc đang chạy và dừng lại báo mã lỗi.",
+          "D": "Lỗi phần cứng máy tính."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Python không tìm thấy tên định danh trong phạm vi hiện tại nên báo `NameError`.",
+        "id": "B29_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Mã lỗi nào được đưa ra khi lệnh gọi một biến hoặc hàm chưa được định nghĩa?",
+        "phuong_an": {
+          "A": "ZeroDivisionError",
+          "B": "TypeError",
+          "C": "IndentationError",
+          "D": "NameError"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Gồm 3 loại: Lỗi cú pháp (Syntax Error), Lỗi ngoại lệ (Runtime/Exception) và Lỗi logic (ngữ nghĩa).",
+        "id": "B29_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Theo SGK Tin học 10 KNTT, lỗi chương trình Python thường được phân thành bao nhiêu loại chính?",
+        "phuong_an": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Danh sách `lst` có chỉ số từ 0 đến 3, truy cập `lst[6]` vượt quá giới hạn -> `IndexError`.",
+        "id": "B29_GOC_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình sau thông báo lỗi gì?\n```python\nlst = [10, 20, 30, 40]\nprint(lst[6])\n```",
+        "phuong_an": {
+          "A": "NameError",
+          "B": "SyntaxError",
+          "C": "ValueError",
+          "D": "IndexError"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Viết nhầm `print` thành `prin`, hàm `prin` chưa được định nghĩa -> `NameError`.",
+        "id": "B29_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình sau thông báo lỗi gì?\n```python\nn = 5\nfor i in range(n):\n    prin(i)\n```",
+        "phuong_an": {
+          "A": "TypeError",
+          "B": "NameError",
+          "C": "SyntaxError",
+          "D": "ValueError"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Mỗi loại lỗi (cú pháp, ngoại lệ, logic) có nguyên nhân và cách phát hiện, khắc phục khác nhau.",
+        "id": "B29_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Chọn phát biểu **sai** trong các phát biểu sau:",
+        "phuong_an": {
+          "A": "Có thể phân biệt lỗi chương trình Python làm ba loại.",
+          "B": "Khi có lỗi sai cú pháp, chương trình lập tức dừng và thông báo lỗi.",
+          "C": "Lỗi ngoại lệ là lỗi không thể thực hiện một lệnh trong chương trình.",
+          "D": "Cách xử lí mọi loại lỗi đều giống nhau."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Xâu `\"a\"` không thể chuyển thành số nguyên bằng `int()` -> `ValueError`.",
+        "id": "B29_GOC_TN_13",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình sau thông báo lỗi gì khi người dùng nhập vào chữ `a`?\n```python\nn = int(input(\"Nhập n: \"))\n```",
+        "phuong_an": {
+          "A": "TypeError",
+          "B": "NameError",
+          "C": "SyntaxError",
+          "D": "ValueError"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "`range(3)` sinh `0, 1, 2` nên `s` bị nhân với `0` và in ra `0` thay vì `1*2*3 = 6`. Chương trình vẫn chạy bình thường nhưng sai kết quả -> lỗi logic.",
+        "id": "B29_GOC_TN_14",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_29_-_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình sau mắc lỗi gì?\n```python\n# Tính tích của 3 số nguyên dương đầu tiên\ns = 1\nfor i in range(3):\n    s = s * i\nprint(s)\n```",
+        "phuong_an": {
+          "A": "Lỗi logic",
+          "B": "Lỗi cú pháp",
+          "C": "Lỗi ngoại lệ",
+          "D": "Không có lỗi"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "Có thể sinh lỗi `ZeroDivisionError` nếu danh sách `A` rỗng (`len(A) == 0`). Cách khắc phục: kiểm tra `if len(A) > 0:` trước khi chia.",
+        "giai_thich": "Luôn kiểm tra mẫu số khác 0 (danh sách khác rỗng) trước khi thực hiện phép chia.",
+        "id": "B29_GOC_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_29_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Để tính giá trị trung bình của một danh sách số `A`, người lập trình dùng lệnh `gttb = sum(A) / len(A)`. Lệnh này có thể sinh lỗi ngoại lệ không? Nếu có thì là lỗi gì và cách khắc phục?"
+      },
+      {
+        "dap_an": "1) Lỗi cú pháp (`SyntaxError`): vi phạm quy tắc viết lệnh (VD: `if x > 0` thiếu dấu `:`).\n2) Lỗi ngoại lệ (Runtime/Exception): đúng cú pháp nhưng không thực thi được khi chạy (VD: `10 / 0` -> `ZeroDivisionError`).\n3) Lỗi logic: chạy bình thường nhưng kết quả sai thuật toán (VD: tính trung bình cộng `a + b / 2` thiếu ngoặc `(a + b) / 2`).",
+        "giai_thich": "Trình bày rõ bản chất, biểu hiện khi chạy và ví dụ cụ thể cho cả 3 loại.",
+        "id": "B29_GOC_TL_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_29_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Phân biệt 3 loại lỗi chương trình trong Python (Lỗi cú pháp, Lỗi ngoại lệ, Lỗi logic) và cho mỗi loại 1 ví dụ minh họa."
+      },
+      {
+        "dap_an": "```python\nn = int(input(\"Nhập số tự nhiên n: \"))\nuoc = []\nfor k in range(1, n):\n    if n % k == 0:\n        uoc.append(k)\nprint(uoc)\n```\nKhả năng sinh lỗi:\n1) Người dùng nhập chữ hoặc số thập phân -> `ValueError` ở `int(input(...))`.\n2) Lỗi logic nếu viết nhầm `range(1, n + 1)` sẽ tính cả `n`.",
+        "giai_thich": "Kết hợp viết chương trình đúng và phân tích trước các rủi ro ngoại lệ/logic.",
+        "id": "B29_GOC_TL_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_29_nhan_biet_loi_chuong_trinh.docx",
+        "noi_dung": "Viết chương trình nhập số tự nhiên `n` từ bàn phím, in ra danh sách các ước thực sự của `n` (tính cả 1, không tính `n`) và chỉ ra ít nhất 2 khả năng sinh lỗi nếu người dùng hoặc người viết code bất cẩn."
+      }
+    ]
+  },
+  "ma_bai": "BAI_29",
+  "ten_bai": "Nhận biết lỗi chương trình",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 5,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 2,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 3,
+      "tong": 24,
+      "tra_loi_ngan": 4,
+      "trac_nghiem": 14,
+      "tu_luan": 3
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 13,
+      "thong_hieu": 10,
+      "van_dung": 6
+    },
+    "tong_so_cau": 29
   }
 }

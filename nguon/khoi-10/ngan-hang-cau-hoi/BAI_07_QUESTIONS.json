@@ -1,424 +1,551 @@
 {
-  "ma_bai": "BAI_07",
   "bai_so": 7,
-  "ten_bai": "Thực hành sử dụng thiết bị số thông dụng",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B07-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Phát biểu nào đúng về Thiết bị số cá nhân?",
-        "lua_chon": {
-          "A": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "B": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.",
-          "C": "Trình quản lí tệp dùng để xem, tạo, đổi tên và di chuyển tệp.",
-          "D": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến."
-        },
-        "dap_an": "D",
-        "giai_thich": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến."
-      },
-      {
-        "id": "T10-B07-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh hoặc máy tính bảng.",
-          "B": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "C": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.",
-          "D": "Trình quản lí tệp dùng để xem, tạo, đổi tên và di chuyển tệp."
-        },
-        "dap_an": "A",
-        "giai_thich": "Điện thoại thông minh hoặc máy tính bảng."
-      },
-      {
-        "id": "T10-B07-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Thiết bị số cá nhân?",
-        "lua_chon": {
-          "A": "Muốn giảm độ sáng màn hình: mở phần nào?",
-          "B": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?",
-          "C": "Laptop cần truy cập Internet ở trường: cần kết nối gì?",
-          "D": "Tài liệu tải về cần chuyển vào thư mục học tập: công cụ nào hỗ trợ?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?"
-      },
-      {
-        "id": "T10-B07-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Phát biểu nào đúng về Cài đặt thiết bị?",
-        "lua_chon": {
-          "A": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "B": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "C": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.",
-          "D": "Trình quản lí tệp dùng để xem, tạo, đổi tên và di chuyển tệp."
-        },
-        "dap_an": "A",
-        "giai_thich": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng."
-      },
-      {
-        "id": "T10-B07-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Muốn giảm độ sáng màn hình: mở phần nào?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Cài đặt hiển thị.",
-          "C": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.",
-          "D": "Trình quản lí tệp dùng để xem, tạo, đổi tên và di chuyển tệp."
-        },
-        "dap_an": "B",
-        "giai_thich": "Cài đặt hiển thị."
-      },
-      {
-        "id": "T10-B07-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Cài đặt thiết bị?",
-        "lua_chon": {
-          "A": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?",
-          "B": "Laptop cần truy cập Internet ở trường: cần kết nối gì?",
-          "C": "Muốn giảm độ sáng màn hình: mở phần nào?",
-          "D": "Tài liệu tải về cần chuyển vào thư mục học tập: công cụ nào hỗ trợ?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Muốn giảm độ sáng màn hình: mở phần nào?"
-      },
-      {
-        "id": "T10-B07-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Phát biểu nào đúng về Kết nối Wi‑Fi?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.",
-          "C": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "D": "Trình quản lí tệp dùng để xem, tạo, đổi tên và di chuyển tệp."
-        },
-        "dap_an": "B",
-        "giai_thich": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập."
-      },
-      {
-        "id": "T10-B07-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Laptop cần truy cập Internet ở trường: cần kết nối gì?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "C": "Chọn đúng mạng Wi‑Fi và xác thực nếu được yêu cầu.",
-          "D": "Trình quản lí tệp dùng để xem, tạo, đổi tên và di chuyển tệp."
-        },
-        "dap_an": "C",
-        "giai_thich": "Chọn đúng mạng Wi‑Fi và xác thực nếu được yêu cầu."
-      },
-      {
-        "id": "T10-B07-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Kết nối Wi‑Fi?",
-        "lua_chon": {
-          "A": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?",
-          "B": "Muốn giảm độ sáng màn hình: mở phần nào?",
-          "C": "Tài liệu tải về cần chuyển vào thư mục học tập: công cụ nào hỗ trợ?",
-          "D": "Laptop cần truy cập Internet ở trường: cần kết nối gì?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Laptop cần truy cập Internet ở trường: cần kết nối gì?"
-      },
-      {
-        "id": "T10-B07-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Phát biểu nào đúng về Quản lí tệp?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "C": "Trình quản lí tệp dùng để xem, tạo, đổi tên và di chuyển tệp.",
-          "D": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trình quản lí tệp dùng để xem, tạo, đổi tên và di chuyển tệp."
-      },
-      {
-        "id": "T10-B07-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Tài liệu tải về cần chuyển vào thư mục học tập: công cụ nào hỗ trợ?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "C": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.",
-          "D": "Trình quản lí tệp."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trình quản lí tệp."
-      },
-      {
-        "id": "T10-B07-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Quản lí tệp?",
-        "lua_chon": {
-          "A": "Tài liệu tải về cần chuyển vào thư mục học tập: công cụ nào hỗ trợ?",
-          "B": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?",
-          "C": "Muốn giảm độ sáng màn hình: mở phần nào?",
-          "D": "Laptop cần truy cập Internet ở trường: cần kết nối gì?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Tài liệu tải về cần chuyển vào thư mục học tập: công cụ nào hỗ trợ?"
-      },
-      {
-        "id": "T10-B07-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Phát biểu nào đúng về Camera?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "C": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.",
-          "D": "Camera có thể chụp ảnh hoặc đọc mã QR bằng ứng dụng phù hợp."
-        },
-        "dap_an": "D",
-        "giai_thich": "Camera có thể chụp ảnh hoặc đọc mã QR bằng ứng dụng phù hợp."
-      },
-      {
-        "id": "T10-B07-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Cần mở nhanh liên kết từ mã QR: thiết bị nào dùng?",
-        "lua_chon": {
-          "A": "Camera/ứng dụng quét QR.",
-          "B": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "C": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "D": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập."
-        },
-        "dap_an": "A",
-        "giai_thich": "Camera/ứng dụng quét QR."
-      },
-      {
-        "id": "T10-B07-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Camera?",
-        "lua_chon": {
-          "A": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?",
-          "B": "Cần mở nhanh liên kết từ mã QR: thiết bị nào dùng?",
-          "C": "Muốn giảm độ sáng màn hình: mở phần nào?",
-          "D": "Laptop cần truy cập Internet ở trường: cần kết nối gì?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần mở nhanh liên kết từ mã QR: thiết bị nào dùng?"
-      },
-      {
-        "id": "T10-B07-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Phát biểu nào đúng về Bảo vệ thiết bị?",
-        "lua_chon": {
-          "A": "Khóa màn hình giúp hạn chế người khác mở thiết bị khi không được phép.",
-          "B": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "C": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "D": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập."
-        },
-        "dap_an": "A",
-        "giai_thich": "Khóa màn hình giúp hạn chế người khác mở thiết bị khi không được phép."
-      },
-      {
-        "id": "T10-B07-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Điện thoại có chứa dữ liệu cá nhân: thiết lập nào cần bật?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Mã khóa hoặc xác thực sinh trắc học.",
-          "C": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "D": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập."
-        },
-        "dap_an": "B",
-        "giai_thich": "Mã khóa hoặc xác thực sinh trắc học."
-      },
-      {
-        "id": "T10-B07-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Bảo vệ thiết bị?",
-        "lua_chon": {
-          "A": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?",
-          "B": "Muốn giảm độ sáng màn hình: mở phần nào?",
-          "C": "Điện thoại có chứa dữ liệu cá nhân: thiết lập nào cần bật?",
-          "D": "Laptop cần truy cập Internet ở trường: cần kết nối gì?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Điện thoại có chứa dữ liệu cá nhân: thiết lập nào cần bật?"
-      },
-      {
-        "id": "T10-B07-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Phát biểu nào đúng về Pin?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Quản lí pin và cập nhật giúp sử dụng thiết bị ổn định, an toàn.",
-          "C": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "D": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập."
-        },
-        "dap_an": "B",
-        "giai_thich": "Quản lí pin và cập nhật giúp sử dụng thiết bị ổn định, an toàn."
-      },
-      {
-        "id": "T10-B07-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Thiết bị sắp hết pin trước giờ học: thao tác nào tiết kiệm năng lượng?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "B": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "C": "Giảm sáng, đóng ứng dụng không cần và bật chế độ tiết kiệm pin.",
-          "D": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập."
-        },
-        "dap_an": "C",
-        "giai_thich": "Giảm sáng, đóng ứng dụng không cần và bật chế độ tiết kiệm pin."
-      },
-      {
-        "id": "T10-B07-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Pin?",
-        "lua_chon": {
-          "A": "Học sinh cần thiết bị để học trực tuyến: thiết bị nào có thể sử dụng?",
-          "B": "Muốn giảm độ sáng màn hình: mở phần nào?",
-          "C": "Laptop cần truy cập Internet ở trường: cần kết nối gì?",
-          "D": "Thiết bị sắp hết pin trước giờ học: thao tác nào tiết kiệm năng lượng?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Thiết bị sắp hết pin trước giờ học: thao tác nào tiết kiệm năng lượng?"
-      },
-      {
-        "id": "T10-B07-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Thực hành sử dụng thiết bị số thông dụng”?",
-        "lua_chon": {
-          "A": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến. Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-          "B": "Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng. Thiết bị số cá nhân không có chức năng kết nối hoặc lưu trữ dữ liệu.",
-          "C": "Không cần khóa màn hình nếu thiết bị có mạng Internet. Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "D": "Thiết bị số cá nhân không có chức năng kết nối hoặc lưu trữ dữ liệu. Không cần khóa màn hình nếu thiết bị có mạng Internet."
-        },
-        "dap_an": "A",
-        "giai_thich": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến. Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B07-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Xét tính đúng/sai về bài “Thực hành sử dụng thiết bị số thông dụng”:",
-        "y_kien": {
-          "a": "Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.",
-          "b": "Thiết bị số cá nhân không có chức năng kết nối hoặc lưu trữ dữ liệu.",
-          "c": "Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.",
-          "d": "Không cần khóa màn hình nếu thiết bị có mạng Internet."
-        },
         "dap_an": {
           "a": true,
           "b": false,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến.; b sai: Thiết bị số cá nhân không có chức năng kết nối hoặc lưu trữ dữ liệu.; c đúng: Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.; d sai: Không cần khóa màn hình nếu thiết bị có mạng Internet.."
+        "giai_thich": "a, c đúng theo khái niệm PDA; b sai vì PDA tích hợp rất nhiều chức năng; d sai vì đồng hồ cơ không phải thiết bị số.",
+        "id": "BAI_07_BS_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Điện thoại thông minh và máy tính bảng đều thuộc nhóm trợ thủ số cá nhân.",
+          "b": "PDA chỉ có duy nhất chức năng nghe gọi và nhắn tin SMS.",
+          "c": "Kích thước nhỏ gọn và khả năng kết nối mạng là đặc điểm nổi bật của PDA.",
+          "d": "Đồng hồ cơ truyền thống được xếp vào nhóm thiết bị số thông minh."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nTrợ thủ số cá nhân (PDA) là những thiết bị số nhỏ gọn tích hợp nhiều chức năng như liên lạc, quản lý lịch làm việc, tra cứu thông tin và giải trí đa phương tiện. Ngày nay, điện thoại thông minh và máy tính bảng là những đại diện phổ biến nhất của nhóm thiết bị này.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a sai (iPhone dùng iOS); b, c đúng; d sai vì có rất nhiều ứng dụng miễn phí trên các kho ứng dụng.",
+        "id": "BAI_07_BS_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Điện thoại iPhone sử dụng hệ điều hành Android.",
+          "b": "Người dùng nên tải ứng dụng từ cửa hàng chính thức để đảm bảo an toàn.",
+          "c": "Biểu tượng ứng dụng (app icon) là hình ảnh đại diện giúp người dùng nhận biết và khởi chạy ứng dụng.",
+          "d": "Mọi ứng dụng trên App Store và Google Play đều bắt buộc phải trả phí."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nHệ điều hành di động phổ biến hiện nay gồm Android (của Google) và iOS (của Apple). Người dùng có thể cài đặt thêm các ứng dụng từ cửa hàng ứng dụng chính thức như Google Play (CH Play) hoặc App Store để mở rộng tính năng cho thiết bị.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a sai vì luôn xem được thuộc tính tệp; b, c đúng; d sai vì dữ liệu đám mây truy cập được từ nhiều thiết bị có Internet.",
+        "id": "BAI_07_BS_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Người dùng không thể xem thông tin chi tiết (dung lượng, ngày tạo) của một tệp ảnh trên điện thoại.",
+          "b": "Google Drive, OneDrive và Dropbox là các dịch vụ lưu trữ đám mây phổ biến.",
+          "c": "Xóa một tệp trên điện thoại có thể thực hiện thông qua ứng dụng quản lý tệp.",
+          "d": "Tệp lưu trên dịch vụ đám mây chỉ có thể mở được trên đúng chiếc điện thoại đã tải lên."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nHệ thống tệp trên điện thoại thông minh được tổ chức theo cấu trúc cây thư mục phân cấp tương tự như trên máy tính. Người dùng có thể lưu tệp trong bộ nhớ trong của máy, thẻ nhớ ngoài hoặc đồng bộ lên các dịch vụ lưu trữ đám mây.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a, c đúng về ưu/nhược điểm sinh trắc học và hình mẫu; b sai (tay ướt/bẩn làm giảm độ chính xác); d sai (mật khẩu đơn giản rất dễ bị dò).",
+        "id": "BAI_07_BS_DS_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "Mở khóa bằng hình mẫu có nhược điểm là dễ để lại vết trên màn hình cảm ứng.",
+          "b": "Cảm biến vân tay luôn hoạt động chính xác tuyệt đối ngay cả khi tay bị ướt hoặc dính bùn đất.",
+          "c": "Nhận diện khuôn mặt là phương thức đăng nhập nhanh chóng nhưng có thể bị ảnh hưởng bởi góc nhìn hoặc phụ kiện như kính, khẩu trang.",
+          "d": "Đặt mật khẩu quá đơn giản như '123456' giúp tăng cường tối đa tính bảo mật cho thiết bị."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nĐể bảo vệ dữ liệu trên thiết bị số cá nhân, người dùng thường thiết lập cơ chế xác thực mở khóa như mật khẩu, hình vẽ mẫu, vân tay hoặc nhận diện khuôn mặt.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a, b, d là các thao tác chuyển và tổ chức tệp đúng chuẩn; c sai vì Bluetooth hoàn toàn hỗ trợ truyền tệp ảnh kích thước nhỏ/vừa.",
+        "id": "BAI_07_BS_DS_05",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "nhan_dinh": {
+          "a": "An có thể kết nối điện thoại với máy tính bằng cáp USB để sao chép ảnh.",
+          "b": "An có thể tải ảnh lên Google Drive từ điện thoại rồi tải xuống trên máy tính.",
+          "c": "Nếu máy tính và điện thoại cùng bật Bluetooth, An không thể truyền bất kỳ tệp ảnh nào.",
+          "d": "Việc đặt tên thư mục rõ ràng theo môn học giúp An dễ tìm kiếm lại tệp ảnh sau này."
+        },
+        "noi_dung": "Cho tình huống thực hành:\nAn chụp 20 bức ảnh bài giảng trên bảng bằng điện thoại thông minh và muốn chuyển toàn bộ sang máy tính xách tay để soạn thảo báo cáo học tập.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Kéo thả (hoặc chạm giữ và di chuyển)",
+        "giai_thich": "Thao tác chạm, giữ và di chuyển (drag and drop) dùng để sắp xếp biểu tượng hoặc di chuyển tệp.",
+        "id": "BAI_07_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "Trong các thao tác màn hình cảm ứng, thao tác giữ và kéo ngón tay trên biểu tượng ứng dụng để đưa sang vị trí mới gọi là thao tác gì?"
+      }
+    ],
+    "trac_nghiem": [],
+    "tu_luan": []
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "(1) cáp mạng; (2) bàn phím",
+        "giai_thich": "Cáp mạng (Ethernet) kết nối máy tính vào mạng Internet; bàn phím dùng để nhập dữ liệu văn bản/ký tự.",
+        "id": "BAI_07_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_dung.docx",
+        "noi_dung": "Điền từ thích hợp vào chỗ trống:\n(1) Để kết nối máy tính với mạng Internet có dây, bạn cần sử dụng ........................ (cáp mạng, USB, HDMI).\n(2) Thiết bị ...................... (chuột, bàn phím, màn hình) được sử dụng để nhập dữ liệu ký tự vào máy tính."
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Trợ thủ số cá nhân (PDA - Personal Digital Assistant) là các thiết bị số nhỏ gọn tích hợp nhiều chức năng hữu ích cho người dùng hàng ngày.",
+        "id": "BAI_07_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Các thiết bị số trong đó tích hợp một số chức năng hữu ích cho người dùng trong đời sống hàng ngày là",
+        "phuong_an": {
+          "A": "Thiết bị thông minh.",
+          "B": "Thiết bị số hóa.",
+          "C": "Trợ thủ cá nhân.",
+          "D": "Thiết bị hỗ trợ số."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Đồng hồ cơ là thiết bị cơ khí thuần túy, không phải thiết bị số thông minh (PDA).",
+        "id": "BAI_07_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải một trợ thủ cá nhân?",
+        "phuong_an": {
+          "A": "Máy tính bảng.",
+          "B": "Đồng hồ thông minh.",
+          "C": "Đồng hồ cơ.",
+          "D": "Điện thoại thông minh."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "PDA hiện đại tích hợp đầy đủ các chức năng giải trí (xem phim), định vị (tìm đường) và đa phương tiện (quay phim).",
+        "id": "BAI_07_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ngày nay, PDA có nhiều chức năng hữu ích như",
+        "phuong_an": {
+          "A": "Tất cả các đáp án dưới đây đều đúng.",
+          "B": "Xem phim.",
+          "C": "Tìm đường.",
+          "D": "Quay phim."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Đặc điểm cốt lõi của PDA là kích thước nhỏ gọn, dễ mang theo và có khả năng kết nối mạng.",
+        "id": "BAI_07_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đặc điểm quan trọng của PDA là",
+        "phuong_an": {
+          "A": "Có bộ nhớ lớn, có khả năng kết nối wifi.",
+          "B": "Nhỏ gọn, có khả năng kết nối mạng.",
+          "C": "Có chức năng liên lạc.",
+          "D": "Có khả năng kết nối mạng."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Điện thoại iPhone của hãng Apple sử dụng hệ điều hành độc quyền iOS.",
+        "id": "BAI_07_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Điện thoại iPhone sử dụng hệ điều hành",
+        "phuong_an": {
+          "A": "iOS.",
+          "B": "Android.",
+          "C": "Window.",
+          "D": "Apple."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Hai bên thân điện thoại thông minh thường bố trí nút khóa/nguồn và nút tăng/giảm âm lượng.",
+        "id": "BAI_07_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Hai bên thân điện thoại thông minh thường có nút",
+        "phuong_an": {
+          "A": "Nút chụp ảnh.",
+          "B": "Nút khóa.",
+          "C": "Nút gọi.",
+          "D": "Nút bật đèn pin."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Màn hình chính hiển thị thanh trạng thái, thanh truy cập nhanh và biểu tượng ứng dụng; định vị vị trí là một tính năng/dịch vụ chạy ngầm.",
+        "id": "BAI_07_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Màn hình chính điện thoại thông minh thường không có",
+        "phuong_an": {
+          "A": "Thanh trạng thái.",
+          "B": "Thanh truy cập nhanh các ứng dụng hay dùng.",
+          "C": "Định vị vị trí.",
+          "D": "Các biểu tượng ứng dụng cài trên máy."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Gọi điện, nhắn tin và quản lý danh bạ là chức năng thiết yếu của mọi điện thoại; gửi Email là chức năng mở rộng trên điện thoại thông minh.",
+        "id": "BAI_07_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải chức năng thiết yếu của điện thoại?",
+        "phuong_an": {
+          "A": "Gọi điện.",
+          "B": "Nhắn tin.",
+          "C": "Quản lí danh bạ.",
+          "D": "Gửi Email."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Các ứng dụng trình duyệt, máy tính, chụp ảnh, quản lý ảnh, báo thức và lịch đều được cài đặt sẵn trên điện thoại thông minh.",
+        "id": "BAI_07_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu là ứng dụng thường dùng có sẵn trên điện thoại?",
+        "phuong_an": {
+          "A": "Trình duyệt, máy tính.",
+          "B": "Chụp ảnh và kho quản lí ảnh.",
+          "C": "Báo thức, lịch.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Nhấn nhanh nút khóa/nguồn giúp bật sáng hoặc tắt màn hình (khóa màn hình); nhấn giữ để bật/tắt nguồn.",
+        "id": "BAI_07_GOC_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Nút khóa phía bên thân điện thoại thông minh dùng để",
+        "phuong_an": {
+          "A": "Khóa máy.",
+          "B": "Bật máy hoặc tắt màn hình.",
+          "C": "Tắt nguồn.",
+          "D": "Mở khóa điện thoại."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Theo tài liệu SGK KNTT, các kết nối không dây phổ biến hiện nay là Wifi, Bluetooth, mạng di động; trong đáp án gốc của bộ đề, USB được chọn là không phải kết nối không dây phổ biến (lưu ý thực tế cổng USB-C dùng để sạc/truyền dữ liệu có dây, còn hồng ngoại ngày nay ít phổ biến hơn).",
+        "id": "BAI_07_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Kết nối nào không phải là kết nối phổ biến trên các PDA hiện nay?",
+        "phuong_an": {
+          "A": "Hồng ngoại.",
+          "B": "USB.",
+          "C": "Bluetooth.",
+          "D": "Wifi."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Smartphone vượt trội nhờ hệ điều hành cho phép cài ứng dụng, xử lý tính toán phức tạp, truy cập Internet và đa phương tiện.",
+        "id": "BAI_07_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Điện thoại thông minh khác với điện thoại thường ở điểm nào?",
+        "phuong_an": {
+          "A": "Điện thoại thông minh có khả năng thực hiện một số tính toán phức tạp.",
+          "B": "Điện thoại thông minh có khả năng cài đặt một số phần mềm ứng dụng nên có thể truy cập Internet và hiển thị dữ liệu đa phương tiện.",
+          "C": "Điện thoại thông minh với hệ điều hành có các tính năng \"thông minh\" hơn so với điện thoại thường.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Các phương thức xác thực phổ biến là mật khẩu/mã PIN, hình vẽ, vân tay (fingerprint) và nhận diện khuôn mặt; không có 'vân tai'.",
+        "id": "BAI_07_GOC_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải các xác thực khi mở khóa điện thoại thông minh?",
+        "phuong_an": {
+          "A": "Nhận diện khuôn mặt.",
+          "B": "Dùng vân tay.",
+          "C": "Dùng vân tai.",
+          "D": "Dùng mật khẩu."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Theo đáp án bộ đề gốc chọn B (lưu ý chuyên môn: thực chất CH Play và Google Play là cùng một kho ứng dụng của Google cho Android, còn App Store của iOS; QooApp là kho ứng dụng bên thứ ba).",
+        "id": "BAI_07_GOC_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải một cửa hàng ứng dụng?",
+        "phuong_an": {
+          "A": "CH Play.",
+          "B": "Google Play.",
+          "C": "App Store.",
+          "D": "QooApp."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Người dùng tải và cài đặt ứng dụng an toàn từ các cửa hàng ứng dụng chính thức như Google Play (CH Play) hoặc App Store.",
+        "id": "BAI_07_GOC_TN_15",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Người dùng cài đặt thêm các phần mềm lấy từ",
+        "phuong_an": {
+          "A": "MS Teams.",
+          "B": "Email.",
+          "C": "Trình duyệt.",
+          "D": "Cửa hàng ứng dụng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Meta là công ty công nghệ (chủ quản Facebook), không phải dịch vụ lưu trữ đám mây như OneDrive, Dropbox hay Google Drive.",
+        "id": "BAI_07_GOC_TN_16",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải một dịch vụ lưu trữ đám mây?",
+        "phuong_an": {
+          "A": "One Drive.",
+          "B": "Meta.",
+          "C": "Dropbox.",
+          "D": "Google Drive."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "App icon là hình ảnh thu nhỏ đại diện cho ứng dụng trên màn hình thiết bị để người dùng nhận diện và nhấn mở.",
+        "id": "BAI_07_GOC_TN_17",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Biểu tượng ứng dụng (app icon) là",
+        "phuong_an": {
+          "A": "Hình ảnh được dùng để quảng bá ứng dụng trên các nền tảng mạng xã hội.",
+          "B": "Hình ảnh được dùng để miêu tả ứng dụng giúp người dùng biết cách sử dụng.",
+          "C": "Hình ảnh được dùng để khóa ứng dụng trên thiết bị, đảm bảo tính bảo mật.",
+          "D": "Hình ảnh được dùng để đại diện cho ứng dụng trên thiết bị của người dùng."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Thanh truy cập nhanh (dock) có thể tùy biến bởi người dùng, không bắt buộc luôn chứa cố định cả 3 ứng dụng trên.",
+        "id": "BAI_07_GOC_TN_18",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây không đúng?",
+        "phuong_an": {
+          "A": "Phía hai bên thân máy thường có nút khóa, nút tăng/giảm âm lượng.",
+          "B": "Tỉ lệ % pin còn lại thường hiện ở trên cùng phía bên phải màn hình cảm ứng.",
+          "C": "Thanh truy cập luôn chứa ứng dụng gọi điện, danh bạ và chụp ảnh.",
+          "D": "Trên thanh điều hướng có các nút ảo ở dưới màn hình cảm ứng."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Nút Home dùng để quay về màn hình chính, không phải nút hiển thị danh sách ứng dụng đang chạy (đó là nút Đa nhiệm/Recents).",
+        "id": "BAI_07_GOC_TN_19",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây không đúng?",
+        "phuong_an": {
+          "A": "Nút Home ảo là nút hiển thị danh sách tất cả các ứng dụng đang chạy.",
+          "B": "Ứng dụng Zoom, OneDrive không có sẵn trên điện thoại.",
+          "C": "Hệ thống tệp trên điện thoại thông minh tổ chức theo cấu trúc phân cấp tương tự như trên máy tính.",
+          "D": "Các tệp trên điện thoại thông minh có thể được lưu trong không gian nhớ của máy, thẻ nhớ hay dịch vụ lưu trữ đám mây."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Ứng dụng quản lý tệp hoặc thư viện ảnh cho phép xem thuộc tính chi tiết (metadata) của tệp ảnh.",
+        "id": "BAI_07_GOC_TN_20",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây đúng?",
+        "phuong_an": {
+          "A": "Với điện thoại thông minh, chúng ta có thể xem thông tin chi tiết của một file ảnh (thời gian lưu, kích thước, độ lớn, vị trí lưu trữ).",
+          "B": "Chỉ có hai cửa hàng ứng dụng là CH Play cho hệ điều hành Android và App Store cho hệ điều hành iOS.",
+          "C": "Điện thoại Samsung có thể sử dụng hệ điều hành Android hoặc iOS.",
+          "D": "Hầu hết các thiết bị sử dụng hệ điều hành Android có trang bị nút Home vật lí."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Theo hình minh họa chuẩn trong đề gốc, thứ tự biểu tượng là Cài đặt, Điện thoại, Mail và trình duyệt Safari.",
+        "id": "BAI_07_GOC_TN_21",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Kể tên các ứng dụng có trong hình minh họa màn hình iOS theo thứ tự từ trái sang phải (Cài đặt, Điện thoại, Mail, Safari / Tin nhắn / Bản đồ).",
+        "phuong_an": {
+          "A": "Cài đặt, Điện thoại, Mail, Safari.",
+          "B": "Cài đặt, Điện thoại, Tin nhắn, Định vị.",
+          "C": "Cài đặt, Điện thoại, Tin nhắn, Bản đồ.",
+          "D": "Cài đặt, Điện thoại, Gmail, Safari."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Theo hình minh họa chuẩn trong đề gốc, bốn biểu tượng lần lượt là Email, Cài đặt, Lịch và Đồng hồ.",
+        "id": "BAI_07_GOC_TN_22",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Kể tên các ứng dụng có trong hình minh họa màn hình theo thứ tự từ trái sang phải (Email, Cài đặt, Lịch, Đồng hồ).",
+        "phuong_an": {
+          "A": "Gmail, Cài đặt, Lịch, Báo thức.",
+          "B": "Email, Cài đặt, Sự kiện, Báo thức.",
+          "C": "Email, Cài đặt, Lịch, Đồng hồ.",
+          "D": "Gmail, Cài đặt, Lịch hẹn, Đồng hồ."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Các phát biểu (1) và (3) đúng. Bộ nhớ trong được nhà sản xuất tích hợp sẵn trước khi bán, còn Thư mục ảnh là thư mục chứa ảnh chứ không phải ứng dụng quản lý tệp.",
+        "id": "BAI_07_GOC_TN_23",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Số phát biểu đúng là:\n(1) Có thể sử dụng ứng dụng Tin nhắn để nhắn một tin cho nhiều người một lúc.\n(2) Bộ nhớ trong hay Internal Memory chính là khái niệm chỉ những loại bộ nhớ được lắp đặt ngay sau khi mua thiết bị.\n(3) Với tiện ích đặt lịch, nhắc hẹn em có thể đặt các sự kiện và xác định đặt một lần hay định kì hàng ngày, các ngày nào đó trong tuần.\n(4) Thư mục ảnh là một ứng dụng quản lí tệp.",
+        "phuong_an": {
+          "A": "3.",
+          "B": "1.",
+          "C": "4.",
+          "D": "2."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "1-d,h (mật khẩu phức tạp an toàn nhưng chậm, dễ quên); 2-a,g (hình mẫu đơn giản nhưng để lại vết); 3-b,e (vân tay khá an toàn nhưng kỵ tay ướt/bẩn); 4-c,f (khuôn mặt nhanh tiện nhưng ảnh hưởng bởi ngoại hình/góc nhìn).",
+        "id": "BAI_07_GOC_TN_24",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd1_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_minh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tất cả các thiết bị di động thông minh đều có cơ chế xác thực để đăng nhập thiết bị. Hãy nối phương thức ở cột A với ưu điểm (B) và nhược điểm (C):\nA: 1. Dùng mật khẩu | 2. Dùng hình mẫu | 3. Dùng vân tay | 4. Nhận diện khuôn mặt\nB: a. Tương đối đơn giản | b. Đơn giản và khá an toàn | c. Nhanh, tiện | d. An toàn nếu đủ phức tạp\nC: e. Kém hiệu quả nếu tay bẩn/ướt | f. Khó nhận diện khi thay đổi kiểu tóc, đeo kính, góc nhìn | g. Dễ để lại vết trên màn hình | h. Chậm và dễ quên",
+        "phuong_an": {
+          "A": "1-c,h; 2-a,g; 3-b,e; 4-a,f.",
+          "B": "1-d,h; 2-a,g; 3-b,e; 4-c,f.",
+          "C": "1-d,g; 2-a,h; 3-b,e; 4-c,f.",
+          "D": "1-b,h; 2-d,g; 3-a,e; 4-c,f."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Bảng trắng truyền thống không phải là thiết bị số điện tử.",
+        "id": "BAI_07_GOC_TN_25",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_dung.docx",
+        "noi_dung": "Thiết bị nào sau đây không phải là thiết bị số thông dụng?",
+        "phuong_an": {
+          "A": "Máy tính xách tay",
+          "B": "Điện thoại thông minh",
+          "C": "Máy ảnh kỹ thuật số",
+          "D": "Bảng trắng"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Máy in là thiết bị ra dùng để chuyển dữ liệu số thành bản in trên giấy (định dạng vật lý).",
+        "id": "BAI_07_GOC_TN_26",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_dung.docx",
+        "noi_dung": "Mục đích chính của việc sử dụng máy in là gì?",
+        "phuong_an": {
+          "A": "Lưu trữ dữ liệu",
+          "B": "Chia sẻ thông tin",
+          "C": "Chuyển đổi dữ liệu từ kỹ thuật số sang định dạng vật lý",
+          "D": "Tạo ra video"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B07-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Máy tính xách tay/để bàn (soạn thảo văn bản, lập trình, tra cứu), điện thoại thông minh/máy tính bảng (liên lạc, học trực tuyến, ghi chú, chụp ảnh tài liệu), máy in/máy quét (in ấn và số hóa tài liệu).",
+        "giai_thich": "Mỗi thiết bị số thông dụng đảm nhận chức năng nhập, xử lý, lưu trữ hoặc xuất thông tin phục vụ học tập và làm việc.",
+        "id": "BAI_07_GOC_TL_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Trình bày hai nội dung của bài: Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến. Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Điện thoại thông minh, máy tính bảng và laptop là các thiết bị số cá nhân phổ biến. Cài đặt cho phép quản lí kết nối, âm thanh, hiển thị và quyền ứng dụng.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_dung.docx",
+        "noi_dung": "Hãy nêu các loại thiết bị số thông dụng mà bạn thường sử dụng trong học tập và công việc, và giải thích chức năng của từng loại?"
       },
       {
-        "id": "T10-B07-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Đặt mật khẩu mạnh và khóa màn hình khi rời máy; không tải tệp/phần mềm từ nguồn không rõ; sao lưu bài làm lên đám mây hoặc USB; đăng xuất tài khoản khi dùng máy công cộng.",
+        "giai_thich": "Các biện pháp này giúp bảo vệ dữ liệu bài tập và thông tin cá nhân khỏi mất mát hoặc đánh cắp.",
+        "id": "BAI_07_GOC_TL_02",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành sử dụng thiết bị số thông dụng",
-        "noi_dung": "Giải thích và vận dụng nội dung “Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Wi‑Fi kết nối thiết bị với mạng không dây qua điểm truy cập.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_dung.docx",
+        "noi_dung": "Khi sử dụng máy tính để làm bài tập, em cần lưu ý những điều gì để đảm bảo an toàn thông tin?"
+      },
+      {
+        "dap_an": "Học tập: Google Drive, Zoom/MS Teams, Google Translate, Duolingo, Lịch/Ghi chú. Giải trí: YouTube, Spotify, trình duyệt web, máy ảnh.",
+        "giai_thich": "Ứng dụng trên smartphone được phân nhóm theo mục đích sử dụng giúp tối ưu hiệu quả học tập và thư giãn.",
+        "id": "BAI_07_GOC_TL_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_dung.docx",
+        "noi_dung": "Hãy nêu một số ứng dụng phổ biến trên điện thoại thông minh mà bạn sử dụng để hỗ trợ việc học tập và giải trí?"
+      },
+      {
+        "dap_an": "Bước 1: Mở ứng dụng Máy ảnh để chụp ảnh. Bước 2: Mở ứng dụng Quản lý tệp (Files/Thư viện), chọn ảnh vừa chụp -> Chi tiết (Details) để xem kích thước, thời gian, vị trí lưu. Bước 3: Chọn Chia sẻ/Tải lên (Upload) vào Google Drive hoặc OneDrive.",
+        "giai_thich": "Thực hành thành thạo thao tác quản lý tệp trên PDA và đồng bộ dữ liệu lên đám mây.",
+        "id": "BAI_07_GOC_TL_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_7_thuc_hanh_su_dung_thiet_bi_so_thong_dung.docx",
+        "noi_dung": "Nêu quy trình thực hành: chụp ảnh bằng điện thoại thông minh, xem thông tin chi tiết tệp ảnh và sao chép lên dịch vụ lưu trữ đám mây."
       }
     ]
+  },
+  "ma_bai": "BAI_07",
+  "ten_bai": "Thực hành sử dụng thiết bị số thông dụng",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 5,
+      "tong": 6,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 0,
+      "tu_luan": 0
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 0,
+      "tong": 31,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 26,
+      "tu_luan": 4
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 16,
+      "thong_hieu": 13,
+      "van_dung": 8
+    },
+    "tong_so_cau": 37
   }
 }

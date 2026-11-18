@@ -1,424 +1,489 @@
 {
-  "ma_bai": "BAI_06",
   "bai_so": 6,
-  "ten_bai": "Dữ liệu âm thanh và hình ảnh",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B06-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Phát biểu nào đúng về Lấy mẫu âm thanh?",
-        "lua_chon": {
-          "A": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "B": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "C": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "D": "Ảnh bitmap gồm các điểm ảnh."
-        },
-        "dap_an": "C",
-        "giai_thich": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm."
-      },
-      {
-        "id": "T10-B06-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
-        "lua_chon": {
-          "A": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "B": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "C": "Ảnh bitmap gồm các điểm ảnh.",
-          "D": "Lấy mẫu tín hiệu âm thanh."
-        },
-        "dap_an": "D",
-        "giai_thich": "Lấy mẫu tín hiệu âm thanh."
-      },
-      {
-        "id": "T10-B06-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Lấy mẫu âm thanh?",
-        "lua_chon": {
-          "A": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
-          "B": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
-          "C": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?",
-          "D": "Phóng ảnh nhỏ lên lớn thấy ô vuông: thành phần nào tạo nên ảnh?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?"
-      },
-      {
-        "id": "T10-B06-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Phát biểu nào đúng về Tần số lấy mẫu?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "B": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "C": "Ảnh bitmap gồm các điểm ảnh.",
-          "D": "Tần số lấy mẫu là số lần lấy mẫu trong một giây."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tần số lấy mẫu là số lần lấy mẫu trong một giây."
-      },
-      {
-        "id": "T10-B06-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
-        "lua_chon": {
-          "A": "Tần số lấy mẫu.",
-          "B": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "C": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "D": "Ảnh bitmap gồm các điểm ảnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tần số lấy mẫu."
-      },
-      {
-        "id": "T10-B06-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tần số lấy mẫu?",
-        "lua_chon": {
-          "A": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
-          "B": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
-          "C": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?",
-          "D": "Phóng ảnh nhỏ lên lớn thấy ô vuông: thành phần nào tạo nên ảnh?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?"
-      },
-      {
-        "id": "T10-B06-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Phát biểu nào đúng về Lượng tử hóa?",
-        "lua_chon": {
-          "A": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "B": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "D": "Ảnh bitmap gồm các điểm ảnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
-      },
-      {
-        "id": "T10-B06-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "B": "Lượng tử hóa.",
-          "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "D": "Ảnh bitmap gồm các điểm ảnh."
-        },
-        "dap_an": "B",
-        "giai_thich": "Lượng tử hóa."
-      },
-      {
-        "id": "T10-B06-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Lượng tử hóa?",
-        "lua_chon": {
-          "A": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
-          "B": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
-          "C": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?",
-          "D": "Phóng ảnh nhỏ lên lớn thấy ô vuông: thành phần nào tạo nên ảnh?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?"
-      },
-      {
-        "id": "T10-B06-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Phát biểu nào đúng về Pixel?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "B": "Ảnh bitmap gồm các điểm ảnh.",
-          "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
-        },
-        "dap_an": "B",
-        "giai_thich": "Ảnh bitmap gồm các điểm ảnh."
-      },
-      {
-        "id": "T10-B06-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Phóng ảnh nhỏ lên lớn thấy ô vuông: thành phần nào tạo nên ảnh?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "B": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "C": "Pixel.",
-          "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
-        },
-        "dap_an": "C",
-        "giai_thich": "Pixel."
-      },
-      {
-        "id": "T10-B06-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Pixel?",
-        "lua_chon": {
-          "A": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
-          "B": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
-          "C": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?",
-          "D": "Phóng ảnh nhỏ lên lớn thấy ô vuông: thành phần nào tạo nên ảnh?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Phóng ảnh nhỏ lên lớn thấy ô vuông: thành phần nào tạo nên ảnh?"
-      },
-      {
-        "id": "T10-B06-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Phát biểu nào đúng về Độ phân giải ảnh?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "B": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "C": "Độ phân giải cho biết số pixel theo chiều ngang và dọc.",
-          "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
-        },
-        "dap_an": "C",
-        "giai_thich": "Độ phân giải cho biết số pixel theo chiều ngang và dọc."
-      },
-      {
-        "id": "T10-B06-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Ảnh 1280×720: thông số này biểu thị điều gì?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "B": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "C": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "D": "Kích thước ảnh theo pixel."
-        },
-        "dap_an": "D",
-        "giai_thich": "Kích thước ảnh theo pixel."
-      },
-      {
-        "id": "T10-B06-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Độ phân giải ảnh?",
-        "lua_chon": {
-          "A": "Ảnh 1280×720: thông số này biểu thị điều gì?",
-          "B": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
-          "C": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
-          "D": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Ảnh 1280×720: thông số này biểu thị điều gì?"
-      },
-      {
-        "id": "T10-B06-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Phát biểu nào đúng về Độ sâu màu?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "B": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "C": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "D": "Độ sâu bit ảnh hưởng số màu có thể biểu diễn mỗi pixel."
-        },
-        "dap_an": "D",
-        "giai_thich": "Độ sâu bit ảnh hưởng số màu có thể biểu diễn mỗi pixel."
-      },
-      {
-        "id": "T10-B06-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Ảnh cần biểu diễn nhiều sắc độ hơn: thông số nào quan trọng?",
-        "lua_chon": {
-          "A": "Số bit dùng biểu diễn màu mỗi pixel.",
-          "B": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
-        },
-        "dap_an": "A",
-        "giai_thich": "Số bit dùng biểu diễn màu mỗi pixel."
-      },
-      {
-        "id": "T10-B06-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Độ sâu màu?",
-        "lua_chon": {
-          "A": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
-          "B": "Ảnh cần biểu diễn nhiều sắc độ hơn: thông số nào quan trọng?",
-          "C": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
-          "D": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Ảnh cần biểu diễn nhiều sắc độ hơn: thông số nào quan trọng?"
-      },
-      {
-        "id": "T10-B06-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Phát biểu nào đúng về Dung lượng dữ liệu?",
-        "lua_chon": {
-          "A": "Tần số lấy mẫu, độ sâu và độ phân giải cao thường làm tăng lượng dữ liệu.",
-          "B": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tần số lấy mẫu, độ sâu và độ phân giải cao thường làm tăng lượng dữ liệu."
-      },
-      {
-        "id": "T10-B06-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Giữ nguyên thời lượng nhưng tăng tần số lấy mẫu: điều gì thường xảy ra?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "B": "Dung lượng dữ liệu có xu hướng tăng.",
-          "C": "Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "D": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc."
-        },
-        "dap_an": "B",
-        "giai_thich": "Dung lượng dữ liệu có xu hướng tăng."
-      },
-      {
-        "id": "T10-B06-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Dung lượng dữ liệu?",
-        "lua_chon": {
-          "A": "Thu âm tiếng nói để lưu vào máy: bước nào cần thực hiện?",
-          "B": "Muốn tăng chi tiết thời gian của âm thanh số: thông số nào có thể tăng?",
-          "C": "Giữ nguyên thời lượng nhưng tăng tần số lấy mẫu: điều gì thường xảy ra?",
-          "D": "Tín hiệu analog cần thành số: bước nào chuyển biên độ sang mức số?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Giữ nguyên thời lượng nhưng tăng tần số lấy mẫu: điều gì thường xảy ra?"
-      },
-      {
-        "id": "T10-B06-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Dữ liệu âm thanh và hình ảnh”?",
-        "lua_chon": {
-          "A": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-          "B": "Tần số lấy mẫu là số lần lấy mẫu trong một giây. Ảnh bitmap không được cấu tạo từ pixel.",
-          "C": "Giảm tần số lấy mẫu luôn làm tăng chất lượng âm thanh. Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "D": "Ảnh bitmap không được cấu tạo từ pixel. Giảm tần số lấy mẫu luôn làm tăng chất lượng âm thanh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. Tần số lấy mẫu là số lần lấy mẫu trong một giây."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B06-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Xét tính đúng/sai về bài “Dữ liệu âm thanh và hình ảnh”:",
-        "y_kien": {
-          "a": "Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.",
-          "b": "Ảnh bitmap không được cấu tạo từ pixel.",
-          "c": "Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.",
-          "d": "Giảm tần số lấy mẫu luôn làm tăng chất lượng âm thanh."
-        },
         "dap_an": {
           "a": true,
-          "b": false,
+          "b": true,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm.; b sai: Ảnh bitmap không được cấu tạo từ pixel.; c đúng: Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.; d sai: Giảm tần số lấy mẫu luôn làm tăng chất lượng âm thanh.."
+        "giai_thich": "a) Đúng. b) Đúng. c) Đúng. d) Sai (nén có mất mát đã loại bỏ một phần dữ liệu không thể khôi phục nguyên trạng 100%).",
+        "id": "B06_BS_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "nhan_dinh": {
+          "a": "Tần số lấy mẫu càng cao và độ sâu bit càng lớn thì chất lượng âm thanh số càng trung thực, đồng thời dung lượng tệp càng tăng.",
+          "b": "Ảnh có độ phân giải 1920 × 1080 pixel chứa nhiều điểm ảnh hơn ảnh 1280 × 720 pixel.",
+          "c": "Định dạng ảnh .png hỗ trợ nền trong suốt còn .jpeg thì không.",
+          "d": "Nén có mất mát (lossy) cho phép khôi phục lại chính xác 100% từng bit dữ liệu gốc ban đầu."
+        },
+        "noi_dung": "Đánh giá tính đúng sai của các nhận định sau về các yếu tố ảnh hưởng đến chất lượng và dung lượng dữ liệu đa phương tiện:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "1440000",
+        "giai_thich": "800 × 600 × 3 byte = 1 440 000 byte.",
+        "id": "B06_BS_TLN_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "noi_dung": "Một ảnh màu 24 bit có kích thước 800 × 600 pixel chưa nén chiếm bao nhiêu byte?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "A",
+        "giai_thich": "Tổng số pixel = 1024 × 768 = 786 432. Mỗi pixel 24 bit = 3 byte => 786 432 × 3 = 2 359 296 byte. Đổi sang MB: 2 359 296 / (1024 × 1024) = 2,25 MB.",
+        "id": "B06_BS_TN_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "noi_dung": "Một ảnh màu RGB 24 bit có độ phân giải 1024 × 768 pixel (không nén). Dung lượng lưu trữ thô của ảnh này là bao nhiêu MB?",
+        "phuong_an": {
+          "A": "2,25 MB",
+          "B": "3,0 MB",
+          "C": "1,5 MB",
+          "D": "18 MB"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B06-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Chu kì lấy mẫu tăng nghĩa là khoảng thời gian giữa hai lần đo biên độ sóng âm dài ra, làm giảm số mẫu thu được trong mỗi giây (tần số lấy mẫu giảm). Ít mẫu hơn nên ít bit cần lưu (dung lượng giảm), nhưng đường gấp khúc nối các mẫu không còn bám sát đường cong sóng âm gốc, gây méo và mất chi tiết âm thanh.",
+        "giai_thich": "Giải thích bản chất vật lí và toán học của việc lấy mẫu theo thời gian.",
+        "id": "B06_BS_TL_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Trình bày hai nội dung của bài: Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Số hóa âm thanh lấy mẫu biên độ tín hiệu theo các thời điểm. Tần số lấy mẫu là số lần lấy mẫu trong một giây.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B06-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Dữ liệu âm thanh và hình ảnh",
-        "noi_dung": "Giải thích và vận dụng nội dung “Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Lượng tử hóa gán mẫu biên độ vào các mức rời rạc.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "noi_dung": "Giải thích tại sao khi tăng chu kì lấy mẫu trong quá trình số hóa âm thanh thì dung lượng tệp giảm nhưng chất lượng âm thanh lại suy giảm."
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Sai (lấy mẫu liên tục theo chu kì đều đặn). d) Đúng.",
+        "id": "B06_G_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_6.docx",
+        "nhan_dinh": {
+          "a": "Âm thanh số hóa không cần phải mã hóa thành dạng nhị phân.",
+          "b": "Định dạng WAV là một trong những định dạng lưu trữ âm thanh phổ biến.",
+          "c": "Quá trình lấy mẫu âm thanh chỉ diễn ra đúng một lần duy nhất cho cả bản nhạc.",
+          "d": "Định dạng MP3 giúp giảm kích thước tệp âm thanh mà vẫn giữ chất lượng chấp nhận được."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Âm thanh được số hóa thông qua quá trình lấy mẫu (sampling) và mã hóa. Các bước thực hiện bao gồm: lấy mẫu tín hiệu âm thanh, mã hóa tín hiệu thành dạng nhị phân, và lưu trữ vào các định dạng như WAV, MP3.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Sai (có thể chuyển đổi bằng phần mềm xử lí ảnh). c) Đúng. d) Đúng.",
+        "id": "B06_G_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_6.docx",
+        "nhan_dinh": {
+          "a": "Ảnh xám chỉ sử dụng một kênh độ sáng để biểu diễn sắc độ từ đen đến trắng.",
+          "b": "Ảnh màu không thể chuyển đổi thành ảnh đen trắng hoặc ảnh xám.",
+          "c": "Ảnh đen trắng chỉ có hai mức sắc độ là đen và trắng (1 bit).",
+          "d": "Ảnh màu sử dụng ba kênh R, G, B để phối hợp tạo ra hàng triệu màu sắc."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Hình ảnh có thể được biểu diễn dưới nhiều dạng khác nhau, trong đó phổ biến nhất là ảnh màu, ảnh xám và ảnh đen trắng. Ảnh màu RGB sử dụng ba kênh (đỏ, xanh lá, xanh dương) để tạo ra nhiều màu sắc khác nhau.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Sai (có thể nén thành PNG, JPEG). b) Đúng. c) Đúng. d) Đúng.",
+        "id": "B06_G_DS_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_6.docx",
+        "nhan_dinh": {
+          "a": "Ảnh bitmap không thể được nén để giảm kích thước tệp.",
+          "b": "Độ phân giải cao của ảnh bitmap (nhiều pixel) sẽ làm tăng kích thước tệp.",
+          "c": "Mỗi pixel trong ảnh bitmap chứa thông tin về màu sắc.",
+          "d": "Ảnh bitmap thường được sử dụng để lưu trữ ảnh chụp có chi tiết phức tạp."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Ảnh bitmap là một loại ảnh được lưu trữ dưới dạng ma trận các điểm ảnh (pixel). Mỗi pixel có giá trị màu sắc riêng, và ảnh bitmap có thể trở nên rất lớn về kích thước tệp nếu có độ phân giải cao.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Sai. d) Đúng.",
+        "id": "B06_G_DS_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_6.docx",
+        "nhan_dinh": {
+          "a": "Bộ chuyển đổi tương tự sang số (ADC) không cần thiết trong quá trình số hóa âm thanh.",
+          "b": "Quá trình số hóa âm thanh bao gồm lấy mẫu và mã hóa thành bit.",
+          "c": "Tín hiệu âm thanh tương tự không thể chuyển đổi thành tín hiệu số.",
+          "d": "Số hóa âm thanh giúp lưu trữ, chỉnh sửa và truyền tải âm thanh qua mạng dễ dàng hơn."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Để số hóa âm thanh, người ta thường sử dụng bộ chuyển đổi tương tự sang số (ADC) để biến đổi tín hiệu âm thanh tương tự thành tín hiệu số thông qua lấy mẫu và mã hóa.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai (MP3 là định dạng nén có mất mát). b) Đúng. c) Sai (WAV lớn hơn nhiều so với MP3). d) Đúng.",
+        "id": "B06_G_DS_05",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_6.docx",
+        "nhan_dinh": {
+          "a": "MP3 là định dạng âm thanh không nén.",
+          "b": "Định dạng MP3 giúp giảm kích thước tệp đáng kể nhờ loại bỏ bớt phần dữ liệu ít ảnh hưởng đến thính giác.",
+          "c": "Tất cả các định dạng âm thanh đều có kích thước tệp giống nhau cho cùng một bản nhạc.",
+          "d": "MP3 là định dạng âm thanh phổ biến trong việc lưu trữ và phát nhạc trực tuyến."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Định dạng âm thanh MP3 là một trong những định dạng nén phổ biến nhất hiện nay, cho phép giảm kích thước tệp âm thanh mà vẫn giữ được chất lượng tương đối tốt.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "1",
+        "giai_thich": "Chỉ cần phân biệt 2 trạng thái (sáng/tắt) nên cần 1 bit cho mỗi điểm ảnh.",
+        "id": "B06_G_TLN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ndc_b6._du_lieu_am_thanh_va_hinh_anh_.docx",
+        "noi_dung": "Một bảng quảng cáo LED đơn sắc (mỗi bóng LED chỉ có hai trạng thái tắt hoặc sáng) được xem như một ảnh bitmap mà mỗi bóng LED là một điểm ảnh. Độ sâu màu của ảnh này là bao nhiêu bit?"
+      },
+      {
+        "dap_an": "63",
+        "giai_thich": "650 MB = 650 × 1024 × 8 = 5 324 800 Kb. Thời gian = 5 324 800 / 1411 ≈ 3773,8 giây ≈ 62,9 phút (≈ 63 phút; lưu ý đĩa CD Audio chuẩn chứa được 74 phút do không dùng phần sửa lỗi Mode 1).",
+        "id": "B06_G_TLN_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ndc_b6._du_lieu_am_thanh_va_hinh_anh_.docx",
+        "noi_dung": "Nhạc CD có tốc độ bit 1411 Kb/s. Một đĩa CD dung lượng 650 MB (với 1 MB = 1024 KB, 1 KB = 8 Kb) có thể lưu trữ khoảng bao nhiêu phút nhạc (làm tròn đến hàng đơn vị)?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Âm thanh là dao động cơ học truyền đi trong môi trường vật chất dưới dạng sóng âm.",
+        "id": "B06_G_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Âm thanh được truyền đi trong không khí bằng:",
+        "phuong_an": {
+          "A": "Quang phổ",
+          "B": "Ánh sáng",
+          "C": "Sóng âm",
+          "D": "Âm sắc"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Tín hiệu liên tục theo thời gian và biên độ gọi là tín hiệu tương tự (analog).",
+        "id": "B06_G_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tín hiệu âm thanh có đồ thị biến thiên liên tục theo thời gian được gọi là:",
+        "phuong_an": {
+          "A": "Tín hiệu âm thanh tương tự (analog)",
+          "B": "Tín hiệu âm thanh tương đối",
+          "C": "Tín hiệu âm thanh số (digital)",
+          "D": "Tín hiệu âm thanh ngắt quãng"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "PCM (Pulse Code Modulation - Điều chế mã xung) là phương pháp số hóa âm thanh cơ bản nhất.",
+        "id": "B06_G_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phương pháp cơ bản để số hóa âm thanh là:",
+        "phuong_an": {
+          "A": "Điều chế mã xung (PCM)",
+          "B": "Ghi lại đồ thị tần số",
+          "C": "Ghi lại đồ thị analog",
+          "D": "Số hóa biểu đồ cột"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Tốc độ bit (bit rate, đơn vị bps hoặc kbps) là số bit cần thiết để biểu diễn 1 giây âm thanh.",
+        "id": "B06_G_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Số bit cần thiết để biểu diễn được một giây âm thanh gọi là:",
+        "phuong_an": {
+          "A": "Chu kì bit",
+          "B": "Bit đơn vị",
+          "C": "Tín hiệu số",
+          "D": "Tốc độ bit (bit rate)"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Chu kì lấy mẫu T là khoảng thời gian giữa hai lần lấy mẫu liên tiếp (nghịch đảo của tần số lấy mẫu).",
+        "id": "B06_G_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Chu kì lấy mẫu khi số hóa âm thanh là:",
+        "phuong_an": {
+          "A": "Số lần lấy mẫu trong 1 giây.",
+          "B": "Khoảng thời gian giữa hai lần lấy mẫu liên tiếp.",
+          "C": "Khoảng thời gian giữa 3 lần lấy mẫu.",
+          "D": "Độ sâu bit của mỗi mẫu."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "DAC chuyển đổi tín hiệu số (0/1) trở lại thành tín hiệu điện tương tự để loa rung và phát ra âm thanh.",
+        "id": "B06_G_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Các thiết bị phát âm thanh số cần có mạch điện tử DAC (Digital-to-Analog Converter) để:",
+        "phuong_an": {
+          "A": "Dẫn truyền xung âm thanh.",
+          "B": "Tạo lại tín hiệu tương tự từ tín hiệu số để phát ra loa hoặc tai nghe.",
+          "C": "Mã hóa âm thanh thành mã xung.",
+          "D": "Nén tệp âm thanh."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": ".bmp (Bitmap) lưu thông tin từng điểm ảnh nguyên gốc không nén nên dung lượng rất lớn.",
+        "id": "B06_G_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ảnh bitmap nguyên gốc (không nén) thường được lưu vào các tệp có phần mở rộng là:",
+        "phuong_an": {
+          "A": ".jpg",
+          "B": ".png",
+          "C": ".bmp",
+          "D": ".gif"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "RGB là viết tắt của Red (Đỏ), Green (Xanh lá cây/Lục), Blue (Xanh dương/Lam).",
+        "id": "B06_G_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Hệ màu RGB dùng để hiển thị hình ảnh trên màn hình máy tính gồm các màu cơ bản nào?",
+        "phuong_an": {
+          "A": "Đỏ, xanh lá cây, vàng",
+          "B": "Đỏ, xám, xanh lam",
+          "C": "Xanh lơ, hồng sẫm, vàng",
+          "D": "Đỏ (Red), xanh lá cây (Green), xanh lam (Blue)"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Bit depth (độ sâu màu) là số bit dùng để biểu diễn màu sắc của một pixel.",
+        "id": "B06_G_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Số bit cần thiết để mã hóa thông tin màu của một điểm ảnh (bit depth) được gọi là:",
+        "phuong_an": {
+          "A": "Độ phân giải",
+          "B": "Độ sáng",
+          "C": "Độ sâu màu",
+          "D": "Độ tương phản"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "3 kênh R, G, B, mỗi kênh 8 bit => độ sâu màu = 3 × 8 = 24 bit (hơn 16,7 triệu màu).",
+        "id": "B06_G_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ảnh màu thông dụng (hệ RGB 8 bit mỗi kênh) có độ sâu màu là bao nhiêu?",
+        "phuong_an": {
+          "A": "6 bit",
+          "B": "8 bit",
+          "C": "16 bit",
+          "D": "24 bit"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Ảnh đen trắng cần 1 bit (2¹ = 2 mức); ảnh xám 256 mức cần 8 bit (2⁸ = 256).",
+        "id": "B06_G_TN_11",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ảnh đen trắng (chỉ có 2 màu đen và trắng) và ảnh xám thông dụng (256 mức xám) có độ sâu màu lần lượt là:",
+        "phuong_an": {
+          "A": "1 bit và 8 bit",
+          "B": "2 bit và 16 bit",
+          "C": "8 bit và 24 bit",
+          "D": "1 bit và 24 bit"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Web hỗ trợ nhiều định dạng ảnh khác nhau như .png, .gif, .webp, .svg chứ không chỉ .jpeg.",
+        "id": "B06_G_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây không đúng khi nói về ảnh định dạng '.jpeg'?",
+        "phuong_an": {
+          "A": "Kích thước tệp nhỏ nên khi dùng với web tải về nhanh hơn.",
+          "B": "Kích thước tệp nhỏ, giảm được chi phí lưu trữ.",
+          "C": "Tuy kích thước giảm đáng kể so với ảnh bitmap nhưng chất lượng ảnh vẫn đủ tốt.",
+          "D": "Công nghệ web không dùng được với các định dạng ảnh khác ngoài '.jpeg'."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Quy trình PCM gồm 3 bước: (2) Lấy mẫu theo chu kì -> (1) Biểu diễn giá trị mẫu (lượng tử hóa) -> (3) Biểu diễn âm thanh thành dãy bit.",
+        "id": "B06_G_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Thứ tự đúng các bước của phương pháp điều chế mã xung (PCM) là: (1) Biểu diễn giá trị mẫu; (2) Lấy mẫu; (3) Biểu diễn âm thanh.",
+        "phuong_an": {
+          "A": "(1), (2), (3)",
+          "B": "(3), (2), (1)",
+          "C": "(2), (1), (3)",
+          "D": "(2), (3), (1)"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Tăng chu kì lấy mẫu tức là giảm số lần lấy mẫu trong 1 giây (giảm tần số lấy mẫu), làm đồ thị bậc thang thưa hơn và giảm chất lượng âm thanh.",
+        "id": "B06_G_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Muốn tăng chất lượng âm thanh khi số hóa, thao tác nào sau đây không đúng?",
+        "phuong_an": {
+          "A": "Dùng thiết bị lấy mẫu có chất lượng tốt.",
+          "B": "Tăng chu kì lấy mẫu.",
+          "C": "Tăng tần số lấy mẫu.",
+          "D": "Tăng độ sâu bit của mẫu."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Bút in 3D là thiết bị tạo vật thể nhựa 3D, không phải thiết bị thu nhận và số hóa hình ảnh.",
+        "id": "B06_G_TN_15",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải thiết bị dùng để số hóa hình ảnh?",
+        "phuong_an": {
+          "A": "Máy ảnh số",
+          "B": "Máy quét (scanner)",
+          "C": "Điện thoại thông minh có camera",
+          "D": "Bút in 3D"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Lossless là phương pháp nén giữ nguyên toàn vẹn chất lượng âm thanh gốc (như FLAC, ALAC).",
+        "id": "B06_G_TN_16",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây đúng khi nói về các định dạng lưu trữ âm thanh?",
+        "phuong_an": {
+          "A": "Số hóa theo phương pháp PCM không nén luôn tạo tệp có kích thước nhỏ.",
+          "B": "Định dạng MP3 làm giảm kích thước tệp khoảng 20 lần mà không mất dữ liệu.",
+          "C": "Phương pháp nén dữ liệu nhưng không làm giảm chất lượng âm thanh tạo nên định dạng không mất mát (lossless).",
+          "D": "Mọi định dạng nén âm thanh đều làm hỏng hoàn toàn âm thanh gốc."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Tốc độ bit = 2 × 16 × 44 100 = 1 411 200 bit/s. Đổi theo 1 Kb = 1024 bit: 1 411 200 / 1024 ≈ 1378,125 Kb/s.",
+        "id": "B06_G_TN_17",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Nhạc CD chuẩn là nhạc nổi (stereo) với 2 kênh, mỗi kênh được mã hóa với độ sâu bit là 16 bit và tần số lấy mẫu 44,1 kHz (44 100 Hz). Tính tốc độ bit của nhạc CD (theo đơn vị Kb/s với 1 Kb = 1024 bit):",
+        "phuong_an": {
+          "A": "1352 Kb/s",
+          "B": "1378 Kb/s",
+          "C": "1394 Kb/s",
+          "D": "1435 Kb/s"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Tốc độ bit = 192 000 × 24 = 4 608 000 bit/s. Chia cho 1024 được 4500 Kb/s.",
+        "id": "B06_G_TN_18",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Nhạc Audio Master (1 kênh tham chiếu trong bài toán) sử dụng tần số lấy mẫu 192 kHz (192 000 Hz) với độ sâu bit là 24 bit. Tính tốc độ bit (theo 1 Kb = 1024 bit):",
+        "phuong_an": {
+          "A": "4463 Kb/s",
+          "B": "4500 Kb/s",
+          "C": "4572 Kb/s",
+          "D": "4694 Kb/s"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "650 MB = 650 × 1024 × 8 = 5 324 800 Kb. Thời gian = 5 324 800 / 4500 ≈ 1183,3 giây ≈ 19,7 phút (khoảng 20 phút).",
+        "id": "B06_G_TN_19",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd1_bai_6_du_lieu_am_thanh_va_hinh_anh_ket_noi_tri_thuc.docx",
+        "noi_dung": "Với nhạc Audio Master có tốc độ bit 4500 Kb/s (1 Kb = 1024 bit), một đĩa CD dung lượng 650 MB có thể ghi được bản nhạc dài khoảng bao lâu?",
+        "phuong_an": {
+          "A": "Khoảng 40 phút",
+          "B": "Khoảng 30 phút",
+          "C": "Khoảng 20 phút",
+          "D": "Khoảng 10 phút"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "128 kbps và 320 kbps là tốc độ bit (128 000 bit/giây và 320 000 bit/giây) của định dạng nén có mất mát (như MP3); tốc độ bit càng cao âm thanh càng trung thực và tệp càng lớn. Lossless là định dạng nén không mất mát chất lượng so với bản PCM gốc.",
+        "giai_thich": "Giúp học sinh hiểu rõ ý nghĩa thực tế của bit rate và phân biệt nén lossy vs lossless.",
+        "id": "B06_G_TL_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ndc_b6._du_lieu_am_thanh_va_hinh_anh_.docx",
+        "noi_dung": "Khi tải nhạc trực tuyến thường có các lựa chọn chất lượng 128 kbps, 320 kbps hoặc Lossless. Hãy giải thích ý nghĩa của các thông số này."
+      },
+      {
+        "dap_an": ".bmp: ảnh bitmap nguyên gốc không nén, chất lượng giữ nguyên nhưng dung lượng rất lớn. .jpeg: nén có mất mát, dung lượng nhỏ, phù hợp ảnh chụp và đăng web. .png: nén không mất mát, hỗ trợ nền trong suốt (alpha), phù hợp logo và đồ họa web.",
+        "giai_thich": "Tổng hợp mục II Bài 6 SGK Tin học 10 KNTT.",
+        "id": "B06_G_TL_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ndc_b6._du_lieu_am_thanh_va_hinh_anh_.docx",
+        "noi_dung": "So sánh đặc điểm và mục đích sử dụng của 3 định dạng ảnh bitmap phổ biến: .bmp, .jpeg và .png."
+      }
+    ]
+  },
+  "ma_bai": "BAI_06",
+  "ten_bai": "Dữ liệu âm thanh và hình ảnh",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 4,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 1,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 5,
+      "tong": 28,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 19,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 14,
+      "thong_hieu": 12,
+      "van_dung": 6
+    },
+    "tong_so_cau": 32
   }
 }

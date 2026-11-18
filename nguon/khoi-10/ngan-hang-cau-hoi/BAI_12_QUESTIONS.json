@@ -1,424 +1,608 @@
 {
-  "ma_bai": "BAI_12",
   "bai_so": 12,
-  "ten_bai": "Phần mềm thiết kế đồ họa",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
+    "dung_sai": [],
+    "tra_loi_ngan": [
       {
-        "id": "T10-B12-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Thiết kế đồ họa?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
-          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
-        },
-        "dap_an": "A",
-        "giai_thich": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục."
-      },
-      {
-        "id": "T10-B12-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
-        "lua_chon": {
-          "A": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "B": "Thiết kế đồ họa.",
-          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
-          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
-        },
-        "dap_an": "B",
-        "giai_thich": "Thiết kế đồ họa."
-      },
-      {
-        "id": "T10-B12-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Thiết kế đồ họa?",
-        "lua_chon": {
-          "A": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
-          "B": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
-          "C": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
-          "D": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?"
-      },
-      {
-        "id": "T10-B12-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Đồ họa vectơ?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
-          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
-        },
-        "dap_an": "B",
-        "giai_thich": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình."
-      },
-      {
-        "id": "T10-B12-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
-          "C": "Đồ họa vectơ.",
-          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
-        },
-        "dap_an": "C",
-        "giai_thich": "Đồ họa vectơ."
-      },
-      {
-        "id": "T10-B12-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Đồ họa vectơ?",
-        "lua_chon": {
-          "A": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
-          "B": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
-          "C": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?",
-          "D": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?"
-      },
-      {
-        "id": "T10-B12-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Đồ họa điểm ảnh?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
-          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
-        },
-        "dap_an": "C",
-        "giai_thich": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
-      },
-      {
-        "id": "T10-B12-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "C": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap.",
-          "D": "Đồ họa điểm ảnh."
-        },
-        "dap_an": "D",
-        "giai_thich": "Đồ họa điểm ảnh."
-      },
-      {
-        "id": "T10-B12-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Đồ họa điểm ảnh?",
-        "lua_chon": {
-          "A": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
-          "B": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
-          "C": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
-          "D": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?"
-      },
-      {
-        "id": "T10-B12-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Phím Shift (Shift + nháy chuột)",
+        "giai_thich": "Nháy chuột chọn màu nền (Fill); giữ Shift + nháy chuột để chọn màu viền (Stroke).",
+        "id": "BAI_12_BS_TLN_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Co giãn vectơ?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
-          "D": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
-        },
-        "dap_an": "D",
-        "giai_thich": "Vectơ có thể thay đổi kích thước mà không vỡ pixel như bitmap."
-      },
-      {
-        "id": "T10-B12-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?",
-        "lua_chon": {
-          "A": "Khả năng co giãn của đồ họa vectơ.",
-          "B": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "C": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
-        },
-        "dap_an": "A",
-        "giai_thich": "Khả năng co giãn của đồ họa vectơ."
-      },
-      {
-        "id": "T10-B12-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Co giãn vectơ?",
-        "lua_chon": {
-          "A": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
-          "B": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?",
-          "C": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
-          "D": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần in logo ở nhiều kích thước: ưu điểm nào quan trọng?"
-      },
-      {
-        "id": "T10-B12-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Công cụ đồ họa?",
-        "lua_chon": {
-          "A": "Phần mềm đồ họa cung cấp công cụ tạo và chỉnh sửa đối tượng.",
-          "B": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "C": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
-        },
-        "dap_an": "A",
-        "giai_thich": "Phần mềm đồ họa cung cấp công cụ tạo và chỉnh sửa đối tượng."
-      },
-      {
-        "id": "T10-B12-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Cần vẽ biểu tượng bằng hình cơ bản: nhóm công cụ nào dùng?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Công cụ tạo/chỉnh sửa hình vectơ.",
-          "C": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
-        },
-        "dap_an": "B",
-        "giai_thich": "Công cụ tạo/chỉnh sửa hình vectơ."
-      },
-      {
-        "id": "T10-B12-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Công cụ đồ họa?",
-        "lua_chon": {
-          "A": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
-          "B": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
-          "C": "Cần vẽ biểu tượng bằng hình cơ bản: nhóm công cụ nào dùng?",
-          "D": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Cần vẽ biểu tượng bằng hình cơ bản: nhóm công cụ nào dùng?"
-      },
-      {
-        "id": "T10-B12-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Định dạng SVG?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "SVG thường lưu đồ họa vectơ.",
-          "C": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
-        },
-        "dap_an": "B",
-        "giai_thich": "SVG thường lưu đồ họa vectơ."
-      },
-      {
-        "id": "T10-B12-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Cần lưu logo vectơ để chỉnh sửa tiếp: định dạng nào phù hợp?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "C": "SVG.",
-          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
-        },
-        "dap_an": "C",
-        "giai_thich": "SVG."
-      },
-      {
-        "id": "T10-B12-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Định dạng SVG?",
-        "lua_chon": {
-          "A": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
-          "B": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
-          "C": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?",
-          "D": "Cần lưu logo vectơ để chỉnh sửa tiếp: định dạng nào phù hợp?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Cần lưu logo vectơ để chỉnh sửa tiếp: định dạng nào phù hợp?"
-      },
-      {
-        "id": "T10-B12-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Phát biểu nào đúng về Bố cục?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "C": "Bố cục tổ chức chữ và hình để thông tin dễ đọc.",
-          "D": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải."
-        },
-        "dap_an": "C",
-        "giai_thich": "Bố cục tổ chức chữ và hình để thông tin dễ đọc."
-      },
-      {
-        "id": "T10-B12-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Áp phích có chữ chồng lên hình nền rối: điều gì cần điều chỉnh?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "C": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
-          "D": "Bố cục và độ tương phản."
-        },
-        "dap_an": "D",
-        "giai_thich": "Bố cục và độ tương phản."
-      },
-      {
-        "id": "T10-B12-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Bố cục?",
-        "lua_chon": {
-          "A": "Áp phích có chữ chồng lên hình nền rối: điều gì cần điều chỉnh?",
-          "B": "Tạo áp phích tuyên truyền cho trường: hoạt động nào phù hợp?",
-          "C": "Phóng logo lên kích thước lớn: loại đồ họa nào giữ nét sắc?",
-          "D": "Phóng ảnh chụp quá lớn thấy ô vuông: loại đồ họa nào được dùng?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Áp phích có chữ chồng lên hình nền rối: điều gì cần điều chỉnh?"
-      },
-      {
-        "id": "T10-B12-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Phần mềm thiết kế đồ họa”?",
-        "lua_chon": {
-          "A": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục. Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-          "B": "Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình. Đồ họa điểm ảnh luôn phóng to vô hạn mà không giảm chất lượng.",
-          "C": "Đồ họa vectơ chỉ dùng để lưu âm thanh. Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "D": "Đồ họa điểm ảnh luôn phóng to vô hạn mà không giảm chất lượng. Đồ họa vectơ chỉ dùng để lưu âm thanh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục. Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình."
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "Trong Inkscape, để tô màu viền (nét vẽ) của một đối tượng từ Bảng màu ở phía dưới màn hình, ta giữ phím gì khi nháy chuột vào ô màu?"
       }
     ],
+    "trac_nghiem": [],
+    "tu_luan": [
+      {
+        "dap_an": "Đối tượng vẽ trước nằm ở lớp dưới, có thể bị đối tượng vẽ sau che khuất một phần hoặc toàn bộ. Để xử lý, chọn đối tượng và dùng các lệnh nâng/hạ lớp (Raise/Lower trong menu Object hoặc phím Page Up / Page Down, Home / End).",
+        "giai_thich": "Hiểu cơ chế xếp chồng đối tượng giúp kiểm soát bố cục bản vẽ.",
+        "id": "BAI_12_BS_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "Trình bày ảnh hưởng của thứ tự lớp vẽ (trước/sau) đối với hiển thị các đối tượng trong Inkscape và cách xử lý khi một đối tượng nhỏ bị đối tượng lớn che khuất."
+      }
+    ]
+  },
+  "cau_hoi_goc": {
     "dung_sai": [
       {
-        "id": "T10-B12-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Xét tính đúng/sai về bài “Phần mềm thiết kế đồ họa”:",
-        "y_kien": {
-          "a": "Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.",
-          "b": "Đồ họa điểm ảnh luôn phóng to vô hạn mà không giảm chất lượng.",
-          "c": "Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.",
-          "d": "Đồ họa vectơ chỉ dùng để lưu âm thanh."
-        },
         "dap_an": {
-          "a": true,
-          "b": false,
+          "a": false,
+          "b": true,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục.; b sai: Đồ họa điểm ảnh luôn phóng to vô hạn mà không giảm chất lượng.; c đúng: Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.; d sai: Đồ họa vectơ chỉ dùng để lưu âm thanh.."
+        "giai_thich": "a sai (còn dùng trong giáo dục, xuất bản, giao diện, kỹ thuật); d sai (CorelDRAW chuyên về đồ họa vectơ); b, c đúng.",
+        "id": "BAI_12_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_12.docx",
+        "nhan_dinh": {
+          "a": "Thiết kế đồ họa chỉ sử dụng cho mục đích quảng cáo và marketing.",
+          "b": "Adobe Illustrator là phần mềm mạnh mẽ cho việc tạo và chỉnh sửa hình vecto.",
+          "c": "Inkscape là một phần mềm miễn phí cho thiết kế đồ họa.",
+          "d": "CorelDRAW không hỗ trợ việc tạo hình vecto."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nThiết kế đồ họa là quá trình tạo ra hình ảnh và đồ họa để truyền đạt thông điệp hoặc ý tưởng. Các phần mềm thiết kế đồ họa phổ biến bao gồm Adobe Illustrator, CorelDRAW và Inkscape, mỗi phần mềm có những tính năng riêng biệt và phù hợp với các loại thiết kế khác nhau.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a sai (chỉnh sửa ảnh màu đầy đủ); c sai (Photoshop là phần mềm thương mại trả phí); b, d đúng.",
+        "id": "BAI_12_GOC_DS_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_12.docx",
+        "nhan_dinh": {
+          "a": "Adobe Photoshop chỉ có thể chỉnh sửa ảnh đen trắng.",
+          "b": "Phần mềm này cho phép người dùng thêm hiệu ứng đặc biệt vào hình ảnh.",
+          "c": "Photoshop là phần mềm miễn phí cho tất cả người dùng.",
+          "d": "Người dùng có thể cắt và chỉnh sửa kích thước ảnh trong Photoshop."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nPhần mềm Adobe Photoshop là công cụ phổ biến nhất để chỉnh sửa ảnh bitmap. Nó cho phép người dùng thực hiện nhiều thao tác như cắt, chỉnh màu, thêm hiệu ứng và nhiều tính năng khác. (Nguồn: Adobe)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a sai (hỗ trợ cả PDF, EPS, PNG...); c sai (Inkscape có thể chèn/mở ảnh bitmap qua Import); b, d đúng.",
+        "id": "BAI_12_GOC_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_12.docx",
+        "nhan_dinh": {
+          "a": "Inkscape chỉ hỗ trợ định dạng tệp SVG.",
+          "b": "Phần mềm này hoàn toàn miễn phí và có thể tải xuống từ Internet.",
+          "c": "Inkscape không thể mở tệp ảnh bitmap.",
+          "d": "Inkscape cung cấp nhiều công cụ vẽ và chỉnh sửa hình ảnh."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nInkscape là một phần mềm thiết kế đồ họa mã nguồn mở, cho phép người dùng tạo và chỉnh sửa hình ảnh vector. Nó hỗ trợ nhiều định dạng tệp khác nhau và có nhiều công cụ hữu ích cho việc thiết kế. (Nguồn: Inkscape.org)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a sai (thiết kế cả poster, bao bì, sách báo); d sai (CorelDRAW vẫn hỗ trợ chèn và xử lý cơ bản ảnh bitmap); b, c đúng.",
+        "id": "BAI_12_GOC_DS_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_12.docx",
+        "nhan_dinh": {
+          "a": "CorelDRAW chỉ được sử dụng để thiết kế logo.",
+          "b": "Phần mềm này hỗ trợ nhiều định dạng tệp khác nhau.",
+          "c": "CorelDRAW có thể được sử dụng để tạo ra các sản phẩm in ấn.",
+          "d": "CorelDRAW không hỗ trợ việc chỉnh sửa hình ảnh bitmap."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nCorelDRAW là một phần mềm thiết kế đồ họa nổi tiếng, chuyên về hình vecto. Nó cung cấp nhiều công cụ mạnh mẽ cho việc tạo ra logo, biển quảng cáo và các sản phẩm in ấn khác. (Nguồn: Corel)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a sai (mỗi phần mềm chuyên về bitmap hoặc vectơ có bộ công cụ khác nhau); d sai; b, c đúng.",
+        "id": "BAI_12_GOC_DS_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_12.docx",
+        "nhan_dinh": {
+          "a": "Tất cả phần mềm thiết kế đồ họa đều có cùng một bộ tính năng.",
+          "b": "Người dùng có thể thêm văn bản vào thiết kế bằng phần mềm thiết kế đồ họa.",
+          "c": "Các công cụ vẽ trong phần mềm thiết kế giúp tạo ra hình ảnh độc đáo.",
+          "d": "Phần mềm thiết kế đồ họa không thể hỗ trợ tạo ra poster."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nCác phần mềm thiết kế đồ họa thường có tính năng hỗ trợ người dùng trong việc tạo ra các sản phẩm sáng tạo như poster, bìa sách và hình ảnh cho mạng xã hội. Những tính năng này bao gồm công cụ vẽ, chỉnh sửa màu sắc, và thêm văn bản. (Nguồn: HubSpot)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": ".svg",
+        "giai_thich": "SVG (Scalable Vector Graphics) là định dạng đồ họa vectơ chuẩn mặc định của Inkscape.",
+        "id": "BAI_12_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "Trong Inkscape, định dạng tệp mặc định khi lưu bản vẽ vectơ có phần mở rộng là gì?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Theo SGK KNTT: Thiết kế đồ họa là tạo ra sản phẩm bằng hình ảnh, chữ viết để truyền tải thông tin đến người xem.",
+        "id": "BAI_12_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Thiết kế đồ họa là",
+        "phuong_an": {
+          "A": "Tạo ra sản phẩm bằng hình ảnh để truyền tải thông tin đến người xem.",
+          "B": "Quá trình giải quyết vấn đề thông qua sự kết hợp giữa hình ảnh và chữ.",
+          "C": "Tạo ra sản phẩm bằng hình ảnh, chữ để truyền tải thông tin đến người xem.",
+          "D": "Quá trình giải quyết vấn đề thông qua hình ảnh, để truyền thông tin đến người xem."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Có 2 loại đồ họa cơ bản là đồ họa điểm ảnh (bitmap) và đồ họa vectơ.",
+        "id": "BAI_12_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Có mấy loại đồ họa cơ bản?",
+        "phuong_an": {
+          "A": "3.",
+          "B": "5.",
+          "C": "2.",
+          "D": "4."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Hai loại đồ họa cơ bản gồm đồ họa điểm ảnh (bitmap) và đồ họa vectơ.",
+        "id": "BAI_12_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Hai loại đồ họa cơ bản là",
+        "phuong_an": {
+          "A": "Đồ họa điểm ảnh và đồ họa vector.",
+          "B": "Đồ họa điểm ảnh và đồ họa hình học.",
+          "C": "Đồ họa hình học và đồ họa ảnh thật.",
+          "D": "Đồ họa đường và đồ họa khối."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Visual Studio là môi trường phát triển tích hợp (IDE) dùng để lập trình, không phải phần mềm đồ họa.",
+        "id": "BAI_12_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải phần mềm đồ họa?",
+        "phuong_an": {
+          "A": "Adobe Photoshop.",
+          "B": "Visual Studio.",
+          "C": "Inkscape.",
+          "D": "GIMP."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "GIMP là phần mềm chỉnh sửa ảnh điểm ảnh (bitmap) mã nguồn mở, không phải phần mềm đồ họa vectơ.",
+        "id": "BAI_12_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải phần mềm tạo, chỉnh sửa hình vector?",
+        "phuong_an": {
+          "A": "GIMP.",
+          "B": "Adobe Illustrator.",
+          "C": "CorelDRAW.",
+          "D": "Inkscape."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Thanh bảng chọn (Menu bar) chứa các nhóm lệnh File, Edit, Object, Path...",
+        "id": "BAI_12_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong giao diện làm việc của Inkscape, các lệnh thường dùng liên quan đến tệp tin, các lệnh tạo và biến đổi đối tượng ở",
+        "phuong_an": {
+          "A": "Thanh trạng thái.",
+          "B": "Thanh bảng chọn.",
+          "C": "Thanh điều khiển thuộc tính.",
+          "D": "Hộp công cụ."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Có thể vẽ đối tượng ở bất kỳ đâu trên toàn bộ vùng làm việc (Canvas), phần nằm trong trang in sẽ được xuất khi in.",
+        "id": "BAI_12_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Có thể vẽ hình vào đâu trên màn hình làm việc của Inkscape?",
+        "phuong_an": {
+          "A": "Hộp thoại lệnh.",
+          "B": "Bảng màu.",
+          "C": "Vùng làm việc.",
+          "D": "Trang in."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Gồm 3 bước: (1) Chọn công cụ trên hộp công cụ; (2) Chỉnh tùy chọn trên thanh điều khiển thuộc tính nếu cần; (3) Kéo thả chuột trên vùng làm việc.",
+        "id": "BAI_12_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Để thêm các đối tượng có sẵn trên hộp công cụ trong Inkscape cần thực hiện theo mấy bước?",
+        "phuong_an": {
+          "A": "4.",
+          "B": "2.",
+          "C": "5.",
+          "D": "3."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Bản vẽ vectơ được cấu thành từ các đối tượng đồ họa (đường thẳng, đường cong, hình khối, văn bản...).",
+        "id": "BAI_12_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Mỗi hình vẽ trong Inkscape bao gồm các",
+        "phuong_an": {
+          "A": "Hình đồ họa.",
+          "B": "Điểm đồ họa.",
+          "C": "Điểm ảnh.",
+          "D": "Đối tượng đồ họa."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Inkscape là phần mềm mã nguồn mở miễn phí chuyên thiết kế đồ họa vectơ.",
+        "id": "BAI_12_GOC_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Inkscape là phần mềm",
+        "phuong_an": {
+          "A": "Miễn phí để chỉnh sửa video.",
+          "B": "Miễn phí để tạo, chỉnh sửa sản phẩm đồ họa vectơ.",
+          "C": "Chỉnh sửa văn bản.",
+          "D": "Độc hại."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Inkscape hỗ trợ đầy đủ thao tác di chuyển, phóng to, thu nhỏ, xoay, nghiêng đối tượng.",
+        "id": "BAI_12_GOC_TN_11",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Inkscape có thể có thao tác gì với đối tượng?",
+        "phuong_an": {
+          "A": "Tất cả các đáp án dưới đây đều đúng.",
+          "B": "Phóng to.",
+          "C": "Thu nhỏ.",
+          "D": "Xoay."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Ảnh bitmap được cấu tạo từ lưới các điểm ảnh (pixel).",
+        "id": "BAI_12_GOC_TN_12",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong đồ họa bitmap, hình ảnh được tạo thành từ các",
+        "phuong_an": {
+          "A": "Điểm ảnh.",
+          "B": "Chấm ảnh.",
+          "C": "Khung ảnh.",
+          "D": "Màu ảnh."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Đồ họa vectơ xác định hình ảnh theo đường nét và phương trình toán học.",
+        "id": "BAI_12_GOC_TN_13",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong đồ họa vector, hình ảnh được xác định theo",
+        "phuong_an": {
+          "A": "Đồ thị.",
+          "B": "Điểm ảnh.",
+          "C": "Đường nét (phương trình toán học).",
+          "D": "Đường thẳng."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Tương ứng với 2 loại đồ họa, có 2 loại phần mềm đồ họa chính: chỉnh sửa ảnh bitmap và thiết kế đồ họa vectơ.",
+        "id": "BAI_12_GOC_TN_14",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Có mấy loại phần mềm đồ họa?",
+        "phuong_an": {
+          "A": "5.",
+          "B": "4.",
+          "C": "3.",
+          "D": "2."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Màu sắc là một trong những yếu tố cốt lõi của thiết kế đồ họa (cùng với hình khối, đường nét, chữ viết), giúp tạo điểm nhấn và truyền tải cảm xúc.",
+        "id": "BAI_12_GOC_TN_15",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào sau đây đúng về vai trò của màu sắc trong thiết kế đồ họa?",
+        "phuong_an": {
+          "A": "Màu sắc là một thành phần quan trọng của thiết kế, giúp truyền tải cảm xúc và thông điệp thị giác.",
+          "B": "Màu sắc không phải là thành phần của thiết kế đồ họa.",
+          "C": "Màu sắc chỉ được dùng trong ảnh chụp, không dùng trong đồ họa vector.",
+          "D": "Màu sắc chỉ có tác dụng trang trí mà không ảnh hưởng đến bố cục hay thông điệp."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Ảnh chụp từ máy ảnh/điện thoại là ảnh điểm ảnh (bitmap).",
+        "id": "BAI_12_GOC_TN_16",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ảnh chụp là loại đồ họa",
+        "phuong_an": {
+          "A": "Đồ họa 4D.",
+          "B": "Đồ họa điểm ảnh.",
+          "C": "Đồ họa vector.",
+          "D": "Đồ họa hoạt hình."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Bộ nhận diện thương hiệu/in ấn cần thiết kế bằng phần mềm đồ họa vectơ như Inkscape để in nhiều kích thước không vỡ nét.",
+        "id": "BAI_12_GOC_TN_17",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Cần thiết kế một bộ các sản phẩm bút, sổ, danh thiếp, bì thư, túi giấy. Theo em nên dùng phần mềm",
+        "phuong_an": {
+          "A": "Adobe Premiere.",
+          "B": "GIMP.",
+          "C": "Adobe Photoshop.",
+          "D": "Inkscape."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Các đối tượng vectơ độc lập nhau nên dễ dàng thêm, bớt, chỉnh sửa thành phần.",
+        "id": "BAI_12_GOC_TN_18",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Điền từ còn thiếu vào chỗ trống: “Một bản thiết kế đồ hoạ vector …………”",
+        "phuong_an": {
+          "A": "chỉ mở được bằng Photoshop.",
+          "B": "được sử dụng bởi các thợ chụp ảnh.",
+          "C": "có thể thêm các thành phần mới một cách dễ dàng.",
+          "D": "bị giới hạn bởi dung lượng tệp."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Inkscape là phần mềm đồ họa tĩnh, hỗ trợ đối tượng hình khối và văn bản (Text), không xử lý âm thanh/video.",
+        "id": "BAI_12_GOC_TN_19",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đối tượng nào trong các thành phần dưới đây có sẵn công cụ tạo trong Inkscape?",
+        "phuong_an": {
+          "A": "Âm thanh.",
+          "B": "Văn bản.",
+          "C": "Video.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": ".svg là định dạng ảnh vectơ; .bmp, .jpg, .png là định dạng ảnh điểm ảnh (bitmap).",
+        "id": "BAI_12_GOC_TN_20",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Dạng tệp nào khác biệt với các tệp tin còn lại?",
+        "phuong_an": {
+          "A": "bmp.",
+          "B": "jpg.",
+          "C": "png.",
+          "D": "svg."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Lưu ý chuyên môn: trong Inkscape chuẩn, phím tắt nhân bản đối tượng là Ctrl + D (trong bộ đề gốc cd4_bai_12 có câu hỏi tương ứng đáp án B).",
+        "id": "BAI_12_GOC_TN_21",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tổ hợp phím tắt để tạo ra một bản sao (Duplicate) của đối tượng đang được chọn trong Inkscape là",
+        "phuong_an": {
+          "A": "Ctrl + D (đề gốc ghi Shift + D hoặc Ctrl + D; theo bảng đáp án gốc chọn B).",
+          "B": "Ctrl + D / Shift + D.",
+          "C": "Ctrl + S.",
+          "D": "Ctrl + A."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Hộp công cụ (Tool box) chứa các công cụ chọn, vẽ hình khối, vẽ đường cong, tô màu được dùng thường xuyên nhất.",
+        "id": "BAI_12_GOC_TN_22",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Thanh công cụ nào được sử dụng nhiều nhất trong Inkscape?",
+        "phuong_an": {
+          "A": "Thanh điều khiển thuộc tính.",
+          "B": "Thanh thiết lập chế độ kết dính.",
+          "C": "Bảng màu.",
+          "D": "Hộp công cụ."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Tạo logo, minh họa và bản vẽ kỹ thuật là ưu thế của đồ họa vectơ.",
+        "id": "BAI_12_GOC_TN_23",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải đặc điểm của đồ hoạ điểm ảnh?",
+        "phuong_an": {
+          "A": "Định nghĩa bằng tập điểm.",
+          "B": "Ảnh lớn, độ chi tiết cao tương ứng kích thước tệp lớn.",
+          "C": "Phù hợp tạo logo, minh hoạ và bản vẽ kĩ thuật.",
+          "D": "Phóng to có ảnh hưởng chất lượng hình."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Dùng menu File -> New hoặc phím tắt Ctrl + N để tạo tệp mới (Ctrl + O là mở tệp có sẵn).",
+        "id": "BAI_12_GOC_TN_24",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Có thể tạo tệp mới trong Inkscape bằng cách nào?",
+        "phuong_an": {
+          "A": "Cả B và C đều đúng.",
+          "B": "Tổ hợp phím Ctrl + N.",
+          "C": "Lệnh File/New.",
+          "D": "Tổ hợp phím Ctrl + O."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": ".cmx (Corel Presentation Exchange) là định dạng vectơ; .png, .jpg, .bmp là định dạng ảnh bitmap.",
+        "id": "BAI_12_GOC_TN_25",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Dạng tệp nào khác biệt với các tệp tin còn lại?",
+        "phuong_an": {
+          "A": "cmx.",
+          "B": "png.",
+          "C": "jpg.",
+          "D": "bmp."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Trong hệ màu cộng RGB, (255, 255, 255) là màu Trắng (nếu nền giấy trắng nhìn như không màu; đề gốc chọn A).",
+        "id": "BAI_12_GOC_TN_26",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Vẽ một hình tròn bằng Inkscape và thiết lập màu RGB gồm R=255, G=255, B=255. Hỏi hình tròn có màu gì? (Lưu ý: hệ RGB chuẩn là Trắng; đề gốc ghi phương án A. Không màu)",
+        "phuong_an": {
+          "A": "Không màu (hoặc Trắng theo chuẩn RGB).",
+          "B": "Xanh da trời.",
+          "C": "Xanh lá.",
+          "D": "Đỏ."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Kết hợp Đỏ (R) và Xanh lá (G) ở mức cao khi B=0 trong hệ RGB tạo ra màu Vàng.",
+        "id": "BAI_12_GOC_TN_27",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Vẽ một hình chữ nhật bằng Inkscape và thiết lập màu RGB gồm ba giá trị R=255 (đề gốc ghi 225), G=255 (225), B=0. Hỏi hình chữ nhật kết quả có màu gì?",
+        "phuong_an": {
+          "A": "Hồng.",
+          "B": "Tím.",
+          "C": "Vàng.",
+          "D": "Da cam."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Có 4 phát biểu đúng là (1), (3), (4), (5). Phát biểu (2) sai vì .ai và .cmx là định dạng tệp đồ họa vectơ.",
+        "id": "BAI_12_GOC_TN_28",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Số phát biểu đúng là:\n(1) Kích thước tệp tin ảnh bitmap thường lớn hơn kích thước tệp tin ảnh vector.\n(2) Phần mở rộng của một số tệp ảnh bitmap là png, jpg, bmp, ai, jpeg, cmx.\n(3) Phần mở rộng của một số tệp ảnh vector là eps, cdr, pdf.\n(4) Ưu điểm của đồ họa vector là có thể co dãn mà không bị vỡ hình; tạo bản in với kích thước tùy chỉnh, độ lớn của tệp không thay đổi.\n(5) Đồ họa vector có thể chuyển sang đồ họa điểm ảnh dễ dàng.",
+        "phuong_an": {
+          "A": "4.",
+          "B": "2.",
+          "C": "5.",
+          "D": "3."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Trong Inkscape, Ctrl + I là phím tắt nhập tệp (Import), không phải chọn tất cả hình trong vùng in.",
+        "id": "BAI_12_GOC_TN_29",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd4_bai_12_phan_mem_thiet_ke_do_hoa_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải cách để chọn nhiều hơn một đối tượng trên vùng làm việc của Inkscape?",
+        "phuong_an": {
+          "A": "Nháy chuột vào đối tượng được chọn, giữ phím Shift nếu chọn nhiều đối tượng cùng lúc.",
+          "B": "Nháy và di chuyển chuột để tạo thành hình chữ nhật bao kín những đối tượng cần chọn.",
+          "C": "Nhấn tổ hợp phím Ctrl + I để chọn tất cả các hình có trong vùng in.",
+          "D": "Nhấn tổ hợp phím Ctrl + A để chọn tất cả các hình trong lớp hiện hành."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Lệnh File -> Save (hoặc Ctrl + S) dùng để lưu tệp thiết kế.",
+        "id": "BAI_12_GOC_TN_30",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_12_pham_mem_thiet_ke_do_hoa.docx",
+        "noi_dung": "Để lưu một bức tranh đã vẽ trong phần mềm đồ họa, em thường chọn lệnh nào?",
+        "phuong_an": {
+          "A": "File -> Open",
+          "B": "File -> Save",
+          "C": "Edit -> Copy",
+          "D": "View -> Zoom"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B12-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Vì logo cần in ấn ở nhiều kích thước khác nhau (từ danh thiếp nhỏ đến biển quảng cáo lớn). Đồ họa vectơ được định nghĩa bằng phương trình toán học nên có thể phóng to, thu nhỏ vô hạn mà không bị vỡ nét, đồng thời dễ chỉnh sửa màu sắc và thành phần.",
+        "giai_thich": "So sánh trực tiếp đặc tính co giãn của vectơ so với điểm ảnh.",
+        "id": "BAI_12_GOC_TL_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Trình bày hai nội dung của bài: Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục. Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Thiết kế đồ họa truyền tải thông điệp bằng hình ảnh, chữ và bố cục. Đồ họa vectơ mô tả hình bằng đối tượng/toán học như đường và hình.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "da_tin_hoc_10_bai_12_phan_mem_thiet_ke_do_hoa.docx",
+        "noi_dung": "Tại sao dùng đồ họa vectơ phù hợp hơn dùng đồ họa điểm ảnh khi thiết kế logo?"
       },
       {
-        "id": "T10-B12-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Thanh bảng chọn chứa lệnh tệp tin và biến đổi đối tượng; Vùng làm việc là nơi vẽ và bố trí đối tượng; Hộp công cụ chứa công cụ chọn, vẽ hình, nhập chữ; Bảng màu giúp chọn nhanh màu nền (Fill) và màu nét vẽ (Stroke).",
+        "giai_thich": "Nắm vững giao diện giúp thao tác thiết kế nhanh chóng.",
+        "id": "BAI_12_GOC_TL_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_12_pham_mem_thiet_ke_do_hoa.docx",
+        "noi_dung": "Nêu chức năng của các thành phần chính trên giao diện Inkscape: Thanh bảng chọn (Menu bar), Vùng làm việc (Canvas), Hộp công cụ (Tool box), Bảng màu (Color Palette)."
+      },
+      {
+        "dap_an": "Bước 1: Dùng công cụ hình chữ nhật (Rectangle) vẽ lá cờ tỉ lệ 2:3, tô màu đỏ. Bước 2: Dùng công cụ hình sao (Stars and Polygons) chọn 5 cánh, vẽ ngôi sao vàng đặt chính giữa hình chữ nhật. Bước 3: Căn chỉnh tâm và lưu tệp (.svg) hoặc xuất ảnh (.png).",
+        "giai_thich": "Kết hợp công cụ vẽ hình cơ bản, tô màu và căn chỉnh lớp đối tượng.",
+        "id": "BAI_12_GOC_TL_03",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Phần mềm thiết kế đồ họa",
-        "noi_dung": "Giải thích và vận dụng nội dung “Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Đồ họa bitmap gồm pixel và phụ thuộc độ phân giải.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_12_pham_mem_thiet_ke_do_hoa.docx",
+        "noi_dung": "Nêu các bước cơ bản để vẽ Quốc kỳ Việt Nam trên phần mềm Inkscape."
       }
     ]
+  },
+  "ma_bai": "BAI_12",
+  "ten_bai": "Phần mềm thiết kế đồ họa",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 0,
+      "tong": 2,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 0,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 5,
+      "tong": 39,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 30,
+      "tu_luan": 3
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 21,
+      "thong_hieu": 14,
+      "van_dung": 6
+    },
+    "tong_so_cau": 41
   }
 }

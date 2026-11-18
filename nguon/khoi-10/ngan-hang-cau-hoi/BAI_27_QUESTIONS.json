@@ -1,424 +1,392 @@
 {
-  "ma_bai": "BAI_27",
   "bai_so": 27,
-  "ten_bai": "Tham số của hàm",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B27-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Phát biểu nào đúng về Tham số?",
-        "lua_chon": {
-          "A": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "B": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
-          "C": "Đối số từ khóa gắn giá trị với tên tham số.",
-          "D": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào."
-      },
-      {
-        "id": "T10-B27-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
-        "lua_chon": {
-          "A": "Hai tham số dai, rong.",
-          "B": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "C": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
-          "D": "Đối số từ khóa gắn giá trị với tên tham số."
-        },
-        "dap_an": "A",
-        "giai_thich": "Hai tham số dai, rong."
-      },
-      {
-        "id": "T10-B27-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tham số?",
-        "lua_chon": {
-          "A": "Gọi f(3,5): các số 3 và 5 là gì?",
-          "B": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
-          "C": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?",
-          "D": "Gọi hàm với dai=4, rong=2: cách gọi này là gì?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?"
-      },
-      {
-        "id": "T10-B27-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Phát biểu nào đúng về Đối số?",
-        "lua_chon": {
-          "A": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "B": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "C": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
-          "D": "Đối số từ khóa gắn giá trị với tên tham số."
-        },
-        "dap_an": "A",
-        "giai_thich": "Đối số là giá trị truyền vào khi gọi hàm."
-      },
-      {
-        "id": "T10-B27-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Gọi f(3,5): các số 3 và 5 là gì?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Đối số.",
-          "C": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
-          "D": "Đối số từ khóa gắn giá trị với tên tham số."
-        },
-        "dap_an": "B",
-        "giai_thich": "Đối số."
-      },
-      {
-        "id": "T10-B27-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Đối số?",
-        "lua_chon": {
-          "A": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
-          "B": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?",
-          "C": "Gọi f(3,5): các số 3 và 5 là gì?",
-          "D": "Gọi hàm với dai=4, rong=2: cách gọi này là gì?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Gọi f(3,5): các số 3 và 5 là gì?"
-      },
-      {
-        "id": "T10-B27-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Phát biểu nào đúng về Truyền vị trí?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
-          "C": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "D": "Đối số từ khóa gắn giá trị với tên tham số."
-        },
-        "dap_an": "B",
-        "giai_thich": "Đối số vị trí được gán tham số theo thứ tự khai báo."
-      },
-      {
-        "id": "T10-B27-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "C": "a=2, b=7.",
-          "D": "Đối số từ khóa gắn giá trị với tên tham số."
-        },
-        "dap_an": "C",
-        "giai_thich": "a=2, b=7."
-      },
-      {
-        "id": "T10-B27-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Truyền vị trí?",
-        "lua_chon": {
-          "A": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
-          "B": "Gọi f(3,5): các số 3 và 5 là gì?",
-          "C": "Gọi hàm với dai=4, rong=2: cách gọi này là gì?",
-          "D": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?"
-        },
-        "dap_an": "D",
-        "giai_thich": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?"
-      },
-      {
-        "id": "T10-B27-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Phát biểu nào đúng về Đối số từ khóa?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "C": "Đối số từ khóa gắn giá trị với tên tham số.",
-          "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
-        },
-        "dap_an": "C",
-        "giai_thich": "Đối số từ khóa gắn giá trị với tên tham số."
-      },
-      {
-        "id": "T10-B27-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Gọi hàm với dai=4, rong=2: cách gọi này là gì?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "C": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
-          "D": "Truyền đối số theo tên."
-        },
-        "dap_an": "D",
-        "giai_thich": "Truyền đối số theo tên."
-      },
-      {
-        "id": "T10-B27-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Đối số từ khóa?",
-        "lua_chon": {
-          "A": "Gọi hàm với dai=4, rong=2: cách gọi này là gì?",
-          "B": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
-          "C": "Gọi f(3,5): các số 3 và 5 là gì?",
-          "D": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Gọi hàm với dai=4, rong=2: cách gọi này là gì?"
-      },
-      {
-        "id": "T10-B27-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Phát biểu nào đúng về Giá trị mặc định?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "C": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
-          "D": "Tham số có giá trị mặc định có thể bỏ qua khi gọi."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tham số có giá trị mặc định có thể bỏ qua khi gọi."
-      },
-      {
-        "id": "T10-B27-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Hàm chao(ten, loi_chao='Xin chào'): có thể bỏ đối số nào?",
-        "lua_chon": {
-          "A": "loi_chao.",
-          "B": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "C": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
-        },
-        "dap_an": "A",
-        "giai_thich": "loi_chao."
-      },
-      {
-        "id": "T10-B27-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Giá trị mặc định?",
-        "lua_chon": {
-          "A": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
-          "B": "Hàm chao(ten, loi_chao='Xin chào'): có thể bỏ đối số nào?",
-          "C": "Gọi f(3,5): các số 3 và 5 là gì?",
-          "D": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Hàm chao(ten, loi_chao='Xin chào'): có thể bỏ đối số nào?"
-      },
-      {
-        "id": "T10-B27-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Phát biểu nào đúng về Tổng quát hóa hàm?",
-        "lua_chon": {
-          "A": "Tham số giúp hàm dùng được với nhiều dữ liệu khác nhau.",
-          "B": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "C": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tham số giúp hàm dùng được với nhiều dữ liệu khác nhau."
-      },
-      {
-        "id": "T10-B27-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Không muốn viết phép tính diện tích riêng cho từng hình: cách nào tốt?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Viết một hàm nhận kích thước qua tham số.",
-          "C": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
-        },
-        "dap_an": "B",
-        "giai_thich": "Viết một hàm nhận kích thước qua tham số."
-      },
-      {
-        "id": "T10-B27-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tổng quát hóa hàm?",
-        "lua_chon": {
-          "A": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
-          "B": "Gọi f(3,5): các số 3 và 5 là gì?",
-          "C": "Không muốn viết phép tính diện tích riêng cho từng hình: cách nào tốt?",
-          "D": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Không muốn viết phép tính diện tích riêng cho từng hình: cách nào tốt?"
-      },
-      {
-        "id": "T10-B27-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Phát biểu nào đúng về Kiểu đối số?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Đối số nên có kiểu phù hợp phép toán trong thân hàm.",
-          "C": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
-        },
-        "dap_an": "B",
-        "giai_thich": "Đối số nên có kiểu phù hợp phép toán trong thân hàm."
-      },
-      {
-        "id": "T10-B27-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Hàm cần cộng hai số nhưng nhận một xâu: vấn đề nào cần xử lí?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "B": "Đối số là giá trị truyền vào khi gọi hàm.",
-          "C": "Kiểm tra/chuyển kiểu dữ liệu đầu vào.",
-          "D": "Đối số vị trí được gán tham số theo thứ tự khai báo."
-        },
-        "dap_an": "C",
-        "giai_thich": "Kiểm tra/chuyển kiểu dữ liệu đầu vào."
-      },
-      {
-        "id": "T10-B27-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Kiểu đối số?",
-        "lua_chon": {
-          "A": "Hàm dien_tich_hcn cần chiều dài, chiều rộng: khai báo gì?",
-          "B": "Gọi f(3,5): các số 3 và 5 là gì?",
-          "C": "def f(a,b); gọi f(2,7): a và b nhận giá trị nào?",
-          "D": "Hàm cần cộng hai số nhưng nhận một xâu: vấn đề nào cần xử lí?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Hàm cần cộng hai số nhưng nhận một xâu: vấn đề nào cần xử lí?"
-      },
-      {
-        "id": "T10-B27-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Tham số của hàm”?",
-        "lua_chon": {
-          "A": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. Đối số là giá trị truyền vào khi gọi hàm.",
-          "B": "Đối số là giá trị truyền vào khi gọi hàm. Tham số là giá trị cụ thể đã truyền khi gọi hàm.",
-          "C": "Đối số được khai báo trong phần thân hàm thay vì khi gọi. Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "D": "Tham số là giá trị cụ thể đã truyền khi gọi hàm. Đối số được khai báo trong phần thân hàm thay vì khi gọi."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. Đối số là giá trị truyền vào khi gọi hàm."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B27-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Xét tính đúng/sai về bài “Tham số của hàm”:",
-        "y_kien": {
-          "a": "Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.",
-          "b": "Tham số là giá trị cụ thể đã truyền khi gọi hàm.",
-          "c": "Đối số vị trí được gán tham số theo thứ tự khai báo.",
-          "d": "Đối số được khai báo trong phần thân hàm thay vì khi gọi."
-        },
         "dap_an": {
           "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "b": true,
+          "c": false,
+          "d": true
         },
-        "giai_thich": "a đúng: Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào.; b sai: Tham số là giá trị cụ thể đã truyền khi gọi hàm.; c đúng: Đối số vị trí được gán tham số theo thứ tự khai báo.; d sai: Đối số được khai báo trong phần thân hàm thay vì khi gọi.."
+        "giai_thich": "a) Đúng. b) Đúng. c) Sai vì đối số truyền vào sẽ ghi đè giá trị mặc định, trả về 45000. d) Đúng.",
+        "id": "B27_BS_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "nhan_dinh": {
+          "a": "Hàm `tinh_tien` có 1 tham số bắt buộc và 1 tham số mặc định.",
+          "b": "Lời gọi `tinh_tien(3)` trả về `30000`.",
+          "c": "Lời gọi `tinh_tien(3, 15000)` bị lỗi vì ghi đè tham số mặc định.",
+          "d": "Trong Python, tham số có giá trị mặc định phải đặt sau các tham số không có giá trị mặc định."
+        },
+        "noi_dung": "Cho hàm sau:\n```python\ndef tinh_tien(so_luong, don_gia=10000):\n    return so_luong * don_gia\n```\nĐánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "7",
+        "giai_thich": "Truyền đối số theo tên: `x = 10, y = 3` -> `10 - 3 = 7`.",
+        "id": "B27_BS_TLN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Cho `def f(x, y): return x - y`. Giá trị của `f(y=3, x=10)` là bao nhiêu?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "Tham số `loi` có giá trị mặc định là `\"Xin chào\"`, nên khi không truyền đối số thứ 2 hàm tự dùng giá trị mặc định.",
+        "id": "B27_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Kết quả của đoạn chương trình sau là gì?\n```python\ndef chao(ten, loi=\"Xin chào\"):\n    return loi + \" \" + ten\nprint(chao(\"An\"))\n```",
+        "phuong_an": {
+          "A": "\"An Xin chào\"",
+          "B": "\"Xin chào An\"",
+          "C": "Lỗi thiếu đối số cho `loi`",
+          "D": "\"Xin chào\""
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Hàm `hieu` có 2 tham số bắt buộc, gọi `hieu(5)` bị thiếu 1 đối số.",
+        "id": "B27_BS_TN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Lệnh gọi hàm nào sau đây bị lỗi `TypeError` với định nghĩa `def hieu(a, b): return a - b`?",
+        "phuong_an": {
+          "A": "hieu(5, 2)",
+          "B": "hieu(b=2, a=5)",
+          "C": "hieu(5)",
+          "D": "hieu(a=5, b=2)"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B27-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Trình bày hai nội dung của bài: Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. Đối số là giá trị truyền vào khi gọi hàm.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Tham số là biến trong định nghĩa hàm nhận dữ liệu đầu vào. Đối số là giá trị truyền vào khi gọi hàm.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B27-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "```python\ndef ghep_xau(s1, s2):\n    kq = \"\"\n    for i in range(len(s1)):\n        kq += s1[i] + s2[i]\n    return kq\n```",
+        "giai_thich": "Duyệt chỉ số `i` từ `0` đến `len(s1) - 1`, nối lần lượt `s1[i]` và `s2[i]` vào `kq`.",
+        "id": "B27_BS_TL_01",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Tham số của hàm",
-        "noi_dung": "Giải thích và vận dụng nội dung “Đối số vị trí được gán tham số theo thứ tự khai báo.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Đối số vị trí được gán tham số theo thứ tự khai báo.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Viết hàm `ghep_xau(s1, s2)` nhận hai xâu kí tự cùng độ dài và trả về xâu mới bằng cách lấy xen kẽ từng kí tự của `s1` và `s2` (ví dụ `ghep_xau(\"abc\", \"123\")` -> `\"a1b2c3\"`)."
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai vì khác nhau giữa khai báo và lời gọi. b) Đúng. c) Sai, đó là tham số. d) Đúng.",
+        "id": "B27_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_27.docx",
+        "nhan_dinh": {
+          "a": "Tham số và đối số là hoàn toàn giống nhau.",
+          "b": "Một hàm có thể không có tham số.",
+          "c": "Đối số là biến được định nghĩa trong phần đầu của hàm.",
+          "d": "Hàm trong Python có thể trả về nhiều giá trị cùng một lúc (dưới dạng tuple)."
+        },
+        "noi_dung": "Cho đoạn thông tin: Trong Python, hàm là một chương trình con được định nghĩa để thực hiện một nhiệm vụ cụ thể. Tham số là biến được định nghĩa trong phần đầu của hàm, trong khi đối số là giá trị thực tế được truyền vào hàm khi gọi hàm.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Đúng (ví dụ `f(b=2, a=1)`). b) Đúng. c) Sai vì sẽ gán nhầm giá trị cho tham số. d) Đúng.",
+        "id": "B27_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_27.docx",
+        "nhan_dinh": {
+          "a": "Ta có thể thay đổi thứ tự các đối số khi gọi hàm nếu truyền theo tên tham số (keyword arguments).",
+          "b": "Số lượng đối số vị trí luôn phải khớp với các tham số bắt buộc.",
+          "c": "Thứ tự đối số vị trí không quan trọng ngay cả khi không ghi tên tham số.",
+          "d": "Khi không dùng tên tham số, đối số được gán lần lượt từ trái sang phải cho các tham số."
+        },
+        "noi_dung": "Cho đoạn thông tin: Khi gọi một hàm, thứ tự của các đối số rất quan trọng. Nếu một hàm có nhiều tham số, các đối số vị trí phải được cung cấp theo đúng thứ tự tương ứng.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Tham số",
+        "giai_thich": "`x, y` là các tham số (parameters) của hàm `f`.",
+        "id": "B27_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "da_tin_hoc_10_bai_27_tham_so_cua_ham.docx",
+        "noi_dung": "Thành phần được viết trong cặp ngoặc của dòng `def f(x, y):` gọi là gì?"
+      },
+      {
+        "dap_an": "Có",
+        "giai_thich": "Khi gọi hàm, các đối số phải xác định giá trị; nếu `a` chưa có giá trị sẽ phát sinh `NameError`.",
+        "id": "B27_GOC_TLN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_27_tham_so_cua_ham.docx",
+        "noi_dung": "Giả sử hàm `f(x, y)` trả về `x + 2*y`. Lời gọi `f(10, a)` có lỗi không nếu biến `a` chưa được gán giá trị? (Trả lời Có hoặc Không)"
+      },
+      {
+        "dap_an": "Sai",
+        "giai_thich": "Hàm có thể không có tham số, ví dụ `def nhap_du_lieu():`.",
+        "id": "B27_GOC_TLN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_27_tham_so_cua_ham.docx",
+        "noi_dung": "Nhận định \"Tất cả các hàm đều bắt buộc phải có tham số\" là Đúng hay Sai?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Số lượng đối số truyền vào khi gọi hàm phải khớp với số tham số khai báo (3).",
+        "id": "B27_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Khi gọi hàm `f(1, 2, 3)`, khi định nghĩa hàm `f` (không dùng tham số mặc định hay `*args`) có bao nhiêu tham số?",
+        "phuong_an": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Tham số (parameter) là biến trong định nghĩa hàm; đối số (argument) là giá trị thực tế truyền vào khi gọi hàm.",
+        "id": "B27_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Khi gọi hàm, dữ liệu (giá trị, biến, biểu thức) được truyền vào hàm gọi là gì?",
+        "phuong_an": {
+          "A": "Tham số",
+          "B": "Hiệu số",
+          "C": "Đối số",
+          "D": "Hàm số"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Ở dòng 4, biến `m` chưa được gán giá trị trước khi truyền làm đối số -> `NameError`.",
+        "id": "B27_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Chương trình sau bị lỗi ở dòng thứ bao nhiêu?\n```python\n1: def tinh(a, b):\n2:     if b != 0:\n3:         return a // b\n4: s = tinh(1, m)\n5: print(s)\n```",
+        "phuong_an": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "`'5.0'` được đặt trong cặp dấu nháy đơn nên là xâu kí tự (`str`).",
+        "id": "B27_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Đối số truyền vào cho tham số của hàm `f` có kiểu dữ liệu gì khi gọi `f('5.0')`?",
+        "phuong_an": {
+          "A": "str",
+          "B": "float",
+          "C": "int",
+          "D": "Không xác định"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Hàm có 3 tham số `a, b, c` nên khi gọi cần truyền 3 đối số tương ứng.",
+        "id": "B27_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Hàm `f` được khai báo `def f(a, b, c):`. Số lượng đối số cần truyền vào khi gọi hàm là:",
+        "phuong_an": {
+          "A": "3",
+          "B": "2",
+          "C": "1",
+          "D": "4"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Tham số được khai báo ở dòng `def` và hoạt động như biến cục bộ trong thân hàm.",
+        "id": "B27_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Khi khai báo hàm, thành phần nào được định nghĩa trong ngoặc và được dùng như biến bên trong thân hàm?",
+        "phuong_an": {
+          "A": "Tham số",
+          "B": "Đối số",
+          "C": "Dữ liệu",
+          "D": "Giá trị trả về"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Đây là khái niệm chuẩn của chương trình con (hàm).",
+        "id": "B27_GOC_TN_07",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Phát biểu nào sau đây là **đúng** khi nói về chương trình con?",
+        "phuong_an": {
+          "A": "Chương trình con là một lệnh đơn lẻ chỉ gọi được 1 lần.",
+          "B": "Chương trình con chỉ được gọi từ 1 vị trí duy nhất.",
+          "C": "Chương trình con không thể thực hiện từ nhiều vị trí.",
+          "D": "Chương trình con là một dãy lệnh mô tả một số thao tác nhất định và có thể được gọi từ nhiều vị trí trong chương trình."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Đối số phải khớp số lượng tham số; biến chưa gán giá trị sẽ gây lỗi `NameError`.",
+        "id": "B27_GOC_TN_08",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Chọn phát biểu **đúng** trong các phát biểu sau:",
+        "phuong_an": {
+          "A": "Lời gọi hàm không có lỗi nếu đối số là biến chưa có giá trị.",
+          "B": "Số lượng giá trị truyền vào hàm (không có tham số mặc định) bằng số tham số trong khai báo của hàm.",
+          "C": "Tham số là giá trị cụ thể được truyền vào khi gọi hàm.",
+          "D": "Cả 3 phát biểu trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "`z = 1 + 4 = 5`, trả về `1 * 4 * 5 = 20`.",
+        "id": "B27_GOC_TN_09",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Đoạn chương trình sau sẽ trả về số nào?\n```python\ndef f(x, y):\n    z = x + y\n    return x * y * z\nprint(f(1, 4))\n```",
+        "phuong_an": {
+          "A": "10",
+          "B": "18",
+          "C": "20",
+          "D": "30"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "`1 + m = 5` suy ra `m = 4`.",
+        "id": "B27_GOC_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Giá trị của `m` là bao nhiêu biết kết quả in ra là `5`?\n```python\ndef tinhSum(a, b):\n    return a + b\ns = tinhSum(1, m)\nprint(s)\n```",
+        "phuong_an": {
+          "A": "1",
+          "B": "4",
+          "C": "2",
+          "D": "3"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Truyền 2 đối số cho hàm 1 tham số sẽ gây lỗi `TypeError`.",
+        "id": "B27_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Phát biểu nào bị **sai**?",
+        "phuong_an": {
+          "A": "Một hàm khi khai báo có 1 tham số nhưng khi gọi hàm có thể truyền 2 đối số.",
+          "B": "Tham số được định nghĩa khi khai báo hàm.",
+          "C": "Tham số và đối số có điểm khác nhau về vai trò và vị trí.",
+          "D": "Khi gọi hàm, các tham số nhận giá trị thông qua đối số của hàm."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "`print()` là hàm thiết kế sẵn không trả về giá trị tính toán.",
+        "id": "B27_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Khẳng định nào sau đây là **đúng** khi nói về `print()`?",
+        "phuong_an": {
+          "A": "Hàm thực hiện thao tác và trả về một giá trị số.",
+          "B": "Không phải là hàm.",
+          "C": "Không phải là hàm nhưng trả về giá trị.",
+          "D": "Hàm thực hiện một số thao tác nhất định (hiển thị) nhưng không trả về giá trị nào (trả về None)."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Khi `r == 0`, `a` chia hết cho `b`, nên `b` chính là ước chung lớn nhất.",
+        "id": "B27_GOC_TN_13",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Hoàn thiện hàm tìm ƯCLN của hai số:\n```python\ndef USCLN_2(a, b):\n    r = a % b\n    while r != 0:\n        a = b\n        b = r\n        r = a % b\n    return (…)\n```",
+        "phuong_an": {
+          "A": "a",
+          "B": "b",
+          "C": "r",
+          "D": "Chương trình bị lỗi"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "`1 // 5 = 0`, nên `0 + x * 2 = 8` suy ra `x = 4`.",
+        "id": "B27_GOC_TN_14",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_27_-_tham_so_cua_ham.docx",
+        "noi_dung": "Giá trị của `x` là bao nhiêu biết kết quả in ra là `8`?\n```python\ndef tinh(a, b, c):\n    if b != 0:\n        return a // b + c * 2\ns = tinh(1, 5, x)\nprint(s)\n```",
+        "phuong_an": {
+          "A": "3",
+          "B": "2",
+          "C": "1",
+          "D": "4"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "```python\ndef power(a, b, c):\n    return (a + b) ** c\n```",
+        "giai_thich": "Dùng toán tử lũy thừa `**` trong Python.",
+        "id": "B27_GOC_TL_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "da_tin_hoc_10_bai_27_tham_so_cua_ham.docx",
+        "noi_dung": "Thiết lập hàm `power(a, b, c)` với `a, b, c` là số nguyên, trả lại giá trị `(a + b) ** c`."
+      },
+      {
+        "dap_an": "```python\ndef change(s, c):\n    if c == 0:\n        return s.upper()\n    else:\n        return s.lower()\n```",
+        "giai_thich": "Kết hợp cấu trúc rẽ nhánh `if...else` với hai phương thức `upper()` và `lower()` của xâu.",
+        "id": "B27_GOC_TL_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_27_tham_so_cua_ham.docx",
+        "noi_dung": "Thiết lập hàm `change(s, c)` có hai tham số là xâu `s` và số `c`. Hàm trả lại `s` viết hoa nếu `c == 0`, ngược lại trả lại `s` viết thường."
+      },
+      {
+        "dap_an": "```python\ndef ucln(a, b):\n    while b != 0:\n        a, b = b, a % b\n    return a\n\ns = input(\"Nhập hai số cách nhau bởi dấu phẩy: \")\na, b = map(int, s.split(\",\"))\nprint(\"ƯCLN là:\", ucln(a, b))\n```",
+        "giai_thich": "Dùng `split(\",\")` tách hai số và thuật toán Euclid trong hàm `ucln(a, b)`.",
+        "id": "B27_GOC_TL_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_27_tham_so_cua_ham.docx",
+        "noi_dung": "Viết chương trình nhập hai số tự nhiên cách nhau bởi dấu phẩy từ bàn phím, dùng hàm `ucln(a, b)` để tính và in ra ước chung lớn nhất của hai số đó."
+      }
+    ]
+  },
+  "ma_bai": "BAI_27",
+  "ten_bai": "Tham số của hàm",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 5,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 2,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 2,
+      "tong": 22,
+      "tra_loi_ngan": 3,
+      "trac_nghiem": 14,
+      "tu_luan": 3
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 10,
+      "thong_hieu": 12,
+      "van_dung": 5
+    },
+    "tong_so_cau": 27
   }
 }

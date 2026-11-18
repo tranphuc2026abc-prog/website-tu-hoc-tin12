@@ -1,424 +1,603 @@
 {
-  "ma_bai": "BAI_30",
   "bai_so": 30,
-  "ten_bai": "Kiểm thử và gỡ lỗi chương trình",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
+    "dung_sai": [],
+    "tra_loi_ngan": [
       {
-        "id": "T10-B30-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "ZeroDivisionError",
+        "giai_thich": "Python ném ngoại lệ ZeroDivisionError khi mẫu số bằng 0.",
+        "id": "B30_BS_TLN_01",
         "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về nội dung 1?",
-        "lua_chon": {
-          "A": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "B": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "C": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-        },
-        "dap_an": "C",
-        "giai_thich": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-      },
-      {
-        "id": "T10-B30-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-        "lua_chon": {
-          "A": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "B": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "C": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-          "D": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-        },
-        "dap_an": "D",
-        "giai_thich": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-      },
-      {
-        "id": "T10-B30-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 1?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-        },
-        "dap_an": "A",
-        "giai_thich": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch."
-      },
-      {
-        "id": "T10-B30-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về nội dung 2?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "C": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-          "D": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-        },
-        "dap_an": "D",
-        "giai_thich": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-      },
-      {
-        "id": "T10-B30-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "lua_chon": {
-          "A": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-        },
-        "dap_an": "A",
-        "giai_thich": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-      },
-      {
-        "id": "T10-B30-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 2?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-        },
-        "dap_an": "B",
-        "giai_thich": "Ca kiểm thử gồm đầu vào và kết quả mong đợi."
-      },
-      {
-        "id": "T10-B30-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về nội dung 3?",
-        "lua_chon": {
-          "A": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-        },
-        "dap_an": "A",
-        "giai_thich": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-      },
-      {
-        "id": "T10-B30-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-        },
-        "dap_an": "B",
-        "giai_thich": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-      },
-      {
-        "id": "T10-B30-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 3?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-        },
-        "dap_an": "C",
-        "giai_thich": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-      },
-      {
-        "id": "T10-B30-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về nội dung 4?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "B",
-        "giai_thich": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-      },
-      {
-        "id": "T10-B30-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "C",
-        "giai_thich": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-      },
-      {
-        "id": "T10-B30-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 4?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "D": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-        },
-        "dap_an": "D",
-        "giai_thich": "Lỗi logic làm chương trình chạy nhưng cho kết quả sai."
-      },
-      {
-        "id": "T10-B30-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về nội dung 5?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "C",
-        "giai_thich": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
-      },
-      {
-        "id": "T10-B30-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "D": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
-        },
-        "dap_an": "D",
-        "giai_thich": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
-      },
-      {
-        "id": "T10-B30-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 5?",
-        "lua_chon": {
-          "A": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi.",
-          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "A",
-        "giai_thich": "Gỡ lỗi là tìm nguyên nhân và sửa lỗi."
-      },
-      {
-        "id": "T10-B30-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về nội dung 6?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "D": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
-        },
-        "dap_an": "D",
-        "giai_thich": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
-      },
-      {
-        "id": "T10-B30-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
-        "lua_chon": {
-          "A": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
-          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "A",
-        "giai_thich": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
-      },
-      {
-        "id": "T10-B30-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 6?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch.",
-          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "B",
-        "giai_thich": "Theo dõi giá trị biến qua từng bước giúp tìm sai lệch."
-      },
-      {
-        "id": "T10-B30-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Phát biểu nào đúng về nội dung 7?",
-        "lua_chon": {
-          "A": "Sau khi sửa cần chạy lại các ca kiểm thử.",
-          "B": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "A",
-        "giai_thich": "Sau khi sửa cần chạy lại các ca kiểm thử."
-      },
-      {
-        "id": "T10-B30-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Nhận định nào phù hợp với nội dung: Sau khi sửa cần chạy lại các ca kiểm thử.",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Sau khi sửa cần chạy lại các ca kiểm thử.",
-          "C": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "B",
-        "giai_thich": "Sau khi sửa cần chạy lại các ca kiểm thử."
-      },
-      {
-        "id": "T10-B30-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho nội dung 7?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "C": "Sau khi sửa cần chạy lại các ca kiểm thử.",
-          "D": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị."
-        },
-        "dap_an": "C",
-        "giai_thich": "Sau khi sửa cần chạy lại các ca kiểm thử."
-      },
-      {
-        "id": "T10-B30-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Kiểm thử và gỡ lỗi chương trình”?",
-        "lua_chon": {
-          "A": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-          "B": "Ca kiểm thử gồm đầu vào và kết quả mong đợi. Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi.",
-          "C": "Sau khi sửa lỗi không cần chạy lại chương trình. Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "D": "Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi. Sau khi sửa lỗi không cần chạy lại chương trình."
-        },
-        "dap_an": "A",
-        "giai_thich": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi."
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Tên tiếng Anh của lỗi chia cho 0 trong Python là gì?"
       }
     ],
+    "trac_nghiem": [
+      {
+        "dap_an": "A",
+        "giai_thich": "Step Over thực thi trọn vẹn dòng lệnh hiện tại rồi dừng ở dòng kế tiếp trong cùng phạm vi.",
+        "id": "B30_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Trong quá trình gỡ lỗi bằng công cụ Debug của IDE, chức năng 'Step Over' dùng để làm gì?",
+        "phuong_an": {
+          "A": "Chạy qua dòng lệnh hiện tại mà không đi sâu vào bên trong hàm được gọi.",
+          "B": "Dừng ngay lập tức chương trình.",
+          "C": "Xóa toàn bộ các điểm dừng.",
+          "D": "Bỏ qua tất cả các lỗi cú pháp."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Hàm int() nhận đối số kiểu str đúng nhưng giá trị '12a' không chuyển được thành số nguyên nên báo ValueError.",
+        "id": "B30_BS_TN_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Đoạn lệnh `x = int('12a')` sẽ phát sinh ngoại lệ nào khi chạy?",
+        "phuong_an": {
+          "A": "TypeError",
+          "B": "ValueError",
+          "C": "NameError",
+          "D": "IndexError"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "1) Trường hợp thường: A = [2, 4, 6] -> kết quả 4.0. 2) Trường hợp 1 phần tử (biên): A = [5] -> kết quả 5.0. 3) Trường hợp danh sách rỗng (biên đặc biệt): A = [] -> kiểm tra xem hàm có xử lí tránh ZeroDivisionError hay không.",
+        "giai_thich": "Bộ test tốt cần phủ cả trường hợp thông thường và các trường hợp biên dễ gây lỗi.",
+        "id": "B30_BS_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Cho hàm tính trung bình cộng của một danh sách số thực A. Hãy đề xuất ít nhất 3 bộ test (gồm trường hợp thường và trường hợp biên) để kiểm thử hàm này."
+      }
+    ]
+  },
+  "cau_hoi_goc": {
     "dung_sai": [
       {
-        "id": "T10-B30-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Xét tính đúng/sai về bài “Kiểm thử và gỡ lỗi chương trình”:",
-        "y_kien": {
-          "a": "Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.",
-          "b": "Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi.",
-          "c": "Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.",
-          "d": "Sau khi sửa lỗi không cần chạy lại chương trình."
-        },
         "dap_an": {
           "a": true,
           "b": false,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch.; b sai: Kiểm thử chỉ cần dùng một dữ liệu bất kỳ và không cần kết quả mong đợi.; c đúng: Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.; d sai: Sau khi sửa lỗi không cần chạy lại chương trình.."
+        "giai_thich": "a) Đúng. b) Sai vì lỗi logic chương trình vẫn chạy nhưng cho kết quả sai, khó phát hiện ngay. c) Đúng. d) Sai vì không có lỗi cú pháp vẫn có thể có lỗi ngoại lệ hoặc lỗi logic.",
+        "id": "B30_G_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_30.docx",
+        "nhan_dinh": {
+          "a": "Lỗi cú pháp xảy ra khi mã chương trình không tuân theo quy tắc ngữ pháp của ngôn ngữ lập trình.",
+          "b": "Lỗi logic là lỗi mà chương trình không chạy được và thường được phát hiện ngay lập tức.",
+          "c": "Lỗi ngoại lệ là những lỗi phát sinh bất thường trong quá trình thực thi chương trình.",
+          "d": "Kiểm thử chương trình không cần thiết nếu chương trình đã chạy mà không gặp lỗi cú pháp."
+        },
+        "noi_dung": "Cho đoạn thông tin: Kiểm thử chương trình là quá trình quan trọng giúp phát hiện lỗi (lỗi cú pháp, lỗi logic, lỗi ngoại lệ) và đảm bảo chương trình hoạt động đúng mong đợi."
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai, try bắt lỗi ngoại lệ lúc chạy, không bắt lỗi cú pháp. b) Đúng. c) Đúng. d) Sai, lỗi cú pháp ngăn chương trình thông dịch/chạy ngay từ đầu.",
+        "id": "B30_G_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_30.docx",
+        "nhan_dinh": {
+          "a": "Cấu trúc try chỉ dùng để bắt lỗi cú pháp trong Python.",
+          "b": "Nếu một lỗi ngoại lệ không được xử lý, chương trình sẽ dừng lại và không thể tiếp tục.",
+          "c": "Cấu trúc try và except giúp xử lý lỗi ngoại lệ mà không làm dừng đột ngột chương trình.",
+          "d": "Tất cả các lỗi cú pháp đều có thể bắt bằng try - except trước khi chạy."
+        },
+        "noi_dung": "Cho đoạn thông tin: Trong Python, khi lỗi ngoại lệ xảy ra, chương trình sẽ dừng lại và hiển thị thông báo lỗi. Có thể dùng cấu trúc try - except để xử lý ngoại lệ."
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai, bộ test cần cập nhật khi chương trình thay đổi/bổ sung tính năng. b) Đúng. c) Sai, kiểm thử giúp nâng cao chất lượng và độ tin cậy. d) Đúng.",
+        "id": "B30_G_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_30.docx",
+        "nhan_dinh": {
+          "a": "Bộ dữ liệu test chỉ cần được tạo ra một lần và không cần thay đổi trong suốt quá trình phát triển.",
+          "b": "Kiểm thử chương trình với bộ dữ liệu test giúp phát hiện các lỗi tiềm ẩn trong mã nguồn.",
+          "c": "Việc sử dụng bộ dữ liệu test không ảnh hưởng đến chất lượng của chương trình.",
+          "d": "Một bộ dữ liệu test tốt nên bao gồm cả các trường hợp biên và các trường hợp thông thường."
+        },
+        "noi_dung": "Cho đoạn thông tin: Sử dụng bộ dữ liệu test (gồm các đầu vào trong nhiều tình huống) giúp kiểm tra tính chính xác của chương trình."
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "giai_thich": "a) Đúng. b) Đúng. c) Sai, in biến trung gian giúp lần theo dấu vết và khoanh vùng vị trí lỗi. d) Sai, gỡ lỗi diễn ra liên tục trong quá trình phát triển.",
+        "id": "B30_G_DS_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_30.docx",
+        "nhan_dinh": {
+          "a": "In các thông số trung gian là một phương pháp hiệu quả để gỡ lỗi chương trình.",
+          "b": "Việc in quá nhiều thông số trung gian có thể làm chậm quá trình thực thi của chương trình.",
+          "c": "In thông số trung gian không có tác động gì đến việc phát hiện lỗi.",
+          "d": "Gỡ lỗi chương trình chỉ cần thực hiện một lần duy nhất khi hoàn thành mã nguồn."
+        },
+        "noi_dung": "Cho đoạn thông tin: Khi gỡ lỗi, in các thông số trung gian giúp lập trình viên hiểu rõ trạng thái chương trình tại các thời điểm khác nhau."
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai, breakpoint dùng được cho mọi chương trình từ nhỏ đến lớn. b) Đúng. c) Sai. d) Đúng.",
+        "id": "B30_G_DS_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_30.docx",
+        "nhan_dinh": {
+          "a": "Breakpoint chỉ có thể được sử dụng trong các chương trình Python đơn giản.",
+          "b": "Sử dụng breakpoint giúp lập trình viên theo dõi dòng lệnh và trạng thái của biến trong khi chương trình đang chạy.",
+          "c": "Breakpoint không có ích cho việc kiểm thử và gỡ lỗi chương trình.",
+          "d": "Việc sử dụng breakpoint là một kỹ thuật phổ biến trong gỡ lỗi chương trình."
+        },
+        "noi_dung": "Cho đoạn thông tin: Công cụ breakpoint trong IDE cho phép tạm dừng chương trình tại điểm chỉ định để kiểm tra biến và trạng thái."
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "ngoại lệ (Runtime)",
+        "giai_thich": "Lỗi ngoại lệ phát sinh trong quá trình chạy làm chương trình dừng và in Traceback.",
+        "id": "B30_G_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_30_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Điền từ còn thiếu: Khi gặp lỗi ................., chương trình sẽ dừng lại và thông báo lỗi cụ thể."
+      },
+      {
+        "dap_an": "print()",
+        "giai_thich": "Lệnh print() giúp in giá trị biến trung gian ra màn hình để kiểm tra luồng xử lí.",
+        "id": "B30_G_TLN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_30_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Điền từ còn thiếu: Để theo dõi giá trị của biến trong quá trình chạy chương trình đơn giản, ta thường sử dụng lệnh ................."
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "Lỗi NameError xảy ra khi sử dụng tên biến hoặc hàm chưa được khai báo hoặc viết sai chính tả.",
+        "id": "B30_G_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình chạy phát sinh lỗi ngoại lệ NameError, nên xử lí như thế nào?",
+        "phuong_an": {
+          "A": "Kiểm tra lại chỉ số trong mảng.",
+          "B": "Kiểm tra lại tên các biến và hàm.",
+          "C": "Kiểm tra giá trị của số bị chia.",
+          "D": "Kiểm tra kiểu dữ liệu nhập vào."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Breakpoint cho phép tạm dừng chương trình tại dòng lệnh chỉ định để quan sát giá trị biến và chạy từng bước tiếp theo.",
+        "id": "B30_G_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Điểm dừng (breakpoint) trong các phần mềm soạn thảo lập trình có ý nghĩa gì?",
+        "phuong_an": {
+          "A": "Đó là vị trí chương trình chạy tới đó thì kết thúc.",
+          "B": "Đó là vị trí chương trình dừng lại để người lập trình quan sát phát hiện lỗi.",
+          "C": "Đó là vị trí chương trình mỗi khi chạy đến dòng lệnh đó sẽ kêu pip pip.",
+          "D": "Đó là vị trí chương trình tạm dừng, người lập trình sẽ quan sát các biến của chương trình và có thể điều khiển để chương trình tiếp tục chạy."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Gồm 3 loại chính: lỗi cú pháp (SyntaxError), lỗi ngoại lệ (Runtime/Exception) và lỗi logic (sai thuật toán).",
+        "id": "B30_G_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Lỗi chương trình Python thường được phân thành bao nhiêu loại chính?",
+        "phuong_an": {
+          "A": "2.",
+          "B": "3.",
+          "C": "4.",
+          "D": "5."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Cần kết hợp quan sát mã lỗi, chạy nhiều bộ test, in biến trung gian và dùng breakpoint.",
+        "id": "B30_G_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Làm thế nào để kiểm tra (test) và gỡ lỗi (debug) một chương trình?",
+        "phuong_an": {
+          "A": "Quan sát mã lỗi Runtime và bắt ngoại lệ.",
+          "B": "Sử dụng nhiều bộ test dữ liệu.",
+          "C": "In các thông số trung gian.",
+          "D": "Tất cả các phương pháp trên."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "ZeroDivisionError xảy ra khi thực hiện phép chia cho số 0 nên cần kiểm tra lại giá trị số chia (mẫu số).",
+        "id": "B30_G_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình chạy phát sinh lỗi ngoại lệ ZeroDivisionError, nên xử lí như thế nào?",
+        "phuong_an": {
+          "A": "Kiểm tra lại giá trị số chia.",
+          "B": "Kiểm tra lại chỉ số trong mảng.",
+          "C": "Kiểm tra giá trị của số bị chia.",
+          "D": "Kiểm tra kiểu dữ liệu nhập vào."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Lỗi ngoại lệ (Exception) phát sinh trong lúc chạy khi Python không thể thực thi một lệnh hợp lệ về mặt cú pháp.",
+        "id": "B30_G_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Thế nào là lỗi ngoại lệ trong Python?",
+        "phuong_an": {
+          "A": "Lỗi khi viết một câu lệnh sai cú pháp của ngôn ngữ lập trình.",
+          "B": "Lỗi khi truy cập một biến chưa được khai báo.",
+          "C": "Lỗi khi không thể thực hiện một lệnh nào đó của chương trình.",
+          "D": "Lỗi khi chương trình biên dịch sang tệp exe."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "ValueError xảy ra khi hàm nhận đối số có kiểu đúng nhưng giá trị không hợp lệ (ví dụ int('abc')).",
+        "id": "B30_G_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Khi gặp lỗi liên quan đến giá trị của đối tượng, Python sẽ báo lỗi gì?",
+        "phuong_an": {
+          "A": "ValueError.",
+          "B": "IndentationError.",
+          "C": "TypeError.",
+          "D": "ZeroDivisionError."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "TypeError phát sinh khi thực hiện phép toán hoặc gọi hàm trên các đối tượng không tương thích kiểu dữ liệu.",
+        "id": "B30_G_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình chạy phát sinh lỗi ngoại lệ TypeError, nên xử lí như thế nào?",
+        "phuong_an": {
+          "A": "Kiểm tra lại chỉ số trong mảng.",
+          "B": "Kiểm tra lại giá trị số chia.",
+          "C": "Kiểm tra giá trị của số bị chia.",
+          "D": "Kiểm tra kiểu dữ liệu nhập vào hoặc kiểu toán hạng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "IndexError xảy ra khi truy cập phần tử bằng chỉ số vượt quá phạm vi hợp lệ của danh sách/xâu.",
+        "id": "B30_G_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình chạy phát sinh lỗi ngoại lệ IndexError, nên xử lí như thế nào?",
+        "phuong_an": {
+          "A": "Kiểm tra lại giá trị số chia.",
+          "B": "Kiểm tra lại chỉ số trong mảng/danh sách.",
+          "C": "Kiểm tra giá trị của số bị chia.",
+          "D": "Kiểm tra kiểu dữ liệu nhập vào."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Bộ test hiệu quả cần đa dạng, có test ngẫu nhiên và bao phủ các giá trị vùng biên.",
+        "id": "B30_G_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Bộ dữ liệu kiểm thử (test) cần có tính chất gì?",
+        "phuong_an": {
+          "A": "Tính chất phát hiện lỗi của chương trình.",
+          "B": "Cần có càng nhiều càng tốt.",
+          "C": "Cần được sinh ngẫu nhiên và phủ kín các trường hợp biên của dữ liệu đầu vào bài toán.",
+          "D": "Không cần có tính chất gì."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Kiểm thử giúp phát hiện lỗi hiện có, đảm bảo tính đúng đắn và phòng ngừa lỗi phát sinh về sau.",
+        "id": "B30_G_TN_11",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Mục đích của kiểm thử chương trình là gì?",
+        "phuong_an": {
+          "A": "Để tự động sửa lỗi chương trình.",
+          "B": "Để tìm ra lỗi của chương trình.",
+          "C": "Để tìm ra lỗi và tự động sửa lỗi chương trình.",
+          "D": "Để tìm ra lỗi và phòng ngừa, ngăn chặn các lỗi phát sinh trong tương lai."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Các IDE lập trình cho phép đặt nhiều breakpoint tùy nhu cầu gỡ lỗi của lập trình viên.",
+        "id": "B30_G_TN_12",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Phần mềm soạn thảo lập trình có thể tạo bao nhiêu điểm dừng?",
+        "phuong_an": {
+          "A": "0.",
+          "B": "1.",
+          "C": "Không hạn chế.",
+          "D": "10."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Công cụ thống kê dữ liệu không phải là công cụ kiểm thử/gỡ lỗi chương trình.",
+        "id": "B30_G_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Đâu không phải là công cụ/phương pháp để kiểm thử và gỡ lỗi chương trình?",
+        "phuong_an": {
+          "A": "Công cụ in biến trung gian.",
+          "B": "Công cụ sinh các bộ dữ liệu test.",
+          "C": "Công cụ thống kê dữ liệu.",
+          "D": "Công cụ điểm dừng trong phần mềm soạn thảo lập trình."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Danh sách fruits chỉ có 3 phần tử (chỉ số 0, 1, 2), truy cập fruits[4] gây lỗi IndexError.",
+        "id": "B30_G_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình sau nên sửa như thế nào? fruits = ['Banana', 'Apple', 'Lime']; print(fruits[4])",
+        "phuong_an": {
+          "A": "Thay đổi kiểu dữ liệu của từng phần tử trong mảng.",
+          "B": "Kiểm tra chỉ số của mảng khi thực hiện lệnh.",
+          "C": "Thay đổi tên mảng.",
+          "D": "Chương trình không có lỗi."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Hiện nay có rất nhiều phương pháp và công cụ khác nhau để kiểm thử chương trình.",
+        "id": "B30_G_TN_15",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Trong các phát biểu sau, phát biểu nào chưa chính xác về kiểm thử chương trình?",
+        "phuong_an": {
+          "A": "Hiện nay, có ít phương pháp và công cụ khác nhau để kiểm thử chương trình.",
+          "B": "Chương trình cần được thử với một số bộ dữ liệu test gồm đầu vào tiêu biểu và kết quả đầu ra biết trước.",
+          "C": "Các bộ test phụ thuộc vào các tiêu chí khác nhau.",
+          "D": "Các bộ test dữ liệu nên có nhiều bộ test ngẫu nhiên."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Bộ test được thiết kế theo nhiều tiêu chí như kích thước, tính đa dạng và trường hợp biên.",
+        "id": "B30_G_TN_16",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Phát biểu nào sau đây đúng nhất khi nói về các bộ dữ liệu test khi kiểm thử chương trình?",
+        "phuong_an": {
+          "A": "Các bộ test có thể có đầu vào theo các tiêu chí khác nhau.",
+          "B": "Các bộ test có đầu vào theo một số tiêu chí nhất định.",
+          "C": "Các bộ test có thể có đầu vào theo các tiêu chí khác nhau như độ lớn, tính đa dạng của dữ liệu.",
+          "D": "Các bộ test có đầu vào phải theo các tiêu chí về độ lớn, tính đa dạng của dữ liệu."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Mục đích của kiểm thử là tìm ra lỗi và phòng ngừa, ngăn chặn các lỗi phát sinh trong tương lai.",
+        "id": "B30_G_TN_17",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Hoàn thành phát biểu: 'Có rất nhiều công cụ và phương pháp khác nhau để kiểm thử chương trình. Các công cụ có mục đích … của chương trình và …, … các lỗi phát sinh trong tương lai.'",
+        "phuong_an": {
+          "A": "Tìm ra lỗi, phòng ngừa, ngăn chặn.",
+          "B": "Tìm ra lỗi, phòng ngừa, xử lí.",
+          "C": "Phòng ngừa, ngăn chặn, xử lí lỗi.",
+          "D": "Xử lí lỗi, phòng ngừa, ngăn chặn."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "ZeroDivisionError là lỗi ngoại lệ phát sinh khi thực hiện phép chia hoặc chia lấy dư cho 0.",
+        "id": "B30_G_TN_18",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Nếu chương trình chạy bị lỗi với thông báo lỗi ZeroDivisionError thì đó là lỗi gì?",
+        "phuong_an": {
+          "A": "Lỗi không thể sửa được.",
+          "B": "Lỗi chia cho 0.",
+          "C": "Lỗi dữ liệu.",
+          "D": "Lỗi giá trị của đối tượng."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Các phát biểu đúng là (1) và (2). Lỗi rất hay xảy ra ở vùng biên và hoàn toàn có thể dùng print() để in biến trung gian.",
+        "id": "B30_G_TN_19",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Số phát biểu đúng trong các phát biểu sau: 1) Cần có nhiều bộ test khi kiểm thử. 2) Sinh ngẫu nhiên đầu vào trong miền xác định làm tăng khả năng tìm lỗi. 3) Ít khi phát sinh lỗi tại vùng biên. 4) Không thể dùng lệnh print() để in biến trung gian.",
+        "phuong_an": {
+          "A": "2.",
+          "B": "3.",
+          "C": "1.",
+          "D": "4."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Dòng 4 cộng xâu s với số nguyên i gây lỗi TypeError.",
+        "id": "B30_G_TN_20",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Chương trình sau có lỗi ở dòng lệnh nào? (1) n = int(input('Nhập n: ')) (2) s = '' (3) for i in range(10): (4)     s = s + i",
+        "phuong_an": {
+          "A": "1.",
+          "B": "2.",
+          "C": "3.",
+          "D": "4."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Vùng biên của miền x >= 0 gồm các giá trị tại/sát biên dưới (x = 0, gần 0) và biên trên (x rất lớn).",
+        "id": "B30_G_TN_21",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Giả sử đầu vào của dữ liệu bài toán là vùng {x >= 0}. Khi đó dữ liệu ở vùng biên là những dữ liệu nào?",
+        "phuong_an": {
+          "A": "x = 0.",
+          "B": "x = 1000000.",
+          "C": "x ở gần 0.",
+          "D": "x ở gần 0 hoặc x rất lớn."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Nếu A chưa được định nghĩa sẽ báo NameError; nếu A là danh sách rỗng [] thì len(A)=0 gây ZeroDivisionError.",
+        "id": "B30_G_TN_22",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Để tính giá trị trung bình của danh sách số A, người lập trình dùng lệnh gttb = sum(A) / len(A). Những mã lỗi ngoại lệ nào có thể xảy ra?",
+        "phuong_an": {
+          "A": "NameError.",
+          "B": "ZeroDivisionError.",
+          "C": "Không thể xảy ra lỗi.",
+          "D": "Có thể xảy ra cả hai lỗi trên."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Thiếu dấu hai chấm ':' ở cuối dòng định nghĩa hàm def func(n): là lỗi cú pháp (SyntaxError).",
+        "id": "B30_G_TN_23",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Đoạn chương trình bắt đầu bằng `def func(n)` (thiếu dấu hai chấm) mắc lỗi gì?",
+        "phuong_an": {
+          "A": "TypeError.",
+          "B": "ZeroDivisionError.",
+          "C": "SyntaxError.",
+          "D": "NameError."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Cả 4 dòng lệnh đều hợp lệ về cú pháp và kiểu dữ liệu nên không phát sinh lỗi.",
+        "id": "B30_G_TN_24",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Đoạn lệnh: fruits = ['Banana', 'Apple', 'Lime']; loud_fruits = [fruit.upper() for fruit in fruits]; print(loud_fruits); list(enumerate(fruits)) bị lỗi ở dòng thứ bao nhiêu?",
+        "phuong_an": {
+          "A": "2.",
+          "B": "3.",
+          "C": "4.",
+          "D": "Không phát sinh lỗi."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Phép chia cho 0 trong Python luôn phát sinh ngoại lệ ZeroDivisionError.",
+        "id": "B30_G_TN_25",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_30_-_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Trong Python, khi thực hiện lệnh `1 / 0` chương trình sẽ phát sinh lỗi gì?",
+        "phuong_an": {
+          "A": "NameError.",
+          "B": "TypeError.",
+          "C": "ZeroDivisionError.",
+          "D": "SyntaxError."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "break, continue, pass là từ khóa điều khiển luồng, không phải từ khóa đặt điểm dừng gỡ lỗi trên IDE.",
+        "id": "B30_G_TN_26",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_30_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Trong Python, từ khóa nào được sử dụng để đặt điểm dừng (breakpoint)?",
+        "phuong_an": {
+          "A": "break",
+          "B": "continue",
+          "C": "pass",
+          "D": "Không có từ khóa đặc biệt (thường đặt trên IDE hoặc dùng hàm breakpoint())."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Kiểm thử đơn vị (Unit Testing) kiểm tra từng hàm hoặc mô-đun nhỏ nhất của chương trình.",
+        "id": "B30_G_TN_27",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_30_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Phương pháp kiểm thử nào cho phép kiểm tra từng đơn vị nhỏ nhất của chương trình?",
+        "phuong_an": {
+          "A": "Kiểm thử tích hợp",
+          "B": "Kiểm thử hệ thống",
+          "C": "Kiểm thử đơn vị",
+          "D": "Kiểm thử chấp nhận"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B30-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Trình bày hai nội dung của bài: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Kiểm thử chạy chương trình với dữ liệu thử để phát hiện sai lệch. Ca kiểm thử gồm đầu vào và kết quả mong đợi.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "dap_an": "Chương trình mắc lỗi logic vì input() trả về kiểu xâu (str), phép m + n thực hiện nối xâu thay vì cộng số. Sửa: m = int(input('Nhập số tự nhiên m: ')); n = int(input('Nhập số tự nhiên n: ')).",
+        "giai_thich": "Cần ép kiểu int() cho dữ liệu nhập từ bàn phím trước khi tính tổng.",
+        "id": "B30_G_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_30_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Tìm và sửa lỗi cho đoạn chương trình sau: m = input('Nhập số tự nhiên m:'); n = input('Nhập số tự nhiên n:'); print('Tổng hai số đã nhập là:', m + n)"
       },
       {
-        "id": "T10-B30-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Kiểm thử và gỡ lỗi chương trình",
-        "noi_dung": "Giải thích và vận dụng nội dung “Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Dữ liệu biên nằm tại hoặc gần ranh giới miền giá trị.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "dap_an": "Không thể đảm bảo tìm ra hết lỗi. Việc thử nhiều bộ test làm tăng độ tin cậy nhưng lỗi vẫn có thể phát sinh ở các dữ liệu khác ngoài bộ test đã chọn.",
+        "giai_thich": "Kiểm thử chỉ chứng minh sự hiện diện của lỗi chứ không chứng minh được chương trình hoàn toàn không có lỗi trên mọi đầu vào.",
+        "id": "B30_G_TL_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_30_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Để kiểm thử một chương trình, nếu chỉ kiểm tra thông qua các bộ dữ liệu test thì có đảm bảo tìm ra hết lỗi của chương trình hay không? Vì sao?"
+      },
+      {
+        "dap_an": "Bước 1: Đặt điểm dừng (breakpoint) tại dòng lệnh nghi ngờ. Bước 2: Chạy chương trình ở chế độ Debug (F5) để dừng trước lệnh đã đánh dấu. Bước 3: Quan sát giá trị biến tại Stack Data và điều khiển chạy từng bước tiếp theo để xác định lỗi.",
+        "giai_thich": "Theo quy trình gỡ lỗi trực quan trên IDE như Wingware/VS Code/PyCharm.",
+        "id": "B30_G_TL_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_30_kiem_thu_va_go_loi_chuong_trinh.docx",
+        "noi_dung": "Nêu các bước cơ bản trong quá trình gỡ lỗi một chương trình Python bằng công cụ điểm dừng (breakpoint)."
       }
     ]
+  },
+  "ma_bai": "BAI_30",
+  "ten_bai": "Kiểm thử và gỡ lỗi chương trình",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 0,
+      "tong": 4,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 2,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 5,
+      "tong": 37,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 27,
+      "tu_luan": 3
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 18,
+      "thong_hieu": 16,
+      "van_dung": 7
+    },
+    "tong_so_cau": 41
   }
 }

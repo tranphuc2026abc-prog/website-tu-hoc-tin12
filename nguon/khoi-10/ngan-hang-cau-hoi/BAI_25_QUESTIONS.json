@@ -1,424 +1,472 @@
 {
-  "ma_bai": "BAI_25",
   "bai_so": 25,
-  "ten_bai": "Một số lệnh làm việc với xâu kí tự",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B25-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Phát biểu nào đúng về lower?",
-        "lua_chon": {
-          "A": "upper() tạo xâu chữ hoa.",
-          "B": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "C": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
-          "D": "replace(old,new) thay các đoạn con phù hợp."
-        },
-        "dap_an": "B",
-        "giai_thich": "lower() tạo xâu chữ thường từ xâu ban đầu."
-      },
-      {
-        "id": "T10-B25-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
-        "lua_chon": {
-          "A": "upper() tạo xâu chữ hoa.",
-          "B": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
-          "C": "lower().",
-          "D": "replace(old,new) thay các đoạn con phù hợp."
-        },
-        "dap_an": "C",
-        "giai_thich": "lower()."
-      },
-      {
-        "id": "T10-B25-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho lower?",
-        "lua_chon": {
-          "A": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
-          "B": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
-          "C": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?",
-          "D": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?"
-      },
-      {
-        "id": "T10-B25-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Phát biểu nào đúng về upper?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
-          "C": "upper() tạo xâu chữ hoa.",
-          "D": "replace(old,new) thay các đoạn con phù hợp."
-        },
-        "dap_an": "C",
-        "giai_thich": "upper() tạo xâu chữ hoa."
-      },
-      {
-        "id": "T10-B25-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
-          "C": "replace(old,new) thay các đoạn con phù hợp.",
-          "D": "upper()."
-        },
-        "dap_an": "D",
-        "giai_thich": "upper()."
-      },
-      {
-        "id": "T10-B25-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho upper?",
-        "lua_chon": {
-          "A": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
-          "B": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
-          "C": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
-          "D": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?"
-      },
-      {
-        "id": "T10-B25-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Phát biểu nào đúng về strip?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "upper() tạo xâu chữ hoa.",
-          "C": "replace(old,new) thay các đoạn con phù hợp.",
-          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
-        },
-        "dap_an": "D",
-        "giai_thich": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
-      },
-      {
-        "id": "T10-B25-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
-        "lua_chon": {
-          "A": "strip().",
-          "B": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "C": "upper() tạo xâu chữ hoa.",
-          "D": "replace(old,new) thay các đoạn con phù hợp."
-        },
-        "dap_an": "A",
-        "giai_thich": "strip()."
-      },
-      {
-        "id": "T10-B25-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho strip?",
-        "lua_chon": {
-          "A": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
-          "B": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
-          "C": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
-          "D": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?"
-      },
-      {
-        "id": "T10-B25-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Phát biểu nào đúng về replace?",
-        "lua_chon": {
-          "A": "replace(old,new) thay các đoạn con phù hợp.",
-          "B": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "C": "upper() tạo xâu chữ hoa.",
-          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
-        },
-        "dap_an": "A",
-        "giai_thich": "replace(old,new) thay các đoạn con phù hợp."
-      },
-      {
-        "id": "T10-B25-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "replace().",
-          "C": "upper() tạo xâu chữ hoa.",
-          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
-        },
-        "dap_an": "B",
-        "giai_thich": "replace()."
-      },
-      {
-        "id": "T10-B25-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho replace?",
-        "lua_chon": {
-          "A": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
-          "B": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
-          "C": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?",
-          "D": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Thay dấu gạch ngang trong mã: phương thức nào phù hợp?"
-      },
-      {
-        "id": "T10-B25-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Phát biểu nào đúng về split?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "split() tách xâu thành danh sách theo dấu phân cách.",
-          "C": "upper() tạo xâu chữ hoa.",
-          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
-        },
-        "dap_an": "B",
-        "giai_thich": "split() tách xâu thành danh sách theo dấu phân cách."
-      },
-      {
-        "id": "T10-B25-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tách các từ trong một dòng: phương thức nào dùng?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "upper() tạo xâu chữ hoa.",
-          "C": "split().",
-          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
-        },
-        "dap_an": "C",
-        "giai_thich": "split()."
-      },
-      {
-        "id": "T10-B25-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho split?",
-        "lua_chon": {
-          "A": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
-          "B": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
-          "C": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?",
-          "D": "Tách các từ trong một dòng: phương thức nào dùng?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Tách các từ trong một dòng: phương thức nào dùng?"
-      },
-      {
-        "id": "T10-B25-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Phát biểu nào đúng về find?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "upper() tạo xâu chữ hoa.",
-          "C": "find() tìm vị trí xuất hiện của chuỗi con hoặc trả kết quả báo không tìm thấy.",
-          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
-        },
-        "dap_an": "C",
-        "giai_thich": "find() tìm vị trí xuất hiện của chuỗi con hoặc trả kết quả báo không tìm thấy."
-      },
-      {
-        "id": "T10-B25-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tìm vị trí dấu @ trong email: phương thức nào có thể dùng?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "upper() tạo xâu chữ hoa.",
-          "C": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
-          "D": "find('@')."
-        },
-        "dap_an": "D",
-        "giai_thich": "find('@')."
-      },
-      {
-        "id": "T10-B25-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho find?",
-        "lua_chon": {
-          "A": "Tìm vị trí dấu @ trong email: phương thức nào có thể dùng?",
-          "B": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
-          "C": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
-          "D": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Tìm vị trí dấu @ trong email: phương thức nào có thể dùng?"
-      },
-      {
-        "id": "T10-B25-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Phát biểu nào đúng về Xâu không đổi tại chỗ?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "B": "upper() tạo xâu chữ hoa.",
-          "C": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
-          "D": "Các phương thức xâu thường trả về xâu mới."
-        },
-        "dap_an": "D",
-        "giai_thich": "Các phương thức xâu thường trả về xâu mới."
-      },
-      {
-        "id": "T10-B25-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Gọi s.upper() nhưng không gán lại: điều gì thường đúng?",
-        "lua_chon": {
-          "A": "s ban đầu không đổi; cần lưu kết quả nếu muốn giữ.",
-          "B": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "C": "upper() tạo xâu chữ hoa.",
-          "D": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu."
-        },
-        "dap_an": "A",
-        "giai_thich": "s ban đầu không đổi; cần lưu kết quả nếu muốn giữ."
-      },
-      {
-        "id": "T10-B25-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Xâu không đổi tại chỗ?",
-        "lua_chon": {
-          "A": "Chuẩn hóa email trước khi so sánh: phương thức nào phù hợp?",
-          "B": "Gọi s.upper() nhưng không gán lại: điều gì thường đúng?",
-          "C": "Cần hiển thị mã lớp viết hoa: phương thức nào dùng?",
-          "D": "Dữ liệu nhập có dấu cách thừa hai đầu: dùng phương thức nào?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Gọi s.upper() nhưng không gán lại: điều gì thường đúng?"
-      },
-      {
-        "id": "T10-B25-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Một số lệnh làm việc với xâu kí tự”?",
-        "lua_chon": {
-          "A": "lower() tạo xâu chữ thường từ xâu ban đầu. upper() tạo xâu chữ hoa.",
-          "B": "upper() tạo xâu chữ hoa. strip() xóa mọi khoảng trắng ở giữa xâu.",
-          "C": "replace() luôn sửa trực tiếp nội dung xâu gốc. lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "D": "strip() xóa mọi khoảng trắng ở giữa xâu. replace() luôn sửa trực tiếp nội dung xâu gốc."
-        },
-        "dap_an": "A",
-        "giai_thich": "lower() tạo xâu chữ thường từ xâu ban đầu. upper() tạo xâu chữ hoa."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B25-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Xét tính đúng/sai về bài “Một số lệnh làm việc với xâu kí tự”:",
-        "y_kien": {
-          "a": "lower() tạo xâu chữ thường từ xâu ban đầu.",
-          "b": "strip() xóa mọi khoảng trắng ở giữa xâu.",
-          "c": "strip() loại bỏ khoảng trắng ở đầu/cuối xâu.",
-          "d": "replace() luôn sửa trực tiếp nội dung xâu gốc."
-        },
         "dap_an": {
           "a": true,
           "b": false,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: lower() tạo xâu chữ thường từ xâu ban đầu.; b sai: strip() xóa mọi khoảng trắng ở giữa xâu.; c đúng: strip() loại bỏ khoảng trắng ở đầu/cuối xâu.; d sai: replace() luôn sửa trực tiếp nội dung xâu gốc.."
+        "giai_thich": "a) Đúng. b) Sai vì `split(\" \")` giữ lại các xâu rỗng ở những chỗ nhiều dấu cách liên tiếp. c) Đúng. d) Sai vì xâu là bất biến.",
+        "id": "B25_BS_DS_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "nhan_dinh": {
+          "a": "Biến `ds` là một danh sách gồm 3 phần tử `['nguyen', 'van', 'an']`.",
+          "b": "Nếu thay `s.split()` bằng `s.split(\" \")`, `ds` vẫn chỉ có đúng 3 phần tử.",
+          "c": "Giá trị của `ket_qua` là `\"Nguyen Van An\"`.",
+          "d": "Lệnh `s.split()` đã làm thay đổi giá trị của biến `s` ban đầu."
+        },
+        "noi_dung": "Cho đoạn lệnh xử lí họ tên trong Python:\n```python\ns = \"  nguyen   van an  \"\nds = s.split()\nket_qua = \" \".join(ds).title()\n```\nĐánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "8",
+        "giai_thich": "T:0, i:1, n:2, ' ':3, h:4, o:5, c:6, ' ':7, 1:8, 0:9 -> trả về 8.",
+        "id": "B25_BS_TLN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Kết quả của biểu thức `\"Tin hoc 10\".find(\"10\")` là bao nhiêu?"
+      },
+      {
+        "dap_an": "ab-c",
+        "giai_thich": "Tham số thứ 3 của `replace` là số lần thay thế tối đa (1 lần), nên chỉ dấu `-` đầu tiên bị xóa.",
+        "id": "B25_BS_TLN_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Kết quả của lệnh `\"a-b-c\".replace(\"-\", \"\", 1)` là gì?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "`\"-\".join(...)` nối các phần tử xâu trong danh sách và chèn dấu `-` vào giữa.",
+        "id": "B25_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Kết quả của lệnh `\"-\".join([\"10\", \"11\", \"2026\"])` là gì?",
+        "phuong_an": {
+          "A": "\"10 11 2026\"",
+          "B": "\"10-11-2026\"",
+          "C": "[\"10-11-2026\"]",
+          "D": "Báo lỗi TypeError"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Khi truyền kí tự phân cách tường minh `\",\"`, hai dấu phẩy liên tiếp tạo ra một xâu rỗng `''`: `['a', 'b', '', 'c']` (4 phần tử).",
+        "id": "B25_BS_TN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Lệnh `\"a,b,,c\".split(\",\")` trả về danh sách có bao nhiêu phần tử?",
+        "phuong_an": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "`join()` yêu cầu mọi phần tử trong iterable đầu vào phải là kiểu `str`.",
+        "id": "B25_BS_TN_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Vì sao lệnh `\" \".join([1, 2, 3])` gây lỗi `TypeError`?",
+        "phuong_an": {
+          "A": "Vì `join()` chỉ nhận danh sách có phần tử kiểu xâu (`str`), không nhận số nguyên (`int`).",
+          "B": "Vì danh sách có ít hơn 4 phần tử.",
+          "C": "Vì dấu cách không thể dùng làm xâu nối.",
+          "D": "Vì thiếu tham số thứ hai trong `join()`."
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B25-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Trình bày hai nội dung của bài: lower() tạo xâu chữ thường từ xâu ban đầu. upper() tạo xâu chữ hoa.",
-        "dap_an_goi_y": "Nêu đúng hai ý: lower() tạo xâu chữ thường từ xâu ban đầu. upper() tạo xâu chữ hoa.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B25-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "```python\ncau = input(\"Nhập câu: \")\nds_tu = cau.split()\ncau_chuan = \" \".join(ds_tu)\nprint(\"Câu chuẩn hóa:\", cau_chuan)\nprint(\"Số từ:\", len(ds_tu))\n```",
+        "giai_thich": "Dùng `split()` không đối số để tự động loại mọi khoảng trắng thừa, sau đó ghép lại bằng `\" \".join(ds_tu)`.",
+        "id": "B25_BS_TL_01",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Một số lệnh làm việc với xâu kí tự",
-        "noi_dung": "Giải thích và vận dụng nội dung “strip() loại bỏ khoảng trắng ở đầu/cuối xâu.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “strip() loại bỏ khoảng trắng ở đầu/cuối xâu.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Viết chương trình nhập một câu tiếng Việt từ bàn phím, chuẩn hóa khoảng trắng (chỉ giữ 1 dấu cách giữa các từ, xóa khoảng trắng đầu/cuối) và đếm số từ trong câu."
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Sai vì trả về -1 nếu không tìm thấy. c) Sai vì chỉ số bắt đầu từ 0. d) Đúng.",
+        "id": "B25_GOC_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_25.docx",
+        "nhan_dinh": {
+          "a": "Phương thức find() luôn trả về chỉ số xuất hiện đầu tiên của xâu con (trong vùng tìm kiếm).",
+          "b": "Nếu xâu con không tồn tại trong chuỗi, find() sẽ trả về 0.",
+          "c": "Chỉ số kí tự trong Python bắt đầu từ 1.",
+          "d": "Phương thức find() có thể được sử dụng để tìm vị trí của một xâu con trong một chuỗi."
+        },
+        "noi_dung": "Cho đoạn thông tin: Trong Python, để tìm kiếm một xâu con trong một chuỗi, ta có thể sử dụng phương thức find(). Phương thức này trả về chỉ số của vị trí đầu tiên mà xâu con xuất hiện trong chuỗi, hoặc -1 nếu không tìm thấy.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Sai vì xâu là kiểu bất biến (immutable), `upper()` trả về xâu mới. b) Sai vì `lower()` chuyển chữ hoa thành chữ thường. c) Đúng. d) Đúng.",
+        "id": "B25_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_25.docx",
+        "nhan_dinh": {
+          "a": "Phương thức upper() sẽ làm thay đổi trực tiếp chuỗi gốc ban đầu.",
+          "b": "Phương thức lower() sẽ không chuyển đổi các ký tự chữ hoa trong chuỗi thành chữ thường.",
+          "c": "Ta có thể sử dụng phương thức replace() để thay thế một xâu con bằng một xâu khác trong chuỗi.",
+          "d": "Phương thức upper() không ảnh hưởng đến các ký tự không phải chữ cái (như chữ số, dấu câu)."
+        },
+        "noi_dung": "Cho đoạn thông tin: Khi làm việc với chuỗi trong Python, ta có thể sử dụng nhiều phương thức khác nhau để thao tác với các ký tự. Ví dụ, phương thức upper() sẽ chuyển đổi tất cả các ký tự chữ cái trong chuỗi thành chữ hoa.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "False",
+        "giai_thich": "Xâu \"001100\" không chứa liên tiếp 3 kí tự \"010\" nên kết quả là False.",
+        "id": "B25_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "da_tin_hoc_10_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Biểu thức logic `\"010\" in \"001100\"` trả về giá trị gì?"
+      },
+      {
+        "dap_an": "4",
+        "giai_thich": "Tìm xâu con \"ab\" bắt đầu từ chỉ số 4 trong \"ababababab\"; tại đúng chỉ số 4 đã có \"ab\" nên trả về 4.",
+        "id": "B25_GOC_TLN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Lệnh `\"ababababab\".find(\"ab\", 4)` trả lại giá trị số nguyên nào?"
+      },
+      {
+        "dap_an": "split()",
+        "giai_thich": "Phương thức `split()` tách xâu thành danh sách các xâu con.",
+        "id": "B25_GOC_TLN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Điền từ còn thiếu vào chỗ trống: Lệnh `_____` được sử dụng để tách một xâu thành các phần tử dựa trên một ký tự phân cách."
+      },
+      {
+        "dap_an": "-1",
+        "giai_thich": "Quy ước của Python: `find()` trả về -1 khi không tìm thấy xâu con.",
+        "id": "B25_GOC_TLN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Kết quả của `s.find(\"a\")` nếu xâu `s` không chứa ký tự `\"a\"` là bao nhiêu?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Phương thức upper() trả về một xâu mới trong đó toàn bộ chữ cái được chuyển sang chữ in hoa.",
+        "id": "B25_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Để tạo xâu in hoa từ toàn bộ xâu hiện tại ta dùng phương thức nào sau đây?",
+        "phuong_an": {
+          "A": "lower()",
+          "B": "len()",
+          "C": "upper()",
+          "D": "str()"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Phương thức split() tách một xâu thành danh sách các xâu con dựa vào kí tự phân cách.",
+        "id": "B25_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Lệnh nào sau đây dùng để tách xâu thành danh sách các từ/xâu con?",
+        "phuong_an": {
+          "A": "split()",
+          "B": "join()",
+          "C": "remove()",
+          "D": "copy()"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Xâu con \"012abc\" không xuất hiện trong \"0123456789\" nên find() trả về -1.",
+        "id": "B25_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Lệnh sau trả lại giá trị gì? `\"0123456789\".find(\"012abc\")`",
+        "phuong_an": {
+          "A": "-1",
+          "B": "0",
+          "C": "1",
+          "D": "Báo lỗi"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Dùng `s.split(\",\")` để tách theo dấu phẩy thành danh sách, sau đó dùng `\" \".join(...)` để nối lại bằng dấu cách.",
+        "id": "B25_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Cho xâu `s = \"1, 2, 3, 4, 5\"`. Muốn xoá bỏ kí tự \",\" và thay thế bằng dấu \" \" ta có thể sử dụng lần lượt những lệnh nào?",
+        "phuong_an": {
+          "A": "remove() và join()",
+          "B": "del() và replace()",
+          "C": "split() và join()",
+          "D": "split() và replace()"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Lần 1 tìm \"cd\" từ đầu xâu gặp ở chỉ số 2; lần 2 tìm từ chỉ số 4 gặp \"cd\" thứ hai ở chỉ số 6.",
+        "id": "B25_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Hai lệnh sau lần lượt trả lại giá trị gì?\n```python\n\"abcdabcd\".find(\"cd\")\n\"abcdabcd\".find(\"cd\", 4)\n```",
+        "phuong_an": {
+          "A": "2, 6",
+          "B": "3, 3",
+          "C": "2, 2",
+          "D": "2, 7"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Phương thức `replace(old, new)` cần đủ hai đối số: xâu cần thay thế và xâu thay thế.",
+        "id": "B25_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Để thay thế kí tự `'a'` trong xâu `s` bằng xâu rỗng ta dùng lệnh nào?",
+        "phuong_an": {
+          "A": "s = s.replace('a', '')",
+          "B": "s = s.replace('a')",
+          "C": "s = replace(a, '')",
+          "D": "s = s.replace()"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Phương thức `find()` trả về chỉ số xuất hiện đầu tiên của xâu con trong xâu mẹ (hoặc -1 nếu không có).",
+        "id": "B25_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Sử dụng lệnh nào để tìm vị trí đầu tiên của một xâu con trong xâu khác?",
+        "phuong_an": {
+          "A": "test()",
+          "B": "in()",
+          "C": "find()",
+          "D": "split()"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Trong \"Trường Sơn\", kí tự 'S' nằm ở chỉ số 7 (T:0, r:1, ư:2, ờ:3, n:4, g:5, ' ':6, S:7). Tìm từ vị trí 4 trả về 7.",
+        "id": "B25_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Lệnh sau trả lại giá trị gì? `\"Trường Sơn\".find(\"Sơn\", 4)`",
+        "phuong_an": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Bắt đầu tìm từ chỉ số 8 trở về sau chỉ còn \"ơn\", không chứa \"Sơn\", nên trả về -1.",
+        "id": "B25_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Lệnh sau trả lại giá trị gì? `\"Trường Sơn\".find(\"Sơn\", 8)`",
+        "phuong_an": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "-1"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Ngoài toán tử `in`, ta còn có thể dùng phương thức `find()` (khác -1 nghĩa là có chứa xâu con).",
+        "id": "B25_GOC_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Phát biểu nào **không đúng** khi nói về toán tử `in` với xâu kí tự?",
+        "phuong_an": {
+          "A": "Biểu thức kiểm tra xâu 1 nằm trong xâu 2 là: `<xâu 1> in <xâu 2>`",
+          "B": "Toán tử `in` trả về giá trị True nếu xâu 1 nằm trong xâu 2.",
+          "C": "Toán tử `in` trả về giá trị False nếu xâu 1 không nằm trong xâu 2.",
+          "D": "Toán tử `in` là cách duy nhất kiểm tra xâu có nằm trong xâu không."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "`split()` không tham số tự động bỏ khoảng trắng thừa hai đầu và tách thành `['Hà', 'Nội', 'Việt', 'Nam']` gồm 4 phần tử.",
+        "id": "B25_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Lệnh sau trả lại giá trị gì? `len(\" Hà Nội Việt Nam \".split())`",
+        "phuong_an": {
+          "A": "0",
+          "B": "4",
+          "C": "5",
+          "D": "Báo lỗi"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Kí tự phân cách mặc định của `split()` khi không truyền đối số là khoảng trắng (dấu cách, tab, xuống dòng), không phải dấu phẩy.",
+        "id": "B25_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Chọn phát biểu **sai** trong các phát biểu sau:",
+        "phuong_an": {
+          "A": "Lệnh `join()` nối các phần tử của một danh sách thành một xâu, ngăn cách bởi xâu phân cách.",
+          "B": "Trong lệnh `join()`, kí tự nối tuỳ thuộc vào xâu đứng trước `.join()`.",
+          "C": "`split()` có tác dụng tách xâu thành danh sách.",
+          "D": "Kí tự mặc định để phân cách của `split()` là dấu phẩy."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Dấu cách đầu tiên ở chỉ số 2; \"12\" bắt đầu ở chỉ số 0; \"34\" bắt đầu ở chỉ số 3.",
+        "id": "B25_GOC_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Kết quả của các câu lệnh sau là gì?\n```python\ns = \"12 34 56 ab cd de \"\nprint(s.find(\" \"))\nprint(s.find(\"12\"))\nprint(s.find(\"34\"))\n```",
+        "phuong_an": {
+          "A": "2, 0, 3",
+          "B": "2, 1, 3",
+          "C": "3, 5, 2",
+          "D": "1, 4, 5"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "`find()` tìm vị trí đầu tiên của xâu con (hoặc từ vị trí `start` nếu truyền tham số thứ hai), và tên phương thức viết thường `find`.",
+        "id": "B25_GOC_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Phát biểu nào sau đây là **đúng** khi nói về các phương thức xử lí xâu trong Python?",
+        "phuong_an": {
+          "A": "Python chỉ có duy nhất một lệnh dành cho xâu kí tự.",
+          "B": "Cú pháp của lệnh find là: `<xâu mẹ>.Find(<xâu con>)`.",
+          "C": "Lệnh `find()` sẽ tìm vị trí đầu tiên của xâu con trong xâu mẹ.",
+          "D": "Câu lệnh `find()` chỉ có một cú pháp duy nhất (1 tham số)."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Tham số thứ hai `maxsplit=1` chỉ tách tối đa 1 lần tại dấu cách đầu tiên.",
+        "id": "B25_GOC_TN_15",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_25_-_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Kết quả của chương trình sau là gì?\n```python\nline = \"Geek1 Geek2 Geek3\"\nprint(line.split())\nprint(line.split(' ', 1))\n```",
+        "phuong_an": {
+          "A": "['Geek1', 'Geek2', 'Geek3'] và ['Geek1', 'Geek2 Geek3']",
+          "B": "['Geek1', 'Geek2', 'Geek3'] và ['Geek1', 'Geek2', 'Geek3']",
+          "C": "['Geek1 Geek2', 'Geek3'] và ['Geek1', 'Geek2', 'Geek3']",
+          "D": "['Geek1 Geek2', 'Geek3'] và ['Geek1', 'Geek2 Geek3']"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Trong Python, `strip()` xóa khoảng trắng ở hai đầu xâu.",
+        "id": "B25_GOC_TN_16",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Phương thức nào dưới đây dùng để loại bỏ khoảng trắng ở đầu và cuối xâu kí tự?",
+        "phuong_an": {
+          "A": "strip()",
+          "B": "trim()",
+          "C": "clear()",
+          "D": "remove()"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "`<xâu nối>.join(<danh sách>)` nối các phần tử xâu trong danh sách thành một xâu.",
+        "id": "B25_GOC_TN_17",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Lệnh nào sau đây được sử dụng để nối các xâu kí tự trong danh sách lại với nhau?",
+        "phuong_an": {
+          "A": "split",
+          "B": "join",
+          "C": "find",
+          "D": "replace"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "Cách 1: dùng `split()` và `join()` (`\" \".join(s.split(\",\"))`). Cách 2: dùng `s.replace(\",\", \" \")`.",
+        "giai_thich": "Cả hai cách đều cho kết quả xâu mới `\"gà vịt chó lợn ngựa cá\"` mà không làm lỗi kiểu dữ liệu.",
+        "id": "B25_GOC_TL_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Cho xâu `s = \"gà,vịt,chó,lợn,ngựa,cá\"`. Trình bày hai cách để xóa các dấu `,` và thay thế bằng dấu cách `\" \"`."
+      },
+      {
+        "dap_an": "```python\ns = input(\"Nhập các số cách nhau bởi dấu cách: \")\nds = s.split()\ntong = 0\nfor x in ds:\n    tong += float(x)\nprint(\"Tổng các số là:\", tong)\n```",
+        "giai_thich": "Dùng `split()` tách thành danh sách xâu số, duyệt từng phần tử ép kiểu `float(x)` rồi cộng dồn.",
+        "id": "B25_GOC_TL_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Viết chương trình nhập nhiều số (số nguyên hoặc số thực) từ bàn phím, các số cách nhau bởi dấu cách. In ra màn hình tổng các số đã nhập."
+      },
+      {
+        "dap_an": "```python\nho_ten = input(\"Nhập họ tên: \").strip()\nds = ho_ten.split()\nten = ds[-1]\nho_dem = \" \".join(ds[:-1])\nprint(\"Họ đệm:\", ho_dem)\nprint(\"Tên:\", ten)\n```",
+        "giai_thich": "Tách họ tên bằng `split()`, phần tử cuối `ds[-1]` là tên, các phần tử còn lại ghép bằng `\" \".join(ds[:-1])` là họ đệm.",
+        "id": "B25_GOC_TL_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "Viết chương trình nhập họ tên đầy đủ của người dùng, sau đó in thông báo tên và họ đệm của người đó."
+      },
+      {
+        "dap_an": "`split()` chuyển 1 xâu thành danh sách các xâu con (dùng khi cần bóc tách dữ liệu từ chuỗi đầu vào). `join()` chuyển một danh sách các xâu thành 1 xâu duy nhất (dùng khi cần ghép nối nhiều từ/mảnh thành chuỗi hoàn chỉnh).",
+        "giai_thich": "Đây là hai phép biến đổi ngược chiều nhau giữa kiểu `str` và `list[str]`.",
+        "id": "B25_GOC_TL_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_25_mot_so_lenh_lam_viec_voi_xau_ki_tu.docx",
+        "noi_dung": "So sánh sự khác biệt giữa lệnh `split()` và lệnh `join()` trong Python. Khi nào nên sử dụng từng lệnh?"
+      }
+    ]
+  },
+  "ma_bai": "BAI_25",
+  "ten_bai": "Một số lệnh làm việc với xâu kí tự",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 7,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 3,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 2,
+      "tong": 27,
+      "tra_loi_ngan": 4,
+      "trac_nghiem": 17,
+      "tu_luan": 4
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 14,
+      "thong_hieu": 13,
+      "van_dung": 7
+    },
+    "tong_so_cau": 34
   }
 }

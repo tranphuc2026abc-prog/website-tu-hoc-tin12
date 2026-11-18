@@ -1,424 +1,377 @@
 {
-  "ma_bai": "BAI_02",
   "bai_so": 2,
-  "ten_bai": "Vai trò của thiết bị",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B02-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Phát biểu nào đúng về Thiết bị thông minh?",
-        "lua_chon": {
-          "A": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "B": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.",
-          "C": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "D": "Tin học hỗ trợ tự động hóa, trao đổi thông tin và giải quyết công việc."
-        },
-        "dap_an": "C",
-        "giai_thich": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động."
-      },
-      {
-        "id": "T10-B02-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Thiết bị nào được mô tả?",
-        "lua_chon": {
-          "A": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "B": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.",
-          "C": "Tin học hỗ trợ tự động hóa, trao đổi thông tin và giải quyết công việc.",
-          "D": "Thiết bị thông minh."
-        },
-        "dap_an": "D",
-        "giai_thich": "Thiết bị thông minh."
-      },
-      {
-        "id": "T10-B02-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Thiết bị thông minh?",
-        "lua_chon": {
-          "A": "Đồng hồ nhận thông báo từ điện thoại và đo hoạt động.",
-          "B": "Cảm biến gửi nhiệt độ phòng lên ứng dụng.",
-          "C": "Nhà máy dùng cảm biến và hệ thống điều khiển tự động.",
-          "D": "Cơ quan xử lí hồ sơ điện tử thay việc luân chuyển giấy."
-        },
-        "dap_an": "A",
-        "giai_thich": "Đồng hồ nhận thông báo từ điện thoại và đo hoạt động."
-      },
-      {
-        "id": "T10-B02-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Phát biểu nào đúng về IoT?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "B": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.",
-          "C": "Tin học hỗ trợ tự động hóa, trao đổi thông tin và giải quyết công việc.",
-          "D": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu."
-        },
-        "dap_an": "D",
-        "giai_thich": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu."
-      },
-      {
-        "id": "T10-B02-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Công nghệ nào hỗ trợ?",
-        "lua_chon": {
-          "A": "Internet vạn vật (IoT).",
-          "B": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "C": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.",
-          "D": "Tin học hỗ trợ tự động hóa, trao đổi thông tin và giải quyết công việc."
-        },
-        "dap_an": "A",
-        "giai_thich": "Internet vạn vật (IoT)."
-      },
-      {
-        "id": "T10-B02-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho IoT?",
-        "lua_chon": {
-          "A": "Đồng hồ nhận thông báo từ điện thoại và đo hoạt động.",
-          "B": "Cảm biến gửi nhiệt độ phòng lên ứng dụng.",
-          "C": "Nhà máy dùng cảm biến và hệ thống điều khiển tự động.",
-          "D": "Cơ quan xử lí hồ sơ điện tử thay việc luân chuyển giấy."
-        },
-        "dap_an": "B",
-        "giai_thich": "Cảm biến gửi nhiệt độ phòng lên ứng dụng."
-      },
-      {
-        "id": "T10-B02-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Phát biểu nào đúng về Công nghiệp 4.0?",
-        "lua_chon": {
-          "A": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.",
-          "B": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "C": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "D": "Tin học hỗ trợ tự động hóa, trao đổi thông tin và giải quyết công việc."
-        },
-        "dap_an": "A",
-        "giai_thich": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối."
-      },
-      {
-        "id": "T10-B02-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Xu hướng nào được minh họa?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "B": "Công nghiệp 4.0.",
-          "C": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "D": "Tin học hỗ trợ tự động hóa, trao đổi thông tin và giải quyết công việc."
-        },
-        "dap_an": "B",
-        "giai_thich": "Công nghiệp 4.0."
-      },
-      {
-        "id": "T10-B02-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Công nghiệp 4.0?",
-        "lua_chon": {
-          "A": "Đồng hồ nhận thông báo từ điện thoại và đo hoạt động.",
-          "B": "Cảm biến gửi nhiệt độ phòng lên ứng dụng.",
-          "C": "Nhà máy dùng cảm biến và hệ thống điều khiển tự động.",
-          "D": "Cơ quan xử lí hồ sơ điện tử thay việc luân chuyển giấy."
-        },
-        "dap_an": "C",
-        "giai_thich": "Nhà máy dùng cảm biến và hệ thống điều khiển tự động."
-      },
-      {
-        "id": "T10-B02-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Phát biểu nào đúng về Tin học trong xã hội?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "B": "Tin học hỗ trợ tự động hóa, trao đổi thông tin và giải quyết công việc.",
-          "C": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "D": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tin học hỗ trợ tự động hóa, trao đổi thông tin và giải quyết công việc."
-      },
-      {
-        "id": "T10-B02-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Vai trò nào của tin học?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "B": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "C": "Nâng hiệu quả quản lí và xử lí công việc.",
-          "D": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối."
-        },
-        "dap_an": "C",
-        "giai_thich": "Nâng hiệu quả quản lí và xử lí công việc."
-      },
-      {
-        "id": "T10-B02-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tin học trong xã hội?",
-        "lua_chon": {
-          "A": "Đồng hồ nhận thông báo từ điện thoại và đo hoạt động.",
-          "B": "Cảm biến gửi nhiệt độ phòng lên ứng dụng.",
-          "C": "Nhà máy dùng cảm biến và hệ thống điều khiển tự động.",
-          "D": "Cơ quan xử lí hồ sơ điện tử thay việc luân chuyển giấy."
-        },
-        "dap_an": "D",
-        "giai_thich": "Cơ quan xử lí hồ sơ điện tử thay việc luân chuyển giấy."
-      },
-      {
-        "id": "T10-B02-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Phát biểu nào đúng về Học tập số?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "B": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "C": "Công nghệ số giúp học sinh truy cập học liệu và học từ xa.",
-          "D": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối."
-        },
-        "dap_an": "C",
-        "giai_thich": "Công nghệ số giúp học sinh truy cập học liệu và học từ xa."
-      },
-      {
-        "id": "T10-B02-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Ứng dụng nào được mô tả?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "B": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "C": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.",
-          "D": "Học tập trực tuyến."
-        },
-        "dap_an": "D",
-        "giai_thich": "Học tập trực tuyến."
-      },
-      {
-        "id": "T10-B02-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Học tập số?",
-        "lua_chon": {
-          "A": "Học sinh xem bài giảng trực tuyến khi ở nhà.",
-          "B": "Đồng hồ nhận thông báo từ điện thoại và đo hoạt động.",
-          "C": "Cảm biến gửi nhiệt độ phòng lên ứng dụng.",
-          "D": "Nhà máy dùng cảm biến và hệ thống điều khiển tự động."
-        },
-        "dap_an": "A",
-        "giai_thich": "Học sinh xem bài giảng trực tuyến khi ở nhà."
-      },
-      {
-        "id": "T10-B02-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Phát biểu nào đúng về Điện toán đám mây?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "B": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "C": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.",
-          "D": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Điện toán đám mây cung cấp tài nguyên tính toán/lưu trữ qua mạng."
-      },
-      {
-        "id": "T10-B02-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Công nghệ nào lưu và cung cấp tài nguyên từ xa?",
-        "lua_chon": {
-          "A": "Điện toán đám mây.",
-          "B": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "C": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "D": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối."
-        },
-        "dap_an": "A",
-        "giai_thich": "Điện toán đám mây."
-      },
-      {
-        "id": "T10-B02-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Điện toán đám mây?",
-        "lua_chon": {
-          "A": "Đồng hồ nhận thông báo từ điện thoại và đo hoạt động.",
-          "B": "Nhóm cùng dùng tài liệu đặt trên dịch vụ trực tuyến.",
-          "C": "Cảm biến gửi nhiệt độ phòng lên ứng dụng.",
-          "D": "Nhà máy dùng cảm biến và hệ thống điều khiển tự động."
-        },
-        "dap_an": "B",
-        "giai_thich": "Nhóm cùng dùng tài liệu đặt trên dịch vụ trực tuyến."
-      },
-      {
-        "id": "T10-B02-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Phát biểu nào đúng về Tác động xã hội?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh tạo tiện ích nhưng cũng đặt ra yêu cầu về quyền riêng tư và an toàn.",
-          "B": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "C": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "D": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối."
-        },
-        "dap_an": "A",
-        "giai_thich": "Thiết bị thông minh tạo tiện ích nhưng cũng đặt ra yêu cầu về quyền riêng tư và an toàn."
-      },
-      {
-        "id": "T10-B02-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Vấn đề nào cần cân nhắc?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "B": "Quyền riêng tư dữ liệu.",
-          "C": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "D": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối."
-        },
-        "dap_an": "B",
-        "giai_thich": "Quyền riêng tư dữ liệu."
-      },
-      {
-        "id": "T10-B02-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tác động xã hội?",
-        "lua_chon": {
-          "A": "Đồng hồ nhận thông báo từ điện thoại và đo hoạt động.",
-          "B": "Cảm biến gửi nhiệt độ phòng lên ứng dụng.",
-          "C": "Ứng dụng thu thập vị trí người dùng.",
-          "D": "Nhà máy dùng cảm biến và hệ thống điều khiển tự động."
-        },
-        "dap_an": "C",
-        "giai_thich": "Ứng dụng thu thập vị trí người dùng."
-      },
-      {
-        "id": "T10-B02-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Vai trò của thiết bị”?",
-        "lua_chon": {
-          "A": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động. IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-          "B": "IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu. Thiết bị thông minh không thể xử lí dữ liệu hoặc kết nối với thiết bị khác.",
-          "C": "Tin học không có vai trò trong học tập và quản lí. Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "D": "Thiết bị thông minh không thể xử lí dữ liệu hoặc kết nối với thiết bị khác. Tin học không có vai trò trong học tập và quản lí."
-        },
-        "dap_an": "A",
-        "giai_thich": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động. IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B02-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Xét tính đúng/sai về bài “Vai trò của thiết bị”:",
-        "y_kien": {
-          "a": "Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.",
-          "b": "Thiết bị thông minh không thể xử lí dữ liệu hoặc kết nối với thiết bị khác.",
-          "c": "Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.",
-          "d": "Tin học không có vai trò trong học tập và quản lí."
-        },
         "dap_an": {
           "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "b": true,
+          "c": false,
+          "d": true
         },
-        "giai_thich": "a đúng: Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động.; b sai: Thiết bị thông minh không thể xử lí dữ liệu hoặc kết nối với thiết bị khác.; c đúng: Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.; d sai: Tin học không có vai trò trong học tập và quản lí.."
+        "giai_thich": "a) Đúng. b) Đúng. c) Sai vì thiết bị thông minh cần có khả năng kết nối. d) Đúng.",
+        "id": "B02_BS_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "nhan_dinh": {
+          "a": "Trí tuệ nhân tạo (AI) và dữ liệu lớn (Big Data) là những thành quả nghiên cứu tiêu biểu của khoa học tin học hiện đại.",
+          "b": "Các dịch vụ hành chính công trực tuyến giúp người dân thực hiện thủ tục nhanh chóng, minh bạch hơn.",
+          "c": "Máy tính để bàn thông thường không có card mạng hay kết nối Internet vẫn luôn được xếp là thiết bị thông minh.",
+          "d": "Phần mềm bảng tính điện tử giúp lưu trữ số liệu và tính toán tự động tiện lợi."
+        },
+        "noi_dung": "Đánh giá tính đúng sai của các nhận định sau về các thành tựu của tin học và ứng dụng trực tuyến:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Quản lí, tự động hóa, giải quyết các bài toán khoa học kĩ thuật, thay đổi cách thức làm việc của nhiều ngành nghề.",
+        "giai_thich": "Đây là 4 trụ cột đóng góp của tin học được nêu trong mục II.a Bài 2.",
+        "id": "B02_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "noi_dung": "Kể tên 4 đóng góp chính của tin học đối với xã hội theo SGK Tin học 10 Kết nối tri thức."
+      },
+      {
+        "dap_an": "Phần mềm soạn thảo văn bản, phần mềm bảng tính, phần mềm trình chiếu.",
+        "giai_thich": "Ba công cụ tin học văn phòng phổ biến giúp soạn tài liệu, tính toán số liệu và thuyết trình.",
+        "id": "B02_BS_TLN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "noi_dung": "Kể tên 3 loại phần mềm tin học văn phòng cơ bản thường dùng trong học tập và công việc."
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "CMCN 4.0 kết hợp thế giới vật lí và không gian số (bản sao số, IoT, AI) để tối ưu thiết kế và sản xuất.",
+        "id": "B02_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "noi_dung": "Đặc điểm nào sau đây là đặc trưng nổi bật của nền sản xuất thông minh trong cuộc Cách mạng công nghiệp lần thứ tư?",
+        "phuong_an": {
+          "A": "Mọi công đoạn thiết kế và sản xuất đều làm thủ công.",
+          "B": "Sản phẩm sản xuất trong thế giới vật lí nhưng quá trình tính toán, thiết kế, tạo mẫu được thực hiện trên không gian số.",
+          "C": "Chỉ sử dụng động cơ hơi nước và cơ khí hóa.",
+          "D": "Không cần kết nối giữa các thiết bị."
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B02-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Trình bày hai nội dung của bài: Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động. IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Thiết bị thông minh có thể xử lí dữ liệu, kết nối mạng và thực hiện chức năng tự động. IoT kết nối các thiết bị vật lí để thu thập và trao đổi dữ liệu.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B02-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Mặt trái: nguy cơ lộ lọt dữ liệu cá nhân, lừa đảo trực tuyến, lệ thuộc thiết bị, tin giả, khoảng cách số giữa các vùng miền. Cách ứng xử: bảo vệ mật khẩu/dữ liệu cá nhân, kiểm chứng thông tin, sử dụng thiết bị điều độ phục vụ học tập và tuân thủ pháp luật trên không gian mạng.",
+        "giai_thich": "Giúp học sinh nhận thức hai mặt của công nghệ số và hình thành năng lực sử dụng CNTT an toàn, có trách nhiệm.",
+        "id": "B02_BS_TL_01",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Vai trò của thiết bị",
-        "noi_dung": "Giải thích và vận dụng nội dung “Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Cách mạng công nghiệp lần thứ tư gắn với dữ liệu, tự động hóa, AI và kết nối.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Biên soạn bổ sung theo CT GDPT 2018",
+        "noi_dung": "Nêu một số thách thức hoặc mặt trái có thể phát sinh khi tin học và thiết bị thông minh phát triển mạnh mẽ, và đề xuất cách ứng xử phù hợp cho học sinh."
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Đúng. d) Sai vì thiết bị thông minh còn phục vụ học tập, quản lí, sản xuất, giao tiếp.",
+        "id": "B02_G_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_2.docx",
+        "nhan_dinh": {
+          "a": "Thiết bị thông minh không có ảnh hưởng gì đến cách thức giao tiếp của con người.",
+          "b": "Thiết bị thông minh giúp cải thiện khả năng kết nối và giao tiếp giữa mọi người.",
+          "c": "Việc sử dụng thiết bị thông minh hợp lí có thể nâng cao hiệu quả làm việc và học tập.",
+          "d": "Thiết bị thông minh chỉ hữu ích trong lĩnh vực giải trí."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Thiết bị thông minh, như điện thoại thông minh và máy tính bảng, đã trở thành một phần không thể thiếu trong cuộc sống hằng ngày, đặc biệt là cải thiện khả năng kết nối và giao tiếp, giúp nâng cao hiệu quả làm việc và học tập.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai vì CNTT là trụ cột của CMCN 4.0. b) Đúng. c) Sai vì thiết bị thông minh và robot thay thế con người ở nhiều khâu tự động hóa. d) Đúng.",
+        "id": "B02_G_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_2.docx",
+        "nhan_dinh": {
+          "a": "Cuộc cách mạng công nghiệp lần thứ tư không ảnh hưởng đến ngành công nghệ thông tin.",
+          "b": "Công nghệ thông tin giúp tự động hóa nhiều quy trình trong sản xuất.",
+          "c": "Thiết bị thông minh không thể thay thế con người trong bất kỳ công việc lặp đi lặp lại nào.",
+          "d": "Công nghệ thông tin đã giúp cải thiện sự quản lí và điều hành trong doanh nghiệp."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Cuộc cách mạng công nghiệp lần thứ tư đã mang lại sự phát triển vượt bậc cho công nghệ thông tin và thiết bị thông minh, từ đó thay đổi cách thức sản xuất, quản lý và giao tiếp trong xã hội.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Sai vì tin học mô phỏng và tính toán nhiều bài toán KHKT lớn. d) Đúng.",
+        "id": "B02_G_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_2.docx",
+        "nhan_dinh": {
+          "a": "Tin học không có vai trò gì trong việc quản lí dữ liệu.",
+          "b": "Tin học giúp tự động hóa quy trình làm việc, tiết kiệm thời gian và công sức.",
+          "c": "Tin học không thể giải quyết các bài toán khoa học kĩ thuật.",
+          "d": "Các hệ thống quản lí cơ sở dữ liệu giúp tổ chức và truy xuất dữ liệu dễ dàng hơn."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Các thành tựu của tin học đã mang lại nhiều lợi ích cho xã hội, như quản lí dữ liệu hiệu quả hơn, tự động hóa quy trình làm việc và giải quyết các bài toán khoa học kĩ thuật phức tạp.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Đúng. d) Sai vì hệ điều hành là phần mềm hệ thống nền tảng để máy tính hoạt động.",
+        "id": "B02_G_DS_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_2.docx",
+        "nhan_dinh": {
+          "a": "Hệ điều hành OS/360 không có ảnh hưởng gì đến sự phát triển của công nghệ thông tin.",
+          "b": "Hệ điều hành giúp người dùng dễ dàng tương tác và khai thác tài nguyên máy tính.",
+          "c": "OS/360 là một trong những hệ điều hành đầu tiên hỗ trợ xử lí đa nhiệm/hệ thống lớn.",
+          "d": "Hệ điều hành không cần thiết cho việc sử dụng máy tính đa năng hiện đại."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Hệ điều hành OS/360 được phát triển vào năm 1964 đã mở ra một kỉ nguyên mới cho việc quản lí tài nguyên máy tính và cải thiện khả năng tương tác của người dùng với hệ thống.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Sai vì ngôn ngữ bậc cao dùng cho cả phần mềm hệ thống, AI, khoa học dữ liệu, nhúng... d) Đúng.",
+        "id": "B02_G_DS_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_2.docx",
+        "nhan_dinh": {
+          "a": "Ngôn ngữ lập trình bậc cao không có vai trò gì trong việc phát triển ứng dụng.",
+          "b": "Python là một ngôn ngữ lập trình dễ học và được sử dụng rộng rãi.",
+          "c": "Ngôn ngữ lập trình bậc cao chỉ có thể được sử dụng cho các ứng dụng web.",
+          "d": "C và Cobol là những ngôn ngữ lập trình tiêu biểu trong lịch sử phát triển phần mềm."
+        },
+        "noi_dung": "Cho đoạn thông tin: 'Ngôn ngữ lập trình bậc cao như C, Python và Cobol đã giúp lập trình viên phát triển các ứng dụng phức tạp một cách dễ dàng hơn, từ đó thúc đẩy sự phát triển của công nghệ thông tin.' Hãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "3413334",
+        "giai_thich": "12 GB = 12 × 1024 = 12 288 MB. Số trang = (12 288 / 1,44) × 400 = 3 413 333,33 ≈ 3 413 334 trang.",
+        "id": "B02_G_TLN_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Một đĩa mềm có dung lượng 1,44 MB lưu trữ được 400 trang văn bản. Nếu dùng ổ đĩa cứng dung lượng 12 GB (1 GB = 1024 MB) với cùng định dạng đó thì lưu giữ được khoảng bao nhiêu trang văn bản (làm tròn lên hàng đơn vị)?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Đồng hồ thông minh kết nối Bluetooth có khả năng xử lí thông tin, kết nối mạng/thiết bị khác và hoạt động tương tác.",
+        "id": "B02_G_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Thiết bị nào dưới đây là thiết bị thông minh?",
+        "phuong_an": {
+          "A": "Cân sức khỏe cơ học.",
+          "B": "Ổ cắm điện thông thường.",
+          "C": "Đồng hồ kết nối với điện thoại qua Bluetooth.",
+          "D": "Khóa cơ đa năng."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Đồng hồ vạn niên không có tính kết nối và khả năng hoạt động tự chủ xử lí thông tin như các thiết bị thông minh.",
+        "id": "B02_G_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Đâu không phải là thiết bị thông minh?",
+        "phuong_an": {
+          "A": "Điện thoại thông minh",
+          "B": "Camera kết nối Internet",
+          "C": "Đồng hồ vạn niên",
+          "D": "Máy tính bảng"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Thiết bị thông minh về bản chất là một hệ thống xử lí thông tin có khả năng làm việc tự chủ và kết nối.",
+        "id": "B02_G_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Thiết bị thông minh là một hệ thống như thế nào?",
+        "phuong_an": {
+          "A": "Hệ thống xử lí thông tin",
+          "B": "Hệ thống định vị",
+          "C": "Hệ thống phân phối",
+          "D": "Đáp án khác"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Cuộc cách mạng công nghiệp lần thứ tư (CMCN 4.0) diễn ra từ đầu thế kỉ XXI với sự bùng nổ của CNTT, AI, IoT và tự động hóa.",
+        "id": "B02_G_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Cách mạng công nghiệp 4.0 bắt đầu diễn ra vào thời gian nào?",
+        "phuong_an": {
+          "A": "Cuối thế kỉ XX đầu thế kỉ XXI",
+          "B": "Đầu thế kỉ XXI",
+          "C": "Cuối thế kỉ XVIII đầu thế kỉ XIX",
+          "D": "Cuối thế kỉ XIX đầu thế kỉ XX"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Tin học giúp học sinh tiếp cận kho tài nguyên học tập phong phú, học ngoại ngữ và học trực tuyến mọi lúc mọi nơi.",
+        "id": "B02_G_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_2_vai_tro_cua_thiet_bi_thong_minh_doi_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Một trong những vai trò của tin học trong giáo dục là:",
+        "phuong_an": {
+          "A": "Giảm thời gian học tập xuống bằng 0",
+          "B": "Tăng cường khả năng tiếp cận thông tin và học liệu",
+          "C": "Thay thế hoàn toàn giáo viên",
+          "D": "Không có vai trò gì"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Xã hội tin học hóa là tiền đề quan trọng cho sự hình thành và phát triển nền kinh tế tri thức.",
+        "id": "B02_G_TN_06",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Tiên đề cho sự phát triển kinh tế tri thức là gì?",
+        "phuong_an": {
+          "A": "Tin học",
+          "B": "Xã hội tin học hóa",
+          "C": "Máy tính",
+          "D": "Internet"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Tin học tác động toàn diện đến quản lí, tự động hóa sản xuất, dịch vụ và nghiên cứu khoa học.",
+        "id": "B02_G_TN_07",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Lợi ích của tin học đối với xã hội là:",
+        "phuong_an": {
+          "A": "Tin học đã được ứng dụng trong mọi lĩnh vực đời sống xã hội.",
+          "B": "Sự phát triển của các mạng máy tính, đặc biệt là Internet, làm cho việc ứng dụng tin học ngày càng phổ biến.",
+          "C": "Ứng dụng tin học giúp tăng hiệu quả sản xuất, cung cấp dịch vụ và quản lí.",
+          "D": "Cả A, B và C."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Tin học thay đổi cả nhận thức, phong cách sống và tốc độ phát triển khoa học kĩ thuật.",
+        "id": "B02_G_TN_08",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Tác động của tin học đối với xã hội là:",
+        "phuong_an": {
+          "A": "Làm thay đổi nhận thức và cách tổ chức, vận hành các hoạt động xã hội.",
+          "B": "Những thiết bị hiện đại và tiện ích do tin học mang lại góp phần thay đổi phong cách sống của con người.",
+          "C": "Góp phần thúc đẩy sự phát triển mạnh mẽ của hầu hết các lĩnh vực khoa học công nghệ cũng như khoa học xã hội.",
+          "D": "Cả A, B và C."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "World Wide Web được Tim Berners-Lee phát minh năm 1989 (tại CERN).",
+        "id": "B02_G_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "World Wide Web ra đời vào năm bao nhiêu?",
+        "phuong_an": {
+          "A": "1995",
+          "B": "1996",
+          "C": "1992",
+          "D": "1989"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Không phải mọi thiết bị số đều là thiết bị thông minh (ví dụ máy ảnh số thông thường hay đồng hồ điện tử không kết nối, không tự chủ không phải thiết bị thông minh).",
+        "id": "B02_G_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Em hãy chọn phương án sai khi nói về thiết bị thông minh:",
+        "phuong_an": {
+          "A": "Thiết bị thông minh là thiết bị số.",
+          "B": "Thiết bị thông minh có thể làm việc một cách tự chủ.",
+          "C": "Mọi thiết bị số đều là thiết bị thông minh.",
+          "D": "Thiết bị thông minh có thể tương tác với người sử dụng hay các thiết bị thông minh khác."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Điện thoại thông minh tích hợp liên lạc, đa phương tiện và khả năng xử lí đa nhiệm như một máy tính thu nhỏ.",
+        "id": "B02_G_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_2_vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi.docx",
+        "noi_dung": "Vai trò của điện thoại thông minh trong cuộc sống hiện đại là:",
+        "phuong_an": {
+          "A": "Khả năng nghe và gọi như một điện thoại thông thường.",
+          "B": "Chụp ảnh, nhắn tin, quản lí danh bạ, ghi âm...",
+          "C": "Có thể coi là một máy tính thực sự với hệ điều hành được cài sẵn.",
+          "D": "Tất cả các đáp án trên."
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "Thiết bị thông minh phải có 3 đặc điểm: là thiết bị số xử lí thông tin, có khả năng hoạt động tự chủ và kết nối/tương tác. Đồng hồ vạn niên không có kết nối mạng; máy ảnh số thông thường không hoạt động tự chủ. Camera IP và đồng hồ thông minh đáp ứng đủ các tiêu chí này.",
+        "giai_thich": "Dựa trên mục I SGK Tin học 10 KNTT về dấu hiệu nhận biết thiết bị thông minh.",
+        "id": "B02_G_TL_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ndc_b2._vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi_0.docx",
+        "noi_dung": "Nêu ví dụ và giải thích vì sao máy ảnh số thông thường hoặc đồng hồ vạn niên không được coi là thiết bị thông minh, trong khi camera kết nối Internet và đồng hồ kết nối Bluetooth lại là thiết bị thông minh."
+      },
+      {
+        "dap_an": "Nhận dạng hình ảnh: hệ thống gửi xe nhận dạng biển số, camera an ninh nhận dạng khuôn mặt, camera phạt nguội giao thông. Xe tự hành kết hợp đặt xe qua mạng giúp giảm số lượng xe cá nhân, giảm ùn tắc giao thông, tiết kiệm chi phí hạ tầng và giảm ô nhiễm môi trường.",
+        "giai_thich": "Tổng hợp phần Luyện tập và Vận dụng Bài 2 SGK KNTT.",
+        "id": "B02_G_TL_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ndc_b2._vai_tro_cua_thiet_bi_thong_minh_va_tin_hoc_doi_voi_xa_hoi_0.docx",
+        "noi_dung": "Nêu một số ứng dụng của thiết bị thông minh có khả năng nhận dạng hình ảnh trong thực tế và phân tích lợi ích của xe tự hành trong cuộc Cách mạng công nghiệp 4.0."
+      }
+    ]
+  },
+  "ma_bai": "BAI_02",
+  "ten_bai": "Vai trò của thiết bị thông minh và tin học đối với xã hội",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 5,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 1,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 5,
+      "tong": 19,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 11,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 10,
+      "thong_hieu": 11,
+      "van_dung": 3
+    },
+    "tong_so_cau": 24
   }
 }

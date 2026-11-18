@@ -1,424 +1,506 @@
 {
-  "ma_bai": "BAI_14",
   "bai_so": 14,
-  "ten_bai": "Làm việc với đối tượng đường và văn bản",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B14-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Phát biểu nào đúng về Đường vectơ?",
-        "lua_chon": {
-          "A": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "B": "Nút xác định vị trí và dạng đoạn trên đường.",
-          "C": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "D": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
-        },
-        "dap_an": "C",
-        "giai_thich": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa."
-      },
-      {
-        "id": "T10-B14-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
-        "lua_chon": {
-          "A": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "B": "Nút xác định vị trí và dạng đoạn trên đường.",
-          "C": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa.",
-          "D": "Các nút/điểm điều khiển trên đường."
-        },
-        "dap_an": "D",
-        "giai_thich": "Các nút/điểm điều khiển trên đường."
-      },
-      {
-        "id": "T10-B14-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Đường vectơ?",
-        "lua_chon": {
-          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
-          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
-          "C": "Đường bị gãy ở một điểm: cần sửa gì?",
-          "D": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?"
-      },
-      {
-        "id": "T10-B14-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Phát biểu nào đúng về Đường Bezier?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "B": "Nút xác định vị trí và dạng đoạn trên đường.",
-          "C": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa.",
-          "D": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong."
-        },
-        "dap_an": "D",
-        "giai_thich": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong."
-      },
-      {
-        "id": "T10-B14-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
-        "lua_chon": {
-          "A": "Công cụ Bezier.",
-          "B": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "C": "Nút xác định vị trí và dạng đoạn trên đường.",
-          "D": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
-        },
-        "dap_an": "A",
-        "giai_thich": "Công cụ Bezier."
-      },
-      {
-        "id": "T10-B14-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Đường Bezier?",
-        "lua_chon": {
-          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
-          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
-          "C": "Đường bị gãy ở một điểm: cần sửa gì?",
-          "D": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần vẽ đường cong mượt: công cụ nào phù hợp?"
-      },
-      {
-        "id": "T10-B14-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Phát biểu nào đúng về Nút đường?",
-        "lua_chon": {
-          "A": "Nút xác định vị trí và dạng đoạn trên đường.",
-          "B": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "D": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
-        },
-        "dap_an": "A",
-        "giai_thich": "Nút xác định vị trí và dạng đoạn trên đường."
-      },
-      {
-        "id": "T10-B14-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Đường bị gãy ở một điểm: cần sửa gì?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "B": "Nút và tay nắm điều khiển.",
-          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "D": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
-        },
-        "dap_an": "B",
-        "giai_thich": "Nút và tay nắm điều khiển."
-      },
-      {
-        "id": "T10-B14-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Nút đường?",
-        "lua_chon": {
-          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
-          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
-          "C": "Đường bị gãy ở một điểm: cần sửa gì?",
-          "D": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Đường bị gãy ở một điểm: cần sửa gì?"
-      },
-      {
-        "id": "T10-B14-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Phát biểu nào đúng về Văn bản?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "B": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa.",
-          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "D": "Nút xác định vị trí và dạng đoạn trên đường."
-        },
-        "dap_an": "B",
-        "giai_thich": "Đối tượng văn bản có thể nhập và định dạng trong phần mềm đồ họa."
-      },
-      {
-        "id": "T10-B14-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "C": "Công cụ văn bản.",
-          "D": "Nút xác định vị trí và dạng đoạn trên đường."
-        },
-        "dap_an": "C",
-        "giai_thich": "Công cụ văn bản."
-      },
-      {
-        "id": "T10-B14-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Văn bản?",
-        "lua_chon": {
-          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
-          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
-          "C": "Đường bị gãy ở một điểm: cần sửa gì?",
-          "D": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Cần thêm tiêu đề cho áp phích: công cụ nào dùng?"
-      },
-      {
-        "id": "T10-B14-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Phát biểu nào đúng về Định dạng chữ?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "C": "Phông, cỡ, màu và căn lề ảnh hưởng khả năng đọc.",
-          "D": "Nút xác định vị trí và dạng đoạn trên đường."
-        },
-        "dap_an": "C",
-        "giai_thich": "Phông, cỡ, màu và căn lề ảnh hưởng khả năng đọc."
-      },
-      {
-        "id": "T10-B14-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Chú thích quá nhỏ so với nền: thuộc tính nào cần sửa?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "C": "Nút xác định vị trí và dạng đoạn trên đường.",
-          "D": "Cỡ chữ, màu và tương phản."
-        },
-        "dap_an": "D",
-        "giai_thich": "Cỡ chữ, màu và tương phản."
-      },
-      {
-        "id": "T10-B14-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Định dạng chữ?",
-        "lua_chon": {
-          "A": "Chú thích quá nhỏ so với nền: thuộc tính nào cần sửa?",
-          "B": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
-          "C": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
-          "D": "Đường bị gãy ở một điểm: cần sửa gì?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Chú thích quá nhỏ so với nền: thuộc tính nào cần sửa?"
-      },
-      {
-        "id": "T10-B14-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Phát biểu nào đúng về Chọn riêng đối tượng?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "C": "Nút xác định vị trí và dạng đoạn trên đường.",
-          "D": "Mỗi đường hoặc văn bản có thể là đối tượng riêng để chỉnh sửa."
-        },
-        "dap_an": "D",
-        "giai_thich": "Mỗi đường hoặc văn bản có thể là đối tượng riêng để chỉnh sửa."
-      },
-      {
-        "id": "T10-B14-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Muốn đổi màu chữ nhưng giữ nguyên đường viền: cần chọn gì?",
-        "lua_chon": {
-          "A": "Chọn riêng đối tượng văn bản.",
-          "B": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "D": "Nút xác định vị trí và dạng đoạn trên đường."
-        },
-        "dap_an": "A",
-        "giai_thich": "Chọn riêng đối tượng văn bản."
-      },
-      {
-        "id": "T10-B14-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Chọn riêng đối tượng?",
-        "lua_chon": {
-          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
-          "B": "Muốn đổi màu chữ nhưng giữ nguyên đường viền: cần chọn gì?",
-          "C": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
-          "D": "Đường bị gãy ở một điểm: cần sửa gì?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Muốn đổi màu chữ nhưng giữ nguyên đường viền: cần chọn gì?"
-      },
-      {
-        "id": "T10-B14-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Phát biểu nào đúng về Căn chỉnh?",
-        "lua_chon": {
-          "A": "Căn chỉnh giúp các đối tượng thẳng hàng và bố cục cân đối.",
-          "B": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "D": "Nút xác định vị trí và dạng đoạn trên đường."
-        },
-        "dap_an": "A",
-        "giai_thich": "Căn chỉnh giúp các đối tượng thẳng hàng và bố cục cân đối."
-      },
-      {
-        "id": "T10-B14-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Các dòng tiêu đề lệch nhau: công cụ nào hỗ trợ?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "B": "Căn chỉnh đối tượng.",
-          "C": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "D": "Nút xác định vị trí và dạng đoạn trên đường."
-        },
-        "dap_an": "B",
-        "giai_thich": "Căn chỉnh đối tượng."
-      },
-      {
-        "id": "T10-B14-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Căn chỉnh?",
-        "lua_chon": {
-          "A": "Cần chỉnh đường cong của hình: thành phần nào nên thao tác?",
-          "B": "Cần vẽ đường cong mượt: công cụ nào phù hợp?",
-          "C": "Các dòng tiêu đề lệch nhau: công cụ nào hỗ trợ?",
-          "D": "Đường bị gãy ở một điểm: cần sửa gì?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Các dòng tiêu đề lệch nhau: công cụ nào hỗ trợ?"
-      },
-      {
-        "id": "T10-B14-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Làm việc với đối tượng đường và văn bản”?",
-        "lua_chon": {
-          "A": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa. Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-          "B": "Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong. Văn bản trong hình đồ họa không thể đổi màu hoặc cỡ chữ.",
-          "C": "Chỉnh một nút trên đường luôn làm thay đổi mọi đối tượng khác. Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "D": "Văn bản trong hình đồ họa không thể đổi màu hoặc cỡ chữ. Chỉnh một nút trên đường luôn làm thay đổi mọi đối tượng khác."
-        },
-        "dap_an": "A",
-        "giai_thich": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa. Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B14-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Xét tính đúng/sai về bài “Làm việc với đối tượng đường và văn bản”:",
-        "y_kien": {
-          "a": "Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.",
-          "b": "Văn bản trong hình đồ họa không thể đổi màu hoặc cỡ chữ.",
-          "c": "Nút xác định vị trí và dạng đoạn trên đường.",
-          "d": "Chỉnh một nút trên đường luôn làm thay đổi mọi đối tượng khác."
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
         },
+        "giai_thich": "a) Sai, nếu chưa chuyển sang Path mà xóa đường gốc, chữ sẽ duỗi thẳng lại. b) Đúng. c) Đúng. d) Sai, lệnh này chỉ xóa các tinh chỉnh vị trí/góc thủ công của từng kí tự.",
+        "id": "B14_BS_DS_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "nhan_dinh": {
+          "a": "Sau khi dùng lệnh Text -> Put on Path, nếu ta xóa đường cong gốc đi thì văn bản vẫn giữ nguyên hình dáng uốn lượn.",
+          "b": "Để văn bản không phụ thuộc vào đường cong gốc nữa mà vẫn giữ nguyên dáng uốn lượn, ta có thể chọn văn bản và thực hiện Path -> Object to Path.",
+          "c": "Có thể lật ngược chiều chữ chạy trên đường cong bằng các biểu tượng Flip trên thanh điều khiển thuộc tính khi chọn đường hoặc văn bản.",
+          "d": "Lệnh Text -> Remove Manual Kerns làm mất toàn bộ nội dung văn bản."
+        },
+        "noi_dung": "Khi làm việc với văn bản và đường cong trong Inkscape, đánh giá tính đúng/sai của các phát biểu sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Enter",
+        "giai_thich": "Nhấn Enter (hoặc nháy đúp chuột ở điểm cuối) để kết thúc việc vẽ đường bằng công cụ Pen.",
+        "id": "B14_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Khi dùng công cụ Pen vẽ đường gấp khúc, nhấn phím gì trên bàn phím để kết thúc đường vẽ hiện tại?"
+      },
+      {
+        "dap_an": "Điểm neo trơn (Smooth node)",
+        "giai_thich": "Điểm neo trơn giữ hai đường chỉ hướng thẳng hàng để đường cong đi qua không bị gấp khúc.",
+        "id": "B14_BS_TLN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Khi sử dụng công cụ chỉnh sửa điểm neo (Node tool), loại điểm neo nào có hai đường chỉ hướng luôn thẳng hàng nhau tạo nét cong mượt mà?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "Khi đang vẽ dở bằng Pen, nhấn Backspace/Delete xóa điểm neo vừa chấm gần nhất; nhấn Enter kết thúc đường; nhấn Esc hủy toàn bộ đường đang vẽ.",
+        "id": "B14_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Trong khi đang dùng công cụ Pen để vẽ một đường gấp khúc nhiều điểm, nếu đặt nhầm điểm vừa vẽ, em nhấn phím nào để bỏ riêng điểm vừa đặt mà không thoát khỏi đường đang vẽ?",
+        "phuong_an": {
+          "A": "Esc.",
+          "B": "Backspace (hoặc Delete).",
+          "C": "Enter.",
+          "D": "Space."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Với Node tool (N), nháy đúp vào một vị trí trên đoạn đường sẽ chèn thêm một điểm neo mới tại đó.",
+        "id": "B14_BS_TN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Để thêm một điểm neo mới vào giữa một đoạn đường đang có khi sử dụng Node tool, ta thực hiện thao tác nào?",
+        "phuong_an": {
+          "A": "Nháy đúp chuột tại vị trí mong muốn trên đoạn đường.",
+          "B": "Nháy chuột phải và chọn Delete.",
+          "C": "Giữ phím Alt và kéo đoạn đường.",
+          "D": "Nhấn Ctrl + D."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Inkscape cho phép bôi đen từng kí tự trong cùng một đối tượng Text để tô màu riêng hoặc dịch chuyển cao/thấp, xoay góc bằng thanh thuộc tính hoặc phím Alt + mũi tên.",
+        "id": "B14_BS_TN_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Nếu muốn chỉnh màu sắc và độ cao thấp riêng cho từng chữ cái trong một đoạn văn bản ở Inkscape, ta làm như thế nào?",
+        "phuong_an": {
+          "A": "Phải gõ từng chữ cái thành các đối tượng văn bản riêng biệt.",
+          "B": "Nháy đúp vào văn bản bằng Text tool, bôi đen từng kí tự để đổi màu và dùng tổ hợp Alt + phím mũi tên lên/xuống để dịch chuyển độ cao.",
+          "C": "Không thể thực hiện được trong Inkscape.",
+          "D": "Chuyển văn bản sang định dạng PNG rồi sửa."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Phím N chọn Node tool; phím S chọn Select tool; phím B chọn Pen/Bezier tool; phím T chọn Text tool.",
+        "id": "B14_BS_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Phím tắt để chọn công cụ Tinh chỉnh đường (Node tool) trong Inkscape là phím nào?",
+        "phuong_an": {
+          "A": "S.",
+          "B": "N.",
+          "C": "T.",
+          "D": "B."
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "- Điểm neo trơn (Smooth node): Kí hiệu hình vuông hoặc hình tròn; hai đường chỉ hướng tại điểm neo luôn thẳng hàng tạo tiếp tuyến chung, giúp đường cong chuyển tiếp mượt mà (dùng vẽ thân lá, sóng nước, cánh hoa). - Điểm neo góc (Corner node): Kí hiệu hình thoi; hai đường chỉ hướng có thể xoay tạo góc bất kì độc lập với nhau, tạo đỉnh nhọn hoặc điểm gấp khúc (dùng vẽ đầu nhọn chiếc lá, góc ngôi sao, tai mèo).",
+        "giai_thich": "Nắm rõ bản chất hai loại điểm neo giúp tinh chỉnh đường Bezier chính xác và nhanh chóng.",
+        "id": "B14_BS_TL_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Trình bày sự khác biệt giữa điểm neo trơn (Smooth node) và điểm neo góc (Corner node) về mặt hình học, kí hiệu nhận biết và ứng dụng khi vẽ đối tượng trong Inkscape."
+      }
+    ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai, Inkscape là phần mềm đồ họa vector. b) Đúng. c) Đúng. d) Sai, neo góc vẫn có thể nối các đoạn cong nhưng tạo điểm gãy góc ở chỗ nối.",
+        "id": "B14_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_14.docx",
+        "nhan_dinh": {
+          "a": "Inkscape chỉ hỗ trợ làm việc với hình ảnh bitmap, không hỗ trợ hình ảnh vector.",
+          "b": "Neo trơn cho phép tạo ra các đường cong mượt mà liên tục hơn so với neo góc.",
+          "c": "Đối tượng đường có thể được chỉnh sửa bằng cách thay đổi vị trí của các điểm neo và điểm chỉ hướng.",
+          "d": "Neo góc không bao giờ có thể gắn với đoạn cong."
+        },
+        "noi_dung": "Cho đoạn thông tin: Đối tượng đường trong Inkscape được tạo ra từ các điểm neo, có thể là neo trơn (smooth nodes) hoặc neo góc (corner nodes). Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai, Pen vẽ được cả đoạn thẳng (nháy chuột) và đoạn cong (kéo chuột). b) Đúng. c) Đúng, qua thanh điều khiển thuộc tính của Node tool. d) Sai.",
+        "id": "B14_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_14.docx",
+        "nhan_dinh": {
+          "a": "Công cụ vẽ đường (Pen) chỉ cho phép vẽ các đoạn thẳng, không vẽ được đường cong.",
+          "b": "Tinh chỉnh các điểm neo là cần thiết để tạo ra các hình dạng tự do phức tạp.",
+          "c": "Các điểm neo có thể được chuyển đổi từ neo trơn sang neo góc và ngược lại.",
+          "d": "Inkscape không cho phép chỉnh sửa các đối tượng đường sau khi đã vẽ xong."
+        },
+        "noi_dung": "Cho đoạn thông tin: Khi làm việc với các đối tượng đường trong Inkscape, người dùng sử dụng công cụ vẽ đường (Pen) để vẽ đường thẳng và đường cong. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
         "dap_an": {
           "a": true,
           "b": false,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa.; b sai: Văn bản trong hình đồ họa không thể đổi màu hoặc cỡ chữ.; c đúng: Nút xác định vị trí và dạng đoạn trên đường.; d sai: Chỉnh một nút trên đường luôn làm thay đổi mọi đối tượng khác.."
+        "giai_thich": "a) Đúng (ví dụ hình chiếc lá có 2 neo góc ở đầu/cuối và 2 neo trơn ở hai bên). b) Sai. c) Đúng. d) Sai, neo góc cho phép hai tia xoay độc lập.",
+        "id": "B14_GOC_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_14.docx",
+        "nhan_dinh": {
+          "a": "Neo trơn và neo góc có thể được sử dụng đồng thời trong cùng một đối tượng đường.",
+          "b": "Neo trơn chỉ có thể được sử dụng cho các đoạn đường thẳng.",
+          "c": "Việc chọn loại neo và kéo chỉnh điểm chỉ hướng ảnh hưởng trực tiếp đến hình dáng của đối tượng đường.",
+          "d": "Neo góc luôn bắt buộc hai tia chỉ hướng phải thẳng hàng nhau."
+        },
+        "noi_dung": "Cho đoạn thông tin về hai loại điểm neo trong Inkscape. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Đúng. c) Sai, nháy vào điểm đầu để khép kín đường. d) Đúng, chọn đường và đặt Stroke = None.",
+        "id": "B14_GOC_DS_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_14.docx",
+        "nhan_dinh": {
+          "a": "Công cụ Chọn (Select) cho phép di chuyển, xoay, co giãn toàn bộ đối tượng nhưng không chỉnh trực tiếp từng điểm neo.",
+          "b": "Công cụ Tinh chỉnh đường (Node tool) cho phép thay đổi vị trí của các điểm neo và độ cong đường chỉ hướng.",
+          "c": "Inkscape không hỗ trợ tạo ra các đường cong kín.",
+          "d": "Có thể bỏ nét viền của đường dẫn sau khi đặt văn bản lên đường để chỉ hiển thị chữ uốn lượn."
+        },
+        "noi_dung": "Cho đoạn thông tin về các công cụ chỉnh sửa đường trong Inkscape. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Hình thoi",
+        "giai_thich": "Điểm neo góc kí hiệu bằng hình thoi; điểm neo trơn kí hiệu bằng hình vuông hoặc hình tròn.",
+        "id": "B14_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "da_tin_hoc_10_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban.docx",
+        "noi_dung": "Trong Inkscape, điểm neo góc (corner node) thường được kí hiệu trên màn hình bằng hình gì?"
+      },
+      {
+        "dap_an": "Đường chỉ hướng",
+        "giai_thich": "Ba yếu tố dùng để tinh chỉnh đối tượng đường gồm: điểm neo, điểm chỉ hướng và đường chỉ hướng.",
+        "id": "B14_GOC_TLN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban.docx",
+        "noi_dung": "Để tinh chỉnh đối tượng đường sau khi vẽ, ta dựa vào điểm neo, điểm chỉ hướng và yếu tố nào nữa?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Hình khối là đối tượng được định nghĩa sẵn trong Inkscape và xác định bởi các tính chất toán học chặt chẽ (nên khi co giãn giữ nguyên đặc trưng hình học).",
+        "id": "B14_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Hình khối trong Inkscape là gì?",
+        "phuong_an": {
+          "A": "Đối tượng cơ bản xác định bởi độ dài và góc.",
+          "B": "Đối tượng định nghĩa sẵn xác định bởi các đồ thị toán học.",
+          "C": "Đối tượng được định nghĩa sẵn trong Inkscape và xác định bởi các tính chất toán học chặt chẽ.",
+          "D": "Đối tượng tự do do người dùng vẽ bằng bút."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Theo SGK Tin học 10 KNTT, đối tượng tự do dạng đường do người dùng tạo ra, là tổ hợp của một hay nhiều đoạn cong hoặc đoạn thẳng nối lại với nhau.",
+        "id": "B14_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Điền từ còn thiếu vào chỗ trống: \"Đối tượng tự do dạng đường do (1)………. tạo ra, là tổ hợp của một hay nhiều (2)……… hoặc thẳng (3)……… với nhau.\"",
+        "phuong_an": {
+          "A": "(1) người dùng; (2) đồ thị cong; (3) giao.",
+          "B": "(1) người dùng; (2) đường cong; (3) giao.",
+          "C": "(1) người dùng; (2) đoạn cong; (3) nối lại.",
+          "D": "(1) hệ thống; (2) đoạn cong; (3) nối lại."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Mỗi đoạn cong Bézier biểu diễn bởi 4 điểm: 2 điểm đầu mút và 2 điểm điều khiển.",
+        "id": "B14_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Mỗi đoạn cong Bézier trong Inkscape được biểu diễn bởi bao nhiêu điểm?",
+        "phuong_an": {
+          "A": "4.",
+          "B": "2.",
+          "C": "3.",
+          "D": "5."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Đoạn cong Bézier bậc ba được xác định bởi 2 điểm đầu mút và 2 điểm điều khiển.",
+        "id": "B14_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Mỗi đoạn cong trong Inkscape được biểu diễn bởi các điểm nào?",
+        "phuong_an": {
+          "A": "Hai điểm đầu mút và hai điểm điều khiển.",
+          "B": "Hai điểm đầu mút và một điểm điều khiển.",
+          "C": "Hai điểm đầu mút và ba điểm điều khiển.",
+          "D": "Một điểm đầu mút và hai điểm điều khiển."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Đường thẳng nối điểm đầu mút và điểm điều khiển (đường chỉ hướng) chính là tiếp tuyến của đường cong tại điểm đầu mút đó.",
+        "id": "B14_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Mỗi điểm điều khiển kết hợp với một điểm đầu mút tạo ra yếu tố gì?",
+        "phuong_an": {
+          "A": "Tiếp tuyến của đường cong tại điểm điều khiển tương ứng.",
+          "B": "Tiếp tuyến của đường cong tại điểm đầu mút tương ứng.",
+          "C": "Độ cong của nửa đoạn cong.",
+          "D": "Độ dài của đoạn cong."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Các điểm nối giữa các đoạn gồm điểm neo trơn (smooth nodes) và điểm neo góc (corner/cusp nodes).",
+        "id": "B14_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Các điểm nối giữa các đoạn trên đối tượng đường có thể là hai loại điểm nào?",
+        "phuong_an": {
+          "A": "Điểm neo dọc hoặc điểm neo ngang.",
+          "B": "Điểm neo hướng hoặc điểm neo góc.",
+          "C": "Điểm neo cạnh hoặc điểm neo góc.",
+          "D": "Điểm neo trơn hoặc điểm neo góc."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Smooth nodes là điểm neo trơn (thể hiện bởi hình vuông hoặc hình tròn); Corner/cusp nodes là điểm neo góc (thể hiện bởi hình thoi).",
+        "id": "B14_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Smooth nodes là gì và thường được thể hiện bằng kí hiệu nào trong Inkscape?",
+        "phuong_an": {
+          "A": "Điểm neo góc, thể hiện bởi một hình thoi.",
+          "B": "Điểm neo góc, thể hiện bởi hình vuông hay hình tròn.",
+          "C": "Điểm neo trơn, thể hiện bởi một hình thoi.",
+          "D": "Điểm neo trơn, thể hiện bởi hình vuông hay hình tròn."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Corner nodes là điểm neo góc, kí hiệu hình thoi, cho phép hai tia chỉ hướng thay đổi độc lập tạo góc nhọn.",
+        "id": "B14_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Corner nodes là gì và được thể hiện như thế nào trong Inkscape?",
+        "phuong_an": {
+          "A": "Điểm neo góc, thể hiện bởi hình vuông hay hình tròn.",
+          "B": "Điểm neo góc, thể hiện bởi một hình thoi.",
+          "C": "Điểm neo trơn, thể hiện bởi một hình thoi.",
+          "D": "Điểm neo trơn, thể hiện bởi hình vuông hay hình tròn."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Chọn cả đối tượng văn bản và đối tượng đường, sau đó chọn lệnh Text -> Put on Path.",
+        "id": "B14_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Muốn đặt một đoạn văn bản chạy uốn lượn theo một đường đã có trong Inkscape, ta dùng lệnh nào?",
+        "phuong_an": {
+          "A": "File / Put on Path.",
+          "B": "Text / Put the Path.",
+          "C": "Text / Put in Path.",
+          "D": "Text / Put on Path."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Chọn đối tượng văn bản đang gắn trên đường và chọn Text -> Remove from Path. (Lưu ý: bảng đáp án nguồn ghi nhầm D).",
+        "id": "B14_GOC_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Muốn bỏ đặt văn bản theo đường trong Inkscape, ta dùng lệnh nào?",
+        "phuong_an": {
+          "A": "Text / Remove from Path.",
+          "B": "File / Remove from Path.",
+          "C": "Text / Remove on Path.",
+          "D": "Text / Remove."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Lệnh Text -> Remove Manual Kerns xóa bỏ các tinh chỉnh thủ công (dịch chuyển, xoay từng ký tự) đã đặt trước đó.",
+        "id": "B14_GOC_TN_11",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Muốn bỏ các tùy chỉnh khoảng cách/độ cao thủ công đã đặt cho từng chữ trong đối tượng văn bản, ta dùng lệnh nào?",
+        "phuong_an": {
+          "A": "Text / Remove Manual.",
+          "B": "File / Remove Manual Kerns.",
+          "C": "Text / Remove Manual Kerns.",
+          "D": "Text / Remove."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Một đoạn thẳng được xác định bởi ít nhất 2 điểm (điểm đầu và điểm cuối).",
+        "id": "B14_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Cần ít nhất bao nhiêu điểm để xác định một đoạn thẳng khi vẽ bằng công cụ Pen?",
+        "phuong_an": {
+          "A": "4.",
+          "B": "2.",
+          "C": "3.",
+          "D": "5."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Sau khi đặt văn bản theo đường bằng Put on Path, ta vẫn có thể sửa nội dung, đổi phông chữ, màu sắc, hoặc gỡ bỏ bằng Remove from Path.",
+        "id": "B14_GOC_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban.docx",
+        "noi_dung": "Phát biểu nào sau đây là SAI khi làm việc với đoạn văn bản trong Inkscape?",
+        "phuong_an": {
+          "A": "Trong một đoạn văn có nhiều chữ ta có thể tô mỗi chữ bằng một màu khác nhau.",
+          "B": "Nếu đặt đoạn văn uốn lượn theo một đường, ta không thể thay đổi định dạng đó.",
+          "C": "Trong một đoạn văn có nhiều chữ, ta có thể tùy chỉnh để mỗi chữ có độ cao thấp khác nhau.",
+          "D": "Ta có thể đặt đoạn văn bản theo một khuôn dạng nhất định."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Khi điểm đầu và điểm cuối trùng nhau tạo thành một đường khép kín (đường cong kín), có thể tô màu bên trong.",
+        "id": "B14_GOC_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong Inkscape, tên của một đối tượng đường có điểm đầu trùng với điểm cuối được gọi là gì?",
+        "phuong_an": {
+          "A": "Hình tròn.",
+          "B": "Đường cong hở.",
+          "C": "Hình khối.",
+          "D": "Đường cong kín."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Cả hình khối và đối tượng văn bản đều có thể chuyển thành đối tượng đường (Path -> Object to Path, Ctrl + Shift + C) để chỉnh sửa điểm neo tự do.",
+        "id": "B14_GOC_TN_15",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đối tượng nào sau đây có thể chuyển sang đối tượng đường (Object to Path)?",
+        "phuong_an": {
+          "A": "Văn bản.",
+          "B": "Hình khối.",
+          "C": "Cả A và B đều đúng.",
+          "D": "Không đối tượng nào chuyển được."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Ctrl + Shift + C tương ứng với lệnh Path -> Object to Path. (Lưu ý: bảng đáp án nguồn ghi nhầm A).",
+        "id": "B14_GOC_TN_16",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tổ hợp phím nào dùng để chuyển nhanh một đối tượng được chọn sang đối tượng đường?",
+        "phuong_an": {
+          "A": "Ctrl + Shift + D",
+          "B": "Ctrl + Shift + S",
+          "C": "Ctrl + Shift + C",
+          "D": "Ctrl + Shift + F"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Align dùng để căn thẳng hàng; Distribute dùng để phân bố khoảng cách đều nhau giữa các đối tượng.",
+        "id": "B14_GOC_TN_17",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Có 4 đối tượng trên vùng làm việc, làm thế nào để căn các đối tượng cách đều nhau một cách chính xác?",
+        "phuong_an": {
+          "A": "Chọn lần lượt từng đối tượng và di chuyển bằng mắt.",
+          "B": "Chọn cả 4 đối tượng rồi chỉ dùng lệnh Align.",
+          "C": "Chọn cả 4 đối tượng, rồi chọn lệnh Distribute phù hợp trong bảng Align and Distribute.",
+          "D": "Nhấn Ctrl + G để nhóm lại."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Ctrl + Shift + A mở hộp thoại Align and Distribute. (Lưu ý: bảng đáp án nguồn ghi nhầm B; Ctrl + Shift + D là Document Properties).",
+        "id": "B14_GOC_TN_18",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd4_bai_14_lam_viec_voi_doi_tuong_duong_va_van_ban_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phím tắt để hiển thị bảng điều khiển Align and Distribute trong Inkscape là gì?",
+        "phuong_an": {
+          "A": "Ctrl + Shift + V",
+          "B": "Ctrl + Shift + D",
+          "C": "Ctrl + Shift + A",
+          "D": "Ctrl + Shift + F"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B14-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Nên dùng công cụ vẽ hình chữ nhật trên hộp công cụ, sau đó kéo chỉnh góc bo (Rx, Ry) bằng công cụ tinh chỉnh hoặc thanh thuộc tính. Vì hình chữ nhật là hình khối xác định bởi tính chất toán học chặt chẽ nên khi biến đổi kích thước, các cạnh vẫn vuông góc và góc bo giữ nguyên đặc trưng, trong khi vẽ bằng Pen sẽ khó đảm bảo độ chính xác.",
+        "giai_thich": "Phân biệt ưu thế của hình khối (Shapes) so với đối tượng đường tự do (Paths).",
+        "id": "B14_GOC_TL_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Trình bày hai nội dung của bài: Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa. Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Đường được xác định bởi nút và đoạn nối có thể chỉnh sửa. Đường Bezier dùng nút và tay nắm điều khiển để tạo đường cong.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "ndc_b14._lam_viec_voi_doi_tuong_duong_va_van_ban_.docx",
+        "noi_dung": "Để vẽ một hình chữ nhật góc tròn có tính chất hình học ổn định khi co giãn, em nên dùng công cụ nào? Giải thích tại sao."
       },
       {
-        "id": "T10-B14-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Bước 1: Dùng công cụ Pen vẽ đường cong mong muốn. Bước 2: Dùng công cụ Text nhập đoạn văn bản cần trình bày. Bước 3: Chọn cả đối tượng văn bản và đường cong, chọn lệnh Text -> Put on Path. Bước 4: Chọn riêng đường cong (có thể chọn qua tab Objects hoặc nháy chọn trực tiếp) và bỏ màu vẽ (Stroke = None trong Fill and Stroke hoặc Shift + nháy vào ô dấu X trên Palette) để ẩn đường dẫn.",
+        "giai_thich": "Không được xóa đường dẫn vì nếu xóa đường dẫn, văn bản sẽ mất đường uốn lượn (trừ khi đã chuyển văn bản thành Path).",
+        "id": "B14_GOC_TL_02",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 14 - Làm việc với đối tượng đường và văn bản",
-        "noi_dung": "Giải thích và vận dụng nội dung “Nút xác định vị trí và dạng đoạn trên đường.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Nút xác định vị trí và dạng đoạn trên đường.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "ndc_b14._lam_viec_voi_doi_tuong_duong_va_van_ban_.docx",
+        "noi_dung": "Nêu cách tạo một đoạn văn bản uốn lượn theo đường cong mà không làm lộ đường dẫn trên bản vẽ cuối cùng."
       }
     ]
+  },
+  "ma_bai": "BAI_14",
+  "ten_bai": "Làm việc với đối tượng đường và văn bản",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 8,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 4,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 4,
+      "tong": 26,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 18,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 16,
+      "thong_hieu": 12,
+      "van_dung": 6
+    },
+    "tong_so_cau": 34
   }
 }

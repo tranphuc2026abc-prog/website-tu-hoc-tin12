@@ -1,424 +1,664 @@
 {
-  "ma_bai": "BAI_11",
   "bai_so": 11,
-  "ten_bai": "Ứng xử trên môi trường số",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
+    "dung_sai": [],
+    "tra_loi_ngan": [
       {
-        "id": "T10-B11-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Phát biểu nào đúng về Dấu vết số?",
-        "lua_chon": {
-          "A": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "B": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.",
-          "C": "Chia sẻ nội dung chưa kiểm chứng có thể gây hiểu lầm hoặc hại người khác.",
-          "D": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài."
-        },
-        "dap_an": "D",
-        "giai_thich": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài."
-      },
-      {
-        "id": "T10-B11-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?",
-        "lua_chon": {
-          "A": "Dấu vết số và phạm vi người xem.",
-          "B": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "C": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.",
-          "D": "Chia sẻ nội dung chưa kiểm chứng có thể gây hiểu lầm hoặc hại người khác."
-        },
-        "dap_an": "A",
-        "giai_thich": "Dấu vết số và phạm vi người xem."
-      },
-      {
-        "id": "T10-B11-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Dấu vết số?",
-        "lua_chon": {
-          "A": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?",
-          "B": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?",
-          "C": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?",
-          "D": "Một bài đăng lan truyền nhưng không có dẫn chứng: nên xử lí thế nào?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?"
-      },
-      {
-        "id": "T10-B11-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Phát biểu nào đúng về Văn hóa ứng xử?",
-        "lua_chon": {
-          "A": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "B": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "C": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.",
-          "D": "Chia sẻ nội dung chưa kiểm chứng có thể gây hiểu lầm hoặc hại người khác."
-        },
-        "dap_an": "A",
-        "giai_thich": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh."
-      },
-      {
-        "id": "T10-B11-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Phản biện nội dung bằng ngôn từ tôn trọng.",
-          "C": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.",
-          "D": "Chia sẻ nội dung chưa kiểm chứng có thể gây hiểu lầm hoặc hại người khác."
-        },
-        "dap_an": "B",
-        "giai_thich": "Phản biện nội dung bằng ngôn từ tôn trọng."
-      },
-      {
-        "id": "T10-B11-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Văn hóa ứng xử?",
-        "lua_chon": {
-          "A": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?",
-          "B": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?",
-          "C": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?",
-          "D": "Một bài đăng lan truyền nhưng không có dẫn chứng: nên xử lí thế nào?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?"
-      },
-      {
-        "id": "T10-B11-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Phát biểu nào đúng về Bản quyền số?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.",
-          "C": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "D": "Chia sẻ nội dung chưa kiểm chứng có thể gây hiểu lầm hoặc hại người khác."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép."
-      },
-      {
-        "id": "T10-B11-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "C": "Xin phép hoặc dùng theo giấy phép, ghi nguồn.",
-          "D": "Chia sẻ nội dung chưa kiểm chứng có thể gây hiểu lầm hoặc hại người khác."
-        },
-        "dap_an": "C",
-        "giai_thich": "Xin phép hoặc dùng theo giấy phép, ghi nguồn."
-      },
-      {
-        "id": "T10-B11-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Bản quyền số?",
-        "lua_chon": {
-          "A": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?",
-          "B": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?",
-          "C": "Một bài đăng lan truyền nhưng không có dẫn chứng: nên xử lí thế nào?",
-          "D": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?"
-      },
-      {
-        "id": "T10-B11-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Điều 101",
+        "giai_thich": "Điều 101 Nghị định 15/2020/NĐ-CP quy định xử phạt các vi phạm quy định về trách nhiệm sử dụng dịch vụ mạng xã hội.",
+        "id": "BAI_11_BS_TLN_01",
         "muc_do": "Thông hiểu",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Phát biểu nào đúng về Thông tin sai lệch?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "C": "Chia sẻ nội dung chưa kiểm chứng có thể gây hiểu lầm hoặc hại người khác.",
-          "D": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép."
-        },
-        "dap_an": "C",
-        "giai_thich": "Chia sẻ nội dung chưa kiểm chứng có thể gây hiểu lầm hoặc hại người khác."
-      },
-      {
-        "id": "T10-B11-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Một bài đăng lan truyền nhưng không có dẫn chứng: nên xử lí thế nào?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "C": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.",
-          "D": "Kiểm chứng trước khi chia sẻ."
-        },
-        "dap_an": "D",
-        "giai_thich": "Kiểm chứng trước khi chia sẻ."
-      },
-      {
-        "id": "T10-B11-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Thông tin sai lệch?",
-        "lua_chon": {
-          "A": "Một bài đăng lan truyền nhưng không có dẫn chứng: nên xử lí thế nào?",
-          "B": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?",
-          "C": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?",
-          "D": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Một bài đăng lan truyền nhưng không có dẫn chứng: nên xử lí thế nào?"
-      },
-      {
-        "id": "T10-B11-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Phát biểu nào đúng về Quyền riêng tư?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "C": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.",
-          "D": "Thông tin cá nhân của người khác không nên công khai nếu chưa được đồng ý."
-        },
-        "dap_an": "D",
-        "giai_thich": "Thông tin cá nhân của người khác không nên công khai nếu chưa được đồng ý."
-      },
-      {
-        "id": "T10-B11-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Định đăng ảnh bạn học có thông tin riêng: cần làm gì?",
-        "lua_chon": {
-          "A": "Xin phép và che dữ liệu nhạy cảm.",
-          "B": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "C": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "D": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép."
-        },
-        "dap_an": "A",
-        "giai_thich": "Xin phép và che dữ liệu nhạy cảm."
-      },
-      {
-        "id": "T10-B11-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Quyền riêng tư?",
-        "lua_chon": {
-          "A": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?",
-          "B": "Định đăng ảnh bạn học có thông tin riêng: cần làm gì?",
-          "C": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?",
-          "D": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Định đăng ảnh bạn học có thông tin riêng: cần làm gì?"
-      },
-      {
-        "id": "T10-B11-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Phát biểu nào đúng về Trách nhiệm pháp lí?",
-        "lua_chon": {
-          "A": "Đưa tin lên mạng vẫn chịu quy định pháp luật liên quan.",
-          "B": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "C": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "D": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép."
-        },
-        "dap_an": "A",
-        "giai_thich": "Đưa tin lên mạng vẫn chịu quy định pháp luật liên quan."
-      },
-      {
-        "id": "T10-B11-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Một người đăng nội dung bôi nhọ người khác: nguyên tắc nào cần nhớ?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Môi trường số không miễn trừ trách nhiệm pháp lí.",
-          "C": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "D": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép."
-        },
-        "dap_an": "B",
-        "giai_thich": "Môi trường số không miễn trừ trách nhiệm pháp lí."
-      },
-      {
-        "id": "T10-B11-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Trách nhiệm pháp lí?",
-        "lua_chon": {
-          "A": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?",
-          "B": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?",
-          "C": "Một người đăng nội dung bôi nhọ người khác: nguyên tắc nào cần nhớ?",
-          "D": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Một người đăng nội dung bôi nhọ người khác: nguyên tắc nào cần nhớ?"
-      },
-      {
-        "id": "T10-B11-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Phát biểu nào đúng về Trích dẫn?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Trích dẫn/ghi nguồn phân biệt nội dung của mình với nội dung tham khảo.",
-          "C": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "D": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trích dẫn/ghi nguồn phân biệt nội dung của mình với nội dung tham khảo."
-      },
-      {
-        "id": "T10-B11-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Dùng biểu đồ từ một trang web: cần bổ sung gì?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "B": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "C": "Nguồn và thông tin quyền sử dụng.",
-          "D": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép."
-        },
-        "dap_an": "C",
-        "giai_thich": "Nguồn và thông tin quyền sử dụng."
-      },
-      {
-        "id": "T10-B11-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Trích dẫn?",
-        "lua_chon": {
-          "A": "Chuẩn bị đăng ảnh có vị trí và thông tin cá nhân: điều gì cần cân nhắc?",
-          "B": "Tranh luận với bạn trên diễn đàn: cách phản hồi phù hợp là gì?",
-          "C": "Sử dụng ảnh của người khác trong bài làm: cần làm gì?",
-          "D": "Dùng biểu đồ từ một trang web: cần bổ sung gì?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Dùng biểu đồ từ một trang web: cần bổ sung gì?"
-      },
-      {
-        "id": "T10-B11-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Ứng xử trên môi trường số”?",
-        "lua_chon": {
-          "A": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài. Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-          "B": "Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh. Tác phẩm trên mạng không có bản quyền nên có thể dùng tùy ý.",
-          "C": "Giao tiếp qua mạng không chịu quy tắc đạo đức hay pháp luật. Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "D": "Tác phẩm trên mạng không có bản quyền nên có thể dùng tùy ý. Giao tiếp qua mạng không chịu quy tắc đạo đức hay pháp luật."
-        },
-        "dap_an": "A",
-        "giai_thich": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài. Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh."
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "Trong Nghị định 15/2020/NĐ-CP, điều khoản nào thường được áp dụng để xử phạt vi phạm hành chính đối với hành vi cung cấp, chia sẻ thông tin giả mạo, sai sự thật trên mạng xã hội?"
       }
     ],
+    "trac_nghiem": [],
+    "tu_luan": [
+      {
+        "dap_an": "Vi phạm đạo đức là hành vi đi ngược chuẩn mực ứng xử cộng đồng, bị xã hội lên án (ví dụ: nói trống không, bình luận thiếu lịch sự). Vi phạm pháp luật là hành vi trái các điều cấm trong luật định và bị nhà nước xử phạt hành chính hoặc hình sự (ví dụ: tung tin giả về dịch bệnh, lừa đảo chiếm đoạt tài sản, phát tán phần mềm lậu).",
+        "giai_thich": "Phân biệt rõ ranh giới đạo đức và pháp luật giúp học sinh tự điều chỉnh hành vi trên không gian mạng.",
+        "id": "BAI_11_BS_TL_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung (chuẩn GDPT 2018)",
+        "noi_dung": "Phân biệt sự khác nhau giữa vi phạm đạo đức và vi phạm pháp luật trong môi trường số, cho ví dụ minh họa mỗi loại."
+      }
+    ]
+  },
+  "cau_hoi_goc": {
     "dung_sai": [
       {
-        "id": "T10-B11-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Xét tính đúng/sai về bài “Ứng xử trên môi trường số”:",
-        "y_kien": {
-          "a": "Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.",
-          "b": "Tác phẩm trên mạng không có bản quyền nên có thể dùng tùy ý.",
-          "c": "Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.",
-          "d": "Giao tiếp qua mạng không chịu quy tắc đạo đức hay pháp luật."
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": true
         },
+        "giai_thich": "a sai (áp dụng cho cả văn học, khoa học, phần mềm); b, c đúng; d đúng vì quyền tác giả phát sinh kể từ khi tác phẩm được sáng tạo và thể hiện dưới hình thức vật chất nhất định.",
+        "id": "BAI_11_GOC_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_11.docx",
+        "nhan_dinh": {
+          "a": "Bản quyền chỉ áp dụng cho các tác phẩm nghệ thuật.",
+          "b": "Việc sao chép một tác phẩm mà không có sự cho phép của tác giả là vi phạm bản quyền.",
+          "c": "Tác giả có quyền quyết định ai có thể sử dụng tác phẩm của mình.",
+          "d": "Bản quyền không cần thiết phải được đăng ký để có hiệu lực."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nBản quyền là quyền hợp pháp của tác giả đối với các tác phẩm sáng tạo của họ, bao gồm văn học, nghệ thuật và khoa học. Việc sao chép, phân phối hoặc sử dụng tác phẩm mà không có sự cho phép của tác giả là vi phạm bản quyền.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
         "dap_an": {
           "a": true,
           "b": false,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "b sai (vi phạm bản quyền có thể bị phạt hành chính hoặc truy cứu hình sự); c sai (người dùng cần chủ động tìm hiểu và tuân thủ); a, d đúng.",
+        "id": "BAI_11_GOC_DS_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_11.docx",
+        "nhan_dinh": {
+          "a": "Tôn trọng bản quyền là trách nhiệm của mỗi người dùng trong môi trường số.",
+          "b": "Việc vi phạm bản quyền không có hậu quả gì nghiêm trọng.",
+          "c": "Người dùng không cần phải tìm hiểu về bản quyền khi sử dụng tài nguyên trực tuyến.",
+          "d": "Tôn trọng bản quyền giúp bảo vệ quyền lợi của tác giả và khuyến khích sự sáng tạo."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nTrong môi trường số, việc tôn trọng bản quyền không chỉ là nghĩa vụ pháp lý mà còn là đạo đức. Người dùng cần hiểu rõ các quy định về bản quyền để tránh vi phạm và bảo vệ quyền lợi của tác giả.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài.; b sai: Tác phẩm trên mạng không có bản quyền nên có thể dùng tùy ý.; c đúng: Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.; d sai: Giao tiếp qua mạng không chịu quy tắc đạo đức hay pháp luật.."
+        "giai_thich": "a sai (giấy phép là ràng buộc pháp lý); d sai (có phần mềm thương mại trả phí); b, c đúng.",
+        "id": "BAI_11_GOC_DS_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_11.docx",
+        "nhan_dinh": {
+          "a": "Giấy phép sử dụng phần mềm không quan trọng và có thể bỏ qua.",
+          "b": "Người dùng phải tuân thủ các điều khoản trong giấy phép khi sử dụng phần mềm.",
+          "c": "Việc không tuân thủ giấy phép có thể dẫn đến hậu quả pháp lý.",
+          "d": "Tất cả các phần mềm đều miễn phí cho người dùng."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nCác phần mềm và ứng dụng thường có giấy phép sử dụng riêng. Người dùng cần đọc kỹ các điều khoản trong giấy phép để biết quyền và nghĩa vụ của mình khi sử dụng sản phẩm. Có những tính năng miễn phí và những tính năng mất phí khi người dùng sử dụng phần mềm tùy thuộc vào mục đích làm việc. (Nguồn: Microsoft)\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a, c sai (tài nguyên trên mạng vẫn được bảo hộ bản quyền); b, d đúng (ví dụ giấy phép Creative Commons có điều kiện ghi công).",
+        "id": "BAI_11_GOC_DS_04",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_11.docx",
+        "nhan_dinh": {
+          "a": "Người dùng có thể tự do sử dụng bất kỳ tài nguyên nào trên Internet mà không cần lo lắng về bản quyền.",
+          "b": "Tài nguyên miễn phí bản quyền có thể được sử dụng mà không cần xin phép.",
+          "c": "Việc sử dụng tài nguyên có bản quyền mà không xin phép là hợp pháp nếu không có ai phát hiện.",
+          "d": "Các tài nguyên có giấy phép rõ ràng thường đi kèm với các điều kiện sử dụng cụ thể."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nViệc sử dụng hình ảnh, video hoặc âm nhạc từ Internet mà không có sự cho phép có thể dẫn đến vi phạm bản quyền. Người dùng nên tìm kiếm các tài nguyên miễn phí bản quyền hoặc có giấy phép rõ ràng.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a, c sai (YouTube đánh gậy bản quyền và có thể khóa kênh nếu vi phạm); b, d đúng.",
+        "id": "BAI_11_GOC_DS_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_11.docx",
+        "nhan_dinh": {
+          "a": "Người dùng có thể tải xuống và chia sẻ video từ YouTube mà không cần lo lắng về bản quyền.",
+          "b": "Việc vi phạm bản quyền trên nền tảng trực tuyến có thể dẫn đến việc tài khoản bị khóa.",
+          "c": "Chính sách bản quyền của YouTube không ảnh hưởng đến người dùng.",
+          "d": "Người dùng cần phải hiểu rõ các quy định về bản quyền khi sử dụng các nền tảng trực tuyến."
+        },
+        "noi_dung": "Cho đoạn thông tin:\nNền tảng trực tuyến như YouTube và Spotify có các chính sách nghiêm ngặt về bản quyền. Người dùng cần tuân thủ các quy định này để tránh bị xóa nội dung hoặc bị cấm sử dụng dịch vụ.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "(1) tác giả (và nguồn trích dẫn); (2) sao chép / phát tán",
+        "giai_thich": "Ghi rõ tên tác giả/nguồn và không tự ý sao chép phát tán trái phép là nguyên tắc cơ bản tôn trọng bản quyền.",
+        "id": "BAI_11_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_11_ung_xu_tren_moi_truong_so_nghi_vu_ton_trong_ban_quyen.docx",
+        "noi_dung": "Điền từ thích hợp vào chỗ trống:\n(1) Khi sử dụng tài liệu từ Internet, bạn cần ghi rõ .......................... (tác giả, nhà xuất bản, ngày phát hành) để tôn trọng bản quyền.\n(2) Hành vi ................................ (sao chép, chia sẻ, phát tán) tài liệu không có sự cho phép của tác giả là vi phạm bản quyền."
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Theo Luật Sở hữu trí tuệ, quyền tác giả là quyền của tổ chức, cá nhân đối với tác phẩm do mình sáng tạo ra hoặc sở hữu.",
+        "id": "BAI_11_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Quyền của tổ chức, cá nhân đối với tác phẩm do mình sáng tạo ra hoặc sở hữu là",
+        "phuong_an": {
+          "A": "Bản quyền.",
+          "B": "Quyền sở hữu.",
+          "C": "Quyền tác giả.",
+          "D": "Quyền tài sản."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Cố ý gây thương tích là hành vi bạo lực thân thể ngoài đời thực, không phải hành vi đặc thù khi sử dụng mạng.",
+        "id": "BAI_11_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu không phải hành vi vi phạm về đạo đức, pháp luật và văn hóa khi sử dụng mạng?",
+        "phuong_an": {
+          "A": "Đưa tin không phù hợp lên mạng.",
+          "B": "Công bố thông tin cá nhân hay tổ chức mà không được phép.",
+          "C": "Cố ý gây thương tích cho người khác.",
+          "D": "Vi phạm bản quyền khi sử dụng dữ liệu và phần mềm."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Phát tán tin nhắn rác, ứng xử thiếu văn hóa và bắt nạt qua mạng đều là các hành vi vi phạm.",
+        "id": "BAI_11_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu là hành vi vi phạm về đạo đức, pháp luật và văn hóa khi sử dụng mạng?",
+        "phuong_an": {
+          "A": "Tất cả các đáp án dưới đây đều đúng.",
+          "B": "Phát tán thư điện tử, tin nhắn rác.",
+          "C": "Ứng xử thiếu văn hóa.",
+          "D": "Bắt nạt qua mạng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Luật An ninh mạng số 24/2018/QH14 được thông qua ngày 12/6/2018 (có hiệu lực từ 01/01/2019).",
+        "id": "BAI_11_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Luật An ninh mạng của Việt Nam được Quốc hội ban hành năm",
+        "phuong_an": {
+          "A": "2017.",
+          "B": "2018.",
+          "C": "2019.",
+          "D": "2020."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Đạo đức mang tính tự giác thực hiện theo chuẩn mực xã hội (khác với pháp luật mang tính cưỡng chế).",
+        "id": "BAI_11_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đạo đức là",
+        "phuong_an": {
+          "A": "Hệ thống các quy tắc, chuẩn mực xã hội mà con người phải tự giác thực hiện phù hợp với lợi ích cộng đồng, xã hội.",
+          "B": "Hệ thống các quy tắc, chuẩn mực xã hội mà con người bắt buộc phải thực hiện, nếu không sẽ bị phạt.",
+          "C": "Hệ thống các quy tắc, chuẩn mực xã hội.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Định giá bán tác phẩm liên quan đến lợi ích kinh tế (quyền tài sản), không thuộc quyền nhân thân.",
+        "id": "BAI_11_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Quyền nhân thân không bao gồm",
+        "phuong_an": {
+          "A": "Đặt tên cho tác phẩm.",
+          "B": "Định giá tác phẩm khi bán ra thị trường.",
+          "C": "Công bố tác phẩm hoặc cho phép người khác công bố tác phẩm.",
+          "D": "Bảo vệ sự toàn vẹn của tác phẩm."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Luật Sở hữu trí tuệ quy định chi tiết về quyền tác giả và quyền liên quan.",
+        "id": "BAI_11_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ngày 25 tháng 6 năm 2019 (văn bản hợp nhất/sửa đổi 2019), Quốc hội Việt Nam ban hành/sửa đổi Luật gì quy định quyền tác giả đối với tác phẩm?",
+        "phuong_an": {
+          "A": "Luật sở hữu.",
+          "B": "Luật tác giả.",
+          "C": "Luật sở hữu trí tuệ.",
+          "D": "Luật bản quyền."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Quyền tác giả gồm 2 nhóm: quyền nhân thân và quyền tài sản.",
+        "id": "BAI_11_GOC_TN_08",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Luật Sở hữu trí tuệ quy định quyền tác giả bao gồm quyền nhân thân và quyền",
+        "phuong_an": {
+          "A": "Sở hữu.",
+          "B": "Trí tuệ.",
+          "C": "Giá trị.",
+          "D": "Tài sản."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Cả 3 hành vi trên đều xâm phạm quyền nhân thân hoặc quyền tài sản của tác giả.",
+        "id": "BAI_11_GOC_TN_09",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Hoạt động nào dưới đây vi phạm bản quyền?",
+        "phuong_an": {
+          "A": "Mạo danh tác giả.",
+          "B": "Sử dụng phần mềm lậu.",
+          "C": "Sửa chữa, chuyển thể phần mềm mà không được phép của tác giả.",
+          "D": "Tất cả đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Theo SGK KNTT (và đáp án bộ đề gốc chọn B): mua phần mềm khác với mua quyền sở hữu/bản quyền; người dùng chỉ mua quyền sử dụng theo giấy phép.",
+        "id": "BAI_11_GOC_TN_10",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Điền từ còn thiếu vào chỗ trống: “Trong tin học, mua phần mềm ……….. mua quyền sử dụng.”",
+        "phuong_an": {
+          "A": "Là.",
+          "B": "Khác.",
+          "C": "Là điều kiện cần.",
+          "D": "Là một cách."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Dùng nhờ phần mềm đã cài hợp pháp trên máy tính của chủ sở hữu không tạo bản sao trái phép nên không vi phạm bản quyền.",
+        "id": "BAI_11_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong các hành vi sau, hành vi nào không vi phạm bản quyền?",
+        "phuong_an": {
+          "A": "Phá khóa phần mềm chỉ để thử khả năng phá khóa chứ không dùng.",
+          "B": "Dùng nhờ một phần mềm trên máy tính của người khác.",
+          "C": "Sử dụng các phần mềm lậu.",
+          "D": "Sao chép các đĩa cài đặt phần mềm."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Mức độ nhẹ là vi phạm đạo đức ứng xử; mức độ nghiêm trọng xúc phạm danh dự, nhân phẩm sẽ vi phạm pháp luật.",
+        "id": "BAI_11_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Nếu đăng trên mạng xã hội nhận xét có tính xúc phạm đến một người khác thì hành vi này là",
+        "phuong_an": {
+          "A": "Không vi phạm gì.",
+          "B": "Vi phạm đạo đức.",
+          "C": "Vi phạm pháp luật.",
+          "D": "Tùy theo mức độ, có thể vi phạm đạo đức hay pháp luật."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Người mua quyền sử dụng (license) chỉ được phép dùng phần mềm, không có quyền sở hữu bản quyền.",
+        "id": "BAI_11_GOC_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Bản quyền của phần mềm không thuộc về đối tượng nào?",
+        "phuong_an": {
+          "A": "Người đầu tư.",
+          "B": "Người lập trình.",
+          "C": "Người mua quyền sử dụng.",
+          "D": "Người mua quyền tài sản."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Tự ý sao chép và phát tán lại toàn bộ tác phẩm lên trang cá nhân khi chưa xin phép là vi phạm bản quyền.",
+        "id": "BAI_11_GOC_TN_14",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Có một truyện ngắn, tác giả để trên website để mọi người có thể đọc. Hành vi nào sau đây là vi phạm bản quyền?",
+        "phuong_an": {
+          "A": "Tải về máy của mình để đọc.",
+          "B": "Tải về và đăng lại trên trang Facebook của mình cho bạn bè cùng đọc.",
+          "C": "Đăng tải đường link trên trang Facebook của mình cho mọi người tìm đọc.",
+          "D": "Chụp ảnh màn hình những đoạn hay để sau này đọc lại."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Theo quy định pháp luật về bảo vệ bí mật đời tư và dữ liệu cá nhân, đây là hành vi vi phạm pháp luật.",
+        "id": "BAI_11_GOC_TN_15",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Công bố thông tin cá nhân hay tổ chức mà không được phép là loại hành vi vi phạm gì?",
+        "phuong_an": {
+          "A": "Không vi phạm.",
+          "B": "Cả C và D đều đúng.",
+          "C": "Vi phạm đạo đức.",
+          "D": "Vi phạm pháp luật."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Tùy tính chất nội dung và mức độ hậu quả gây ra mà hành vi bị xem xét vi phạm đạo đức hay xử lý theo pháp luật.",
+        "id": "BAI_11_GOC_TN_16",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đưa thông tin không phù hợp lên mạng có thể bị coi là vi phạm gì?",
+        "phuong_an": {
+          "A": "Không vi phạm.",
+          "B": "Tùy theo nội dung và hậu quả.",
+          "C": "Vi phạm đạo đức.",
+          "D": "Vi phạm pháp luật."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Chia sẻ bài viết từ trang báo chính thống qua liên kết gốc là hợp pháp.",
+        "id": "BAI_11_GOC_TN_17",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Hành vi nào sau đây không phải hành vi vi phạm pháp luật về chia sẻ thông tin?",
+        "phuong_an": {
+          "A": "Phát tán video độc hại lên mạng.",
+          "B": "Đăng tin sai sự thật về người khác lên Zalo.",
+          "C": "Chia sẻ văn hoá phẩm đồi truỵ trên mạng.",
+          "D": "Chia sẻ tin tức của trang báo Lao Động lên trang cá nhân Facebook."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Người mua quyền sử dụng chỉ được phép sử dụng sản phẩm đúng phạm vi thỏa thuận trong giấy phép.",
+        "id": "BAI_11_GOC_TN_18",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Chỉ mua quyền sử dụng thì người mua có thể làm gì đối với sản phẩm?",
+        "phuong_an": {
+          "A": "Không thể tác động gì.",
+          "B": "Kinh doanh.",
+          "C": "Sử dụng.",
+          "D": "Sao chép và phát tán."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Chia sẻ tùy tiện mọi thông tin mà không kiểm chứng hoặc bất chấp quy định dễ dẫn đến vi phạm pháp luật.",
+        "id": "BAI_11_GOC_TN_19",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Việc làm nào chia sẻ thông tin không an toàn và hợp pháp?",
+        "phuong_an": {
+          "A": "Chia sẻ bất kì thông tin nào mà mình thích.",
+          "B": "Không đăng những thông tin sai sự thật hoặc những điều làm tổn thương người khác.",
+          "C": "Tránh đưa những thông tin chưa được kiểm chứng rõ ràng.",
+          "D": "Không đăng những thông tin vi phạm pháp luật, trái với chủ trương của Nhà nước."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Kẻ lừa đảo thường đánh vào lòng tham, sự tò mò hoặc giả mạo tổ chức yêu cầu chuyển tiền.",
+        "id": "BAI_11_GOC_TN_20",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đâu là những dấu hiệu của các trò lừa đảo trên Internet?",
+        "phuong_an": {
+          "A": "Tất cả các đáp án dưới đây đều đúng.",
+          "B": "Những lời quảng cáo đánh vào lòng tham vật chất.",
+          "C": "Những lời giới thiệu gây sự tò mò, hiếu kì.",
+          "D": "Tin nhắn của người lạ hay đại diện cho một tổ chức nào đó yêu cầu nộp tiền."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Sao chép phần mềm/trò chơi thương mại khi không được phép là hành vi xâm phạm quyền tác giả.",
+        "id": "BAI_11_GOC_TN_21",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Tại sao không nên sao chép một trò chơi trên đĩa CD-ROM mà bạn không có giấy đăng ký bản quyền?",
+        "phuong_an": {
+          "A": "Bởi nếu làm vậy máy tính có thể bị hỏng.",
+          "B": "Bởi nếu làm vậy những tệp tin trên đĩa CD gốc sẽ bị hỏng.",
+          "C": "Bởi vì đó là vi phạm bản quyền.",
+          "D": "Bởi vì quá trình đó quá phức tạp và có thể xảy ra lỗi."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Phát tán nội dung đồi trụy là hành vi vi phạm cả đạo đức, thuần phong mỹ tục và pháp luật.",
+        "id": "BAI_11_GOC_TN_22",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Việc nào dưới đây bị phê phán?",
+        "phuong_an": {
+          "A": "Xem tin tức trên các trang báo điện tử chính thống.",
+          "B": "Phát tán những nội dung (hình ảnh, video, câu chuyện,…) đồi trụy trên các nền tảng mạng xã hội.",
+          "C": "Like, comment bài viết chúc mừng sinh nhật bạn.",
+          "D": "Like, share, comment các bài viết về nghị lực vượt khó, vươn lên trong cuộc sống."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Đổi mật khẩu khi có cảnh báo đăng nhập lạ là hành động bảo mật đúng đắn.",
+        "id": "BAI_11_GOC_TN_23",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Việc nào dưới đây không bị phê phán?",
+        "phuong_an": {
+          "A": "Cố ý làm nhiễm virus vào máy tính của trường.",
+          "B": "Sao chép phần mềm không có bản quyền.",
+          "C": "Like, share, comment các bài viết, thông tin chưa được kiểm chứng.",
+          "D": "Thay đổi mật khẩu Facebook của mình khi nhận được thông báo có phiên đăng nhập trên địa chỉ lạ."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Hiểu biết pháp luật về bản quyền và thông tin cá nhân giúp người dùng chia sẻ thông tin an toàn, hợp pháp.",
+        "id": "BAI_11_GOC_TN_24",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Để đảm bảo tính an toàn và hợp pháp khi chia sẻ thông tin trong môi trường số, cần lưu ý",
+        "phuong_an": {
+          "A": "Tùy tiện đăng tải thông tin cá nhân của người khác trên mạng xã hội.",
+          "B": "Có những hiểu biết cơ bản về các quy định của pháp luật liên quan tới bản quyền, thông tin cá nhân và việc chia sẻ thông tin.",
+          "C": "Đăng nhập các tài khoản trên máy tính lạ, ngay cả khi mạng không đáng tin cậy.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Cả 3 nguyên tắc trên đều thiết yếu khi tham gia môi trường số.",
+        "id": "BAI_11_GOC_TN_25",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Để đảm bảo tính an toàn và hợp pháp khi chia sẻ thông tin trong môi trường số, cần lưu ý",
+        "phuong_an": {
+          "A": "Tôn trọng thông tin cá nhân của người khác.",
+          "B": "Tôn trọng bản quyền sản phẩm thông tin của người khác.",
+          "C": "Thực hiện những biện pháp an ninh như sử dụng mật khẩu mạnh, phần mềm diệt virus.",
+          "D": "Tất cả các đáp án trên đều đúng."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Kí hiệu © (Copyright) biểu thị tác phẩm được bảo hộ bản quyền.",
+        "id": "BAI_11_GOC_TN_26",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trên một số đồ dùng, chúng ta thường gặp kí hiệu bản quyền (©). Kí hiệu đó có ý nghĩa gì?",
+        "phuong_an": {
+          "A": "Bản quyền.",
+          "B": "Nhãn hiệu.",
+          "C": "Đã được đăng kí bảo hộ với cơ quan pháp luật.",
+          "D": "Sản phẩm tiết kiệm điện."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Khoản 1, 3, 5 quy định các hành vi xâm phạm quyền tác giả trong Điều 28 Luật SHTT; nội dung mục 2 là mức phạt hành chính thuộc Nghị định xử phạt.",
+        "id": "BAI_11_GOC_TN_27",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Cho các Khoản sau:\n1. Chiếm đoạt quyền tác giả đối với tác phẩm văn học, nghệ thuật, khoa học.\n2. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi xuyên tạc tác phẩm gây phương hại đến danh dự và uy tín của tác giả.\n3. Công bố, phân phối tác phẩm mà không được phép của tác giả.\n5. Sửa chữa, cắt xén hoặc xuyên tạc tác phẩm dưới bất kì hình thức nào gây phương hại đến danh dự và uy tín của tác giả.\nCác Khoản nào trên đây thuộc Điều 28 Luật Sở hữu trí tuệ quy định về Hành vi xâm hại quyền tác giả?",
+        "phuong_an": {
+          "A": "Khoản 2, 3, 5.",
+          "B": "Khoản 1, 2, 5.",
+          "C": "Khoản 1, 3, 5.",
+          "D": "Khoản 1, 2, 3."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Các điểm b, d, e là trường hợp ngoại lệ sử dụng hợp lý không cần xin phép/trả thù lao; điểm h là hành vi bị cấm.",
+        "id": "BAI_11_GOC_TN_28",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Cho các Điểm sau:\nb) Trích dẫn hợp lí tác phẩm mà không làm sai ý tác giả để bình luận hoặc minh họa trong tác phẩm của mình;\nd) Trích dẫn tác phẩm để giảng dạy trong nhà trường mà không làm sai ý tác giả, không nhằm mục đích thương mại;\ne) Biểu diễn tác phẩm sân khấu, loại hình biểu diễn nghệ thuật khác trong các buổi sinh hoạt văn hóa, tuyên truyền cổ động không thu tiền dưới bất kì hình thức nào;\nh) Cung cấp, chia sẻ đường dẫn đến thông tin trên mạng có nội dung cấm.\nCác Điểm nào thuộc Khoản 1 Điều 25 Luật Sở hữu trí tuệ (Các trường hợp sử dụng tác phẩm đã công bố không phải xin phép, không phải trả tiền nhuận bút thù lao)?",
+        "phuong_an": {
+          "A": "Điểm d, e, h.",
+          "B": "Điểm b, d, h.",
+          "C": "Điểm b, e, h.",
+          "D": "Điểm b, d, e."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Khoản 1 Điều 11 Nghị định 131/2013/NĐ-CP quy định mức phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi công bố tác phẩm không được phép.",
+        "id": "BAI_11_GOC_TN_29",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_3_phan_1.docx",
+        "noi_dung": "Theo Điều 11 Nghị định 131/2013/NĐ-CP, hành vi công bố tác phẩm mà không được phép của chủ sở hữu quyền tác giả theo quy định sẽ bị phạt tiền từ",
+        "phuong_an": {
+          "A": "3.000.000 đồng đến 5.000.000 đồng.",
+          "B": "5.000.000 đồng đến 10.000.000 đồng.",
+          "C": "10.000.000 đồng đến 20.000.000 đồng.",
+          "D": "20.000.000 đồng đến 30.000.000 đồng."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Công ty vi phạm khoản 7 (làm tác phẩm phái sinh/dịch không phép), khoản 8 (sử dụng không xin phép/trả thù lao) và khoản 10 (truyền đạt tác phẩm đến công chúng qua mạng không phép).",
+        "id": "BAI_11_GOC_TN_30",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trang web của một công ty kinh doanh trò chơi trực tuyến có đăng bản giới thiệu về trò chơi được dịch và lấy video minh họa từ trang web nhà sản xuất nước ngoài nhưng chưa xin phép. Công ty đã vi phạm Luật Sở hữu trí tuệ tại các khoản nào của Điều 28?",
+        "phuong_an": {
+          "A": "Khoản 7, 8, 10.",
+          "B": "Khoản 1, 8, 10.",
+          "C": "Khoản 7, 9, 10.",
+          "D": "Khoản 1, 8, 11."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Phương án B giữ đúng ý tác giả và trích dẫn đầy đủ tên tác giả, tên báo, thời gian và đường dẫn nguồn.",
+        "id": "BAI_11_GOC_TN_31",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "tn_tin10_on_tap_chu_de_3_phan_1.docx",
+        "noi_dung": "Em viết bài đăng lên trang web của trường giới thiệu về hội thi đánh cờ ở làng A, sử dụng lời bình của tác giả Nguyễn Văn B trên báo điện tử X: “Hội thi đánh cờ ở làng A diễn ra vào mùa xuân, là một ví dụ về những phong tục văn hoá đẹp từ xa xưa của làng quê Việt Nam”. Cách viết nào dưới đây phù hợp?",
+        "phuong_an": {
+          "A": "“Báo điện tử X đã giới thiệu hội thi đánh cờ ở làng A như một trong những phong tục văn hoá đẹp diễn ra vào mùa xuân ở làng quê Việt Nam xưa mà nay đã không còn nữa. Nguồn: Báo điện tử X”.",
+          "B": "“Báo điện tử X đã giới thiệu hội thi đánh cờ ở làng A như một nét văn hoá truyền thống của làng quê Việt Nam (Nguyễn Văn B, báo điện tử X, ngày... tháng... năm..., nguồn: https://www…)”.",
+          "C": "“Báo điện tử X đã giới thiệu hội thi đánh cờ ở làng A như một trong những phong tục văn hoá đẹp nhưng đang bị mai một dần bởi quá trình đô thị hoá (Nguyễn Văn B, báo điện tử X, ngày... tháng... năm...).”",
+          "D": "“Báo điện tử X đã giới thiệu hội thi đánh cờ ở làng A như một trong những phong tục văn hoá đẹp diễn ra vào mùa thu ở làng quê Việt Nam (Nguyễn Văn B)”."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Theo Điều 25 Luật Sở hữu trí tuệ, tự sao chép một bản nhằm mục đích nghiên cứu khoa học, học tập của cá nhân (không thương mại) là trường hợp không phải xin phép và không phải trả tiền nhuận bút.",
+        "id": "BAI_11_GOC_TN_32",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx",
+        "noi_dung": "An mượn sách của bạn rồi đem đi photo một bản để có sách học. Theo em, việc đó có vi phạm quyền tác giả không, vì sao?",
+        "phuong_an": {
+          "A": "Có. Vì An đã tự ý sao chép tác phẩm mà không xin phép tác giả cũng như không trả tiền nhuận bút, thù lao.",
+          "B": "Không. Vì tuy An đã tự ý sao chép tác phẩm, không xin phép tác giả nhưng chỉ để sử dụng cá nhân, phục vụ nghiên cứu, học tập.",
+          "C": "Không. Vì tuy An đã tự ý sao chép tác phẩm, không xin phép tác giả nhưng chỉ sao chép một bản.",
+          "D": "Có. Vì dù sao chép tác phẩm vì mục đích gì mà không xin phép tác giả thì vẫn là vi phạm quyền tác giả."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Tải phim lậu từ trang web không có bản quyền là hành vi vi phạm bản quyền.",
+        "id": "BAI_11_GOC_TN_33",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_11_ung_xu_tren_moi_truong_so_nghi_vu_ton_trong_ban_quyen.docx",
+        "noi_dung": "Hành vi nào sau đây được coi là vi phạm bản quyền?",
+        "phuong_an": {
+          "A": "Tải xuống phim từ trang web không chính thức",
+          "B": "Mua sách và cho bạn mượn",
+          "C": "Sử dụng phần mềm miễn phí",
+          "D": "Trích dẫn tài liệu với nguồn gốc rõ ràng"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Luật bản quyền bảo vệ quyền nhân thân và quyền tài sản hợp pháp của tác giả/chủ sở hữu.",
+        "id": "BAI_11_GOC_TN_34",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_11_ung_xu_tren_moi_truong_so_nghi_vu_ton_trong_ban_quyen.docx",
+        "noi_dung": "Luật bản quyền nhằm mục đích gì?",
+        "phuong_an": {
+          "A": "Bảo vệ quyền lợi của tác giả",
+          "B": "Giảm giá thành sản phẩm",
+          "C": "Tăng cường sự cạnh tranh",
+          "D": "Khuyến khích sao chép tác phẩm"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B11-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Trình bày hai nội dung của bài: Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài. Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Bài đăng và tương tác có thể được lưu hoặc lan truyền lâu dài. Giao tiếp số cần tôn trọng, lịch sự và phù hợp bối cảnh.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "dap_an": "Người này sai ở chỗ không kiểm chứng tính xác thực của thông tin mà đã vội chia sẻ phát tán, gây hoang mang dư luận, vi phạm điểm d khoản 1 Điều 8 Luật An ninh mạng và bị xử phạt theo điểm d khoản 1 Điều 101 Nghị định 15/2020/NĐ-CP.",
+        "giai_thich": "Hành vi chia sẻ lại tin giả gây hoang mang xã hội vẫn bị xử lý theo pháp luật.",
+        "id": "BAI_11_GOC_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen.docx",
+        "noi_dung": "Trong đại dịch Covid-19, một người dùng Facebook đã chia sẻ tin 'Bắt đầu từ ngày 28/3/2020, toàn thành phố Hồ Chí Minh sẽ bị phong tỏa trong 14 ngày...'. Khi bị triệu tập để xử phạt, người này chứng minh rằng anh ta chỉ chia sẻ lại một tin chứ không tự bịa ra. Người này sai ở đâu?"
       },
       {
-        "id": "T10-B11-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "Không đúng. Theo nguyên tắc pháp luật, mọi công dân đều có nghĩa vụ tìm hiểu và tuân thủ pháp luật; việc không biết quy định không miễn trừ trách nhiệm khi thực hiện hành vi vi phạm bản quyền.",
+        "giai_thich": "Cần chủ động nâng cao hiểu biết pháp luật trong môi trường số.",
+        "id": "BAI_11_GOC_TL_02",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 11 - Ứng xử trên môi trường số",
-        "noi_dung": "Giải thích và vận dụng nội dung “Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Tác phẩm số vẫn được bảo vệ bởi quyền tác giả/điều kiện giấy phép.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "da_tin_hoc_10_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen.docx",
+        "noi_dung": "An nhắc Bình về việc Bình dùng phần mềm lậu và giảng giải quy định về quyền tác giả. Bình bảo: 'Trước đây mình không biết, mà không biết là không có lỗi'. Quan niệm của Bình có đúng không? Vì sao?"
+      },
+      {
+        "dap_an": "Sử dụng kho nhạc miễn phí bản quyền (như YouTube Audio Library, nhạc giấy phép Creative Commons phù hợp), hoặc liên hệ xin phép và trả phí bản quyền cho chủ sở hữu trước khi sử dụng.",
+        "giai_thich": "Tuân thủ bản quyền âm nhạc giúp tránh bị gỡ video hoặc khóa tài khoản.",
+        "id": "BAI_11_GOC_TL_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_11_ung_xu_tren_moi_truong_so_nghi_vu_ton_trong_ban_quyen.docx",
+        "noi_dung": "Khi em muốn sử dụng một bài hát trong video của mình đăng lên mạng, em sẽ làm gì để đảm bảo không vi phạm bản quyền?"
       }
     ]
+  },
+  "ma_bai": "BAI_11",
+  "ten_bai": "Ứng xử trên môi trường số. Nghĩa vụ tôn trọng bản quyền",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 0,
+      "tong": 2,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 0,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 5,
+      "tong": 43,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 34,
+      "tu_luan": 3
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 16,
+      "thong_hieu": 19,
+      "van_dung": 10
+    },
+    "tong_so_cau": 45
   }
 }

@@ -1,424 +1,364 @@
 {
-  "ma_bai": "BAI_28",
   "bai_so": 28,
-  "ten_bai": "Phạm vi của biến",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B28-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Phát biểu nào đúng về Biến cục bộ?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "C": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.",
-          "D": "Dùng biến chưa được gán trong phạm vi hiện hành có thể gây lỗi."
-        },
-        "dap_an": "A",
-        "giai_thich": "Biến tạo trong hàm thường có phạm vi cục bộ."
-      },
-      {
-        "id": "T10-B28-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?",
-        "lua_chon": {
-          "A": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "B": "Trong hàm hoặc phạm vi được xác định.",
-          "C": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.",
-          "D": "Dùng biến chưa được gán trong phạm vi hiện hành có thể gây lỗi."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong hàm hoặc phạm vi được xác định."
-      },
-      {
-        "id": "T10-B28-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Biến cục bộ?",
-        "lua_chon": {
-          "A": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?",
-          "B": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?",
-          "C": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?",
-          "D": "Hàm đọc biến local trước khi gán: nguyên nhân nào có thể xảy ra?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?"
-      },
-      {
-        "id": "T10-B28-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Phát biểu nào đúng về Biến toàn cục?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "C": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.",
-          "D": "Dùng biến chưa được gán trong phạm vi hiện hành có thể gây lỗi."
-        },
-        "dap_an": "B",
-        "giai_thich": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi."
-      },
-      {
-        "id": "T10-B28-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.",
-          "C": "Phạm vi toàn cục/module.",
-          "D": "Dùng biến chưa được gán trong phạm vi hiện hành có thể gây lỗi."
-        },
-        "dap_an": "C",
-        "giai_thich": "Phạm vi toàn cục/module."
-      },
-      {
-        "id": "T10-B28-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Biến toàn cục?",
-        "lua_chon": {
-          "A": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?",
-          "B": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?",
-          "C": "Hàm đọc biến local trước khi gán: nguyên nhân nào có thể xảy ra?",
-          "D": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?"
-      },
-      {
-        "id": "T10-B28-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Phát biểu nào đúng về Che khuất tên?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "C": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.",
-          "D": "Dùng biến chưa được gán trong phạm vi hiện hành có thể gây lỗi."
-        },
-        "dap_an": "C",
-        "giai_thich": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm."
-      },
-      {
-        "id": "T10-B28-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "C": "Dùng biến chưa được gán trong phạm vi hiện hành có thể gây lỗi.",
-          "D": "Biến cục bộ cùng tên."
-        },
-        "dap_an": "D",
-        "giai_thich": "Biến cục bộ cùng tên."
-      },
-      {
-        "id": "T10-B28-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Che khuất tên?",
-        "lua_chon": {
-          "A": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?",
-          "B": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?",
-          "C": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?",
-          "D": "Hàm đọc biến local trước khi gán: nguyên nhân nào có thể xảy ra?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?"
-      },
-      {
-        "id": "T10-B28-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Phát biểu nào đúng về Lỗi phạm vi?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "C": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.",
-          "D": "Dùng biến chưa được gán trong phạm vi hiện hành có thể gây lỗi."
-        },
-        "dap_an": "D",
-        "giai_thich": "Dùng biến chưa được gán trong phạm vi hiện hành có thể gây lỗi."
-      },
-      {
-        "id": "T10-B28-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Hàm đọc biến local trước khi gán: nguyên nhân nào có thể xảy ra?",
-        "lua_chon": {
-          "A": "Biến chưa được tạo/gán trong phạm vi đó.",
-          "B": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "C": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "D": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm."
-        },
-        "dap_an": "A",
-        "giai_thich": "Biến chưa được tạo/gán trong phạm vi đó."
-      },
-      {
-        "id": "T10-B28-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Lỗi phạm vi?",
-        "lua_chon": {
-          "A": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?",
-          "B": "Hàm đọc biến local trước khi gán: nguyên nhân nào có thể xảy ra?",
-          "C": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?",
-          "D": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Hàm đọc biến local trước khi gán: nguyên nhân nào có thể xảy ra?"
-      },
-      {
-        "id": "T10-B28-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Phát biểu nào đúng về Tham số hàm?",
-        "lua_chon": {
-          "A": "Tham số hoạt động như biến cục bộ của lần gọi hàm.",
-          "B": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "C": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "D": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tham số hoạt động như biến cục bộ của lần gọi hàm."
-      },
-      {
-        "id": "T10-B28-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Hàm f(x) nhận đối số: x thường thuộc phạm vi nào?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Phạm vi của hàm.",
-          "C": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "D": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm."
-        },
-        "dap_an": "B",
-        "giai_thich": "Phạm vi của hàm."
-      },
-      {
-        "id": "T10-B28-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tham số hàm?",
-        "lua_chon": {
-          "A": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?",
-          "B": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?",
-          "C": "Hàm f(x) nhận đối số: x thường thuộc phạm vi nào?",
-          "D": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Hàm f(x) nhận đối số: x thường thuộc phạm vi nào?"
-      },
-      {
-        "id": "T10-B28-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Phát biểu nào đúng về Hạn chế global?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Sửa biến toàn cục tùy tiện làm chương trình khó kiểm soát.",
-          "C": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "D": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm."
-        },
-        "dap_an": "B",
-        "giai_thich": "Sửa biến toàn cục tùy tiện làm chương trình khó kiểm soát."
-      },
-      {
-        "id": "T10-B28-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Nhiều hàm thay đổi chung một biến trạng thái: điều nào giúp mã dễ bảo trì?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "C": "Truyền dữ liệu qua tham số và giá trị trả về.",
-          "D": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm."
-        },
-        "dap_an": "C",
-        "giai_thich": "Truyền dữ liệu qua tham số và giá trị trả về."
-      },
-      {
-        "id": "T10-B28-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Hạn chế global?",
-        "lua_chon": {
-          "A": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?",
-          "B": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?",
-          "C": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?",
-          "D": "Nhiều hàm thay đổi chung một biến trạng thái: điều nào giúp mã dễ bảo trì?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Nhiều hàm thay đổi chung một biến trạng thái: điều nào giúp mã dễ bảo trì?"
-      },
-      {
-        "id": "T10-B28-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Phát biểu nào đúng về Phạm vi module?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "C": "Tên biến ở mức module có thể dùng trong các hàm theo quy tắc Python.",
-          "D": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tên biến ở mức module có thể dùng trong các hàm theo quy tắc Python."
-      },
-      {
-        "id": "T10-B28-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Hàm cần đọc hằng cấu hình khai báo ngoài: điều gì cần hiểu?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "C": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.",
-          "D": "Quy tắc phạm vi tên."
-        },
-        "dap_an": "D",
-        "giai_thich": "Quy tắc phạm vi tên."
-      },
-      {
-        "id": "T10-B28-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Phạm vi module?",
-        "lua_chon": {
-          "A": "Hàm cần đọc hằng cấu hình khai báo ngoài: điều gì cần hiểu?",
-          "B": "Biến tạm được gán bên trong f(): ở đâu dùng biến này?",
-          "C": "Hằng số PI dùng ở nhiều hàm: đặt ở đâu hợp lí?",
-          "D": "Có x ngoài hàm và x mới bên trong: trong hàm x nào được dùng?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Hàm cần đọc hằng cấu hình khai báo ngoài: điều gì cần hiểu?"
-      },
-      {
-        "id": "T10-B28-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Phạm vi của biến”?",
-        "lua_chon": {
-          "A": "Biến tạo trong hàm thường có phạm vi cục bộ. Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-          "B": "Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi. Biến cục bộ luôn truy cập được từ mọi tệp chương trình.",
-          "C": "Mọi biến trong hàm mặc định đều là biến toàn cục. Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "D": "Biến cục bộ luôn truy cập được từ mọi tệp chương trình. Mọi biến trong hàm mặc định đều là biến toàn cục."
-        },
-        "dap_an": "A",
-        "giai_thich": "Biến tạo trong hàm thường có phạm vi cục bộ. Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B28-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Xét tính đúng/sai về bài “Phạm vi của biến”:",
-        "y_kien": {
-          "a": "Biến tạo trong hàm thường có phạm vi cục bộ.",
-          "b": "Biến cục bộ luôn truy cập được từ mọi tệp chương trình.",
-          "c": "Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.",
-          "d": "Mọi biến trong hàm mặc định đều là biến toàn cục."
-        },
         "dap_an": {
           "a": true,
           "b": false,
           "c": true,
-          "d": false
+          "d": true
         },
-        "giai_thich": "a đúng: Biến tạo trong hàm thường có phạm vi cục bộ.; b sai: Biến cục bộ luôn truy cập được từ mọi tệp chương trình.; c đúng: Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.; d sai: Mọi biến trong hàm mặc định đều là biến toàn cục.."
+        "giai_thich": "a) Đúng. b) Sai vì `dem` bên ngoài vẫn là `0`. c) Đúng. d) Đúng.",
+        "id": "B28_BS_DS_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "nhan_dinh": {
+          "a": "Giá trị của `kq` sau khi chạy là `1`.",
+          "b": "Giá trị của biến toàn cục `dem` sau khi gọi `tang()` là `1`.",
+          "c": "Biến `dem` bên trong hàm `tang()` là biến cục bộ che khuất biến toàn cục `dem`.",
+          "d": "Nếu thêm `global dem` ở đầu thân hàm `tang()`, biến `dem` bên ngoài sẽ đổi thành `1`."
+        },
+        "noi_dung": "Cho đoạn chương trình:\n```python\ndem = 0\ndef tang():\n    dem = 1\n    return dem\nkq = tang()\n```\nĐánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "4",
+        "giai_thich": "Không có `global x` nên `x = 9` chỉ tạo biến cục bộ, biến toàn cục `x` vẫn là `4`.",
+        "id": "B28_BS_TLN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Cho `x = 4`. Hàm `def g(): x = 9` được gọi, sau đó chạy `print(x)`. Giá trị in ra là bao nhiêu?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "Nhờ khai báo `global x`, lệnh `x = x + 5` cập nhật trực tiếp biến toàn cục `x` thành `15`.",
+        "id": "B28_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Kết quả in ra của đoạn lệnh sau là gì?\n```python\nx = 10\ndef cap_nhat():\n    global x\n    x = x + 5\ncap_nhat()\nprint(x)\n```",
+        "phuong_an": {
+          "A": "10",
+          "B": "15",
+          "C": "5",
+          "D": "Lỗi UnboundLocalError"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "`k` là biến cục bộ trong `tao_bien()`, không tồn tại ở bên ngoài hàm nên `print(k)` báo `NameError`.",
+        "id": "B28_BS_TN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Đoạn lệnh sau sẽ xảy ra điều gì khi chạy?\n```python\ndef tao_bien():\n    k = 100\ntao_bien()\nprint(k)\n```",
+        "phuong_an": {
+          "A": "In ra 100",
+          "B": "In ra None",
+          "C": "Lỗi NameError",
+          "D": "Lỗi SyntaxError"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B28-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Trình bày hai nội dung của bài: Biến tạo trong hàm thường có phạm vi cục bộ. Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Biến tạo trong hàm thường có phạm vi cục bộ. Biến khai báo ở ngoài hàm có thể được đọc trong nhiều phạm vi.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B28-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "```python\ndef ucln_bcnn(m, n):\n    a, b = m, n\n    while b != 0:\n        a, b = b, a % b\n    ucln = a\n    bcnn = (m * n) // ucln\n    return ucln, bcnn\n```",
+        "giai_thich": "Lưu ý dùng biến cục bộ `a, b` để tính ƯCLN mà không làm mất giá trị gốc `m, n` khi tính `bcnn`.",
+        "id": "B28_BS_TL_01",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Phạm vi của biến",
-        "noi_dung": "Giải thích và vận dụng nội dung “Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Biến cục bộ cùng tên có thể che khuất biến ngoài trong phạm vi hàm.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Bổ sung chuẩn hóa GDPT 2018",
+        "noi_dung": "Viết một hàm `ucln_bcnn(m, n)` nhận hai số nguyên dương `m, n` và trả về đồng thời cả ƯCLN và BCNN của `m, n`."
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Đúng. d) Sai vì dùng `global` có thể thay đổi giá trị biến toàn cục.",
+        "id": "B28_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_28.docx",
+        "nhan_dinh": {
+          "a": "Biến cục bộ có thể được truy cập từ bên ngoài hàm mà nó được khai báo.",
+          "b": "Biến toàn cục có thể được đọc giá trị trong các hàm trong chương trình.",
+          "c": "Biến cục bộ không thể được sử dụng ở bên ngoài hàm.",
+          "d": "Biến toàn cục hoàn toàn không thể bị thay đổi trong hàm ngay cả khi dùng từ khóa global."
+        },
+        "noi_dung": "Cho đoạn thông tin: Trong Python, biến được khai báo bên trong một hàm có phạm vi cục bộ, nghĩa là nó chỉ có thể được sử dụng trong hàm đó. Ngược lại, biến được khai báo bên ngoài bất kỳ hàm nào có phạm vi toàn cục.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Đúng. c) Sai vì `global` liên kết tới biến toàn cục bên ngoài. d) Đúng.",
+        "id": "B28_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_28.docx",
+        "nhan_dinh": {
+          "a": "Từ khóa global cho phép hàm sửa đổi giá trị của biến toàn cục.",
+          "b": "Nếu không sử dụng global, phép gán trong hàm sẽ không làm thay đổi giá trị biến toàn cục cùng tên bên ngoài.",
+          "c": "Từ khóa global dùng để khai báo một biến chỉ dùng riêng cục bộ trong hàm.",
+          "d": "Biến cục bộ giúp tránh xung đột tên biến giữa các hàm khác nhau."
+        },
+        "noi_dung": "Cho đoạn thông tin: Nếu bạn muốn một hàm có thể thay đổi giá trị của một biến toàn cục, bạn cần phải khai báo biến đó bằng từ khóa global trong hàm. Nếu không, phép gán trong hàm sẽ tạo ra một biến cục bộ mới với cùng tên.\nHãy đánh giá tính đúng sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "16",
+        "giai_thich": "`a = 2 * (1 + 2) = 6`, cộng với biến ngoài hàm `n = 10` cho kết quả `16`.",
+        "id": "B28_GOC_TLN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_28_pham_vi_cua_bien.docx",
+        "noi_dung": "Kết quả in ra màn hình là bao nhiêu khi chạy đoạn lệnh sau?\n```python\ndef f(x, y):\n    a = 2 * (x + y)\n    print(a + n)\nn = 10\nf(1, 2)\n```"
+      },
+      {
+        "dap_an": "toàn cục",
+        "giai_thich": "Biến khai báo ngoài hàm gọi là biến toàn cục (hay biến tổng thể).",
+        "id": "B28_GOC_TLN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_28_pham_vi_cua_bien.docx",
+        "noi_dung": "Điền từ còn thiếu: Biến được định nghĩa bên ngoài tất cả các hàm gọi là biến `_____`."
+      },
+      {
+        "dap_an": "Sai",
+        "giai_thich": "Biến cục bộ chỉ có hiệu lực bên trong hàm nơi nó được khai báo.",
+        "id": "B28_GOC_TLN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_28_pham_vi_cua_bien.docx",
+        "noi_dung": "Nhận định \"Biến cục bộ có thể được truy cập từ bất kỳ hàm nào trong chương trình\" là Đúng hay Sai?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "A",
+        "giai_thich": "Biến khai báo trong hàm chỉ có phạm vi bên trong hàm đó, gọi là biến địa phương / biến cục bộ.",
+        "id": "B28_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Trong Python, biến được khai báo và chỉ sử dụng bên trong một hàm được gọi là gì?",
+        "phuong_an": {
+          "A": "Biến địa phương (biến cục bộ)",
+          "B": "Biến riêng",
+          "C": "Biến tổng thể (biến toàn cục)",
+          "D": "Biến thông thường"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "`a, b` trong hàm `f` là tham số cục bộ, không làm thay đổi `a, b` bên ngoài hàm (vẫn là `0, 1`).",
+        "id": "B28_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Giá trị của `a, b` bên ngoài hàm bằng bao nhiêu sau khi thực hiện lệnh `f(2, 5)`?\n```python\na, b = 0, 1\ndef f(a, b):\n    a = a * b\n    b = b // 2\n    return a + b\nf(2, 5)\n```",
+        "phuong_an": {
+          "A": "10, 2",
+          "B": "10, 1",
+          "C": "2, 5",
+          "D": "0, 1"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Từ khóa `global <tên_biến>` cho phép thân hàm thao tác trực tiếp với biến toàn cục.",
+        "id": "B28_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Nếu muốn biến đã khai báo bên ngoài hàm có thể bị thay đổi giá trị bên trong hàm thì cần khai báo lại biến này trong hàm với từ khoá nào?",
+        "phuong_an": {
+          "A": "global",
+          "B": "def",
+          "C": "Không thể thực hiện",
+          "D": "all"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Hàm `f` chỉ đọc giá trị của biến toàn cục `N` (đã gán `5` trước khi gọi `f(3, 3)`), nên `3 + 3 + 5 = 11`.",
+        "id": "B28_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Kết quả của chương trình sau là bao nhiêu?\n```python\ndef f(a, b):\n    return a + b + N\nN = 5\nprint(f(3, 3))\n```",
+        "phuong_an": {
+          "A": "5",
+          "B": "6",
+          "C": "11",
+          "D": "Chương trình bị lỗi"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Biến khai báo trong hàm có tính cục bộ (địa phương) và không có hiệu lực bên ngoài hàm.",
+        "id": "B28_GOC_TN_05",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Hoàn thiện `(…)` trong phát biểu sau: \"Trong Python tất cả các biến khai báo bên trong hàm đều có tính …, không có hiệu lực ở bên … hàm.\"",
+        "phuong_an": {
+          "A": "địa phương, trong",
+          "B": "cục bộ, ngoài",
+          "C": "toàn cục, trong",
+          "D": "toàn cục, ngoài"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Biến `s` được khởi tạo cục bộ trong hàm, nối thêm `\"Xuân\"` và trả về `\"Tôi tên là: Xuân\"`.",
+        "id": "B28_GOC_TN_06",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Kết quả của chương trình sau là bao nhiêu?\n```python\ndef kq(name):\n    s = \"Tôi tên là: \"\n    s = s + name\n    return s\nprint(kq(\"Xuân\"))\n```",
+        "phuong_an": {
+          "A": "\"Tôi tên là: \"",
+          "B": "\"Xuân\"",
+          "C": "\"Tôi tên là: Xuân\"",
+          "D": "Chương trình bị lỗi"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "`a = 2 + 3 = 5`, đọc biến ngoài hàm `n = 5` -> in ra `10`.",
+        "id": "B28_GOC_TN_07",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Kết quả nào được in ra khi thực hiện các câu lệnh sau?\n```python\ndef f(x, y):\n    a = x + y\n    print(a + n)\nn = 5\nf(2, 3)\n```",
+        "phuong_an": {
+          "A": "5",
+          "B": "10",
+          "C": "2",
+          "D": "Chương trình bị lỗi"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Danh sách là kiểu khả biến (mutable), phương thức `append([1, 2, 3, 4])` thêm cả danh sách con làm phần tử thứ 4.",
+        "id": "B28_GOC_TN_08",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Cho biết kết quả của chương trình sau:\n```python\ndef changeme(mylist):\n    mylist.append([1, 2, 3, 4])\nmylist = [10, 20, 30]\nchangeme(mylist)\nprint(mylist)\n```",
+        "phuong_an": {
+          "A": "[10, 20, 30]",
+          "B": "[10, 20, 30, 1, 2, 3, 4]",
+          "C": "[1, 2, 3, 4]",
+          "D": "[10, 20, 30, [1, 2, 3, 4]]"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Lệnh `print(s)` in biến `s` bên ngoài hàm; hơn nữa hàm `kq` chưa hề được gọi và `s` trong `kq` là biến cục bộ.",
+        "id": "B28_GOC_TN_09",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Kết quả in ra của chương trình sau là bao nhiêu?\n```python\ns = \"Hôm nay tôi đi học \"\ndef kq(name):\n    s = \"Hello World\"\n    s = s + \"!!!\"\n    return s\nprint(s)\n```",
+        "phuong_an": {
+          "A": "\"Hôm nay tôi đi học \"",
+          "B": "\"Hello World\"",
+          "C": "\"Hello World!!!\"",
+          "D": "Chương trình bị lỗi"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Biến cục bộ không dùng được bên ngoài hàm, và biến ngoài hàm không sửa được bên trong hàm nếu thiếu `global`.",
+        "id": "B28_GOC_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Mệnh đề nào dưới đây phát biểu **sai** về phạm vi tác dụng của biến trong Python?",
+        "phuong_an": {
+          "A": "Biến được khai báo bên trong hàm chỉ có tác dụng trong hàm đó, không có tác dụng bên ngoài.",
+          "B": "Biến được khai báo bên ngoài hàm không tự động thay đổi được từ bên trong hàm như biến cục bộ.",
+          "C": "Biến khai báo bên ngoài nếu muốn thay đổi giá trị bên trong hàm cần khai báo lại với từ khóa `global`.",
+          "D": "Biến trong Python khi đã được khai báo luôn có tác dụng (đọc và ghi) ở tất cả mọi nơi."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Lỗi `UnboundLocalError` xảy ra do gán `n = n + 1` khi `n` chưa khai báo cục bộ hoặc `global`. Cả cách A và B đều khắc phục được.",
+        "id": "B28_GOC_TN_11",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Hãy sửa lỗi cho chương trình sau:\n```python\ndef f():\n    n = n + 1\n    return n\nn = 15\na = f()\nprint(a)\n```",
+        "phuong_an": {
+          "A": "Đưa `n` làm tham số khi khai báo hàm `f(n)`.",
+          "B": "Khai báo `global n` ở đầu thân hàm `f()`.",
+          "C": "Sử dụng cách sửa A hoặc B đều đúng.",
+          "D": "Cả hai cách A và B đều sai."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Trong hàm `kq`, phép gán `s = s + name` khiến Python coi `s` là biến cục bộ nhưng lại đọc `s` ở vế phải trước khi gán -> `UnboundLocalError`.",
+        "id": "B28_GOC_TN_12",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_28_-_pham_vi_cua_bien.docx",
+        "noi_dung": "Kết quả của chương trình sau là gì?\n```python\ns = \"Tôi tên là: \"\ndef kq(name):\n    s = s + name\n    return s\nprint(kq(\"Long\"))\n```",
+        "phuong_an": {
+          "A": "\"Tôi tên là: Long\"",
+          "B": "\"Long\"",
+          "C": "\"Tôi tên là: \"",
+          "D": "Chương trình bị lỗi"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "```python\ndef lay_ki_tu_dau(sList):\n    cList = []\n    for s in sList:\n        if len(s) > 0:\n            cList.append(s[0])\n    return cList\n```",
+        "giai_thich": "`cList` là biến cục bộ được tạo trong hàm và trả về qua `return cList`.",
+        "id": "B28_GOC_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_28_pham_vi_cua_bien.docx",
+        "noi_dung": "Viết hàm với đầu vào là danh sách `sList` gồm các xâu kí tự, đầu ra trả về danh sách `cList` gồm kí tự đầu tiên của các xâu tương ứng trong `sList`."
+      },
+      {
+        "dap_an": "```python\ndef Tach_day(A):\n    B = []\n    C = []\n    for i in range(len(A)):\n        if i % 2 == 0:\n            B.append(A[i])\n        else:\n            C.append(A[i])\n    return B, C\n```",
+        "giai_thich": "Dùng `range(len(A))` kiểm tra chỉ số `i % 2 == 0` để phân vào `B` hoặc `C`.",
+        "id": "B28_GOC_TL_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_28_pham_vi_cua_bien.docx",
+        "noi_dung": "Viết hàm `Tach_day(A)` với đầu vào là danh sách `A`, trả về hai danh sách `B, C` trong đó `B` chứa các phần tử có chỉ số chẵn và `C` chứa các phần tử có chỉ số lẻ."
+      },
+      {
+        "dap_an": "Biến cục bộ khai báo bên trong hàm, chỉ tồn tại và dùng được trong hàm đó; khi hàm kết thúc biến bị hủy. Biến toàn cục khai báo bên ngoài mọi hàm, đọc được ở cả ngoài và trong hàm; muốn sửa giá trị trong hàm phải dùng từ khóa `global`.\nVí dụ:\n```python\nx = 10  # biến toàn cục\ndef demo():\n    y = 5  # biến cục bộ\n    print(x + y)\n```",
+        "giai_thich": "Nêu rõ vị trí khai báo, phạm vi hiệu lực và vòng đời của hai loại biến.",
+        "id": "B28_GOC_TL_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "pht_tin_hoc_10_kntt_bai_28_pham_vi_cua_bien.docx",
+        "noi_dung": "Giải thích sự khác biệt giữa biến toàn cục và biến cục bộ. Đưa ra ví dụ minh họa."
+      }
+    ]
+  },
+  "ma_bai": "BAI_28",
+  "ten_bai": "Phạm vi của biến",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 5,
+      "tra_loi_ngan": 1,
+      "trac_nghiem": 2,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 2,
+      "tong": 20,
+      "tra_loi_ngan": 3,
+      "trac_nghiem": 12,
+      "tu_luan": 3
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 7,
+      "thong_hieu": 12,
+      "van_dung": 6
+    },
+    "tong_so_cau": 25
   }
 }

@@ -1,424 +1,450 @@
 {
-  "ma_bai": "BAI_16",
   "bai_so": 16,
-  "ten_bai": "Ngôn ngữ lập trình bậc cao và Python",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B16-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Phát biểu nào đúng về Ngôn ngữ bậc cao?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "C": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch.",
-          "D": "Chế độ soạn thảo cho phép lưu nhiều lệnh thành tệp chương trình."
-        },
-        "dap_an": "A",
-        "giai_thich": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy."
-      },
-      {
-        "id": "T10-B16-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?",
-        "lua_chon": {
-          "A": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "B": "Ngôn ngữ lập trình bậc cao.",
-          "C": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch.",
-          "D": "Chế độ soạn thảo cho phép lưu nhiều lệnh thành tệp chương trình."
-        },
-        "dap_an": "B",
-        "giai_thich": "Ngôn ngữ lập trình bậc cao."
-      },
-      {
-        "id": "T10-B16-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Ngôn ngữ bậc cao?",
-        "lua_chon": {
-          "A": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?",
-          "B": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?",
-          "C": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?",
-          "D": "Cần lưu chương trình để chạy lại: chế độ nào phù hợp?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?"
-      },
-      {
-        "id": "T10-B16-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Phát biểu nào đúng về Python?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "C": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch.",
-          "D": "Chế độ soạn thảo cho phép lưu nhiều lệnh thành tệp chương trình."
-        },
-        "dap_an": "B",
-        "giai_thich": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực."
-      },
-      {
-        "id": "T10-B16-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch.",
-          "C": "Python.",
-          "D": "Chế độ soạn thảo cho phép lưu nhiều lệnh thành tệp chương trình."
-        },
-        "dap_an": "C",
-        "giai_thich": "Python."
-      },
-      {
-        "id": "T10-B16-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Python?",
-        "lua_chon": {
-          "A": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?",
-          "B": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?",
-          "C": "Cần lưu chương trình để chạy lại: chế độ nào phù hợp?",
-          "D": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?"
-      },
-      {
-        "id": "T10-B16-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Phát biểu nào đúng về Thông dịch?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "C": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch.",
-          "D": "Chế độ soạn thảo cho phép lưu nhiều lệnh thành tệp chương trình."
-        },
-        "dap_an": "C",
-        "giai_thich": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch."
-      },
-      {
-        "id": "T10-B16-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "C": "Chế độ soạn thảo cho phép lưu nhiều lệnh thành tệp chương trình.",
-          "D": "Chế độ tương tác/trực tiếp."
-        },
-        "dap_an": "D",
-        "giai_thich": "Chế độ tương tác/trực tiếp."
-      },
-      {
-        "id": "T10-B16-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Thông dịch?",
-        "lua_chon": {
-          "A": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?",
-          "B": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?",
-          "C": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?",
-          "D": "Cần lưu chương trình để chạy lại: chế độ nào phù hợp?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?"
-      },
-      {
-        "id": "T10-B16-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Phát biểu nào đúng về Chế độ soạn thảo?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "C": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch.",
-          "D": "Chế độ soạn thảo cho phép lưu nhiều lệnh thành tệp chương trình."
-        },
-        "dap_an": "D",
-        "giai_thich": "Chế độ soạn thảo cho phép lưu nhiều lệnh thành tệp chương trình."
-      },
-      {
-        "id": "T10-B16-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Cần lưu chương trình để chạy lại: chế độ nào phù hợp?",
-        "lua_chon": {
-          "A": "Soạn thảo chương trình trong tệp.",
-          "B": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "C": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "D": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch."
-        },
-        "dap_an": "A",
-        "giai_thich": "Soạn thảo chương trình trong tệp."
-      },
-      {
-        "id": "T10-B16-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Chế độ soạn thảo?",
-        "lua_chon": {
-          "A": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?",
-          "B": "Cần lưu chương trình để chạy lại: chế độ nào phù hợp?",
-          "C": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?",
-          "D": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần lưu chương trình để chạy lại: chế độ nào phù hợp?"
-      },
-      {
-        "id": "T10-B16-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Phát biểu nào đúng về Cú pháp?",
-        "lua_chon": {
-          "A": "Chương trình phải tuân theo cú pháp của ngôn ngữ.",
-          "B": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "C": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "D": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch."
-        },
-        "dap_an": "A",
-        "giai_thich": "Chương trình phải tuân theo cú pháp của ngôn ngữ."
-      },
-      {
-        "id": "T10-B16-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Thiếu dấu ngoặc khiến Python báo lỗi: loại lỗi nào có thể xảy ra?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Lỗi cú pháp.",
-          "C": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "D": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch."
-        },
-        "dap_an": "B",
-        "giai_thich": "Lỗi cú pháp."
-      },
-      {
-        "id": "T10-B16-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Cú pháp?",
-        "lua_chon": {
-          "A": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?",
-          "B": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?",
-          "C": "Thiếu dấu ngoặc khiến Python báo lỗi: loại lỗi nào có thể xảy ra?",
-          "D": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Thiếu dấu ngoặc khiến Python báo lỗi: loại lỗi nào có thể xảy ra?"
-      },
-      {
-        "id": "T10-B16-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Phát biểu nào đúng về Tệp Python?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Tệp chương trình Python thường được lưu với phần mở rộng .py.",
-          "C": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "D": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tệp chương trình Python thường được lưu với phần mở rộng .py."
-      },
-      {
-        "id": "T10-B16-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Muốn gửi mã nguồn để chạy lại: tệp nào cần lưu?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "C": "Tệp Python có đuôi .py.",
-          "D": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tệp Python có đuôi .py."
-      },
-      {
-        "id": "T10-B16-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Tệp Python?",
-        "lua_chon": {
-          "A": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?",
-          "B": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?",
-          "C": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?",
-          "D": "Muốn gửi mã nguồn để chạy lại: tệp nào cần lưu?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Muốn gửi mã nguồn để chạy lại: tệp nào cần lưu?"
-      },
-      {
-        "id": "T10-B16-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Phát biểu nào đúng về Chạy chương trình?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "C": "Chương trình được thực thi để tạo kết quả theo lệnh.",
-          "D": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch."
-        },
-        "dap_an": "C",
-        "giai_thich": "Chương trình được thực thi để tạo kết quả theo lệnh."
-      },
-      {
-        "id": "T10-B16-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Đã viết mã trong cửa sổ soạn thảo: bước nào tạo kết quả?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "C": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch.",
-          "D": "Chạy chương trình."
-        },
-        "dap_an": "D",
-        "giai_thich": "Chạy chương trình."
-      },
-      {
-        "id": "T10-B16-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Chạy chương trình?",
-        "lua_chon": {
-          "A": "Đã viết mã trong cửa sổ soạn thảo: bước nào tạo kết quả?",
-          "B": "Người mới muốn viết thuật toán dễ đọc: loại ngôn ngữ nào phù hợp?",
-          "C": "Viết chương trình tính toán và xử lí dữ liệu: ngôn ngữ nào trong bài được dùng?",
-          "D": "Gõ một biểu thức và xem kết quả ngay: chế độ nào phù hợp?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Đã viết mã trong cửa sổ soạn thảo: bước nào tạo kết quả?"
-      },
-      {
-        "id": "T10-B16-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Ngôn ngữ lập trình bậc cao và Python”?",
-        "lua_chon": {
-          "A": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy. Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-          "B": "Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực. Python là ngôn ngữ máy chỉ gồm các bit 0 và 1.",
-          "C": "Chế độ trực tiếp tự động lưu mọi lệnh thành tệp .py. Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "D": "Python là ngôn ngữ máy chỉ gồm các bit 0 và 1. Chế độ trực tiếp tự động lưu mọi lệnh thành tệp .py."
-        },
-        "dap_an": "A",
-        "giai_thich": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy. Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B16-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Xét tính đúng/sai về bài “Ngôn ngữ lập trình bậc cao và Python”:",
-        "y_kien": {
-          "a": "Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.",
-          "b": "Python là ngôn ngữ máy chỉ gồm các bit 0 và 1.",
-          "c": "Môi trường Python có thể thực thi lệnh qua bộ thông dịch.",
-          "d": "Chế độ trực tiếp tự động lưu mọi lệnh thành tệp .py."
-        },
         "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
         },
-        "giai_thich": "a đúng: Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy.; b sai: Python là ngôn ngữ máy chỉ gồm các bit 0 và 1.; c đúng: Môi trường Python có thể thực thi lệnh qua bộ thông dịch.; d sai: Chế độ trực tiếp tự động lưu mọi lệnh thành tệp .py.."
+        "giai_thich": "a) Sai, nằm trong nháy kép là xâu nên in nguyên chữ 10 + 5. b) Đúng. c) Sai, Python phân biệt chữ hoa/thường. d) Đúng.",
+        "id": "B16_BS_DS_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "nhan_dinh": {
+          "a": "Lệnh print(\"10 + 5\") sẽ in ra màn hình số 15.",
+          "b": "Lệnh print(10 + 5) sẽ in ra màn hình số 15.",
+          "c": "Trong Python, từ khóa Print viết hoa chữ P vẫn hoạt động giống print().",
+          "d": "Ba dấu nháy kép \"\"\"...\"\"\" cho phép viết xâu kí tự trên nhiều dòng."
+        },
+        "noi_dung": "Một học sinh mới cài đặt Python và thử gõ một số lệnh đầu tiên. Đánh giá tính đúng/sai của các kết quả sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "Chương trình dịch",
+        "giai_thich": "Chương trình dịch (biên dịch hoặc thông dịch) chuyển ngôn ngữ bậc cao sang ngôn ngữ máy.",
+        "id": "B16_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Chương trình chuyên dụng dùng để chuyển đổi mã nguồn viết bằng ngôn ngữ lập trình bậc cao sang ngôn ngữ máy gọi là gì?"
+      },
+      {
+        "dap_an": "2*3= 6",
+        "giai_thich": "Đối số thứ nhất là xâu '2*3=', đối số thứ hai là giá trị 6, mặc định ngăn cách bởi một dấu cách.",
+        "id": "B16_BS_TLN_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Viết kết quả chính xác hiện trên màn hình khi chạy lệnh: print(\"2*3=\", 2*3)"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "Trong IDLE, nhấn F5 (hoặc chọn Run -> Run Module) để chạy tệp .py.",
+        "id": "B16_BS_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Trong cửa sổ soạn thảo IDLE của Python, phím tắt nào dùng để chạy toàn bộ chương trình vừa viết?",
+        "phuong_an": {
+          "A": "F1",
+          "B": "F5",
+          "C": "Ctrl + P",
+          "D": "Alt + F4"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Phép chia / trong Python 3 luôn trả về kết quả kiểu số thực (float), ngay cả khi chia hết (ví dụ 4/2 cho 2.0).",
+        "id": "B16_BS_TN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Khi gõ lệnh >>> 5 / 2 ở chế độ tương tác của Python 3, kết quả trả về thuộc kiểu dữ liệu nào?",
+        "phuong_an": {
+          "A": "Số nguyên (int).",
+          "B": "Số thực (float).",
+          "C": "Xâu kí tự (str).",
+          "D": "Logic (bool)."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Khi bên trong chuỗi có dấu nháy kép, ta có thể dùng cặp dấu nháy đơn bao ở ngoài để tránh xung đột.",
+        "id": "B16_BS_TN_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Câu lệnh nào sau đây in ra chuỗi gồm dấu nháy kép bên trong mà KHÔNG bị lỗi cú pháp?",
+        "phuong_an": {
+          "A": "print(\"Em học \"Tin học 10\"\")",
+          "B": "print('Em học \"Tin học 10\"')",
+          "C": "print(Em học \"Tin học 10\")",
+          "D": "print(\"Em học 'Tin học 10\")"
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B16-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Trình bày hai nội dung của bài: Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy. Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-        "dap_an_goi_y": "Nêu đúng hai ý: Ngôn ngữ bậc cao gần cách diễn đạt của con người hơn mã máy. Python là ngôn ngữ lập trình bậc cao được dùng trong nhiều lĩnh vực.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T10-B16-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
+        "dap_an": "print(\"\"\"Không có việc gì khó\nChỉ sợ lòng không bền\nĐào núi và lấp biển\nQuyết chí ắt làm nên\"\"\")",
+        "giai_thich": "Sử dụng cặp ba dấu nháy kép \"\"\"...\"\"\" cho phép xuống dòng trực tiếp trong xâu kí tự.",
+        "id": "B16_BS_TL_01",
         "muc_do": "Vận dụng",
-        "chu_de": "Bài 16 - Ngôn ngữ lập trình bậc cao và Python",
-        "noi_dung": "Giải thích và vận dụng nội dung “Môi trường Python có thể thực thi lệnh qua bộ thông dịch.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “Môi trường Python có thể thực thi lệnh qua bộ thông dịch.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Viết câu lệnh Python in ra màn hình bài thơ 4 dòng sau chỉ bằng một lệnh print() duy nhất:\nKhông có việc gì khó\nChỉ sợ lòng không bền\nĐào núi và lấp biển\nQuyết chí ắt làm nên"
       }
     ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": true
+        },
+        "giai_thich": "a) Sai, bậc cao gần ngôn ngữ tự nhiên nên dễ hiểu hơn. b) Đúng. c) Sai, đa lĩnh vực. d) Đúng.",
+        "id": "B16_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_16.docx",
+        "nhan_dinh": {
+          "a": "Ngôn ngữ lập trình bậc cao khó hiểu hơn ngôn ngữ máy đối với con người.",
+          "b": "Python là một ngôn ngữ lập trình bậc cao phổ biến.",
+          "c": "Ngôn ngữ lập trình bậc cao chỉ được sử dụng cho phát triển web.",
+          "d": "Python có thể được sử dụng trong nhiều lĩnh vực như giáo dục, khoa học dữ liệu, AI, lập trình web."
+        },
+        "noi_dung": "Cho đoạn thông tin: Ngôn ngữ lập trình bậc cao là ngôn ngữ con người dễ hiểu và sử dụng hơn ngôn ngữ máy. Python là một trong những ngôn ngữ bậc cao phổ biến. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai, Assembly là hợp ngữ (bậc thấp). b) Đúng. c) Đúng. d) Sai, mỗi ngôn ngữ có cú pháp riêng.",
+        "id": "B16_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_16.docx",
+        "nhan_dinh": {
+          "a": "Assembly là một ngôn ngữ lập trình bậc cao.",
+          "b": "Python, Java, C++ là các ngôn ngữ lập trình bậc cao.",
+          "c": "Các ngôn ngữ lập trình bậc cao thường dễ học hơn so với ngôn ngữ lập trình bậc thấp.",
+          "d": "Mọi ngôn ngữ lập trình đều có cú pháp giống hệt nhau."
+        },
+        "noi_dung": "Cho đoạn thông tin về các loại ngôn ngữ lập trình (Assembly, Python, Java, C++). Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "giai_thich": "a) Đúng. b) Đúng. c) Sai. d) Sai, đặc điểm chạy ngay từng dòng là của chế độ gõ lệnh trực tiếp.",
+        "id": "B16_GOC_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_16.docx",
+        "nhan_dinh": {
+          "a": "Chế độ gõ lệnh trực tiếp thường dùng để tính toán nhanh và kiểm tra từng câu lệnh.",
+          "b": "Chế độ soạn thảo cho phép viết nhiều dòng lệnh và lưu thành tệp chương trình (.py).",
+          "c": "Python không hỗ trợ chế độ gõ lệnh trực tiếp.",
+          "d": "Ở chế độ soạn thảo, mỗi lần gõ xong một dòng thì máy tính tự chạy ngay lập tức mà không cần nhấn Run."
+        },
+        "noi_dung": "Cho đoạn thông tin: Python hỗ trợ hai chế độ lập trình: chế độ gõ lệnh trực tiếp (interactive mode) và chế độ soạn thảo (script mode). Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Đúng. b) Sai, Python phân biệt rõ số nguyên (int) và số thực (float). c) Đúng. d) Đúng.",
+        "id": "B16_GOC_DS_04",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_16.docx",
+        "nhan_dinh": {
+          "a": "Câu lệnh print() trong Python được sử dụng để in dữ liệu ra màn hình.",
+          "b": "Python không hỗ trợ kiểu dữ liệu số thực.",
+          "c": "Trong Python, xâu kí tự có thể viết trong cặp ba dấu nháy kép \"\"\"...\"\"\" để xuống dòng trực tiếp trong chuỗi.",
+          "d": "Python nổi bật nhờ cú pháp đơn giản và thư viện phong phú."
+        },
+        "noi_dung": "Cho đoạn thông tin về câu lệnh và tính năng trong Python. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": ">>>",
+        "giai_thich": "Cửa sổ tương tác Python hiển thị dấu nhắc >>> để chờ người dùng nhập lệnh.",
+        "id": "B16_GOC_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "da_tin_hoc_10_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python.docx",
+        "noi_dung": "Trong chế độ gõ lệnh trực tiếp (Shell) của Python, kí hiệu dấu nhắc lệnh mặc định gồm 3 dấu nào?"
+      },
+      {
+        "dap_an": "13.5",
+        "giai_thich": "Phép chia 7/2 cho kết quả số thực 3.5, cộng với 10 thành 13.5.",
+        "id": "B16_GOC_TLN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python.docx",
+        "noi_dung": "Kết quả của lệnh >>> 10 + 7/2 trong Python là giá trị nào?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "C",
+        "giai_thich": "Chương trình viết bằng ngôn ngữ lập trình bậc cao cần được chương trình dịch chuyển sang ngôn ngữ máy để máy tính thực hiện.",
+        "id": "B16_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Điền từ còn thiếu vào chỗ trống: \"Để máy tính hiểu và thực hiện được những chương trình viết bằng (1)………, các chương trình đó cần được dịch sang (2)………… nhờ một chương trình chuyên dụng gọi là (3)………...\"",
+        "phuong_an": {
+          "A": "(1) ngôn ngữ lập trình bậc cao; (2) mã nhị phân; (3) chương trình chuyển ngữ.",
+          "B": "(1) ngôn ngữ lập trình bậc cao; (2) ngôn ngữ lập trình bậc thấp; (3) chương trình chuyển ngữ.",
+          "C": "(1) ngôn ngữ lập trình bậc cao; (2) ngôn ngữ máy; (3) chương trình dịch.",
+          "D": "(1) ngôn ngữ lập trình bậc cao; (2) hợp ngữ; (3) chương trình dịch."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Python được Guido van Rossum tạo ra và phát hành lần đầu năm 1991.",
+        "id": "B16_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ngôn ngữ lập trình Python do ai tạo ra và ra mắt lần đầu vào năm nào?",
+        "phuong_an": {
+          "A": "James Gosling, năm 1994.",
+          "B": "James Gosling, năm 1986.",
+          "C": "Guido van Rossum, năm 1991.",
+          "D": "Guido van Rossum, năm 1984."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Môi trường lập trình Python gồm 2 chế độ: chế độ gõ lệnh trực tiếp (Interactive/Shell) và chế độ soạn thảo chương trình (Script/Editor).",
+        "id": "B16_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Môi trường lập trình của Python có các chế độ làm việc nào?",
+        "phuong_an": {
+          "A": "Chế độ gõ lệnh trực tiếp và chế độ soạn thảo.",
+          "B": "Chế độ gõ lệnh trực tiếp và chế độ sử dụng lệnh có sẵn.",
+          "C": "Chế độ soạn thảo và chế độ lưu trữ.",
+          "D": "Chế độ soạn thảo và chế độ chỉnh sửa."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Xâu kí tự trong Python được đặt trong cặp dấu nháy đơn ('...'), nháy kép (\"...\") hoặc ba dấu nháy.",
+        "id": "B16_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Trong Python, xâu kí tự có thể được đặt trong cặp dấu nào?",
+        "phuong_an": {
+          "A": "Ngoặc tròn.",
+          "B": "Nháy kép (hoặc nháy đơn).",
+          "C": "Ngoặc vuông.",
+          "D": "Ngoặc nhọn."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Hàm print() in một hoặc nhiều giá trị (cách nhau bởi dấu phẩy) thuộc nhiều kiểu dữ liệu khác nhau ra màn hình.",
+        "id": "B16_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Lệnh print() trong Python có chức năng gì?",
+        "phuong_an": {
+          "A": "Chỉ in kết quả của một phép tính số học.",
+          "B": "Chỉ in dữ liệu dạng xâu kí tự hoặc logic.",
+          "C": "In dữ liệu ra màn hình, có thể in ra một hoặc nhiều giá trị đồng thời.",
+          "D": "In dữ liệu ra màn hình, nhưng chỉ in được một giá trị duy nhất."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Assembly là hợp ngữ (ngôn ngữ lập trình bậc thấp); C/C++, Java và Python đều là ngôn ngữ lập trình bậc cao.",
+        "id": "B16_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Ngôn ngữ nào sau đây KHÔNG phải là ngôn ngữ lập trình bậc cao?",
+        "phuong_an": {
+          "A": "Assembly.",
+          "B": "C/C++.",
+          "C": "Java.",
+          "D": "Python."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Cần trang bị môi trường lập trình (gồm trình soạn thảo, chương trình dịch/thông dịch và công cụ gỡ lỗi).",
+        "id": "B16_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Để sử dụng ngôn ngữ lập trình bậc cao, máy tính cần được trang bị công cụ gì?",
+        "phuong_an": {
+          "A": "Từ điển ngôn ngữ máy.",
+          "B": "Từ điển ngôn ngữ lập trình.",
+          "C": "Môi trường lập trình.",
+          "D": "Phần mềm soạn thảo văn bản."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Ngôn ngữ lập trình bậc cao có câu lệnh gần với ngôn ngữ tự nhiên, dễ đọc, dễ viết và dễ bảo trì hơn hợp ngữ và ngôn ngữ máy.",
+        "id": "B16_GOC_TN_08",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python.docx",
+        "noi_dung": "Theo em, viết chương trình bằng loại ngôn ngữ lập trình nào dễ tiếp cận đối với con người nhất?",
+        "phuong_an": {
+          "A": "Ngôn ngữ máy.",
+          "B": "Hợp ngữ.",
+          "C": "Ngôn ngữ lập trình bậc cao.",
+          "D": "Mã nhị phân."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Máy tính chỉ hiểu trực tiếp ngôn ngữ máy; chương trình viết bằng ngôn ngữ bậc cao phải qua chương trình dịch (thông dịch/biên dịch).",
+        "id": "B16_GOC_TN_09",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào sau đây là KHÔNG đúng về ngôn ngữ lập trình và môi trường Python?",
+        "phuong_an": {
+          "A": "Môi trường lập trình trợ giúp soạn thảo, kiểm tra lỗi cú pháp câu lệnh.",
+          "B": "Máy tính có thể trực tiếp hiểu và thực hiện ngay chương trình viết bằng ngôn ngữ bậc cao mà không cần dịch.",
+          "C": "Python, C++, Java là những ngôn ngữ lập trình bậc cao.",
+          "D": "Các ngôn ngữ lập trình bậc cao đều gần với ngôn ngữ tự nhiên."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Python là phần mềm mã nguồn mở miễn phí, có phân biệt chữ hoa/thường, xâu đặt trong dấu nháy và phép nhân viết bằng dấu *.",
+        "id": "B16_GOC_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phát biểu nào dưới đây là ĐÚNG về Python?",
+        "phuong_an": {
+          "A": "Python không phân biệt chữ hoa và chữ thường.",
+          "B": "Dãy kí tự muốn in ra bằng print() cần đặt trong dấu ngoặc vuông.",
+          "C": "Trong Python, phép nhân được viết bằng dấu ^.",
+          "D": "Hệ thống công cụ lập trình Python có thể dễ dàng tìm thấy trên Internet và tải về miễn phí."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Xâu kí tự cần đặt trong cặp dấu nháy đơn hoặc nháy kép bên trong cặp ngoặc tròn của hàm print().",
+        "id": "B16_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Để máy tính in ra màn hình dòng chữ 'xin chao' bằng Python, ta viết câu lệnh nào?",
+        "phuong_an": {
+          "A": "print (xin chao)",
+          "B": "print ('xin chao')",
+          "C": "print xin chao",
+          "D": "print ([xin chao])"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Tệp mã nguồn Python có phần mở rộng là .py.",
+        "id": "B16_GOC_TN_12",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Phần mở rộng chuẩn của tệp chương trình Python là gì?",
+        "phuong_an": {
+          "A": ".py",
+          "B": ".python",
+          "C": ".pl",
+          "D": ".p"
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Biểu thức 13 + 10*3/2 - 3*2 = 13 + 15.0 - 6 = 22.0 (do phép / trong Python trả về số thực float).",
+        "id": "B16_GOC_TN_13",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Lệnh print(\"13+10*3/2-3*2 =\", 13+10*3/2-3*2) trong Python sẽ in ra kết quả nào?",
+        "phuong_an": {
+          "A": "22=22.",
+          "B": "22.",
+          "C": "13+10*3/2-3*2 = 22.0",
+          "D": "13+10*3/2-3*2 = 13+10*3/2-3*2"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "3.4 + 4 được tính thành 7.4; \"3.4 + 4\" là xâu kí tự nên giữ nguyên; các đối số cách nhau bởi dấu cách khi in.",
+        "id": "B16_GOC_TN_14",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Lệnh print(3.4 + 4, \"3.4 + 4\", 15, \"Mùa Xuân\") sẽ in ra màn hình kết quả nào?",
+        "phuong_an": {
+          "A": "16 16 15 Mùa Xuân",
+          "B": "3.4 3.4 + 4 15 Mùa Xuân",
+          "C": "16 3.4 + 4 15 Mùa Xuân",
+          "D": "7.4 3.4 + 4 15 Mùa Xuân"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Thời gian = quãng đường / vận tốc = 264/70; các chuỗi văn bản phải đóng mở ngoặc nháy đúng quy cách và tách với biểu thức bằng dấu phẩy.",
+        "id": "B16_GOC_TN_15",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "cd5_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python_ket_noi_tri_thuc.docx",
+        "noi_dung": "Đường cao tốc Hà Nội – Lào Cai dài 264 km, một ô tô chạy với tốc độ trung bình 70 km/h. Câu lệnh Python nào sau đây viết ĐÚNG cú pháp để in thời gian ô tô đi hết tuyến đường?",
+        "phuong_an": {
+          "A": "print(\"Thời gian từ Lào Cai về Hà Nội là:\", 264/70, \"giờ\")",
+          "B": "print('Thời gian từ Lào Cai về Hà Nội là:', 264*70, 'giờ')",
+          "C": "print('Thời gian từ Lào Cai về Hà Nội là: , 264/70, giờ')",
+          "D": "print('Thời gian từ Lào Cai về Hà Nội là:, 264*70, giờ')"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "- Giống nhau: Đều sử dụng cú pháp Python, hỗ trợ kiểm tra lỗi cú pháp và thực thi lệnh Python. - Khác nhau: Chế độ gõ lệnh trực tiếp gõ từng lệnh sau dấu nhắc >>> và nhấn Enter là chạy ngay (dùng tính toán, thử nghiệm nhanh, không lưu thành tệp chương trình); chế độ soạn thảo cho phép viết nhiều dòng lệnh, lưu thành tệp .py và chạy toàn bộ chương trình (Run/F5) nhiều lần.",
+        "giai_thich": "Hiểu rõ hai chế độ giúp chọn đúng môi trường khi thử nghiệm lệnh đơn lẻ và khi viết chương trình hoàn chỉnh.",
+        "id": "B16_GOC_TL_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_16_ngon_ngu_lap_trinh_bac_cao_va_python.docx",
+        "noi_dung": "So sánh điểm giống nhau và khác nhau giữa chế độ gõ lệnh trực tiếp và chế độ soạn thảo chương trình trong môi trường lập trình Python."
+      },
+      {
+        "dap_an": "Cả hai lệnh đều bị lỗi cú pháp (SyntaxError). Lệnh (a) sai vì đặt hai phép toán + và * cạnh nhau không có toán hạng ở giữa. Lệnh (b) sai vì dùng dấu nháy kép ở trong xâu cũng được bao bởi dấu nháy kép, làm Python hiểu nhầm kết thúc xâu sớm trước chữ Nguyễn Việt Anh (cách sửa: dùng nháy đơn bao ngoài hoặc dùng dấu \\\" bên trong).",
+        "giai_thich": "Lưu ý: trong một tài liệu đáp án cũ có ghi nhầm lệnh (b) không lỗi, nhưng thực tế chạy trên Python 3 sẽ báo SyntaxError vì xung đột dấu nháy kép.",
+        "id": "B16_GOC_TL_02",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ndc_b16_ngon_ngu_lap_trinh_bac_cao_python.docx",
+        "noi_dung": "Hai lệnh sau trong Python có lỗi không? Giải thích vì sao: a) >>> 3 + *5   b) >>> \"Bạn là học sinh, bạn tên là \"Nguyễn Việt Anh\"\""
+      }
+    ]
+  },
+  "ma_bai": "BAI_16",
+  "ten_bai": "Ngôn ngữ lập trình bậc cao và Python",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 7,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 3,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 4,
+      "tong": 23,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 15,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 12,
+      "thong_hieu": 10,
+      "van_dung": 8
+    },
+    "tong_so_cau": 30
   }
 }

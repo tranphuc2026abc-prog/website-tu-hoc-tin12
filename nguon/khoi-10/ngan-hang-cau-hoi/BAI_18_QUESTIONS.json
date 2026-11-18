@@ -1,424 +1,417 @@
 {
-  "ma_bai": "BAI_18",
   "bai_so": 18,
-  "ten_bai": "Các lệnh vào ra đơn giản",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
-    },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
-    }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
   "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T10-B18-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Phát biểu nào đúng về input()?",
-        "lua_chon": {
-          "A": "print() hiển thị dữ liệu ra màn hình.",
-          "B": "int() chuyển giá trị phù hợp thành số nguyên.",
-          "C": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "D": "float() chuyển giá trị phù hợp thành số thực."
-        },
-        "dap_an": "C",
-        "giai_thich": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự."
-      },
-      {
-        "id": "T10-B18-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
-        "lua_chon": {
-          "A": "print() hiển thị dữ liệu ra màn hình.",
-          "B": "int() chuyển giá trị phù hợp thành số nguyên.",
-          "C": "float() chuyển giá trị phù hợp thành số thực.",
-          "D": "input()."
-        },
-        "dap_an": "D",
-        "giai_thich": "input()."
-      },
-      {
-        "id": "T10-B18-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho input()?",
-        "lua_chon": {
-          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
-          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
-          "C": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
-          "D": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
-        },
-        "dap_an": "A",
-        "giai_thich": "Cần hỏi tên học sinh: lệnh nào phù hợp?"
-      },
-      {
-        "id": "T10-B18-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Phát biểu nào đúng về print()?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "B": "int() chuyển giá trị phù hợp thành số nguyên.",
-          "C": "float() chuyển giá trị phù hợp thành số thực.",
-          "D": "print() hiển thị dữ liệu ra màn hình."
-        },
-        "dap_an": "D",
-        "giai_thich": "print() hiển thị dữ liệu ra màn hình."
-      },
-      {
-        "id": "T10-B18-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
-        "lua_chon": {
-          "A": "print().",
-          "B": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "C": "int() chuyển giá trị phù hợp thành số nguyên.",
-          "D": "float() chuyển giá trị phù hợp thành số thực."
-        },
-        "dap_an": "A",
-        "giai_thich": "print()."
-      },
-      {
-        "id": "T10-B18-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho print()?",
-        "lua_chon": {
-          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
-          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
-          "C": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
-          "D": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần báo kết quả phép tính: lệnh nào phù hợp?"
-      },
-      {
-        "id": "T10-B18-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Phát biểu nào đúng về Chuyển kiểu int?",
-        "lua_chon": {
-          "A": "int() chuyển giá trị phù hợp thành số nguyên.",
-          "B": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "C": "print() hiển thị dữ liệu ra màn hình.",
-          "D": "float() chuyển giá trị phù hợp thành số thực."
-        },
-        "dap_an": "A",
-        "giai_thich": "int() chuyển giá trị phù hợp thành số nguyên."
-      },
-      {
-        "id": "T10-B18-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "B": "int().",
-          "C": "print() hiển thị dữ liệu ra màn hình.",
-          "D": "float() chuyển giá trị phù hợp thành số thực."
-        },
-        "dap_an": "B",
-        "giai_thich": "int()."
-      },
-      {
-        "id": "T10-B18-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Chuyển kiểu int?",
-        "lua_chon": {
-          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
-          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
-          "C": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
-          "D": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
-        },
-        "dap_an": "C",
-        "giai_thich": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?"
-      },
-      {
-        "id": "T10-B18-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Phát biểu nào đúng về Chuyển kiểu float?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "B": "float() chuyển giá trị phù hợp thành số thực.",
-          "C": "print() hiển thị dữ liệu ra màn hình.",
-          "D": "int() chuyển giá trị phù hợp thành số nguyên."
-        },
-        "dap_an": "B",
-        "giai_thich": "float() chuyển giá trị phù hợp thành số thực."
-      },
-      {
-        "id": "T10-B18-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Nhập chiều cao có phần thập phân: dùng hàm nào?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "B": "print() hiển thị dữ liệu ra màn hình.",
-          "C": "float().",
-          "D": "int() chuyển giá trị phù hợp thành số nguyên."
-        },
-        "dap_an": "C",
-        "giai_thich": "float()."
-      },
-      {
-        "id": "T10-B18-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Chuyển kiểu float?",
-        "lua_chon": {
-          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
-          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
-          "C": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?",
-          "D": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
-        },
-        "dap_an": "D",
-        "giai_thich": "Nhập chiều cao có phần thập phân: dùng hàm nào?"
-      },
-      {
-        "id": "T10-B18-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Phát biểu nào đúng về Nối chuỗi?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "B": "print() hiển thị dữ liệu ra màn hình.",
-          "C": "Có thể dùng dấu + để nối các xâu kí tự.",
-          "D": "int() chuyển giá trị phù hợp thành số nguyên."
-        },
-        "dap_an": "C",
-        "giai_thich": "Có thể dùng dấu + để nối các xâu kí tự."
-      },
-      {
-        "id": "T10-B18-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "In lời chào và tên đã nhập: cách nào phù hợp?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "B": "print() hiển thị dữ liệu ra màn hình.",
-          "C": "int() chuyển giá trị phù hợp thành số nguyên.",
-          "D": "Ghép chuỗi bằng + hoặc tham số print."
-        },
-        "dap_an": "D",
-        "giai_thich": "Ghép chuỗi bằng + hoặc tham số print."
-      },
-      {
-        "id": "T10-B18-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Nối chuỗi?",
-        "lua_chon": {
-          "A": "In lời chào và tên đã nhập: cách nào phù hợp?",
-          "B": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
-          "C": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
-          "D": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?"
-        },
-        "dap_an": "A",
-        "giai_thich": "In lời chào và tên đã nhập: cách nào phù hợp?"
-      },
-      {
-        "id": "T10-B18-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Phát biểu nào đúng về Biểu thức đầu ra?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "B": "print() hiển thị dữ liệu ra màn hình.",
-          "C": "int() chuyển giá trị phù hợp thành số nguyên.",
-          "D": "print() có thể hiển thị kết quả của biểu thức."
-        },
-        "dap_an": "D",
-        "giai_thich": "print() có thể hiển thị kết quả của biểu thức."
-      },
-      {
-        "id": "T10-B18-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "In tổng của hai biến: cần truyền gì vào print?",
-        "lua_chon": {
-          "A": "Biểu thức tổng.",
-          "B": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "C": "print() hiển thị dữ liệu ra màn hình.",
-          "D": "int() chuyển giá trị phù hợp thành số nguyên."
-        },
-        "dap_an": "A",
-        "giai_thich": "Biểu thức tổng."
-      },
-      {
-        "id": "T10-B18-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Biểu thức đầu ra?",
-        "lua_chon": {
-          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
-          "B": "In tổng của hai biến: cần truyền gì vào print?",
-          "C": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
-          "D": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?"
-        },
-        "dap_an": "B",
-        "giai_thich": "In tổng của hai biến: cần truyền gì vào print?"
-      },
-      {
-        "id": "T10-B18-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra dữ liệu nhập?",
-        "lua_chon": {
-          "A": "Dữ liệu nhập cần chuyển kiểu và phù hợp với yêu cầu chương trình.",
-          "B": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "C": "print() hiển thị dữ liệu ra màn hình.",
-          "D": "int() chuyển giá trị phù hợp thành số nguyên."
-        },
-        "dap_an": "A",
-        "giai_thich": "Dữ liệu nhập cần chuyển kiểu và phù hợp với yêu cầu chương trình."
-      },
-      {
-        "id": "T10-B18-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Người dùng nhập chữ vào ô cần số: cần kiểm tra gì?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "B": "Kiểu và tính hợp lệ của giá trị.",
-          "C": "print() hiển thị dữ liệu ra màn hình.",
-          "D": "int() chuyển giá trị phù hợp thành số nguyên."
-        },
-        "dap_an": "B",
-        "giai_thich": "Kiểu và tính hợp lệ của giá trị."
-      },
-      {
-        "id": "T10-B18-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Tình huống nào minh họa phù hợp cho Kiểm tra dữ liệu nhập?",
-        "lua_chon": {
-          "A": "Cần hỏi tên học sinh: lệnh nào phù hợp?",
-          "B": "Cần báo kết quả phép tính: lệnh nào phù hợp?",
-          "C": "Người dùng nhập chữ vào ô cần số: cần kiểm tra gì?",
-          "D": "input() nhận chuỗi “12”, cần tính như số nguyên: dùng hàm nào?"
-        },
-        "dap_an": "C",
-        "giai_thich": "Người dùng nhập chữ vào ô cần số: cần kiểm tra gì?"
-      },
-      {
-        "id": "T10-B18-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Nhận định nào kết hợp đúng hai nội dung trong bài “Các lệnh vào ra đơn giản”?",
-        "lua_chon": {
-          "A": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự. print() hiển thị dữ liệu ra màn hình.",
-          "B": "print() hiển thị dữ liệu ra màn hình. input() tự chuyển mọi dữ liệu nhập thành số nguyên.",
-          "C": "print() dùng để nhận dữ liệu từ bàn phím. input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "D": "input() tự chuyển mọi dữ liệu nhập thành số nguyên. print() dùng để nhận dữ liệu từ bàn phím."
-        },
-        "dap_an": "A",
-        "giai_thich": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự. print() hiển thị dữ liệu ra màn hình."
-      }
-    ],
     "dung_sai": [
       {
-        "id": "T10-B18-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Xét tính đúng/sai về bài “Các lệnh vào ra đơn giản”:",
-        "y_kien": {
-          "a": "input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.",
-          "b": "input() tự chuyển mọi dữ liệu nhập thành số nguyên.",
-          "c": "int() chuyển giá trị phù hợp thành số nguyên.",
-          "d": "print() dùng để nhận dữ liệu từ bàn phím."
+        "dap_an": {
+          "a": true,
+          "b": false,
+          "c": true,
+          "d": true
         },
+        "giai_thich": "a) Đúng. b) Sai, int() không chuyển trực tiếp xâu có dấu chấm thập phân '12.0' (phải qua int(float('12.0'))). c) Đúng. d) Đúng.",
+        "id": "B18_BS_DS_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "nhan_dinh": {
+          "a": "Lệnh bool(0) trả về giá trị False.",
+          "b": "Lệnh int(\"12.0\") chạy thành công và trả về số 12.",
+          "c": "Lệnh float(\"15\") chạy thành công và trả về 15.0.",
+          "d": "Lệnh str(100) trả về xâu '100'."
+        },
+        "noi_dung": "Xét các lệnh chuyển đổi kiểu dữ liệu trong Python. Đánh giá tính đúng/sai của các phát biểu sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "float",
+        "giai_thich": "x là số thực 12.5 nên kiểu dữ liệu là float.",
+        "id": "B18_BS_TLN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Cho x = float(\"12.5\"). Hàm type(x) trả về tên kiểu dữ liệu viết tắt là gì?"
+      },
+      {
+        "dap_an": "end",
+        "giai_thich": "Ví dụ print(\"A\", end=\" \") giúp lệnh print() tiếp theo in trên cùng một dòng.",
+        "id": "B18_BS_TLN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Tham số nào của hàm print() dùng để thay đổi kí tự kết thúc dòng (mặc định là xuống dòng '\\n')?"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "B",
+        "giai_thich": "Tham số sep=\"-\" thay dấu cách mặc định bằng dấu gạch ngang '-' giữa các giá trị in ra.",
+        "id": "B18_BS_TN_01",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Kết quả của lệnh print(\"Tin\", \"10\", sep=\"-\") là gì?",
+        "phuong_an": {
+          "A": "Tin 10",
+          "B": "Tin-10",
+          "C": "Tin10",
+          "D": "Tin - 10"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Hàm int(\"25\") trả về số nguyên 25.",
+        "id": "B18_BS_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Lệnh nào sau đây chuyển đổi đúng biến s = \"25\" thành số nguyên 25?",
+        "phuong_an": {
+          "A": "str(s)",
+          "B": "int(s)",
+          "C": "float(s)",
+          "D": "type(s)"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "a là '3' và b là '7' (đều kiểu str), nên a + b là phép nối hai xâu thành '37'.",
+        "id": "B18_BS_TN_03",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Khi chạy đoạn lệnh:\na = input(\"a = \")\nb = input(\"b = \")\nprint(a + b)\nNếu người dùng nhập a là 3, b là 7 thì màn hình in ra gì?",
+        "phuong_an": {
+          "A": "10",
+          "B": "37",
+          "C": "10.0",
+          "D": "Báo lỗi TypeError"
+        }
+      }
+    ],
+    "tu_luan": [
+      {
+        "dap_an": "ho_ten = input(\"Nhập họ tên: \")\ndiem = float(input(\"Nhập điểm trung bình: \"))\nprint(\"Chúc mừng bạn\", ho_ten, \"đạt điểm trung bình\", diem, \"!\")",
+        "giai_thich": "Họ tên giữ kiểu str từ input(), điểm chuyển sang float() để đúng bản chất dữ liệu số thực.",
+        "id": "B18_BS_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "Biên soạn bổ sung theo SGK Tin học 10 KNTT",
+        "noi_dung": "Viết chương trình nhập từ bàn phím họ tên học sinh và điểm trung bình (số thực), sau đó in ra thông báo theo mẫu: \"Chúc mừng bạn <Họ tên> đạt điểm trung bình <Điểm>!\"."
+      }
+    ]
+  },
+  "cau_hoi_goc": {
+    "dung_sai": [
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": false
+        },
+        "giai_thich": "a) Sai, nhập được mọi kí tự. b) Đúng. c) Đúng. d) Sai, thường gán vào biến theo cú pháp <biến> = input(<thông báo>).",
+        "id": "B18_GOC_DS_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_18.docx",
+        "nhan_dinh": {
+          "a": "Lệnh input() chỉ cho phép người dùng gõ vào các chữ số.",
+          "b": "Hàm input() luôn trả về dữ liệu dưới dạng xâu kí tự (str).",
+          "c": "Có thể truyền vào input() một xâu thông báo hướng dẫn người dùng nhập liệu.",
+          "d": "Dữ liệu trả về từ input() không thể gán cho biến."
+        },
+        "noi_dung": "Cho đoạn thông tin: Trong Python, lệnh input() được sử dụng để nhận dữ liệu từ người dùng. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
+        "dap_an": {
+          "a": false,
+          "b": true,
+          "c": true,
+          "d": true
+        },
+        "giai_thich": "a) Sai. b) Đúng. c) Đúng. d) Đúng (ví dụ print('Hello', 'World', sep='-') in ra Hello-World).",
+        "id": "B18_GOC_DS_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_18.docx",
+        "nhan_dinh": {
+          "a": "Lệnh print() chỉ có thể in ra tối đa một giá trị mỗi lần gọi.",
+          "b": "Lệnh print() có thể in ra nhiều giá trị cùng lúc, các giá trị cách nhau bởi dấu phẩy.",
+          "c": "Có thể sử dụng lệnh print() để in kết hợp biến, biểu thức và xâu kí tự.",
+          "d": "Tham số sep trong print() dùng để thay đổi kí tự phân cách giữa các giá trị in ra."
+        },
+        "noi_dung": "Cho đoạn thông tin về lệnh print() trong Python. Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      },
+      {
         "dap_an": {
           "a": true,
           "b": false,
           "c": true,
           "d": false
         },
-        "giai_thich": "a đúng: input() nhận dữ liệu người dùng nhập và trả về xâu kí tự.; b sai: input() tự chuyển mọi dữ liệu nhập thành số nguyên.; c đúng: int() chuyển giá trị phù hợp thành số nguyên.; d sai: print() dùng để nhận dữ liệu từ bàn phím.."
+        "giai_thich": "a) Đúng. b) Sai, vẫn là str. c) Đúng. d) Sai, dùng float(input()).",
+        "id": "B18_GOC_DS_03",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "ds_tin_hoc_10_kntt_bai_18.docx",
+        "nhan_dinh": {
+          "a": "Hàm int() chuyển đổi xâu chứa chữ số nguyên hợp lệ thành số nguyên.",
+          "b": "Dữ liệu nhập từ input() mặc định là kiểu số nguyên nếu người dùng gõ số.",
+          "c": "Nếu người dùng nhập vào chữ 'muoi' hoặc '12.5', hàm int() sẽ gây ra lỗi ValueError.",
+          "d": "Không thể chuyển đổi dữ liệu từ input() sang kiểu số thực."
+        },
+        "noi_dung": "Cho đoạn thông tin về chuyển đổi kiểu dữ liệu khi nhập: age = int(input(\"Nhập tuổi của bạn: \")). Hãy đánh giá tính đúng/sai của các nhận định sau:"
+      }
+    ],
+    "tra_loi_ngan": [
+      {
+        "dap_an": "55",
+        "giai_thich": "Do input() trả về xâu '5', phép 2 * '5' thực hiện lặp xâu 2 lần thành '55'.",
+        "id": "B18_GOC_TLN_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "ndc_b18._cac_lenh_vao_ra_don_gian_.docx",
+        "noi_dung": "Bạn Lan chạy đoạn lệnh:\nx = input(\"Nhập x: \")\nprint(2 * x)\nNếu Lan nhập số 5 từ bàn phím thì kết quả in ra màn hình là gì?"
+      },
+      {
+        "dap_an": "bool, False",
+        "giai_thich": "8 + 5 = 13, nên phép so sánh khác nhau 13 != 13 trả về giá trị False thuộc kiểu bool.",
+        "id": "B18_GOC_TLN_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_18_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Xác định kiểu dữ liệu và giá trị của biểu thức: 13 != 8 + 5"
+      }
+    ],
+    "trac_nghiem": [
+      {
+        "dap_an": "A",
+        "giai_thich": "z được gán giá trị 10 (số nguyên) nên type(z) trả về kiểu int.",
+        "id": "B18_GOC_TN_01",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Kết quả của các dòng lệnh sau là gì?\n>>> x, y, z = 10, \"10\", 10\n>>> type(z)",
+        "phuong_an": {
+          "A": "<class 'int'>",
+          "B": "<class 'float'>",
+          "C": "<class 'double'>",
+          "D": "<class 'str'>"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "4//3 = 1; 3 + 1 = 4; hàm str(4) chuyển số nguyên 4 thành xâu kí tự '4'.",
+        "id": "B18_GOC_TN_02",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Kết quả của câu lệnh str(3 + 4//3) là gì?",
+        "phuong_an": {
+          "A": "\"3+4//3\"",
+          "B": "4",
+          "C": "4.0",
+          "D": "'4'"
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "Hàm input() dùng để nhận dữ liệu người dùng nhập từ bàn phím.",
+        "id": "B18_GOC_TN_03",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Câu lệnh nào trong Python dùng để nhập dữ liệu từ bàn phím?",
+        "phuong_an": {
+          "A": "print()",
+          "B": "input()",
+          "C": "nhap()",
+          "D": "enter()"
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "int(10.5) chuyển số thực 10.5 về phần nguyên 10 hoàn toàn hợp lệ (chỉ int(\"10.5\") mới báo lỗi ValueError). (Lưu ý: bảng đáp án file nguồn ghi nhầm B).",
+        "id": "B18_GOC_TN_04",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Câu lệnh >>> int(10.5) trong Python có bị lỗi không?",
+        "phuong_an": {
+          "A": "Không có lỗi, kết quả trả về là 10.",
+          "B": "Câu lệnh báo lỗi ValueError.",
+          "C": "Câu lệnh báo lỗi SyntaxError.",
+          "D": "Kết quả trả về là 11."
+        }
+      },
+      {
+        "dap_an": "B",
+        "giai_thich": "6.7 là số thực nên type(x) là float.",
+        "id": "B18_GOC_TN_05",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Kết quả của các dòng lệnh sau là kiểu dữ liệu gì?\n>>> x = 6.7\n>>> type(x)",
+        "phuong_an": {
+          "A": "int.",
+          "B": "float.",
+          "C": "str.",
+          "D": "bool."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "Hàm type() trả về kiểu dữ liệu của đối tượng truyền vào.",
+        "id": "B18_GOC_TN_06",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Lệnh nào dùng để nhận biết kiểu dữ liệu của biến hoặc biểu thức trong Python?",
+        "phuong_an": {
+          "A": "type()",
+          "B": "int()",
+          "C": "size()",
+          "D": "abs()"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "int() không chuyển đổi được xâu chứa phép toán '12+45'; float() không chuyển đổi được xâu chứa dấu phẩy '123,5.5'.",
+        "id": "B18_GOC_TN_07",
+        "muc_do": "Nhận biết",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Trong các lệnh sau, những lệnh nào sẽ báo lỗi khi chạy trên Python?",
+        "phuong_an": {
+          "A": "int(\"12+45\")",
+          "B": "float(123.56)",
+          "C": "float(\"123,5.5\")",
+          "D": "Cả A và C đều báo lỗi."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Hàm input() luôn trả về xâu kí tự (str); muốn có số thực phải viết x = float(input(\"Nhập số thực x: \")).",
+        "id": "B18_GOC_TN_08",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Để nhập giá trị số thực cho biến x, bạn An viết: x = input(\"Nhập số thực x: \"). Nhận xét nào ĐÚNG về câu lệnh này?",
+        "phuong_an": {
+          "A": "Chương trình chạy đúng và x có kiểu float.",
+          "B": "Chương trình báo lỗi cú pháp không chạy được.",
+          "C": "Chương trình không nhận được dữ liệu từ bàn phím.",
+          "D": "Chương trình vẫn chạy nhưng không đúng yêu cầu vì x mang kiểu xâu (str) chứ không phải số thực."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Biến d nhận giá trị kiểu str từ input(), khi cộng với các biến số a, b, c ở dòng 5 sẽ gây lỗi TypeError.",
+        "id": "B18_GOC_TN_09",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Trong đoạn chương trình nhập 4 số và tính tổng sau, dòng lệnh số mấy bị sai?\n1) a = int(input(\"Nhập số a: \"))\n2) b = float(input(\"Nhập số b: \"))\n3) c = int(input(\"Nhập số c: \"))\n4) d = input(\"Nhập số d: \")\n5) print(\"Tổng là: \", a+b+c+d)",
+        "phuong_an": {
+          "A": "Dòng 1, 2.",
+          "B": "Dòng 2, 4.",
+          "C": "Dòng 3, 5.",
+          "D": "Dòng 4 (thiếu ép kiểu số nên dòng 5 lỗi cộng số với xâu)."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "4 kiểu dữ liệu cơ bản trong Bài 18 là int, float, str, bool; list là kiểu dữ liệu danh sách.",
+        "id": "B18_GOC_TN_10",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Trong các kiểu dữ liệu sau, đâu KHÔNG phải là 4 kiểu dữ liệu cơ bản được giới thiệu trong Bài 18?",
+        "phuong_an": {
+          "A": "int.",
+          "B": "float.",
+          "C": "list.",
+          "D": "str (xâu kí tự)."
+        }
+      },
+      {
+        "dap_an": "A",
+        "giai_thich": "float(4) chuyển số nguyên 4 thành 4.0 hợp lệ; int()/float() không chuyển đổi được xâu chứa biểu thức toán hoặc int(\"3.5\").",
+        "id": "B18_GOC_TN_11",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Câu lệnh nào sau đây KHÔNG báo lỗi khi thực thi trong Python?",
+        "phuong_an": {
+          "A": "float(4)",
+          "B": "int(\"1+3\")",
+          "C": "float(\"1+2+3\")",
+          "D": "int(\"3.5\")"
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Vì biểu thức đặt trong cặp dấu nháy kép nên Python xem đây là xâu kí tự (str).",
+        "id": "B18_GOC_TN_12",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Kiểu dữ liệu của biểu thức \"34 + 28 - 45\" là gì?",
+        "phuong_an": {
+          "A": "int.",
+          "B": "float.",
+          "C": "bool.",
+          "D": "str."
+        }
+      },
+      {
+        "dap_an": "C",
+        "giai_thich": "Vế trái: 4 + 30 - 34 = 0. Vế phải: 40 - 2 = 38. Phép so sánh 0 > 38 cho kết quả bool là False.",
+        "id": "B18_GOC_TN_13",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Xác định kiểu và giá trị của biểu thức: 4 + 5*6 - 34 > 5*8 - 2",
+        "phuong_an": {
+          "A": "bool, True.",
+          "B": "bool, true.",
+          "C": "bool, False.",
+          "D": "Không xác định."
+        }
+      },
+      {
+        "dap_an": "D",
+        "giai_thich": "Ở cửa sổ soạn thảo (Script/Code), bắt buộc phải dùng lệnh print() mới xuất được kết quả ra màn hình.",
+        "id": "B18_GOC_TN_14",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "bai_18_-_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Chọn phát biểu SAI trong các phát biểu sau:",
+        "phuong_an": {
+          "A": "Trong ngôn ngữ lập trình bậc cao có kiểu số nguyên và kiểu số thực.",
+          "B": "Câu lệnh đưa giá trị các biểu thức ra màn hình là print(danh sách biểu thức).",
+          "C": "Ở cửa sổ Shell, nếu viết dòng lệnh chỉ chứa tên biến hoặc biểu thức số học thì kết quả sẽ hiện ra màn hình.",
+          "D": "Ở cửa sổ soạn thảo (Code), để đưa thông tin ra màn hình khi chạy chương trình thì không cần dùng lệnh print()."
+        }
       }
     ],
     "tu_luan": [
       {
-        "id": "T10-B18-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Trình bày hai nội dung của bài: input() nhận dữ liệu người dùng nhập và trả về xâu kí tự. print() hiển thị dữ liệu ra màn hình.",
-        "dap_an_goi_y": "Nêu đúng hai ý: input() nhận dữ liệu người dùng nhập và trả về xâu kí tự. print() hiển thị dữ liệu ra màn hình.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "dap_an": "import math\na = float(input(\"Nhập cạnh a: \"))\nb = float(input(\"Nhập cạnh b: \"))\nc = float(input(\"Nhập cạnh c: \"))\nchu_vi = a + b + c\np = chu_vi / 2\ndien_tich = math.sqrt(p * (p - a) * (p - b) * (p - c))\nprint(\"Chu vi tam giác là:\", chu_vi)\nprint(\"Diện tích tam giác là:\", dien_tich)",
+        "giai_thich": "Dùng float(input()) để nhập số thực và thư viện math (math.sqrt) để tính căn bậc hai.",
+        "id": "B18_GOC_TL_01",
+        "muc_do": "Vận dụng",
+        "nguon_goc": "da_tin_hoc_10_bai_18_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Viết chương trình Python nhập vào từ bàn phím ba số thực dương a, b, c (giả sử thỏa mãn bất đẳng thức tam giác), sau đó tính và in ra chu vi và diện tích tam giác (theo công thức Heron)."
       },
       {
-        "id": "T10-B18-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Các lệnh vào ra đơn giản",
-        "noi_dung": "Giải thích và vận dụng nội dung “int() chuyển giá trị phù hợp thành số nguyên.” trong một tình huống phù hợp.",
-        "dap_an_goi_y": "Giải thích đúng ý “int() chuyển giá trị phù hợp thành số nguyên.” và nêu cách vận dụng phù hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
+        "dap_an": "Vì hàm input() luôn trả về dữ liệu kiểu xâu kí tự (str) bất kể người dùng gõ chữ hay số. Nếu không dùng float() để chuyển đổi sang kiểu số thực, các phép tính số học (như cộng với số, chia, trừ) sẽ bị lỗi TypeError hoặc cho kết quả sai (như phép * biến thành lặp xâu).",
+        "giai_thich": "Phân biệt rõ kiểu xâu số và kiểu giá trị số trong Python.",
+        "id": "B18_GOC_TL_02",
+        "muc_do": "Thông hiểu",
+        "nguon_goc": "da_tin_hoc_10_bai_18_cac_lenh_vao_ra_don_gian.docx",
+        "noi_dung": "Giải thích vì sao khi cần nhập một số thực từ bàn phím để tính toán trong Python ta phải viết `float(input())` mà không viết mỗi `input()`."
       }
     ]
+  },
+  "ma_bai": "BAI_18",
+  "ten_bai": "Các lệnh vào ra đơn giản",
+  "thong_ke": {
+    "cau_hoi_bo_sung": {
+      "dung_sai": 1,
+      "tong": 7,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 3,
+      "tu_luan": 1
+    },
+    "cau_hoi_goc": {
+      "dung_sai": 3,
+      "tong": 21,
+      "tra_loi_ngan": 2,
+      "trac_nghiem": 14,
+      "tu_luan": 2
+    },
+    "phan_bo_muc_do": {
+      "nhan_biet": 10,
+      "thong_hieu": 12,
+      "van_dung": 6
+    },
+    "tong_so_cau": 28
   }
 }
