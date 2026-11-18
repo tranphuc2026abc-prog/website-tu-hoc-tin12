@@ -1,424 +1,570 @@
 {
-  "ma_bai": "BAI_19",
-  "bai_so": 19,
-  "ten_bai": "Thực hành tạo lập bảng",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_19",
+  "ten_bai": "Thực hành tạo lập cơ sở dữ liệu và các bảng",
+  "chu_de": "Chủ đề 6: Thực hành tạo và khai thác cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_19_th_tao_lap.docx",
+    "ndc_bai_19_thuc_hanh_tao_lap_co_so_du_lieu_va_cac_bang.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B19_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Bộ mã kí tự utf8mb4 trong HeidiSQL",
+      "cau_hoi": "Khi tạo lập CSDL `mymusic` bằng HeidiSQL, bộ mã kí tự mặc định hỗ trợ tốt tiếng Việt Unicode là gì?",
+      "lua_chon": {
+        "A": "ascii",
+        "B": "latin1",
+        "C": "utf8mb4 (đối chiếu utf8mb4_general_ci)",
+        "D": "cp1252"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Bộ mã kí tự mặc định là Unicode `utf8mb4`, đối chiếu so sánh xâu theo `utf8mb4_general_ci`.",
+      "nguon": "ndc_bai_19"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B19_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím tắt thêm trường mới trong HeidiSQL",
+      "cau_hoi": "Để thêm khai báo trường tiếp theo khi đang tạo bảng trong HeidiSQL, ta có thể nhấn tổ hợp phím nào?",
+      "lua_chon": {
+        "A": "Ctrl + Insert",
+        "B": "Ctrl + Z",
+        "C": "Alt + F4",
+        "D": "Ctrl + P"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nhấn Ctrl+Insert hoặc nháy phải chuột chọn Add column để thêm trường mới.",
+      "nguon": "ndc_bai_19 & Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khai báo trường khóa chính trong HeidiSQL",
+      "cau_hoi": "Khi khai báo trường khóa chính `idNhacsi` kiểu INT trong HeidiSQL, thao tác nào là đúng?",
+      "lua_chon": {
+        "A": "Đánh dấu ô Allow NULL",
+        "B": "Chọn kiểu DATE",
+        "C": "Bỏ đánh dấu ô Allow NULL, chọn giá trị mặc định AUTO_INCREMENT rồi ấn định Create new index -> PRIMARY",
+        "D": "Không cần nhấn nút Lưu"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khóa chính không được phép NULL (`Allow NULL` bỏ chọn), đặt `AUTO_INCREMENT` và chọn `Create new index -> PRIMARY`.",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sửa lỗi chọn nhầm khóa chính",
+      "cau_hoi": "Nếu lỡ khai báo nhầm trường `tenNhacsi` làm `PRIMARY KEY` trong HeidiSQL, cách sửa nhanh nhất là gì?",
+      "lua_chon": {
+        "A": "Xóa toàn bộ hệ điều hành và cài lại MySQL",
+        "B": "Nháy đúp vào ô `tenNhacsi` dưới mục `PRIMARY KEY` ở phần trên để chọn lại `idNhacsi` (hoặc chỉnh lại ở ô PRIMARY bên cạnh)",
+        "C": "Đổi tên CSDL",
+        "D": "Tắt máy tính"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nháy đúp chuột vào trường dưới mục PRIMARY KEY để chọn lại đúng trường khóa chính rồi nhấn Lưu.",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh menu tạo CSDL mới trong HeidiSQL",
+      "cau_hoi": "Để tạo một CSDL mới trong HeidiSQL, ta nháy phải chuột vào vùng danh sách CSDL bên trái rồi chọn chuỗi lệnh nào?",
+      "lua_chon": {
+        "A": "Tạo mới -> Cơ sở dữ liệu",
+        "B": "Tạo mới -> Bảng",
+        "C": "Xuất cơ sở dữ liệu thành SQL",
+        "D": "Xóa bỏ -> Cơ sở dữ liệu"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nháy phải ở vùng cây bên trái -> Tạo mới -> Cơ sở dữ liệu.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh menu tạo bảng mới trong HeidiSQL",
+      "cau_hoi": "Sau khi đã tạo CSDL `mymusic`, để tạo bảng `nhacsi` bên trong nó trên HeidiSQL, ta nháy phải chuột vào `mymusic` và chọn gì?",
+      "lua_chon": {
+        "A": "Tạo mới -> Cơ sở dữ liệu",
+        "B": "Tạo mới -> Bảng",
+        "C": "Sao chép tên bảng",
+        "D": "Ngắt kết nối"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Chọn đúng CSDL `mymusic`, nháy phải chuột chọn Tạo mới -> Bảng.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Giá trị mặc định cho trường tenNhacsi",
+      "cau_hoi": "Khi khai báo trường `tenNhacsi` kiểu `VARCHAR(255)` theo hướng dẫn thực hành, giá trị mặc định thường đặt là gì?",
+      "lua_chon": {
+        "A": "AUTO_INCREMENT",
+        "B": "Kí tự rỗng (`''`)",
+        "C": "PRIMARY KEY",
+        "D": "3306"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Trường xâu kí tự `tenNhacsi` đặt mặc định là xâu rỗng `''`.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh tạo khóa cấm trùng lặp trong menu chuột phải",
+      "cau_hoi": "Trong cửa sổ thiết kế bảng của HeidiSQL, để đặt khóa cấm trùng lặp cho một trường, ta nháy phải chuột vào trường đó và chọn:",
+      "lua_chon": {
+        "A": "Drop column",
+        "B": "Create new index -> PRIMARY",
+        "C": "Create new index -> UNIQUE",
+        "D": "Allow NULL"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chọn `Create new index -> UNIQUE` để tạo chỉ mục/khóa cấm trùng lặp.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa của việc bỏ chọn Allow NULL cho khóa chính",
+      "cau_hoi": "Vì sao khi khai báo trường khóa chính `idNhacsi`, người dùng cần bỏ đánh dấu ô `Allow NULL`?",
+      "lua_chon": {
+        "A": "Vì đánh dấu `Allow NULL` sẽ tự động xóa bảng",
+        "B": "Vì `Allow NULL` chỉ dùng cho kiểu `DATE`",
+        "C": "Vì khóa chính dùng để định danh duy nhất mỗi bản ghi nên không được phép để trống (NULL)",
+        "D": "Vì bộ mã `utf8mb4` không hỗ trợ `NULL`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khóa chính luôn phải có giá trị xác định, không được phép rỗng (NOT NULL).",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tác dụng của đối chiếu utf8mb4_general_ci",
+      "cau_hoi": "Trong HeidiSQL, phần 'Đối chiếu' (Collation) `utf8mb4_general_ci` đi kèm bộ mã `utf8mb4` có vai trò gì?",
+      "lua_chon": {
+        "A": "Quy định kích thước màn hình hiển thị",
+        "B": "Quy định cổng mạng kết nối MySQL",
+        "C": "Quy định tốc độ xung nhịp CPU",
+        "D": "Quy định cách so sánh và sắp xếp các xâu kí tự Unicode (tiếng Việt) trong CSDL"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Collation xác định quy tắc so sánh và sắp xếp chuỗi kí tự.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Bảng nên tạo trước trong bài thực hành",
+      "cau_hoi": "Trong CSDL `mymusic` (4 bảng), hai bảng nào không chứa khóa ngoài nên được tạo lập trước ở Bài 19?",
+      "lua_chon": {
+        "A": "`bannhac` và `casi`",
+        "B": "`bannhac` và `banthuam`",
+        "C": "`banthuam` và `nhacsi`",
+        "D": "`nhacsi` và `casi`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`nhacsi` và `casi` là các bảng độc lập chưa có khóa ngoài, cần tạo trước khi tạo `bannhac` và `banthuam`.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thao tác hoàn tất lưu bảng",
+      "cau_hoi": "Sau khi điền đủ tên trường, kiểu dữ liệu và khóa chính trong HeidiSQL nhưng đóng cửa sổ mà chưa nhấn nút 'Lưu', điều gì xảy ra?",
+      "lua_chon": {
+        "A": "Bảng mới chưa được tạo thực sự trong CSDL trên máy chủ MySQL",
+        "B": "Bảng vẫn tự động lưu và tự thêm 10 bản ghi mẫu",
+        "C": "CSDL `mymusic` bị xóa sạch",
+        "D": "Khóa chính tự đổi sang `tenNhacsi`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Mọi thay đổi thiết kế bảng trên HeidiSQL chỉ được ghi vào MySQL khi người dùng nhấn nút Lưu.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kiểm tra kết quả sau khi lưu bảng",
+      "cau_hoi": "Sau khi nhấn 'Lưu' bảng `nhacsi` thành công, dấu hiệu nào trên giao diện HeidiSQL cho biết bảng đã được tạo?",
+      "lua_chon": {
+        "A": "Màn hình chuyển sang màu đen",
+        "B": "HeidiSQL tự động đóng chương trình",
+        "C": "Tên bảng `nhacsi` xuất hiện trong nhánh cây dưới tên CSDL `mymusic` ở cột bên trái",
+        "D": "Cổng kết nối đổi từ 3306 sang 80"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Danh sách bảng dưới `mymusic` ở panel bên trái sẽ cập nhật hiển thị bảng mới.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Áp dụng tạo bảng casi trong mymusic",
+      "cau_hoi": "Để tạo bảng `casi(idCasi, tenCasi)` trong `mymusic`, thiết lập nào dưới đây là đúng?",
+      "lua_chon": {
+        "A": "Không đặt khóa chính cho bảng `casi`",
+        "B": "`idCasi` kiểu `VARCHAR(255)`, `Allow NULL`; `tenCasi` kiểu `INT`",
+        "C": "Cả hai trường đều đặt `AUTO_INCREMENT`",
+        "D": "`idCasi` kiểu `INT`, bỏ `Allow NULL`, mặc định `AUTO_INCREMENT`, `PRIMARY`; `tenCasi` kiểu `VARCHAR(255)`, mặc định `''`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Cấu trúc bảng `casi` tương tự bảng `nhacsi` với `idCasi` là khóa chính tự tăng.",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Áp dụng tạo bảng tinh có khóa UNIQUE",
+      "cau_hoi": "Khi tạo bảng `tinh(idTinh, tenTinh)` để quản lí danh sách tỉnh/thành phố (không cho phép nhập trùng tên tỉnh), ngoài khóa chính `idTinh`, ta nên đặt thêm khóa gì cho trường `tenTinh`?",
+      "lua_chon": {
+        "A": "Khóa cấm trùng lặp `UNIQUE` (`Create new index -> UNIQUE`)",
+        "B": "Thuộc tính `AUTO_INCREMENT` cho `tenTinh`",
+        "C": "Khóa ngoài tham chiếu chính nó",
+        "D": "Kiểu dữ liệu `DATE` cho `tenTinh`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Đặt `UNIQUE` trên `tenTinh` giúp ngăn chặn việc nhập hai tỉnh trùng tên.",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí lỗi khi chọn nhầm kiểu dữ liệu latin1",
+      "cau_hoi": "Nếu lỡ tạo CSDL với bộ mã `latin1` thay vì `utf8mb4`, khi nhập tên nhạc sĩ tiếng Việt có dấu (ví dụ: 'Trịnh Công Sơn') có thể gặp lỗi gì?",
+      "lua_chon": {
+        "A": "Không đặt được khóa chính `INT`",
+        "B": "Lỗi không lưu được kí tự tiếng Việt có dấu hoặc bị biến thành dấu hỏi `???` / kí tự lỗi",
+        "C": "Không nhấn được phím `Ctrl + Insert`",
+        "D": "Tự động tăng giá trị `idNhacsi` sai"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`latin1` không chứa bảng mã Unicode tiếng Việt có dấu nên sẽ lỗi font hoặc mất kí tự.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xem câu lệnh SQL sinh ra tự động trong HeidiSQL",
+      "cau_hoi": "Khi tạo bảng bằng giao diện đồ họa trong HeidiSQL, người học có thể xem lại mã lệnh SQL (`CREATE TABLE ...`) mà phần mềm tự động sinh ra ở thẻ nào ngay phía dưới?",
+      "lua_chon": {
+        "A": "Thẻ `CREATE code`",
+        "B": "Thẻ `Foreign keys`",
+        "C": "Thẻ `Data`",
+        "D": "Thẻ `Options`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "HeidiSQL hiển thị câu lệnh DDL `CREATE TABLE` tương ứng trong thẻ `CREATE code`.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí khi quên đặt AUTO_INCREMENT cho idNhacsi",
+      "cau_hoi": "Sau khi tạo xong bảng `nhacsi`, học sinh phát hiện quên đặt `AUTO_INCREMENT` cho `idNhacsi`. Có thể sửa lại trên HeidiSQL bằng cách nào?",
+      "lua_chon": {
+        "A": "Đổi tên bảng thành `casi`",
+        "B": "Bắt buộc phải xóa toàn bộ CSDL `mymusic`",
+        "C": "Không thể sửa được sau khi đã lưu bảng",
+        "D": "Chọn bảng `nhacsi` -> thẻ `Bảng` (Table) -> nháy cột Mặc định (Default) của `idNhacsi` chọn `AUTO_INCREMENT` -> nhấn Lưu"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "HeidiSQL cho phép chỉnh sửa thuộc tính trường trong thẻ thiết kế Bảng và nhấn Lưu để cập nhật.",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phát hiện lỗi từ thông báo của MySQL khi tạo bảng",
+      "cau_hoi": "Khi nhấn 'Lưu' để tạo một bảng mới trong HeidiSQL, MySQL báo lỗi `#1075 - Incorrect table definition; there can be only one auto column and it must be defined as a key`. Nguyên nhân gây ra lỗi này là gì?",
+      "lua_chon": {
+        "A": "Đặt tên CSDL bằng chữ thường",
+        "B": "Đã đặt `AUTO_INCREMENT` cho một trường nhưng quên chưa chỉ định trường đó làm khóa (`PRIMARY` hoặc index), hoặc đặt `AUTO_INCREMENT` cho 2 trường trong cùng bảng",
+        "C": "Chọn bộ mã `utf8mb4`",
+        "D": "Dùng phím `Ctrl + Insert` để thêm cột"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "MySQL quy định trong một bảng chỉ có tối đa một cột `AUTO_INCREMENT` và cột đó phải là một khóa.",
+      "nguon": "ndc_bai_19 & Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Tự viết lại lệnh SQL tương đương thao tác HeidiSQL",
+      "cau_hoi": "Thao tác tạo bảng `nhacsi` trên giao diện HeidiSQL ở Bài 19 tương đương với câu lệnh SQL nào sau đây?",
+      "lua_chon": {
+        "A": "`ALTER DATABASE nhacsi ADD PRIMARY KEY (idNhacsi);`",
+        "B": "`INSERT TABLE nhacsi (idNhacsi, tenNhacsi);`",
+        "C": "`SELECT * FROM nhacsi;`",
+        "D": "`CREATE TABLE nhacsi (idNhacsi INT NOT NULL AUTO_INCREMENT, tenNhacsi VARCHAR(255) DEFAULT '', PRIMARY KEY (idNhacsi));`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Lệnh DDL chuẩn tạo bảng `nhacsi` với `idNhacsi` NOT NULL, AUTO_INCREMENT, PRIMARY KEY và `tenNhacsi` VARCHAR(255).",
+      "nguon": "ndc_bai_19"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B19-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Thuộc tính nào định danh duy nhất bản ghi trong bảng?",
-        "lua_chon": {
-          "A": "Khóa ngoài",
-          "B": "Nhãn bảng",
-          "C": "Điều kiện sắp xếp",
-          "D": "Khóa chính"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B19_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy trình tạo CSDL và bảng nhacsi",
+      "dan_nhap": "Quy trình tạo lập CSDL `mymusic` và bảng `nhacsi(idNhacsi, tenNhacsi)` trên HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Nháy phải chuột ở vùng danh sách CSDL bên trái, chọn Tạo mới -> Cơ sở dữ liệu để tạo `mymusic`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Đáp án đúng vì Khóa chính; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B19-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Phát biểu nào đúng về Tạo CSDL?",
-        "lua_chon": {
-          "A": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
-          "B": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
-          "C": "Khóa chính định danh duy nhất từng dòng.",
-          "D": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc."
+        {
+          "ma": "b",
+          "noi_dung": "Trường `tenNhacsi` được khai báo kiểu `VARCHAR`, độ dài 255, giá trị mặc định là kí tự rỗng `''`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí."
-      },
-      {
-        "id": "T11-B19-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống: Bắt đầu dự án mymusic. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "UNIQUE.",
-          "B": "Tạo CSDL mới.",
-          "C": "Các trường với tên và kiểu tương ứng.",
-          "D": "Mã nhạc sĩ duy nhất."
+        {
+          "ma": "c",
+          "noi_dung": "Sau khi khai báo xong các trường và khóa chính, bảng tự động được lưu mà không cần nhấn nút Lưu.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải nhấn nút Lưu để hoàn tất khởi tạo bảng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Tạo CSDL mới."
-      },
-      {
-        "id": "T11-B19-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tạo CSDL?",
-        "lua_chon": {
-          "A": "Email mỗi tài khoản phải khác nhau.",
-          "B": "Bắt đầu dự án mymusic.",
-          "C": "Bảng nhacsi cần lưu tên và năm sinh.",
-          "D": "Có nhiều nhạc sĩ cùng tên."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể chọn `Create new index -> UNIQUE` để tạo khóa cấm trùng lặp cho trường không được phép trùng giá trị.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_19 & ndc_bai_19"
+    },
+    {
+      "id": "B19_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lưu ý khai báo trường và bộ mã",
+      "dan_nhap": "Lưu ý khi khai báo trường và kiểu dữ liệu trong HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Bộ mã `utf8mb4` giúp lưu trữ đầy đủ tiếng Việt có dấu và các kí tự Unicode.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Tạo CSDL trong bài Thực hành tạo lập bảng."
-      },
-      {
-        "id": "T11-B19-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Phát biểu nào đúng về Khai báo trường?",
-        "lua_chon": {
-          "A": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
-          "B": "Khóa chính định danh duy nhất từng dòng.",
-          "C": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc.",
-          "D": "Mỗi trường cần tên và kiểu dữ liệu phù hợp."
+        {
+          "ma": "b",
+          "noi_dung": "Trường khóa chính nên đánh dấu `Allow NULL` để có thể bỏ trống khi nhập liệu.",
+          "dap_an": false,
+          "giai_thich": "Sai. Khóa chính không được phép NULL."
         },
-        "dap_an": "D",
-        "giai_thich": "Mỗi trường cần tên và kiểu dữ liệu phù hợp."
-      },
-      {
-        "id": "T11-B19-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống: Bảng nhacsi cần lưu tên và năm sinh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Các trường với tên và kiểu tương ứng.",
-          "B": "Tạo CSDL mới.",
-          "C": "Mã nhạc sĩ duy nhất.",
-          "D": "UNIQUE."
+        {
+          "ma": "c",
+          "noi_dung": "Khi chọn `AUTO_INCREMENT`, giá trị của `idNhacsi` sẽ tự động tăng dần khi thêm bản ghi mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Các trường với tên và kiểu tương ứng."
-      },
-      {
-        "id": "T11-B19-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Khai báo trường?",
-        "lua_chon": {
-          "A": "Bắt đầu dự án mymusic.",
-          "B": "Có nhiều nhạc sĩ cùng tên.",
-          "C": "Email mỗi tài khoản phải khác nhau.",
-          "D": "Bảng nhacsi cần lưu tên và năm sinh."
+        {
+          "ma": "d",
+          "noi_dung": "Các bảng chưa có khóa ngoài như `nhacsi` và `casi` nên được tạo trước các bảng có khóa ngoài tham chiếu tới chúng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_19 & ndc_bai_19"
+    },
+    {
+      "id": "B19_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thực hành tạo bảng casi và tinh",
+      "dan_nhap": "Học sinh tạo bảng `casi(idCasi, tenCasi)` và bảng `tinh(idTinh, tenTinh)` trong HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể dùng tổ hợp phím `Ctrl + Insert` để thêm cột thứ hai sau khi khai báo xong cột thứ nhất.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Khai báo trường trong bài Thực hành tạo lập bảng."
-      },
-      {
-        "id": "T11-B19-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Phát biểu nào đúng về Khóa chính?",
-        "lua_chon": {
-          "A": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
-          "B": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc.",
-          "C": "Khóa chính định danh duy nhất từng dòng.",
-          "D": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí."
+        {
+          "ma": "b",
+          "noi_dung": "Nên chọn `Create new index -> PRIMARY` cho trường `tenTinh` để tự động tăng tên tỉnh.",
+          "dap_an": false,
+          "giai_thich": "Sai. `idTinh` mới là khóa chính; `tenTinh` đặt `UNIQUE`."
         },
-        "dap_an": "C",
-        "giai_thich": "Khóa chính định danh duy nhất từng dòng."
-      },
-      {
-        "id": "T11-B19-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống: Có nhiều nhạc sĩ cùng tên. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo CSDL mới.",
-          "B": "Các trường với tên và kiểu tương ứng.",
-          "C": "UNIQUE.",
-          "D": "Mã nhạc sĩ duy nhất."
+        {
+          "ma": "c",
+          "noi_dung": "Nếu đặt nhầm khóa chính sang `tenCasi`, có thể nháy đúp vào ô dưới `PRIMARY KEY` ở phía trên để đổi lại thành `idCasi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Mã nhạc sĩ duy nhất."
-      },
-      {
-        "id": "T11-B19-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Khóa chính?",
-        "lua_chon": {
-          "A": "Email mỗi tài khoản phải khác nhau.",
-          "B": "Có nhiều nhạc sĩ cùng tên.",
-          "C": "Bắt đầu dự án mymusic.",
-          "D": "Bảng nhacsi cần lưu tên và năm sinh."
+        {
+          "ma": "d",
+          "noi_dung": "Kiểu dữ liệu `VARCHAR` độ dài 255 phù hợp để lưu tên ca sĩ và tên tỉnh/thành phố.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thao tác trên giao diện HeidiSQL",
+      "dan_nhap": "Nhận định về thao tác thiết kế bảng trên HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể thêm cột mới bằng nút 'Thêm mới' hoặc nháy phải chuột chọn 'Add column'.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Khóa chính trong bài Thực hành tạo lập bảng."
-      },
-      {
-        "id": "T11-B19-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Phát biểu nào đúng về UNIQUE?",
-        "lua_chon": {
-          "A": "Khóa chính định danh duy nhất từng dòng.",
-          "B": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc.",
-          "C": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
-          "D": "Mỗi trường cần tên và kiểu dữ liệu phù hợp."
+        {
+          "ma": "b",
+          "noi_dung": "Sau khi nhấn Lưu thành công, tên bảng sẽ hiển thị bên dưới tên CSDL ở cây thư mục bên trái.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "UNIQUE ngăn giá trị trùng ở trường được ràng buộc."
-      },
-      {
-        "id": "T11-B19-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống: Email mỗi tài khoản phải khác nhau. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Các trường với tên và kiểu tương ứng.",
-          "B": "Mã nhạc sĩ duy nhất.",
-          "C": "UNIQUE.",
-          "D": "Tạo CSDL mới."
+        {
+          "ma": "c",
+          "noi_dung": "Khi tạo CSDL mới, bắt buộc phải chọn bộ mã `ascii` để gõ được tiếng Việt có dấu.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải chọn `utf8mb4`."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, UNIQUE."
-      },
-      {
-        "id": "T11-B19-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về UNIQUE?",
-        "lua_chon": {
-          "A": "Bắt đầu dự án mymusic.",
-          "B": "Bảng nhacsi cần lưu tên và năm sinh.",
-          "C": "Có nhiều nhạc sĩ cùng tên.",
-          "D": "Email mỗi tài khoản phải khác nhau."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể xem câu lệnh `CREATE TABLE` tự động sinh ra ở thẻ `CREATE code`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí lỗi khi thiết kế bảng",
+      "dan_nhap": "Nhận định về các lỗi thường gặp khi tạo lập CSDL và bảng trong HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Quên nhấn nút Lưu sau khi thêm các trường sẽ khiến bảng không tồn tại trên MySQL.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với UNIQUE trong bài Thực hành tạo lập bảng."
-      },
-      {
-        "id": "T11-B19-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Phát biểu nào đúng về NOT NULL?",
-        "lua_chon": {
-          "A": "NOT NULL cấm trường không có giá trị.",
-          "B": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
-          "C": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
-          "D": "Khóa chính định danh duy nhất từng dòng."
+        {
+          "ma": "b",
+          "noi_dung": "Một bảng có thể đặt `AUTO_INCREMENT` cho nhiều cột khác nhau cùng lúc.",
+          "dap_an": false,
+          "giai_thich": "Sai. MySQL chỉ cho phép tối đa một cột `AUTO_INCREMENT` và cột đó phải là khóa."
         },
-        "dap_an": "A",
-        "giai_thich": "NOT NULL cấm trường không có giá trị."
-      },
-      {
-        "id": "T11-B19-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống: Mã định danh bắt buộc nhập. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mã nhạc sĩ duy nhất.",
-          "B": "NOT NULL.",
-          "C": "Tạo CSDL mới.",
-          "D": "Các trường với tên và kiểu tương ứng."
+        {
+          "ma": "c",
+          "noi_dung": "Đặt `Allow NULL` cho trường khóa chính là thao tác đúng chuẩn.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải bỏ chọn `Allow NULL` cho khóa chính."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, NOT NULL."
-      },
-      {
-        "id": "T11-B19-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về NOT NULL?",
-        "lua_chon": {
-          "A": "Có nhiều nhạc sĩ cùng tên.",
-          "B": "Mã định danh bắt buộc nhập.",
-          "C": "Bắt đầu dự án mymusic.",
-          "D": "Bảng nhacsi cần lưu tên và năm sinh."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với NOT NULL trong bài Thực hành tạo lập bảng."
-      },
-      {
-        "id": "T11-B19-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Phát biểu nào đúng về Lưu cấu trúc?",
-        "lua_chon": {
-          "A": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.",
-          "B": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
-          "C": "Khóa chính định danh duy nhất từng dòng.",
-          "D": "Lưu thiết kế bảng áp dụng tên trường, kiểu và ràng buộc."
-        },
-        "dap_an": "D",
-        "giai_thich": "Lưu thiết kế bảng áp dụng tên trường, kiểu và ràng buộc."
-      },
-      {
-        "id": "T11-B19-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống: Tạo xong khai báo nhưng chưa lưu. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Lưu cấu trúc và kiểm tra bảng.",
-          "B": "Tạo CSDL mới.",
-          "C": "Các trường với tên và kiểu tương ứng.",
-          "D": "Mã nhạc sĩ duy nhất."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Lưu cấu trúc và kiểm tra bảng."
-      },
-      {
-        "id": "T11-B19-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lưu cấu trúc?",
-        "lua_chon": {
-          "A": "Bắt đầu dự án mymusic.",
-          "B": "Bảng nhacsi cần lưu tên và năm sinh.",
-          "C": "Có nhiều nhạc sĩ cùng tên.",
-          "D": "Tạo xong khai báo nhưng chưa lưu."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Lưu cấu trúc trong bài Thực hành tạo lập bảng."
-      },
-      {
-        "id": "T11-B19-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra bảng?",
-        "lua_chon": {
-          "A": "Mỗi trường cần tên và kiểu dữ liệu phù hợp.",
-          "B": "Khóa chính định danh duy nhất từng dòng.",
-          "C": "Xem lại cấu trúc giúp phát hiện sai tên, kiểu hoặc khóa.",
-          "D": "Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí."
-        },
-        "dap_an": "C",
-        "giai_thich": "Xem lại cấu trúc giúp phát hiện sai tên, kiểu hoặc khóa."
-      },
-      {
-        "id": "T11-B19-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống: Ứng dụng báo lỗi khi thêm bản ghi. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo CSDL mới.",
-          "B": "Các trường với tên và kiểu tương ứng.",
-          "C": "Mã nhạc sĩ duy nhất.",
-          "D": "Kiểm tra định nghĩa trường và ràng buộc."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Kiểm tra định nghĩa trường và ràng buộc."
-      },
-      {
-        "id": "T11-B19-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra bảng?",
-        "lua_chon": {
-          "A": "Có nhiều nhạc sĩ cùng tên.",
-          "B": "Ứng dụng báo lỗi khi thêm bản ghi.",
-          "C": "Bắt đầu dự án mymusic.",
-          "D": "Bảng nhacsi cần lưu tên và năm sinh."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Kiểm tra bảng trong bài Thực hành tạo lập bảng."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B19-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Xét tính đúng/sai về Thực hành tạo lập bảng:",
-        "y_kien": {
-          "a": true,
-          "b": false,
-          "c": "Ràng buộc UNIQUE ngăn giá trị trùng.",
-          "d": "Khóa chính có thể lặp tùy ý."
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B19-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Mô tả tạo CSDL và bảng có khóa chính.",
-        "dap_an_goi_y": "Tạo CSDL, khai báo bảng/trường/kiểu, chọn khóa chính, thêm UNIQUE cho trường cần không trùng, lưu và kiểm tra cấu trúc.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B19-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 19 - Thực hành tạo lập bảng",
-        "noi_dung": "Dựa vào kiến thức “Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Bắt đầu dự án mymusic.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Tạo CSDL trước khi xây dựng các bảng thuộc phạm vi quản lí. Vận dụng: Tạo CSDL mới. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Tên bảng và tên trường nên đặt không dấu, không khoảng trắng (ví dụ `idNhacsi`, `tenNhacsi`).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_19 & Kenhgiaovien_19"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B19_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Bộ mã utf8mb4",
+      "cau_hoi": "Bộ mã kí tự Unicode được chọn mặc định khi tạo CSDL `mymusic` trong HeidiSQL là gì?",
+      "dap_an": "utf8mb4",
+      "dap_an_tuong_duong": [
+        "UTF8MB4"
+      ],
+      "giai_thich": "Bộ mã `utf8mb4` hỗ trợ đầy đủ tiếng Việt có dấu.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím tắt thêm cột mới",
+      "cau_hoi": "Tổ hợp phím tắt dùng để thêm một cột (trường) mới khi thiết kế bảng trong HeidiSQL là gì?",
+      "dap_an": "Ctrl + Insert",
+      "dap_an_tuong_duong": [
+        "Ctrl+Insert"
+      ],
+      "giai_thich": "Phím tắt `Ctrl + Insert` thêm trường mới vào bảng.",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh đặt khóa chính",
+      "cau_hoi": "Lệnh trong menu chuột phải `Create new index` dùng để đặt khóa chính là gì?",
+      "dap_an": "PRIMARY",
+      "dap_an_tuong_duong": [
+        "primary"
+      ],
+      "giai_thich": "Chọn `Create new index -> PRIMARY` để ấn định khóa chính.",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh đặt khóa cấm trùng lặp",
+      "cau_hoi": "Lệnh trong menu chuột phải `Create new index` dùng để đặt khóa cấm trùng lặp là gì?",
+      "dap_an": "UNIQUE",
+      "dap_an_tuong_duong": [
+        "unique"
+      ],
+      "giai_thich": "Chọn `Create new index -> UNIQUE` để tạo khóa cấm trùng lặp.",
+      "nguon": "ndc_bai_19"
+    },
+    {
+      "id": "B19_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tùy chọn không cho phép bỏ trống",
+      "cau_hoi": "Tên ô đánh dấu trong HeidiSQL cần phải BỎ CHỌN khi khai báo trường khóa chính để không cho phép giá trị rỗng là gì?",
+      "dap_an": "Allow NULL",
+      "dap_an_tuong_duong": [
+        "allow null"
+      ],
+      "giai_thich": "Bỏ chọn `Allow NULL` đảm bảo khóa chính luôn có giá trị xác định.",
+      "nguon": "Kenhgiaovien_19"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B19_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy trình tạo CSDL mymusic và bảng nhacsi",
+      "cau_hoi": "Trình bày các bước tạo lập CSDL `mymusic` và bảng `nhacsi(idNhacsi, tenNhacsi)` trong HeidiSQL.",
+      "goi_y_dap_an": "- Tạo CSDL: Nháy phải ở vùng danh sách CSDL → Tạo mới → Cơ sở dữ liệu → nhập `mymusic` (bộ mã `utf8mb4`) → OK.\n- Tạo bảng: Nháy phải vào `mymusic` → Tạo mới → Bảng → nhập tên `nhacsi` → Thêm mới trường `idNhacsi` (INT, bỏ Allow NULL, chọn AUTO_INCREMENT) → thêm trường `tenNhacsi` (VARCHAR(255), mặc định `''`) → đặt `idNhacsi` làm `PRIMARY` → nhấn Lưu.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng bước tạo CSDL `mymusic` (0,6đ), khai báo đúng 2 trường (0,8đ), đặt khóa chính và Lưu (0,6đ).",
+      "nguon": "ndc_bai_19 & Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo bảng casi và tinh",
+      "cau_hoi": "Áp dụng quy trình tương tự bảng `nhacsi`, nêu các thiết lập cần thực hiện để tạo bảng `casi(idCasi, tenCasi)` và bảng `tinh(idTinh, tenTinh)`.",
+      "goi_y_dap_an": "Tạo bảng trong cùng CSDL: trường `idCasi` / `idTinh` kiểu `INT`, bỏ `Allow NULL`, chọn `AUTO_INCREMENT` và đặt `PRIMARY`; trường `tenCasi` / `tenTinh` kiểu `VARCHAR(255)` (có thể đặt `UNIQUE` cho `tenTinh` nếu không cho phép trùng tên tỉnh); nhấn Lưu.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng thiết lập trường và khóa cho bảng `casi` (1,0đ) và bảng `tinh` kèm `UNIQUE(tenTinh)` (1,0đ).",
+      "nguon": "Kenhgiaovien_19"
+    },
+    {
+      "id": "B19_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí lỗi thực tế khi thiết kế bảng trong HeidiSQL",
+      "cau_hoi": "Trong giờ thực hành, bạn An gặp 2 sự cố: (1) sau khi thiết kế xong bảng `casi` và tắt cửa sổ thì không thấy bảng đâu; (2) khi thiết lập `idCasi` có `AUTO_INCREMENT` thì lỡ chọn nhầm `tenCasi` làm `PRIMARY KEY` nên MySQL báo lỗi không cho lưu. Hãy giải thích nguyên nhân và hướng dẫn bạn An cách khắc phục từng sự cố.",
+      "goi_y_dap_an": "- Sự cố (1): Do quên nhấn nút **Lưu** sau khi khai báo bảng; khắc phục: tạo lại và nhấn **Lưu**.\n- Sự cố (2): Do `AUTO_INCREMENT` bắt buộc cột đó phải là khóa (thường là `PRIMARY`), còn `tenCasi` lại bị gán nhầm `PRIMARY`; khắc phục: nháy đúp vào `tenCasi` dưới mục `PRIMARY KEY` ở phía trên để đổi lại thành `idCasi`, kiểm tra `Allow NULL` của `idCasi` đã bỏ chọn rồi nhấn **Lưu**.",
+      "thang_diem": "Tổng 2,0 điểm: giải thích và khắc phục đúng sự cố 1 (0,8đ) và sự cố 2 (1,2đ).",
+      "nguon": "ndc_bai_19 & Kenhgiaovien_19"
+    }
+  ]
 }

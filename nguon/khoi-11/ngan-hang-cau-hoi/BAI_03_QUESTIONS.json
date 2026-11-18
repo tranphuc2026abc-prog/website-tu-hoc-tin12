@@ -1,424 +1,577 @@
 {
-  "ma_bai": "BAI_03",
-  "bai_so": 3,
-  "ten_bai": "Phần mềm nguồn mở",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_03",
+  "ten_bai": "Phần mềm nguồn mở và phần mềm chạy trên Internet",
+  "chu_de": "Chủ đề 1: Máy tính và xã hội tri thức",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_3_phan_mem_nguon.docx",
+    "cd1_bai_3_phan_mem_nguon_mo_va_phan_mem_chay_tren_internet.docx",
+    "ndc_bai_3_phan_mem_nguon_mo_va_phan_mem_chay_tren_internet.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_3_phan_mem_nguon_mo_va_phan_mem_chay_tren_internet.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_3_phan_mem_nguon_mo_va_phan_mem_chay_tren_internet.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B03_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phân loại phần mềm theo cách chuyển giao",
+      "cau_hoi": "Theo cách thức chuyển giao sử dụng, phần mềm được phân thành 3 loại nào sau đây?",
+      "lua_chon": {
+        "A": "Phần mềm hệ thống, phần mềm ứng dụng, phần mềm tiện ích",
+        "B": "Phần mềm đóng gói, phần mềm trực tuyến, phần mềm nhúng",
+        "C": "Phần mềm thương mại, phần mềm tự do, phần mềm nguồn mở",
+        "D": "Phần mềm miễn phí, phần mềm trả phí, phần mềm dùng thử"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Theo cách chuyển giao sử dụng có 3 loại: phần mềm thương mại, phần mềm tự do, phần mềm nguồn mở.",
+      "nguon": "cd1_bai_3 & ndc_bai_3"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B03_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ví dụ phần mềm đồ họa nguồn mở và thương mại",
+      "cau_hoi": "Cặp phần mềm nào sau đây lần lượt là phần mềm đồ họa nguồn mở và phần mềm đồ họa thương mại?",
+      "lua_chon": {
+        "A": "Adobe Photoshop và GIMP",
+        "B": "GIMP và Adobe Photoshop",
+        "C": "CorelDRAW và Inkscape",
+        "D": "Microsoft Word và Google Docs"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "GIMP (cùng Inkscape, Blender) là phần mềm đồ họa nguồn mở; Adobe Photoshop là phần mềm đồ họa thương mại.",
+      "nguon": "tln_..._bai_3 & cd1_bai_3"
+    },
+    {
+      "id": "B03_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Giấy phép GNU GPL",
+      "cau_hoi": "Điểm đặc biệt của giấy phép GNU GPL đối với bản sửa đổi từ một phần mềm nguồn mở là gì?",
+      "lua_chon": {
+        "A": "Cho phép đóng mã nguồn bản sửa đổi để bán độc quyền",
+        "B": "Cấm hoàn toàn việc sửa đổi mã nguồn gốc",
+        "C": "Yêu cầu công bố mã nguồn phần sửa đổi và áp dụng tiếp giấy phép GNU GPL",
+        "D": "Buộc tác giả gốc phải chịu trách nhiệm bảo hành cho bản sửa đổi"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Theo giấy phép GNU GPL, bản sửa đổi phải công bố mã nguồn phần thay đổi, giữ thông tin tác giả gốc, miễn trừ bảo hành và áp dụng giấy phép GNU GPL.",
+      "nguon": "ndc_bai_3 & tln_..._bai_3"
+    },
+    {
+      "id": "B03_TN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Vai trò của phần mềm thương mại",
+      "cau_hoi": "Vì sao phần mềm nguồn mở không thể thay thế hoàn toàn phần mềm thương mại?",
+      "lua_chon": {
+        "A": "Vì phần mềm nguồn mở không chạy được trên Windows",
+        "B": "Vì phần mềm nguồn mở luôn mất phí cao hơn phần mềm thương mại",
+        "C": "Vì phần mềm thương mại tạo nguồn thu tài chính duy trì tổ chức làm phần mềm và đáp ứng các yêu cầu nghiệp vụ đặc thù, có bảo hành, hỗ trợ kĩ thuật",
+        "D": "Vì phần mềm nguồn mở không có giao diện đồ họa"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Phần mềm thương mại đem lại nguồn tài chính chủ yếu để duy trì tổ chức làm phần mềm và đáp ứng các nhu cầu đặc thù riêng.",
+      "nguon": "ndc_bai_3 & tln_..._bai_3"
+    },
+    {
+      "id": "B03_TN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phần mềm chạy trên Internet",
+      "cau_hoi": "Phần mềm nào sau đây là ví dụ điển hình của phần mềm chạy trên Internet?",
+      "lua_chon": {
+        "A": "GIMP",
+        "B": "Adobe Photoshop (bản cài đặt cục bộ)",
+        "C": "Ubuntu",
+        "D": "Google Docs"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Google Docs cho phép sử dụng qua Internet mà không cần cài đặt vào máy tính cá nhân.",
+      "nguon": "ndc_bai_3 & tln_..._bai_3"
+    },
+    {
+      "id": "B03_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hai loại phần mềm thương mại",
+      "cau_hoi": "Phần mềm thương mại thường được chia thành hai loại nào sau đây?",
+      "lua_chon": {
+        "A": "Phần mềm hệ thống và phần mềm nguồn mở",
+        "B": "Phần mềm mã nguồn mở và phần mềm tự do",
+        "C": "Phần mềm trực tuyến và phần mềm miễn phí",
+        "D": "Phần mềm \"đặt hàng\" và phần mềm \"đóng gói\""
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phần mềm thương mại gồm phần mềm đặt hàng (theo yêu cầu riêng) và phần mềm đóng gói (phục vụ số đông).",
+      "nguon": "ndc_bai_3 & cd1_bai_3"
+    },
+    {
+      "id": "B03_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khái niệm phần mềm nguồn mở",
+      "cau_hoi": "Đặc trưng cốt lõi giúp nhận biết một phần mềm là phần mềm nguồn mở là gì?",
+      "lua_chon": {
+        "A": "Cung cấp cả mã nguồn để người dùng có thể sửa đổi, cải tiến, phát triển và phân phối lại theo giấy phép",
+        "B": "Chỉ cung cấp mã máy, không cung cấp mã nguồn",
+        "C": "Bắt buộc phải mua bản quyền theo từng máy",
+        "D": "Chỉ chạy được qua trình duyệt web"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Phần mềm nguồn mở cung cấp mã nguồn kèm giấy phép cho phép sửa đổi, phát triển và phân phối lại.",
+      "nguon": "ndc_bai_3"
+    },
+    {
+      "id": "B03_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ví dụ phần mềm chỉnh sửa video nguồn mở",
+      "cau_hoi": "Phần mềm nào sau đây là phần mềm chỉnh sửa video nguồn mở tương ứng với Adobe Premiere (thương mại)?",
+      "lua_chon": {
+        "A": "Microsoft Word",
+        "B": "OpenShot Video Editor",
+        "C": "Acrobat Reader",
+        "D": "Adobe Photoshop"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "OpenShot Video Editor là phần mềm chỉnh sửa video mã nguồn mở; Adobe Premiere là phần mềm thương mại.",
+      "nguon": "ndc_bai_3"
+    },
+    {
+      "id": "B03_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt phần mềm tự do và phần mềm nguồn mở",
+      "cau_hoi": "Điểm khác biệt nào giúp phân biệt phần mềm tự do (ví dụ Acrobat Reader) với phần mềm nguồn mở (ví dụ Inkscape)?",
+      "lua_chon": {
+        "A": "Phần mềm tự do luôn đắt tiền hơn phần mềm nguồn mở",
+        "B": "Phần mềm tự do miễn phí sử dụng không cần xin phép, có thể ở dạng mã máy hoặc mã nguồn; phần mềm nguồn mở cung cấp mã nguồn để sửa, phát triển và phân phối lại theo giấy phép",
+        "C": "Phần mềm nguồn mở không cho phép tải về máy",
+        "D": "Hai khái niệm hoàn toàn không liên quan đến cách chuyển giao"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Phần mềm tự do có thể chỉ ở dạng mã máy miễn phí dùng không cần xin phép, còn phần mềm nguồn mở cung cấp mã nguồn theo giấy phép.",
+      "nguon": "ndc_bai_3"
+    },
+    {
+      "id": "B03_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ưu điểm của phần mềm đặt hàng",
+      "cau_hoi": "Một ngân hàng cần phần mềm giao dịch di động đáp ứng đúng quy trình nghiệp vụ riêng biệt và được bảo hành kĩ thuật lâu dài. Loại phần mềm nào phù hợp nhất?",
+      "lua_chon": {
+        "A": "Phần mềm soạn thảo văn bản đơn giản",
+        "B": "Phần mềm miễn phí trôi nổi không rõ nguồn gốc",
+        "C": "Phần mềm vẽ đồ họa cá nhân",
+        "D": "Phần mềm thương mại \"đặt hàng\""
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phần mềm đặt hàng được thiết kế chính xác theo nhu cầu nghiệp vụ riêng biệt và thường có bảo hành, bảo trì.",
+      "nguon": "ndc_bai_3"
+    },
+    {
+      "id": "B03_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tính minh bạch của phần mềm nguồn mở",
+      "cau_hoi": "Vì sao phần mềm nguồn mở được đánh giá cao hơn phần mềm thương mại nguồn đóng về \"tính minh bạch\"?",
+      "lua_chon": {
+        "A": "Vì phần mềm nguồn đóng không có người sử dụng",
+        "B": "Vì phần mềm nguồn mở luôn có giao diện trong suốt",
+        "C": "Vì người dùng có thể kiểm tra trực tiếp mã nguồn để phát hiện các chức năng không mong muốn hoặc lỗ hổng bảo mật",
+        "D": "Vì phần mềm nguồn mở không cần cài đặt lên máy"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Do có mã nguồn công khai nên cộng đồng/người dùng có thể kiểm soát những gì được viết bên trong.",
+      "nguon": "ndc_bai_3"
+    },
+    {
+      "id": "B03_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Miễn trừ trách nhiệm bảo hành trong GNU GPL",
+      "cau_hoi": "Theo quy định của giấy phép GNU GPL, khi phân phối phần mềm nguồn mở (hoặc thu phí chuyển giao), người phân phối phải thông báo điều gì?",
+      "lua_chon": {
+        "A": "Cam kết bồi thường mọi sai sót phần mềm suốt đời",
+        "B": "Xóa toàn bộ tên tác giả ban đầu",
+        "C": "Thông báo rõ ràng về bản quyền gốc và thông báo miễn trừ trách nhiệm bảo hành",
+        "D": "Cấm người nhận xem mã nguồn"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Giấy phép GNU GPL yêu cầu giữ thông báo bản quyền gốc và nêu rõ miễn trừ trách nhiệm bảo hành.",
+      "nguon": "ndc_bai_3 & tln_..._bai_3"
+    },
+    {
+      "id": "B03_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa công bố phần sửa đổi trong nguồn mở",
+      "cau_hoi": "Yêu cầu \"người sửa đổi phần mềm nguồn mở phải công bố rõ phần nào đã sửa, sửa thế nào so với bản gốc\" mang lại ý nghĩa gì?",
+      "lua_chon": {
+        "A": "Đảm bảo tính minh bạch về đóng góp của từng thành viên và giúp người dùng sau dễ nắm bắt phần phát triển",
+        "B": "Làm cho mã nguồn dài hơn để bán giá cao",
+        "C": "Ngăn cản cộng đồng tiếp tục phát triển phần mềm",
+        "D": "Biến phần mềm nguồn mở thành nguồn đóng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Đảm bảo tính minh bạch đóng góp và thuận lợi cho việc theo dõi, phát triển tiếp.",
+      "nguon": "ndc_bai_3 & cd1_bai_3"
+    },
+    {
+      "id": "B03_TN_14",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phần mềm chạy trên Internet trong học tập",
+      "cau_hoi": "Cặp phần mềm nào sau đây hỗ trợ học tập và họp trực tuyến qua Internet không nhất thiết phải cài đặt bộ Office truyền thống?",
+      "lua_chon": {
+        "A": "Google Docs và Google Slides",
+        "B": "GIMP và Inkscape",
+        "C": "Windows 11 và Ubuntu",
+        "D": "MySQL và HeidiSQL"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Google Docs, Google Sheets, Google Slides là các phần mềm văn phòng chạy trên Internet.",
+      "nguon": "ndc_bai_3 & tln_..._bai_3"
+    },
+    {
+      "id": "B03_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Nhận diện phần mềm tại trạm ATM",
+      "cau_hoi": "Phần mềm điều khiển trực tiếp tại các cây rút tiền tự động (ATM) có phải là phần mềm chạy trên Internet theo nghĩa người dùng sử dụng qua trình duyệt web không?",
+      "lua_chon": {
+        "A": "Không, vì máy ATM không có bộ xử lí",
+        "B": "Có, vì máy ATM chạy bằng Google Docs",
+        "C": "Có, vì ai cũng có thể truy cập máy ATM bằng trình duyệt tại nhà",
+        "D": "Không, vì phần mềm ATM được cài đặt chuyên biệt trên máy ATM và kết nối mạng chuyên dụng/nội bộ ngân hàng, không phải ứng dụng web mở chung qua trình duyệt"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phần mềm ở trạm ATM không phải phần mềm trực tuyến mở trên trình duyệt mà là phần mềm chuyên dụng cài trên thiết bị ATM.",
+      "nguon": "tln_..._bai_3 & cd1_bai_3"
+    },
+    {
+      "id": "B03_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lựa chọn phần mềm thay thế theo tình huống",
+      "cau_hoi": "Một nhóm học sinh muốn cùng lúc soạn thảo một báo cáo khoa học kĩ thuật trên nhiều máy tính khác nhau (Windows, macOS, Chromebook) và tự động tổng hợp chỉnh sửa theo thời gian thực. Giải pháp nào tối ưu nhất?",
+      "lua_chon": {
+        "A": "Soạn bằng GIMP rồi gửi qua USB",
+        "B": "Sử dụng Google Docs (phần mềm chạy trên Internet)",
+        "C": "Gửi tệp qua thư tay",
+        "D": "Cài đặt hệ điều hành mới cho tất cả các máy"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Google Docs chạy trên Internet, đa nền tảng và cho phép cộng tác thời gian thực.",
+      "nguon": "ndc_bai_3 & trac_nghiem_dung_sai_..._bai_3"
+    },
+    {
+      "id": "B03_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Hạn chế của phần mềm chạy trên Internet",
+      "cau_hoi": "Khi chuẩn bị thuyết trình ở một khu vực vùng sâu vùng xa chưa có sóng Wi-Fi và 4G/5G, hạn chế lớn nhất của việc chỉ dùng Google Slides trực tuyến là gì?",
+      "lua_chon": {
+        "A": "Không hỗ trợ máy chiếu",
+        "B": "Không thể tạo chữ trên trang chiếu",
+        "C": "Bắt buộc phải trả phí bản quyền vĩnh viễn",
+        "D": "Phụ thuộc vào kết nối Internet ổn định nên có thể không truy cập/trình chiếu trực tuyến được"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phần mềm chạy trên Internet phụ thuộc vào kết nối Internet ổn định.",
+      "nguon": "cd1_bai_3"
+    },
+    {
+      "id": "B03_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tuân thủ giấy phép GNU GPL khi phát triển sản phẩm",
+      "cau_hoi": "Một lập trình viên lấy mã nguồn của phần mềm nguồn mở A (theo giấy phép GNU GPL), nâng cấp thêm tính năng mới rồi đóng gói bán hoàn toàn dưới dạng mã máy bí mật mà không công bố mã nguồn sửa đổi. Hành vi này như thế nào?",
+      "lua_chon": {
+        "A": "Hoàn toàn hợp lệ theo GNU GPL",
+        "B": "Vi phạm giấy phép GNU GPL (vì bản sửa đổi phải công bố mã nguồn và áp dụng tiếp GPL)",
+        "C": "Được khuyến khích vì giúp giấu lỗi phần mềm",
+        "D": "Chỉ vi phạm nếu bán dưới 10 bản"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "GNU GPL bắt buộc mọi bản sửa đổi phân phối lại phải công khai mã nguồn phần thay đổi và tiếp tục theo giấy phép GNU GPL.",
+      "nguon": "ndc_bai_3 & trac_nghiem_dung_sai_..._bai_3"
+    },
+    {
+      "id": "B03_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Giải quyết mâu thuẫn bản quyền và nguồn mở",
+      "cau_hoi": "Vì sao sự ra đời của giấy phép phần mềm nguồn mở (như GNU GPL) lại giải quyết được mâu thuẫn với quy định bản quyền truyền thống?",
+      "lua_chon": {
+        "A": "Vì giấy phép vừa bảo vệ quyền nhân thân của tác giả gốc và miễn trừ bảo hành, vừa trao quyền hợp pháp cho cộng đồng được sao chép, sửa đổi và phát triển mã nguồn theo điều kiện ràng buộc",
+        "B": "Vì giấy phép nguồn mở xóa bỏ hoàn toàn luật sở hữu trí tuệ",
+        "C": "Vì giấy phép nguồn mở cấm mọi người sửa đổi phần mềm",
+        "D": "Vì giấy phép nguồn mở biến mọi phần mềm thành thương mại nguồn đóng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Giấy phép nguồn mở dung hòa quyền tác giả với quyền tiếp cận, sửa đổi và phát triển bền vững của cộng đồng.",
+      "nguon": "ndc_bai_3 & cd1_bai_3"
+    },
+    {
+      "id": "B03_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích mô hình kinh doanh dịch vụ với phần mềm nguồn mở",
+      "cau_hoi": "Một công ty phần mềm sử dụng phần mềm nguồn mở nhưng vẫn thu được doanh thu hợp pháp bằng cách nào theo đúng tinh thần nguồn mở?",
+      "lua_chon": {
+        "A": "Thu phí dịch vụ chuyển giao, cài đặt, đào tạo, tùy biến theo yêu cầu và hỗ trợ kĩ thuật trong khi vẫn tôn trọng giấy phép nguồn mở",
+        "B": "Xóa tên tác giả gốc và đăng kí bản quyền độc quyền mã nguồn gốc",
+        "C": "Khóa mã nguồn phần sửa đổi từ GPL lại để bán",
+        "D": "Không được phép thu bất kì khoản phí dịch vụ nào"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Giấy phép nguồn mở vẫn cho phép thu phí chuyển giao/dịch vụ triển khai, hỗ trợ kĩ thuật miễn tuân thủ công bố mã nguồn và bản quyền gốc.",
+      "nguon": "ndc_bai_3"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B03-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Điểm cốt lõi của phần mềm nguồn mở là gì?",
-        "lua_chon": {
-          "A": "Mã nguồn và quyền sử dụng được quy định bởi giấy phép nguồn mở",
-          "B": "Luôn miễn phí và không có điều kiện",
-          "C": "Chỉ chạy khi có Internet",
-          "D": "Không thể được dùng trong kinh doanh"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B03_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Đặc điểm phần mềm thương mại",
+      "dan_nhap": "Tìm hiểu về cách chuyển giao phần mềm và đặc điểm của phần mềm thương mại:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Là phần mềm được bán ra với chi phí cụ thể, thường cung cấp ở dạng mã máy để tránh bị sửa đổi trái phép.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Đáp án đúng vì Mã nguồn và quyền sử dụng được quy định bởi giấy phép nguồn mở; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B03-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Phát biểu nào đúng về Mã nguồn mở?",
-        "lua_chon": {
-          "A": "Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép.",
-          "B": "Giấy phép quy định quyền sao chép, sửa đổi và phân phối phần mềm.",
-          "C": "Phần mềm thương mại được cung cấp theo điều kiện cấp quyền của nhà cung cấp.",
-          "D": "Nguồn mở không đồng nghĩa luôn miễn phí hoặc không có điều kiện."
+        {
+          "ma": "b",
+          "noi_dung": "Người dùng có thể tùy ý chia sẻ, chỉnh sửa phần mềm thương mại miễn là không sử dụng vào mục đích kinh doanh.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phần mềm thương mại phải tuân thủ giấy phép bản quyền, không được tùy ý sửa đổi, chia sẻ."
         },
-        "dap_an": "A",
-        "giai_thich": "Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép."
-      },
-      {
-        "id": "T11-B03-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống: Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mô hình nguồn mở có thể đi cùng dịch vụ hoặc mức phí.",
-          "B": "Mã nguồn có thể được xem theo điều kiện giấy phép.",
-          "C": "Giấy phép phần mềm.",
-          "D": "Điều kiện sử dụng và phân phối do nhà cung cấp quy định."
+        {
+          "ma": "c",
+          "noi_dung": "Một số phần mềm thương mại dạng \"đặt hàng\" được phát triển theo yêu cầu riêng của doanh nghiệp và có bảo hành kĩ thuật.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Mã nguồn có thể được xem theo điều kiện giấy phép."
-      },
-      {
-        "id": "T11-B03-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Mã nguồn mở?",
-        "lua_chon": {
-          "A": "Một sản phẩm có mã nguồn mở nhưng thu phí dịch vụ hỗ trợ.",
-          "B": "Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu.",
-          "C": "Người dùng muốn sửa phần mềm rồi chia sẻ lại.",
-          "D": "Một ứng dụng yêu cầu mua gói bản quyền để sử dụng."
+        {
+          "ma": "d",
+          "noi_dung": "Tất cả phần mềm thương mại đều bắt buộc phải chia sẻ mã nguồn để người dùng sửa lỗi.",
+          "dap_an": false,
+          "giai_thich": "Sai. Hầu hết phần mềm thương mại là nguồn đóng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_3"
+    },
+    {
+      "id": "B03_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lợi ích của phần mềm nguồn mở",
+      "dan_nhap": "Lợi ích và đặc điểm của phần mềm nguồn mở đối với cá nhân và cộng đồng:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Mọi phần mềm nguồn mở đều đi kèm hỗ trợ kĩ thuật chính thức từ nhà phát hành như phần mềm thương mại.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phần mềm nguồn mở thường được hỗ trợ từ cộng đồng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Mã nguồn mở trong bài Phần mềm nguồn mở."
-      },
-      {
-        "id": "T11-B03-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Phát biểu nào đúng về Giấy phép?",
-        "lua_chon": {
-          "A": "Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép.",
-          "B": "Phần mềm thương mại được cung cấp theo điều kiện cấp quyền của nhà cung cấp.",
-          "C": "Nguồn mở không đồng nghĩa luôn miễn phí hoặc không có điều kiện.",
-          "D": "Giấy phép quy định quyền sao chép, sửa đổi và phân phối phần mềm."
+        {
+          "ma": "b",
+          "noi_dung": "Phần mềm nguồn mở khuyến khích cộng đồng cùng phát triển và chia sẻ, tạo môi trường học tập và sáng tạo mở.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Giấy phép quy định quyền sao chép, sửa đổi và phân phối phần mềm."
-      },
-      {
-        "id": "T11-B03-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống: Người dùng muốn sửa phần mềm rồi chia sẻ lại. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giấy phép phần mềm.",
-          "B": "Mã nguồn có thể được xem theo điều kiện giấy phép.",
-          "C": "Điều kiện sử dụng và phân phối do nhà cung cấp quy định.",
-          "D": "Mô hình nguồn mở có thể đi cùng dịch vụ hoặc mức phí."
+        {
+          "ma": "c",
+          "noi_dung": "Người dùng có thể sử dụng phần mềm nguồn mở miễn phí mà không cần tuân thủ bất kì điều kiện bản quyền nào.",
+          "dap_an": false,
+          "giai_thich": "Sai. Vẫn phải tuân thủ giấy phép nguồn mở (ví dụ GNU GPL)."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Giấy phép phần mềm."
-      },
-      {
-        "id": "T11-B03-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Giấy phép?",
-        "lua_chon": {
-          "A": "Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu.",
-          "B": "Một ứng dụng yêu cầu mua gói bản quyền để sử dụng.",
-          "C": "Một sản phẩm có mã nguồn mở nhưng thu phí dịch vụ hỗ trợ.",
-          "D": "Người dùng muốn sửa phần mềm rồi chia sẻ lại."
+        {
+          "ma": "d",
+          "noi_dung": "Người dùng có thể tiếp cận mã nguồn để hiểu cách hoạt động của phần mềm, từ đó tùy chỉnh phù hợp nhu cầu riêng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_3"
+    },
+    {
+      "id": "B03_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy định giấy phép GNU GPL",
+      "dan_nhap": "Quy định trong giấy phép GNU GPL khi sửa đổi phần mềm nguồn mở:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Khi sửa đổi phần mềm nguồn mở theo GPL, người sửa đổi phải công bố mã nguồn đã thay đổi kèm theo giấy phép GPL.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Giấy phép trong bài Phần mềm nguồn mở."
-      },
-      {
-        "id": "T11-B03-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Phát biểu nào đúng về Phần mềm thương mại?",
-        "lua_chon": {
-          "A": "Giấy phép quy định quyền sao chép, sửa đổi và phân phối phần mềm.",
-          "B": "Nguồn mở không đồng nghĩa luôn miễn phí hoặc không có điều kiện.",
-          "C": "Phần mềm thương mại được cung cấp theo điều kiện cấp quyền của nhà cung cấp.",
-          "D": "Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép."
+        {
+          "ma": "b",
+          "noi_dung": "Phần mềm được sửa đổi từ mã nguồn GPL vẫn có thể phân phối dưới dạng nguồn đóng mà không cần chia sẻ mã nguồn.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải tiếp tục mở theo giấy phép GPL."
         },
-        "dap_an": "C",
-        "giai_thich": "Phần mềm thương mại được cung cấp theo điều kiện cấp quyền của nhà cung cấp."
-      },
-      {
-        "id": "T11-B03-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống: Một ứng dụng yêu cầu mua gói bản quyền để sử dụng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mã nguồn có thể được xem theo điều kiện giấy phép.",
-          "B": "Giấy phép phần mềm.",
-          "C": "Mô hình nguồn mở có thể đi cùng dịch vụ hoặc mức phí.",
-          "D": "Điều kiện sử dụng và phân phối do nhà cung cấp quy định."
+        {
+          "ma": "c",
+          "noi_dung": "Các bản sửa đổi phải ghi rõ phần đã thay đổi và giữ tên tác giả ban đầu, đảm bảo tôn trọng quyền tác giả.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Điều kiện sử dụng và phân phối do nhà cung cấp quy định."
-      },
-      {
-        "id": "T11-B03-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phần mềm thương mại?",
-        "lua_chon": {
-          "A": "Một sản phẩm có mã nguồn mở nhưng thu phí dịch vụ hỗ trợ.",
-          "B": "Một ứng dụng yêu cầu mua gói bản quyền để sử dụng.",
-          "C": "Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu.",
-          "D": "Người dùng muốn sửa phần mềm rồi chia sẻ lại."
+        {
+          "ma": "d",
+          "noi_dung": "Người dùng có thể sửa đổi phần mềm GPL nhưng không được phép phân phối lại dưới bất kì hình thức nào.",
+          "dap_an": false,
+          "giai_thich": "Sai. Được phép phân phối lại nếu tuân thủ điều kiện GPL."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_3"
+    },
+    {
+      "id": "B03_DS_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "So sánh phần mềm nguồn mở và phần mềm thương mại",
+      "dan_nhap": "So sánh phần mềm nguồn mở với phần mềm thương mại:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Phần mềm nguồn mở thường miễn phí và không phụ thuộc vào một nhà cung cấp cụ thể, giúp người dùng linh hoạt hơn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Phần mềm thương mại trong bài Phần mềm nguồn mở."
-      },
-      {
-        "id": "T11-B03-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Phát biểu nào đúng về Phần mềm nguồn mở và miễn phí?",
-        "lua_chon": {
-          "A": "Phần mềm thương mại được cung cấp theo điều kiện cấp quyền của nhà cung cấp.",
-          "B": "Nguồn mở không đồng nghĩa luôn miễn phí hoặc không có điều kiện.",
-          "C": "Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép.",
-          "D": "Giấy phép quy định quyền sao chép, sửa đổi và phân phối phần mềm."
+        {
+          "ma": "b",
+          "noi_dung": "Phần mềm thương mại luôn có chi phí cao, kể cả với phần mềm miễn phí của các nhà cung cấp lớn.",
+          "dap_an": false,
+          "giai_thich": "Sai (phần mềm miễn phí không mất phí mua; phần mềm thương mại có nhiều mức phí)."
         },
-        "dap_an": "B",
-        "giai_thich": "Nguồn mở không đồng nghĩa luôn miễn phí hoặc không có điều kiện."
-      },
-      {
-        "id": "T11-B03-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống: Một sản phẩm có mã nguồn mở nhưng thu phí dịch vụ hỗ trợ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giấy phép phần mềm.",
-          "B": "Điều kiện sử dụng và phân phối do nhà cung cấp quy định.",
-          "C": "Mô hình nguồn mở có thể đi cùng dịch vụ hoặc mức phí.",
-          "D": "Mã nguồn có thể được xem theo điều kiện giấy phép."
+        {
+          "ma": "c",
+          "noi_dung": "Phần mềm thương mại thường có đội ngũ hỗ trợ kĩ thuật chuyên nghiệp hơn phần mềm nguồn mở.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Mô hình nguồn mở có thể đi cùng dịch vụ hoặc mức phí."
-      },
-      {
-        "id": "T11-B03-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phần mềm nguồn mở và miễn phí?",
-        "lua_chon": {
-          "A": "Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu.",
-          "B": "Người dùng muốn sửa phần mềm rồi chia sẻ lại.",
-          "C": "Một ứng dụng yêu cầu mua gói bản quyền để sử dụng.",
-          "D": "Một sản phẩm có mã nguồn mở nhưng thu phí dịch vụ hỗ trợ."
+        {
+          "ma": "d",
+          "noi_dung": "Một ưu điểm của phần mềm nguồn mở là người dùng có thể kiểm tra mã nguồn để phát hiện các rủi ro bảo mật.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_3"
+    },
+    {
+      "id": "B03_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đặc trưng phần mềm chạy trên Internet",
+      "dan_nhap": "Đặc trưng nổi bật của phần mềm chạy trên Internet như Google Slides:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Người dùng có thể truy cập, sử dụng phần mềm này từ bất kì máy tính nào có kết nối mạng mà không cần cài đặt.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Phần mềm nguồn mở và miễn phí trong bài Phần mềm nguồn mở."
-      },
-      {
-        "id": "T11-B03-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Phát biểu nào đúng về Phần mềm chạy trên Internet?",
-        "lua_chon": {
-          "A": "Phần mềm trực tuyến được truy cập qua mạng và thường xử lí dữ liệu trên máy chủ dịch vụ.",
-          "B": "Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép.",
-          "C": "Giấy phép quy định quyền sao chép, sửa đổi và phân phối phần mềm.",
-          "D": "Phần mềm thương mại được cung cấp theo điều kiện cấp quyền của nhà cung cấp."
+        {
+          "ma": "b",
+          "noi_dung": "Dữ liệu được lưu hoàn toàn trên ổ cứng cá nhân, không liên quan gì đến bộ nhớ trên Internet.",
+          "dap_an": false,
+          "giai_thich": "Sai. Dữ liệu được lưu trữ trên máy chủ đám mây qua Internet."
         },
-        "dap_an": "A",
-        "giai_thich": "Phần mềm trực tuyến được truy cập qua mạng và thường xử lí dữ liệu trên máy chủ dịch vụ."
-      },
-      {
-        "id": "T11-B03-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống: Người dùng chỉnh sửa tài liệu bằng trình duyệt trên nhiều thiết bị. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Điều kiện sử dụng và phân phối do nhà cung cấp quy định.",
-          "B": "Phần mềm chạy trên Internet.",
-          "C": "Mã nguồn có thể được xem theo điều kiện giấy phép.",
-          "D": "Giấy phép phần mềm."
+        {
+          "ma": "c",
+          "noi_dung": "Người dùng có thể làm việc nhóm dễ dàng nhờ tính năng chia sẻ và chỉnh sửa thời gian thực.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Phần mềm chạy trên Internet."
-      },
-      {
-        "id": "T11-B03-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phần mềm chạy trên Internet?",
-        "lua_chon": {
-          "A": "Một ứng dụng yêu cầu mua gói bản quyền để sử dụng.",
-          "B": "Người dùng chỉnh sửa tài liệu bằng trình duyệt trên nhiều thiết bị.",
-          "C": "Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu.",
-          "D": "Người dùng muốn sửa phần mềm rồi chia sẻ lại."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Phần mềm chạy trên Internet trong bài Phần mềm nguồn mở."
-      },
-      {
-        "id": "T11-B03-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Phát biểu nào đúng về Cộng đồng phát triển?",
-        "lua_chon": {
-          "A": "Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép.",
-          "B": "Giấy phép quy định quyền sao chép, sửa đổi và phân phối phần mềm.",
-          "C": "Phần mềm thương mại được cung cấp theo điều kiện cấp quyền của nhà cung cấp.",
-          "D": "Cộng đồng có thể cùng phát hiện lỗi, đóng góp mã và tài liệu cho dự án mở."
-        },
-        "dap_an": "D",
-        "giai_thich": "Cộng đồng có thể cùng phát hiện lỗi, đóng góp mã và tài liệu cho dự án mở."
-      },
-      {
-        "id": "T11-B03-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống: Nhiều lập trình viên ở nơi khác nhau cùng cải thiện ứng dụng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Cộng tác cộng đồng theo quy tắc dự án và giấy phép.",
-          "B": "Mã nguồn có thể được xem theo điều kiện giấy phép.",
-          "C": "Giấy phép phần mềm.",
-          "D": "Điều kiện sử dụng và phân phối do nhà cung cấp quy định."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Cộng tác cộng đồng theo quy tắc dự án và giấy phép."
-      },
-      {
-        "id": "T11-B03-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cộng đồng phát triển?",
-        "lua_chon": {
-          "A": "Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu.",
-          "B": "Người dùng muốn sửa phần mềm rồi chia sẻ lại.",
-          "C": "Một ứng dụng yêu cầu mua gói bản quyền để sử dụng.",
-          "D": "Nhiều lập trình viên ở nơi khác nhau cùng cải thiện ứng dụng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Cộng đồng phát triển trong bài Phần mềm nguồn mở."
-      },
-      {
-        "id": "T11-B03-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Phát biểu nào đúng về Lựa chọn phần mềm?",
-        "lua_chon": {
-          "A": "Giấy phép quy định quyền sao chép, sửa đổi và phân phối phần mềm.",
-          "B": "Phần mềm thương mại được cung cấp theo điều kiện cấp quyền của nhà cung cấp.",
-          "C": "Việc chọn phần mềm cần xét chức năng, bảo mật, hỗ trợ và giấy phép.",
-          "D": "Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép."
-        },
-        "dap_an": "C",
-        "giai_thich": "Việc chọn phần mềm cần xét chức năng, bảo mật, hỗ trợ và giấy phép."
-      },
-      {
-        "id": "T11-B03-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống: Trường học cân nhắc một ứng dụng cho dữ liệu học sinh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mã nguồn có thể được xem theo điều kiện giấy phép.",
-          "B": "Giấy phép phần mềm.",
-          "C": "Điều kiện sử dụng và phân phối do nhà cung cấp quy định.",
-          "D": "Mức phù hợp, bảo vệ dữ liệu, điều khoản giấy phép và khả năng hỗ trợ."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Mức phù hợp, bảo vệ dữ liệu, điều khoản giấy phép và khả năng hỗ trợ."
-      },
-      {
-        "id": "T11-B03-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lựa chọn phần mềm?",
-        "lua_chon": {
-          "A": "Một ứng dụng yêu cầu mua gói bản quyền để sử dụng.",
-          "B": "Trường học cân nhắc một ứng dụng cho dữ liệu học sinh.",
-          "C": "Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu.",
-          "D": "Người dùng muốn sửa phần mềm rồi chia sẻ lại."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Lựa chọn phần mềm trong bài Phần mềm nguồn mở."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B03-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Xét tính đúng/sai về Phần mềm nguồn mở:",
-        "y_kien": {
-          "a": true,
-          "b": false,
-          "c": "Giấy phép nguồn mở quy định quyền xem, sửa đổi hoặc phân phối mã.",
-          "d": "Phần mềm thương mại luôn đồng nghĩa với phần mềm mã nguồn đóng."
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B03-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "So sánh phần mềm nguồn mở và phần mềm thương mại.",
-        "dap_an_goi_y": "Nguồn mở cho quyền tiếp cận/sửa/phân phối theo giấy phép; thương mại thường cấp quyền theo điều kiện nhà cung cấp và có thể có hỗ trợ chính thức.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B03-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 3 - Phần mềm nguồn mở",
-        "noi_dung": "Dựa vào kiến thức “Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Một nhóm muốn kiểm tra cách phần mềm xử lí dữ liệu.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Phần mềm nguồn mở cho phép tiếp cận mã nguồn và quyền sử dụng theo giấy phép. Vận dụng: Mã nguồn có thể được xem theo điều kiện giấy phép. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Để sử dụng phần mềm trực tuyến, người dùng bắt buộc phải mua bản quyền sử dụng vĩnh viễn.",
+          "dap_an": false,
+          "giai_thich": "Sai. Nhiều dịch vụ miễn phí hoặc trả phí linh hoạt theo gói."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_3"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B03_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Giấy phép GNU GPL",
+      "cau_hoi": "Giấy phép phần mềm nguồn mở phổ biến nhất hiện nay yêu cầu bản sửa đổi cũng phải mở mã nguồn có tên viết tắt là gì?",
+      "dap_an": "GNU GPL",
+      "dap_an_tuong_duong": [
+        "GPL",
+        "GNU General Public License"
+      ],
+      "giai_thich": "GNU GPL là giấy phép nguồn mở phổ biến nhất.",
+      "nguon": "ndc_bai_3 & tln_..._bai_3"
+    },
+    {
+      "id": "B03_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phân loại phần mềm thương mại",
+      "cau_hoi": "Phần mềm thương mại gồm hai loại là phần mềm \"đóng gói\" và phần mềm gì?",
+      "dap_an": "Phần mềm đặt hàng",
+      "dap_an_tuong_duong": [
+        "đặt hàng",
+        "phần mềm \"đặt hàng\""
+      ],
+      "giai_thich": "Hai loại phần mềm thương mại là đóng gói và đặt hàng.",
+      "nguon": "cd1_bai_3 & ndc_bai_3"
+    },
+    {
+      "id": "B03_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phần mềm chạy trên Internet",
+      "cau_hoi": "Phần mềm Google Docs có thể thay thế phần mềm soạn thảo thương mại nào của Microsoft?",
+      "dap_an": "Microsoft Word",
+      "dap_an_tuong_duong": [
+        "Word",
+        "MS Word"
+      ],
+      "giai_thich": "Google Docs là công cụ soạn thảo trực tuyến thay thế Microsoft Word.",
+      "nguon": "tln_..._bai_3"
+    },
+    {
+      "id": "B03_TLN_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phần mềm đồ họa nguồn mở",
+      "cau_hoi": "Nêu tên một phần mềm đồ họa vectơ nguồn mở được nhắc đến trong bài học.",
+      "dap_an": "Inkscape",
+      "dap_an_tuong_duong": [
+        "inkscape"
+      ],
+      "giai_thich": "Inkscape là phần mềm đồ họa vectơ nguồn mở (cùng với GIMP cho ảnh bitmap).",
+      "nguon": "tln_..._bai_3"
+    },
+    {
+      "id": "B03_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chuyển đổi phần mềm thương mại sang nguồn mở",
+      "cau_hoi": "Để thay thế phần mềm chỉnh sửa video thương mại Adobe Premiere bằng một phần mềm nguồn mở tương ứng nêu trong bài học, ta dùng phần mềm nào?",
+      "dap_an": "OpenShot Video Editor",
+      "dap_an_tuong_duong": [
+        "OpenShot",
+        "Openshot Video Editor"
+      ],
+      "giai_thich": "OpenShot Video Editor là phần mềm chỉnh sửa video mã nguồn mở.",
+      "nguon": "ndc_bai_3"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B03_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "So sánh phần mềm thương mại và nguồn mở",
+      "cau_hoi": "So sánh phần mềm thương mại nguồn đóng và phần mềm nguồn mở theo 4 tiêu chí: chi phí, hỗ trợ kĩ thuật, tính minh bạch và sự phụ thuộc của người dùng.",
+      "goi_y_dap_an": "- Chi phí: Thương mại mất phí mua phần mềm và chuyển giao; Nguồn mở chỉ mất phí chuyển giao (nếu có).\n- Hỗ trợ kĩ thuật: Thương mại có hỗ trợ từ nhà cung cấp; Nguồn mở không có hỗ trợ chính thức từ hãng nhưng được cộng đồng hỗ trợ.\n- Tính minh bạch: Thương mại khó kiểm soát mã bên trong; Nguồn mở kiểm soát được mã nguồn.\n- Sự phụ thuộc: Thương mại phụ thuộc nhà cung cấp; Nguồn mở phát triển theo chuẩn chung, không phụ thuộc riêng ai.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng mỗi tiêu chí so sánh (0,5đ × 4 = 2,0đ).",
+      "nguon": "ndc_bai_3 & cd1_bai_3"
+    },
+    {
+      "id": "B03_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phần mềm chạy trên Internet",
+      "cau_hoi": "Phần mềm chạy trên Internet là gì? Nêu ưu điểm, hạn chế và ví dụ minh họa của loại phần mềm này.",
+      "goi_y_dap_an": "- Khái niệm: Là phần mềm cho phép sử dụng qua Internet mà không cần cài đặt vào máy (VD: Google Docs, Google Sheets, Google Slides, Zoom).\n- Ưu điểm: Sử dụng mọi lúc, mọi nơi, trên nhiều thiết bị có mạng; chi phí rẻ hoặc miễn phí; dễ cộng tác.\n- Hạn chế: Phụ thuộc kết nối Internet ổn định; cần chú ý bảo mật dữ liệu và quyền riêng tư.",
+      "thang_diem": "Tổng 2,0 điểm: khái niệm và ví dụ (0,6đ); ưu điểm (0,8đ); hạn chế (0,6đ).",
+      "nguon": "ndc_bai_3 & cd1_bai_3"
+    },
+    {
+      "id": "B03_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Giấy phép GNU GPL và sự phát triển bền vững",
+      "cau_hoi": "Phân tích ý nghĩa của hai quy định trong giấy phép GNU GPL: (1) công bố rõ phần đã sửa đổi so với bản gốc; (2) phần mềm sửa đổi phải tiếp tục mở theo giấy phép GPL.",
+      "goi_y_dap_an": "- Công bố rõ phần sửa đổi: Đảm bảo tính minh bạch về đóng góp của mỗi thành viên phát triển, tôn trọng tác giả gốc và giúp người dùng sau dễ nắm bắt phần cải tiến.\n- Tiếp tục mở theo GPL: Ngăn việc chiếm dụng mã nguồn mở để đóng kín độc quyền, đảm bảo cộng đồng tiếp tục được thừa hưởng và phát triển phần mềm bền vững.",
+      "thang_diem": "Tổng 2,0 điểm: phân tích sâu sắc mỗi quy định (1,0đ × 2 = 2,0đ).",
+      "nguon": "ndc_bai_3"
+    }
+  ]
 }

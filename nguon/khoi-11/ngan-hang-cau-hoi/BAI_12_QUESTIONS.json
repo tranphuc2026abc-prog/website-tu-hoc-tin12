@@ -1,424 +1,577 @@
 {
-  "ma_bai": "BAI_12",
-  "bai_so": 12,
-  "ten_bai": "Hệ quản trị CSDL và hệ CSDL",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_12",
+  "ten_bai": "Hệ quản trị cơ sở dữ liệu và hệ cơ sở dữ liệu",
+  "chu_de": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd4_bai_12_he_quan_tri_co_so_du_lieu_va_he_co_so_du_lieu.docx",
+    "ndc_bai_12_he_quan_tri_co_so_du_lieu_va_he_co_so_du_lieu.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_12_he_quan_tri_co_so_du_lieu_va_he_co_so_du_lieu.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_12_he_quan_tri_co_so_du_lieu_va_he_co_so_du_lieu.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B12_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các nhóm chức năng của Hệ QTCSDL",
+      "cau_hoi": "Hệ quản trị cơ sở dữ liệu (DBMS) có mấy nhóm chức năng chính?",
+      "lua_chon": {
+        "A": "3 nhóm (định nghĩa dữ liệu; cập nhật và truy xuất dữ liệu; bảo mật, an toàn CSDL)",
+        "B": "2 nhóm",
+        "C": "4 nhóm",
+        "D": "5 nhóm"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Hệ QTCSDL có 3 nhóm chức năng: định nghĩa dữ liệu, cập nhật và truy xuất dữ liệu, bảo mật và an toàn CSDL.",
+      "nguon": "cd4_bai_12 & tln_..._bai_12"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B12_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ba thành phần của Hệ CSDL",
+      "cau_hoi": "Một hệ cơ sở dữ liệu (hệ CSDL) hoàn chỉnh gồm ba thành phần nào sau đây?",
+      "lua_chon": {
+        "A": "Phần cứng, mạng LAN, Internet",
+        "B": "Bảng, bản ghi, trường dữ liệu",
+        "C": "Hệ điều hành, trình duyệt web, USB",
+        "D": "CSDL, hệ quản trị CSDL và các phần mềm ứng dụng CSDL"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Một hệ thống gồm 3 thành phần: CSDL, hệ QTCSDL và các phần mềm ứng dụng CSDL gọi là hệ CSDL.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt hệ CSDL tập trung và phân tán",
+      "cau_hoi": "Điểm khác biệt chính giữa hệ CSDL tập trung và hệ CSDL phân tán là gì?",
+      "lua_chon": {
+        "A": "Hệ tập trung không dùng hệ QTCSDL",
+        "B": "Hệ tập trung lưu toàn bộ CSDL trên một máy tính (hoặc dàn máy trung tâm), còn hệ phân tán lưu CSDL phân tán trên nhiều máy tính (trạm cục bộ) trong mạng",
+        "C": "Hệ phân tán không cho phép truy cập từ xa",
+        "D": "Hệ tập trung luôn tốn kém hơn hệ phân tán"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Khác biệt chính nằm ở nơi lưu trữ dữ liệu: tập trung tại một máy hay phân tán tại nhiều máy trong mạng.",
+      "nguon": "ndc_bai_12 & cd4_bai_12"
+    },
+    {
+      "id": "B12_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Nhận diện Hệ QTCSDL nguồn mở",
+      "cau_hoi": "Phần mềm nào sau đây là một hệ quản trị cơ sở dữ liệu (DBMS) nguồn mở phổ biến?",
+      "lua_chon": {
+        "A": "Adobe Photoshop",
+        "B": "Microsoft Word",
+        "C": "MySQL",
+        "D": "GIMP"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "MySQL là hệ QTCSDL nguồn mở phổ biến (cùng với các hệ QTCSDL thương mại như Oracle, SQL Server, Access).",
+      "nguon": "cd4_bai_12"
+    },
+    {
+      "id": "B12_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ví dụ các hệ QTCSDL thương mại",
+      "cau_hoi": "Nhóm phần mềm nào sau đây đều là các Hệ quản trị cơ sở dữ liệu (DBMS) thông dụng?",
+      "lua_chon": {
+        "A": "Google Chrome, Mozilla Firefox, Safari",
+        "B": "MySQL, Oracle, Microsoft SQL Server, Microsoft Access",
+        "C": "GIMP, Inkscape, Shotcut",
+        "D": "Windows 11, Ubuntu, macOS"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "MySQL, Oracle, SQL Server và Access đều là các hệ QTCSDL phổ biến.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Nhóm chức năng định nghĩa dữ liệu",
+      "cau_hoi": "Việc tạo lập cấu trúc các bảng, khai báo kiểu dữ liệu cho các cột và sửa đổi cấu trúc CSDL thuộc nhóm chức năng nào của Hệ QTCSDL?",
+      "lua_chon": {
+        "A": "Sao lưu và khôi phục",
+        "B": "Truy xuất dữ liệu",
+        "C": "Định nghĩa dữ liệu",
+        "D": "Thiết kế giao diện web"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nhóm chức năng định nghĩa dữ liệu cho phép tạo lập, sửa đổi cấu trúc CSDL.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Nhóm chức năng bảo mật, an toàn CSDL",
+      "cau_hoi": "Chức năng phân quyền truy cập người dùng, kiểm soát truy cập và sao lưu/khôi phục dữ liệu thuộc nhóm chức năng nào của Hệ QTCSDL?",
+      "lua_chon": {
+        "A": "Cập nhật và truy xuất dữ liệu",
+        "B": "Định nghĩa dữ liệu",
+        "C": "Bảo mật, an toàn CSDL",
+        "D": "Thu thập dữ liệu tự động"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nhóm bảo mật, an toàn CSDL đảm nhiệm phân quyền và sao lưu phòng ngừa sự cố.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Vai trò phần mềm ứng dụng CSDL",
+      "cau_hoi": "Thành phần nào trong Hệ CSDL đóng vai trò giao diện cầu nối giúp người dùng cuối khai thác CSDL thuận tiện mà không cần biết cấu trúc bảng bên trong?",
+      "lua_chon": {
+        "A": "Phần mềm ứng dụng CSDL",
+        "B": "Hệ điều hành máy chủ",
+        "C": "Bộ nhớ đệm Cache",
+        "D": "Cáp mạng LAN"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Phần mềm ứng dụng CSDL cung cấp giao diện thân thiện cho người dùng tương tác với CSDL thông qua hệ QTCSDL.",
+      "nguon": "ndc_bai_12 & trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Trạng thái dữ liệu sau khi cài đặt Hệ QTCSDL",
+      "cau_hoi": "Ngay sau khi cài đặt xong phần mềm Hệ quản trị CSDL (ví dụ MySQL) lên máy tính, người dùng đã có sẵn dữ liệu học sinh của trường để tra cứu chưa?",
+      "lua_chon": {
+        "A": "Có sẵn toàn bộ dữ liệu của mọi trường học trên cả nước",
+        "B": "Chưa, người dùng phải dùng Hệ QTCSDL để tạo lập cấu trúc bảng rồi mới cập nhật dữ liệu vào",
+        "C": "Hệ QTCSDL tự động sinh dữ liệu ngẫu nhiên",
+        "D": "Phải cài đặt thêm GIMP mới tạo được bảng"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Hệ QTCSDL chỉ là công cụ phần mềm; người dùng cần tạo cấu trúc CSDL và nhập dữ liệu vào.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ưu điểm của hệ CSDL tập trung",
+      "cau_hoi": "Ưu điểm nổi bật của hệ CSDL tập trung so với hệ CSDL phân tán là gì?",
+      "lua_chon": {
+        "A": "Không cần phần mềm ứng dụng",
+        "B": "Không cần đường truyền mạng vẫn truy cập từ xa được",
+        "C": "Tự động mở rộng vô hạn trên hàng nghìn trạm độc lập",
+        "D": "Dễ quản lí, dễ bảo trì, ít tốn chi phí và thuận lợi đảm bảo tính nhất quán dữ liệu"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Lưu dữ liệu tập trung tại một nơi giúp kiểm soát nhất quán, an ninh và bảo trì dễ dàng hơn.",
+      "nguon": "ndc_bai_12 & trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nhược điểm của hệ CSDL phân tán",
+      "cau_hoi": "Khó khăn lớn nhất khi triển khai hệ CSDL phân tán là gì?",
+      "lua_chon": {
+        "A": "Không thể sao lưu dữ liệu",
+        "B": "Không thể mở rộng cho tổ chức có nhiều chi nhánh",
+        "C": "Không cho phép truy vấn cục bộ tại từng chi nhánh",
+        "D": "Chi phí cao, khó thiết kế/triển khai và khó đảm bảo tính nhất quán, bảo mật đồng bộ giữa các trạm"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Hệ phân tán phức tạp về kiến trúc mạng, chi phí đầu tư lớn và đòi hỏi cơ chế đồng bộ phức tạp.",
+      "nguon": "ndc_bai_12 & trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nhiều ứng dụng dùng chung một CSDL",
+      "cau_hoi": "Trong hệ thống gọi xe công nghệ, ứng dụng của khách hàng, ứng dụng của tài xế và trang web điều hành có thể cùng khai thác chung một CSDL thông qua thành phần nào?",
+      "lua_chon": {
+        "A": "Hệ quản trị CSDL (DBMS)",
+        "B": "Ổ đĩa quang DVD",
+        "C": "Trình soạn thảo văn bản",
+        "D": "Cáp VGA"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Hệ QTCSDL quản lí việc truy cập đồng thời và phân quyền cho nhiều phần mềm ứng dụng khác nhau cùng khai thác một CSDL.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ưu điểm tính sẵn sàng của hệ CSDL phân tán",
+      "cau_hoi": "Vì sao hệ CSDL phân tán có tính sẵn sàng và độ tin cậy cao hơn khi một trạm cục bộ gặp sự cố?",
+      "lua_chon": {
+        "A": "Vì hệ phân tán không sử dụng máy tính để lưu trữ",
+        "B": "Vì dữ liệu được phân tán và có thể sao lưu ở nhiều trạm khác nhau nên các trạm còn lại vẫn tiếp tục hoạt động",
+        "C": "Vì toàn bộ dữ liệu chỉ nằm trên một máy duy nhất",
+        "D": "Vì hệ phân tán không cần kết nối mạng"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Khi một trạm cục bộ lỗi, các trạm khác vẫn đáp ứng được nhu cầu truy cập cục bộ hoặc dự phòng.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lựa chọn mô hình hệ CSDL cho trường học",
+      "cau_hoi": "Một trường THPT chỉ có một cơ sở duy nhất cần xây dựng hệ thống quản lí điểm và học bạ cho 1.500 học sinh với chi phí hợp lí, dễ bảo trì. Mô hình hệ CSDL nào phù hợp nhất?",
+      "lua_chon": {
+        "A": "Lưu trữ bằng tệp văn bản rời rạc trên USB",
+        "B": "Hệ CSDL phân tán toàn cầu",
+        "C": "Hệ CSDL tập trung",
+        "D": "Không cần dùng Hệ QTCSDL"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Quy mô một trường học tại một địa điểm rất phù hợp với hệ CSDL tập trung để tối ưu chi phí và tính nhất quán.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lựa chọn mô hình hệ CSDL cho ngân hàng lớn",
+      "cau_hoi": "Một ngân hàng thương mại có hàng trăm chi nhánh trên toàn quốc, cần phục vụ giao dịch cục bộ nhanh tại mỗi vùng đồng thời kết nối dữ liệu toàn hệ thống. Mô hình nào thường được áp dụng?",
+      "lua_chon": {
+        "A": "Hệ CSDL phân tán",
+        "B": "Hệ CSDL cá nhân trên một máy tính đơn lẻ không nối mạng",
+        "C": "Lưu trữ bằng bảng tính thủ công tại từng quầy",
+        "D": "Chỉ dùng một tệp Word chung"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Tổ chức đa chi nhánh diện rộng, lưu lượng giao dịch lớn phù hợp với hệ CSDL phân tán.",
+      "nguon": "ndc_bai_12 & trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định thành phần trong hệ thống tra cứu điểm thi",
+      "cau_hoi": "Khi thí sinh mở trình duyệt web, nhập số báo danh để xem điểm thi tốt nghiệp THPT, trang web tra cứu đó đóng vai trò là thành phần nào trong Hệ CSDL?",
+      "lua_chon": {
+        "A": "Trạm CSDL cục bộ",
+        "B": "Hệ quản trị CSDL",
+        "C": "Cơ sở dữ liệu vật lí",
+        "D": "Phần mềm ứng dụng CSDL"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Trang web tra cứu là phần mềm ứng dụng CSDL cung cấp giao diện đơn giản cho người dùng cuối.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phân loại chức năng DBMS qua tình huống",
+      "cau_hoi": "Quản trị viên dùng công cụ của MySQL để tạo bảng `HocSinh`, sau đó thiết lập quyền chỉ cho phép tài khoản `giao_vien` đọc bảng này. Hai thao tác trên lần lượt thuộc nhóm chức năng nào của Hệ QTCSDL?",
+      "lua_chon": {
+        "A": "Truy xuất dữ liệu và Cập nhật dữ liệu",
+        "B": "Định nghĩa dữ liệu và Bảo mật, an toàn CSDL",
+        "C": "Chỉ thuộc nhóm Cập nhật dữ liệu",
+        "D": "Thu thập dữ liệu tự động và Khai thác thông tin"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Tạo bảng thuộc nhóm Định nghĩa dữ liệu; thiết lập quyền truy cập thuộc nhóm Bảo mật, an toàn CSDL.",
+      "nguon": "cd4_bai_12 & ndc_bai_12"
+    },
+    {
+      "id": "B12_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Nhược điểm phụ thuộc đường truyền của hệ tập trung",
+      "cau_hoi": "Một công ty dùng hệ CSDL tập trung đặt máy chủ tại Hà Nội. Nhân viên tại chi nhánh TP.HCM thỉnh thoảng bị chậm khi truy xuất dữ liệu vào giờ cao điểm. Nguyên nhân chính liên quan đến đặc điểm nào của hệ tập trung?",
+      "lua_chon": {
+        "A": "Do dữ liệu bị tách rời ra nhiều trạm",
+        "B": "Do máy chủ không có phần mềm ứng dụng",
+        "C": "Do hệ tập trung không đảm bảo được tính nhất quán",
+        "D": "Phụ thuộc nhiều vào tốc độ và độ ổn định của đường truyền mạng diện rộng"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Hệ tập trung xử lí mọi yêu cầu qua một điểm trung tâm nên tốc độ truy cập từ xa phụ thuộc lớn vào đường truyền mạng.",
+      "nguon": "ndc_bai_12 & trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích luồng hoạt động của 3 thành phần trong Hệ CSDL",
+      "cau_hoi": "Khi khách hàng nhấn nút 'Đặt hàng' trên ứng dụng mua sắm trực tuyến, chuỗi tương tác đúng giữa 3 thành phần của Hệ CSDL diễn ra theo thứ tự nào?",
+      "lua_chon": {
+        "A": "CSDL tự động mở ứng dụng -> gửi thông báo cho Hệ QTCSDL",
+        "B": "Khách hàng ghi trực tiếp vào tệp dữ liệu trên ổ cứng -> Phần mềm ứng dụng gửi tới Hệ QTCSDL",
+        "C": "Phần mềm ứng dụng nhận thao tác -> gửi yêu cầu tới Hệ QTCSDL -> Hệ QTCSDL kiểm tra ràng buộc/quyền và ghi dữ liệu đơn hàng vào CSDL",
+        "D": "Hệ QTCSDL thiết kế giao diện nút bấm -> bỏ qua phần mềm ứng dụng"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Người dùng tương tác qua Phần mềm ứng dụng -> Hệ QTCSDL xử lí nghiệp vụ/kiểm soát -> CSDL lưu trữ dữ liệu.",
+      "nguon": "ndc_bai_12 & trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Đánh giá kiến trúc hệ CSDL khi mở rộng quy mô",
+      "cau_hoi": "Một chuỗi siêu thị phát triển từ 1 cửa hàng thành 80 cửa hàng trên cả nước. Nếu vẫn giữ nguyên một máy chủ CSDL tập trung cấu hình nhỏ mà không nâng cấp hay phân tán, rủi ro kĩ thuật nào dễ xảy ra nhất?",
+      "lua_chon": {
+        "A": "Quá tải kết nối tại máy chủ trung tâm và gián đoạn hoạt động toàn hệ thống khi đường truyền hoặc máy chủ trung tâm gặp sự cố",
+        "B": "Các cửa hàng tự động biến thành trạm cục bộ độc lập",
+        "C": "Hệ QTCSDL tự động chuyển từ MySQL sang Word",
+        "D": "Dữ liệu trở nên dư thừa vì được lưu ít đi"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Hệ tập trung bị giới hạn khả năng mở rộng diện rộng và có điểm nghẽn đơn tại máy chủ trung tâm/đường truyền.",
+      "nguon": "ndc_bai_12"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B12-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phần mềm hỗ trợ tạo lập, cập nhật và truy xuất CSDL gọi là gì?",
-        "lua_chon": {
-          "A": "Hệ điều hành",
-          "B": "Trình chiếu",
-          "C": "Máy tìm kiếm",
-          "D": "Hệ quản trị CSDL"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B12_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Vai trò và chức năng của Hệ QTCSDL",
+      "dan_nhap": "Phát biểu về vai trò và chức năng của hệ quản trị CSDL (hệ QTCSDL):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Hệ QTCSDL chỉ dùng để tạo lập và chỉnh sửa dữ liệu, không có vai trò trong truy xuất.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "D",
-        "giai_thich": "Đáp án đúng vì Hệ quản trị CSDL; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B12-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Hệ QTCSDL?",
-        "lua_chon": {
-          "A": "CSDL phân tán lưu dữ liệu tại nhiều nút kết nối và phối hợp.",
-          "B": "Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL.",
-          "C": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
-          "D": "CSDL tập trung lưu trữ chủ yếu tại một địa điểm/máy chủ trung tâm."
+        {
+          "ma": "b",
+          "noi_dung": "Hệ QTCSDL hỗ trợ người dùng cập nhật, xóa, thêm dữ liệu và kiểm tra tính đúng đắn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL."
-      },
-      {
-        "id": "T11-B12-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống: Cần công cụ tạo bảng và quản lí người dùng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "CSDL tập trung.",
-          "B": "CSDL phân tán.",
-          "C": "Hệ quản trị cơ sở dữ liệu.",
-          "D": "Hệ cơ sở dữ liệu."
+        {
+          "ma": "c",
+          "noi_dung": "Hệ QTCSDL cung cấp công cụ sao lưu dữ liệu để phòng ngừa mất mát.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Hệ quản trị cơ sở dữ liệu."
-      },
-      {
-        "id": "T11-B12-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Hệ QTCSDL?",
-        "lua_chon": {
-          "A": "Cần công cụ tạo bảng và quản lí người dùng.",
-          "B": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
-          "C": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
-          "D": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập."
+        {
+          "ma": "d",
+          "noi_dung": "Người dùng luôn bắt buộc phải tự viết chương trình từ đầu mới có thể truy xuất dữ liệu từ hệ QTCSDL.",
+          "dap_an": false,
+          "giai_thich": "Sai. Hệ QTCSDL đã cung cấp sẵn môi trường truy xuất."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_DS_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Cơ chế hoạt động của Hệ CSDL tra cứu điểm thi",
+      "dan_nhap": "Khi tra cứu điểm thi trực tuyến bằng số báo danh trong một hệ CSDL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Người dùng phải biết rõ cấu trúc các bảng bên trong CSDL thì mới tra cứu được thông tin.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Hệ QTCSDL trong bài Hệ quản trị CSDL và hệ CSDL."
-      },
-      {
-        "id": "T11-B12-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Hệ CSDL?",
-        "lua_chon": {
-          "A": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
-          "B": "Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL.",
-          "C": "CSDL tập trung lưu trữ chủ yếu tại một địa điểm/máy chủ trung tâm.",
-          "D": "CSDL phân tán lưu dữ liệu tại nhiều nút kết nối và phối hợp."
+        {
+          "ma": "b",
+          "noi_dung": "Phần mềm ứng dụng CSDL đóng vai trò cầu nối giữa người dùng và hệ QTCSDL.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan."
-      },
-      {
-        "id": "T11-B12-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống: Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "CSDL phân tán.",
-          "B": "Hệ cơ sở dữ liệu.",
-          "C": "Hệ quản trị cơ sở dữ liệu.",
-          "D": "CSDL tập trung."
+        {
+          "ma": "c",
+          "noi_dung": "Hệ QTCSDL là phần mềm giao diện web duy nhất hiển thị cho thí sinh nhập số báo danh.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phần mềm ứng dụng CSDL mới cung cấp giao diện đơn giản cho người dùng cuối."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Hệ cơ sở dữ liệu."
-      },
-      {
-        "id": "T11-B12-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Hệ CSDL?",
-        "lua_chon": {
-          "A": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
-          "B": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập.",
-          "C": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
-          "D": "Cần công cụ tạo bảng và quản lí người dùng."
+        {
+          "ma": "d",
+          "noi_dung": "CSDL lưu trữ dữ liệu, hệ QTCSDL quản trị và phần mềm ứng dụng hỗ trợ khai thác theo yêu cầu cụ thể.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Đặc điểm hệ CSDL tập trung",
+      "dan_nhap": "Nhận định về hệ CSDL tập trung:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Dễ quản lí, dễ bảo trì và ít tốn chi phí duy trì hơn hệ phân tán.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Hệ CSDL trong bài Hệ quản trị CSDL và hệ CSDL."
-      },
-      {
-        "id": "T11-B12-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về CSDL tập trung?",
-        "lua_chon": {
-          "A": "Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL.",
-          "B": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
-          "C": "CSDL phân tán lưu dữ liệu tại nhiều nút kết nối và phối hợp.",
-          "D": "CSDL tập trung lưu trữ chủ yếu tại một địa điểm/máy chủ trung tâm."
+        {
+          "ma": "b",
+          "noi_dung": "Việc mở rộng quy mô hệ thống trên diện rộng gặp hạn chế hơn và phụ thuộc nhiều vào tốc độ đường truyền mạng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "CSDL tập trung lưu trữ chủ yếu tại một địa điểm/máy chủ trung tâm."
-      },
-      {
-        "id": "T11-B12-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống: Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "CSDL tập trung.",
-          "B": "Hệ quản trị cơ sở dữ liệu.",
-          "C": "Hệ cơ sở dữ liệu.",
-          "D": "CSDL phân tán."
+        {
+          "ma": "c",
+          "noi_dung": "Hệ tập trung thuận lợi trong việc đảm bảo tính nhất quán dữ liệu vì dữ liệu tập trung tại một nơi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, CSDL tập trung."
-      },
-      {
-        "id": "T11-B12-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về CSDL tập trung?",
-        "lua_chon": {
-          "A": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
-          "B": "Cần công cụ tạo bảng và quản lí người dùng.",
-          "C": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
-          "D": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập."
+        {
+          "ma": "d",
+          "noi_dung": "Toàn bộ dữ liệu của hệ tập trung được tách rời và sao chép cố định ra từng máy trạm để xử lí độc lập.",
+          "dap_an": false,
+          "giai_thich": "Sai."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_12 & ndc_bai_12"
+    },
+    {
+      "id": "B12_DS_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Đặc điểm hệ CSDL phân tán",
+      "dan_nhap": "Phát biểu về hệ CSDL phân tán:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Mỗi trạm dữ liệu cục bộ bắt buộc phải chứa toàn bộ 100% dữ liệu của mọi chi nhánh khác.",
+          "dap_an": false,
+          "giai_thich": "Sai. Mỗi trạm lưu các CSDL con phục vụ cục bộ và phối hợp truy vấn toàn cục."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với CSDL tập trung trong bài Hệ quản trị CSDL và hệ CSDL."
-      },
-      {
-        "id": "T11-B12-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về CSDL phân tán?",
-        "lua_chon": {
-          "A": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
-          "B": "CSDL tập trung lưu trữ chủ yếu tại một địa điểm/máy chủ trung tâm.",
-          "C": "CSDL phân tán lưu dữ liệu tại nhiều nút kết nối và phối hợp.",
-          "D": "Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL."
+        {
+          "ma": "b",
+          "noi_dung": "Dễ mở rộng và tăng tính sẵn sàng khi một trạm gặp sự cố.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "CSDL phân tán lưu dữ liệu tại nhiều nút kết nối và phối hợp."
-      },
-      {
-        "id": "T11-B12-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống: Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hệ quản trị cơ sở dữ liệu.",
-          "B": "Hệ cơ sở dữ liệu.",
-          "C": "CSDL tập trung.",
-          "D": "CSDL phân tán."
+        {
+          "ma": "c",
+          "noi_dung": "Tốn kém hơn trong việc thiết kế, triển khai và đảm bảo bảo mật, nhất quán dữ liệu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, CSDL phân tán."
-      },
-      {
-        "id": "T11-B12-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về CSDL phân tán?",
-        "lua_chon": {
-          "A": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
-          "B": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
-          "C": "Nhiều địa điểm duy trì phần dữ liệu và phối hợp truy cập.",
-          "D": "Cần công cụ tạo bảng và quản lí người dùng."
+        {
+          "ma": "d",
+          "noi_dung": "Chỉ phù hợp cho các hệ thống cá nhân đơn giản, ít người dùng.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thường dùng cho tổ chức lớn có nhiều chi nhánh."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_12"
+    },
+    {
+      "id": "B12_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tương tác giữa nhiều phần mềm ứng dụng và CSDL",
+      "dan_nhap": "Khi dùng ứng dụng đặt xe để truy xuất thông tin tài xế, vị trí, giá cước từ hệ CSDL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Phần mềm ứng dụng chỉ có thể lấy dữ liệu ra xem, không bao giờ gửi yêu cầu cập nhật (như tạo chuyến đi mới).",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với CSDL phân tán trong bài Hệ quản trị CSDL và hệ CSDL."
-      },
-      {
-        "id": "T11-B12-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Điều khiển truy cập?",
-        "lua_chon": {
-          "A": "CSDL tập trung lưu trữ chủ yếu tại một địa điểm/máy chủ trung tâm.",
-          "B": "Hệ QTCSDL có thể quản lí người dùng và quyền thao tác.",
-          "C": "Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL.",
-          "D": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan."
+        {
+          "ma": "b",
+          "noi_dung": "Phần mềm ứng dụng giúp đơn giản hóa việc tương tác giữa người dùng với CSDL.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Hệ QTCSDL có thể quản lí người dùng và quyền thao tác."
-      },
-      {
-        "id": "T11-B12-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống: Một người chỉ được xem, người khác được cập nhật. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hệ cơ sở dữ liệu.",
-          "B": "CSDL tập trung.",
-          "C": "Phân quyền truy cập.",
-          "D": "Hệ quản trị cơ sở dữ liệu."
+        {
+          "ma": "c",
+          "noi_dung": "Nhiều phần mềm ứng dụng khác nhau (app khách hàng, app tài xế, web quản lí) có thể cùng truy cập một CSDL.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Phân quyền truy cập."
-      },
-      {
-        "id": "T11-B12-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Điều khiển truy cập?",
-        "lua_chon": {
-          "A": "Một người chỉ được xem, người khác được cập nhật.",
-          "B": "Cần công cụ tạo bảng và quản lí người dùng.",
-          "C": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
-          "D": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Điều khiển truy cập trong bài Hệ quản trị CSDL và hệ CSDL."
-      },
-      {
-        "id": "T11-B12-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Tính toàn vẹn?",
-        "lua_chon": {
-          "A": "Hệ QTCSDL có thể áp dụng ràng buộc để giữ dữ liệu hợp lệ.",
-          "B": "Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL.",
-          "C": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
-          "D": "CSDL tập trung lưu trữ chủ yếu tại một địa điểm/máy chủ trung tâm."
-        },
-        "dap_an": "A",
-        "giai_thich": "Hệ QTCSDL có thể áp dụng ràng buộc để giữ dữ liệu hợp lệ."
-      },
-      {
-        "id": "T11-B12-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống: Không cho nhập điểm ngoài phạm vi quy định. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "CSDL tập trung.",
-          "B": "Ràng buộc toàn vẹn dữ liệu.",
-          "C": "Hệ quản trị cơ sở dữ liệu.",
-          "D": "Hệ cơ sở dữ liệu."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Ràng buộc toàn vẹn dữ liệu."
-      },
-      {
-        "id": "T11-B12-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tính toàn vẹn?",
-        "lua_chon": {
-          "A": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
-          "B": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính.",
-          "C": "Không cho nhập điểm ngoài phạm vi quy định.",
-          "D": "Cần công cụ tạo bảng và quản lí người dùng."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Tính toàn vẹn trong bài Hệ quản trị CSDL và hệ CSDL."
-      },
-      {
-        "id": "T11-B12-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Sao lưu và phục hồi?",
-        "lua_chon": {
-          "A": "Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL.",
-          "B": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
-          "C": "CSDL tập trung lưu trữ chủ yếu tại một địa điểm/máy chủ trung tâm.",
-          "D": "Hệ QTCSDL thường hỗ trợ biện pháp sao lưu/phục hồi."
-        },
-        "dap_an": "D",
-        "giai_thich": "Hệ QTCSDL thường hỗ trợ biện pháp sao lưu/phục hồi."
-      },
-      {
-        "id": "T11-B12-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống: Máy chủ gặp sự cố và cần khôi phục dữ liệu. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Sao lưu và phục hồi.",
-          "B": "Hệ quản trị cơ sở dữ liệu.",
-          "C": "Hệ cơ sở dữ liệu.",
-          "D": "CSDL tập trung."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Sao lưu và phục hồi."
-      },
-      {
-        "id": "T11-B12-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Sao lưu và phục hồi?",
-        "lua_chon": {
-          "A": "Máy chủ gặp sự cố và cần khôi phục dữ liệu.",
-          "B": "Cần công cụ tạo bảng và quản lí người dùng.",
-          "C": "Muốn mô tả cả dữ liệu, phần mềm và môi trường vận hành.",
-          "D": "Các chi nhánh truy cập cùng dữ liệu đặt ở máy chủ chính."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Sao lưu và phục hồi trong bài Hệ quản trị CSDL và hệ CSDL."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B12-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Xét tính đúng/sai về Hệ quản trị CSDL và hệ CSDL:",
-        "y_kien": {
-          "a": false,
-          "b": "Hệ CSDL gồm CSDL, hệ QTCSDL và các thành phần liên quan.",
-          "c": "CSDL phân tán chỉ có thể đặt toàn bộ dữ liệu ở một máy duy nhất.",
-          "d": true
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B12-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Phân biệt CSDL, hệ QTCSDL và hệ CSDL; nêu tập trung và phân tán.",
-        "dap_an_goi_y": "CSDL là dữ liệu; hệ QTCSDL là phần mềm quản lí; hệ CSDL gồm dữ liệu, phần mềm và môi trường vận hành. Tập trung lưu một nơi, phân tán lưu nhiều nút phối hợp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B12-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 12 - Hệ quản trị CSDL và hệ CSDL",
-        "noi_dung": "Dựa vào kiến thức “Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần công cụ tạo bảng và quản lí người dùng.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Hệ QTCSDL là phần mềm hỗ trợ tạo lập, cập nhật, truy xuất và quản lí CSDL. Vận dụng: Hệ quản trị cơ sở dữ liệu. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Người dùng phổ thông nên truy cập trực tiếp vào máy chủ hệ QTCSDL thay vì dùng ứng dụng.",
+          "dap_an": false,
+          "giai_thich": "Sai."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_12 & ndc_bai_12"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B12_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tên viết tắt Hệ QTCSDL",
+      "cau_hoi": "Tên viết tắt tiếng Anh của Hệ quản trị cơ sở dữ liệu là gì?",
+      "dap_an": "DBMS",
+      "dap_an_tuong_duong": [
+        "dbms",
+        "Database Management System"
+      ],
+      "giai_thich": "DBMS là viết tắt của Database Management System.",
+      "nguon": "cd4_bai_12"
+    },
+    {
+      "id": "B12_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Số thành phần của Hệ CSDL",
+      "cau_hoi": "Một hệ cơ sở dữ liệu gồm bao nhiêu thành phần chính?",
+      "dap_an": "3 thành phần",
+      "dap_an_tuong_duong": [
+        "3",
+        "ba"
+      ],
+      "giai_thich": "Gồm 3 thành phần: CSDL, Hệ QTCSDL và các phần mềm ứng dụng CSDL.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phần mềm ứng dụng CSDL",
+      "cau_hoi": "Phần mềm làm cầu nối giao tiếp giúp người dùng khai thác CSDL thuận tiện gọi là gì?",
+      "dap_an": "Phần mềm ứng dụng CSDL",
+      "dap_an_tuong_duong": [
+        "Phần mềm ứng dụng",
+        "Ứng dụng CSDL"
+      ],
+      "giai_thich": "Phần mềm ứng dụng CSDL cung cấp giao diện tương tác cho người dùng cuối.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khái niệm trạm trong hệ CSDL phân tán",
+      "cau_hoi": "Trong hệ CSDL phân tán, mỗi máy tính lưu trữ CSDL con trong mạng gọi là gì?",
+      "dap_an": "Trạm CSDL cục bộ",
+      "dap_an_tuong_duong": [
+        "Trạm cục bộ"
+      ],
+      "giai_thich": "Mỗi nút lưu CSDL con trong mạng phân tán gọi là trạm CSDL cục bộ.",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tên hệ QTCSDL nguồn mở phổ biến",
+      "cau_hoi": "Kể tên một hệ quản trị cơ sở dữ liệu nguồn mở phổ biến được sử dụng trong chương trình Tin học 11.",
+      "dap_an": "MySQL",
+      "dap_an_tuong_duong": [
+        "mysql",
+        "MariaDB",
+        "PostgreSQL"
+      ],
+      "giai_thich": "MySQL là hệ QTCSDL nguồn mở phổ biến trong sách Tin học 11 KNTT.",
+      "nguon": "cd4_bai_12"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B12_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt CSDL, Hệ QTCSDL và Hệ CSDL",
+      "cau_hoi": "Phân biệt khái niệm Cơ sở dữ liệu (CSDL), Hệ quản trị cơ sở dữ liệu (Hệ QTCSDL) và Hệ cơ sở dữ liệu (Hệ CSDL).",
+      "goi_y_dap_an": "- CSDL: Tập hợp dữ liệu có liên quan, lưu trữ có tổ chức.\n- Hệ QTCSDL: Phần mềm chuyên dụng cung cấp môi trường tạo lập, lưu trữ, cập nhật, truy xuất và bảo mật CSDL.\n- Hệ CSDL: Bao gồm 3 thành phần là CSDL, Hệ QTCSDL và các phần mềm ứng dụng CSDL.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng và phân biệt rõ 3 khái niệm (0,6đ + 0,7đ + 0,7đ = 2,0đ).",
+      "nguon": "ndc_bai_12 & cd4_bai_12"
+    },
+    {
+      "id": "B12_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "So sánh hệ CSDL tập trung và phân tán",
+      "cau_hoi": "So sánh ưu điểm và nhược điểm của hệ CSDL tập trung và hệ CSDL phân tán.",
+      "goi_y_dap_an": "- Tập trung: Ưu điểm dễ bảo trì, nhất quán và bảo mật cao; Nhược điểm phụ thuộc đường truyền mạng khi triển khai diện rộng.\n- Phân tán: Ưu điểm tính sẵn sàng cao, dễ mở rộng, độ tin cậy cao nhờ sao lưu ở các trạm; Nhược điểm khó thiết kế triển khai, chi phí cao, khó đồng bộ nhất quán tức thì.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng ưu và nhược điểm của hệ tập trung (1,0đ) và hệ phân tán (1,0đ).",
+      "nguon": "ndc_bai_12"
+    },
+    {
+      "id": "B12_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Tư vấn lựa chọn kiến trúc Hệ CSDL cho tổ chức thực tế",
+      "cau_hoi": "Một chuỗi phòng khám y tế có 12 chi nhánh ở 12 tỉnh thành khác nhau muốn xây dựng hệ thống quản lí bệnh án điện tử: yêu cầu bác sĩ tại mỗi chi nhánh truy cập hồ sơ bệnh nhân tại chỗ thật nhanh ngay cả khi mạng liên tỉnh chập chờn, nhưng vẫn cho phép bệnh nhân đi khám ở chi nhánh khác tra cứu được lịch sử khám của mình. Hãy đề xuất mô hình Hệ CSDL phù hợp và giải thích.",
+      "goi_y_dap_an": "- Đề xuất: Hệ CSDL phân tán.\n- Giải thích: Dữ liệu bệnh nhân của từng tỉnh được lưu tại trạm CSDL cục bộ giúp truy xuất tại chỗ nhanh, không bị gián đoạn khi mạng liên tỉnh yếu (tính sẵn sàng cao); đồng thời các trạm kết nối mạng để phối hợp truy vấn khi bệnh nhân chuyển sang chi nhánh khác.",
+      "thang_diem": "Tổng 2,0 điểm: chọn đúng mô hình phân tán (0,6đ) và giải thích gắn với 2 yêu cầu nghiệp vụ của đề bài (1,4đ).",
+      "nguon": "ndc_bai_12"
+    }
+  ]
 }

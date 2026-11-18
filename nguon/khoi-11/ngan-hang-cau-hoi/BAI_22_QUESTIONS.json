@@ -1,424 +1,575 @@
 {
-  "ma_bai": "BAI_22",
-  "bai_so": 22,
-  "ten_bai": "Thực hành cập nhật bảng có tham chiếu",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_22",
+  "ten_bai": "Thực hành cập nhật bảng dữ liệu có tham chiếu",
+  "chu_de": "Chủ đề 6: Thực hành tạo và khai thác cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_22_thuc_hanh.docx",
+    "ndc_bai_22_thuc_hanh_cap_nhat_bang_du_lieu_co_tham_chieu.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B22_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Điều kiện giá trị khi nhập khóa ngoài",
+      "cau_hoi": "Khi nhập dữ liệu cho trường khóa ngoài `idNhacsi` trong bảng `bannhac` bằng HeidiSQL, để đảm bảo tính nhất quán, giá trị nhập vào phải thỏa mãn điều kiện nào?",
+      "lua_chon": {
+        "A": "Là một số bất kì do người dùng tự nghĩ ra",
+        "B": "Phải là một chuỗi văn bản dài",
+        "C": "Phải là giá trị `idNhacsi` đã tồn tại trong bảng `nhacsi` (chọn từ hộp danh sách)",
+        "D": "Bắt buộc luôn bằng 0"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Giá trị hợp lệ của trường khóa ngoài chỉ có thể lấy từ các giá trị khóa chính đã có trong bảng tham chiếu (`nhacsi`).",
+      "nguon": "ndc_bai_22 & Kenhgiaovien_22"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B22_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cơ chế ngăn chặn xóa bản ghi cha đang được tham chiếu",
+      "cau_hoi": "Vì sao khi bảng `bannhac` đang có các bản nhạc tham chiếu đến `idNhacsi = 2` (Văn Cao), ta KHÔNG thể tùy tiện xóa dòng nhạc sĩ Văn Cao trong bảng `nhacsi`?",
+      "lua_chon": {
+        "A": "Vì MySQL kiểm tra toàn vẹn tham chiếu và ngăn chặn việc xóa bản ghi cha đang được bản ghi con tham chiếu tới",
+        "B": "Vì bảng `nhacsi` bị khóa vĩnh viễn không bao giờ xóa được",
+        "C": "Vì HeidiSQL bị lỗi phần mềm",
+        "D": "Vì `idNhacsi` có kiểu VARCHAR"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "MySQL ngăn chặn việc xóa dòng ở bảng `nhacsi` khi giá trị khóa chính của nó đang được tham chiếu ở bảng `bannhac` để bảo vệ tính toàn vẹn dữ liệu.",
+      "nguon": "ndc_bai_22 & Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy trình xóa bản ghi cha có liên kết",
+      "cau_hoi": "Muốn xóa một nhạc sĩ ở bảng `nhacsi` trong trường hợp bảng `bannhac` vẫn đang có bản nhạc tham chiếu tới nhạc sĩ đó, cách xử lí đúng là gì?",
+      "lua_chon": {
+        "A": "Không có cách nào xử lí",
+        "B": "Xóa thẳng bảng `nhacsi` trước",
+        "C": "Tắt MySQL rồi xóa tệp hệ thống",
+        "D": "Xóa hoặc cập nhật các dòng liên quan ở bảng `bannhac` (bảng con) trước, rồi mới xóa ở bảng `nhacsi` (bảng cha)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phải xử lí các bản ghi con đang tham chiếu ở bảng `bannhac` trước để không vi phạm ràng buộc khóa ngoài.",
+      "nguon": "Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Công cụ hỗ trợ chọn khóa ngoài trong HeidiSQL",
+      "cau_hoi": "Trong thẻ Dữ liệu của bảng `bannhac` trên HeidiSQL, khi nháy đúp vào ô thuộc cột khóa ngoài `idNhacsi`, giao diện sẽ hiển thị gì?",
+      "lua_chon": {
+        "A": "Cảnh báo mất điện",
+        "B": "Cửa sổ vẽ hình ảnh",
+        "C": "Trình duyệt web Google",
+        "D": "Hộp danh sách (dropdown list) liệt kê các nhạc sĩ đã có trong bảng `nhacsi` để chọn"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "HeidiSQL tự động tạo hộp danh sách giúp chọn đúng giá trị khóa chính tham chiếu từ bảng `nhacsi`.",
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Trường tự động tăng trong bảng bannhac",
+      "cau_hoi": "Khi thêm một bản nhạc mới vào bảng `bannhac(idBannhac, tenBannhac, idNhacsi)`, trường nào được hệ thống tự động điền giá trị nhờ `AUTO_INCREMENT`?",
+      "lua_chon": {
+        "A": "`idBannhac`",
+        "B": "`tenBannhac`",
+        "C": "`idNhacsi`",
+        "D": "Cả `idBannhac` và `idNhacsi`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Chỉ khóa chính `idBannhac` của bảng `bannhac` đặt `AUTO_INCREMENT`; `idNhacsi` là khóa ngoài nên phải chọn từ `nhacsi`.",
+      "nguon": "ndc_bai_22 (đã chuẩn hóa)"
+    },
+    {
+      "id": "B22_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thứ tự nhập dữ liệu cho 4 bảng mymusic",
+      "cau_hoi": "Trong CSDL `mymusic` gồm 4 bảng `nhacsi`, `casi`, `bannhac`, `banthuam`, những bảng nào cần được nhập dữ liệu đầu tiên?",
+      "lua_chon": {
+        "A": "Bảng nào nhập trước cũng được",
+        "B": "`banthuam`",
+        "C": "`bannhac` và `banthuam`",
+        "D": "`nhacsi` và `casi`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`nhacsi` và `casi` là bảng cha độc lập không có khóa ngoài nên phải có dữ liệu trước.",
+      "nguon": "Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khóa ngoài của bảng huyen",
+      "cau_hoi": "Khi nhập dữ liệu cho bảng `huyen(idHuyen, tenHuyen, idTinh)`, giá trị nhập cho cột `idTinh` phải lấy từ đâu?",
+      "lua_chon": {
+        "A": "Nhập số âm bất kì",
+        "B": "Từ bảng `nhacsi`",
+        "C": "Từ danh sách các `idTinh` đã có trong bảng `tinh`",
+        "D": "Lấy từ `idHuyen` cộng thêm 1"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`idTinh` là khóa ngoài tham chiếu tới khóa chính của bảng `tinh`.",
+      "nguon": "Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_08",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hệ quả nếu bảng cha chưa có dữ liệu",
+      "cau_hoi": "Nếu bảng `nhacsi` hiện đang hoàn toàn trống (0 dòng), khi mở bảng `bannhac` để thêm một bản nhạc mới, điều gì sẽ xảy ra với ô `idNhacsi`?",
+      "lua_chon": {
+        "A": "Hộp danh sách trống rỗng và không thể thêm bản ghi hợp lệ cho `bannhac`",
+        "B": "Hệ thống tự động tạo nhạc sĩ mới",
+        "C": "Có thể nhập số 999 mà không bị lỗi",
+        "D": "Bảng `bannhac` tự động xóa khóa ngoài"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Không có giá trị khóa chính nào ở bảng cha thì không thể nhập giá trị khóa ngoài hợp lệ ở bảng con.",
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Sửa tên nhạc sĩ ở bảng cha có ảnh hưởng bảng con không",
+      "cau_hoi": "Khi sửa tên một nhạc sĩ (chỉ sửa cột `tenNhacsi`, giữ nguyên `idNhacsi = 1`) trong bảng `nhacsi`, dữ liệu trong bảng `bannhac` có bị lỗi hay mất liên kết không?",
+      "lua_chon": {
+        "A": "Có, toàn bộ bản nhạc của nhạc sĩ đó bị xóa",
+        "B": "Không, vì hai bảng liên kết qua `idNhacsi`, nên mọi bản nhạc của nhạc sĩ đó tự động gắn với tên mới",
+        "C": "Có, phải nhập lại toàn bộ bảng `bannhac`",
+        "D": "MySQL không cho phép sửa `tenNhacsi`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Khóa ngoài tham chiếu tới `idNhacsi`, nên sửa thuộc tính mô tả `tenNhacsi` không làm hỏng liên kết và đảm bảo nhất quán.",
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Xóa dòng ở bảng con (bannhac)",
+      "cau_hoi": "Nếu bảng `banthuam` chưa có bản ghi nào tham chiếu tới bản nhạc có `idBannhac = 5`, việc xóa dòng `idBannhac = 5` khỏi bảng `bannhac` có thực hiện được không?",
+      "lua_chon": {
+        "A": "Thực hiện được và tự động xóa luôn nhạc sĩ trong bảng `nhacsi`",
+        "B": "Không được, vì xóa bảng con sẽ xóa luôn bảng cha",
+        "C": "Không được, vì bảng `bannhac` không thể xóa dòng",
+        "D": "Thực hiện được bình thường, và không làm xóa dòng nhạc sĩ tương ứng trong bảng `nhacsi`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Xóa bản ghi ở bảng con không vi phạm khóa ngoài nếu không có bảng khác tham chiếu tới nó, và không ảnh hưởng bảng cha.",
+      "nguon": "ndc_bai_22 & Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lý do không thể xóa bản ghi ở bảng cha khi bảng con đang dùng",
+      "cau_hoi": "Nếu MySQL cho phép xóa dòng `idNhacsi = 1` ở bảng `nhacsi` trong khi bảng `bannhac` vẫn còn các bản nhạc mang `idNhacsi = 1`, hậu quả dữ liệu gì sẽ xảy ra?",
+      "lua_chon": {
+        "A": "Tốc độ truy vấn tăng gấp đôi",
+        "B": "Xuất hiện các bản nhạc 'mồ côi' trỏ tới một mã nhạc sĩ không tồn tại, phá vỡ tính toàn vẹn dữ liệu",
+        "C": "Tất cả ca sĩ tự động trở thành nhạc sĩ",
+        "D": "Không có hậu quả gì"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Ràng buộc toàn vẹn tham chiếu tồn tại chính là để ngăn ngừa dữ liệu 'mồ côi' không khớp khóa.",
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kiểm tra ràng buộc UNIQUE khi nhập bảng bannhac",
+      "cau_hoi": "Bảng `bannhac` đã có bản ghi `(1, 'Tiến quân ca', 2)` (với `2` là Văn Cao). Khi nhập thêm một bản ghi mới có `tenBannhac = 'Tiến quân ca'` và `idNhacsi = 2`, điều gì xảy ra?",
+      "lua_chon": {
+        "A": "MySQL tự động đổi `idNhacsi` thành `3`",
+        "B": "MySQL chấp nhận bình thường",
+        "C": "MySQL báo lỗi vi phạm khóa cấm trùng lặp `UNIQUE(tenBannhac, idNhacsi)`",
+        "D": "MySQL xóa bản ghi cũ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khóa `UNIQUE(tenBannhac, idNhacsi)` ngăn cùng một nhạc sĩ có hai bản nhạc trùng tên.",
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_TN_13",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Hai nhạc sĩ khác nhau có bài hát trùng tên",
+      "cau_hoi": "Trong bảng `bannhac` có khóa `UNIQUE(tenBannhac, idNhacsi)`. Đã có bản nhạc `'Mùa thu'` của nhạc sĩ `idNhacsi = 1`. Nếu thêm bản nhạc `'Mùa thu'` của nhạc sĩ `idNhacsi = 2` thì kết quả thế nào?",
+      "lua_chon": {
+        "A": "Báo lỗi vi phạm khóa ngoài",
+        "B": "Báo lỗi trùng tên bản nhạc",
+        "C": "Thêm thành công bình thường vì cặp `('Mùa thu', 2)` khác với `('Mùa thu', 1)`",
+        "D": "Hệ thống tự gộp hai nhạc sĩ thành một"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khóa `UNIQUE` đặt trên cả cặp `(tenBannhac, idNhacsi)` nên hai nhạc sĩ khác nhau vẫn có thể có bài hát trùng tên.",
+      "nguon": "ndc_bai_22 & Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thao tác cập nhật bảng banthuam",
+      "cau_hoi": "Khi nhập dữ liệu cho bảng `banthuam(idBanthuam, idBannhac, idCasi)` trong HeidiSQL, người dùng cần chọn giá trị từ hộp danh sách cho những cột nào?",
+      "lua_chon": {
+        "A": "Chỉ cột `idNhacsi`",
+        "B": "Chỉ cột `idBanthuam`",
+        "C": "Cả hai cột `idBannhac` (từ bảng `bannhac`) và `idCasi` (từ bảng `casi`)",
+        "D": "Không cột nào có hộp danh sách"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`banthuam` có 2 khóa ngoài là `idBannhac` và `idCasi` nên đều có hộp danh sách tham chiếu.",
+      "nguon": "Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí lỗi #1452 khi dùng lệnh INSERT SQL",
+      "cau_hoi": "Khi chạy lệnh `INSERT INTO bannhac (tenBannhac, idNhacsi) VALUES ('Hà Nội mùa thu', 99);`, MySQL báo lỗi `#1452 - Cannot add or update a child row: a foreign key constraint fails`. Nguyên nhân là gì?",
+      "lua_chon": {
+        "A": "Chưa đặt khóa chính cho `nhacsi`",
+        "B": "Tên bài hát `'Hà Nội mùa thu'` quá dài",
+        "C": "Thiếu dấu chấm phẩy ở cuối lệnh",
+        "D": "Trong bảng `nhacsi` chưa tồn tại bản ghi nào có `idNhacsi = 99`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Lỗi `#1452` xảy ra khi giá trị khóa ngoài thêm vào bảng con không tồn tại ở bảng cha.",
+      "nguon": "ndc_bai_22 & Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí lỗi #1451 khi dùng lệnh DELETE SQL",
+      "cau_hoi": "Khi chạy lệnh `DELETE FROM nhacsi WHERE idNhacsi = 1;`, MySQL báo lỗi `#1451 - Cannot delete or update a parent row: a foreign key constraint fails`. Ý nghĩa của thông báo này là gì?",
+      "lua_chon": {
+        "A": "Bảng `nhacsi` không có dòng nào mang `idNhacsi = 1`",
+        "B": "Không thể xóa nhạc sĩ có `idNhacsi = 1` vì đang có ít nhất một bản nhạc trong `bannhac` tham chiếu tới mã này",
+        "C": "Tài khoản `root` không có quyền `DELETE`",
+        "D": "Cú pháp câu lệnh `DELETE` bị sai từ khóa"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Lỗi `#1451` báo hiệu ràng buộc khóa ngoài ngăn không cho xóa dòng cha đang được bảng con tham chiếu.",
+      "nguon": "ndc_bai_22 & Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chuyển bản nhạc sang cho nhạc sĩ khác",
+      "cau_hoi": "Do nhập nhầm tác giả, bản nhạc `idBannhac = 3` đang gắn với `idNhacsi = 1` cần đổi sang `idNhacsi = 4` (đã có trong bảng `nhacsi`). Câu lệnh SQL nào thực hiện đúng việc cập nhật này?",
+      "lua_chon": {
+        "A": "`UPDATE nhacsi SET idNhacsi = 4 WHERE idBannhac = 3;`",
+        "B": "`UPDATE bannhac SET idNhacsi = 4 WHERE idBannhac = 3;`",
+        "C": "`DELETE FROM bannhac WHERE idNhacsi = 1;`",
+        "D": "`INSERT INTO bannhac VALUES (3, '', 4);`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Cập nhật lại giá trị cột `idNhacsi` tại dòng `idBannhac = 3` trong bảng `bannhac`.",
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Cập nhật bảng huyen tham chiếu tinh",
+      "cau_hoi": "Khi nhập dữ liệu cho bảng `huyen(idHuyen, tenHuyen, idTinh)`, giả sử tỉnh `'Quảng Ngãi'` có `idTinh = 51`. Để thêm huyện `'Ba Tơ'` thuộc tỉnh Quảng Ngãi bằng SQL, lệnh nào đúng?",
+      "lua_chon": {
+        "A": "`INSERT INTO huyen (tenHuyen, idTinh) VALUES ('Ba Tơ', 51);`",
+        "B": "`INSERT INTO huyen (tenHuyen, idTinh) VALUES ('Ba Tơ', 'Quảng Ngãi');`",
+        "C": "`INSERT INTO tinh (tenHuyen, idTinh) VALUES ('Ba Tơ', 51);`",
+        "D": "`UPDATE huyen SET idTinh = 51;`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Phải truyền đúng mã số nguyên `51` (khớp kiểu `INT` của `idTinh`) vào bảng `huyen`.",
+      "nguon": "Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xóa một nhạc sĩ khi đã có dữ liệu ở cả bannhac và banthuam",
+      "cau_hoi": "Nhạc sĩ `idNhacsi = 2` có 2 bản nhạc trong `bannhac`, và các bản nhạc này đều đang được ca sĩ thu âm trong bảng `banthuam`. Để xóa hoàn toàn nhạc sĩ `idNhacsi = 2` khỏi CSDL mà không vi phạm khóa ngoài, trình tự xóa đúng từ bảng con lên bảng cha là gì?",
+      "lua_chon": {
+        "A": "Xóa trong `nhacsi` -> `bannhac` -> `banthuam`",
+        "B": "Xóa các bản thu âm liên quan trong `banthuam` -> xóa các bản nhạc của nhạc sĩ 2 trong `bannhac` -> xóa dòng `idNhacsi = 2` trong `nhacsi`",
+        "C": "Xóa trong `bannhac` -> `nhacsi` -> `banthuam`",
+        "D": "Xóa trong `casi` -> `nhacsi`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Phải xóa từ bảng phụ thuộc sâu nhất (`banthuam`) -> bảng trung gian (`bannhac`) -> bảng gốc (`nhacsi`).",
+      "nguon": "Kenhgiaovien_22 & ndc_bai_22"
+    },
+    {
+      "id": "B22_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích tình huống sửa khóa chính bảng cha",
+      "cau_hoi": "Khi một dòng ở bảng `nhacsi` đang được bảng `bannhac` tham chiếu, việc thay đổi trực tiếp giá trị `idNhacsi` của dòng đó trong bảng `nhacsi` (nếu không cấu hình `ON UPDATE CASCADE`) sẽ gặp phản ứng gì từ MySQL?",
+      "lua_chon": {
+        "A": "MySQL từ chối cập nhật và báo lỗi ràng buộc khóa ngoài (`#1451`) để tránh làm mất liên kết của các bản ghi con đang trỏ tới mã cũ",
+        "B": "MySQL tự động xóa bảng `bannhac`",
+        "C": "MySQL đổi tên bảng `nhacsi` thành `casi`",
+        "D": "Hệ thống tự động tắt máy chủ"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Mặc định `RESTRICT` ngăn cả việc xóa lẫn sửa khóa chính ở bảng cha nếu đang có bản ghi con tham chiếu tới.",
+      "nguon": "ndc_bai_22"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B22-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Khi nhập bản nhạc có khóa ngoài idNhacsi, cần kiểm tra điều gì?",
-        "lua_chon": {
-          "A": "Tên ảnh bìa",
-          "B": "Màu bảng",
-          "C": "Độ phân giải màn hình",
-          "D": "Mã nhạc sĩ tồn tại ở bảng được tham chiếu"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B22_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cập nhật dữ liệu bảng bannhac trên HeidiSQL",
+      "dan_nhap": "Thực hành cập nhật dữ liệu cho bảng `bannhac(idBannhac, tenBannhac, idNhacsi)` trên HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Trường `idBannhac` có kiểu `INT`, `AUTO_INCREMENT` nên không cần tự nhập giá trị khi thêm mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Đáp án đúng vì Mã nhạc sĩ tồn tại ở bảng được tham chiếu; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B22-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Phát biểu nào đúng về Mã tham chiếu?",
-        "lua_chon": {
-          "A": "Dữ liệu bảng cha thường cần có trước bản ghi phụ thuộc.",
-          "B": "Lỗi khóa ngoài thường do mã tham chiếu không tồn tại hoặc không tương thích.",
-          "C": "Thay giá trị khóa ngoài làm đổi bản ghi cha được liên kết.",
-          "D": "Giá trị khóa ngoài cần khớp khóa được tham chiếu."
+        {
+          "ma": "b",
+          "noi_dung": "Khi nháy đúp vào ô cột khóa ngoài `idNhacsi`, HeidiSQL hiển thị hộp danh sách các nhạc sĩ đã có trong bảng `nhacsi` để chọn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Giá trị khóa ngoài cần khớp khóa được tham chiếu."
-      },
-      {
-        "id": "T11-B22-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mã 12 có tồn tại trong Nhacsi.",
-          "B": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "C": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "D": "Khóa ngoài của bản ghi Bannhac."
+        {
+          "ma": "c",
+          "noi_dung": "Nếu sửa dữ liệu trong bảng `bannhac`, có thể nháy đúp trực tiếp vào ô muốn sửa.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Mã 12 có tồn tại trong Nhacsi."
-      },
-      {
-        "id": "T11-B22-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Mã tham chiếu?",
-        "lua_chon": {
-          "A": "Câu lệnh thêm dữ liệu bị từ chối.",
-          "B": "Bản nhạc được gán nhầm nhạc sĩ.",
-          "C": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
-          "D": "Thêm bản nhạc có khóa ngoài idNhacsi."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể nhập một giá trị `idNhacsi` chưa từng tồn tại trong bảng `nhacsi` vào bảng `bannhac`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Vi phạm ràng buộc khóa ngoài."
+        }
+      ],
+      "nguon": "Biên soạn & sửa lỗi từ ndc_bai_22 & Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_DS_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Cập nhật bảng banthuam và huyen",
+      "dan_nhap": "Cập nhật bảng có nhiều khóa ngoài như `banthuam(idBanthuam, idBannhac, idCasi)` và `huyen(idHuyen, tenHuyen, idTinh)`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Bảng `banthuam` có hai khóa ngoài tham chiếu tới hai bảng khác nhau là `bannhac` và `casi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Mã tham chiếu trong bài Thực hành cập nhật bảng có tham chiếu."
-      },
-      {
-        "id": "T11-B22-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Phát biểu nào đúng về Thứ tự nhập?",
-        "lua_chon": {
-          "A": "Lỗi khóa ngoài thường do mã tham chiếu không tồn tại hoặc không tương thích.",
-          "B": "Thay giá trị khóa ngoài làm đổi bản ghi cha được liên kết.",
-          "C": "Dữ liệu bảng cha thường cần có trước bản ghi phụ thuộc.",
-          "D": "Giá trị khóa ngoài cần khớp khóa được tham chiếu."
+        {
+          "ma": "b",
+          "noi_dung": "Cần nhập dữ liệu cho bảng `nhacsi`, `casi`, `bannhac` trước khi nhập dữ liệu cho bảng `banthuam`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Dữ liệu bảng cha thường cần có trước bản ghi phụ thuộc."
-      },
-      {
-        "id": "T11-B22-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Thêm bản nhạc có khóa ngoài idNhacsi. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mã 12 có tồn tại trong Nhacsi.",
-          "B": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "C": "Khóa ngoài của bản ghi Bannhac.",
-          "D": "Bản ghi nhạc sĩ tham chiếu đã tồn tại."
+        {
+          "ma": "c",
+          "noi_dung": "Trong bảng `huyen`, có thể xóa một tỉnh ở bảng `tinh` ngay cả khi đang có huyện tham chiếu tới tỉnh đó mà không gặp cảnh báo gì.",
+          "dap_an": false,
+          "giai_thich": "Sai. MySQL sẽ chặn để bảo vệ toàn vẹn tham chiếu."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Bản ghi nhạc sĩ tham chiếu đã tồn tại."
-      },
-      {
-        "id": "T11-B22-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thứ tự nhập?",
-        "lua_chon": {
-          "A": "Thêm bản nhạc có khóa ngoài idNhacsi.",
-          "B": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
-          "C": "Câu lệnh thêm dữ liệu bị từ chối.",
-          "D": "Bản nhạc được gán nhầm nhạc sĩ."
+        {
+          "ma": "d",
+          "noi_dung": "Việc truy xuất dữ liệu trong bảng `bannhac` và `banthuam` thực hiện tương tự như bảng `nhacsi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ràng buộc khi sửa và xóa ở bảng cha và bảng con",
+      "dan_nhap": "Xét mối quan hệ tham chiếu giữa bảng cha `nhacsi` và bảng con `bannhac`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể sửa tên một nhạc sĩ trong bảng `nhacsi` (không đổi `idNhacsi`) ngay cả khi nhạc sĩ đó đã có bản nhạc trong `bannhac`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Thứ tự nhập trong bài Thực hành cập nhật bảng có tham chiếu."
-      },
-      {
-        "id": "T11-B22-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Phát biểu nào đúng về Lỗi khóa ngoài?",
-        "lua_chon": {
-          "A": "Thay giá trị khóa ngoài làm đổi bản ghi cha được liên kết.",
-          "B": "Lỗi khóa ngoài thường do mã tham chiếu không tồn tại hoặc không tương thích.",
-          "C": "Giá trị khóa ngoài cần khớp khóa được tham chiếu.",
-          "D": "Dữ liệu bảng cha thường cần có trước bản ghi phụ thuộc."
+        {
+          "ma": "b",
+          "noi_dung": "Xóa một bản nhạc trong `bannhac` (chưa có ở `banthuam`) sẽ không làm xóa mất nhạc sĩ ở bảng `nhacsi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Lỗi khóa ngoài thường do mã tham chiếu không tồn tại hoặc không tương thích."
-      },
-      {
-        "id": "T11-B22-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Câu lệnh thêm dữ liệu bị từ chối. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "B": "Khóa ngoài của bản ghi Bannhac.",
-          "C": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "D": "Mã 12 có tồn tại trong Nhacsi."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể xóa tự do một nhạc sĩ trong `nhacsi` dù bảng `bannhac` đang chứa 5 bài hát của nhạc sĩ đó.",
+          "dap_an": false,
+          "giai_thich": "Sai. MySQL ngăn chặn để tránh dữ liệu mồ côi."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Giá trị khóa ngoài và bản ghi cha tương ứng."
-      },
-      {
-        "id": "T11-B22-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lỗi khóa ngoài?",
-        "lua_chon": {
-          "A": "Thêm bản nhạc có khóa ngoài idNhacsi.",
-          "B": "Bản nhạc được gán nhầm nhạc sĩ.",
-          "C": "Câu lệnh thêm dữ liệu bị từ chối.",
-          "D": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác."
+        {
+          "ma": "d",
+          "noi_dung": "Muốn xóa nhạc sĩ đang có bản nhạc, phải xóa hoặc chuyển các bản nhạc liên quan ở `bannhac` trước.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_22 & Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kiểm soát trùng lặp khi nhập bảng có khóa ngoài",
+      "dan_nhap": "Trong bảng `bannhac` có khóa `UNIQUE(tenBannhac, idNhacsi)` và bảng `banthuam` có khóa `UNIQUE(idBannhac, idCasi)`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Không thể nhập hai dòng giống nhau cả tên bản nhạc lẫn mã nhạc sĩ vào bảng `bannhac`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Lỗi khóa ngoài trong bài Thực hành cập nhật bảng có tham chiếu."
-      },
-      {
-        "id": "T11-B22-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Phát biểu nào đúng về Sửa tham chiếu?",
-        "lua_chon": {
-          "A": "Thay giá trị khóa ngoài làm đổi bản ghi cha được liên kết.",
-          "B": "Giá trị khóa ngoài cần khớp khóa được tham chiếu.",
-          "C": "Dữ liệu bảng cha thường cần có trước bản ghi phụ thuộc.",
-          "D": "Lỗi khóa ngoài thường do mã tham chiếu không tồn tại hoặc không tương thích."
+        {
+          "ma": "b",
+          "noi_dung": "Hai ca sĩ khác nhau có thể cùng thu âm một bản nhạc trong bảng `banthuam`.",
+          "dap_an": true,
+          "giai_thich": "Đúng (vì `idCasi` khác nhau nên cặp `(idBannhac, idCasi)` khác nhau)."
         },
-        "dap_an": "A",
-        "giai_thich": "Thay giá trị khóa ngoài làm đổi bản ghi cha được liên kết."
-      },
-      {
-        "id": "T11-B22-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Bản nhạc được gán nhầm nhạc sĩ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "B": "Khóa ngoài của bản ghi Bannhac.",
-          "C": "Mã 12 có tồn tại trong Nhacsi.",
-          "D": "Bản ghi nhạc sĩ tham chiếu đã tồn tại."
+        {
+          "ma": "c",
+          "noi_dung": "Một ca sĩ chỉ được phép thu âm tối đa 1 bản nhạc duy nhất trong toàn bộ bảng `banthuam`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Một ca sĩ có thể thu nhiều bản nhạc khác nhau (`idBannhac` khác nhau)."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Khóa ngoài của bản ghi Bannhac."
-      },
-      {
-        "id": "T11-B22-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Sửa tham chiếu?",
-        "lua_chon": {
-          "A": "Bản nhạc được gán nhầm nhạc sĩ.",
-          "B": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
-          "C": "Thêm bản nhạc có khóa ngoài idNhacsi.",
-          "D": "Câu lệnh thêm dữ liệu bị từ chối."
+        {
+          "ma": "d",
+          "noi_dung": "Nếu nhập trùng cặp `(idBannhac, idCasi)` trong `banthuam`, hệ thống sẽ báo lỗi từ chối lưu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_DS_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thứ tự cập nhật dữ liệu trong CSDL quan hệ",
+      "dan_nhap": "Nhận định về trình tự cập nhật dữ liệu trong CSDL nhiều bảng:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Luôn nhập dữ liệu cho các bảng được tham chiếu (bảng cha) trước bảng có khóa ngoài (bảng con).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Sửa tham chiếu trong bài Thực hành cập nhật bảng có tham chiếu."
-      },
-      {
-        "id": "T11-B22-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Phát biểu nào đúng về Xóa bản ghi cha?",
-        "lua_chon": {
-          "A": "Giá trị khóa ngoài cần khớp khóa được tham chiếu.",
-          "B": "Dữ liệu bảng cha thường cần có trước bản ghi phụ thuộc.",
-          "C": "Lỗi khóa ngoài thường do mã tham chiếu không tồn tại hoặc không tương thích.",
-          "D": "Ràng buộc có thể ngăn xóa cha khi còn bản ghi con."
+        {
+          "ma": "b",
+          "noi_dung": "Trong cặp bảng `tinh` – `huyen`, cần nhập dữ liệu cho bảng `tinh` trước bảng `huyen`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Ràng buộc có thể ngăn xóa cha khi còn bản ghi con."
-      },
-      {
-        "id": "T11-B22-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Nhạc sĩ còn bản nhạc liên kết. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Để bảo vệ toàn vẹn tham chiếu.",
-          "B": "Mã 12 có tồn tại trong Nhacsi.",
-          "C": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "D": "Giá trị khóa ngoài và bản ghi cha tương ứng."
+        {
+          "ma": "c",
+          "noi_dung": "Trong `mymusic`, có thể nhập bảng `banthuam` trước rồi mới nhập `nhacsi`, `casi`, `bannhac`.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Để bảo vệ toàn vẹn tham chiếu."
-      },
-      {
-        "id": "T11-B22-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Xóa bản ghi cha?",
-        "lua_chon": {
-          "A": "Thêm bản nhạc có khóa ngoài idNhacsi.",
-          "B": "Câu lệnh thêm dữ liệu bị từ chối.",
-          "C": "Nhạc sĩ còn bản nhạc liên kết.",
-          "D": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Xóa bản ghi cha trong bài Thực hành cập nhật bảng có tham chiếu."
-      },
-      {
-        "id": "T11-B22-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Phát biểu nào đúng về Tạo bản ghi cha?",
-        "lua_chon": {
-          "A": "Dữ liệu bảng cha thường cần có trước bản ghi phụ thuộc.",
-          "B": "Lỗi khóa ngoài thường do mã tham chiếu không tồn tại hoặc không tương thích.",
-          "C": "Nếu đối tượng tham chiếu chưa tồn tại, có thể phải tạo hợp lệ trước.",
-          "D": "Giá trị khóa ngoài cần khớp khóa được tham chiếu."
-        },
-        "dap_an": "C",
-        "giai_thich": "Nếu đối tượng tham chiếu chưa tồn tại, có thể phải tạo hợp lệ trước."
-      },
-      {
-        "id": "T11-B22-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Bản nhạc thuộc nhạc sĩ mới. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mã 12 có tồn tại trong Nhacsi.",
-          "B": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "C": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "D": "Thêm nhạc sĩ vào bảng cha rồi dùng mã đó."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Thêm nhạc sĩ vào bảng cha rồi dùng mã đó."
-      },
-      {
-        "id": "T11-B22-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tạo bản ghi cha?",
-        "lua_chon": {
-          "A": "Bản nhạc thuộc nhạc sĩ mới.",
-          "B": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
-          "C": "Thêm bản nhạc có khóa ngoài idNhacsi.",
-          "D": "Câu lệnh thêm dữ liệu bị từ chối."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Tạo bản ghi cha trong bài Thực hành cập nhật bảng có tham chiếu."
-      },
-      {
-        "id": "T11-B22-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra sau cập nhật?",
-        "lua_chon": {
-          "A": "Lỗi khóa ngoài thường do mã tham chiếu không tồn tại hoặc không tương thích.",
-          "B": "Truy vấn lại dữ liệu giúp xác nhận tham chiếu đúng.",
-          "C": "Giá trị khóa ngoài cần khớp khóa được tham chiếu.",
-          "D": "Dữ liệu bảng cha thường cần có trước bản ghi phụ thuộc."
-        },
-        "dap_an": "B",
-        "giai_thich": "Truy vấn lại dữ liệu giúp xác nhận tham chiếu đúng."
-      },
-      {
-        "id": "T11-B22-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống: Đã sửa idNhacsi cho một bản nhạc. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Bản ghi nhạc sĩ tham chiếu đã tồn tại.",
-          "B": "Giá trị khóa ngoài và bản ghi cha tương ứng.",
-          "C": "Truy xuất lại hai bảng theo quan hệ khóa.",
-          "D": "Mã 12 có tồn tại trong Nhacsi."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Truy xuất lại hai bảng theo quan hệ khóa."
-      },
-      {
-        "id": "T11-B22-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra sau cập nhật?",
-        "lua_chon": {
-          "A": "Thêm bản nhạc có khóa ngoài idNhacsi.",
-          "B": "Câu lệnh thêm dữ liệu bị từ chối.",
-          "C": "Đã sửa idNhacsi cho một bản nhạc.",
-          "D": "Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Kiểm tra sau cập nhật trong bài Thực hành cập nhật bảng có tham chiếu."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B22-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Xét tính đúng/sai về Thực hành cập nhật bảng có tham chiếu:",
-        "y_kien": {
-          "a": "Có thể luôn nhập khóa ngoài không tồn tại mà không vi phạm ràng buộc.",
-          "b": true,
-          "c": false,
-          "d": "Khóa ngoài bảo đảm quan hệ giữa bảng con và bảng cha."
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B22-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Nêu quy trình nhập dữ liệu có khóa ngoài khi mã tham chiếu chưa có.",
-        "dap_an_goi_y": "Kiểm tra bản ghi cha; nếu thiếu, thêm hợp lệ hoặc chọn mã tồn tại; sau đó nhập bản ghi con và xác nhận ràng buộc.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B22-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 22 - Thực hành cập nhật bảng có tham chiếu",
-        "noi_dung": "Dựa vào kiến thức “Giá trị khóa ngoài cần khớp khóa được tham chiếu.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Nhập bản nhạc do nhạc sĩ có mã 12 sáng tác.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Giá trị khóa ngoài cần khớp khóa được tham chiếu. Vận dụng: Mã 12 có tồn tại trong Nhacsi. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Việc kiểm tra khóa ngoài của MySQL giúp duy trì tính toàn vẹn và nhất quán dữ liệu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_22 & ndc_bai_22"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B22_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hộp danh sách chọn khóa ngoài",
+      "cau_hoi": "Khi nhập dữ liệu cho trường khóa ngoài trong HeidiSQL, giao diện hỗ trợ chọn giá trị bằng thành phần gì?",
+      "dap_an": "Hộp danh sách (dropdown list)",
+      "dap_an_tuong_duong": [
+        "Hộp danh sách",
+        "dropdown list",
+        "danh sách chọn"
+      ],
+      "giai_thich": "HeidiSQL mở hộp danh sách các bản ghi hợp lệ từ bảng cha để người dùng chọn.",
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_TLN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thuộc tính toàn vẹn được bảo vệ",
+      "cau_hoi": "Tính chất nào của CSDL được MySQL bảo vệ khi ngăn chặn xóa dòng ở bảng `nhacsi` đang được tham chiếu ở bảng `bannhac`?",
+      "dap_an": "Tính toàn vẹn (nhất quán) dữ liệu",
+      "dap_an_tuong_duong": [
+        "Tính toàn vẹn",
+        "Toàn vẹn tham chiếu",
+        "Tính nhất quán"
+      ],
+      "giai_thich": "Ràng buộc khóa ngoài bảo vệ tính toàn vẹn tham chiếu và nhất quán của dữ liệu.",
+      "nguon": "Kenhgiaovien_22 & ndc_bai_22"
+    },
+    {
+      "id": "B22_TLN_03",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Số khóa ngoài của banthuam",
+      "cau_hoi": "Bảng `banthuam` có bao nhiêu khóa ngoài tham chiếu đến các bảng khác?",
+      "dap_an": "2 khóa ngoài",
+      "dap_an_tuong_duong": [
+        "2",
+        "hai"
+      ],
+      "giai_thich": "Gồm `idBannhac` và `idCasi`.",
+      "nguon": "Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Trường tự tăng bảng bannhac",
+      "cau_hoi": "Trong bảng `bannhac(idBannhac, tenBannhac, idNhacsi)`, trường nào có thuộc tính `AUTO_INCREMENT` nên không cần tự nhập khi thêm mới?",
+      "dap_an": "idBannhac",
+      "dap_an_tuong_duong": [
+        "idBannhac"
+      ],
+      "giai_thich": "`idBannhac` là khóa chính tự động tăng của bảng `bannhac`.",
+      "nguon": "ndc_bai_22"
+    },
+    {
+      "id": "B22_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Bảng nhập cuối cùng trong mymusic",
+      "cau_hoi": "Trong 4 bảng `nhacsi`, `casi`, `bannhac`, `banthuam`, bảng nào phải được nhập dữ liệu sau cùng?",
+      "dap_an": "banthuam",
+      "dap_an_tuong_duong": [
+        "Bảng banthuam"
+      ],
+      "giai_thich": "`banthuam` tham chiếu tới cả `bannhac` và `casi` nên phải nhập sau cùng.",
+      "nguon": "Kenhgiaovien_22"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B22_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy tắc toàn vẹn khi thêm và xóa ở bảng có khóa ngoài",
+      "cau_hoi": "Giải thích quy tắc ràng buộc toàn vẹn khi thêm mới và khi xóa dữ liệu ở các bảng có quan hệ khóa ngoài (`nhacsi` và `bannhac`).",
+      "goi_y_dap_an": "- Khi thêm mới ở bảng con (`bannhac`): giá trị khóa ngoài `idNhacsi` bắt buộc phải tồn tại trong cột khóa chính `idNhacsi` của bảng cha (`nhacsi`).\n- Khi xóa ở bảng cha (`nhacsi`): MySQL sẽ ngăn chặn nếu dòng đó đang được tham chiếu bởi ít nhất một dòng trong bảng con (`bannhac`).",
+      "thang_diem": "Tổng 2,0 điểm: giải thích đúng quy tắc khi thêm ở bảng con (1,0đ) và khi xóa ở bảng cha (1,0đ).",
+      "nguon": "ndc_bai_22 & Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thứ tự nhập dữ liệu cho 4 bảng mymusic",
+      "cau_hoi": "Nêu thứ tự hợp lí khi nhập dữ liệu cho 4 bảng: `nhacsi`, `casi`, `bannhac`, `banthuam` và giải thích lí do.",
+      "goi_y_dap_an": "Nhập `nhacsi` và `casi` trước → tiếp theo nhập `bannhac` (vì cần `idNhacsi` tham chiếu tới `nhacsi`) → cuối cùng nhập `banthuam` (vì cần `idBannhac` từ `bannhac` và `idCasi` từ `casi`).",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng thứ tự (1,0đ) và giải thích đúng mối phụ thuộc khóa ngoài ở từng bước (1,0đ).",
+      "nguon": "Kenhgiaovien_22"
+    },
+    {
+      "id": "B22_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí lỗi ràng buộc tham chiếu khi xóa dữ liệu",
+      "cau_hoi": "Khi thực hành, bạn Bình muốn xóa một nhạc sĩ đã nghỉ sáng tác khỏi bảng `nhacsi`, nhưng HeidiSQL hiện thông báo lỗi không cho xóa vì nhạc sĩ này đang có 3 bản nhạc trong `bannhac` và 2 bản thu âm trong `banthuam`. Hãy hướng dẫn Bình cách xử lí đúng để xóa được nhạc sĩ đó mà không vi phạm toàn vẹn dữ liệu.",
+      "goi_y_dap_an": "Để xóa nhạc sĩ đó cần xóa từ bảng con phụ thuộc sâu nhất lên bảng cha:\n1) Vào bảng `banthuam`, xóa các bản thu âm có `idBannhac` thuộc về 3 bản nhạc của nhạc sĩ đó.\n2) Vào bảng `bannhac`, xóa 3 bản nhạc có `idNhacsi` của nhạc sĩ đó (hoặc chuyển sang `idNhacsi` khác nếu giữ lại bài hát).\n3) Quay lại bảng `nhacsi`, lúc này không còn dòng con nào tham chiếu nên xóa được dòng nhạc sĩ đó.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng trình tự 3 bước từ `banthuam` -> `bannhac` -> `nhacsi` (1,5đ) và giải thích rõ lí do không còn tham chiếu (0,5đ).",
+      "nguon": "Kenhgiaovien_22 & ndc_bai_22"
+    }
+  ]
 }

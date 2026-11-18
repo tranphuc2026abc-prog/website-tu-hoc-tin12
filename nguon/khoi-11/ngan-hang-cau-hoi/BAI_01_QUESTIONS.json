@@ -1,424 +1,613 @@
 {
-  "ma_bai": "BAI_01",
-  "bai_so": 1,
+  "bai_id": "BAI_01",
   "ten_bai": "Hệ điều hành",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 1: Máy tính và xã hội tri thức",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_1_he_dieu_hanh.docx",
+    "cd1_bai_1_he_dieu_hanh.docx",
+    "ndc_bai_1_he_dieu_hanh.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_1_he_dieu_hanh.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_1_he_dieu_hanh.docx",
+    "ki1_thud_tinhoc11_kntt.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B01_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lịch sử phát triển hệ điều hành Windows",
+      "cau_hoi": "Phiên bản đầu tiên của hệ điều hành Windows với giao diện đồ họa được Microsoft phát hành vào năm nào?",
+      "lua_chon": {
+        "A": "1990",
+        "B": "1985",
+        "C": "1995",
+        "D": "2001"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Windows phiên bản 1 được phát hành năm 1985 với giao diện đồ họa.",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx & tln_..._bai_1"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B01_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hệ điều hành nguồn mở LINUX",
+      "cau_hoi": "Linux là hệ điều hành được thiết kế theo hướng tương tự hệ điều hành nào sau đây?",
+      "lua_chon": {
+        "A": "MS-DOS",
+        "B": "UNIX",
+        "C": "macOS",
+        "D": "Windows"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Linux là hệ điều hành tương tự UNIX (Unix-like), không được phát triển trực tiếp từ mã nguồn UNIX.",
+      "nguon": "Kenhgiaovien_1_he_dieu_hanh.docx"
+    },
+    {
+      "id": "B01_TN_03",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hệ điều hành cho thiết bị di động",
+      "cau_hoi": "Hai hệ điều hành phổ biến nhất hiện nay dành cho thiết bị di động là gì?",
+      "lua_chon": {
+        "A": "Windows và Linux",
+        "B": "macOS và Ubuntu",
+        "C": "iOS và Android",
+        "D": "UNIX và Red Hat"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Hai hệ điều hành phổ biến cho thiết bị di động là iOS (Apple) và Android (Google).",
+      "nguon": "cd1_bai_1_he_dieu_hanh.docx"
+    },
+    {
+      "id": "B01_TN_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Giao diện đồ họa (GUI)",
+      "cau_hoi": "Ba thành phần cơ bản của giao diện đồ họa (GUI) trong hệ điều hành máy tính cá nhân gồm:",
+      "lua_chon": {
+        "A": "Cửa sổ, biểu tượng, chuột",
+        "B": "Dòng lệnh, bàn phím, màn hình",
+        "C": "Ổ đĩa, bộ nhớ ROM, CPU",
+        "D": "Cảm biến, giọng nói, màn hình cảm ứng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Ba thành phần cơ bản của giao diện đồ họa là cửa sổ, biểu tượng và chuột.",
+      "nguon": "tln_..._bai_1 & trac_nghiem_dung_sai_..._bai_1"
+    },
+    {
+      "id": "B01_TN_05",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "5 nhóm chức năng của hệ điều hành",
+      "cau_hoi": "Nhóm chức năng nào thể hiện rõ nhất đặc thù của hệ điều hành máy tính cá nhân?",
+      "lua_chon": {
+        "A": "Cung cấp môi trường giao tiếp với người sử dụng",
+        "B": "Quản lí việc lưu trữ dữ liệu",
+        "C": "Quản lí thiết bị ngoại vi",
+        "D": "Tổ chức thực hiện các chương trình"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Theo ndc_bai_1 và Kenhgiaovien_1, nhóm chức năng thể hiện rõ nhất đặc thù của hệ điều hành máy tính cá nhân là cung cấp môi trường giao tiếp với người sử dụng (thân thiện, dễ dùng).",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx"
+    },
+    {
+      "id": "B01_TN_06",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cơ chế Plug & Play",
+      "cau_hoi": "Cơ chế \"plug & play\" trên hệ điều hành máy tính cá nhân có tác dụng gì?",
+      "lua_chon": {
+        "A": "Tự động sao lưu dữ liệu lên đám mây",
+        "B": "Cho phép chạy các ứng dụng di động trên máy tính",
+        "C": "Tăng tốc độ xung nhịp của bộ xử lí CPU",
+        "D": "Tự động nhận biết và cài đặt thiết bị ngoại vi khi khởi động hoặc kết nối"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Cơ chế plug & play giúp hệ điều hành tự động nhận biết và cài đặt thiết bị ngoại vi mà không cần người dùng can thiệp phức tạp.",
+      "nguon": "tln_..._bai_1 & cd1_bai_1"
+    },
+    {
+      "id": "B01_TN_07",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quan hệ phần cứng – hệ điều hành – phần mềm ứng dụng",
+      "cau_hoi": "Phát biểu nào sau đây mô tả đúng nhất mối quan hệ giữa phần cứng, hệ điều hành và phần mềm ứng dụng?",
+      "lua_chon": {
+        "A": "Phần mềm ứng dụng điều khiển trực tiếp phần cứng mà không cần hệ điều hành",
+        "B": "Phần cứng là môi trường trung gian để hệ điều hành chạy phần mềm ứng dụng",
+        "C": "Hệ điều hành là môi trường trung gian giúp phần mềm ứng dụng khai thác hiệu quả phần cứng",
+        "D": "Phần mềm ứng dụng cung cấp các dịch vụ phần cứng cho hệ điều hành"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Phần mềm ứng dụng khai thác phần cứng thông qua sự trung gian của hệ điều hành.",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx"
+    },
+    {
+      "id": "B01_TN_08",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thiết bị chuyên dụng dùng ROM vs Thiết bị đa năng",
+      "cau_hoi": "Thiết bị nào sau đây thường hoạt động bằng chương trình cài sẵn trong bộ nhớ ROM và không cần hệ điều hành đầy đủ?",
+      "lua_chon": {
+        "A": "Máy tính xách tay",
+        "B": "Điện thoại thông minh",
+        "C": "Máy tính bảng",
+        "D": "Hệ thống điều khiển lò vi sóng"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Hệ thống điều khiển lò vi sóng cài sẵn chương trình trong ROM, bật lên là chạy không cần hệ điều hành.",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx & cd1_bai_1"
+    },
+    {
+      "id": "B01_TN_09",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các cột mốc phát triển của Windows",
+      "cau_hoi": "Phiên bản Windows nào bắt đầu có khả năng đa nhiệm, cải tiến giao diện và hỗ trợ làm việc với mạng?",
+      "lua_chon": {
+        "A": "Windows 1 (1985)",
+        "B": "Windows 3 (1990)",
+        "C": "Windows XP (2001)",
+        "D": "Windows 11 (2021)"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Windows phiên bản 3 (1990) bắt đầu có khả năng đa nhiệm, giao diện mới và làm việc với mạng.",
+      "nguon": "Kenhgiaovien_1_he_dieu_hanh.docx & ndc_bai_1"
+    },
+    {
+      "id": "B01_TN_10",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các bản phân phối phổ biến của LINUX",
+      "cau_hoi": "Nhóm tên gọi nào sau đây đều là các biến thể (bản phân phối) phổ biến của hệ điều hành nguồn mở LINUX?",
+      "lua_chon": {
+        "A": "Windows XP, Windows 7, Windows 10",
+        "B": "iOS, macOS, watchOS",
+        "C": "Red Hat, Suse, Ubuntu",
+        "D": "Android, Windows Phone, Symbian"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Red Hat, Suse, Ubuntu là các biến thể phổ biến của LINUX.",
+      "nguon": "cd1_bai_1 & tln_..._bai_1"
+    },
+    {
+      "id": "B01_TN_11",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các cột mốc phát triển của Windows",
+      "cau_hoi": "Phiên bản Windows đầu tiên tích hợp trực tiếp các tính năng cơ bản của hệ điều hành, có bảng chọn Start, thanh công việc và cơ chế Plug & Play là phiên bản nào?",
+      "lua_chon": {
+        "A": "Windows 1",
+        "B": "Windows 95",
+        "C": "Windows 3",
+        "D": "Windows 8"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Windows 95 (1995) là phiên bản đầu tiên tích hợp trực tiếp các tính năng cơ bản của hệ điều hành kèm nút Start, taskbar và Plug & Play.",
+      "nguon": "Kenhgiaovien_1 & tln_..._bai_1"
+    },
+    {
+      "id": "B01_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nhóm chức năng tiện ích của hệ điều hành",
+      "cau_hoi": "Công việc nào sau đây thuộc nhóm chức năng \"cung cấp tiện ích nâng cao hiệu quả sử dụng máy tính\" của hệ điều hành?",
+      "lua_chon": {
+        "A": "Thiết kế mạch lôgic cho bộ vi xử lí",
+        "B": "Soạn thảo bài văn bằng phần mềm bảng tính",
+        "C": "Định dạng đĩa, nén tệp, kiểm tra lỗi đĩa cứng",
+        "D": "Sản xuất bộ nhớ RAM"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Định dạng đĩa, nén tệp, kiểm tra lỗi đĩa cứng, cấu hình kết nối mạng là các tiện ích do hệ điều hành cung cấp.",
+      "nguon": "cd1_bai_1_he_dieu_hanh.docx"
+    },
+    {
+      "id": "B01_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phạm vi ứng dụng của LINUX",
+      "cau_hoi": "Ngoài máy tính cá nhân, hệ điều hành nguồn mở LINUX còn được sử dụng rộng rãi trên loại thiết bị nào?",
+      "lua_chon": {
+        "A": "Chỉ dùng trên đồng hồ cơ học",
+        "B": "Không dùng được trên máy chủ",
+        "C": "Chỉ dùng cho máy tính bảng của Apple",
+        "D": "Các máy chủ (server) và thiết bị nhúng"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "LINUX được dùng rộng rãi cho máy tính cá nhân, máy chủ và các thiết bị nhúng.",
+      "nguon": "Kenhgiaovien_1_he_dieu_hanh.docx & ndc_bai_1"
+    },
+    {
+      "id": "B01_TN_14",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Đặc điểm hệ điều hành thiết bị di động",
+      "cau_hoi": "Vì sao hệ điều hành cho thiết bị di động lại có giao diện đặc biệt thân thiện và khác với máy tính để bàn truyền thống?",
+      "lua_chon": {
+        "A": "Vì thiết bị di động luôn phải cắm chuột và bàn phím rời",
+        "B": "Vì thiết bị di động chỉ chạy được một ứng dụng duy nhất suốt đời",
+        "C": "Vì thiết bị di động không có khả năng kết nối mạng",
+        "D": "Vì tích hợp nhiều cảm biến nhận dạng hành vi người dùng (chạm, vuốt, lắc, giọng nói) và nhiều tiện ích cá nhân"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Hệ điều hành di động có giao diện thân thiện nhờ cảm ứng và nhiều cảm biến nhận dạng hành vi cùng các tiện ích cá nhân.",
+      "nguon": "ndc_bai_1 & tln_..._bai_1"
+    },
+    {
+      "id": "B01_TN_15",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kết nối không dây trên thiết bị di động",
+      "cau_hoi": "Xuất phát từ tính di động, hệ điều hành cho thiết bị di động đặc biệt chú trọng hỗ trợ các công nghệ kết nối nào?",
+      "lua_chon": {
+        "A": "Chỉ kết nối qua cổng VGA",
+        "B": "Kết nối mạng không dây (Wi-Fi, 3G/4G/5G, Bluetooth, NFC)",
+        "C": "Chỉ kết nối qua đĩa quang",
+        "D": "Chỉ dùng cáp mạng LAN cố định"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Tính di động đòi hỏi ưu tiên kết nối không dây như Wi-Fi, mạng di động 3G/4G/5G, Bluetooth, NFC.",
+      "nguon": "cd1_bai_1 & ndc_bai_1"
+    },
+    {
+      "id": "B01_TN_16",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Giao diện dòng lệnh (CLI) vs Giao diện đồ họa (GUI)",
+      "cau_hoi": "Điểm khác biệt cơ bản giữa giao diện đồ họa (GUI) và giao diện dòng lệnh (CLI) là gì?",
+      "lua_chon": {
+        "A": "CLI yêu cầu gõ câu lệnh văn bản, còn GUI sử dụng cửa sổ, biểu tượng và chuột trực quan",
+        "B": "GUI không cho phép mở tệp tin",
+        "C": "CLI chỉ hoạt động trên điện thoại thông minh",
+        "D": "Windows hoàn toàn không có cửa sổ dòng lệnh"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "CLI thao tác bằng gõ lệnh văn bản, trong khi GUI trực quan hơn qua hình ảnh, cửa sổ, biểu tượng và chuột.",
+      "nguon": "tln_..._bai_1 & cd1_bai_1"
+    },
+    {
+      "id": "B01_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Khái niệm máy ảo do hệ điều hành tạo ra",
+      "cau_hoi": "Khi nói \"Hệ điều hành cùng với phần cứng tạo ra một máy ảo\", phát biểu nào sau đây giải thích đúng ý nghĩa của nhận định này?",
+      "lua_chon": {
+        "A": "Hệ điều hành biến máy tính thật thành trò chơi điện tử",
+        "B": "Hệ điều hành xóa bỏ hoàn toàn phần cứng máy tính",
+        "C": "Hệ điều hành ẩn đi các chi tiết phần cứng phức tạp và cung cấp giao diện, dịch vụ thuận lợi cho người dùng và ứng dụng",
+        "D": "Người dùng không cần phần cứng vật lí vẫn chạy được hệ điều hành"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Hệ điều hành cùng phần cứng tạo ra máy ảo có giao diện và dịch vụ chuẩn hóa giúp phần mềm ứng dụng và người dùng làm việc thuận lợi.",
+      "nguon": "Kenhgiaovien_1_he_dieu_hanh.docx"
+    },
+    {
+      "id": "B01_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Nhận diện thiết bị gia dụng dùng hệ điều hành",
+      "cau_hoi": "Trong các thiết bị gia dụng thông minh sau đây, cặp thiết bị nào thường chạy trên hệ điều hành (như Android, webOS, Tizen, iOS/Android)?",
+      "lua_chon": {
+        "A": "Bàn là cơ và công tắc bật tắt đơn giản",
+        "B": "Ấm đun nước cơ và ổ cắm điện thường",
+        "C": "Đèn huỳnh quang và quạt cơ dây kéo",
+        "D": "Smart TV và đồng hồ thông minh"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Smart TV (Android TV, webOS, Tizen) và đồng hồ thông minh (Android/Wear OS, watchOS) sử dụng hệ điều hành để chạy nhiều ứng dụng và kết nối mạng.",
+      "nguon": "Kenhgiaovien_1 & cd1_bai_1"
+    },
+    {
+      "id": "B01_TN_19",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lựa chọn hệ điều hành phù hợp tình huống",
+      "cau_hoi": "Một phòng máy tính trường học muốn sử dụng hệ điều hành nguồn mở, miễn phí bản quyền, ổn định và bảo mật tốt cho học sinh thực hành. Lựa chọn nào sau đây phù hợp nhất?",
+      "lua_chon": {
+        "A": "Ubuntu (Linux)",
+        "B": "Windows 11 Pro",
+        "C": "macOS",
+        "D": "iOS"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Ubuntu là bản phân phối phổ biến của Linux, nguồn mở, miễn phí bản quyền và ổn định.",
+      "nguon": "cd1_bai_1 & Kenhgiaovien_1"
+    },
+    {
+      "id": "B01_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích sự cần thiết của hệ điều hành ở thiết bị đa năng",
+      "cau_hoi": "Vì sao một máy tính đa năng bắt buộc phải có hệ điều hành trong khi bộ điều khiển đèn giao thông đơn giản có thể chỉ dùng vi điều khiển chạy chương trình trong ROM?",
+      "lua_chon": {
+        "A": "Vì máy tính đa năng cần nạp nhiều ứng dụng, quản lí tệp dữ liệu, điều phối CPU/bộ nhớ/ngoại vi giữa nhiều tiến trình đồng thời",
+        "B": "Vì máy tính đa năng không có bộ nhớ ROM",
+        "C": "Vì đèn giao thông không dùng điện",
+        "D": "Vì hệ điều hành chỉ dùng để kết nối màn hình"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Thiết bị đa năng chạy nhiều ứng dụng khác nhau nên cần quản lí lưu trữ phần mềm/dữ liệu, điều phối tài nguyên và cung cấp giao diện chung.",
+      "nguon": "Kenhgiaovien_1 & cd1_bai_1"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B01-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Thành phần nào quản lí tài nguyên phần cứng và cung cấp môi trường để ứng dụng chạy?",
-        "lua_chon": {
-          "A": "Trình duyệt",
-          "B": "Bàn phím",
-          "C": "Bộ xử lí văn bản",
-          "D": "Hệ điều hành"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B01_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lịch sử phát triển hệ điều hành Windows",
+      "dan_nhap": "Windows đã được phát minh và cải tiến qua nhiều giai đoạn khác nhau. Sau đây là một số nhận định về sự phát triển của Windows qua các thời kì:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Phiên bản 1 của Windows phát hành vào năm 1985 với giao diện đồ họa.",
+          "dap_an": true,
+          "giai_thich": "Đúng theo mốc lịch sử phát triển Windows."
         },
-        "dap_an": "D",
-        "giai_thich": "Đáp án đúng vì Hệ điều hành; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B01-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Quản lí tài nguyên?",
-        "lua_chon": {
-          "A": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
-          "B": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh.",
-          "C": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
-          "D": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị."
+        {
+          "ma": "b",
+          "noi_dung": "Phiên bản 3 của Windows phát hành vào năm 1990 tuy nhiên không có đặc điểm gì khác biệt so với phiên bản 1.",
+          "dap_an": false,
+          "giai_thich": "Sai. Windows 3 bắt đầu có khả năng đa nhiệm, giao diện mới và làm việc với mạng."
         },
-        "dap_an": "C",
-        "giai_thich": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình."
-      },
-      {
-        "id": "T11-B01-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống: Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
-          "B": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
-          "C": "Giao diện người dùng của hệ điều hành.",
-          "D": "Phân phối tài nguyên và lập lịch cho tiến trình."
+        {
+          "ma": "c",
+          "noi_dung": "Windows XP phát hành vào năm 2001 bởi Microsoft với nhiều cải tiến đáng kể về giao diện và hiệu suất làm việc.",
+          "dap_an": true,
+          "giai_thich": "Đúng. Windows XP là một trong các hệ điều hành thành công nhất của Microsoft."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Phân phối tài nguyên và lập lịch cho tiến trình."
-      },
-      {
-        "id": "T11-B01-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quản lí tài nguyên?",
-        "lua_chon": {
-          "A": "Ứng dụng muốn ghi tệp lên ổ lưu trữ.",
-          "B": "Cần sắp xếp tài liệu của nhiều môn học.",
-          "C": "Người học muốn khởi chạy ứng dụng bằng thao tác trực quan.",
-          "D": "Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM."
+        {
+          "ma": "d",
+          "noi_dung": "Vào năm 2018, Windows sa sút và bị thay thế gần như hoàn toàn bởi những hệ điều hành khác khiến thị phần chỉ còn chưa đến 1%.",
+          "dap_an": false,
+          "giai_thich": "Sai. Windows vẫn là hệ điều hành phổ biến hàng đầu trên máy tính cá nhân."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_1"
+    },
+    {
+      "id": "B01_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hệ điều hành cho thiết bị di động",
+      "dan_nhap": "Điện thoại thông minh, máy tính bảng (gọi chung là thiết bị di động) thực chất là các máy tính cá nhân. Sự khác nhau giữa hệ điều hành cho thiết bị di động và hệ điều hành máy tính bắt nguồn từ sự khác biệt về tính năng, tác dụng của hai loại thiết bị này:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Tính đến tháng 1/2025, Android là hệ điều hành cho thiết bị di động chiếm thị phần cao nhất.",
+          "dap_an": true,
+          "giai_thich": "Đúng theo thực tế thị phần hệ điều hành di động."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Quản lí tài nguyên trong bài Hệ điều hành."
-      },
-      {
-        "id": "T11-B01-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Giao tiếp phần cứng?",
-        "lua_chon": {
-          "A": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh.",
-          "B": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
-          "C": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
-          "D": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu."
+        {
+          "ma": "b",
+          "noi_dung": "Có một số thiết bị di động có sử dụng hệ điều hành Windows.",
+          "dap_an": true,
+          "giai_thich": "Đúng (ví dụ các dòng máy tính bảng chạy Windows hoặc thiết bị Windows Phone trước đây)."
         },
-        "dap_an": "B",
-        "giai_thich": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị."
-      },
-      {
-        "id": "T11-B01-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống: Ứng dụng muốn ghi tệp lên ổ lưu trữ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
-          "B": "Giao diện người dùng của hệ điều hành.",
-          "C": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
-          "D": "Phân phối tài nguyên và lập lịch cho tiến trình."
+        {
+          "ma": "c",
+          "noi_dung": "Thiết bị di động thường bán với cả bộ gồm bàn phím, màn hình, webcam, loa rời để người dùng tự lắp ráp mới dùng được.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thiết bị di động được tích hợp nguyên khối nhỏ gọn."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị."
-      },
-      {
-        "id": "T11-B01-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Giao tiếp phần cứng?",
-        "lua_chon": {
-          "A": "Người học muốn khởi chạy ứng dụng bằng thao tác trực quan.",
-          "B": "Ứng dụng muốn ghi tệp lên ổ lưu trữ.",
-          "C": "Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
-          "D": "Cần sắp xếp tài liệu của nhiều môn học."
+        {
+          "ma": "d",
+          "noi_dung": "Điện thoại thông minh không chỉ dùng để nghe gọi truyền thống mà còn có nhiều tiện ích như chụp ảnh, quay phim, định vị, theo dõi sức khỏe.",
+          "dap_an": true,
+          "giai_thich": "Đúng theo đặc trưng nhiều tiện ích cá nhân của hệ điều hành di động."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_1"
+    },
+    {
+      "id": "B01_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Nhận diện thiết bị có sử dụng hệ điều hành",
+      "dan_nhap": "Trong một buổi phỏng vấn về hệ điều hành, bạn Nam được hỏi: 'Kể tên các thiết bị có sử dụng hệ điều hành trong nhà của bạn.' Bạn Nam đã kể tên các thiết bị sau:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Smart TV.",
+          "dap_an": true,
+          "giai_thich": "Đúng. Smart TV sử dụng hệ điều hành như Android TV, webOS, Tizen."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Giao tiếp phần cứng trong bài Hệ điều hành."
-      },
-      {
-        "id": "T11-B01-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Quản lí tệp?",
-        "lua_chon": {
-          "A": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
-          "B": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
-          "C": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
-          "D": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh."
+        {
+          "ma": "b",
+          "noi_dung": "Ổ cắm điện thông thường.",
+          "dap_an": false,
+          "giai_thich": "Sai. Ổ cắm điện cơ học thông thường không sử dụng hệ điều hành."
         },
-        "dap_an": "A",
-        "giai_thich": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu."
-      },
-      {
-        "id": "T11-B01-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống: Cần sắp xếp tài liệu của nhiều môn học. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giao diện người dùng của hệ điều hành.",
-          "B": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
-          "C": "Phân phối tài nguyên và lập lịch cho tiến trình.",
-          "D": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị."
+        {
+          "ma": "c",
+          "noi_dung": "Đèn huỳnh quang.",
+          "dap_an": false,
+          "giai_thich": "Sai. Đèn huỳnh quang truyền thống không có hệ điều hành."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Tổ chức hệ thống tệp bằng thư mục và tên tệp."
-      },
-      {
-        "id": "T11-B01-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quản lí tệp?",
-        "lua_chon": {
-          "A": "Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
-          "B": "Ứng dụng muốn ghi tệp lên ổ lưu trữ.",
-          "C": "Người học muốn khởi chạy ứng dụng bằng thao tác trực quan.",
-          "D": "Cần sắp xếp tài liệu của nhiều môn học."
+        {
+          "ma": "d",
+          "noi_dung": "Loa thông minh.",
+          "dap_an": true,
+          "giai_thich": "Đúng. Loa thông minh tích hợp hệ điều hành nhúng/trợ lí ảo."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_1"
+    },
+    {
+      "id": "B01_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thành phần cơ bản của giao diện đồ họa (GUI)",
+      "dan_nhap": "Một số thành phần cơ bản của giao diện đồ họa (GUI) có đặc điểm là:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Biểu tượng: dễ gợi nhớ, cho phép quan sát đối tượng dưới dạng đồ họa.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Quản lí tệp trong bài Hệ điều hành."
-      },
-      {
-        "id": "T11-B01-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Giao diện người dùng?",
-        "lua_chon": {
-          "A": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
-          "B": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
-          "C": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
-          "D": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh."
+        {
+          "ma": "b",
+          "noi_dung": "Chuột: là phương tiện chỉ định điểm làm việc trên màn hình thể hiện bởi một con trỏ màn hình.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Giao diện giúp người dùng điều khiển máy tính bằng cửa sổ, biểu tượng, menu hoặc lệnh."
-      },
-      {
-        "id": "T11-B01-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống: Người học muốn khởi chạy ứng dụng bằng thao tác trực quan. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giao diện người dùng của hệ điều hành.",
-          "B": "Phân phối tài nguyên và lập lịch cho tiến trình.",
-          "C": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
-          "D": "Tổ chức hệ thống tệp bằng thư mục và tên tệp."
+        {
+          "ma": "c",
+          "noi_dung": "Cửa sổ: là một vùng hình chữ nhật trên màn hình dành cho một ứng dụng, có thể phóng to, thu nhỏ, ẩn đi hoặc đóng lại.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Giao diện người dùng của hệ điều hành."
-      },
-      {
-        "id": "T11-B01-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Giao diện người dùng?",
-        "lua_chon": {
-          "A": "Cần sắp xếp tài liệu của nhiều môn học.",
-          "B": "Người học muốn khởi chạy ứng dụng bằng thao tác trực quan.",
-          "C": "Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
-          "D": "Ứng dụng muốn ghi tệp lên ổ lưu trữ."
+        {
+          "ma": "d",
+          "noi_dung": "Bàn phím: là một phần của hệ điều hành, cho phép máy tính tự động nhập và xây dựng hệ điều hành cho bản thân.",
+          "dap_an": false,
+          "giai_thich": "Sai. Bàn phím là thiết bị phần cứng nhập liệu, không phải một phần của hệ điều hành."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_1"
+    },
+    {
+      "id": "B01_DS_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mốc ra mắt một số hệ điều hành",
+      "dan_nhap": "Nhận định về một số hệ điều hành cùng năm ra mắt/phát hành:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Windows 95 – năm 1995.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Giao diện người dùng trong bài Hệ điều hành."
-      },
-      {
-        "id": "T11-B01-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Hệ điều hành di động?",
-        "lua_chon": {
-          "A": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
-          "B": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
-          "C": "Hệ điều hành di động được thiết kế cho thiết bị nhỏ, cảm ứng và thường dùng pin.",
-          "D": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình."
+        {
+          "ma": "b",
+          "noi_dung": "macOS (Mac OS / Macintosh System 1) – năm 1984.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Hệ điều hành di động được thiết kế cho thiết bị nhỏ, cảm ứng và thường dùng pin."
-      },
-      {
-        "id": "T11-B01-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống: Người dùng thao tác trên điện thoại bằng cử chỉ chạm. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Phân phối tài nguyên và lập lịch cho tiến trình.",
-          "B": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
-          "C": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
-          "D": "Tối ưu giao diện cảm ứng và mức tiêu thụ tài nguyên/năng lượng."
+        {
+          "ma": "c",
+          "noi_dung": "Fedora – năm 2003.",
+          "dap_an": true,
+          "giai_thich": "Đúng (Fedora Core 1 phát hành năm 2003)."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Tối ưu giao diện cảm ứng và mức tiêu thụ tài nguyên/năng lượng."
-      },
-      {
-        "id": "T11-B01-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Hệ điều hành di động?",
-        "lua_chon": {
-          "A": "Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
-          "B": "Ứng dụng muốn ghi tệp lên ổ lưu trữ.",
-          "C": "Cần sắp xếp tài liệu của nhiều môn học.",
-          "D": "Người dùng thao tác trên điện thoại bằng cử chỉ chạm."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Hệ điều hành di động trong bài Hệ điều hành."
-      },
-      {
-        "id": "T11-B01-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Hệ điều hành và ứng dụng?",
-        "lua_chon": {
-          "A": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu.",
-          "B": "Phần mềm ứng dụng cung cấp chức năng cho người dùng, còn hệ điều hành quản lí môi trường chạy.",
-          "C": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
-          "D": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị."
-        },
-        "dap_an": "B",
-        "giai_thich": "Phần mềm ứng dụng cung cấp chức năng cho người dùng, còn hệ điều hành quản lí môi trường chạy."
-      },
-      {
-        "id": "T11-B01-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống: Ứng dụng soạn thảo cần mở một tài liệu. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị.",
-          "B": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
-          "C": "Phần mềm ứng dụng.",
-          "D": "Phân phối tài nguyên và lập lịch cho tiến trình."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Phần mềm ứng dụng."
-      },
-      {
-        "id": "T11-B01-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Hệ điều hành và ứng dụng?",
-        "lua_chon": {
-          "A": "Cần sắp xếp tài liệu của nhiều môn học.",
-          "B": "Ứng dụng soạn thảo cần mở một tài liệu.",
-          "C": "Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
-          "D": "Ứng dụng muốn ghi tệp lên ổ lưu trữ."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Hệ điều hành và ứng dụng trong bài Hệ điều hành."
-      },
-      {
-        "id": "T11-B01-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Tiến trình?",
-        "lua_chon": {
-          "A": "Hệ điều hành quản lí việc khởi chạy, tạm dừng và kết thúc tiến trình.",
-          "B": "Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.",
-          "C": "Ứng dụng thường yêu cầu hệ điều hành thực hiện thao tác với thiết bị.",
-          "D": "Hệ điều hành tổ chức tệp và thư mục để lưu, tìm và truy cập dữ liệu."
-        },
-        "dap_an": "A",
-        "giai_thich": "Hệ điều hành quản lí việc khởi chạy, tạm dừng và kết thúc tiến trình."
-      },
-      {
-        "id": "T11-B01-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống: Một ứng dụng bị treo và cần đóng riêng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tổ chức hệ thống tệp bằng thư mục và tên tệp.",
-          "B": "Quản lí tiến trình.",
-          "C": "Phân phối tài nguyên và lập lịch cho tiến trình.",
-          "D": "Hệ điều hành tiếp nhận yêu cầu và điều khiển thiết bị."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Quản lí tiến trình."
-      },
-      {
-        "id": "T11-B01-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tiến trình?",
-        "lua_chon": {
-          "A": "Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
-          "B": "Ứng dụng muốn ghi tệp lên ổ lưu trữ.",
-          "C": "Cần sắp xếp tài liệu của nhiều môn học.",
-          "D": "Một ứng dụng bị treo và cần đóng riêng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Tiến trình trong bài Hệ điều hành."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B01-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Xét tính đúng/sai về Hệ điều hành:",
-        "y_kien": {
-          "a": "Hệ điều hành là lớp trung gian giữa ứng dụng và phần cứng.",
-          "b": "Hệ điều hành di động thường được thiết kế cho thao tác cảm ứng và tài nguyên giới hạn.",
-          "c": true,
-          "d": false
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B01-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Mô tả vai trò của phần cứng, hệ điều hành và ứng dụng khi mở một chương trình.",
-        "dap_an_goi_y": "Ứng dụng gửi yêu cầu; hệ điều hành phân phối tài nguyên, giao tiếp với phần cứng và trả kết quả cho ứng dụng.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B01-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 1 - Hệ điều hành",
-        "noi_dung": "Dựa vào kiến thức “Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Một máy tính chạy nhiều ứng dụng đồng thời nhưng cần chia sẻ CPU và RAM.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Hệ điều hành điều phối CPU, bộ nhớ và thiết bị cho chương trình. Vận dụng: Phân phối tài nguyên và lập lịch cho tiến trình. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Android – năm 2008.",
+          "dap_an": true,
+          "giai_thich": "Đúng (Android 1.0 thương mại ra mắt năm 2008)."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_1"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B01_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các nhóm chức năng của hệ điều hành",
+      "cau_hoi": "Hệ điều hành các loại máy tính nói chung có bao nhiêu nhóm chức năng chính?",
+      "dap_an": "5",
+      "dap_an_tuong_duong": [
+        "5 nhóm",
+        "5 nhóm chức năng",
+        "năm"
+      ],
+      "giai_thich": "Gồm: quản lí thiết bị, quản lí lưu trữ dữ liệu, môi trường chạy ứng dụng, giao tiếp người dùng và cung cấp tiện ích.",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx"
+    },
+    {
+      "id": "B01_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lịch sử Windows",
+      "cau_hoi": "Phiên bản Windows đầu tiên với giao diện đồ họa được phát hành vào năm nào?",
+      "dap_an": "1985",
+      "dap_an_tuong_duong": [
+        "năm 1985"
+      ],
+      "giai_thich": "Microsoft phát hành Windows 1 vào năm 1985.",
+      "nguon": "tln_..._bai_1"
+    },
+    {
+      "id": "B01_TLN_03",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Nguồn gốc hệ điều hành LINUX",
+      "cau_hoi": "Hệ điều hành LINUX có nguồn gốc từ hệ điều hành nào?",
+      "dap_an": "UNIX",
+      "dap_an_tuong_duong": [
+        "Unix"
+      ],
+      "giai_thich": "LINUX được phát triển dựa trên cảm hứng và chuẩn của hệ điều hành UNIX.",
+      "nguon": "tln_..._bai_1"
+    },
+    {
+      "id": "B01_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Các bản phân phối LINUX",
+      "cau_hoi": "Kể tên ba biến thể (bản phân phối) phổ biến của LINUX được nêu trong bài học.",
+      "dap_an": "Red Hat, Suse, Ubuntu",
+      "dap_an_tuong_duong": [
+        "Ubuntu, Red Hat, Suse",
+        "Red Hat, SUSE, Ubuntu"
+      ],
+      "giai_thich": "Ba biến thể phổ biến thường nhắc đến trong SGK là Red Hat, Suse và Ubuntu.",
+      "nguon": "tln_..._bai_1"
+    },
+    {
+      "id": "B01_TLN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hệ điều hành thiết bị di động",
+      "cau_hoi": "Hai hệ điều hành phổ biến nhất cho thiết bị di động hiện nay là gì?",
+      "dap_an": "iOS và Android",
+      "dap_an_tuong_duong": [
+        "Android và iOS",
+        "iOS, Android"
+      ],
+      "giai_thich": "iOS (Apple) và Android (Google) là hai hệ điều hành di động phổ biến nhất.",
+      "nguon": "tln_..._bai_1"
+    },
+    {
+      "id": "B01_TLN_06",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cơ chế Plug & Play",
+      "cau_hoi": "Cơ chế nào giúp hệ điều hành tự động nhận biết và cài đặt thiết bị ngoại vi khi khởi động máy tính?",
+      "dap_an": "Plug & Play",
+      "dap_an_tuong_duong": [
+        "plug & play",
+        "plug and play"
+      ],
+      "giai_thich": "Cơ chế Plug & Play (cắm là chạy) hỗ trợ tự nhận diện thiết bị ngoại vi.",
+      "nguon": "tln_..._bai_1"
+    },
+    {
+      "id": "B01_TLN_07",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Vai trò trung gian của hệ điều hành",
+      "cau_hoi": "Thành phần phần mềm hệ thống nào đóng vai trò môi trường trung gian giúp phần mềm ứng dụng khai thác hiệu quả phần cứng?",
+      "dap_an": "Hệ điều hành",
+      "dap_an_tuong_duong": [
+        "Operating System",
+        "OS"
+      ],
+      "giai_thich": "Đã chuẩn hóa câu hỏi từ bản cũ để tránh hiểu nhầm; hệ điều hành là cầu nối giữa phần cứng và phần mềm ứng dụng.",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B01_TL_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "5 nhóm chức năng chính của hệ điều hành",
+      "cau_hoi": "Nêu 5 nhóm chức năng chính của hệ điều hành máy tính và chỉ ra nhóm chức năng thể hiện rõ nhất đặc thù của hệ điều hành máy tính cá nhân.",
+      "goi_y_dap_an": "- 5 nhóm chức năng: (1) Quản lí thiết bị; (2) Quản lí việc lưu trữ dữ liệu (tệp và thư mục); (3) Tổ chức thực hiện các chương trình, là môi trường chạy ứng dụng; (4) Cung cấp môi trường giao tiếp với người sử dụng; (5) Cung cấp một số tiện ích nâng cao hiệu quả sử dụng máy tính.\n- Nhóm chức năng thể hiện rõ nhất đặc thù của máy tính cá nhân là: Cung cấp môi trường giao tiếp với người sử dụng (thân thiện, dễ dùng).",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng mỗi nhóm chức năng (0,3đ × 5 = 1,5đ); chỉ đúng nhóm đặc thù máy tính cá nhân (0,5đ).",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx & cd1_bai_1"
+    },
+    {
+      "id": "B01_TL_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Đặc điểm hệ điều hành thiết bị di động",
+      "cau_hoi": "Nêu các đặc điểm khác biệt của hệ điều hành cho thiết bị di động so với hệ điều hành máy tính cá nhân.",
+      "goi_y_dap_an": "- Giao diện đặc biệt thân thiện nhờ nhận dạng hành vi người dùng qua cảm ứng và nhiều cảm biến (chạm, vuốt, lắc, giọng nói).\n- Ưu tiên cao khả năng kết nối mạng không dây (Wi-Fi, 3G/4G/5G, Bluetooth, NFC).\n- Tích hợp nhiều tiện ích hỗ trợ cá nhân (nghe gọi, định vị, sức khỏe...).",
+      "thang_diem": "Tổng 2,0 điểm: nêu đủ 3 đặc điểm chính (0,6đ/ý) và giải thích gắn với tính di động (0,2đ).",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx & cd1_bai_1"
+    },
+    {
+      "id": "B01_TL_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Mối quan hệ phần cứng – hệ điều hành – phần mềm ứng dụng",
+      "cau_hoi": "Trình bày mối quan hệ giữa phần cứng, hệ điều hành và phần mềm ứng dụng.",
+      "goi_y_dap_an": "Phần cứng là thiết bị xử lí thông tin; phần mềm ứng dụng khai thác phần cứng thông qua sự trung gian của hệ điều hành. Hệ điều hành cùng phần cứng tạo ra một máy ảo giúp người dùng và ứng dụng làm việc thuận lợi qua giao diện và các dịch vụ hệ thống.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng vai trò từng thành phần (1,0đ) và vai trò trung gian/máy ảo của hệ điều hành (1,0đ).",
+      "nguon": "ndc_bai_1_he_dieu_hanh.docx & cd1_bai_1"
+    },
+    {
+      "id": "B01_TL_04",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết bị chuyên dụng vs Thiết bị đa năng",
+      "cau_hoi": "Có trường hợp phần mềm chạy trên thiết bị không cần hệ điều hành không? Giải thích vì sao các thiết bị xử lí thông tin đa năng lại cần hệ điều hành.",
+      "goi_y_dap_an": "- Có: nhiều thiết bị chuyên dụng (như lò vi sóng) dùng vi xử lí cài sẵn chương trình trong ROM, bật lên là chạy không cần hệ điều hành.\n- Thiết bị đa năng cần chạy nhiều ứng dụng khác nhau nên cần quản lí lưu trữ tệp/phần mềm, điều phối tài nguyên (CPU, bộ nhớ, thiết bị ngoại vi) và cung cấp giao diện làm việc chung -> bắt buộc cần hệ điều hành.",
+      "thang_diem": "Tổng 2,0 điểm: nêu ví dụ thiết bị chạy ROM không cần HĐH (0,8đ); giải thích đủ 3 lí do thiết bị đa năng cần HĐH (1,2đ).",
+      "nguon": "Kenhgiaovien_1_he_dieu_hanh.docx & cd1_bai_1"
+    }
+  ]
 }

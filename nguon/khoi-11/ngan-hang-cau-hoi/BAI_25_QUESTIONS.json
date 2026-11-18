@@ -1,424 +1,579 @@
 {
-  "ma_bai": "BAI_25",
-  "bai_so": 25,
+  "bai_id": "BAI_25",
   "ten_bai": "Phần mềm chỉnh sửa ảnh",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 7: Phần mềm chỉnh sửa ảnh và làm video",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd7_bai_25_phan_mem_chinh_sua_anh.docx",
+    "ndc_bai_25_phan_mem_chinh_sua_anh.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_25_phen_mem_chinh_sua_anh.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_25_phan_mem_chinh_sua_anh.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B25_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Định dạng tệp dự án gốc XCF",
+      "cau_hoi": "Định dạng tệp dự án gốc của phần mềm chỉnh sửa ảnh GIMP (cho phép lưu nhiều lớp và thông tin chỉnh sửa) là gì?",
+      "lua_chon": {
+        "A": "XCF",
+        "B": "PNG",
+        "C": "JPEG",
+        "D": "GIF"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Lệnh File -> Save trong GIMP lưu tệp ở định dạng gốc XCF.",
+      "nguon": "tln_..._bai_25 & trac_nghiem_dung_sai_..._bai_25"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B25_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chế độ hiển thị một cửa sổ",
+      "cau_hoi": "Để chuyển giao diện phần mềm GIMP sang chế độ hiển thị một cửa sổ, ta chọn lệnh nào?",
+      "lua_chon": {
+        "A": "Image -> Scale Image",
+        "B": "File -> Export",
+        "C": "Windows -> Single-window Mode",
+        "D": "Edit -> Preferences -> Theme"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chọn Windows -> Single-window Mode.",
+      "nguon": "ndc_bai_25 & tln_..._bai_25"
+    },
+    {
+      "id": "B25_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phím tắt xoay ảnh và cắt ảnh",
+      "cau_hoi": "Trong GIMP, tổ hợp phím tắt mặc định để thực hiện xoay ảnh (Rotate) và cắt ảnh (Crop) lần lượt là gì?",
+      "lua_chon": {
+        "A": "Shift + R và Shift + C",
+        "B": "Ctrl + R và Ctrl + C",
+        "C": "Alt + R và Alt + C",
+        "D": "Ctrl + Z và Ctrl + X"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Phím tắt xoay ảnh là Shift + R và cắt ảnh là Shift + C.",
+      "nguon": "tln_..._bai_25 & ndc_bai_25"
+    },
+    {
+      "id": "B25_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính kích thước bản in theo dpi",
+      "cau_hoi": "Một bức ảnh có kích thước điểm ảnh là 3000 × 2000 pixel. Nếu in bức ảnh này với độ phân giải 150 dpi thì kích thước bản in theo đơn vị inch là bao nhiêu?",
+      "lua_chon": {
+        "A": "10 × 15 inch",
+        "B": "15 × 10 inch",
+        "C": "30 × 20 inch",
+        "D": "20 × 13,33 inch"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Chiều rộng = 3000 / 150 = 20 inch; Chiều cao = 2000 / 150 ≈ 13,33 inch.",
+      "nguon": "cd7_bai_25"
+    },
+    {
+      "id": "B25_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khái niệm ảnh bitmap",
+      "cau_hoi": "Ảnh số được tạo thành từ lưới các điểm ảnh (pixel), trong đó mỗi điểm ảnh mang một giá trị màu sắc tại tọa độ (x, y) được gọi là gì?",
+      "lua_chon": {
+        "A": "Tệp âm thanh số",
+        "B": "Ảnh véc-tơ 3D",
+        "C": "Ảnh bitmap",
+        "D": "Cơ sở dữ liệu quan hệ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Ảnh bitmap là tập hợp các điểm ảnh (pixel) sắp xếp theo hàng và cột.",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ý nghĩa đơn vị Megapixel",
+      "cau_hoi": "Một bức ảnh có kích thước 4000 × 3000 pixel tương đương với bao nhiêu megapixel (MP)?",
+      "lua_chon": {
+        "A": "7 MP",
+        "B": "12 MP",
+        "C": "1,2 MP",
+        "D": "120 MP"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "4000 × 3000 = 12.000.000 pixel = 12 megapixel.",
+      "nguon": "ndc_bai_25 & trac_nghiem_dung_sai_..._bai_25"
+    },
+    {
+      "id": "B25_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thao tác phóng to / thu nhỏ ảnh nhanh",
+      "cau_hoi": "Trong vùng hiển thị ảnh của GIMP, giữ phím nào kết hợp lăn con lăn chuột để phóng to hoặc thu nhỏ ảnh tại vị trí con trỏ?",
+      "lua_chon": {
+        "A": "Phím `Shift`",
+        "B": "Phím `Ctrl`",
+        "C": "Phím `Caps Lock`",
+        "D": "Phím `Esc`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Giữ `Ctrl` và lăn nút cuộn chuột giúp phóng to/thu nhỏ ảnh nhanh.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_25"
+    },
+    {
+      "id": "B25_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chế độ xem trước Split view",
+      "cau_hoi": "Chế độ `Split view` trong hộp thoại chỉnh sửa ảnh của GIMP có tác dụng gì?",
+      "lua_chon": {
+        "A": "Xóa toàn bộ các lớp ảnh",
+        "B": "Tự động cắt đôi tệp ảnh thành 2 tệp riêng",
+        "C": "Chuyển giao diện sang nhiều cửa sổ",
+        "D": "Chia màn hình ảnh thành hai phần để so sánh trực tiếp ảnh trước và sau khi chỉnh sửa"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Split view` giúp người dùng kéo đường phân chia để đối chiếu ảnh gốc và kết quả xem trước.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_25 & ndc_bai_25"
+    },
+    {
+      "id": "B25_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt File -> Save và File -> Export As",
+      "cau_hoi": "Điểm khác nhau giữa hai lệnh `File -> Save` và `File -> Export As` trong GIMP là gì?",
+      "lua_chon": {
+        "A": "Cả hai lệnh chỉ lưu được định dạng `.png`",
+        "B": "`Save` xuất ra `.jpg`; `Export As` lưu tệp `.xcf`",
+        "C": "`Save` lưu tệp dự án gốc `.xcf` giữ nguyên các lớp; `Export As` xuất ra tệp ảnh thành phẩm (`.jpg`, `.png`, `.gif`...)",
+        "D": "`Export As` dùng để mở ảnh từ máy tính"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Trong GIMP, muốn lưu thành phẩm `.jpg`/`.png` để chia sẻ hay in ấn phải dùng `Export` / `Export As`.",
+      "nguon": "ndc_bai_25 & tln_..._bai_25"
+    },
+    {
+      "id": "B25_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Mối quan hệ giữa dpi và kích thước bản in",
+      "cau_hoi": "Với cùng một bức ảnh gốc có số điểm ảnh không đổi, nếu tăng độ phân giải in từ 150 dpi lên 300 dpi thì kết quả bản in thay đổi thế nào?",
+      "lua_chon": {
+        "A": "Ảnh in sắc nét hơn nhưng kích thước chiều dài và chiều rộng bản in giảm đi một nửa",
+        "B": "Số lượng điểm ảnh của tệp gốc tự động tăng gấp đôi",
+        "C": "Kích thước bản in tăng gấp bốn lần",
+        "D": "Ảnh bị chuyển thành đen trắng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Kích thước in = số pixel / dpi, nên tăng dpi gấp đôi làm kích thước mỗi cạnh giảm một nửa và mật độ điểm ảnh dày hơn.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_25"
+    },
+    {
+      "id": "B25_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh thay đổi kích thước và độ phân giải ảnh",
+      "cau_hoi": "Để thay đổi kích thước điểm ảnh (Width, Height) hoặc độ phân giải (X/Y resolution) của ảnh trong GIMP, ta dùng lệnh nào?",
+      "lua_chon": {
+        "A": "`Windows -> Single-window Mode`",
+        "B": "`Image -> Scale Image`",
+        "C": "`File -> New`",
+        "D": "`Filters -> Blur`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Image -> Scale Image` cho phép chỉnh kích thước pixel và độ phân giải ppi/dpi.",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thao tác hủy lệnh cắt ảnh Crop",
+      "cau_hoi": "Sau khi kéo khung bằng công cụ `Crop` (`Shift + C`) nhưng thấy chọn nhầm vùng và muốn hủy bỏ thao tác cắt, ta nhấn phím nào?",
+      "lua_chon": {
+        "A": "Phím `Enter`",
+        "B": "Phím `Esc`",
+        "C": "Phím `Insert`",
+        "D": "Phím `F9`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Enter` xác nhận cắt ảnh, còn `Esc` hủy bỏ khung cắt.",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa hộp tùy chọn công cụ trong GIMP",
+      "cau_hoi": "Khi chọn công cụ `Crop` hay `Rotate` trên Bảng công cụ, thành phần nào trên giao diện GIMP tự động thay đổi để hiển thị các thông số chi tiết của riêng công cụ đó?",
+      "lua_chon": {
+        "A": "Hộp thoại Brushes",
+        "B": "Thanh tiêu đề của Windows",
+        "C": "Hộp tùy chọn công cụ (Tool Options)",
+        "D": "Cửa sổ dòng lệnh MySQL"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Hộp tùy chọn công cụ hiển thị các tham số tinh chỉnh cho công cụ đang được kích hoạt.",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính kích thước bản in ở độ phân giải 300 dpi",
+      "cau_hoi": "Một bức ảnh có kích thước 3000 × 2000 pixel. Nếu in ở độ phân giải chuẩn ảnh chất lượng cao 300 dpi, kích thước bản in (tính theo inch) là bao nhiêu?",
+      "lua_chon": {
+        "A": "20 × 13,33 inch",
+        "B": "10 × 6,67 inch",
+        "C": "30 × 20 inch",
+        "D": "300 × 200 inch"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Chiều rộng = 3000 / 300 = 10 inch; Chiều cao = 2000 / 300 ≈ 6,67 inch.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_25"
+    },
+    {
+      "id": "B25_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định số điểm ảnh tối thiểu cho kích thước in yêu cầu",
+      "cau_hoi": "Để in một tấm áp phích kích thước 10 × 8 inch ở độ phân giải 150 dpi mà không phải phóng giãn điểm ảnh, ảnh số đầu vào cần có kích thước tối thiểu bao nhiêu pixel?",
+      "lua_chon": {
+        "A": "150 × 150 pixel",
+        "B": "100 × 80 pixel",
+        "C": "3000 × 2400 pixel",
+        "D": "1500 × 1200 pixel"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Số pixel = kích thước (inch) × dpi: 10 × 150 = 1500 pixel; 8 × 150 = 1200 pixel.",
+      "nguon": "ndc_bai_25 & cd7_bai_25"
+    },
+    {
+      "id": "B25_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chọn định dạng lưu phù hợp khi còn chỉnh sửa tiếp",
+      "cau_hoi": "Bạn Lan đang cắt ghép một tấm thiệp gồm 4 lớp ảnh trong GIMP nhưng hết giờ thực hành nên muốn lưu lại để tuần sau mở lên chỉnh tiếp từng lớp. Lan nên chọn lệnh và định dạng nào?",
+      "lua_chon": {
+        "A": "Đóng GIMP không cần lưu",
+        "B": "`File -> Export As` để lưu dưới dạng tệp `.jpg`",
+        "C": "Chụp ảnh màn hình rồi lưu `.bmp`",
+        "D": "`File -> Save` để lưu dưới dạng tệp `.xcf`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Chỉ định dạng `.xcf` mới bảo toàn nguyên vẹn cấu trúc các lớp (Layers) để chỉnh sửa tiếp.",
+      "nguon": "ndc_bai_25 & tln_..._bai_25"
+    },
+    {
+      "id": "B25_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chỉnh thẳng đường chân trời bị nghiêng",
+      "cau_hoi": "Một bức ảnh chụp biển có đường chân trời bị nghiêng 5 độ sang trái. Để chỉnh cho ảnh thẳng lại cân đối trong GIMP, thao tác hợp lí nhất là gì?",
+      "lua_chon": {
+        "A": "Dùng công cụ `Rotate` (`Shift + R`) xoay chỉnh lại góc rồi dùng `Crop` (`Shift + C`) cắt bỏ phần rìa thừa",
+        "B": "Dùng `Zoom` phóng to ảnh lên 400%",
+        "C": "Đổi tên tệp từ `.jpg` sang `.xcf`",
+        "D": "Tắt chế độ `Single-window Mode`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Xoay ảnh để cân bằng đường chân trời, sau đó cắt phần viền trống phát sinh ở góc.",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tỉ lệ khung hình khi thay đổi kích thước ảnh",
+      "cau_hoi": "Trong hộp thoại `Image -> Scale Image`, nếu muốn khi thay đổi chiều rộng (`Width`) thì chiều cao (`Height`) tự động co giãn theo đúng tỉ lệ gốc để ảnh không bị méo, ta cần giữ trạng thái nào cho biểu tượng sợi dây xích cạnh ô Width/Height?",
+      "lua_chon": {
+        "A": "Đổi đơn vị sang `percent` và nhập 2 số khác nhau",
+        "B": "Ngắt liên kết sợi dây xích",
+        "C": "Giữ nguyên trạng thái liên kết (sợi dây xích liền)",
+        "D": "Bấm nút `Reset`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Biểu tượng dây xích liền giữ nguyên tỉ lệ khung hình (Aspect Ratio) khi đổi kích thước.",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí lỗi khi cố dùng File -> Save để lưu ra .jpg",
+      "cau_hoi": "Khi bạn Minh chỉnh sửa xong một bức ảnh trong GIMP và chọn `File -> Save As` rồi gõ tên `anh_dep.jpg`, GIMP hiện thông báo không cho lưu trực tiếp sang `.jpg` bằng lệnh Save. Nguyên nhân và cách làm đúng là gì?",
+      "lua_chon": {
+        "A": "Lệnh `Save`/`Save As` trong GIMP chỉ dành cho tệp dự án `.xcf`; muốn xuất ra `.jpg` hoặc `.png` phải dùng `File -> Export` hoặc `File -> Export As`",
+        "B": "GIMP không hỗ trợ định dạng `.jpg`",
+        "C": "Ảnh có độ phân giải lớn hơn 100 dpi",
+        "D": "Do đang bật chế độ `Single-window Mode`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "GIMP tách bạch hoàn toàn `Save` (lưu file nguồn `.xcf`) và `Export` (xuất ảnh thành phẩm `.jpg`, `.png`...).",
+      "nguon": "ndc_bai_25 & tln_..._bai_25"
+    },
+    {
+      "id": "B25_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Tính toán và đánh giá khả năng phóng to in ấn",
+      "cau_hoi": "Một bức ảnh chụp từ điện thoại có kích thước 1200 × 900 pixel. Nếu khách hàng yêu cầu in thành tấm ảnh lớn kích thước 12 × 9 inch với độ phân giải sắc nét 300 dpi, ảnh gốc có đạt yêu cầu không và tại sao?",
+      "lua_chon": {
+        "A": "Chỉ đạt nếu xoay ảnh 90 độ",
+        "B": "Đạt thừa chuẩn vì 1200 × 900 lớn hơn 300 dpi",
+        "C": "Đạt nếu đổi sang định dạng `.xcf`",
+        "D": "Không đạt, vì in 12 × 9 inch ở 300 dpi cần tới 3600 × 2700 pixel; ảnh gốc 1200 × 900 chỉ đạt 100 dpi nên khi in lớn sẽ bị vỡ/mờ"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Ở kích thước 12 × 9 inch, mật độ thực tế chỉ là 1200 / 12 = 100 dpi, thấp hơn nhiều so với mức sắc nét 300 dpi.",
+      "nguon": "cd7_bai_25 & trac_nghiem_dung_sai_..._bai_25"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B25-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Ảnh bitmap chủ yếu được cấu tạo từ gì?",
-        "lua_chon": {
-          "A": "Các khung âm thanh",
-          "B": "Các điểm ảnh",
-          "C": "Các bản ghi",
-          "D": "Các câu lệnh SQL"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B25_DS_01",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính toán độ phân giải và kích thước bản in",
+      "dan_nhap": "Nhóm học sinh sử dụng ảnh 3000 × 2000 pixel (6 megapixel) để in áp phích ở độ phân giải 150 dpi và 300 dpi:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Khi in ở độ phân giải 150 dpi, kích thước chiều dài và rộng bản in sẽ lớn gấp đôi so với in ở 300 dpi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Đáp án đúng vì Các điểm ảnh; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B25-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Phát biểu nào đúng về Bitmap?",
-        "lua_chon": {
-          "A": "Phóng to vùng làm việc thay đổi cách xem, không nhất thiết đổi kích thước ảnh.",
-          "B": "Cắt ảnh giữ lại vùng được chọn và bỏ phần ngoài.",
-          "C": "Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh.",
-          "D": "Độ phân giải ảnh là số điểm ảnh theo chiều ngang và dọc."
+        {
+          "ma": "b",
+          "noi_dung": "Độ phân giải in càng cao thì ảnh in ra càng sắc nét, nhưng kích thước bản in tối đa sẽ nhỏ hơn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh."
-      },
-      {
-        "id": "T11-B25-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống: Phóng một ảnh nhỏ lên rất lớn thấy ô vuông. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kích thước ảnh theo pixel.",
-          "B": "Zoom vùng làm việc.",
-          "C": "Công cụ cắt.",
-          "D": "Ảnh được cấu tạo từ pixel."
+        {
+          "ma": "c",
+          "noi_dung": "Với cùng một tệp ảnh gốc, khi tăng độ phân giải in (dpi), số lượng điểm ảnh của ảnh tự động tăng lên tương ứng.",
+          "dap_an": false,
+          "giai_thich": "Sai. Số điểm ảnh không đổi khi chỉ thay đổi mật độ in dpi."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Ảnh được cấu tạo từ pixel."
-      },
-      {
-        "id": "T11-B25-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bitmap?",
-        "lua_chon": {
-          "A": "Ảnh 1920 × 1080.",
-          "B": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
-          "C": "Ảnh có viền thừa cần loại bỏ.",
-          "D": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông."
+        {
+          "ma": "d",
+          "noi_dung": "Ảnh 3000 × 2000 pixel có tổng cộng 6 triệu điểm ảnh, tức 6 megapixel.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_25"
+    },
+    {
+      "id": "B25_DS_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Giao diện và tính năng của GIMP",
+      "dan_nhap": "Tìm hiểu giao diện và tính năng của phần mềm GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "GIMP làm việc với nhiều định dạng ảnh như JPEG, PNG và tệp gốc XCF lưu trữ nhiều lớp.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Bitmap trong bài Phần mềm chỉnh sửa ảnh."
-      },
-      {
-        "id": "T11-B25-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Phát biểu nào đúng về Độ phân giải?",
-        "lua_chon": {
-          "A": "Cắt ảnh giữ lại vùng được chọn và bỏ phần ngoài.",
-          "B": "Độ phân giải ảnh là số điểm ảnh theo chiều ngang và dọc.",
-          "C": "Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh.",
-          "D": "Phóng to vùng làm việc thay đổi cách xem, không nhất thiết đổi kích thước ảnh."
+        {
+          "ma": "b",
+          "noi_dung": "Chế độ mặc định ban đầu của GIMP là giao diện nhiều cửa sổ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Độ phân giải ảnh là số điểm ảnh theo chiều ngang và dọc."
-      },
-      {
-        "id": "T11-B25-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống: Ảnh 1920 × 1080. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Zoom vùng làm việc.",
-          "B": "Công cụ cắt.",
-          "C": "Kích thước ảnh theo pixel.",
-          "D": "Ảnh được cấu tạo từ pixel."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể chuyển sang chế độ một cửa sổ trong GIMP bằng cách chọn `Windows > Single-window Mode`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Kích thước ảnh theo pixel."
-      },
-      {
-        "id": "T11-B25-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Độ phân giải?",
-        "lua_chon": {
-          "A": "Ảnh có viền thừa cần loại bỏ.",
-          "B": "Ảnh 1920 × 1080.",
-          "C": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
-          "D": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa."
+        {
+          "ma": "d",
+          "noi_dung": "GIMP hỗ trợ chế độ xem trước (`Split view`) giúp so sánh ảnh trước và sau chỉnh sửa.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_25 & ndc_bai_25"
+    },
+    {
+      "id": "B25_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thao tác mở, cắt, xoay, thu phóng trong GIMP",
+      "dan_nhap": "Thực hành các thao tác cơ bản trong GIMP (mở, cắt, xoay, phóng to/thu nhỏ ảnh):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể mở ảnh bằng lệnh `File > Open` hoặc kéo thả trực tiếp tệp ảnh vào GIMP.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Độ phân giải trong bài Phần mềm chỉnh sửa ảnh."
-      },
-      {
-        "id": "T11-B25-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Phát biểu nào đúng về Phóng to/thu nhỏ?",
-        "lua_chon": {
-          "A": "Phóng to vùng làm việc thay đổi cách xem, không nhất thiết đổi kích thước ảnh.",
-          "B": "Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh.",
-          "C": "Độ phân giải ảnh là số điểm ảnh theo chiều ngang và dọc.",
-          "D": "Cắt ảnh giữ lại vùng được chọn và bỏ phần ngoài."
+        {
+          "ma": "b",
+          "noi_dung": "Lệnh `Crop` giữ lại vùng ảnh trong khung và làm mờ vùng bị loại bỏ để dễ quan sát trước khi nhấn `Enter`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Phóng to vùng làm việc thay đổi cách xem, không nhất thiết đổi kích thước ảnh."
-      },
-      {
-        "id": "T11-B25-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống: Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Công cụ cắt.",
-          "B": "Zoom vùng làm việc.",
-          "C": "Ảnh được cấu tạo từ pixel.",
-          "D": "Kích thước ảnh theo pixel."
+        {
+          "ma": "c",
+          "noi_dung": "Phím tắt mặc định để xoay ảnh trong GIMP là `Ctrl + R`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phím tắt xoay ảnh là `Shift + R`."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Zoom vùng làm việc."
-      },
-      {
-        "id": "T11-B25-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phóng to/thu nhỏ?",
-        "lua_chon": {
-          "A": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
-          "B": "Ảnh 1920 × 1080.",
-          "C": "Ảnh có viền thừa cần loại bỏ.",
-          "D": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa."
+        {
+          "ma": "d",
+          "noi_dung": "Giữ phím `Ctrl` kết hợp lăn nút cuộn chuột cho phép phóng to hoặc thu nhỏ ảnh tại vị trí con trỏ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_25"
+    },
+    {
+      "id": "B25_DS_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lưu tệp dự án và xuất tệp thành phẩm",
+      "dan_nhap": "Nhận định về việc lưu và xuất ảnh trong phần mềm GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Tệp `.xcf` lưu giữ được nhiều lớp ảnh để lần sau tiếp tục chỉnh sửa từng phần.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Phóng to/thu nhỏ trong bài Phần mềm chỉnh sửa ảnh."
-      },
-      {
-        "id": "T11-B25-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Phát biểu nào đúng về Cắt ảnh?",
-        "lua_chon": {
-          "A": "Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh.",
-          "B": "Độ phân giải ảnh là số điểm ảnh theo chiều ngang và dọc.",
-          "C": "Phóng to vùng làm việc thay đổi cách xem, không nhất thiết đổi kích thước ảnh.",
-          "D": "Cắt ảnh giữ lại vùng được chọn và bỏ phần ngoài."
+        {
+          "ma": "b",
+          "noi_dung": "Lệnh `File -> Export As` cho phép xuất ảnh sang các định dạng phổ biến như `.jpg` hoặc `.png`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Cắt ảnh giữ lại vùng được chọn và bỏ phần ngoài."
-      },
-      {
-        "id": "T11-B25-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống: Ảnh có viền thừa cần loại bỏ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Công cụ cắt.",
-          "B": "Ảnh được cấu tạo từ pixel.",
-          "C": "Kích thước ảnh theo pixel.",
-          "D": "Zoom vùng làm việc."
+        {
+          "ma": "c",
+          "noi_dung": "Chỉ cần dùng `File -> Save` là có thể lưu trực tiếp ra tệp `.jpg` mà không cần Export.",
+          "dap_an": false,
+          "giai_thich": "Sai. `Save` lưu định dạng `.xcf`."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Công cụ cắt."
-      },
-      {
-        "id": "T11-B25-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cắt ảnh?",
-        "lua_chon": {
-          "A": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
-          "B": "Ảnh có viền thừa cần loại bỏ.",
-          "C": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
-          "D": "Ảnh 1920 × 1080."
+        {
+          "ma": "d",
+          "noi_dung": "Một ảnh xuất ra định dạng `.jpg` sẽ gộp các lớp hiển thị thành một mặt phẳng ảnh duy nhất.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thay đổi kích thước và cắt ảnh",
+      "dan_nhap": "Học sinh thực hành chuẩn bị ảnh thẻ kích thước chuẩn trên GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể dùng công cụ `Crop` (`Shift + C`) để cắt bớt phần nền thừa xung quanh người.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Cắt ảnh trong bài Phần mềm chỉnh sửa ảnh."
-      },
-      {
-        "id": "T11-B25-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Phát biểu nào đúng về Xoay ảnh?",
-        "lua_chon": {
-          "A": "Độ phân giải ảnh là số điểm ảnh theo chiều ngang và dọc.",
-          "B": "Phóng to vùng làm việc thay đổi cách xem, không nhất thiết đổi kích thước ảnh.",
-          "C": "Xoay đổi hướng hiển thị của ảnh.",
-          "D": "Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh."
+        {
+          "ma": "b",
+          "noi_dung": "Nếu kéo khung `Crop` chưa vừa ý, có thể kéo lại các cạnh hoặc góc khung trước khi nhấn `Enter`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Xoay đổi hướng hiển thị của ảnh."
-      },
-      {
-        "id": "T11-B25-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống: Ảnh chụp bị nằm ngang. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Ảnh được cấu tạo từ pixel.",
-          "B": "Kích thước ảnh theo pixel.",
-          "C": "Zoom vùng làm việc.",
-          "D": "Xoay ảnh theo góc cần thiết."
+        {
+          "ma": "c",
+          "noi_dung": "Lệnh `Image -> Scale Image` dùng để thay đổi kích thước điểm ảnh hoặc độ phân giải ảnh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Xoay ảnh theo góc cần thiết."
-      },
-      {
-        "id": "T11-B25-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Xoay ảnh?",
-        "lua_chon": {
-          "A": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
-          "B": "Ảnh 1920 × 1080.",
-          "C": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
-          "D": "Ảnh chụp bị nằm ngang."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Xoay ảnh trong bài Phần mềm chỉnh sửa ảnh."
-      },
-      {
-        "id": "T11-B25-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Phát biểu nào đúng về Bản gốc?",
-        "lua_chon": {
-          "A": "Phóng to vùng làm việc thay đổi cách xem, không nhất thiết đổi kích thước ảnh.",
-          "B": "Giữ bản gốc cho phép quay lại nếu chỉnh sửa sai.",
-          "C": "Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh.",
-          "D": "Độ phân giải ảnh là số điểm ảnh theo chiều ngang và dọc."
-        },
-        "dap_an": "B",
-        "giai_thich": "Giữ bản gốc cho phép quay lại nếu chỉnh sửa sai."
-      },
-      {
-        "id": "T11-B25-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống: Ảnh duy nhất cần cắt và chỉnh sửa. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kích thước ảnh theo pixel.",
-          "B": "Zoom vùng làm việc.",
-          "C": "Tạo bản sao trước khi chỉnh sửa.",
-          "D": "Ảnh được cấu tạo từ pixel."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Tạo bản sao trước khi chỉnh sửa."
-      },
-      {
-        "id": "T11-B25-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bản gốc?",
-        "lua_chon": {
-          "A": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
-          "B": "Ảnh duy nhất cần cắt và chỉnh sửa.",
-          "C": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
-          "D": "Ảnh 1920 × 1080."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Bản gốc trong bài Phần mềm chỉnh sửa ảnh."
-      },
-      {
-        "id": "T11-B25-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Phát biểu nào đúng về Giao diện biên tập?",
-        "lua_chon": {
-          "A": "Hộp công cụ, vùng ảnh và bảng thuộc tính phục vụ các thao tác khác nhau.",
-          "B": "Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh.",
-          "C": "Độ phân giải ảnh là số điểm ảnh theo chiều ngang và dọc.",
-          "D": "Phóng to vùng làm việc thay đổi cách xem, không nhất thiết đổi kích thước ảnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Hộp công cụ, vùng ảnh và bảng thuộc tính phục vụ các thao tác khác nhau."
-      },
-      {
-        "id": "T11-B25-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống: Cần chọn công cụ cắt và xem kết quả. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Zoom vùng làm việc.",
-          "B": "Vùng làm việc/canvas.",
-          "C": "Ảnh được cấu tạo từ pixel.",
-          "D": "Kích thước ảnh theo pixel."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Vùng làm việc/canvas."
-      },
-      {
-        "id": "T11-B25-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Giao diện biên tập?",
-        "lua_chon": {
-          "A": "Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
-          "B": "Ảnh 1920 × 1080.",
-          "C": "Muốn nhìn rõ một vùng chi tiết khi chỉnh sửa.",
-          "D": "Cần chọn công cụ cắt và xem kết quả."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Giao diện biên tập trong bài Phần mềm chỉnh sửa ảnh."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B25-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Xét tính đúng/sai về Phần mềm chỉnh sửa ảnh:",
-        "y_kien": {
-          "a": "Ảnh bitmap phóng lớn quá mức có thể lộ các điểm ảnh.",
-          "b": "Cắt ảnh là chọn vùng khung hình cần giữ lại.",
-          "c": true,
-          "d": true
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B25-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Nêu quy trình mở, cắt/xoay và lưu ảnh an toàn.",
-        "dap_an_goi_y": "Tạo bản sao, mở ảnh, cắt hoặc xoay, xem trước, hoàn tác nếu cần, lưu bản chỉnh sửa với tên phù hợp và giữ bản gốc.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B25-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 25 - Phần mềm chỉnh sửa ảnh",
-        "noi_dung": "Dựa vào kiến thức “Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Phóng một ảnh nhỏ lên rất lớn thấy ô vuông.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Ảnh bitmap biểu diễn hình ảnh bằng lưới điểm ảnh. Vận dụng: Ảnh được cấu tạo từ pixel. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Sau khi nhấn `Enter` để cắt ảnh, không có cách nào hoàn tác lại bước cắt đó.",
+          "dap_an": false,
+          "giai_thich": "Sai. Có thể nhấn `Ctrl + Z` (Undo) để hoàn tác."
+        }
+      ],
+      "nguon": "ndc_bai_25"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B25_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Đơn vị đo độ phân giải ảnh",
+      "cau_hoi": "Đơn vị đo độ phân giải ảnh số tính bằng số điểm ảnh trên một inch viết tắt là gì?",
+      "dap_an": "dpi (hoặc ppi)",
+      "dap_an_tuong_duong": [
+        "dpi",
+        "ppi",
+        "DPI",
+        "PPI"
+      ],
+      "giai_thich": "dpi (dots per inch) hoặc ppi (pixels per inch) đo mật độ điểm ảnh trên 1 inch.",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phần mở rộng tệp gốc GIMP",
+      "cau_hoi": "Phần mở rộng tệp gốc của phần mềm GIMP là gì?",
+      "dap_an": ".xcf",
+      "dap_an_tuong_duong": [
+        "xcf",
+        "XCF"
+      ],
+      "giai_thich": "GIMP lưu tệp dự án gốc dưới phần mở rộng .xcf.",
+      "nguon": "tln_..._bai_25"
+    },
+    {
+      "id": "B25_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh xuất ảnh JPG/PNG",
+      "cau_hoi": "Lệnh trong thực đơn `File` dùng để xuất ảnh sang định dạng JPG/PNG trong GIMP là gì?",
+      "dap_an": "File > Export (Export As)",
+      "dap_an_tuong_duong": [
+        "Export",
+        "Export As",
+        "File -> Export As"
+      ],
+      "giai_thich": "Dùng `File -> Export` hoặc `File -> Export As` để xuất ảnh thành phẩm.",
+      "nguon": "tln_..._bai_25"
+    },
+    {
+      "id": "B25_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phím tắt công cụ cắt ảnh Crop",
+      "cau_hoi": "Tổ hợp phím tắt mặc định để chọn công cụ cắt ảnh (`Crop`) trong GIMP là gì?",
+      "dap_an": "Shift + C",
+      "dap_an_tuong_duong": [
+        "Shift+C"
+      ],
+      "giai_thich": "Shift + C kích hoạt công cụ Crop.",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính độ phân giải Megapixel",
+      "cau_hoi": "Một bức ảnh có kích thước 2500 × 2000 pixel tương đương bao nhiêu megapixel (MP)?",
+      "dap_an": "5",
+      "dap_an_tuong_duong": [
+        "5 MP",
+        "5 megapixel"
+      ],
+      "giai_thich": "2500 × 2000 = 5.000.000 pixel = 5 MP.",
+      "nguon": "ndc_bai_25"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B25_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Năm thành phần chính giao diện GIMP",
+      "cau_hoi": "Nêu 5 thành phần chính trên giao diện làm việc của phần mềm GIMP.",
+      "goi_y_dap_an": "1) Thanh bảng chọn; 2) Bảng công cụ; 3) Hộp tùy chọn công cụ; 4) Vùng hiển thị ảnh (có chế độ Split view); 5) Các hộp chức năng (Brushes, Patterns, Gradients, Layer, Channels...).",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng đủ 5 thành phần (0,4đ × 5 = 2,0đ).",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Cách cắt ảnh (Crop) và xoay ảnh (Rotate)",
+      "cau_hoi": "Trình bày cách thực hiện cắt ảnh (Crop) và xoay ảnh (Rotate) trong GIMP.",
+      "goi_y_dap_an": "- Cắt ảnh: Chọn công cụ Crop (`Shift + C`) → kéo thả chọn vùng giữ lại → chỉnh viền khung → nhấn `Enter` để cắt (hoặc `Esc` để hủy).\n- Xoay ảnh: Chọn công cụ Rotate (`Shift + R`) → nhập góc xoay/tâm xoay hoặc kéo thả trực tiếp trên ảnh.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng quy trình cắt ảnh (1,0đ) và xoay ảnh (1,0đ).",
+      "nguon": "ndc_bai_25"
+    },
+    {
+      "id": "B25_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích bài toán độ phân giải và kích thước bản in",
+      "cau_hoi": "Một bức ảnh có kích thước 3600 × 2400 pixel. Hãy tính: (1) Tổng số megapixel của ảnh; (2) Kích thước bản in (theo inch) khi in ở 300 dpi và ở 150 dpi; (3) Giải thích vì sao nên chọn 300 dpi cho ảnh cần soi cận cảnh nhưng chọn 150 dpi cho áp phích treo tường lớn.",
+      "goi_y_dap_an": "(1) 3600 × 2400 = 8.640.000 pixel = 8,64 MP.\n(2) Ở 300 dpi: (3600/300) × (2400/300) = 12 × 8 inch. Ở 150 dpi: (3600/150) × (2400/150) = 24 × 16 inch.\n(3) Giải thích: 300 dpi cho mật độ điểm ảnh dày, rất sắc nét khi nhìn gần; 150 dpi cho kích thước bản in rộng gấp đôi mỗi cạnh, phù hợp áp phích nhìn từ xa.",
+      "thang_diem": "Tổng 2,0 điểm: tính đúng megapixel (0,4đ), tính đúng kích thước in ở 2 mức dpi (0,8đ) và giải thích hợp lí (0,8đ).",
+      "nguon": "cd7_bai_25 & trac_nghiem_dung_sai_..._bai_25"
+    }
+  ]
 }

@@ -1,424 +1,574 @@
 {
-  "ma_bai": "BAI_28",
-  "bai_so": 28,
+  "bai_id": "BAI_28",
   "ten_bai": "Tạo ảnh động",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 7: Phần mềm chỉnh sửa ảnh và làm video",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd7_bai_28_tao_anh_dong.docx",
+    "ndc_bai_28_tao_anh_dong.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_28_tao_anh_dong.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_28_tao_anh_dong.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B28_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mở nhiều ảnh thành các lớp riêng biệt",
+      "cau_hoi": "Để mở nhiều tệp ảnh cùng lúc thành các lớp ảnh riêng biệt trong GIMP nhằm tạo ảnh động, ta dùng lệnh nào?",
+      "lua_chon": {
+        "A": "File -> Open as Layers",
+        "B": "File -> New",
+        "C": "Filters -> Blur",
+        "D": "Layer -> Merge Down"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Lệnh `File -> Open as Layers` mở nhiều ảnh thành các lớp riêng biệt.",
+      "nguon": "ndc_bai_28 & tln_..._bai_28"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B28_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thứ tự hiển thị khung hình của các lớp",
+      "cau_hoi": "Khi tạo ảnh động trong GIMP, các lớp ảnh được hiển thị làm khung hình theo thứ tự nào?",
+      "lua_chon": {
+        "A": "Từ trên xuống dưới",
+        "B": "Từ dưới lên trên",
+        "C": "Ngẫu nhiên",
+        "D": "Theo thứ tự bảng chữ cái"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Mỗi khung hình là một lớp ảnh, hiển thị lần lượt theo thứ tự từ dưới lên trên.",
+      "nguon": "ndc_bai_28 & tln_..._bai_28"
+    },
+    {
+      "id": "B28_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Xem trước ảnh động bằng Playback",
+      "cau_hoi": "Để xem thử ảnh động trực tiếp trong GIMP trước khi xuất tệp GIF, ta chọn lệnh nào?",
+      "lua_chon": {
+        "A": "Colors -> Color Balance",
+        "B": "Windows -> Single-window Mode",
+        "C": "Filters -> Animation -> Playback",
+        "D": "Image -> Scale Image"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chọn `Filters -> Animation -> Playback` để xem thử ảnh động.",
+      "nguon": "ndc_bai_28 & tln_..._bai_28"
+    },
+    {
+      "id": "B28_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy đổi thời gian hiển thị khung hình (ms)",
+      "cau_hoi": "Một lớp ảnh được đặt tên là `Frame 2 (1500ms)`. Khung hình này sẽ hiển thị trong bao lâu trước khi chuyển sang khung tiếp theo?",
+      "lua_chon": {
+        "A": "1,5 giây",
+        "B": "1500 giây",
+        "C": "15 giây",
+        "D": "0,15 giây"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "X trong `(Xms)` tính bằng mili-giây; 1500 ms = 1,5 giây.",
+      "nguon": "ndc_bai_28 & cd7_bai_28"
+    },
+    {
+      "id": "B28_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh xuất tệp ảnh động GIF",
+      "cau_hoi": "Để xuất dự án nhiều lớp thành tệp ảnh động `.gif` trong GIMP, người dùng chọn lệnh nào?",
+      "lua_chon": {
+        "A": "`File -> Save`",
+        "B": "`File -> Export As`",
+        "C": "`File -> Open`",
+        "D": "`Layer -> New Layer`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`File -> Save` chỉ lưu `.xcf`, phải dùng `File -> Export As` đặt đuôi `.gif` để xuất ảnh động.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Biểu tượng gom cụm các lớp ảnh",
+      "cau_hoi": "Trong hộp thoại `Layers` của GIMP, nháy vào ô vuông thứ hai bên trái các lớp để hiện biểu tượng hình sợi dây xích nhằm mục đích gì?",
+      "lua_chon": {
+        "A": "Gom cụm các lớp để thực hiện thao tác (như di chuyển, xoay) đồng thời trên nhiều lớp",
+        "B": "Xóa toàn bộ các lớp được chọn",
+        "C": "Xuất trực tiếp sang tệp `.mp4`",
+        "D": "Thêm kênh alpha"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Biểu tượng sợi dây xích liên kết nhiều lớp thành một nhóm thao tác chung.",
+      "nguon": "ndc_bai_28 & trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tác dụng của việc khóa lớp",
+      "cau_hoi": "Việc bật tính năng khóa lớp (Lock) trong hộp thoại `Layers` của GIMP giúp ích gì?",
+      "lua_chon": {
+        "A": "Gộp lớp xuống dưới",
+        "B": "Tự động tăng tốc độ phát ảnh động",
+        "C": "Xóa nền xanh của lớp ảnh",
+        "D": "Tránh việc vô tình vẽ, xóa hoặc chỉnh sửa nhầm lên lớp ảnh đó"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Khóa lớp bảo vệ nội dung lớp khỏi các thao tác chỉnh sửa ngoài ý muốn.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hiệu ứng Blend trong Filters -> Animation",
+      "cau_hoi": "Hiệu ứng `Blend` trong menu `Filters -> Animation` tạo ra hiệu ứng gì cho ảnh động?",
+      "lua_chon": {
+        "A": "Chuyển ảnh động thành ảnh tĩnh đen trắng",
+        "B": "Cắt nhỏ ảnh thành các ô vuông",
+        "C": "Tạo các khung hình trung gian chuyển động mờ dần giữa các lớp ảnh",
+        "D": "Tự động xoay ảnh 360 độ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`Blend` sinh thêm các `Intermediate frames` hòa trộn chuyển tiếp mượt giữa các lớp.",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Điều kiện tối thiểu của hiệu ứng Blend",
+      "cau_hoi": "Để chạy được hiệu ứng `Filters -> Animation -> Blend` trong GIMP, tệp ảnh cần có ít nhất bao nhiêu lớp?",
+      "lua_chon": {
+        "A": "3 lớp (lớp dưới cùng đóng vai trò lớp nền)",
+        "B": "1 lớp duy nhất",
+        "C": "10 lớp",
+        "D": "Không cần lớp nào"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`Blend` yêu cầu tối thiểu 3 lớp vì lớp dưới cùng làm nền và cần ít nhất 2 lớp ảnh chuyển tiếp phía trên.",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lớp không thể thực hiện Merge Down",
+      "cau_hoi": "Trong danh sách lớp ảnh của GIMP, lớp nào KHÔNG thể thực hiện lệnh `Merge Down`?",
+      "lua_chon": {
+        "A": "Lớp nằm ở vị trí trên cùng",
+        "B": "Lớp nằm ở vị trí dưới cùng",
+        "C": "Lớp nằm ở chính giữa",
+        "D": "Lớp có tên kết thúc bằng `(500ms)`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Merge Down` gộp với lớp ngay bên dưới, nên lớp dưới cùng không có lớp nào bên dưới để gộp.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa của tùy chọn As animation và Loop forever",
+      "cau_hoi": "Khi xuất tệp `.gif` trong GIMP, nếu tích chọn `As animation` nhưng BỎ CHỌN `Loop forever`, ảnh động xuất ra sẽ phát như thế nào?",
+      "lua_chon": {
+        "A": "Chạy ngược từ trên xuống dưới",
+        "B": "Lặp lại vô tận không bao giờ dừng",
+        "C": "Không chuyển động mà chỉ là ảnh tĩnh",
+        "D": "Chạy đúng một lượt từ khung đầu đến khung cuối rồi dừng lại"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`As animation` kích hoạt định dạng động, còn `Loop forever` điều khiển việc lặp vô tận.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tham số Delay between frames where unspecified",
+      "cau_hoi": "Thông số `Delay between frames where unspecified` trong hộp thoại xuất GIF dùng để áp dụng cho những lớp nào?",
+      "lua_chon": {
+        "A": "Những lớp ảnh không ghi cụ thể `(Xms)` ở cuối tên lớp",
+        "B": "Tất cả các lớp dù đã ghi `(Xms)` hay chưa",
+        "C": "Chỉ áp dụng cho lớp đầu tiên",
+        "D": "Chỉ áp dụng cho lớp cuối cùng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Giá trị mặc định này chỉ dùng cho các khung hình chưa chỉ định thời gian riêng trong tên lớp.",
+      "nguon": "ndc_bai_28 & trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Xử lí cảnh báo lớp ảnh lớn hơn khung hình khi xuất GIF",
+      "cau_hoi": "Khi nhấn `Export` sang `.gif`, nếu GIMP hiện hộp thoại thông báo có lớp ảnh vượt ra ngoài biên khung hình (`image bounds`), người dùng nên chọn nút nào để xử lí nhanh?",
+      "lua_chon": {
+        "A": "`Cancel` và đóng GIMP",
+        "B": "`Delete Layer`",
+        "C": "`Crop` (cắt phần thừa cho vừa khung hình)",
+        "D": "Bỏ chọn `As animation`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nhấn `Crop` trong hộp thoại cảnh báo để GIMP tự động cắt gọn các lớp vừa với kích thước ảnh chính.",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính tổng thời gian phát một vòng ảnh động",
+      "cau_hoi": "Một ảnh động gồm 4 lớp từ dưới lên: `L1`, `L2 (500ms)`, `L3 (1500ms)`, `L4`. Khi xuất GIF đặt `Delay between frames where unspecified = 1000ms`. Tổng thời gian phát hết một vòng của ảnh động là bao nhiêu?",
+      "lua_chon": {
+        "A": "3 giây (3000 ms)",
+        "B": "2 giây (2000 ms)",
+        "C": "4 giây (4000 ms)",
+        "D": "5 giây (5000 ms)"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "L1 (1000ms) + L2 (500ms) + L3 (1500ms) + L4 (1000ms) = 4000 ms = 4 giây.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sắp xếp lại thứ tự phát khung hình",
+      "cau_hoi": "Sau khi dùng `Open as Layers` mở 4 ảnh `1.png`, `2.png`, `3.png`, `4.png`, bạn thấy `4.png` nằm ở dưới cùng và `1.png` nằm ở trên cùng, nên khi xem thử bằng `Playback` ảnh chạy bị ngược từ 4 về 1. Cách sửa nhanh nhất là gì?",
+      "lua_chon": {
+        "A": "Gộp tất cả 4 lớp bằng `Merge Down`",
+        "B": "Đổi tên các lớp thành `(1000ms)`",
+        "C": "Bỏ chọn `Loop forever`",
+        "D": "Sắp xếp lại thứ tự lớp trong hộp thoại `Layers` sao cho `1.png` ở dưới cùng và `4.png` ở trên cùng (hoặc dùng `Layer -> Stack -> Reverse Layer Order`)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "GIMP phát khung hình từ lớp dưới lên lớp trên, nên khung đầu tiên (`1.png`) phải ở dưới cùng.",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thiết kế biểu tượng chờ Waiting.gif quay tròn",
+      "cau_hoi": "Để tạo ảnh động biểu tượng chờ (`Waiting.gif`) gồm 8 khung hình quay đều một vòng tròn (360°), mỗi lần nhân bản lớp mới cần xoay thêm một góc bao nhiêu độ so với lớp liền trước?",
+      "lua_chon": {
+        "A": "180°",
+        "B": "90°",
+        "C": "45° (360° / 8)",
+        "D": "30°"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chia đều 360° cho 8 khung hình: 360° / 8 = 45° mỗi bước.",
+      "nguon": "ndc_bai_28 & cd7_bai_28"
+    },
+    {
+      "id": "B28_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đặt tốc độ chuyển động nhanh cho biểu tượng chờ",
+      "cau_hoi": "Nếu muốn ảnh động `Waiting.gif` gồm 8 khung hình quay trọn một vòng trong đúng 0,8 giây, giá trị `Delay between frames where unspecified` (tính bằng ms) nên đặt là bao nhiêu?",
+      "lua_chon": {
+        "A": "800 ms",
+        "B": "100 ms",
+        "C": "1000 ms",
+        "D": "10 ms"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "0,8 giây = 800 ms; chia đều cho 8 khung hình được 800 / 8 = 100 ms mỗi khung.",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Gộp nền cố định vào từng khung hình",
+      "cau_hoi": "Khi thiết kế banner động gồm 1 lớp nền cố định bên dưới và 1 lớp chữ bên trên, nếu muốn tạo hiệu ứng chữ di chuyển mà vẫn giữ nguyên nền khi xuất GIF, ta nên làm gì?",
+      "lua_chon": {
+        "A": "Bỏ chọn `As animation`",
+        "B": "Xóa lớp nền đi",
+        "C": "Khóa lớp chữ rồi tắt con mắt",
+        "D": "Nhân bản lớp nền cho mỗi khung rồi dùng `Merge Down` gộp lớp chữ ở vị trí tương ứng xuống lớp nền đó (hoặc dùng tùy chọn ghép khung `(combine)`)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Mỗi khung hình hoàn chỉnh cần có cả nền và chữ; nhân bản nền và `Merge Down` từng cặp lớp là thao tác cơ bản trong bài.",
+      "nguon": "ndc_bai_28 & trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích nguyên nhân ảnh GIF xuất ra bị đứng yên không chuyển động",
+      "cau_hoi": "Một học sinh đã tạo 6 lớp ảnh rất đẹp và xem thử bằng `Filters -> Animation -> Playback` thấy chuyển động mượt mà, nhưng khi xuất ra tệp `banner.gif` và mở bằng trình xem ảnh thì chỉ thấy một ảnh tĩnh đứng yên. Nguyên nhân nào có khả năng cao nhất?",
+      "lua_chon": {
+        "A": "Quên tích chọn ô `As animation` trong hộp thoại cài đặt xuất GIF (hoặc đã gộp cả 6 lớp thành 1 lớp trước khi xuất)",
+        "B": "Quên đặt thời gian `(1000ms)` cho lớp dưới cùng",
+        "C": "Đã tích chọn `Loop forever`",
+        "D": "Đã bật chế độ `Single-window Mode`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nếu quên tích `As animation` khi xuất GIF, GIMP sẽ gộp các lớp thành một ảnh GIF tĩnh duy nhất.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Tối ưu thời gian hiển thị nhấn mạnh khung hình kết thúc",
+      "cau_hoi": "Một ảnh động quảng cáo câu lạc bộ gồm 4 khung chữ chạy nhanh liên tiếp (mỗi khung 200 ms) rồi dừng lại ở khung cuối chứa thông tin liên hệ để người xem kịp đọc trong 3 giây trước khi lặp lại. Cách đặt tên lớp và thông số xuất nào hợp lí nhất?",
+      "lua_chon": {
+        "A": "Đặt `Delay between frames where unspecified = 3000` cho tất cả các lớp",
+        "B": "Đặt tên lớp trên cùng là `Lien_he (3000ms)`, các lớp còn lại không ghi `(Xms)` và đặt `Delay between frames where unspecified = 200`, tích `As animation` và `Loop forever`",
+        "C": "Đặt tên lớp trên cùng là `Lien_he (3ms)`",
+        "D": "Bỏ chọn `Loop forever` và đặt `200ms` cho lớp cuối"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Đặt `(3000ms)` riêng cho lớp trên cùng (khung cuối) và để mặc định 200 ms cho 3 khung đầu giúp chuyển nhanh rồi dừng đọc 3 giây.",
+      "nguon": "ndc_bai_28 & trac_nghiem_dung_sai_..._bai_28"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B28-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Các lớp/khung hình trong ảnh động thường được hiển thị như thế nào?",
-        "lua_chon": {
-          "A": "Đồng thời thành một bảng",
-          "B": "Chỉ dùng để lưu âm thanh",
-          "C": "Không cần sắp xếp",
-          "D": "Lần lượt theo thứ tự để tạo cảm giác chuyển động"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B28_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quản lí và xử lí lớp ảnh trong GIMP",
+      "dan_nhap": "Thao tác quản lí và xử lí các lớp ảnh trong GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Khi chọn `Open as Layers`, các ảnh được chèn vào thành từng lớp riêng biệt và chỉnh sửa độc lập được.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Đáp án đúng vì Lần lượt theo thứ tự để tạo cảm giác chuyển động; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B28-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Phát biểu nào đúng về Khung hình?",
-        "lua_chon": {
-          "A": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh.",
-          "B": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
-          "C": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
-          "D": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh."
+        {
+          "ma": "b",
+          "noi_dung": "Việc khóa lớp giúp tránh chỉnh sửa nhầm lên lớp không mong muốn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự."
-      },
-      {
-        "id": "T11-B28-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống: Vật thể dịch chuyển một chút giữa các ảnh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thời gian hiển thị mỗi khung.",
-          "B": "Sắp xếp thành trình tự khung.",
-          "C": "Các khung hình của hoạt ảnh.",
-          "D": "Chuyển động chạy sai thứ tự."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể nháy chuột vào biểu tượng hình sợi dây xích bên trái các lớp để gom cụm thao tác đồng thời.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Các khung hình của hoạt ảnh."
-      },
-      {
-        "id": "T11-B28-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Khung hình?",
-        "lua_chon": {
-          "A": "Vật thể dịch chuyển một chút giữa các ảnh.",
-          "B": "Các khung bị xếp ngược.",
-          "C": "Ảnh động chạy quá nhanh.",
-          "D": "Dựng hoạt ảnh từ các lớp đã chuẩn bị."
+        {
+          "ma": "d",
+          "noi_dung": "Lệnh `Merge Down` chỉ áp dụng được cho lớp nằm dưới cùng.",
+          "dap_an": false,
+          "giai_thich": "Sai. Lớp dưới cùng không có lớp nào bên dưới để gộp."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thiết lập thời gian và xuất tệp GIF",
+      "dan_nhap": "Thiết lập thời gian và xuất tệp ảnh động GIF trong GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Mỗi lớp ảnh được xem như một khung hình, hiển thị theo thứ tự từ dưới lên.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Khung hình trong bài Tạo ảnh động."
-      },
-      {
-        "id": "T11-B28-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Phát biểu nào đúng về Thứ tự khung?",
-        "lua_chon": {
-          "A": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
-          "B": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
-          "C": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh.",
-          "D": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh."
+        {
+          "ma": "b",
+          "noi_dung": "Cụm `(Xms)` thêm vào sau tên lớp chỉ định số **giây** hiển thị lớp ảnh đó.",
+          "dap_an": false,
+          "giai_thich": "Sai. X là số **mili-giây**, không phải giây."
         },
-        "dap_an": "A",
-        "giai_thich": "Thứ tự khung ảnh quyết định diễn tiến chuyển động."
-      },
-      {
-        "id": "T11-B28-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống: Các khung bị xếp ngược. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Sắp xếp thành trình tự khung.",
-          "B": "Chuyển động chạy sai thứ tự.",
-          "C": "Các khung hình của hoạt ảnh.",
-          "D": "Thời gian hiển thị mỗi khung."
+        {
+          "ma": "c",
+          "noi_dung": "Nếu không chọn `Loop forever` khi xuất ảnh GIF, ảnh chỉ chạy một lượt rồi dừng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Chuyển động chạy sai thứ tự."
-      },
-      {
-        "id": "T11-B28-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thứ tự khung?",
-        "lua_chon": {
-          "A": "Ảnh động chạy quá nhanh.",
-          "B": "Dựng hoạt ảnh từ các lớp đã chuẩn bị.",
-          "C": "Các khung bị xếp ngược.",
-          "D": "Vật thể dịch chuyển một chút giữa các ảnh."
+        {
+          "ma": "d",
+          "noi_dung": "Để xuất tệp ảnh động GIF, ta chọn lệnh `File -> Export As` (không phải `Save As`).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính toán tổng thời gian phát ảnh động 5 lớp",
+      "dan_nhap": "Ảnh động gồm 5 lớp từ dưới lên: Frame 1 (không chỉ định), Frame 2 (1000ms), Frame 3 (500ms), Frame 4 (không chỉ định), Frame 5 (10000ms). Khi xuất đặt `Delay between frames where unspecified = 2000ms`, chọn `As animation` và `Loop forever`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Ảnh sẽ lặp lại liên tục sau khi phát xong một vòng.",
+          "dap_an": true,
+          "giai_thich": "Đúng (do chọn Loop forever)."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Thứ tự khung trong bài Tạo ảnh động."
-      },
-      {
-        "id": "T11-B28-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Phát biểu nào đúng về Thời gian khung?",
-        "lua_chon": {
-          "A": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
-          "B": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
-          "C": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh.",
-          "D": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh."
+        {
+          "ma": "b",
+          "noi_dung": "Frame 1 và Frame 4 đều hiển thị trong 2000 mili-giây.",
+          "dap_an": true,
+          "giai_thich": "Đúng (lấy theo Delay between frames where unspecified)."
         },
-        "dap_an": "D",
-        "giai_thich": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh."
-      },
-      {
-        "id": "T11-B28-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống: Ảnh động chạy quá nhanh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thời gian hiển thị mỗi khung.",
-          "B": "Các khung hình của hoạt ảnh.",
-          "C": "Chuyển động chạy sai thứ tự.",
-          "D": "Sắp xếp thành trình tự khung."
+        {
+          "ma": "c",
+          "noi_dung": "Tổng thời gian hiển thị một vòng của toàn bộ ảnh động là đúng 15 giây.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tổng = 2000 + 1000 + 500 + 2000 + 10000 = 15500 ms = 15,5 giây."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Thời gian hiển thị mỗi khung."
-      },
-      {
-        "id": "T11-B28-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thời gian khung?",
-        "lua_chon": {
-          "A": "Ảnh động chạy quá nhanh.",
-          "B": "Vật thể dịch chuyển một chút giữa các ảnh.",
-          "C": "Các khung bị xếp ngược.",
-          "D": "Dựng hoạt ảnh từ các lớp đã chuẩn bị."
+        {
+          "ma": "d",
+          "noi_dung": "Nếu bỏ chọn `As animation` khi xuất GIF, ảnh động vẫn chạy bình thường một lần.",
+          "dap_an": false,
+          "giai_thich": "Sai. Bỏ chọn As animation sẽ không xuất dưới dạng ảnh động."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_28"
+    },
+    {
+      "id": "B28_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hiệu ứng Blend và xem trước Playback",
+      "dan_nhap": "Nhận định về hiệu ứng `Blend` và tính năng xem trước trong GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Lệnh `Filters -> Animation -> Playback` giúp xem thử chuyển động trước khi xuất tệp.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Thời gian khung trong bài Tạo ảnh động."
-      },
-      {
-        "id": "T11-B28-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Phát biểu nào đúng về Lớp và khung?",
-        "lua_chon": {
-          "A": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
-          "B": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh.",
-          "C": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh.",
-          "D": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự."
+        {
+          "ma": "b",
+          "noi_dung": "Hiệu ứng `Blend` tạo thêm các khung hình trung gian (`Intermediate frames`) để chuyển cảnh mờ dần.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong mô hình lớp, mỗi lớp có thể đóng vai trò khung hoặc thành phần hoạt ảnh."
-      },
-      {
-        "id": "T11-B28-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống: Dựng hoạt ảnh từ các lớp đã chuẩn bị. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Các khung hình của hoạt ảnh.",
-          "B": "Chuyển động chạy sai thứ tự.",
-          "C": "Thời gian hiển thị mỗi khung.",
-          "D": "Sắp xếp thành trình tự khung."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể dùng hiệu ứng `Blend` ngay cả khi ảnh chỉ có duy nhất 1 lớp.",
+          "dap_an": false,
+          "giai_thich": "Sai. Cần tối thiểu 3 lớp (lớp dưới cùng làm nền)."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Sắp xếp thành trình tự khung."
-      },
-      {
-        "id": "T11-B28-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lớp và khung?",
-        "lua_chon": {
-          "A": "Các khung bị xếp ngược.",
-          "B": "Ảnh động chạy quá nhanh.",
-          "C": "Dựng hoạt ảnh từ các lớp đã chuẩn bị.",
-          "D": "Vật thể dịch chuyển một chút giữa các ảnh."
+        {
+          "ma": "d",
+          "noi_dung": "Nếu có lớp vượt kích thước khung hình khi xuất GIF, có thể nhấn `Crop` khi hộp thoại cảnh báo hiện lên.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thực hành tạo ảnh động Waiting.gif",
+      "dan_nhap": "Một học sinh tạo ảnh động biểu tượng chờ gồm 6 lớp ảnh quay đều quanh tâm, đặt thời gian mặc định 150 ms:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Góc xoay chênh lệch giữa hai lớp liên tiếp để quay đều 1 vòng (360°) là 60°.",
+          "dap_an": true,
+          "giai_thich": "Đúng (360 / 6 = 60°)."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Lớp và khung trong bài Tạo ảnh động."
-      },
-      {
-        "id": "T11-B28-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Phát biểu nào đúng về Lặp hoạt ảnh?",
-        "lua_chon": {
-          "A": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh.",
-          "B": "Thiết lập lặp quyết định hoạt ảnh phát một lần hay lặp lại.",
-          "C": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
-          "D": "Thứ tự khung ảnh quyết định diễn tiến chuyển động."
+        {
+          "ma": "b",
+          "noi_dung": "Tổng thời gian để biểu tượng chờ quay hết một vòng là 0,9 giây.",
+          "dap_an": true,
+          "giai_thich": "Đúng (6 × 150 ms = 900 ms = 0,9 giây)."
         },
-        "dap_an": "B",
-        "giai_thich": "Thiết lập lặp quyết định hoạt ảnh phát một lần hay lặp lại."
-      },
-      {
-        "id": "T11-B28-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống: Ảnh động biểu tượng cần chạy liên tục. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Chuyển động chạy sai thứ tự.",
-          "B": "Thời gian hiển thị mỗi khung.",
-          "C": "Chế độ lặp.",
-          "D": "Các khung hình của hoạt ảnh."
+        {
+          "ma": "c",
+          "noi_dung": "Để biểu tượng chờ quay liên tục không ngừng, cần tích chọn `Loop forever`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Chế độ lặp."
-      },
-      {
-        "id": "T11-B28-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lặp hoạt ảnh?",
-        "lua_chon": {
-          "A": "Ảnh động biểu tượng cần chạy liên tục.",
-          "B": "Vật thể dịch chuyển một chút giữa các ảnh.",
-          "C": "Các khung bị xếp ngược.",
-          "D": "Ảnh động chạy quá nhanh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Lặp hoạt ảnh trong bài Tạo ảnh động."
-      },
-      {
-        "id": "T11-B28-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Phát biểu nào đúng về Xem trước?",
-        "lua_chon": {
-          "A": "Xem trước cho phép đánh giá tốc độ và tính liên tục.",
-          "B": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
-          "C": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
-          "D": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Xem trước cho phép đánh giá tốc độ và tính liên tục."
-      },
-      {
-        "id": "T11-B28-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống: Chuyển động giật cục khi phát thử. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thời gian hiển thị mỗi khung.",
-          "B": "Xem trước và điều chỉnh khung/thời gian.",
-          "C": "Các khung hình của hoạt ảnh.",
-          "D": "Chuyển động chạy sai thứ tự."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Xem trước và điều chỉnh khung/thời gian."
-      },
-      {
-        "id": "T11-B28-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Xem trước?",
-        "lua_chon": {
-          "A": "Các khung bị xếp ngược.",
-          "B": "Ảnh động chạy quá nhanh.",
-          "C": "Chuyển động giật cục khi phát thử.",
-          "D": "Vật thể dịch chuyển một chút giữa các ảnh."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Xem trước trong bài Tạo ảnh động."
-      },
-      {
-        "id": "T11-B28-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Phát biểu nào đúng về Xuất tệp?",
-        "lua_chon": {
-          "A": "Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.",
-          "B": "Thứ tự khung ảnh quyết định diễn tiến chuyển động.",
-          "C": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ hoạt ảnh.",
-          "D": "Xuất đúng định dạng động giúp giữ chuyển động khi chia sẻ."
-        },
-        "dap_an": "D",
-        "giai_thich": "Xuất đúng định dạng động giúp giữ chuyển động khi chia sẻ."
-      },
-      {
-        "id": "T11-B28-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống: Lưu thành định dạng chỉ hỗ trợ ảnh tĩnh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thông tin các khung chuyển động.",
-          "B": "Các khung hình của hoạt ảnh.",
-          "C": "Chuyển động chạy sai thứ tự.",
-          "D": "Thời gian hiển thị mỗi khung."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Thông tin các khung chuyển động."
-      },
-      {
-        "id": "T11-B28-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Xuất tệp?",
-        "lua_chon": {
-          "A": "Lưu thành định dạng chỉ hỗ trợ ảnh tĩnh.",
-          "B": "Vật thể dịch chuyển một chút giữa các ảnh.",
-          "C": "Các khung bị xếp ngược.",
-          "D": "Ảnh động chạy quá nhanh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Xuất tệp trong bài Tạo ảnh động."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B28-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Xét tính đúng/sai về Tạo ảnh động:",
-        "y_kien": {
-          "a": true,
-          "b": "Thời gian hiển thị mỗi khung ảnh ảnh hưởng tốc độ chuyển động.",
-          "c": "Cần xem trước để kiểm tra trình tự và nhịp.",
-          "d": true
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B28-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Mô tả tạo ảnh động đơn giản từ các lớp.",
-        "dap_an_goi_y": "Chuẩn bị lớp/khung có trạng thái khác nhau, xếp thứ tự, đặt thời gian, xem trước, điều chỉnh và xuất định dạng ảnh động.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B28-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 28 - Tạo ảnh động",
-        "noi_dung": "Dựa vào kiến thức “Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Vật thể dịch chuyển một chút giữa các ảnh.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Ảnh động tạo chuyển động bằng cách hiển thị các trạng thái hình tuần tự. Vận dụng: Các khung hình của hoạt ảnh. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Cần lưu tệp với phần mở rộng `.xcf` nếu muốn đăng trực tiếp lên trang web như một ảnh động.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải xuất sang `.gif` bằng `File -> Export As`."
+        }
+      ],
+      "nguon": "ndc_bai_28 & cd7_bai_28"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B28_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tùy chọn lặp vô tận GIF",
+      "cau_hoi": "Tùy chọn trong hộp thoại xuất GIF giúp ảnh động chạy lặp lại vô tận là gì?",
+      "dap_an": "Loop forever",
+      "dap_an_tuong_duong": [
+        "loop forever"
+      ],
+      "giai_thich": "Loop forever giúp ảnh động lặp lại liên tục.",
+      "nguon": "ndc_bai_28 & tln_..._bai_28"
+    },
+    {
+      "id": "B28_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hiệu ứng chuyển động mờ dần Blend",
+      "cau_hoi": "Hiệu ứng trong `Filters -> Animation` dùng để tạo chuyển động mờ dần giữa các lớp ảnh gọi là gì?",
+      "dap_an": "Blend",
+      "dap_an_tuong_duong": [
+        "blend"
+      ],
+      "giai_thich": "Hiệu ứng Blend tạo các khung trung gian hòa trộn giữa các lớp.",
+      "nguon": "ndc_bai_28 & tln_..._bai_28"
+    },
+    {
+      "id": "B28_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tùy chọn As animation",
+      "cau_hoi": "Tùy chọn nào phải tích vào khi xuất GIF để tệp ảnh có chuyển động?",
+      "dap_an": "As animation",
+      "dap_an_tuong_duong": [
+        "as animation"
+      ],
+      "giai_thich": "Tích As animation để xuất các lớp thành khung hình ảnh động.",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh xem trước ảnh động",
+      "cau_hoi": "Trong menu `Filters -> Animation`, lệnh nào dùng để xem thử ảnh động trực tiếp trong GIMP?",
+      "dap_an": "Playback",
+      "dap_an_tuong_duong": [
+        "playback"
+      ],
+      "giai_thich": "Playback mở cửa sổ phát thử ảnh động.",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy đổi mili-giây sang giây",
+      "cau_hoi": "Một lớp ảnh đặt tên `Khung 1 (2500ms)` sẽ hiển thị trong bao nhiêu giây?",
+      "dap_an": "2,5 giây",
+      "dap_an_tuong_duong": [
+        "2.5",
+        "2,5",
+        "2.5 giây"
+      ],
+      "giai_thich": "2500 ms = 2500 / 1000 = 2,5 giây.",
+      "nguon": "ndc_bai_28"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B28_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thiết lập thời gian và xuất tệp GIF",
+      "cau_hoi": "Trình bày cách thiết lập thời gian hiển thị cho từng khung hình và xuất tệp ảnh động `.gif` trong GIMP.",
+      "goi_y_dap_an": "- Đặt thời gian riêng: Thêm `(Xms)` vào sau tên lớp ảnh (X tính bằng mili-giây).\n- Xuất GIF: Chọn `File → Export As` → đặt tên đuôi `.gif` → nhấn `Export` → tích chọn `As animation`, `Loop forever` (nếu muốn lặp) và nhập giá trị mặc định vào `Delay between frames where unspecified` → `Export`.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng cách đặt `(Xms)` (0,8đ) và quy trình xuất `.gif` đủ tùy chọn (1,2đ).",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Hiệu ứng Blend và xử lí lớp vượt khung hình",
+      "cau_hoi": "Nêu tác dụng của hiệu ứng `Blend` trong `Filters → Animation` và cách xử lí khi GIMP báo lớp ảnh lớn hơn khung hình lúc xuất GIF.",
+      "goi_y_dap_an": "- `Blend` tạo các khung hình trung gian (`Intermediate frames`) hòa trộn mờ dần giữa các lớp ảnh (cần ít nhất 3 lớp, lớp dưới cùng làm nền).\n- Nếu xuất hiện thông báo lớp ảnh vượt biên khung hình, nhấn nút **`Crop`** để cắt lớp cho vừa khung.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng tác dụng và điều kiện của `Blend` (1,2đ); nêu đúng cách xử lí `Crop` (0,8đ).",
+      "nguon": "ndc_bai_28"
+    },
+    {
+      "id": "B28_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Tính toán và thiết kế kịch bản thời gian cho ảnh động GIF",
+      "cau_hoi": "Một học sinh tạo ảnh động gồm 4 khung hình (từ dưới lên): `Buoc 1`, `Buoc 2 (800ms)`, `Buoc 3`, `Ket thuc (3000ms)` và khi xuất đặt `Delay between frames where unspecified = 600` ms, tích `As animation` và `Loop forever`. Hãy tính tổng thời gian phát một vòng của ảnh động và cho biết nếu muốn `Buoc 1` đến `Buoc 3` chạy xong rồi dừng hẳn ở `Ket thuc` (không lặp lại) thì cần thay đổi thiết lập nào khi xuất?",
+      "goi_y_dap_an": "- Tổng thời gian 1 vòng = 600 (Buoc 1) + 800 (Buoc 2) + 600 (Buoc 3) + 3000 (Ket thuc) = 5000 ms = **5 giây**.\n- Để ảnh chạy hết rồi dừng hẳn ở khung cuối (`Ket thuc`) mà không lặp lại, chỉ cần **bỏ tích chọn ô `Loop forever`** trong hộp thoại xuất GIF.",
+      "thang_diem": "Tổng 2,0 điểm: tính đúng thời gian từng khung và tổng 5 giây (1,2đ); chỉ đúng việc bỏ chọn `Loop forever` (0,8đ).",
+      "nguon": "trac_nghiem_dung_sai_..._bai_28 & ndc_bai_28"
+    }
+  ]
 }

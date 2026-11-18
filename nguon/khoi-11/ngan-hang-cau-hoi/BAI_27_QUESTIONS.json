@@ -1,424 +1,572 @@
 {
-  "ma_bai": "BAI_27",
-  "bai_so": 27,
+  "bai_id": "BAI_27",
   "ten_bai": "Công cụ vẽ và một số ứng dụng",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 7: Phần mềm chỉnh sửa ảnh và làm video",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd7_bai_27_cong_cu_ve_va_mot_so_ung_dung.docx",
+    "ndc_bai_27_cong_cu_ve_va_mot_so_ung_dung.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_27_cong_cu_ve_va_mot_so_ung_dung.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_27_cong_cu_ve_va_mot_so_ung_dung.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B27_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Công cụ tô màu chuyển sắc Gradient",
+      "cau_hoi": "Công cụ nào trong GIMP dùng để tô màu chuyển sắc (từ màu nổi sang màu nền hoặc dải màu tùy chọn) cho vùng chọn?",
+      "lua_chon": {
+        "A": "Bucket Fill",
+        "B": "Eraser",
+        "C": "Gradient",
+        "D": "Color Picker"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Gradient tô màu chuyển sắc; Bucket Fill tô màu đồng nhất; Eraser tẩy điểm ảnh; Color Picker lấy mẫu màu.",
+      "nguon": "ndc_bai_27 & tln_..._bai_27"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B27_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt công cụ Clone và Healing",
+      "cau_hoi": "Sự khác biệt cơ bản giữa hai công cụ `Clone` và `Healing` trong GIMP là gì?",
+      "lua_chon": {
+        "A": "Clone dùng để cắt ảnh, Healing dùng để xoay ảnh",
+        "B": "Healing chỉ dùng để tô màu chuyển sắc",
+        "C": "Clone sao chép chính xác vùng ảnh nguồn sang vùng đích, còn Healing hòa trộn điểm ảnh nguồn với vùng xung quanh cho tự nhiên hơn",
+        "D": "Hai công cụ hoàn toàn giống hệt nhau"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Clone sao chép chính xác; Healing kết hợp/hòa trộn điểm ảnh giữa vùng nguồn và vùng chỉnh sửa.",
+      "nguon": "ndc_bai_27 & tln_..._bai_27"
+    },
+    {
+      "id": "B27_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hiệu ứng công cụ Eraser trên lớp có kênh alpha",
+      "cau_hoi": "Khi dùng công cụ `Eraser` xóa điểm ảnh trên một lớp ảnh **có kênh alpha**, vùng bị xóa sẽ hiển thị như thế nào?",
+      "lua_chon": {
+        "A": "Trở nên trong suốt (hiển thị lưới ô vuông xám – đen hoặc nhìn xuyên xuống lớp dưới)",
+        "B": "Hiển thị màu đen đặc",
+        "C": "Tự động tô bằng màu nổi (Foreground)",
+        "D": "Làm ẩn toàn bộ các lớp khác"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nếu lớp có kênh alpha, vùng xóa bằng Eraser trở thành trong suốt; nếu không có kênh alpha, vùng xóa nhận màu nền (Background).",
+      "nguon": "ndc_bai_27 & tln_..._bai_27"
+    },
+    {
+      "id": "B27_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy tắc che khuất theo thứ tự lớp ảnh",
+      "cau_hoi": "Có 3 lớp ảnh xếp từ dưới lên: lớp 1 (bông hoa), lớp 2 (quả táo, có kênh alpha), lớp 3 (chiếc bàn, không có kênh alpha). Tất cả đều bật hiển thị với độ mờ (Opacity) 100%. Khi xem ảnh tổng thể ta thấy hình gì?",
+      "lua_chon": {
+        "A": "Chỉ thấy bông hoa và quả táo",
+        "B": "Chỉ thấy chiếc bàn ở lớp 3 (vì nằm trên cùng và không trong suốt)",
+        "C": "Thấy cả 3 vật chồng lên nhau",
+        "D": "Không thấy hình gì"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Lớp 3 nằm trên cùng, độ mờ 100% và không có vùng trong suốt nên che kín các lớp bên dưới.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Công cụ lấy mẫu màu Color Picker",
+      "cau_hoi": "Công cụ nào trong GIMP dùng để hút/lấy mẫu màu trực tiếp từ một điểm ảnh bất kì trên bức ảnh?",
+      "lua_chon": {
+        "A": "Paint Brush",
+        "B": "Color Picker",
+        "C": "Bucket Fill",
+        "D": "Eraser"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Color Picker` (biểu tượng ống nhỏ giọt) lấy mẫu màu từ điểm ảnh trên ảnh.",
+      "nguon": "ndc_bai_27 & tln_..._bai_27"
+    },
+    {
+      "id": "B27_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phân biệt Foreground và Background",
+      "cau_hoi": "Trong hộp màu của GIMP, hai ô màu chồng lên nhau gồm màu nổi (`Foreground`) và màu nền (`Background`). Công cụ `Paint Brush` và `Bucket Fill` mặc định vẽ/tô bằng màu nào?",
+      "lua_chon": {
+        "A": "Màu nổi (`Foreground`)",
+        "B": "Màu nền (`Background`)",
+        "C": "Luôn dùng màu trắng",
+        "D": "Luôn trong suốt"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Màu nổi (`Foreground`) dùng cho nét cọ vẽ và tô màu; màu nền (`Background`) đóng vai trò màu giấy vẽ.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tác dụng của biểu tượng con mắt ở lớp ảnh",
+      "cau_hoi": "Trong hộp thoại `Layers` của GIMP, nháy chuột vào biểu tượng hình con mắt bên trái tên một lớp ảnh có tác dụng gì?",
+      "lua_chon": {
+        "A": "Ẩn hoặc hiện lớp ảnh đó",
+        "B": "Xóa vĩnh viễn lớp ảnh đó",
+        "C": "Gộp tất cả các lớp lại",
+        "D": "Thêm kênh alpha cho lớp"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Biểu tượng con mắt bật/tắt trạng thái hiển thị của lớp ảnh.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh thêm kênh trong suốt Add Alpha Channel",
+      "cau_hoi": "Để bổ sung kênh trong suốt cho một lớp ảnh chưa có kênh alpha trong GIMP, ta nháy phải chuột vào tên lớp đó và chọn lệnh nào?",
+      "lua_chon": {
+        "A": "`Add Alpha Channel`",
+        "B": "`Merge Down`",
+        "C": "`Duplicate Layer`",
+        "D": "`Delete Layer`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`Add Alpha Channel` bổ sung kênh alpha cho phép điểm ảnh trên lớp có độ trong suốt.",
+      "nguon": "ndc_bai_27 & tln_..._bai_27"
+    },
+    {
+      "id": "B27_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kết quả Eraser trên lớp KHÔNG có kênh alpha",
+      "cau_hoi": "Nếu dùng công cụ `Eraser` tẩy trên một lớp ảnh **chưa có kênh alpha**, vùng vừa tẩy sẽ có màu gì?",
+      "lua_chon": {
+        "A": "Màu nền (`Background`) đang chọn trong hộp màu",
+        "B": "Trong suốt hoàn toàn nhìn xuyên xuống lớp dưới",
+        "C": "Màu đỏ tươi mặc định",
+        "D": "Tự động xóa luôn lớp bên dưới"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Khi lớp chưa có kênh alpha, `Eraser` tô vùng xóa bằng màu nền (`Background`).",
+      "nguon": "trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thao tác lấy mẫu nguồn cho Clone và Healing",
+      "cau_hoi": "Trước khi rê chuột để xóa chi tiết thừa bằng công cụ `Clone` hoặc `Healing`, người dùng phải thực hiện thao tác nào để xác định vùng ảnh nguồn?",
+      "lua_chon": {
+        "A": "Chọn `File -> Export As`",
+        "B": "Nhấn giữ phím `Shift` và nhấn `Enter`",
+        "C": "Nháy đúp vào biểu tượng con mắt",
+        "D": "Nhấn giữ phím `Ctrl` và nháy chuột vào vùng ảnh sạch muốn lấy mẫu"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Giữ `Ctrl` + nháy chuột để ghim điểm nguồn mẫu cho `Clone`/`Healing`.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Sự khác biệt giữa Bucket Fill và Paint Brush",
+      "cau_hoi": "Khi cần tô kín toàn bộ một vùng chọn lớn bằng một màu đồng nhất thật nhanh, công cụ nào phù hợp hơn `Paint Brush`?",
+      "lua_chon": {
+        "A": "`Clone`",
+        "B": "`Bucket Fill`",
+        "C": "`Eraser`",
+        "D": "`Healing`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Bucket Fill` (thùng sơn) tô đồng loạt cả vùng màu tương đồng hoặc toàn vùng chọn chỉ bằng một lần nháy chuột.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa thanh trượt Opacity của lớp ảnh",
+      "cau_hoi": "Thay đổi thông số `Opacity` của lớp ảnh trên cùng từ `100%` xuống `50%` trong hộp thoại Layers tạo ra hiệu ứng gì?",
+      "lua_chon": {
+        "A": "Lớp trên bị xóa khỏi tệp `.xcf`",
+        "B": "Lớp trên trở nên bán trong suốt, cho phép nhìn mờ xuyên xuống các lớp nằm bên dưới",
+        "C": "Tăng độ phân giải của ảnh lên gấp đôi",
+        "D": "Chuyển ảnh sang đen trắng"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Opacity` điều chỉnh độ mờ đục (từ 0% trong suốt hoàn toàn đến 100% đục hoàn toàn) của lớp.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tác dụng của Duplicate Layer",
+      "cau_hoi": "Trước khi thử nghiệm tẩy xóa hoặc vẽ chỉnh sửa mạnh lên một bức ảnh gốc, vì sao người dùng thường chọn `Duplicate Layer`?",
+      "lua_chon": {
+        "A": "Để gộp tất cả các lớp lại",
+        "B": "Để tạo một bản sao dự phòng của lớp ảnh, dễ dàng so sánh hoặc khôi phục nếu chỉnh sửa hỏng",
+        "C": "Để xuất tệp sang `.jpg`",
+        "D": "Để tắt kênh alpha"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Duplicate Layer` nhân bản lớp hiện tại giúp làm việc an toàn không phá hủy lớp gốc.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Ghép nhân vật nền xanh vào phông nền mới",
+      "cau_hoi": "Để tách một nhân vật chụp trên phông nền xanh đồng nhất và ghép vào lớp ảnh phong cảnh (`bau_troi`) nằm bên dưới, bước nào cần thực hiện trên lớp nhân vật trước khi xóa nền xanh?",
+      "lua_chon": {
+        "A": "Đổi màu nổi thành màu xanh",
+        "B": "Gộp lớp nhân vật với lớp `bau_troi` bằng `Merge Down` trước",
+        "C": "Tắt biểu tượng con mắt của lớp `bau_troi`",
+        "D": "Thêm kênh trong suốt (`Add Alpha Channel`) cho lớp nhân vật"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Lớp nhân vật phải có kênh alpha thì khi xóa nền xanh mới trở nên trong suốt để lộ lớp `bau_troi` bên dưới.",
+      "nguon": "ndc_bai_27 & trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chọn công cụ xóa dây điện trên nền trời",
+      "cau_hoi": "Trên bức ảnh phong cảnh có một sợi dây điện cắt ngang bầu trời chuyển sắc từ xanh đậm sang xanh nhạt. Công cụ nào xóa sợi dây điện tự nhiên nhất mà không để lại vệt cắt cứng?",
+      "lua_chon": {
+        "A": "`Eraser` tẩy thủng bầu trời",
+        "B": "`Bucket Fill` tô màu xanh đậm lên dây",
+        "C": "`Crop` cắt bỏ toàn bộ bầu trời",
+        "D": "`Healing` (lấy mẫu vùng trời sát dây điện rồi rê dọc theo dây)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Healing` tự động hòa trộn độ sáng và màu sắc giữa mẫu nguồn với vùng lân cận nên xử lí nền chuyển sắc rất mịn.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Nhân bản một đối tượng bằng công cụ Clone",
+      "cau_hoi": "Trong một bức ảnh bãi cỏ có một bông hoa đẹp, bạn muốn vẽ thêm một bông hoa giống hệt bông hoa đó ở góc khác của bãi cỏ. Công cụ nào thực hiện tốt nhất?",
+      "lua_chon": {
+        "A": "`Rotate`",
+        "B": "`Color Picker`",
+        "C": "`Gradient`",
+        "D": "`Clone` (giữ `Ctrl` nháy vào bông hoa mẫu rồi vẽ sang vị trí mới)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Clone` sao chép chính xác chi tiết từ vùng nguồn sang vùng đích.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo nền chuyển sắc cho poster bằng Gradient",
+      "cau_hoi": "Khi thiết kế áp phích, để tạo nền bầu trời chuyển màu mượt mà từ xanh dương (màu nổi) sang trắng (màu nền) trên một lớp mới, thao tác nào đúng?",
+      "lua_chon": {
+        "A": "Dùng `Eraser` kéo một đường chéo",
+        "B": "Dùng `Bucket Fill` nháy một lần vào giữa lớp",
+        "C": "Chọn màu nổi xanh dương, màu nền trắng -> chọn công cụ `Gradient` -> kéo một đường thẳng trên lớp nền mới theo hướng chuyển màu mong muốn",
+        "D": "Dùng `Clone` lấy mẫu từ thanh công cụ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Công cụ `Gradient` tạo dải màu chuyển sắc theo đoạn thẳng kéo thả chuột.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sắp xếp lại thứ tự lớp khi nhân vật bị nền che mất",
+      "cau_hoi": "Sau khi mở ảnh nền `bau_troi` và ảnh nhân vật đã tách nền, bạn An thấy nền trời che kín mất nhân vật. Nhìn sang hộp thoại `Layers`, An thấy `bau_troi` đang nằm ở trên cùng. Cách sửa nhanh nhất là gì?",
+      "lua_chon": {
+        "A": "Đổi tên lớp `bau_troi` thành `Layer 1`",
+        "B": "Xóa lớp nhân vật đi",
+        "C": "Dùng `Eraser` tẩy thủng lớp `bau_troi`",
+        "D": "Kéo thả lớp `bau_troi` xuống dưới lớp nhân vật trong hộp thoại `Layers`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Thứ tự lớp quyết định lớp nào đè lên lớp nào; kéo lớp nền xuống dưới sẽ để lộ nhân vật ở trên.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí lỗi vẽ nhầm lên sai lớp ảnh",
+      "cau_hoi": "Một học sinh muốn vẽ thêm ngôi sao lên lớp riêng `Trang_tri` (nằm trên lớp nền `Nen`), nhưng lại quên chọn `Trang_tri` mà đang chọn lớp `Nen`. Khi vẽ, học sinh không thấy ngôi sao xuất hiện hoặc thấy bị che khuất, đồng thời làm hỏng lớp `Nen`. Nguyên nhân và cách khắc phục đúng là gì?",
+      "lua_chon": {
+        "A": "Do lớp `Trang_tri` thiếu khóa chính",
+        "B": "Do GIMP không cho phép vẽ bằng `Paint Brush` trên lớp mới",
+        "C": "Thao tác vẽ chỉ áp dụng trên lớp đang được chọn (`Nen`), nên bị các lớp phía trên che khuất; cần nhấn `Ctrl + Z` hoàn tác, nháy chọn đúng lớp `Trang_tri` rồi mới vẽ",
+        "D": "Cần dùng `Merge Down` gộp hết lại trước khi vẽ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Mọi công cụ vẽ chỉ tác động lên lớp đang được chọn (active layer) trong hộp thoại Layers.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Kiểm soát hiệu ứng xóa nền khi xuất ảnh PNG vs JPG",
+      "cau_hoi": "Sau khi tách nền một logo để giữ vùng xung quanh trong suốt (hiển thị ô caro) nhằm ghép lên nhiều tài liệu khác nhau, định dạng ảnh xuất ra nào bảo toàn được độ trong suốt đó?",
+      "lua_chon": {
+        "A": "BMP không có kênh alpha",
+        "B": "JPG (JPEG)",
+        "C": "PNG (vì PNG hỗ trợ kênh alpha trong suốt, còn JPG sẽ tự động lấp nền trắng/màu đặc)",
+        "D": "TXT"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Định dạng PNG hỗ trợ kênh alpha (nền trong suốt), trong khi JPEG không hỗ trợ trong suốt.",
+      "nguon": "ndc_bai_27 & ndc_bai_25"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B27-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Lợi ích của việc tách ảnh thành nhiều lớp là gì?",
-        "lua_chon": {
-          "A": "Không cần lưu dự án",
-          "B": "Mọi lớp có nội dung giống nhau",
-          "C": "Chỉnh sửa từng thành phần độc lập",
-          "D": "Tự tạo phim"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B27_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thao tác với lớp ảnh (Layers) khi thiết kế poster",
+      "dan_nhap": "Thao tác với các lớp ảnh (Layers) trong GIMP khi thiết kế poster:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Ảnh nhân vật có nền đồng nhất (nền xanh) giúp dễ dàng tách đối tượng ra khỏi nền.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Đáp án đúng vì Chỉnh sửa từng thành phần độc lập; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B27-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Phát biểu nào đúng về Lớp ảnh?",
-        "lua_chon": {
-          "A": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
-          "B": "Lớp phía trên có thể che một phần lớp bên dưới.",
-          "C": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
-          "D": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể thay đổi thứ tự hiển thị các lớp bằng cách kéo thả trong hộp thoại Layers.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Lớp cho phép tổ chức các thành phần ảnh độc lập."
-      },
-      {
-        "id": "T11-B27-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống: Muốn thêm chữ mà vẫn giữ ảnh nền riêng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tẩy trên đúng lớp.",
-          "B": "Tạo lớp mới.",
-          "C": "Thứ tự lớp.",
-          "D": "Cọ vẽ với màu/kích thước phù hợp."
+        {
+          "ma": "c",
+          "noi_dung": "Nếu biểu tượng con mắt bên cạnh tên lớp bị tắt, lớp ảnh đó vẫn hiển thị trong ảnh xuất ra.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tắt con mắt là ẩn lớp đó."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Tạo lớp mới."
-      },
-      {
-        "id": "T11-B27-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lớp ảnh?",
-        "lua_chon": {
-          "A": "Muốn xóa một nét sai ở lớp riêng.",
-          "B": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
-          "C": "Chữ nằm sau hình minh họa dù cần nổi bật.",
-          "D": "Cần vẽ thêm một chi tiết nhỏ."
+        {
+          "ma": "d",
+          "noi_dung": "Khi chọn sai lớp đang làm việc, thao tác chỉnh sửa vẫn tự động áp dụng lên tất cả các lớp.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thao tác chỉ áp dụng trên lớp đang được chọn."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Sử dụng các công cụ trong nhóm Paint Tools",
+      "dan_nhap": "Sử dụng các công cụ trong nhóm Paint Tools để phục chế ảnh cũ:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Công cụ `Paint Brush` giúp vẽ trực tiếp các chi tiết mới lên lớp ảnh đang chọn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Lớp ảnh trong bài Công cụ vẽ và một số ứng dụng."
-      },
-      {
-        "id": "T11-B27-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Phát biểu nào đúng về Thứ tự lớp?",
-        "lua_chon": {
-          "A": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
-          "B": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
-          "C": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập.",
-          "D": "Lớp phía trên có thể che một phần lớp bên dưới."
+        {
+          "ma": "b",
+          "noi_dung": "Nếu lớp ảnh KHÔNG có kênh alpha, khi dùng `Eraser`, vùng bị xóa sẽ trong suốt dưới dạng ô caro xám–đen.",
+          "dap_an": false,
+          "giai_thich": "Sai. Không có kênh alpha thì vùng bị xóa sẽ có màu nền (Background)."
         },
-        "dap_an": "D",
-        "giai_thich": "Lớp phía trên có thể che một phần lớp bên dưới."
-      },
-      {
-        "id": "T11-B27-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống: Chữ nằm sau hình minh họa dù cần nổi bật. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thứ tự lớp.",
-          "B": "Tạo lớp mới.",
-          "C": "Cọ vẽ với màu/kích thước phù hợp.",
-          "D": "Tẩy trên đúng lớp."
+        {
+          "ma": "c",
+          "noi_dung": "Công cụ `Clone` sao chép chính xác vùng nguồn sang vùng đích, còn `Healing` kết hợp điểm ảnh hai vùng để làm mờ nhược điểm tự nhiên hơn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Thứ tự lớp."
-      },
-      {
-        "id": "T11-B27-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thứ tự lớp?",
-        "lua_chon": {
-          "A": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
-          "B": "Cần vẽ thêm một chi tiết nhỏ.",
-          "C": "Muốn xóa một nét sai ở lớp riêng.",
-          "D": "Chữ nằm sau hình minh họa dù cần nổi bật."
+        {
+          "ma": "d",
+          "noi_dung": "`Gradient` là công cụ tô màu chỉ bằng một màu đơn sắc duy nhất.",
+          "dap_an": false,
+          "giai_thich": "Sai. Gradient tô màu chuyển sắc."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kênh alpha và thứ tự hiển thị 3 lớp ảnh",
+      "dan_nhap": "Ba lớp ảnh từ dưới lên: lớp 1 (bông hoa), lớp 2 (quả táo, có kênh alpha), lớp 3 (chiếc bàn, không kênh alpha), đều bật hiển thị 100%:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Chỉ cần có kênh alpha ở lớp 2 thì lớp 2 luôn tự động mờ đều toàn bộ để thấy bông hoa phía dưới ngay cả khi chưa xóa.",
+          "dap_an": false,
+          "giai_thich": "Sai. Kênh alpha chỉ tạo vùng trong suốt tại những phần có giá trị alpha = 0 (hoặc đã xóa/tách nền)."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Thứ tự lớp trong bài Công cụ vẽ và một số ứng dụng."
-      },
-      {
-        "id": "T11-B27-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Phát biểu nào đúng về Cọ vẽ?",
-        "lua_chon": {
-          "A": "Lớp phía trên có thể che một phần lớp bên dưới.",
-          "B": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập.",
-          "C": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
-          "D": "Lớp cho phép tổ chức các thành phần ảnh độc lập."
+        {
+          "ma": "b",
+          "noi_dung": "Khi dùng `Eraser` xóa trên lớp 2 (đã có kênh alpha), phần bị xóa sẽ nhìn thấy hình ảnh từ lớp 1 (nếu lớp 3 không che).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Cọ vẽ tạo nét màu trên lớp đang chọn."
-      },
-      {
-        "id": "T11-B27-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống: Cần vẽ thêm một chi tiết nhỏ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo lớp mới.",
-          "B": "Thứ tự lớp.",
-          "C": "Tẩy trên đúng lớp.",
-          "D": "Cọ vẽ với màu/kích thước phù hợp."
+        {
+          "ma": "c",
+          "noi_dung": "Ở trạng thái ban đầu cả 3 lớp hiển thị 100% và lớp 3 không trong suốt, người xem chỉ thấy chiếc bàn ở lớp 3.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Cọ vẽ với màu/kích thước phù hợp."
-      },
-      {
-        "id": "T11-B27-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cọ vẽ?",
-        "lua_chon": {
-          "A": "Muốn xóa một nét sai ở lớp riêng.",
-          "B": "Cần vẽ thêm một chi tiết nhỏ.",
-          "C": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
-          "D": "Chữ nằm sau hình minh họa dù cần nổi bật."
+        {
+          "ma": "d",
+          "noi_dung": "Màu nền (Background) được dùng để tô lên vùng bị xóa khi lớp ảnh không có kênh alpha.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_27"
+    },
+    {
+      "id": "B27_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các tác vụ quản lí lớp ảnh",
+      "dan_nhap": "Nhận định về các lệnh quản lí lớp trong hộp thoại Layers của GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "`New Layer` tạo thêm một lớp ảnh mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Cọ vẽ trong bài Công cụ vẽ và một số ứng dụng."
-      },
-      {
-        "id": "T11-B27-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Phát biểu nào đúng về Tẩy?",
-        "lua_chon": {
-          "A": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
-          "B": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập.",
-          "C": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
-          "D": "Lớp phía trên có thể che một phần lớp bên dưới."
+        {
+          "ma": "b",
+          "noi_dung": "`Duplicate Layer` tạo bản sao giống hệt lớp đang chọn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tẩy làm trong suốt/xóa pixel trên lớp hiện hành tùy thiết lập."
-      },
-      {
-        "id": "T11-B27-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống: Muốn xóa một nét sai ở lớp riêng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thứ tự lớp.",
-          "B": "Cọ vẽ với màu/kích thước phù hợp.",
-          "C": "Tẩy trên đúng lớp.",
-          "D": "Tạo lớp mới."
+        {
+          "ma": "c",
+          "noi_dung": "`Merge Down` gộp lớp đang chọn với lớp nằm ngay phía trên nó.",
+          "dap_an": false,
+          "giai_thich": "Sai. `Merge Down` gộp lớp đang chọn với lớp ngay bên dưới nó."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Tẩy trên đúng lớp."
-      },
-      {
-        "id": "T11-B27-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tẩy?",
-        "lua_chon": {
-          "A": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
-          "B": "Chữ nằm sau hình minh họa dù cần nổi bật.",
-          "C": "Cần vẽ thêm một chi tiết nhỏ.",
-          "D": "Muốn xóa một nét sai ở lớp riêng."
+        {
+          "ma": "d",
+          "noi_dung": "`Delete Layer` xóa bỏ lớp đang được chọn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phối hợp Color Picker, Bucket Fill và Healing",
+      "dan_nhap": "Học sinh thực hành vẽ và phục chế ảnh bằng nhóm công cụ Paint Tools:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Dùng `Color Picker` nháy vào một điểm trên áo nhân vật để lấy đúng màu đó làm màu nổi (`Foreground`).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Tẩy trong bài Công cụ vẽ và một số ứng dụng."
-      },
-      {
-        "id": "T11-B27-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Phát biểu nào đúng về Clone/nhân bản?",
-        "lua_chon": {
-          "A": "Công cụ nhân bản lấy mẫu một vùng để vẽ lên vùng khác.",
-          "B": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
-          "C": "Lớp phía trên có thể che một phần lớp bên dưới.",
-          "D": "Cọ vẽ tạo nét màu trên lớp đang chọn."
+        {
+          "ma": "b",
+          "noi_dung": "Sau khi khoanh vùng chọn, có thể dùng `Bucket Fill` để tô màu đồng nhất bên trong vùng chọn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Công cụ nhân bản lấy mẫu một vùng để vẽ lên vùng khác."
-      },
-      {
-        "id": "T11-B27-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống: Cần che một vết xước bằng vùng ảnh lân cận. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Cọ vẽ với màu/kích thước phù hợp.",
-          "B": "Clone/nhân bản.",
-          "C": "Tạo lớp mới.",
-          "D": "Thứ tự lớp."
+        {
+          "ma": "c",
+          "noi_dung": "Công cụ `Clone` và `Healing` đều yêu cầu giữ phím `Ctrl` và nháy chuột để chọn vùng nguồn trước khi tô.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Clone/nhân bản."
-      },
-      {
-        "id": "T11-B27-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Clone/nhân bản?",
-        "lua_chon": {
-          "A": "Cần vẽ thêm một chi tiết nhỏ.",
-          "B": "Cần che một vết xước bằng vùng ảnh lân cận.",
-          "C": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
-          "D": "Chữ nằm sau hình minh họa dù cần nổi bật."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Clone/nhân bản trong bài Công cụ vẽ và một số ứng dụng."
-      },
-      {
-        "id": "T11-B27-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Phát biểu nào đúng về Heal/chữa lỗi?",
-        "lua_chon": {
-          "A": "Lớp cho phép tổ chức các thành phần ảnh độc lập.",
-          "B": "Lớp phía trên có thể che một phần lớp bên dưới.",
-          "C": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
-          "D": "Công cụ chữa lỗi hòa mẫu với vùng xung quanh."
-        },
-        "dap_an": "D",
-        "giai_thich": "Công cụ chữa lỗi hòa mẫu với vùng xung quanh."
-      },
-      {
-        "id": "T11-B27-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống: Cần làm đều một khuyết điểm nhỏ trên ảnh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Heal/chữa lỗi.",
-          "B": "Tạo lớp mới.",
-          "C": "Thứ tự lớp.",
-          "D": "Cọ vẽ với màu/kích thước phù hợp."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Heal/chữa lỗi."
-      },
-      {
-        "id": "T11-B27-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Heal/chữa lỗi?",
-        "lua_chon": {
-          "A": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
-          "B": "Chữ nằm sau hình minh họa dù cần nổi bật.",
-          "C": "Cần vẽ thêm một chi tiết nhỏ.",
-          "D": "Cần làm đều một khuyết điểm nhỏ trên ảnh."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Heal/chữa lỗi trong bài Công cụ vẽ và một số ứng dụng."
-      },
-      {
-        "id": "T11-B27-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Phát biểu nào đúng về Làm việc không phá hủy?",
-        "lua_chon": {
-          "A": "Lớp phía trên có thể che một phần lớp bên dưới.",
-          "B": "Cọ vẽ tạo nét màu trên lớp đang chọn.",
-          "C": "Chỉnh sửa trên bản sao/lớp riêng giúp bảo vệ ảnh gốc.",
-          "D": "Lớp cho phép tổ chức các thành phần ảnh độc lập."
-        },
-        "dap_an": "C",
-        "giai_thich": "Chỉnh sửa trên bản sao/lớp riêng giúp bảo vệ ảnh gốc."
-      },
-      {
-        "id": "T11-B27-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống: Cần retouch nhưng có thể muốn hoàn tác sau này. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo lớp mới.",
-          "B": "Thứ tự lớp.",
-          "C": "Cọ vẽ với màu/kích thước phù hợp.",
-          "D": "Tạo lớp/bản sao và giữ lớp gốc."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Tạo lớp/bản sao và giữ lớp gốc."
-      },
-      {
-        "id": "T11-B27-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Làm việc không phá hủy?",
-        "lua_chon": {
-          "A": "Cần vẽ thêm một chi tiết nhỏ.",
-          "B": "Cần retouch nhưng có thể muốn hoàn tác sau này.",
-          "C": "Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
-          "D": "Chữ nằm sau hình minh họa dù cần nổi bật."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Làm việc không phá hủy trong bài Công cụ vẽ và một số ứng dụng."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B27-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Xét tính đúng/sai về Công cụ vẽ và một số ứng dụng:",
-        "y_kien": {
-          "a": true,
-          "b": true,
-          "c": "Lớp riêng giúp dễ chỉnh sửa và hoàn tác.",
-          "d": "Nên dùng lớp mới/bản sao khi retouch để bảo vệ ảnh gốc."
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B27-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Nêu cách dùng lớp và công cụ vẽ để làm sạch ảnh.",
-        "dap_an_goi_y": "Tạo lớp hoặc bản sao, chọn công cụ vẽ/xóa/retouch, chỉnh màu/kích thước, thao tác cẩn thận, kiểm tra và lưu dự án có lớp.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B27-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 27 - Công cụ vẽ và một số ứng dụng",
-        "noi_dung": "Dựa vào kiến thức “Lớp cho phép tổ chức các thành phần ảnh độc lập.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Muốn thêm chữ mà vẫn giữ ảnh nền riêng.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Lớp cho phép tổ chức các thành phần ảnh độc lập. Vận dụng: Tạo lớp mới. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Không thể điều chỉnh kích thước đầu cọ (`Size`) của các công cụ `Paint Brush`, `Eraser` hay `Healing`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Có thể chỉnh kích thước, độ cứng đầu cọ trong Hộp tùy chọn công cụ."
+        }
+      ],
+      "nguon": "ndc_bai_27"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B27_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh thêm kênh trong suốt",
+      "cau_hoi": "Lệnh khi nháy chuột phải vào lớp ảnh để bổ sung kênh trong suốt là gì?",
+      "dap_an": "Add Alpha Channel",
+      "dap_an_tuong_duong": [
+        "add alpha channel"
+      ],
+      "giai_thich": "Add Alpha Channel thêm kênh alpha hỗ trợ độ trong suốt cho lớp.",
+      "nguon": "tln_..._bai_27 & ndc_bai_27"
+    },
+    {
+      "id": "B27_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Công cụ lấy mẫu màu",
+      "cau_hoi": "Công cụ trong GIMP dùng để lấy mẫu màu từ một điểm ảnh bất kì trên ảnh là gì?",
+      "dap_an": "Color Picker",
+      "dap_an_tuong_duong": [
+        "color picker"
+      ],
+      "giai_thich": "Color Picker hút màu trực tiếp từ điểm ảnh.",
+      "nguon": "tln_..._bai_27 & ndc_bai_27"
+    },
+    {
+      "id": "B27_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phím lấy mẫu nguồn Clone/Healing",
+      "cau_hoi": "Phím nào cần nhấn giữ khi nháy chuột chọn vùng nguồn mẫu cho công cụ `Clone` hoặc `Healing`?",
+      "dap_an": "Ctrl",
+      "dap_an_tuong_duong": [
+        "Phím Ctrl"
+      ],
+      "giai_thich": "Giữ Ctrl + nháy chuột để lấy điểm nguồn cho Clone/Healing.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh gộp lớp xuống dưới",
+      "cau_hoi": "Lệnh dùng để gộp lớp đang chọn với lớp nằm ngay bên dưới nó trong hộp thoại Layers là gì?",
+      "dap_an": "Merge Down",
+      "dap_an_tuong_duong": [
+        "merge down"
+      ],
+      "giai_thich": "Merge Down gộp lớp hiện tại vào lớp ngay phía dưới.",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Công cụ tô màu chuyển sắc",
+      "cau_hoi": "Công cụ nào trong nhóm Paint Tools tạo nền chuyển sắc mượt từ màu nổi sang màu nền?",
+      "dap_an": "Gradient",
+      "dap_an_tuong_duong": [
+        "gradient"
+      ],
+      "giai_thich": "Gradient tạo hiệu ứng chuyển sắc giữa các màu.",
+      "nguon": "ndc_bai_27"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B27_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Chức năng các tác vụ trên lớp ảnh",
+      "cau_hoi": "Nêu chức năng của các tác vụ cơ bản trên lớp ảnh: `New Layer`, `Delete Layer`, `Duplicate Layer`, `Merge Down` và `Add Alpha Channel`.",
+      "goi_y_dap_an": "- `New Layer`: Tạo lớp ảnh mới.\n- `Delete Layer`: Xóa lớp đang chọn.\n- `Duplicate Layer`: Tạo bản sao của lớp đang chọn.\n- `Merge Down`: Gộp lớp đang chọn với lớp ngay bên dưới.\n- `Add Alpha Channel`: Thêm kênh trong suốt (alpha) cho lớp.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng chức năng mỗi lệnh (0,4đ × 5 = 2,0đ).",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sử dụng công cụ Healing xóa chi tiết thừa",
+      "cau_hoi": "Trình bày cách sử dụng công cụ `Healing` để xóa một chi tiết thừa (như dây điện trên nền trời) trong ảnh.",
+      "goi_y_dap_an": "1) Chọn công cụ `Healing`, chọn đầu cọ và kích thước cọ phù hợp.\n2) Đưa chuột lên vùng trời sạch gần dây điện, nhấn giữ phím `Ctrl` và nháy chuột để lấy mẫu nguồn.\n3) Nhấn giữ chuột và rê dọc theo dây điện để hòa trộn vùng nguồn, xóa chi tiết thừa.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng đủ 3 bước (0,6đ + 0,7đ + 0,7đ = 2,0đ).",
+      "nguon": "ndc_bai_27"
+    },
+    {
+      "id": "B27_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế quy trình ghép ảnh nhiều lớp với kênh Alpha",
+      "cau_hoi": "Bạn có hai bức ảnh: ảnh 1 là chân dung học sinh chụp trên nền phông xanh, ảnh 2 là khung cảnh thư viện trường. Hãy trình bày quy trình từng bước trong GIMP để tách nền xanh của ảnh chân dung và ghép tự nhiên vào ảnh thư viện, đồng thời cho biết cần kiểm tra thứ tự lớp như thế nào.",
+      "goi_y_dap_an": "1) Mở ảnh thư viện làm lớp nền, mở ảnh chân dung thành lớp mới phía trên (`File -> Open as Layers`).\n2) Nháy phải vào lớp chân dung -> chọn `Add Alpha Channel` để kích hoạt vùng trong suốt.\n3) Dùng công cụ chọn hoặc `Eraser` xóa bỏ phần nền xanh xung quanh nhân vật (phần xóa hiện ô caro trong suốt, để lộ nền thư viện bên dưới).\n4) Kiểm tra hộp thoại `Layers`: đảm bảo lớp chân dung nằm trên lớp thư viện; dùng công cụ di chuyển/tỉ lệ và chỉnh màu nếu cần cho hài hòa rồi xuất ảnh (`Export As`).",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng thứ tự mở lớp (0,4đ), thêm kênh Alpha và xóa nền (0,8đ), kiểm tra thứ tự lớp trên–dưới và hoàn thiện (0,8đ).",
+      "nguon": "ndc_bai_27 & trac_nghiem_dung_sai_..._bai_27"
+    }
+  ]
 }

@@ -1,424 +1,577 @@
 {
-  "ma_bai": "BAI_13",
-  "bai_so": 13,
+  "bai_id": "BAI_13",
   "ten_bai": "Cơ sở dữ liệu quan hệ",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd4_bai_13_csdl_quan_he.docx",
+    "ndc_bai_13_co_so_du_lieu_quan_he.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_13_co_so_du_lieu_quan_he.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_13_co_so_du_lieu_quan_he.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B13_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khái niệm bản ghi và trường trong bảng",
+      "cau_hoi": "Trong cơ sở dữ liệu quan hệ, mỗi hàng và mỗi cột của bảng lần lượt được gọi là gì?",
+      "lua_chon": {
+        "A": "Trường (field) và Bản ghi (record)",
+        "B": "Khóa chính và Khóa ngoài",
+        "C": "Bản ghi (record) và Trường (field)",
+        "D": "Bảng và Liên kết"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Mỗi hàng là một bản ghi (record), mỗi cột là một trường (field).",
+      "nguon": "ndc_bai_13 & tln_..._bai_13"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B13_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mục đích xác định kiểu dữ liệu cho trường",
+      "cau_hoi": "Việc xác định kiểu dữ liệu cho các trường trong bảng nhằm mục đích chính nào sau đây?",
+      "lua_chon": {
+        "A": "Hạn chế lãng phí dung lượng lưu trữ và kiểm soát tính đúng đắn về mặt logic của dữ liệu nhập vào",
+        "B": "Làm cho bảng có nhiều màu sắc đẹp hơn",
+        "C": "Tự động xóa các bản ghi cũ",
+        "D": "Thay thế hoàn toàn khóa chính"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Xác định kiểu dữ liệu giúp tiết kiệm dung lượng lưu trữ và kiểm soát tính đúng đắn logic.",
+      "nguon": "ndc_bai_13 & cd4_bai_13"
+    },
+    {
+      "id": "B13_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt khóa chính và khóa ngoài",
+      "cau_hoi": "Cho bảng Nhacsi (Aid, TenNS) và bảng Bannhac (Mid, Aid, TenBN). Khóa chính và khóa ngoài của bảng Bannhac lần lượt là gì?",
+      "lua_chon": {
+        "A": "Aid là khóa chính, Mid là khóa ngoài",
+        "B": "Mid là khóa chính, Aid là khóa ngoài",
+        "C": "TenBN là khóa chính, Aid là khóa ngoài",
+        "D": "Cả Mid và TenBN đều là khóa ngoài"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Mid xác định duy nhất bản nhạc (khóa chính), còn Aid tham chiếu tới bảng Nhacsi (khóa ngoài).",
+      "nguon": "Sửa lỗi 'Aid làm khóa chính' trong cd4_bai_13 dựa theo ndc_bai_13 & trac_nghiem_dung_sai_..._bai_13"
+    },
+    {
+      "id": "B13_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định khóa chính tổ hợp",
+      "cau_hoi": "Cho bảng Diem (soThe, maMon, nam, hocky, loaidiem, diemSo). Khóa chính hợp lí nhất của bảng Diem là:",
+      "lua_chon": {
+        "A": "Tổ hợp (soThe, maMon, nam, hocky, loaidiem)",
+        "B": "Chỉ cần trường maMon",
+        "C": "Chỉ cần trường soThe",
+        "D": "Chỉ cần trường diemSo"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Một học sinh có nhiều môn, nhiều năm/học kì và nhiều loại điểm nên cần tổ hợp 5 trường đó để xác định duy nhất một bản ghi điểm.",
+      "nguon": "cd4_bai_13 & trac_nghiem_dung_sai_..._bai_13"
+    },
+    {
+      "id": "B13_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tác giả mô hình CSDL quan hệ",
+      "cau_hoi": "Mô hình cơ sở dữ liệu quan hệ được nhà khoa học nào đề xuất vào năm 1970?",
+      "lua_chon": {
+        "A": "Alan Turing",
+        "B": "Edgar Frank Codd",
+        "C": "Tim Berners-Lee",
+        "D": "John von Neumann"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Edgar Frank Codd đề xuất mô hình CSDL quan hệ, đặt nền móng cho các hệ QTCSDL hiện đại.",
+      "nguon": "tln_..._bai_13"
+    },
+    {
+      "id": "B13_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Định nghĩa Khóa (Key) trong bảng",
+      "cau_hoi": "Trong một bảng của CSDL quan hệ, 'Khóa' (Key) là gì?",
+      "lua_chon": {
+        "A": "Một trường hoặc nhóm trường có giá trị không trùng nhau tại hai bản ghi bất kì, xác định duy nhất một bản ghi",
+        "B": "Trường đầu tiên bên trái của bảng dù có trùng giá trị",
+        "C": "Mật khẩu để mở tệp CSDL",
+        "D": "Trường luôn có kiểu dữ liệu ngày tháng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Khóa là thuộc tính hoặc tập thuộc tính phân biệt duy nhất từng bản ghi trong bảng.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Định nghĩa Khóa chính (Primary Key)",
+      "cau_hoi": "Trong các khóa của một bảng, khóa được chọn để định danh chính thức cho bảng được gọi là gì?",
+      "lua_chon": {
+        "A": "Trường mô tả",
+        "B": "Khóa ngoại tuyến",
+        "C": "Khóa chính (Primary Key)",
+        "D": "Bản ghi phụ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Mỗi bảng thường chọn một khóa ngắn gọn, ổn định làm khóa chính.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mục đích của Khóa ngoài",
+      "cau_hoi": "Khóa ngoài (Foreign Key) được sử dụng trong CSDL quan hệ nhằm mục đích chính nào?",
+      "lua_chon": {
+        "A": "Tạo liên kết dữ liệu giữa các bảng với nhau",
+        "B": "Mã hóa mật khẩu người dùng",
+        "C": "Thay thế cho tất cả các kiểu dữ liệu số",
+        "D": "Xóa các bản ghi trùng lặp"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Khóa ngoài tham chiếu tới khóa chính của bảng khác để liên kết và ghép nối dữ liệu.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tiêu chí chọn khóa chính tối ưu",
+      "cau_hoi": "Trong bảng `Hocsinh(soThe, hoTen, ngaySinh, diaChi)`, vì sao nên chọn `soThe` (số thẻ học sinh) làm khóa chính thay vì `hoTen`?",
+      "lua_chon": {
+        "A": "Vì `soThe` có thể để trống (NULL)",
+        "B": "Vì `hoTen` không lưu được bằng kiểu xâu kí tự",
+        "C": "Vì bảng không cho phép cột thứ hai làm khóa chính",
+        "D": "Vì `hoTen` có thể trùng nhau giữa hai học sinh và dài dòng, còn `soThe` ngắn gọn, duy nhất và ổn định"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Khóa chính cần đảm bảo tính duy nhất, ngắn gọn và ổn định.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_13"
+    },
+    {
+      "id": "B13_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tính đồng nhất kiểu dữ liệu trong một cột",
+      "cau_hoi": "Phát biểu nào sau đây đúng về giá trị dữ liệu trong cùng một trường (cột) của bảng quan hệ?",
+      "lua_chon": {
+        "A": "Hai bản ghi bất kì trong bảng phải giống hệt nhau ở mọi cột",
+        "B": "Hàng 1 có thể nhập số, hàng 2 nhập ngày tháng và hàng 3 nhập ảnh trong cùng một cột",
+        "C": "Mỗi cột không cần đặt tên trường",
+        "D": "Mọi giá trị trong cùng một cột phải có cùng kiểu dữ liệu đã khai báo"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Mỗi trường biểu diễn một thuộc tính nên mọi giá trị trong cột phải tuân theo cùng kiểu dữ liệu.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Chọn kiểu dữ liệu phù hợp cho từng trường",
+      "cau_hoi": "Trong bảng `ThiSinh(SBD, HoTen, NgaySinh, DiemThi, DaTrungTuyen)`, cặp kiểu dữ liệu nào phù hợp nhất cho `NgaySinh` và `DiemThi`?",
+      "lua_chon": {
+        "A": "Ngày tháng (Date) và Số thực/thập phân",
+        "B": "Lôgic (Boolean) và Xâu kí tự",
+        "C": "Số nguyên và Ngày tháng",
+        "D": "Số thực và Lôgic"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Ngày sinh lưu theo kiểu Date; Điểm thi (như 8,25) lưu theo kiểu số thực/số thập phân.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_13"
+    },
+    {
+      "id": "B13_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quan hệ giữa liên kết bảng và tính không dư thừa",
+      "cau_hoi": "Trong CSDL âm nhạc, bảng `Bannhac` chỉ lưu `Aid` (mã nhạc sĩ) thay vì lưu lặp lại cả `TenNS`, năm sinh và quê quán của nhạc sĩ. Cách thiết kế này mang lại lợi ích gì?",
+      "lua_chon": {
+        "A": "Tăng kích thước tệp CSDL lên nhiều lần",
+        "B": "Làm cho bảng `Nhacsi` trở nên không cần thiết",
+        "C": "Giúp một bản nhạc không thuộc về nhạc sĩ nào",
+        "D": "Tránh dư thừa dữ liệu và đảm bảo tính nhất quán khi thông tin nhạc sĩ thay đổi"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Liên kết qua khóa ngoài giúp lưu thông tin nhạc sĩ tập trung một lần ở bảng `Nhacsi`.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Điều kiện để một trường là khóa ngoài",
+      "cau_hoi": "Trường `X` của bảng B được gọi là khóa ngoài tham chiếu tới bảng A khi nào?",
+      "lua_chon": {
+        "A": "Khi `X` có tên giống với tên bảng A",
+        "B": "Khi `X` là khóa chính của bảng A và dùng để liên kết bản ghi giữa bảng B với bảng A",
+        "C": "Khi `X` là trường cuối cùng của bảng B",
+        "D": "Khi bảng A không có khóa chính"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Khóa ngoài là trường/nhóm trường của bảng này đóng vai trò khóa chính ở bảng khác.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định khóa chính cho bảng Sách",
+      "cau_hoi": "Cho bảng `Sach(MaSach, TenSach, TacGia, NamXuatBan, SoTrang)`. Trường nào phù hợp nhất làm khóa chính?",
+      "lua_chon": {
+        "A": "NamXuatBan",
+        "B": "TenSach",
+        "C": "TacGia",
+        "D": "MaSach"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Nhiều sách có thể trùng tên, cùng tác giả hoặc cùng năm xuất bản; chỉ `MaSach` là duy nhất cho mỗi đầu sách.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định khóa ngoài trong CSDL Thư viện",
+      "cau_hoi": "Cho 3 bảng: `DocGia(MaDG, HoTen, Lop)`, `Sach(MaSach, TenSach)` và `MuonTra(MaPhieu, MaDG, MaSach, NgayMuon, NgayTra)`. Các khóa ngoài của bảng `MuonTra` là gì?",
+      "lua_chon": {
+        "A": "HoTen và TenSach",
+        "B": "MaPhieu và NgayMuon",
+        "C": "MaDG và MaSach",
+        "D": "Chỉ có NgayTra"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`MaDG` tham chiếu khóa chính bảng `DocGia`, `MaSach` tham chiếu khóa chính bảng `Sach`.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chọn kiểu dữ liệu cho trường trạng thái lôgic",
+      "cau_hoi": "Trong bảng `MuonTra`, trường `DaTraSach` chỉ nhận hai trạng thái (Đã trả hoặc Chưa trả). Kiểu dữ liệu tiết kiệm và phù hợp nhất cho trường này là gì?",
+      "lua_chon": {
+        "A": "Kiểu xâu kí tự VARCHAR(255)",
+        "B": "Kiểu lôgic (Boolean)",
+        "C": "Kiểu số thực dấu phẩy động",
+        "D": "Kiểu ngày tháng (Date)"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Giá trị chỉ có 2 trạng thái Đúng/Sai nên dùng kiểu lôgic (Boolean) để tiết kiệm bộ nhớ và kiểm soát chặt giá trị.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_13"
+    },
+    {
+      "id": "B13_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Truy xuất thông tin qua liên kết bảng",
+      "cau_hoi": "Cho bảng `Banthuam(Bid, Mid, Sid, NgayThu)` liên kết với `Bannhac(Mid, Aid, TenBN)` và `Casi(Sid, TenCS)`. Để biết tên ca sĩ đã thu âm bản thu có `Bid = 10`, cần liên kết qua những trường nào?",
+      "lua_chon": {
+        "A": "Không thể truy xuất được tên ca sĩ",
+        "B": "Dùng `Bid` đối chiếu với `TenCS`",
+        "C": "Dùng `NgayThu` đối chiếu với `Mid`",
+        "D": "Dùng `Sid` trong `Banthuam` để đối chiếu với `Sid` trong bảng `Casi`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Sid` là khóa ngoài trong `Banthuam` tham chiếu tới khóa chính `Sid` của bảng `Casi`.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kiểm tra tính hợp lệ của dữ liệu khóa chính",
+      "cau_hoi": "Trong bảng `Nhacsi(Aid, TenNS)` với `Aid` là khóa chính, thao tác nào sau đây sẽ bị hệ QTCSDL từ chối?",
+      "lua_chon": {
+        "A": "Sửa `TenNS` của một nhạc sĩ có sẵn",
+        "B": "Thêm một nhạc sĩ mới có `Aid` chưa từng xuất hiện nhưng trùng `TenNS` với nhạc sĩ khác",
+        "C": "Thêm một bản ghi mới có giá trị `Aid` trùng với một bản ghi đã tồn tại trong bảng",
+        "D": "Tìm kiếm nhạc sĩ theo `TenNS`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khóa chính không được phép trùng lặp giữa hai bản ghi bất kì.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phát hiện lỗi thiết kế khóa chính tổ hợp chưa đủ",
+      "cau_hoi": "Một phòng khám thiết kế bảng `LichKham(MaBenhNhan, MaBacSi, NgayKham, ChanDoan)` và dự định chọn `(MaBenhNhan, NgayKham)` làm khóa chính. Trường hợp thực tế nào khiến thiết kế khóa chính này bị lỗi?",
+      "lua_chon": {
+        "A": "Khi một bác sĩ khám cho nhiều bệnh nhân trong một ngày",
+        "B": "Khi hai bệnh nhân khác nhau đi khám trong cùng một ngày",
+        "C": "Khi cùng một bệnh nhân đi khám 2 chuyên khoa (với 2 bác sĩ khác nhau) trong cùng một ngày",
+        "D": "Khi một bệnh nhân đi khám vào hai ngày khác nhau"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nếu một bệnh nhân khám 2 bác sĩ trong cùng ngày, cặp `(MaBenhNhan, NgayKham)` sẽ bị trùng lặp; cần thêm `MaBacSi` (hoặc tạo `MaPhieuKham`).",
+      "nguon": "ndc_bai_13 & cd4_bai_13"
+    },
+    {
+      "id": "B13_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân rã bảng phẳng thành CSDL quan hệ chuẩn",
+      "cau_hoi": "Một bảng tính lưu đơn hàng gồm các cột: `MaDon, NgayDat, MaKH, TenKH, SDT_KH, MaSP, TenSP, DonGia, SoLuong`. Nếu tách thành mô hình CSDL quan hệ để loại bỏ dư thừa, cách tổ chức bảng nào là hợp lí nhất?",
+      "lua_chon": {
+        "A": "Giữ nguyên 1 bảng duy nhất cho đơn giản",
+        "B": "Tách thành 4 bảng: `KhachHang(MaKH, TenKH, SDT_KH)`, `SanPham(MaSP, TenSP, DonGia)`, `DonHang(MaDon, NgayDat, MaKH)` và `ChiTietDon(MaDon, MaSP, SoLuong)`",
+        "C": "Tách thành 2 bảng: `NgayDat` và `SoLuong`",
+        "D": "Xóa bỏ `MaKH` và `MaSP`, chỉ giữ lại `TenKH` và `TenSP`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Phân tách theo từng đối tượng (Khách hàng, Sản phẩm, Đơn hàng, Chi tiết đơn) và liên kết bằng khóa ngoài loại bỏ hoàn toàn dư thừa.",
+      "nguon": "ndc_bai_13 & cd4_bai_13"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B13-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Một hàng trong bảng quan hệ thường biểu diễn gì?",
-        "lua_chon": {
-          "A": "Một bảng khác",
-          "B": "Một câu truy vấn",
-          "C": "Một bản ghi",
-          "D": "Một trường"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B13_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Xác định khóa chính và khóa ngoài",
+      "dan_nhap": "Trung tâm âm nhạc lưu trữ các bảng: Bản nhạc (MaBanNhac, TenBanNhac, MaCaSi), Ca sĩ (MaCaSi, TenCaSi), Bản thu (MaBanThu, TenBanThu, NgayThu):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Trường MaBanNhac trong bảng Bản nhạc có thể làm khóa chính.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Đáp án đúng vì Một bản ghi; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B13-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Phát biểu nào đúng về Bảng?",
-        "lua_chon": {
-          "A": "Một cột biểu diễn thuộc tính của các bản ghi.",
-          "B": "Khóa chính định danh duy nhất mỗi bản ghi trong bảng.",
-          "C": "Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng.",
-          "D": "Một hàng biểu diễn một đối tượng/bản ghi trong bảng."
+        {
+          "ma": "b",
+          "noi_dung": "Trường MaCaSi trong bảng Bản nhạc là khóa ngoài liên kết tới bảng Ca sĩ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng."
-      },
-      {
-        "id": "T11-B13-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống: Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Bản ghi.",
-          "B": "Trường/thuộc tính.",
-          "C": "Mã nhạc sĩ duy nhất làm khóa chính.",
-          "D": "Mô hình bảng quan hệ."
+        {
+          "ma": "c",
+          "noi_dung": "Trường TenCaSi nên dùng làm khóa chính trong bảng Ca sĩ vì không bao giờ có hai ca sĩ trùng tên.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tên có thể trùng nhau, nên chọn MaCaSi."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Mô hình bảng quan hệ."
-      },
-      {
-        "id": "T11-B13-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bảng?",
-        "lua_chon": {
-          "A": "Một hàng chứa thông tin của một nhạc sĩ.",
-          "B": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
-          "C": "Cần phân biệt hai nhạc sĩ trùng tên.",
-          "D": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc."
+        {
+          "ma": "d",
+          "noi_dung": "Trường MaCaSi không thể làm khóa chính cho bảng Ca sĩ.",
+          "dap_an": false,
+          "giai_thich": "Sai. MaCaSi là khóa chính của bảng Ca sĩ."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_13 (đã sửa lỗi tên trường TenCS -> TenCaSi)"
+    },
+    {
+      "id": "B13_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Chọn kiểu dữ liệu cho các trường",
+      "dan_nhap": "CSDL điểm thi gồm các cột: SBD (1, 2, 4, 5), Họ và tên, Giới tính (Nam/Nữ), Ngày sinh (17/10/2005), Điểm (6,25; 8,00), Mã kỳ thi (A1001):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Trường SBD có thể chọn kiểu số nguyên.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Bảng trong bài Cơ sở dữ liệu quan hệ."
-      },
-      {
-        "id": "T11-B13-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Phát biểu nào đúng về Bản ghi?",
-        "lua_chon": {
-          "A": "Khóa chính định danh duy nhất mỗi bản ghi trong bảng.",
-          "B": "Một hàng biểu diễn một đối tượng/bản ghi trong bảng.",
-          "C": "Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng.",
-          "D": "Một cột biểu diễn thuộc tính của các bản ghi."
+        {
+          "ma": "b",
+          "noi_dung": "Trường Điểm nên chọn kiểu lôgic (true/false).",
+          "dap_an": false,
+          "giai_thich": "Sai. Điểm là số thực/số thập phân."
         },
-        "dap_an": "B",
-        "giai_thich": "Một hàng biểu diễn một đối tượng/bản ghi trong bảng."
-      },
-      {
-        "id": "T11-B13-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống: Một hàng chứa thông tin của một nhạc sĩ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Trường/thuộc tính.",
-          "B": "Mã nhạc sĩ duy nhất làm khóa chính.",
-          "C": "Bản ghi.",
-          "D": "Mô hình bảng quan hệ."
+        {
+          "ma": "c",
+          "noi_dung": "Trường Giới tính có thể lưu dưới dạng lôgic (ví dụ Nam = 1, Nữ = 0).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Bản ghi."
-      },
-      {
-        "id": "T11-B13-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bản ghi?",
-        "lua_chon": {
-          "A": "Cần phân biệt hai nhạc sĩ trùng tên.",
-          "B": "Một hàng chứa thông tin của một nhạc sĩ.",
-          "C": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
-          "D": "Cột tenNhacsi lưu tên từng nhạc sĩ."
+        {
+          "ma": "d",
+          "noi_dung": "Trường Ngày sinh cần lưu theo kiểu ngày tháng (Date).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_13"
+    },
+    {
+      "id": "B13_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tiêu chí lựa chọn khóa chính",
+      "dan_nhap": "Bảng Hocsinh gồm các trường: hoten, soCCCD, soThe, ngaysinh, diachi. Nhận định về khóa chính:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể chọn số thẻ học sinh (soThe) làm khóa chính.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Bản ghi trong bài Cơ sở dữ liệu quan hệ."
-      },
-      {
-        "id": "T11-B13-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Phát biểu nào đúng về Trường?",
-        "lua_chon": {
-          "A": "Một cột biểu diễn thuộc tính của các bản ghi.",
-          "B": "Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng.",
-          "C": "Một hàng biểu diễn một đối tượng/bản ghi trong bảng.",
-          "D": "Khóa chính định danh duy nhất mỗi bản ghi trong bảng."
+        {
+          "ma": "b",
+          "noi_dung": "Nếu số CCCD là duy nhất và ổn định, có thể chọn làm khóa chính.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Một cột biểu diễn thuộc tính của các bản ghi."
-      },
-      {
-        "id": "T11-B13-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống: Cột tenNhacsi lưu tên từng nhạc sĩ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mã nhạc sĩ duy nhất làm khóa chính.",
-          "B": "Trường/thuộc tính.",
-          "C": "Mô hình bảng quan hệ.",
-          "D": "Bản ghi."
+        {
+          "ma": "c",
+          "noi_dung": "Họ tên và địa chỉ nên chọn làm khóa chính vì ít học sinh trùng cả hai.",
+          "dap_an": false,
+          "giai_thich": "Sai (hai anh em sinh đôi/cùng nhà có thể trùng địa chỉ và thậm chí trùng họ tên hoặc dài dòng)."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Trường/thuộc tính."
-      },
-      {
-        "id": "T11-B13-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Trường?",
-        "lua_chon": {
-          "A": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
-          "B": "Một hàng chứa thông tin của một nhạc sĩ.",
-          "C": "Cần phân biệt hai nhạc sĩ trùng tên.",
-          "D": "Cột tenNhacsi lưu tên từng nhạc sĩ."
+        {
+          "ma": "d",
+          "noi_dung": "Nên chọn trường ngắn gọn, duy nhất và ổn định làm khóa chính.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_13"
+    },
+    {
+      "id": "B13_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Liên kết nhiều bảng qua khóa ngoài",
+      "dan_nhap": "Xét CSDL 3 bảng: Hocsinh(soThe, hoten), Monhoc(maMon, tenMon), Diem(soThe, maMon, nam, hocky, loaidiem, diemSo):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Trường soThe trong bảng Diem là khóa ngoài liên kết tới bảng Hocsinh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Trường trong bài Cơ sở dữ liệu quan hệ."
-      },
-      {
-        "id": "T11-B13-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Phát biểu nào đúng về Khóa chính?",
-        "lua_chon": {
-          "A": "Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng.",
-          "B": "Một hàng biểu diễn một đối tượng/bản ghi trong bảng.",
-          "C": "Một cột biểu diễn thuộc tính của các bản ghi.",
-          "D": "Khóa chính định danh duy nhất mỗi bản ghi trong bảng."
+        {
+          "ma": "b",
+          "noi_dung": "Khóa chính của bảng Diem có thể là tổ hợp: soThe, maMon, nam, hocky, loaidiem.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Khóa chính định danh duy nhất mỗi bản ghi trong bảng."
-      },
-      {
-        "id": "T11-B13-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống: Cần phân biệt hai nhạc sĩ trùng tên. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mã nhạc sĩ duy nhất làm khóa chính.",
-          "B": "Mô hình bảng quan hệ.",
-          "C": "Bản ghi.",
-          "D": "Trường/thuộc tính."
+        {
+          "ma": "c",
+          "noi_dung": "Trường tenMon là khóa chính tối ưu nhất trong bảng Monhoc thay vì maMon.",
+          "dap_an": false,
+          "giai_thich": "Sai. Nên chọn maMon vì ngắn gọn và không trùng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Mã nhạc sĩ duy nhất làm khóa chính."
-      },
-      {
-        "id": "T11-B13-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Khóa chính?",
-        "lua_chon": {
-          "A": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
-          "B": "Cần phân biệt hai nhạc sĩ trùng tên.",
-          "C": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
-          "D": "Một hàng chứa thông tin của một nhạc sĩ."
+        {
+          "ma": "d",
+          "noi_dung": "Trường maMon trong bảng Diem là khóa ngoài liên kết tới bảng Monhoc.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_13"
+    },
+    {
+      "id": "B13_DS_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khóa chính và khóa ngoài trong CSDL âm nhạc",
+      "dan_nhap": "CSDL âm nhạc gồm Nhacsi(Aid, TenNS) và Bannhac(Mid, Aid, TenBN):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Aid trong bảng Bannhac là khóa chính.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Khóa chính trong bài Cơ sở dữ liệu quan hệ."
-      },
-      {
-        "id": "T11-B13-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Phát biểu nào đúng về Khóa ngoài?",
-        "lua_chon": {
-          "A": "Một hàng biểu diễn một đối tượng/bản ghi trong bảng.",
-          "B": "Một cột biểu diễn thuộc tính của các bản ghi.",
-          "C": "Khóa ngoài tham chiếu khóa chính của bảng khác.",
-          "D": "Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng."
+        {
+          "ma": "b",
+          "noi_dung": "Mid là khóa chính trong bảng Bannhac.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Khóa ngoài tham chiếu khóa chính của bảng khác."
-      },
-      {
-        "id": "T11-B13-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống: Bản nhạc cần chỉ ra nhạc sĩ sáng tác. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Mô hình bảng quan hệ.",
-          "B": "Bản ghi.",
-          "C": "Trường/thuộc tính.",
-          "D": "Khóa ngoài idNhacsi."
+        {
+          "ma": "c",
+          "noi_dung": "Aid là khóa ngoài trong bảng Bannhac, liên kết với bảng Nhacsi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Khóa ngoài idNhacsi."
-      },
-      {
-        "id": "T11-B13-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Khóa ngoài?",
-        "lua_chon": {
-          "A": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
-          "B": "Một hàng chứa thông tin của một nhạc sĩ.",
-          "C": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
-          "D": "Bản nhạc cần chỉ ra nhạc sĩ sáng tác."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Khóa ngoài trong bài Cơ sở dữ liệu quan hệ."
-      },
-      {
-        "id": "T11-B13-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Phát biểu nào đúng về Kiểu dữ liệu?",
-        "lua_chon": {
-          "A": "Một cột biểu diễn thuộc tính của các bản ghi.",
-          "B": "Kiểu dữ liệu cần phù hợp với giá trị trường.",
-          "C": "Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng.",
-          "D": "Một hàng biểu diễn một đối tượng/bản ghi trong bảng."
-        },
-        "dap_an": "B",
-        "giai_thich": "Kiểu dữ liệu cần phù hợp với giá trị trường."
-      },
-      {
-        "id": "T11-B13-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống: Trường ngày sinh cần lưu ngày tháng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Bản ghi.",
-          "B": "Trường/thuộc tính.",
-          "C": "Kiểu ngày/thời gian.",
-          "D": "Mô hình bảng quan hệ."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Kiểu ngày/thời gian."
-      },
-      {
-        "id": "T11-B13-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểu dữ liệu?",
-        "lua_chon": {
-          "A": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
-          "B": "Trường ngày sinh cần lưu ngày tháng.",
-          "C": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
-          "D": "Một hàng chứa thông tin của một nhạc sĩ."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Kiểu dữ liệu trong bài Cơ sở dữ liệu quan hệ."
-      },
-      {
-        "id": "T11-B13-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Phát biểu nào đúng về Quan hệ bảng?",
-        "lua_chon": {
-          "A": "Liên kết bảng giúp tránh lặp lại thông tin thực thể.",
-          "B": "Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng.",
-          "C": "Một hàng biểu diễn một đối tượng/bản ghi trong bảng.",
-          "D": "Một cột biểu diễn thuộc tính của các bản ghi."
-        },
-        "dap_an": "A",
-        "giai_thich": "Liên kết bảng giúp tránh lặp lại thông tin thực thể."
-      },
-      {
-        "id": "T11-B13-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống: Nhiều bản nhạc cùng do một nhạc sĩ sáng tác. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Trường/thuộc tính.",
-          "B": "Lưu nhạc sĩ một lần và tham chiếu bằng khóa ngoài.",
-          "C": "Mô hình bảng quan hệ.",
-          "D": "Bản ghi."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Lưu nhạc sĩ một lần và tham chiếu bằng khóa ngoài."
-      },
-      {
-        "id": "T11-B13-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quan hệ bảng?",
-        "lua_chon": {
-          "A": "Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
-          "B": "Một hàng chứa thông tin của một nhạc sĩ.",
-          "C": "Cột tenNhacsi lưu tên từng nhạc sĩ.",
-          "D": "Nhiều bản nhạc cùng do một nhạc sĩ sáng tác."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Quan hệ bảng trong bài Cơ sở dữ liệu quan hệ."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B13-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Xét tính đúng/sai về Cơ sở dữ liệu quan hệ:",
-        "y_kien": {
-          "a": "Khóa chính định danh duy nhất bản ghi.",
-          "b": "Khóa ngoài có thể tham chiếu đến khóa chính bảng khác.",
-          "c": true,
-          "d": true
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B13-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Giải thích trường, bản ghi, khóa chính và khóa ngoài bằng CSDL âm nhạc.",
-        "dap_an_goi_y": "Trong bảng Nhacsi, các cột là trường, mỗi hàng là bản ghi; idNhacsi là khóa chính. Bannhac có thể lưu idNhacsi làm khóa ngoài.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B13-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 13 - Cơ sở dữ liệu quan hệ",
-        "noi_dung": "Dựa vào kiến thức “Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Thông tin nhạc sĩ và bản nhạc được lưu có cấu trúc.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Trong mô hình quan hệ, dữ liệu thường được tổ chức thành các bảng. Vận dụng: Mô hình bảng quan hệ. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Có thể liên kết bảng Bannhac với bảng Nhacsi theo trường Aid để truy xuất tên nhạc sĩ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_13"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B13_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tác giả mô hình quan hệ",
+      "cau_hoi": "Mô hình cơ sở dữ liệu quan hệ do nhà khoa học nào đề xuất?",
+      "dap_an": "Edgar Frank Codd",
+      "dap_an_tuong_duong": [
+        "E. F. Codd",
+        "Codd"
+      ],
+      "giai_thich": "Edgar Frank Codd là người đề xuất mô hình CSDL quan hệ.",
+      "nguon": "tln_..._bai_13"
+    },
+    {
+      "id": "B13_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khái niệm bản ghi",
+      "cau_hoi": "Mỗi hàng trong bảng của CSDL quan hệ được gọi là gì?",
+      "dap_an": "Bản ghi (record)",
+      "dap_an_tuong_duong": [
+        "Bản ghi",
+        "record",
+        "hàng"
+      ],
+      "giai_thich": "Mỗi hàng là một bản ghi (record), mỗi cột là một trường (field).",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khái niệm khóa ngoài",
+      "cau_hoi": "Trường hoặc nhóm trường làm khóa chính ở một bảng khác được gọi là gì?",
+      "dap_an": "Khóa ngoài",
+      "dap_an_tuong_duong": [
+        "Foreign Key"
+      ],
+      "giai_thich": "Khóa ngoài dùng để liên kết dữ liệu giữa hai bảng.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TLN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Nhận diện khóa ngoài bảng Bản thu âm",
+      "cau_hoi": "Trong bảng Bản thu âm (Bid, Mid, Sid, ...), hai trường Mid và Sid đóng vai trò là gì?",
+      "dap_an": "Khóa ngoài",
+      "dap_an_tuong_duong": [
+        "Foreign Key",
+        "Các khóa ngoài"
+      ],
+      "giai_thich": "Mid tham chiếu bảng Bannhac và Sid tham chiếu bảng Casi nên đều là khóa ngoài.",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TLN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khái niệm trường (cột)",
+      "cau_hoi": "Mỗi cột trong bảng của CSDL quan hệ thể hiện một thuộc tính của đối tượng được gọi là gì?",
+      "dap_an": "Trường (field)",
+      "dap_an_tuong_duong": [
+        "Trường",
+        "field"
+      ],
+      "giai_thich": "Mỗi cột trong bảng gọi là một trường (field).",
+      "nguon": "ndc_bai_13"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B13_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Định nghĩa khóa, khóa chính và khóa ngoài",
+      "cau_hoi": "Định nghĩa khóa, khóa chính và khóa ngoài trong cơ sở dữ liệu quan hệ.",
+      "goi_y_dap_an": "- Khóa: Trường hoặc nhóm trường có giá trị không trùng nhau tại hai bản ghi bất kì, xác định duy nhất một bản ghi.\n- Khóa chính: Một khóa được chọn để định danh cho bảng (thường chọn khóa ít trường nhất).\n- Khóa ngoài: Trường hay nhóm trường của bảng này làm khóa chính ở một bảng khác, dùng để liên kết dữ liệu giữa hai bảng.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng định nghĩa khóa (0,6đ), khóa chính (0,7đ) và khóa ngoài (0,7đ).",
+      "nguon": "ndc_bai_13"
+    },
+    {
+      "id": "B13_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thiết kế bảng, khóa chính và khóa ngoài",
+      "cau_hoi": "Cho CSDL kì thi tốt nghiệp THPT gồm thông tin Thí sinh (SBD, Họ tên, Ngày sinh), Môn thi (Mã môn, Tên môn) và Kết quả thi. Hãy đề xuất cấu trúc bảng Kết quả thi cùng khóa chính và khóa ngoài.",
+      "goi_y_dap_an": "- Bảng KetQuaThi (SBD, MaMon, MaPhongThi, DiemThi).\n- Khóa chính: (SBD, MaMon) hoặc (SBD, MaMon, MaPhongThi).\n- Khóa ngoài: SBD tham chiếu bảng ThiSinh; MaMon tham chiếu bảng MonThi.",
+      "thang_diem": "Tổng 2,0 điểm: đề xuất đúng cấu trúc bảng KetQuaThi (0,8đ), khóa chính (0,6đ) và 2 khóa ngoài (0,6đ).",
+      "nguon": "cd4_bai_13"
+    },
+    {
+      "id": "B13_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế mô hình CSDL quan hệ cho thư viện trường học",
+      "cau_hoi": "Một thư viện trường học muốn lưu trữ thông tin sách (mã sách, tên sách, tác giả), độc giả (mã thẻ, họ tên, lớp) và nhật kí mượn trả sách (mã phiếu, ngày mượn, ngày trả; biết mỗi phiếu mượn 1 cuốn sách). Hãy thiết kế cấu trúc các bảng, chỉ rõ kiểu dữ liệu gợi ý, khóa chính và khóa ngoài cho từng bảng.",
+      "goi_y_dap_an": "- Bảng `Sach(MaSach: CHAR/VARCHAR - Khóa chính, TenSach: VARCHAR, TacGia: VARCHAR)`.\n- Bảng `DocGia(MaThe: CHAR/VARCHAR - Khóa chính, HoTen: VARCHAR, Lop: VARCHAR)`.\n- Bảng `MuonTra(MaPhieu: INT/CHAR - Khóa chính, MaThe: CHAR/VARCHAR - Khóa ngoài tham chiếu DocGia, MaSach: CHAR/VARCHAR - Khóa ngoài tham chiếu Sach, NgayMuon: DATE, NgayTra: DATE)`.",
+      "thang_diem": "Tổng 2,0 điểm: thiết kế đúng 3 bảng và kiểu dữ liệu hợp lí (0,8đ), xác định đúng 3 khóa chính (0,6đ) và 2 khóa ngoài (0,6đ).",
+      "nguon": "ndc_bai_13 & cd4_bai_13"
+    }
+  ]
 }

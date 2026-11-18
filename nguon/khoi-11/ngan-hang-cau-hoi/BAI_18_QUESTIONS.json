@@ -1,424 +1,573 @@
 {
-  "ma_bai": "BAI_18",
-  "bai_so": 18,
-  "ten_bai": "Thực hành xác định cấu trúc CSDL",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_18",
+  "ten_bai": "Thực hành xác định cấu trúc bảng và các trường khóa",
+  "chu_de": "Chủ đề 6: Thực hành tạo và khai thác cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_18_thuc_hanh.docx",
+    "ndc_bai_18_thuc_hanh_xac_dinh_cau_truc_bang_va_cac_truong_khoa.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B18_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Kiểu dữ liệu các trường khóa chính tự tăng",
+      "cau_hoi": "Trong CSDL quản lí âm nhạc (`mymusic`), các trường khóa chính (`idNhacsi`, `idCasi`, `idBannhac`, `idBanthuam`) thường được chọn kiểu dữ liệu nào?",
+      "lua_chon": {
+        "A": "VARCHAR(255)",
+        "B": "DATE",
+        "C": "INT với thuộc tính tự động tăng (AUTO_INCREMENT)",
+        "D": "BOOLEAN"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Các trường khóa chính dạng mã số thường chọn kiểu INT và tự động tăng giá trị (AUTO_INCREMENT).",
+      "nguon": "Kenhgiaovien_18_thuc_hanh.docx"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B18_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khóa cấm trùng lặp UNIQUE trong bảng bannhac",
+      "cau_hoi": "Trong bảng `bannhac(idBannhac, tenBannhac, idNhacsi)`, cặp trường nào cần đặt khóa cấm trùng lặp (UNIQUE)?",
+      "lua_chon": {
+        "A": "(idBannhac, tenBannhac)",
+        "B": "(tenBannhac, idNhacsi)",
+        "C": "(idNhacsi, idNhacsi)",
+        "D": "Không cần khóa cấm trùng lặp"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Một nhạc sĩ không thể sáng tác hai bản nhạc trùng tên giống hệt nhau, nên cặp (tenBannhac, idNhacsi) cần đặt khóa UNIQUE.",
+      "nguon": "ndc_bai_18 & Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khóa ngoài trong bảng banthuam",
+      "cau_hoi": "Bảng `banthuam(idBanthuam, idBannhac, idCasi)` có bao nhiêu khóa ngoài và tham chiếu tới những bảng nào?",
+      "lua_chon": {
+        "A": "1 khóa ngoài tham chiếu tới bảng nhacsi",
+        "B": "2 khóa ngoài: idBannhac tham chiếu bảng bannhac và idCasi tham chiếu bảng casi",
+        "C": "Không có khóa ngoài nào",
+        "D": "3 khóa ngoài"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "banthuam có 2 khóa ngoài là idBannhac và idCasi.",
+      "nguon": "ndc_bai_18 & Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Mở rộng thuộc tính ngày sinh cho CSDL mymusic",
+      "cau_hoi": "Nếu muốn quản lí thêm ngày sinh của các nhạc sĩ và ca sĩ (để phân biệt khi trùng tên), CSDL `mymusic` cần thay đổi như thế nào?",
+      "lua_chon": {
+        "A": "Thêm trường ngaysinh (kiểu DATE) vào bảng nhacsi và bảng casi",
+        "B": "Xóa bảng banthuam",
+        "C": "Đổi kiểu dữ liệu idNhacsi sang VARCHAR",
+        "D": "Gộp bảng nhacsi và bảng bannhac thành một bảng duy nhất"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Chỉ cần bổ sung trường ngaysinh (kiểu DATE) vào bảng nhacsi và bảng casi.",
+      "nguon": "Sửa lỗi từ Kenhgiaovien_18_thuc_hanh.docx"
+    },
+    {
+      "id": "B18_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Số lượng bảng trong CSDL mymusic",
+      "cau_hoi": "Khi thiết kế chuẩn hóa CSDL quản lí âm nhạc `mymusic` trong bài thực hành, dữ liệu được tách thành mấy bảng?",
+      "lua_chon": {
+        "A": "1 bảng duy nhất (`banthuam`)",
+        "B": "4 bảng (`nhacsi`, `casi`, `bannhac`, `banthuam`)",
+        "C": "2 bảng (`nhacsi`, `casi`)",
+        "D": "6 bảng"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "CSDL `mymusic` gồm 4 bảng: `nhacsi`, `casi`, `bannhac`, `banthuam`.",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Kiểu dữ liệu các trường tên",
+      "cau_hoi": "Các trường `tenNhacsi`, `tenCasi`, `tenBannhac` trong CSDL `mymusic` thường được khai báo kiểu dữ liệu nào?",
+      "lua_chon": {
+        "A": "VARCHAR(255)",
+        "B": "INT",
+        "C": "DATE",
+        "D": "BOOLEAN"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Tên người và tên bản nhạc là xâu kí tự độ dài thay đổi nên dùng `VARCHAR(255)`.",
+      "nguon": "ndc_bai_18 & Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khóa chính bảng nhacsi và casi",
+      "cau_hoi": "Khóa chính của hai bảng `nhacsi(idNhacsi, tenNhacsi)` và `casi(idCasi, tenCasi)` lần lượt là gì?",
+      "lua_chon": {
+        "A": "`idNhacsi` và `idCasi`",
+        "B": "`tenNhacsi` và `tenCasi`",
+        "C": "`idBannhac` và `idBanthuam`",
+        "D": "Không có khóa chính"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`idNhacsi` định danh bảng `nhacsi`; `idCasi` định danh bảng `casi`.",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khóa ngoài trong bảng bannhac",
+      "cau_hoi": "Trong bảng `bannhac(idBannhac, tenBannhac, idNhacsi)`, trường `idNhacsi` đóng vai trò là gì?",
+      "lua_chon": {
+        "A": "Khóa ngoài tham chiếu tới `nhacsi.idNhacsi`",
+        "B": "Khóa chính của bảng `bannhac`",
+        "C": "Khóa cấm trùng lặp duy nhất",
+        "D": "Trường kiểu ngày tháng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`idNhacsi` là khóa ngoài liên kết mỗi bản nhạc với nhạc sĩ sáng tác trong bảng `nhacsi`.",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lý do không gộp chung 4 bảng thành 1 bảng",
+      "cau_hoi": "Tại sao không nên gộp toàn bộ thông tin nhạc sĩ, ca sĩ, bản nhạc vào một bảng `banthuam` duy nhất?",
+      "lua_chon": {
+        "A": "Vì gộp bảng làm giảm dung lượng ổ cứng quá mức",
+        "B": "Vì MySQL chỉ cho phép tạo bảng tối đa 2 cột",
+        "C": "Vì bảng gộp không đặt được tên trường",
+        "D": "Vì sẽ lặp lại nhiều lần tên bản nhạc, tên nhạc sĩ, tên ca sĩ gây dư thừa dữ liệu và khó sửa đổi nhất quán"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Tách thành 4 bảng giúp tránh lặp lại tên nhạc sĩ/ca sĩ/bản nhạc và chỉ cần sửa 1 dòng khi đổi tên.",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa khóa UNIQUE trong bảng banthuam",
+      "cau_hoi": "Việc đặt khóa `UNIQUE` cho cặp `(idBannhac, idCasi)` trong bảng `banthuam` nhằm mục đích gì?",
+      "lua_chon": {
+        "A": "Tự động tăng giá trị `idCasi`",
+        "B": "Cấm một ca sĩ hát nhiều bản nhạc khác nhau",
+        "C": "Cấm hai ca sĩ khác nhau hát cùng một bản nhạc",
+        "D": "Ngăn không cho nhập trùng lặp cùng một bản nhạc do cùng một ca sĩ thể hiện nhiều lần (nếu chỉ quản lí một bản thu cho mỗi cặp)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Khóa `UNIQUE(idBannhac, idCasi)` chỉ cấm trùng đồng thời cả hai giá trị trong một bản ghi.",
+      "nguon": "ndc_bai_18 & Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy tắc kiểu dữ liệu giữa khóa ngoài và khóa chính",
+      "cau_hoi": "Nếu khóa chính `idNhacsi` trong bảng `nhacsi` có kiểu `INT`, thì khóa ngoài `idNhacsi` trong bảng `bannhac` phải khai báo kiểu gì?",
+      "lua_chon": {
+        "A": "Kiểu `VARCHAR(255)`",
+        "B": "Kiểu `INT` (cùng kiểu dữ liệu với khóa chính tham chiếu)",
+        "C": "Kiểu `DATE`",
+        "D": "Kiểu nào cũng được"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Khóa ngoài bắt buộc phải cùng kiểu dữ liệu với khóa chính mà nó tham chiếu tới.",
+      "nguon": "Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khái niệm bản sao khóa và tính nhất quán khi sửa tên",
+      "cau_hoi": "Trong CSDL `mymusic` đã tách 4 bảng, nếu phát hiện tên nhạc sĩ có `idNhacsi = 3` bị gõ sai chính tả, người quản trị chỉ cần sửa ở đâu?",
+      "lua_chon": {
+        "A": "Phải sửa ở tất cả các dòng trong bảng `bannhac` và `banthuam`",
+        "B": "Sửa đúng 1 dòng tương ứng với `idNhacsi = 3` trong bảng `nhacsi`",
+        "C": "Phải xóa toàn bộ CSDL và nhập lại từ đầu",
+        "D": "Không sửa được vì `idNhacsi` là khóa chính"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nhờ tách bảng và liên kết bằng mã `idNhacsi`, tên nhạc sĩ chỉ lưu duy nhất một lần ở bảng `nhacsi`.",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Mở rộng CSDL khi hai nhạc sĩ trùng tên",
+      "cau_hoi": "Vì sao trong bảng `nhacsi` không nên đặt khóa `UNIQUE` chỉ riêng trên trường `tenNhacsi`?",
+      "lua_chon": {
+        "A": "Vì `tenNhacsi` đã là khóa chính",
+        "B": "Vì `tenNhacsi` là kiểu số nguyên",
+        "C": "Vì MySQL không cho đặt `UNIQUE` trên `VARCHAR`",
+        "D": "Vì trong thực tế có thể có hai nhạc sĩ khác nhau nhưng trùng họ tên (hoặc nghệ danh)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Hai người khác nhau có thể trùng tên, nên chỉ đặt `UNIQUE` cho `(tenBannhac, idNhacsi)` chứ không cấm trùng `tenNhacsi`.",
+      "nguon": "ndc_bai_18 & Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thiết kế khóa cho bài toán Tỉnh - Huyện",
+      "cau_hoi": "Cho hai bảng `tinh(idTinh, tenTinh)` và `huyen(idHuyen, tenHuyen, idTinh)`. Để tránh nhập trùng hai huyện cùng tên trong cùng một tỉnh (nhưng vẫn cho phép hai tỉnh khác nhau có huyện cùng tên), ta đặt khóa `UNIQUE` cho cặp nào?",
+      "lua_chon": {
+        "A": "`(idHuyen, tenTinh)`",
+        "B": "Chỉ `tenHuyen` trong bảng `huyen`",
+        "C": "`(tenHuyen, idTinh)` trong bảng `huyen`",
+        "D": "Chỉ `idTinh` trong bảng `huyen`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khóa `UNIQUE(tenHuyen, idTinh)` cấm trùng tên huyện trong cùng tỉnh, nhưng vẫn cho phép tỉnh khác có huyện trùng tên.",
+      "nguon": "Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định thứ tự tạo bảng khi có khóa ngoài",
+      "cau_hoi": "Với 4 bảng `nhacsi`, `casi`, `bannhac`, `banthuam`, trình tự tạo bảng hợp lí nhất để không gặp lỗi thiếu bảng tham chiếu khi khai báo khóa ngoài là gì?",
+      "lua_chon": {
+        "A": "Tạo `bannhac` trước `nhacsi`",
+        "B": "Tạo `banthuam` đầu tiên rồi mới tạo `nhacsi` và `casi`",
+        "C": "Tạo `nhacsi` và `casi` trước -> tạo `bannhac` -> tạo `banthuam` cuối cùng",
+        "D": "Chỉ cần tạo bảng `banthuam`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Bảng được tham chiếu (`nhacsi`, `casi`) phải có trước bảng tham chiếu (`bannhac`, rồi đến `banthuam`).",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kiểm tra tính hợp lệ dữ liệu khóa ngoài",
+      "cau_hoi": "Bảng `nhacsi` hiện có các `idNhacsi` là `1, 2, 3`. Khi thêm một bản nhạc mới vào bảng `bannhac` với `idNhacsi = 9` (chưa tồn tại trong `nhacsi`), hệ QTCSDL sẽ xử lí thế nào?",
+      "lua_chon": {
+        "A": "Xóa toàn bộ bảng `bannhac`",
+        "B": "Tự động thêm nhạc sĩ số 9 với tên rỗng vào bảng `nhacsi`",
+        "C": "Tự động đổi `idNhacsi = 9` thành `1`",
+        "D": "Báo lỗi vi phạm ràng buộc khóa ngoài và từ chối thêm bản ghi"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Ràng buộc toàn vẹn tham chiếu yêu cầu giá trị khóa ngoài phải tồn tại ở khóa chính bảng được tham chiếu.",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chọn kiểu dữ liệu mở rộng cho bảng banthuam",
+      "cau_hoi": "Nếu muốn lưu thêm 'thời lượng bản thu' (tính bằng giây, ví dụ `245`) và 'ngày phát hành' trong bảng `banthuam`, hai trường mới nên chọn kiểu dữ liệu nào?",
+      "lua_chon": {
+        "A": "`DATE` cho thời lượng và `VARCHAR(1)` cho ngày phát hành",
+        "B": "`BOOLEAN` cho thời lượng và `INT` cho ngày phát hành",
+        "C": "`INT` cho thời lượng và `DATE` cho ngày phát hành",
+        "D": "Cả hai đều chọn `BOOLEAN`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Số giây là số nguyên (`INT`), ngày phát hành là ngày tháng (`DATE`).",
+      "nguon": "Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phát hiện lỗi sai khi đặt AUTO_INCREMENT",
+      "cau_hoi": "Trong bảng `bannhac(idBannhac, tenBannhac, idNhacsi)`, trường nào được phép đặt thuộc tính `AUTO_INCREMENT`?",
+      "lua_chon": {
+        "A": "Chỉ trường khóa chính `idBannhac`",
+        "B": "Cả `idBannhac` và khóa ngoài `idNhacsi`",
+        "C": "Trường `tenBannhac`",
+        "D": "Không trường nào được đặt"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Chỉ khóa chính tự sinh mã của bảng mới đặt `AUTO_INCREMENT`; khóa ngoài nhận giá trị tham chiếu từ bảng khác.",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích trường hợp mở rộng nhiều bản thu của cùng ca sĩ",
+      "cau_hoi": "Một phòng thu muốn lưu trữ nhiều phiên bản thu âm khác nhau (theo từng năm) của **cùng một ca sĩ** cho **cùng một bản nhạc** (ví dụ Ca sĩ A thu bài hát X năm 2020 và thu lại bản phối mới năm 2024). Thiết kế khóa `UNIQUE(idBannhac, idCasi)` hiện tại có đáp ứng được không, và cần sửa thế nào?",
+      "lua_chon": {
+        "A": "Chỉ cần xóa khóa chính `idBanthuam`",
+        "B": "Đáp ứng được ngay mà không cần sửa gì",
+        "C": "Không đáp ứng được vì `UNIQUE(idBannhac, idCasi)` sẽ chặn bản thu năm 2024; cần thêm trường `namThu` (hoặc `ngayThu`) và đổi khóa thành `UNIQUE(idBannhac, idCasi, namThu)`",
+        "D": "Chỉ cần đổi kiểu `tenCasi` sang `INT`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khi nghiệp vụ cho phép cùng ca sĩ thu lại cùng bài hát ở các thời điểm khác nhau, khóa `UNIQUE` phải bổ sung thêm trường phân biệt thời điểm/phiên bản.",
+      "nguon": "ndc_bai_18 & Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế cấu trúc bảng cho bài toán Xã - Huyện - Tỉnh",
+      "cau_hoi": "Mở rộng bài toán Tỉnh – Huyện thêm cấp Xã/Phường (`xa`). Cấu trúc bảng `xa` và liên kết khóa ngoài nào là chuẩn xác để không dư thừa thông tin tỉnh?",
+      "lua_chon": {
+        "A": "Gộp cả Tỉnh, Huyện, Xã vào một bảng duy nhất",
+        "B": "`xa(idXa, tenXa, tenHuyen, tenTinh)` không cần khóa ngoài",
+        "C": "`xa(tenXa, idTinh)` bỏ qua bảng `huyen`",
+        "D": "`xa(idXa, tenXa, idHuyen)` với `idXa` là khóa chính, `idHuyen` là khóa ngoài tham chiếu `huyen.idHuyen` và `UNIQUE(tenXa, idHuyen)`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Xã thuộc Huyện (và Huyện đã tham chiếu tới Tỉnh), nên bảng `xa` chỉ cần khóa ngoài `idHuyen` là đủ suy ra Tỉnh mà không gây dư thừa.",
+      "nguon": "Kenhgiaovien_18"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B18-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Bước đầu khi thiết kế CSDL cho một bài toán là gì?",
-        "lua_chon": {
-          "A": "Chọn màu giao diện",
-          "B": "Xóa bảng cũ",
-          "C": "Phân tích yêu cầu và đối tượng dữ liệu",
-          "D": "Nhập dữ liệu ngẫu nhiên"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B18_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cấu trúc 4 bảng CSDL âm nhạc mymusic",
+      "dan_nhap": "Nhận định về cấu trúc CSDL quản lí âm nhạc gồm 4 bảng: `nhacsi`, `casi`, `bannhac`, `banthuam`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Mỗi bảng trong CSDL trên đều có một khóa chính riêng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Đáp án đúng vì Phân tích yêu cầu và đối tượng dữ liệu; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B18-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Phát biểu nào đúng về Phân tích yêu cầu?",
-        "lua_chon": {
-          "A": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
-          "B": "Thuộc tính mô tả đặc điểm của đối tượng.",
-          "C": "Khóa cần nhận diện duy nhất mỗi đối tượng.",
-          "D": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí."
+        {
+          "ma": "b",
+          "noi_dung": "Trường `idNhacsi` trong bảng `bannhac` là khóa ngoài tham chiếu đến `idNhacsi` trong bảng `nhacsi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí."
-      },
-      {
-        "id": "T11-B18-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống: Bài toán thư viện cần theo dõi sách và lượt mượn. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "B": "HọcSinh và Lớp.",
-          "C": "Thuộc tính/trường.",
-          "D": "Mã sách duy nhất."
+        {
+          "ma": "c",
+          "noi_dung": "Cặp `(idBannhac, idCasi)` trong bảng `banthuam` cần đặt khóa cấm trùng lặp (UNIQUE).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Phân tích yêu cầu và đối tượng dữ liệu."
-      },
-      {
-        "id": "T11-B18-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phân tích yêu cầu?",
-        "lua_chon": {
-          "A": "Mã sách, tên sách, năm xuất bản mô tả sách.",
-          "B": "Hai sách có thể trùng tên.",
-          "C": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
-          "D": "Quản lí học sinh và lớp học."
+        {
+          "ma": "d",
+          "noi_dung": "Tổ chức tách thành 4 bảng như trên làm tăng dư thừa dữ liệu và tốn dung lượng lưu trữ hơn so với gộp chung 1 bảng.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tách bảng giúp giảm dư thừa dữ liệu và đảm bảo toàn vẹn."
+        }
+      ],
+      "nguon": "Biên soạn từ ndc_bai_18 & Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kiểu dữ liệu các trường trong mymusic",
+      "dan_nhap": "Xác định kiểu dữ liệu cho các trường trong CSDL âm nhạc:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Các trường tên (`tenNhacsi`, `tenCasi`, `tenBannhac`) có thể chọn kiểu `VARCHAR(255)`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Phân tích yêu cầu trong bài Thực hành xác định cấu trúc CSDL."
-      },
-      {
-        "id": "T11-B18-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Phát biểu nào đúng về Đối tượng dữ liệu?",
-        "lua_chon": {
-          "A": "Thuộc tính mô tả đặc điểm của đối tượng.",
-          "B": "Khóa cần nhận diện duy nhất mỗi đối tượng.",
-          "C": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
-          "D": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí."
+        {
+          "ma": "b",
+          "noi_dung": "Các trường khóa chính tự động tăng chọn kiểu `INT` kèm `AUTO_INCREMENT`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng."
-      },
-      {
-        "id": "T11-B18-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống: Quản lí học sinh và lớp học. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "B": "Thuộc tính/trường.",
-          "C": "Mã sách duy nhất.",
-          "D": "HọcSinh và Lớp."
+        {
+          "ma": "c",
+          "noi_dung": "Trường khóa ngoài `idNhacsi` trong bảng `bannhac` có thể chọn kiểu `DATE` khác với khóa chính `idNhacsi` kiểu `INT`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Khóa ngoài phải cùng kiểu dữ liệu với khóa chính tham chiếu."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, HọcSinh và Lớp."
-      },
-      {
-        "id": "T11-B18-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Đối tượng dữ liệu?",
-        "lua_chon": {
-          "A": "Quản lí học sinh và lớp học.",
-          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
-          "C": "Mã sách, tên sách, năm xuất bản mô tả sách.",
-          "D": "Hai sách có thể trùng tên."
+        {
+          "ma": "d",
+          "noi_dung": "Tổ chức CSDL tách bảng giúp giảm công sức chỉnh sửa khi đổi tên một nhạc sĩ hoặc ca sĩ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thiết kế CSDL Tỉnh - Huyện",
+      "dan_nhap": "Một học sinh thiết kế CSDL quản lí đơn vị hành chính gồm hai bảng `tinh(idTinh, tenTinh)` và `huyen(idHuyen, tenHuyen, idTinh)`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "`idTinh` là khóa chính bảng `tinh` và `idHuyen` là khóa chính bảng `huyen`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Đối tượng dữ liệu trong bài Thực hành xác định cấu trúc CSDL."
-      },
-      {
-        "id": "T11-B18-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Phát biểu nào đúng về Thuộc tính?",
-        "lua_chon": {
-          "A": "Khóa cần nhận diện duy nhất mỗi đối tượng.",
-          "B": "Thuộc tính mô tả đặc điểm của đối tượng.",
-          "C": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.",
-          "D": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng."
+        {
+          "ma": "b",
+          "noi_dung": "`idTinh` trong bảng `huyen` là khóa ngoài tham chiếu tới `tinh.idTinh`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Thuộc tính mô tả đặc điểm của đối tượng."
-      },
-      {
-        "id": "T11-B18-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống: Mã sách, tên sách, năm xuất bản mô tả sách. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "HọcSinh và Lớp.",
-          "B": "Mã sách duy nhất.",
-          "C": "Thuộc tính/trường.",
-          "D": "Phân tích yêu cầu và đối tượng dữ liệu."
+        {
+          "ma": "c",
+          "noi_dung": "Nên đặt khóa `UNIQUE` cho trường `tenHuyen` đơn lẻ vì cả nước không bao giờ có hai huyện trùng tên ở hai tỉnh khác nhau.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải đặt `UNIQUE(tenHuyen, idTinh)` để không cấm trùng tên ở hai tỉnh khác nhau."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Thuộc tính/trường."
-      },
-      {
-        "id": "T11-B18-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thuộc tính?",
-        "lua_chon": {
-          "A": "Quản lí học sinh và lớp học.",
-          "B": "Hai sách có thể trùng tên.",
-          "C": "Mã sách, tên sách, năm xuất bản mô tả sách.",
-          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
+        {
+          "ma": "d",
+          "noi_dung": "Trường `tenTinh` trong bảng `tinh` có thể đặt khóa `UNIQUE` để tránh nhập trùng tên tỉnh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Mở rộng thuộc tính cho CSDL mymusic",
+      "dan_nhap": "Khi cần bổ sung thông tin năm sinh hoặc ngày sinh của nhạc sĩ và ca sĩ vào CSDL `mymusic`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Bổ sung thêm trường `ngaysinh` kiểu `DATE` vào bảng `nhacsi` và bảng `casi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Thuộc tính trong bài Thực hành xác định cấu trúc CSDL."
-      },
-      {
-        "id": "T11-B18-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Phát biểu nào đúng về Chọn khóa?",
-        "lua_chon": {
-          "A": "Khóa cần nhận diện duy nhất mỗi đối tượng.",
-          "B": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.",
-          "C": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
-          "D": "Thuộc tính mô tả đặc điểm của đối tượng."
+        {
+          "ma": "b",
+          "noi_dung": "Nếu đặt trường `ngaysinh` vào bảng `bannhac` sẽ gây dư thừa khi một nhạc sĩ sáng tác nhiều bài hát.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Khóa cần nhận diện duy nhất mỗi đối tượng."
-      },
-      {
-        "id": "T11-B18-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống: Hai sách có thể trùng tên. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thuộc tính/trường.",
-          "B": "Mã sách duy nhất.",
-          "C": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "D": "HọcSinh và Lớp."
+        {
+          "ma": "c",
+          "noi_dung": "Cần xóa toàn bộ 4 bảng cũ đi và gộp thành 1 bảng mới thì mới thêm được ngày sinh.",
+          "dap_an": false,
+          "giai_thich": "Sai. Chỉ cần thêm cột vào đúng bảng đối tượng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Mã sách duy nhất."
-      },
-      {
-        "id": "T11-B18-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn khóa?",
-        "lua_chon": {
-          "A": "Hai sách có thể trùng tên.",
-          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
-          "C": "Quản lí học sinh và lớp học.",
-          "D": "Mã sách, tên sách, năm xuất bản mô tả sách."
+        {
+          "ma": "d",
+          "noi_dung": "Việc thêm trường `ngaysinh` giúp phân biệt hai nhạc sĩ có cùng họ tên.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_18 & ndc_bai_18"
+    },
+    {
+      "id": "B18_DS_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Vai trò các loại khóa trong thiết kế bảng",
+      "dan_nhap": "Nhận định về các loại khóa cần xác định khi thiết kế bảng:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Khóa chính (`PRIMARY`) dùng để định danh duy nhất mỗi bản ghi trong bảng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Chọn khóa trong bài Thực hành xác định cấu trúc CSDL."
-      },
-      {
-        "id": "T11-B18-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Phát biểu nào đúng về Tách bảng?",
-        "lua_chon": {
-          "A": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.",
-          "B": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
-          "C": "Thuộc tính mô tả đặc điểm của đối tượng.",
-          "D": "Tách dữ liệu hợp lí giúp giảm lặp và mâu thuẫn."
+        {
+          "ma": "b",
+          "noi_dung": "Khóa ngoài (`FOREIGN KEY`) dùng để liên kết dữ liệu giữa hai bảng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tách dữ liệu hợp lí giúp giảm lặp và mâu thuẫn."
-      },
-      {
-        "id": "T11-B18-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống: Tên lớp lặp lại ở mọi bản ghi học sinh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tách bảng lớp và tham chiếu mã lớp.",
-          "B": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "C": "HọcSinh và Lớp.",
-          "D": "Thuộc tính/trường."
+        {
+          "ma": "c",
+          "noi_dung": "Khóa cấm trùng lặp (`UNIQUE`) dùng để ngăn chặn việc nhập trùng giá trị ở một trường hoặc nhóm trường.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Tách bảng lớp và tham chiếu mã lớp."
-      },
-      {
-        "id": "T11-B18-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tách bảng?",
-        "lua_chon": {
-          "A": "Quản lí học sinh và lớp học.",
-          "B": "Mã sách, tên sách, năm xuất bản mô tả sách.",
-          "C": "Tên lớp lặp lại ở mọi bản ghi học sinh.",
-          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Tách bảng trong bài Thực hành xác định cấu trúc CSDL."
-      },
-      {
-        "id": "T11-B18-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Phát biểu nào đúng về Kiểu dữ liệu?",
-        "lua_chon": {
-          "A": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng.",
-          "B": "Thuộc tính mô tả đặc điểm của đối tượng.",
-          "C": "Kiểu dữ liệu cần phù hợp loại thông tin và thao tác.",
-          "D": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí."
-        },
-        "dap_an": "C",
-        "giai_thich": "Kiểu dữ liệu cần phù hợp loại thông tin và thao tác."
-      },
-      {
-        "id": "T11-B18-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống: Giá ngày mượn cần dùng để sắp xếp thời gian. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Phân tích yêu cầu và đối tượng dữ liệu.",
-          "B": "HọcSinh và Lớp.",
-          "C": "Thuộc tính/trường.",
-          "D": "Ngày/thời gian."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Ngày/thời gian."
-      },
-      {
-        "id": "T11-B18-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểu dữ liệu?",
-        "lua_chon": {
-          "A": "Giá ngày mượn cần dùng để sắp xếp thời gian.",
-          "B": "Bài toán thư viện cần theo dõi sách và lượt mượn.",
-          "C": "Quản lí học sinh và lớp học.",
-          "D": "Mã sách, tên sách, năm xuất bản mô tả sách."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Kiểu dữ liệu trong bài Thực hành xác định cấu trúc CSDL."
-      },
-      {
-        "id": "T11-B18-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Phát biểu nào đúng về Rà soát thiết kế?",
-        "lua_chon": {
-          "A": "Thuộc tính mô tả đặc điểm của đối tượng.",
-          "B": "Thiết kế cần kiểm tra tính đầy đủ, dư thừa và liên kết.",
-          "C": "Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.",
-          "D": "Mỗi đối tượng độc lập thường được biểu diễn thành bảng riêng."
-        },
-        "dap_an": "B",
-        "giai_thich": "Thiết kế cần kiểm tra tính đầy đủ, dư thừa và liên kết."
-      },
-      {
-        "id": "T11-B18-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống: Một bảng không có trường định danh và lưu trùng thông tin. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "HọcSinh và Lớp.",
-          "B": "Thuộc tính/trường.",
-          "C": "Rà soát cấu trúc và quan hệ trước khi tạo bảng.",
-          "D": "Phân tích yêu cầu và đối tượng dữ liệu."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Rà soát cấu trúc và quan hệ trước khi tạo bảng."
-      },
-      {
-        "id": "T11-B18-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Rà soát thiết kế?",
-        "lua_chon": {
-          "A": "Quản lí học sinh và lớp học.",
-          "B": "Mã sách, tên sách, năm xuất bản mô tả sách.",
-          "C": "Một bảng không có trường định danh và lưu trùng thông tin.",
-          "D": "Bài toán thư viện cần theo dõi sách và lượt mượn."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Rà soát thiết kế trong bài Thực hành xác định cấu trúc CSDL."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B18-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Xét tính đúng/sai về Thực hành xác định cấu trúc CSDL:",
-        "y_kien": {
-          "a": "Mọi dữ liệu nên đặt chung một bảng duy nhất.",
-          "b": true,
-          "c": false,
-          "d": "Kiểu dữ liệu cần phù hợp nội dung trường."
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B18-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Nêu các bước từ yêu cầu quản lí đến cấu trúc bảng.",
-        "dap_an_goi_y": "Xác định đối tượng/thông tin, nhóm thành bảng, chọn trường và kiểu dữ liệu, chọn khóa, xác định quan hệ và rà soát dư thừa.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B18-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 18 - Thực hành xác định cấu trúc CSDL",
-        "noi_dung": "Dựa vào kiến thức “Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Bài toán thư viện cần theo dõi sách và lượt mượn.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Thiết kế CSDL bắt đầu bằng việc xác định thông tin cần quản lí. Vận dụng: Phân tích yêu cầu và đối tượng dữ liệu. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Một bảng chỉ được phép có khóa chính, không thể có thêm khóa `UNIQUE`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Một bảng có thể có một khóa chính và nhiều khóa `UNIQUE`."
+        }
+      ],
+      "nguon": "ndc_bai_18"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B18_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thuộc tính tự động tăng",
+      "cau_hoi": "Thuộc tính giúp trường khóa chính kiểu INT tự động tăng giá trị khi thêm bản ghi mới là gì?",
+      "dap_an": "AUTO_INCREMENT",
+      "dap_an_tuong_duong": [
+        "auto_increment"
+      ],
+      "giai_thich": "AUTO_INCREMENT tự động sinh số nguyên tăng dần cho khóa chính.",
+      "nguon": "Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Kiểu dữ liệu xâu tên bản nhạc",
+      "cau_hoi": "Kiểu dữ liệu xâu kí tự độ dài thay đổi tối đa 255 kí tự cho tên bản nhạc là gì?",
+      "dap_an": "VARCHAR(255)",
+      "dap_an_tuong_duong": [
+        "varchar(255)",
+        "VARCHAR"
+      ],
+      "giai_thich": "VARCHAR(255) lưu xâu có độ dài thay đổi tối đa 255 kí tự.",
+      "nguon": "Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khóa cấm trùng lặp UNIQUE",
+      "cau_hoi": "Loại khóa dùng để ngăn cặp giá trị (tenBannhac, idNhacsi) bị trùng lặp trong bảng bannhac gọi là gì?",
+      "dap_an": "Khóa cấm trùng lặp (UNIQUE)",
+      "dap_an_tuong_duong": [
+        "UNIQUE",
+        "Khóa cấm trùng lặp"
+      ],
+      "giai_thich": "Khóa UNIQUE ngăn không cho hai bản ghi có cùng giá trị ở trường/nhóm trường chỉ định.",
+      "nguon": "ndc_bai_18"
+    },
+    {
+      "id": "B18_TLN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kiểu dữ liệu cho trường ngày sinh",
+      "cau_hoi": "Khi bổ sung trường `ngaysinh` vào bảng `nhacsi`, ta nên chọn kiểu dữ liệu chuẩn nào trong MySQL?",
+      "dap_an": "DATE",
+      "dap_an_tuong_duong": [
+        "date"
+      ],
+      "giai_thich": "Kiểu DATE lưu trữ giá trị ngày/tháng/năm.",
+      "nguon": "Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TLN_05",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Số lượng khóa ngoài bảng banthuam",
+      "cau_hoi": "Bảng `banthuam(idBanthuam, idBannhac, idCasi)` có bao nhiêu trường khóa ngoài?",
+      "dap_an": "2",
+      "dap_an_tuong_duong": [
+        "2 trường",
+        "hai"
+      ],
+      "giai_thich": "Có 2 khóa ngoài là `idBannhac` và `idCasi`.",
+      "nguon": "ndc_bai_18"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B18_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cấu trúc 4 bảng CSDL mymusic",
+      "cau_hoi": "Nêu cấu trúc 4 bảng của CSDL `mymusic` cùng khóa chính, khóa ngoài và khóa cấm trùng lặp tương ứng.",
+      "goi_y_dap_an": "- `nhacsi(idNhacsi, tenNhacsi)`: Khóa chính `idNhacsi`.\n- `casi(idCasi, tenCasi)`: Khóa chính `idCasi`.\n- `bannhac(idBannhac, tenBannhac, idNhacsi)`: Khóa chính `idBannhac`; Khóa ngoài `idNhacsi -> nhacsi.idNhacsi`; Cấm trùng `(tenBannhac, idNhacsi)`.\n- `banthuam(idBanthuam, idBannhac, idCasi)`: Khóa chính `idBanthuam`; Khóa ngoài `idBannhac -> bannhac.idBannhac`, `idCasi -> casi.idCasi`; Cấm trùng `(idBannhac, idCasi)`.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng cấu trúc và các loại khóa cho mỗi bảng (0,5đ × 4 = 2,0đ).",
+      "nguon": "ndc_bai_18 & Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thiết kế bảng Tỉnh và Huyện",
+      "cau_hoi": "Hãy xác định cấu trúc bảng, khóa chính và khóa ngoài cho bài toán quản lí Tỉnh/Thành phố và Quận/Huyện.",
+      "goi_y_dap_an": "- `tinh(idTinh, tenTinh)`: Khóa chính `idTinh` (`INT`, `AUTO_INCREMENT`), `tenTinh` (`VARCHAR(255)`, `UNIQUE`).\n- `huyen(idHuyen, tenHuyen, idTinh)`: Khóa chính `idHuyen` (`INT`, `AUTO_INCREMENT`); Khóa ngoài `idTinh -> tinh.idTinh` (`INT`); Cấm trùng `(tenHuyen, idTinh)` (`UNIQUE`).",
+      "thang_diem": "Tổng 2,0 điểm: xác định đúng cấu trúc 2 bảng (0,8đ), khóa chính (0,4đ), khóa ngoài (0,4đ) và khóa UNIQUE (0,4đ).",
+      "nguon": "Kenhgiaovien_18"
+    },
+    {
+      "id": "B18_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích chuyển đổi từ bảng phẳng sang CSDL nhiều bảng",
+      "cau_hoi": "Một học sinh ban đầu chỉ tạo một bảng duy nhất `banthuam(id, tenBannhac, tenNhacsi, tenCasi)` để quản lí 1.000 bản thu âm của 50 nhạc sĩ. Hãy chỉ ra ít nhất 2 vấn đề phát sinh khi sử dụng bảng gộp này và giải thích cách thiết kế 4 bảng trong bài học khắc phục chúng như thế nào.",
+      "goi_y_dap_an": "- Vấn đề của bảng gộp: (1) Dư thừa dữ liệu lớn vì tên nhạc sĩ, tên bản nhạc, tên ca sĩ bị lặp lại hàng trăm lần; (2) Dễ mất nhất quán khi sửa tên (sửa tên một nhạc sĩ phải tìm sửa hàng loạt dòng, dễ sót).\n- Cách khắc phục của 4 bảng: Tách riêng mỗi đối tượng (`nhacsi`, `casi`, `bannhac`, `banthuam`), lưu thông tin chi tiết một lần duy nhất ở bảng gốc và liên kết qua khóa chính – khóa ngoài kiểu `INT`, vừa gọn dung lượng vừa nhất quán khi cập nhật.",
+      "thang_diem": "Tổng 2,0 điểm: chỉ đúng 2 vấn đề dư thừa và mất nhất quán (1,0đ); giải thích rõ cơ chế khắc phục của thiết kế 4 bảng (1,0đ).",
+      "nguon": "ndc_bai_18"
+    }
+  ]
 }

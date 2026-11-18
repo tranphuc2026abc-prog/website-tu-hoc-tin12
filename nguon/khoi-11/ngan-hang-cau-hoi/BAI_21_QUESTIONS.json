@@ -1,424 +1,573 @@
 {
-  "ma_bai": "BAI_21",
-  "bai_so": 21,
-  "ten_bai": "Thực hành cập nhật và truy xuất dữ liệu",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_21",
+  "ten_bai": "Thực hành cập nhật và truy xuất dữ liệu các bảng",
+  "chu_de": "Chủ đề 6: Thực hành tạo và khai thác cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_21_th_cap_nhat.docx",
+    "ndc_bai_21_thuc_hanh_cap_nhat_va_truy_xuat_du_lieu_cac_bang.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B21_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thẻ Dữ liệu (Data) trong HeidiSQL",
+      "cau_hoi": "Trong HeidiSQL, để xem và nhập/chỉnh sửa trực tiếp dữ liệu của một bảng (như bảng `nhacsi`), ta chọn bảng đó rồi mở thẻ nào?",
+      "lua_chon": {
+        "A": "Thẻ Bảng (Table)",
+        "B": "Thẻ Foreign keys",
+        "C": "Thẻ Dữ liệu (Data)",
+        "D": "Thẻ Indexes"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chọn bảng rồi chọn thẻ Dữ liệu (Data) để xem, thêm, sửa, xóa các hàng dữ liệu.",
+      "nguon": "ndc_bai_21"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B21_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thêm hàng dữ liệu mới trong HeidiSQL",
+      "cau_hoi": "Để thêm một hàng dữ liệu mới vào bảng trong thẻ Dữ liệu của HeidiSQL, ta có thể nhấn phím nào hoặc chọn lệnh nào?",
+      "lua_chon": {
+        "A": "Phím Esc",
+        "B": "Phím Insert hoặc nháy phải chọn Chèn hàng",
+        "C": "Phím F1",
+        "D": "Lệnh Drop table"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nhấn phím Insert hoặc nháy phải chuột chọn Chèn hàng để tạo hàng trống mới.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nhập dữ liệu khi khóa chính có AUTO_INCREMENT",
+      "cau_hoi": "Khi thêm bản ghi mới vào bảng `nhacsi(idNhacsi, tenNhacsi)` với `idNhacsi` có thuộc tính `AUTO_INCREMENT`, người dùng cần nhập dữ liệu cho trường nào?",
+      "lua_chon": {
+        "A": "Chỉ cần nhập `tenNhacsi`, hệ thống tự động điền giá trị cho `idNhacsi`",
+        "B": "Bắt buộc tự nhập số thứ tự vào cả `idNhacsi` và `tenNhacsi`",
+        "C": "Không cần nhập trường nào",
+        "D": "Chỉ nhập `idNhacsi`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Vì `idNhacsi` đặt `AUTO_INCREMENT` nên hệ thống tự động điền giá trị tăng dần.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sắp xếp và lọc nhanh trên thẻ Dữ liệu",
+      "cau_hoi": "Trong thẻ Dữ liệu của HeidiSQL, để sắp xếp dữ liệu theo thứ tự tăng/giảm của một cột hoặc lọc nhanh dữ liệu theo điều kiện, người dùng thao tác như thế nào?",
+      "lua_chon": {
+        "A": "Xóa bảng và tạo lại",
+        "B": "Nháy vào tiêu đề cột để sắp xếp; dùng khung lọc (Filter) để nhập điều kiện lọc",
+        "C": "Đổi tên CSDL",
+        "D": "Xuất ra file ảnh"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "HeidiSQL cho phép nháy vào tên cột để sắp xếp và sử dụng công cụ lọc nhanh hoặc thẻ Truy vấn (Query).",
+      "nguon": "Biên soạn từ Kenhgiaovien_21 & ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thao tác chỉnh sửa một ô dữ liệu",
+      "cau_hoi": "Trong thẻ Dữ liệu của HeidiSQL, để chỉnh sửa giá trị tại một ô dữ liệu đã có, thao tác chuẩn xác là gì?",
+      "lua_chon": {
+        "A": "Khởi động lại máy chủ MySQL",
+        "B": "Mở thẻ `Indexes` và xóa khóa chính",
+        "C": "Nhấn tổ hợp `Alt + F4`",
+        "D": "Nháy đúp chuột vào ô cần sửa, nhập giá trị mới rồi nhấn `Enter`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Nháy đúp vào ô, sửa nội dung và nhấn `Enter` để hệ thống ghi nhận thay đổi xuống MySQL.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thao tác xóa một dòng dữ liệu",
+      "cau_hoi": "Để xóa một hàng dữ liệu đã chọn trong thẻ Dữ liệu của HeidiSQL, ta có thể nhấn phím nào trên bàn phím?",
+      "lua_chon": {
+        "A": "Phím `Caps Lock`",
+        "B": "Phím `Space`",
+        "C": "Phím `Delete` (hoặc nháy phải chuột chọn xóa hàng đã chọn) và xác nhận",
+        "D": "Phím `Tab`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chọn hàng cần xóa rồi nhấn `Delete` hoặc chọn lệnh xóa trong menu chuột phải.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím xác nhận hoàn tất nhập ô",
+      "cau_hoi": "Sau khi gõ xong tên nhạc sĩ vào ô trống trong thẻ Dữ liệu của HeidiSQL, phím nào giúp xác nhận ghi nhận dữ liệu của ô đó?",
+      "lua_chon": {
+        "A": "Phím `Esc`",
+        "B": "Phím `Enter`",
+        "C": "Phím `Print Screen`",
+        "D": "Phím `Shift`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nhấn `Enter` để xác nhận kết thúc chỉnh sửa ô và lưu bản ghi.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thao tác trên bảng casi",
+      "cau_hoi": "Các thao tác thêm, sửa, xóa và truy xuất dữ liệu trên bảng `casi(idCasi, tenCasi)` có gì khác biệt so với bảng `nhacsi(idNhacsi, tenNhacsi)`?",
+      "lua_chon": {
+        "A": "Hoàn toàn tương tự nhau vì cả hai đều là bảng không có khóa ngoài",
+        "B": "Bảng `casi` không cho phép nhấn phím `Insert`",
+        "C": "Bảng `casi` bắt buộc phải sửa bằng phần mềm Paint",
+        "D": "Bảng `casi` không hỗ trợ sắp xếp theo tên"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Hai bảng có cấu trúc tương đồng và đều không có khóa ngoài nên thao tác cập nhật/truy xuất giống nhau.",
+      "nguon": "Kenhgiaovien_21 & ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa phím Esc khi đang sửa nhầm ô",
+      "cau_hoi": "Khi đang gõ sửa nhầm dữ liệu trong một ô trên thẻ Dữ liệu nhưng chưa nhấn `Enter`, nếu nhấn phím `Esc` thì điều gì xảy ra?",
+      "lua_chon": {
+        "A": "Tắt máy tính",
+        "B": "Xóa toàn bộ bảng dữ liệu",
+        "C": "Lưu ngay giá trị vừa gõ nhầm",
+        "D": "Hủy bỏ thao tác đang gõ và khôi phục lại giá trị cũ của ô đó"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phím `Esc` hủy chỉnh sửa hiện tại trước khi xác nhận lưu.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Chức năng sắp xếp tăng/giảm khi nháy tiêu đề cột",
+      "cau_hoi": "Khi nháy chuột vào tiêu đề cột `tenNhacsi` trong thẻ Dữ liệu lần thứ nhất rồi nháy tiếp lần thứ hai, kết quả hiển thị thay đổi thế nào?",
+      "lua_chon": {
+        "A": "Xóa toàn bộ cột `tenNhacsi`",
+        "B": "Sắp xếp danh sách nhạc sĩ theo thứ tự tăng dần (A–Z) rồi đảo ngược thành giảm dần (Z–A)",
+        "C": "Đổi kiểu dữ liệu từ `VARCHAR` sang `INT`",
+        "D": "Tự động thêm 10 dòng mới"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nháy tiêu đề cột trong HeidiSQL giúp chuyển đổi nhanh chiều sắp xếp tăng/giảm.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kiểm tra ràng buộc UNIQUE khi nhập liệu",
+      "cau_hoi": "Nếu bảng `tinh(idTinh, tenTinh)` đã đặt khóa `UNIQUE` cho trường `tenTinh`, khi người dùng cố tình nhập thêm một dòng nữa với tên `'Hà Nội'` đã tồn tại, MySQL sẽ làm gì?",
+      "lua_chon": {
+        "A": "Tắt thuộc tính `AUTO_INCREMENT`",
+        "B": "Tự động đổi `'Hà Nội'` thành `'Hà Nội 2'`",
+        "C": "Xóa dòng `'Hà Nội'` cũ đi",
+        "D": "Báo lỗi trùng lặp khóa (`Duplicate entry`) và không cho phép lưu dòng mới"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Khóa `UNIQUE` ngăn chặn mọi giá trị trùng lặp ở trường được bảo vệ.",
+      "nguon": "Kenhgiaovien_21"
+    },
+    {
+      "id": "B21_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Truy xuất dữ liệu bằng SQL trong thẻ Truy vấn",
+      "cau_hoi": "Câu lệnh SQL nào trong thẻ Truy vấn giúp hiển thị toàn bộ danh sách ca sĩ của bảng `casi` sắp xếp theo tên tăng dần?",
+      "lua_chon": {
+        "A": "`INSERT INTO casi ORDER BY tenCasi;`",
+        "B": "`SELECT * FROM casi ORDER BY tenCasi;`",
+        "C": "`DELETE FROM casi ORDER BY tenCasi;`",
+        "D": "`CREATE TABLE casi ORDER BY tenCasi;`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`SELECT * FROM casi ORDER BY tenCasi;` truy xuất toàn bộ bản ghi và sắp xếp tăng dần theo `tenCasi`.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Giá trị id sau khi xóa bản ghi có AUTO_INCREMENT",
+      "cau_hoi": "Bảng `nhacsi` đã có 3 dòng với `idNhacsi` là `1, 2, 3`. Nếu xóa dòng có `idNhacsi = 3` rồi thêm một nhạc sĩ mới bằng `AUTO_INCREMENT`, giá trị `idNhacsi` tiếp theo thường được cấp là bao nhiêu?",
+      "lua_chon": {
+        "A": "0",
+        "B": "1",
+        "C": "4",
+        "D": "-1"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Bộ đếm `AUTO_INCREMENT` của MySQL tiếp tục tăng từ giá trị lớn nhất đã từng cấp (tức là 4), không quay lại tái sử dụng số 3 đã xóa.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Viết lệnh SQL thêm bản ghi mới vào bảng casi",
+      "cau_hoi": "Để thêm ca sĩ `'Lê Dung'` vào bảng `casi(idCasi, tenCasi)` mà để `idCasi` tự động tăng (`AUTO_INCREMENT`), câu lệnh SQL nào viết gọn và đúng nhất?",
+      "lua_chon": {
+        "A": "`SELECT 'Lê Dung' FROM casi;`",
+        "B": "`INSERT INTO casi VALUES ('Lê Dung');`",
+        "C": "`UPDATE casi SET tenCasi = 'Lê Dung';`",
+        "D": "`INSERT INTO casi (tenCasi) VALUES ('Lê Dung');`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Chỉ định rõ cột `(tenCasi)` giúp MySQL tự động điền `idCasi` tăng dần.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Viết lệnh SQL tìm kiếm gần đúng với LIKE",
+      "cau_hoi": "Trong thẻ Truy vấn của HeidiSQL, câu lệnh SQL nào giúp tìm tất cả các nhạc sĩ có tên bắt đầu bằng chữ `'Văn'` trong bảng `nhacsi`?",
+      "lua_chon": {
+        "A": "`DELETE FROM nhacsi WHERE tenNhacsi = 'Văn%';`",
+        "B": "`SELECT * FROM nhacsi WHERE tenNhacsi = 'Văn';`",
+        "C": "`SELECT * FROM nhacsi WHERE tenNhacsi LIKE 'Văn%';`",
+        "D": "`ALTER TABLE nhacsi LIKE 'Văn%';`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Toán tử `LIKE 'Văn%'` khớp mọi xâu bắt đầu bằng `'Văn'`.",
+      "nguon": "Kenhgiaovien_21 & ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Viết lệnh SQL sửa tên nhạc sĩ sai chính tả",
+      "cau_hoi": "Trong bảng `nhacsi`, dòng có `idNhacsi = 4` bị gõ nhầm tên thành `'Hoang Hiep'`. Câu lệnh SQL nào sửa lại đúng thành `'Hoàng Hiệp'`?",
+      "lua_chon": {
+        "A": "`UPDATE nhacsi SET tenNhacsi = 'Hoàng Hiệp' WHERE idNhacsi = 4;`",
+        "B": "`UPDATE nhacsi SET tenNhacsi = 'Hoàng Hiệp';`",
+        "C": "`INSERT INTO nhacsi VALUES (4, 'Hoàng Hiệp');`",
+        "D": "`SELECT * FROM nhacsi WHERE idNhacsi = 4;`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Luôn kèm điều kiện `WHERE idNhacsi = 4` để chỉ sửa đúng bản ghi cần thiết.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí lỗi khi quên nhấn Enter sau khi nhập ô",
+      "cau_hoi": "Bạn Hoa nhập tên ca sĩ mới vào ô `tenCasi` trên thẻ Dữ liệu của HeidiSQL rồi nhấn ngay nút 'Làm tươi' (F5) mà chưa nhấn `Enter` hay chuyển dòng. Kết quả là dòng vừa gõ biến mất. Nguyên nhân là gì?",
+      "lua_chon": {
+        "A": "Phím `F5` tự động xóa toàn bộ bảng",
+        "B": "Bảng `casi` bị thiếu khóa ngoài",
+        "C": "Bộ mã `utf8mb4` không lưu được tên ca sĩ",
+        "D": "Dữ liệu đang ở trạng thái soạn thảo tạm trên giao diện chưa được xác nhận gửi xuống MySQL bằng `Enter`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phải nhấn `Enter` hoặc di chuyển sang dòng khác để HeidiSQL thực thi lệnh `INSERT`/`UPDATE` xuống MySQL.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thêm nhiều bản ghi bằng một lệnh INSERT",
+      "cau_hoi": "Để thêm cùng lúc hai nhạc sĩ `'Văn Cao'` và `'Phạm Tuyên'` vào bảng `nhacsi(tenNhacsi)` bằng SQL, câu lệnh nào hợp lệ?",
+      "lua_chon": {
+        "A": "`ADD nhacsi ('Văn Cao', 'Phạm Tuyên');`",
+        "B": "`INSERT INTO nhacsi (tenNhacsi) VALUES ('Văn Cao' AND 'Phạm Tuyên');`",
+        "C": "`INSERT INTO nhacsi (tenNhacsi) VALUES ('Văn Cao'), ('Phạm Tuyên');`",
+        "D": "`SELECT 'Văn Cao', 'Phạm Tuyên' INTO nhacsi;`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "SQL cho phép chèn nhiều dòng trong một lệnh `INSERT INTO` bằng cách phân tách các bộ giá trị bởi dấu phẩy.",
+      "nguon": "Kenhgiaovien_21"
+    },
+    {
+      "id": "B21_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích lỗi nhập sai kiểu dữ liệu hoặc vượt độ dài",
+      "cau_hoi": "Khi nhập dữ liệu vào bảng `nhacsi` có thêm trường `ngaysinh` kiểu `DATE`, bạn Nam gõ `'30/02/1950'` vào ô `ngaysinh` và nhấn `Enter` thì HeidiSQL báo lỗi. Nguyên nhân và cách sửa đúng là gì?",
+      "lua_chon": {
+        "A": "Ngày 30/02 không tồn tại (và chuẩn nhập DATE trong MySQL là `YYYY-MM-DD`); cần kiểm tra lại ngày tháng hợp lệ theo định dạng `YYYY-MM-DD`",
+        "B": "Vì `idNhacsi` không phải kiểu `DATE`",
+        "C": "Vì bảng `nhacsi` chưa có khóa ngoài",
+        "D": "Vì phải đổi tên bảng thành `casi`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Kiểu `DATE` trong MySQL kiểm tra chặt chẽ tính hợp lệ lịch và dùng chuẩn `YYYY-MM-DD` (ví dụ `'1950-02-28'`).",
+      "nguon": "ndc_bai_21 & Kenhgiaovien_21"
+    },
+    {
+      "id": "B21_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Kiểm soát an toàn khi thực hiện xóa dữ liệu hàng loạt",
+      "cau_hoi": "Trên giao diện thẻ Truy vấn, một học sinh muốn xóa dòng có `idCasi = 5` nhưng gõ nhầm thành `DELETE FROM casi;` (quên `WHERE`). Làm thế nào để hạn chế rủi ro mất sạch dữ liệu bảng khi thực hành thao tác xóa?",
+      "lua_chon": {
+        "A": "Luôn chạy `SELECT * FROM casi WHERE ...;` để kiểm tra đúng dòng cần xóa trước khi đổi sang `DELETE`, hoặc thao tác chọn từng dòng trên thẻ Dữ liệu và sao lưu định kì",
+        "B": "Không bao giờ dùng khóa chính `idCasi`",
+        "C": "Tắt chế độ `AUTO_INCREMENT`",
+        "D": "Xóa bộ mã `utf8mb4`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Kiểm tra điều kiện lọc bằng `SELECT` trước khi `DELETE` và sao lưu thường xuyên giúp tránh xóa nhầm toàn bộ bảng.",
+      "nguon": "ndc_bai_21 & Kenhgiaovien_21"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B21-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Muốn liệt kê nhạc sĩ mà không sửa dữ liệu, dùng thao tác nào?",
-        "lua_chon": {
-          "A": "UPDATE",
-          "B": "DROP TABLE",
-          "C": "SELECT",
-          "D": "DELETE"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B21_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cập nhật dữ liệu bảng không có khóa ngoài",
+      "dan_nhap": "Thao tác cập nhật dữ liệu trong bảng không có khóa ngoài (`nhacsi`, `casi`) bằng HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể nhấn phím `Insert` hoặc chọn `Chèn hàng` để thêm bản ghi mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Đáp án đúng vì SELECT; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B21-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về INSERT?",
-        "lua_chon": {
-          "A": "DELETE xóa các bản ghi thỏa điều kiện.",
-          "B": "SELECT truy xuất dữ liệu mà không thay đổi bảng.",
-          "C": "INSERT thêm bản ghi vào bảng.",
-          "D": "UPDATE sửa giá trị của các bản ghi khớp điều kiện."
+        {
+          "ma": "b",
+          "noi_dung": "Muốn sửa giá trị một ô trong bảng, chỉ cần nháy đúp chuột vào ô đó và nhập giá trị mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "INSERT thêm bản ghi vào bảng."
-      },
-      {
-        "id": "T11-B21-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống: Thêm một nhạc sĩ mới. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "UPDATE với WHERE id=5.",
-          "B": "DELETE với điều kiện WHERE chính xác.",
-          "C": "SELECT.",
-          "D": "INSERT."
+        {
+          "ma": "c",
+          "noi_dung": "Vì `idNhacsi` là `AUTO_INCREMENT`, người dùng không cần tự nhập giá trị cho trường này khi thêm mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, INSERT."
-      },
-      {
-        "id": "T11-B21-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về INSERT?",
-        "lua_chon": {
-          "A": "Sửa tên nhạc sĩ có id 5.",
-          "B": "Xóa bản ghi nhạc sĩ đã xác định.",
-          "C": "Liệt kê tên các nhạc sĩ.",
-          "D": "Thêm một nhạc sĩ mới."
+        {
+          "ma": "d",
+          "noi_dung": "HeidiSQL không cho phép xóa các dòng dữ liệu đã nhập trong bảng `nhacsi`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Có thể chọn dòng và xóa bằng phím Delete hoặc menu chuột phải."
+        }
+      ],
+      "nguon": "Biên soạn từ ndc_bai_21 & Kenhgiaovien_21"
+    },
+    {
+      "id": "B21_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Truy xuất dữ liệu bảng nhacsi và casi",
+      "dan_nhap": "Truy xuất dữ liệu bảng `nhacsi` và `casi`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể truy xuất bằng giao diện thẻ Dữ liệu (sắp xếp, lọc) hoặc bằng câu lệnh SQL trong thẻ Truy vấn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với INSERT trong bài Thực hành cập nhật và truy xuất dữ liệu."
-      },
-      {
-        "id": "T11-B21-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về UPDATE?",
-        "lua_chon": {
-          "A": "SELECT truy xuất dữ liệu mà không thay đổi bảng.",
-          "B": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
-          "C": "INSERT thêm bản ghi vào bảng.",
-          "D": "DELETE xóa các bản ghi thỏa điều kiện."
+        {
+          "ma": "b",
+          "noi_dung": "Nếu bảng đã đặt `UNIQUE` cho trường tên, nhập trùng giá trị vi phạm ràng buộc sẽ bị hệ thống báo lỗi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "UPDATE sửa giá trị của các bản ghi khớp điều kiện."
-      },
-      {
-        "id": "T11-B21-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống: Sửa tên nhạc sĩ có id 5. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "DELETE với điều kiện WHERE chính xác.",
-          "B": "SELECT.",
-          "C": "UPDATE với WHERE id=5.",
-          "D": "INSERT."
+        {
+          "ma": "c",
+          "noi_dung": "Mọi thao tác sửa, xóa dữ liệu trên bảng `casi` đều hoàn toàn khác với bảng `nhacsi`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thao tác hoàn toàn tương tự."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, UPDATE với WHERE id=5."
-      },
-      {
-        "id": "T11-B21-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về UPDATE?",
-        "lua_chon": {
-          "A": "Liệt kê tên các nhạc sĩ.",
-          "B": "Sửa tên nhạc sĩ có id 5.",
-          "C": "Thêm một nhạc sĩ mới.",
-          "D": "Xóa bản ghi nhạc sĩ đã xác định."
+        {
+          "ma": "d",
+          "noi_dung": "Phím `Enter` giúp xác nhận hoàn tất nhập ô dữ liệu đang chỉnh sửa.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_21 & ndc_bai_21"
+    },
+    {
+      "id": "B21_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sử dụng bộ lọc và sắp xếp trên HeidiSQL",
+      "dan_nhap": "Một học sinh quản lí danh sách 50 tỉnh thành trong bảng `tinh(idTinh, tenTinh)` trên thẻ Dữ liệu của HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Nháy vào tiêu đề cột `tenTinh` giúp sắp xếp tên các tỉnh theo thứ tự bảng chữ cái.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với UPDATE trong bài Thực hành cập nhật và truy xuất dữ liệu."
-      },
-      {
-        "id": "T11-B21-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về DELETE?",
-        "lua_chon": {
-          "A": "DELETE xóa các bản ghi thỏa điều kiện.",
-          "B": "INSERT thêm bản ghi vào bảng.",
-          "C": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
-          "D": "SELECT truy xuất dữ liệu mà không thay đổi bảng."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể nhập điều kiện vào ô lọc (Filter) để chỉ hiển thị các tỉnh có tên chứa từ `'Quảng'`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "DELETE xóa các bản ghi thỏa điều kiện."
-      },
-      {
-        "id": "T11-B21-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống: Xóa bản ghi nhạc sĩ đã xác định. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "SELECT.",
-          "B": "DELETE với điều kiện WHERE chính xác.",
-          "C": "INSERT.",
-          "D": "UPDATE với WHERE id=5."
+        {
+          "ma": "c",
+          "noi_dung": "Sắp xếp hiển thị trên thẻ Dữ liệu sẽ tự động thay đổi vĩnh viễn giá trị khóa chính `idTinh` của các tỉnh.",
+          "dap_an": false,
+          "giai_thich": "Sai. Sắp xếp chỉ thay đổi thứ tự hiển thị kết quả, không sửa giá trị `idTinh`."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, DELETE với điều kiện WHERE chính xác."
-      },
-      {
-        "id": "T11-B21-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về DELETE?",
-        "lua_chon": {
-          "A": "Thêm một nhạc sĩ mới.",
-          "B": "Sửa tên nhạc sĩ có id 5.",
-          "C": "Liệt kê tên các nhạc sĩ.",
-          "D": "Xóa bản ghi nhạc sĩ đã xác định."
+        {
+          "ma": "d",
+          "noi_dung": "Nếu lỡ gõ sai khi đang sửa một ô (chưa nhấn `Enter`), có thể nhấn `Esc` để hủy thay đổi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_21 & ndc_bai_21"
+    },
+    {
+      "id": "B21_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Truy xuất và cập nhật bằng SQL",
+      "dan_nhap": "Thực hành chạy câu lệnh SQL trên thẻ Truy vấn (Query) đối với bảng `nhacsi(idNhacsi, tenNhacsi)`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Lệnh `SELECT * FROM nhacsi ORDER BY tenNhacsi DESC;` sắp xếp tên nhạc sĩ giảm dần.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với DELETE trong bài Thực hành cập nhật và truy xuất dữ liệu."
-      },
-      {
-        "id": "T11-B21-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về SELECT?",
-        "lua_chon": {
-          "A": "INSERT thêm bản ghi vào bảng.",
-          "B": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
-          "C": "DELETE xóa các bản ghi thỏa điều kiện.",
-          "D": "SELECT truy xuất dữ liệu mà không thay đổi bảng."
+        {
+          "ma": "b",
+          "noi_dung": "Lệnh `INSERT INTO nhacsi (tenNhacsi) VALUES ('Trần Tiến');` thêm mới một nhạc sĩ và tự sinh `idNhacsi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "SELECT truy xuất dữ liệu mà không thay đổi bảng."
-      },
-      {
-        "id": "T11-B21-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống: Liệt kê tên các nhạc sĩ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "SELECT.",
-          "B": "INSERT.",
-          "C": "UPDATE với WHERE id=5.",
-          "D": "DELETE với điều kiện WHERE chính xác."
+        {
+          "ma": "c",
+          "noi_dung": "Lệnh `UPDATE nhacsi SET tenNhacsi = 'A';` chỉ sửa duy nhất dòng đầu tiên của bảng.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thiếu `WHERE` sẽ sửa toàn bộ các dòng trong bảng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, SELECT."
-      },
-      {
-        "id": "T11-B21-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về SELECT?",
-        "lua_chon": {
-          "A": "Xóa bản ghi nhạc sĩ đã xác định.",
-          "B": "Liệt kê tên các nhạc sĩ.",
-          "C": "Thêm một nhạc sĩ mới.",
-          "D": "Sửa tên nhạc sĩ có id 5."
+        {
+          "ma": "d",
+          "noi_dung": "Lệnh `DELETE FROM nhacsi WHERE idNhacsi = 10;` chỉ xóa bản ghi có `idNhacsi = 10`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_DS_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Kiểm tra tính hợp lệ khi nhập dữ liệu",
+      "dan_nhap": "Nhận định về các lỗi thường gặp khi nhập dữ liệu trên thẻ Dữ liệu:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Nếu nhập chữ cái vào một trường khai báo kiểu `INT`, hệ thống sẽ báo lỗi hoặc từ chối.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với SELECT trong bài Thực hành cập nhật và truy xuất dữ liệu."
-      },
-      {
-        "id": "T11-B21-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về WHERE?",
-        "lua_chon": {
-          "A": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
-          "B": "DELETE xóa các bản ghi thỏa điều kiện.",
-          "C": "WHERE lọc bản ghi theo điều kiện.",
-          "D": "INSERT thêm bản ghi vào bảng."
+        {
+          "ma": "b",
+          "noi_dung": "Không cần nhấn `Enter` hoặc chuyển dòng thì dữ liệu vừa gõ vẫn luôn tự động lưu khi tắt đột ngột HeidiSQL.",
+          "dap_an": false,
+          "giai_thich": "Sai. Dữ liệu chưa xác nhận sẽ bị mất."
         },
-        "dap_an": "C",
-        "giai_thich": "WHERE lọc bản ghi theo điều kiện."
-      },
-      {
-        "id": "T11-B21-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống: Chỉ lấy dữ liệu của một mã nhạc sĩ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "INSERT.",
-          "B": "UPDATE với WHERE id=5.",
-          "C": "DELETE với điều kiện WHERE chính xác.",
-          "D": "WHERE."
+        {
+          "ma": "c",
+          "noi_dung": "Khi xóa một dòng có `idNhacsi = 5` rồi thêm mới, `AUTO_INCREMENT` vẫn tiếp tục tăng chứ không lùi lại số 5.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, WHERE."
-      },
-      {
-        "id": "T11-B21-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về WHERE?",
-        "lua_chon": {
-          "A": "Thêm một nhạc sĩ mới.",
-          "B": "Sửa tên nhạc sĩ có id 5.",
-          "C": "Xóa bản ghi nhạc sĩ đã xác định.",
-          "D": "Chỉ lấy dữ liệu của một mã nhạc sĩ."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với WHERE trong bài Thực hành cập nhật và truy xuất dữ liệu."
-      },
-      {
-        "id": "T11-B21-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về SELECT cột?",
-        "lua_chon": {
-          "A": "DELETE xóa các bản ghi thỏa điều kiện.",
-          "B": "Danh sách sau SELECT xác định cột cần hiển thị.",
-          "C": "INSERT thêm bản ghi vào bảng.",
-          "D": "UPDATE sửa giá trị của các bản ghi khớp điều kiện."
-        },
-        "dap_an": "B",
-        "giai_thich": "Danh sách sau SELECT xác định cột cần hiển thị."
-      },
-      {
-        "id": "T11-B21-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống: Chỉ cần xem tenNhacsi. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "UPDATE với WHERE id=5.",
-          "B": "DELETE với điều kiện WHERE chính xác.",
-          "C": "Chỉ chọn trường tenNhacsi.",
-          "D": "INSERT."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Chỉ chọn trường tenNhacsi."
-      },
-      {
-        "id": "T11-B21-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về SELECT cột?",
-        "lua_chon": {
-          "A": "Xóa bản ghi nhạc sĩ đã xác định.",
-          "B": "Chỉ cần xem tenNhacsi.",
-          "C": "Thêm một nhạc sĩ mới.",
-          "D": "Sửa tên nhạc sĩ có id 5."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với SELECT cột trong bài Thực hành cập nhật và truy xuất dữ liệu."
-      },
-      {
-        "id": "T11-B21-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra ảnh hưởng?",
-        "lua_chon": {
-          "A": "Xem các dòng bị tác động giúp hạn chế sửa/xóa nhầm.",
-          "B": "INSERT thêm bản ghi vào bảng.",
-          "C": "UPDATE sửa giá trị của các bản ghi khớp điều kiện.",
-          "D": "DELETE xóa các bản ghi thỏa điều kiện."
-        },
-        "dap_an": "A",
-        "giai_thich": "Xem các dòng bị tác động giúp hạn chế sửa/xóa nhầm."
-      },
-      {
-        "id": "T11-B21-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống: Chạy lệnh cập nhật trên bảng nhiều dòng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "DELETE với điều kiện WHERE chính xác.",
-          "B": "Chạy SELECT với cùng điều kiện để kiểm tra phạm vi.",
-          "C": "INSERT.",
-          "D": "UPDATE với WHERE id=5."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Chạy SELECT với cùng điều kiện để kiểm tra phạm vi."
-      },
-      {
-        "id": "T11-B21-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra ảnh hưởng?",
-        "lua_chon": {
-          "A": "Thêm một nhạc sĩ mới.",
-          "B": "Sửa tên nhạc sĩ có id 5.",
-          "C": "Xóa bản ghi nhạc sĩ đã xác định.",
-          "D": "Chạy lệnh cập nhật trên bảng nhiều dòng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Kiểm tra ảnh hưởng trong bài Thực hành cập nhật và truy xuất dữ liệu."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B21-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Xét tính đúng/sai về Thực hành cập nhật và truy xuất dữ liệu:",
-        "y_kien": {
-          "a": "INSERT thường thêm bản ghi.",
-          "b": "Cần kiểm tra điều kiện trước khi cập nhật hoặc xóa.",
-          "c": true,
-          "d": true
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B21-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Phân biệt thêm, sửa, xóa và truy xuất dữ liệu.",
-        "dap_an_goi_y": "INSERT thêm; UPDATE sửa; DELETE xóa; SELECT truy xuất. Trước sửa/xóa cần kiểm tra điều kiện và dữ liệu liên quan.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B21-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 21 - Thực hành cập nhật và truy xuất dữ liệu",
-        "noi_dung": "Dựa vào kiến thức “INSERT thêm bản ghi vào bảng.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Thêm một nhạc sĩ mới.",
-        "dap_an_goi_y": "Nêu ý kiến thức: INSERT thêm bản ghi vào bảng. Vận dụng: INSERT. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Có thể mở thẻ Dữ liệu của bảng `casi` để kiểm tra lại toàn bộ các dòng vừa thêm.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_21"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B21_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thẻ Dữ liệu trong HeidiSQL",
+      "cau_hoi": "Tên thẻ trong HeidiSQL hiển thị các hàng dữ liệu của bảng để thêm, sửa, xóa trực tiếp là gì?",
+      "dap_an": "Dữ liệu (Data)",
+      "dap_an_tuong_duong": [
+        "Dữ liệu",
+        "Data"
+      ],
+      "giai_thich": "Thẻ Dữ liệu (Data) dùng để xem và cập nhật trực tiếp bản ghi.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím chèn hàng mới",
+      "cau_hoi": "Phím tắt trên bàn phím để chèn thêm một hàng dữ liệu mới trong thẻ Dữ liệu là phím nào?",
+      "dap_an": "Insert",
+      "dap_an_tuong_duong": [
+        "Phím Insert",
+        "Ins"
+      ],
+      "giai_thich": "Nhấn phím Insert để thêm một hàng trống mới.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh chuột phải chèn hàng",
+      "cau_hoi": "Lệnh trong menu chuột phải khi muốn thêm dòng dữ liệu mới trong HeidiSQL là gì?",
+      "dap_an": "Chèn hàng",
+      "dap_an_tuong_duong": [
+        "Insert row",
+        "Chèn hàng mới"
+      ],
+      "giai_thich": "Nháy phải chuột ở thẻ Dữ liệu -> chọn Chèn hàng.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phím xác nhận nhập ô",
+      "cau_hoi": "Sau khi gõ giá trị mới vào một ô trong thẻ Dữ liệu, ta nhấn phím nào để xác nhận lưu xuống CSDL?",
+      "dap_an": "Enter",
+      "dap_an_tuong_duong": [
+        "Phím Enter"
+      ],
+      "giai_thich": "Nhấn Enter để hoàn tất cập nhật giá trị ô.",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Từ khóa sắp xếp giảm dần trong SQL",
+      "cau_hoi": "Trong mệnh đề `ORDER BY tenNhacsi ...` của SQL, từ khóa nào đặt ở cuối để sắp xếp theo thứ tự giảm dần (Z–A)?",
+      "dap_an": "DESC",
+      "dap_an_tuong_duong": [
+        "desc"
+      ],
+      "giai_thich": "DESC (Descending) sắp xếp theo thứ tự giảm dần.",
+      "nguon": "ndc_bai_21"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B21_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thao tác thêm và sửa dữ liệu trong HeidiSQL",
+      "cau_hoi": "Trình bày các thao tác thêm mới và chỉnh sửa dữ liệu trong bảng `nhacsi` bằng giao diện HeidiSQL.",
+      "goi_y_dap_an": "- Thêm mới: Chọn bảng `nhacsi` → thẻ `Dữ liệu` → nhấn phím `Insert` (hoặc nháy phải chọn `Chèn hàng`) → nháy đúp vào ô cột `tenNhacsi` để nhập tên (không cần nhập `idNhacsi` vì có `AUTO_INCREMENT`) → nhấn `Enter`.\n- Chỉnh sửa: Nháy đúp chuột vào ô cần sửa, nhập giá trị mới và nhấn `Enter`.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng quy trình thêm mới (1,2đ) và chỉnh sửa (0,8đ).",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Viết lệnh SQL thêm và truy xuất sắp xếp",
+      "cau_hoi": "Viết câu lệnh SQL để thêm ca sĩ 'Lê Dung' vào bảng `casi` và truy xuất toàn bộ danh sách ca sĩ sắp xếp theo tên tăng dần.",
+      "goi_y_dap_an": "- Thêm: `INSERT INTO casi (tenCasi) VALUES ('Lê Dung');`\n- Truy xuất sắp xếp: `SELECT * FROM casi ORDER BY tenCasi;`",
+      "thang_diem": "Tổng 2,0 điểm: viết đúng lệnh INSERT (1,0đ) và lệnh SELECT ... ORDER BY (1,0đ).",
+      "nguon": "ndc_bai_21"
+    },
+    {
+      "id": "B21_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "So sánh cập nhật qua giao diện và qua SQL",
+      "cau_hoi": "Khi cần thêm 3 bản ghi mới vào bảng `nhacsi`, người dùng có thể thao tác trực tiếp trên thẻ Dữ liệu của HeidiSQL hoặc viết lệnh SQL ở thẻ Truy vấn. Hãy nêu ưu điểm của mỗi cách và cho biết khi nào nên ưu tiên dùng câu lệnh SQL.",
+      "goi_y_dap_an": "- Thẻ Dữ liệu (giao diện): Trực quan, dễ thao tác với số lượng ít bản ghi, không cần nhớ cú pháp lệnh.\n- Thẻ Truy vấn (SQL): Nhanh chóng khi chèn/sửa/xóa hàng loạt bản ghi theo điều kiện, dễ lưu lại kịch bản để chạy lại hoặc tự động hóa.\n- Nên ưu tiên SQL khi cập nhật/lọc dữ liệu số lượng lớn hoặc theo điều kiện phức tạp.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng ưu điểm thẻ Dữ liệu (0,7đ), ưu điểm SQL (0,7đ) và chỉ ra được tình huống ưu tiên SQL (0,6đ).",
+      "nguon": "Kenhgiaovien_21 & ndc_bai_21"
+    }
+  ]
 }

@@ -1,424 +1,571 @@
 {
-  "ma_bai": "BAI_23",
-  "bai_so": 23,
-  "ten_bai": "Thực hành truy xuất dữ liệu qua liên kết bảng",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_23",
+  "ten_bai": "Thực hành truy xuất dữ liệu qua liên kết các bảng",
+  "chu_de": "Chủ đề 6: Thực hành tạo và khai thác cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_23_thuc_hanh.docx",
+    "ndc_bai_23_thuc_hanh_truy_xuat_du_lieu_qua_lien_ket_cac_bang.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B23_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mệnh đề INNER JOIN ... ON ...",
+      "cau_hoi": "Mệnh đề SQL nào được sử dụng để nối các bảng dữ liệu lại với nhau theo điều kiện bằng nhau giữa khóa ngoài và khóa chính?",
+      "lua_chon": {
+        "A": "ORDER BY",
+        "B": "INNER JOIN ... ON ...",
+        "C": "INSERT INTO",
+        "D": "CREATE TABLE"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Dùng `INNER JOIN <bảng_2> ON <điều_kiện_khóa>` để liên kết dữ liệu giữa các bảng.",
+      "nguon": "ndc_bai_23 & Kenhgiaovien_23"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B23_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Truy vấn liên kết 2 bảng bannhac và nhacsi",
+      "cau_hoi": "Để lấy danh sách các bản nhạc gồm `tenBannhac` và tên tác giả `tenNhacsi`, câu truy vấn SQL nào là đúng?",
+      "lua_chon": {
+        "A": "SELECT * FROM nhacsi WHERE idNhacsi = idBannhac;",
+        "B": "SELECT tenBannhac, tenNhacsi FROM bannhac;",
+        "C": "SELECT bannhac.tenBannhac, nhacsi.tenNhacsi FROM bannhac INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi;",
+        "D": "UPDATE bannhac INNER JOIN nhacsi;"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Phải dùng `INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi` để lấy đúng tên nhạc sĩ tương ứng.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định số bảng cần nối cho truy vấn 4 bảng",
+      "cau_hoi": "Để lập danh sách các bản thu âm gồm `idBanthuam`, `tenBannhac`, `tenNhacsi`, `tenCasi` của ca sĩ 'Lê Dung', cần liên kết tối thiểu bao nhiêu bảng?",
+      "lua_chon": {
+        "A": "4 bảng (banthuam, bannhac, casi, nhacsi)",
+        "B": "2 bảng",
+        "C": "3 bảng",
+        "D": "1 bảng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Cần đủ 4 bảng: `banthuam` nối với `bannhac`, `casi` và `bannhac` nối với `nhacsi`, kết hợp `WHERE casi.tenCasi = 'Lê Dung'`.",
+      "nguon": "Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TN_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Quy tắc viết tên trường đầy đủ tenBang.tenTruong",
+      "cau_hoi": "Khi viết câu truy vấn có `INNER JOIN` giữa hai bảng đều có trường tên `idNhacsi`, cách viết nào sau đây chuẩn xác để tránh lỗi mơ hồ cột?",
+      "lua_chon": {
+        "A": "`idNhacsi = idNhacsi`",
+        "B": "`bannhac.idNhacsi = nhacsi.idNhacsi`",
+        "C": "`nhacsi = bannhac`",
+        "D": "`tenBannhac = tenNhacsi`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Viết dạng `tenBang.tenTruong` chỉ rõ trường thuộc bảng nào.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Vị trí soạn thảo truy vấn INNER JOIN trong HeidiSQL",
+      "cau_hoi": "Trong phần mềm HeidiSQL, để nhập và chạy câu lệnh truy vấn `SELECT ... INNER JOIN ...`, người dùng mở thẻ nào?",
+      "lua_chon": {
+        "A": "Thẻ Indexes",
+        "B": "Thẻ Bảng (Table)",
+        "C": "Thẻ Foreign keys",
+        "D": "Thẻ Truy vấn (Query)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Thẻ Truy vấn (Query) dùng để viết và thực thi các câu lệnh SQL.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mệnh đề lọc kết quả sau khi JOIN",
+      "cau_hoi": "Sau khi nối các bảng bằng `INNER JOIN`, để chỉ giữ lại các bản ghi của nhạc sĩ `'Văn Cao'`, ta bổ sung mệnh đề nào?",
+      "lua_chon": {
+        "A": "`WHERE nhacsi.tenNhacsi = 'Văn Cao'`",
+        "B": "`ON nhacsi.tenNhacsi = 'Văn Cao'`",
+        "C": "`ORDER BY nhacsi.tenNhacsi = 'Văn Cao'`",
+        "D": "`INSERT INTO nhacsi VALUES ('Văn Cao')`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Mệnh đề `WHERE` dùng để lọc các dòng thỏa điều kiện cụ thể.",
+      "nguon": "Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Từ khóa kết nối 3 bảng",
+      "cau_hoi": "Để nối 3 bảng `banthuam`, `bannhac` và `casi` trong một câu truy vấn `SELECT`, ta cần sử dụng từ khóa `INNER JOIN` mấy lần?",
+      "lua_chon": {
+        "A": "4 lần",
+        "B": "1 lần",
+        "C": "3 lần",
+        "D": "2 lần"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Nối $n$ bảng trong chuỗi liên kết cần $n - 1$ phép `INNER JOIN` (3 bảng cần 2 lần).",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_08",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lý do cần nối qua bảng trung gian bannhac",
+      "cau_hoi": "Muốn lấy tên nhạc sĩ sáng tác của các bản thu âm trong bảng `banthuam`, vì sao phải nối `banthuam` với `bannhac` rồi mới nối tiếp với `nhacsi`?",
+      "lua_chon": {
+        "A": "Vì bảng `nhacsi` không có khóa chính",
+        "B": "Vì SQL không cho phép nối trực tiếp 2 bảng",
+        "C": "Vì `banthuam` chỉ có `idBannhac`, không lưu trực tiếp `idNhacsi`; chỉ bảng `bannhac` mới chứa `idNhacsi` liên kết tới `nhacsi`",
+        "D": "Vì bảng `banthuam` không có `idBanthuam`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`bannhac` là bảng trung gian kết nối `banthuam` với `nhacsi`.",
+      "nguon": "ndc_bai_23 & Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hậu quả của lỗi Column is ambiguous",
+      "cau_hoi": "Khi chạy câu lệnh `SELECT idNhacsi, tenBannhac, tenNhacsi FROM bannhac INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi;`, MySQL báo lỗi `Column 'idNhacsi' in field list is ambiguous`. Nguyên nhân là gì?",
+      "lua_chon": {
+        "A": "Cả hai bảng `bannhac` và `nhacsi` đều có cột tên `idNhacsi`, nên ở phần `SELECT` phải viết rõ `nhacsi.idNhacsi` hoặc `bannhac.idNhacsi`",
+        "B": "Do hai bảng không có dữ liệu",
+        "C": "Do thiếu mệnh đề `ORDER BY`",
+        "D": "Do sai bộ mã `utf8mb4`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Khi nhiều bảng trong phép nối có cột trùng tên, SQL yêu cầu chỉ rõ tên bảng phía trước tên cột.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lỗi nối sai điều kiện ON",
+      "cau_hoi": "Nếu viết nhầm điều kiện nối `FROM banthuam INNER JOIN casi ON banthuam.idBannhac = casi.idCasi`, kết quả trả về sẽ bị làm sao?",
+      "lua_chon": {
+        "A": "Tự động sửa lại đúng thành `idCasi = idCasi`",
+        "B": "Ghép sai lệch bản thu âm với ca sĩ (so sánh mã bản nhạc với mã ca sĩ) dẫn đến thông tin hoàn toàn sai nghĩa",
+        "C": "Xóa toàn bộ bảng `casi`",
+        "D": "Không chạy được bất kì câu lệnh nào khác"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Cả hai mã đều là số nguyên `INT` nên SQL vẫn chạy nhưng ghép nhầm bản ghi khác đối tượng.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thứ tự mệnh đề trong truy vấn có INNER JOIN",
+      "cau_hoi": "Trong truy vấn liên kết bảng có lọc và sắp xếp, thứ tự đặt các mệnh đề nào sau đây đúng chuẩn SQL?",
+      "lua_chon": {
+        "A": "`SELECT ... WHERE ... FROM ... INNER JOIN ... ORDER BY ...;`",
+        "B": "`SELECT ... FROM ... INNER JOIN ... ON ... WHERE ... ORDER BY ...;`",
+        "C": "`SELECT ... FROM ... ORDER BY ... INNER JOIN ... WHERE ...;`",
+        "D": "`FROM ... INNER JOIN ... SELECT ... WHERE ...;`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Các mệnh đề nối bảng (`INNER JOIN ... ON ...`) nằm trong phần `FROM`, đứng trước `WHERE` và `ORDER BY`.",
+      "nguon": "ndc_bai_23 & Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Số bảng cần thiết để xem bản thu của ca sĩ kèm tên bản nhạc",
+      "cau_hoi": "Để hiển thị `idBanthuam`, `tenBannhac` và `tenCasi` (không cần tên nhạc sĩ), ta cần nối những bảng nào?",
+      "lua_chon": {
+        "A": "Chỉ bảng `bannhac`",
+        "B": "`nhacsi` và `casi`",
+        "C": "Chỉ `banthuam` và `nhacsi`",
+        "D": "`banthuam`, `bannhac` và `casi` (3 bảng)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`banthuam` nối `bannhac` lấy `tenBannhac` và nối `casi` lấy `tenCasi`.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_13",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Viết truy vấn liên kết bảng huyen và tinh",
+      "cau_hoi": "Cho hai bảng `tinh(idTinh, tenTinh)` và `huyen(idHuyen, tenHuyen, idTinh)`. Câu lệnh SQL nào liệt kê danh sách các huyện của tỉnh `'Quảng Ngãi'`?",
+      "lua_chon": {
+        "A": "`SELECT huyen.tenHuyen, tinh.tenTinh FROM huyen INNER JOIN tinh ON huyen.idTinh = tinh.idTinh WHERE tinh.tenTinh = 'Quảng Ngãi';`",
+        "B": "`SELECT tenHuyen FROM huyen WHERE tenTinh = 'Quảng Ngãi';`",
+        "C": "`SELECT * FROM tinh INNER JOIN huyen ON tinh.tenTinh = huyen.tenHuyen;`",
+        "D": "`DELETE FROM huyen WHERE idTinh = 'Quảng Ngãi';`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nối `huyen` với `tinh` qua `idTinh` rồi lọc `WHERE tinh.tenTinh = 'Quảng Ngãi'`.",
+      "nguon": "Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lọc bản nhạc theo tên nhạc sĩ cụ thể",
+      "cau_hoi": "Câu lệnh SQL nào hiển thị danh sách tên các bản nhạc (`tenBannhac`) do nhạc sĩ `'Đỗ Nhuận'` sáng tác, sắp xếp theo bảng chữ cái?",
+      "lua_chon": {
+        "A": "`SELECT bannhac.tenBannhac FROM bannhac ORDER BY nhacsi.tenNhacsi;`",
+        "B": "`SELECT tenBannhac FROM nhacsi WHERE tenNhacsi = 'Đỗ Nhuận';`",
+        "C": "`SELECT * FROM bannhac WHERE tenBannhac = 'Đỗ Nhuận';`",
+        "D": "`SELECT bannhac.tenBannhac FROM bannhac INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi WHERE nhacsi.tenNhacsi = 'Đỗ Nhuận' ORDER BY bannhac.tenBannhac;`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Nối `bannhac` với `nhacsi` qua `idNhacsi`, lọc tên nhạc sĩ và sắp xếp theo `tenBannhac`.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Liệt kê ca sĩ đã từng thu âm một bản nhạc cụ thể",
+      "cau_hoi": "Để biết những ca sĩ nào đã thu âm bài `'Tiến quân ca'`, câu lệnh SQL nào đúng?",
+      "lua_chon": {
+        "A": "`SELECT * FROM nhacsi INNER JOIN casi ON nhacsi.idNhacsi = casi.idCasi;`",
+        "B": "`SELECT tenCasi FROM casi WHERE tenBannhac = 'Tiến quân ca';`",
+        "C": "`SELECT casi.tenCasi FROM banthuam INNER JOIN bannhac ON banthuam.idBannhac = bannhac.idBannhac INNER JOIN casi ON banthuam.idCasi = casi.idCasi WHERE bannhac.tenBannhac = 'Tiến quân ca';`",
+        "D": "`SELECT tenCasi FROM bannhac WHERE tenBannhac = 'Tiến quân ca';`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nối 3 bảng `banthuam`, `bannhac`, `casi` rồi lọc `WHERE bannhac.tenBannhac = 'Tiến quân ca'`.",
+      "nguon": "Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính kết quả truy vấn INNER JOIN trên dữ liệu mẫu",
+      "cau_hoi": "Cho bảng `nhacsi`: `(1, 'Văn Cao')`, `(2, 'Phú Quang')` và bảng `bannhac`: `(1, 'Suối mơ', 1)`, `(2, 'Làng tôi', 1)`, `(3, 'Em ơi Hà Nội phố', 2)`. Câu truy vấn `SELECT bannhac.tenBannhac FROM bannhac INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi WHERE nhacsi.tenNhacsi = 'Văn Cao';` trả về mấy dòng?",
+      "lua_chon": {
+        "A": "3 dòng",
+        "B": "1 dòng ('Em ơi Hà Nội phố')",
+        "C": "2 dòng ('Suối mơ' và 'Làng tôi')",
+        "D": "0 dòng"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Có 2 bản nhạc có `idNhacsi = 1` tương ứng với `'Văn Cao'`.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đặt bí danh (Alias) cho bảng để viết truy vấn gọn hơn",
+      "cau_hoi": "Cách viết rút gọn bằng bí danh bảng nào sau đây tương đương với `FROM bannhac INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi`?",
+      "lua_chon": {
+        "A": "`FROM bannhac = b INNER JOIN nhacsi = n`",
+        "B": "`FROM bannhac AS b INNER JOIN nhacsi AS n ON b.idNhacsi = n.idNhacsi`",
+        "C": "`FROM b.bannhac INNER JOIN n.nhacsi`",
+        "D": "SQL không hỗ trợ đặt bí danh bảng"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Từ khóa `AS` (hoặc viết cách ra) tạo bí danh ngắn gọn cho bảng trong câu truy vấn.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sắp xếp kết quả theo nhiều tiêu chí",
+      "cau_hoi": "Để hiển thị danh sách `(tenNhacsi, tenBannhac)` sắp xếp tăng dần theo `tenNhacsi`, nếu cùng nhạc sĩ thì tăng dần theo `tenBannhac`, phần cuối câu truy vấn viết thế nào?",
+      "lua_chon": {
+        "A": "`INNER JOIN nhacsi.tenNhacsi, bannhac.tenBannhac;`",
+        "B": "`WHERE nhacsi.tenNhacsi, bannhac.tenBannhac;`",
+        "C": "`ORDER BY nhacsi.tenNhacsi, bannhac.tenBannhac;`",
+        "D": "`GROUP BY nhacsi.tenNhacsi;`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`ORDER BY cot1, cot2;` sắp xếp theo `cot1` trước, nếu trùng giá trị mới xét `cot2`.",
+      "nguon": "Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích và sửa lỗi câu truy vấn nối 4 bảng",
+      "cau_hoi": "Một học sinh viết truy vấn lấy bản thu âm của nhạc sĩ Văn Cao: `SELECT idBanthuam, tenBannhac, tenCasi FROM banthuam INNER JOIN bannhac ON banthuam.idBannhac = bannhac.idBannhac INNER JOIN casi ON banthuam.idCasi = casi.idCasi WHERE nhacsi.tenNhacsi = 'Văn Cao';` và bị lỗi `Unknown column 'nhacsi.tenNhacsi' in 'where clause'`. Cần bổ sung gì để câu lệnh chạy đúng?",
+      "lua_chon": {
+        "A": "Bổ sung thêm `INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi` trước mệnh đề `WHERE`",
+        "B": "Xóa mệnh đề `WHERE`",
+        "C": "Đổi `tenCasi` thành `tenNhacsi`",
+        "D": "Thay `banthuam.idBannhac` bằng `banthuam.idCasi`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Trong `FROM` chưa nối tới bảng `nhacsi` nên mệnh đề `WHERE` không thể tham chiếu `nhacsi.tenNhacsi`.",
+      "nguon": "Kenhgiaovien_23 & ndc_bai_23"
+    },
+    {
+      "id": "B23_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân biệt dữ liệu không có liên kết trong INNER JOIN",
+      "cau_hoi": "Nhạc sĩ `idNhacsi = 5` mới được thêm vào bảng `nhacsi` nhưng chưa có bài hát nào trong bảng `bannhac`. Khi chạy `SELECT nhacsi.tenNhacsi, bannhac.tenBannhac FROM nhacsi INNER JOIN bannhac ON nhacsi.idNhacsi = bannhac.idNhacsi;`, nhạc sĩ số 5 có xuất hiện trong kết quả không?",
+      "lua_chon": {
+        "A": "Gây lỗi dừng máy chủ MySQL",
+        "B": "Có xuất hiện với tên bản nhạc là `NULL`",
+        "C": "Xuất hiện lặp lại 5 lần",
+        "D": "Không xuất hiện, vì `INNER JOIN` chỉ giữ lại các bản ghi có cặp khóa khớp nhau ở cả hai bảng"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`INNER JOIN` thực hiện phép kết nối trong, chỉ trả về những bản ghi thỏa điều kiện khớp ở cả hai phía.",
+      "nguon": "ndc_bai_23"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B23-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
-        "noi_dung": "Muốn hiển thị tên bản nhạc và tên nhạc sĩ từ hai bảng, cần làm gì?",
-        "lua_chon": {
-          "A": "Nối hai bảng theo trường khóa liên quan",
-          "B": "Xóa một bảng",
-          "C": "Đổi mọi cột thành văn bản",
-          "D": "Sao chép thủ công toàn bộ"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B23_DS_01",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Truy vấn liên kết 4 bảng có lọc WHERE",
+      "dan_nhap": "Truy vấn: `SELECT banthuam.idBanthuam, bannhac.tenBannhac, nhacsi.tenNhacsi, casi.tenCasi FROM banthuam INNER JOIN bannhac ON banthuam.idBannhac = bannhac.idBannhac INNER JOIN casi ON banthuam.idCasi = casi.idCasi INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi WHERE nhacsi.tenNhacsi = 'Văn Cao';`",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Câu truy vấn thực hiện liên kết qua 4 bảng để lấy đầy đủ thông tin bản thu âm.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Đáp án đúng vì Nối hai bảng theo trường khóa liên quan; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B23-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Phát biểu nào đúng về JOIN?",
-        "lua_chon": {
-          "A": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
-          "B": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
-          "C": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
-          "D": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc."
+        {
+          "ma": "b",
+          "noi_dung": "Điều kiện lọc `WHERE nhacsi.tenNhacsi = 'Văn Cao'` chỉ giữ lại các bản thu âm của những bản nhạc do Văn Cao sáng tác.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết."
-      },
-      {
-        "id": "T11-B23-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Cần tên bài hát và tên nhạc sĩ ở hai bảng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Dùng bí danh bảng và tiền tố.",
-          "B": "JOIN theo khóa chính/khóa ngoài.",
-          "C": "Hai trường idNhacsi bằng nhau.",
-          "D": "Hai trường tên tương ứng."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể bỏ tất cả các mệnh đề `ON ...` trong `INNER JOIN` mà kết quả vẫn chính xác hoàn toàn.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thiếu điều kiện kết nối ON sẽ gây tích Đề-các hoặc lỗi cú pháp."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, JOIN theo khóa chính/khóa ngoài."
-      },
-      {
-        "id": "T11-B23-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về JOIN?",
-        "lua_chon": {
-          "A": "Truy vấn nhiều bảng có tên trường giống nhau.",
-          "B": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
-          "C": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi.",
-          "D": "Chỉ cần tenBannhac và tenNhacsi."
+        {
+          "ma": "d",
+          "noi_dung": "Cách viết `tenBang.tenTruong` giúp phân biệt rõ ràng khi hai bảng có trường trùng tên.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_23 & ndc_bai_23"
+    },
+    {
+      "id": "B23_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Truy vấn liên kết 2 bảng bannhac và nhacsi",
+      "dan_nhap": "Xét truy vấn: `SELECT bannhac.idBannhac, bannhac.tenBannhac, nhacsi.tenNhacsi FROM bannhac INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi;`",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Kết quả trả về gồm 3 cột: mã bản nhạc, tên bản nhạc và tên nhạc sĩ sáng tác.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với JOIN trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
-      },
-      {
-        "id": "T11-B23-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Phát biểu nào đúng về Điều kiện nối?",
-        "lua_chon": {
-          "A": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
-          "B": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
-          "C": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc.",
-          "D": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng."
+        {
+          "ma": "b",
+          "noi_dung": "Điều kiện `bannhac.idNhacsi = nhacsi.idNhacsi` ghép mỗi bản nhạc với đúng nhạc sĩ tác giả của nó.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng."
-      },
-      {
-        "id": "T11-B23-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hai trường idNhacsi bằng nhau.",
-          "B": "JOIN theo khóa chính/khóa ngoài.",
-          "C": "Hai trường tên tương ứng.",
-          "D": "Dùng bí danh bảng và tiền tố."
+        {
+          "ma": "c",
+          "noi_dung": "Nếu có một nhạc sĩ mới trong bảng `nhacsi` chưa sáng tác bản nhạc nào, nhạc sĩ đó vẫn luôn hiện trong kết quả truy vấn `INNER JOIN` này.",
+          "dap_an": false,
+          "giai_thich": "Sai. `INNER JOIN` chỉ lấy các cặp khớp ở cả 2 bảng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Hai trường idNhacsi bằng nhau."
-      },
-      {
-        "id": "T11-B23-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Điều kiện nối?",
-        "lua_chon": {
-          "A": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
-          "B": "Chỉ cần tenBannhac và tenNhacsi.",
-          "C": "Truy vấn nhiều bảng có tên trường giống nhau.",
-          "D": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể thêm `ORDER BY bannhac.tenBannhac` ở cuối để sắp xếp danh sách theo tên bài hát.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lỗi thường gặp khi viết INNER JOIN",
+      "dan_nhap": "Nhận định về các lỗi thường gặp khi viết câu truy vấn liên kết bảng trong SQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Nối nhầm `banthuam.idBannhac = casi.idCasi` sẽ dẫn đến kết quả ghép sai đối tượng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Điều kiện nối trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
-      },
-      {
-        "id": "T11-B23-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Phát biểu nào đúng về Chọn cột kết quả?",
-        "lua_chon": {
-          "A": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
-          "B": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc.",
-          "C": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
-          "D": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết."
+        {
+          "ma": "b",
+          "noi_dung": "Trong `SELECT`, nếu chỉ viết `idNhacsi` khi nối `bannhac` và `nhacsi`, hệ thống sẽ báo lỗi mơ hồ tên cột.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "SELECT có thể lấy cột từ cả hai bảng đã nối."
-      },
-      {
-        "id": "T11-B23-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Chỉ cần tenBannhac và tenNhacsi. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "JOIN theo khóa chính/khóa ngoài.",
-          "B": "Hai trường idNhacsi bằng nhau.",
-          "C": "Dùng bí danh bảng và tiền tố.",
-          "D": "Hai trường tên tương ứng."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể nối trực tiếp `banthuam` với `nhacsi` qua `banthuam.idBanthuam = nhacsi.idNhacsi` để lấy tên nhạc sĩ của bản thu âm.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải nối thông qua bảng trung gian `bannhac`."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Hai trường tên tương ứng."
-      },
-      {
-        "id": "T11-B23-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn cột kết quả?",
-        "lua_chon": {
-          "A": "Truy vấn nhiều bảng có tên trường giống nhau.",
-          "B": "Chỉ cần tenBannhac và tenNhacsi.",
-          "C": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
-          "D": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi."
+        {
+          "ma": "d",
+          "noi_dung": "Mệnh đề `WHERE` luôn phải đặt sau các phép `INNER JOIN ... ON ...` và trước `ORDER BY`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Truy xuất liên kết bảng huyen và tinh",
+      "dan_nhap": "Cho CSDL gồm `tinh(idTinh, tenTinh)` và `huyen(idHuyen, tenHuyen, idTinh)`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Để hiển thị tên huyện kèm tên tỉnh tương ứng, cần dùng `INNER JOIN` giữa `huyen` và `tinh` theo trường `idTinh`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Chọn cột kết quả trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
-      },
-      {
-        "id": "T11-B23-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Phát biểu nào đúng về Bí danh bảng?",
-        "lua_chon": {
-          "A": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
-          "B": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc.",
-          "C": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
-          "D": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng."
+        {
+          "ma": "b",
+          "noi_dung": "Truy vấn `SELECT huyen.tenHuyen FROM huyen INNER JOIN tinh ON huyen.idTinh = tinh.idTinh WHERE tinh.tenTinh = 'Hà Nội';` trả về các huyện thuộc Hà Nội.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Bí danh rút gọn tên bảng và giúp truy vấn dễ đọc."
-      },
-      {
-        "id": "T11-B23-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Truy vấn nhiều bảng có tên trường giống nhau. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hai trường idNhacsi bằng nhau.",
-          "B": "Hai trường tên tương ứng.",
-          "C": "Dùng bí danh bảng và tiền tố.",
-          "D": "JOIN theo khóa chính/khóa ngoài."
+        {
+          "ma": "c",
+          "noi_dung": "Cần nối 3 bảng mới lấy được tên huyện và tên tỉnh từ hai bảng trên.",
+          "dap_an": false,
+          "giai_thich": "Sai. Chỉ cần nối 2 bảng `huyen` và `tinh`."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Dùng bí danh bảng và tiền tố."
-      },
-      {
-        "id": "T11-B23-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bí danh bảng?",
-        "lua_chon": {
-          "A": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
-          "B": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi.",
-          "C": "Chỉ cần tenBannhac và tenNhacsi.",
-          "D": "Truy vấn nhiều bảng có tên trường giống nhau."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể thêm `ORDER BY huyen.tenHuyen` để sắp xếp tên huyện theo bảng chữ cái.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_DS_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Cú pháp liên kết 3 bảng",
+      "dan_nhap": "Xét truy vấn liên kết 3 bảng `banthuam`, `bannhac`, `casi`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Cần 2 mệnh đề `INNER JOIN` để nối 3 bảng lại với nhau.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Bí danh bảng trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
-      },
-      {
-        "id": "T11-B23-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Phát biểu nào đúng về Lọc sau khi nối?",
-        "lua_chon": {
-          "A": "WHERE có thể lọc kết quả của truy vấn nhiều bảng.",
-          "B": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
-          "C": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
-          "D": "SELECT có thể lấy cột từ cả hai bảng đã nối."
+        {
+          "ma": "b",
+          "noi_dung": "Điều kiện nối `banthuam` với `bannhac` là `banthuam.idBannhac = bannhac.idBannhac`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "WHERE có thể lọc kết quả của truy vấn nhiều bảng."
-      },
-      {
-        "id": "T11-B23-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Chỉ xem bản nhạc của một nhạc sĩ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hai trường tên tương ứng.",
-          "B": "Điều kiện lọc trên mã nhạc sĩ.",
-          "C": "JOIN theo khóa chính/khóa ngoài.",
-          "D": "Hai trường idNhacsi bằng nhau."
+        {
+          "ma": "c",
+          "noi_dung": "Điều kiện nối `banthuam` với `casi` là `banthuam.idCasi = casi.idCasi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Điều kiện lọc trên mã nhạc sĩ."
-      },
-      {
-        "id": "T11-B23-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lọc sau khi nối?",
-        "lua_chon": {
-          "A": "Chỉ cần tenBannhac và tenNhacsi.",
-          "B": "Chỉ xem bản nhạc của một nhạc sĩ.",
-          "C": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
-          "D": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Lọc sau khi nối trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
-      },
-      {
-        "id": "T11-B23-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Phát biểu nào đúng về Lỗi thiếu điều kiện?",
-        "lua_chon": {
-          "A": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.",
-          "B": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
-          "C": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
-          "D": "Thiếu điều kiện nối có thể tạo tích Descartes nhiều dòng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Thiếu điều kiện nối có thể tạo tích Descartes nhiều dòng."
-      },
-      {
-        "id": "T11-B23-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Truy vấn hai bảng trả hàng nghìn tổ hợp sai. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Điều kiện nối giữa các bảng.",
-          "B": "JOIN theo khóa chính/khóa ngoài.",
-          "C": "Hai trường idNhacsi bằng nhau.",
-          "D": "Hai trường tên tương ứng."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Điều kiện nối giữa các bảng."
-      },
-      {
-        "id": "T11-B23-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lỗi thiếu điều kiện?",
-        "lua_chon": {
-          "A": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
-          "B": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi.",
-          "C": "Chỉ cần tenBannhac và tenNhacsi.",
-          "D": "Truy vấn hai bảng trả hàng nghìn tổ hợp sai."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Lỗi thiếu điều kiện trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
-      },
-      {
-        "id": "T11-B23-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Phát biểu nào đúng về Liên kết dữ liệu?",
-        "lua_chon": {
-          "A": "Điều kiện nối ghép khóa ngoài với khóa chính tương ứng.",
-          "B": "SELECT có thể lấy cột từ cả hai bảng đã nối.",
-          "C": "Liên kết bảng cho phép lưu thông tin thực thể một lần rồi tham chiếu.",
-          "D": "JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết."
-        },
-        "dap_an": "C",
-        "giai_thich": "Liên kết bảng cho phép lưu thông tin thực thể một lần rồi tham chiếu."
-      },
-      {
-        "id": "T11-B23-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống: Nhiều bài hát thuộc một nhạc sĩ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "JOIN theo khóa chính/khóa ngoài.",
-          "B": "Hai trường idNhacsi bằng nhau.",
-          "C": "Hai trường tên tương ứng.",
-          "D": "Giảm lặp tên nhạc sĩ trong bảng bài hát."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Giảm lặp tên nhạc sĩ trong bảng bài hát."
-      },
-      {
-        "id": "T11-B23-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Liên kết dữ liệu?",
-        "lua_chon": {
-          "A": "Chỉ cần tenBannhac và tenNhacsi.",
-          "B": "Nhiều bài hát thuộc một nhạc sĩ.",
-          "C": "Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
-          "D": "Bannhac.idNhacsi tham chiếu Nhacsi.idNhacsi."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Liên kết dữ liệu trong bài Thực hành truy xuất dữ liệu qua liên kết bảng."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B23-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
-        "noi_dung": "Xét tính đúng/sai về Thực hành truy xuất dữ liệu qua liên kết bảng:",
-        "y_kien": {
-          "a": true,
-          "b": true,
-          "c": "JOIN kết hợp các bảng theo điều kiện liên kết.",
-          "d": "Cần điều kiện nối để tránh tạo tổ hợp dòng ngoài ý muốn."
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B23-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết bảng",
-        "noi_dung": "Mô tả truy vấn lấy tên bản nhạc và nhạc sĩ.",
-        "dap_an_goi_y": "Chọn cột tên cần hiển thị, nối Bannhac với Nhacsi theo khóa ngoài idNhacsi và khóa chính tương ứng, thêm điều kiện lọc nếu cần.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B23-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 23 - Thực hành truy xuất dữ liệu qua liên kết các bảng",
-        "noi_dung": "Dựa vào kiến thức “JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần tên bài hát và tên nhạc sĩ ở hai bảng.",
-        "dap_an_goi_y": "Nêu ý kiến thức: JOIN kết hợp hàng từ nhiều bảng theo điều kiện liên kết. Vận dụng: JOIN theo khóa chính/khóa ngoài. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Trong một câu truy vấn `SELECT` chỉ được phép dùng tối đa một lần từ khóa `INNER JOIN`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Có thể nối nhiều bảng liên tiếp bằng nhiều `INNER JOIN`."
+        }
+      ],
+      "nguon": "ndc_bai_23"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B23_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Từ khóa nối bảng INNER JOIN",
+      "cau_hoi": "Từ khóa nối bảng trong SQL để liên kết khóa ngoài của bảng này với khóa chính bảng kia là gì?",
+      "dap_an": "INNER JOIN",
+      "dap_an_tuong_duong": [
+        "inner join"
+      ],
+      "giai_thich": "INNER JOIN dùng để kết nối các bảng dựa trên điều kiện khớp khóa.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Từ khóa ON",
+      "cau_hoi": "Từ khóa đứng ngay sau tên bảng được nối trong `INNER JOIN` để chỉ định điều kiện liên kết là gì?",
+      "dap_an": "ON",
+      "dap_an_tuong_duong": [
+        "on"
+      ],
+      "giai_thich": "Từ khóa ON đi kèm biểu thức điều kiện ghép nối hai bảng.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy tắc phân biệt cột trùng tên",
+      "cau_hoi": "Khi hai bảng có trường trùng tên là `idNhacsi`, để chọn cột `idNhacsi` của bảng `nhacsi` không bị lỗi mơ hồ, ta viết đầy đủ như thế nào?",
+      "dap_an": "nhacsi.idNhacsi",
+      "dap_an_tuong_duong": [
+        "`nhacsi.idNhacsi`"
+      ],
+      "giai_thich": "Viết dạng `tenBang.tenTruong` để chỉ rõ bảng chứa cột.",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Số phép INNER JOIN cho 4 bảng",
+      "cau_hoi": "Để nối 4 bảng `banthuam`, `bannhac`, `casi`, `nhacsi` trong cùng một câu truy vấn `SELECT`, cần dùng bao nhiêu phép `INNER JOIN`?",
+      "dap_an": "3",
+      "dap_an_tuong_duong": [
+        "3 phép",
+        "ba"
+      ],
+      "giai_thich": "Nối 4 bảng liên tiếp cần 3 mệnh đề `INNER JOIN`.",
+      "nguon": "Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Bảng trung gian giữa banthuam và nhacsi",
+      "cau_hoi": "Trong CSDL `mymusic`, muốn đi từ bảng `banthuam` để lấy được tên nhạc sĩ trong bảng `nhacsi`, ta bắt buộc phải nối qua bảng trung gian nào?",
+      "dap_an": "bannhac",
+      "dap_an_tuong_duong": [
+        "Bảng bannhac"
+      ],
+      "giai_thich": "`banthuam` nối `bannhac` qua `idBannhac`, sau đó `bannhac` nối `nhacsi` qua `idNhacsi`.",
+      "nguon": "Kenhgiaovien_23"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B23_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Viết truy vấn nối 3 bảng",
+      "cau_hoi": "Viết câu truy vấn SQL lập danh sách các bản thu âm gồm: `idBanthuam`, `tenBannhac` và `tenCasi`.",
+      "goi_y_dap_an": "SELECT banthuam.idBanthuam, bannhac.tenBannhac, casi.tenCasi\nFROM banthuam\nINNER JOIN bannhac ON banthuam.idBannhac = bannhac.idBannhac\nINNER JOIN casi ON banthuam.idCasi = casi.idCasi;",
+      "thang_diem": "Tổng 2,0 điểm: chọn đúng 3 cột (0,5đ), nối đúng `bannhac` (0,75đ) và nối đúng `casi` (0,75đ).",
+      "nguon": "ndc_bai_23"
+    },
+    {
+      "id": "B23_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Viết truy vấn nối 4 bảng kèm điều kiện lọc",
+      "cau_hoi": "Viết câu truy vấn SQL lấy danh sách `idBanthuam`, `tenBannhac`, `tenNhacsi` cho các bản thu âm do ca sĩ 'Lê Dung' thể hiện.",
+      "goi_y_dap_an": "SELECT banthuam.idBanthuam, bannhac.tenBannhac, nhacsi.tenNhacsi\nFROM banthuam\nINNER JOIN bannhac ON banthuam.idBannhac = bannhac.idBannhac\nINNER JOIN casi ON banthuam.idCasi = casi.idCasi\nINNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi\nWHERE casi.tenCasi = 'Lê Dung';",
+      "thang_diem": "Tổng 2,0 điểm: chọn đúng cột (0,4đ), nối đúng đủ 4 bảng (1,2đ), lọc đúng `WHERE casi.tenCasi = 'Lê Dung'` (0,4đ).",
+      "nguon": "Kenhgiaovien_23"
+    },
+    {
+      "id": "B23_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phát hiện và sửa lỗi câu truy vấn INNER JOIN phức hợp",
+      "cau_hoi": "Một học sinh viết truy vấn sau để tìm các bản thu âm của nhạc sĩ 'Văn Cao' sắp xếp theo tên bản nhạc: `SELECT idBanthuam, tenBannhac, tenCasi FROM banthuam INNER JOIN bannhac ON banthuam.idBannhac = bannhac.idCasi ORDER BY tenBannhac WHERE nhacsi.tenNhacsi = 'Văn Cao';`. Hãy chỉ ra 3 lỗi sai trong câu truy vấn trên và viết lại câu truy vấn đúng.",
+      "goi_y_dap_an": "- 3 lỗi sai: (1) Điều kiện nối sai trường `bannhac.idCasi` (đúng phải là `bannhac.idBannhac`); (2) Chưa nối thêm bảng `casi` và bảng `nhacsi` nên không lấy được `tenCasi` và lọc `nhacsi.tenNhacsi`; (3) Đặt `ORDER BY` trước `WHERE` (sai thứ tự SQL).\n- Câu truy vấn đúng:\n`SELECT banthuam.idBanthuam, bannhac.tenBannhac, casi.tenCasi FROM banthuam INNER JOIN bannhac ON banthuam.idBannhac = bannhac.idBannhac INNER JOIN casi ON banthuam.idCasi = casi.idCasi INNER JOIN nhacsi ON bannhac.idNhacsi = nhacsi.idNhacsi WHERE nhacsi.tenNhacsi = 'Văn Cao' ORDER BY bannhac.tenBannhac;`",
+      "thang_diem": "Tổng 2,0 điểm: chỉ đúng 3 lỗi sai (1,0đ) và viết lại hoàn chỉnh câu truy vấn đúng (1,0đ).",
+      "nguon": "ndc_bai_23 & Kenhgiaovien_23"
+    }
+  ]
 }

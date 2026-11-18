@@ -1,424 +1,581 @@
 {
-  "ma_bai": "BAI_15",
-  "bai_so": 15,
-  "ten_bai": "Bảo mật và an toàn hệ CSDL",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_15",
+  "ten_bai": "Bảo mật và an toàn hệ cơ sở dữ liệu",
+  "chu_de": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd4_bai_15_bao_mat_va_an_toan_he_csdl.docx",
+    "ndc_bai_15_bao_mat_va_an_toan_he_co_so_du_lieu.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_15_bao_mat_va_an_toan_he_co_so_du_lieu.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_15_bao_mat_va_an_toan_he_co_so_du_lieu.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B15_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Giải pháp khi mất điện đột ngột (UPS)",
+      "cau_hoi": "Biện pháp nào giúp bảo vệ hệ thống CSDL không bị mất dữ liệu khi nguồn điện lưới ngừng đột ngột?",
+      "lua_chon": {
+        "A": "Xóa tệp nhật kí hoạt động (log file)",
+        "B": "Cấp quyền admin cho tất cả người dùng",
+        "C": "Dùng bộ lưu điện (UPS)",
+        "D": "Tắt tường lửa mạng"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khi nguồn điện ngừng đột ngột, sử dụng bộ lưu điện (UPS) để cấp điện kịp thời, tránh hỏng hóc dữ liệu.",
+      "nguon": "ndc_bai_15 & tln_..._bai_15"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B15_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Sao lưu và phục hồi thiết bị lưu trữ",
+      "cau_hoi": "Khi thiết bị lưu trữ có nguy cơ hư hỏng vì lí do bất ngờ (không chỉ do quá tuổi thọ), giải pháp quan trọng nhất để phục hồi dữ liệu là gì?",
+      "lua_chon": {
+        "A": "Chỉ dùng một ổ đĩa duy nhất",
+        "B": "Chia sẻ mật khẩu tài khoản quản trị",
+        "C": "Sao lưu dữ liệu định kì và phục hồi từ bản sao lưu",
+        "D": "Không ghi nhật kí truy cập"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Sao lưu dữ liệu định kì và dùng thiết bị hỗ trợ bảo vệ dữ liệu giúp phục hồi khi sự cố xảy ra.",
+      "nguon": "ndc_bai_15 & cd4_bai_15"
+    },
+    {
+      "id": "B15_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Mô hình phân quyền 4 nhóm người dùng",
+      "cau_hoi": "Trong mô hình phân quyền 4 nhóm người dùng CSDL, nhóm người dùng có quyền thêm, sửa, xóa dữ liệu trong bảng nhưng KHÔNG được thay đổi cấu trúc bảng là nhóm nào?",
+      "lua_chon": {
+        "A": "Nhóm 1 (khách – guest)",
+        "B": "Nhóm 3 (quản lí – master_mod)",
+        "C": "Nhóm 2 (nhập liệu – moderator)",
+        "D": "Nhóm 4 (quản trị viên – admin)"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nhóm 1 chỉ xem; Nhóm 2 chỉ thêm; Nhóm 3 thêm/sửa/xóa dữ liệu nhưng không sửa cấu trúc bảng; Nhóm 4 (admin) toàn quyền.",
+      "nguon": "cd4_bai_15 & tln_..._bai_15"
+    },
+    {
+      "id": "B15_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Áp dụng phân quyền thực tế cho giáo viên",
+      "cau_hoi": "Trong trung tâm tiếng Anh, giáo viên chỉ được thêm/sửa/xóa điểm ở bảng điểm môn mình dạy, học viên chỉ được xem điểm, còn một người phụ trách toàn hệ thống có quyền tạo/xóa bảng. Giáo viên thuộc nhóm quyền nào?",
+      "lua_chon": {
+        "A": "Nhóm chỉ xem (guest)",
+        "B": "Nhóm không cần đăng nhập",
+        "C": "Nhóm toàn quyền mọi bảng trong hệ QTCSDL",
+        "D": "Nhóm quản lí dữ liệu bảng được phân công (tương ứng Nhóm 3, không phải toàn quyền admin hệ thống)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Giáo viên chỉ thao tác dữ liệu trên bảng được giao, không có toàn quyền cấu trúc trên tất cả các bảng như admin.",
+      "nguon": "Sửa lỗi phân quyền trong cd4_bai_15"
+    },
+    {
+      "id": "B15_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Quyền hạn của Nhóm 1 (Khách)",
+      "cau_hoi": "Nhóm người dùng 1 (Khách / guest) trong hệ CSDL thường chỉ được cấp quyền nào?",
+      "lua_chon": {
+        "A": "Sao lưu và phục hồi máy chủ",
+        "B": "Thêm, sửa, xóa toàn bộ dữ liệu",
+        "C": "Tạo và xóa các bảng trong CSDL",
+        "D": "Tìm kiếm và xem dữ liệu công khai, không được cập nhật"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Nhóm khách chỉ có quyền đọc/tra cứu dữ liệu được phép công khai.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Quyền hạn của Nhóm 2 (Nhập liệu)",
+      "cau_hoi": "Nhóm người dùng 2 (Nhập liệu / moderator) trong mô hình phân quyền 4 nhóm có quyền đặc trưng nào?",
+      "lua_chon": {
+        "A": "Chỉ được xem dữ liệu công khai",
+        "B": "Toàn quyền thay đổi cấu trúc bảng",
+        "C": "Chỉ được thêm mới dữ liệu, không được sửa hay xóa dữ liệu đã có",
+        "D": "Thu hồi quyền của quản trị viên"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nhân viên nhập liệu chỉ được bổ sung bản ghi mới để tránh sửa/xóa sai lệch dữ liệu cũ.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Vai trò của tệp nhật kí hoạt động (log file)",
+      "cau_hoi": "Việc ghi lại nhật kí hoạt động (`log file`) trong hệ QTCSDL có tác dụng chính nào?",
+      "lua_chon": {
+        "A": "Thay thế bộ lưu điện UPS",
+        "B": "Tăng độ phân giải màn hình máy chủ",
+        "C": "Theo dõi lịch sử truy cập và thao tác để kiểm tra, phát hiện truy xuất bất thường và hỗ trợ phục hồi khi sự cố",
+        "D": "Tự động xóa tài khoản học sinh"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nhật kí hoạt động ghi nhận ai đã làm gì vào lúc nào, phục vụ giám sát an ninh và kiểm tra sự cố.",
+      "nguon": "ndc_bai_15 & trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khắc phục sự cố nguồn điện quá tải",
+      "cau_hoi": "Để phòng tránh sự cố nguồn điện bị quá tải gây sập hệ thống máy chủ CSDL, cần thực hiện biện pháp nào?",
+      "lua_chon": {
+        "A": "Cấp quyền admin cho khách vãng lai",
+        "B": "Kiểm tra hệ thống điện định kì và đảm bảo nguồn điện đủ công suất",
+        "C": "Tắt hoàn toàn việc sao lưu dữ liệu",
+        "D": "Xóa tệp nhật kí hệ thống mỗi giờ"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Xây dựng nguồn đủ công suất và kiểm tra định kì giúp ngăn ngừa sự cố quá tải điện.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tầm quan trọng của ý thức người dùng",
+      "cau_hoi": "Vì sao một hệ CSDL dù có tường lửa và phân quyền chặt chẽ nhưng vẫn có thể bị rò rỉ dữ liệu nếu người dùng để lộ mật khẩu hoặc dùng chung tài khoản?",
+      "lua_chon": {
+        "A": "Vì hệ QTCSDL không hỗ trợ mật khẩu",
+        "B": "Vì tường lửa tự động tắt khi có 2 người dùng chung tài khoản",
+        "C": "Vì bộ lưu điện UPS sẽ tự động xóa mật khẩu",
+        "D": "Vì kẻ xấu dùng chính tài khoản hợp lệ bị lộ để đăng nhập, khiến các lớp bảo vệ kĩ thuật không phân biệt được"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Ý thức bảo vệ tài khoản của người dùng là mắt xích quyết định hiệu quả của các biện pháp kĩ thuật.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phòng tránh hỏng thiết bị lưu trữ do quá tuổi thọ",
+      "cau_hoi": "Biện pháp chủ động nào giúp giảm thiểu rủi ro mất dữ liệu do ổ cứng máy chủ CSDL bị hỏng vì quá tuổi thọ sử dụng?",
+      "lua_chon": {
+        "A": "Giảm quyền của quản trị viên xuống nhóm khách",
+        "B": "Chờ đến khi ổ cứng hỏng hẳn rồi mới tìm cách mua ổ mới",
+        "C": "Không bao giờ tắt máy chủ",
+        "D": "Theo dõi thời gian sử dụng và chủ động thay thế thiết bị lưu trữ trước khi đến hạn hư hỏng"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Quản lí vòng đời thiết bị và thay thế sớm là giải pháp chủ động cho sự cố quá tuổi thọ.",
+      "nguon": "ndc_bai_15 & trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nội dung an ninh mạng và hạ tầng trong chính sách bảo mật",
+      "cau_hoi": "Trong chính sách bảo mật hệ CSDL, quy định nào sau đây thuộc nhóm 'tổ chức đảm bảo an ninh mạng, phần cứng và phần mềm'?",
+      "lua_chon": {
+        "A": "Quy định học sinh không được chia sẻ mật khẩu cá nhân",
+        "B": "Bảo mật vật lí phòng máy chủ, tách biệt máy chủ CSDL và kiểm soát cổng truy cập mạng",
+        "C": "Quy định màu sắc giao diện trang web",
+        "D": "Quy định giờ ra chơi của trường"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Bảo mật vật lí, hạ tầng mạng và phần mềm bảo vệ thuộc nhóm an ninh hệ thống.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nguyên tắc phân quyền tối thiểu",
+      "cau_hoi": "Tại sao không nên cấp quyền `admin` (Nhóm 4) đại trà cho tất cả nhân viên nhập liệu trong một công ty?",
+      "lua_chon": {
+        "A": "Vì hệ QTCSDL chỉ cho phép tối đa 1 người đăng nhập",
+        "B": "Vì nhân viên nhập liệu có thể vô tình hoặc cố ý sửa/xóa cấu trúc bảng và toàn bộ dữ liệu ngoài phạm vi công việc",
+        "C": "Vì tài khoản admin không thể nhập dữ liệu",
+        "D": "Vì tài khoản admin không cần mật khẩu"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Phân quyền đúng chức trách giúp hạn chế tối đa rủi ro sai sót và lạm dụng quyền hạn.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt sao lưu (Backup) và phục hồi (Restore)",
+      "cau_hoi": "Mối quan hệ giữa hai thao tác sao lưu (Backup) và phục hồi (Restore) trong quản trị an toàn CSDL là gì?",
+      "lua_chon": {
+        "A": "Sao lưu tạo bản dự phòng định kì; phục hồi là đưa dữ liệu từ bản sao lưu trở lại hệ thống khi có sự cố",
+        "B": "Sao lưu là xóa dữ liệu cũ; phục hồi là tạo bảng mới",
+        "C": "Phục hồi có thể thực hiện ngay cả khi chưa từng sao lưu bao giờ",
+        "D": "Hai thao tác này chỉ dùng cho phần mềm chỉnh sửa ảnh"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Phải có bản sao lưu định kì trước thì mới có thể phục hồi dữ liệu khi xảy ra sự cố.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định nhóm quyền cho nhân viên thu ngân",
+      "cau_hoi": "Tại một siêu thị, nhân viên thu ngân chỉ được phép tạo mới hóa đơn khi khách thanh toán, nhưng không được phép tự ý sửa hoặc xóa các hóa đơn cũ đã xuất trước đó. Nhân viên thu ngân nên được xếp vào nhóm quyền nào?",
+      "lua_chon": {
+        "A": "Nhóm 2 (Nhập liệu – moderator)",
+        "B": "Nhóm 1 (Khách – guest)",
+        "C": "Nhóm 4 (Quản trị viên – admin)",
+        "D": "Không thuộc nhóm nào"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Chỉ được thêm mới dữ liệu mà không được sửa/xóa bản ghi cũ là đặc trưng của Nhóm 2 (Nhập liệu).",
+      "nguon": "ndc_bai_15 & cd4_bai_15"
+    },
+    {
+      "id": "B15_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phát hiện truy cập trái phép qua log file",
+      "cau_hoi": "Quản trị viên kiểm tra nhật kí hoạt động (`log file`) thấy tài khoản của một nhân viên đã nghỉ việc vẫn đăng nhập và tải dữ liệu lúc 2 giờ sáng. Hành động xử lí khẩn cấp đúng nhất là gì?",
+      "lua_chon": {
+        "A": "Xóa tệp log để không ai biết",
+        "B": "Khóa/thu hồi ngay tài khoản đó, kiểm tra mức độ dữ liệu bị truy xuất qua log và rà soát lại quy trình thu hồi quyền khi nhân sự nghỉ việc",
+        "C": "Cấp thêm quyền admin cho tài khoản đó",
+        "D": "Thay bộ lưu điện UPS mới"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Phải ngắt ngay quyền truy cập của tài khoản bất thường và điều tra phạm vi ảnh hưởng qua log.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thiết lập chiến lược sao lưu dự phòng an toàn",
+      "cau_hoi": "Một trường học sao lưu CSDL điểm học sinh hàng tuần nhưng lại lưu bản sao lưu vào cùng một ổ đĩa cứng với bản dữ liệu chính trên máy chủ. Điểm yếu lớn nhất của cách làm này là gì?",
+      "lua_chon": {
+        "A": "Máy chủ tiêu thụ điện gấp 10 lần",
+        "B": "Bản sao lưu sẽ tự động biến thành tệp âm thanh",
+        "C": "Học sinh không thể xem điểm được nữa",
+        "D": "Nếu ổ cứng đó bị hỏng vật lí hoặc cháy nổ thì cả dữ liệu chính lẫn bản sao lưu đều mất"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Bản sao lưu cần được lưu trên thiết bị dự phòng riêng biệt hoặc nơi lưu trữ an toàn tách rời.",
+      "nguon": "ndc_bai_15 & trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phân quyền trong CSDL quản lí thư viện",
+      "cau_hoi": "Trong CSDL thư viện trường học, cách phân quyền nào sau đây hợp lí nhất cho 3 đối tượng: Học sinh, Thủ thư và Quản trị viên hệ thống?",
+      "lua_chon": {
+        "A": "Học sinh được sửa ngày trả sách của chính mình",
+        "B": "Cả 3 đối tượng đều có quyền xóa bảng `Sach`",
+        "C": "Học sinh: chỉ xem/tra cứu sách; Thủ thư: thêm/sửa/xóa dữ liệu sách và phiếu mượn trả; Quản trị viên: quản lí cấu trúc bảng, phân quyền và sao lưu",
+        "D": "Thủ thư không được thêm sách mới"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Phân quyền tương ứng đúng vai trò: Khách (Học sinh), Quản lí dữ liệu (Thủ thư), Admin (Quản trị viên).",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Ứng dụng câu lệnh SQL để thu hồi quyền",
+      "cau_hoi": "Khi một nhân viên chuyển từ bộ phận quản lí dữ liệu sang bộ phận chỉ xem báo cáo, quản trị viên cần làm gì trên hệ QTCSDL?",
+      "lua_chon": {
+        "A": "Dùng lệnh `REVOKE` thu hồi các quyền `INSERT`, `UPDATE`, `DELETE` và chỉ giữ lại quyền `SELECT`",
+        "B": "Cấp thêm quyền `CREATE TABLE`",
+        "C": "Giữ nguyên toàn bộ quyền cũ",
+        "D": "Xóa toàn bộ bảng dữ liệu"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Cần cập nhật lại quyền hạn tương ứng với vai trò mới bằng cách thu hồi quyền ghi/sửa/xóa.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xây dựng phương án ứng phó sự cố toàn diện",
+      "cau_hoi": "Phòng máy chủ của một bệnh viện vừa bị mất điện lưới đột ngột trong 15 phút khi bác sĩ đang cập nhật hồ sơ bệnh án, sau đó phát hiện một ổ cứng lưu trữ có dấu hiệu lỗi bad sector. Chuỗi giải pháp đúng chuẩn bài học là gì?",
+      "lua_chon": {
+        "A": "Nhờ UPS duy trì điện tạm thời để lưu an toàn và tắt máy đúng quy trình -> thay thế ổ cứng lỗi -> phục hồi dữ liệu từ bản sao lưu định kì gần nhất",
+        "B": "Rút phích cắm điện ngay lập tức -> xóa toàn bộ nhật kí hoạt động -> cài lại phần mềm",
+        "C": "Cấp quyền admin cho bệnh nhân tự nhập lại hồ sơ",
+        "D": "Tiếp tục dùng ổ cứng lỗi cho đến khi hỏng hẳn"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Kết hợp UPS xử lí mất điện đột ngột, thay thế phần cứng hỏng và phục hồi từ bản sao lưu dự phòng.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Đánh giá lỗ hổng trong chính sách bảo mật",
+      "cau_hoi": "Một doanh nghiệp đã đầu tư UPS, sao lưu hàng ngày và phân quyền 4 nhóm rất rõ ràng, nhưng vẫn bị mất dữ liệu khách hàng do nhân viên dán giấy ghi mật khẩu tài khoản quản lí ngay trên màn hình máy tính. Lỗ hổng nằm ở nội dung nào của chính sách bảo mật?",
+      "lua_chon": {
+        "A": "Quy định về ý thức và trách nhiệm của người dùng đối với tài khoản và dữ liệu",
+        "B": "Công suất của bộ lưu điện UPS",
+        "C": "Tần suất sao lưu dữ liệu",
+        "D": "Kiểu dữ liệu của khóa chính"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Chính sách bảo mật toàn diện luôn phải đi kèm quy định và đào tạo ý thức bảo vệ tài khoản cho người dùng.",
+      "nguon": "ndc_bai_15 & trac_nghiem_dung_sai_..._bai_15"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B15-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Vì sao nên cấp mỗi người dùng đúng quyền cần thiết?",
-        "lua_chon": {
-          "A": "Để khỏi sao lưu",
-          "B": "Để mọi truy vấn nhanh hơn",
-          "C": "Để tăng số bản sao",
-          "D": "Hạn chế truy cập hoặc thay đổi trái phép"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B15_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân quyền nhóm người dùng quản lí điểm",
+      "dan_nhap": "Hệ thống quản lí điểm học tập phân quyền cho các nhóm người dùng:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Nhóm người dùng không cần đăng nhập (khách) chỉ được quyền xem dữ liệu công khai, không được quyền cập nhật.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Đáp án đúng vì Hạn chế truy cập hoặc thay đổi trái phép; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B15-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Phân quyền tối thiểu?",
-        "lua_chon": {
-          "A": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
-          "B": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
-          "C": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
-          "D": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố."
+        {
+          "ma": "b",
+          "noi_dung": "Nhóm giáo viên có quyền thêm, sửa, xóa dữ liệu trong bảng điểm môn học mình dạy nhưng không được thay đổi cấu trúc bảng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ."
-      },
-      {
-        "id": "T11-B15-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống: Học sinh cần xem điểm của mình nhưng không sửa bảng điểm. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Dùng bản sao lưu đã kiểm tra.",
-          "B": "Chỉ cấp quyền xem phạm vi được phép.",
-          "C": "Xác thực người dùng.",
-          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+        {
+          "ma": "c",
+          "noi_dung": "Người dùng có toàn quyền (admin) trong CSDL được phép tạo lập và thay đổi cấu trúc bảng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Chỉ cấp quyền xem phạm vi được phép."
-      },
-      {
-        "id": "T11-B15-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phân quyền tối thiểu?",
-        "lua_chon": {
-          "A": "Tệp dữ liệu bị hỏng do lỗi thiết bị.",
-          "B": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
-          "C": "CSDL yêu cầu đăng nhập tài khoản hợp lệ.",
-          "D": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định."
+        {
+          "ma": "d",
+          "noi_dung": "Mọi giáo viên đều mặc định có quyền truy cập và sửa đổi tất cả các bảng trong toàn bộ CSDL.",
+          "dap_an": false,
+          "giai_thich": "Sai."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Chính sách bảo mật CSDL toàn diện",
+      "dan_nhap": "Biện pháp trong chính sách bảo mật CSDL toàn diện:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Phân quyền truy cập rõ ràng và phù hợp với từng nhóm người dùng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Phân quyền tối thiểu trong bài Bảo mật và an toàn hệ CSDL."
-      },
-      {
-        "id": "T11-B15-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Xác thực?",
-        "lua_chon": {
-          "A": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
-          "B": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
-          "C": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố.",
-          "D": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không."
+        {
+          "ma": "b",
+          "noi_dung": "Lưu trữ nhật kí hoạt động (log file) để theo dõi các truy xuất vào hệ thống.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không."
-      },
-      {
-        "id": "T11-B15-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống: CSDL yêu cầu đăng nhập tài khoản hợp lệ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Xác thực người dùng.",
-          "B": "Chỉ cấp quyền xem phạm vi được phép.",
-          "C": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "D": "Dùng bản sao lưu đã kiểm tra."
+        {
+          "ma": "c",
+          "noi_dung": "Tất cả người dùng đều được cấp quyền cập nhật dữ liệu để đảm bảo tính linh hoạt.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Xác thực người dùng."
-      },
-      {
-        "id": "T11-B15-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Xác thực?",
-        "lua_chon": {
-          "A": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
-          "B": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
-          "C": "Tệp dữ liệu bị hỏng do lỗi thiết bị.",
-          "D": "CSDL yêu cầu đăng nhập tài khoản hợp lệ."
+        {
+          "ma": "d",
+          "noi_dung": "Xây dựng quy định cụ thể về ý thức và trách nhiệm của người dùng đối với tài khoản và dữ liệu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Giải pháp an toàn phần cứng và sao lưu",
+      "dan_nhap": "Giải pháp bảo đảm an toàn dữ liệu khi phần cứng, phần mềm gặp sự cố:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Sử dụng bộ lưu điện (UPS) để bảo vệ hệ thống khi mất điện đột ngột.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Xác thực trong bài Bảo mật và an toàn hệ CSDL."
-      },
-      {
-        "id": "T11-B15-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Mật khẩu?",
-        "lua_chon": {
-          "A": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
-          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố.",
-          "C": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
-          "D": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ."
+        {
+          "ma": "b",
+          "noi_dung": "Sao lưu định kì dữ liệu và lưu trữ trên thiết bị dự phòng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản."
-      },
-      {
-        "id": "T11-B15-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống: Một tài khoản quản trị vẫn dùng mật khẩu mặc định. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Chỉ cấp quyền xem phạm vi được phép.",
-          "B": "Xác thực người dùng.",
-          "C": "Dùng bản sao lưu đã kiểm tra.",
-          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
+        {
+          "ma": "c",
+          "noi_dung": "Cấp quyền sao lưu/khôi phục hệ thống cho mọi khách vãng lai không đăng nhập.",
+          "dap_an": false,
+          "giai_thich": "Sai. Chỉ cấp quyền cho người vận hành/quản trị có thẩm quyền."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Đổi sang mật khẩu mạnh, không dùng lại."
-      },
-      {
-        "id": "T11-B15-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Mật khẩu?",
-        "lua_chon": {
-          "A": "Tệp dữ liệu bị hỏng do lỗi thiết bị.",
-          "B": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
-          "C": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
-          "D": "CSDL yêu cầu đăng nhập tài khoản hợp lệ."
+        {
+          "ma": "d",
+          "noi_dung": "Kiểm tra tuổi thọ và thay thế thiết bị lưu trữ trước khi đến giai đoạn hư hỏng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ý thức và trách nhiệm người dùng",
+      "dan_nhap": "Ý thức và trách nhiệm của người dùng trong bảo mật CSDL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Người dùng cần bảo vệ tài khoản và không để lộ thông tin truy cập.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Mật khẩu trong bài Bảo mật và an toàn hệ CSDL."
-      },
-      {
-        "id": "T11-B15-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Sao lưu?",
-        "lua_chon": {
-          "A": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
-          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố.",
-          "C": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
-          "D": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không."
+        {
+          "ma": "b",
+          "noi_dung": "Người dùng nên chia sẻ tài khoản quản trị của mình cho đồng nghiệp dùng chung cho tiện.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "B",
-        "giai_thich": "Sao lưu tạo bản dữ liệu để phục hồi sau sự cố."
-      },
-      {
-        "id": "T11-B15-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống: Tệp dữ liệu bị hỏng do lỗi thiết bị. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Xác thực người dùng.",
-          "B": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "C": "Dùng bản sao lưu đã kiểm tra.",
-          "D": "Chỉ cấp quyền xem phạm vi được phép."
+        {
+          "ma": "c",
+          "noi_dung": "Mọi người dùng cần tuân thủ quy định về truy cập, sử dụng dữ liệu trong CSDL.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Dùng bản sao lưu đã kiểm tra."
-      },
-      {
-        "id": "T11-B15-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Sao lưu?",
-        "lua_chon": {
-          "A": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
-          "B": "CSDL yêu cầu đăng nhập tài khoản hợp lệ.",
-          "C": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
-          "D": "Tệp dữ liệu bị hỏng do lỗi thiết bị."
+        {
+          "ma": "d",
+          "noi_dung": "Nếu người dùng để lộ tài khoản cá nhân, các biện pháp bảo mật kĩ thuật có thể mất hiệu lực.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_15 & tln_..._bai_15"
+    },
+    {
+      "id": "B15_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Giám sát hoạt động hệ thống",
+      "dan_nhap": "Giám sát hoạt động hệ thống quản trị CSDL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Ghi lại nhật kí truy cập hệ thống (log file) để kiểm tra và phân tích khi cần thiết.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Sao lưu trong bài Bảo mật và an toàn hệ CSDL."
-      },
-      {
-        "id": "T11-B15-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Cập nhật bảo mật?",
-        "lua_chon": {
-          "A": "Cập nhật có thể vá lỗ hổng đã biết.",
-          "B": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
-          "C": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
-          "D": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản."
+        {
+          "ma": "b",
+          "noi_dung": "Theo dõi số lượng người truy cập và tình trạng thiết bị trong hệ thống.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Cập nhật có thể vá lỗ hổng đã biết."
-      },
-      {
-        "id": "T11-B15-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống: Hệ QTCSDL có bản vá chính thức. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "B": "Kiểm tra và cài bản vá theo quy trình.",
-          "C": "Chỉ cấp quyền xem phạm vi được phép.",
-          "D": "Xác thực người dùng."
+        {
+          "ma": "c",
+          "noi_dung": "Chỉ cần giám sát nhóm quyền cao nhất, không cần ghi nhận truy cập bất thường từ nhóm khác.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Kiểm tra và cài bản vá theo quy trình."
-      },
-      {
-        "id": "T11-B15-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cập nhật bảo mật?",
-        "lua_chon": {
-          "A": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
-          "B": "Hệ QTCSDL có bản vá chính thức.",
-          "C": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
-          "D": "CSDL yêu cầu đăng nhập tài khoản hợp lệ."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Cập nhật bảo mật trong bài Bảo mật và an toàn hệ CSDL."
-      },
-      {
-        "id": "T11-B15-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Nhật kí hoạt động?",
-        "lua_chon": {
-          "A": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.",
-          "B": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
-          "C": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
-          "D": "Nhật kí hỗ trợ theo dõi thao tác và điều tra sự cố."
-        },
-        "dap_an": "D",
-        "giai_thich": "Nhật kí hỗ trợ theo dõi thao tác và điều tra sự cố."
-      },
-      {
-        "id": "T11-B15-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống: Cần biết ai đã thay đổi bản ghi. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Ghi nhật kí truy cập/thay đổi.",
-          "B": "Chỉ cấp quyền xem phạm vi được phép.",
-          "C": "Xác thực người dùng.",
-          "D": "Đổi sang mật khẩu mạnh, không dùng lại."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Ghi nhật kí truy cập/thay đổi."
-      },
-      {
-        "id": "T11-B15-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Nhật kí hoạt động?",
-        "lua_chon": {
-          "A": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
-          "B": "CSDL yêu cầu đăng nhập tài khoản hợp lệ.",
-          "C": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
-          "D": "Cần biết ai đã thay đổi bản ghi."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Nhật kí hoạt động trong bài Bảo mật và an toàn hệ CSDL."
-      },
-      {
-        "id": "T11-B15-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Phát biểu nào đúng về Mã hóa?",
-        "lua_chon": {
-          "A": "Xác thực kiểm tra người dùng có đúng danh tính khai báo không.",
-          "B": "Mật khẩu mạnh và riêng biệt giảm nguy cơ chiếm tài khoản.",
-          "C": "Mã hóa giúp dữ liệu khó đọc khi bị truy cập trái phép vào bản lưu/truyền phù hợp.",
-          "D": "Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ."
-        },
-        "dap_an": "C",
-        "giai_thich": "Mã hóa giúp dữ liệu khó đọc khi bị truy cập trái phép vào bản lưu/truyền phù hợp."
-      },
-      {
-        "id": "T11-B15-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống: Bản sao lưu có thông tin nhạy cảm cần bảo vệ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Chỉ cấp quyền xem phạm vi được phép.",
-          "B": "Xác thực người dùng.",
-          "C": "Đổi sang mật khẩu mạnh, không dùng lại.",
-          "D": "Mã hóa dữ liệu và bảo vệ khóa."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Mã hóa dữ liệu và bảo vệ khóa."
-      },
-      {
-        "id": "T11-B15-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Mã hóa?",
-        "lua_chon": {
-          "A": "Một tài khoản quản trị vẫn dùng mật khẩu mặc định.",
-          "B": "Bản sao lưu có thông tin nhạy cảm cần bảo vệ.",
-          "C": "Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
-          "D": "CSDL yêu cầu đăng nhập tài khoản hợp lệ."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Mã hóa trong bài Bảo mật và an toàn hệ CSDL."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B15-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Xét tính đúng/sai về Bảo mật và an toàn hệ CSDL:",
-        "y_kien": {
-          "a": true,
-          "b": false,
-          "c": "Sao lưu hỗ trợ phục hồi dữ liệu sau sự cố.",
-          "d": "Có bản sao lưu thì không cần kiểm soát truy cập."
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B15-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Đề xuất biện pháp bảo vệ CSDL trường học.",
-        "dap_an_goi_y": "Phân quyền tối thiểu, xác thực mạnh, cập nhật, ghi nhật kí phù hợp, sao lưu định kì, bảo vệ máy chủ và thử phục hồi.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B15-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 15 - Bảo mật và an toàn hệ CSDL",
-        "noi_dung": "Dựa vào kiến thức “Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Học sinh cần xem điểm của mình nhưng không sửa bảng điểm.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Người dùng chỉ nên được cấp quyền cần cho nhiệm vụ. Vận dụng: Chỉ cấp quyền xem phạm vi được phép. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Xây dựng kế hoạch xử lí tình huống rủi ro để giảm thiểu thiệt hại khi xảy ra sự cố.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_15"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B15_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tên viết tắt bộ lưu điện",
+      "cau_hoi": "Thiết bị dự phòng cấp điện tức thời khi hệ thống mất điện đột ngột viết tắt là gì?",
+      "dap_an": "UPS",
+      "dap_an_tuong_duong": [
+        "ups",
+        "Bộ lưu điện"
+      ],
+      "giai_thich": "UPS là bộ lưu điện giúp duy trì nguồn khi mất điện lưới.",
+      "nguon": "tln_..._bai_15"
+    },
+    {
+      "id": "B15_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Nhật kí hoạt động hệ thống",
+      "cau_hoi": "Tệp ghi lại lịch sử truy cập và thao tác trên hệ thống CSDL gọi là gì?",
+      "dap_an": "Nhật kí hoạt động (log file)",
+      "dap_an_tuong_duong": [
+        "log file",
+        "Nhật kí hoạt động",
+        "log"
+      ],
+      "giai_thich": "Log file lưu vết mọi hoạt động truy cập để giám sát và kiểm tra.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_15"
+    },
+    {
+      "id": "B15_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nhóm quyền toàn quyền quản trị",
+      "cau_hoi": "Nhóm người dùng có toàn quyền tạo lập, sửa cấu trúc bảng trong CSDL gọi là gì?",
+      "dap_an": "Quản trị viên (admin)",
+      "dap_an_tuong_duong": [
+        "admin",
+        "Quản trị viên",
+        "Nhóm 4"
+      ],
+      "giai_thich": "Quản trị viên (admin / Nhóm 4) có toàn quyền về cấu trúc và quản trị CSDL.",
+      "nguon": "tln_..._bai_15 & cd4_bai_15"
+    },
+    {
+      "id": "B15_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Biện pháp sao lưu dự phòng",
+      "cau_hoi": "Để khôi phục dữ liệu khi ổ cứng hỏng bất ngờ, biện pháp bắt buộc phải thực hiện định kì là gì?",
+      "dap_an": "Sao lưu dữ liệu (backup)",
+      "dap_an_tuong_duong": [
+        "Sao lưu",
+        "backup",
+        "Sao lưu định kì"
+      ],
+      "giai_thich": "Sao lưu định kì tạo bản dự phòng an toàn cho công tác phục hồi.",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Nhóm quyền chỉ thêm mới dữ liệu",
+      "cau_hoi": "Trong mô hình 4 nhóm người dùng, nhóm nào chỉ được thêm mới dữ liệu mà không được sửa hay xóa dữ liệu đã có?",
+      "dap_an": "Nhóm 2 (nhập liệu / moderator)",
+      "dap_an_tuong_duong": [
+        "Nhóm 2",
+        "moderator",
+        "Nhập liệu"
+      ],
+      "giai_thich": "Nhóm 2 (moderator) chỉ có quyền thêm dữ liệu mới.",
+      "nguon": "ndc_bai_15"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B15_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Bốn nội dung chính sách bảo mật CSDL",
+      "cau_hoi": "Một chính sách bảo mật CSDL toàn diện cần bao gồm những nội dung nào?",
+      "goi_y_dap_an": "1) Quy định về ý thức và trách nhiệm người dùng với tài khoản và dữ liệu.\n2) Quy định về tổ chức đảm bảo an ninh mạng, phần cứng và phần mềm.\n3) Danh sách các nhóm người dùng và tài khoản truy xuất với quyền hạn tương ứng.\n4) Biện pháp giám sát trạng thái hệ thống, ghi biên bản/nhật kí hoạt động và kế hoạch xử lí sự cố.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng đủ 4 nhóm nội dung (0,5đ × 4 = 2,0đ).",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Các sự cố nguồn điện, lưu trữ và giải pháp",
+      "cau_hoi": "Nêu các sự cố phổ biến có thể gây mất an toàn dữ liệu (nguồn điện, thiết bị lưu trữ) và giải pháp khắc phục tương ứng.",
+      "goi_y_dap_an": "- Nguồn điện: Không đủ công suất → xây dựng hệ thống đủ công suất; Quá tải → kiểm tra định kì; Mất điện đột ngột → dùng bộ lưu điện UPS.\n- Thiết bị lưu trữ: Quá tuổi thọ → quản lí thời gian dùng và thay thế sớm; Hư hỏng bất ngờ → sao lưu định kì và dùng thiết bị dự phòng bảo vệ dữ liệu.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng các tình huống và giải pháp cho nguồn điện (1,0đ) và thiết bị lưu trữ (1,0đ).",
+      "nguon": "ndc_bai_15"
+    },
+    {
+      "id": "B15_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế bảng phân quyền cho CSDL trường THPT",
+      "cau_hoi": "Hãy thiết kế phương án phân quyền cho CSDL quản lí điểm của một trường THPT gồm 4 nhóm đối tượng: Học sinh, Giáo viên bộ môn, Nhân viên giáo vụ nhập danh sách đầu năm, và Quản trị viên hệ thống. Nêu rõ phạm vi quyền của từng nhóm.",
+      "goi_y_dap_an": "- Học sinh (Khách / guest): Chỉ xem điểm cá nhân và thông báo công khai, không được thêm/sửa/xóa.\n- Nhân viên giáo vụ (Nhập liệu / moderator): Thêm mới hồ sơ học sinh đầu năm, không tự ý sửa/xóa điểm.\n- Giáo viên bộ môn (Quản lí / master_mod): Thêm, sửa, xóa điểm thuộc môn học và lớp mình phụ trách; không được sửa cấu trúc bảng.\n- Quản trị viên (Admin): Toàn quyền tạo/sửa cấu trúc bảng, cấp/thu hồi quyền, sao lưu và phục hồi CSDL.",
+      "thang_diem": "Tổng 2,0 điểm: phân đúng vai trò và phạm vi quyền hợp lí cho cả 4 đối tượng (0,5đ × 4 = 2,0đ).",
+      "nguon": "ndc_bai_15 & cd4_bai_15"
+    }
+  ]
 }

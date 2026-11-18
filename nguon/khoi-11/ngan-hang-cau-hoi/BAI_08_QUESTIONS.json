@@ -1,424 +1,572 @@
 {
-  "ma_bai": "BAI_08",
-  "bai_so": 8,
-  "ten_bai": "Thực hành nâng cao",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_08",
+  "ten_bai": "Thực hành nâng cao sử dụng thư điện tử và mạng xã hội",
+  "chu_de": "Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_8_thuc_hanh_nang_cao.docx",
+    "ndc_bai_8_thuc_hanh_n_ng_cao_su_dung_thu_dien_tu_va_mang_xa_hoi.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B08_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tìm kiếm thư quan trọng trong Gmail",
+      "cau_hoi": "Trong Gmail, cú pháp tìm kiếm nào dùng để hiển thị danh sách tất cả các thư điện tử được đánh dấu quan trọng?",
+      "lua_chon": {
+        "A": "is:important",
+        "B": "is:star",
+        "C": "label:all",
+        "D": "type:important"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Thực hiện tìm kiếm `is:important` trong Gmail để hiển thị các thư được đánh dấu quan trọng.",
+      "nguon": "ndc_bai_8 & Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B08_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt Nhãn (Label) và Thư mục",
+      "cau_hoi": "Điểm khác biệt cần lưu ý giữa Nhãn (Label) trong Gmail và Thư mục (Folder) thông thường là gì?",
+      "lua_chon": {
+        "A": "Một thư không thể gắn nhiều hơn một nhãn",
+        "B": "Khi xóa một thư trong hộp thư đến, thư đó cũng bị xóa khỏi mọi nhãn đang gắn kèm",
+        "C": "Nhãn không thể dùng để tìm kiếm thư",
+        "D": "Nhãn chỉ áp dụng cho thư đã gửi"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Khi xóa một thư, thư đó sẽ bị xóa khỏi mọi nhãn đính kèm cũng như trong hộp thư đến.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ưu điểm của dấu sao so với dấu quan trọng",
+      "cau_hoi": "So với dấu quan trọng (màu vàng) trong Gmail, phân loại thư bằng dấu sao có ưu điểm nổi bật nào?",
+      "lua_chon": {
+        "A": "Tự động xóa thư rác",
+        "B": "Có thể tùy chọn nhiều màu sao khác nhau để phân cấp mức độ quan trọng",
+        "C": "Không cần mở trình duyệt web",
+        "D": "Tự động trả lời thư"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Dấu sao dễ thêm tùy chọn các sao màu khác nhau để phân cấp quản lí, trong khi dấu quan trọng không đổi màu được.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Bật cảnh báo đăng nhập trên Facebook",
+      "cau_hoi": "Để bật tính năng cảnh báo khi có thiết bị lạ đăng nhập vào tài khoản Facebook, người dùng vào mục nào trong phần Cài đặt?",
+      "lua_chon": {
+        "A": "Trang cá nhân và gắn thẻ",
+        "B": "Cài đặt vị trí",
+        "C": "Tạo Trang (Fanpage)",
+        "D": "Mật khẩu và Bảo mật -> Cảnh báo đăng nhập"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Vào Cài đặt -> Mật khẩu và Bảo mật -> bật Cảnh báo đăng nhập và Xét duyệt đăng nhập.",
+      "nguon": "Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Màu sắc dấu hiệu thư quan trọng trong Gmail",
+      "cau_hoi": "Trong Gmail, biểu tượng đánh dấu thư quan trọng mặc định có màu gì?",
+      "lua_chon": {
+        "A": "Màu đỏ",
+        "B": "Màu xanh lam",
+        "C": "Màu vàng",
+        "D": "Màu đen"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Biểu tượng đánh dấu quan trọng trong Gmail có màu vàng.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mục tạo Trang (Fanpage) trên Facebook",
+      "cau_hoi": "Để tạo một Fanpage mới trên Facebook, sau khi mở Menu và vào mục 'Tạo', người dùng chọn lệnh nào?",
+      "lua_chon": {
+        "A": "Sự kiện",
+        "B": "Trang",
+        "C": "Nhóm",
+        "D": "Nhật kí hoạt động"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Vào Menu -> mục Tạo -> chọn Trang để thiết lập Fanpage mới.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Vị trí lệnh Tạo nhãn mới trong Gmail",
+      "cau_hoi": "Để tạo một Nhãn (Label) mới trong Gmail, người dùng mở danh sách mở rộng ở thanh bên trái và chọn mục nào?",
+      "lua_chon": {
+        "A": "Thư rác",
+        "B": "Tạo nhãn mới",
+        "C": "Thùng rác",
+        "D": "Đã gửi"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Mở danh sách mở rộng bên trái -> chọn 'Tạo nhãn mới' -> nhập tên -> Save.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Cơ sở Gmail nhận diện thư quan trọng",
+      "cau_hoi": "Gmail thường dựa vào yếu tố nào sau đây để tự động nhận diện một thư là quan trọng?",
+      "lua_chon": {
+        "A": "Dung lượng ổ cứng máy tính cá nhân",
+        "B": "Độ phân giải màn hình của người nhận",
+        "C": "Người gửi, tần suất trao đổi và các từ khóa người dùng hay đọc/trả lời",
+        "D": "Số lượng ảnh đại diện trên Facebook"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Gmail phân tích người gửi, tần suất gửi và mức độ tương tác mở/trả lời của người dùng.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cách gắn dấu sao khi đang mở đọc thư",
+      "cau_hoi": "Khi đang mở đọc chi tiết một bức thư trong Gmail, người dùng có thể gắn dấu sao cho thư đó bằng cách nào?",
+      "lua_chon": {
+        "A": "Nhấn nút 'Chuyển tiếp' cho chính mình",
+        "B": "Chọn 'Báo cáo thư rác'",
+        "C": "Nháy vào biểu tượng ngôi sao hoặc mở mục 'Khác' -> chọn 'Thêm dấu sao'",
+        "D": "Xóa nhãn đang gắn"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Có thể nháy biểu tượng ngôi sao trực tiếp hoặc vào Khác -> Thêm dấu sao.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kiểm soát bài viết gắn thẻ trên Facebook",
+      "cau_hoi": "Để kiểm soát việc người khác đăng bài lên dòng thời gian hoặc gắn thẻ (tag) tài khoản của bạn trên Facebook, bạn cần cấu hình ở mục nào?",
+      "lua_chon": {
+        "A": "Menu -> Tạo -> Trang",
+        "B": "Cài đặt -> Trang cá nhân và gắn thẻ",
+        "C": "Mục Nhãn (Label)",
+        "D": "Cài đặt âm thanh trình duyệt"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Mục 'Trang cá nhân và gắn thẻ' quản lí ai được đăng và gắn thẻ lên trang cá nhân.",
+      "nguon": "ndc_bai_8 & Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Xác lập đối tượng xem bài viết tương lai",
+      "cau_hoi": "Nếu muốn giới hạn chỉ 'Bạn bè' mới được xem các bài viết của mình đăng trong tương lai trên Facebook, cần chỉnh ở đâu?",
+      "lua_chon": {
+        "A": "Danh sách chặn ứng dụng",
+        "B": "Cài đặt -> Tạo Trang",
+        "C": "Hộp thư đến Gmail",
+        "D": "Cài đặt -> Quyền riêng tư"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Mục Cài đặt -> Quyền riêng tư cho phép chọn đối tượng xem bài viết trong tương lai.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hạn chế quảng cáo theo dõi qua Nhật kí hoạt động",
+      "cau_hoi": "Việc xóa lịch sử hoạt động hoặc tắt dịch vụ vị trí trên Facebook mang lại tác dụng chính nào?",
+      "lua_chon": {
+        "A": "Tăng cường quyền riêng tư và hạn chế quảng cáo theo dõi theo hành vi/vị trí",
+        "B": "Tự động tăng số lượng bạn bè trên Facebook",
+        "C": "Giúp Gmail nhận thư nhanh hơn",
+        "D": "Tự động tạo thêm nhiều Fanpage mới"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Xóa nhật kí hoạt động và tắt dịch vụ vị trí giúp bảo vệ quyền riêng tư và giảm theo dõi quảng cáo.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thay đổi trạng thái quan trọng thủ công trong Gmail",
+      "cau_hoi": "Khi Gmail tự động đánh dấu nhầm một thư quảng cáo là 'quan trọng', người dùng có thể xử lí thế nào?",
+      "lua_chon": {
+        "A": "Không thể tắt được vì hệ thống cố định",
+        "B": "Phải xóa toàn bộ tài khoản Gmail",
+        "C": "Nháy trực tiếp vào dấu quan trọng màu vàng để tắt trạng thái quan trọng của thư đó",
+        "D": "Phải gắn thêm 5 nhãn khác"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Người dùng có thể nháy chuột vào biểu tượng dấu quan trọng để bật hoặc tắt trạng thái này.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tìm kiếm thư có gắn dấu sao trong Gmail",
+      "cau_hoi": "Trong thanh tìm kiếm Gmail, cú pháp nào giúp lọc nhanh các thư đã được gắn dấu sao?",
+      "lua_chon": {
+        "A": "label:important",
+        "B": "is:important",
+        "C": "filetype:star",
+        "D": "is:starred"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`is:starred` dùng để lọc các thư có gắn dấu sao, phân biệt với `is:important` dành cho thư quan trọng.",
+      "nguon": "ndc_bai_8 & Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy trình thông tin bắt buộc khi tạo Fanpage",
+      "cau_hoi": "Khi tạo Fanpage cho Câu lạc bộ Tin học của trường trên Facebook, ba thông tin cơ bản đầu tiên cần nhập ở bước khởi tạo Trang là gì?",
+      "lua_chon": {
+        "A": "Mã định danh khóa ngoại",
+        "B": "Số thẻ ngân hàng, địa chỉ IP và mật khẩu Gmail",
+        "C": "Tần số quét màn hình và độ phân giải chuột",
+        "D": "Tên trang, hạng mục và mô tả"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Theo quy trình tạo Trang trên Facebook, cần nhập Tên trang, Hạng mục và Mô tả trước khi nhấn Tạo trang.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lý tình huống xóa nhầm thư đã gán nhãn",
+      "cau_hoi": "Bạn An gán nhãn 'Học tập' cho một bức thư thông báo thi rồi sau đó xóa bức thư đó trong Hộp thư đến để 'dọn dẹp'. Điều gì xảy ra khi An mở lại nhãn 'Học tập'?",
+      "lua_chon": {
+        "A": "Bức thư đó không còn trong nhãn 'Học tập' nữa vì đã bị xóa cùng lúc",
+        "B": "Bức thư vẫn còn nguyên vẹn trong nhãn 'Học tập' như một bản sao độc lập",
+        "C": "Nhãn 'Học tập' tự động đổi tên thành 'Thùng rác'",
+        "D": "Thư tự động gửi lại cho người gửi"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nhãn trong Gmail chỉ là thẻ phân loại gắn vào thư, không phải thư mục chứa bản sao độc lập; xóa thư sẽ mất ở mọi nhãn.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quản lí nhiều mức ưu tiên trong hộp thư đến",
+      "cau_hoi": "Một bí thư đoàn lớp muốn phân biệt rõ trong Gmail: thư cần xử lí gấp trong ngày (sao đỏ), thư cần đọc trong tuần (sao vàng) và thư tham khảo (sao xanh). Tính năng nào của Gmail đáp ứng trực tiếp yêu cầu này?",
+      "lua_chon": {
+        "A": "Tùy chọn nhiều màu dấu sao khác nhau trong Cài đặt Gmail",
+        "B": "Dấu quan trọng màu vàng mặc định",
+        "C": "Chuyển tất cả vào Thư rác",
+        "D": "Chỉ dùng một nhãn duy nhất"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Gmail cho phép kích hoạt nhiều màu dấu sao để phân cấp mức độ ưu tiên khác nhau.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Bảo vệ tài khoản trước nguy cơ đăng nhập trái phép",
+      "cau_hoi": "Ngoài việc bật 'Cảnh báo đăng nhập', người dùng nên bật thêm tính năng nào trong mục 'Mật khẩu và Bảo mật' trên Facebook để yêu cầu mã xác nhận khi đăng nhập từ thiết bị lạ?",
+      "lua_chon": {
+        "A": "Bật dịch vụ định vị liên tục",
+        "B": "Công khai toàn bộ bài viết cũ",
+        "C": "Cho phép mọi người gắn thẻ tự động",
+        "D": "Xác thực hai yếu tố / Xét duyệt đăng nhập"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Bật Xét duyệt đăng nhập (xác thực 2 yếu tố) giúp ngăn chặn truy cập trái phép ngay cả khi bị lộ mật khẩu.",
+      "nguon": "Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế hệ thống phân loại Gmail khoa học",
+      "cau_hoi": "Một học sinh nhận hàng chục email mỗi ngày từ giáo viên các môn, câu lạc bộ và thông báo tự động. Cách tổ chức nào giúp không bỏ sót bài tập quan trọng mà vẫn giữ Hộp thư đến gọn gàng?",
+      "lua_chon": {
+        "A": "Đánh dấu tất cả thư quảng cáo là quan trọng",
+        "B": "Xóa hết thư trong Hộp thư đến sau khi đã gán nhãn",
+        "C": "Tạo các Nhãn theo từng môn/nhóm (Toán, Tin, CLB), gắn nhãn cho thư và dùng dấu sao nhiều màu/is:important cho các hạn nộp gấp; lưu trữ (Archive) thư đã xử lí thay vì xóa",
+        "D": "Tạo 10 tài khoản Gmail khác nhau cho 10 môn"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Kết hợp Nhãn + Dấu sao/Quan trọng + Lưu trữ (không xóa nhầm thư đã gán nhãn) là quy trình quản lí email chuẩn xác.",
+      "nguon": "ndc_bai_8 & Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lý sự cố tài khoản mạng xã hội bị cảnh báo đăng nhập lạ",
+      "cau_hoi": "Khi nhận được thông báo 'Cảnh báo đăng nhập' từ một thiết bị lạ ở tỉnh khác truy cập tài khoản Facebook của mình, chuỗi hành động ứng phó đúng nhất là gì?",
+      "lua_chon": {
+        "A": "Xác nhận không phải mình -> đăng xuất khỏi thiết bị lạ -> đổi mật khẩu mạnh mới -> kiểm tra bật xác thực hai yếu tố",
+        "B": "Chỉ tắt thông báo cảnh báo để khỏi bị làm phiền",
+        "C": "Đăng bài hỏi công khai trên trang cá nhân xem ai đã vào",
+        "D": "Xóa Fanpage của lớp"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Cần ngắt phiên đăng nhập lạ ngay, đổi mật khẩu và gia cố xác thực hai yếu tố.",
+      "nguon": "Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B08-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Nhãn thư điện tử giúp người dùng làm gì?",
-        "lua_chon": {
-          "A": "Tăng dung lượng hộp thư",
-          "B": "Mã hóa mọi thư tự động",
-          "C": "Thay đổi địa chỉ người gửi",
-          "D": "Phân loại và tìm lại thư"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B08_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Đánh dấu và phân loại thư trong Gmail",
+      "dan_nhap": "Nhận định về đánh dấu và phân loại thư điện tử trong Gmail:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Gmail dựa vào người gửi, tần suất gửi, từ khóa hay đọc và tương tác mở/trả lời để nhận diện thư quan trọng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Đáp án đúng vì Phân loại và tìm lại thư; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B08-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Phát biểu nào đúng về Nhãn thư?",
-        "lua_chon": {
-          "A": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ.",
-          "B": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
-          "C": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
-          "D": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại."
+        {
+          "ma": "b",
+          "noi_dung": "Người dùng có thể nháy chuột vào dấu quan trọng màu vàng để thay đổi trạng thái quan trọng/không quan trọng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí."
-      },
-      {
-        "id": "T11-B08-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống: Hộp thư có nhiều thư từ các môn học. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đánh dấu hoặc gắn nhãn ưu tiên.",
-          "B": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm.",
-          "C": "Tạo nhãn theo môn học/chủ đề.",
-          "D": "Tạo bộ lọc theo người gửi hoặc chủ đề."
+        {
+          "ma": "c",
+          "noi_dung": "Dấu quan trọng trong Gmail cho phép đổi sang nhiều màu khác nhau giống như dấu sao.",
+          "dap_an": false,
+          "giai_thich": "Sai. Dấu quan trọng không đổi màu được."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Tạo nhãn theo môn học/chủ đề."
-      },
-      {
-        "id": "T11-B08-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Nhãn thư?",
-        "lua_chon": {
-          "A": "Hộp thư có nhiều thư từ các môn học.",
-          "B": "Thư từ giáo viên cần được gắn nhãn tự động.",
-          "C": "Có thư cần trả lời trước cuối tuần.",
-          "D": "Cần tìm thư có tệp đính kèm từ giáo viên."
+        {
+          "ma": "d",
+          "noi_dung": "Nhãn (Label) giúp sắp xếp, phân loại thư theo chủ đề và tìm lại thư nhanh chóng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ ndc_bai_8 & Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tạo Fanpage và quyền riêng tư trên Facebook",
+      "dan_nhap": "Nhận định về tạo Fanpage và cài đặt quyền riêng tư trên Facebook:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Để tạo Fanpage mới, người dùng đăng nhập Facebook, vào Menu -> mục Tạo -> chọn Trang.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Nhãn thư trong bài Thực hành nâng cao."
-      },
-      {
-        "id": "T11-B08-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Phát biểu nào đúng về Bộ lọc thư?",
-        "lua_chon": {
-          "A": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
-          "B": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
-          "C": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại.",
-          "D": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ."
+        {
+          "ma": "b",
+          "noi_dung": "Người dùng có thể thiết lập ai được xem các bài viết của mình trong tương lai tại Cài đặt -> Quyền riêng tư.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện."
-      },
-      {
-        "id": "T11-B08-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống: Thư từ giáo viên cần được gắn nhãn tự động. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm.",
-          "B": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
-          "C": "Tạo nhãn theo môn học/chủ đề.",
-          "D": "Đánh dấu hoặc gắn nhãn ưu tiên."
+        {
+          "ma": "c",
+          "noi_dung": "Mục 'Trang cá nhân và gắn thẻ' không cho phép kiểm soát việc người khác gắn thẻ mình.",
+          "dap_an": false,
+          "giai_thich": "Sai. Mục này dùng để thiết lập quyền liên quan đến trang cá nhân và gắn thẻ."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Tạo bộ lọc theo người gửi hoặc chủ đề."
-      },
-      {
-        "id": "T11-B08-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bộ lọc thư?",
-        "lua_chon": {
-          "A": "Có thư cần trả lời trước cuối tuần.",
-          "B": "Cần tìm thư có tệp đính kèm từ giáo viên.",
-          "C": "Thư từ giáo viên cần được gắn nhãn tự động.",
-          "D": "Hộp thư có nhiều thư từ các môn học."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể xóa lịch sử hoạt động hoặc tắt dịch vụ vị trí để tăng quyền riêng tư trên Facebook.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ ndc_bai_8 & Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sử dụng Nhãn (Label) trong Gmail",
+      "dan_nhap": "Một học sinh quản lí hộp thư Gmail bằng tính năng Nhãn (Label):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể tạo nhãn mới từ danh sách mở rộng bên trái giao diện Gmail.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Bộ lọc thư trong bài Thực hành nâng cao."
-      },
-      {
-        "id": "T11-B08-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Phát biểu nào đúng về Đánh dấu quan trọng?",
-        "lua_chon": {
-          "A": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
-          "B": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
-          "C": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ.",
-          "D": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại."
+        {
+          "ma": "b",
+          "noi_dung": "Một bức thư chỉ có thể gắn tối đa một nhãn duy nhất.",
+          "dap_an": false,
+          "giai_thich": "Sai. Một thư có thể gắn nhiều nhãn cùng lúc."
         },
-        "dap_an": "D",
-        "giai_thich": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại."
-      },
-      {
-        "id": "T11-B08-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống: Có thư cần trả lời trước cuối tuần. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đánh dấu hoặc gắn nhãn ưu tiên.",
-          "B": "Tạo nhãn theo môn học/chủ đề.",
-          "C": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
-          "D": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm."
+        {
+          "ma": "c",
+          "noi_dung": "Nếu xóa một bức thư trong Hộp thư đến, thư đó cũng biến mất khỏi các nhãn đã gắn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Đánh dấu hoặc gắn nhãn ưu tiên."
-      },
-      {
-        "id": "T11-B08-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Đánh dấu quan trọng?",
-        "lua_chon": {
-          "A": "Có thư cần trả lời trước cuối tuần.",
-          "B": "Hộp thư có nhiều thư từ các môn học.",
-          "C": "Thư từ giáo viên cần được gắn nhãn tự động.",
-          "D": "Cần tìm thư có tệp đính kèm từ giáo viên."
+        {
+          "ma": "d",
+          "noi_dung": "Nháy vào tên nhãn ở thanh bên trái giúp lọc nhanh toàn bộ thư thuộc chủ đề đó.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Bảo mật tài khoản Facebook",
+      "dan_nhap": "Nhận định về bảo mật tài khoản mạng xã hội Facebook:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Bật 'Cảnh báo đăng nhập' giúp nhận thông báo khi tài khoản bị truy cập từ thiết bị hoặc trình duyệt lạ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Đánh dấu quan trọng trong bài Thực hành nâng cao."
-      },
-      {
-        "id": "T11-B08-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Phát biểu nào đúng về Tìm thư?",
-        "lua_chon": {
-          "A": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
-          "B": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại.",
-          "C": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ.",
-          "D": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí."
+        {
+          "ma": "b",
+          "noi_dung": "Xét duyệt đăng nhập giúp giảm nguy cơ bị chiếm đoạt tài khoản dù người khác biết mật khẩu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tìm kiếm trong hộp thư có thể dùng người gửi, chủ đề hoặc cụm từ."
-      },
-      {
-        "id": "T11-B08-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống: Cần tìm thư có tệp đính kèm từ giáo viên. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo nhãn theo môn học/chủ đề.",
-          "B": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
-          "C": "Đánh dấu hoặc gắn nhãn ưu tiên.",
-          "D": "Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm."
+        {
+          "ma": "c",
+          "noi_dung": "Để bảo mật cao, nên công khai toàn bộ nhật kí hoạt động và vị trí hiện tại cho mọi người dùng.",
+          "dap_an": false,
+          "giai_thich": "Sai. Công khai vị trí và nhật kí hoạt động làm giảm quyền riêng tư và an toàn cá nhân."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Tìm theo người gửi/chủ đề và bộ lọc tệp đính kèm."
-      },
-      {
-        "id": "T11-B08-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tìm thư?",
-        "lua_chon": {
-          "A": "Thư từ giáo viên cần được gắn nhãn tự động.",
-          "B": "Có thư cần trả lời trước cuối tuần.",
-          "C": "Cần tìm thư có tệp đính kèm từ giáo viên.",
-          "D": "Hộp thư có nhiều thư từ các môn học."
+        {
+          "ma": "d",
+          "noi_dung": "Nên thực hiện 'Kiểm tra quyền riêng tư' định kì để rà soát đối tượng xem bài viết và thông tin cá nhân.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_DS_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tìm kiếm và lọc thư trong Gmail",
+      "dan_nhap": "Nhận định về tìm kiếm và gắn dấu sao trong Gmail:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Gõ `is:important` vào ô tìm kiếm Gmail sẽ hiển thị các thư được đánh dấu quan trọng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Tìm thư trong bài Thực hành nâng cao."
-      },
-      {
-        "id": "T11-B08-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Phát biểu nào đúng về Quyền riêng tư mạng xã hội?",
-        "lua_chon": {
-          "A": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại.",
-          "B": "Cài đặt quyền riêng tư giúp giới hạn đối tượng xem bài đăng.",
-          "C": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
-          "D": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện."
+        {
+          "ma": "b",
+          "noi_dung": "Gõ `is:starred` vào ô tìm kiếm Gmail sẽ hiển thị các thư đã gắn dấu sao.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Cài đặt quyền riêng tư giúp giới hạn đối tượng xem bài đăng."
-      },
-      {
-        "id": "T11-B08-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống: Bài viết chỉ dành cho một nhóm bạn. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
-          "B": "Đánh dấu hoặc gắn nhãn ưu tiên.",
-          "C": "Đối tượng xem và thiết lập quyền riêng tư.",
-          "D": "Tạo nhãn theo môn học/chủ đề."
+        {
+          "ma": "c",
+          "noi_dung": "Dấu sao trong Gmail chỉ có duy nhất một màu vàng, không thể bật thêm màu khác.",
+          "dap_an": false,
+          "giai_thich": "Sai. Dấu sao có thể tùy chọn nhiều màu khác nhau trong cài đặt."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Đối tượng xem và thiết lập quyền riêng tư."
-      },
-      {
-        "id": "T11-B08-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quyền riêng tư mạng xã hội?",
-        "lua_chon": {
-          "A": "Bài viết chỉ dành cho một nhóm bạn.",
-          "B": "Hộp thư có nhiều thư từ các môn học.",
-          "C": "Thư từ giáo viên cần được gắn nhãn tự động.",
-          "D": "Có thư cần trả lời trước cuối tuần."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Quyền riêng tư mạng xã hội trong bài Thực hành nâng cao."
-      },
-      {
-        "id": "T11-B08-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Phát biểu nào đúng về Tương tác có trách nhiệm?",
-        "lua_chon": {
-          "A": "Bình luận và chia sẻ cần tôn trọng người khác và cân nhắc hậu quả.",
-          "B": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
-          "C": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
-          "D": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại."
-        },
-        "dap_an": "A",
-        "giai_thich": "Bình luận và chia sẻ cần tôn trọng người khác và cân nhắc hậu quả."
-      },
-      {
-        "id": "T11-B08-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống: Một cuộc trao đổi bất đồng trên mạng xã hội. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đánh dấu hoặc gắn nhãn ưu tiên.",
-          "B": "Trao đổi lịch sự, nêu ý kiến có căn cứ.",
-          "C": "Tạo nhãn theo môn học/chủ đề.",
-          "D": "Tạo bộ lọc theo người gửi hoặc chủ đề."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Trao đổi lịch sự, nêu ý kiến có căn cứ."
-      },
-      {
-        "id": "T11-B08-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tương tác có trách nhiệm?",
-        "lua_chon": {
-          "A": "Thư từ giáo viên cần được gắn nhãn tự động.",
-          "B": "Có thư cần trả lời trước cuối tuần.",
-          "C": "Một cuộc trao đổi bất đồng trên mạng xã hội.",
-          "D": "Hộp thư có nhiều thư từ các môn học."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Tương tác có trách nhiệm trong bài Thực hành nâng cao."
-      },
-      {
-        "id": "T11-B08-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Phát biểu nào đúng về Dấu vết số?",
-        "lua_chon": {
-          "A": "Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.",
-          "B": "Bộ lọc có thể tự động phân loại thư dựa trên điều kiện.",
-          "C": "Đánh dấu giúp nhận biết thư cần xử lí hoặc xem lại.",
-          "D": "Nội dung chia sẻ có thể được lưu lại hoặc lan truyền ngoài ý muốn."
-        },
-        "dap_an": "D",
-        "giai_thich": "Nội dung chia sẻ có thể được lưu lại hoặc lan truyền ngoài ý muốn."
-      },
-      {
-        "id": "T11-B08-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống: Chuẩn bị đăng ảnh có thông tin trường lớp và vị trí. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kiểm tra nội dung và thông tin cá nhân bị lộ.",
-          "B": "Tạo nhãn theo môn học/chủ đề.",
-          "C": "Tạo bộ lọc theo người gửi hoặc chủ đề.",
-          "D": "Đánh dấu hoặc gắn nhãn ưu tiên."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Kiểm tra nội dung và thông tin cá nhân bị lộ."
-      },
-      {
-        "id": "T11-B08-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Dấu vết số?",
-        "lua_chon": {
-          "A": "Chuẩn bị đăng ảnh có thông tin trường lớp và vị trí.",
-          "B": "Hộp thư có nhiều thư từ các môn học.",
-          "C": "Thư từ giáo viên cần được gắn nhãn tự động.",
-          "D": "Có thư cần trả lời trước cuối tuần."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Dấu vết số trong bài Thực hành nâng cao."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B08-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Xét tính đúng/sai về Thực hành nâng cao:",
-        "y_kien": {
-          "a": false,
-          "b": "Thiết lập quyền riêng tư giúp quản lí ai xem nội dung trên mạng xã hội.",
-          "c": "Mọi nội dung đăng mạng xã hội chắc chắn chỉ bạn bè nhìn thấy.",
-          "d": true
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B08-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Đề xuất cách tổ chức hộp thư và chia sẻ có trách nhiệm trên mạng xã hội.",
-        "dap_an_goi_y": "Tạo nhãn theo chủ đề, dùng tìm kiếm/lọc; kiểm tra quyền riêng tư, hạn chế dữ liệu cá nhân và xác minh nội dung trước khi chia sẻ.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B08-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 8 - Thực hành nâng cao",
-        "noi_dung": "Dựa vào kiến thức “Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Hộp thư có nhiều thư từ các môn học.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Nhãn giúp phân loại thư theo chủ đề hoặc trạng thái xử lí. Vận dụng: Tạo nhãn theo môn học/chủ đề. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Người dùng có thể tự bật hoặc tắt dấu quan trọng màu vàng bằng cách nháy trực tiếp vào nó.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_8"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B08_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Cú pháp tìm thư quan trọng Gmail",
+      "cau_hoi": "Từ khóa tìm kiếm tất cả thư quan trọng trong thanh tìm kiếm Gmail là gì?",
+      "dap_an": "is:important",
+      "dap_an_tuong_duong": [
+        "is: important"
+      ],
+      "giai_thich": "Cú pháp `is:important` lọc các thư được đánh dấu quan trọng.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Công cụ Nhãn trong Gmail",
+      "cau_hoi": "Công cụ trong Gmail dùng để sắp xếp, phân loại thư theo chủ đề gọi là gì?",
+      "dap_an": "Nhãn (Label)",
+      "dap_an_tuong_duong": [
+        "Nhãn",
+        "Label"
+      ],
+      "giai_thich": "Nhãn (Label) giúp phân loại và lọc thư theo chủ đề.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TLN_03",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh tạo Fanpage trên Facebook",
+      "cau_hoi": "Khi tạo Fanpage trên Facebook, trong mục Tạo của Menu ta chọn lệnh nào?",
+      "dap_an": "Trang",
+      "dap_an_tuong_duong": [
+        "Page"
+      ],
+      "giai_thich": "Vào Menu -> Tạo -> chọn Trang để khởi tạo Fanpage.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cú pháp tìm thư gắn dấu sao Gmail",
+      "cau_hoi": "Từ khóa tìm kiếm tất cả thư đã gắn dấu sao trong thanh tìm kiếm Gmail là gì?",
+      "dap_an": "is:starred",
+      "dap_an_tuong_duong": [
+        "is: starred"
+      ],
+      "giai_thich": "Cú pháp `is:starred` hiển thị toàn bộ thư đã gắn dấu sao.",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Mục cài đặt cảnh báo đăng nhập Facebook",
+      "cau_hoi": "Trong phần Cài đặt của Facebook, mục lớn nào chứa tính năng 'Cảnh báo đăng nhập'?",
+      "dap_an": "Mật khẩu và Bảo mật",
+      "dap_an_tuong_duong": [
+        "Bảo mật và đăng nhập",
+        "Password and security"
+      ],
+      "giai_thich": "Cảnh báo đăng nhập và xét duyệt đăng nhập nằm trong mục Mật khẩu và Bảo mật.",
+      "nguon": "Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B08_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tạo và gán Nhãn (Label) trong Gmail",
+      "cau_hoi": "Trình bày các bước tạo Nhãn (Label) mới và gán nhãn cho thư trong hộp thư đến Gmail.",
+      "goi_y_dap_an": "- Bước 1 (Tạo nhãn): Truy cập Gmail → nháy vào Danh sách mở rộng bên trái → chọn Tạo nhãn mới → đặt tên nhãn và nhấn Save.\n- Bước 2 (Gán nhãn): Chọn thư cần gán nhãn → nháy vào biểu tượng Nhãn để mở danh sách → chọn nhãn muốn gán.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng bước tạo nhãn mới (1,0đ) và bước gán nhãn cho thư (1,0đ).",
+      "nguon": "ndc_bai_8"
+    },
+    {
+      "id": "B08_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo Fanpage và tăng cường quyền riêng tư Facebook",
+      "cau_hoi": "Nêu quy trình tạo Fanpage trên Facebook và cách kiểm tra, tăng cường quyền riêng tư cho tài khoản cá nhân.",
+      "goi_y_dap_an": "- Tạo Fanpage: Đăng nhập Facebook → Menu → Tạo → Trang → nhập tên trang, chọn hạng mục, nhập mô tả → Tạo trang → cập nhật nội dung, ảnh.\n- Tăng cường quyền riêng tư: Vào Cài đặt → Quyền riêng tư (thiết lập đối tượng xem bài viết), Cài đặt → Trang cá nhân và gắn thẻ, và Mật khẩu & Bảo mật (bật Cảnh báo đăng nhập, Xét duyệt đăng nhập).",
+      "thang_diem": "Tổng 2,0 điểm: nêu đủ quy trình tạo Fanpage (1,0đ) và tối thiểu 2 nhóm thiết lập quyền riêng tư/bảo mật (1,0đ).",
+      "nguon": "ndc_bai_8 & Kenhgiaovien_8_thuc_hanh_nang_cao.docx"
+    },
+    {
+      "id": "B08_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân biệt Nhãn với Thư mục và xử lí lỗi quản lí email",
+      "cau_hoi": "Giải thích vì sao nhiều người dùng mới thường bị mất thư quan trọng khi nghĩ Nhãn (Label) trong Gmail hoạt động giống Thư mục (Folder) trên Windows. Từ đó, nêu cách thao tác đúng để hộp thư đến gọn gàng mà không làm mất thư đã gán nhãn.",
+      "goi_y_dap_an": "- Nguyên nhân mất thư: Trên Windows, sao chép tệp vào thư mục tạo ra bản sao độc lập; còn trong Gmail, Nhãn chỉ là thẻ gắn lên một thư duy nhất. Khi xóa thư trong Hộp thư đến, thư gốc bị chuyển vào Thùng rác nên biến mất khỏi mọi nhãn.\n- Thao tác đúng: Sau khi gán nhãn cho thư, hãy dùng chức năng 'Lưu trữ' (Archive) để ẩn thư khỏi Hộp thư đến mà vẫn giữ nguyên thư trong các nhãn đã gắn.",
+      "thang_diem": "Tổng 2,0 điểm: giải thích đúng bản chất thẻ gắn của Nhãn so với Thư mục (1,2đ) và nêu đúng giải pháp dùng Lưu trữ (Archive) thay vì Xóa (0,8đ).",
+      "nguon": "ndc_bai_8"
+    }
+  ]
 }

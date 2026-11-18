@@ -1,424 +1,573 @@
 {
-  "ma_bai": "BAI_26",
-  "bai_so": 26,
+  "bai_id": "BAI_26",
   "ten_bai": "Công cụ tinh chỉnh màu sắc và công cụ chọn",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 7: Phần mềm chỉnh sửa ảnh và làm video",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd7_bai_26_cong_cu_tinh_chinh_mau_sac_va_cong_cu_chon.docx",
+    "ndc_bai_26_cong_cu_tinh_chinh_mau_sac_va_cong_cu_chon.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_26_cong_cu_tinh_chinh_mau_sac_va_cong_cu_chon.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_26_cong_cu_tinh_chinh_mau_sac_va_cong_cu_chon.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B26_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Vị trí các công cụ tinh chỉnh màu sắc trong GIMP",
+      "cau_hoi": "Trong GIMP, các công cụ tinh chỉnh màu sắc như `Brightness-Contrast`, `Color Balance`, `Hue-Saturation` nằm trong bảng chọn nào?",
+      "lua_chon": {
+        "A": "Filters",
+        "B": "Colors",
+        "C": "Layer",
+        "D": "Select"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Các công cụ tinh chỉnh màu sắc nằm trong bảng chọn Colors.",
+      "nguon": "ndc_bai_26 & tln_..._bai_26"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B26_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ba dải độ sáng trong Color Balance",
+      "cau_hoi": "Công cụ `Color Balance` cho phép hiệu chỉnh màu sắc theo ba dải độ sáng nào?",
+      "lua_chon": {
+        "A": "Shadows, Midtones, Highlights",
+        "B": "Red, Green, Blue",
+        "C": "Hue, Lightness, Saturation",
+        "D": "Width, Height, Radius"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Color Balance hiệu chỉnh theo 3 dải sáng: Shadows (tối), Midtones (trung bình), Highlights (sáng).",
+      "nguon": "ndc_bai_26 & tln_..._bai_26"
+    },
+    {
+      "id": "B26_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phím tắt công cụ chọn hình chữ nhật và hình elip",
+      "cau_hoi": "Phím tắt của công cụ `Rectangle Select Tool` và `Ellipse Select Tool` trong GIMP lần lượt là gì?",
+      "lua_chon": {
+        "A": "C và V",
+        "B": "R và E",
+        "C": "S và H",
+        "D": "B và G"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Rectangle Select Tool có phím tắt R; Ellipse Select Tool có phím tắt E.",
+      "nguon": "ndc_bai_26 & tln_..._bai_26"
+    },
+    {
+      "id": "B26_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chỉnh màu riêng lẻ bằng Hue-Saturation",
+      "cau_hoi": "Để điều chỉnh tông màu, độ sáng và độ bão hòa riêng cho màu đỏ của bông hoa mà không ảnh hưởng các màu khác, ta dùng công cụ nào?",
+      "lua_chon": {
+        "A": "Brightness-Contrast",
+        "B": "Crop",
+        "C": "Hue-Saturation (chọn kênh Red)",
+        "D": "Zoom"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Hue-Saturation cho phép chọn riêng từng màu trong 6 màu (Red, Green, Blue, Cyan, Magenta, Yellow) hoặc Master.",
+      "nguon": "ndc_bai_26 & tln_..._bai_26"
+    },
+    {
+      "id": "B26_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím tắt Free Select Tool",
+      "cau_hoi": "Công cụ chọn vùng tự do (`Free Select Tool`) trong GIMP có phím tắt mặc định là phím nào?",
+      "lua_chon": {
+        "A": "R",
+        "B": "F",
+        "C": "E",
+        "D": "G"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Free Select Tool` có phím tắt là `F`, dùng để khoanh vùng chọn hình dạng tùy ý.",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ba thanh trượt trong Hue-Saturation",
+      "cau_hoi": "Ba thông số điều chỉnh chính trong hộp thoại `Hue-Saturation` lần lượt có ý nghĩa là gì?",
+      "lua_chon": {
+        "A": "Độ rộng, Chiều cao, Góc xoay",
+        "B": "Tông màu (`Hue`), Độ sáng (`Lightness`), Độ bão hòa (`Saturation`)",
+        "C": "Vùng tối, Vùng trung bình, Vùng sáng",
+        "D": "Độ phân giải, Kích thước tệp, Số lớp"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Hue-Saturation chỉnh tông màu, độ sáng và độ bão hòa màu sắc.",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chức năng nút Presets và Preview",
+      "cau_hoi": "Trong các hộp thoại chỉnh màu của GIMP, tùy chọn `Preview` và `Presets` lần lượt dùng để làm gì?",
+      "lua_chon": {
+        "A": "Tạo ảnh động GIF",
+        "B": "Cắt ảnh và xoay ảnh",
+        "C": "Xóa lớp ảnh và đóng GIMP",
+        "D": "Xem trước kết quả trên ảnh và lưu lại cấu hình thông số để tái sử dụng"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Preview` bật/tắt xem trước; `Presets` lưu các bộ thông số chỉnh màu thường dùng.",
+      "nguon": "ndc_bai_26 & trac_nghiem_dung_sai_..._bai_26"
+    },
+    {
+      "id": "B26_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chuyển đổi Brightness-Contrast sang Levels",
+      "cau_hoi": "Trong hộp thoại `Brightness-Contrast`, để chuyển sang chỉnh mức sáng chi tiết hơn bằng công cụ `Levels`, người dùng nhấn nút nào?",
+      "lua_chon": {
+        "A": "*Edit these Settings as Levels*",
+        "B": "*Reset*",
+        "C": "*Cancel*",
+        "D": "*Single-window Mode*"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nút *Edit these Settings as Levels* chuyển thông số hiện tại sang hộp thoại `Levels`.",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Vai trò của vùng chọn khi chỉnh sửa ảnh",
+      "cau_hoi": "Nếu người dùng KHÔNG tạo vùng chọn trước khi áp dụng lệnh `Colors -> Brightness-Contrast`, lệnh đó sẽ tác động lên phần nào?",
+      "lua_chon": {
+        "A": "Chỉ tác động lên góc trên bên trái",
+        "B": "Tác động lên toàn bộ lớp ảnh đang được chọn",
+        "C": "Hệ thống không cho phép mở hộp thoại `Brightness-Contrast`",
+        "D": "Chỉ tác động lên màu đỏ"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Vùng chọn giới hạn phạm vi xử lí; khi không có vùng chọn, mọi thao tác áp dụng trên cả lớp ảnh.",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tạo ảnh đen trắng bằng Hue-Saturation",
+      "cau_hoi": "Để chuyển nhanh một bức ảnh màu sang thang độ xám (đen trắng) bằng công cụ `Hue-Saturation`, thao tác nào sau đây đúng?",
+      "lua_chon": {
+        "A": "Chọn kênh `Yellow` và kéo `Lightness` về `0`",
+        "B": "Kéo thanh `Hue` lên `+180`",
+        "C": "Kéo thanh `Saturation` lên `+100`",
+        "D": "Chọn chế độ `Master` và kéo thanh trượt `Saturation` về mức tối thiểu (`-100`)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Giảm độ bão hòa (`Saturation = -100`) ở kênh `Master` loại bỏ toàn bộ sắc độ, tạo ảnh thang xám.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_26"
+    },
+    {
+      "id": "B26_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phím Shift để thêm vùng chọn",
+      "cau_hoi": "Sau khi đã tạo một vùng chọn hình chữ nhật, nếu muốn **mở rộng (thêm)** một vùng chọn hình tròn vào chung với vùng chọn hiện có, ta giữ phím nào khi kéo chuột?",
+      "lua_chon": {
+        "A": "Phím `Shift`",
+        "B": "Phím `Ctrl`",
+        "C": "Phím `Esc`",
+        "D": "Phím `Enter`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Giữ `Shift` để cộng thêm vùng chọn; giữ `Ctrl` để trừ bớt vùng chọn.",
+      "nguon": "ndc_bai_26 & trac_nghiem_dung_sai_..._bai_26"
+    },
+    {
+      "id": "B26_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Sao chép và di chuyển vùng chọn",
+      "cau_hoi": "Để **sao chép và di chuyển** phần ảnh trong vùng chọn sang một vị trí khác trên cùng lớp ảnh, ta nhấn giữ tổ hợp phím nào rồi kéo thả chuột?",
+      "lua_chon": {
+        "A": "`Shift + C`",
+        "B": "`Alt + Ctrl`",
+        "C": "`Ctrl + R`",
+        "D": "`Alt + Shift`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Alt + Shift` + kéo để sao chép và di chuyển; `Alt + Ctrl` + kéo để cắt và di chuyển.",
+      "nguon": "ndc_bai_26 & trac_nghiem_dung_sai_..._bai_26"
+    },
+    {
+      "id": "B26_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt vùng Shadows, Midtones, Highlights",
+      "cau_hoi": "Khi chỉnh ảnh bình minh có bầu trời sáng chói và mặt đất hơi tối, muốn tăng thêm sắc vàng ấm riêng cho vùng bầu trời sáng mà ít ảnh hưởng vùng tối mặt đất, trong `Color Balance` nên chọn dải sáng nào?",
+      "lua_chon": {
+        "A": "`Master`",
+        "B": "`Shadows` (vùng tối)",
+        "C": "`Midtones` (vùng trung bình)",
+        "D": "`Highlights` (vùng sáng)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Highlights` tác động chủ yếu vào các điểm ảnh sáng như bầu trời.",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo vùng chọn hình tròn hoàn hảo bằng Ellipse Select Tool",
+      "cau_hoi": "Khi dùng công cụ `Ellipse Select Tool` (phím E) để vẽ vùng chọn hình tròn tuyệt đối (hoặc `Rectangle Select Tool` để vẽ hình vuông), ta giữ thêm phím nào trong lúc kéo chuột?",
+      "lua_chon": {
+        "A": "Phím `F5`",
+        "B": "Phím `Delete`",
+        "C": "Phím `Shift` (sau khi bắt đầu kéo chuột)",
+        "D": "Phím `Caps Lock`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Trong GIMP, nhấn giữ `Shift` sau khi bắt đầu kéo sẽ cố định tỉ lệ 1:1 (hình tròn/hình vuông).",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo vùng chọn hình vành khuyên bằng tổ hợp Shift/Ctrl",
+      "cau_hoi": "Để tạo một vùng chọn hình vành khuyên (hình tròn lớn bị khoét rỗng một hình tròn nhỏ đồng tâm ở giữa), thao tác nào sau đây đúng?",
+      "lua_chon": {
+        "A": "Dùng `Ellipse Select Tool` vẽ hình tròn lớn trước -> giữ phím `Ctrl` và vẽ tiếp hình tròn nhỏ bên trong để trừ bớt phần giữa",
+        "B": "Vẽ hình tròn lớn -> giữ phím `Shift` và vẽ hình tròn nhỏ bên trong",
+        "C": "Dùng `Crop` cắt hình tròn",
+        "D": "Dùng `Brightness-Contrast`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Giữ `Ctrl` khi kéo vùng chọn thứ hai giúp trừ bớt phần giao khỏi vùng chọn ban đầu.",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đổi màu một đối tượng cụ thể bằng Free Select + Hue-Saturation",
+      "cau_hoi": "Để đổi màu riêng nửa bên phải của một quả táo đỏ sang màu xanh lá mà không làm thay đổi màu phần còn lại của bức ảnh, trình tự thao tác đúng là gì?",
+      "lua_chon": {
+        "A": "Dùng `Crop` cắt bỏ nửa quả táo",
+        "B": "Mở `Hue-Saturation` kéo thanh `Hue` ngay lập tức rồi mới dùng `Free Select Tool`",
+        "C": "Dùng `Free Select Tool` (phím F) khoanh kín nửa quả táo -> mở `Colors -> Hue-Saturation` -> kéo thanh `Hue` để đổi tông màu -> nhấn `OK`",
+        "D": "Dùng `Rotate` xoay quả táo 180 độ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Phải tạo vùng chọn bao quanh đúng vùng cần xử lí trước khi gọi công cụ chỉnh màu.",
+      "nguon": "ndc_bai_26 & cd7_bai_26"
+    },
+    {
+      "id": "B26_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Áp dụng nhanh bộ lọc màu cho hàng loạt ảnh cùng điều kiện sáng",
+      "cau_hoi": "Bạn An chụp 15 bức ảnh sự kiện ngoài trời bị thiếu sáng giống nhau. Sau khi chỉnh thông số `Brightness-Contrast` ưng ý cho bức ảnh đầu tiên, làm thế nào để áp dụng nhanh đúng thông số đó cho 14 bức ảnh còn lại?",
+      "lua_chon": {
+        "A": "Ghi chép ra giấy rồi chỉnh lại bằng `Crop`",
+        "B": "Chép toàn bộ điểm ảnh của ảnh 1 đè lên 14 ảnh kia",
+        "C": "Nhấn dấu `+` cạnh mục `Presets` để lưu lại cấu hình vừa chỉnh, sau đó mở các ảnh tiếp theo và chọn lại preset đã lưu",
+        "D": "Chuyển sang chế độ nhiều cửa sổ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`Presets` lưu bộ tham số chỉnh màu giúp tái sử dụng nhất quán và nhanh chóng.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_26"
+    },
+    {
+      "id": "B26_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Cắt ghép đối tượng sang vị trí mới trên ảnh",
+      "cau_hoi": "Sau khi dùng `Free Select Tool` khoanh chọn một bông hoa trên lớp ảnh, người dùng nhấn giữ `Alt + Ctrl` và kéo chuột sang góc phải của bức ảnh. Kết quả thu được là gì?",
+      "lua_chon": {
+        "A": "Bông hoa bị cắt khỏi vị trí cũ (để lại vùng trống/nền) và di chuyển sang góc phải",
+        "B": "Bông hoa được nhân đôi thành 2 bông giống nhau",
+        "C": "Toàn bộ lớp ảnh bị xoay 90 độ",
+        "D": "Vùng chọn bị xóa bỏ hoàn toàn"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`Alt + Ctrl` + kéo thực hiện cắt và di chuyển vùng chọn (khác với `Alt + Shift` là sao chép và di chuyển).",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí lỗi không vẽ/chỉnh màu được do còn vùng chọn cũ",
+      "cau_hoi": "Một học sinh sau khi chỉnh màu cho một góc nhỏ trên ảnh bằng `Rectangle Select Tool`, tiếp tục mở `Hue-Saturation` để chỉnh màu toàn bức ảnh nhưng thấy phần còn lại của ảnh không hề thay đổi. Nguyên nhân và cách khắc phục là gì?",
+      "lua_chon": {
+        "A": "Do chưa lưu tệp sang `.jpg`",
+        "B": "Do ảnh đã bị khóa bằng `Single-window Mode`",
+        "C": "Do công cụ `Hue-Saturation` chỉ dùng được một lần mỗi tệp",
+        "D": "Do vùng chọn nhỏ trước đó vẫn đang kích hoạt; cần bỏ vùng chọn bằng lệnh `Select -> None` (`Shift + Ctrl + A`) trước khi chỉnh toàn ảnh"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Khi còn vùng chọn đang hoạt động, mọi thao tác chỉnh sửa chỉ tác động bên trong vùng chọn đó; cần chọn `Select -> None` để hủy vùng chọn.",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phối hợp công cụ chỉnh màu cứu ảnh chụp ngược sáng",
+      "cau_hoi": "Một bức ảnh chân dung chụp ngược sáng có khuôn mặt bị tối (thiếu chi tiết) và màu sắc hơi nhợt nhạt, trong khi nền trời phía sau đã đủ sáng. Giải pháp phối hợp công cụ nào trong Bài 26 giúp cải thiện tự nhiên nhất?",
+      "lua_chon": {
+        "A": "Dùng `Crop` cắt bỏ toàn bộ khuôn mặt",
+        "B": "Giảm `Saturation` về `-100` và giảm `Brightness` xuống mức thấp nhất",
+        "C": "Tạo vùng chọn quanh khuôn mặt (hoặc dùng `Color Balance` chọn dải `Shadows` kết hợp `Brightness-Contrast` / `Levels`) để tăng sáng vùng tối và tăng nhẹ `Saturation` cho sắc da tươi tắn hơn",
+        "D": "Chỉ dùng `Zoom` phóng to ảnh"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khoanh vùng chọn hoặc tác động vào dải tối kết hợp tăng độ bão hòa giúp cứu vùng tối mà không làm cháy sáng nền trời.",
+      "nguon": "ndc_bai_26 & cd7_bai_26"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B26-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "RGB gồm các thành phần màu nào?",
-        "lua_chon": {
-          "A": "Đỏ, lục, lam",
-          "B": "Đỏ, vàng, đen",
-          "C": "Lục, lam, trắng",
-          "D": "Cyan, magenta, vàng"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B26_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Chức năng các công cụ chỉnh màu trong GIMP",
+      "dan_nhap": "Nhận xét về các công cụ chỉnh màu trong GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Công cụ `Brightness-Contrast` điều chỉnh chính xác từng vùng sáng tối nhỏ bằng đường cong màu phức tạp như `Curves`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Brightness-Contrast chỉnh chung độ sáng và tương phản; chỉnh chi tiết hơn dùng Levels hoặc Curves."
         },
-        "dap_an": "A",
-        "giai_thich": "Đáp án đúng vì Đỏ, lục, lam; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B26-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Phát biểu nào đúng về RGB?",
-        "lua_chon": {
-          "A": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
-          "B": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
-          "C": "Biên vùng chọn quyết định phần ảnh chịu tác động.",
-          "D": "RGB gồm các kênh đỏ, lục và lam."
+        {
+          "ma": "b",
+          "noi_dung": "Công cụ `Hue-Saturation` có thể điều chỉnh riêng từng màu (như tăng độ rực màu magenta) mà không ảnh hưởng màu khác.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "RGB gồm các kênh đỏ, lục và lam."
-      },
-      {
-        "id": "T11-B26-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống: Cần điều chỉnh cường độ màu đỏ của ảnh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kênh R.",
-          "B": "RGB.",
-          "C": "Tạo vùng chọn quanh chiếc áo.",
-          "D": "Chỉnh lại biên vùng chọn."
+        {
+          "ma": "c",
+          "noi_dung": "Công cụ `Color Balance` cân bằng màu sắc theo ba dải sáng: Shadows, Midtones và Highlights.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Kênh R."
-      },
-      {
-        "id": "T11-B26-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về RGB?",
-        "lua_chon": {
-          "A": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
-          "B": "Điều chỉnh màu lan ra ngoài đối tượng.",
-          "C": "Cần điều chỉnh cường độ màu đỏ của ảnh.",
-          "D": "Màn hình hiển thị một màu pha từ các kênh."
+        {
+          "ma": "d",
+          "noi_dung": "Giảm giá trị `Saturation` của chế độ `Master` trong `Hue-Saturation` về mức tối thiểu (-100) giúp chuyển ảnh sang thang độ xám (đen trắng).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_26"
+    },
+    {
+      "id": "B26_DS_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kết hợp và thao tác với công cụ vùng chọn",
+      "dan_nhap": "Kết hợp các công cụ vùng chọn trong GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Công cụ `Ellipse Select Tool` (phím E) phù hợp để tạo vùng chọn hình tròn hoặc elip.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với RGB trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
-      },
-      {
-        "id": "T11-B26-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Phát biểu nào đúng về Cộng màu?",
-        "lua_chon": {
-          "A": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
-          "B": "Biên vùng chọn quyết định phần ảnh chịu tác động.",
-          "C": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
-          "D": "RGB gồm các kênh đỏ, lục và lam."
+        {
+          "ma": "b",
+          "noi_dung": "Để thêm vùng chọn mới vào vùng chọn hiện có, người dùng giữ phím `Ctrl` trong khi kéo chuột.",
+          "dap_an": false,
+          "giai_thich": "Sai. Giữ `Shift` để mở rộng/thêm vùng chọn; giữ `Ctrl` để trừ bớt vùng chọn."
         },
-        "dap_an": "C",
-        "giai_thich": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị."
-      },
-      {
-        "id": "T11-B26-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống: Màn hình hiển thị một màu pha từ các kênh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kênh R.",
-          "B": "Tạo vùng chọn quanh chiếc áo.",
-          "C": "Chỉnh lại biên vùng chọn.",
-          "D": "RGB."
+        {
+          "ma": "c",
+          "noi_dung": "Để chọn đối tượng có hình dạng phức tạp, nên dùng `Free Select Tool` vẽ đường bao khép kín.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, RGB."
-      },
-      {
-        "id": "T11-B26-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cộng màu?",
-        "lua_chon": {
-          "A": "Màn hình hiển thị một màu pha từ các kênh.",
-          "B": "Cần điều chỉnh cường độ màu đỏ của ảnh.",
-          "C": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
-          "D": "Điều chỉnh màu lan ra ngoài đối tượng."
+        {
+          "ma": "d",
+          "noi_dung": "Nhấn giữ `Alt + Shift` và kéo thả chuột giúp sao chép và di chuyển vùng chọn sang vị trí mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_26 & ndc_bai_26"
+    },
+    {
+      "id": "B26_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lưu Presets và thứ tự chỉnh màu",
+      "dan_nhap": "Kĩ thuật lưu cấu hình và chỉnh sửa ảnh bình minh trong GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Bắt buộc luôn phải chỉnh `Color Balance` trước rồi mới được chỉnh `Brightness-Contrast`, nếu làm ngược lại ảnh sẽ hỏng.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thứ tự linh hoạt theo nhu cầu."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Cộng màu trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
-      },
-      {
-        "id": "T11-B26-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Phát biểu nào đúng về Vùng chọn?",
-        "lua_chon": {
-          "A": "Biên vùng chọn quyết định phần ảnh chịu tác động.",
-          "B": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
-          "C": "RGB gồm các kênh đỏ, lục và lam.",
-          "D": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị."
+        {
+          "ma": "b",
+          "noi_dung": "Dải `Midtones` trong `Color Balance` chuyên dùng để điều chỉnh các điểm ảnh tối nhất trên ảnh.",
+          "dap_an": false,
+          "giai_thich": "Sai. Vùng tối là `Shadows`; `Midtones` chỉnh các điểm ảnh trung bình."
         },
-        "dap_an": "B",
-        "giai_thich": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng."
-      },
-      {
-        "id": "T11-B26-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống: Chỉ muốn chỉnh màu chiếc áo trong ảnh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "RGB.",
-          "B": "Chỉnh lại biên vùng chọn.",
-          "C": "Tạo vùng chọn quanh chiếc áo.",
-          "D": "Kênh R."
+        {
+          "ma": "c",
+          "noi_dung": "Các thiết lập `Brightness-Contrast` và `Color Balance` có thể lưu lại vào `Presets` để áp dụng nhanh cho ảnh khác.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Tạo vùng chọn quanh chiếc áo."
-      },
-      {
-        "id": "T11-B26-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Vùng chọn?",
-        "lua_chon": {
-          "A": "Màn hình hiển thị một màu pha từ các kênh.",
-          "B": "Điều chỉnh màu lan ra ngoài đối tượng.",
-          "C": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
-          "D": "Cần điều chỉnh cường độ màu đỏ của ảnh."
+        {
+          "ma": "d",
+          "noi_dung": "Người dùng luôn phải nhập lại thủ công từng thông số cho mọi bức ảnh, không thể lưu lại cấu hình.",
+          "dap_an": false,
+          "giai_thich": "Sai."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_26 & ndc_bai_26"
+    },
+    {
+      "id": "B26_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím tắt công cụ chọn và tổ hợp di chuyển",
+      "dan_nhap": "Nhận định về phím tắt thao tác với vùng chọn trong GIMP:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Phím `R` chọn `Rectangle Select Tool`, phím `E` chọn `Ellipse Select Tool`, phím `F` chọn `Free Select Tool`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Vùng chọn trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
-      },
-      {
-        "id": "T11-B26-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Phát biểu nào đúng về Biên vùng chọn?",
-        "lua_chon": {
-          "A": "Biên vùng chọn quyết định phần ảnh chịu tác động.",
-          "B": "RGB gồm các kênh đỏ, lục và lam.",
-          "C": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
-          "D": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng."
+        {
+          "ma": "b",
+          "noi_dung": "Giữ `Ctrl` trong lúc kéo chuột giúp trừ bớt phần giao khỏi vùng chọn hiện tại.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Biên vùng chọn quyết định phần ảnh chịu tác động."
-      },
-      {
-        "id": "T11-B26-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống: Điều chỉnh màu lan ra ngoài đối tượng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo vùng chọn quanh chiếc áo.",
-          "B": "Chỉnh lại biên vùng chọn.",
-          "C": "Kênh R.",
-          "D": "RGB."
+        {
+          "ma": "c",
+          "noi_dung": "Giữ `Alt + Ctrl` rồi kéo thả chuột giúp cắt và di chuyển vùng chọn sang vị trí mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Chỉnh lại biên vùng chọn."
-      },
-      {
-        "id": "T11-B26-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Biên vùng chọn?",
-        "lua_chon": {
-          "A": "Điều chỉnh màu lan ra ngoài đối tượng.",
-          "B": "Cần điều chỉnh cường độ màu đỏ của ảnh.",
-          "C": "Màn hình hiển thị một màu pha từ các kênh.",
-          "D": "Chỉ muốn chỉnh màu chiếc áo trong ảnh."
+        {
+          "ma": "d",
+          "noi_dung": "Tổ hợp `Alt + Ctrl` dùng để sao chép vùng chọn mà vẫn giữ nguyên bản gốc ở chỗ cũ.",
+          "dap_an": false,
+          "giai_thich": "Sai. Sao chép và di chuyển là `Alt + Shift`."
+        }
+      ],
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Ứng dụng vùng chọn kết hợp tinh chỉnh màu",
+      "dan_nhap": "Một học sinh muốn làm nổi bật bông hoa màu đỏ trên nền cỏ xanh trong bức ảnh phong cảnh:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể dùng `Free Select Tool` khoanh quanh bông hoa rồi tăng nhẹ độ bão hòa (`Saturation`) để hoa rực rỡ hơn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Biên vùng chọn trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
-      },
-      {
-        "id": "T11-B26-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Phát biểu nào đúng về Chọn hình chữ nhật/elip?",
-        "lua_chon": {
-          "A": "RGB gồm các kênh đỏ, lục và lam.",
-          "B": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
-          "C": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
-          "D": "Công cụ chọn hình học phù hợp vùng có hình dạng đơn giản."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể chọn kênh `Red` trong `Hue-Saturation` để chỉnh riêng sắc đỏ mà ít ảnh hưởng tới nền cỏ xanh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Công cụ chọn hình học phù hợp vùng có hình dạng đơn giản."
-      },
-      {
-        "id": "T11-B26-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống: Chọn một vùng ảnh hình chữ nhật. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Vùng chọn hình chữ nhật.",
-          "B": "Kênh R.",
-          "C": "RGB.",
-          "D": "Tạo vùng chọn quanh chiếc áo."
+        {
+          "ma": "c",
+          "noi_dung": "Nếu bật tùy chọn `Preview`, người dùng xem được ngay sự thay đổi màu sắc trước khi nhấn `OK`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Vùng chọn hình chữ nhật."
-      },
-      {
-        "id": "T11-B26-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn hình chữ nhật/elip?",
-        "lua_chon": {
-          "A": "Màn hình hiển thị một màu pha từ các kênh.",
-          "B": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
-          "C": "Chọn một vùng ảnh hình chữ nhật.",
-          "D": "Cần điều chỉnh cường độ màu đỏ của ảnh."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Chọn hình chữ nhật/elip trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
-      },
-      {
-        "id": "T11-B26-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Phát biểu nào đúng về Chọn tự do?",
-        "lua_chon": {
-          "A": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị.",
-          "B": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
-          "C": "Công cụ chọn tự do phù hợp đường bao không đều.",
-          "D": "RGB gồm các kênh đỏ, lục và lam."
-        },
-        "dap_an": "C",
-        "giai_thich": "Công cụ chọn tự do phù hợp đường bao không đều."
-      },
-      {
-        "id": "T11-B26-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống: Chọn một vật thể méo không theo hình cơ bản. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kênh R.",
-          "B": "RGB.",
-          "C": "Tạo vùng chọn quanh chiếc áo.",
-          "D": "Vùng chọn tự do."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Vùng chọn tự do."
-      },
-      {
-        "id": "T11-B26-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Chọn tự do?",
-        "lua_chon": {
-          "A": "Chọn một vật thể méo không theo hình cơ bản.",
-          "B": "Cần điều chỉnh cường độ màu đỏ của ảnh.",
-          "C": "Màn hình hiển thị một màu pha từ các kênh.",
-          "D": "Chỉ muốn chỉnh màu chiếc áo trong ảnh."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Chọn tự do trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
-      },
-      {
-        "id": "T11-B26-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Phát biểu nào đúng về Bỏ vùng chọn?",
-        "lua_chon": {
-          "A": "Vùng chọn giới hạn nơi một số chỉnh sửa được áp dụng.",
-          "B": "Bỏ vùng chọn khi muốn tiếp tục chỉnh toàn ảnh.",
-          "C": "RGB gồm các kênh đỏ, lục và lam.",
-          "D": "Các mức đỏ, lục, lam kết hợp tạo màu hiển thị."
-        },
-        "dap_an": "B",
-        "giai_thich": "Bỏ vùng chọn khi muốn tiếp tục chỉnh toàn ảnh."
-      },
-      {
-        "id": "T11-B26-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống: Đã hoàn tất chỉnh sửa vùng cục bộ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "RGB.",
-          "B": "Tạo vùng chọn quanh chiếc áo.",
-          "C": "Bỏ chọn/deselect.",
-          "D": "Kênh R."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Bỏ chọn/deselect."
-      },
-      {
-        "id": "T11-B26-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bỏ vùng chọn?",
-        "lua_chon": {
-          "A": "Màn hình hiển thị một màu pha từ các kênh.",
-          "B": "Chỉ muốn chỉnh màu chiếc áo trong ảnh.",
-          "C": "Đã hoàn tất chỉnh sửa vùng cục bộ.",
-          "D": "Cần điều chỉnh cường độ màu đỏ của ảnh."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Bỏ vùng chọn trong bài Công cụ tinh chỉnh màu sắc và công cụ chọn."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B26-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Xét tính đúng/sai về Công cụ tinh chỉnh màu sắc và công cụ chọn:",
-        "y_kien": {
-          "a": "Khi có vùng chọn, mọi thao tác luôn ảnh hưởng toàn ảnh.",
-          "b": true,
-          "c": false,
-          "d": "Vùng chọn giới hạn phần ảnh bị tác động."
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B26-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Giải thích chỉnh riêng một vùng ảnh bằng vùng chọn và RGB.",
-        "dap_an_goi_y": "Tạo vùng chọn phù hợp, kiểm tra biên, điều chỉnh kênh R/G/B hoặc công cụ màu, xem trước rồi bỏ chọn.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B26-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 26 - Công cụ tinh chỉnh màu sắc và công cụ chọn",
-        "noi_dung": "Dựa vào kiến thức “RGB gồm các kênh đỏ, lục và lam.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần điều chỉnh cường độ màu đỏ của ảnh.",
-        "dap_an_goi_y": "Nêu ý kiến thức: RGB gồm các kênh đỏ, lục và lam. Vận dụng: Kênh R. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Nếu kéo nhầm các thanh trượt quá tay, phải tắt máy tính mở lại chứ không có nút `Reset`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Có nút `Reset` trong hộp thoại để trả thông số về mặc định."
+        }
+      ],
+      "nguon": "ndc_bai_26 & cd7_bai_26"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B26_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chế độ Master trong Hue-Saturation",
+      "cau_hoi": "Tùy chọn màu nào trong công cụ `Hue-Saturation` cho phép thay đổi đồng thời tất cả các màu của ảnh?",
+      "dap_an": "Master",
+      "dap_an_tuong_duong": [
+        "master"
+      ],
+      "giai_thich": "Chọn Master để tác động lên toàn bộ các kênh màu.",
+      "nguon": "ndc_bai_26 & tln_..._bai_26"
+    },
+    {
+      "id": "B26_TLN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phím trừ bớt vùng chọn",
+      "cau_hoi": "Phím nào cần nhấn giữ để trừ bớt một phần khỏi vùng chọn đang có trong GIMP?",
+      "dap_an": "Ctrl",
+      "dap_an_tuong_duong": [
+        "Phím Ctrl"
+      ],
+      "giai_thich": "Giữ Ctrl khi kéo vùng chọn để trừ bớt khỏi vùng chọn hiện tại.",
+      "nguon": "ndc_bai_26 & tln_..._bai_26"
+    },
+    {
+      "id": "B26_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tổ hợp phím cắt và di chuyển vùng chọn",
+      "cau_hoi": "Tổ hợp phím nào dùng để cắt và di chuyển vùng chọn đến vị trí mới?",
+      "dap_an": "Alt + Ctrl",
+      "dap_an_tuong_duong": [
+        "Ctrl + Alt",
+        "Alt+Ctrl"
+      ],
+      "giai_thich": "Alt + Ctrl + kéo chuột để cắt và di chuyển vùng chọn.",
+      "nguon": "ndc_bai_26 & tln_..._bai_26"
+    },
+    {
+      "id": "B26_TLN_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím thêm vùng chọn",
+      "cau_hoi": "Phím nào cần nhấn giữ để mở rộng (thêm) vùng chọn mới vào vùng chọn hiện có trong GIMP?",
+      "dap_an": "Shift",
+      "dap_an_tuong_duong": [
+        "Phím Shift"
+      ],
+      "giai_thich": "Giữ Shift khi kéo để hợp nhất thêm vào vùng chọn hiện có.",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Dải vùng tối trong Color Balance",
+      "cau_hoi": "Trong công cụ `Color Balance`, dải độ sáng nào dùng để cân bằng màu riêng cho các vùng tối nhất của ảnh?",
+      "dap_an": "Shadows",
+      "dap_an_tuong_duong": [
+        "shadows"
+      ],
+      "giai_thich": "Shadows chỉnh vùng tối, Midtones chỉnh vùng trung bình, Highlights chỉnh vùng sáng.",
+      "nguon": "ndc_bai_26"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B26_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Vai trò vùng chọn và 3 công cụ chọn cơ bản",
+      "cau_hoi": "Nêu vai trò của vùng chọn trong chỉnh sửa ảnh và kể tên 3 công cụ tạo vùng chọn cơ bản trong GIMP.",
+      "goi_y_dap_an": "- Vai trò: Giúp tách riêng từng phần của ảnh để xử lí độc lập (nếu không có vùng chọn, lệnh sẽ áp dụng lên toàn bộ lớp/ảnh).\n- 3 công cụ: `Rectangle Select Tool` (hình chữ nhật/vuông, phím R); `Ellipse Select Tool` (hình tròn/elip, phím E); `Free Select Tool` (hình dạng tùy ý, phím F).",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng vai trò vùng chọn (0,8đ) và kể đúng 3 công cụ kèm chức năng/phím tắt (1,2đ).",
+      "nguon": "ndc_bai_26 & cd7_bai_26"
+    },
+    {
+      "id": "B26_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phân biệt 3 công cụ chỉnh màu trong Colors",
+      "cau_hoi": "Phân biệt chức năng của ba công cụ chỉnh màu: `Brightness-Contrast`, `Color Balance` và `Hue-Saturation`.",
+      "goi_y_dap_an": "- `Brightness-Contrast`: Chỉnh độ sáng và độ tương phản chung.\n- `Color Balance`: Cân bằng các kênh màu theo 3 dải độ sáng (`Shadows`, `Midtones`, `Highlights`).\n- `Hue-Saturation`: Chỉnh tông màu (`Hue`), độ sáng (`Lightness`), độ bão hòa (`Saturation`) cho từng mảng màu riêng lẻ hoặc `Master`.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng chức năng đặc trưng của mỗi công cụ (0,6đ + 0,7đ + 0,7đ = 2,0đ).",
+      "nguon": "ndc_bai_26"
+    },
+    {
+      "id": "B26_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế quy trình tạo vùng chọn phức tạp và xử lí màu cục bộ",
+      "cau_hoi": "Hãy trình bày cách tạo một vùng chọn có hình dạng gồm một hình tròn nối liền với một hình chữ nhật ở phía dưới (dạng ổ khóa), sau đó biến riêng phần ảnh bên trong vùng chọn đó thành ảnh đen trắng trong khi phần nền xung quanh vẫn giữ nguyên màu sắc.",
+      "goi_y_dap_an": "1) Chọn `Ellipse Select Tool` (phím E), kéo vẽ phần hình tròn phía trên.\n2) Chuyển sang `Rectangle Select Tool` (phím R), nhấn giữ phím **`Shift`** và kéo vẽ hình chữ nhật giao nối ở phía dưới để cộng gộp thành vùng chọn hình ổ khóa.\n3) Mở `Colors -> Hue-Saturation`, chọn chế độ `Master` và kéo thanh `Saturation` về `-100` rồi nhấn `OK` (chỉ vùng bên trong vùng chọn chuyển thành đen trắng, nền ngoài giữ nguyên màu).",
+      "thang_diem": "Tổng 2,0 điểm: tạo đúng vùng chọn hợp nhất bằng `Shift` (1,0đ) và áp dụng đúng `Hue-Saturation` (`Saturation = -100`) (1,0đ).",
+      "nguon": "ndc_bai_26 & trac_nghiem_dung_sai_..._bai_26"
+    }
+  ]
 }

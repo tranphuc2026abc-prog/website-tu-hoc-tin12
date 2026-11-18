@@ -1,424 +1,570 @@
 {
-  "ma_bai": "BAI_24",
-  "bai_so": 24,
+  "bai_id": "BAI_24",
   "ten_bai": "Thực hành sao lưu dữ liệu",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 6: Thực hành tạo và khai thác cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "kenhgiaovien_24_thuc_hanh_sao_luu.docx",
+    "ndc_bai_24_thuc_hanh_sao_luu_du_lieu.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B24_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mở công cụ xuất sao lưu SQL trong HeidiSQL",
+      "cau_hoi": "Trong HeidiSQL, để sao lưu CSDL `mymusic` thành một tệp truy vấn `.sql`, ta mở thẻ nào trên thanh công cụ?",
+      "lua_chon": {
+        "A": "Các công cụ -> Xuất cơ sở dữ liệu dưới dạng SQL",
+        "B": "Tập tin -> Thoát",
+        "C": "Trợ giúp -> Giới thiệu",
+        "D": "Tạo mới -> Bảng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Chọn thẻ Các công cụ -> Xuất cơ sở dữ liệu dưới dạng SQL.",
+      "nguon": "ndc_bai_24 & kenhgiaovien_24"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B24_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tác dụng của tùy chọn Drop và Delete + insert",
+      "cau_hoi": "Khi xuất sao lưu CSDL bằng HeidiSQL, việc đánh dấu vào các ô `Drop` và chọn `Delete + insert` ở dòng `Data` có tác dụng gì?",
+      "lua_chon": {
+        "A": "Xóa vĩnh viễn CSDL gốc ngay lúc sao lưu",
+        "B": "Chỉ sao lưu cấu trúc bảng, bỏ qua toàn bộ dữ liệu",
+        "C": "Khi phục hồi sẽ tự động xóa đối tượng/dữ liệu cũ (nếu có) trước khi tạo mới và chèn dữ liệu đã sao lưu, tránh lỗi trùng lặp",
+        "D": "Mã hóa tệp sao lưu thành định dạng hình ảnh"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Đánh dấu Drop và Delete + insert giúp quá trình phục hồi không bị xung đột với đối tượng/dữ liệu cũ đang tồn tại.",
+      "nguon": "ndc_bai_24 & kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh phục hồi CSDL từ tệp .sql",
+      "cau_hoi": "Để phục hồi (restore) CSDL từ tệp sao lưu `_mymusic.sql` trong HeidiSQL, ta sử dụng lệnh nào?",
+      "lua_chon": {
+        "A": "Xóa phần mềm HeidiSQL",
+        "B": "Các công cụ -> Xuất cơ sở dữ liệu dưới dạng SQL",
+        "C": "Nhấn phím Insert trong thẻ Dữ liệu",
+        "D": "Tập tin -> Load SQL file... (hoặc Ctrl + O) rồi chạy truy vấn"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Chọn Tập tin -> Load SQL file... (Ctrl + O), mở tệp `.sql`, nhấn chạy truy vấn và nhấn F5 để làm tươi danh sách CSDL.",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sao lưu riêng một bảng dữ liệu",
+      "cau_hoi": "Nếu chỉ muốn sao lưu riêng bảng `banthuam` trong CSDL `mymusic`, ta thực hiện thế nào?",
+      "lua_chon": {
+        "A": "Trong cửa sổ Xuất cơ sở dữ liệu dưới dạng SQL, mở rộng `mymusic` và chỉ đánh dấu chọn bảng `banthuam`",
+        "B": "Bắt buộc phải sao lưu toàn bộ máy tính",
+        "C": "Không thể sao lưu từng bảng riêng lẻ",
+        "D": "Xóa các bảng khác rồi mới sao lưu"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Có thể sao lưu một phần CSDL bằng cách chỉ tích chọn những bảng muốn sao lưu ở danh sách bên trái.",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Kiểu output xuất thành một tệp .sql duy nhất",
+      "cau_hoi": "Trong hộp thoại Xuất cơ sở dữ liệu của HeidiSQL, tùy chọn nào ở mục Output giúp gom toàn bộ cấu trúc và dữ liệu vào một tệp `.sql` duy nhất?",
+      "lua_chon": {
+        "A": "`Single .sql file`",
+        "B": "`One file per table`",
+        "C": "`Clipboard`",
+        "D": "`Database`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`Single .sql file` xuất toàn bộ các đối tượng được chọn vào một tệp `.sql` duy nhất.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím làm tươi danh sách CSDL sau khi phục hồi",
+      "cau_hoi": "Sau khi chạy xong tệp `_mymusic.sql` để phục hồi CSDL trong HeidiSQL, phím chức năng nào giúp cập nhật lại hiển thị danh sách CSDL ở khung bên trái?",
+      "lua_chon": {
+        "A": "Phím `F1`",
+        "B": "Phím `F5`",
+        "C": "Phím `Esc`",
+        "D": "Phím `Insert`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nhấn `F5` để làm tươi (refresh) cây thư mục CSDL và bảng trong HeidiSQL.",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phần mở rộng của tệp sao lưu SQL",
+      "cau_hoi": "Tệp văn bản chứa các câu lệnh tạo bảng và chèn dữ liệu dùng để sao lưu CSDL trong bài thực hành có phần mở rộng là gì?",
+      "lua_chon": {
+        "A": "`.exe`",
+        "B": "`.jpg`",
+        "C": "`.mp4`",
+        "D": "`.sql`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "HeidiSQL xuất bản sao lưu dưới dạng tệp kịch bản `.sql`.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Mục đích của việc sao lưu định kì",
+      "cau_hoi": "Hoạt động sao lưu (backup) CSDL định kì nhằm mục đích chính nào sau đây?",
+      "lua_chon": {
+        "A": "Tăng tần số quét của màn hình máy tính",
+        "B": "Phòng ngừa mất mát dữ liệu khi xóa nhầm, lỗi phần mềm hoặc hư hỏng thiết bị lưu trữ",
+        "C": "Tự động dịch tên bài hát sang tiếng Anh",
+        "D": "Xóa bỏ các khóa ngoài trong CSDL"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Sao lưu giúp có bản dự phòng để phục hồi nhanh khi gặp sự cố mất dữ liệu.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Bản chất bên trong tệp sao lưu .sql",
+      "cau_hoi": "Nếu mở tệp `_mymusic.sql` bằng trình soạn thảo văn bản (như Notepad), nội dung bên trong tệp đó thực chất là gì?",
+      "lua_chon": {
+        "A": "Mã nhị phân hình ảnh",
+        "B": "Dữ liệu âm thanh của các bản thu âm",
+        "C": "Tập hợp các câu lệnh SQL (như `CREATE DATABASE`, `CREATE TABLE`, `INSERT INTO`, `DROP`...)",
+        "D": "Tệp cài đặt của phần mềm HeidiSQL"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Tệp `.sql` lưu các câu lệnh SQL tuần tự để tái tạo lại toàn bộ cấu trúc và dữ liệu.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phục hồi CSDL sang một máy tính khác",
+      "cau_hoi": "Sau khi sao lưu CSDL `mymusic` thành tệp `_mymusic.sql` trên máy tính ở nhà, có thể chép tệp này sang máy tính ở phòng thực hành (có cài MySQL) để phục hồi không?",
+      "lua_chon": {
+        "A": "Không, tệp `.sql` chỉ chạy được trên máy tính đã tạo ra nó",
+        "B": "Có, chạy tệp `.sql` trên máy tính khác sẽ tạo lại đúng CSDL `mymusic` cùng dữ liệu",
+        "C": "Chỉ chạy được nếu hai máy cùng địa chỉ MAC",
+        "D": "Chỉ phục hồi được tên bảng, mất toàn bộ dữ liệu"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Tệp `.sql` chuẩn là văn bản lệnh SQL nên có thể di chuyển và phục hồi dễ dàng trên máy tính khác có MySQL.",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "So sánh tùy chọn Data: No data vs Insert",
+      "cau_hoi": "Trong hộp thoại Xuất CSDL dưới dạng SQL, nếu ở dòng `Data` ta chọn `No data` thay vì `Insert` hoặc `Delete + insert`, tệp `.sql` xuất ra sẽ chứa gì?",
+      "lua_chon": {
+        "A": "Chứa cả cấu trúc lẫn toàn bộ dữ liệu",
+        "B": "Chỉ chứa dữ liệu, không có cấu trúc bảng",
+        "C": "Chỉ chứa cấu trúc tạo CSDL và các bảng (rỗng), không chứa các bản ghi dữ liệu",
+        "D": "Tệp hoàn toàn trống rỗng 0 byte"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`No data` chỉ xuất câu lệnh DDL tạo cấu trúc bảng mà không xuất các lệnh `INSERT` dữ liệu.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hệ quả nếu quên tích chọn Drop khi sao lưu đè",
+      "cau_hoi": "Nếu xuất sao lưu mà KHÔNG tích chọn `Drop` và chọn `Insert` (không có `Delete`), khi chạy tệp `.sql` phục hồi lên một máy đang có sẵn CSDL `mymusic` chứa dữ liệu cũ thì dễ gặp lỗi gì?",
+      "lua_chon": {
+        "A": "Lỗi bảng đã tồn tại (`Table already exists`) hoặc lỗi trùng khóa chính (`Duplicate entry`)",
+        "B": "Lỗi không mở được HeidiSQL",
+        "C": "Lỗi mất kết nối mạng Internet",
+        "D": "Tự động đổi tên CSDL thành `tinh`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Thiếu `Drop` / `Delete + insert` sẽ gây xung đột với bảng và khóa chính đang tồn tại.",
+      "nguon": "ndc_bai_24 & kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tùy chọn Create ở mục Database(s) và Table(s)",
+      "cau_hoi": "Khi sao lưu toàn bộ CSDL `mymusic` để phục hồi trên một máy tính mới tinh chưa từng tạo `mymusic`, ở mục `Database(s)` và `Table(s)` cần tích chọn tùy chọn nào?",
+      "lua_chon": {
+        "A": "Chọn `No data`",
+        "B": "Bỏ chọn cả `Create` lẫn `Drop`",
+        "C": "Chỉ chọn `Drop` mà không chọn `Create`",
+        "D": "Tích chọn `Create` (để tạo mới CSDL và bảng nếu máy đích chưa có)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Tích `Create` giúp tệp `.sql` tự động chạy `CREATE DATABASE` và `CREATE TABLE` trên máy mới.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lưu trữ bản sao lưu ở nơi an toàn",
+      "cau_hoi": "Sau khi xuất tệp `_mymusic.sql` vào thư mục `C:\\Temp\\_mymusic.sql` trên máy tính, để phòng ngừa trường hợp ổ cứng máy tính đó bị hỏng hoàn toàn, bước tiếp theo nên làm là gì?",
+      "lua_chon": {
+        "A": "Xóa luôn CSDL `mymusic` trên MySQL",
+        "B": "Nhân bản thành 5 bản cùng nằm trong thư mục `C:\\Temp`",
+        "C": "Đổi phần mở rộng `.sql` thành `.txt` rồi xóa đi",
+        "D": "Sao chép tệp `_mymusic.sql` sang thiết bị lưu trữ ngoài (USB, ổ cứng rời) hoặc tải lên ổ đĩa trực tuyến (Google Drive)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Lưu bản sao dự phòng trên thiết bị tách rời hoặc đám mây giúp an toàn ngay cả khi ổ cứng máy chính hỏng.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phục hồi bảng bị xóa nhầm",
+      "cau_hoi": "Một học sinh lỡ tay xóa nhầm bảng `banthuam` trong `mymusic`, nhưng trước đó đã sao lưu riêng bảng này thành tệp `_banthuam.sql`. Thao tác nào giúp khôi phục lại bảng `banthuam` nhanh nhất mà không ảnh hưởng dữ liệu mới của 3 bảng còn lại?",
+      "lua_chon": {
+        "A": "Gõ lại bằng tay toàn bộ 4 bảng",
+        "B": "Chọn CSDL `mymusic` -> `Tập tin -> Load SQL file...` mở `_banthuam.sql` -> chạy truy vấn -> nhấn `F5`",
+        "C": "Cài lại phần mềm MySQL Server",
+        "D": "Xuất lại bảng `nhacsi`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Chạy riêng tệp sao lưu `_banthuam.sql` trên CSDL `mymusic` sẽ phục hồi đúng bảng `banthuam`.",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phím tắt chạy truy vấn phục hồi",
+      "cau_hoi": "Sau khi dùng `Ctrl + O` để tải nội dung tệp `_mymusic.sql` vào thẻ Truy vấn của HeidiSQL, ta nhấn nút biểu tượng tam giác xanh (hoặc phím tắt nào) để thực thi toàn bộ tệp SQL đó?",
+      "lua_chon": {
+        "A": "Phím `F1`",
+        "B": "Phím `F9`",
+        "C": "Phím `Insert`",
+        "D": "Phím `Delete`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Phím `F9` (Execute SQL) chạy các câu lệnh trong thẻ Truy vấn của HeidiSQL.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chọn thư mục lưu tệp khi xuất Output",
+      "cau_hoi": "Trong hộp thoại Xuất cơ sở dữ liệu dưới dạng SQL, nếu gặp lỗi `Access denied` không ghi được tệp ra ổ `C:\\` do thiếu quyền quản trị Windows, cách xử lí đơn giản nhất là gì?",
+      "lua_chon": {
+        "A": "Đổi đường dẫn lưu tệp `Filename` sang thư mục cá nhân (như `Documents`, `Desktop` hoặc ổ `D:\\`)",
+        "B": "Bỏ chọn tất cả các bảng",
+        "C": "Tắt tùy chọn `Create`",
+        "D": "Đổi kiểu output sang `Clipboard`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Thư mục gốc `C:\\` trên Windows thường bị hạn chế quyền ghi; lưu vào `Documents` hoặc ổ `D:\\` sẽ ghi bình thường.",
+      "nguon": "ndc_bai_24 & kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kiểm tra kết quả sau khi phục hồi",
+      "cau_hoi": "Sau khi chạy tệp `_mymusic.sql` và nhấn `F5` để làm tươi, làm thế nào để chắc chắn cả cấu trúc lẫn dữ liệu của bảng `bannhac` đã được phục hồi đầy đủ?",
+      "lua_chon": {
+        "A": "Tắt HeidiSQL ngay lập tức",
+        "B": "Chỉ nhìn tên tệp `.sql` trên Desktop",
+        "C": "Mở rộng CSDL `mymusic` bên trái, chọn bảng `bannhac` và kiểm tra cả thẻ `Bảng` (cấu trúc/khóa) lẫn thẻ `Dữ liệu` (số bản ghi)",
+        "D": "Nhấn `Ctrl + O` thêm một lần nữa"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Cần kiểm tra trực tiếp cấu trúc bảng và số lượng bản ghi trong thẻ `Dữ liệu` sau khi phục hồi.",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí lỗi thứ tự bảng khi phục hồi sao lưu rời rạc",
+      "cau_hoi": "Một học sinh sao lưu riêng 2 tệp: `_nhacsi.sql` và `_bannhac.sql` (trong đó `bannhac` có khóa ngoài tham chiếu `nhacsi`). Khi phục hồi lên một CSDL trống hoàn toàn, nếu học sinh chạy tệp `_bannhac.sql` trước rồi mới chạy `_nhacsi.sql` thì điều gì xảy ra và cách khắc phục là gì?",
+      "lua_chon": {
+        "A": "HeidiSQL tự động xóa tệp `_nhacsi.sql`",
+        "B": "Chạy bình thường không có lỗi gì",
+        "C": "Bị lỗi không tạo được khóa ngoài vì bảng `nhacsi` chưa tồn tại; cần chạy `_nhacsi.sql` trước rồi mới chạy `_bannhac.sql` (hoặc xuất gộp cả CSDL vào `Single .sql file`)",
+        "D": "Tự động chuyển bảng `bannhac` thành bảng `casi`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Bảng cha (`nhacsi`) phải được phục hồi trước bảng con (`bannhac`) để thỏa mãn ràng buộc khóa ngoài.",
+      "nguon": "ndc_bai_24 & kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí cảnh báo dung lượng lớn khi Load SQL file",
+      "cau_hoi": "Khi phục hồi một tệp `.sql` sao lưu có kích thước lớn (ví dụ trên vài chục MB) bằng `Tập tin -> Load SQL file...`, HeidiSQL thường hỏi hộp thoại chọn 'Mở trong trình soạn thảo' hay 'Chạy tệp trực tiếp' (`Run file(s) directly`). Lựa chọn nào an toàn và ít tốn RAM hơn?",
+      "lua_chon": {
+        "A": "Đổi đuôi tệp thành `.zip`",
+        "B": "Mở bằng Microsoft Paint",
+        "C": "Xóa bớt một nửa nội dung tệp `.sql`",
+        "D": "Chọn chạy tệp trực tiếp (`Run file(s) directly`) để thực thi thẳng lên MySQL mà không cần tải toàn bộ văn bản lên trình soạn thảo"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Run file(s) directly` giúp HeidiSQL truyền thẳng các lệnh trong tệp `.sql` tới MySQL, tránh treo giao diện.",
+      "nguon": "ndc_bai_24"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B24-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Mục đích chính của bản sao lưu CSDL là gì?",
-        "lua_chon": {
-          "A": "Xóa dữ liệu khỏi máy chủ",
-          "B": "Khôi phục dữ liệu khi mất mát hoặc hỏng",
-          "C": "Tăng tốc mọi truy vấn",
-          "D": "Thay thế phân quyền"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B24_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Sao lưu và phục hồi CSDL mymusic",
+      "dan_nhap": "Thực hành sao lưu và phục hồi CSDL `mymusic` trên HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Chọn kiểu output `Single .sql file` sẽ gom toàn bộ cấu trúc và dữ liệu sao lưu vào một tệp `.sql` duy nhất.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Đáp án đúng vì Khôi phục dữ liệu khi mất mát hoặc hỏng; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B24-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về Sao lưu?",
-        "lua_chon": {
-          "A": "Thử phục hồi kiểm tra bản sao có dùng được không.",
-          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
-          "C": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
-          "D": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính."
+        {
+          "ma": "b",
+          "noi_dung": "Sau khi chạy tệp `.sql` phục hồi, nhấn `F5` để làm tươi lại danh sách CSDL ở khung bên trái.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc."
-      },
-      {
-        "id": "T11-B24-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống: Ổ lưu trữ gặp sự cố. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Lưu thêm bản sao tại vị trí an toàn khác.",
-          "B": "Thử phục hồi định kì.",
-          "C": "Khôi phục từ bản sao lưu phù hợp.",
-          "D": "Sao lưu định kì theo lịch phù hợp."
+        {
+          "ma": "c",
+          "noi_dung": "Tệp `.sql` đã sao lưu trên máy tính này không thể dùng để phục hồi trên một máy tính khác có cài MySQL.",
+          "dap_an": false,
+          "giai_thich": "Sai. Có thể mang tệp `.sql` sang máy khác có cài MySQL để phục hồi bình thường."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Khôi phục từ bản sao lưu phù hợp."
-      },
-      {
-        "id": "T11-B24-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Sao lưu?",
-        "lua_chon": {
-          "A": "Ổ lưu trữ gặp sự cố.",
-          "B": "Dữ liệu thay đổi hằng ngày.",
-          "C": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
-          "D": "Tệp backup tồn tại nhưng chưa từng mở thử."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể sao lưu riêng một bảng (như bảng `banthuam`) thay vì toàn bộ CSDL.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ kenhgiaovien_24 & ndc_bai_24"
+    },
+    {
+      "id": "B24_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tùy chọn cấu hình khi xuất SQL",
+      "dan_nhap": "Các tùy chọn trong hộp thoại 'Xuất cơ sở dữ liệu dưới dạng SQL' của HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Tích chọn `Drop` giúp xóa bảng/CSDL cũ nếu đã tồn tại trước khi tạo lại lúc phục hồi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Sao lưu trong bài Thực hành sao lưu dữ liệu."
-      },
-      {
-        "id": "T11-B24-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về Lịch sao lưu?",
-        "lua_chon": {
-          "A": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
-          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
-          "C": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính.",
-          "D": "Thử phục hồi kiểm tra bản sao có dùng được không."
+        {
+          "ma": "b",
+          "noi_dung": "Chọn `Delete + insert` ở dòng `Data` giúp xóa dữ liệu cũ trước khi chèn dữ liệu sao lưu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu."
-      },
-      {
-        "id": "T11-B24-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống: Dữ liệu thay đổi hằng ngày. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thử phục hồi định kì.",
-          "B": "Sao lưu định kì theo lịch phù hợp.",
-          "C": "Khôi phục từ bản sao lưu phù hợp.",
-          "D": "Lưu thêm bản sao tại vị trí an toàn khác."
+        {
+          "ma": "c",
+          "noi_dung": "Nếu chọn `No data` ở dòng `Data`, tệp `.sql` sẽ không lưu các bản ghi dữ liệu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Sao lưu định kì theo lịch phù hợp."
-      },
-      {
-        "id": "T11-B24-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Lịch sao lưu?",
-        "lua_chon": {
-          "A": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
-          "B": "Tệp backup tồn tại nhưng chưa từng mở thử.",
-          "C": "Dữ liệu thay đổi hằng ngày.",
-          "D": "Ổ lưu trữ gặp sự cố."
+        {
+          "ma": "d",
+          "noi_dung": "Tích chọn `Drop` sẽ xóa sạch CSDL đang chạy ngay tại thời điểm nhấn nút Export.",
+          "dap_an": false,
+          "giai_thich": "Sai. `Drop` chỉ là câu lệnh ghi vào tệp `.sql` để chạy khi phục hồi."
+        }
+      ],
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thao tác phục hồi dữ liệu trên HeidiSQL",
+      "dan_nhap": "Học sinh thực hiện phục hồi CSDL `mymusic` từ tệp `D:\\Backup\\_mymusic.sql`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể nhấn tổ hợp phím `Ctrl + O` để mở nhanh tệp `_mymusic.sql`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Lịch sao lưu trong bài Thực hành sao lưu dữ liệu."
-      },
-      {
-        "id": "T11-B24-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về Nơi lưu bản sao?",
-        "lua_chon": {
-          "A": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
-          "B": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
-          "C": "Thử phục hồi kiểm tra bản sao có dùng được không.",
-          "D": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính."
+        {
+          "ma": "b",
+          "noi_dung": "Sau khi mở tệp vào thẻ Truy vấn, cần nhấn chạy truy vấn (`F9`) để các lệnh được thực thi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính."
-      },
-      {
-        "id": "T11-B24-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống: Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Lưu thêm bản sao tại vị trí an toàn khác.",
-          "B": "Khôi phục từ bản sao lưu phù hợp.",
-          "C": "Sao lưu định kì theo lịch phù hợp.",
-          "D": "Thử phục hồi định kì."
+        {
+          "ma": "c",
+          "noi_dung": "Chỉ cần mở tệp `.sql` lên bằng Notepad là CSDL tự động được phục hồi vào MySQL.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải chạy các lệnh trong tệp đó trên máy chủ MySQL."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Lưu thêm bản sao tại vị trí an toàn khác."
-      },
-      {
-        "id": "T11-B24-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Nơi lưu bản sao?",
-        "lua_chon": {
-          "A": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
-          "B": "Ổ lưu trữ gặp sự cố.",
-          "C": "Dữ liệu thay đổi hằng ngày.",
-          "D": "Tệp backup tồn tại nhưng chưa từng mở thử."
+        {
+          "ma": "d",
+          "noi_dung": "Sau khi phục hồi xong, nên mở thẻ `Dữ liệu` của các bảng để kiểm tra lại bản ghi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ý nghĩa và phạm vi sao lưu CSDL",
+      "dan_nhap": "Nhận định về công tác sao lưu dữ liệu:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Sao lưu định kì giúp giảm thiểu thiệt hại khi ổ cứng bị hỏng hoặc thao tác xóa nhầm.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Nơi lưu bản sao trong bài Thực hành sao lưu dữ liệu."
-      },
-      {
-        "id": "T11-B24-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra phục hồi?",
-        "lua_chon": {
-          "A": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
-          "B": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính.",
-          "C": "Thử phục hồi kiểm tra bản sao có dùng được không.",
-          "D": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc."
+        {
+          "ma": "b",
+          "noi_dung": "Nên lưu bản sao lưu ở một ổ đĩa/thiết bị khác hoặc trên lưu trữ đám mây thay vì chỉ để cùng chỗ với dữ liệu gốc.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Thử phục hồi kiểm tra bản sao có dùng được không."
-      },
-      {
-        "id": "T11-B24-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống: Tệp backup tồn tại nhưng chưa từng mở thử. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Khôi phục từ bản sao lưu phù hợp.",
-          "B": "Sao lưu định kì theo lịch phù hợp.",
-          "C": "Lưu thêm bản sao tại vị trí an toàn khác.",
-          "D": "Thử phục hồi định kì."
+        {
+          "ma": "c",
+          "noi_dung": "Một khi đã cài bộ lưu điện UPS thì không cần sao lưu dữ liệu định kì nữa.",
+          "dap_an": false,
+          "giai_thich": "Sai. UPS chỉ chống mất điện đột ngột, không thay thế sao lưu phòng hỏng ổ cứng hay xóa nhầm."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Thử phục hồi định kì."
-      },
-      {
-        "id": "T11-B24-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra phục hồi?",
-        "lua_chon": {
-          "A": "Dữ liệu thay đổi hằng ngày.",
-          "B": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
-          "C": "Tệp backup tồn tại nhưng chưa từng mở thử.",
-          "D": "Ổ lưu trữ gặp sự cố."
+        {
+          "ma": "d",
+          "noi_dung": "Tệp sao lưu `.sql` chứa các câu lệnh SQL tạo lập và chèn dữ liệu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Sao lưu từng phần và di chuyển dữ liệu",
+      "dan_nhap": "Nhận định về sao lưu từng bảng và di chuyển CSDL giữa các máy:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Trong danh sách CSDL bên trái hộp thoại Export, có thể mở rộng `mymusic` để chọn riêng một vài bảng cần sao lưu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Kiểm tra phục hồi trong bài Thực hành sao lưu dữ liệu."
-      },
-      {
-        "id": "T11-B24-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về Bảo mật bản sao?",
-        "lua_chon": {
-          "A": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính.",
-          "B": "Bản sao lưu có thể chứa dữ liệu nhạy cảm nên cần kiểm soát và mã hóa.",
-          "C": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
-          "D": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu."
+        {
+          "ma": "b",
+          "noi_dung": "Khi phục hồi các bảng có liên kết khóa ngoài trên máy mới, bảng cha cần được phục hồi trước bảng con.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Bản sao lưu có thể chứa dữ liệu nhạy cảm nên cần kiểm soát và mã hóa."
-      },
-      {
-        "id": "T11-B24-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống: Mang bản sao ra ngoài tổ chức. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Sao lưu định kì theo lịch phù hợp.",
-          "B": "Lưu thêm bản sao tại vị trí an toàn khác.",
-          "C": "Mã hóa và giới hạn quyền truy cập.",
-          "D": "Khôi phục từ bản sao lưu phù hợp."
+        {
+          "ma": "c",
+          "noi_dung": "Để sao lưu riêng bảng `banthuam`, bắt buộc phải xóa 3 bảng còn lại khỏi CSDL trước khi Export.",
+          "dap_an": false,
+          "giai_thich": "Sai. Chỉ cần bỏ dấu tích ở 3 bảng kia trong hộp thoại Export."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Mã hóa và giới hạn quyền truy cập."
-      },
-      {
-        "id": "T11-B24-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bảo mật bản sao?",
-        "lua_chon": {
-          "A": "Mang bản sao ra ngoài tổ chức.",
-          "B": "Ổ lưu trữ gặp sự cố.",
-          "C": "Dữ liệu thay đổi hằng ngày.",
-          "D": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Bảo mật bản sao trong bài Thực hành sao lưu dữ liệu."
-      },
-      {
-        "id": "T11-B24-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về Phiên bản sao lưu?",
-        "lua_chon": {
-          "A": "Ghi thời gian/phiên bản giúp chọn đúng bản cần phục hồi.",
-          "B": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
-          "C": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
-          "D": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính."
-        },
-        "dap_an": "A",
-        "giai_thich": "Ghi thời gian/phiên bản giúp chọn đúng bản cần phục hồi."
-      },
-      {
-        "id": "T11-B24-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống: Có nhiều bản sao từ các ngày khác nhau. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Lưu thêm bản sao tại vị trí an toàn khác.",
-          "B": "Ngày và trạng thái của từng bản.",
-          "C": "Khôi phục từ bản sao lưu phù hợp.",
-          "D": "Sao lưu định kì theo lịch phù hợp."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Ngày và trạng thái của từng bản."
-      },
-      {
-        "id": "T11-B24-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phiên bản sao lưu?",
-        "lua_chon": {
-          "A": "Dữ liệu thay đổi hằng ngày.",
-          "B": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy.",
-          "C": "Có nhiều bản sao từ các ngày khác nhau.",
-          "D": "Ổ lưu trữ gặp sự cố."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Phiên bản sao lưu trong bài Thực hành sao lưu dữ liệu."
-      },
-      {
-        "id": "T11-B24-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Phát biểu nào đúng về Quy trình phục hồi?",
-        "lua_chon": {
-          "A": "Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.",
-          "B": "Tần suất sao lưu cần phù hợp mức độ thay đổi và quan trọng dữ liệu.",
-          "C": "Bản sao nên được bảo vệ và tách biệt khỏi rủi ro của bản chính.",
-          "D": "Phục hồi cần chọn đúng bản và kiểm tra tính toàn vẹn sau khi nạp."
-        },
-        "dap_an": "D",
-        "giai_thich": "Phục hồi cần chọn đúng bản và kiểm tra tính toàn vẹn sau khi nạp."
-      },
-      {
-        "id": "T11-B24-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống: Đã nạp bản backup vào máy chủ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kiểm tra dữ liệu và hoạt động ứng dụng.",
-          "B": "Khôi phục từ bản sao lưu phù hợp.",
-          "C": "Sao lưu định kì theo lịch phù hợp.",
-          "D": "Lưu thêm bản sao tại vị trí an toàn khác."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Kiểm tra dữ liệu và hoạt động ứng dụng."
-      },
-      {
-        "id": "T11-B24-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quy trình phục hồi?",
-        "lua_chon": {
-          "A": "Đã nạp bản backup vào máy chủ.",
-          "B": "Ổ lưu trữ gặp sự cố.",
-          "C": "Dữ liệu thay đổi hằng ngày.",
-          "D": "Máy chủ và ổ backup đặt cạnh nhau trong cùng khu vực dễ cháy."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Quy trình phục hồi trong bài Thực hành sao lưu dữ liệu."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B24-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Xét tính đúng/sai về Thực hành sao lưu dữ liệu:",
-        "y_kien": {
-          "a": false,
-          "b": "Cần định kì kiểm tra thử khả năng phục hồi.",
-          "c": "Có tệp sao lưu nhưng chưa thử khôi phục vẫn bảo đảm chắc chắn phục hồi.",
-          "d": true
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B24-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Đề xuất quy trình sao lưu và kiểm tra phục hồi.",
-        "dap_an_goi_y": "Chọn lịch và phạm vi, tạo bản sao, lưu an toàn, ghi phiên bản, định kì thử phục hồi và cập nhật quy trình.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B24-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 24 - Thực hành sao lưu dữ liệu",
-        "noi_dung": "Dựa vào kiến thức “Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Ổ lưu trữ gặp sự cố.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Sao lưu tạo bản dữ liệu để phục hồi sau mất mát hoặc hỏng hóc. Vận dụng: Khôi phục từ bản sao lưu phù hợp. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Khi di chuyển dự án sang máy tính khác, chỉ cần mang theo tệp `_mymusic.sql` và chạy trên HeidiSQL của máy mới.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "kenhgiaovien_24 & ndc_bai_24"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B24_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Kiểu xuất một tệp .sql",
+      "cau_hoi": "Kiểu output xuất toàn bộ sao lưu vào một tệp `.sql` duy nhất trong HeidiSQL là gì?",
+      "dap_an": "Single .sql file",
+      "dap_an_tuong_duong": [
+        "Single SQL file"
+      ],
+      "giai_thich": "Single .sql file xuất tất cả vào một tệp .sql duy nhất.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phím tắt mở tệp SQL phục hồi",
+      "cau_hoi": "Phím tắt để mở tệp `.sql` phục hồi CSDL trong HeidiSQL là gì?",
+      "dap_an": "Ctrl + O",
+      "dap_an_tuong_duong": [
+        "Ctrl+O"
+      ],
+      "giai_thich": "Ctrl + O mở hộp thoại Load SQL file.",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phím làm tươi danh sách CSDL",
+      "cau_hoi": "Phím chức năng để làm tươi (refresh) danh sách CSDL sau khi phục hồi trong HeidiSQL là gì?",
+      "dap_an": "F5",
+      "dap_an_tuong_duong": [
+        "Phím F5"
+      ],
+      "giai_thich": "Nhấn F5 để làm mới hiển thị cây CSDL.",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tùy chọn dữ liệu khi sao lưu đè",
+      "cau_hoi": "Ở dòng `Data` trong hộp thoại Xuất SQL của HeidiSQL, ta nên chọn tùy chọn nào để xóa dữ liệu cũ trước khi chèn dữ liệu sao lưu?",
+      "dap_an": "Delete + insert",
+      "dap_an_tuong_duong": [
+        "DELETE + INSERT"
+      ],
+      "giai_thich": "Delete + insert xóa dữ liệu cũ của bảng trước khi chèn lại, tránh trùng khóa chính.",
+      "nguon": "ndc_bai_24"
+    },
+    {
+      "id": "B24_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phím tắt chạy tệp SQL",
+      "cau_hoi": "Sau khi tải tệp `_mymusic.sql` vào thẻ Truy vấn của HeidiSQL, ta nhấn phím chức năng nào để thực thi các câu lệnh trong tệp?",
+      "dap_an": "F9",
+      "dap_an_tuong_duong": [
+        "Phím F9"
+      ],
+      "giai_thich": "Phím F9 thực thi truy vấn SQL đang mở.",
+      "nguon": "ndc_bai_24"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B24_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy trình sao lưu toàn bộ CSDL mymusic",
+      "cau_hoi": "Trình bày các bước sao lưu toàn bộ CSDL `mymusic` thành một tệp `.sql` trong HeidiSQL.",
+      "goi_y_dap_an": "1) Vào `Các công cụ → Xuất cơ sở dữ liệu dưới dạng SQL`.\n2) Đánh dấu chọn CSDL `mymusic` bên trái.\n3) Tích chọn các ô `Drop` và ở dòng `Data` chọn `Delete + insert`.\n4) Chọn kiểu output `Single .sql file`, đặt tên đường dẫn tệp (VD: `_mymusic.sql`) và nhấn `Export`.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng đủ 4 bước (0,5đ × 4 = 2,0đ).",
+      "nguon": "ndc_bai_24 & kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy trình phục hồi CSDL từ tệp .sql",
+      "cau_hoi": "Trình bày các bước phục hồi (restore) CSDL `mymusic` từ tệp `_mymusic.sql`.",
+      "goi_y_dap_an": "1) Chọn `Tập tin → Load SQL file...` (hoặc nhấn `Ctrl + O`).\n2) Chọn tệp `_mymusic.sql` và nhấn `Open` để tải nội dung vào cửa sổ truy vấn.\n3) Nhấn nút chạy truy vấn (`Execute SQL` / F9).\n4) Nhấn `F5` để làm tươi danh sách CSDL và kiểm tra các bảng đã phục hồi.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng đủ 4 bước (0,5đ × 4 = 2,0đ).",
+      "nguon": "kenhgiaovien_24"
+    },
+    {
+      "id": "B24_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Giải thích ý nghĩa tùy chọn sao lưu và xử lí xung đột phục hồi",
+      "cau_hoi": "Khi phục hồi tệp sao lưu `_mymusic.sql` lên một máy tính đã có sẵn CSDL `mymusic` cũ (dữ liệu đang bị lỗi), một bạn gặp lỗi `Table 'nhacsi' already exists` hoặc `Duplicate entry` khiến quá trình phục hồi bị dừng giữa chừng. Hãy giải thích nguyên nhân do thiếu thiết lập nào lúc sao lưu và nêu cách khắc phục.",
+      "goi_y_dap_an": "- Nguyên nhân: Lúc xuất sao lưu đã không tích chọn các ô `Drop` (nên thiếu lệnh `DROP TABLE IF EXISTS ...`) và/hoặc không chọn `Delete + insert` ở mục `Data`.\n- Cách khắc phục: Khi sao lưu cần tích chọn `Drop` và `Delete + insert`; nếu đã lỡ có tệp cũ không chứa `Drop`, có thể xóa CSDL `mymusic` bị lỗi trước rồi mới chạy lại tệp `_mymusic.sql`.",
+      "thang_diem": "Tổng 2,0 điểm: giải thích đúng nguyên nhân thiếu `Drop`/`Delete + insert` (1,0đ) và nêu được cả 2 hướng khắc phục (1,0đ).",
+      "nguon": "ndc_bai_24 & kenhgiaovien_24"
+    }
+  ]
 }

@@ -1,424 +1,573 @@
 {
-  "ma_bai": "BAI_07",
-  "bai_so": 7,
-  "ten_bai": "Thực hành tìm kiếm",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "bai_id": "BAI_07",
+  "ten_bai": "Thực hành tìm kiếm thông tin trên Internet",
+  "chu_de": "Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_7_thuc_hanh.docx",
+    "ndc_bai_7_thuc_hanh_tim_kiem_thong_tin_tren_internet.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B07_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Biểu tượng tìm kiếm bằng tiếng nói",
+      "cau_hoi": "Để nhập từ khóa tìm kiếm bằng tiếng nói trên máy tìm kiếm (như Google), người dùng nháy chuột vào biểu tượng nào cạnh ô nhập từ khóa?",
+      "lua_chon": {
+        "A": "Biểu tượng kính lúp",
+        "B": "Biểu tượng micro",
+        "C": "Biểu tượng máy ảnh",
+        "D": "Biểu tượng bánh răng"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nháy chuột vào biểu tượng micro cạnh ô tìm kiếm, sau đó đọc từ khóa tìm kiếm.",
+      "nguon": "ndc_bai_7 & Kenhgiaovien_7_thuc_hanh.docx"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B07_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Toán tử lọc định dạng tệp PDF",
+      "cau_hoi": "Để thu hẹp kết quả tìm kiếm chỉ hiển thị các tài liệu định dạng PDF trên máy tìm kiếm, ta bổ sung cụm từ khóa nào sau đây?",
+      "lua_chon": {
+        "A": "type:pdf",
+        "B": "format=pdf",
+        "C": "filetype:pdf",
+        "D": "search:pdf"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Bổ sung cụm từ 'filetype:pdf' vào từ khóa tìm kiếm để lọc các tệp định dạng .pdf.",
+      "nguon": "ndc_bai_7 & Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Điều kiện phần cứng tìm kiếm bằng giọng nói",
+      "cau_hoi": "Khi tìm kiếm bằng tiếng nói trên máy tính, thiết bị phần cứng nào bắt buộc phải có và hoạt động bình thường?",
+      "lua_chon": {
+        "A": "Micro",
+        "B": "Máy in",
+        "C": "Ổ đĩa quang",
+        "D": "Cổng VGA"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Máy tính cần có micro để thu âm giọng nói chuyển thành từ khóa.",
+      "nguon": "Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Điều chỉnh từ khóa và tiêu chí lọc",
+      "cau_hoi": "Khi kết quả tìm kiếm trả về chưa đúng ý muốn, người dùng nên làm gì tiếp theo để nâng cao hiệu quả?",
+      "lua_chon": {
+        "A": "Điều chỉnh lại từ khóa chính xác hơn hoặc dùng các tiêu chí lọc (loại tệp, hình ảnh, tin tức, video)",
+        "B": "Tắt trình duyệt và khởi động lại máy tính",
+        "C": "Xóa toàn bộ lịch sử trình duyệt",
+        "D": "Chỉ dùng một từ đơn duy nhất"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Cần thay đổi/tối ưu từ khóa hoặc thiết lập tiêu chí phân loại kết quả (hình ảnh, tin tức, video, filetype).",
+      "nguon": "ndc_bai_7 & Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các dạng phân loại kết quả tìm kiếm",
+      "cau_hoi": "Trên trang kết quả của máy tìm kiếm thông dụng, các tab phân loại kết quả thường bao gồm nhóm nào sau đây?",
+      "lua_chon": {
+        "A": "VGA, HDMI, USB",
+        "B": "RAM, ROM, CPU, HDD",
+        "C": "Chỉnh sửa, Nhận xét, Lưu trữ",
+        "D": "Tất cả, Hình ảnh, Tin tức, Video"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Máy tìm kiếm cho phép lọc kết quả theo dạng Tất cả, Hình ảnh, Tin tức, Video...",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khái niệm URL trang web",
+      "cau_hoi": "Địa chỉ duy nhất dùng để xác định và truy cập một trang web hoặc máy tìm kiếm trên Internet được gọi tắt là gì?",
+      "lua_chon": {
+        "A": "CPU",
+        "B": "DPI",
+        "C": "URL",
+        "D": "LAN"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "URL (Uniform Resource Locator) là địa chỉ web của một trang hoặc tài nguyên trên Internet.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hai cách nhập từ khóa tìm kiếm",
+      "cau_hoi": "Người dùng có thể nhập từ khóa vào máy tìm kiếm bằng những phương thức phổ biến nào?",
+      "lua_chon": {
+        "A": "Chỉ gõ bằng bàn phím cơ có dây",
+        "B": "Gõ từ bàn phím hoặc đọc bằng tiếng nói qua micro",
+        "C": "Cắm máy in laser vào cổng USB",
+        "D": "Thay đổi tần số quét màn hình"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Máy tìm kiếm hiện đại hỗ trợ nhập từ khóa bằng bàn phím hoặc nhận dạng giọng nói.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ví dụ về máy tìm kiếm phổ biến",
+      "cau_hoi": "Công cụ nào sau đây là một máy tìm kiếm (Search Engine) trên Internet?",
+      "lua_chon": {
+        "A": "Google (google.com)",
+        "B": "Microsoft Paint",
+        "C": "Windows Explorer",
+        "D": "GIMP"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Google là máy tìm kiếm phổ biến, bên cạnh các máy tìm kiếm khác như Bing, DuckDuckGo...",
+      "nguon": "Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kiểm tra từ khóa nhận dạng giọng nói",
+      "cau_hoi": "Sau khi đọc từ khóa bằng tiếng nói vào biểu tượng micro, bước quan trọng tiếp theo người dùng cần làm là gì?",
+      "lua_chon": {
+        "A": "Đóng trình duyệt web",
+        "B": "Rút ngay dây mạng ra khỏi máy tính",
+        "C": "Mở ngay kết quả quảng cáo đầu tiên mà không cần đọc",
+        "D": "Kiểm tra lại dòng từ khóa được hệ thống tự động điền xem có khớp với nội dung mình đọc không"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Nhận dạng giọng nói có thể sai chính tả hoặc hiểu nhầm từ đồng âm, nên cần kiểm tra trước khi chọn kết quả.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lợi ích của việc đặt từ khóa cụ thể",
+      "cau_hoi": "Vì sao khi tìm kiếm thông tin học tập, việc nhập từ khóa đầy đủ ngữ cảnh (tên tài liệu, năm, đối tượng) lại hiệu quả hơn nhập từ khóa quá chung chung?",
+      "lua_chon": {
+        "A": "Giúp tăng tốc độ đường truyền cáp quang của nhà mạng",
+        "B": "Giúp máy tìm kiếm thu hẹp phạm vi, giảm kết quả nhiễu và tăng độ chính xác",
+        "C": "Giúp tăng dung lượng ổ đĩa trực tuyến",
+        "D": "Giúp bỏ qua hoàn toàn kết nối Internet"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Từ khóa càng cụ thể thì kết quả trả về càng sát nhu cầu, đỡ tốn thời gian lọc thủ công.",
+      "nguon": "ndc_bai_7 & Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lý do nên thử nhiều máy tìm kiếm khác nhau",
+      "cau_hoi": "Khi tìm kiếm cùng một từ khóa trên hai máy tìm kiếm khác nhau, điều gì thường xảy ra?",
+      "lua_chon": {
+        "A": "Các tệp PDF trên máy tính bị đổi định dạng",
+        "B": "Cả hai máy tìm kiếm luôn trả về danh sách giống hệt nhau từng dòng",
+        "C": "Máy tính sẽ tự động bị ngắt kết nối Wi-Fi",
+        "D": "Thứ tự xếp hạng, độ liên quan của kết quả và giao diện hiển thị có thể khác nhau"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Mỗi máy tìm kiếm có thuật toán lập chỉ mục và xếp hạng riêng nên kết quả có thể khác nhau.",
+      "nguon": "Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Sử dụng tab Video/Hình ảnh khi tìm kiếm",
+      "cau_hoi": "Để tìm bài giảng minh họa trực quan bằng đoạn phim hướng dẫn giải bài tập Tin học 11, em nên chọn thẻ phân loại kết quả nào?",
+      "lua_chon": {
+        "A": "Sách",
+        "B": "Hình ảnh",
+        "C": "Video",
+        "D": "Bản đồ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Thẻ Video lọc riêng các kết quả dạng video hướng dẫn/minh họa.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TN_13",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lý tình huống từ khóa giọng nói bị nhận dạng sai",
+      "cau_hoi": "Khi dùng tìm kiếm bằng giọng nói để tìm 'đề thi Tin học 11', máy tính lại nhận dạng thành 'đề thi sinh học 11'. Cách xử lí nhanh nhất là gì?",
+      "lua_chon": {
+        "A": "Mua bàn phím mới",
+        "B": "Nháy lại vào biểu tượng micro để đọc rõ hơn hoặc sửa trực tiếp chữ 'sinh' thành 'Tin' trong ô tìm kiếm",
+        "C": "Xóa hết tài liệu trên Google Drive",
+        "D": "Chấp nhận đọc kết quả môn Sinh học"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Có thể đọc lại rõ ràng hơn hoặc chỉnh sửa trực tiếp từ khóa sai trên ô tìm kiếm.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lý lỗi không thu được giọng nói khi tìm kiếm",
+      "cau_hoi": "Khi nháy vào biểu tượng micro trên trình duyệt nhưng máy tính báo không nhận được âm thanh, nguyên nhân nào có khả năng xảy ra cao nhất?",
+      "lua_chon": {
+        "A": "Cổng HDMI bị lỏng",
+        "B": "Màn hình có tần số quét 60 Hz",
+        "C": "Chuột máy tính có độ phân giải thấp",
+        "D": "Trình duyệt chưa được cấp quyền truy cập micro hoặc micro đang bị tắt/chưa cắm"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Tìm kiếm giọng nói yêu cầu micro hoạt động và trình duyệt được cấp quyền sử dụng micro.",
+      "nguon": "Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Viết truy vấn tìm văn bản chính thức dạng PDF",
+      "cau_hoi": "Để tìm văn bản chính thức dạng PDF về 'Quy chế tuyển sinh đại học 2025', câu truy vấn nào dưới đây chuẩn xác nhất?",
+      "lua_chon": {
+        "A": "Quy chế tuyển sinh đại học 2025 filetype:pdf",
+        "B": "tuyển sinh PDF only",
+        "C": "filetype=pdf đại học",
+        "D": "quy chế 2025 .exe"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Kết hợp từ khóa cụ thể với toán tử `filetype:pdf` giúp lọc đúng văn bản PDF.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tìm kiếm trên thiết bị di động thông minh",
+      "cau_hoi": "Khi thực hành tìm kiếm thông tin trên điện thoại thông minh, thao tác nào giúp nhập từ khóa nhanh khi không tiện gõ phím?",
+      "lua_chon": {
+        "A": "Chạm vào biểu tượng micro trên thanh tìm kiếm hoặc bàn phím ảo để nhập bằng tiếng nói",
+        "B": "Cắm cáp VGA vào điện thoại",
+        "C": "Tắt nguồn rồi khởi động lại điện thoại",
+        "D": "Chụp ảnh màn hình liên tục"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Thiết bị di động tích hợp sẵn micro hỗ trợ tìm kiếm bằng giọng nói rất thuận tiện.",
+      "nguon": "Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lọc kết quả hình ảnh chất lượng cho bài thuyết trình",
+      "cau_hoi": "Để tìm ảnh minh họa phục vụ bài thuyết trình PowerPoint về 'Cấu tạo CPU', sau khi nhập từ khóa vào Google, bước tiếp theo nên làm là gì?",
+      "lua_chon": {
+        "A": "Chuyển sang tab 'Tin tức'",
+        "B": "Thêm cụm từ filetype:mp3",
+        "C": "Chuyển sang tab 'Hình ảnh' và có thể dùng thêm công cụ lọc kích thước/loại ảnh",
+        "D": "Chỉ xem kết quả đầu tiên ở tab Tất cả"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Tab Hình ảnh và bộ lọc công cụ giúp chọn nhanh ảnh rõ nét, đúng chủ đề.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đánh giá độ tin cậy của kết quả tìm kiếm",
+      "cau_hoi": "Khi tìm kiếm thông tin tuyển sinh trên Internet và thấy nhiều trang web đưa mốc thời gian khác nhau, người học nên làm gì?",
+      "lua_chon": {
+        "A": "Chọn trang web có nhiều quảng cáo nhất",
+        "B": "Ưu tiên kiểm tra từ nguồn chính thức (cổng thông tin của Bộ GD&ĐT hoặc website chính thức của trường)",
+        "C": "Tin vào bài đăng ẩn danh trên mạng xã hội",
+        "D": "Lấy trung bình cộng các ngày"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Luôn đối chiếu URL và nguồn phát hành chính thống để đảm bảo thông tin chính xác.",
+      "nguon": "ndc_bai_7 & Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Tối ưu chiến lược tìm kiếm đa dạng dữ liệu",
+      "cau_hoi": "Một học sinh cần tìm hiểu về nghề 'Kĩ sư phần mềm' gồm: (1) tài liệu chuẩn đầu ra chính thức, (2) sơ đồ lộ trình học tập dạng ảnh, (3) phỏng vấn thực tế người trong nghề. Cách tổ chức tìm kiếm nào khoa học nhất?",
+      "lua_chon": {
+        "A": "Tìm bằng giọng nói một đoạn văn dài 50 từ",
+        "B": "Dùng duy nhất một từ khóa 'nghề nghiệp' rồi đọc hết trang 1 đến trang 20",
+        "C": "Chỉ tìm trong tab 'Tin tức' cho cả ba yêu cầu",
+        "D": "Dùng `filetype:pdf` cho tài liệu chính thức, chuyển tab 'Hình ảnh' cho sơ đồ và tab 'Video' cho phỏng vấn thực tế"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phân tách đúng tiêu chí lọc (filetype:pdf, Hình ảnh, Video) giúp thu thập đúng định dạng thông tin cần thiết.",
+      "nguon": "ndc_bai_7 & Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích nguyên nhân tìm kiếm không có kết quả",
+      "cau_hoi": "Khi nhập chuỗi từ khóa quá dài kèm nhiều ràng buộc khắt khe (ví dụ: sai chính tả tên riêng và thêm `filetype:pdf`), máy tìm kiếm trả về 'Không tìm thấy kết quả nào'. Cách khắc phục hợp lí nhất là gì?",
+      "lua_chon": {
+        "A": "Cài lại phần mềm diệt virus",
+        "B": "Thêm thật nhiều từ khóa đồng nghĩa dài hơn nữa",
+        "C": "Kiểm tra sửa lỗi chính tả, rút gọn bớt từ khóa giữ lại ý cốt lõi và kiểm tra lại toán tử lọc",
+        "D": "Đổi sang dùng cổng mạng có dây"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Từ khóa sai chính tả hoặc quá hẹp sẽ làm kết quả bằng 0; cần sửa chính tả và nới rộng/tối giản từ khóa cốt lõi.",
+      "nguon": "ndc_bai_7"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B07-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Truy vấn nào có khả năng thu hẹp kết quả tìm tài liệu an toàn mạng cho học sinh?",
-        "lua_chon": {
-          "A": "tất cả",
-          "B": "an toàn mạng học sinh hướng dẫn",
-          "C": "Internet",
-          "D": "máy tính"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B07_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tìm kiếm bằng từ khóa và tiếng nói",
+      "dan_nhap": "Nhận định về tìm kiếm thông tin trên Internet bằng máy tìm kiếm:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Người dùng có thể tìm kiếm bằng cách nhập từ khóa từ bàn phím hoặc bằng tiếng nói.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Đáp án đúng vì an toàn mạng học sinh hướng dẫn; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B07-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Phát biểu nào đúng về Từ khóa cụ thể?",
-        "lua_chon": {
-          "A": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
-          "B": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
-          "C": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
-          "D": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn."
+        {
+          "ma": "b",
+          "noi_dung": "Sau khi đọc từ khóa bằng tiếng nói, không cần kiểm tra lại xem máy có nhận dạng đúng từ khóa hay không.",
+          "dap_an": false,
+          "giai_thich": "Sai. Cần kiểm tra từ khóa tự động điền; nếu không khớp phải đọc lại."
         },
-        "dap_an": "A",
-        "giai_thich": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan."
-      },
-      {
-        "id": "T11-B07-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống: Tìm hướng dẫn an toàn mạng cho học sinh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Loại tệp PDF.",
-          "B": "“an toàn mạng học sinh hướng dẫn”.",
-          "C": "Đặt cụm từ trong dấu ngoặc kép.",
-          "D": "Giới hạn theo thời gian gần đây."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể lọc kết quả tìm kiếm theo dạng hình ảnh, tin tức hoặc video.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, “an toàn mạng học sinh hướng dẫn”."
-      },
-      {
-        "id": "T11-B07-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Từ khóa cụ thể?",
-        "lua_chon": {
-          "A": "Cần tìm hướng dẫn PDF.",
-          "B": "Tìm hướng dẫn an toàn mạng cho học sinh.",
-          "C": "Cần tìm đúng tên một văn bản.",
-          "D": "Tìm quy định mới ban hành."
+        {
+          "ma": "d",
+          "noi_dung": "Cú pháp filetype:pdf giúp tìm kiếm các tài liệu văn bản chính thức dưới dạng tệp .pdf.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_7_thuc_hanh.docx & ndc_bai_7"
+    },
+    {
+      "id": "B07_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "So sánh các máy tìm kiếm phổ biến",
+      "dan_nhap": "Nhận định về việc trải nghiệm và so sánh các máy tìm kiếm phổ biến:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Trên Internet chỉ có duy nhất một máy tìm kiếm là Google.",
+          "dap_an": false,
+          "giai_thich": "Sai. Có nhiều máy tìm kiếm phổ biến khác nhau."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Từ khóa cụ thể trong bài Thực hành tìm kiếm."
-      },
-      {
-        "id": "T11-B07-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Phát biểu nào đúng về Cụm từ chính xác?",
-        "lua_chon": {
-          "A": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
-          "B": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
-          "C": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn.",
-          "D": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm."
+        {
+          "ma": "b",
+          "noi_dung": "Cùng một từ khóa nhưng các máy tìm kiếm khác nhau có thể trả về thứ tự và giao diện kết quả khác nhau.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm."
-      },
-      {
-        "id": "T11-B07-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống: Cần tìm đúng tên một văn bản. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đặt cụm từ trong dấu ngoặc kép.",
-          "B": "“an toàn mạng học sinh hướng dẫn”.",
-          "C": "Giới hạn theo thời gian gần đây.",
-          "D": "Loại tệp PDF."
+        {
+          "ma": "c",
+          "noi_dung": "Người dùng có thể dùng thiết bị di động thông minh để thực hành tìm kiếm bằng giọng nói.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Đặt cụm từ trong dấu ngoặc kép."
-      },
-      {
-        "id": "T11-B07-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cụm từ chính xác?",
-        "lua_chon": {
-          "A": "Tìm hướng dẫn an toàn mạng cho học sinh.",
-          "B": "Tìm quy định mới ban hành.",
-          "C": "Cần tìm hướng dẫn PDF.",
-          "D": "Cần tìm đúng tên một văn bản."
+        {
+          "ma": "d",
+          "noi_dung": "Việc đặt tiêu chí tìm kiếm giúp nâng cao tính chính xác và tiết kiệm thời gian.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tìm kiếm bằng tiếng nói trên máy tính",
+      "dan_nhap": "Một học sinh thực hành tìm kiếm thông tin bằng giọng nói trên máy tính để bàn:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Máy tính bắt buộc phải có micro kết nối và hoạt động bình thường.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Cụm từ chính xác trong bài Thực hành tìm kiếm."
-      },
-      {
-        "id": "T11-B07-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Phát biểu nào đúng về Bộ lọc thời gian?",
-        "lua_chon": {
-          "A": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
-          "B": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn.",
-          "C": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
-          "D": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan."
+        {
+          "ma": "b",
+          "noi_dung": "Trình duyệt web phải được người dùng cấp quyền truy cập micro.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật."
-      },
-      {
-        "id": "T11-B07-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống: Tìm quy định mới ban hành. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "“an toàn mạng học sinh hướng dẫn”.",
-          "B": "Đặt cụm từ trong dấu ngoặc kép.",
-          "C": "Loại tệp PDF.",
-          "D": "Giới hạn theo thời gian gần đây."
+        {
+          "ma": "c",
+          "noi_dung": "Môi trường xung quanh quá ồn không ảnh hưởng gì đến độ chính xác nhận dạng từ khóa.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tiếng ồn lớn dễ làm hệ thống nhận dạng sai từ khóa."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Giới hạn theo thời gian gần đây."
-      },
-      {
-        "id": "T11-B07-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bộ lọc thời gian?",
-        "lua_chon": {
-          "A": "Cần tìm hướng dẫn PDF.",
-          "B": "Tìm quy định mới ban hành.",
-          "C": "Tìm hướng dẫn an toàn mạng cho học sinh.",
-          "D": "Cần tìm đúng tên một văn bản."
+        {
+          "ma": "d",
+          "noi_dung": "Nếu hệ thống nhận dạng sai từ khóa, người dùng có thể đọc lại hoặc sửa trực tiếp trong ô tìm kiếm.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_7_thuc_hanh.docx & ndc_bai_7"
+    },
+    {
+      "id": "B07_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lọc và đánh giá kết quả tìm kiếm",
+      "dan_nhap": "Nhận định về kĩ năng tối ưu hóa tìm kiếm tài liệu học tập:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Toán tử filetype:pdf giúp lọc các kết quả là tệp định dạng PDF.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Bộ lọc thời gian trong bài Thực hành tìm kiếm."
-      },
-      {
-        "id": "T11-B07-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Phát biểu nào đúng về Loại tệp?",
-        "lua_chon": {
-          "A": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
-          "B": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn.",
-          "C": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
-          "D": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm."
+        {
+          "ma": "b",
+          "noi_dung": "Thay đổi từ khóa chính xác hơn là cách hiệu quả khi kết quả ban đầu chưa sát nhu cầu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Bộ lọc loại tệp hỗ trợ tìm tài liệu ở định dạng mong muốn."
-      },
-      {
-        "id": "T11-B07-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống: Cần tìm hướng dẫn PDF. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đặt cụm từ trong dấu ngoặc kép.",
-          "B": "Giới hạn theo thời gian gần đây.",
-          "C": "Loại tệp PDF.",
-          "D": "“an toàn mạng học sinh hướng dẫn”."
+        {
+          "ma": "c",
+          "noi_dung": "Mọi kết quả đứng đầu danh sách tìm kiếm luôn là thông tin chính xác tuyệt đối và đáng tin cậy nhất.",
+          "dap_an": false,
+          "giai_thich": "Sai. Kết quả đầu có thể là quảng cáo hoặc trang chưa kiểm chứng, cần xem kĩ URL nguồn."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Loại tệp PDF."
-      },
-      {
-        "id": "T11-B07-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Loại tệp?",
-        "lua_chon": {
-          "A": "Tìm hướng dẫn an toàn mạng cho học sinh.",
-          "B": "Cần tìm đúng tên một văn bản.",
-          "C": "Tìm quy định mới ban hành.",
-          "D": "Cần tìm hướng dẫn PDF."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể chuyển qua lại giữa các tab Hình ảnh, Tin tức, Video mà không cần gõ lại từ khóa.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_DS_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Kiến thức nền tảng về máy tìm kiếm",
+      "dan_nhap": "Nhận định về máy tìm kiếm và địa chỉ web (URL):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "URL là địa chỉ dùng để xác định và truy cập một trang web trên Internet.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Loại tệp trong bài Thực hành tìm kiếm."
-      },
-      {
-        "id": "T11-B07-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Phát biểu nào đúng về Đánh giá nguồn?",
-        "lua_chon": {
-          "A": "Cần xem tác giả, cơ quan, bằng chứng và ngày cập nhật khi đánh giá thông tin.",
-          "B": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
-          "C": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
-          "D": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật."
+        {
+          "ma": "b",
+          "noi_dung": "Máy tìm kiếm chỉ hoạt động khi máy tính có kết nối Internet.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Cần xem tác giả, cơ quan, bằng chứng và ngày cập nhật khi đánh giá thông tin."
-      },
-      {
-        "id": "T11-B07-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống: Một trang nặc danh đưa ra tuyên bố y tế. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giới hạn theo thời gian gần đây.",
-          "B": "Đối chiếu với cơ quan/chuyên gia đáng tin cậy.",
-          "C": "“an toàn mạng học sinh hướng dẫn”.",
-          "D": "Đặt cụm từ trong dấu ngoặc kép."
+        {
+          "ma": "c",
+          "noi_dung": "Không thể tìm kiếm thông tin trên điện thoại di động vì điện thoại không có bàn phím rời.",
+          "dap_an": false,
+          "giai_thich": "Sai. Điện thoại có bàn phím ảo và micro để tìm kiếm bình thường."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Đối chiếu với cơ quan/chuyên gia đáng tin cậy."
-      },
-      {
-        "id": "T11-B07-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Đánh giá nguồn?",
-        "lua_chon": {
-          "A": "Tìm quy định mới ban hành.",
-          "B": "Một trang nặc danh đưa ra tuyên bố y tế.",
-          "C": "Tìm hướng dẫn an toàn mạng cho học sinh.",
-          "D": "Cần tìm đúng tên một văn bản."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Đánh giá nguồn trong bài Thực hành tìm kiếm."
-      },
-      {
-        "id": "T11-B07-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Phát biểu nào đúng về Tìm kiếm bằng giọng nói?",
-        "lua_chon": {
-          "A": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.",
-          "B": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
-          "C": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
-          "D": "Máy tìm kiếm có thể nhận truy vấn bằng giọng nói trên thiết bị hỗ trợ."
-        },
-        "dap_an": "D",
-        "giai_thich": "Máy tìm kiếm có thể nhận truy vấn bằng giọng nói trên thiết bị hỗ trợ."
-      },
-      {
-        "id": "T11-B07-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống: Không tiện gõ từ khóa trên điện thoại. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Nhập truy vấn bằng tiếng nói.",
-          "B": "“an toàn mạng học sinh hướng dẫn”.",
-          "C": "Đặt cụm từ trong dấu ngoặc kép.",
-          "D": "Giới hạn theo thời gian gần đây."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Nhập truy vấn bằng tiếng nói."
-      },
-      {
-        "id": "T11-B07-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tìm kiếm bằng giọng nói?",
-        "lua_chon": {
-          "A": "Tìm hướng dẫn an toàn mạng cho học sinh.",
-          "B": "Cần tìm đúng tên một văn bản.",
-          "C": "Tìm quy định mới ban hành.",
-          "D": "Không tiện gõ từ khóa trên điện thoại."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Tìm kiếm bằng giọng nói trong bài Thực hành tìm kiếm."
-      },
-      {
-        "id": "T11-B07-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Phát biểu nào đúng về Điều chỉnh truy vấn?",
-        "lua_chon": {
-          "A": "Dấu ngoặc kép có thể tìm cụm từ xuất hiện liền nhau trong nhiều máy tìm kiếm.",
-          "B": "Bộ lọc thời gian giúp giới hạn kết quả theo ngày đăng hoặc cập nhật.",
-          "C": "Thay đổi từ khóa và bộ lọc giúp cải thiện kết quả khi tìm kiếm chưa đạt.",
-          "D": "Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan."
-        },
-        "dap_an": "C",
-        "giai_thich": "Thay đổi từ khóa và bộ lọc giúp cải thiện kết quả khi tìm kiếm chưa đạt."
-      },
-      {
-        "id": "T11-B07-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống: Trang đầu không có kết quả phù hợp. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "“an toàn mạng học sinh hướng dẫn”.",
-          "B": "Đặt cụm từ trong dấu ngoặc kép.",
-          "C": "Giới hạn theo thời gian gần đây.",
-          "D": "Bổ sung từ khóa cụ thể hoặc thay bộ lọc."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Bổ sung từ khóa cụ thể hoặc thay bộ lọc."
-      },
-      {
-        "id": "T11-B07-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Điều chỉnh truy vấn?",
-        "lua_chon": {
-          "A": "Tìm quy định mới ban hành.",
-          "B": "Trang đầu không có kết quả phù hợp.",
-          "C": "Tìm hướng dẫn an toàn mạng cho học sinh.",
-          "D": "Cần tìm đúng tên một văn bản."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Điều chỉnh truy vấn trong bài Thực hành tìm kiếm."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B07-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Xét tính đúng/sai về Thực hành tìm kiếm:",
-        "y_kien": {
-          "a": true,
-          "b": false,
-          "c": "Có thể dùng bộ lọc thời gian hoặc loại tệp.",
-          "d": "Kết quả đứng đầu luôn là kết quả chính xác nhất."
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B07-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Nêu cách tìm và đánh giá thông tin đáng tin cậy.",
-        "dap_an_goi_y": "Xác định nhu cầu, chọn từ khóa cụ thể, lọc kết quả, đối chiếu nguồn, kiểm tra tác giả/cơ quan và ngày cập nhật.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B07-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 7 - Thực hành tìm kiếm",
-        "noi_dung": "Dựa vào kiến thức “Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Tìm hướng dẫn an toàn mạng cho học sinh.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Từ khóa cụ thể thường thu hẹp kết quả và tăng mức liên quan. Vận dụng: “an toàn mạng học sinh hướng dẫn”. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Gõ từ khóa càng rõ ngữ cảnh (kèm tên tổ chức, năm) thì càng giảm được kết quả nhiễu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_7"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B07_TLN_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Toán tử lọc PDF",
+      "cau_hoi": "Cụm từ khóa nào được bổ sung vào truy vấn tìm kiếm để chỉ lọc các tệp định dạng PDF?",
+      "dap_an": "filetype:pdf",
+      "dap_an_tuong_duong": [
+        "filetype: pdf"
+      ],
+      "giai_thich": "Toán tử filetype:pdf giới hạn kết quả chỉ hiển thị tệp .pdf.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Biểu tượng tìm kiếm giọng nói",
+      "cau_hoi": "Biểu tượng nào cạnh ô nhập từ khóa dùng để kích hoạt tìm kiếm bằng giọng nói?",
+      "dap_an": "Biểu tượng micro",
+      "dap_an_tuong_duong": [
+        "micro",
+        "mic"
+      ],
+      "giai_thich": "Nháy vào biểu tượng micro để đọc từ khóa tìm kiếm.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TLN_03",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tên viết tắt địa chỉ website",
+      "cau_hoi": "Địa chỉ website của một trang web thường được gọi viết tắt bằng 3 chữ cái gì?",
+      "dap_an": "URL",
+      "dap_an_tuong_duong": [
+        "url"
+      ],
+      "giai_thich": "URL là viết tắt của Uniform Resource Locator.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TLN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thẻ lọc video trên máy tìm kiếm",
+      "cau_hoi": "Sau khi nhập từ khóa, muốn chỉ xem các kết quả là đoạn phim hướng dẫn trên máy tìm kiếm thì ta chọn thẻ phân loại nào?",
+      "dap_an": "Video",
+      "dap_an_tuong_duong": [
+        "Videos",
+        "Thẻ Video"
+      ],
+      "giai_thich": "Thẻ Video lọc các kết quả tìm kiếm ở định dạng video.",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TLN_05",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kiểm tra từ khóa sau khi đọc giọng nói",
+      "cau_hoi": "Ngay sau khi đọc từ khóa bằng tiếng nói, thao tác cần làm trước khi chọn liên kết kết quả là gì?",
+      "dap_an": "Kiểm tra từ khóa tự động điền",
+      "dap_an_tuong_duong": [
+        "Kiểm tra lại từ khóa",
+        "Kiểm tra từ khóa"
+      ],
+      "giai_thich": "Cần kiểm tra xem máy có nhận dạng đúng từ khóa mình vừa đọc hay không.",
+      "nguon": "ndc_bai_7"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B07_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy trình tìm kiếm bằng tiếng nói",
+      "cau_hoi": "Trình bày các bước thực hiện tìm kiếm thông tin bằng tiếng nói trên máy tìm kiếm.",
+      "goi_y_dap_an": "Bước 1: Khởi động công cụ tìm kiếm.\nBước 2: Nháy chuột vào biểu tượng micro cạnh ô nhập từ khóa và đọc từ khóa.\nBước 3: Kiểm tra từ khóa được tự động điền; nếu chưa khớp thì thực hiện lại Bước 2.\nBước 4: Đọc kết quả tìm kiếm; nếu chưa như ý muốn, thử lại với từ khóa khác.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng đủ 4 bước theo trình tự (0,5đ × 4 = 2,0đ).",
+      "nguon": "ndc_bai_7"
+    },
+    {
+      "id": "B07_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thiết lập từ khóa và tiêu chí lọc",
+      "cau_hoi": "Khi cần tìm thông báo tuyển sinh chính thức dạng văn bản của một trường đại học, em nên thiết lập từ khóa tìm kiếm như thế nào để đạt độ chính xác cao?",
+      "goi_y_dap_an": "Kết hợp từ khóa cụ thể (tên trường, 'thông báo tuyển sinh', năm) với toán tử lọc định dạng `filetype:pdf` để ưu tiên các văn bản chính thức dạng PDF, đồng thời kiểm tra URL nguồn thuộc website chính thức của trường.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng cách chọn từ khóa cụ thể (0,8đ), dùng đúng `filetype:pdf` (0,7đ) và kiểm tra nguồn chính thức (0,5đ).",
+      "nguon": "ndc_bai_7 & Kenhgiaovien_7_thuc_hanh.docx"
+    },
+    {
+      "id": "B07_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "So sánh kết quả giữa các máy tìm kiếm",
+      "cau_hoi": "Trong giờ thực hành, khi tìm cùng một từ khóa trên hai máy tìm kiếm khác nhau, em nhận thấy danh sách kết quả trả về không giống nhau hoàn toàn. Hãy giải thích nguyên nhân và nêu lợi ích của việc biết sử dụng nhiều hơn một máy tìm kiếm.",
+      "goi_y_dap_an": "- Nguyên nhân: Mỗi máy tìm kiếm có thuật toán thu thập dữ liệu, lập chỉ mục và xếp hạng độ liên quan khác nhau.\n- Lợi ích: Giúp đối chiếu chéo thông tin, tìm được nguồn tài liệu phong phú hơn khi một máy tìm kiếm cho kết quả chưa sát, đồng thời chọn được giao diện/tính năng phù hợp nhất với nhu cầu.",
+      "thang_diem": "Tổng 2,0 điểm: giải thích đúng nguyên nhân khác biệt thuật toán (1,0đ) và nêu được lợi ích thực tiễn khi kết hợp nhiều máy tìm kiếm (1,0đ).",
+      "nguon": "Kenhgiaovien_7_thuc_hanh.docx"
+    }
+  ]
 }

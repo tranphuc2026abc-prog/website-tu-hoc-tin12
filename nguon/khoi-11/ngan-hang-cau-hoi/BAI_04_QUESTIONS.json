@@ -1,424 +1,576 @@
 {
-  "ma_bai": "BAI_04",
-  "bai_so": 4,
+  "bai_id": "BAI_04",
   "ten_bai": "Bên trong máy tính",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 1: Máy tính và xã hội tri thức",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_4_ben_trong_may.docx",
+    "cd1_bai_4_ben_trong_may_tinh.docx",
+    "ndc_bai_4_ben_trong_may_tinh.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_4_ben_trong_may_tinh.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_4_ben_trong_may_tinh.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B04_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Cấu tạo bộ xử lí trung tâm (CPU)",
+      "cau_hoi": "Hai bộ phận chính cấu tạo nên bộ xử lí trung tâm (CPU) là gì?",
+      "lua_chon": {
+        "A": "RAM và ROM",
+        "B": "Ổ cứng HDD và ổ thể rắn SSD",
+        "C": "Bộ số học và lôgic (ALU) và Bộ điều khiển (CU)",
+        "D": "Cổng vào và cổng ra"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "CPU gồm hai bộ phận chính là bộ số học và lôgic (ALU) và bộ điều khiển (CU), ngoài ra còn có thanh ghi, bộ nhớ đệm và đồng hồ xung.",
+      "nguon": "cd1_bai_4 & ndc_bai_4"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B04_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Bộ nhớ trong RAM",
+      "cau_hoi": "Loại bộ nhớ nào cho phép ghi dữ liệu tạm thời khi chạy chương trình nhưng dữ liệu sẽ bị xóa khi tắt nguồn máy tính?",
+      "lua_chon": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "HDD",
+        "D": "SSD"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "RAM lưu dữ liệu tạm thời khi máy hoạt động và mất dữ liệu khi tắt nguồn.",
+      "nguon": "cd1_bai_4 & ndc_bai_4"
+    },
+    {
+      "id": "B04_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Vai trò bộ nhớ đệm (Cache)",
+      "cau_hoi": "Vai trò chính của bộ nhớ đệm (cache) trong CPU là gì?",
+      "lua_chon": {
+        "A": "Lưu trữ lâu dài hệ điều hành khi tắt máy",
+        "B": "Lưu trữ tạm thời dữ liệu và lệnh thường xuyên sử dụng để CPU truy xuất nhanh hơn so với RAM",
+        "C": "Thay thế hoàn toàn cho ổ cứng ngoài",
+        "D": "Kết nối các thiết bị ngoại vi với bảng mạch chính"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Cache nằm gần CPU, tốc độ nhanh hơn RAM, giúp giảm thời gian truy xuất dữ liệu thường dùng.",
+      "nguon": "cd1_bai_4 & tln_..._bai_4"
+    },
+    {
+      "id": "B04_TN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Các cổng lôgic cơ bản",
+      "cau_hoi": "Mọi mạch lôgic phức tạp trong máy tính đều có thể xây dựng từ ba cổng lôgic cơ bản nào?",
+      "lua_chon": {
+        "A": "AND, OR, NOT",
+        "B": "RAM, ROM, CPU",
+        "C": "SSD, HDD, USB",
+        "D": "ADD, SUB, MUL"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Mọi mạch lôgic đều có thể xây dựng từ các cổng AND, OR, NOT.",
+      "nguon": "cd1_bai_4 & ndc_bai_4"
+    },
+    {
+      "id": "B04_TN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chuyển đổi nhị phân sang thập phân",
+      "cau_hoi": "Giá trị của số nhị phân 10011₂ trong hệ thập phân là bao nhiêu?",
+      "lua_chon": {
+        "A": "17",
+        "B": "19",
+        "C": "18",
+        "D": "21"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "10011₂ = 1×2⁴ + 0×2³ + 0×2² + 1×2¹ + 1×2⁰ = 16 + 2 + 1 = 19.",
+      "nguon": "cd1_bai_4 & ndc_bai_4"
+    },
+    {
+      "id": "B04_TN_06",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phép cộng trên hệ nhị phân",
+      "cau_hoi": "Kết quả của phép cộng hai số nhị phân 1001₂ + 1111₂ là:",
+      "lua_chon": {
+        "A": "10110₂",
+        "B": "11010₂",
+        "C": "11000₂",
+        "D": "10000₂"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "1001₂ (9) + 1111₂ (15) = 11000₂ (24).",
+      "nguon": "cd1_bai_4"
+    },
+    {
+      "id": "B04_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thành phần cấu tạo chức năng máy tính",
+      "cau_hoi": "Trên bảng mạch chính (Mainboard) của máy tính gắn trực tiếp hai thành phần cốt lõi nào?",
+      "lua_chon": {
+        "A": "Máy in và màn hình",
+        "B": "Bộ xử lí trung tâm (CPU) và bộ nhớ trong (RAM, ROM)",
+        "C": "Chuột và bàn phím",
+        "D": "Đĩa quang và loa ngoài"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Bảng mạch chính gắn CPU và bộ nhớ trong, đồng thời kết nối bộ nhớ ngoài và thiết bị vào/ra.",
+      "nguon": "cd1_bai_4"
+    },
+    {
+      "id": "B04_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Bộ nhớ chỉ đọc ROM",
+      "cau_hoi": "Bộ nhớ ROM thường được dùng để lưu trữ nội dung nào sau đây?",
+      "lua_chon": {
+        "A": "Các bài hát và video cá nhân",
+        "B": "Dữ liệu hệ thống cố định và các chương trình kiểm tra, khởi động máy tính",
+        "C": "Các tệp tạm của trình duyệt web",
+        "D": "Tài liệu đang soạn thảo chưa lưu"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "ROM không cần nguồn nuôi, lưu dữ liệu lâu dài cho chương trình khởi động và kiểm tra máy tính.",
+      "nguon": "cd1_bai_4 & ndc_bai_4"
+    },
+    {
+      "id": "B04_TN_09",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chức năng Bộ điều khiển (CU)",
+      "cau_hoi": "Bộ phận nào trong CPU có nhiệm vụ phối hợp đồng bộ các thiết bị của máy tính, đảm bảo máy tính thực hiện đúng chương trình?",
+      "lua_chon": {
+        "A": "Thanh ghi dữ liệu ngoài",
+        "B": "Bộ số học và lôgic (ALU)",
+        "C": "Ổ đĩa cứng (HDD)",
+        "D": "Bộ điều khiển (CU)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Bộ điều khiển (CU) điều phối đồng bộ hoạt động các thiết bị theo đúng lệnh chương trình.",
+      "nguon": "ndc_bai_4 & cd1_bai_4"
+    },
+    {
+      "id": "B04_TN_10",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Đơn vị đo hiệu năng CPU",
+      "cau_hoi": "Đơn vị nào sau đây thường dùng để đo số phép toán dấu phẩy động mà CPU thực hiện được trong một giây?",
+      "lua_chon": {
+        "A": "ppi",
+        "B": "dpi",
+        "C": "GB",
+        "D": "FLOPS"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "FLOPS (Floating Point Operations Per Second) đo số phép toán dấu phẩy động mỗi giây.",
+      "nguon": "cd1_bai_4 & tln_..._bai_4"
+    },
+    {
+      "id": "B04_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tham số đo hiệu năng bộ nhớ",
+      "cau_hoi": "Hai tham số cơ bản nhất dùng để đánh giá bộ nhớ trong và bộ nhớ ngoài là gì?",
+      "lua_chon": {
+        "A": "Tần số quét và độ phân giải dpi",
+        "B": "Màu sắc vỏ bọc và trọng lượng",
+        "C": "Dung lượng nhớ và thời gian truy cập trung bình",
+        "D": "Số lõi xử lí và số cổng USB"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Tham số đo hiệu năng bộ nhớ gồm dung lượng nhớ và thời gian truy cập trung bình.",
+      "nguon": "cd1_bai_4"
+    },
+    {
+      "id": "B04_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Bảng chân lí phép toán AND, OR, NOT, XOR",
+      "cau_hoi": "Với hai đầu vào x = 1 và y = 0, kết quả của các phép toán lôgic `x AND y`, `x OR y`, `x XOR y` lần lượt là gì?",
+      "lua_chon": {
+        "A": "1, 1, 0",
+        "B": "0, 1, 1",
+        "C": "0, 0, 1",
+        "D": "1, 0, 0"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "1 AND 0 = 0; 1 OR 0 = 1; 1 XOR 0 = 1 (vì hai đầu vào khác nhau).",
+      "nguon": "ndc_bai_4 & tln_..._bai_4"
+    },
+    {
+      "id": "B04_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lợi ích CPU nhiều lõi (multi-core)",
+      "cau_hoi": "Việc CPU có nhiều lõi xử lí (multi-core) mang lại lợi ích trực tiếp nào cho máy tính?",
+      "lua_chon": {
+        "A": "Biến màn hình thường thành màn hình cảm ứng",
+        "B": "Giúp dữ liệu trong RAM không bị mất khi cúp điện",
+        "C": "Cho phép xử lí đồng thời nhiều tác vụ, cải thiện khả năng đa nhiệm và tốc độ xử lí chung",
+        "D": "Tự động tăng dung lượng ổ đĩa cứng"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nhiều lõi cho phép chia sẻ công việc và thực hiện nhiều tác vụ song song.",
+      "nguon": "cd1_bai_4 & tln_..._bai_4"
+    },
+    {
+      "id": "B04_TN_14",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khó khăn khi đo tốc độ CPU bằng số phép tính/giây",
+      "cau_hoi": "Vì sao trong thực tế khó xác định tuyệt đối tốc độ CPU chỉ bằng số phép tính thực hiện trong một giây?",
+      "lua_chon": {
+        "A": "Vì máy tính chỉ làm phép cộng",
+        "B": "Vì CPU không dùng xung đồng hồ",
+        "C": "Vì mỗi loại phép tính khác nhau có thể tiêu tốn số xung đồng hồ khác nhau",
+        "D": "Vì RAM luôn nhanh hơn thanh ghi"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Theo ndc_bai_4, mỗi phép tính thực hiện trong số xung đồng hồ khác nhau nên khó quy về một con số phép tính/giây cố định.",
+      "nguon": "ndc_bai_4_ben_trong_may_tinh.docx"
+    },
+    {
+      "id": "B04_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chuyển đổi thập phân sang nhị phân",
+      "cau_hoi": "Biểu diễn của số thập phân 25₁₀ trong hệ nhị phân là số nào?",
+      "lua_chon": {
+        "A": "10011₂",
+        "B": "10101₂",
+        "C": "11010₂",
+        "D": "11001₂"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "25 = 16 + 8 + 1 = 1×2⁴ + 1×2³ + 0×2² + 0×2¹ + 1×2⁰ = 11001₂.",
+      "nguon": "ndc_bai_4"
+    },
+    {
+      "id": "B04_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phép cộng hai số nhị phân",
+      "cau_hoi": "Thực hiện phép cộng nhị phân `110₂ + 111₂` (tương ứng 6 + 7 trong hệ thập phân), kết quả thu được là:",
+      "lua_chon": {
+        "A": "1001₂",
+        "B": "1011₂",
+        "C": "1110₂",
+        "D": "1101₂"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "110₂ (6) + 111₂ (7) = 1101₂ (13).",
+      "nguon": "ndc_bai_4"
+    },
+    {
+      "id": "B04_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Mạch cộng hai bit x và y",
+      "cau_hoi": "Trong mạch lôgic cộng hai bit x và y, nếu x = 1 và y = 1 thì bit tổng `t = x XOR y` và bit nhớ `z = x AND y` có giá trị lần lượt là:",
+      "lua_chon": {
+        "A": "t = 0, z = 1",
+        "B": "t = 1, z = 0",
+        "C": "t = 1, z = 1",
+        "D": "t = 0, z = 0"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "1 XOR 1 = 0 (bit tổng t = 0); 1 AND 1 = 1 (bit nhớ z = 1), tức 1 + 1 = 10₂.",
+      "nguon": "ndc_bai_4 & trac_nghiem_dung_sai_..._bai_4"
+    },
+    {
+      "id": "B04_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính biểu thức lôgic kết hợp",
+      "cau_hoi": "Cho x = 1, y = 0, w = 1. Giá trị của biểu thức lôgic `(NOT x) OR (y AND w)` bằng bao nhiêu?",
+      "lua_chon": {
+        "A": "Không xác định",
+        "B": "1",
+        "C": "2",
+        "D": "0"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "NOT 1 = 0; 0 AND 1 = 0; 0 OR 0 = 0.",
+      "nguon": "ndc_bai_4"
+    },
+    {
+      "id": "B04_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích nghẽn cổ chai phần cứng khi nâng cấp máy",
+      "cau_hoi": "Một máy tính đang dùng CPU đời mới và RAM 16 GB nhưng khởi động hệ điều hành và mở ứng dụng rất chậm do dùng ổ cứng HDD cũ. Nâng cấp linh kiện nào mang lại hiệu quả cải thiện tốc độ khởi động rõ rệt nhất?",
+      "lua_chon": {
+        "A": "Thay ổ HDD bằng ổ thể rắn SSD để chứa hệ điều hành và phần mềm",
+        "B": "Thay màn hình lớn hơn",
+        "C": "Đổi chuột không dây sang chuột có dây",
+        "D": "Thay bàn phím cơ"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "SSD có tốc độ truy cập nhanh hơn nhiều so với HDD vì không có bộ phận chuyển động cơ học, giúp giảm mạnh thời gian tải hệ điều hành và ứng dụng.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_4 & cd1_bai_4"
+    },
+    {
+      "id": "B04_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế biểu thức mạch cộng 2 bit",
+      "cau_hoi": "Nếu thay cổng `AND` bằng cổng `OR` để tính bit nhớ `z` trong mạch cộng hai bit x và y (giữ nguyên `t = x XOR y`), phép cộng nào sau đây sẽ cho kết quả SAI?",
+      "lua_chon": {
+        "A": "0 + 1 (cho z = 1 thay vì 0)",
+        "B": "0 + 0",
+        "C": "1 + 1",
+        "D": "Không có phép cộng nào sai"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Với 0 + 1 (hoặc 1 + 0), 0 OR 1 = 1 nên sẽ sinh sai bit nhớ z = 1 (tổng đúng phải là 01₂, không có nhớ).",
+      "nguon": "ndc_bai_4 & trac_nghiem_dung_sai_..._bai_4"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B04-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Cổng AND cho kết quả 1 khi nào?",
-        "lua_chon": {
-          "A": "Các đầu vào khác nhau",
-          "B": "Tất cả đầu vào đều bằng 0",
-          "C": "Tất cả đầu vào đều bằng 1",
-          "D": "Có ít nhất một đầu vào bằng 1"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B04_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cấu tạo và thông số CPU",
+      "dan_nhap": "Nhận định về bộ xử lí trung tâm (CPU):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "CPU chỉ gồm duy nhất bộ điều khiển, thực hiện việc truyền tín hiệu giữa các linh kiện.",
+          "dap_an": false,
+          "giai_thich": "Sai. CPU gồm bộ số học và lôgic (ALU), bộ điều khiển (CU), thanh ghi, bộ nhớ đệm..."
         },
-        "dap_an": "C",
-        "giai_thich": "Đáp án đúng vì Tất cả đầu vào đều bằng 1; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B04-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Phát biểu nào đúng về CPU?",
-        "lua_chon": {
-          "A": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng.",
-          "B": "CPU thực hiện lệnh và phép tính của chương trình.",
-          "C": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
-          "D": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM."
+        {
+          "ma": "b",
+          "noi_dung": "CPU bao gồm bộ số học và lôgic (ALU), bộ điều khiển, thanh ghi, bộ nhớ đệm.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "CPU thực hiện lệnh và phép tính của chương trình."
-      },
-      {
-        "id": "T11-B04-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống: Máy tính cần xử lí lệnh của phần mềm. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "B": "Bo mạch chủ.",
-          "C": "CPU.",
-          "D": "RAM."
+        {
+          "ma": "c",
+          "noi_dung": "Tốc độ của CPU thường được đặc trưng bởi tần số xung nhịp (GHz), cho biết khả năng thực hiện các lệnh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, CPU."
-      },
-      {
-        "id": "T11-B04-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về CPU?",
-        "lua_chon": {
-          "A": "Máy tính cần xử lí lệnh của phần mềm.",
-          "B": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
-          "C": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
-          "D": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu."
+        {
+          "ma": "d",
+          "noi_dung": "CPU chỉ có duy nhất một lõi xử lí, vì mỗi chip chỉ thực hiện được một nhiệm vụ tại một thời điểm.",
+          "dap_an": false,
+          "giai_thich": "Sai. CPU hiện đại thường có nhiều lõi (multi-core) xử lí đồng thời."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_4"
+    },
+    {
+      "id": "B04_DS_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Bộ nhớ trong RAM và ROM",
+      "dan_nhap": "Nhận định về bộ nhớ trong RAM và ROM:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "RAM là bộ nhớ tạm thời, bị mất dữ liệu khi máy tắt nguồn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với CPU trong bài Bên trong máy tính."
-      },
-      {
-        "id": "T11-B04-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Phát biểu nào đúng về RAM?",
-        "lua_chon": {
-          "A": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
-          "B": "CPU thực hiện lệnh và phép tính của chương trình.",
-          "C": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM.",
-          "D": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng."
+        {
+          "ma": "b",
+          "noi_dung": "ROM cho phép các chương trình ứng dụng thông thường tự do ghi, xóa, sửa nội dung liên tục.",
+          "dap_an": false,
+          "giai_thich": "Sai. ROM chỉ đọc đối với các chương trình ứng dụng thông thường."
         },
-        "dap_an": "A",
-        "giai_thich": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng."
-      },
-      {
-        "id": "T11-B04-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống: Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Bo mạch chủ.",
-          "B": "RAM.",
-          "C": "CPU.",
-          "D": "Thiết bị lưu trữ như SSD hoặc HDD."
+        {
+          "ma": "c",
+          "noi_dung": "ROM dùng để lưu trữ chương trình khởi động và dữ liệu hệ thống cố định, không bị mất khi tắt máy.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, RAM."
-      },
-      {
-        "id": "T11-B04-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về RAM?",
-        "lua_chon": {
-          "A": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
-          "B": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu.",
-          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
-          "D": "Máy tính cần xử lí lệnh của phần mềm."
+        {
+          "ma": "d",
+          "noi_dung": "RAM là bộ nhớ bền vững, được dùng để sao lưu dài hạn các tệp tin hệ thống.",
+          "dap_an": false,
+          "giai_thich": "Sai."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_4"
+    },
+    {
+      "id": "B04_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Đặc điểm bộ nhớ ngoài",
+      "dan_nhap": "Phát biểu về bộ nhớ ngoài:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Bộ nhớ ngoài có dạng đĩa từ (HDD), ổ thể rắn (SSD), đĩa quang và thường dùng để lưu trữ lâu dài.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với RAM trong bài Bên trong máy tính."
-      },
-      {
-        "id": "T11-B04-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Phát biểu nào đúng về Thiết bị lưu trữ?",
-        "lua_chon": {
-          "A": "CPU thực hiện lệnh và phép tính của chương trình.",
-          "B": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
-          "C": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng.",
-          "D": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM."
+        {
+          "ma": "b",
+          "noi_dung": "SSD có tốc độ truy cập nhanh hơn nhiều so với đĩa cứng HDD vì không có bộ phận chuyển động cơ học.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM."
-      },
-      {
-        "id": "T11-B04-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống: Cần lưu tài liệu để mở lại sau khi tắt máy. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "B": "CPU.",
-          "C": "RAM.",
-          "D": "Bo mạch chủ."
+        {
+          "ma": "c",
+          "noi_dung": "Bộ nhớ ngoài có dung lượng rất nhỏ, chỉ vài MB vì chủ yếu dùng để lưu tạm.",
+          "dap_an": false,
+          "giai_thich": "Sai. Bộ nhớ ngoài có dung lượng lớn (hàng trăm GB đến hàng TB)."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Thiết bị lưu trữ như SSD hoặc HDD."
-      },
-      {
-        "id": "T11-B04-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thiết bị lưu trữ?",
-        "lua_chon": {
-          "A": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
-          "B": "Máy tính cần xử lí lệnh của phần mềm.",
-          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
-          "D": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu."
+        {
+          "ma": "d",
+          "noi_dung": "Tốc độ truy cập đĩa quang chậm hơn SSD và HDD do sử dụng công nghệ quang học (laser).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_4"
+    },
+    {
+      "id": "B04_DS_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Mạch lôgic trong máy tính",
+      "dan_nhap": "Nhận định về mạch lôgic trong máy tính:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Mọi giá trị lôgic trong máy tính đều được đại diện bởi hai trạng thái: 0 và 1.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Thiết bị lưu trữ trong bài Bên trong máy tính."
-      },
-      {
-        "id": "T11-B04-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Phát biểu nào đúng về Bo mạch chủ?",
-        "lua_chon": {
-          "A": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
-          "B": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM.",
-          "C": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng.",
-          "D": "CPU thực hiện lệnh và phép tính của chương trình."
+        {
+          "ma": "b",
+          "noi_dung": "Các mạch lôgic như AND, OR, NOT chỉ hoạt động khi được kết nối với RAM.",
+          "dap_an": false,
+          "giai_thich": "Sai. Mạch lôgic là mạch điện/điện tử cơ sở cấu tạo nên mọi thiết bị số."
         },
-        "dap_an": "C",
-        "giai_thich": "Bo mạch chủ kết nối các thành phần và tạo đường giao tiếp giữa chúng."
-      },
-      {
-        "id": "T11-B04-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống: CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "CPU.",
-          "B": "RAM.",
-          "C": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "D": "Bo mạch chủ."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể biểu diễn và xây dựng các mạch lôgic từ các rơ-le điện từ trong thực tế.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Bo mạch chủ."
-      },
-      {
-        "id": "T11-B04-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bo mạch chủ?",
-        "lua_chon": {
-          "A": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
-          "B": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
-          "C": "CPU, RAM và ổ lưu trữ cần trao đổi dữ liệu.",
-          "D": "Máy tính cần xử lí lệnh của phần mềm."
+        {
+          "ma": "d",
+          "noi_dung": "Phép XOR chỉ trả về 1 khi và chỉ khi hai giá trị đầu vào giống nhau.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phép XOR trả về 1 khi hai đầu vào khác nhau."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_4"
+    },
+    {
+      "id": "B04_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Mạch cộng hai bit nhị phân",
+      "dan_nhap": "Phép cộng hai bit trong hệ nhị phân bằng mạch lôgic:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Khi cộng hai bit 1 và 1, kết quả tổng bằng 0 và phát sinh số nhớ bằng 1.",
+          "dap_an": true,
+          "giai_thich": "Đúng (1 + 1 = 10₂)."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Bo mạch chủ trong bài Bên trong máy tính."
-      },
-      {
-        "id": "T11-B04-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Phát biểu nào đúng về AND?",
-        "lua_chon": {
-          "A": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM.",
-          "B": "Cổng AND cho đầu ra 1 khi tất cả đầu vào đều là 1.",
-          "C": "CPU thực hiện lệnh và phép tính của chương trình.",
-          "D": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể xây dựng mạch cộng hai bit bằng việc kết hợp các cổng lôgic (như XOR và AND).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Cổng AND cho đầu ra 1 khi tất cả đầu vào đều là 1."
-      },
-      {
-        "id": "T11-B04-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống: Hai tín hiệu đầu vào đều bật. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "RAM.",
-          "B": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "C": "1.",
-          "D": "CPU."
+        {
+          "ma": "c",
+          "noi_dung": "Trong mạch cộng hai bit, cổng XOR được dùng để xác định số nhớ khi hai bit đầu vào giống nhau.",
+          "dap_an": false,
+          "giai_thich": "Sai. XOR xác định bit tổng (t), còn AND xác định bit nhớ (z)."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, 1."
-      },
-      {
-        "id": "T11-B04-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về AND?",
-        "lua_chon": {
-          "A": "Hai tín hiệu đầu vào đều bật.",
-          "B": "Máy tính cần xử lí lệnh của phần mềm.",
-          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
-          "D": "Cần lưu tài liệu để mở lại sau khi tắt máy."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với AND trong bài Bên trong máy tính."
-      },
-      {
-        "id": "T11-B04-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Phát biểu nào đúng về OR và NOT?",
-        "lua_chon": {
-          "A": "OR cho 1 nếu có ít nhất một đầu vào 1; NOT đảo giá trị đầu vào.",
-          "B": "CPU thực hiện lệnh và phép tính của chương trình.",
-          "C": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
-          "D": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM."
-        },
-        "dap_an": "A",
-        "giai_thich": "OR cho 1 nếu có ít nhất một đầu vào 1; NOT đảo giá trị đầu vào."
-      },
-      {
-        "id": "T11-B04-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống: Một đầu vào OR bằng 1; sau đó đưa đầu ra 1 qua NOT. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Thiết bị lưu trữ như SSD hoặc HDD.",
-          "B": "0.",
-          "C": "CPU.",
-          "D": "RAM."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, 0."
-      },
-      {
-        "id": "T11-B04-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về OR và NOT?",
-        "lua_chon": {
-          "A": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
-          "B": "Cần lưu tài liệu để mở lại sau khi tắt máy.",
-          "C": "Một đầu vào OR bằng 1; sau đó đưa đầu ra 1 qua NOT.",
-          "D": "Máy tính cần xử lí lệnh của phần mềm."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với OR và NOT trong bài Bên trong máy tính."
-      },
-      {
-        "id": "T11-B04-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Phát biểu nào đúng về Thông số hiệu năng?",
-        "lua_chon": {
-          "A": "CPU thực hiện lệnh và phép tính của chương trình.",
-          "B": "RAM lưu tạm chương trình và dữ liệu đang được sử dụng.",
-          "C": "Ổ lưu trữ giữ dữ liệu lâu dài hơn RAM.",
-          "D": "Tốc độ CPU, dung lượng RAM và loại ổ lưu trữ ảnh hưởng hiệu năng theo những cách khác nhau."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tốc độ CPU, dung lượng RAM và loại ổ lưu trữ ảnh hưởng hiệu năng theo những cách khác nhau."
-      },
-      {
-        "id": "T11-B04-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống: Máy chậm khi mở nhiều ứng dụng cùng lúc. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tăng dung lượng RAM phù hợp.",
-          "B": "CPU.",
-          "C": "RAM.",
-          "D": "Thiết bị lưu trữ như SSD hoặc HDD."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Tăng dung lượng RAM phù hợp."
-      },
-      {
-        "id": "T11-B04-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thông số hiệu năng?",
-        "lua_chon": {
-          "A": "Máy chậm khi mở nhiều ứng dụng cùng lúc.",
-          "B": "Máy tính cần xử lí lệnh của phần mềm.",
-          "C": "Khi tắt máy, dữ liệu chưa lưu trong bộ nhớ tạm có thể mất.",
-          "D": "Cần lưu tài liệu để mở lại sau khi tắt máy."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Thông số hiệu năng trong bài Bên trong máy tính."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B04-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Xét tính đúng/sai về Bên trong máy tính:",
-        "y_kien": {
-          "a": true,
-          "b": "CPU thực hiện lệnh và phép toán.",
-          "c": "Cổng NOT đảo giá trị logic đầu vào.",
-          "d": true
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B04-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Nêu vai trò của CPU, RAM và bộ nhớ lưu trữ.",
-        "dap_an_goi_y": "CPU xử lí lệnh; RAM giữ tạm dữ liệu/chương trình đang chạy; ổ lưu trữ giữ dữ liệu lâu dài.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B04-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 4 - Bên trong máy tính",
-        "noi_dung": "Dựa vào kiến thức “CPU thực hiện lệnh và phép tính của chương trình.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Máy tính cần xử lí lệnh của phần mềm.",
-        "dap_an_goi_y": "Nêu ý kiến thức: CPU thực hiện lệnh và phép tính của chương trình. Vận dụng: CPU. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Bit tổng trong phép cộng hai bit được xác định nhờ cổng XOR, còn bit nhớ xác định nhờ cổng AND.",
+          "dap_an": true,
+          "giai_thich": "Đúng theo Hoạt động 2 trong ndc_bai_4."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_4"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B04_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Đơn vị đo tốc độ xung nhịp CPU",
+      "cau_hoi": "Tốc độ xung nhịp của CPU thường được đo bằng đơn vị viết tắt là gì?",
+      "dap_an": "GHz",
+      "dap_an_tuong_duong": [
+        "gigahertz",
+        "GHz (gigahertz)"
+      ],
+      "giai_thich": "Tần số xung nhịp CPU đo bằng GHz (tỉ chu kì/giây).",
+      "nguon": "tln_..._bai_4"
+    },
+    {
+      "id": "B04_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Bảng mạch chính",
+      "cau_hoi": "Bảng mạch chính kết nối các thành phần bên trong máy tính gọi là gì?",
+      "dap_an": "Mainboard",
+      "dap_an_tuong_duong": [
+        "Bo mạch chủ",
+        "Motherboard"
+      ],
+      "giai_thich": "Mainboard là bảng mạch chính gắn CPU, RAM, ROM và các cổng mở rộng.",
+      "nguon": "tln_..._bai_4"
+    },
+    {
+      "id": "B04_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phép toán lôgic AND",
+      "cau_hoi": "Phép toán lôgic hai ngôi nào chỉ cho kết quả bằng 1 khi cả hai đầu vào đều bằng 1?",
+      "dap_an": "AND",
+      "dap_an_tuong_duong": [
+        "and",
+        "phép AND"
+      ],
+      "giai_thich": "1 AND 1 = 1; mọi trường hợp còn lại đều bằng 0.",
+      "nguon": "tln_..._bai_4"
+    },
+    {
+      "id": "B04_TLN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đổi nhị phân sang thập phân",
+      "cau_hoi": "Đổi số nhị phân 10011 sang hệ thập phân.",
+      "dap_an": "19",
+      "dap_an_tuong_duong": [
+        "19₁₀"
+      ],
+      "giai_thich": "10011₂ = 16 + 2 + 1 = 19.",
+      "nguon": "cd1_bai_4 & ndc_bai_4"
+    },
+    {
+      "id": "B04_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Mạch cộng hai bit",
+      "cau_hoi": "Trong phép cộng hai bit x và y, phép toán lôgic nào xác định bit tổng t?",
+      "dap_an": "x XOR y",
+      "dap_an_tuong_duong": [
+        "XOR"
+      ],
+      "giai_thich": "Bit tổng t = x XOR y; bit nhớ z = x AND y.",
+      "nguon": "ndc_bai_4"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B04_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt bộ nhớ trong và bộ nhớ ngoài",
+      "cau_hoi": "Phân biệt sự khác nhau giữa bộ nhớ trong (RAM, ROM) và bộ nhớ ngoài (HDD, SSD).",
+      "goi_y_dap_an": "- Bộ nhớ trong (RAM, ROM): Gắn trực tiếp trên bảng mạch chính, tốc độ truy cập rất nhanh; RAM lưu tạm (mất khi tắt máy), ROM lưu cố định chương trình khởi động; dung lượng nhỏ hơn bộ nhớ ngoài.\n- Bộ nhớ ngoài (HDD, SSD, đĩa quang): Lưu trữ lâu dài không cần nguồn nuôi, dung lượng lớn (hàng trăm GB đến TB), giá thành trên mỗi GB rẻ hơn RAM, tốc độ truy cập chậm hơn RAM.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng đặc điểm bộ nhớ trong (1,0đ) và bộ nhớ ngoài (1,0đ).",
+      "nguon": "cd1_bai_4 & ndc_bai_4"
+    },
+    {
+      "id": "B04_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phép cộng trên hệ nhị phân",
+      "cau_hoi": "Thực hiện phép cộng hai số nhị phân 10₂ + 11₂ và 1001₂ + 1111₂ (trình bày rõ từng bước cộng và kiểm chứng bằng hệ thập phân).",
+      "goi_y_dap_an": "- Phép tính 1: 10₂ + 11₂ = 101₂ (kiểm chứng: 2 + 3 = 5).\n- Phép tính 2: 1001₂ + 1111₂ = 11000₂ (kiểm chứng: 9 + 15 = 24).",
+      "thang_diem": "Tổng 2,0 điểm: tính đúng và kiểm chứng mỗi phép cộng (1,0đ × 2 = 2,0đ).",
+      "nguon": "cd1_bai_4"
+    },
+    {
+      "id": "B04_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Cấu tạo CPU và bộ nhớ đệm Cache",
+      "cau_hoi": "Trình bày cấu tạo các thành phần của CPU và giải thích vì sao bộ nhớ đệm (Cache) cùng thiết kế nhiều lõi (multi-core) giúp cải thiện rõ rệt hiệu năng máy tính.",
+      "goi_y_dap_an": "- Cấu tạo CPU: gồm ALU (tính số học, lôgic), CU (điều phối đồng bộ), thanh ghi (register), bộ nhớ đệm (cache) và đồng hồ xung.\n- Vai trò Cache: Lưu tạm lệnh/dữ liệu hay dùng với tốc độ nhanh hơn RAM, giảm thời gian chờ của CPU.\n- Vai trò Multi-core: Nhiều lõi xử lí đồng thời nhiều luồng công việc, tăng tốc độ đa nhiệm.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đủ cấu tạo CPU (0,8đ); giải thích đúng vai trò Cache (0,6đ) và Multi-core (0,6đ).",
+      "nguon": "cd1_bai_4 & ndc_bai_4"
+    }
+  ]
 }

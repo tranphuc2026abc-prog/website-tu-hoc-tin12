@@ -1,424 +1,576 @@
 {
-  "ma_bai": "BAI_29",
-  "bai_so": 29,
+  "bai_id": "BAI_29",
   "ten_bai": "Khám phá phần mềm làm phim",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 7: Phần mềm chỉnh sửa ảnh và làm video",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd7_bai_29_kham_pha_phan_mem_lam_phim.docx",
+    "ndc_bai_29_kham_pha_phan_mem_lam_phim.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_29_kham_pha_phan_mem_lam_phim.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_29_kham_pha_phan_mem_lam_phim.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B29_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hai chế độ hiển thị ngăn tiến trình",
+      "cau_hoi": "Ngăn tiến trình (Sequence) trong phần mềm làm phim VideoPad có hai chế độ hiển thị nào?",
+      "lua_chon": {
+        "A": "Bảng và Bản ghi",
+        "B": "Lớp ảnh và Kênh màu",
+        "C": "Từ khóa và URL",
+        "D": "Phân cảnh (Storyboard) và Dòng thời gian (Timeline)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Ngăn tiến trình có hai chế độ hiển thị: Phân cảnh (Storyboard) và Dòng thời gian (Timeline).",
+      "nguon": "cd7_bai_29 & tln_..._bai_29"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B29_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Định dạng tệp dự án VideoPad",
+      "cau_hoi": "Tệp dự án làm phim của phần mềm VideoPad được lưu với phần mở rộng mặc định là gì?",
+      "lua_chon": {
+        "A": ".vpj",
+        "B": ".mp4",
+        "C": ".xcf",
+        "D": ".sql"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Dự án VideoPad lưu theo dạng `<Tên phim> <Ngày tạo>.vpj`, còn phim xuất bản thành phẩm thường là `.mp4`.",
+      "nguon": "ndc_bai_29 & tln_..._bai_29"
+    },
+    {
+      "id": "B29_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Các tab trong ngăn Tư liệu",
+      "cau_hoi": "Tại ngăn Tư liệu của VideoPad, trang `Sequences`, `Video Files`, `Audio Files`, `Images` lần lượt chứa gì?",
+      "lua_chon": {
+        "A": "Chỉ chứa phụ đề",
+        "B": "Chỉ chứa tệp văn bản",
+        "C": "Chỉ chứa hiệu ứng chuyển cảnh",
+        "D": "Chuỗi phân cảnh phim; tệp video; tệp âm thanh; tệp hình ảnh"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Ngăn Tư liệu phân loại thành các tab Sequences, Video Files, Audio Files, Images.",
+      "nguon": "cd7_bai_29"
+    },
+    {
+      "id": "B29_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính tổng thời lượng đoạn phim",
+      "cau_hoi": "Một đoạn phim có 6 phân cảnh với thời lượng lần lượt là: 7s, 3s, 3s, 3s, 2s, 8s. Tổng thời lượng của đoạn phim đó là bao nhiêu?",
+      "lua_chon": {
+        "A": "20 giây",
+        "B": "24 giây",
+        "C": "26 giây",
+        "D": "30 giây"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "7 + 3 + 3 + 3 + 2 + 8 = 26 giây.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh thêm tư liệu đầu vào",
+      "cau_hoi": "Để đưa các tệp ảnh, video clip và âm thanh từ máy tính vào ngăn Tư liệu của VideoPad, người dùng chọn nút lệnh nào?",
+      "lua_chon": {
+        "A": "`Add Files`",
+        "B": "`Export Video`",
+        "C": "`Save Project`",
+        "D": "`Single-window Mode`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nút `Add Files` cho phép nạp các tệp ảnh, âm thanh và video vào ngăn Tư liệu.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Biểu tượng thêm hiệu ứng chuyển cảnh",
+      "cau_hoi": "Trong chế độ Phân cảnh (`Storyboard`) của VideoPad, để thêm hiệu ứng chuyển cảnh giữa hai phân cảnh liền kề, ta nháy vào biểu tượng nào nằm giữa chúng?",
+      "lua_chon": {
+        "A": "Biểu tượng con mắt",
+        "B": "Biểu tượng chữ `X`",
+        "C": "Biểu tượng sợi dây xích",
+        "D": "Biểu tượng kính lúp"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nháy vào biểu tượng `X` giữa hai phân cảnh để chọn hiệu ứng chuyển cảnh (Transition).",
+      "nguon": "tln_..._bai_29"
+    },
+    {
+      "id": "B29_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Đoạn phim mở đầu và kết thúc",
+      "cau_hoi": "Trong phần mềm làm phim VideoPad, đoạn phim giới thiệu mở đầu và đoạn phim kết thúc thường được gọi lần lượt là gì?",
+      "lua_chon": {
+        "A": "`Header` và `Footer`",
+        "B": "`Intro` và `Outro`",
+        "C": "`Primary` và `Foreign`",
+        "D": "`Foreground` và `Background`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Intro` là đoạn phim mở đầu, `Outro` là đoạn phim kết thúc.",
+      "nguon": "ndc_bai_29 & tln_..._bai_29"
+    },
+    {
+      "id": "B29_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Vai trò con trỏ thời điểm",
+      "cau_hoi": "Trong giao diện VideoPad, thành phần nào dùng để xác định chính xác vị trí thời gian đang xem hoặc đang chỉnh sửa trên ngăn tiến trình?",
+      "lua_chon": {
+        "A": "Hộp thoại Brushes",
+        "B": "Thanh bảng chọn",
+        "C": "Con trỏ thời điểm (Timeline cursor)",
+        "D": "Ngăn Tư liệu"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Con trỏ thời điểm cho biết mốc thời gian hiện tại đang hiển thị ở Ngăn xem trước.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt tệp dự án .vpj và tệp xuất bản .mp4",
+      "cau_hoi": "Vì sao không thể gửi trực tiếp tệp dự án `.vpj` cho bạn bè mở xem bằng trình phát video thông thường trên điện thoại?",
+      "lua_chon": {
+        "A": "Vì `.vpj` là tệp ảnh động GIF",
+        "B": "Vì `.vpj` chỉ lưu cấu trúc dự án và đường dẫn liên kết tới các tư liệu gốc, không phải tệp video thành phẩm đã kết xuất như `.mp4`",
+        "C": "Vì `.vpj` chỉ chứa âm thanh không có hình ảnh",
+        "D": "Vì điện thoại chỉ đọc được tệp `.sql`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Muốn phát trên mọi thiết bị phải dùng `Export Video` để kết xuất ra tệp video như `.mp4`.",
+      "nguon": "ndc_bai_29 & tln_..._bai_29"
+    },
+    {
+      "id": "B29_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Sự khác biệt giữa Storyboard và Timeline",
+      "cau_hoi": "Ưu điểm nổi bật của chế độ Dòng thời gian (`Timeline`) so với chế độ Phân cảnh (`Storyboard`) trong VideoPad là gì?",
+      "lua_chon": {
+        "A": "`Storyboard` không hiển thị được ảnh tĩnh",
+        "B": "`Timeline` tự động xóa hết nhạc nền",
+        "C": "`Timeline` hiển thị nhiều lớp (`track`) hình ảnh, âm thanh, chữ đồng thời theo trục thời gian, giúp căn chỉnh khớp nhau chính xác",
+        "D": "`Timeline` không cho phép thay đổi thời lượng phân cảnh"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`Storyboard` trực quan theo thứ tự cảnh nối tiếp; `Timeline` quản lí nhiều track song song theo thời gian.",
+      "nguon": "ndc_bai_29 & cd7_bai_29"
+    },
+    {
+      "id": "B29_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Chức năng của Ngăn xem trước (Preview)",
+      "cau_hoi": "Trong VideoPad, Ngăn xem trước (`Preview`) thực hiện nhiệm vụ chính nào?",
+      "lua_chon": {
+        "A": "Quét mã vạch sản phẩm",
+        "B": "Lưu danh sách các câu lệnh SQL",
+        "C": "Cài đặt hệ điều hành mới",
+        "D": "Hiển thị hình ảnh đoạn phim hoặc đối tượng đang chọn kèm các nút điều khiển phát, tạm dừng và chỉnh sửa trực tiếp"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Ngăn xem trước giúp theo dõi tức thời kết quả dựng phim và điều khiển phát thử.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_29"
+    },
+    {
+      "id": "B29_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khái niệm lớp (Track) trong đoạn phim",
+      "cau_hoi": "Trong một đoạn phim dựng trên VideoPad, vì sao có thể vừa thấy hình ảnh, vừa thấy dòng chữ tiêu đề nổi lên trên và vừa nghe tiếng nhạc nền cùng một lúc?",
+      "lua_chon": {
+        "A": "Vì chỉ có duy nhất một lớp chứa tất cả mọi thứ từ đầu",
+        "B": "Vì phần mềm làm phim cho phép xếp chồng nhiều lớp (lớp hình ảnh, lớp chữ, lớp âm thanh) chạy đồng thời theo thời gian",
+        "C": "Vì máy tính tự động phát ngẫu nhiên",
+        "D": "Vì phải dùng 3 máy tính chạy song song"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Cấu trúc đa lớp (Video Track, Audio Track) cho phép kết hợp đồng thời nhiều thành phần đa phương tiện.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Sử dụng công cụ Video Wizard cho người mới",
+      "cau_hoi": "Công cụ `Video Wizard` trong VideoPad hỗ trợ người dùng mới ở điểm nào?",
+      "lua_chon": {
+        "A": "Cung cấp các mẫu dựng phim có sẵn (chủ đề, Intro, Outro, nhạc mẫu) để tạo nhanh đoạn phim từ ảnh và video",
+        "B": "Tự động quay phim bằng camera từ xa",
+        "C": "Tạo cơ sở dữ liệu quan hệ",
+        "D": "Chỉ dùng để cắt ảnh tĩnh"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`Video Wizard` hướng dẫn từng bước chọn mẫu, thêm tư liệu, nhạc nền để dựng nhanh một đoạn phim hoàn chỉnh.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thay đổi thứ tự phân cảnh trên Storyboard",
+      "cau_hoi": "Khi đã đưa 4 ảnh hoạt động của lớp vào ngăn tiến trình nhưng thấy ảnh số 3 bị xếp trước ảnh số 2, thao tác nhanh nhất để đổi lại đúng thứ tự là gì?",
+      "lua_chon": {
+        "A": "Đổi tên tệp dự án `.vpj`",
+        "B": "Xóa toàn bộ dự án rồi làm lại từ đầu",
+        "C": "Xuất ra `.mp4` trước rồi mới đổi thứ tự",
+        "D": "Kéo thả phân cảnh ảnh số 2 đặt lên trước phân cảnh ảnh số 3 trực tiếp trên ngăn tiến trình"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Ngăn tiến trình cho phép kéo thả sắp xếp lại vị trí các phân cảnh dễ dàng.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_29"
+    },
+    {
+      "id": "B29_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính thời lượng còn lại cho các phân cảnh ảnh",
+      "cau_hoi": "Một đoạn phim giới thiệu trường học dự kiến dài đúng 30 giây, gồm: `Intro` dài 5 giây, `Outro` dài 5 giây và 4 ảnh hoạt động có thời lượng bằng nhau ở giữa. Mỗi ảnh hoạt động cần đặt thời lượng bao nhiêu giây?",
+      "lua_chon": {
+        "A": "7,5 giây",
+        "B": "4 giây",
+        "C": "6 giây",
+        "D": "5 giây"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Thời lượng 4 ảnh = 30 - (5 + 5) = 20 giây -> mỗi ảnh = 20 / 4 = 5 giây.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chọn tùy chọn nhạc nền khi tạo phim",
+      "cau_hoi": "Khi dùng `Video Wizard` tạo đoạn phim kỉ niệm lớp, muốn sử dụng một bài hát truyền thống của trường đã tải sẵn trên máy tính thay vì nhạc mẫu có sẵn, ở bước chọn âm thanh ta chọn mục nào?",
+      "lua_chon": {
+        "A": "Chọn không nhạc nền (No music)",
+        "B": "Chọn nhạc từ máy tính (Browse/Add audio file từ ổ đĩa)",
+        "C": "Chọn mở trong GIMP",
+        "D": "Chọn lưu `.vpj`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "VideoPad cho phép chọn nhạc mẫu, nạp tệp nhạc từ máy tính hoặc không dùng nhạc.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xuất bản phim sang định dạng MP4",
+      "cau_hoi": "Sau khi xem trước đoạn phim trong ngăn `Preview` thấy đạt yêu cầu, để xuất ra tệp video `.mp4` nộp cho giáo viên qua Google Drive, ta chọn lệnh nào?",
+      "lua_chon": {
+        "A": "`Export Video` (chọn định dạng `.mp4`, độ phân giải phù hợp rồi nhấn `Create`)",
+        "B": "`Save Project File As` (`.vpj`)",
+        "C": "`Add Files`",
+        "D": "`Windows -> Single-window Mode`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`Export Video` kết xuất dự án thành tệp video hoàn chỉnh `.mp4`.",
+      "nguon": "tln_..._bai_29 & ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định mốc thời gian bắt đầu của phân cảnh",
+      "cau_hoi": "Một đoạn phim có `Intro` (0s–4s), Ảnh 1 (dài 5s), Ảnh 2 (dài 6s) nối tiếp liên tục không chồng lấn. Khi đưa con trỏ thời điểm tới giây thứ `10` để xem trước, màn hình `Preview` đang hiển thị phân cảnh nào?",
+      "lua_chon": {
+        "A": "Ảnh 1 (từ giây 4 đến giây 9)",
+        "B": "`Intro` (từ giây 0 đến giây 4)",
+        "C": "Ảnh 2 (từ giây 9 đến giây 15)",
+        "D": "Đoạn `Outro` cuối phim"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Intro: [0, 4s]; Ảnh 1: [4, 9s]; Ảnh 2: [9, 15s]. Giây thứ 10 nằm trong khoảng của Ảnh 2.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí lỗi mất tư liệu khi mở tệp dự án .vpj trên máy khác",
+      "cau_hoi": "Bạn Nam lưu dự án làm phim thành tệp `KyYeu.vpj` trên máy tính ở nhà, rồi chỉ chép duy nhất tệp `KyYeu.vpj` đó vào USB mang lên lớp mở bằng VideoPad nhưng phần mềm báo lỗi thiếu ảnh và video (`Missing files`). Nguyên nhân và cách khắc phục là gì?",
+      "lua_chon": {
+        "A": "Do máy tính ở lớp chưa cài GIMP",
+        "B": "Do tệp `.vpj` bị nhiễm virus",
+        "C": "Tệp `.vpj` chỉ lưu đường dẫn tham chiếu tới tư liệu gốc chứ không nhúng tệp ảnh/video bên trong; cần chép kèm toàn bộ thư mục chứa ảnh, video, âm thanh gốc (hoặc dùng tính năng `Backup Project Files to Folder`)",
+        "D": "Chỉ cần đổi đuôi `.vpj` thành `.mp4`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Tệp dự án `.vpj` chỉ lưu cấu trúc và liên kết tới tệp nguồn; muốn chuyển máy phải mang theo cả bộ tư liệu gốc.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Lập kế hoạch dựng phim ngắn chuẩn quy trình",
+      "cau_hoi": "Nhóm học sinh được giao làm video 1 phút giới thiệu ngày hội STEM của trường. Trình tự 4 bước chuẩn khoa học nhất từ đầu đến khi có sản phẩm trình chiếu là gì?",
+      "lua_chon": {
+        "A": "Xây dựng kịch bản & thu thập ảnh/clip/nhạc -> Nạp tư liệu & sắp xếp phân cảnh/Intro/Outro -> Thêm chuyển cảnh, căn chỉnh thời lượng & xem trước -> Lưu dự án (`.vpj`) và xuất bản video (`.mp4`)",
+        "B": "Xuất bản `.mp4` trước -> Viết kịch bản -> Thu thập ảnh",
+        "C": "Chỉ chèn hiệu ứng chuyển cảnh mà không cần ảnh tư liệu",
+        "D": "Lưu `.xcf` rồi đổi tên thành `.mp4`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Quy trình chuẩn gồm 4 giai đoạn: Kịch bản/Tư liệu -> Dựng phân cảnh -> Hiệu ứng/Kiểm tra -> Lưu dự án & Xuất bản.",
+      "nguon": "ndc_bai_29 & cd7_bai_29"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B29-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Khu vực nào dùng để sắp xếp clip theo thời gian?",
-        "lua_chon": {
-          "A": "Dòng thời gian",
-          "B": "Bảng màu",
-          "C": "Bảng dữ liệu",
-          "D": "Cửa sổ đăng nhập"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B29_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tính năng cơ bản của phần mềm làm phim",
+      "dan_nhap": "Các tính năng cơ bản của phần mềm làm phim:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Cho phép tạo các phân cảnh phim từ ảnh, video clip, âm thanh và thiết lập thời lượng mỗi phân cảnh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Đáp án đúng vì Dòng thời gian; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B29-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Phát biểu nào đúng về Dòng thời gian?",
-        "lua_chon": {
-          "A": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
-          "B": "Clip là đoạn tư liệu được sử dụng trong trình dựng.",
-          "C": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
-          "D": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng."
+        {
+          "ma": "b",
+          "noi_dung": "Người dùng chỉ chỉnh sửa được âm thanh chứ không thay đổi được hình ảnh trong đoạn phim.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "C",
-        "giai_thich": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng."
-      },
-      {
-        "id": "T11-B29-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống: Muốn đặt cảnh mở đầu trước cảnh kết thúc. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Import/nhập tệp tư liệu.",
-          "B": "Tệp dự án cùng tư liệu được quản lí.",
-          "C": "Clip trên dòng thời gian.",
-          "D": "Dòng thời gian."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể thêm hiệu ứng chuyển cảnh và lồng tiếng/nhạc nền để đoạn phim phong phú hơn.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Dòng thời gian."
-      },
-      {
-        "id": "T11-B29-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Dòng thời gian?",
-        "lua_chon": {
-          "A": "Cần dùng clip từ máy tính.",
-          "B": "Cần tiếp tục chỉnh sửa sau này.",
-          "C": "Muốn bỏ vài giây đầu của cảnh quay.",
-          "D": "Muốn đặt cảnh mở đầu trước cảnh kết thúc."
+        {
+          "ma": "d",
+          "noi_dung": "Phần mềm làm phim không hỗ trợ thay đổi thứ tự hay thời gian của phân cảnh.",
+          "dap_an": false,
+          "giai_thich": "Sai."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_29"
+    },
+    {
+      "id": "B29_DS_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Bố cục giao diện chính của VideoPad",
+      "dan_nhap": "Bố cục giao diện chính của phần mềm làm phim:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Ngăn tư liệu chứa các tệp ảnh, video clip và âm thanh đầu vào.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Dòng thời gian trong bài Khám phá phần mềm làm phim."
-      },
-      {
-        "id": "T11-B29-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Phát biểu nào đúng về Nhập tư liệu?",
-        "lua_chon": {
-          "A": "Clip là đoạn tư liệu được sử dụng trong trình dựng.",
-          "B": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
-          "C": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
-          "D": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu."
+        {
+          "ma": "b",
+          "noi_dung": "Thanh công cụ cung cấp các nút lệnh thiết lập tính năng và thao tác chỉnh sửa phim.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng."
-      },
-      {
-        "id": "T11-B29-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống: Cần dùng clip từ máy tính. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tệp dự án cùng tư liệu được quản lí.",
-          "B": "Clip trên dòng thời gian.",
-          "C": "Import/nhập tệp tư liệu.",
-          "D": "Dòng thời gian."
+        {
+          "ma": "c",
+          "noi_dung": "Ngăn xem trước không bao giờ có nút điều khiển phát/tạm dừng hay chỉnh sửa đối tượng đang xem.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Import/nhập tệp tư liệu."
-      },
-      {
-        "id": "T11-B29-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Nhập tư liệu?",
-        "lua_chon": {
-          "A": "Muốn bỏ vài giây đầu của cảnh quay.",
-          "B": "Cần dùng clip từ máy tính.",
-          "C": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
-          "D": "Cần tiếp tục chỉnh sửa sau này."
+        {
+          "ma": "d",
+          "noi_dung": "Ngăn tiến trình giúp theo dõi, quản lí trình tự các phân cảnh và các lớp (track) của phim.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_29 & ndc_bai_29"
+    },
+    {
+      "id": "B29_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt chế độ Storyboard và Timeline",
+      "dan_nhap": "Nhận định về hai chế độ hiển thị của Ngăn tiến trình (`Sequence`) trong VideoPad:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Chế độ Phân cảnh (`Storyboard`) hiển thị các ảnh/clip nối tiếp nhau theo trình tự trước sau.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Nhập tư liệu trong bài Khám phá phần mềm làm phim."
-      },
-      {
-        "id": "T11-B29-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Phát biểu nào đúng về Tệp dự án?",
-        "lua_chon": {
-          "A": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
-          "B": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
-          "C": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
-          "D": "Clip là đoạn tư liệu được sử dụng trong trình dựng."
+        {
+          "ma": "b",
+          "noi_dung": "Chế độ Dòng thời gian (`Timeline`) hiển thị các lớp băng hình, băng tiếng và chữ theo trục thời gian.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu."
-      },
-      {
-        "id": "T11-B29-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống: Cần tiếp tục chỉnh sửa sau này. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Clip trên dòng thời gian.",
-          "B": "Tệp dự án cùng tư liệu được quản lí.",
-          "C": "Dòng thời gian.",
-          "D": "Import/nhập tệp tư liệu."
+        {
+          "ma": "c",
+          "noi_dung": "Biểu tượng chữ `X` giữa hai phân cảnh ở chế độ `Storyboard` dùng để xóa bỏ cả hai phân cảnh.",
+          "dap_an": false,
+          "giai_thich": "Sai. Biểu tượng `X` dùng để chèn hiệu ứng chuyển cảnh."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Tệp dự án cùng tư liệu được quản lí."
-      },
-      {
-        "id": "T11-B29-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tệp dự án?",
-        "lua_chon": {
-          "A": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
-          "B": "Cần dùng clip từ máy tính.",
-          "C": "Muốn bỏ vài giây đầu của cảnh quay.",
-          "D": "Cần tiếp tục chỉnh sửa sau này."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể chuyển đổi qua lại giữa `Storyboard` và `Timeline` trong cùng một dự án.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "cd7_bai_29 & ndc_bai_29"
+    },
+    {
+      "id": "B29_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lưu dự án và xuất bản video",
+      "dan_nhap": "Một học sinh hoàn thành dựng đoạn phim giới thiệu trường học trên VideoPad:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Lưu dự án tạo ra tệp có phần mở rộng `.vpj` để sau này mở lại chỉnh sửa tiếp.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Tệp dự án trong bài Khám phá phần mềm làm phim."
-      },
-      {
-        "id": "T11-B29-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Phát biểu nào đúng về Clip?",
-        "lua_chon": {
-          "A": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
-          "B": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
-          "C": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
-          "D": "Clip là đoạn tư liệu được sử dụng trong trình dựng."
+        {
+          "ma": "b",
+          "noi_dung": "Lệnh `Export Video` cho phép xuất đoạn phim thành tệp `.mp4` để phát trên máy tính và điện thoại.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Clip là đoạn tư liệu được sử dụng trong trình dựng."
-      },
-      {
-        "id": "T11-B29-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống: Muốn bỏ vài giây đầu của cảnh quay. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Clip trên dòng thời gian.",
-          "B": "Dòng thời gian.",
-          "C": "Import/nhập tệp tư liệu.",
-          "D": "Tệp dự án cùng tư liệu được quản lí."
+        {
+          "ma": "c",
+          "noi_dung": "Chỉ cần đổi tên tệp `.vpj` thành `.mp4` là có thể tải lên YouTube phát ngay.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tệp `.vpj` không chứa dữ liệu video đã kết xuất."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Clip trên dòng thời gian."
-      },
-      {
-        "id": "T11-B29-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Clip?",
-        "lua_chon": {
-          "A": "Cần tiếp tục chỉnh sửa sau này.",
-          "B": "Muốn bỏ vài giây đầu của cảnh quay.",
-          "C": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
-          "D": "Cần dùng clip từ máy tính."
+        {
+          "ma": "d",
+          "noi_dung": "Tổng thời lượng đoạn phim bằng tổng thời lượng của các phân cảnh nối tiếp nhau.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tổ chức tư liệu và Intro/Outro",
+      "dan_nhap": "Nhận định về ngăn Tư liệu và cấu trúc đoạn phim cơ bản trong VideoPad:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Ngăn Tư liệu tự động phân loại tệp đầu vào theo các tab `Sequences`, `Video Files`, `Audio Files`, `Images`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Clip trong bài Khám phá phần mềm làm phim."
-      },
-      {
-        "id": "T11-B29-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Phát biểu nào đúng về Xem trước?",
-        "lua_chon": {
-          "A": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
-          "B": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
-          "C": "Cửa sổ xem trước cho biết kết quả dựng ở thời điểm hiện tại.",
-          "D": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng."
+        {
+          "ma": "b",
+          "noi_dung": "Đoạn phim có thể bổ sung `Intro` ở đầu và `Outro` ở cuối để tăng tính chuyên nghiệp.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Cửa sổ xem trước cho biết kết quả dựng ở thời điểm hiện tại."
-      },
-      {
-        "id": "T11-B29-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống: Cần kiểm tra cảnh và tiếng trước khi xuất. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Dòng thời gian.",
-          "B": "Import/nhập tệp tư liệu.",
-          "C": "Tệp dự án cùng tư liệu được quản lí.",
-          "D": "Phát thử ở cửa sổ xem trước."
+        {
+          "ma": "c",
+          "noi_dung": "Nhạc nền có thể chọn từ kho nhạc mẫu có sẵn hoặc nạp tệp âm thanh từ máy tính.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Phát thử ở cửa sổ xem trước."
-      },
-      {
-        "id": "T11-B29-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Xem trước?",
-        "lua_chon": {
-          "A": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
-          "B": "Cần dùng clip từ máy tính.",
-          "C": "Cần tiếp tục chỉnh sửa sau này.",
-          "D": "Cần kiểm tra cảnh và tiếng trước khi xuất."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Xem trước trong bài Khám phá phần mềm làm phim."
-      },
-      {
-        "id": "T11-B29-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Phát biểu nào đúng về Tư liệu hợp pháp?",
-        "lua_chon": {
-          "A": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu.",
-          "B": "Cần tôn trọng giấy phép và bản quyền ảnh, video, nhạc.",
-          "C": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
-          "D": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng."
-        },
-        "dap_an": "B",
-        "giai_thich": "Cần tôn trọng giấy phép và bản quyền ảnh, video, nhạc."
-      },
-      {
-        "id": "T11-B29-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống: Tìm nhạc nền để làm bài học. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Import/nhập tệp tư liệu.",
-          "B": "Tệp dự án cùng tư liệu được quản lí.",
-          "C": "Tư liệu tự tạo hoặc được phép sử dụng.",
-          "D": "Dòng thời gian."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Tư liệu tự tạo hoặc được phép sử dụng."
-      },
-      {
-        "id": "T11-B29-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tư liệu hợp pháp?",
-        "lua_chon": {
-          "A": "Cần tiếp tục chỉnh sửa sau này.",
-          "B": "Tìm nhạc nền để làm bài học.",
-          "C": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
-          "D": "Cần dùng clip từ máy tính."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Tư liệu hợp pháp trong bài Khám phá phần mềm làm phim."
-      },
-      {
-        "id": "T11-B29-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Phát biểu nào đúng về Xuất video?",
-        "lua_chon": {
-          "A": "Xuất video tạo tệp phát được từ dự án dựng.",
-          "B": "Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.",
-          "C": "Ảnh, video và âm thanh cần được nhập vào dự án trước khi dựng.",
-          "D": "Tệp dự án thường lưu cấu trúc biên tập và liên kết tư liệu."
-        },
-        "dap_an": "A",
-        "giai_thich": "Xuất video tạo tệp phát được từ dự án dựng."
-      },
-      {
-        "id": "T11-B29-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống: Dự án đã sắp xếp xong và muốn gửi cho người khác. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tệp dự án cùng tư liệu được quản lí.",
-          "B": "Render/export với định dạng phù hợp.",
-          "C": "Dòng thời gian.",
-          "D": "Import/nhập tệp tư liệu."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Render/export với định dạng phù hợp."
-      },
-      {
-        "id": "T11-B29-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Xuất video?",
-        "lua_chon": {
-          "A": "Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
-          "B": "Cần dùng clip từ máy tính.",
-          "C": "Cần tiếp tục chỉnh sửa sau này.",
-          "D": "Dự án đã sắp xếp xong và muốn gửi cho người khác."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Xuất video trong bài Khám phá phần mềm làm phim."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B29-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Xét tính đúng/sai về Khám phá phần mềm làm phim:",
-        "y_kien": {
-          "a": "Có thể nhập ảnh và video vào dự án phim.",
-          "b": "Cần kiểm tra định dạng tư liệu có tương thích không.",
-          "c": true,
-          "d": true
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B29-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Nêu quy trình tạo phim ngắn từ ảnh và video.",
-        "dap_an_goi_y": "Tạo dự án, nhập tư liệu phù hợp, sắp xếp/cắt clip trên dòng thời gian, thêm tiêu đề hoặc âm thanh, xem trước và xuất.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B29-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 29 - Khám phá phần mềm làm phim",
-        "noi_dung": "Dựa vào kiến thức “Dòng thời gian sắp xếp clip theo thứ tự và thời lượng.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Muốn đặt cảnh mở đầu trước cảnh kết thúc.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Dòng thời gian sắp xếp clip theo thứ tự và thời lượng. Vận dụng: Dòng thời gian. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Trong VideoPad, tệp hình ảnh đưa vào sẽ nằm ở tab `Audio Files`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tệp hình ảnh nằm ở tab `Images`."
+        }
+      ],
+      "nguon": "cd7_bai_29 & ndc_bai_29"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B29_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh xuất bản video",
+      "cau_hoi": "Lệnh dùng để xuất bản đoạn phim thành tệp video hoàn chỉnh trong VideoPad là gì?",
+      "dap_an": "Export Video",
+      "dap_an_tuong_duong": [
+        "export video"
+      ],
+      "giai_thich": "Lệnh Export Video kết xuất dự án thành tệp video (.mp4...).",
+      "nguon": "tln_..._bai_29"
+    },
+    {
+      "id": "B29_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tên đoạn mở đầu và kết thúc",
+      "cau_hoi": "Tên gọi của đoạn phim mở đầu và đoạn phim kết thúc trong VideoPad lần lượt là gì?",
+      "dap_an": "Intro và Outro",
+      "dap_an_tuong_duong": [
+        "Intro, Outro"
+      ],
+      "giai_thich": "Intro là đoạn mở đầu, Outro là đoạn kết thúc phim.",
+      "nguon": "ndc_bai_29 & tln_..._bai_29"
+    },
+    {
+      "id": "B29_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Biểu tượng thêm chuyển cảnh",
+      "cau_hoi": "Để thêm hiệu ứng chuyển cảnh giữa hai phân cảnh trong chế độ Storyboard, ta nháy vào biểu tượng chữ gì nằm giữa chúng?",
+      "dap_an": "Dấu X",
+      "dap_an_tuong_duong": [
+        "X",
+        "Chữ X",
+        "biểu tượng X"
+      ],
+      "giai_thich": "Biểu tượng chữ X nằm giữa hai phân cảnh mở bảng chọn hiệu ứng chuyển cảnh.",
+      "nguon": "tln_..._bai_29"
+    },
+    {
+      "id": "B29_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phần mở rộng tệp dự án VideoPad",
+      "cau_hoi": "Phần mở rộng mặc định của tệp dự án làm phim trong VideoPad là gì?",
+      "dap_an": ".vpj",
+      "dap_an_tuong_duong": [
+        "vpj",
+        "VPJ"
+      ],
+      "giai_thich": "Tệp dự án VideoPad có đuôi .vpj.",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tính tổng thời lượng đoạn phim",
+      "cau_hoi": "Một đoạn phim gồm Intro (4s), 3 ảnh hoạt động (mỗi ảnh 5s) và Outro (4s). Tổng thời lượng đoạn phim là bao nhiêu giây?",
+      "dap_an": "23",
+      "dap_an_tuong_duong": [
+        "23 giây",
+        "23s"
+      ],
+      "giai_thich": "4 + 3×5 + 4 = 23 giây.",
+      "nguon": "ndc_bai_29"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B29_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Năm thành phần giao diện VideoPad",
+      "cau_hoi": "Nêu tên và chức năng của 5 thành phần chính trong giao diện phần mềm làm phim (VideoPad).",
+      "goi_y_dap_an": "1) Thanh công cụ: Chứa nút lệnh thiết lập, chỉnh sửa.\n2) Ngăn tư liệu: Chứa tệp ảnh, video, âm thanh.\n3) Ngăn xem trước: Hiển thị đoạn phim và lệnh điều khiển đối tượng đang xem.\n4) Con trỏ thời điểm: Xác định vị trí thời gian đang chỉnh sửa.\n5) Ngăn tiến trình: Quản lí trình tự phân cảnh (Storyboard) và các lớp theo trục thời gian (Timeline).",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng tên và chức năng 5 thành phần (0,4đ × 5 = 2,0đ).",
+      "nguon": "ndc_bai_29"
+    },
+    {
+      "id": "B29_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phân biệt lưu dự án và xuất bản video",
+      "cau_hoi": "Phân biệt sự khác nhau giữa lưu dự án (`.vpj`) và xuất bản phim (`Export Video` ra `.mp4`).",
+      "goi_y_dap_an": "- Lưu dự án (`.vpj`): Lưu cấu trúc các phân cảnh, lớp, hiệu ứng và liên kết tư liệu để tiếp tục chỉnh sửa sau này.\n- Xuất bản phim (`.mp4`): Kết xuất toàn bộ thành một tệp video hoàn chỉnh để chia sẻ và trình chiếu trên các thiết bị.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng bản chất và mục đích của tệp `.vpj` (1,0đ) và tệp `.mp4` (1,0đ).",
+      "nguon": "ndc_bai_29 & tln_..._bai_29"
+    },
+    {
+      "id": "B29_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế kịch bản phân cảnh và tính thời lượng phim",
+      "cau_hoi": "Hãy thiết kế sơ đồ kịch bản cho một đoạn phim dài đúng 25 giây giới thiệu thư viện trường học (gồm `Intro`, ít nhất 3 phân cảnh ảnh/clip, `Outro` và nhạc nền), ghi rõ thời lượng từng phân cảnh và cách chèn hiệu ứng chuyển cảnh trong VideoPad.",
+      "goi_y_dap_an": "- Kịch bản gợi ý (tổng 25s): `Intro` (4s: Tên phim) -> Cảnh 1 (6s: Toàn cảnh thư viện) -> Cảnh 2 (6s: Khu vực đọc sách) -> Cảnh 3 (5s: Góc tra cứu máy tính) -> `Outro` (4s: Lời cảm ơn). Tổng = 4 + 6 + 6 + 5 + 4 = 25 giây.\n- Nhạc nền: Nạp tệp nhạc vào tab `Audio Files` và kéo xuống lớp âm thanh.\n- Chuyển cảnh: Chuyển sang chế độ `Storyboard`, nháy vào biểu tượng `X` giữa các phân cảnh để chọn hiệu ứng chuyển cảnh phù hợp.",
+      "thang_diem": "Tổng 2,0 điểm: kịch bản đủ thành phần và tổng thời lượng đúng 25s (1,2đ), nêu đúng cách thêm nhạc nền và chuyển cảnh (0,8đ).",
+      "nguon": "ndc_bai_29 & cd7_bai_29"
+    }
+  ]
 }

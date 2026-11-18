@@ -1,424 +1,572 @@
 {
-  "ma_bai": "BAI_31",
-  "bai_so": 31,
+  "bai_id": "BAI_31",
   "ten_bai": "Thực hành tạo phim hoạt hình",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 7: Phần mềm chỉnh sửa ảnh và làm video",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "kenhgiaovien_31_thuc_hanh_tao_phim.docx",
+    "ndc_bai_31_thuc_hanh_tao_phim_hoat_hinh.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B31_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Bước đầu tiên khi tạo phim hoạt hình",
+      "cau_hoi": "Bước đầu tiên cần thực hiện khi bắt tay vào làm một đoạn phim hoạt hình từ ảnh là gì?",
+      "lua_chon": {
+        "A": "Xuất bản ngay tệp .mp4",
+        "B": "Xóa toàn bộ âm thanh",
+        "C": "Xây dựng kịch bản khả thi và chuẩn bị đầy đủ các tư liệu (ảnh bối cảnh, nhân vật, bóng thoại)",
+        "D": "Cài đặt lại MySQL"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Nhiệm vụ 1 là xây dựng kịch bản phù hợp với tính năng phần mềm và chuẩn bị toàn bộ ảnh tư liệu.",
+      "nguon": "kenhgiaovien_31 & ndc_bai_31"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B31_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh ghi âm lời thoại Record Narration",
+      "cau_hoi": "Trong phần mềm VideoPad, để ghi âm trực tiếp lời thoại nhân vật cho phim hoạt hình, ta vào dải lệnh nào?",
+      "lua_chon": {
+        "A": "Select -> All",
+        "B": "File -> Export As -> GIF",
+        "C": "Colors -> Hue-Saturation",
+        "D": "Home -> Record -> Record Narration"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Chọn dải lệnh `Home -> Record -> Record Narration` để mở hộp thoại ghi âm lời thoại.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nơi lưu tệp âm thanh sau khi ghi âm",
+      "cau_hoi": "Sau khi kết thúc ghi âm lời thoại trong hộp thoại `Record Narration`, tệp âm thanh vừa ghi sẽ được tự động lưu vào đâu?",
+      "lua_chon": {
+        "A": "Bị xóa ngay lập tức",
+        "B": "Vào thùng rác Recycle Bin",
+        "C": "Lên Google Drive",
+        "D": "Vào ngăn Tư liệu với tên đã đặt trong hộp thoại"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Đoạn ghi âm được lưu lại trong ngăn Tư liệu theo tên đã đặt trong `Record Narration`.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Khớp thời lượng phân cảnh với lời thoại",
+      "cau_hoi": "Nếu lời thoại vừa ghi âm dài hơn thời lượng của phân cảnh tương ứng, người dựng phim nên xử lí như thế nào?",
+      "lua_chon": {
+        "A": "Chuyển sang ngăn `Timeline`, kéo thay đổi độ rộng băng hình phân cảnh để căn chỉnh thời lượng khớp với lời thoại",
+        "B": "Xóa toàn bộ dự án làm lại",
+        "C": "Tắt micro vĩnh viễn",
+        "D": "Bỏ luôn lời thoại"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Căn chỉnh độ rộng băng hình phân cảnh trên ngăn `Timeline` và kiểm tra lại tại ngăn `Preview` cho tới khi khớp.",
+      "nguon": "kenhgiaovien_31 & ndc_bai_31"
+    },
+    {
+      "id": "B31_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ba cột nội dung chính trong bảng kịch bản",
+      "cau_hoi": "Khi lập bảng kịch bản chi tiết cho từng phân cảnh phim hoạt hình từ ảnh, ba nội dung cốt lõi cần có là gì?",
+      "lua_chon": {
+        "A": "Khóa chính, Khóa ngoài, Kiểu dữ liệu",
+        "B": "Hình ảnh, Lời thoại/Âm thanh, Phụ đề",
+        "C": "CPU, RAM, ROM",
+        "D": "Tỉ lệ nén, DPI, Megapixel"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Bảng kịch bản phân cảnh gồm: Hình ảnh, Lời thoại/Âm thanh và Phụ đề.",
+      "nguon": "kenhgiaovien_31 & ndc_bai_31"
+    },
+    {
+      "id": "B31_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phần mềm thiết kế ảnh nhân vật và bóng thoại",
+      "cau_hoi": "Ngoài GIMP, phần mềm quen thuộc nào thường được gợi ý dùng để vẽ nhanh bối cảnh, ghép nhân vật và thêm bóng thoại thành tệp ảnh cho phim hoạt hình?",
+      "lua_chon": {
+        "A": "HeidiSQL",
+        "B": "MySQL",
+        "C": "PowerPoint",
+        "D": "Notepad"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Học sinh có thể dùng PowerPoint hoặc phần mềm đồ họa (GIMP) để thiết kế từng khung ảnh phân cảnh.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tính năng Video Wizard trong tạo phim hoạt hình",
+      "cau_hoi": "Để dựng nhanh khung sườn đoạn phim hoạt hình theo mẫu có sẵn ở Nhiệm vụ 2, ta có thể dùng công cụ nào của VideoPad?",
+      "lua_chon": {
+        "A": "`Single-window Mode`",
+        "B": "`Add Alpha Channel`",
+        "C": "`Foreign keys`",
+        "D": "`Video Wizard`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "`Video Wizard` giúp chọn mẫu sẵn, đưa ảnh vào và tạo nhanh đoạn phim ban đầu.",
+      "nguon": "ndc_bai_31"
+    },
+    {
+      "id": "B31_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tùy chọn dừng ghi âm At the end of sequence",
+      "cau_hoi": "Trong hộp thoại `Record Narration`, tùy chọn `At the end of sequence` có ý nghĩa gì?",
+      "lua_chon": {
+        "A": "Tự động dừng ghi âm khi con trỏ chạy tới cuối đoạn phim",
+        "B": "Xóa toàn bộ đoạn phim sau khi ghi âm",
+        "C": "Tự động xuất phim sang `.gif`",
+        "D": "Chuyển đổi giọng nói thành văn bản"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`At the end of sequence` dừng ghi âm tại thời điểm kết thúc chuỗi phân cảnh.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lý do cần chuẩn bị đủ ảnh tư liệu trước khi dựng",
+      "cau_hoi": "Vì sao ở Nhiệm vụ 1 cần hoàn thiện đầy đủ ảnh bối cảnh, nhân vật, bóng thoại trước khi mở VideoPad dựng phim?",
+      "lua_chon": {
+        "A": "Vì ảnh tạo sau sẽ không có màu sắc",
+        "B": "Vì VideoPad không cho phép thêm ảnh sau khi đã mở",
+        "C": "Để đảm bảo tính liền mạch câu chuyện, tránh phải sửa đi sửa lại kịch bản và thời lượng khi đang dựng trên Timeline",
+        "D": "Vì VideoPad chỉ nhận tối đa 2 ảnh"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chuẩn bị đủ tư liệu theo kịch bản giúp quá trình dựng phim nhanh, nhất quán và ít lỗi.",
+      "nguon": "ndc_bai_31"
+    },
+    {
+      "id": "B31_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Điều kiện phần cứng để ghi âm hội thoại",
+      "cau_hoi": "Khi thực hành Nhiệm vụ 3 (ghi âm lời thoại nhân vật bằng `Record Narration`) trên máy tính để bàn ở phòng tin học, thiết bị nào bắt buộc phải có và hoạt động?",
+      "lua_chon": {
+        "A": "Micro (gắn qua cổng âm thanh/USB hoặc tích hợp trên tai nghe)",
+        "B": "Máy in laser",
+        "C": "Máy quét mã vạch",
+        "D": "Đĩa quang DVD"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Cần có micro để thu giọng đọc của học sinh vào phần mềm.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Vai trò của việc tạm dừng (Pause) khi ghi âm",
+      "cau_hoi": "Trong lúc ghi âm đoạn hội thoại dài giữa hai nhân vật bằng `Record Narration`, nút `Pause` giúp ích gì cho người thực hiện?",
+      "lua_chon": {
+        "A": "Cho phép tạm dừng giữa chừng để lấy hơi hoặc đổi người đọc thoại rồi ghi tiếp vào cùng tệp âm thanh",
+        "B": "Xóa bỏ tệp âm thanh đang ghi",
+        "C": "Tắt nguồn máy tính",
+        "D": "Đổi tên dự án `.vpj`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Tính năng tạm dừng/tiếp tục giúp phân đoạn đọc thoại tự nhiên mà không cần ghép nhiều tệp rời.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kiểm tra đồng bộ tại ngăn Preview",
+      "cau_hoi": "Sau khi kéo dãn băng hình phân cảnh trên `Timeline` để khớp với lời thoại, bước kiểm tra bắt buộc trước khi xuất bản là gì?",
+      "lua_chon": {
+        "A": "Đóng ngay VideoPad mà không cần xem lại",
+        "B": "Phát thử toàn bộ đoạn phim tại ngăn `Preview` để kiểm tra hình ảnh, lời thoại và phụ đề đã đồng bộ chưa",
+        "C": "Xóa hết các phân cảnh đầu",
+        "D": "Tắt tiếng loa"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Ngăn `Preview` giúp phát hiện sớm đoạn nào thoại nhanh hơn hình hoặc phụ đề bị lệch.",
+      "nguon": "ndc_bai_31 & kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Độ dài phù hợp cho bài thực hành phim hoạt hình",
+      "cau_hoi": "Khi tự thiết kế đoạn phim hoạt hình theo chủ đề bảo vệ môi trường hoặc văn hóa ứng xử ở phần Vận dụng, thời lượng khuyến nghị thường là bao nhiêu?",
+      "lua_chon": {
+        "A": "Trên 2 tiếng như phim điện ảnh",
+        "B": "Ngắn gọn dưới 3 phút để đảm bảo nội dung cô đọng và dung lượng xử lí vừa phải",
+        "C": "Chỉ đúng 1 giây",
+        "D": "Không giới hạn, tối thiểu 60 phút"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Thời lượng dưới 3 phút phù hợp với năng lực thiết kế ảnh tư liệu và thời gian thực hành trên lớp.",
+      "nguon": "ndc_bai_31"
+    },
+    {
+      "id": "B31_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo chuyển động nhân vật đơn giản từ ảnh tĩnh",
+      "cau_hoi": "Làm thế nào để tạo cảm giác hai nhân vật đang trò chuyện và di chuyển vị trí qua từng câu thoại trong phim hoạt hình dựng từ ảnh?",
+      "lua_chon": {
+        "A": "Chỉ dùng duy nhất lớp âm thanh",
+        "B": "Chỉ dùng một bức ảnh tĩnh duy nhất suốt 3 phút không đổi gì",
+        "C": "Tắt chế độ xem trước `Preview`",
+        "D": "Chuẩn bị chuỗi ảnh phân cảnh thay đổi tư thế/vị trí nhân vật hoặc bóng thoại theo từng bước, rồi ghép nối tiếp trên ngăn tiến trình"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phim hoạt hình từ ảnh tạo chuyển động bằng chuỗi ảnh thay đổi trạng thái nhân vật theo từng phân cảnh.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí khi đặt vị trí con trỏ thời điểm sai lúc ghi âm",
+      "cau_hoi": "Bạn muốn ghi âm lời thoại bắt đầu đúng từ phân cảnh 2 (tại giây thứ 6) nhưng khi nhấn `Record` thì VideoPad lại phát hình từ giây 0. Trước khi nhấn `Record Narration`, bạn cần làm gì?",
+      "lua_chon": {
+        "A": "Rút micro ra cắm lại",
+        "B": "Xóa phân cảnh 1 đi",
+        "C": "Đổi tên tệp dự án",
+        "D": "Kéo con trỏ thời điểm trên `Timeline` đến đúng giây thứ 6 (đầu phân cảnh 2) rồi mới mở `Record Narration`"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Vị trí con trỏ thời điểm xác định mốc bắt đầu phát và ghi âm lời thoại.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kết hợp bóng thoại và phụ đề",
+      "cau_hoi": "Trong phim hoạt hình có bóng thoại vẽ sẵn trên ảnh, việc bổ sung thêm phụ đề ở phía dưới màn hình mang lại lợi ích gì?",
+      "lua_chon": {
+        "A": "Làm giảm thời lượng video xuống 0",
+        "B": "Làm che mất toàn bộ nhân vật",
+        "C": "Giúp người xem (kể cả khi tắt tiếng hoặc tiếng ồn) theo dõi rõ ràng từng câu thoại với kích thước chữ đồng nhất, dễ đọc",
+        "D": "Thay thế hoàn toàn việc vẽ nhân vật"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Phụ đề tăng khả năng tiếp cận và rõ nghĩa cho hội thoại trong phim.",
+      "nguon": "ndc_bai_31"
+    },
+    {
+      "id": "B31_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí lỗi không nghe thấy tiếng sau khi ghi âm",
+      "cau_hoi": "Sau khi ghi âm xong bằng `Record Narration`, thấy tệp âm thanh đã nằm trong ngăn Tư liệu (`Audio Files`) nhưng khi phát thử lại không nghe thấy tiếng. Cần kiểm tra điều gì trước tiên?",
+      "lua_chon": {
+        "A": "Đổi sang phần mềm GIMP",
+        "B": "Kiểm tra đã kéo tệp âm thanh đó xuống lớp `Audio Track` trên `Timeline` chưa, và kiểm tra thiết bị thu/âm lượng track không bị tắt tiếng (`Mute`)",
+        "C": "Xóa phần mềm VideoPad",
+        "D": "Tắt chế độ `Timeline`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Tệp ghi âm mặc định lưu ở ngăn Tư liệu (hoặc cần kiểm tra vị trí trên Audio Track và trạng thái micro/loa).",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lưu sản phẩm cuối cùng ở cả hai dạng",
+      "cau_hoi": "Sau khi hoàn thành phim hoạt hình, để vừa nộp bài xem ngay trên lớp vừa có thể về nhà chỉnh sửa bổ sung nếu giáo viên góp ý, học sinh cần lưu những tệp nào?",
+      "lua_chon": {
+        "A": "Chỉ lưu tệp `.vpj`",
+        "B": "Xuất bản tệp video `.mp4` (để trình chiếu) và lưu cả tệp dự án `.vpj` cùng thư mục tư liệu gốc (để sửa tiếp)",
+        "C": "Chỉ lưu tệp `.xcf`",
+        "D": "Chỉ chụp ảnh màn hình `Timeline`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Lưu song song tệp dự án `.vpj` và tệp thành phẩm `.mp4` là thói quen làm việc chuyên nghiệp.",
+      "nguon": "ndc_bai_31"
+    },
+    {
+      "id": "B31_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Điều chỉnh kịch bản phân cảnh bị lệch nhịp hội thoại",
+      "cau_hoi": "Một phân cảnh ảnh có thời lượng ban đầu 4 giây, nhưng đoạn hội thoại ghi âm cho cảnh đó dài tới 9 giây khiến nhân vật chưa nói hết câu đã chuyển sang cảnh tiếp theo. Giải pháp đồng bộ triệt để trên `Timeline` là gì?",
+      "lua_chon": {
+        "A": "Kéo dãn độ rộng băng hình của phân cảnh đó trên `Timeline` từ 4 giây lên 9 giây (và dời các phân cảnh/phụ đề phía sau tương ứng nếu cần), sau đó kiểm tra lại tại `Preview`",
+        "B": "Cắt bỏ 5 giây cuối của tệp ghi âm lời thoại",
+        "C": "Đổi tên tệp ghi âm thành `.mp4`",
+        "D": "Tắt chế độ `At the end of sequence`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Không được cắt cụt lời thoại làm mất nghĩa; phải kéo dài thời lượng băng hình khớp với độ dài lời thoại.",
+      "nguon": "kenhgiaovien_31 & ndc_bai_31"
+    },
+    {
+      "id": "B31_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phối hợp GIMP/PowerPoint với VideoPad trong dự án phim hoạt hình",
+      "cau_hoi": "Khi tạo một phim hoạt hình 2 nhân vật đi bộ trong công viên, cách kết hợp nào giữa GIMP và VideoPad giúp tiết kiệm thời gian chuẩn bị ảnh tư liệu nhất?",
+      "lua_chon": {
+        "A": "Dùng MySQL tạo bảng `congvien`",
+        "B": "Vẽ lại toàn bộ nền công viên từ đầu bằng tay cho từng khung ảnh",
+        "C": "Trong GIMP, tạo 1 lớp nền công viên cố định và các lớp nhân vật ở các tư thế khác nhau; chỉ cần di chuyển/ẩn hiện lớp nhân vật rồi xuất từng khung ảnh (`.png`/`.jpg`) đưa vào VideoPad dựng phim",
+        "D": "Không cần nền, chỉ xuất một ảnh trắng"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Tận dụng cấu trúc nhiều lớp của GIMP để tái sử dụng nền và nhân vật giúp tạo hàng loạt ảnh phân cảnh nhanh, đồng bộ.",
+      "nguon": "kenhgiaovien_31 & ndc_bai_31"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B31-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Để phim hoạt hình có hội thoại và phụ đề cần gì?",
-        "lua_chon": {
-          "A": "Chỉ một ảnh tĩnh",
-          "B": "Một bảng khóa ngoài",
-          "C": "Một văn bản không có thời gian",
-          "D": "Khung hình/nhân vật, lời thoại và phụ đề được đồng bộ"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B31_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy trình tạo phim hoạt hình bằng VideoPad",
+      "dan_nhap": "Quy trình thực hành tạo phim hoạt hình bằng VideoPad:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể dùng phần mềm đồ họa hoặc PowerPoint để thiết kế hình ảnh bối cảnh, nhân vật và bóng thoại trước khi đưa vào VideoPad.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Đáp án đúng vì Khung hình/nhân vật, lời thoại và phụ đề được đồng bộ; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B31-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Phát biểu nào đúng về Kịch bản?",
-        "lua_chon": {
-          "A": "Kịch bản xác định diễn tiến, nhân vật và hội thoại.",
-          "B": "Các khung hình thể hiện trạng thái nhân vật theo diễn tiến.",
-          "C": "Lời thoại cần phù hợp nhân vật và diễn tiến phim.",
-          "D": "Phụ đề thể hiện lời nói bằng chữ và cần đồng bộ."
+        {
+          "ma": "b",
+          "noi_dung": "Tính năng `Video Wizard` hỗ trợ chọn mẫu phim có sẵn để dựng nhanh theo kịch bản.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Kịch bản xác định diễn tiến, nhân vật và hội thoại."
-      },
-      {
-        "id": "T11-B31-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống: Nhóm chưa biết cảnh nào xuất hiện trước. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Phụ đề đồng bộ lời thoại.",
-          "B": "Kịch bản/chuỗi cảnh.",
-          "C": "Các khung hình với vị trí thay đổi tuần tự.",
-          "D": "Tệp/lớp âm thanh hội thoại."
+        {
+          "ma": "c",
+          "noi_dung": "Tùy chọn `At the end of sequence` trong `Record Narration` giúp dừng ghi âm khi kết thúc đoạn phim.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Kịch bản/chuỗi cảnh."
-      },
-      {
-        "id": "T11-B31-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kịch bản?",
-        "lua_chon": {
-          "A": "Người xem không nghe rõ âm thanh.",
-          "B": "Nhóm chưa biết cảnh nào xuất hiện trước.",
-          "C": "Nhân vật cần chuyển động từ trái sang phải.",
-          "D": "Nhân vật xuất hiện nhưng chưa có lời nói."
+        {
+          "ma": "d",
+          "noi_dung": "Không cần kiểm tra tại ngăn `Preview` trước khi xuất bản phim vì lời thoại luôn tự động khớp 100%.",
+          "dap_an": false,
+          "giai_thich": "Sai. Cần xem lại tại ngăn Preview để căn chỉnh thời lượng phân cảnh khớp lời thoại và phụ đề."
+        }
+      ],
+      "nguon": "Biên soạn từ kenhgiaovien_31 & ndc_bai_31"
+    },
+    {
+      "id": "B31_DS_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Xây dựng kịch bản và chuẩn bị tư liệu",
+      "dan_nhap": "Nhận định về Nhiệm vụ 1 (Xây dựng kịch bản và chuẩn bị tư liệu làm phim hoạt hình):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Kịch bản cần phù hợp với khả năng thể hiện của phần mềm làm phim.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Kịch bản trong bài Thực hành tạo phim hoạt hình."
-      },
-      {
-        "id": "T11-B31-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Phát biểu nào đúng về Khung hình?",
-        "lua_chon": {
-          "A": "Kịch bản xác định diễn tiến, nhân vật và hội thoại.",
-          "B": "Lời thoại cần phù hợp nhân vật và diễn tiến phim.",
-          "C": "Phụ đề thể hiện lời nói bằng chữ và cần đồng bộ.",
-          "D": "Các khung hình thể hiện trạng thái nhân vật theo diễn tiến."
+        {
+          "ma": "b",
+          "noi_dung": "Mỗi phân cảnh trong kịch bản cần xác định rõ hình ảnh, lời thoại/âm thanh và phụ đề.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Các khung hình thể hiện trạng thái nhân vật theo diễn tiến."
-      },
-      {
-        "id": "T11-B31-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống: Nhân vật cần chuyển động từ trái sang phải. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Các khung hình với vị trí thay đổi tuần tự.",
-          "B": "Kịch bản/chuỗi cảnh.",
-          "C": "Tệp/lớp âm thanh hội thoại.",
-          "D": "Phụ đề đồng bộ lời thoại."
+        {
+          "ma": "c",
+          "noi_dung": "Nên hoàn thiện đủ ảnh tư liệu trước khi bắt tay vào dựng phim trên VideoPad.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Các khung hình với vị trí thay đổi tuần tự."
-      },
-      {
-        "id": "T11-B31-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Khung hình?",
-        "lua_chon": {
-          "A": "Nhóm chưa biết cảnh nào xuất hiện trước.",
-          "B": "Nhân vật xuất hiện nhưng chưa có lời nói.",
-          "C": "Người xem không nghe rõ âm thanh.",
-          "D": "Nhân vật cần chuyển động từ trái sang phải."
+        {
+          "ma": "d",
+          "noi_dung": "Không cần xây dựng kịch bản, cứ mở VideoPad lên rồi ghi âm ngẫu nhiên trước khi có ý tưởng.",
+          "dap_an": false,
+          "giai_thich": "Sai. Kịch bản là bước nền tảng bắt buộc."
+        }
+      ],
+      "nguon": "ndc_bai_31 & kenhgiaovien_31"
+    },
+    {
+      "id": "B31_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Ghi âm hội thoại bằng Record Narration",
+      "dan_nhap": "Một nhóm học sinh thực hành ghi âm lời thoại hai nhân vật trong VideoPad:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Lệnh mở công cụ ghi âm là `Home -> Record -> Record Narration`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Khung hình trong bài Thực hành tạo phim hoạt hình."
-      },
-      {
-        "id": "T11-B31-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Phát biểu nào đúng về Hội thoại?",
-        "lua_chon": {
-          "A": "Các khung hình thể hiện trạng thái nhân vật theo diễn tiến.",
-          "B": "Phụ đề thể hiện lời nói bằng chữ và cần đồng bộ.",
-          "C": "Lời thoại cần phù hợp nhân vật và diễn tiến phim.",
-          "D": "Kịch bản xác định diễn tiến, nhân vật và hội thoại."
+        {
+          "ma": "b",
+          "noi_dung": "Máy tính cần có micro hoạt động bình thường để thu âm giọng nói.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Lời thoại cần phù hợp nhân vật và diễn tiến phim."
-      },
-      {
-        "id": "T11-B31-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống: Nhân vật xuất hiện nhưng chưa có lời nói. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kịch bản/chuỗi cảnh.",
-          "B": "Các khung hình với vị trí thay đổi tuần tự.",
-          "C": "Phụ đề đồng bộ lời thoại.",
-          "D": "Tệp/lớp âm thanh hội thoại."
+        {
+          "ma": "c",
+          "noi_dung": "Tệp âm thanh sau khi ghi xong sẽ được lưu vào ngăn Tư liệu với tên người dùng đã đặt.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Tệp/lớp âm thanh hội thoại."
-      },
-      {
-        "id": "T11-B31-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Hội thoại?",
-        "lua_chon": {
-          "A": "Người xem không nghe rõ âm thanh.",
-          "B": "Nhân vật xuất hiện nhưng chưa có lời nói.",
-          "C": "Nhóm chưa biết cảnh nào xuất hiện trước.",
-          "D": "Nhân vật cần chuyển động từ trái sang phải."
+        {
+          "ma": "d",
+          "noi_dung": "Trong khi đang ghi âm lời thoại, không thể nhấn tạm dừng (`Pause`) rồi ghi tiếp.",
+          "dap_an": false,
+          "giai_thich": "Sai. Hộp thoại ghi âm hỗ trợ tạm dừng và tiếp tục."
+        }
+      ],
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Căn chỉnh khớp lời thoại và phụ đề",
+      "dan_nhap": "Nhận định về việc đồng bộ lời thoại, phân cảnh và phụ đề trên `Timeline`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Nếu lời thoại dài hơn ảnh phân cảnh, có thể kéo mở rộng độ dài băng hình trên `Timeline`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Hội thoại trong bài Thực hành tạo phim hoạt hình."
-      },
-      {
-        "id": "T11-B31-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Phát biểu nào đúng về Phụ đề?",
-        "lua_chon": {
-          "A": "Lời thoại cần phù hợp nhân vật và diễn tiến phim.",
-          "B": "Phụ đề thể hiện lời nói bằng chữ và cần đồng bộ.",
-          "C": "Kịch bản xác định diễn tiến, nhân vật và hội thoại.",
-          "D": "Các khung hình thể hiện trạng thái nhân vật theo diễn tiến."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể chèn thêm phụ đề đồng bộ với lời thoại để tăng tính trực quan và dễ theo dõi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Phụ đề thể hiện lời nói bằng chữ và cần đồng bộ."
-      },
-      {
-        "id": "T11-B31-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống: Người xem không nghe rõ âm thanh. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Các khung hình với vị trí thay đổi tuần tự.",
-          "B": "Tệp/lớp âm thanh hội thoại.",
-          "C": "Phụ đề đồng bộ lời thoại.",
-          "D": "Kịch bản/chuỗi cảnh."
+        {
+          "ma": "c",
+          "noi_dung": "Sau khi hoàn thành chỉnh sửa, chỉ cần xuất `.mp4` mà không bao giờ nên lưu tệp dự án `.vpj`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Nên lưu cả `.vpj` để có thể sửa chữa khi cần."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Phụ đề đồng bộ lời thoại."
-      },
-      {
-        "id": "T11-B31-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phụ đề?",
-        "lua_chon": {
-          "A": "Nhóm chưa biết cảnh nào xuất hiện trước.",
-          "B": "Nhân vật cần chuyển động từ trái sang phải.",
-          "C": "Nhân vật xuất hiện nhưng chưa có lời nói.",
-          "D": "Người xem không nghe rõ âm thanh."
+        {
+          "ma": "d",
+          "noi_dung": "Ngăn `Preview` giúp kiểm tra tổng thể sự ăn khớp giữa hình ảnh, âm thanh và chữ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_31 & kenhgiaovien_31"
+    },
+    {
+      "id": "B31_DS_05",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hoàn thiện và xuất bản phim hoạt hình",
+      "dan_nhap": "Nhận định về hoàn thiện sản phẩm phim hoạt hình ngắn ở phần Vận dụng:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Đoạn phim hoạt hình bài tập nên có thời lượng ngắn gọn (dưới 3 phút) và thông điệp rõ ràng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Phụ đề trong bài Thực hành tạo phim hoạt hình."
-      },
-      {
-        "id": "T11-B31-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Phát biểu nào đúng về Thời gian?",
-        "lua_chon": {
-          "A": "Hình, tiếng và phụ đề cần đặt đúng thời điểm.",
-          "B": "Kịch bản xác định diễn tiến, nhân vật và hội thoại.",
-          "C": "Các khung hình thể hiện trạng thái nhân vật theo diễn tiến.",
-          "D": "Lời thoại cần phù hợp nhân vật và diễn tiến phim."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể kết hợp thêm nhạc nền nhẹ nhàng (nhỏ hơn giọng thoại) và hiệu ứng `Fade Out` ở cuối phim.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Hình, tiếng và phụ đề cần đặt đúng thời điểm."
-      },
-      {
-        "id": "T11-B31-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống: Phụ đề xuất hiện trước khi nhân vật nói. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tệp/lớp âm thanh hội thoại.",
-          "B": "Mốc thời gian phụ đề.",
-          "C": "Kịch bản/chuỗi cảnh.",
-          "D": "Các khung hình với vị trí thay đổi tuần tự."
+        {
+          "ma": "c",
+          "noi_dung": "Phim hoạt hình tạo từ ảnh tĩnh không thể chèn được hiệu ứng chuyển cảnh giữa các phân cảnh.",
+          "dap_an": false,
+          "giai_thich": "Sai. Vẫn chèn hiệu ứng chuyển cảnh bình thường."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Mốc thời gian phụ đề."
-      },
-      {
-        "id": "T11-B31-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thời gian?",
-        "lua_chon": {
-          "A": "Nhân vật xuất hiện nhưng chưa có lời nói.",
-          "B": "Phụ đề xuất hiện trước khi nhân vật nói.",
-          "C": "Nhóm chưa biết cảnh nào xuất hiện trước.",
-          "D": "Nhân vật cần chuyển động từ trái sang phải."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Thời gian trong bài Thực hành tạo phim hoạt hình."
-      },
-      {
-        "id": "T11-B31-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Phát biểu nào đúng về Tư liệu?",
-        "lua_chon": {
-          "A": "Kịch bản xác định diễn tiến, nhân vật và hội thoại.",
-          "B": "Các khung hình thể hiện trạng thái nhân vật theo diễn tiến.",
-          "C": "Lời thoại cần phù hợp nhân vật và diễn tiến phim.",
-          "D": "Tư liệu cần có quyền sử dụng phù hợp."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tư liệu cần có quyền sử dụng phù hợp."
-      },
-      {
-        "id": "T11-B31-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống: Nhóm muốn thêm nhạc nền vào phim học tập. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giấy phép và quyền sử dụng nhạc.",
-          "B": "Kịch bản/chuỗi cảnh.",
-          "C": "Các khung hình với vị trí thay đổi tuần tự.",
-          "D": "Tệp/lớp âm thanh hội thoại."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Giấy phép và quyền sử dụng nhạc."
-      },
-      {
-        "id": "T11-B31-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tư liệu?",
-        "lua_chon": {
-          "A": "Nhóm chưa biết cảnh nào xuất hiện trước.",
-          "B": "Nhân vật cần chuyển động từ trái sang phải.",
-          "C": "Nhân vật xuất hiện nhưng chưa có lời nói.",
-          "D": "Nhóm muốn thêm nhạc nền vào phim học tập."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Tư liệu trong bài Thực hành tạo phim hoạt hình."
-      },
-      {
-        "id": "T11-B31-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Phát biểu nào đúng về Xem trước và xuất?",
-        "lua_chon": {
-          "A": "Các khung hình thể hiện trạng thái nhân vật theo diễn tiến.",
-          "B": "Lời thoại cần phù hợp nhân vật và diễn tiến phim.",
-          "C": "Xem trước giúp kiểm tra sự liên tục trước khi tạo tệp cuối.",
-          "D": "Kịch bản xác định diễn tiến, nhân vật và hội thoại."
-        },
-        "dap_an": "C",
-        "giai_thich": "Xem trước giúp kiểm tra sự liên tục trước khi tạo tệp cuối."
-      },
-      {
-        "id": "T11-B31-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống: Hoạt ảnh và lời thoại đã sắp xếp xong. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kịch bản/chuỗi cảnh.",
-          "B": "Các khung hình với vị trí thay đổi tuần tự.",
-          "C": "Tệp/lớp âm thanh hội thoại.",
-          "D": "Xem trước, sửa lỗi rồi xuất video."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Xem trước, sửa lỗi rồi xuất video."
-      },
-      {
-        "id": "T11-B31-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Xem trước và xuất?",
-        "lua_chon": {
-          "A": "Nhân vật xuất hiện nhưng chưa có lời nói.",
-          "B": "Hoạt ảnh và lời thoại đã sắp xếp xong.",
-          "C": "Nhóm chưa biết cảnh nào xuất hiện trước.",
-          "D": "Nhân vật cần chuyển động từ trái sang phải."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Xem trước và xuất trong bài Thực hành tạo phim hoạt hình."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B31-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Xét tính đúng/sai về Thực hành tạo phim hoạt hình:",
-        "y_kien": {
-          "a": true,
-          "b": true,
-          "c": "Phụ đề nên khớp lời thoại và thời điểm.",
-          "d": "Xem trước giúp phát hiện lỗi hình, tiếng và phụ đề."
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B31-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Lập quy trình tạo phim hoạt hình ngắn có hội thoại và phụ đề.",
-        "dap_an_goi_y": "Lập kịch bản/khung hình, chuẩn bị tư liệu phù hợp, sắp xếp hoạt ảnh, thêm thoại/phụ đề theo thời gian, xem trước và xuất.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B31-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 31 - Thực hành tạo phim hoạt hình",
-        "noi_dung": "Dựa vào kiến thức “Kịch bản xác định diễn tiến, nhân vật và hội thoại.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Nhóm chưa biết cảnh nào xuất hiện trước.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Kịch bản xác định diễn tiến, nhân vật và hội thoại. Vận dụng: Kịch bản/chuỗi cảnh. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Xuất bản video sang định dạng `.mp4` giúp trình chiếu thuận tiện trên nhiều thiết bị.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_31"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B31_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Lệnh Record Narration",
+      "cau_hoi": "Tên lệnh dùng để mở chức năng ghi âm lời thoại trong dải lệnh `Home -> Record` của VideoPad là gì?",
+      "dap_an": "Record Narration",
+      "dap_an_tuong_duong": [
+        "record narration"
+      ],
+      "giai_thich": "Record Narration mở hộp thoại ghi âm lời thoại trực tiếp.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thiết bị thu âm Micro",
+      "cau_hoi": "Thiết bị phần cứng nào bắt buộc phải gắn vào máy tính để thực hiện ghi âm lời thoại nhân vật?",
+      "dap_an": "Micro",
+      "dap_an_tuong_duong": [
+        "micro",
+        "mic"
+      ],
+      "giai_thich": "Cần có micro để thu âm giọng nói.",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ngăn kiểm tra độ khớp Preview",
+      "cau_hoi": "Ngăn nào của VideoPad dùng để kiểm tra xem lời thoại đã khớp với các phân cảnh hay chưa?",
+      "dap_an": "Preview (Ngăn xem trước)",
+      "dap_an_tuong_duong": [
+        "Preview",
+        "Ngăn xem trước"
+      ],
+      "giai_thich": "Ngăn Preview phát thử để kiểm tra đồng bộ hình – tiếng – phụ đề.",
+      "nguon": "ndc_bai_31 & kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Công cụ dựng nhanh theo mẫu",
+      "cau_hoi": "Tính năng nào của VideoPad hỗ trợ chọn mẫu phim có sẵn để dựng nhanh đoạn phim hoạt hình theo kịch bản?",
+      "dap_an": "Video Wizard",
+      "dap_an_tuong_duong": [
+        "video wizard"
+      ],
+      "giai_thich": "Video Wizard hướng dẫn dựng nhanh phim theo mẫu.",
+      "nguon": "ndc_bai_31"
+    },
+    {
+      "id": "B31_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tùy chọn dừng ghi âm cuối đoạn phim",
+      "cau_hoi": "Tên tùy chọn trong `Record Narration` giúp tự động dừng ghi âm khi kết thúc đoạn phim là gì?",
+      "dap_an": "At the end of sequence",
+      "dap_an_tuong_duong": [
+        "at the end of sequence"
+      ],
+      "giai_thich": "Tùy chọn At the end of sequence dừng ghi âm ở cuối chuỗi phân cảnh.",
+      "nguon": "kenhgiaovien_31"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B31_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ba nhiệm vụ chính tạo phim hoạt hình",
+      "cau_hoi": "Trình bày 3 nhiệm vụ chính trong quy trình tạo một đoạn phim hoạt hình từ ảnh có hội thoại và phụ đề.",
+      "goi_y_dap_an": "- Nhiệm vụ 1: Xây dựng kịch bản chi tiết từng phân cảnh (hình ảnh, lời thoại, phụ đề) và chuẩn bị đầy đủ ảnh tư liệu.\n- Nhiệm vụ 2: Khởi động VideoPad (có thể dùng `Video Wizard`), dựng đoạn phim theo kịch bản, chọn hiệu ứng chuyển cảnh.\n- Nhiệm vụ 3: Ghi âm hội thoại (`Record Narration`), căn chỉnh thời lượng phân cảnh trên `Timeline` cho khớp lời thoại, bổ sung phụ đề, lưu dự án và xuất bản phim.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng đủ 3 nhiệm vụ (0,6đ + 0,7đ + 0,7đ = 2,0đ).",
+      "nguon": "kenhgiaovien_31 & ndc_bai_31"
+    },
+    {
+      "id": "B31_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy trình ghi âm bằng Record Narration",
+      "cau_hoi": "Nêu các bước ghi âm lời thoại cho một phân cảnh phim hoạt hình trong VideoPad bằng `Record Narration`.",
+      "goi_y_dap_an": "1) Chọn `Home → Record → Record Narration`.\n2) Chọn tùy chọn dừng ghi âm (VD: `At the end of sequence`) và đặt tên tệp âm thanh.\n3) Nhấn nút Record để bắt đầu đọc lời thoại (có thể tạm dừng/tiếp tục), nhấn Stop để kết thúc và `Close`.\n4) Kéo thả điều chỉnh thời lượng phân cảnh trên `Timeline` và kiểm tra tại `Preview`.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng đủ 4 bước (0,5đ × 4 = 2,0đ).",
+      "nguon": "kenhgiaovien_31"
+    },
+    {
+      "id": "B31_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Lập bảng kịch bản phim hoạt hình ngắn",
+      "cau_hoi": "Hãy lập bảng kịch bản gồm 3 phân cảnh cho một đoạn phim hoạt hình ngắn (khoảng 20–25 giây) tuyên truyền bảo vệ môi trường học đường (gồm các cột: Phân cảnh & Thời lượng, Hình ảnh tư liệu, Lời thoại/Âm thanh, Phụ đề).",
+      "goi_y_dap_an": "- Phân cảnh 1 (6s): Hình ảnh sân trường có vài vỏ chai nhựa; Âm thanh: nhạc nền nhẹ + tiếng bạn An: 'Ôi, sân trường hôm nay có rác rồi!'; Phụ đề: 'An: Ôi, sân trường hôm nay có rác rồi!'.\n- Phân cảnh 2 (8s): Hình ảnh An và Bình cùng nhặt rác bỏ vào thùng phân loại; Âm thanh: Bình: 'Chúng mình cùng thu gom vào đúng thùng rác nhé!'; Phụ đề: 'Bình: Chúng mình cùng thu gom vào đúng thùng rác nhé!'.\n- Phân cảnh 3 (7s): Hình ảnh sân trường sạch đẹp + dòng chữ thông điệp; Âm thanh: nhạc nền `Fade Out` + lời dẫn: 'Chung tay giữ trường lớp xanh – sạch – đẹp!'; Phụ đề: 'Chung tay giữ trường lớp xanh – sạch – đẹp!'.",
+      "thang_diem": "Tổng 2,0 điểm: bảng kịch bản đủ 4 cột và 3 phân cảnh logic (1,2đ), thời lượng hợp lí và đồng bộ hình – thoại – phụ đề (0,8đ).",
+      "nguon": "ndc_bai_31 & kenhgiaovien_31"
+    }
+  ]
 }

@@ -1,424 +1,573 @@
 {
-  "ma_bai": "BAI_02",
-  "bai_so": 2,
+  "bai_id": "BAI_02",
   "ten_bai": "Thực hành sử dụng hệ điều hành",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 1: Máy tính và xã hội tri thức",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_2_thuc_hanh.docx",
+    "ndc_bai_2_thuc_hanh_su_dung_he_dieu_hanh.docx",
+    "ki1_thud_tinhoc11_kntt.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B02_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Quản lí tệp và thư mục trên Windows",
+      "cau_hoi": "Trên hệ điều hành Windows, tiện ích mặc định dùng để quản lí tệp và thư mục là gì?",
+      "lua_chon": {
+        "A": "Control Panel",
+        "B": "Disk Cleanup",
+        "C": "File Explorer",
+        "D": "Task Manager"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Windows sử dụng tiện ích File Explorer để quản lí tệp và thư mục.",
+      "nguon": "ndc_bai_2_thuc_hanh_su_dung_he_dieu_hanh.docx"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B02_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Công cụ kiểm tra và tối ưu đĩa cứng",
+      "cau_hoi": "Để mở công cụ kiểm tra lỗi đĩa (Check) và tối ưu hóa, hợp mảnh đĩa (Optimize) trên Windows, ta mở cửa sổ Properties của ổ đĩa rồi chọn thẻ nào?",
+      "lua_chon": {
+        "A": "General",
+        "B": "Hardware",
+        "C": "Security",
+        "D": "Tools"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Trong cửa sổ Properties của ổ đĩa, chọn thẻ Tools rồi chọn Check hoặc Optimize.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx & ndc_bai_2"
+    },
+    {
+      "id": "B02_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt HDD và SSD khi hợp mảnh",
+      "cau_hoi": "Việc hợp mảnh (Optimize/Defragment) chỉ thực sự có ý nghĩa đối với loại đĩa nào sau đây?",
+      "lua_chon": {
+        "A": "Đĩa từ / ổ đĩa cứng cơ học (HDD)",
+        "B": "Đĩa thể rắn (SSD)",
+        "C": "Thẻ nhớ SD",
+        "D": "Bộ nhớ RAM"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Hợp mảnh chỉ có ý nghĩa với đĩa từ dùng đầu từ cơ học để đọc/ghi dữ liệu; đĩa thể rắn (SSD) không cần hợp mảnh.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tiện ích dọn rác Disk Cleanup",
+      "cau_hoi": "Tiện ích dọn đĩa (Disk Cleanup) nằm ở thẻ nào trong cửa sổ Properties của ổ đĩa trên Windows?",
+      "lua_chon": {
+        "A": "Sharing",
+        "B": "Tools",
+        "C": "General",
+        "D": "Previous Versions"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khi mở thẻ General trong Properties của ổ đĩa sẽ thấy nút lệnh Disk Cleanup.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thực hành trên Ubuntu chế độ thử nghiệm",
+      "cau_hoi": "Khi chạy Ubuntu ở chế độ thử nghiệm (Live USB), người dùng truy cập ổ đĩa cứng của máy tính qua '+ Other Locations' thì gặp hạn chế nào?",
+      "lua_chon": {
+        "A": "Không thể xem nội dung tệp",
+        "B": "Không thể làm việc với thẻ nhớ USB ngoài",
+        "C": "Không thể kết nối chuột và bàn phím",
+        "D": "Không thể ghi hoặc xóa dữ liệu trên ổ đĩa cứng vì chúng được bảo vệ"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Ở chế độ thử nghiệm Ubuntu, có thể truy cập ổ cứng qua '+ Other Locations' nhưng không thể ghi, xóa vì được bảo vệ; vẫn làm việc bình thường với thẻ nhớ USB.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Giao diện hệ điều hành Windows và Ubuntu",
+      "cau_hoi": "Trên giao diện mặc định của hệ điều hành Ubuntu, danh mục công việc (Dock) và biểu tượng danh mục ứng dụng thường nằm ở vị trí nào?",
+      "lua_chon": {
+        "A": "Bên trái màn hình và góc dưới bên trái màn hình",
+        "B": "Ở chính giữa màn hình",
+        "C": "Ở cạnh trên bên phải màn hình",
+        "D": "Ẩn hoàn toàn trong File Explorer"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Ubuntu đặt danh mục công việc ở bên trái màn hình và biểu tượng danh mục ứng dụng ở góc dưới bên trái.",
+      "nguon": "ndc_bai_2 & Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tiện ích đồng hồ trên thiết bị di động",
+      "cau_hoi": "Chức năng bấm giờ (Stopwatch) trong tiện ích Đồng hồ trên thiết bị di động có thể đo thời gian chính xác tới mức nào?",
+      "lua_chon": {
+        "A": "1 giây",
+        "B": "1 giờ",
+        "C": "1 phút",
+        "D": "1/100 giây (1% giây)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Chức năng bấm giờ đếm từ 0 với độ chính xác 1/100 giây (1% giây), phù hợp đo kỉ lục thể thao.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Tiện ích trên thiết bị di động",
+      "cau_hoi": "Ba nhóm tiện ích cơ bản trên hệ điều hành thiết bị di động được thực hành trong Bài 2 gồm những tiện ích nào?",
+      "lua_chon": {
+        "A": "Hợp mảnh đĩa từ; Dọn rác hệ thống; Cài đặt BIOS",
+        "B": "Quản lí danh bạ; Đặt lịch/hẹn giờ/nhắc việc; Quản lí ứng dụng",
+        "C": "Thiết kế mạch lôgic; Biên dịch SQL; Nén đĩa cứng",
+        "D": "Chỉ dùng để nghe gọi và nhắn tin SMS"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Nhiệm vụ 3 thực hành quản lí danh bạ, đặt lịch/hẹn giờ/nhắc việc và quản lí ứng dụng.",
+      "nguon": "ndc_bai_2 & Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nguyên lí hoạt động của hợp mảnh đĩa từ",
+      "cau_hoi": "Vì sao việc hợp mảnh đĩa cứng cơ học (HDD) lại giúp tăng tốc độ truy cập dữ liệu?",
+      "lua_chon": {
+        "A": "Vì làm giảm số lượng tệp trong máy tính",
+        "B": "Vì sắp xếp lại các phần tệp liền kề nhau, giảm thời gian di chuyển đầu đọc cơ học giữa các đường ghi",
+        "C": "Vì biến ổ HDD thành bộ nhớ RAM",
+        "D": "Vì tăng tốc độ đường truyền Internet"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Đầu từ là thiết bị cơ nên di chuyển chậm; hợp mảnh sắp xếp tệp liên tục giúp giảm thời gian di chuyển đầu đọc.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Các loại tệp xử lí bởi Disk Cleanup",
+      "cau_hoi": "Loại tệp nào sau đây KHÔNG bị tiện ích Disk Cleanup đề xuất xóa để thu hồi dung lượng?",
+      "lua_chon": {
+        "A": "Các tệp tạm thời khi làm việc với Internet và hệ điều hành",
+        "B": "Các tệp đã xóa nằm trong thùng rác (Recycle Bin)",
+        "C": "Các tệp tài liệu cá nhân đang lưu trong thư mục Documents",
+        "D": "Nhật kí cài đặt và trang web lưu ngoại tuyến"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Disk Cleanup chỉ lọc xóa tệp tạm, rác trong Recycle Bin, nhật kí cài đặt không còn dùng, không xóa tài liệu cá nhân trong Documents.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt Đếm giờ và Bấm giờ",
+      "cau_hoi": "Sự khác biệt chính giữa chức năng \"Đếm giờ\" (Timer) và \"Bấm giờ\" (Stopwatch) trong ứng dụng Đồng hồ trên điện thoại là gì?",
+      "lua_chon": {
+        "A": "Cả hai chức năng hoạt động giống hệt nhau",
+        "B": "Đếm giờ không có âm báo; Bấm giờ dùng để xem giờ quốc tế",
+        "C": "Đếm giờ đặt trước khoảng thời gian và đếm lùi tới 0; Bấm giờ đếm tiến từ 0 đến khi dừng (chính xác 1/100 giây)",
+        "D": "Bấm giờ chỉ tính theo đơn vị giờ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Đếm giờ tính đến giây, đếm lùi từ mức đặt trước về 0; Bấm giờ đếm tiến từ 0 chính xác đến 1/100 giây.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quản lí nhóm danh bạ",
+      "cau_hoi": "Phát biểu nào sau đây đúng về chức năng quản lí nhóm trong tiện ích Danh bạ trên thiết bị di động?",
+      "lua_chon": {
+        "A": "Mỗi nhóm chỉ chứa được tối đa một số điện thoại",
+        "B": "Không thể xóa nhóm đã tạo",
+        "C": "Một nhóm gồm nhiều số điện thoại và một số điện thoại có thể thuộc nhiều nhóm khác nhau",
+        "D": "Tạo nhóm sẽ làm mất các số điện thoại cũ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Một nhóm danh bạ gồm nhiều số điện thoại và một số điện thoại có thể thuộc nhiều nhóm.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nút lệnh dọn tệp hệ thống trong Disk Cleanup",
+      "cau_hoi": "Trong hộp thoại Disk Cleanup, sau khi đánh dấu các loại tệp muốn xóa, nút lệnh nào cho phép dọn thêm các tệp hệ thống cũ không còn cần thiết?",
+      "lua_chon": {
+        "A": "Cleanup system files",
+        "B": "Optimize",
+        "C": "Check",
+        "D": "Other Locations"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nháy nút Cleanup system files để dọn thêm các tệp hệ thống không còn dùng.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thao tác sửa lỗi ổ đĩa trên Windows",
+      "cau_hoi": "Máy tính báo lỗi hệ thống tệp khi mở một ổ đĩa. Để kiểm tra và khắc phục lỗi đĩa bằng công cụ có sẵn của Windows, em thực hiện trình tự nào?",
+      "lua_chon": {
+        "A": "Properties -> General -> Optimize",
+        "B": "File Explorer -> nháy phải vào ổ đĩa -> Delete",
+        "C": "Mở trình duyệt web -> gõ Check Disk",
+        "D": "File Explorer -> nháy phải vào ổ đĩa -> Properties -> Tools -> Check"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Mở Properties của ổ đĩa -> chọn thẻ Tools -> chọn Check để kiểm tra và khắc phục lỗi đĩa.",
+      "nguon": "ndc_bai_2 & Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí tình huống đăng nhập thiết bị di động",
+      "cau_hoi": "Khi tay đang bị ướt hoặc ra nhiều mồ hôi, phương pháp mở khóa bằng cảm biến vân tay thường kém nhạy. Phương pháp nào khắc phục trực tiếp nhược điểm này mà vẫn nhanh gọn?",
+      "lua_chon": {
+        "A": "Nhận dạng khuôn mặt",
+        "B": "Tháo pin điện thoại",
+        "C": "Tắt nguồn khởi động lại",
+        "D": "Cài đặt lại hệ điều hành"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Nhận dạng khuôn mặt phản hồi nhanh và loại bỏ nhược điểm khi ngón tay bị ướt, bẩn của cảm biến vân tay.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lưu trữ tệp khi thực hành Ubuntu Live USB",
+      "cau_hoi": "Trong giờ thực hành Ubuntu ở chế độ thử nghiệm từ USB, học sinh muốn lưu bài thực hành vừa tạo để lần sau mở lại. Học sinh nên lưu vào đâu?",
+      "lua_chon": {
+        "A": "Lưu vào ổ đĩa C của máy tính qua '+ Other Locations'",
+        "B": "Lưu trực tiếp vào thẻ nhớ USB ngoài (hoặc dịch vụ đám mây)",
+        "C": "Không cần lưu, chỉ cần tắt máy",
+        "D": "Lưu vào thùng rác Recycle Bin"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Ổ cứng qua '+ Other Locations' bị bảo vệ không cho ghi/xóa ở chế độ thử nghiệm, nhưng thẻ nhớ USB vẫn làm việc ghi/xóa bình thường.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đọc thông số hộp thoại Optimize Drives",
+      "cau_hoi": "Khi mở công cụ Optimize Drives trên Windows, ổ đĩa C hiển thị loại là 'Solid state drive' (SSD), ổ đĩa D là 'Hard disk drive' (HDD) có mức phân mảnh 18%. Thao tác nào hợp lí nhất?",
+      "lua_chon": {
+        "A": "Xóa toàn bộ dữ liệu ổ D",
+        "B": "Chọn ổ đĩa D (HDD) và nhấn Optimize để hợp mảnh; không cần hợp mảnh thủ công cho ổ C (SSD)",
+        "C": "Chỉ hợp mảnh ổ C, bỏ qua ổ D",
+        "D": "Đổi tên ổ C thành ổ D"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "SSD không cần hợp mảnh; HDD bị phân mảnh 18% nên chọn và nhấn Optimize.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Giải phóng dung lượng ổ đĩa an toàn",
+      "cau_hoi": "Ổ đĩa hệ thống (ổ C) sắp đầy do chứa nhiều tệp tạm Internet và rác trong Recycle Bin. Cách nào giúp giải phóng dung lượng nhanh và an toàn nhất?",
+      "lua_chon": {
+        "A": "Mở Properties của ổ C -> thẻ General -> Disk Cleanup, đánh dấu mục tệp tạm/Recycle Bin và thực hiện dọn đĩa",
+        "B": "Vào thư mục Windows xóa ngẫu nhiên các tệp hệ thống",
+        "C": "Định dạng (Format) lại ổ C ngay lập tức",
+        "D": "Chạy Check Disk"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Disk Cleanup phân tích và xóa an toàn các tệp tạm, rác Recycle Bin, nhật kí cũ mà không ảnh hưởng hệ điều hành.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Đánh giá phương pháp bảo mật đăng nhập di động",
+      "cau_hoi": "Nhận định nào sau đây đánh giá đúng nhất về ưu – nhược điểm của phương pháp đăng nhập bằng mật khẩu so với sinh trắc học (vân tay, khuôn mặt)?",
+      "lua_chon": {
+        "A": "Mật khẩu luôn mở nhanh hơn vân tay và khuôn mặt",
+        "B": "Mật khẩu có độ sai lệch gần như rất ít và dễ dùng, nhưng mất thời gian nhập và có thể bị quên; sinh trắc học nhanh tiện nhưng phụ thuộc điều kiện tay ướt hoặc ánh sáng/góc nhìn",
+        "C": "Nhận dạng khuôn mặt luôn chính xác 100% trong mọi điều kiện",
+        "D": "Hai người bất kì rất dễ có dấu vân tay giống hệt nhau"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Đúng theo bảng so sánh ưu, nhược điểm các phương pháp đăng nhập trong Kenhgiaovien_2_thuc_hanh.docx.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích tình huống quản lí ứng dụng và dung lượng di động",
+      "cau_hoi": "Điện thoại của học sinh bị đầy bộ nhớ do cài quá nhiều trò chơi ít dùng. Thao tác nào trên hệ điều hành di động giải quyết đúng vấn đề mà không làm mất dữ liệu danh bạ?",
+      "lua_chon": {
+        "A": "Tắt chức năng đồng hồ",
+        "B": "Khôi phục cài đặt gốc (Factory Reset) mà không sao lưu",
+        "C": "Xóa toàn bộ nhóm danh bạ",
+        "D": "Sử dụng chức năng Quản lí ứng dụng để gỡ bỏ (Uninstall) các ứng dụng không cần thiết"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Quản lí ứng dụng cho phép gỡ các ứng dụng không cần thiết để giải phóng bộ nhớ mà giữ nguyên danh bạ và dữ liệu khác.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B02-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Cách nào giúp sắp xếp tệp của một dự án để dễ tìm lại?",
-        "lua_chon": {
-          "A": "Xóa tệp cũ không kiểm tra",
-          "B": "Tạo thư mục phù hợp và đặt tên rõ ràng",
-          "C": "Đặt mọi tệp trên màn hình nền",
-          "D": "Đặt mọi tệp cùng tên"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B02_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Giao diện và quản lí tệp trên Windows và Ubuntu",
+      "dan_nhap": "Nhận định về giao diện và quản lí tệp trên hệ điều hành Windows và Ubuntu:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Windows hiển thị các ứng dụng đang chạy hoặc ghim sẵn ở cạnh đáy màn hình trong thanh công việc (Taskbar).",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Đáp án đúng vì Tạo thư mục phù hợp và đặt tên rõ ràng; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B02-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Tệp và thư mục?",
-        "lua_chon": {
-          "A": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
-          "B": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
-          "C": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống.",
-          "D": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích."
+        {
+          "ma": "b",
+          "noi_dung": "Ubuntu đặt danh mục công việc ở bên trái màn hình và biểu tượng danh mục ứng dụng ở góc dưới bên trái.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích."
-      },
-      {
-        "id": "T11-B02-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống: Tài liệu của một dự án bị lẫn với các tệp khác. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
-          "B": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
-          "C": "Tìm kiếm tệp bằng từ khóa phù hợp.",
-          "D": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy."
+        {
+          "ma": "c",
+          "noi_dung": "Trên Ubuntu, người dùng không thể đổi tên hoặc di chuyển tệp tin.",
+          "dap_an": false,
+          "giai_thich": "Sai. Người dùng có thể đổi tên, xóa, di chuyển tệp bình thường."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Tạo thư mục phù hợp và chuyển tệp vào đó."
-      },
-      {
-        "id": "T11-B02-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tệp và thư mục?",
-        "lua_chon": {
-          "A": "Không nhớ tệp được lưu ở thư mục nào.",
-          "B": "Cần cài phần mềm học tập.",
-          "C": "Tài liệu của một dự án bị lẫn với các tệp khác.",
-          "D": "Tên tài liệu hiện là New Document 1."
+        {
+          "ma": "d",
+          "noi_dung": "Tiện ích File Explorer của Windows chỉ dùng để tối ưu hóa ổ đĩa, không quản lí thư mục.",
+          "dap_an": false,
+          "giai_thich": "Sai. File Explorer dùng để quản lí tệp và thư mục."
+        }
+      ],
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx & ndc_bai_2"
+    },
+    {
+      "id": "B02_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tiện ích trên Windows và thiết bị di động",
+      "dan_nhap": "Nhận định về các tiện ích nâng cao hiệu quả sử dụng máy tính và thiết bị di động:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Việc kiểm tra lỗi đĩa (Check) có thể thực hiện trên các loại đĩa lưu trữ nói chung.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Tệp và thư mục trong bài Thực hành sử dụng hệ điều hành."
-      },
-      {
-        "id": "T11-B02-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Đổi tên tệp?",
-        "lua_chon": {
-          "A": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
-          "B": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống.",
-          "C": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
-          "D": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích."
+        {
+          "ma": "b",
+          "noi_dung": "Chức năng bấm giờ (Stopwatch) trong tiện ích Đồng hồ trên di động có thể đếm chính xác đến 1/100 giây (1% giây).",
+          "dap_an": true,
+          "giai_thich": "Đúng theo phần Luyện tập SGK trang 14."
         },
-        "dap_an": "C",
-        "giai_thich": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm."
-      },
-      {
-        "id": "T11-B02-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống: Tên tài liệu hiện là New Document 1. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
-          "B": "Tìm kiếm tệp bằng từ khóa phù hợp.",
-          "C": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
-          "D": "Đổi tên bằng mô tả ngắn, dễ hiểu."
+        {
+          "ma": "c",
+          "noi_dung": "Tiện ích Disk Cleanup sẽ xóa toàn bộ hệ điều hành Windows khi nhấn nút Cleanup system files.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tiện ích này chỉ xóa các tệp tạm, tệp rác, tệp trong Recycle Bin hoặc nhật kí cài đặt không còn cần thiết."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Đổi tên bằng mô tả ngắn, dễ hiểu."
-      },
-      {
-        "id": "T11-B02-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Đổi tên tệp?",
-        "lua_chon": {
-          "A": "Tên tài liệu hiện là New Document 1.",
-          "B": "Tài liệu của một dự án bị lẫn với các tệp khác.",
-          "C": "Không nhớ tệp được lưu ở thư mục nào.",
-          "D": "Cần cài phần mềm học tập."
+        {
+          "ma": "d",
+          "noi_dung": "Nhận dạng vân tay có ưu điểm nhanh gọn nhưng có thể kém nhạy khi ngón tay bị ướt hoặc dính mồ hôi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kiểm tra đĩa và hợp mảnh ổ đĩa",
+      "dan_nhap": "Một máy tính có 2 ổ đĩa vật lí: ổ C là đĩa thể rắn (SSD) và ổ D là đĩa cứng cơ học (HDD). Người dùng mở Properties -> Tools để tối ưu đĩa:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Trong thẻ Tools của Properties, nút Check dùng để kiểm tra và khắc phục lỗi đĩa.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Đổi tên tệp trong bài Thực hành sử dụng hệ điều hành."
-      },
-      {
-        "id": "T11-B02-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Tìm kiếm?",
-        "lua_chon": {
-          "A": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống.",
-          "B": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
-          "C": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.",
-          "D": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm."
+        {
+          "ma": "b",
+          "noi_dung": "Việc hợp mảnh (Optimize) có ý nghĩa cải thiện tốc độ rõ rệt đối với ổ D (HDD) dùng đầu đọc cơ học.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính."
-      },
-      {
-        "id": "T11-B02-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống: Không nhớ tệp được lưu ở thư mục nào. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
-          "B": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
-          "C": "Tìm kiếm tệp bằng từ khóa phù hợp.",
-          "D": "Tạo thư mục phù hợp và chuyển tệp vào đó."
+        {
+          "ma": "c",
+          "noi_dung": "Đĩa thể rắn SSD cũng sử dụng đầu từ cơ học quay tròn nên bắt buộc phải hợp mảnh hằng ngày.",
+          "dap_an": false,
+          "giai_thich": "Sai. SSD không có bộ phận chuyển động cơ học và không cần hợp mảnh."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Tìm kiếm tệp bằng từ khóa phù hợp."
-      },
-      {
-        "id": "T11-B02-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tìm kiếm?",
-        "lua_chon": {
-          "A": "Tên tài liệu hiện là New Document 1.",
-          "B": "Cần cài phần mềm học tập.",
-          "C": "Không nhớ tệp được lưu ở thư mục nào.",
-          "D": "Tài liệu của một dự án bị lẫn với các tệp khác."
+        {
+          "ma": "d",
+          "noi_dung": "Trước khi chọn Optimize, hộp thoại hiển thị tỉ lệ phần trăm phân mảnh của các đĩa cứng HDD.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_DS_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thực hành Ubuntu ở chế độ thử nghiệm",
+      "dan_nhap": "Học sinh khởi động máy tính từ thẻ nhớ cài đặt Ubuntu ở chế độ thử nghiệm (Try Ubuntu):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể xem các ổ đĩa cứng của máy tính bằng cách nháy vào liên kết '+ Other Locations'.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Tìm kiếm trong bài Thực hành sử dụng hệ điều hành."
-      },
-      {
-        "id": "T11-B02-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Cài ứng dụng?",
-        "lua_chon": {
-          "A": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống.",
-          "B": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.",
-          "C": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
-          "D": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính."
+        {
+          "ma": "b",
+          "noi_dung": "Ở chế độ thử nghiệm, học sinh có thể tự do xóa hoặc ghi đè tệp lên ổ đĩa cứng hệ thống của máy.",
+          "dap_an": false,
+          "giai_thich": "Sai. Ổ đĩa cứng được bảo vệ nên không thể ghi, xóa ở chế độ thử nghiệm."
         },
-        "dap_an": "A",
-        "giai_thich": "Ứng dụng nên được cài từ nguồn đáng tin cậy và kiểm tra yêu cầu hệ thống."
-      },
-      {
-        "id": "T11-B02-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống: Cần cài phần mềm học tập. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tìm kiếm tệp bằng từ khóa phù hợp.",
-          "B": "Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy.",
-          "C": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
-          "D": "Đổi tên bằng mô tả ngắn, dễ hiểu."
+        {
+          "ma": "c",
+          "noi_dung": "Học sinh vẫn có thể đọc, ghi và tạo thư mục bình thường trên thẻ nhớ USB ngoài.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Tải từ trang chính thức hoặc kho ứng dụng đáng tin cậy."
-      },
-      {
-        "id": "T11-B02-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cài ứng dụng?",
-        "lua_chon": {
-          "A": "Cần cài phần mềm học tập.",
-          "B": "Tài liệu của một dự án bị lẫn với các tệp khác.",
-          "C": "Tên tài liệu hiện là New Document 1.",
-          "D": "Không nhớ tệp được lưu ở thư mục nào."
+        {
+          "ma": "d",
+          "noi_dung": "Ubuntu là hệ điều hành nguồn mở nên có thể trải nghiệm từ thẻ nhớ mà không cần cài đè lên Windows.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_DS_05",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tiện ích danh bạ và đồng hồ trên di động",
+      "dan_nhap": "Thực hành các tiện ích cơ bản trên điện thoại thông minh:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Khi thêm một liên hệ vào danh bạ, có thể lưu họ tên, số điện thoại, địa chỉ và gắn vào nhóm.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Cài ứng dụng trong bài Thực hành sử dụng hệ điều hành."
-      },
-      {
-        "id": "T11-B02-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Cập nhật?",
-        "lua_chon": {
-          "A": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.",
-          "B": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
-          "C": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
-          "D": "Cập nhật có thể sửa lỗi và vá lỗ hổng bảo mật."
+        {
+          "ma": "b",
+          "noi_dung": "Mỗi số điện thoại chỉ có thể thuộc duy nhất một nhóm danh bạ.",
+          "dap_an": false,
+          "giai_thich": "Sai. Một số điện thoại có thể thuộc nhiều nhóm."
         },
-        "dap_an": "D",
-        "giai_thich": "Cập nhật có thể sửa lỗi và vá lỗ hổng bảo mật."
-      },
-      {
-        "id": "T11-B02-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống: Thiết bị thông báo có bản cập nhật bảo mật chính thức. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kiểm tra thông tin và cài bản cập nhật từ nguồn chính thức.",
-          "B": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
-          "C": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
-          "D": "Tìm kiếm tệp bằng từ khóa phù hợp."
+        {
+          "ma": "c",
+          "noi_dung": "Ứng dụng Đồng hồ cho phép đặt nhắc hẹn một lần hoặc định kì.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Kiểm tra thông tin và cài bản cập nhật từ nguồn chính thức."
-      },
-      {
-        "id": "T11-B02-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cập nhật?",
-        "lua_chon": {
-          "A": "Tên tài liệu hiện là New Document 1.",
-          "B": "Không nhớ tệp được lưu ở thư mục nào.",
-          "C": "Thiết bị thông báo có bản cập nhật bảo mật chính thức.",
-          "D": "Tài liệu của một dự án bị lẫn với các tệp khác."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Cập nhật trong bài Thực hành sử dụng hệ điều hành."
-      },
-      {
-        "id": "T11-B02-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Quyền ứng dụng?",
-        "lua_chon": {
-          "A": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm.",
-          "B": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
-          "C": "Quyền ứng dụng kiểm soát khả năng truy cập camera, vị trí và dữ liệu.",
-          "D": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích."
-        },
-        "dap_an": "C",
-        "giai_thich": "Quyền ứng dụng kiểm soát khả năng truy cập camera, vị trí và dữ liệu."
-      },
-      {
-        "id": "T11-B02-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống: Ứng dụng đèn pin yêu cầu quyền đọc danh bạ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Tạo thư mục phù hợp và chuyển tệp vào đó.",
-          "B": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
-          "C": "Tìm kiếm tệp bằng từ khóa phù hợp.",
-          "D": "Từ chối quyền không cần thiết và xem lại độ tin cậy ứng dụng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Từ chối quyền không cần thiết và xem lại độ tin cậy ứng dụng."
-      },
-      {
-        "id": "T11-B02-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quyền ứng dụng?",
-        "lua_chon": {
-          "A": "Ứng dụng đèn pin yêu cầu quyền đọc danh bạ.",
-          "B": "Tài liệu của một dự án bị lẫn với các tệp khác.",
-          "C": "Tên tài liệu hiện là New Document 1.",
-          "D": "Không nhớ tệp được lưu ở thư mục nào."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Quyền ứng dụng trong bài Thực hành sử dụng hệ điều hành."
-      },
-      {
-        "id": "T11-B02-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Phát biểu nào đúng về Gỡ cài đặt?",
-        "lua_chon": {
-          "A": "Công cụ tìm kiếm của hệ điều hành có thể lọc tệp theo tên hoặc thuộc tính.",
-          "B": "Công cụ gỡ ứng dụng giúp loại bỏ ứng dụng theo quy trình của hệ điều hành.",
-          "C": "Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.",
-          "D": "Tên tệp rõ ràng giúp nhận biết nội dung và tìm kiếm."
-        },
-        "dap_an": "B",
-        "giai_thich": "Công cụ gỡ ứng dụng giúp loại bỏ ứng dụng theo quy trình của hệ điều hành."
-      },
-      {
-        "id": "T11-B02-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống: Muốn xóa ứng dụng không còn dùng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đổi tên bằng mô tả ngắn, dễ hiểu.",
-          "B": "Tìm kiếm tệp bằng từ khóa phù hợp.",
-          "C": "Dùng chức năng gỡ cài đặt trong cài đặt hệ điều hành.",
-          "D": "Tạo thư mục phù hợp và chuyển tệp vào đó."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Dùng chức năng gỡ cài đặt trong cài đặt hệ điều hành."
-      },
-      {
-        "id": "T11-B02-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Gỡ cài đặt?",
-        "lua_chon": {
-          "A": "Tên tài liệu hiện là New Document 1.",
-          "B": "Không nhớ tệp được lưu ở thư mục nào.",
-          "C": "Muốn xóa ứng dụng không còn dùng.",
-          "D": "Tài liệu của một dự án bị lẫn với các tệp khác."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Gỡ cài đặt trong bài Thực hành sử dụng hệ điều hành."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B02-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Xét tính đúng/sai về Thực hành sử dụng hệ điều hành:",
-        "y_kien": {
-          "a": "Gỡ ứng dụng bằng cách xóa ngẫu nhiên các tệp hệ thống là cách an toàn nhất.",
-          "b": true,
-          "c": false,
-          "d": "Thư mục giúp phân loại và tìm lại dữ liệu."
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B02-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Nêu quy trình tải, cài và gỡ ứng dụng an toàn.",
-        "dap_an_goi_y": "Chọn nguồn tin cậy, kiểm tra yêu cầu/quyền, cài theo hướng dẫn; khi gỡ dùng công cụ quản lí ứng dụng và xác nhận dữ liệu cần giữ.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B02-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 2 - Thực hành sử dụng hệ điều hành",
-        "noi_dung": "Dựa vào kiến thức “Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Tài liệu của một dự án bị lẫn với các tệp khác.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Thư mục giúp nhóm tệp theo chủ đề hoặc mục đích. Vận dụng: Tạo thư mục phù hợp và chuyển tệp vào đó. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Chức năng Đếm giờ đặt trước khoảng thời gian và đếm lùi cho tới 0.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B02_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Quản lí tệp trên Windows",
+      "cau_hoi": "Tiện ích quản lí tệp và thư mục mặc định trên Windows có tên là gì?",
+      "dap_an": "File Explorer",
+      "dap_an_tuong_duong": [
+        "Windows Explorer"
+      ],
+      "giai_thich": "File Explorer là trình quản lí tệp mặc định trên Windows.",
+      "nguon": "ndc_bai_2"
+    },
+    {
+      "id": "B02_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Kiểm tra lỗi đĩa",
+      "cau_hoi": "Nút lệnh dùng để kiểm tra và khắc phục lỗi đĩa trong thẻ Tools của cửa sổ Properties là gì?",
+      "dap_an": "Check",
+      "dap_an_tuong_duong": [
+        "check"
+      ],
+      "giai_thich": "Trong Properties -> Tools, nút Check dùng để kiểm tra lỗi đĩa.",
+      "nguon": "ndc_bai_2"
+    },
+    {
+      "id": "B02_TLN_03",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hợp mảnh ổ đĩa",
+      "cau_hoi": "Nút lệnh dùng để tối ưu hóa, hợp mảnh ổ đĩa cứng trong thẻ Tools là gì?",
+      "dap_an": "Optimize",
+      "dap_an_tuong_duong": [
+        "optimize"
+      ],
+      "giai_thich": "Trong Properties -> Tools, nút Optimize dùng để tối ưu hóa và hợp mảnh.",
+      "nguon": "ndc_bai_2"
+    },
+    {
+      "id": "B02_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Dọn rác ổ đĩa",
+      "cau_hoi": "Tiện ích dọn rác đĩa cứng nằm trong thẻ General của cửa sổ Properties có tên tiếng Anh là gì?",
+      "dap_an": "Disk Cleanup",
+      "dap_an_tuong_duong": [
+        "Cleanup"
+      ],
+      "giai_thich": "Disk Cleanup tìm và xóa các tệp tạm, rác hệ thống an toàn.",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Độ chính xác chức năng Bấm giờ",
+      "cau_hoi": "Chức năng bấm giờ (Stopwatch) trong tiện ích Đồng hồ trên thiết bị di động có độ chính xác tới bao nhiêu giây?",
+      "dap_an": "1/100 giây",
+      "dap_an_tuong_duong": [
+        "0,01 giây",
+        "1% giây",
+        "0.01s"
+      ],
+      "giai_thich": "Bấm giờ đo chính xác đến 1/100 giây (1% giây).",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B02_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy trình kiểm tra và hợp mảnh đĩa",
+      "cau_hoi": "Nêu các bước thực hiện kiểm tra lỗi đĩa và hợp mảnh ổ đĩa cứng trên hệ điều hành Windows. Vì sao chỉ nên hợp mảnh đĩa từ (HDD) mà không cần hợp mảnh đĩa thể rắn (SSD)?",
+      "goi_y_dap_an": "- Các bước: Bước 1: Mở File Explorer, nháy phải chuột vào ổ đĩa cần xử lí → Properties; Bước 2: Chọn thẻ Tools; Bước 3: Chọn Check để kiểm tra lỗi đĩa hoặc Optimize để hợp mảnh.\n- Giải thích: Đĩa từ (HDD) dùng đầu từ cơ học nên dữ liệu phân mảnh làm đầu đọc di chuyển chậm; SSD không có bộ phận cơ học nên không cần hợp mảnh.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng 3 bước thực hành (1,2đ); giải thích đúng sự khác nhau giữa HDD và SSD (0,8đ).",
+      "nguon": "ndc_bai_2 & Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "So sánh các phương pháp đăng nhập di động",
+      "cau_hoi": "So sánh ưu điểm và nhược điểm của ba phương pháp đăng nhập trên thiết bị di động: dùng mật khẩu, nhận dạng vân tay và nhận dạng khuôn mặt.",
+      "goi_y_dap_an": "- Mật khẩu: Độ sai lệch rất ít, dễ dùng nhưng tốn thời gian nhập và dễ quên.\n- Vân tay: Nhanh gọn, an toàn nhưng kém nhạy khi tay ướt hoặc có mồ hôi.\n- Khuôn mặt: Phản hồi nhanh, khắc phục nhược điểm tay ướt của vân tay nhưng trong một số điều kiện ánh sáng/góc nhìn vẫn có thể chưa chính xác.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đủ ưu và nhược điểm của cả 3 phương pháp (mỗi phương pháp 0,6đ; trình bày rõ ràng 0,2đ).",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    },
+    {
+      "id": "B02_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Sử dụng tiện ích Disk Cleanup",
+      "cau_hoi": "Trình bày mục đích, cách mở và các nhóm tệp có thể xóa an toàn bằng tiện ích dọn đĩa (Disk Cleanup) trên Windows.",
+      "goi_y_dap_an": "- Mục đích: Tìm kiếm, phân tích và xóa các tệp không cần thiết nhằm thu hồi dung lượng trống cho đĩa cứng.\n- Cách mở: Chuột phải vào ổ đĩa → Properties → thẻ General → nhấn Disk Cleanup (có thể chọn Cleanup system files).\n- Các loại tệp xóa an toàn: tệp tạm Internet, tệp tạm của hệ điều hành, tệp trong Recycle Bin, nhật kí cài đặt, trang web lưu ngoại tuyến, tệp chương trình tải về không còn dùng.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng mục đích (0,5đ), cách mở (0,7đ) và kể được từ 4 loại tệp xóa an toàn trở lên (0,8đ).",
+      "nguon": "Kenhgiaovien_2_thuc_hanh.docx"
+    }
+  ]
 }

@@ -1,424 +1,576 @@
 {
-  "ma_bai": "BAI_05",
-  "bai_so": 5,
+  "bai_id": "BAI_05",
   "ten_bai": "Kết nối máy tính với các thiết bị số",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 1: Máy tính và xã hội tri thức",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_5_ket_noi_may.docx",
+    "cd1_bai_5_ket_noi_may_tinh_voi_cac_thiet_bi_so.docx",
+    "ndc_bai_5_ket_noi_may_tinh_voi_cac_thiet_bi_so.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_5_ket_noi_may_tinh_voi_cac_thiet_bi_so.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_5_ket_noi_may_tinh_voi_thiet_bi_vao_ra_thong_dung.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B05_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thông số cơ bản của chuột máy tính",
+      "cau_hoi": "Hai thông số quan trọng nhất của chuột máy tính là gì?",
+      "lua_chon": {
+        "A": "Phương thức kết nối (có dây/không dây) và độ phân giải (dpi)",
+        "B": "Kích thước và tần số quét",
+        "C": "Tốc độ in và khổ giấy",
+        "D": "Khả năng hiển thị màu và thời gian phản hồi"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Hai thông số quan trọng của chuột là phương thức kết nối và độ phân giải (dpi).",
+      "nguon": "ndc_bai_5 & tln_..._bai_5"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B05_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Đặc điểm cổng kết nối HDMI",
+      "cau_hoi": "Cổng kết nối nào truyền đồng thời cả hình ảnh và âm thanh bằng tín hiệu số với độ phân giải cao?",
+      "lua_chon": {
+        "A": "VGA",
+        "B": "HDMI",
+        "C": "PS/2",
+        "D": "Jack 3.5mm"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "HDMI truyền tín hiệu số gồm cả hình ảnh và âm thanh; VGA truyền tín hiệu tương tự chỉ có hình ảnh.",
+      "nguon": "ndc_bai_5 & tln_..._bai_5"
+    },
+    {
+      "id": "B05_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa tần số quét màn hình",
+      "cau_hoi": "Tần số quét của màn hình 60 Hz có ý nghĩa gì?",
+      "lua_chon": {
+        "A": "Màn hình có 60 triệu màu",
+        "B": "Mỗi giây hình ảnh trên màn hình được hiển thị lại 60 lần",
+        "C": "Kích thước đường chéo màn hình là 60 inch",
+        "D": "Thời gian phản hồi của điểm ảnh là 60 giây"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Tần số quét là số lần hiển thị lại hình ảnh trong 1 giây.",
+      "nguon": "ndc_bai_5 & trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_TN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân loại thiết bị vào - ra hai chiều",
+      "cau_hoi": "Thiết bị nào sau đây có thể đóng vai trò vừa là thiết bị vào, vừa là thiết bị ra?",
+      "lua_chon": {
+        "A": "Bàn phím cơ",
+        "B": "Máy in laser",
+        "C": "Chuột quang",
+        "D": "Bộ nhớ ngoài (USB) hoặc màn hình cảm ứng"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Thiết bị trao đổi thông tin hai chiều như USB hoặc màn hình cảm ứng được coi là vừa thiết bị vào vừa thiết bị ra.",
+      "nguon": "cd1_bai_5"
+    },
+    {
+      "id": "B05_TN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy trình ghép đôi thiết bị Bluetooth mới",
+      "cau_hoi": "Để kết nối máy tính với một thiết bị Bluetooth mới chưa từng ghép đôi, bước cần làm là gì?",
+      "lua_chon": {
+        "A": "Bật Bluetooth trên cả hai thiết bị, dò tìm và thực hiện ghép đôi (pairing)",
+        "B": "Cắm cáp HDMI vào cả hai thiết bị",
+        "C": "Cài đặt lại hệ điều hành",
+        "D": "Định dạng lại ổ đĩa cứng"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Kết nối Bluetooth với thiết bị mới cần bật Bluetooth, dò tìm thiết bị và ghép đôi (có thể nhập mã xác thực).",
+      "nguon": "cd1_bai_5 & tln_..._bai_5"
+    },
+    {
+      "id": "B05_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Phân loại thiết bị vào thông dụng",
+      "cau_hoi": "Nhóm thiết bị nào sau đây chỉ gồm các thiết bị vào (Input devices)?",
+      "lua_chon": {
+        "A": "Máy chiếu, máy in laser, tai nghe",
+        "B": "Màn hình, máy in, loa",
+        "C": "Bàn phím, chuột, máy quét ảnh",
+        "D": "Màn hình LED, loa ngoài, máy vẽ"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Bàn phím, chuột và máy quét ảnh đưa dữ liệu từ bên ngoài vào máy tính nên là thiết bị vào.",
+      "nguon": "ndc_bai_5 & Kenhgiaovien_5"
+    },
+    {
+      "id": "B05_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thông số độ phân giải màn hình",
+      "cau_hoi": "Thông số 1920 × 1080 (Full HD) của màn hình máy tính biểu thị đại lượng nào?",
+      "lua_chon": {
+        "A": "Tần số quét theo chiều ngang và dọc",
+        "B": "Số lượng màu sắc tối đa của màn hình",
+        "C": "Kích thước màn hình tính bằng milimét",
+        "D": "Số điểm ảnh (pixel) theo chiều ngang và chiều dọc của màn hình"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Độ phân giải màn hình được thể hiện bằng số điểm ảnh theo chiều ngang và chiều dọc.",
+      "nguon": "ndc_bai_5"
+    },
+    {
+      "id": "B05_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khả năng thể hiện màu của màn hình",
+      "cau_hoi": "Màn hình có khả năng thể hiện màu 24-bit có thể hiển thị tối đa khoảng bao nhiêu màu sắc khác nhau?",
+      "lua_chon": {
+        "A": "256 màu",
+        "B": "Khoảng 16,7 triệu màu",
+        "C": "65 nghìn màu",
+        "D": "1 tỉ màu"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "2^24 = 16.777.216, tức khoảng 16,7 triệu màu.",
+      "nguon": "ndc_bai_5"
+    },
+    {
+      "id": "B05_TN_09",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các loại máy in phổ biến",
+      "cau_hoi": "Loại máy in nào thường được dùng để in hóa đơn siêu thị nhờ cơ chế tác động nhiệt lên giấy chuyên dụng mà không cần mực in truyền thống?",
+      "lua_chon": {
+        "A": "Máy in nhiệt",
+        "B": "Máy in kim",
+        "C": "Máy in phun màu",
+        "D": "Máy in laser"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Máy in nhiệt dùng đầu in gia nhiệt tác động lên giấy cảm nhiệt, phổ biến trong in hóa đơn.",
+      "nguon": "ndc_bai_5 & Kenhgiaovien_5"
+    },
+    {
+      "id": "B05_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cơ chế truyền dữ liệu của cổng USB",
+      "cau_hoi": "Phát biểu nào sau đây đúng nhất về chuẩn kết nối USB (Universal Serial Bus)?",
+      "lua_chon": {
+        "A": "Chỉ truyền tín hiệu hình ảnh tương tự tới máy chiếu",
+        "B": "Là chuẩn truyền dữ liệu song song chỉ dùng cho máy in kim",
+        "C": "Là chuẩn truyền dữ liệu tuần tự, đa năng, cho phép kết nối nhiều loại thiết bị ngoại vi",
+        "D": "Không hỗ trợ tính năng cắm là chạy (Plug & Play)"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "USB là chuẩn kết nối tuần tự đa năng tốc độ cao, hỗ trợ Plug & Play cho nhiều thiết bị.",
+      "nguon": "ndc_bai_5 & trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thời gian phản hồi màn hình",
+      "cau_hoi": "Thời gian phản hồi (response time) của màn hình càng nhỏ thì mang lại lợi ích gì?",
+      "lua_chon": {
+        "A": "Màn hình tiêu thụ điện năng nhiều hơn",
+        "B": "Màn hình truyền được cả tín hiệu âm thanh qua cáp VGA",
+        "C": "Kích thước đường chéo màn hình tự động tăng lên",
+        "D": "Điểm ảnh đổi màu nhanh hơn, giảm hiện tượng bóng mờ khi xem cảnh chuyển động nhanh"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Thời gian phản hồi là thời gian một điểm ảnh đổi màu; càng nhỏ thì chuyển động càng mượt, ít bóng mờ.",
+      "nguon": "ndc_bai_5"
+    },
+    {
+      "id": "B05_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Vai trò của phần mềm điều khiển (Driver)",
+      "cau_hoi": "Vì sao khi kết nối một số thiết bị chuyên dụng (như máy in, máy quét ảnh đời mới) vào máy tính, người dùng cần cài đặt driver từ nhà sản xuất?",
+      "lua_chon": {
+        "A": "Để hệ điều hành hiểu và giao tiếp, khai thác đúng các tính năng của thiết bị đó",
+        "B": "Để tăng dung lượng bộ nhớ RAM của máy tính",
+        "C": "Để chuyển đổi cổng VGA thành cổng HDMI",
+        "D": "Để tự động ghép đôi Bluetooth không cần bật nguồn"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Driver là phần mềm trung gian giúp hệ điều hành nhận diện và điều khiển đầy đủ chức năng thiết bị.",
+      "nguon": "cd1_bai_5 & trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt cổng VGA và HDMI",
+      "cau_hoi": "Điểm khác biệt cơ bản giữa cổng VGA và cổng HDMI là gì?",
+      "lua_chon": {
+        "A": "VGA truyền tín hiệu số có âm thanh; HDMI truyền tín hiệu tương tự không âm thanh",
+        "B": "Cả hai cổng đều không thể kết nối tới máy chiếu",
+        "C": "VGA chỉ dùng cho kết nối mạng LAN; HDMI chỉ dùng cho chuột",
+        "D": "VGA truyền tín hiệu tương tự chỉ có hình ảnh; HDMI truyền tín hiệu số gồm cả hình ảnh và âm thanh"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "VGA là chuẩn analog chỉ truyền hình ảnh; HDMI là chuẩn số truyền cả hình ảnh và âm thanh.",
+      "nguon": "ndc_bai_5"
+    },
+    {
+      "id": "B05_TN_14",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ý nghĩa thông số tốc độ máy in",
+      "cau_hoi": "Thông số '30 ppm' (pages per minute) trên một máy in văn phòng cho biết điều gì?",
+      "lua_chon": {
+        "A": "Máy in có thể in tối đa khoảng 30 trang mỗi phút",
+        "B": "Độ phân giải bản in là 30 dpi",
+        "C": "Máy in chỉ hỗ trợ tối đa 30 khổ giấy khác nhau",
+        "D": "Khoảng cách kết nối không dây tối đa là 30 mét"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "ppm là viết tắt của pages per minute, biểu thị tốc độ in số trang trong một phút.",
+      "nguon": "ndc_bai_5 & trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lý tình huống kết nối máy chiếu thiếu âm thanh",
+      "cau_hoi": "Khi kết nối laptop với tivi thông minh bằng cáp VGA để chiếu video học tập, hình ảnh hiển thị bình thường nhưng tivi không phát ra âm thanh. Nguyên nhân chính là gì?",
+      "lua_chon": {
+        "A": "Độ phân giải màn hình laptop quá cao",
+        "B": "Cáp VGA chỉ truyền tín hiệu hình ảnh, không truyền âm thanh",
+        "C": "Tivi bị tắt kết nối Bluetooth",
+        "D": "Chuột máy tính có độ phân giải dpi thấp"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Cáp VGA không truyền âm thanh; muốn truyền cả hình và tiếng qua 1 dây cần dùng HDMI hoặc cắm thêm dây âm thanh riêng.",
+      "nguon": "ndc_bai_5"
+    },
+    {
+      "id": "B05_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kết nối máy in qua mạng LAN",
+      "cau_hoi": "Để kết nối máy tính với một máy in dùng chung trong phòng học qua mạng nội bộ (LAN), điều kiện nào sau đây cần được đảm bảo?",
+      "lua_chon": {
+        "A": "Máy tính và máy in phải đặt cách nhau dưới 1 mét",
+        "B": "Phải cắm cáp VGA từ máy tính sang máy in",
+        "C": "Máy tính và máy in phải cùng kết nối vào mạng LAN đó và máy tính được cài đúng driver theo địa chỉ IP của máy in",
+        "D": "Phải định dạng lại thẻ nhớ của máy in"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Máy in mạng cần nằm cùng mạng LAN với máy tính và cấu hình qua địa chỉ IP kèm driver phù hợp.",
+      "nguon": "cd1_bai_5 & Kenhgiaovien_5"
+    },
+    {
+      "id": "B05_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Truy xuất ảnh từ máy ảnh số",
+      "cau_hoi": "Khi kết nối máy ảnh số với máy tính bằng cáp USB tương thích, máy tính thường nhận diện bộ nhớ trong/thẻ nhớ của máy ảnh như thế nào?",
+      "lua_chon": {
+        "A": "Như một bộ xử lí trung tâm (CPU) phụ",
+        "B": "Như một màn hình mở rộng thứ hai",
+        "C": "Như một thiết bị lưu trữ ngoài để sao chép tệp ảnh và video",
+        "D": "Như một bộ định tuyến mạng Wi-Fi"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Máy ảnh kết nối USB cho phép máy tính truy cập thẻ nhớ tương tự bộ nhớ ngoài để chép dữ liệu.",
+      "nguon": "ndc_bai_5"
+    },
+    {
+      "id": "B05_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Khái niệm Plug & Play",
+      "cau_hoi": "Cắm một con chuột USB mới mua vào máy tính chạy Windows và sử dụng được ngay sau vài giây mà không cần cài đặt đĩa phần mềm đi kèm. Điều này thể hiện tính năng nào?",
+      "lua_chon": {
+        "A": "Ghép đôi Bluetooth (Pairing)",
+        "B": "Chia sẻ máy in qua IP",
+        "C": "Truyền hình ảnh tương tự",
+        "D": "Cắm là chạy (Plug & Play)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Plug & Play cho phép hệ điều hành tự động nhận diện và nạp driver cơ bản ngay khi cắm thiết bị.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Tư vấn chọn thông số thiết bị theo nhu cầu thực tế",
+      "cau_hoi": "Một học sinh cần chọn mua màn hình để học thiết kế đồ họa và chỉnh sửa ảnh chuyên sâu. Cặp thông số nào cần ưu tiên kiểm tra hàng đầu?",
+      "lua_chon": {
+        "A": "Chỉ cần có cổng VGA và kích thước nhỏ dưới 14 inch",
+        "B": "Độ phân giải cao và khả năng thể hiện màu sắc chuẩn xác (ví dụ 24-bit trở lên)",
+        "C": "Chỉ cần có cổng PS/2 và tốc độ in 30 trang/phút",
+        "D": "Chỉ cần có kết nối Bluetooth tầm ngắn"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Thiết kế đồ họa đòi hỏi hình ảnh sắc nét (độ phân giải cao) và tái tạo màu trung thực.",
+      "nguon": "ndc_bai_5 & Kenhgiaovien_5"
+    },
+    {
+      "id": "B05_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích và khắc phục sự cố kết nối thiết bị số",
+      "cau_hoi": "Khi cắm một máy in mới vào máy tính qua cổng USB nhưng máy tính không in được dù đã bật nguồn máy in và nạp đủ giấy, trình tự kiểm tra kĩ thuật hợp lí nhất là gì?",
+      "lua_chon": {
+        "A": "Chuyển chuột sang cổng USB khác rồi tắt nguồn màn hình",
+        "B": "Thay màn hình máy tính có tần số quét cao hơn",
+        "C": "Kiểm tra dây cáp/cổng USB -> kiểm tra đã cài đúng driver và chọn đúng máy in mặc định chưa -> kiểm tra trạng thái hàng đợi in",
+        "D": "Tháo bỏ bộ nhớ RAM để khởi động lại máy"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Quy trình chuẩn là kiểm tra kết nối vật lí (cáp/cổng), phần mềm điều khiển (driver/chọn máy in) và trạng thái hàng đợi in.",
+      "nguon": "cd1_bai_5 & ndc_bai_5"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B05-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Cổng nào thường truyền hình ảnh và âm thanh số đến màn hình?",
-        "lua_chon": {
-          "A": "PS/2",
-          "B": "Âm thanh 3,5 mm",
-          "C": "HDMI",
-          "D": "RJ-45"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B05_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thông số và kết nối của chuột máy tính",
+      "dan_nhap": "Nhận định về vai trò và thông số của chuột máy tính:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Chuột có độ phân giải 1600 dpi có thể xác định được 1600 điểm khác nhau khi di chuyển 1 inch (2,54 cm) trên mặt phẳng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Đáp án đúng vì HDMI; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B05-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Phát biểu nào đúng về Thiết bị vào?",
-        "lua_chon": {
-          "A": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
-          "B": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ.",
-          "C": "Bàn phím và micro đưa dữ liệu vào máy tính.",
-          "D": "Màn hình và loa biểu diễn kết quả cho người dùng."
+        {
+          "ma": "b",
+          "noi_dung": "Độ phân giải càng cao thì chuột di chuyển càng chậm trên màn hình.",
+          "dap_an": false,
+          "giai_thich": "Sai. Độ phân giải cao giúp con trỏ di chuyển nhanh/nhạy hơn với cùng quãng đường di chuột."
         },
-        "dap_an": "C",
-        "giai_thich": "Bàn phím và micro đưa dữ liệu vào máy tính."
-      },
-      {
-        "id": "T11-B05-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống: Cần ghi âm lời nói vào máy tính. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Loa hoặc tai nghe.",
-          "B": "HDMI.",
-          "C": "USB tương thích với thiết bị.",
-          "D": "Micro."
+        {
+          "ma": "c",
+          "noi_dung": "Tốc độ chuột có thể điều chỉnh trong hệ điều hành để phù hợp với mục đích thiết kế hay chơi game.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Micro."
-      },
-      {
-        "id": "T11-B05-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thiết bị vào?",
-        "lua_chon": {
-          "A": "Cần nghe âm thanh do ứng dụng phát.",
-          "B": "Muốn xuất cả hình và tiếng đến TV.",
-          "C": "Cần kết nối ổ lưu trữ ngoài.",
-          "D": "Cần ghi âm lời nói vào máy tính."
+        {
+          "ma": "d",
+          "noi_dung": "Một chuột kết nối qua Bluetooth luôn có độ trễ thấp hơn chuột có dây trong mọi trường hợp.",
+          "dap_an": false,
+          "giai_thich": "Sai. Kết nối có dây thường ổn định và có độ trễ thấp hơn Bluetooth."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Đặc điểm kĩ thuật của màn hình",
+      "dan_nhap": "Nhận định về đặc điểm kĩ thuật của màn hình:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Độ phân giải càng cao thì hình ảnh càng sắc nét do có nhiều điểm ảnh hiển thị.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Thiết bị vào trong bài Kết nối máy tính với các thiết bị số."
-      },
-      {
-        "id": "T11-B05-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Phát biểu nào đúng về Thiết bị ra?",
-        "lua_chon": {
-          "A": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ.",
-          "B": "Màn hình và loa biểu diễn kết quả cho người dùng.",
-          "C": "Bàn phím và micro đưa dữ liệu vào máy tính.",
-          "D": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích."
+        {
+          "ma": "b",
+          "noi_dung": "Tần số quét càng cao giúp hình ảnh mượt mà hơn, giảm tình trạng giật hình.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Màn hình và loa biểu diễn kết quả cho người dùng."
-      },
-      {
-        "id": "T11-B05-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống: Cần nghe âm thanh do ứng dụng phát. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "HDMI.",
-          "B": "USB tương thích với thiết bị.",
-          "C": "Loa hoặc tai nghe.",
-          "D": "Micro."
+        {
+          "ma": "c",
+          "noi_dung": "Tần số quét 60 Hz có nghĩa là mỗi giây hình ảnh được tái hiện 60 lần.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Loa hoặc tai nghe."
-      },
-      {
-        "id": "T11-B05-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thiết bị ra?",
-        "lua_chon": {
-          "A": "Cần kết nối ổ lưu trữ ngoài.",
-          "B": "Cần nghe âm thanh do ứng dụng phát.",
-          "C": "Cần ghi âm lời nói vào máy tính.",
-          "D": "Muốn xuất cả hình và tiếng đến TV."
+        {
+          "ma": "d",
+          "noi_dung": "Màn hình có độ phân giải thấp luôn có thời gian phản hồi nhanh hơn màn hình độ phân giải cao.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thời gian phản hồi phụ thuộc công nghệ tấm nền, không phải do độ phân giải thấp hơn."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đọc hiểu thông số kĩ thuật máy in",
+      "dan_nhap": "Một máy in có thông số: 30 trang/phút, 600 dpi, hỗ trợ in màu và kết nối không dây:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Số trang in trong một phút cho thấy tốc độ làm việc của máy in.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Thiết bị ra trong bài Kết nối máy tính với các thiết bị số."
-      },
-      {
-        "id": "T11-B05-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Phát biểu nào đúng về HDMI?",
-        "lua_chon": {
-          "A": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
-          "B": "Bàn phím và micro đưa dữ liệu vào máy tính.",
-          "C": "Màn hình và loa biểu diễn kết quả cho người dùng.",
-          "D": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ."
+        {
+          "ma": "b",
+          "noi_dung": "Độ phân giải 600 dpi giúp in được hình ảnh và văn bản sắc nét, rõ ràng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích."
-      },
-      {
-        "id": "T11-B05-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống: Muốn xuất cả hình và tiếng đến TV. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "USB tương thích với thiết bị.",
-          "B": "HDMI.",
-          "C": "Micro.",
-          "D": "Loa hoặc tai nghe."
+        {
+          "ma": "c",
+          "noi_dung": "Hỗ trợ in màu không phải là một thông số đánh giá chức năng của máy in.",
+          "dap_an": false,
+          "giai_thich": "Sai. Khả năng in màu là một thông số quan trọng của máy in."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, HDMI."
-      },
-      {
-        "id": "T11-B05-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về HDMI?",
-        "lua_chon": {
-          "A": "Cần ghi âm lời nói vào máy tính.",
-          "B": "Cần nghe âm thanh do ứng dụng phát.",
-          "C": "Cần kết nối ổ lưu trữ ngoài.",
-          "D": "Muốn xuất cả hình và tiếng đến TV."
+        {
+          "ma": "d",
+          "noi_dung": "Kết nối không dây giúp linh hoạt trong việc đặt vị trí máy in so với máy tính.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các cổng kết nối thông dụng",
+      "dan_nhap": "Nhận định về một số cổng kết nối thông dụng trên máy tính:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Cổng VGA truyền tín hiệu hình ảnh dạng tương tự và không truyền được âm thanh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với HDMI trong bài Kết nối máy tính với các thiết bị số."
-      },
-      {
-        "id": "T11-B05-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Phát biểu nào đúng về USB?",
-        "lua_chon": {
-          "A": "Bàn phím và micro đưa dữ liệu vào máy tính.",
-          "B": "Màn hình và loa biểu diễn kết quả cho người dùng.",
-          "C": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
-          "D": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ."
+        {
+          "ma": "b",
+          "noi_dung": "Cổng HDMI có thể truyền đồng thời cả hình ảnh và âm thanh kĩ thuật số.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "USB thường kết nối nhiều thiết bị ngoại vi và truyền dữ liệu/nguồn điện theo chuẩn hỗ trợ."
-      },
-      {
-        "id": "T11-B05-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống: Cần kết nối ổ lưu trữ ngoài. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "USB tương thích với thiết bị.",
-          "B": "Micro.",
-          "C": "Loa hoặc tai nghe.",
-          "D": "HDMI."
+        {
+          "ma": "c",
+          "noi_dung": "USB là giao tiếp truyền dữ liệu song song giữa máy tính và thiết bị.",
+          "dap_an": false,
+          "giai_thich": "Sai. USB là chuẩn truyền dữ liệu tuần tự (Universal Serial Bus), đa năng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, USB tương thích với thiết bị."
-      },
-      {
-        "id": "T11-B05-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về USB?",
-        "lua_chon": {
-          "A": "Muốn xuất cả hình và tiếng đến TV.",
-          "B": "Cần kết nối ổ lưu trữ ngoài.",
-          "C": "Cần ghi âm lời nói vào máy tính.",
-          "D": "Cần nghe âm thanh do ứng dụng phát."
+        {
+          "ma": "d",
+          "noi_dung": "Cổng mạng cho phép kết nối máy tính với thiết bị số qua hệ thống mạng nội bộ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_5"
+    },
+    {
+      "id": "B05_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kết nối thiết bị số và driver",
+      "dan_nhap": "Nhận định về việc kết nối thiết bị số với máy tính:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Nhiều thiết bị chỉ cần cắm đúng cổng là có thể sử dụng ngay nhờ công nghệ plug & play.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với USB trong bài Kết nối máy tính với các thiết bị số."
-      },
-      {
-        "id": "T11-B05-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Phát biểu nào đúng về Bluetooth?",
-        "lua_chon": {
-          "A": "Màn hình và loa biểu diễn kết quả cho người dùng.",
-          "B": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
-          "C": "Bluetooth kết nối không dây tầm gần giữa các thiết bị tương thích.",
-          "D": "Bàn phím và micro đưa dữ liệu vào máy tính."
+        {
+          "ma": "b",
+          "noi_dung": "Một số thiết bị vẫn cần cài trình điều khiển (driver) riêng từ nhà sản xuất để hoạt động ổn định và đủ tính năng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Bluetooth kết nối không dây tầm gần giữa các thiết bị tương thích."
-      },
-      {
-        "id": "T11-B05-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống: Muốn ghép tai nghe không dây với laptop. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Micro.",
-          "B": "Loa hoặc tai nghe.",
-          "C": "HDMI.",
-          "D": "Bật Bluetooth, đưa thiết bị vào chế độ ghép đôi và chọn đúng thiết bị."
+        {
+          "ma": "c",
+          "noi_dung": "Mọi thiết bị khi kết nối đều tự động cập nhật phần mềm điều khiển từ Internet kể cả khi máy tính ngoại tuyến.",
+          "dap_an": false,
+          "giai_thich": "Sai. Máy tính ngoại tuyến không thể tải driver từ Internet."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Bật Bluetooth, đưa thiết bị vào chế độ ghép đôi và chọn đúng thiết bị."
-      },
-      {
-        "id": "T11-B05-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bluetooth?",
-        "lua_chon": {
-          "A": "Cần ghi âm lời nói vào máy tính.",
-          "B": "Cần nghe âm thanh do ứng dụng phát.",
-          "C": "Muốn xuất cả hình và tiếng đến TV.",
-          "D": "Muốn ghép tai nghe không dây với laptop."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Bluetooth trong bài Kết nối máy tính với các thiết bị số."
-      },
-      {
-        "id": "T11-B05-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Phát biểu nào đúng về Độ phân giải?",
-        "lua_chon": {
-          "A": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích.",
-          "B": "Độ phân giải biểu thị số điểm ảnh theo chiều ngang và chiều dọc.",
-          "C": "Bàn phím và micro đưa dữ liệu vào máy tính.",
-          "D": "Màn hình và loa biểu diễn kết quả cho người dùng."
-        },
-        "dap_an": "B",
-        "giai_thich": "Độ phân giải biểu thị số điểm ảnh theo chiều ngang và chiều dọc."
-      },
-      {
-        "id": "T11-B05-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống: Màn hình ghi 1920 × 1080. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Loa hoặc tai nghe.",
-          "B": "HDMI.",
-          "C": "Số điểm ảnh của màn hình.",
-          "D": "Micro."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Số điểm ảnh của màn hình."
-      },
-      {
-        "id": "T11-B05-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Độ phân giải?",
-        "lua_chon": {
-          "A": "Muốn xuất cả hình và tiếng đến TV.",
-          "B": "Màn hình ghi 1920 × 1080.",
-          "C": "Cần ghi âm lời nói vào máy tính.",
-          "D": "Cần nghe âm thanh do ứng dụng phát."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tình huống này gắn với Độ phân giải trong bài Kết nối máy tính với các thiết bị số."
-      },
-      {
-        "id": "T11-B05-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Phát biểu nào đúng về Trình điều khiển?",
-        "lua_chon": {
-          "A": "Trình điều khiển giúp hệ điều hành giao tiếp với thiết bị.",
-          "B": "Bàn phím và micro đưa dữ liệu vào máy tính.",
-          "C": "Màn hình và loa biểu diễn kết quả cho người dùng.",
-          "D": "HDMI thường truyền hình ảnh và âm thanh số đến màn hình tương thích."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trình điều khiển giúp hệ điều hành giao tiếp với thiết bị."
-      },
-      {
-        "id": "T11-B05-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống: Máy tính nhận thiết bị nhưng chưa dùng được đầy đủ chức năng. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "HDMI.",
-          "B": "Trình điều khiển phù hợp từ nhà sản xuất.",
-          "C": "Micro.",
-          "D": "Loa hoặc tai nghe."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Trình điều khiển phù hợp từ nhà sản xuất."
-      },
-      {
-        "id": "T11-B05-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Trình điều khiển?",
-        "lua_chon": {
-          "A": "Cần ghi âm lời nói vào máy tính.",
-          "B": "Cần nghe âm thanh do ứng dụng phát.",
-          "C": "Muốn xuất cả hình và tiếng đến TV.",
-          "D": "Máy tính nhận thiết bị nhưng chưa dùng được đầy đủ chức năng."
-        },
-        "dap_an": "D",
-        "giai_thich": "Tình huống này gắn với Trình điều khiển trong bài Kết nối máy tính với các thiết bị số."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B05-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Xét tính đúng/sai về Kết nối máy tính với các thiết bị số:",
-        "y_kien": {
-          "a": "Máy in là thiết bị đầu ra.",
-          "b": "Cần kiểm tra cổng và chuẩn kết nối tương thích.",
-          "c": true,
-          "d": true
-        },
-        "dap_an": {
-          "a": true,
-          "b": false,
-          "c": true,
-          "d": false
-        },
-        "giai_thich": "Mệnh đề a: đúng; Mệnh đề b: sai; Mệnh đề c: đúng; Mệnh đề d: sai. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B05-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Nêu các bước kết nối thiết bị số với máy tính.",
-        "dap_an_goi_y": "Kiểm tra cổng/chuẩn, kết nối bằng cáp hoặc ghép đôi, cài trình điều khiển nếu cần, chọn thiết bị trong cài đặt và thử.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B05-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 5 - Kết nối máy tính với các thiết bị số",
-        "noi_dung": "Dựa vào kiến thức “Bàn phím và micro đưa dữ liệu vào máy tính.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần ghi âm lời nói vào máy tính.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Bàn phím và micro đưa dữ liệu vào máy tính. Vận dụng: Micro. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Kết nối Bluetooth cần thực hiện bước ghép đôi (pairing) trước khi truyền dữ liệu lần đầu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_5"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B05_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Đơn vị đo độ phân giải chuột và máy in",
+      "cau_hoi": "Độ phân giải của chuột và máy in thường được đo bằng đơn vị viết tắt là gì?",
+      "dap_an": "dpi",
+      "dap_an_tuong_duong": [
+        "DPI",
+        "dots per inch"
+      ],
+      "giai_thich": "dpi là viết tắt của dots per inch (số điểm trên một inch).",
+      "nguon": "ndc_bai_5 & tln_..._bai_5"
+    },
+    {
+      "id": "B05_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Đơn vị đo kích thước màn hình",
+      "cau_hoi": "Kích thước màn hình được đo theo đường chéo màn hình bằng đơn vị phổ biến nào?",
+      "dap_an": "inch",
+      "dap_an_tuong_duong": [
+        "in",
+        "Inch"
+      ],
+      "giai_thich": "Kích thước màn hình tính bằng độ dài đường chéo theo đơn vị inch (1 inch = 2,54 cm).",
+      "nguon": "ndc_bai_5"
+    },
+    {
+      "id": "B05_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cổng kết nối tín hiệu tương tự VGA",
+      "cau_hoi": "Cổng kết nối truyền tín hiệu tương tự chỉ có hình ảnh tới màn hình hoặc máy chiếu gọi tắt là gì?",
+      "dap_an": "VGA",
+      "dap_an_tuong_duong": [
+        "cổng VGA"
+      ],
+      "giai_thich": "VGA truyền tín hiệu hình ảnh tương tự và không truyền âm thanh.",
+      "nguon": "ndc_bai_5"
+    },
+    {
+      "id": "B05_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Kết nối không dây tầm ngắn Bluetooth",
+      "cau_hoi": "Phương thức kết nối không dây tầm ngắn (dưới 10 m) phổ biến cho tai nghe, chuột, điện thoại là gì?",
+      "dap_an": "Bluetooth",
+      "dap_an_tuong_duong": [
+        "bluetooth"
+      ],
+      "giai_thich": "Bluetooth là chuẩn kết nối không dây tầm ngắn dưới 10 m.",
+      "nguon": "cd1_bai_5"
+    },
+    {
+      "id": "B05_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phần mềm điều khiển thiết bị (Driver)",
+      "cau_hoi": "Phần mềm trung gian giúp hệ điều hành giao tiếp và điều khiển đúng thiết bị ngoại vi (như máy in) gọi là gì?",
+      "dap_an": "Driver",
+      "dap_an_tuong_duong": [
+        "trình điều khiển",
+        "driver"
+      ],
+      "giai_thich": "Driver (trình điều khiển) giúp hệ điều hành nhận biết và khai thác thiết bị.",
+      "nguon": "cd1_bai_5 & ndc_bai_5"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B05_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thông số cơ bản của màn hình máy tính",
+      "cau_hoi": "Nêu ý nghĩa các thông số cơ bản của màn hình máy tính.",
+      "goi_y_dap_an": "- Kích thước: đo theo đường chéo màn hình (inch).\n- Độ phân giải: số điểm ảnh theo chiều ngang và dọc (càng cao càng sắc nét).\n- Khả năng thể hiện màu: ví dụ màu 24-bit (~16,7 triệu màu).\n- Tần số quét (Hz): số lần hiển thị lại hình ảnh trong 1 giây.\n- Thời gian phản hồi: thời gian để đổi màu một điểm ảnh.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng và đủ ý nghĩa 5 thông số (0,4đ × 5 = 2,0đ).",
+      "nguon": "ndc_bai_5 & cd1_bai_5"
+    },
+    {
+      "id": "B05_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kết nối Bluetooth và máy in qua mạng LAN",
+      "cau_hoi": "Trình bày các bước kết nối máy tính với một thiết bị Bluetooth mới chưa được ghép đôi và cách kết nối máy in qua mạng LAN.",
+      "goi_y_dap_an": "- Bluetooth mới: Bật Bluetooth trên máy tính và thiết bị -> chọn 'Add Bluetooth or other device' để dò tìm -> chọn tên thiết bị -> nhập mã xác thực (nếu có) để ghép đôi.\n- Máy in qua LAN: Đảm bảo máy tính và máy in cùng mạng LAN -> cài đặt driver máy in và cấu hình kết nối bằng địa chỉ IP của máy in.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng quy trình ghép đôi Bluetooth (1,0đ) và quy trình kết nối máy in qua LAN (1,0đ).",
+      "nguon": "cd1_bai_5"
+    },
+    {
+      "id": "B05_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Lựa chọn cổng kết nối và xử lý tình huống thiết bị số",
+      "cau_hoi": "Một phòng học được trang bị máy chiếu có cả cổng VGA và HDMI, cùng một loa ngoài. Giáo viên muốn chiếu bài giảng có video kèm âm thanh từ laptop ra máy chiếu và phát âm thanh rõ nét. Hãy đề xuất phương án kết nối tối ưu và giải thích.",
+      "goi_y_dap_an": "- Phương án tối ưu: Kết nối laptop với máy chiếu bằng cáp HDMI để truyền đồng thời hình ảnh số độ phân giải cao và âm thanh số (tránh dùng VGA vì VGA chỉ truyền hình ảnh tương tự).\n- Nếu muốn phát âm thanh qua loa ngoài công suất lớn, kết nối loa ngoài từ cổng xuất âm thanh của máy chiếu hoặc cổng âm thanh/Bluetooth của laptop.",
+      "thang_diem": "Tổng 2,0 điểm: chọn đúng chuẩn HDMI và giải thích ưu thế truyền hình + tiếng số (1,2đ); đề xuất đúng cách kết nối loa ngoài phù hợp ngữ cảnh (0,8đ).",
+      "nguon": "ndc_bai_5 & Kenhgiaovien_5"
+    }
+  ]
 }

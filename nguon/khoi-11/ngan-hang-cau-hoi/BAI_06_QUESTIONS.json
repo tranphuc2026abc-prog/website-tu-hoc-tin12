@@ -1,424 +1,577 @@
 {
-  "ma_bai": "BAI_06",
-  "bai_so": 6,
+  "bai_id": "BAI_06",
   "ten_bai": "Lưu trữ và chia sẻ tệp tin trên Internet",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_6_luu_tru.docx",
+    "cd2_bai_6_luu_tru_chia_se_tep_tin_tren_internet.docx",
+    "ndc_bai_6_luu_tru_va_chia_se_tep_tin_tren_internet_0.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_6_luu_tru_va_chia_se_tep_tin_tren_internet.docx",
+    "trac_nghiem_dung_sai_tin_hoc_ung_dung_11_ket_noi_tri_thuc_bai_6_luu_tru_va_chia_se_tep_tin_tren_internet.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B06_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Nhà cung cấp dịch vụ lưu trữ đám mây",
+      "cau_hoi": "Dịch vụ lưu trữ trực tuyến OneDrive thuộc nhà cung cấp nào sau đây?",
+      "lua_chon": {
+        "A": "Google",
+        "B": "Dropbox",
+        "C": "Apple",
+        "D": "Microsoft"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Google Drive của Google, OneDrive của Microsoft, iCloud của Apple.",
+      "nguon": "cd2_bai_6 & tln_..._bai_6"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B06_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các chế độ phân quyền trên Google Drive",
+      "cau_hoi": "Khi chia sẻ tệp trên Google Drive, có bao nhiêu chế độ phân quyền cơ bản cho người được chia sẻ?",
+      "lua_chon": {
+        "A": "2 chế độ",
+        "B": "3 chế độ (Chỉ xem, Nhận xét, Chỉnh sửa)",
+        "C": "4 chế độ",
+        "D": "1 chế độ duy nhất"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Ba chế độ chia sẻ: Chỉ xem, Người nhận xét, Người chỉnh sửa.",
+      "nguon": "ndc_bai_6 & tln_..._bai_6"
+    },
+    {
+      "id": "B06_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lựa chọn quyền Người nhận xét",
+      "cau_hoi": "Nếu bạn muốn các thành viên trong nhóm đọc bản kế hoạch trên Google Drive và góp ý trực tiếp nhưng không được tự ý sửa nội dung văn bản, bạn nên cấp quyền gì?",
+      "lua_chon": {
+        "A": "Người xem (Chỉ xem)",
+        "B": "Người chỉnh sửa",
+        "C": "Người nhận xét",
+        "D": "Chủ sở hữu"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Quyền Người nhận xét cho phép xem và thêm nhận xét/góp ý mà không sửa trực tiếp nội dung gốc.",
+      "nguon": "ndc_bai_6 & trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_TN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hạn chế của lưu trữ đám mây",
+      "cau_hoi": "Hạn chế nào sau đây là đúng khi sử dụng dịch vụ lưu trữ đám mây?",
+      "lua_chon": {
+        "A": "Không thể chia sẻ thư mục",
+        "B": "Phải tải tệp về máy mới xem được nội dung",
+        "C": "Mọi tài khoản miễn phí đều có dung lượng không giới hạn",
+        "D": "Phải có kết nối Internet để truy cập/đồng bộ trực tuyến và phụ thuộc nhà cung cấp về bảo mật"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Lưu trữ đám mây phụ thuộc kết nối Internet, giới hạn dung lượng miễn phí và bảo mật từ nhà cung cấp.",
+      "nguon": "ndc_bai_6"
+    },
+    {
+      "id": "B06_TN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thao tác tải tệp lên Google Drive",
+      "cau_hoi": "Để tải một tệp tin từ máy tính lên Google Drive, thao tác chuẩn xác là:",
+      "lua_chon": {
+        "A": "Nhấn nút Chia sẻ -> nhập email cá nhân",
+        "B": "Nhấn '+ Mới' ở góc trên bên trái -> chọn 'Tải tệp lên' -> chọn tệp từ hộp thoại Open",
+        "C": "Mở Task Manager -> chọn New Task",
+        "D": "Nhấn Properties -> chọn Disk Cleanup"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Thao tác tải tệp lên Google Drive bắt đầu bằng '+ Mới' -> 'Tải tệp lên'.",
+      "nguon": "ndc_bai_6 & cd2_bai_6"
+    },
+    {
+      "id": "B06_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Khái niệm ổ đĩa trực tuyến",
+      "cau_hoi": "Ổ đĩa trực tuyến (lưu trữ đám mây) là dịch vụ lưu trữ dữ liệu ở đâu?",
+      "lua_chon": {
+        "A": "Trên các máy chủ từ xa thông qua kết nối Internet",
+        "B": "Trên đĩa CD/DVD cá nhân",
+        "C": "Trong bộ nhớ đệm Cache của CPU",
+        "D": "Trong thanh nhớ RAM của máy tính"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Lưu trữ đám mây lưu dữ liệu trên máy chủ từ xa qua Internet, giúp truy cập từ nhiều thiết bị.",
+      "nguon": "ndc_bai_6"
+    },
+    {
+      "id": "B06_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Nhà cung cấp dịch vụ Google Drive",
+      "cau_hoi": "Dịch vụ lưu trữ trực tuyến nào sau đây thuộc sở hữu của Apple?",
+      "lua_chon": {
+        "A": "Google Drive",
+        "B": "OneDrive",
+        "C": "Dropbox",
+        "D": "iCloud"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "iCloud là dịch vụ lưu trữ đám mây của Apple.",
+      "nguon": "cd2_bai_6"
+    },
+    {
+      "id": "B06_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chức năng chỉnh sửa trực tuyến",
+      "cau_hoi": "Bộ công cụ nào tích hợp sẵn trên Google Drive cho phép soạn thảo văn bản trực tuyến ngay trên trình duyệt?",
+      "lua_chon": {
+        "A": "Notepad++",
+        "B": "Microsoft Paint",
+        "C": "Windows Media Player",
+        "D": "Google Docs (Google Tài liệu)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Google Docs cho phép tạo và chỉnh sửa văn bản trực tuyến trên Google Drive.",
+      "nguon": "ndc_bai_6 & trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_TN_09",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thao tác tạo thư mục mới trên Google Drive",
+      "cau_hoi": "Để tạo một thư mục mới trên Google Drive, người dùng chọn nút '+ Mới' rồi chọn mục nào?",
+      "lua_chon": {
+        "A": "Tải tệp lên",
+        "B": "Thư mục mới",
+        "C": "Thùng rác",
+        "D": "Chia sẻ với tôi"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Chọn '+ Mới' -> 'Thư mục mới' để tạo thư mục sắp xếp dữ liệu trên Google Drive.",
+      "nguon": "ndc_bai_6"
+    },
+    {
+      "id": "B06_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ưu điểm cập nhật đồng bộ của ổ đĩa trực tuyến",
+      "cau_hoi": "So với việc gửi tệp đính kèm qua email nhiều lần khi làm việc nhóm, chia sẻ tệp qua ổ đĩa trực tuyến có ưu điểm gì nổi bật?",
+      "lua_chon": {
+        "A": "Mọi thành viên luôn xem và làm việc trên phiên bản mới nhất, tránh phát sinh nhiều bản sao rời rạc",
+        "B": "Không cần tài khoản đăng nhập vẫn tự động đồng bộ ngoại tuyến",
+        "C": "Tự động tăng tốc độ CPU của máy tính cá nhân",
+        "D": "Miễn phí dung lượng lưu trữ không giới hạn cho mọi tệp video 4K"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Tệp lưu tập trung trên đám mây giúp mọi người cập nhật tức thì trên một bản thống nhất.",
+      "nguon": "ndc_bai_6"
+    },
+    {
+      "id": "B06_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt quyền Chỉ xem và Người chỉnh sửa",
+      "cau_hoi": "Người được chia sẻ tệp với quyền 'Chỉ xem' có thể thực hiện hành động nào sau đây?",
+      "lua_chon": {
+        "A": "Mở xem nội dung tệp (nếu chủ sở hữu không chặn thì có thể tải bản sao về máy)",
+        "B": "Xóa toàn bộ nội dung trong tệp",
+        "C": "Đổi tên tệp gốc của chủ sở hữu",
+        "D": "Cấp quyền chỉnh sửa cho người khác"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Quyền Chỉ xem không cho phép sửa, nhận xét hay đổi tên tệp gốc của chủ sở hữu.",
+      "nguon": "ndc_bai_6 & trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quản lí quyền truy cập của chủ sở hữu",
+      "cau_hoi": "Sau khi đã chia sẻ một thư mục trên Google Drive cho bạn bè, chủ sở hữu có thể thay đổi quyết định chia sẻ hay không?",
+      "lua_chon": {
+        "A": "Có, chủ sở hữu có thể thay đổi mức quyền hoặc hủy bỏ quyền truy cập bất cứ lúc nào",
+        "B": "Không thể thay đổi sau khi đã nhấn Gửi",
+        "C": "Chỉ thay đổi được sau 30 ngày",
+        "D": "Phải xóa toàn bộ thư mục mới hủy được chia sẻ"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Chủ sở hữu luôn kiểm soát quyền truy cập, có thể nâng/hạ quyền hoặc thu hồi chia sẻ bất cứ lúc nào.",
+      "nguon": "ndc_bai_6"
+    },
+    {
+      "id": "B06_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "An toàn dữ liệu khi hỏng thiết bị cá nhân",
+      "cau_hoi": "Vì sao lưu trữ dữ liệu quan trọng trên ổ đĩa trực tuyến giúp giảm rủi ro mất dữ liệu khi máy tính cá nhân bị hỏng ổ cứng?",
+      "lua_chon": {
+        "A": "Vì dữ liệu đã được sao lưu trên hệ thống máy chủ từ xa của nhà cung cấp dịch vụ",
+        "B": "Vì ổ đĩa trực tuyến tự sửa được phần cứng bị hỏng",
+        "C": "Vì máy tính không còn sử dụng ổ cứng nữa",
+        "D": "Vì dữ liệu tự động in ra giấy"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Dữ liệu nằm trên máy chủ đám mây nên có thể đăng nhập từ thiết bị khác để lấy lại khi máy cũ hỏng.",
+      "nguon": "ndc_bai_6 & Kenhgiaovien_6"
+    },
+    {
+      "id": "B06_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chia sẻ thư mục cho nhóm dự án",
+      "cau_hoi": "Khi chia sẻ một thư mục tài liệu học tập trên Google Drive với quyền 'Người chỉnh sửa' cho cả tổ, điều gì sẽ xảy ra với các tệp con bên trong thư mục đó?",
+      "lua_chon": {
+        "A": "Các thành viên chỉ xem được mà không mở được tệp con",
+        "B": "Các thành viên có quyền chỉnh sửa, thêm hoặc xóa tệp trong thư mục đó (trừ khi tệp có thiết lập riêng)",
+        "C": "Các tệp con tự động bị xóa khỏi máy chủ",
+        "D": "Các thành viên tự động trở thành chủ sở hữu tài khoản Google của bạn"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Phân quyền trên thư mục mặc định được kế thừa xuống các tệp con bên trong.",
+      "nguon": "cd2_bai_6 & ndc_bai_6"
+    },
+    {
+      "id": "B06_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Cách tải tệp lên bằng thao tác kéo thả",
+      "cau_hoi": "Ngoài việc nhấn nút '+ Mới -> Tải tệp lên', cách nhanh nào sau đây giúp tải tệp từ máy tính lên Google Drive?",
+      "lua_chon": {
+        "A": "Đổi đuôi tệp thành .exe",
+        "B": "Nhấn phím Print Screen trên bàn phím",
+        "C": "Sao chép đường dẫn URL của trình duyệt",
+        "D": "Kéo tệp từ cửa sổ File Explorer/Finder thả trực tiếp vào giao diện Google Drive trên trình duyệt"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Google Drive hỗ trợ kéo thả trực tiếp tệp hoặc thư mục từ máy tính vào cửa sổ trình duyệt.",
+      "nguon": "trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lý tình huống chia sẻ nhầm quyền công khai",
+      "cau_hoi": "Bạn phát hiện đường dẫn chia sẻ bài báo cáo nhóm đang để chế độ 'Bất kì ai có đường liên kết đều có thể chỉnh sửa'. Để tránh người lạ sửa nhầm nội dung, bạn nên xử lí thế nào?",
+      "lua_chon": {
+        "A": "Đổi tên tài khoản Gmail",
+        "B": "Tắt nguồn máy tính ngay lập tức",
+        "C": "Mở mục Chia sẻ, chuyển liên kết về 'Hạn chế' (hoặc chỉ định email thành viên cụ thể với quyền phù hợp)",
+        "D": "Xóa trình duyệt web khỏi máy"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Cần chỉnh lại thiết lập chia sẻ sang 'Hạn chế' hoặc hạ quyền liên kết công khai về 'Chỉ xem'.",
+      "nguon": "ndc_bai_6 & Kenhgiaovien_6"
+    },
+    {
+      "id": "B06_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tìm kiếm tệp được chia sẻ trên Google Drive",
+      "cau_hoi": "Khi bạn được giáo viên chia sẻ một tệp đề cương qua Google Drive, để mở lại nhanh tệp đó trong giao diện Google Drive của mình, bạn nên vào mục nào ở thanh điều hướng bên trái?",
+      "lua_chon": {
+        "A": "Thùng rác",
+        "B": "Bộ nhớ đã dùng",
+        "C": "Được chia sẻ với tôi (Shared with me)",
+        "D": "Bản sao lưu máy tính"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Mục 'Được chia sẻ với tôi' tập hợp các tệp và thư mục mà người khác đã chia sẻ cho tài khoản của bạn.",
+      "nguon": "cd2_bai_6"
+    },
+    {
+      "id": "B06_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lý tình huống hết dung lượng miễn phí",
+      "cau_hoi": "Tài khoản Google Drive miễn phí báo sắp đầy 15 GB dung lượng lưu trữ. Giải pháp nào hợp lí và tiết kiệm nhất để tiếp tục lưu trữ tài liệu học tập?",
+      "lua_chon": {
+        "A": "Mua thêm một màn hình máy tính mới",
+        "B": "Kiểm tra, xóa các tệp rác/tệp trùng lặp không cần thiết (kể cả dọn Thùng rác) hoặc nén bớt tệp dung lượng lớn trước khi lưu",
+        "C": "Thay đổi mật khẩu tài khoản mỗi ngày",
+        "D": "Cài lại hệ điều hành Windows"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Dọn dẹp tệp thừa và dọn Thùng rác giúp giải phóng dung lượng trên đám mây nhanh chóng mà không tốn phí.",
+      "nguon": "ndc_bai_6"
+    },
+    {
+      "id": "B06_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân quyền cộng tác nhiều vai trò trong dự án",
+      "cau_hoi": "Trong một dự án lớp gồm: 1 nhóm trưởng (chủ sở hữu tệp), 3 thành viên soạn nội dung, 1 giáo viên hướng dẫn góp ý và cả lớp tham khảo sau khi hoàn thành. Cách phân quyền nào đảm bảo an toàn và đúng vai trò nhất?",
+      "lua_chon": {
+        "A": "Cấp quyền 'Chỉ xem' cho cả 3 thành viên soạn nội dung",
+        "B": "Cấp quyền 'Người chỉnh sửa' cho cả lớp ngay từ đầu",
+        "C": "Cấp quyền 'Người chỉnh sửa' cho 3 thành viên, 'Người nhận xét' cho giáo viên và 'Chỉ xem' cho các bạn khác",
+        "D": "Không chia sẻ tệp mà gửi 40 email đính kèm khác nhau"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Phân quyền theo đúng vai trò giúp tránh sửa nhầm dữ liệu nhưng vẫn cộng tác và góp ý hiệu quả.",
+      "nguon": "cd2_bai_6 & trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Đánh giá rủi ro bảo mật khi dùng lưu trữ đám mây công cộng",
+      "cau_hoi": "Một học sinh đăng nhập Google Drive trên máy tính công cộng ở phòng thực hành nhưng quên đăng xuất trước khi rời đi. Rủi ro bảo mật nghiêm trọng nhất có thể xảy ra là gì?",
+      "lua_chon": {
+        "A": "Dữ liệu trên USB cá nhân tự động bị xóa sạch",
+        "B": "Máy tính công cộng bị giảm tần số quét màn hình",
+        "C": "Người dùng sau có thể truy cập, tải về, chỉnh sửa hoặc xóa toàn bộ dữ liệu và thay đổi quyền chia sẻ trên Drive đó",
+        "D": "Nhà cung cấp dịch vụ tự động nâng cấp dung lượng miễn phí"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Bảo mật đám mây phụ thuộc lớn vào ý thức bảo vệ phiên đăng nhập và tài khoản của người dùng.",
+      "nguon": "ndc_bai_6 & Kenhgiaovien_6"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B06-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Bạn chỉ cần đọc tài liệu trên ổ đĩa trực tuyến. Nên cấp quyền nào?",
-        "lua_chon": {
-          "A": "Người xem",
-          "B": "Người chỉnh sửa",
-          "C": "Chủ sở hữu",
-          "D": "Quản trị viên"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B06_DS_01",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chọn giải pháp chia sẻ cộng tác trực tuyến",
+      "dan_nhap": "Lan muốn các bạn cùng đọc và đóng góp ý kiến trực tiếp vào kế hoạch dự án trên Google Docs mà không cần tải về máy:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Lan tải tệp về rồi gửi qua Zalo để mọi người tải về sửa trên máy cá nhân.",
+          "dap_an": false,
+          "giai_thich": "Sai (không đáp ứng yêu cầu góp ý trực tiếp không cần tải về)."
         },
-        "dap_an": "A",
-        "giai_thich": "Đáp án đúng vì Người xem; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B06-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Ổ đĩa trực tuyến?",
-        "lua_chon": {
-          "A": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
-          "B": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
-          "C": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ.",
-          "D": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet."
+        {
+          "ma": "b",
+          "noi_dung": "Lan dùng Google Drive, nháy phải vào tài liệu, chọn 'Chia sẻ' và cấp quyền 'Người nhận xét' cho các thành viên.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet."
-      },
-      {
-        "id": "T11-B06-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống: Cần mở tài liệu từ máy ở nhà và ở trường. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
-          "B": "Đồng bộ tệp.",
-          "C": "Người xem.",
-          "D": "Người chỉnh sửa."
+        {
+          "ma": "c",
+          "noi_dung": "Lan chia sẻ liên kết với quyền 'Người chỉnh sửa' nếu muốn mọi người cùng trực tiếp chỉnh sửa nội dung.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình."
-      },
-      {
-        "id": "T11-B06-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Ổ đĩa trực tuyến?",
-        "lua_chon": {
-          "A": "Bạn cùng lớp chỉ cần đọc tài liệu.",
-          "B": "Bạn cùng nhóm cần cùng cập nhật bản kế hoạch.",
-          "C": "Cần mở tài liệu từ máy ở nhà và ở trường.",
-          "D": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại."
+        {
+          "ma": "d",
+          "noi_dung": "Lan gửi tệp đính kèm qua email và yêu cầu mọi người phản hồi qua email.",
+          "dap_an": false,
+          "giai_thich": "Sai (không phải góp ý trực tiếp trên tài liệu trực tuyến)."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ưu điểm và giới hạn của ổ đĩa trực tuyến",
+      "dan_nhap": "Lý do chuyển sang sử dụng ổ đĩa trực tuyến để thuận tiện học nhóm:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể truy cập từ mọi thiết bị có kết nối Internet mà không phụ thuộc vào một máy cố định.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Ổ đĩa trực tuyến trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
-      },
-      {
-        "id": "T11-B06-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Đồng bộ?",
-        "lua_chon": {
-          "A": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
-          "B": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ.",
-          "C": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
-          "D": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet."
+        {
+          "ma": "b",
+          "noi_dung": "Ổ đĩa trực tuyến luôn cung cấp dung lượng không giới hạn cho mọi người dùng miễn phí.",
+          "dap_an": false,
+          "giai_thich": "Sai. Tài khoản miễn phí luôn có giới hạn dung lượng (muốn nhiều hơn phải trả phí)."
         },
-        "dap_an": "C",
-        "giai_thich": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình."
-      },
-      {
-        "id": "T11-B06-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống: Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
-          "B": "Người xem.",
-          "C": "Người chỉnh sửa.",
-          "D": "Đồng bộ tệp."
+        {
+          "ma": "c",
+          "noi_dung": "Cho phép tạo thư mục, sắp xếp và chia sẻ tệp một cách linh hoạt, tiện lợi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Đồng bộ tệp."
-      },
-      {
-        "id": "T11-B06-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Đồng bộ?",
-        "lua_chon": {
-          "A": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
-          "B": "Cần mở tài liệu từ máy ở nhà và ở trường.",
-          "C": "Bạn cùng lớp chỉ cần đọc tài liệu.",
-          "D": "Bạn cùng nhóm cần cùng cập nhật bản kế hoạch."
+        {
+          "ma": "d",
+          "noi_dung": "Dữ liệu lưu trên ổ đĩa trực tuyến được bảo mật tuyệt đối và không bao giờ có rủi ro mất mát.",
+          "dap_an": false,
+          "giai_thich": "Sai. Vẫn có rủi ro lộ tài khoản hoặc phụ thuộc nhà cung cấp."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_DS_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Phân biệt ba chế độ chia sẻ Google Drive",
+      "dan_nhap": "Các phát biểu về chế độ chia sẻ trên Google Drive:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Khi chọn 'Chỉ xem', người được chia sẻ không thể chỉnh sửa hay thêm nhận xét vào tài liệu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Đồng bộ trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
-      },
-      {
-        "id": "T11-B06-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Quyền xem?",
-        "lua_chon": {
-          "A": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ.",
-          "B": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
-          "C": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.",
-          "D": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình."
+        {
+          "ma": "b",
+          "noi_dung": "Chế độ 'Người nhận xét' cho phép người dùng vừa xem vừa thay đổi toàn bộ nội dung gốc của văn bản.",
+          "dap_an": false,
+          "giai_thich": "Sai. Chỉ được nhận xét, không được sửa trực tiếp nội dung gốc."
         },
-        "dap_an": "B",
-        "giai_thich": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung."
-      },
-      {
-        "id": "T11-B06-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống: Bạn cùng lớp chỉ cần đọc tài liệu. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đồng bộ tệp.",
-          "B": "Người chỉnh sửa.",
-          "C": "Người xem.",
-          "D": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình."
+        {
+          "ma": "c",
+          "noi_dung": "Chế độ 'Người chỉnh sửa' cho phép người dùng thêm, xóa hoặc thay đổi nội dung tài liệu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Người xem."
-      },
-      {
-        "id": "T11-B06-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quyền xem?",
-        "lua_chon": {
-          "A": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
-          "B": "Bạn cùng nhóm cần cùng cập nhật bản kế hoạch.",
-          "C": "Bạn cùng lớp chỉ cần đọc tài liệu.",
-          "D": "Cần mở tài liệu từ máy ở nhà và ở trường."
+        {
+          "ma": "d",
+          "noi_dung": "Khi một tệp được chia sẻ, người nhận ở mọi chế độ luôn có quyền thay đổi chế độ chia sẻ của tệp.",
+          "dap_an": false,
+          "giai_thich": "Sai. Người chỉ xem/nhận xét không thay đổi được quyền chia sẻ của chủ sở hữu."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thao tác tải tệp lên Google Drive",
+      "dan_nhap": "Thao tác lưu tệp tin lên ổ đĩa trực tuyến Google Drive:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Chọn nút '+ Mới' trong giao diện Google Drive và chọn 'Tải tệp lên' từ máy tính.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Quyền xem trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
-      },
-      {
-        "id": "T11-B06-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Quyền chỉnh sửa?",
-        "lua_chon": {
-          "A": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ.",
-          "B": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.",
-          "C": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
-          "D": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung."
+        {
+          "ma": "b",
+          "noi_dung": "Đăng nhập Google Drive và kéo thả tệp từ máy tính vào giao diện trình duyệt.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Quyền chỉnh sửa cho phép người nhận thay đổi tệp được chia sẻ."
-      },
-      {
-        "id": "T11-B06-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống: Bạn cùng nhóm cần cùng cập nhật bản kế hoạch. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Người xem.",
-          "B": "Người chỉnh sửa.",
-          "C": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
-          "D": "Đồng bộ tệp."
+        {
+          "ma": "c",
+          "noi_dung": "Gửi tệp vào nhóm mạng xã hội để bạn bè lưu hộ là cách dùng ổ đĩa trực tuyến.",
+          "dap_an": false,
+          "giai_thich": "Sai."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Người chỉnh sửa."
-      },
-      {
-        "id": "T11-B06-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quyền chỉnh sửa?",
-        "lua_chon": {
-          "A": "Bạn cùng nhóm cần cùng cập nhật bản kế hoạch.",
-          "B": "Cần mở tài liệu từ máy ở nhà và ở trường.",
-          "C": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
-          "D": "Bạn cùng lớp chỉ cần đọc tài liệu."
+        {
+          "ma": "d",
+          "noi_dung": "Chép tệp vào USB rồi cắm sang máy tính khác để tải lên Google Drive vẫn thực hiện được.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_6"
+    },
+    {
+      "id": "B06_DS_05",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lợi ích thiết thực của ổ đĩa trực tuyến",
+      "dan_nhap": "Lợi ích thiết thực của ổ đĩa trực tuyến:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể chỉnh sửa văn bản trực tiếp trên trình duyệt mà không cần cài đặt phần mềm như Word hay Excel.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Quyền chỉnh sửa trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
-      },
-      {
-        "id": "T11-B06-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Liên kết công khai?",
-        "lua_chon": {
-          "A": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.",
-          "B": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
-          "C": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
-          "D": "Liên kết công khai có thể mở rộng khả năng truy cập ngoài nhóm dự kiến."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể tải tệp từ đám mây về bất kì lúc nào ngay cả khi thiết bị hoàn toàn không có kết nối Internet.",
+          "dap_an": false,
+          "giai_thich": "Sai. Để tải tệp từ đám mây về cần có Internet."
         },
-        "dap_an": "D",
-        "giai_thich": "Liên kết công khai có thể mở rộng khả năng truy cập ngoài nhóm dự kiến."
-      },
-      {
-        "id": "T11-B06-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống: Tài liệu chứa thông tin cá nhân cần gửi cho một giáo viên. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Chỉ chia sẻ trực tiếp với tài khoản người nhận.",
-          "B": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
-          "C": "Đồng bộ tệp.",
-          "D": "Người xem."
+        {
+          "ma": "c",
+          "noi_dung": "Có thể chia sẻ nhanh chóng tệp cho nhiều người mà không cần dùng thiết bị lưu trữ ngoài.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Chỉ chia sẻ trực tiếp với tài khoản người nhận."
-      },
-      {
-        "id": "T11-B06-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Liên kết công khai?",
-        "lua_chon": {
-          "A": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
-          "B": "Bạn cùng lớp chỉ cần đọc tài liệu.",
-          "C": "Tài liệu chứa thông tin cá nhân cần gửi cho một giáo viên.",
-          "D": "Cần mở tài liệu từ máy ở nhà và ở trường."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Liên kết công khai trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
-      },
-      {
-        "id": "T11-B06-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Thu hồi quyền?",
-        "lua_chon": {
-          "A": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình.",
-          "B": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
-          "C": "Chủ sở hữu có thể thay đổi hoặc thu hồi quyền chia sẻ.",
-          "D": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet."
-        },
-        "dap_an": "C",
-        "giai_thich": "Chủ sở hữu có thể thay đổi hoặc thu hồi quyền chia sẻ."
-      },
-      {
-        "id": "T11-B06-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống: Dự án đã kết thúc và người ngoài nhóm không cần truy cập nữa. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình.",
-          "B": "Đồng bộ tệp.",
-          "C": "Người xem.",
-          "D": "Thu hồi hoặc giảm quyền chia sẻ."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Thu hồi hoặc giảm quyền chia sẻ."
-      },
-      {
-        "id": "T11-B06-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Thu hồi quyền?",
-        "lua_chon": {
-          "A": "Dự án đã kết thúc và người ngoài nhóm không cần truy cập nữa.",
-          "B": "Cần mở tài liệu từ máy ở nhà và ở trường.",
-          "C": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
-          "D": "Bạn cùng lớp chỉ cần đọc tài liệu."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Thu hồi quyền trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
-      },
-      {
-        "id": "T11-B06-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Phát biểu nào đúng về Bảo vệ tài khoản?",
-        "lua_chon": {
-          "A": "Quyền xem cho phép đọc tệp nhưng không chỉnh sửa nội dung.",
-          "B": "Tài khoản ổ đĩa trực tuyến cần mật khẩu mạnh và xác thực bổ sung.",
-          "C": "Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.",
-          "D": "Đồng bộ cập nhật tệp giữa dịch vụ trực tuyến và thiết bị theo cấu hình."
-        },
-        "dap_an": "B",
-        "giai_thich": "Tài khoản ổ đĩa trực tuyến cần mật khẩu mạnh và xác thực bổ sung."
-      },
-      {
-        "id": "T11-B06-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống: Người lạ có thể đăng nhập và xem mọi tệp. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Đồng bộ tệp.",
-          "B": "Người xem.",
-          "C": "Bật xác thực nhiều bước và bảo vệ thông tin đăng nhập.",
-          "D": "Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Bật xác thực nhiều bước và bảo vệ thông tin đăng nhập."
-      },
-      {
-        "id": "T11-B06-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bảo vệ tài khoản?",
-        "lua_chon": {
-          "A": "Tệp vừa sửa trên laptop cần xuất hiện trên điện thoại.",
-          "B": "Bạn cùng lớp chỉ cần đọc tài liệu.",
-          "C": "Người lạ có thể đăng nhập và xem mọi tệp.",
-          "D": "Cần mở tài liệu từ máy ở nhà và ở trường."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Bảo vệ tài khoản trong bài Lưu trữ và chia sẻ tệp tin trên Internet."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B06-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Xét tính đúng/sai về Lưu trữ và chia sẻ tệp tin trên Internet:",
-        "y_kien": {
-          "a": "Liên kết công khai có thể cho người ngoài dự kiến truy cập.",
-          "b": true,
-          "c": true,
-          "d": "Ổ đĩa trực tuyến cho phép truy cập tệp qua Internet."
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B06-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Trình bày cách chia sẻ tệp trực tuyến an toàn.",
-        "dap_an_goi_y": "Tải lên dịch vụ tin cậy, chọn người nhận hoặc quyền tối thiểu, kiểm tra liên kết và thu hồi quyền khi không cần.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B06-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 6 - Lưu trữ và chia sẻ tệp tin trên Internet",
-        "noi_dung": "Dựa vào kiến thức “Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Cần mở tài liệu từ máy ở nhà và ở trường.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Ổ đĩa trực tuyến lưu tệp trên dịch vụ mạng để truy cập qua Internet. Vận dụng: Lưu tệp trên ổ đĩa trực tuyến bằng tài khoản của mình. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Có thể lưu trữ không giới hạn dung lượng với mọi tài khoản miễn phí.",
+          "dap_an": false,
+          "giai_thich": "Sai."
+        }
+      ],
+      "nguon": "trac_nghiem_dung_sai_..._bai_6"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B06_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Nhà cung cấp iCloud",
+      "cau_hoi": "Dịch vụ lưu trữ đám mây iCloud chủ yếu phục vụ hệ sinh thái của hãng nào?",
+      "dap_an": "Apple",
+      "dap_an_tuong_duong": [
+        "apple",
+        "Hãng Apple"
+      ],
+      "giai_thich": "iCloud là dịch vụ lưu trữ đám mây do Apple cung cấp.",
+      "nguon": "tln_..._bai_6"
+    },
+    {
+      "id": "B06_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Địa chỉ truy cập Google Drive",
+      "cau_hoi": "Địa chỉ web truy cập dịch vụ ổ đĩa trực tuyến của Google là gì?",
+      "dap_an": "drive.google.com",
+      "dap_an_tuong_duong": [
+        "https://drive.google.com"
+      ],
+      "giai_thich": "Người dùng truy cập Google Drive qua địa chỉ drive.google.com.",
+      "nguon": "cd2_bai_6"
+    },
+    {
+      "id": "B06_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Nút tạo mới và tải tệp trên Google Drive",
+      "cau_hoi": "Nút lệnh ở góc trên bên trái cửa sổ Google Drive dùng để tạo mới hoặc tải tệp lên có tên là gì?",
+      "dap_an": "+ Mới",
+      "dap_an_tuong_duong": [
+        "Mới",
+        "New",
+        "+ New"
+      ],
+      "giai_thich": "Nút '+ Mới' chứa các lệnh tạo thư mục, tải tệp/thư mục và tạo tài liệu trực tuyến.",
+      "nguon": "ndc_bai_6"
+    },
+    {
+      "id": "B06_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quyền chỉnh sửa trên Google Drive",
+      "cau_hoi": "Chế độ chia sẻ nào trên Google Drive cho phép người được chia sẻ đổi tên, chỉnh sửa và thêm/xóa nội dung?",
+      "dap_an": "Người chỉnh sửa",
+      "dap_an_tuong_duong": [
+        "Chỉnh sửa",
+        "Editor"
+      ],
+      "giai_thich": "Chế độ Người chỉnh sửa cấp quyền thay đổi nội dung và tên tệp.",
+      "nguon": "tln_..._bai_6"
+    },
+    {
+      "id": "B06_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thư mục chứa tệp được người khác chia sẻ",
+      "cau_hoi": "Trong thanh điều hướng bên trái của Google Drive, mục nào lưu danh sách các tệp do người khác chia sẻ cho bạn?",
+      "dap_an": "Được chia sẻ với tôi",
+      "dap_an_tuong_duong": [
+        "Shared with me"
+      ],
+      "giai_thich": "Mục 'Được chia sẻ với tôi' hiển thị toàn bộ tệp/thư mục được tài khoản khác chia sẻ.",
+      "nguon": "cd2_bai_6"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B06_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ưu điểm và nhược điểm của lưu trữ đám mây",
+      "cau_hoi": "Nêu các ưu điểm và nhược điểm của dịch vụ lưu trữ và chia sẻ tệp tin trên Internet (ổ đĩa trực tuyến).",
+      "goi_y_dap_an": "- Ưu điểm: Truy cập mọi nơi, nhanh chóng, không phụ thuộc dung lượng thiết bị nhớ ngoài; dễ chia sẻ cho nhiều người; cập nhật tức thì tránh tạo nhiều phiên bản rời rạc.\n- Nhược điểm: Phụ thuộc kết nối Internet; muốn dung lượng lớn phải trả phí; tính bảo mật phụ thuộc nhà cung cấp và việc bảo vệ tài khoản.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng các ưu điểm (1,0đ) và các nhược điểm/hạn chế (1,0đ).",
+      "nguon": "ndc_bai_6"
+    },
+    {
+      "id": "B06_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Quy trình chia sẻ tệp trên Google Drive",
+      "cau_hoi": "Trình bày các bước chia sẻ một tệp tin trên Google Drive cho các thành viên trong nhóm với quyền thích hợp.",
+      "goi_y_dap_an": "Bước 1: Nháy chuột phải vào tệp/thư mục cần chia sẻ trên Google Drive → chọn Chia sẻ.\nBước 2: Nhập email người nhận (hoặc bật liên kết chia sẻ), chọn chế độ quyền (Chỉ xem / Người nhận xét / Người chỉnh sửa), nhập lời nhắn (nếu cần) và nhấn Gửi.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đủ thao tác mở hộp thoại Chia sẻ (0,5đ), nhập đối tượng và chọn đúng 1 trong 3 chế độ quyền (1,0đ), xác nhận Gửi/Sao chép liên kết (0,5đ).",
+      "nguon": "cd2_bai_6 & ndc_bai_6"
+    },
+    {
+      "id": "B06_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Quản lí phân quyền và bảo mật tài liệu nhóm",
+      "cau_hoi": "Một nhóm học sinh tạo thư mục 'Du_an_Tin_11' trên Google Drive để cùng soạn báo cáo, sau đó gửi liên kết công khai lên nhóm chat chung của trường để nhờ góp ý. Hãy chỉ ra rủi ro bảo mật có thể phát sinh và đề xuất cách thiết lập lại quyền chia sẻ an toàn.",
+      "goi_y_dap_an": "- Rủi ro: Nếu liên kết công khai bị đặt nhầm quyền 'Người chỉnh sửa', người ngoài có thể sửa hoặc xóa mất dữ liệu nhóm; thông tin nội bộ dự án bị phát tán rộng.\n- Cách khắc phục: Đặt quyền truy cập chung về 'Hạn chế'; chỉ cấp quyền 'Người chỉnh sửa' theo email cho thành viên trong nhóm; nếu cần người ngoài góp ý thì tạo bản sao hoặc chỉ cấp quyền 'Người nhận xét' cho danh sách email xác định.",
+      "thang_diem": "Tổng 2,0 điểm: chỉ đúng rủi ro lộ/sửa mất dữ liệu (1,0đ) và đề xuất đúng phương án giới hạn/phân quyền an toàn (1,0đ).",
+      "nguon": "ndc_bai_6 & Kenhgiaovien_6"
+    }
+  ]
 }

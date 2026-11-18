@@ -1,424 +1,573 @@
 {
-  "ma_bai": "BAI_30",
-  "bai_so": 30,
+  "bai_id": "BAI_30",
   "ten_bai": "Biên tập phim",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 7: Phần mềm chỉnh sửa ảnh và làm video",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "cd7_bai_30_bien_tap_phim.docx",
+    "ndc_bai_30_bien_tap_phim.docx",
+    "tln_tin_hoc_ung_dung_10_kntt_bai_30_bien_tap_phim.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B30_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Năm nhóm công cụ biên tập phim cơ bản",
+      "cau_hoi": "Năm nhóm công cụ biên tập phim cơ bản được giới thiệu trong Bài 30 gồm những công cụ nào?",
+      "lua_chon": {
+        "A": "Clone, Healing, Bucket Fill, Gradient, Eraser",
+        "B": "Tạo bảng, tạo khóa chính, tạo khóa ngoài, sao lưu, phục hồi",
+        "C": "Chỉnh sửa hình ảnh, chỉnh sửa âm thanh, tạo hiệu ứng chuyển cảnh, căn chỉnh thời gian, tạo phụ đề",
+        "D": "Cài đặt hệ điều hành và dọn đĩa"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Năm công cụ biên tập: chỉnh sửa hình ảnh, chỉnh sửa âm thanh, hiệu ứng chuyển cảnh, căn chỉnh thời gian và tạo phụ đề.",
+      "nguon": "ndc_bai_30 & tln_..._bai_30"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B30_TN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hiệu ứng nhỏ dần âm thanh Fade Out",
+      "cau_hoi": "Để tạo hiệu ứng nhỏ dần cho nhạc nền ở cuối đoạn phim, ta sử dụng hiệu ứng nào trong phần chỉnh sửa âm thanh?",
+      "lua_chon": {
+        "A": "Fade In",
+        "B": "Split View",
+        "C": "Replace File",
+        "D": "Fade Out"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Fade Out tạo hiệu ứng âm lượng nhỏ dần (còn Fade In là to dần).",
+      "nguon": "tln_..._bai_30"
+    },
+    {
+      "id": "B30_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh thay thế tư liệu Replace File",
+      "cau_hoi": "Để thay thế một tệp ảnh đã đưa vào phim bằng một tệp ảnh khác mà không làm xáo trộn bố cục, ta chọn ảnh trong ngăn Tư liệu, nháy chuột phải và chọn lệnh nào?",
+      "lua_chon": {
+        "A": "Export Video",
+        "B": "Delete File",
+        "C": "Replace File",
+        "D": "Record Narration"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chọn `Replace File` để thay thế tư liệu.",
+      "nguon": "tln_..._bai_30"
+    },
+    {
+      "id": "B30_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kết hợp công cụ phụ đề và căn chỉnh thời gian",
+      "cau_hoi": "Yêu cầu một phân cảnh: tại giây thứ 10, video clip số 1 xuất hiện; từ giây thứ 12 đến 18, dòng chữ \"Video clip này được thực hiện tại Nha Trang\" hiện ra. Cần kết hợp hai công cụ nào?",
+      "lua_chon": {
+        "A": "Công cụ chỉnh sửa âm thanh và công cụ chuyển cảnh",
+        "B": "Chỉ cần công cụ chỉnh sửa âm thanh",
+        "C": "Công cụ Clone và Healing",
+        "D": "Công cụ tạo phụ đề (subtitle) và công cụ căn chỉnh thời gian (Timeline)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Cần công cụ tạo phụ đề và công cụ căn chỉnh thời gian trên dòng thời gian của phần mềm làm phim.",
+      "nguon": "Sửa lỗi từ cd7_bai_30 đối chiếu với ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hiệu ứng to dần âm thanh Fade In",
+      "cau_hoi": "Ngược lại với `Fade Out`, hiệu ứng âm thanh nào làm cho âm lượng nhạc nền tăng dần từ nhỏ lên bình thường ở đầu đoạn phim?",
+      "lua_chon": {
+        "A": "`Crop`",
+        "B": "`Replace File`",
+        "C": "`Fade In`",
+        "D": "`Merge Down`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "`Fade In` tạo hiệu ứng âm lượng tăng dần êm dịu khi bắt đầu.",
+      "nguon": "tln_..._bai_30"
+    },
+    {
+      "id": "B30_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chế độ Timeline để căn chỉnh thời gian",
+      "cau_hoi": "Để căn chỉnh chính xác thời điểm bắt đầu, kết thúc và độ dài khớp nhau giữa lớp hình ảnh, lớp âm thanh và lớp phụ đề, ta chuyển ngăn tiến trình sang chế độ nào?",
+      "lua_chon": {
+        "A": "Phân cảnh (`Storyboard`)",
+        "B": "Dòng thời gian (`Timeline`)",
+        "C": "Một cửa sổ (`Single-window Mode`)",
+        "D": "So sánh (`Split view`)"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Chế độ `Timeline` hiển thị trục thời gian chi tiết cho mọi track.",
+      "nguon": "ndc_bai_30 & tln_..._bai_30"
+    },
+    {
+      "id": "B30_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các thuộc tính định dạng phụ đề",
+      "cau_hoi": "Khi tạo phụ đề trong phần mềm làm phim, người dùng có thể tùy chỉnh những thuộc tính nào cho dòng chữ?",
+      "lua_chon": {
+        "A": "Chỉ nhập được chữ không đổi được màu sắc",
+        "B": "Nội dung chữ, phông chữ, cỡ chữ, màu sắc, vị trí và thời gian hiển thị",
+        "C": "Chỉ thay đổi được độ phân giải dpi",
+        "D": "Chỉ chèn được ở đoạn `Outro`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Công cụ phụ đề hỗ trợ định dạng đầy đủ kiểu chữ, màu sắc, vị trí và khoảng thời gian xuất hiện.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Vai trò của hiệu ứng chuyển cảnh",
+      "cau_hoi": "Việc thêm hiệu ứng chuyển cảnh (`Transition`) giữa hai video clip hoặc hai ảnh nối tiếp có tác dụng chính nào?",
+      "lua_chon": {
+        "A": "Giúp chuyển tiếp mượt mà, tự nhiên và tăng tính liên kết nội dung giữa các phân cảnh",
+        "B": "Tăng dung lượng ổ cứng máy tính",
+        "C": "Tự động dịch phụ đề sang tiếng Anh",
+        "D": "Xóa bỏ lớp âm thanh"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Hiệu ứng chuyển cảnh tránh cảm giác giật cục khi chuyển từ cảnh này sang cảnh khác.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Thao tác cắt bớt độ dài nhạc nền trên Timeline",
+      "cau_hoi": "Khi chèn một bản nhạc dài 4 phút vào đoạn phim chỉ dài 40 giây, cách xử lí hợp lí nhất trên ngăn `Timeline` là gì?",
+      "lua_chon": {
+        "A": "Kéo giãn tất cả ảnh cho dài thành 4 phút",
+        "B": "Để nguyên 4 phút nhạc để phim có thêm 3 phút 20 giây màn hình đen",
+        "C": "Cắt hoặc thu gọn phần đuôi bản nhạc khớp với giây thứ 40 của phim rồi áp dụng `Fade Out` ở cuối",
+        "D": "Xóa bản nhạc đi và không dùng âm thanh"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Âm thanh nền cần cắt vừa khớp thời lượng hình ảnh và làm nhỏ dần ở cuối.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Điều chỉnh hướng/góc quay của video clip bị ngược",
+      "cau_hoi": "Một video clip quay bằng điện thoại bị xoay ngang 90 độ khi đưa vào VideoPad. Nhóm công cụ biên tập nào giải quyết trực tiếp vấn đề này?",
+      "lua_chon": {
+        "A": "Công cụ xuất cơ sở dữ liệu SQL",
+        "B": "Công cụ tạo phụ đề",
+        "C": "Công cụ chỉnh sửa âm thanh",
+        "D": "Công cụ chỉnh sửa hình ảnh / video clip (xoay hướng, lật hoặc căn chỉnh khung hình)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Chỉnh sửa hình ảnh/clip bao gồm căn chỉnh hướng, góc quay, cắt cúp và thêm hiệu ứng hình ảnh.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cân đối thời lượng chuyển cảnh và phụ đề",
+      "cau_hoi": "Vì sao không nên đặt thời lượng hiệu ứng chuyển cảnh quá nhanh (ví dụ 0,1 giây) hoặc thời gian hiện phụ đề quá ngắn?",
+      "lua_chon": {
+        "A": "Vì làm tăng thời lượng phim lên gấp đôi",
+        "B": "Vì phần mềm VideoPad không cho xuất tệp `.mp4`",
+        "C": "Vì làm hỏng micro của máy tính",
+        "D": "Vì làm người xem bị rối mắt, không kịp đọc hết nội dung phụ đề và mất sự đồng bộ với âm thanh/hình ảnh"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Thời lượng chuyển cảnh và phụ đề phải đủ để mắt người đọc kịp và khớp với nhịp điệu phim.",
+      "nguon": "ndc_bai_30 & cd7_bai_30"
+    },
+    {
+      "id": "B30_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ưu điểm của lệnh Replace File so với xóa rồi thêm lại",
+      "cau_hoi": "So với việc xóa một ảnh cũ khỏi ngăn tiến trình rồi chèn lại ảnh mới từ đầu, dùng lệnh `Replace File` trong ngăn Tư liệu có lợi thế gì?",
+      "lua_chon": {
+        "A": "Giữ nguyên vị trí, thời lượng và các hiệu ứng đã thiết lập cho phân cảnh đó mà không làm xáo trộn bố cục",
+        "B": "Tự động tăng độ phân giải ảnh lên 4K",
+        "C": "Tự động tạo thêm 5 lớp âm thanh",
+        "D": "Không cần chọn tệp ảnh mới"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "`Replace File` thay thế tệp nguồn tại chỗ, bảo toàn cấu trúc đã dựng trên Timeline.",
+      "nguon": "tln_..._bai_30"
+    },
+    {
+      "id": "B30_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Cân bằng âm lượng giữa lời bình và nhạc nền",
+      "cau_hoi": "Khi một phân cảnh có cả giọng đọc thuyết minh lẫn nhạc nền chạy song song, người biên tập phim cần chỉnh thông số nào trong công cụ âm thanh?",
+      "lua_chon": {
+        "A": "Giảm âm lượng (`Volume`) của lớp nhạc nền xuống vừa phải để giọng đọc thuyết minh nghe rõ ràng",
+        "B": "Tăng âm lượng nhạc nền lên mức tối đa 200%",
+        "C": "Xóa lớp giọng đọc thuyết minh",
+        "D": "Đổi phông chữ phụ đề"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Điều chỉnh mức âm lượng tương đối giữa các track âm thanh giúp lời thoại nổi bật trên nền nhạc.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định vị trí lớp chữ/phụ đề trên Timeline",
+      "cau_hoi": "Trên ngăn `Timeline`, để dòng chữ giới thiệu tên địa điểm hiển thị đè lên phía trên video cảnh biển chứ không bị video che mất, lớp chữ/phụ đề phải đặt ở đâu?",
+      "lua_chon": {
+        "A": "Đặt sau đoạn `Outro`",
+        "B": "Ở lớp phía dưới track video cảnh biển",
+        "C": "Ở lớp âm thanh (`Audio Track`)",
+        "D": "Ở lớp hình ảnh phía trên (`Overlay Track` / track cao hơn track video cảnh biển) hoặc qua công cụ Phụ đề"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Tương tự lớp ảnh, track nằm phía trên sẽ hiển thị đè lên track nằm phía dưới trong Timeline.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Chọn màu chữ phụ đề dễ đọc trên nền sáng",
+      "cau_hoi": "Trong một phân cảnh quay ngoài trời nắng sáng rực (nền trắng sáng), nếu đặt phụ đề màu vàng nhạt không viền thì người xem rất khó đọc. Cách chỉnh phụ đề nào hiệu quả nhất?",
+      "lua_chon": {
+        "A": "Giảm cỡ chữ xuống nhỏ nhất có thể",
+        "B": "Đổi màu chữ tương phản cao (như trắng có viền đen/nền mờ tối phía sau, hoặc chữ đậm màu tối trên nền sáng) và chọn phông chữ rõ nét",
+        "C": "Rút ngắn thời gian hiện phụ đề xuống 0,5 giây",
+        "D": "Áp dụng hiệu ứng `Fade Out` cho âm thanh"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Độ tương phản màu chữ – viền/nền giúp phụ đề dễ đọc trên mọi bối cảnh video.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tách một video clip dài thành hai đoạn để chèn ảnh xen giữa",
+      "cau_hoi": "Bạn có một video clip dài 20 giây và muốn chèn một bức ảnh vào đúng giữa giây thứ 10 của clip đó. Trên ngăn `Timeline`, thao tác hợp lí là gì?",
+      "lua_chon": {
+        "A": "Dùng `Replace File` xóa mất video clip",
+        "B": "Đưa con trỏ thời điểm tới giây thứ 10 -> dùng lệnh tách clip (`Split`) thành 2 phần -> kéo dãn phần sau ra để chèn ảnh vào giữa",
+        "C": "Dùng `Fade Out` ở giây thứ 10",
+        "D": "Tắt chế độ `Timeline` và xóa dự án"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Lệnh `Split` tại vị trí con trỏ thời điểm chia clip thành 2 đoạn độc lập để chèn thêm phân cảnh.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Đồng bộ phụ đề theo lời thoại",
+      "cau_hoi": "Câu thoại trong phim bắt đầu từ giây 00:05 và kết thúc ở giây 00:11. Để phụ đề khớp hoàn toàn với câu thoại đó, thông số `Show` (bắt đầu) và `Hide` (kết thúc) của phụ đề cần đặt là bao nhiêu?",
+      "lua_chon": {
+        "A": "Bắt đầu `00:05`, kết thúc `00:11` (thời lượng 6 giây)",
+        "B": "Bắt đầu `00:00`, kết thúc `00:05`",
+        "C": "Bắt đầu `00:11`, kết thúc `00:15`",
+        "D": "Chỉ hiện 1 giây tại `00:08`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Mốc hiện và ẩn phụ đề phải trùng khớp với khoảng thời gian phát câu thoại tương ứng.",
+      "nguon": "ndc_bai_30 & cd7_bai_30"
+    },
+    {
+      "id": "B30_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí hai đoạn nhạc ghép nối bị ngắt quãng đột ngột",
+      "cau_hoi": "Khi ghép nối hai bài nhạc nền khác nhau trên cùng một lớp âm thanh, chỗ chuyển giao giữa hai bài bị ngắt cụt gây khó chịu. Cách xử lí biên tập âm thanh nào làm đoạn chuyển mượt mà hơn?",
+      "lua_chon": {
+        "A": "Tăng âm lượng cả hai bài lên 300%",
+        "B": "Áp dụng `Fade Out` cho phần cuối bài nhạc 1 và `Fade In` cho phần đầu bài nhạc 2",
+        "C": "Xóa hết hình ảnh phía trên",
+        "D": "Đổi đuôi tệp nhạc sang `.jpg`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Kết hợp `Fade Out` và `Fade In` tại điểm nối giúp chuyển tiếp âm thanh êm dịu.",
+      "nguon": "ndc_bai_30 & tln_..._bai_30"
+    },
+    {
+      "id": "B30_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích và sửa lỗi đồng bộ đa lớp trên Timeline",
+      "cau_hoi": "Một học sinh dựng video gồm 3 phân cảnh ảnh (tổng 18 giây) và 1 lớp phụ đề. Sau đó học sinh kéo dài phân cảnh 1 thêm 4 giây trên `Timeline`, dẫn đến toàn bộ phụ đề của phân cảnh 2 và 3 bị lệch sớm 4 giây so với hình ảnh. Cách xử lí đúng là gì?",
+      "lua_chon": {
+        "A": "Di chuyển các khối phụ đề của phân cảnh 2 và 3 trên track phụ đề dịch sang phải 4 giây để khớp lại đúng mốc thời gian mới của hình ảnh",
+        "B": "Cắt bỏ 4 giây của phân cảnh 2",
+        "C": "Dùng `Replace File` đổi tất cả ảnh",
+        "D": "Xuất tệp sang `.vpj` là tự hết lệch"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Khi thay đổi thời lượng phân cảnh ở track video, cần kiểm tra và dịch chuyển đồng bộ các track phụ đề/âm thanh liên quan.",
+      "nguon": "ndc_bai_30"
+    },
+    {
+      "id": "B30_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế quy trình biên tập hoàn chỉnh cho video tài liệu",
+      "cau_hoi": "Nhóm bạn được giao biên tập một video phóng sự 2 phút đã quay thô: clip quay bị dư 15 giây đầu, thiếu lời giới thiệu địa điểm bằng chữ, âm thanh ồn và kết thúc bị cắt nhạc đột ngột. Thứ tự sử dụng công cụ biên tập nào giải quyết trọn vẹn cả 4 vấn đề?",
+      "lua_chon": {
+        "A": "Xuất `.mp4` trước rồi mới cắt 15 giây đầu",
+        "B": "Chỉ dùng `GIMP` để chỉnh màu rồi xuất `.gif`",
+        "C": "Cắt bỏ 15 giây đầu dư thừa -> chỉnh âm thanh giảm ồn/lồng nhạc nền kèm `Fade Out` ở cuối -> thêm chuyển cảnh giữa các đoạn -> thêm phụ đề giới thiệu địa điểm và căn chỉnh thời gian khớp trên `Timeline`",
+        "D": "Chỉ dùng `Replace File` thay video bằng ảnh tĩnh"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Biên tập đúng quy trình: cắt gọt thô -> xử lí âm thanh & Fade Out -> chuyển cảnh -> phụ đề & đồng bộ Timeline.",
+      "nguon": "ndc_bai_30 & cd7_bai_30"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B30-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Muốn phụ đề khớp lời thoại cần căn chỉnh điều gì?",
-        "lua_chon": {
-          "A": "Quyền Bluetooth",
-          "B": "Vị trí và thời lượng phụ đề trên dòng thời gian",
-          "C": "Tên tệp ảnh bìa",
-          "D": "Kiểu khóa CSDL"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B30_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Các thao tác biên tập phim trong VideoPad",
+      "dan_nhap": "Các thao tác biên tập phim trong phần mềm làm phim (VideoPad):",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Chỉnh sửa hình ảnh gồm bổ sung, thay thế, xóa, căn chỉnh hướng/góc quay và tạo hiệu ứng cho ảnh/clip.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Đáp án đúng vì Vị trí và thời lượng phụ đề trên dòng thời gian; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B30-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Phát biểu nào đúng về Cắt clip?",
-        "lua_chon": {
-          "A": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
-          "B": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
-          "C": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc.",
-          "D": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng."
+        {
+          "ma": "b",
+          "noi_dung": "Chế độ Dòng thời gian (`Timeline`) hỗ trợ căn chỉnh thời điểm xuất hiện và độ dài giữa các lớp hình ảnh, âm thanh và phụ đề.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng."
-      },
-      {
-        "id": "T11-B30-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống: Đầu video có khoảng chờ dài. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Cắt bỏ phần đầu không cần.",
-          "B": "Hiệu ứng chuyển cảnh phù hợp.",
-          "C": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
-          "D": "Vị trí bắt đầu/kết thúc trên dòng thời gian."
+        {
+          "ma": "c",
+          "noi_dung": "Hiệu ứng chuyển cảnh giúp chuyển tiếp giữa các phân cảnh mượt mà và tạo tính liên kết.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Cắt bỏ phần đầu không cần."
-      },
-      {
-        "id": "T11-B30-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Cắt clip?",
-        "lua_chon": {
-          "A": "Nhạc nền át tiếng người nói.",
-          "B": "Dòng chữ xuất hiện sau lời nói.",
-          "C": "Đầu video có khoảng chờ dài.",
-          "D": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ."
+        {
+          "ma": "d",
+          "noi_dung": "Một đoạn phim chỉ được phép chứa tối đa một lớp hình ảnh và không thể chèn thêm lớp phụ đề.",
+          "dap_an": false,
+          "giai_thich": "Sai. Có thể chứa nhiều lớp băng hình, âm thanh và chữ/phụ đề."
+        }
+      ],
+      "nguon": "Biên soạn từ ndc_bai_30 & cd7_bai_30"
+    },
+    {
+      "id": "B30_DS_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Biên tập âm thanh và hiệu ứng Fade In/Fade Out",
+      "dan_nhap": "Nhận định về công cụ chỉnh sửa âm thanh khi biên tập phim:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể đưa tệp âm thanh vào lớp riêng trên `Timeline` và cắt độ dài cho khớp với phim.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Cắt clip trong bài Biên tập phim."
-      },
-      {
-        "id": "T11-B30-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Phát biểu nào đúng về Chuyển cảnh?",
-        "lua_chon": {
-          "A": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
-          "B": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc.",
-          "C": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
-          "D": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng."
+        {
+          "ma": "b",
+          "noi_dung": "Hiệu ứng `Fade Out` làm âm lượng nhỏ dần về 0 ở cuối đoạn âm thanh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip."
-      },
-      {
-        "id": "T11-B30-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống: Hai cảnh thay đổi đột ngột và cần chuyển nhẹ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Cắt bỏ phần đầu không cần.",
-          "B": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
-          "C": "Vị trí bắt đầu/kết thúc trên dòng thời gian.",
-          "D": "Hiệu ứng chuyển cảnh phù hợp."
+        {
+          "ma": "c",
+          "noi_dung": "Hiệu ứng `Fade In` làm âm lượng nhỏ dần ở cuối đoạn phim.",
+          "dap_an": false,
+          "giai_thich": "Sai. `Fade In` làm âm lượng to dần ở đầu đoạn; nhỏ dần ở cuối là `Fade Out`."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Hiệu ứng chuyển cảnh phù hợp."
-      },
-      {
-        "id": "T11-B30-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Chuyển cảnh?",
-        "lua_chon": {
-          "A": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
-          "B": "Đầu video có khoảng chờ dài.",
-          "C": "Nhạc nền át tiếng người nói.",
-          "D": "Dòng chữ xuất hiện sau lời nói."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể điều chỉnh giảm âm lượng nhạc nền để không lấn át giọng thuyết minh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_30 & tln_..._bai_30"
+    },
+    {
+      "id": "B30_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo và căn chỉnh phụ đề đồng bộ",
+      "dan_nhap": "Một học sinh chèn phụ đề giới thiệu địa danh cho đoạn phim du lịch:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Có thể chỉnh sửa nội dung, phông chữ, cỡ chữ và màu sắc của phụ đề.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Chuyển cảnh trong bài Biên tập phim."
-      },
-      {
-        "id": "T11-B30-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Phát biểu nào đúng về Âm thanh?",
-        "lua_chon": {
-          "A": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc.",
-          "B": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
-          "C": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.",
-          "D": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể thiết lập mốc thời gian bắt đầu và kết thúc hiển thị riêng cho từng dòng phụ đề.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền."
-      },
-      {
-        "id": "T11-B30-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống: Nhạc nền át tiếng người nói. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hiệu ứng chuyển cảnh phù hợp.",
-          "B": "Vị trí bắt đầu/kết thúc trên dòng thời gian.",
-          "C": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
-          "D": "Cắt bỏ phần đầu không cần."
+        {
+          "ma": "c",
+          "noi_dung": "Nên chỉnh thời lượng phụ đề thật ngắn (khoảng 0,3 giây) để tăng tốc độ phim.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thời gian quá ngắn khiến người xem không kịp đọc."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Giảm nhạc nền hoặc cân bằng mức âm thanh."
-      },
-      {
-        "id": "T11-B30-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Âm thanh?",
-        "lua_chon": {
-          "A": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
-          "B": "Dòng chữ xuất hiện sau lời nói.",
-          "C": "Nhạc nền át tiếng người nói.",
-          "D": "Đầu video có khoảng chờ dài."
+        {
+          "ma": "d",
+          "noi_dung": "Nên chọn màu chữ tương phản rõ với nền video để người xem dễ đọc.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_30 & cd7_bai_30"
+    },
+    {
+      "id": "B30_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chỉnh sửa hình ảnh và Replace File",
+      "dan_nhap": "Nhận định về thao tác chỉnh sửa hình ảnh và tư liệu trong VideoPad:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Lệnh `Replace File` trên tệp ở ngăn Tư liệu giúp thay bằng tệp mới mà không xáo trộn bố cục.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Âm thanh trong bài Biên tập phim."
-      },
-      {
-        "id": "T11-B30-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Phát biểu nào đúng về Phụ đề?",
-        "lua_chon": {
-          "A": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc.",
-          "B": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.",
-          "C": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
-          "D": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể xoay hướng video clip bị quay nghiêng ngay trong phần mềm làm phim.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Phụ đề cần đồng bộ thời điểm và đủ thời gian đọc."
-      },
-      {
-        "id": "T11-B30-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống: Dòng chữ xuất hiện sau lời nói. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
-          "B": "Vị trí bắt đầu/kết thúc trên dòng thời gian.",
-          "C": "Cắt bỏ phần đầu không cần.",
-          "D": "Hiệu ứng chuyển cảnh phù hợp."
+        {
+          "ma": "c",
+          "noi_dung": "Mọi thao tác biên tập phim và làm phụ đề ở Bài 30 đều thực hiện trên phần mềm chỉnh sửa ảnh GIMP.",
+          "dap_an": false,
+          "giai_thich": "Sai. Thực hiện trên phần mềm làm phim VideoPad."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Vị trí bắt đầu/kết thúc trên dòng thời gian."
-      },
-      {
-        "id": "T11-B30-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Phụ đề?",
-        "lua_chon": {
-          "A": "Dòng chữ xuất hiện sau lời nói.",
-          "B": "Đầu video có khoảng chờ dài.",
-          "C": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
-          "D": "Nhạc nền át tiếng người nói."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể cắt ngắn hoặc kéo dài thời gian hiển thị của một ảnh trên `Timeline`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_30 & tln_..._bai_30"
+    },
+    {
+      "id": "B30_DS_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phối hợp chuyển cảnh và đồng bộ đa track",
+      "dan_nhap": "Khi hoàn thiện biên tập đoạn phim có 5 phân cảnh, nhạc nền và phụ đề:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Nếu kéo dài thời lượng phân cảnh 2 trên `Timeline`, cần kiểm tra lại vị trí các phụ đề ở phân cảnh sau để tránh lệch.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Phụ đề trong bài Biên tập phim."
-      },
-      {
-        "id": "T11-B30-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Phát biểu nào đúng về Hiệu ứng?",
-        "lua_chon": {
-          "A": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.",
-          "B": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
-          "C": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
-          "D": "Hiệu ứng nên phục vụ nội dung và tránh gây rối."
+        {
+          "ma": "b",
+          "noi_dung": "Có thể dùng công cụ tách (`Split`) tại con trỏ thời điểm để cắt bỏ đoạn video quay hỏng ở giữa clip.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Hiệu ứng nên phục vụ nội dung và tránh gây rối."
-      },
-      {
-        "id": "T11-B30-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống: Video có quá nhiều hiệu ứng nhấp nháy. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Giảm và chọn hiệu ứng có mục đích.",
-          "B": "Cắt bỏ phần đầu không cần.",
-          "C": "Hiệu ứng chuyển cảnh phù hợp.",
-          "D": "Giảm nhạc nền hoặc cân bằng mức âm thanh."
+        {
+          "ma": "c",
+          "noi_dung": "Sau khi chèn hiệu ứng chuyển cảnh giữa hai phân cảnh, cần xem trước ở ngăn `Preview` để kiểm tra độ mượt.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Giảm và chọn hiệu ứng có mục đích."
-      },
-      {
-        "id": "T11-B30-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Hiệu ứng?",
-        "lua_chon": {
-          "A": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
-          "B": "Nhạc nền át tiếng người nói.",
-          "C": "Video có quá nhiều hiệu ứng nhấp nháy.",
-          "D": "Đầu video có khoảng chờ dài."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Hiệu ứng trong bài Biên tập phim."
-      },
-      {
-        "id": "T11-B30-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Phát biểu nào đúng về Căn chỉnh thời gian?",
-        "lua_chon": {
-          "A": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip.",
-          "B": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
-          "C": "Căn chỉnh thời lượng giúp hình, tiếng và phụ đề đồng bộ.",
-          "D": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng."
-        },
-        "dap_an": "C",
-        "giai_thich": "Căn chỉnh thời lượng giúp hình, tiếng và phụ đề đồng bộ."
-      },
-      {
-        "id": "T11-B30-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống: Lời thoại kết thúc nhưng phụ đề còn hiện lâu. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Cắt bỏ phần đầu không cần.",
-          "B": "Hiệu ứng chuyển cảnh phù hợp.",
-          "C": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
-          "D": "Thời lượng phụ đề."
-        },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Thời lượng phụ đề."
-      },
-      {
-        "id": "T11-B30-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Căn chỉnh thời gian?",
-        "lua_chon": {
-          "A": "Lời thoại kết thúc nhưng phụ đề còn hiện lâu.",
-          "B": "Đầu video có khoảng chờ dài.",
-          "C": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
-          "D": "Nhạc nền át tiếng người nói."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Căn chỉnh thời gian trong bài Biên tập phim."
-      },
-      {
-        "id": "T11-B30-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra xuất bản?",
-        "lua_chon": {
-          "A": "Âm lượng lời thoại cần nghe rõ hơn nhạc nền.",
-          "B": "Xem lại tệp sau khi xuất giúp phát hiện lỗi cuối cùng.",
-          "C": "Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.",
-          "D": "Chuyển cảnh tạo sự chuyển tiếp giữa hai clip."
-        },
-        "dap_an": "B",
-        "giai_thich": "Xem lại tệp sau khi xuất giúp phát hiện lỗi cuối cùng."
-      },
-      {
-        "id": "T11-B30-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống: Video xuất xong nhưng chưa xem thử. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Hiệu ứng chuyển cảnh phù hợp.",
-          "B": "Giảm nhạc nền hoặc cân bằng mức âm thanh.",
-          "C": "Phát tệp xuất và kiểm tra hình/tiếng/phụ đề.",
-          "D": "Cắt bỏ phần đầu không cần."
-        },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Phát tệp xuất và kiểm tra hình/tiếng/phụ đề."
-      },
-      {
-        "id": "T11-B30-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra xuất bản?",
-        "lua_chon": {
-          "A": "Hai cảnh thay đổi đột ngột và cần chuyển nhẹ.",
-          "B": "Nhạc nền át tiếng người nói.",
-          "C": "Video xuất xong nhưng chưa xem thử.",
-          "D": "Đầu video có khoảng chờ dài."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Kiểm tra xuất bản trong bài Biên tập phim."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B30-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Xét tính đúng/sai về Biên tập phim:",
-        "y_kien": {
-          "a": "Nên xem trước sản phẩm để phát hiện lỗi.",
-          "b": true,
-          "c": true,
-          "d": "Âm lượng nhạc nền cần cân đối với lời thoại."
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B30-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Nêu quy trình biên tập phim có âm thanh, phụ đề và chuyển cảnh.",
-        "dap_an_goi_y": "Sắp xếp/cắt clip, cân âm lượng, thêm phụ đề đúng thời điểm, chọn chuyển cảnh vừa phải, xem trước, sửa lỗi rồi xuất phim.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B30-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 30 - Biên tập phim",
-        "noi_dung": "Dựa vào kiến thức “Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Đầu video có khoảng chờ dài.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Cắt clip loại bỏ đoạn thừa hoặc chọn phần cần dùng. Vận dụng: Cắt bỏ phần đầu không cần. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Hiệu ứng chuyển cảnh chỉ có tác dụng trang trí cho âm thanh, không tác động lên hình ảnh.",
+          "dap_an": false,
+          "giai_thich": "Sai. Chuyển cảnh tạo hiệu ứng chuyển tiếp hình ảnh giữa các phân cảnh."
+        }
+      ],
+      "nguon": "ndc_bai_30"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B30_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Chế độ Timeline",
+      "cau_hoi": "Chế độ hiển thị nào trong ngăn tiến trình giúp căn chỉnh thời gian khớp giữa các lớp hình, âm thanh và phụ đề?",
+      "dap_an": "Dòng thời gian (Timeline)",
+      "dap_an_tuong_duong": [
+        "Timeline",
+        "Dòng thời gian"
+      ],
+      "giai_thich": "Timeline hiển thị các lớp song song theo trục thời gian.",
+      "nguon": "tln_..._bai_30 & ndc_bai_30"
+    },
+    {
+      "id": "B30_TLN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lệnh Replace File",
+      "cau_hoi": "Lệnh chuột phải trên tệp trong ngăn Tư liệu để thay thế bằng tệp khác gọi là gì?",
+      "dap_an": "Replace File",
+      "dap_an_tuong_duong": [
+        "replace file"
+      ],
+      "giai_thich": "Replace File thay thế tệp tư liệu giữ nguyên bố cục.",
+      "nguon": "tln_..._bai_30"
+    },
+    {
+      "id": "B30_TLN_03",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Hiệu ứng Fade Out",
+      "cau_hoi": "Hiệu ứng làm âm lượng nhạc nền nhỏ dần ở cuối phim có tên là gì?",
+      "dap_an": "Fade Out",
+      "dap_an_tuong_duong": [
+        "fade out"
+      ],
+      "giai_thich": "Fade Out giảm dần âm lượng ở phần kết thúc.",
+      "nguon": "tln_..._bai_30"
+    },
+    {
+      "id": "B30_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Hiệu ứng Fade In",
+      "cau_hoi": "Hiệu ứng làm âm lượng nhạc nền to dần lên ở đầu đoạn âm thanh có tên là gì?",
+      "dap_an": "Fade In",
+      "dap_an_tuong_duong": [
+        "fade in"
+      ],
+      "giai_thich": "Fade In tăng dần âm lượng ở phần mở đầu.",
+      "nguon": "tln_..._bai_30"
+    },
+    {
+      "id": "B30_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thời lượng hiển thị phụ đề",
+      "cau_hoi": "Một dòng phụ đề được thiết lập xuất hiện từ giây 00:12 đến giây 00:18. Tổng thời gian dòng phụ đề đó hiển thị là bao nhiêu giây?",
+      "dap_an": "6",
+      "dap_an_tuong_duong": [
+        "6 giây",
+        "6s"
+      ],
+      "giai_thich": "18 - 12 = 6 giây.",
+      "nguon": "cd7_bai_30"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B30_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Năm nhóm thao tác biên tập phim cơ bản",
+      "cau_hoi": "Trình bày 5 nhóm thao tác biên tập phim cơ bản và tác dụng của việc căn chỉnh thời lượng chuyển cảnh với phụ đề.",
+      "goi_y_dap_an": "- 5 nhóm thao tác: (1) Chỉnh sửa hình ảnh/clip; (2) Chỉnh sửa âm thanh; (3) Tạo hiệu ứng chuyển cảnh; (4) Căn chỉnh thời gian trên Timeline; (5) Tạo và định dạng phụ đề.\n- Tác dụng: Giúp người xem theo dõi kịp cả kênh hình lẫn kênh chữ đồng bộ, mạch lạc.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đủ 5 nhóm thao tác (1,2đ) và giải thích đúng tác dụng căn chỉnh thời lượng (0,8đ).",
+      "nguon": "ndc_bai_30 & cd7_bai_30"
+    },
+    {
+      "id": "B30_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lồng nhạc nền và tạo Fade Out",
+      "cau_hoi": "Nêu các thao tác cần thực hiện để lồng một bản nhạc nền vào đoạn phim sao cho nhạc kết thúc êm dịu (nhỏ dần) ở giây cuối cùng.",
+      "goi_y_dap_an": "1) Chèn tệp âm thanh vào lớp âm thanh trên ngăn `Timeline`.\n2) Cắt/căn chỉnh độ dài tệp âm thanh khớp với thời lượng phim.\n3) Áp dụng hiệu ứng `Fade Out` ở phần cuối bản nhạc.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng đủ 3 bước (0,6đ + 0,7đ + 0,7đ = 2,0đ).",
+      "nguon": "ndc_bai_30 & tln_..._bai_30"
+    },
+    {
+      "id": "B30_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Xử lí đồng bộ phụ đề và âm thanh trên Timeline",
+      "cau_hoi": "Một đoạn phim tài liệu về quê hương dài 30 giây có cảnh giới thiệu chợ nổi từ giây 10 đến giây 20. Bạn muốn: (1) Thay ảnh tĩnh cũ ở giây 10 bằng ảnh mới chụp mà không làm xáo trộn hiệu ứng đã cài; (2) Chèn dòng phụ đề 'Chợ nổi miền Tây' xuất hiện từ giây 11 đến giây 19 với kiểu chữ dễ đọc. Hãy trình bày cách thực hiện hai yêu cầu trên trong VideoPad.",
+      "goi_y_dap_an": "- Yêu cầu (1): Trong ngăn Tư liệu (tab `Images`), nháy phải chuột vào tệp ảnh cũ -> chọn `Replace File` -> chọn tệp ảnh mới (giữ nguyên vị trí, thời lượng và hiệu ứng trên Timeline).\n- Yêu cầu (2): Dùng công cụ tạo phụ đề (`Add Title` / `Subtitles`), nhập nội dung 'Chợ nổi miền Tây', chọn phông chữ rõ và màu tương phản (có viền/nền mờ), sau đó trên `Timeline` kéo/đặt mốc bắt đầu tại `00:11` và kết thúc tại `00:19`, kiểm tra lại ở ngăn `Preview`.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng `Replace File` (0,8đ) và trình bày đúng quy trình tạo/căn chỉnh phụ đề từ 11s–19s (1,2đ).",
+      "nguon": "ndc_bai_30 & tln_..._bai_30"
+    }
+  ]
 }

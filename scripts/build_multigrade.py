@@ -370,4 +370,6 @@ def expected_count_total(qfiles, grade, folder):
 
 if __name__ == "__main__":
     build_grade(10, 34)
-    build_grade(11, 31)
+    import build_grade11_new
+    if not build_grade11_new.build():
+        build_grade(11, 31)

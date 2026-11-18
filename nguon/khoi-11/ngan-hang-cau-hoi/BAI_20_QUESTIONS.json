@@ -1,424 +1,572 @@
 {
-  "ma_bai": "BAI_20",
-  "bai_so": 20,
+  "bai_id": "BAI_20",
   "ten_bai": "Thực hành tạo lập bảng có khóa ngoài",
-  "thong_ke": {
-    "tong_so_cau": 25,
-    "so_cau_goc": {
-      "trac_nghiem": 0,
-      "dung_sai": 0,
-      "tu_luan": 0
+  "chu_de": "Chủ đề 6: Thực hành tạo và khai thác cơ sở dữ liệu",
+  "mon_hoc": "Tin học 11 (Kết nối tri thức với cuộc sống)",
+  "nguon_tham_chieu": [
+    "Kenhgiaovien_20_th_tao_lap.docx",
+    "ndc_bai_20_thuc_hanh_tao_lap_bang_co_khoa_ngoai.docx"
+  ],
+  "trac_nghiem_nhieu_lua_chon": [
+    {
+      "id": "B20_TN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thẻ khai báo khóa ngoài trong HeidiSQL",
+      "cau_hoi": "Trong giao diện thiết kế bảng của HeidiSQL, để khai báo khóa ngoài cho bảng `bannhac`, ta chọn thẻ nào?",
+      "lua_chon": {
+        "A": "Thẻ Foreign keys",
+        "B": "Thẻ Indexes",
+        "C": "Thẻ Options",
+        "D": "Thẻ Triggers"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Chọn thẻ Foreign keys để khai báo trường khóa ngoài (`Columns`), bảng tham chiếu (`Reference table`) và trường tham chiếu.",
+      "nguon": "ndc_bai_20 & Kenhgiaovien_20"
     },
-    "so_cau_bo_sung": {
-      "trac_nghiem": 22,
-      "dung_sai": 1,
-      "tu_luan": 2
+    {
+      "id": "B20_TN_02",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khai báo kiểu và mặc định cho trường khóa ngoài",
+      "cau_hoi": "Trường `idNhacsi` trong bảng `bannhac` tham chiếu tới khóa chính `idNhacsi` (kiểu INT) của bảng `nhacsi`. Khi khai báo trường `idNhacsi` trong `bannhac`, cần đặt kiểu dữ liệu và giá trị mặc định như thế nào?",
+      "lua_chon": {
+        "A": "Bắt buộc đặt AUTO_INCREMENT",
+        "B": "Kiểu VARCHAR(255)",
+        "C": "Kiểu DATE",
+        "D": "Kiểu INT và giá trị mặc định là số nguyên (ví dụ 0), KHÔNG đặt AUTO_INCREMENT"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Trường khóa ngoài phải cùng kiểu INT với khóa chính tham chiếu, mặc định phù hợp (như 0) và không đặt AUTO_INCREMENT.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tạo khóa UNIQUE cho cặp trường",
+      "cau_hoi": "Khi khai báo khóa cấm trùng lặp cho cặp `(tenBannhac, idNhacsi)` trong HeidiSQL, ta chọn hai trường đó rồi thực hiện lệnh nào?",
+      "lua_chon": {
+        "A": "Create new index -> PRIMARY",
+        "B": "Add column",
+        "C": "Create new index -> UNIQUE",
+        "D": "Drop table"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Chọn Create new index -> UNIQUE để khai báo khóa cấm trùng lặp cho cặp trường.",
+      "nguon": "ndc_bai_20 & Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TN_04",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định các khóa của bảng banthuam",
+      "cau_hoi": "Khi tạo bảng `banthuam(idBanthuam, idBannhac, idCasi)`, bảng này cần khai báo những khóa nào?",
+      "lua_chon": {
+        "A": "Không cần khóa nào",
+        "B": "Chỉ cần khóa chính `idBanthuam`",
+        "C": "Chỉ cần 1 khóa ngoài `idBannhac`",
+        "D": "Khóa chính `idBanthuam`, khóa `UNIQUE (idBannhac, idCasi)` và 2 khóa ngoài (`idBannhac`, `idCasi`)"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Bảng `banthuam` cần khóa chính `idBanthuam`, cấm trùng `(idBannhac, idCasi)` và hai khóa ngoài `idBannhac`, `idCasi`.",
+      "nguon": "Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TN_05",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Cột Columns trong thẻ Foreign keys",
+      "cau_hoi": "Trong thẻ `Foreign keys` của HeidiSQL, cột `Columns` dùng để chọn thành phần nào?",
+      "lua_chon": {
+        "A": "Mật khẩu tài khoản root",
+        "B": "Tên cơ sở dữ liệu",
+        "C": "Tên bảng được tham chiếu",
+        "D": "Trường khóa ngoài của bảng hiện tại đang thiết kế"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Cột `Columns` chọn trường đóng vai trò khóa ngoài trong bảng hiện tại.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_06",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Cột Reference table trong thẻ Foreign keys",
+      "cau_hoi": "Trong thẻ `Foreign keys` của HeidiSQL, cột `Reference table` dùng để chọn gì?",
+      "lua_chon": {
+        "A": "Bộ mã kí tự của bảng",
+        "B": "Bảng đích chứa khóa chính mà khóa ngoài tham chiếu tới",
+        "C": "Số lượng bản ghi tối đa",
+        "D": "Cổng kết nối TCP/IP"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "`Reference table` chỉ định bảng được tham chiếu (ví dụ bảng `nhacsi`).",
+      "nguon": "Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TN_07",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thao tác hoàn tất khai báo khóa ngoài",
+      "cau_hoi": "Sau khi chọn đủ `Columns`, `Reference table` và `Foreign columns` trong thẻ `Foreign keys` của HeidiSQL, bước cuối cùng để áp dụng thay đổi vào MySQL là gì?",
+      "lua_chon": {
+        "A": "Ngắt kết nối mạng",
+        "B": "Nhấn nút Xóa bảng",
+        "C": "Đóng HeidiSQL không cần lưu",
+        "D": "Nhấn nút Lưu"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Phải nhấn nút Lưu để HeidiSQL thực thi lệnh tạo khóa ngoài lên máy chủ MySQL.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_08",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Cách chọn nhiều trường cùng lúc trong HeidiSQL",
+      "cau_hoi": "Để tạo khóa `UNIQUE` gồm hai trường `(tenBannhac, idNhacsi)` trong HeidiSQL, ta giữ phím nào khi nháy chuột chọn cả hai dòng trường đó trước khi nháy phải chuột?",
+      "lua_chon": {
+        "A": "Phím Caps Lock",
+        "B": "Phím Esc",
+        "C": "Phím Ctrl (hoặc Shift)",
+        "D": "Phím Print Screen"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Giữ phím Ctrl hoặc Shift để bôi đen nhiều trường rồi chọn `Create new index -> UNIQUE`.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_09",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Điều kiện tồn tại bảng tham chiếu",
+      "cau_hoi": "Tại sao không thể khai báo khóa ngoài `idNhacsi` cho bảng `bannhac` nếu bảng `nhacsi` chưa được tạo trước?",
+      "lua_chon": {
+        "A": "Vì `Reference table` chưa có bảng `nhacsi` và khóa chính `nhacsi.idNhacsi` để tham chiếu tới",
+        "B": "Vì bảng `nhacsi` phải nằm trong CSDL khác",
+        "C": "Vì bảng `bannhac` không có khóa chính",
+        "D": "Vì HeidiSQL chỉ cho tạo 1 bảng mỗi ngày"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Bảng cha (`nhacsi`) và khóa chính của nó phải tồn tại trước thì bảng con (`bannhac`) mới tham chiếu được.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_10",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lý do khóa ngoài không dùng AUTO_INCREMENT",
+      "cau_hoi": "Vì sao trường khóa ngoài `idNhacsi` trong bảng `bannhac` KHÔNG được đặt `AUTO_INCREMENT`?",
+      "lua_chon": {
+        "A": "Vì giá trị của nó phải nhập khớp với `idNhacsi` đã có trong bảng `nhacsi` (một nhạc sĩ có thể có nhiều bản nhạc), không phải số tự tăng riêng",
+        "B": "Vì `idNhacsi` là kiểu xâu kí tự",
+        "C": "Vì bảng `bannhac` không thể có số nguyên",
+        "D": "Vì khóa ngoài luôn phải bằng 0"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Khóa ngoài là giá trị tham chiếu từ bảng cha, không phải mã tự sinh độc lập của bảng con.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_11",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ràng buộc Allow NULL với khóa ngoài",
+      "cau_hoi": "Khi khai báo khóa ngoài `idNhacsi` trong `bannhac`, có nên bỏ chọn `Allow NULL` nếu quy định mỗi bản nhạc bắt buộc phải biết nhạc sĩ sáng tác không?",
+      "lua_chon": {
+        "A": "Có, nên bỏ chọn `Allow NULL` để bắt buộc mọi bản nhạc đều phải gắn với một nhạc sĩ hợp lệ",
+        "B": "Không, bắt buộc phải để `Allow NULL`",
+        "C": "Không quan trọng vì khóa ngoài tự động xóa dữ liệu",
+        "D": "Phải đổi kiểu dữ liệu sang `BOOLEAN`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Bỏ chọn `Allow NULL` đảm bảo không có bản nhạc nào bị bỏ trống thông tin nhạc sĩ.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_12",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Lỗi lệch kiểu dữ liệu khi tạo khóa ngoài",
+      "cau_hoi": "Khi nhấn Lưu tạo khóa ngoài `idNhacsi` trong bảng `bannhac` tham chiếu `nhacsi.idNhacsi`, hệ thống báo lỗi không tương thích. Nguyên nhân thường gặp nhất là gì?",
+      "lua_chon": {
+        "A": "Chọn bộ mã `utf8mb4`",
+        "B": "Tên hai bảng khác nhau",
+        "C": "Đặt khóa `UNIQUE` cho `(tenBannhac, idNhacsi)`",
+        "D": "Kiểu dữ liệu (hoặc thuộc tính dấu `UNSIGNED`) của `idNhacsi` ở hai bảng không giống hệt nhau"
+      },
+      "dap_an_dung": "D",
+      "giai_thich": "Khóa ngoài và khóa chính tham chiếu phải trùng khớp hoàn toàn về kiểu dữ liệu.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_13",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Khai báo nhiều khóa ngoài trên một bảng",
+      "cau_hoi": "Trong bảng `banthuam(idBanthuam, idBannhac, idCasi)`, tại thẻ `Foreign keys` của HeidiSQL ta cần thêm bao nhiêu dòng định nghĩa khóa ngoài?",
+      "lua_chon": {
+        "A": "1 dòng gộp cả `idBannhac` và `idCasi` trỏ về bảng `nhacsi`",
+        "B": "2 dòng: một dòng cho `idBannhac` tham chiếu `bannhac`, một dòng cho `idCasi` tham chiếu `casi`",
+        "C": "0 dòng",
+        "D": "4 dòng"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Mỗi khóa ngoài tham chiếu tới một bảng cha khác nhau nên cần khai báo thành một dòng riêng.",
+      "nguon": "Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TN_14",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Khai báo khóa ngoài cho bảng huyen",
+      "cau_hoi": "Trong bài tập tạo bảng `huyen(idHuyen, tenHuyen, idTinh)` tham chiếu tới `tinh(idTinh, tenTinh)`, các thông số đúng khi thêm dòng ở thẻ `Foreign keys` của bảng `huyen` là gì?",
+      "lua_chon": {
+        "A": "`Columns`: `idHuyen`; `Reference table`: `tinh`; `Foreign columns`: `tenTinh`",
+        "B": "`Columns`: `idTinh`; `Reference table`: `tinh`; `Foreign columns`: `idTinh`",
+        "C": "`Columns`: `tenHuyen`; `Reference table`: `huyen`; `Foreign columns`: `idHuyen`",
+        "D": "`Columns`: `idTinh`; `Reference table`: `nhacsi`; `Foreign columns`: `idNhacsi`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Khóa ngoài `idTinh` của `huyen` tham chiếu tới khóa chính `idTinh` của bảng `tinh`.",
+      "nguon": "Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TN_15",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xác định thứ tự tạo bảng khi mở rộng CSDL",
+      "cau_hoi": "Nếu bạn An muốn tạo cả 4 bảng `nhacsi`, `casi`, `bannhac`, `banthuam` kèm đầy đủ khóa ngoài ngay từ đầu, An KHÔNG thể thực hiện thứ tự nào sau đây?",
+      "lua_chon": {
+        "A": "Tạo `casi` -> `nhacsi` -> `bannhac` -> `banthuam`",
+        "B": "Tạo `nhacsi` -> `casi` -> `bannhac` -> `banthuam`",
+        "C": "Tạo `banthuam` -> `bannhac` -> `nhacsi` -> `casi`",
+        "D": "Tạo `nhacsi` -> `bannhac` -> `casi` -> `banthuam`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Tạo `banthuam` trước khi có `bannhac` và `casi` sẽ không có bảng để tham chiếu khóa ngoài.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_16",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Kiểm tra kết quả tạo khóa ngoài trong thẻ CREATE code",
+      "cau_hoi": "Sau khi khai báo khóa ngoài `idNhacsi` cho bảng `bannhac` và nhấn Lưu, trong thẻ `CREATE code` của HeidiSQL sẽ xuất hiện từ khóa SQL nào?",
+      "lua_chon": {
+        "A": "`PRIMARY KEY (idNhacsi)`",
+        "B": "`FOREIGN KEY (idNhacsi) REFERENCES nhacsi (idNhacsi)`",
+        "C": "`AUTO_INCREMENT (idNhacsi)`",
+        "D": "`DROP TABLE nhacsi`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Cú pháp DDL tương ứng với khóa ngoài là `FOREIGN KEY (...) REFERENCES ... (...)`.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_17",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Xử lí lỗi khi chọn nhầm cột trong Foreign keys",
+      "cau_hoi": "Trong bảng `bannhac`, một học sinh lỡ chọn nhầm `tenBannhac` ở ô `Columns` khi khai báo khóa ngoài tham chiếu `nhacsi.idNhacsi` và nhấn Lưu nên bị báo lỗi. Lý do là gì?",
+      "lua_chon": {
+        "A": "Vì bảng `nhacsi` không có dữ liệu",
+        "B": "Vì `tenBannhac` nằm ở vị trí cột thứ hai",
+        "C": "`tenBannhac` có kiểu `VARCHAR(255)` không khớp với kiểu `INT` của `nhacsi.idNhacsi`",
+        "D": "Vì chưa chọn bộ mã `ascii`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khóa ngoài và khóa chính tham chiếu khác kiểu dữ liệu (`VARCHAR` vs `INT`) sẽ bị MySQL từ chối.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_18",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Phân biệt thẻ Indexes và Foreign keys trong HeidiSQL",
+      "cau_hoi": "Khi thiết kế bảng `bannhac`, hai khóa `PRIMARY (idBannhac)` và `UNIQUE (tenBannhac, idNhacsi)` được quản lí trong thẻ `Indexes`, còn liên kết `idNhacsi -> nhacsi.idNhacsi` được quản lí trong thẻ nào?",
+      "lua_chon": {
+        "A": "Thẻ `Foreign keys`",
+        "B": "Thẻ `Data`",
+        "C": "Thẻ `Query`",
+        "D": "Thẻ `Host`"
+      },
+      "dap_an_dung": "A",
+      "giai_thich": "Thẻ `Foreign keys` chuyên dùng để khai báo và chỉnh sửa các khóa ngoài của bảng.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TN_19",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Phân tích lỗi tổng hợp khi tạo bảng banthuam",
+      "cau_hoi": "Một học sinh tạo bảng `banthuam(idBanthuam, idBannhac, idCasi)` với: `idBanthuam` (`INT`, `PRIMARY`, `AUTO_INCREMENT`), `idBannhac` (`INT`), `idCasi` (`VARCHAR(10)`). Khi khai báo khóa ngoài `idBannhac -> bannhac.idBannhac` thì thành công, nhưng khi khai báo `idCasi -> casi.idCasi` (kiểu `INT`) lại thất bại. Cách sửa đúng là gì?",
+      "lua_chon": {
+        "A": "Đặt `AUTO_INCREMENT` cho `banthuam.idCasi`",
+        "B": "Đổi `casi.idCasi` sang `DATE`",
+        "C": "Đổi kiểu dữ liệu của `banthuam.idCasi` từ `VARCHAR(10)` sang `INT` (khớp với `casi.idCasi`), nhấn Lưu rồi khai báo lại khóa ngoài `idCasi`",
+        "D": "Xóa khóa chính `idBanthuam`"
+      },
+      "dap_an_dung": "C",
+      "giai_thich": "Khóa ngoài `banthuam.idCasi` phải cùng kiểu `INT` với khóa chính `casi.idCasi`.",
+      "nguon": "ndc_bai_20 & Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TN_20",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Thiết kế hoàn chỉnh bảng có khóa ngoài bằng SQL",
+      "cau_hoi": "Câu lệnh SQL nào tương đương chính xác với việc tạo bảng `huyen` có khóa chính `idHuyen`, khóa ngoài `idTinh` tham chiếu `tinh(idTinh)` và khóa cấm trùng `(tenHuyen, idTinh)`?",
+      "lua_chon": {
+        "A": "`CREATE TABLE huyen (idHuyen INT, tenHuyen VARCHAR(255), idTinh INT AUTO_INCREMENT, PRIMARY KEY (idTinh));`",
+        "B": "`CREATE TABLE huyen (idHuyen INT NOT NULL AUTO_INCREMENT, tenHuyen VARCHAR(255), idTinh INT NOT NULL, PRIMARY KEY (idHuyen), UNIQUE (tenHuyen, idTinh), FOREIGN KEY (idTinh) REFERENCES tinh(idTinh));`",
+        "C": "`CREATE TABLE huyen (tenHuyen VARCHAR(255), FOREIGN KEY (tenHuyen) REFERENCES tinh(idTinh));`",
+        "D": "`ALTER TABLE tinh ADD FOREIGN KEY (idHuyen) REFERENCES huyen(idHuyen);`"
+      },
+      "dap_an_dung": "B",
+      "giai_thich": "Đảm bảo đủ khóa chính tự tăng `idHuyen`, `UNIQUE(tenHuyen, idTinh)` và `FOREIGN KEY (idTinh) REFERENCES tinh(idTinh)`.",
+      "nguon": "Kenhgiaovien_20"
     }
-  },
-  "cau_hoi_goc": {
-    "trac_nghiem": [],
-    "dung_sai": [],
-    "tu_luan": []
-  },
-  "cau_hoi_bo_sung": {
-    "trac_nghiem": [
-      {
-        "id": "T11-B20-MC-001",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Khóa ngoài idNhacsi ở bảng Bannhac dùng để làm gì?",
-        "lua_chon": {
-          "A": "Đếm bản ghi",
-          "B": "Tham chiếu nhạc sĩ trong bảng Nhacsi",
-          "C": "Sắp xếp tên bài hát",
-          "D": "Mã hóa bảng"
+  ],
+  "trac_nghiem_dung_sai": [
+    {
+      "id": "B20_DS_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Tạo lập bảng bannhac trên HeidiSQL",
+      "dan_nhap": "Thao tác tạo lập bảng `bannhac(idBannhac, tenBannhac, idNhacsi)` trên HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Trường `idBannhac` chọn kiểu INT, bỏ `Allow NULL`, đặt `AUTO_INCREMENT` và làm khóa chính `PRIMARY`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Đáp án đúng vì Tham chiếu nhạc sĩ trong bảng Nhacsi; các lựa chọn còn lại không phù hợp với yêu cầu của bài."
-      },
-      {
-        "id": "T11-B20-MC-002",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Phát biểu nào đúng về Quan hệ khóa ngoài?",
-        "lua_chon": {
-          "A": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng.",
-          "B": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
-          "C": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
-          "D": "Bảng được khóa ngoài tham chiếu là bảng cha."
+        {
+          "ma": "b",
+          "noi_dung": "Cặp `(tenBannhac, idNhacsi)` được khai báo khóa `UNIQUE` để tránh nhập trùng tên bản nhạc của cùng một nhạc sĩ.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Khóa ngoài tham chiếu khóa chính ở bảng khác."
-      },
-      {
-        "id": "T11-B20-MC-003",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống: Bản nhạc gắn với mã nhạc sĩ. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Nhacsi.",
-          "B": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ.",
-          "C": "idNhacsi ở bảng Bannhac.",
-          "D": "Kiểu tương thích với khóa chính."
+        {
+          "ma": "c",
+          "noi_dung": "Trong thẻ `Foreign keys`, mục `Reference table` chọn bảng `nhacsi` để liên kết khóa ngoài `idNhacsi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, idNhacsi ở bảng Bannhac."
-      },
-      {
-        "id": "T11-B20-MC-004",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Quan hệ khóa ngoài?",
-        "lua_chon": {
-          "A": "Bản nhạc gắn với mã nhạc sĩ.",
-          "B": "idNhacsi ở bảng cha là số nguyên.",
-          "C": "Bannhac tham chiếu Nhacsi.",
-          "D": "Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó."
+        {
+          "ma": "d",
+          "noi_dung": "Có thể khai báo khóa ngoài tham chiếu đến bảng `nhacsi` ngay cả khi bảng `nhacsi` chưa được tạo lập.",
+          "dap_an": false,
+          "giai_thich": "Sai. Bảng tham chiếu (`nhacsi`) phải tồn tại trước."
+        }
+      ],
+      "nguon": "Biên soạn từ ndc_bai_20 & Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_DS_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo bảng huyen tham chiếu bảng tinh",
+      "dan_nhap": "Tạo bảng `huyen(idHuyen, tenHuyen, idTinh)` tham chiếu tới `tinh(idTinh, tenTinh)`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "`idHuyen` là khóa chính của bảng `huyen`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Quan hệ khóa ngoài trong bài Thực hành tạo lập bảng có khóa ngoài."
-      },
-      {
-        "id": "T11-B20-MC-005",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Phát biểu nào đúng về Kiểu tương thích?",
-        "lua_chon": {
-          "A": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
-          "B": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
-          "C": "Bảng được khóa ngoài tham chiếu là bảng cha.",
-          "D": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng."
+        {
+          "ma": "b",
+          "noi_dung": "`idTinh` là khóa ngoài trong bảng `huyen` tham chiếu tới `tinh.idTinh`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu."
-      },
-      {
-        "id": "T11-B20-MC-006",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống: idNhacsi ở bảng cha là số nguyên. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ.",
-          "B": "Kiểu tương thích với khóa chính.",
-          "C": "idNhacsi ở bảng Bannhac.",
-          "D": "Nhacsi."
+        {
+          "ma": "c",
+          "noi_dung": "Cặp `(tenHuyen, idTinh)` nên đặt khóa `UNIQUE` để không trùng tên huyện trong cùng một tỉnh.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Kiểu tương thích với khóa chính."
-      },
-      {
-        "id": "T11-B20-MC-007",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểu tương thích?",
-        "lua_chon": {
-          "A": "Bannhac tham chiếu Nhacsi.",
-          "B": "Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó.",
-          "C": "idNhacsi ở bảng cha là số nguyên.",
-          "D": "Bản nhạc gắn với mã nhạc sĩ."
+        {
+          "ma": "d",
+          "noi_dung": "Trường `idTinh` trong bảng `huyen` phải đặt `AUTO_INCREMENT`.",
+          "dap_an": false,
+          "giai_thich": "Sai."
+        }
+      ],
+      "nguon": "Biên soạn từ Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_DS_03",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Tạo bảng banthuam có hai khóa ngoài",
+      "dan_nhap": "Khi tạo lập bảng `banthuam(idBanthuam, idBannhac, idCasi)` trong CSDL `mymusic`:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Bảng `banthuam` cần được tạo sau khi đã có đủ các bảng `bannhac` và `casi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Kiểu tương thích trong bài Thực hành tạo lập bảng có khóa ngoài."
-      },
-      {
-        "id": "T11-B20-MC-008",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Phát biểu nào đúng về Bảng cha?",
-        "lua_chon": {
-          "A": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
-          "B": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
-          "C": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng.",
-          "D": "Bảng được khóa ngoài tham chiếu là bảng cha."
+        {
+          "ma": "b",
+          "noi_dung": "Trong thẻ `Foreign keys` cần khai báo 2 khóa ngoài riêng biệt: `idBannhac` và `idCasi`.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Bảng được khóa ngoài tham chiếu là bảng cha."
-      },
-      {
-        "id": "T11-B20-MC-009",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống: Bannhac tham chiếu Nhacsi. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Nhacsi.",
-          "B": "idNhacsi ở bảng Bannhac.",
-          "C": "Kiểu tương thích với khóa chính.",
-          "D": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ."
+        {
+          "ma": "c",
+          "noi_dung": "Cả `idBannhac` và `idCasi` trong bảng `banthuam` đều phải cùng kiểu dữ liệu `INT` với khóa chính tương ứng.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Nhacsi."
-      },
-      {
-        "id": "T11-B20-MC-010",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Bảng cha?",
-        "lua_chon": {
-          "A": "Bannhac tham chiếu Nhacsi.",
-          "B": "Bản nhạc gắn với mã nhạc sĩ.",
-          "C": "idNhacsi ở bảng cha là số nguyên.",
-          "D": "Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó."
+        {
+          "ma": "d",
+          "noi_dung": "Cần đặt `AUTO_INCREMENT` cho cả 3 trường `idBanthuam`, `idBannhac` và `idCasi`.",
+          "dap_an": false,
+          "giai_thich": "Sai. Chỉ `idBanthuam` đặt `AUTO_INCREMENT`."
+        }
+      ],
+      "nguon": "Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_DS_04",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Các mục trong thẻ Foreign keys của HeidiSQL",
+      "dan_nhap": "Nhận định về giao diện khai báo khóa ngoài trên HeidiSQL:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Ô `Columns` dùng để chọn trường khóa ngoài của bảng đang thiết kế.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Bảng cha trong bài Thực hành tạo lập bảng có khóa ngoài."
-      },
-      {
-        "id": "T11-B20-MC-011",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Phát biểu nào đúng về Toàn vẹn tham chiếu?",
-        "lua_chon": {
-          "A": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
-          "B": "Bảng được khóa ngoài tham chiếu là bảng cha.",
-          "C": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng.",
-          "D": "Khóa ngoài tham chiếu khóa chính ở bảng khác."
+        {
+          "ma": "b",
+          "noi_dung": "Ô `Reference table` dùng để chọn bảng cha được tham chiếu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Ràng buộc từ chối mã ngoài không có bản ghi tương ứng."
-      },
-      {
-        "id": "T11-B20-MC-012",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống: Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "idNhacsi ở bảng Bannhac.",
-          "B": "Kiểu tương thích với khóa chính.",
-          "C": "Nhacsi.",
-          "D": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ."
+        {
+          "ma": "c",
+          "noi_dung": "Ô `Foreign columns` dùng để chọn trường khóa chính ở bảng tham chiếu.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "D",
-        "giai_thich": "Trong tình huống nêu ra, Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ."
-      },
-      {
-        "id": "T11-B20-MC-013",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Toàn vẹn tham chiếu?",
-        "lua_chon": {
-          "A": "idNhacsi ở bảng cha là số nguyên.",
-          "B": "Bannhac tham chiếu Nhacsi.",
-          "C": "Nhập idNhacsi 99 nhưng chưa có nhạc sĩ đó.",
-          "D": "Bản nhạc gắn với mã nhạc sĩ."
+        {
+          "ma": "d",
+          "noi_dung": "Sau khi chọn xong không cần nhấn Lưu, khóa ngoài tự động có hiệu lực ngay.",
+          "dap_an": false,
+          "giai_thich": "Sai. Phải nhấn Lưu để hoàn tất."
+        }
+      ],
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_DS_05",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Xử lí lỗi khi tạo khóa ngoài",
+      "dan_nhap": "Nhận định về nguyên nhân gây lỗi khi tạo lập bảng có khóa ngoài:",
+      "cac_y": [
+        {
+          "ma": "a",
+          "noi_dung": "Kiểu dữ liệu của khóa ngoài khác với kiểu dữ liệu của khóa chính bảng cha sẽ gây lỗi.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Toàn vẹn tham chiếu trong bài Thực hành tạo lập bảng có khóa ngoài."
-      },
-      {
-        "id": "T11-B20-MC-014",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Phát biểu nào đúng về Tạo bảng theo thứ tự?",
-        "lua_chon": {
-          "A": "Bảng được khóa ngoài tham chiếu là bảng cha.",
-          "B": "Thường cần tạo bảng được tham chiếu trước bảng có khóa ngoài.",
-          "C": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
-          "D": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu."
+        {
+          "ma": "b",
+          "noi_dung": "Tạo bảng con trước khi tạo bảng cha làm không thể tham chiếu khóa ngoài.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
         },
-        "dap_an": "B",
-        "giai_thich": "Thường cần tạo bảng được tham chiếu trước bảng có khóa ngoài."
-      },
-      {
-        "id": "T11-B20-MC-015",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống: Tạo Nhacsi và Bannhac. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Kiểu tương thích với khóa chính.",
-          "B": "Từ chối hoặc yêu cầu tạo bản ghi cha hợp lệ.",
-          "C": "Nhacsi.",
-          "D": "idNhacsi ở bảng Bannhac."
+        {
+          "ma": "c",
+          "noi_dung": "Đặt khóa `UNIQUE` cho cặp `(tenBannhac, idNhacsi)` là nguyên nhân gây lỗi không tạo được khóa ngoài.",
+          "dap_an": false,
+          "giai_thich": "Sai. Khóa `UNIQUE` hoàn toàn hợp lệ và hỗ trợ kiểm soát trùng lặp."
         },
-        "dap_an": "C",
-        "giai_thich": "Trong tình huống nêu ra, Nhacsi."
-      },
-      {
-        "id": "T11-B20-MC-016",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Tạo bảng theo thứ tự?",
-        "lua_chon": {
-          "A": "Tạo Nhacsi và Bannhac.",
-          "B": "Bản nhạc gắn với mã nhạc sĩ.",
-          "C": "idNhacsi ở bảng cha là số nguyên.",
-          "D": "Bannhac tham chiếu Nhacsi."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Tạo bảng theo thứ tự trong bài Thực hành tạo lập bảng có khóa ngoài."
-      },
-      {
-        "id": "T11-B20-MC-017",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Phát biểu nào đúng về Hành vi xóa?",
-        "lua_chon": {
-          "A": "Xóa bản ghi cha có thể bị chặn nếu bản ghi con còn tham chiếu.",
-          "B": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
-          "C": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
-          "D": "Bảng được khóa ngoài tham chiếu là bảng cha."
-        },
-        "dap_an": "A",
-        "giai_thich": "Xóa bản ghi cha có thể bị chặn nếu bản ghi con còn tham chiếu."
-      },
-      {
-        "id": "T11-B20-MC-018",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống: Nhạc sĩ vẫn có nhiều bản nhạc liên kết. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Nhacsi.",
-          "B": "Ràng buộc ngăn xóa để tránh mồ côi dữ liệu.",
-          "C": "idNhacsi ở bảng Bannhac.",
-          "D": "Kiểu tương thích với khóa chính."
-        },
-        "dap_an": "B",
-        "giai_thich": "Trong tình huống nêu ra, Ràng buộc ngăn xóa để tránh mồ côi dữ liệu."
-      },
-      {
-        "id": "T11-B20-MC-019",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Hành vi xóa?",
-        "lua_chon": {
-          "A": "idNhacsi ở bảng cha là số nguyên.",
-          "B": "Bannhac tham chiếu Nhacsi.",
-          "C": "Nhạc sĩ vẫn có nhiều bản nhạc liên kết.",
-          "D": "Bản nhạc gắn với mã nhạc sĩ."
-        },
-        "dap_an": "C",
-        "giai_thich": "Tình huống này gắn với Hành vi xóa trong bài Thực hành tạo lập bảng có khóa ngoài."
-      },
-      {
-        "id": "T11-B20-MC-020",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Nhận biết",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Phát biểu nào đúng về Kiểm tra quan hệ?",
-        "lua_chon": {
-          "A": "Khóa ngoài tham chiếu khóa chính ở bảng khác.",
-          "B": "Kiểu dữ liệu khóa ngoài cần tương thích khóa được tham chiếu.",
-          "C": "Bảng được khóa ngoài tham chiếu là bảng cha.",
-          "D": "Kiểm tra khóa giúp xác nhận quan hệ trỏ đúng trường."
-        },
-        "dap_an": "D",
-        "giai_thich": "Kiểm tra khóa giúp xác nhận quan hệ trỏ đúng trường."
-      },
-      {
-        "id": "T11-B20-MC-021",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống: Liên kết đang trỏ nhầm trường tên. Lựa chọn nào phù hợp?",
-        "lua_chon": {
-          "A": "Trường khóa chính được tham chiếu và kiểu của khóa ngoài.",
-          "B": "idNhacsi ở bảng Bannhac.",
-          "C": "Kiểu tương thích với khóa chính.",
-          "D": "Nhacsi."
-        },
-        "dap_an": "A",
-        "giai_thich": "Trong tình huống nêu ra, Trường khóa chính được tham chiếu và kiểu của khóa ngoài."
-      },
-      {
-        "id": "T11-B20-MC-022",
-        "loai": "trac_nghiem",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Tình huống nào minh họa nhu cầu về Kiểm tra quan hệ?",
-        "lua_chon": {
-          "A": "Liên kết đang trỏ nhầm trường tên.",
-          "B": "Bản nhạc gắn với mã nhạc sĩ.",
-          "C": "idNhacsi ở bảng cha là số nguyên.",
-          "D": "Bannhac tham chiếu Nhacsi."
-        },
-        "dap_an": "A",
-        "giai_thich": "Tình huống này gắn với Kiểm tra quan hệ trong bài Thực hành tạo lập bảng có khóa ngoài."
-      }
-    ],
-    "dung_sai": [
-      {
-        "id": "T11-B20-TF-001",
-        "loai": "dung_sai",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Thông hiểu",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Xét tính đúng/sai về Thực hành tạo lập bảng có khóa ngoài:",
-        "y_kien": {
-          "a": true,
-          "b": "Khóa ngoài giúp duy trì toàn vẹn tham chiếu.",
-          "c": "Kiểu khóa ngoài cần tương thích trường được tham chiếu.",
-          "d": true
-        },
-        "dap_an": {
-          "a": false,
-          "b": true,
-          "c": false,
-          "d": true
-        },
-        "giai_thich": "Mệnh đề a: sai; Mệnh đề b: đúng; Mệnh đề c: sai; Mệnh đề d: đúng. Đối chiếu từng ý với kiến thức và thao tác trọng tâm của bài."
-      }
-    ],
-    "tu_luan": [
-      {
-        "id": "T11-B20-TL-001",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Giải thích cách thiết lập khóa ngoài giữa Bannhac và Nhacsi.",
-        "dap_an_goi_y": "Đặt idNhacsi làm khóa chính bên Nhacsi; tạo trường kiểu tương thích ở Bannhac; khai báo nó tham chiếu khóa chính.",
-        "giai_thich": "Hướng dẫn trả lời nêu các ý chính; chấp nhận cách trình bày khác nếu đúng kiến thức."
-      },
-      {
-        "id": "T11-B20-TL-002",
-        "loai": "tu_luan",
-        "nguon": "bien_soan_tu_khbd",
-        "muc_do": "Vận dụng",
-        "chu_de": "Bài 20 - Thực hành tạo lập bảng có khóa ngoài",
-        "noi_dung": "Dựa vào kiến thức “Khóa ngoài tham chiếu khóa chính ở bảng khác.”, hãy phân tích tình huống sau và đề xuất cách xử lí: Bản nhạc gắn với mã nhạc sĩ.",
-        "dap_an_goi_y": "Nêu ý kiến thức: Khóa ngoài tham chiếu khóa chính ở bảng khác. Vận dụng: idNhacsi ở bảng Bannhac. Giải thích vì sao phù hợp và nêu bước kiểm tra kết quả hoặc biện pháp an toàn liên quan nếu cần.",
-        "giai_thich": "Đánh giá theo mức độ phù hợp với nội dung bài, tính hợp lí của quy trình và khả năng giải thích căn cứ."
-      }
-    ]
-  }
+        {
+          "ma": "d",
+          "noi_dung": "Quên khai báo khóa chính cho bảng cha cũng khiến bảng con không thể tham chiếu khóa ngoài tới đó.",
+          "dap_an": true,
+          "giai_thich": "Đúng."
+        }
+      ],
+      "nguon": "ndc_bai_20"
+    }
+  ],
+  "tra_loi_ngan": [
+    {
+      "id": "B20_TLN_01",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Thẻ Foreign keys",
+      "cau_hoi": "Tên thẻ trong HeidiSQL dùng để khai báo các khóa ngoài của bảng là gì?",
+      "dap_an": "Foreign keys",
+      "dap_an_tuong_duong": [
+        "foreign keys"
+      ],
+      "giai_thich": "Thẻ `Foreign keys` quản lí các khóa ngoài của bảng.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TLN_02",
+      "muc_do": "Nhận biết",
+      "kien_thuc_danh_gia": "Ô Reference table",
+      "cau_hoi": "Ô dùng để chọn bảng được tham chiếu khi khai báo khóa ngoài trong HeidiSQL có tên là gì?",
+      "dap_an": "Reference table",
+      "dap_an_tuong_duong": [
+        "reference table"
+      ],
+      "giai_thich": "Reference table dùng để chọn bảng cha được tham chiếu.",
+      "nguon": "Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TLN_03",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Ô Columns",
+      "cau_hoi": "Ô dùng để chọn cột khóa ngoài của bảng hiện tại trong thẻ Foreign keys có tên là gì?",
+      "dap_an": "Columns",
+      "dap_an_tuong_duong": [
+        "columns"
+      ],
+      "giai_thich": "Columns chọn cột khóa ngoài thuộc bảng đang thiết kế.",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TLN_04",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Số lượng khóa ngoài trong bảng banthuam",
+      "cau_hoi": "Bảng `banthuam(idBanthuam, idBannhac, idCasi)` cần khai báo bao nhiêu khóa ngoài?",
+      "dap_an": "2",
+      "dap_an_tuong_duong": [
+        "2 khóa ngoài",
+        "hai"
+      ],
+      "giai_thich": "Gồm 2 khóa ngoài: `idBannhac` và `idCasi`.",
+      "nguon": "Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TLN_05",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Thẻ quản lí khóa PRIMARY và UNIQUE",
+      "cau_hoi": "Sau khi tạo khóa `PRIMARY` và `UNIQUE` trong HeidiSQL, danh sách các khóa này được hiển thị ở thẻ nào bên cạnh thẻ `Foreign keys`?",
+      "dap_an": "Indexes",
+      "dap_an_tuong_duong": [
+        "indexes",
+        "Thẻ Indexes"
+      ],
+      "giai_thich": "Thẻ `Indexes` hiển thị `PRIMARY` và các khóa `UNIQUE` của bảng.",
+      "nguon": "ndc_bai_20"
+    }
+  ],
+  "tu_luan": [
+    {
+      "id": "B20_TL_01",
+      "muc_do": "Thông hiểu",
+      "kien_thuc_danh_gia": "Quy trình khai báo khóa ngoài trên HeidiSQL",
+      "cau_hoi": "Trình bày các bước khai báo khóa ngoài `idNhacsi` cho bảng `bannhac` trong HeidiSQL.",
+      "goi_y_dap_an": "1) Chọn thẻ `Foreign keys`.\n2) Nháy ô dưới cột `Columns`, chọn trường `idNhacsi` → OK.\n3) Nháy ô dưới cột `Reference table`, chọn bảng `nhacsi` → OK.\n4) Chọn trường tham chiếu `idNhacsi` của bảng `nhacsi`.\n5) Nhấn **Lưu** để hoàn tất.",
+      "thang_diem": "Tổng 2,0 điểm: trình bày đúng đủ 5 bước (0,4đ × 5 = 2,0đ).",
+      "nguon": "ndc_bai_20 & Kenhgiaovien_20"
+    },
+    {
+      "id": "B20_TL_02",
+      "muc_do": "Vận dụng",
+      "kien_thuc_danh_gia": "Lý do không đặt AUTO_INCREMENT cho khóa ngoài",
+      "cau_hoi": "Giải thích vì sao không nên đặt thuộc tính `AUTO_INCREMENT` cho trường khóa ngoài `idNhacsi` trong bảng `bannhac`.",
+      "goi_y_dap_an": "Vì `idNhacsi` trong `bannhac` phải nhận giá trị khớp với mã nhạc sĩ đã có trong bảng `nhacsi` (một nhạc sĩ có thể sáng tác nhiều bản nhạc), không phải là mã tự tăng riêng của bảng `bannhac`.",
+      "thang_diem": "Tổng 2,0 điểm: nêu đúng bản chất tham chiếu của khóa ngoài (1,2đ) và chỉ rõ quan hệ một nhạc sĩ – nhiều bản nhạc (0,8đ).",
+      "nguon": "ndc_bai_20"
+    },
+    {
+      "id": "B20_TL_03",
+      "muc_do": "Vận dụng cao",
+      "kien_thuc_danh_gia": "Kiểm tra và sửa lỗi thiết kế bảng có khóa ngoài",
+      "cau_hoi": "Khi tạo bảng `banthuam(idBanthuam, idBannhac, idCasi)`, bạn Minh thiết lập `idBanthuam` (`INT`, `PRIMARY`), `idBannhac` (`INT`, `AUTO_INCREMENT`), `idCasi` (`VARCHAR(50)`), sau đó vào thẻ `Foreign keys` khai báo khóa ngoài cho `idBannhac` và `idCasi` nhưng nhấn Lưu bị lỗi. Hãy chỉ ra 2 lỗi sai trong thiết kế của Minh và cách sửa.",
+      "goi_y_dap_an": "- Lỗi 1: Đặt `AUTO_INCREMENT` cho trường khóa ngoài `idBannhac` (trong một bảng chỉ có 1 cột `AUTO_INCREMENT` và khóa ngoài không được tự tăng); Cách sửa: bỏ `AUTO_INCREMENT` ở `idBannhac`, đặt giá trị mặc định phù hợp (như 0).\n- Lỗi 2: Khai báo `idCasi` kiểu `VARCHAR(50)` khác với khóa chính `casi.idCasi` kiểu `INT`; Cách sửa: đổi `idCasi` sang kiểu `INT` (và bổ sung khóa `UNIQUE(idBannhac, idCasi)`).",
+      "thang_diem": "Tổng 2,0 điểm: chỉ đúng 2 lỗi (1,0đ) và nêu đúng cách sửa từng lỗi (1,0đ).",
+      "nguon": "ndc_bai_20 & Kenhgiaovien_20"
+    }
+  ]
 }
