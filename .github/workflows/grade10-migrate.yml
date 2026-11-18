@@ -7,9 +7,17 @@ on:
       - '.github/grade10_payload/part-*.txt'
 permissions:
   contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
 jobs:
   import-reviewed-bank:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -49,3 +57,10 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Import reviewed Tin hoc 10 bank: 1117 questions"
           git push
+      - name: Publish reviewed grade-10 data (existing grade-11/12 files untouched)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
