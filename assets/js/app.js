@@ -114,10 +114,10 @@ ${nq ? `<a class="btn" href="#/practice/${id}">Luyện tập bài này (${nq} c�
 function practice(pre) {
   const byL = C.lessons.map(l => ({ l, n: qOf(l.id).length }));
   const pending = pendingQuestions().length;
-  return `<h1>Luyện tập và kiểm tra</h1><p>Ngân hàng hiện có <b>${QS().length}</b> câu đã duyệt: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${QS().filter(q => q.type === 'essay').length} luyện tập/vận dụng. Bài nào chưa có câu hỏi trong nguồn sẽ không chọn được.</p>${pending ? `<p class="mut">Có ${pending} câu đang chờ giáo viên rà soát; hệ thống tạm thời không đưa các câu này vào luyện tập hoặc kiểm tra.</p>` : ''}
+  return `<h1>Luyện tập và kiểm tra</h1><p>Ngân hàng hiện có <b>${QS().length}</b> câu đã duyệt: ${QS().filter(q => q.type === 'mcq').length} trắc nghiệm bốn lựa chọn, ${QS().filter(q => q.type === 'tf').length} đúng/sai (nhiều ý), ${C.grade === 10 ? QS().filter(q => q.type === 'short').length + ' trả lời ngắn, ' : ''}${QS().filter(q => q.type === 'essay').length} luyện tập/vận dụng. Bài nào chưa có câu hỏi trong nguồn sẽ không chọn được.</p>${pending ? `<p class="mut">Có ${pending} câu đang chờ giáo viên rà soát; hệ thống tạm thời không đưa các câu này vào luyện tập hoặc kiểm tra.</p>` : ''}
 <p class="mut">Mỗi lượt bắt đầu, hệ thống chọn câu hỏi ngẫu nhiên và ưu tiên câu chưa xuất hiện ở các lượt gần đây của cùng phạm vi. Khi đã dùng hết ngân hàng, hệ thống tự mở chu kỳ mới.</p>
 <div class="card"><h3>1. Chọn bài</h3><div class="row"><button class="btn sm" data-act="all">Chọn tất cả</button><button class="btn sm" data-act="none">Bỏ chọn</button></div><div class="pick" id="pk">${byL.map(({ l, n }) => `<label><input type="checkbox" value="${l.id}" ${n ? '' : 'disabled'} ${pre === l.id ? 'checked' : ''}> ${l.n}. ${esc(l.title.replace(/^Bài \d+\.\s*/, ''))} <span class="mut">(${n})</span></label>`).join('')}</div></div>
-<div class="card"><h3>2. Dạng câu hỏi và cách làm</h3><div class="row">${[['mcq', 'Trắc nghiệm 4 lựa chọn'], ['tf', 'Đúng/Sai'], ['essay', 'Luyện tập / Vận dụng']].map(([k, v]) => `<label><input type="checkbox" class="ty" value="${k}" checked> ${v}</label>`).join('')}</div>
+<div class="card"><h3>2. Dạng câu hỏi và cách làm</h3><div class="row">${[['mcq', 'Trắc nghiệm 4 lựa chọn'], ['tf', 'Đúng/Sai'], ...(C.grade === 10 ? [['short', 'Trả lời ngắn (tự đánh giá)']] : []), ['essay', 'Luyện tập / Vận dụng']].map(([k, v]) => `<label><input type="checkbox" class="ty" value="${k}" checked> ${v}</label>`).join('')}</div>
 <p class="mut">Mỗi lượt lấy tối đa 10 câu ngẫu nhiên từ các bài và dạng đã chọn; nếu ngân hàng phù hợp có ít hơn 10 câu, hệ thống dùng tất cả câu phù hợp.</p><div class="row"><label><input type="checkbox" id="sh" checked> Trộn thứ tự câu và phương án</label></div>
 <div class="row"><label><input type="radio" name="md" value="p" checked> Luyện tập: có đáp án ngay sau mỗi câu</label><label><input type="radio" name="md" value="e"> Kiểm tra: chấm khi nộp bài</label></div>
 <div class="row"><label><input type="checkbox" id="tfm" ${S.tfm ? 'checked' : ''}> Câu Đúng/Sai chấm theo thang 0,1 – 0,25 – 0,5 – 1 điểm</label></div><p class="mut">Mặc định mỗi nhận định đúng được 1/4 điểm của câu (quy tắc của website). Thang 0,1–0,25–0,5–1 là cấu trúc đề thi tốt nghiệp THPT từ năm 2025; hồ sơ nguồn không quy định điểm, hãy đối chiếu văn bản hiện hành khi dùng chính thức.</p></div>
@@ -145,7 +145,7 @@ function start(list, o) {
   list.forEach(q => { if (q.type === 'mcq') run.o[q.id] = o.shuffle ? shuf(q.opts) : q.opts; });
   show();
 }
-const gradable = q => q.type !== 'essay';
+const gradable = q => q.type !== 'essay' && q.type !== 'short';
 function pts(q, r) {
   if (q.type === 'mcq') return r.sel === q.ans ? 1 : 0;
   const n = q.sts.filter(s => r.sel && r.sel[s.k] === s.a).length;
@@ -154,7 +154,7 @@ function pts(q, r) {
 function record(q, r) {
   const a = S.ans[q.id] || (S.ans[q.id] = { n: 0 });
   a.n++; a.t = Date.now();
-  if (q.type === 'essay') a.ok = !!r.self; else { r.pt = pts(q, r); a.ok = r.pt === 1; a.pt = r.pt; }
+  if (q.type === 'essay' || q.type === 'short') a.ok = !!r.self; else { r.pt = pts(q, r); a.ok = r.pt === 1; a.pt = r.pt; }
   save();
 }
 function show() {
@@ -176,10 +176,10 @@ function show() {
     b = `<p class="mut">${esc(q.kind)} (${esc(q.ref)})</p><textarea id="ta" aria-label="Câu trả lời của em" placeholder="Viết câu trả lời của em…">${esc(a.tx || '')}</textarea>
 <div class="row"><button class="btn" data-act="hint">${r.hint ? 'Ẩn đáp án tham khảo' : 'Xem đáp án tham khảo'}</button></div>
 ${r.hint ? `<div class="fb">${q.hint ? '<p>' + inl(q.hint) + '</p>' : ''}${q.pts.length ? '<p><b>Tự đối chiếu:</b></p>' + q.pts.map((p, j) => `<label class="chk"><input type="checkbox"> ${inl(p)}</label>`).join('') : ''}${q.nt ? `<p class="mut">${inl(q.nt)} Hãy tự thực hiện rồi đánh dấu hoàn thành.</p>` : ''}</div><div class="row"><button class="btn pri" data-act="self" data-v="1">Em đã làm được</button><button class="btn" data-act="self" data-v="0">Cần xem lại bài</button></div>` : ''}
-${fin ? `<p class="mut">Đã ghi nhận: ${r.self ? 'đã làm được' : 'cần xem lại'}. Câu tự luận không tính vào điểm số.</p>` : ''}`;
+${fin ? `<p class="mut">Đã ghi nhận: ${r.self ? 'đã làm được' : 'cần xem lại'}. ${q.type === 'short' ? 'Câu trả lời ngắn tự đánh giá, không tính điểm tự động.' : 'Câu tự luận không tính vào điểm số.'}</p>` : ''}`;
   }
   const last = run.i === n - 1;
-  app.innerHTML = `<p class="mut">${esc(run.title)} · ${run.ex ? 'Kiểm tra' : 'Luyện tập'} · ${esc(q.type === 'essay' ? q.kind : q.type === 'mcq' ? 'Trắc nghiệm' : 'Đúng/Sai')} · ${lnk(q.lesson)}</p>${prog(Math.round(run.i / n * 100))}
+  app.innerHTML = `<p class="mut">${esc(run.title)} · ${run.ex ? 'Kiểm tra' : 'Luyện tập'} · ${esc(q.type === 'essay' || q.type === 'short' ? q.kind : q.type === 'mcq' ? 'Trắc nghiệm' : 'Đúng/Sai')} · ${lnk(q.lesson)}</p>${prog(Math.round(run.i / n * 100))}
 <h2>Câu ${run.i + 1}/${n}</h2><div class="card" data-question-id="${esc(q.id)}"><p><b>${inl(q.q)}</b></p>${b}${q.st === 'review' ? `<p class="mut">Lưu ý: ${esc(q.nt)}</p>` : ''}</div>
 <div class="row"><button class="btn" data-act="prev" ${run.i ? '' : 'disabled'}>← Câu trước</button>${last ? `<button class="btn pri" data-act="end">${run.ex ? 'Nộp bài' : 'Xem kết quả'}</button>` : '<button class="btn pri" data-act="next">Câu sau →</button>'}</div>`;
   // app.innerHTML thay thế nút vừa được nhấn; khôi phục vị trí cuộn sau khi cập nhật DOM.
@@ -187,13 +187,13 @@ ${fin ? `<p class="mut">Đã ghi nhận: ${r.self ? 'đã làm được' : 'cầ
 }
 function finish() {
   const g = run.list.filter(gradable);
-  run.list.forEach(q => { const r = run.r[q.id] || (run.r[q.id] = {}); if (!r.done) { r.done = 1; if (q.type !== 'essay') record(q, r); } });
+  run.list.forEach(q => { const r = run.r[q.id] || (run.r[q.id] = {}); if (!r.done) { r.done = 1; if (gradable(q)) record(q, r); } });
   const sum = g.reduce((a, q) => a + (run.r[q.id].pt || 0), 0), sc = g.length ? Math.round(sum / g.length * 100) / 10 : null;
   if (run.ex && g.length) { S.hist.push({ t: Date.now(), title: run.title, sc, n: g.length }); save(); }
   const bad = run.list.filter(q => gradable(q) && (run.r[q.id].pt || 0) < 1);
-  app.innerHTML = `<h1>Kết quả</h1><div class="stats"><div><b>${sc === null ? '–' : sc}</b>điểm / 10</div><div><b>${g.length - bad.length}/${g.length}</b>câu đúng hoàn toàn</div><div><b>${run.list.length - g.length}</b>câu tự luận (tự đánh giá)</div></div>
+  app.innerHTML = `<h1>Kết quả</h1><div class="stats"><div><b>${sc === null ? '–' : sc}</b>điểm / 10</div><div><b>${g.length - bad.length}/${g.length}</b>câu đúng hoàn toàn</div><div><b>${run.list.length - g.length}</b>${C.grade === 10 ? 'câu tự đánh giá (trả lời ngắn/tự luận)' : 'câu tự luận (tự đánh giá)'}</div></div>
 <div class="row">${bad.length ? '<button class="btn pri" data-act="redo">Làm lại câu sai (' + bad.length + ')</button>' : ''}<button class="btn" data-act="again">Làm lại cả bộ</button><a class="btn" href="#/practice">Về trang luyện tập</a></div>
-<h2>Xem lại</h2>${run.list.map((q, j) => { const r = run.r[q.id], ok = q.type === 'essay' ? r.self : r.pt === 1; return `<div class="card"><b>${j + 1}. ${inl(q.q)}</b><br><span class="${ok ? 'pass' : 'fail'}">${q.type === 'essay' ? (r.self ? 'Tự đánh giá: đã làm được' : 'Tự đánh giá: cần xem lại') : ok ? 'Đúng' : 'Chưa đúng hoàn toàn (' + r.pt + '/1)'}</span>${q.type === 'mcq' ? `<p>Đáp án: ${inl(q.opts.find(x => x.k === q.ans).x)}. ${inl(q.exp)}</p>` : q.type === 'tf' ? '<ul>' + q.sts.map(s => `<li>${s.k}. ${inl(s.x)} → <b>${s.a ? 'Đúng' : 'Sai'}</b>${r.sel && r.sel[s.k] === s.a ? '' : ' <span class="fail">(em chọn khác)</span>'} ${inl(s.e)}</li>`).join('') + '</ul>' : ''}<p class="mut">Ôn lại: ${lnk(q.lesson)}</p></div>`; }).join('')}`;
+<h2>Xem lại</h2>${run.list.map((q, j) => { const r = run.r[q.id], ok = !gradable(q) ? r.self : r.pt === 1; return `<div class="card"><b>${j + 1}. ${inl(q.q)}</b><br><span class="${ok ? 'pass' : 'fail'}">${!gradable(q) ? (r.self ? 'Tự đánh giá: đã làm được' : 'Tự đánh giá: cần xem lại') : ok ? 'Đúng' : 'Chưa đúng hoàn toàn (' + r.pt + '/1)'}</span>${q.type === 'mcq' ? `<p>Đáp án: ${inl(q.opts.find(x => x.k === q.ans).x)}. ${inl(q.exp)}</p>` : q.type === 'tf' ? '<ul>' + q.sts.map(s => `<li>${s.k}. ${inl(s.x)} → <b>${s.a ? 'Đúng' : 'Sai'}</b>${r.sel && r.sel[s.k] === s.a ? '' : ' <span class="fail">(em chọn khác)</span>'} ${inl(s.e)}</li>`).join('') + '</ul>' : ''}<p class="mut">Ôn lại: ${lnk(q.lesson)}</p></div>`; }).join('')}`;
   // Giữ vị trí hiện tại khi chuyển sang màn hình kết quả, tránh tự nhảy lên đầu trang.
 }
 
@@ -231,7 +231,7 @@ function cardShow() {
 
 /* ---------- tiến độ, sao lưu ---------- */
 function progress() {
-  const rows = C.lessons.map(l => { const q = qOf(l.id).filter(x => x.type !== 'essay'), a = q.filter(x => S.ans[x.id]), ok = a.filter(x => S.ans[x.id].ok); return `<tr><td>${l.n}</td><td>${lnk(l.id)}</td><td>${ST[status(l.id)]} (${pct(l.id)}%)</td><td>${q.length ? ok.length + '/' + a.length + ' đúng · ' + q.length + ' câu' : 'chưa có câu hỏi'}</td></tr>`; }).join('');
+  const rows = C.lessons.map(l => { const q = qOf(l.id).filter(gradable), a = q.filter(x => S.ans[x.id]), ok = a.filter(x => S.ans[x.id].ok); return `<tr><td>${l.n}</td><td>${lnk(l.id)}</td><td>${ST[status(l.id)]} (${pct(l.id)}%)</td><td>${q.length ? ok.length + '/' + a.length + ' đúng · ' + q.length + ' câu' : 'chưa có câu hỏi'}</td></tr>`; }).join('');
   const last = ls(S.last).o;
   return `<h1>Tiến độ học tập</h1><p class="mut">Học gần nhất: ${S.last ? lnk(S.last) + ' lúc ' + new Date(last).toLocaleString('vi-VN') : 'chưa có'}. Dữ liệu chỉ nằm trên thiết bị này và trình duyệt này, không đồng bộ giữa các máy.</p>
 <div class="row"><button class="btn pri" data-act="exp">Sao lưu tiến độ (JSON)</button><label class="btn">Khôi phục từ tệp<input type="file" id="imp" accept=".json,application/json" hidden></label><button class="btn" data-act="rst">Xóa toàn bộ dữ liệu học tập</button></div><p id="msg" class="mut" role="status"></p>

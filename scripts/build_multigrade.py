@@ -103,13 +103,15 @@ def question_records(doc, lesson_id):
     merged = []
     banks = doc.get("cau_hoi_goc", {}), doc.get("cau_hoi_bo_sung", {})
     for bank in banks:
-        for key, typ in (("trac_nghiem", "mcq"), ("dung_sai", "tf"), ("tu_luan", "essay")):
+        for key, typ in (("trac_nghiem", "mcq"), ("dung_sai", "tf"), ("tra_loi_ngan", "short"), ("tu_luan", "essay")):
+            if typ == "short" and not lesson_id.startswith("ICT10_"):
+                continue
             for raw in bank.get(key, []):
                 q = {"id": raw["id"], "lesson": lesson_id, "st": "ok",
-                     "src": raw.get("nguon", "KHBD"),
+                     "src": raw.get("nguon", raw.get("nguon_goc", "KHBD") if lesson_id.startswith("ICT10_") else "KHBD"),
                      "type": typ, "q": raw.get("noi_dung", "")}
                 if typ == "mcq":
-                    options = raw.get("lua_chon", {})
+                    options = raw.get("lua_chon", raw.get("phuong_an", {}) if lesson_id.startswith("ICT10_") else {})
                     if isinstance(options, dict):
                         q["opts"] = [{"k": k, "x": v} for k, v in options.items()]
                     else:
@@ -118,7 +120,7 @@ def question_records(doc, lesson_id):
                     q["exp"] = raw.get("giai_thich", raw.get("explanation", ""))
                     assert len(q["opts"]) >= 2 and q["ans"] in [x["k"] for x in q["opts"]], q["id"]
                 elif typ == "tf":
-                    statements = raw.get("y_kien", {})
+                    statements = raw.get("y_kien", raw.get("nhan_dinh", {}) if lesson_id.startswith("ICT10_") else {})
                     answers = raw.get("dap_an", {})
                     q["sts"] = []
                     if isinstance(statements, dict):
@@ -130,12 +132,21 @@ def question_records(doc, lesson_id):
                                     for x in statements]
                     assert q["sts"], q["id"]
                 else:
-                    q.update({"kind": raw.get("muc_do", "Luyện tập"),
+                    q.update({"kind": "Trả lời ngắn" if typ == "short" else raw.get("muc_do", "Luyện tập"),
                               "ref": raw.get("chu_de", ""),
-                              "hint": raw.get("dap_an_goi_y", raw.get("answer_guide", "")),
+                              "hint": raw.get("dap_an_goi_y", raw.get("dap_an", raw.get("answer_guide", "")) if lesson_id.startswith("ICT10_") else raw.get("answer_guide", "")),
                               "pts": [], "nt": raw.get("giai_thich", "")})
                 merged.append(q)
     assert len({q["id"] for q in merged}) == len(merged), lesson_id + " duplicate question id"
+    if lesson_id.startswith("ICT10_") and merged and all(q["id"].startswith("B") for q in merged):
+        for q in merged:
+            assert q["q"].strip(), "Empty grade-10 question: " + q["id"]
+            if q["type"] == "mcq":
+                assert len(q["opts"]) == 4 and set(x["k"] for x in q["opts"]) == set("ABCD"), q["id"]
+            elif q["type"] == "tf":
+                assert len(q["sts"]) == 4 and set(x["k"] for x in q["sts"]) == set("abcd"), q["id"]
+            else:
+                assert q["hint"].strip(), "Missing grade-10 answer: " + q["id"]
     return merged
 
 
@@ -357,5 +368,6 @@ def build_grade(grade, expected):
 def expected_count_total(qfiles, grade, folder):
     return sum(int(json.loads((folder / "ngan-hang-cau-hoi" / ("BAI_%02d_QUESTIONS.json" % n)).read_text(encoding="utf-8")).get("thong_ke", {}).get("tong_so_cau", 0)) for n in range(1, len(qfiles)+1))
 
-build_grade(10, 34)
-build_grade(11, 31)
+if __name__ == "__main__":
+    build_grade(10, 34)
+    build_grade(11, 31)
