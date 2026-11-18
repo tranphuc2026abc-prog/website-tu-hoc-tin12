@@ -368,5 +368,6 @@ def build_grade(grade, expected):
 def expected_count_total(qfiles, grade, folder):
     return sum(int(json.loads((folder / "ngan-hang-cau-hoi" / ("BAI_%02d_QUESTIONS.json" % n)).read_text(encoding="utf-8")).get("thong_ke", {}).get("tong_so_cau", 0)) for n in range(1, len(qfiles)+1))
 
-build_grade(10, 34)
-build_grade(11, 31)
+if __name__ == "__main__":
+    build_grade(10, 34)
+    build_grade(11, 31)
