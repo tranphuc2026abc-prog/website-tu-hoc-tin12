@@ -103,7 +103,26 @@
     }
   },
   "answers": {
-    "2025": "data/exams/answers/2025.pdf"
+    "2025": "data/exams/answers/2025.pdf",
+    "2026": "data/exams/answers/2026.pdf"
   },
-  "count": 96
+  "count": 96,
+  "papers": {
+    "2025": {
+      "0501": "data/exams/papers/2025/0501.json"
+    },
+    "2026": {}
+  },
+  "answer_sources": {
+    "2025": {
+      "kind": "official",
+      "pdf": "data/exams/answers/2025.pdf"
+    },
+    "2026": {
+      "kind": "official",
+      "pdf": "data/exams/answers/2026.pdf",
+      "source_url": "https://bcp.cdnchinhphu.vn/334894974524682240/2026/6/19/6-dap-an-tin-hoc-17818660142981097963099.pdf",
+      "publication_url": "https://baochinhphu.vn/cong-bo-dap-an-chinh-thuc-cac-mon-thi-tot-nghiep-thpt-2026-102260619180653891.htm"
+    }
+  }
 }

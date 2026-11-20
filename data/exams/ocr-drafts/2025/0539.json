@@ -1,0 +1,1399 @@
+{
+  "schema_version": 1,
+  "year": 2025,
+  "code": "0539",
+  "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+  "source_sha256": "538a6135328c383736380cceb6fa32d40a3abc354a91b2f9c73ca524ca4303ac",
+  "engine": "tesseract-5.5.3/vie+eng",
+  "model_set": "tessdata_fast",
+  "status": "needs_visual_review",
+  "pages": [
+    {
+      "page": 1,
+      "text": "BỘ GIÁO DỤC VÀ ĐÀO TẠO KY THI TOT NGHIỆP TRUNG HỌC PHO THONG NĂM 2025\nDE THI CHÍNH THUC Môn thi: TIN HỌC\n(Đề thi có 04 trang) Thời gian làm bài 50 phút, không ké thời gian phát dé\n\nSố báo danh: .\nHọ, tên thí sinh: vua\nPHAN I. Thí sinh trả lời từ Câu 1 đến Câu 24. Mỗi câu hỏi thí sinh chỉ chọn một phương án.\n\nCau 1: Thiết bị nào sau đây có chức năng chính là thiết lập kênh kết nói giữa các thiết bị trong mang LAN (có dây) dé\ntruyền dữ liệu?\n\nMã đề: 0539\n\nA. Modem. B. Access Point. C. Switch. D. Router.\nCâu 2: Tiêu dé của trang web được khai báo trong phan tử HTML nào sau đây?\nA. html B. title C. body D.p\n\nCâu 3: Phương án nào sau đây chỉ ra ly do chủ yếu dẫn tới nhu cầu gia tăng về số lượng chuyên gia bảo mật hệ thống\nthông tin?\nA. Tính phức tạp ngày càng tăng của các cuộc tan công mạng.\nB. Dung lượng của các thiết bị lưu trữ ngày càng tăng nhanh.\nC. Tốc độ xử lý của CPU ngày càng tăng nhanh.\nD. Sự phổ biến của các ứng dụng soạn thảo văn bản.\nCâu 4: Trong bộ giao thức TCP/IP, giao thức IP đảm nhận vai trò nào sau đây?\nA. Cấp phát địa chỉ IP cho các thiết bị trong mạng.\nB. Định tuyến các gói dữ liệu đến đúng địa chỉ mạng.\nC. Thiết lập bộ quy tắc gửi và nhận thư điện tử qua mạng.\nD. Truyền tải an toàn dữ liệu giữa các thiết bị.\nCâu 5: Trong lĩnh vực y tế, Trí tuệ nhân tạo được ứng dụng phổ biến trong hệ thống nào sau đây?\nA. Hỗ trợ bác sĩ chan đoán bệnh dựa trên hình ảnh X-quang.\nB. In phiếu thứ tự khám bệnh cho bệnh nhân tại các phòng khám.\nC. Tự động hóa hoàn toàn việc kê đơn thuốc cho bệnh nhân.\nD. Tự động hóa hoàn toàn việc thẩm định các loại thuốc mới.\nCâu 6: Cho đoạn mã HTML sau:\n<table border=\"1\" width=\"50%\" height=\"10$\">\n\n<tr> <th> </th> <th> </th> <th> </th> </tr>\n<tr> <td> </td> <td> </td> <td> </td> </tr>\n\n</table>\nPhương án nào sau đây nêu đúng số lượng hàng và cột của bang được tao bởi đoạn mã trên?\nA. 2 hàng, 2 cột. B. 2 hàng, 3 cột. C. 3 hàng, 3 cột. D. 3 hàng, 2 cột.\nCâu 7: Lựa chọn ngôn ngữ Python hoặc C++ để tìm hiểu đoạn chương trình sau:\nDòng Đoạn chương trình viết bằng Python Đoạn chương trình viết bằng C++\n1 n, i, S = 9, 5, 0 int n=9, i=5, S=0;\n2 while i <n: while (i <n) {\n3 S=S+i S=S +i;\n4 i=i+2 i=i+ 2;\n5 print (S) }\n6 cout << S;\nPhương án nào sau đây chỉ ra đúng số lan lặp của câu lệnh while ở Dong 2?\nA.2. B.3. C. 0. Dz 1.\n\nCâu 8: Cách ứng xử nào sau đây phù hợp đối với kết quả được tạo ra bởi Trí tuệ nhân tạo?\nA. Xem xét một cách thận trọng và có trách nhiệm.\nB. Tin tưởng hoàn toàn vào tính chính xác và khách quan.\nC. Giữ nguyên để làm sản phẩm học tập và nghiên cứu.\nD. Chia sẻ ra cộng đồng mà không cần kiểm chứng.\nCâu 9: Hành vi nào sau đây không phù hợp với đạo đức trong môi trường số?\nA. Phát tán tin đồn chưa được kiểm chứng về người khác.\nB. Chia sẻ kiến thức có ích kèm theo nguồn trích dẫn.\nC. Cổ vũ cho những việc làm tốt để lan tỏa đến mọi người.\nD. Trao đổi ý kiến thẳng thắn nhưng mang tính xây dựng.\n\nTrang 1/4- Mã đề thi 0539\n",
+      "low_confidence_words": [
+        {
+          "text": "vua",
+          "confidence": 17.559448,
+          "bbox": [
+            768,
+            324,
+            30,
+            4
+          ]
+        },
+        {
+          "text": "truyền",
+          "confidence": 52.260036,
+          "bbox": [
+            99,
+            427,
+            69,
+            25
+          ]
+        },
+        {
+          "text": "width=\"50%\"",
+          "confidence": 67.164917,
+          "bbox": [
+            357,
+            1113,
+            154,
+            17
+          ]
+        },
+        {
+          "text": "int",
+          "confidence": 11.476013,
+          "bbox": [
+            741,
+            1354,
+            38,
+            16
+          ]
+        },
+        {
+          "text": "n=9,",
+          "confidence": 11.476013,
+          "bbox": [
+            797,
+            1354,
+            78,
+            19
+          ]
+        },
+        {
+          "text": "i",
+          "confidence": 19.151268,
+          "bbox": [
+            285,
+            1384,
+            10,
+            16
+          ]
+        },
+        {
+          "text": "<n:",
+          "confidence": 19.151268,
+          "bbox": [
+            312,
+            1387,
+            51,
+            13
+          ]
+        },
+        {
+          "text": "S=S+i",
+          "confidence": 21.244293,
+          "bbox": [
+            257,
+            1414,
+            124,
+            16
+          ]
+        },
+        {
+          "text": "i=i+2",
+          "confidence": 53.401649,
+          "bbox": [
+            257,
+            1443,
+            123,
+            16
+          ]
+        },
+        {
+          "text": "print",
+          "confidence": 37.92976,
+          "bbox": [
+            198,
+            1472,
+            68,
+            21
+          ]
+        },
+        {
+          "text": "(S)",
+          "confidence": 37.92976,
+          "bbox": [
+            275,
+            1473,
+            30,
+            18
+          ]
+        },
+        {
+          "text": "C.",
+          "confidence": 47.097641,
+          "bbox": [
+            726,
+            1567,
+            25,
+            20
+          ]
+        },
+        {
+          "text": "Dz",
+          "confidence": 69.215355,
+          "bbox": [
+            1024,
+            1567,
+            26,
+            20
+          ]
+        }
+      ],
+      "status": "ocr_unverified"
+    },
+    {
+      "page": 2,
+      "text": "Câu 10: Khả năng hiểu ngôn ngữ của Trí tuệ nhân tạo không thê hiện trong hệ thống nào sau đây?\n\nA. Nhận diện khuôn mặt. B. Trợ giúp soạn thảo văn bản.\n\nC. Trợ lý ảo trên xe ô tô. D. Tổng đài tự động hỏi đáp.\nCâu 11: Lựa chọn ngôn ngữ Python hoặc C++ để tìm hiểu đoạn chương trình sau:\n\nDòng Đoạn chương trình viết bằng Python Đoạn chương trình viết bằng C++\n1 |s = \"TRI TUE NHAN TAO\" char s[] = \"TRI TUE NHAN TẠO\";\n2 x= 9 int x = 9\n3 for iin range(8, 10): for (int i = 8; i < 10; i++) {\n4 if i 3 2 == 0: x=x*2 if (i $ 2 == 0) x=x* 2;\n5 else: x = x // 3 else x = x / 3;\n\n6 print (s[x]) }\n7 cout << s[x];\n\nSau khi thực hiện đoạn chương trình trên, kí tự nào sau đây được hién thị trên màn hình?\nA.E B.U C.R D.T\nCâu 12: Một công ty có hai chỉ nhánh ở cách nhau khoảng 10 km. Các máy tính ở mỗi chi nhánh đã được kết nối thành\nmột mạng LAN riêng. Thiết bị nào sau đây là phù hợp nhất để kết nối hai mạng riêng này thành một mạng chung?\nA. Router. B. Access Point. C. Switch. D. Modem.\nCâu 13: Một người lạ bắt chuyện qua mạng) xã hội và giới thiệu cơ hội “việc nhẹ lương cao” cho một học sinh. Tuy nhiên,\n\nđể nhận công việc này phải nộp trước một số tiền đặt cọc giữ chỗ. Trong tình huống này, ứng xử nào sau đây của bạn học\nsinh không an toàn trên không gian mạng?\n\nA. Xác minh thông tin một cách cân trọng. B. Trình báo cho công an về dấu hiệu lừa đảo.\n\nC. Nộp tiền đặt cọc ngay theo yêu cầu. D. Bỏ qua tin nhắn và cảnh báo cho bạn bè.\nCâu 14: Thẻ HTML nào sau đây được dùng để tạo danh sách có thứ tự?\n\nA. <li> B. <ul> C. <ol> D. <table>\n\nCâu 15: Doan mã HTML nào sau đây định dang dòng chit “TN THPT 2025” thành in đậm, riêng số 2025 còn được in\nnghiêng?\n\nA. <p><em><strong>TN THPT 2025</strong></em></p>\n\nB. <p><strong>TN THPT <em>2025</em></strong></p>\n\nC. <p><em>TN THPT </em><strong>2025</strong></p>\n\nD. <p><em>TN THPT <strong>2025</strong></em></p>\nCâu 16: Linh vực tin học nào sau đây tập trung vào việc nghiên cứu va phát triển các phần mềm làm cho máy tính ngày\ncàng thông minh như con người?\n\nA. Internet vạn vật. B. An toàn thông tin.\n\nC. Mạng máy tính. D. Trí tuệ nhân tạo.\nCâu 17: Đoạn mã CSS nào sau đây thiết lập đường viền có độ đày 3 pixel, kiểu nét đứt bao quanh các đối tượng nội\ndung khi hiển thị trên trình duyệt?\n\nA.p.border {border-width: 3px; border-style: groove;}\n\nB. p {border-width: 3px; border-style: double; }\n\nC. p.border {border-width: 3px; border-style: double;}\n\nD.p {border-width: 3px; border-style: dashed; }\nCâu 18: Khi thực hiện đoạn mã HTML sau, dòng chữ “Chúc các em thi tốt!” sẽ được hiển thị trên trình duyệt theo định\nđạng nào dưới đây?\n<html><head><style> .mau{color: green; font-weight: bold;}\n\n#mau{color: yellow; font-style: italic; }\n</style></head><body><p id=\"mau\">Chúc các em thi tốt!</p></body></html>\n\nA. Mau vang, in nghiéng. B. Mau xanh lá cây, in nghiêng.\n€. Màu xanh lá cây, in đậm. D. Mau vàng, in đậm.\n\nCâu 19: Router có chức năng chính nao sau đây?\nA. Phát tín hiệu đến tat cả các công kết nói trong mang LAN.\nB. Tìm đường đi tối ưu để truyền các gói đữ liệu giữa các mạng.\nC. Kết nối các thiết bị bằng sóng vô tuyến trong mạng cục bộ.\nD. Chuyển đổi giữa tín hiệu tương tự và tín hiệu số qua mạng.\nCâu 20: Người làm nghề sửa chữa và bảo trì máy tính phải có kiến thức về lĩnh vực nào sau đây?\n\nA. An toàn thông tin. B. Lập trình nhúng.\nC. Phần cứng máy tính. D. Cơ sở dữ liệu.\nCâu 21: Thuộc tính CSS nào sau đây thiết lập cỡ chữ cho văn bản?\nA. text-indent B. text-align C. font-family D. font-size\n\nTrang 2/ 4 - Mã dé thi 0539\n",
+      "low_confidence_words": [
+        {
+          "text": "x=",
+          "confidence": 66.422913,
+          "bbox": [
+            197,
+            317,
+            40,
+            11
+          ]
+        },
+        {
+          "text": "9",
+          "confidence": 66.422913,
+          "bbox": [
+            255,
+            313,
+            9,
+            15
+          ]
+        },
+        {
+          "text": "i++)",
+          "confidence": 41.239792,
+          "bbox": [
+            1064,
+            341,
+            48,
+            18
+          ]
+        },
+        {
+          "text": "if",
+          "confidence": 31.401436,
+          "bbox": [
+            255,
+            371,
+            24,
+            16
+          ]
+        },
+        {
+          "text": "$",
+          "confidence": 47.822723,
+          "bbox": [
+            892,
+            371,
+            9,
+            16
+          ]
+        },
+        {
+          "text": "print",
+          "confidence": 46.905056,
+          "bbox": [
+            197,
+            430,
+            67,
+            20
+          ]
+        },
+        {
+          "text": "(s[x])",
+          "confidence": 46.905056,
+          "bbox": [
+            273,
+            430,
+            72,
+            18
+          ]
+        },
+        {
+          "text": "C.",
+          "confidence": 68.222397,
+          "bbox": [
+            724,
+            622,
+            25,
+            20
+          ]
+        },
+        {
+          "text": "<li>",
+          "confidence": 58.991325,
+          "bbox": [
+            165,
+            853,
+            53,
+            16
+          ]
+        },
+        {
+          "text": "hiển",
+          "confidence": 62.666813,
+          "bbox": [
+            205,
+            1240,
+            44,
+            25
+          ]
+        },
+        {
+          "text": "double;",
+          "confidence": 32.692421,
+          "bbox": [
+            679,
+            1314,
+            93,
+            18
+          ]
+        },
+        {
+          "text": "}",
+          "confidence": 32.692421,
+          "bbox": [
+            781,
+            1314,
+            5,
+            19
+          ]
+        },
+        {
+          "text": "dashed;",
+          "confidence": 0,
+          "bbox": [
+            680,
+            1382,
+            93,
+            18
+          ]
+        },
+        {
+          "text": "}",
+          "confidence": 0,
+          "bbox": [
+            783,
+            1382,
+            5,
+            19
+          ]
+        },
+        {
+          "text": "hiển",
+          "confidence": 53.461857,
+          "bbox": [
+            1053,
+            1406,
+            46,
+            25
+          ]
+        },
+        {
+          "text": "italic;",
+          "confidence": 0,
+          "bbox": [
+            846,
+            1499,
+            108,
+            19
+          ]
+        },
+        {
+          "text": "}",
+          "confidence": 0,
+          "bbox": [
+            942,
+            1495,
+            15,
+            29
+          ]
+        }
+      ],
+      "status": "ocr_unverified"
+    },
+    {
+      "page": 3,
+      "text": "Câu 22: Khi đọc được thông tin về một khu vực vừa bị thiên tai trên một trang báo điện tử uy tín, hành động nào sau\nđây không thé hiện tính nhân văn trên không gian mạng?\n\nA. Gửi lời chia buồn và động viên những người bị ảnh hưởng từ thiên tai.\n\nB. Đăng tải lại hình ảnh thiên tai trên trang cá nhân dé tăng lượt tương tác.\n\nC. Tham gia các nhóm từ thiện trực tuyến để tìm hiểu và hỗ trợ thiết thực.\n\nD. Kêu gọi giúp đỡ từ cộng đồng nếu xác minh được thông tin là chính xác.\nCâu 23: Người quản trị mạng thực hiện công việc chính nào sau đây?\n\nA. Xây dựng các ứng dụng trên mạng. B. Thiết lập và cầu hình hệ thống mang.\n\nC. Tư vấn nâng cấp các thiết bị phần cứng. D. Nghiên cứu và phát triển các phần mềm.\nCâu 24: Đoạn mã CSS nào sau đây thiết lập hình ảnh và văn bản được hién thị theo khối?\n\nA.img, p {display: flex;} B.img, p {display: inline;}\n\nC. img, p {display: block;} D. img, p {display: none;}\n\nPHAN II. Thi sinh trả lời 4 câu hỏi. Trong mỗi ý a), b), e), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.\nA. Phần chung dành cho tất cả các thí sinh\n\nCâu 1: Tòa nhà của một công ty có một số phòng làm việc, Mỗi phòng có không quá 10 máy tính, được kết nối với nhau\nthông qua Switch tạo thành một mạng LAN. Công ty cần kết nối các mang LAN này với nhau để tạo thành một mạng cục\nbộ duy nhất. Sau khi thảo luận, một số nhân viên của công ty đưa ra các nhận định sau:\na) Mạng cục bộ của công ty là mạng WAN.\nb) Có thé sử dụng Switch loại 16 cổng dé kết nối các máy tính trong mỗi phòng làm việc.\nc) Dé máy tính trong các phòng làm việc truy cập được Internet thì chỉ cần lắp đặt thêm một Modem mà không cần\nphải đăng ký với nhà cung cấp dịch vụ Internet.\nd) Để các nhân viên có thé sử dụng điện thoại thông minh kết nối được vào mạng cục bộ của công ty qua Wi-Fi, có\nthể lắp đặt cho mỗi phòng một Access Point và kết nối thiết bị này với Switch ở phòng đó.\nCâu 2: Dữ liệu về dân số nước ta từ năm 2019 đến năm 2023 có trong niên giám số liệu thống kê của Tổng cục thống kê.\nViệc quản lí dữ liệu này có ý nghĩa quan trọng trong hoạch định một số chính sách quốc gia. Để lưu trữ và khai thác dữ\nliệu về dân số hàng năm theo từng khu vực, có thể tạo cơ sở dữ liệu với các bảng sau:\ns« KHUVUC (maKY, tenKV): lưu thông tin mã khu vực và tên khu vực; mỗi khu vực có một mã khu vực duy nhất.\ns TĨNH (maTinh, maKŸ, tenTinh): lưu thông tin mã tỉnh, mã khu vực và tên tỉnh; mỗi tỉnh chỉ thuộc về một khu vực và\nmỗi khu vực có thể có nhiều tỉnh.\ns DANSO (maTinh, nam, danSoTB) lưu thông tin: mã tỉnh, năm và dân số trung bình của năm.\nSau khi tìm hiểu cơ sở dữ liệu trên, một số học sinh đưa ra các ý kiến sau:\na) Trường maKV là khóa ngoài của bảng KHUVUC.\nb) Nhóm hai trường maTinh và nam là khóa chính của bảng DANSO.\nc) Chỉ cần liên kết hai bảng TINH và DANSO theo khóa maTinh là có thể kết xuất được thông tin đầy đủ gồm: tên\ntỉnh, tên khu vực, năm và dân số trung bình của năm.\nd) Để đưa ra được thông tin gồm tên tinh, năm và dân số trung bình của năm 2020, có thé thực hiện câu truy vấn với\ncác thành phần sau:\no Các bảng và trường được chọn: TINH.tenTinh, DANSO.nam, DANSO.danSoTB.\no Các bảng được liên kết qua khóa: TINH liên kết DANSO qua khóa maTinh.\no Điều kiện kết xuất dữ liệu: DANSO.nam = 2020.\nB. Phần riêng\nThi sinh chỉ được phép chọn một trong hai phan: Khoa học máy tính (Câu 3 và Câu 4) hoặc Tin học ứng dung (Câu\n5 và Câu 6). Thí sinh không được tính điểm nếu làm cả hai phân.\nBI. Khoa học máy tính\n\nCâu 3: Hội chứng FOMO (Fear of Missing Out, sau đây gọi tắt là Hội chứng) là cảm giác lo âu, tiếc nuối khi nghĩ mình\nđang bỏ qua một điều gì đó thú vị, hấp dẫn, chẳng hạn như bỏ lỡ cơ hội mua một món dé giảm giá nào đó. Nắm bắt được\nthực tế số lượng người mắc Hội chứng ngày càng nhiều, một công ty đã lên kế hoạch xây dựng hệ thống trí tuệ nhân tạo\nđể dự đoán khả năng mắc Hội chứng. Công ty đã tạo bảng câu hỏi và thu thập dữ liệu khảo sát từ hơn 10 000 người để\nlàm đữ liệu huấn luyện mô hình. Kết quả cho thấy tỉ lệ người mắc Hội chứng là 35% và người chưa mắc là 65%. Trong\nkhi thảo luận, một so nhân viên của công ty đưa ra các nhận định sau:\n\na) Thông tin mắc và chưa mắc Hội chứng của mỗi người có thể được sử dụng làm nhãn của dữ liệu huấn luyện mô hình.\n\nb) Không cần sử dụng các phương pháp tiền xử lý để làm sạch tập dữ liệu đã thu thập nói trên trước khi đưa vào huấn\nluyện mô hình.\n\ne) Mô hình học máy phù hợp nhất được sử dụng dé xây dựng hệ thống dự đoán trong tình huống này là mô hình Học\ncó giám sát.\n\nTrang 3/ 4 - Mã đề thi 0539\n",
+      "low_confidence_words": [
+        {
+          "text": "C.",
+          "confidence": 10.84713,
+          "bbox": [
+            128,
+            478,
+            25,
+            20
+          ]
+        },
+        {
+          "text": "img,",
+          "confidence": 10.84713,
+          "bbox": [
+            164,
+            482,
+            49,
+            20
+          ]
+        },
+        {
+          "text": "D.",
+          "confidence": 4.300583,
+          "bbox": [
+            722,
+            478,
+            26,
+            20
+          ]
+        },
+        {
+          "text": "img,",
+          "confidence": 4.300583,
+          "bbox": [
+            758,
+            482,
+            50,
+            20
+          ]
+        },
+        {
+          "text": "e),",
+          "confidence": 48.429836,
+          "bbox": [
+            745,
+            526,
+            28,
+            26
+          ]
+        },
+        {
+          "text": "s«",
+          "confidence": 37.464939,
+          "bbox": [
+            101,
+            999,
+            8,
+            8
+          ]
+        },
+        {
+          "text": "(maKY,",
+          "confidence": 3.30275,
+          "bbox": [
+            240,
+            991,
+            82,
+            25
+          ]
+        },
+        {
+          "text": "s",
+          "confidence": 68.648514,
+          "bbox": [
+            101,
+            1030,
+            8,
+            9
+          ]
+        },
+        {
+          "text": "maKŸ,",
+          "confidence": 69.285957,
+          "bbox": [
+            296,
+            1023,
+            71,
+            23
+          ]
+        },
+        {
+          "text": "phân.",
+          "confidence": 64.819534,
+          "bbox": [
+            779,
+            1510,
+            64,
+            33
+          ]
+        },
+        {
+          "text": "e)",
+          "confidence": 52.392212,
+          "bbox": [
+            130,
+            1886,
+            21,
+            25
+          ]
+        }
+      ],
+      "status": "ocr_unverified"
+    },
+    {
+      "page": 4,
+      "text": "đ) Khi xuất hiện biểu hiện lo âu, tiếc nuối, người ta chi cần sử dụng hệ thống dự đoán của công ty nói trên dé biết\nđược chính xác mình có mac Hội chứng hay không.\nCâu 4: Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python và C++:\n\nDòng Hàm viết bằng ngôn ngữ Python Hàm viết bằng ngôn ngữ C++\n1 def F(A, n): float F(int A[], int n) {\n2 for i in range(1, n): for (int i= 1; i < n; i++) {\n3 x = Afi) int x = A[i];\n4 ]J=i~-1 int j =i- 1;\n5 while j >= 0 and A[j] > x: while (j >= 0 && A[j] > x) {\n6 A[j + 1] = AI] A[3 + 1] = A[3];\n7 j=j-1 jejcl\n8 A[] + 1] =x }\n9 return (A[n // 2] + A[n - 1]) / 2 A[j + 1] = x;\n10 }\n11 return (A{n / 2] + A[n - 1]) / 2.0;\n12 }\n\nSau khi chọn một trong hai ngôn ngữ Python hoặc C++ dé tìm hiệu hàm trên, một sô bạn học sinh đã nêu các ý kiên sau:\na) Mảng A biểu diễn cấu trúc dữ liệu ngăn xếp (Stack).\nb) Nếu dữ liệu đầu vào là mảng A gồm n phan tử đã được sắp xếp theo chiều không giảm thì các câu lệnh tại Dòng 6\nvà Dòng 7 được thực hiện n lần.\nc) Nếu dữ liệu đầu vào là n = 6 va mảng A là (6, 4, 2, 1, 3, 5) thì sau khi câu lệnh for tại Dòng 2 thực hiện lần lặp\nthứ 2, giá trị của mảng A là (2, 4, 6, 1, 3, 5).\nđ) Nếu dữ liệu đầu vào là n = 7 và mang A là (8, 6, 4, 2, 3, 5, 7) thì hàm trả về giá trị 6.5.\nB2. Tin học ứng dụng\n\nCâu 5: Một trường phổ thông muốn sử dụng một phần mềm dé xây dựng một website đưa thông tin về hoạt động của các\ncâu lạc bộ (CLB) trong nhà trường. Website có cầu trúc như sau: Phan đầu trang chứa hình ảnh logo của trường; thanh\nbanner chứa hình ảnh về hoạt động của các CLB; thanh điều hướng gồm ba mục chính Giới thiệu, Hoạt động và Các sự\nkiện. Ứng với mỗi mục chính sẽ có các mục con có nhãn là tên các CLB và chứa liên kết đến trang web của CLB tương\nứng. Trong khi thảo luận về việc sử dụng phần mềm để xây dựng website này, một số bạn học sinh đưa ra ý kiến như sau:\n\na) Phần mềm tạo trang web có sẵn mẫu bố cục trang web dé thiết kế các phần cho website của trường.\n\nb) Phần mềm tạo trang web cho phép thay thế ảnh có sẵn của mẫu bằng ảnh về hoạt động của các CLB.\n\n¢) Các mục con có nhãn là tên các CLB bắt buộc phải hiển thị trên thanh điều hướng của trang chủ.\n\nđ) Để có thể xem được video về hoạt động của các CLB trên website, phải đồng thời thực hiện hai việc: tải video lên\nmáy chủ chứa trang web và nhúng liên kết tới video đó trên YouTube.\nCâu 6: Trong niên giám số liệu thống kê có dữ liệu từ năm 2019 đến năm 2023 về tổng vốn đăng kí đầu tư trực tiếp nước\nngoài, được cấp phép phân theo địa phương (có hiệu lực đến 31/12/2023). Cần tạo cơ sở dif liệu với các bảng sau dé lưu\ntrữ và khai thác nguồn dữ liệu này.\ns KHUVUC (maKY/, tenKV): lưu thông tin mã khu vực và tên khu vực; mỗi khu vực có một mã khu vực duy nhất.\ns DIAPHUONG (maDP, tenDP, maKYV): lưu thông tin mã địa phương, tên địa phương và mã khu vực; mỗi địa phương\n\nchỉ thuộc một khu vực và mỗi khu vực có thể có một số địa phương.\ns DAUTU (maDP, nam, tongVon): lưu thông tin mã địa phương, năm và tổng vốn đăng kí đầu tư theo địa phương trong\nnăm.\n\nSau khi tìm hiểu các phần mềm để quản trị cơ sở dữ liệu trên, một số bạn học sinh đưa ra các ý kiến sau:\n\na) Phần mềm bảng tính có thể lưu trữ cơ sở dữ liệu đã nêu trong một trang tính duy nhất gồm các cột: „KV, tenKV,\nmaDP, tenDP, nam, tongVon.\n\nb) Khi tạo bảng DAUTU trong phần mềm quản trị cơ sở dữ liệu, chọn trường maDP rồi thiết lập trường này làm khóa\nchính của bảng.\n\nce) Trong phần mềm quản trị cơ sở dữ liệu, mối quan hệ của 3 bảng đã cho được thiết lập dựa trên việc liên kết từ bảng\nKHUVUC đến bảng DIAPHUONG và liên kết từ bảng KHUVUC đến bảng DAUTU.\n\nd) Dé đưa ra thông tin gồm tên khu vực, tên địa phương, năm và tổng vốn đăng kí đầu tư theo địa phương trong năm,\n\ncó thể thực hiện truy vấn sau:\nSELECT KHUVUC.tenKV, DIAPHUONG.tenDP, DAUTU.nam, DAUTU.tongVon\nFROM KHUVUC INNER JOIN (DIAPHUONG INNER JOIN DAUTU ON DIAPHUONG.maDP = DAUTU.maDP)\nON KHUVUC.maKV = DIAPHUONG.maKV\n\nnes | 6 rr\n\n- Thí sinh không được sử dung tài liệu;\n- Giám thị không giải thích gì thêm.\n\nTrang 4/ 4 - Mã đề thi 0539\n",
+      "low_confidence_words": [
+        {
+          "text": "đ)",
+          "confidence": 67.080978,
+          "bbox": [
+            128,
+            117,
+            23,
+            26
+          ]
+        },
+        {
+          "text": "n;",
+          "confidence": 50.725636,
+          "bbox": [
+            1138,
+            284,
+            23,
+            13
+          ]
+        },
+        {
+          "text": "i++)",
+          "confidence": 8.109726,
+          "bbox": [
+            1182,
+            280,
+            49,
+            18
+          ]
+        },
+        {
+          "text": "]J=i~-1",
+          "confidence": 14.837891,
+          "bbox": [
+            301,
+            332,
+            125,
+            31
+          ]
+        },
+        {
+          "text": "j",
+          "confidence": 40.51115,
+          "bbox": [
+            968,
+            338,
+            7,
+            20
+          ]
+        },
+        {
+          "text": "=i-",
+          "confidence": 43.002815,
+          "bbox": [
+            995,
+            338,
+            109,
+            18
+          ]
+        },
+        {
+          "text": "AI]",
+          "confidence": 54.75486,
+          "bbox": [
+            515,
+            396,
+            51,
+            21
+          ]
+        },
+        {
+          "text": "j=j-1",
+          "confidence": 41.550961,
+          "bbox": [
+            359,
+            425,
+            125,
+            21
+          ]
+        },
+        {
+          "text": "jejcl",
+          "confidence": 36.107727,
+          "bbox": [
+            968,
+            426,
+            137,
+            20
+          ]
+        },
+        {
+          "text": "hiệu",
+          "confidence": 65.268356,
+          "bbox": [
+            791,
+            604,
+            45,
+            20
+          ]
+        },
+        {
+          "text": "c)",
+          "confidence": 52.256397,
+          "bbox": [
+            129,
+            733,
+            20,
+            26
+          ]
+        },
+        {
+          "text": "¢)",
+          "confidence": 62.02338,
+          "bbox": [
+            129,
+            1105,
+            20,
+            25
+          ]
+        },
+        {
+          "text": "dif",
+          "confidence": 62.032387,
+          "bbox": [
+            1082,
+            1233,
+            29,
+            20
+          ]
+        },
+        {
+          "text": "s",
+          "confidence": 46.392612,
+          "bbox": [
+            101,
+            1304,
+            8,
+            9
+          ]
+        },
+        {
+          "text": "(maKY/,",
+          "confidence": 39.927944,
+          "bbox": [
+            240,
+            1297,
+            83,
+            24
+          ]
+        },
+        {
+          "text": "s",
+          "confidence": 65.595016,
+          "bbox": [
+            101,
+            1336,
+            8,
+            9
+          ]
+        },
+        {
+          "text": "maKYV):",
+          "confidence": 44.512424,
+          "bbox": [
+            467,
+            1328,
+            82,
+            25
+          ]
+        },
+        {
+          "text": "s",
+          "confidence": 61.829262,
+          "bbox": [
+            101,
+            1399,
+            8,
+            8
+          ]
+        },
+        {
+          "text": "ce)",
+          "confidence": 46.219162,
+          "bbox": [
+            129,
+            1615,
+            21,
+            25
+          ]
+        },
+        {
+          "text": "nes",
+          "confidence": 29.309044,
+          "bbox": [
+            545,
+            1834,
+            183,
+            3
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 23.100212,
+          "bbox": [
+            744,
+            1824,
+            4,
+            18
+          ]
+        },
+        {
+          "text": "6",
+          "confidence": 1.797569,
+          "bbox": [
+            756,
+            1818,
+            11,
+            24
+          ]
+        },
+        {
+          "text": "rr",
+          "confidence": 11.919525,
+          "bbox": [
+            797,
+            1834,
+            182,
+            3
+          ]
+        }
+      ],
+      "status": "ocr_unverified"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "draft-2025-0539-01",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 1,
+      "ocr_heading": "Cau 1: Thiết bị nào sau đây có chức năng chính là thiết lập kênh kết nói giữa các thiết bị trong mang LAN (có dây) dé",
+      "raw_number_ocr": "1",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Thiết bị nào sau đây có chức năng chính là thiết lập kênh kết nói giữa các thiết bị trong mang LAN (có dây) dé\ntruyền dữ liệu?\n\nMã đề: 0539\n\nA. Modem. B. Access Point. C. Switch. D. Router.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Thiết bị nào sau đây có chức năng chính là thiết lập kênh kết nói giữa các thiết bị trong mang LAN (có dây) dé\ntruyền dữ liệu?\n\nMã đề: 0539",
+      "options_ocr": [
+        "Modem.",
+        "Access Point.",
+        "Switch.",
+        "Router."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-02",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 2,
+      "ocr_heading": "Câu 2: Tiêu dé của trang web được khai báo trong phan tử HTML nào sau đây?",
+      "raw_number_ocr": "2",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Tiêu dé của trang web được khai báo trong phan tử HTML nào sau đây?\nA. html B. title C. body D.p\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-03",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 3,
+      "ocr_heading": "Câu 3: Phương án nào sau đây chỉ ra ly do chủ yếu dẫn tới nhu cầu gia tăng về số lượng chuyên gia bảo mật hệ thống",
+      "raw_number_ocr": "3",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Phương án nào sau đây chỉ ra ly do chủ yếu dẫn tới nhu cầu gia tăng về số lượng chuyên gia bảo mật hệ thống\nthông tin?\nA. Tính phức tạp ngày càng tăng của các cuộc tan công mạng.\nB. Dung lượng của các thiết bị lưu trữ ngày càng tăng nhanh.\nC. Tốc độ xử lý của CPU ngày càng tăng nhanh.\nD. Sự phổ biến của các ứng dụng soạn thảo văn bản.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Phương án nào sau đây chỉ ra ly do chủ yếu dẫn tới nhu cầu gia tăng về số lượng chuyên gia bảo mật hệ thống\nthông tin?",
+      "options_ocr": [
+        "Tính phức tạp ngày càng tăng của các cuộc tan công mạng.",
+        "Dung lượng của các thiết bị lưu trữ ngày càng tăng nhanh.",
+        "Tốc độ xử lý của CPU ngày càng tăng nhanh.",
+        "Sự phổ biến của các ứng dụng soạn thảo văn bản."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-04",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 4,
+      "ocr_heading": "Câu 4: Trong bộ giao thức TCP/IP, giao thức IP đảm nhận vai trò nào sau đây?",
+      "raw_number_ocr": "4",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Trong bộ giao thức TCP/IP, giao thức IP đảm nhận vai trò nào sau đây?\nA. Cấp phát địa chỉ IP cho các thiết bị trong mạng.\nB. Định tuyến các gói dữ liệu đến đúng địa chỉ mạng.\nC. Thiết lập bộ quy tắc gửi và nhận thư điện tử qua mạng.\nD. Truyền tải an toàn dữ liệu giữa các thiết bị.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Trong bộ giao thức TCP/IP, giao thức IP đảm nhận vai trò nào sau đây?",
+      "options_ocr": [
+        "Cấp phát địa chỉ IP cho các thiết bị trong mạng.",
+        "Định tuyến các gói dữ liệu đến đúng địa chỉ mạng.",
+        "Thiết lập bộ quy tắc gửi và nhận thư điện tử qua mạng.",
+        "Truyền tải an toàn dữ liệu giữa các thiết bị."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-05",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 5,
+      "ocr_heading": "Câu 5: Trong lĩnh vực y tế, Trí tuệ nhân tạo được ứng dụng phổ biến trong hệ thống nào sau đây?",
+      "raw_number_ocr": "5",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Trong lĩnh vực y tế, Trí tuệ nhân tạo được ứng dụng phổ biến trong hệ thống nào sau đây?\nA. Hỗ trợ bác sĩ chan đoán bệnh dựa trên hình ảnh X-quang.\nB. In phiếu thứ tự khám bệnh cho bệnh nhân tại các phòng khám.\nC. Tự động hóa hoàn toàn việc kê đơn thuốc cho bệnh nhân.\nD. Tự động hóa hoàn toàn việc thẩm định các loại thuốc mới.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Trong lĩnh vực y tế, Trí tuệ nhân tạo được ứng dụng phổ biến trong hệ thống nào sau đây?",
+      "options_ocr": [
+        "Hỗ trợ bác sĩ chan đoán bệnh dựa trên hình ảnh X-quang.",
+        "In phiếu thứ tự khám bệnh cho bệnh nhân tại các phòng khám.",
+        "Tự động hóa hoàn toàn việc kê đơn thuốc cho bệnh nhân.",
+        "Tự động hóa hoàn toàn việc thẩm định các loại thuốc mới."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-06",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 6,
+      "ocr_heading": "Câu 6: Cho đoạn mã HTML sau:",
+      "raw_number_ocr": "6",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Cho đoạn mã HTML sau:\n<table border=\"1\" width=\"50%\" height=\"10$\">\n\n<tr> <th> </th> <th> </th> <th> </th> </tr>\n<tr> <td> </td> <td> </td> <td> </td> </tr>\n\n</table>\nPhương án nào sau đây nêu đúng số lượng hàng và cột của bang được tao bởi đoạn mã trên?\nA. 2 hàng, 2 cột. B. 2 hàng, 3 cột. C. 3 hàng, 3 cột. D. 3 hàng, 2 cột.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Cho đoạn mã HTML sau:\n<table border=\"1\" width=\"50%\" height=\"10$\">\n\n<tr> <th> </th> <th> </th> <th> </th> </tr>\n<tr> <td> </td> <td> </td> <td> </td> </tr>\n\n</table>\nPhương án nào sau đây nêu đúng số lượng hàng và cột của bang được tao bởi đoạn mã trên?",
+      "options_ocr": [
+        "2 hàng, 2 cột.",
+        "2 hàng, 3 cột.",
+        "3 hàng, 3 cột.",
+        "3 hàng, 2 cột."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-07",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 7,
+      "ocr_heading": "Câu 7: Lựa chọn ngôn ngữ Python hoặc C++ để tìm hiểu đoạn chương trình sau:",
+      "raw_number_ocr": "7",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Lựa chọn ngôn ngữ Python hoặc C++ để tìm hiểu đoạn chương trình sau:\nDòng Đoạn chương trình viết bằng Python Đoạn chương trình viết bằng C++\n1 n, i, S = 9, 5, 0 int n=9, i=5, S=0;\n2 while i <n: while (i <n) {\n3 S=S+i S=S +i;\n4 i=i+2 i=i+ 2;\n5 print (S) }\n6 cout << S;\nPhương án nào sau đây chỉ ra đúng số lan lặp của câu lệnh while ở Dong 2?\nA.2. B.3. C. 0. Dz 1.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-08",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 8,
+      "ocr_heading": "Câu 8: Cách ứng xử nào sau đây phù hợp đối với kết quả được tạo ra bởi Trí tuệ nhân tạo?",
+      "raw_number_ocr": "8",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Cách ứng xử nào sau đây phù hợp đối với kết quả được tạo ra bởi Trí tuệ nhân tạo?\nA. Xem xét một cách thận trọng và có trách nhiệm.\nB. Tin tưởng hoàn toàn vào tính chính xác và khách quan.\nC. Giữ nguyên để làm sản phẩm học tập và nghiên cứu.\nD. Chia sẻ ra cộng đồng mà không cần kiểm chứng.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Cách ứng xử nào sau đây phù hợp đối với kết quả được tạo ra bởi Trí tuệ nhân tạo?",
+      "options_ocr": [
+        "Xem xét một cách thận trọng và có trách nhiệm.",
+        "Tin tưởng hoàn toàn vào tính chính xác và khách quan.",
+        "Giữ nguyên để làm sản phẩm học tập và nghiên cứu.",
+        "Chia sẻ ra cộng đồng mà không cần kiểm chứng."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-09",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 9,
+      "ocr_heading": "Câu 9: Hành vi nào sau đây không phù hợp với đạo đức trong môi trường số?",
+      "raw_number_ocr": "9",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Hành vi nào sau đây không phù hợp với đạo đức trong môi trường số?\nA. Phát tán tin đồn chưa được kiểm chứng về người khác.\nB. Chia sẻ kiến thức có ích kèm theo nguồn trích dẫn.\nC. Cổ vũ cho những việc làm tốt để lan tỏa đến mọi người.\nD. Trao đổi ý kiến thẳng thắn nhưng mang tính xây dựng.\n\nTrang 1/4- Mã đề thi 0539",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Hành vi nào sau đây không phù hợp với đạo đức trong môi trường số?",
+      "options_ocr": [
+        "Phát tán tin đồn chưa được kiểm chứng về người khác.",
+        "Chia sẻ kiến thức có ích kèm theo nguồn trích dẫn.",
+        "Cổ vũ cho những việc làm tốt để lan tỏa đến mọi người.",
+        "Trao đổi ý kiến thẳng thắn nhưng mang tính xây dựng.\n\nTrang 1/4- Mã đề thi 0539"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-10",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 10,
+      "ocr_heading": "Câu 10: Khả năng hiểu ngôn ngữ của Trí tuệ nhân tạo không thê hiện trong hệ thống nào sau đây?",
+      "raw_number_ocr": "10",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Khả năng hiểu ngôn ngữ của Trí tuệ nhân tạo không thê hiện trong hệ thống nào sau đây?\n\nA. Nhận diện khuôn mặt. B. Trợ giúp soạn thảo văn bản.\n\nC. Trợ lý ảo trên xe ô tô. D. Tổng đài tự động hỏi đáp.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Khả năng hiểu ngôn ngữ của Trí tuệ nhân tạo không thê hiện trong hệ thống nào sau đây?",
+      "options_ocr": [
+        "Nhận diện khuôn mặt.",
+        "Trợ giúp soạn thảo văn bản.",
+        "Trợ lý ảo trên xe ô tô.",
+        "Tổng đài tự động hỏi đáp."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-11",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 11,
+      "ocr_heading": "Câu 11: Lựa chọn ngôn ngữ Python hoặc C++ để tìm hiểu đoạn chương trình sau:",
+      "raw_number_ocr": "11",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Lựa chọn ngôn ngữ Python hoặc C++ để tìm hiểu đoạn chương trình sau:\n\nDòng Đoạn chương trình viết bằng Python Đoạn chương trình viết bằng C++\n1 |s = \"TRI TUE NHAN TAO\" char s[] = \"TRI TUE NHAN TẠO\";\n2 x= 9 int x = 9\n3 for iin range(8, 10): for (int i = 8; i < 10; i++) {\n4 if i 3 2 == 0: x=x*2 if (i $ 2 == 0) x=x* 2;\n5 else: x = x // 3 else x = x / 3;\n\n6 print (s[x]) }\n7 cout << s[x];\n\nSau khi thực hiện đoạn chương trình trên, kí tự nào sau đây được hién thị trên màn hình?\nA.E B.U C.R D.T",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-12",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 12,
+      "ocr_heading": "Câu 12: Một công ty có hai chỉ nhánh ở cách nhau khoảng 10 km. Các máy tính ở mỗi chi nhánh đã được kết nối thành",
+      "raw_number_ocr": "12",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Một công ty có hai chỉ nhánh ở cách nhau khoảng 10 km. Các máy tính ở mỗi chi nhánh đã được kết nối thành\nmột mạng LAN riêng. Thiết bị nào sau đây là phù hợp nhất để kết nối hai mạng riêng này thành một mạng chung?\nA. Router. B. Access Point. C. Switch. D. Modem.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Một công ty có hai chỉ nhánh ở cách nhau khoảng 10 km. Các máy tính ở mỗi chi nhánh đã được kết nối thành\nmột mạng LAN riêng. Thiết bị nào sau đây là phù hợp nhất để kết nối hai mạng riêng này thành một mạng chung?",
+      "options_ocr": [
+        "Router.",
+        "Access Point.",
+        "Switch.",
+        "Modem."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-13",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 13,
+      "ocr_heading": "Câu 13: Một người lạ bắt chuyện qua mạng) xã hội và giới thiệu cơ hội “việc nhẹ lương cao” cho một học sinh. Tuy nhiên,",
+      "raw_number_ocr": "13",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Một người lạ bắt chuyện qua mạng) xã hội và giới thiệu cơ hội “việc nhẹ lương cao” cho một học sinh. Tuy nhiên,\n\nđể nhận công việc này phải nộp trước một số tiền đặt cọc giữ chỗ. Trong tình huống này, ứng xử nào sau đây của bạn học\nsinh không an toàn trên không gian mạng?\n\nA. Xác minh thông tin một cách cân trọng. B. Trình báo cho công an về dấu hiệu lừa đảo.\n\nC. Nộp tiền đặt cọc ngay theo yêu cầu. D. Bỏ qua tin nhắn và cảnh báo cho bạn bè.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Một người lạ bắt chuyện qua mạng) xã hội và giới thiệu cơ hội “việc nhẹ lương cao” cho một học sinh. Tuy nhiên,\n\nđể nhận công việc này phải nộp trước một số tiền đặt cọc giữ chỗ. Trong tình huống này, ứng xử nào sau đây của bạn học\nsinh không an toàn trên không gian mạng?",
+      "options_ocr": [
+        "Xác minh thông tin một cách cân trọng.",
+        "Trình báo cho công an về dấu hiệu lừa đảo.",
+        "Nộp tiền đặt cọc ngay theo yêu cầu.",
+        "Bỏ qua tin nhắn và cảnh báo cho bạn bè."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-14",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 14,
+      "ocr_heading": "Câu 14: Thẻ HTML nào sau đây được dùng để tạo danh sách có thứ tự?",
+      "raw_number_ocr": "14",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Thẻ HTML nào sau đây được dùng để tạo danh sách có thứ tự?\n\nA. <li> B. <ul> C. <ol> D. <table>\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Thẻ HTML nào sau đây được dùng để tạo danh sách có thứ tự?",
+      "options_ocr": [
+        "<li>",
+        "<ul>",
+        "<ol>",
+        "<table>"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-15",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 15,
+      "ocr_heading": "Câu 15: Doan mã HTML nào sau đây định dang dòng chit “TN THPT 2025” thành in đậm, riêng số 2025 còn được in",
+      "raw_number_ocr": "15",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Doan mã HTML nào sau đây định dang dòng chit “TN THPT 2025” thành in đậm, riêng số 2025 còn được in\nnghiêng?\n\nA. <p><em><strong>TN THPT 2025</strong></em></p>\n\nB. <p><strong>TN THPT <em>2025</em></strong></p>\n\nC. <p><em>TN THPT </em><strong>2025</strong></p>\n\nD. <p><em>TN THPT <strong>2025</strong></em></p>",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Doan mã HTML nào sau đây định dang dòng chit “TN THPT 2025” thành in đậm, riêng số 2025 còn được in\nnghiêng?",
+      "options_ocr": [
+        "<p><em><strong>TN THPT 2025</strong></em></p>",
+        "<p><strong>TN THPT <em>2025</em></strong></p>",
+        "<p><em>TN THPT </em><strong>2025</strong></p>",
+        "<p><em>TN THPT <strong>2025</strong></em></p>"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-16",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 16,
+      "ocr_heading": "Câu 16: Linh vực tin học nào sau đây tập trung vào việc nghiên cứu va phát triển các phần mềm làm cho máy tính ngày",
+      "raw_number_ocr": "16",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Linh vực tin học nào sau đây tập trung vào việc nghiên cứu va phát triển các phần mềm làm cho máy tính ngày\ncàng thông minh như con người?\n\nA. Internet vạn vật. B. An toàn thông tin.\n\nC. Mạng máy tính. D. Trí tuệ nhân tạo.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Linh vực tin học nào sau đây tập trung vào việc nghiên cứu va phát triển các phần mềm làm cho máy tính ngày\ncàng thông minh như con người?",
+      "options_ocr": [
+        "Internet vạn vật.",
+        "An toàn thông tin.",
+        "Mạng máy tính.",
+        "Trí tuệ nhân tạo."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-17",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 17,
+      "ocr_heading": "Câu 17: Đoạn mã CSS nào sau đây thiết lập đường viền có độ đày 3 pixel, kiểu nét đứt bao quanh các đối tượng nội",
+      "raw_number_ocr": "17",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Đoạn mã CSS nào sau đây thiết lập đường viền có độ đày 3 pixel, kiểu nét đứt bao quanh các đối tượng nội\ndung khi hiển thị trên trình duyệt?\n\nA.p.border {border-width: 3px; border-style: groove;}\n\nB. p {border-width: 3px; border-style: double; }\n\nC. p.border {border-width: 3px; border-style: double;}\n\nD.p {border-width: 3px; border-style: dashed; }",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-18",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 18,
+      "ocr_heading": "Câu 18: Khi thực hiện đoạn mã HTML sau, dòng chữ “Chúc các em thi tốt!” sẽ được hiển thị trên trình duyệt theo định",
+      "raw_number_ocr": "18",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Khi thực hiện đoạn mã HTML sau, dòng chữ “Chúc các em thi tốt!” sẽ được hiển thị trên trình duyệt theo định\nđạng nào dưới đây?\n<html><head><style> .mau{color: green; font-weight: bold;}\n\n#mau{color: yellow; font-style: italic; }\n</style></head><body><p id=\"mau\">Chúc các em thi tốt!</p></body></html>\n\nA. Mau vang, in nghiéng. B. Mau xanh lá cây, in nghiêng.\n€. Màu xanh lá cây, in đậm. D. Mau vàng, in đậm.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-19",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 19,
+      "ocr_heading": "Câu 19: Router có chức năng chính nao sau đây?",
+      "raw_number_ocr": "19",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Router có chức năng chính nao sau đây?\nA. Phát tín hiệu đến tat cả các công kết nói trong mang LAN.\nB. Tìm đường đi tối ưu để truyền các gói đữ liệu giữa các mạng.\nC. Kết nối các thiết bị bằng sóng vô tuyến trong mạng cục bộ.\nD. Chuyển đổi giữa tín hiệu tương tự và tín hiệu số qua mạng.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Router có chức năng chính nao sau đây?",
+      "options_ocr": [
+        "Phát tín hiệu đến tat cả các công kết nói trong mang LAN.",
+        "Tìm đường đi tối ưu để truyền các gói đữ liệu giữa các mạng.",
+        "Kết nối các thiết bị bằng sóng vô tuyến trong mạng cục bộ.",
+        "Chuyển đổi giữa tín hiệu tương tự và tín hiệu số qua mạng."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-20",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 20,
+      "ocr_heading": "Câu 20: Người làm nghề sửa chữa và bảo trì máy tính phải có kiến thức về lĩnh vực nào sau đây?",
+      "raw_number_ocr": "20",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Người làm nghề sửa chữa và bảo trì máy tính phải có kiến thức về lĩnh vực nào sau đây?\n\nA. An toàn thông tin. B. Lập trình nhúng.\nC. Phần cứng máy tính. D. Cơ sở dữ liệu.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Người làm nghề sửa chữa và bảo trì máy tính phải có kiến thức về lĩnh vực nào sau đây?",
+      "options_ocr": [
+        "An toàn thông tin.",
+        "Lập trình nhúng.",
+        "Phần cứng máy tính.",
+        "Cơ sở dữ liệu."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-21",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 21,
+      "ocr_heading": "Câu 21: Thuộc tính CSS nào sau đây thiết lập cỡ chữ cho văn bản?",
+      "raw_number_ocr": "21",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Thuộc tính CSS nào sau đây thiết lập cỡ chữ cho văn bản?\nA. text-indent B. text-align C. font-family D. font-size\n\nTrang 2/ 4 - Mã dé thi 0539",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Thuộc tính CSS nào sau đây thiết lập cỡ chữ cho văn bản?",
+      "options_ocr": [
+        "text-indent",
+        "text-align",
+        "font-family",
+        "font-size\n\nTrang 2/ 4 - Mã dé thi 0539"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-22",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 22,
+      "ocr_heading": "Câu 22: Khi đọc được thông tin về một khu vực vừa bị thiên tai trên một trang báo điện tử uy tín, hành động nào sau",
+      "raw_number_ocr": "22",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Khi đọc được thông tin về một khu vực vừa bị thiên tai trên một trang báo điện tử uy tín, hành động nào sau\nđây không thé hiện tính nhân văn trên không gian mạng?\n\nA. Gửi lời chia buồn và động viên những người bị ảnh hưởng từ thiên tai.\n\nB. Đăng tải lại hình ảnh thiên tai trên trang cá nhân dé tăng lượt tương tác.\n\nC. Tham gia các nhóm từ thiện trực tuyến để tìm hiểu và hỗ trợ thiết thực.\n\nD. Kêu gọi giúp đỡ từ cộng đồng nếu xác minh được thông tin là chính xác.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Khi đọc được thông tin về một khu vực vừa bị thiên tai trên một trang báo điện tử uy tín, hành động nào sau\nđây không thé hiện tính nhân văn trên không gian mạng?",
+      "options_ocr": [
+        "Gửi lời chia buồn và động viên những người bị ảnh hưởng từ thiên tai.",
+        "Đăng tải lại hình ảnh thiên tai trên trang cá nhân dé tăng lượt tương tác.",
+        "Tham gia các nhóm từ thiện trực tuyến để tìm hiểu và hỗ trợ thiết thực.",
+        "Kêu gọi giúp đỡ từ cộng đồng nếu xác minh được thông tin là chính xác."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-23",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 23,
+      "ocr_heading": "Câu 23: Người quản trị mạng thực hiện công việc chính nào sau đây?",
+      "raw_number_ocr": "23",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Người quản trị mạng thực hiện công việc chính nào sau đây?\n\nA. Xây dựng các ứng dụng trên mạng. B. Thiết lập và cầu hình hệ thống mang.\n\nC. Tư vấn nâng cấp các thiết bị phần cứng. D. Nghiên cứu và phát triển các phần mềm.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Người quản trị mạng thực hiện công việc chính nào sau đây?",
+      "options_ocr": [
+        "Xây dựng các ứng dụng trên mạng.",
+        "Thiết lập và cầu hình hệ thống mang.",
+        "Tư vấn nâng cấp các thiết bị phần cứng.",
+        "Nghiên cứu và phát triển các phần mềm."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-24",
+      "year": 2025,
+      "code": "0539",
+      "part": "I",
+      "number": 24,
+      "ocr_heading": "Câu 24: Đoạn mã CSS nào sau đây thiết lập hình ảnh và văn bản được hién thị theo khối?",
+      "raw_number_ocr": "24",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Đoạn mã CSS nào sau đây thiết lập hình ảnh và văn bản được hién thị theo khối?\n\nA.img, p {display: flex;} B.img, p {display: inline;}\n\nC. img, p {display: block;} D. img, p {display: none;}\n\nPHAN II. Thi sinh trả lời 4 câu hỏi. Trong mỗi ý a), b), e), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.\nA. Phần chung dành cho tất cả các thí sinh\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-25",
+      "year": 2025,
+      "code": "0539",
+      "part": "II",
+      "number": 1,
+      "ocr_heading": "Câu 1: Tòa nhà của một công ty có một số phòng làm việc, Mỗi phòng có không quá 10 máy tính, được kết nối với nhau",
+      "raw_number_ocr": "1",
+      "type": "tf",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Tòa nhà của một công ty có một số phòng làm việc, Mỗi phòng có không quá 10 máy tính, được kết nối với nhau\nthông qua Switch tạo thành một mạng LAN. Công ty cần kết nối các mang LAN này với nhau để tạo thành một mạng cục\nbộ duy nhất. Sau khi thảo luận, một số nhân viên của công ty đưa ra các nhận định sau:\na) Mạng cục bộ của công ty là mạng WAN.\nb) Có thé sử dụng Switch loại 16 cổng dé kết nối các máy tính trong mỗi phòng làm việc.\nc) Dé máy tính trong các phòng làm việc truy cập được Internet thì chỉ cần lắp đặt thêm một Modem mà không cần\nphải đăng ký với nhà cung cấp dịch vụ Internet.\nd) Để các nhân viên có thé sử dụng điện thoại thông minh kết nối được vào mạng cục bộ của công ty qua Wi-Fi, có\nthể lắp đặt cho mỗi phòng một Access Point và kết nối thiết bị này với Switch ở phòng đó.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Tòa nhà của một công ty có một số phòng làm việc, Mỗi phòng có không quá 10 máy tính, được kết nối với nhau\nthông qua Switch tạo thành một mạng LAN. Công ty cần kết nối các mang LAN này với nhau để tạo thành một mạng cục\nbộ duy nhất. Sau khi thảo luận, một số nhân viên của công ty đưa ra các nhận định sau:",
+      "options_ocr": [
+        "Mạng cục bộ của công ty là mạng WAN.",
+        "Có thé sử dụng Switch loại 16 cổng dé kết nối các máy tính trong mỗi phòng làm việc.",
+        "Dé máy tính trong các phòng làm việc truy cập được Internet thì chỉ cần lắp đặt thêm một Modem mà không cần\nphải đăng ký với nhà cung cấp dịch vụ Internet.",
+        "Để các nhân viên có thé sử dụng điện thoại thông minh kết nối được vào mạng cục bộ của công ty qua Wi-Fi, có\nthể lắp đặt cho mỗi phòng một Access Point và kết nối thiết bị này với Switch ở phòng đó."
+      ]
+    },
+    {
+      "id": "draft-2025-0539-26",
+      "year": 2025,
+      "code": "0539",
+      "part": "II",
+      "number": 2,
+      "ocr_heading": "Câu 2: Dữ liệu về dân số nước ta từ năm 2019 đến năm 2023 có trong niên giám số liệu thống kê của Tổng cục thống kê.",
+      "raw_number_ocr": "2",
+      "type": "tf",
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Dữ liệu về dân số nước ta từ năm 2019 đến năm 2023 có trong niên giám số liệu thống kê của Tổng cục thống kê.\nViệc quản lí dữ liệu này có ý nghĩa quan trọng trong hoạch định một số chính sách quốc gia. Để lưu trữ và khai thác dữ\nliệu về dân số hàng năm theo từng khu vực, có thể tạo cơ sở dữ liệu với các bảng sau:\ns« KHUVUC (maKY, tenKV): lưu thông tin mã khu vực và tên khu vực; mỗi khu vực có một mã khu vực duy nhất.\ns TĨNH (maTinh, maKŸ, tenTinh): lưu thông tin mã tỉnh, mã khu vực và tên tỉnh; mỗi tỉnh chỉ thuộc về một khu vực và\nmỗi khu vực có thể có nhiều tỉnh.\ns DANSO (maTinh, nam, danSoTB) lưu thông tin: mã tỉnh, năm và dân số trung bình của năm.\nSau khi tìm hiểu cơ sở dữ liệu trên, một số học sinh đưa ra các ý kiến sau:\na) Trường maKV là khóa ngoài của bảng KHUVUC.\nb) Nhóm hai trường maTinh và nam là khóa chính của bảng DANSO.\nc) Chỉ cần liên kết hai bảng TINH và DANSO theo khóa maTinh là có thể kết xuất được thông tin đầy đủ gồm: tên\ntỉnh, tên khu vực, năm và dân số trung bình của năm.\nd) Để đưa ra được thông tin gồm tên tinh, năm và dân số trung bình của năm 2020, có thé thực hiện câu truy vấn với\ncác thành phần sau:\no Các bảng và trường được chọn: TINH.tenTinh, DANSO.nam, DANSO.danSoTB.\no Các bảng được liên kết qua khóa: TINH liên kết DANSO qua khóa maTinh.\no Điều kiện kết xuất dữ liệu: DANSO.nam = 2020.\nB. Phần riêng\nThi sinh chỉ được phép chọn một trong hai phan: Khoa học máy tính (Câu 3 và Câu 4) hoặc Tin học ứng dung (Câu\n5 và Câu 6). Thí sinh không được tính điểm nếu làm cả hai phân.\nBI. Khoa học máy tính\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Dữ liệu về dân số nước ta từ năm 2019 đến năm 2023 có trong niên giám số liệu thống kê của Tổng cục thống kê.\nViệc quản lí dữ liệu này có ý nghĩa quan trọng trong hoạch định một số chính sách quốc gia. Để lưu trữ và khai thác dữ\nliệu về dân số hàng năm theo từng khu vực, có thể tạo cơ sở dữ liệu với các bảng sau:\ns« KHUVUC (maKY, tenKV): lưu thông tin mã khu vực và tên khu vực; mỗi khu vực có một mã khu vực duy nhất.\ns TĨNH (maTinh, maKŸ, tenTinh): lưu thông tin mã tỉnh, mã khu vực và tên tỉnh; mỗi tỉnh chỉ thuộc về một khu vực và\nmỗi khu vực có thể có nhiều tỉnh.\ns DANSO (maTinh, nam, danSoTB) lưu thông tin: mã tỉnh, năm và dân số trung bình của năm.\nSau khi tìm hiểu cơ sở dữ liệu trên, một số học sinh đưa ra các ý kiến sau:",
+      "options_ocr": [
+        "Trường maKV là khóa ngoài của bảng KHUVUC.",
+        "Nhóm hai trường maTinh và nam là khóa chính của bảng DANSO.",
+        "Chỉ cần liên kết hai bảng TINH và DANSO theo khóa maTinh là có thể kết xuất được thông tin đầy đủ gồm: tên\ntỉnh, tên khu vực, năm và dân số trung bình của năm.",
+        "Để đưa ra được thông tin gồm tên tinh, năm và dân số trung bình của năm 2020, có thé thực hiện câu truy vấn với\ncác thành phần sau:\no Các bảng và trường được chọn: TINH.tenTinh, DANSO.nam, DANSO.danSoTB.\no Các bảng được liên kết qua khóa: TINH liên kết DANSO qua khóa maTinh.\no Điều kiện kết xuất dữ liệu: DANSO.nam = 2020.\nB. Phần riêng\nThi sinh chỉ được phép chọn một trong hai phan: Khoa học máy tính (Câu 3 và Câu 4) hoặc Tin học ứng dung (Câu\n5 và Câu 6). Thí sinh không được tính điểm nếu làm cả hai phân.\nBI. Khoa học máy tính"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-27",
+      "year": 2025,
+      "code": "0539",
+      "part": "II",
+      "number": 3,
+      "ocr_heading": "Câu 3: Hội chứng FOMO (Fear of Missing Out, sau đây gọi tắt là Hội chứng) là cảm giác lo âu, tiếc nuối khi nghĩ mình",
+      "raw_number_ocr": "3",
+      "type": "tf",
+      "track": "cs",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        3,
+        4
+      ],
+      "text_ocr": "Hội chứng FOMO (Fear of Missing Out, sau đây gọi tắt là Hội chứng) là cảm giác lo âu, tiếc nuối khi nghĩ mình\nđang bỏ qua một điều gì đó thú vị, hấp dẫn, chẳng hạn như bỏ lỡ cơ hội mua một món dé giảm giá nào đó. Nắm bắt được\nthực tế số lượng người mắc Hội chứng ngày càng nhiều, một công ty đã lên kế hoạch xây dựng hệ thống trí tuệ nhân tạo\nđể dự đoán khả năng mắc Hội chứng. Công ty đã tạo bảng câu hỏi và thu thập dữ liệu khảo sát từ hơn 10 000 người để\nlàm đữ liệu huấn luyện mô hình. Kết quả cho thấy tỉ lệ người mắc Hội chứng là 35% và người chưa mắc là 65%. Trong\nkhi thảo luận, một so nhân viên của công ty đưa ra các nhận định sau:\n\na) Thông tin mắc và chưa mắc Hội chứng của mỗi người có thể được sử dụng làm nhãn của dữ liệu huấn luyện mô hình.\n\nb) Không cần sử dụng các phương pháp tiền xử lý để làm sạch tập dữ liệu đã thu thập nói trên trước khi đưa vào huấn\nluyện mô hình.\n\ne) Mô hình học máy phù hợp nhất được sử dụng dé xây dựng hệ thống dự đoán trong tình huống này là mô hình Học\ncó giám sát.\n\nTrang 3/ 4 - Mã đề thi 0539\nđ) Khi xuất hiện biểu hiện lo âu, tiếc nuối, người ta chi cần sử dụng hệ thống dự đoán của công ty nói trên dé biết\nđược chính xác mình có mac Hội chứng hay không.",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-28",
+      "year": 2025,
+      "code": "0539",
+      "part": "II",
+      "number": 4,
+      "ocr_heading": "Câu 4: Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python và C++:",
+      "raw_number_ocr": "4",
+      "type": "tf",
+      "track": "cs",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        4
+      ],
+      "text_ocr": "Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python và C++:\n\nDòng Hàm viết bằng ngôn ngữ Python Hàm viết bằng ngôn ngữ C++\n1 def F(A, n): float F(int A[], int n) {\n2 for i in range(1, n): for (int i= 1; i < n; i++) {\n3 x = Afi) int x = A[i];\n4 ]J=i~-1 int j =i- 1;\n5 while j >= 0 and A[j] > x: while (j >= 0 && A[j] > x) {\n6 A[j + 1] = AI] A[3 + 1] = A[3];\n7 j=j-1 jejcl\n8 A[] + 1] =x }\n9 return (A[n // 2] + A[n - 1]) / 2 A[j + 1] = x;\n10 }\n11 return (A{n / 2] + A[n - 1]) / 2.0;\n12 }\n\nSau khi chọn một trong hai ngôn ngữ Python hoặc C++ dé tìm hiệu hàm trên, một sô bạn học sinh đã nêu các ý kiên sau:\na) Mảng A biểu diễn cấu trúc dữ liệu ngăn xếp (Stack).\nb) Nếu dữ liệu đầu vào là mảng A gồm n phan tử đã được sắp xếp theo chiều không giảm thì các câu lệnh tại Dòng 6\nvà Dòng 7 được thực hiện n lần.\nc) Nếu dữ liệu đầu vào là n = 6 va mảng A là (6, 4, 2, 1, 3, 5) thì sau khi câu lệnh for tại Dòng 2 thực hiện lần lặp\nthứ 2, giá trị của mảng A là (2, 4, 6, 1, 3, 5).\nđ) Nếu dữ liệu đầu vào là n = 7 và mang A là (8, 6, 4, 2, 3, 5, 7) thì hàm trả về giá trị 6.5.\nB2. Tin học ứng dụng\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-29",
+      "year": 2025,
+      "code": "0539",
+      "part": "II",
+      "number": 5,
+      "ocr_heading": "Câu 5: Một trường phổ thông muốn sử dụng một phần mềm dé xây dựng một website đưa thông tin về hoạt động của các",
+      "raw_number_ocr": "5",
+      "type": "tf",
+      "track": "ict",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        4
+      ],
+      "text_ocr": "Một trường phổ thông muốn sử dụng một phần mềm dé xây dựng một website đưa thông tin về hoạt động của các\ncâu lạc bộ (CLB) trong nhà trường. Website có cầu trúc như sau: Phan đầu trang chứa hình ảnh logo của trường; thanh\nbanner chứa hình ảnh về hoạt động của các CLB; thanh điều hướng gồm ba mục chính Giới thiệu, Hoạt động và Các sự\nkiện. Ứng với mỗi mục chính sẽ có các mục con có nhãn là tên các CLB và chứa liên kết đến trang web của CLB tương\nứng. Trong khi thảo luận về việc sử dụng phần mềm để xây dựng website này, một số bạn học sinh đưa ra ý kiến như sau:\n\na) Phần mềm tạo trang web có sẵn mẫu bố cục trang web dé thiết kế các phần cho website của trường.\n\nb) Phần mềm tạo trang web cho phép thay thế ảnh có sẵn của mẫu bằng ảnh về hoạt động của các CLB.\n\n¢) Các mục con có nhãn là tên các CLB bắt buộc phải hiển thị trên thanh điều hướng của trang chủ.\n\nđ) Để có thể xem được video về hoạt động của các CLB trên website, phải đồng thời thực hiện hai việc: tải video lên\nmáy chủ chứa trang web và nhúng liên kết tới video đó trên YouTube.",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2025-0539-30",
+      "year": 2025,
+      "code": "0539",
+      "part": "II",
+      "number": 6,
+      "ocr_heading": "Câu 6: Trong niên giám số liệu thống kê có dữ liệu từ năm 2019 đến năm 2023 về tổng vốn đăng kí đầu tư trực tiếp nước",
+      "raw_number_ocr": "6",
+      "type": "tf",
+      "track": "ict",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0539.pdf",
+      "source_pages": [
+        4
+      ],
+      "text_ocr": "Trong niên giám số liệu thống kê có dữ liệu từ năm 2019 đến năm 2023 về tổng vốn đăng kí đầu tư trực tiếp nước\nngoài, được cấp phép phân theo địa phương (có hiệu lực đến 31/12/2023). Cần tạo cơ sở dif liệu với các bảng sau dé lưu\ntrữ và khai thác nguồn dữ liệu này.\ns KHUVUC (maKY/, tenKV): lưu thông tin mã khu vực và tên khu vực; mỗi khu vực có một mã khu vực duy nhất.\ns DIAPHUONG (maDP, tenDP, maKYV): lưu thông tin mã địa phương, tên địa phương và mã khu vực; mỗi địa phương\n\nchỉ thuộc một khu vực và mỗi khu vực có thể có một số địa phương.\ns DAUTU (maDP, nam, tongVon): lưu thông tin mã địa phương, năm và tổng vốn đăng kí đầu tư theo địa phương trong\nnăm.\n\nSau khi tìm hiểu các phần mềm để quản trị cơ sở dữ liệu trên, một số bạn học sinh đưa ra các ý kiến sau:\n\na) Phần mềm bảng tính có thể lưu trữ cơ sở dữ liệu đã nêu trong một trang tính duy nhất gồm các cột: „KV, tenKV,\nmaDP, tenDP, nam, tongVon.\n\nb) Khi tạo bảng DAUTU trong phần mềm quản trị cơ sở dữ liệu, chọn trường maDP rồi thiết lập trường này làm khóa\nchính của bảng.\n\nce) Trong phần mềm quản trị cơ sở dữ liệu, mối quan hệ của 3 bảng đã cho được thiết lập dựa trên việc liên kết từ bảng\nKHUVUC đến bảng DIAPHUONG và liên kết từ bảng KHUVUC đến bảng DAUTU.\n\nd) Dé đưa ra thông tin gồm tên khu vực, tên địa phương, năm và tổng vốn đăng kí đầu tư theo địa phương trong năm,\n\ncó thể thực hiện truy vấn sau:\nSELECT KHUVUC.tenKV, DIAPHUONG.tenDP, DAUTU.nam, DAUTU.tongVon\nFROM KHUVUC INNER JOIN (DIAPHUONG INNER JOIN DAUTU ON DIAPHUONG.maDP = DAUTU.maDP)\nON KHUVUC.maKV = DIAPHUONG.maKV\n\nnes | 6 rr\n\n- Thí sinh không được sử dung tài liệu;\n- Giám thị không giải thích gì thêm.\n\nTrang 4/ 4 - Mã đề thi 0539",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    }
+  ],
+  "structure_matches_expected": true,
+  "parser_version": 3,
+  "models_sha256": {
+    "vie": "79df64caf7bcfb2a27df5042ecb6121e196eada34da774956995747636d5bfa1",
+    "eng": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+  }
+}

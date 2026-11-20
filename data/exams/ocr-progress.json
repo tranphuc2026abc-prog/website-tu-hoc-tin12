@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "base_commit": "706a85929bfa2fe2a9a76cb0f41ece9deff73aa6",
+  "pdfs": 96,
+  "pdf_pages": 384,
+  "ocr_papers": 96,
+  "ocr_pages": 384,
+  "ocr_candidate_questions": 2880,
+  "ocr_four_options_parsed": 1656,
+  "ocr_papers_with_expected_heading_sequence": 96,
+  "verified_papers": [
+    {
+      "year": 2025,
+      "code": "0501",
+      "questions": 30,
+      "scored_per_track": 28
+    }
+  ],
+  "verified_questions": 30,
+  "confirmed_duplicates_in_verified_bank": 0,
+  "global_duplicates_status": "not_reviewed",
+  "answers_2025_matched_questions": 30,
+  "answers_2026_transcribed_questions": 30,
+  "answers_2026_matched_to_verified_questions": 0,
+  "drafts_are_scored": false,
+  "remaining": [
+    {
+      "year": 2025,
+      "code": "0502",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0503",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0504",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0505",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0506",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0507",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0508",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0509",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0510",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0511",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0512",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0513",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0514",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0515",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0516",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0517",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0518",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0519",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0520",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0521",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0522",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0523",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0524",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0525",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0526",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0527",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0528",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0529",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0530",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0531",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0532",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0533",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0534",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0535",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0536",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0537",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0538",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0539",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0540",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0541",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0542",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0543",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0544",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0545",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0546",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0547",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2025,
+      "code": "0548",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0501",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0502",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0503",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0504",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0505",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0506",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0507",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0508",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0509",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0510",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0511",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0512",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0513",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0514",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0515",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0516",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0517",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0518",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0519",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0520",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0521",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0522",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0523",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0524",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0525",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0526",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0527",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0528",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0529",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0530",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0531",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0532",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0533",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0534",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0535",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0536",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0537",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0538",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0539",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0540",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0541",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0542",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0543",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0544",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0545",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0546",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0547",
+      "status": "needs_visual_and_answer_review"
+    },
+    {
+      "year": 2026,
+      "code": "0548",
+      "status": "needs_visual_and_answer_review"
+    }
+  ],
+  "notes": [
+    "Heading sequence checks do not verify OCR content or programming syntax.",
+    "OCR records include 30 questions also transcribed separately into the verified bank; do not sum these counts.",
+    "All 96 PDFs and every lesson/source/question bank for grades 10-11-12 remain unchanged."
+  ]
+}

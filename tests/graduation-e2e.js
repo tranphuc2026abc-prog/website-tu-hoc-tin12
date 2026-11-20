@@ -1,36 +1,23 @@
-// Dữ liệu giả chỉ dùng trong kiểm thử; không ghi vào ngân hàng sản phẩm.
-const assert=require('node:assert/strict');
-const fs=require('node:fs/promises'),path=require('node:path'),http=require('node:http');
-const {chromium}=require(process.env.PW||'playwright');
-const root=path.resolve(__dirname,'..');
-(async()=>{
- const server=http.createServer(async(q,r)=>{try{const name=q.url.split('?')[0];const p=path.join(root,name==='/'?'index.html':name.slice(1));const b=await fs.readFile(p);r.setHeader('Content-Type',p.endsWith('.js')?'text/javascript':p.endsWith('.json')?'application/json':p.endsWith('.pdf')?'application/pdf':'text/html');r.end(b)}catch{r.writeHead(404);r.end()}});
- await new Promise(r=>server.listen(0,'127.0.0.1',r));
- const base='http://127.0.0.1:'+server.address().port;
- const browser=await chromium.launch(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{});
- try{
- const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto(base+'/de-thi-tot-nghiep.html');await page.waitForFunction(()=>document.querySelector('#exam-count').textContent.includes('48/48'));
- assert.equal(await page.getByRole('button',{name:'Xem đề PDF'}).count(),48);
- await page.locator('#exam-year').selectOption('2026');assert.match(await page.locator('#exam-count').innerText(),/48\/48/);
- await page.locator('#exam-filter').fill('0548');await page.getByRole('button',{name:'Xem đề PDF'}).click();assert.equal(await page.locator('#exam-frame').getAttribute('src'),'data/exams/2026/TIN_HOC_2026_0548.pdf');
- const manifest=JSON.parse(await fs.readFile(path.join(root,'data/exams/manifest.json'),'utf8'));
- for(const paths of Object.values(manifest.files))for(const p of Object.values(paths)){const r=await page.request.get(base+'/'+p);assert.equal(r.status(),200);assert.equal((await r.body()).subarray(0,4).toString(),'%PDF')}
- await page.getByRole('tab',{name:'Thi thử',exact:true}).click();assert.equal(await page.locator('#test-start').isDisabled(),true);
- await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
- // Fixtures deliberately have no educational content or source attribution.
- const questions=Array.from({length:24},(_,i)=>({id:'test-m'+i,type:'mcq',year:2025,prompt:'TEST MCQ '+i,options:['CORRECT','WRONG1','WRONG2','WRONG3'],answer:0}));
- for(const track of ['common','ict','cs'])for(let i=0;i<2;i++)questions.push({id:'test-'+track+i,type:'tf',year:2025,track,prompt:'TEST TF '+track+i,options:['TEST a','TEST b','TEST c','TEST d'],answer:[true,true,true,true]});
- await page.route('**/data/exams/questions.json',r=>r.fulfill({json:{questions}}));await page.reload();await page.getByRole('tab',{name:'Thi thử',exact:true}).click();await page.waitForFunction(()=>!document.querySelector('#test-start').disabled);
- await page.locator('#test-start').click();assert.equal(await page.locator('#test-form fieldset').count(),28);
- for(const field of await page.locator('#test-form fieldset').all()){
-  if((await field.locator('legend').innerText()).includes('Nhiều lựa chọn'))await field.locator('label').filter({hasText:'CORRECT'}).locator('input').check();
-  else for(const label of await field.locator('label').all())if((await label.innerText()).trim()==='Đúng')await label.locator('input').check();
- }
- await page.locator('#test-submit').click();assert.match(await page.locator('#test-result').innerText(),/10.00\/10/);
- assert.equal(await page.locator('#test-form input:enabled').count(),0);
- assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('tin12.graduation.examHistory.v1')).length),1);
- await page.locator('#test-retry').click();await page.locator('#test-submit').click();assert.match(await page.locator('#test-result').innerText(),/0.00\/10/);
- assert.deepEqual(errors,[]);console.log('PASS: 96 PDF, year/code filter, missing-bank guard, mobile, 28-item paper, maximum 10, blank 0, history, answer lock.');
- }finally{await browser.close();server.close()}
-})().catch(e=>{console.error(e);process.exitCode=1});
+const assert=require('node:assert/strict'),fs=require('node:fs/promises'),path=require('node:path'),http=require('node:http');
+const {chromium}=require(process.env.PW||'playwright');const root=path.resolve(__dirname,'..');
+(async()=>{const server=http.createServer(async(q,r)=>{try{const p=path.join(root,(q.url.split('?')[0]==='/'?'index.html':q.url.split('?')[0].slice(1)));const b=await fs.readFile(p);r.setHeader('Content-Type',p.endsWith('.js')?'text/javascript':p.endsWith('.json')?'application/json':p.endsWith('.css')?'text/css':p.endsWith('.png')?'image/png':p.endsWith('.pdf')?'application/pdf':'text/html');r.end(b);}catch{r.writeHead(404);r.end();}});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;const b=await chromium.launch(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{});try{
+const p=await b.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));p.on('dialog',d=>d.accept());const bank=JSON.parse(await fs.readFile(path.join(root,'data/exams/questions.json'),'utf8')).questions;
+await p.goto(base+'/de-thi-tot-nghiep.html');await p.waitForFunction(()=>document.querySelector('#exam-count').textContent.includes('48/48'));
+assert.equal(await p.getByRole('button',{name:'Xem đề PDF'}).count(),48);await p.locator('#exam-year').selectOption('2026');assert.match(await p.locator('#exam-count').innerText(),/48\/48/);await p.locator('#exam-filter').fill('0548');await p.getByRole('button',{name:'Xem đề PDF'}).click();assert.equal(await p.locator('#exam-frame').getAttribute('src'),'data/exams/2026/TIN_HOC_2026_0548.pdf');
+const manifest=JSON.parse(await fs.readFile(path.join(root,'data/exams/manifest.json'),'utf8'));for(const paths of Object.values(manifest.files))for(const url of Object.values(paths)){const r=await p.request.get(base+'/'+url);assert.equal(r.status(),200);assert.equal((await r.body()).subarray(0,4).toString(),'%PDF');}
+for(const q of bank){const r=await p.request.get(base+'/'+q.source_image);assert.equal(r.status(),200);}
+await p.getByRole('tab',{name:'Thi thử',exact:true}).click();assert.match(await p.locator('#digitization-status').innerText(),/1\/96/);
+await p.locator('#test-year').selectOption('2026');assert.equal(await p.locator('#test-start').isDisabled(),true);
+await p.locator('#test-year').selectOption('2025');await p.locator('#test-start').click();await p.waitForSelector('#question-27');assert.equal(await p.locator('#test-form fieldset').count(),28);assert.match(await p.locator('#test-clock').innerText(),/49:|50:00/);
+const saved=await p.evaluate(()=>JSON.parse(localStorage.getItem('tin12.graduation.active.v2')));assert.equal(saved.session.code,'0501');assert.equal(saved.session.track,'ict');assert.equal(saved.ids.length,28);assert.ok(!saved.ids.includes('2025-0501-II-03'));
+await p.locator('#question-0 input[value="3"]').check();await p.locator('#question-0 .exam-flag').click();const deadline=saved.deadline;await p.reload();await p.waitForSelector('#question-0');assert.equal(await p.locator('#question-0 input[value="3"]').isChecked(),true);assert.equal(await p.locator('#nav-0').getAttribute('class'),'answered flagged');assert.equal(await p.evaluate(()=>JSON.parse(localStorage.getItem('tin12.graduation.active.v2')).deadline),deadline);
+for(let i=0;i<saved.ids.length;i++){const q=bank.find(q=>q.id===saved.ids[i]);if(q.type==='mcq')await p.locator('#question-'+i+' input[value="'+q.answer+'"]').check();else for(let k=0;k<4;k++)await p.locator('#question-'+i+' input[name="q'+i+'_'+k+'"]').nth(q.answer[k]?0:1).check();}
+await p.locator('#test-submit').click();assert.match(await p.locator('#test-result').innerText(),/10.00\/10/);assert.equal(await p.locator('#test-form input:enabled').count(),0);assert.equal(await p.locator('.exam-review[data-correct="true"]').count(),28);
+await p.evaluate(()=>document.querySelector('#test-submit').click());assert.equal(await p.evaluate(()=>JSON.parse(localStorage.getItem('tin12.graduation.examHistory.v1')).length),1);
+await p.locator('#test-retry').click();await p.locator('#test-submit').click();assert.match(await p.locator('#test-result').innerText(),/0.00\/10/);
+await p.locator('#test-track').selectOption('cs');await p.locator('#test-start').click();const cs=await p.evaluate(()=>JSON.parse(localStorage.getItem('tin12.graduation.active.v2')));assert.ok(cs.ids.includes('2025-0501-II-03'));assert.ok(!cs.ids.includes('2025-0501-II-05'));
+await p.evaluate(()=>{const k='tin12.graduation.active.v2';const s=JSON.parse(localStorage.getItem(k));s.deadline=Date.now()-1000;localStorage.setItem(k,JSON.stringify(s));});await p.reload();await p.waitForFunction(()=>document.querySelector('#test-result').textContent.includes('0.00/10'));assert.match(await p.locator('#test-result').innerText(),/Hết giờ/);assert.equal(await p.evaluate(()=>JSON.parse(localStorage.getItem('tin12.graduation.examHistory.v1')).length),3);
+await p.setViewportSize({width:390,height:844});assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+await p.locator('#test-mode').selectOption('random');await p.locator('#test-start').click();await p.waitForSelector('#question-27');assert.equal(await p.locator('#test-form fieldset').count(),28);assert.deepEqual(errors,[]);
+console.log('PASS: PDF96, source crops30, verified-only paper, both tracks, restore, flags, countdown, 10/0 grading, one submission, history, timeout, random, mobile.');await p.close();
+}finally{await b.close();await new Promise(r=>server.close(r));}})().catch(e=>{console.error(e);process.exitCode=1});
