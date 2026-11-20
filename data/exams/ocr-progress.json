@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-11-20",
-  "base_commit": "706a85929bfa2fe2a9a76cb0f41ece9deff73aa6",
+  "base_commit": "c834075229c99c76cfea18fb1b28f16bb7a8716f",
   "pdfs": 96,
   "pdf_pages": 384,
   "ocr_papers": 96,
@@ -15,31 +15,34 @@
       "code": "0501",
       "questions": 30,
       "scored_per_track": 28
-    }
-  ],
-  "verified_questions": 30,
-  "confirmed_duplicates_in_verified_bank": 0,
-  "global_duplicates_status": "not_reviewed",
-  "answers_2025_matched_questions": 30,
-  "answers_2026_transcribed_questions": 30,
-  "answers_2026_matched_to_verified_questions": 0,
-  "drafts_are_scored": false,
-  "remaining": [
+    },
     {
       "year": 2025,
       "code": "0502",
-      "status": "needs_visual_and_answer_review"
+      "questions": 30,
+      "scored_per_track": 28
     },
     {
       "year": 2025,
       "code": "0503",
-      "status": "needs_visual_and_answer_review"
+      "questions": 30,
+      "scored_per_track": 28
     },
     {
       "year": 2025,
       "code": "0504",
-      "status": "needs_visual_and_answer_review"
-    },
+      "questions": 30,
+      "scored_per_track": 28
+    }
+  ],
+  "verified_questions": 120,
+  "confirmed_duplicates_in_verified_bank": 60,
+  "global_duplicates_status": "not_reviewed",
+  "answers_2025_matched_questions": 120,
+  "answers_2026_transcribed_questions": 30,
+  "answers_2026_matched_to_verified_questions": 0,
+  "drafts_are_scored": false,
+  "remaining": [
     {
       "year": 2025,
       "code": "0505",
@@ -503,7 +506,7 @@
   ],
   "notes": [
     "Heading sequence checks do not verify OCR content or programming syntax.",
-    "OCR records include 30 questions also transcribed separately into the verified bank; do not sum these counts.",
+    "Verified occurrences also exist in OCR drafts; do not sum OCR and verified occurrence counts.",
     "All 96 PDFs and every lesson/source/question bank for grades 10-11-12 remain unchanged."
   ]
 }
