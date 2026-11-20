@@ -1,38 +1,100 @@
 {
   "date": "2026-11-20",
-  "base_commit": "c834075229c99c76cfea18fb1b28f16bb7a8716f",
+  "base_commit": "ae03eb3c3c1d05c2602e15090e76532e8751fbfb",
+  "new_papers": [
+    "2025/0505",
+    "2025/0506",
+    "2025/0507",
+    "2025/0508",
+    "2025/0509",
+    "2025/0510",
+    "2025/0511",
+    "2025/0512",
+    "2025/0513",
+    "2025/0514",
+    "2025/0515",
+    "2025/0516",
+    "2025/0517",
+    "2025/0518",
+    "2025/0519",
+    "2025/0520",
+    "2025/0521",
+    "2025/0522",
+    "2025/0523",
+    "2025/0524"
+  ],
+  "verified_papers": 24,
+  "verified_questions": 720,
+  "new_verified_questions": 600,
+  "canonical_questions": 60,
+  "duplicate_occurrences_retained": 660,
+  "answers_2025_matched_questions": 720,
+  "answers_2026_matched_to_verified_questions": 0,
   "regression": {
     "passed": 45,
     "failed": 0
   },
   "grading_unit": {
-    "passed": 11,
+    "passed": 51,
     "failed": 0
   },
   "ocr_unit": {
-    "passed": 3,
+    "passed": 4,
     "failed": 0
   },
   "graduation_browser": {
     "status": "passed",
-    "papers": [
-      "2025/0501",
-      "2025/0502",
-      "2025/0503",
-      "2025/0504"
-    ],
     "both_tracks": true,
-    "source_crops": 120,
-    "pdf_resources": 96
+    "papers": 24,
+    "source_crops": 720,
+    "pdf_resources": 96,
+    "checks": [
+      "10/0 and partial TF scoring",
+      "single submission",
+      "history",
+      "restore",
+      "deadline and timeout",
+      "random deduplication",
+      "390px mobile",
+      "no JavaScript errors"
+    ]
   },
-  "verified_questions": 120,
-  "new_verified_questions": 90,
-  "ocr_candidate_questions": 2880,
-  "canonical_questions": 60,
-  "duplicate_occurrences_retained": 60,
   "learning_files_changed": 0,
+  "raw_check_results": [
+    {
+      "check": "pdf_data_validator",
+      "code": 0,
+      "out": "PDF hợp lệ: 96/96 | Câu: 720 | MCQ: 576 | Đ/S: 144\r\nCâu trùng nội dung trong ngân hàng đã xác minh: 660 (giữ nguyên trong đề gốc)\r\n",
+      "stderr": ""
+    },
+    {
+      "check": "grading_core",
+      "code": 0,
+      "out": "✔ all released occurrences have verified provenance and unique IDs (5.0158ms)\n✔ 2025/0501 ict order, isolation, 10/0 and partial TF (3.8756ms)\n✔ 2025/0501 cs order, isolation, 10/0 and partial TF (0.9415ms)\n✔ 2025/0502 ict order, isolation, 10/0 and partial TF (0.7601ms)\n✔ 2025/0502 cs order, isolation, 10/0 and partial TF (1.3219ms)\n✔ 2025/0503 ict order, isolation, 10/0 and partial TF (0.9994ms)\n✔ 2025/0503 cs order, isolation, 10/0 and partial TF (0.778ms)\n✔ 2025/0504 ict order, isolation, 10/0 and partial TF (0.7772ms)\n✔ 2025/0504 cs order, isolation, 10/0 and partial TF (0.7273ms)\n✔ 2025/0505 ict order, isolation, 10/0 and partial TF (0.6418ms)\n✔ 2025/0505 cs order, isolation, 10/0 and partial TF (0.5662ms)\n✔ 2025/0506 ict order, isolation, 10/0 and partial TF (0.5256ms)\n✔ 2025/0506 cs order, isolation, 10/0 and partial TF (0.2887ms)\n✔ 2025/0507 ict order, isolation, 10/0 and partial TF (0.2849ms)\n✔ 2025/0507 cs order, isolation, 10/0 and partial TF (0.308ms)\n✔ 2025/0508 ict order, isolation, 10/0 and partial TF (0.3906ms)\n✔ 2025/0508 cs order, isolation, 10/0 and partial TF (0.235ms)\n✔ 2025/0509 ict order, isolation, 10/0 and partial TF (0.5998ms)\n✔ 2025/0509 cs order, isolation, 10/0 and partial TF (2.2563ms)\n✔ 2025/0510 ict order, isolation, 10/0 and partial TF (0.8545ms)\n✔ 2025/0510 cs order, isolation, 10/0 and partial TF (0.5419ms)\n✔ 2025/0511 ict order, isolation, 10/0 and partial TF (0.3097ms)\n✔ 2025/0511 cs order, isolation, 10/0 and partial TF (0.2215ms)\n✔ 2025/0512 ict order, isolation, 10/0 and partial TF (0.2962ms)\n✔ 2025/0512 cs order, isolation, 10/0 and partial TF (0.2359ms)\n✔ 2025/0513 ict order, isolation, 10/0 and partial TF (0.2095ms)\n✔ 2025/0513 cs order, isolation, 10/0 and partial TF (0.2305ms)\n✔ 2025/0514 ict order, isolation, 10/0 and partial TF (0.2965ms)\n✔ 2025/0514 cs order, isolation, 10/0 and partial TF (0.416ms)\n✔ 2025/0515 ict order, isolation, 10/0 and partial TF (0.4288ms)\n✔ 2025/0515 cs order, isolation, 10/0 and partial TF (0.3226ms)\n✔ 2025/0516 ict order, isolation, 10/0 and partial TF (0.2477ms)\n✔ 2025/0516 cs order, isolation, 10/0 and partial TF (0.2053ms)\n✔ 2025/0517 ict order, isolation, 10/0 and partial TF (0.2375ms)\n✔ 2025/0517 cs order, isolation, 10/0 and partial TF (0.2155ms)\n✔ 2025/0518 ict order, isolation, 10/0 and partial TF (0.281ms)\n✔ 2025/0518 cs order, isolation, 10/0 and partial TF (0.1833ms)\n✔ 2025/0519 ict order, isolation, 10/0 and partial TF (0.2049ms)\n✔ 2025/0519 cs order, isolation, 10/0 and partial TF (0.1933ms)\n✔ 2025/0520 ict order, isolation, 10/0 and partial TF (0.1926ms)\n✔ 2025/0520 cs order, isolation, 10/0 and partial TF (0.1978ms)\n✔ 2025/0521 ict order, isolation, 10/0 and partial TF (1.6089ms)\n✔ 2025/0521 cs order, isolation, 10/0 and partial TF (0.4564ms)\n✔ 2025/0522 ict order, isolation, 10/0 and partial TF (0.2389ms)\n✔ 2025/0522 cs order, isolation, 10/0 and partial TF (0.2947ms)\n✔ 2025/0523 ict order, isolation, 10/0 and partial TF (1.1817ms)\n✔ 2025/0523 cs order, isolation, 10/0 and partial TF (1.19ms)\n✔ 2025/0524 ict order, isolation, 10/0 and partial TF (0.564ms)\n✔ 2025/0524 cs order, isolation, 10/0 and partial TF (0.3103ms)\n✔ unverified or incorrectly mapped occurrences are rejected (2.7928ms)\n✔ random practice deduplicates; original occurrences stay intact (8.3809ms)\nℹ tests 51\nℹ suites 0\nℹ pass 51\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 281.6764\n",
+      "stderr": ""
+    },
+    {
+      "check": "ocr_checkpoint",
+      "code": 0,
+      "out": "",
+      "stderr": "....\r\n----------------------------------------------------------------------\r\nRan 4 tests in 0.674s\r\n\r\nOK\r\n"
+    },
+    {
+      "check": "learning_browser",
+      "code": 0,
+      "out": "ROOT CHECK: C:\\Users\\Khanh Nguyen\\Documents\\Codex\\2026-11-20\\new-chat\\work\\repo true\n== Chon khoi\n  ok  : hien thi du ba khoi lop\n  ok  : khối 10 mở đủ 34 bài\n  ok  : khối 10 thống kê đủ 1117 câu hỏi đã nạp\n  ok  : khối 10 đủ kiến thức trọng tâm cho từng bài\n  ok  : khối 11 mở đủ 31 bài\n  ok  : khối 11 thống kê đủ 1026 câu hỏi đã nạp\n  ok  : khối 11 đủ kiến thức trọng tâm cho từng bài\n  ok  : khối 11 kiến thức trọng tâm cô đọng (dài nhất 793 ký tự)\n  ok  : khối 11 đủ thuật ngữ, ví dụ, lưu ý và ghi nhớ cho từng bài\n  ok  : khối 12 mở đủ 28 bài\n  ok  : khối 12 thống kê đủ 743 câu hỏi đã nạp\n== Trang chu Tin hoc 12\n  ok  : 28 o bai tren ban do\n  ok  : thong ke 28 bai / dung so cau da nap: 743\n== Mo tung bai\n  ok  : moi bai hien du 7 muc + thuat ngu\n== Lien ket noi bo\n  ok  : lien ket bai lien quan deu dan toi bai ton tai\n  ok  : Bai 8 co nut On lai kien thuc nen\n  ok  : Bai 7 co nut xem ket qua code HTML\n  ok  : iframe sandbox hien ket qua\n== Tien do\n  ok  : danh dau da hoc con sau khi tai lai\n  ok  : o bai 1 hien da hoan thanh\n  ok  : trang thai dang hoc\n== Tim kiem\n  ok  : tim kiem noi dung\n  ok  : tim khong dau\n== Luyen tap\n  ok  : 28 bai deu co cau hoi duoc chon\n  ok  : moi luot chon toi da 10 cau; dang cau trong luot: {\"mcq\":9,\"tf\":1,\"essay\":0}\n  ok  : co nut lam lai cau sai\n== Tu luan\n  ok  : hien thi dung noi dung cau tu luan nguon\n  ok  : ghi nhan tu danh gia cau tu luan\n== Dap an dung\n  ok  : cau hien thi khop noi dung trong ngan hang\n  ok  : phuong an dung co trong giao dien\n  ok  : chon dap an cua cau dang hien thi -> dung\n== Dung/Sai cham diem\n  ok  : chon dung ca bon menh de theo JSON nguon -> 1/1 diem\n== Sinh de ngau nhien / han che lap cau\n  ok  : hai luot B1 moi luot 10 cau, khong lap trong chu ky 20 cau\n== On tap\n  ok  : 9 che do on tap\n  che do rong (hop le neu chua co du lieu): wrong,flag\n  ok  : che do chinh co noi dung\n  ok  : lat the va danh dau chua nho\n== Sao luu / khoi phuc\n  ok  : tep sao luu chua tien do\n  ok  : xoa du lieu sau xac nhan\n  ok  : khoi phuc tu tep JSON\n  ok  : tu choi tep khong hop le\n== Giao dien\n  ok  : khong tran ngang o 390px (lech 0)\n  ok  : khong tran ngang o 820px (lech 0)\n== Loi JS / tai nguyen ngoai\n  ok  : khong co loi JS/console\n  ok  : khong goi tai nguyen ben ngoai\n== Offline that\n  ok  : ngat mang van mo bai (http)\n\nKET QUA (http): 45 dat, 0 loi\n",
+      "stderr": "  WARN (existing grade-10 content): long key sections, maximum 21774 chars\n  WARN (existing grade-10 content): 33 lessons missing enriched sections\n"
+    },
+    {
+      "check": "graduation_browser",
+      "code": 0,
+      "out": "PASS: PDF96, all released source crops, verified-only paper, both tracks, restore, flags, countdown, 10/0 grading, one submission, history, timeout, random, mobile.\n",
+      "stderr": ""
+    }
+  ],
   "limitations": [
-    "92 papers remain unverified",
-    "No character-level OCR error count"
+    "24 papers in 2025 remain unverified",
+    "48 papers in 2026 remain unverified",
+    "No per-character OCR error count"
   ]
 }

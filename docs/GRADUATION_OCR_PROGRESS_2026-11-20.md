@@ -66,3 +66,6 @@ Báo cáo này là checkpoint triển khai từng phần, không phải nghiệm
 
 ## Cập nhật đợt tiếp theo
 Xem [báo cáo đợt 0502–0504](GRADUATION_VERIFIED_BATCH_2026-11-20.md): tổng hiện tại 4 mã/120 câu đã xác minh, còn 92 mã. Các số liệu 1 mã/30 câu phía trên là checkpoint lịch sử.
+
+## Cập nhật 0505–0524
+Tổng hiện tại 24 mã / 720 câu đã xác minh, còn 72 mã. Xem [báo cáo mới](GRADUATION_BATCH_0505_0524_2026-11-20.md); tiếp tục từ 2025/0525.
