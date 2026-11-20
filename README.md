@@ -82,7 +82,7 @@ Kiểm thử HTTP bao gồm chọn khối, mở bài, số câu, luyện tập, 
 
 ## Giao diện
 
-Nhánh đề xuất thống nhất tên thương hiệu, thêm lối tiếp tục bài gần nhất từ tiến độ cũ, thay glyph điều hướng bằng SVG, cải thiện tương phản, vùng thao tác và trạng thái tải/lỗi. Chi tiết thẩm định và giới hạn bằng chứng xem [phân tích giao diện](docs/ui/PHAN_TICH_GIAO_DIEN.md), [thiết kế](docs/ui/THIET_KE_GIAO_DIEN.md) và [báo cáo triển khai](docs/ui/BAO_CAO_THIET_KE_LAI.md). Chưa đính kèm ảnh trước/sau do không có khả năng xuất ảnh trình duyệt vào repository trong môi trường làm việc.
+Nhánh đề xuất Việt hóa nhãn thương hiệu phụ, bỏ glyph lặp trong điều hướng và tăng các vùng chạm nhỏ lên ít nhất 44 px. Playwright tạo 81 ảnh ở ba kích thước màn hình; xem [artifact trước](https://github.com/tranphuc2026abc-prog/website-tu-hoc-tin12/actions/runs/42548475155) và [artifact sau](https://github.com/tranphuc2026abc-prog/website-tu-hoc-tin12/actions/runs/42549392559). Chi tiết có trong [phân tích giao diện](docs/ui/PHAN_TICH_GIAO_DIEN.md), [thiết kế](docs/ui/THIET_KE_GIAO_DIEN.md) và [báo cáo bằng chứng](docs/ui/BAO_CAO_BANG_CHUNG_GIAO_DIEN.md). Ảnh đang được lưu dưới dạng artifact Actions, chưa được commit thành PNG trong repository.
 
 ## Tình trạng và hạn chế đã xác minh
 

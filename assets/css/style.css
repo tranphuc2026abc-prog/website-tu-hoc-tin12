@@ -33,7 +33,7 @@ code{font:.9em "Cascadia Code",Consolas,monospace;background:var(--surface-2);co
 #nav a.on{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--primary) 22%,transparent)}
 #q{padding:10px 13px;border:1px solid var(--bd);border-radius:12px;background:var(--surface-2);color:var(--tx);min-width:0;flex:0 1 190px;max-width:230px;font:inherit;font-size:.88rem}
 #q:focus{background:var(--surface);border-color:var(--primary)}
-#th{min-width:42px;padding:8px 11px}
+#th{min-width:44px;padding:8px 11px}
 .wrap{max-width:1240px;margin:auto;padding:32px 22px 76px;min-height:70vh}
 .warn{background:var(--gold);color:#18213a;padding:9px 14px;text-align:center;font-weight:650}
  .btn{font:inherit;font-size:.9rem;font-weight:650;line-height:1.2;padding:11px 16px;border:1px solid var(--bd);background:var(--surface);color:var(--tx);border-radius:12px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .18s,border-color .18s,box-shadow .18s}
@@ -104,7 +104,7 @@ select,input[type=number]{font:inherit;padding:9px 11px;border:1px solid var(--b
 .teacher-close{font-size:24px;border:0;background:none;cursor:pointer;color:inherit}.teacher-msg{min-height:1.5em;font-weight:650}.teacher-muted{color:var(--mut);font-size:.88em}
 .teacher-progress{height:8px;background:var(--surface-2);border-radius:9px;overflow:hidden;min-width:90px}.teacher-progress i{display:block;height:100%;background:linear-gradient(90deg,var(--primary),var(--cyan))}
 @media(max-width:900px){.bar-in{gap:9px;padding:10px 15px}.brand{margin-right:auto}#nav{order:4;flex:1 0 100%;padding-top:2px}#q{max-width:none;flex:1 1 180px}.wrap{padding:23px 16px 60px}}
-@media(max-width:560px){body{font-size:15px}.wrap{padding:18px 13px 48px}.brand-mark{width:38px;height:38px}.brand-copy small{font-size:.61rem}.hero{border-radius:20px;padding:25px 20px}.hero:before{right:0;top:80%;font-size:110px}.hero h1{font-size:2.15rem}.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.stats>div{padding:13px}.stats b{font-size:1.55rem}.cell{width:39px;height:39px;border-radius:11px}.les{gap:9px;padding:11px}.les .n{min-width:34px;height:34px}.chip{font-size:.68rem;padding:3px 7px}.sheet{padding:10px 14px 15px}.cloud-panel,.teacher-panel{padding:22px 16px}.teacher-area{margin-left:0}}
+@media(max-width:560px){body{font-size:15px}.wrap{padding:18px 13px 48px}.brand-mark{width:44px;height:44px}.brand-copy small{font-size:.61rem}.hero{border-radius:20px;padding:25px 20px}.hero:before{right:0;top:80%;font-size:110px}.hero h1{font-size:2.15rem}.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.stats>div{padding:13px}.stats b{font-size:1.55rem}.cell{width:44px;height:44px;border-radius:11px}.les{gap:9px;padding:11px}.les .n{min-width:34px;height:34px}.chip{font-size:.68rem;padding:3px 7px}.sheet{padding:10px 14px 15px}.cloud-panel,.teacher-panel{padding:22px 16px}.teacher-area{margin-left:0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 /* Home dashboard components */

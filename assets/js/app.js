@@ -63,7 +63,7 @@ function home() {
   const continueLink=last?'<a class="btn pri" href="#/lesson/'+last.id+'">▶ Tiếp tục học</a>':'<a class="btn pri" href="#/lesson/'+C.lessons[0].id+'">▶ Bắt đầu học ngay</a>';
   const nextLink=nxt?'<a class="btn" href="#/lesson/'+nxt.id+'">Bài tiếp theo: '+esc(nxt.title)+'</a>':'';
   return `<section class="hero">
-    <span class="eyebrow">✦ DIGITAL LEARNING HUB · TIN HỌC ${C.grade || 12}</span>
+    <span class="eyebrow">✦ TỰ HỌC TIN HỌC · KHỐI ${C.grade || 12}</span>
     <h1>Chạm công nghệ.<br>Kiến tạo tương lai.</h1>
     <p class="sub">Không gian học tập số – Kết nối tri thức với cuộc sống</p>
     <p>Khám phá ${n} bài học, hệ thống kiến thức, luyện tập tương tác và theo dõi hành trình chinh phục ${esc(C.courseTitle || `Tin học ${C.grade || 12}`)} của em.</p>
@@ -84,7 +84,7 @@ function home() {
     <a class="quick-card" href="#/practice"><span class="quick-icon cyan">⌘</span><span><b>Phòng luyện tập</b><small>${QS().length} câu hỏi theo từng bài</small></span><span class="quick-arrow">↗</span></a>
     <a class="quick-card" href="#/progress"><span class="quick-icon green">◴</span><span><b>Hồ sơ tiến độ</b><small>Xem kết quả và sao lưu dữ liệu</small></span><span class="quick-arrow">↗</span></a>
   </div>
-  <div class="section-head"><div><span class="topic">LEARNING ROADMAP</span><h2>🧭 Bản đồ ${n} bài học</h2><p class="mut">Chọn một bài để bắt đầu hoặc tiếp tục hành trình.</p></div><a class="btn sm" href="#/lessons">Xem toàn bộ bài học →</a></div>
+  <div class="section-head"><div><span class="topic">LỘ TRÌNH HỌC TẬP</span><h2>🧭 Bản đồ ${n} bài học</h2><p class="mut">Chọn một bài để bắt đầu hoặc tiếp tục hành trình.</p></div><a class="btn sm" href="#/lessons">Xem toàn bộ bài học →</a></div>
   ${C.topics.map((t,i)=>'<div class="topic">'+esc(t)+'</div><div class="map">'+C.lessons.filter(l=>l.topic===i).map(l=>'<a class="cell '+status(l.id)+'" href="#/lesson/'+l.id+'" title="'+esc(l.title)+' – '+ST[status(l.id)]+'">'+l.n+'</a>').join('')+'</div>').join('')}
   <section class="bottom-banner"><span class="bottom-code">&lt;learn /&gt;</span><div><b>Mỗi ngày một bước tiến công nghệ</b><p>Học chủ động · Thực hành thường xuyên · Sáng tạo không giới hạn</p></div><a class="btn pri" href="#/practice">Thử thách bản thân →</a></section>`;
 }
