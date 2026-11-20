@@ -29,5 +29,17 @@ class OCRTests(unittest.TestCase):
         self.assertEqual(parse_pages(fixed,"2025","0524","source.pdf")[0]["number"],5)
         with self.assertRaises(ValueError):
             apply_heading_corrections(raw,[{"page":4,"from":"not present","to":"bad"}])
+    def test_reviewed_source_literals_and_distractor_order(self):
+        # Exact characters visually checked against 0502 I.11 and 0504 I.23.
+        bank=json.loads((ROOT/"data/exams/questions.json").read_text(encoding="utf-8"))["questions"]
+        by_id={q["id"]:q for q in bank}
+        self.assertIn('type="1" start="II"',by_id["2025-0502-I-11"]["options"][2])
+        self.assertIn('type="I" start="II"',by_id["2025-0502-I-11"]["options"][0])
+        self.assertIn('type="1" start="II"',by_id["2025-0504-I-23"]["options"][0])
+        self.assertIn('type="I" start="II"',by_id["2025-0504-I-23"]["options"][2])
+        self.assertEqual(by_id["2025-0502-I-11"]["answer"],1)
+        self.assertEqual(by_id["2025-0504-I-23"]["answer"],1)
+        self.assertTrue(by_id["2025-0508-I-17"]["options"][0].startswith("Dự báo thời tiết"))
+        self.assertTrue(by_id["2025-0508-I-17"]["options"][1].startswith("Dự báo cháy rừng"))
 if __name__=="__main__":
     unittest.main()

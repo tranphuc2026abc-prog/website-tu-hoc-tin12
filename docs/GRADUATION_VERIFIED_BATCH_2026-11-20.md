@@ -1,3 +1,5 @@
+> Cập nhật mới nhất: **24 mã / 720 câu đã xác minh**, tiếp tục từ 2025/0525. Xem [đợt 0505–0524](GRADUATION_BATCH_0505_0524_2026-11-20.md). Báo cáo bên dưới là checkpoint lịch sử 4 mã.
+
 # Đợt xác minh đề 2025/0502–0504 — 20/11/2026
 
 Tiếp tục từ c834075229c99c76cfea18fb1b28f16bb7a8716f. Hoàn thành thêm 3 mã, tổng 4/96 mã và 120 câu đã xác minh. 92 mã còn lại giữ nguyên OCR nháp, chưa mở thi.
