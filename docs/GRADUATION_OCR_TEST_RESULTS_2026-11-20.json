@@ -1,13 +1,12 @@
 {
   "date": "2026-11-20",
-  "base_commit": "706a85929bfa2fe2a9a76cb0f41ece9deff73aa6",
+  "base_commit": "c834075229c99c76cfea18fb1b28f16bb7a8716f",
   "regression": {
     "passed": 45,
-    "failed": 0,
-    "initial_timeout_then_full_rerun_passed": true
+    "failed": 0
   },
   "grading_unit": {
-    "passed": 6,
+    "passed": 11,
     "failed": 0
   },
   "ocr_unit": {
@@ -16,35 +15,24 @@
   },
   "graduation_browser": {
     "status": "passed",
-    "data": "real_verified_2025_0501",
-    "checks": [
-      "96 PDF HTTP200+PDF header",
-      "30 source crops",
-      "verified-only admission",
-      "ICT and CS track isolation",
-      "active session restore",
-      "flag persistence",
-      "deadline persistence",
-      "perfect 10",
-      "blank 0",
-      "partial TF weights",
-      "single submission",
-      "history",
-      "timeout submission",
-      "random selection",
-      "390px no horizontal overflow"
-    ]
+    "papers": [
+      "2025/0501",
+      "2025/0502",
+      "2025/0503",
+      "2025/0504"
+    ],
+    "both_tracks": true,
+    "source_crops": 120,
+    "pdf_resources": 96
   },
-  "verified_questions": 30,
+  "verified_questions": 120,
+  "new_verified_questions": 90,
   "ocr_candidate_questions": 2880,
-  "python_code_blocks": {
-    "parsed": 3,
-    "errors": 0
-  },
+  "canonical_questions": 60,
+  "duplicate_occurrences_retained": 60,
   "learning_files_changed": 0,
   "limitations": [
-    "95 papers remain unverified",
-    "1656 OCR records have four parsed option/statement chunks; all draft content still requires review",
-    "No complete globally deduplicated bank yet"
+    "92 papers remain unverified",
+    "No character-level OCR error count"
   ]
 }
