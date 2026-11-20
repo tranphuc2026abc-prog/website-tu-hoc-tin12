@@ -72,6 +72,13 @@ jobs:
           PW: ${{ github.workspace }}/node_modules/playwright
         run: node tests/e2e.js http
 
+      - name: Validate graduation PDFs and browser flow
+        env:
+          PW: ${{ github.workspace }}/node_modules/playwright
+        run: |
+          python scripts/validate_graduation_exams.py --pdf-only
+          node tests/graduation-e2e.js
+
       - name: Prepare GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

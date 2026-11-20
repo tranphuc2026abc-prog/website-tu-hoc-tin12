@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Kiểm tra dữ liệu ôn thi tốt nghiệp; không sửa học liệu 10–11–12."""
+import hashlib
 import json
 import re
 import sys
@@ -33,6 +34,11 @@ def main():
                 errors.append(f"{year}/{code}: thiếu PDF {url}")
             else:
                 total += 1
+    audit = json.loads((BASE / 'source-audit.json').read_text(encoding='utf-8'))
+    for item in audit['exams']:
+        p = ROOT / item['path']
+        if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest() != item['sha256']:
+            errors.append(f"PDF sai SHA-256: {item['path']}")
     bank = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
     questions = bank.get("questions", [])
     if not isinstance(questions, list):
@@ -72,8 +78,14 @@ def main():
     print(f"PDF hợp lệ: {total}/96 | Câu: {len(questions)} | MCQ: {counts['mcq']} | Đ/S: {counts['tf']}")
     if total != 96:
         errors.append(f"Chưa đủ 96 PDF: hiện {total}/96")
-    if counts["mcq"] < 24 or counts["tf"] < 6:
-        errors.append("Chưa đủ tối thiểu 24 MCQ và 6 câu Đ/S để thi thử")
+    if '--pdf-only' not in sys.argv:
+        if counts['mcq'] < 24 or counts['tf'] < 4:
+            errors.append('Chưa đủ 24 MCQ và 4 câu Đ/S để thi thử')
+        for track in ('ict', 'cs'):
+            common = sum(q.get('type') == 'tf' and q.get('track') == 'common' for q in questions)
+            specific = sum(q.get('type') == 'tf' and q.get('track') == track for q in questions)
+            if common < 2 or specific < 2:
+                errors.append(f'Thiếu 2 câu chung + 2 câu riêng cho {track}')
     for error in errors:
         print("ERROR:", error)
     return 1 if errors else 0

@@ -23,12 +23,12 @@
 <p class="exam-muted" id="exam-count"></p>
 <div class="exam-grid" id="exam-list"></div>
 <div id="exam-preview" class="exam-hidden"><h2 id="exam-preview-title"></h2><p><a id="exam-download" class="exam-link" target="_blank" rel="noopener">Mở PDF trong thẻ mới</a></p><iframe id="exam-frame" class="exam-viewer" title="Xem đề thi PDF" loading="lazy"></iframe></div>
-<p class="exam-alert" id="exam-missing">Các mã đề đã được lập danh mục. Tệp PDF chưa được đưa lên GitHub; các nút xem chỉ xuất hiện khi tệp thực sự có trên máy chủ.</p>
-<p class="exam-muted">Đáp án 2026: <a href="https://cmcu.edu.vn/cap-nhat-de-thi-tin-hoc-tot-nghiep-thpt-nam-2026-chinh-thuc-va-dap-an/" target="_blank" rel="noopener">Nguồn đáp án tham khảo (Đại học CMC)</a>. Đáp án gốc 2025 sẽ được liên kết sau khi tải tệp PDF lên.</p>
+<p class="exam-alert" id="exam-missing">Không tìm thấy PDF phù hợp với mã đề đang lọc.</p>
+<p class="exam-muted">Đáp án 2026: <a href="https://cmcu.edu.vn/cap-nhat-de-thi-tin-hoc-tot-nghiep-thpt-nam-2026-chinh-thuc-va-dap-an/" target="_blank" rel="noopener">Nguồn đáp án tham khảo (Đại học CMC)</a>. <a href="data/exams/answers/2025.pdf" target="_blank" rel="noopener">Mở đáp án gốc 2025</a>.</p>
 </section>
 <section class="exam-panel exam-hidden" id="panel-test" role="tabpanel" aria-labelledby="tab-test">
-<h2>Tạo đề thi thử ngẫu nhiên</h2><p class="exam-muted">Hệ thống chỉ sử dụng câu hỏi được nhập từ đề gốc; không tự tạo đáp án hoặc câu hỏi chưa có nguồn.</p>
-<div class="exam-filters"><label>Nguồn câu hỏi <select id="test-year"><option value="all">Cả hai năm</option><option value="2025">2025</option><option value="2026">2026</option></select></label><label>Định hướng <select id="test-track"><option value="all">Theo dữ liệu nguồn</option><option value="ict">Tin học ứng dụng</option><option value="cs">Khoa học máy tính</option></select></label></div>
+<h2>Tạo đề thi thử ngẫu nhiên</h2><p class="exam-alert">96 đề PDF đã sẵn sàng. Ngân hàng câu hỏi đang chờ OCR và đối chiếu đáp án; chưa mở thi tự động. Cấu trúc thi: 24 câu nhiều lựa chọn và 4 câu đúng/sai (2 chung + 2 theo định hướng), tối đa 10 điểm.</p><p class="exam-muted">Hệ thống chỉ sử dụng câu hỏi được nhập từ đề gốc; không tự tạo đáp án hoặc câu hỏi chưa có nguồn.</p>
+<div class="exam-filters"><label>Nguồn câu hỏi <select id="test-year"><option value="all">Cả hai năm</option><option value="2025">2025</option><option value="2026">2026</option></select></label><label>Định hướng <select id="test-track"><option value="ict">Tin học ứng dụng</option><option value="cs">Khoa học máy tính</option></select></label></div>
 <p id="bank-status" class="exam-alert">Đang kiểm tra ngân hàng câu hỏi...</p>
 <div class="exam-actions"><button id="test-start" disabled>Tạo đề thi thử</button><button id="test-submit" class="exam-hidden">Nộp bài và chấm điểm</button><button id="test-retry" class="exam-hidden">Luyện đề khác</button></div>
 <p id="exam-status" aria-live="polite"></p><form id="test-form"></form><div id="test-result" aria-live="polite"></div>

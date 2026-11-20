@@ -60,7 +60,7 @@
   function uniqueQuestions(items) {
     const seen=new Set();
     return items.filter(q => {
-      const key = q.canonical_id || (q.type + ':' + String(q.prompt || '').trim().toLowerCase().replace(/\s+/g,' '));
+      const key = q.canonical_id || JSON.stringify([q.type, String(q.prompt || '').trim().toLowerCase().replace(/\s+/g,' '), q.options]);
       if (!key || seen.has(key)) return false;
       seen.add(key); return true;
     });
@@ -76,30 +76,33 @@
     return uniqueQuestions(state.bank.filter(q =>
       validQuestion(q) &&
       (year === 'all' || String(q.year) === year) &&
-      (track === 'all' || q.track === track || q.track === 'common')
+      (q.type === 'mcq' || q.track === track || q.track === 'common')
     ));
   }
   function updateBankStatus() {
     const rows=pool();
     const mcq=rows.filter(q=>q.type==='mcq').length, tf=rows.filter(q=>q.type==='tf').length;
-    const sufficient=mcq >= 24 && tf >= 6;
+    const common=rows.filter(q=>q.type==='tf' && q.track==='common').length;
+    const specific=rows.filter(q=>q.type==='tf' && q.track===$('test-track').value).length;
+    const sufficient=mcq >= 24 && common >= 2 && specific >= 2;
     $('bank-status').textContent = sufficient
       ? 'Ngân hàng đủ tối thiểu: ' + mcq + ' câu nhiều lựa chọn, ' + tf + ' câu đúng/sai. Có thể tạo đề.'
-      : 'Chưa đủ câu hỏi hợp lệ để sinh đề: ' + mcq + '/24 câu nhiều lựa chọn, ' + tf + '/6 câu đúng/sai. Cần nhập dữ liệu từ PDF gốc trước khi thi thử.';
+      : 'Chưa đủ câu hỏi hợp lệ để sinh đề: ' + mcq + '/24 câu nhiều lựa chọn, ' + tf + '/4 câu đúng/sai. Cần nhập dữ liệu từ PDF gốc trước khi thi thử.';
     $('test-start').disabled=!sufficient;
   }
   $('test-year').addEventListener('change', updateBankStatus);
   $('test-track').addEventListener('change', updateBankStatus);
   function makePaper() {
     const questions=pool(), mcq=shuffleCopy(questions.filter(q=>q.type==='mcq')).slice(0,24);
-    const tf=shuffleCopy(questions.filter(q=>q.type==='tf')).slice(0,6);
-    if (mcq.length !== 24 || tf.length !== 6) {updateBankStatus();return;}
+    const tf=[...shuffleCopy(questions.filter(q=>q.type==='tf' && q.track==='common')).slice(0,2),
+      ...shuffleCopy(questions.filter(q=>q.type==='tf' && q.track===$('test-track').value)).slice(0,2)];
+    if (mcq.length !== 24 || tf.length !== 4) {updateBankStatus();return;}
     state.current=[...mcq,...tf].map((q,i)=>{
       if(q.type!=='mcq') return {...q,number:i+1};
       const permutation=shuffleCopy([0,1,2,3]);
       return {...q,number:i+1,options:permutation.map(k=>q.options[k]),answer:permutation.indexOf(q.answer)};
     });
-    state.answers={};state.started=new Date().toISOString();
+    state.graded=false;state.answers={};state.started=new Date().toISOString();
     $('test-result').replaceChildren();$('test-form').replaceChildren();
     state.current.forEach((q,i) => {
       const fs=document.createElement('fieldset');fs.className='exam-question';
@@ -127,11 +130,12 @@
       }
       $('test-form').append(fs);
     });
-    $('exam-status').textContent='Đề mới · 24 câu nhiều lựa chọn và 6 câu đúng/sai. Chọn đáp án rồi nộp bài.';
+    $('exam-status').textContent='Đề mới · 24 câu nhiều lựa chọn và 4 câu đúng/sai. Chọn đáp án rồi nộp bài.';
     hide($('test-submit'),false);hide($('test-retry'),true);$('test-start').disabled=true;
   }
   function grade() {
-    if(!state.current) return;
+    if(!state.current || state.graded) return;
+    state.graded=true;
     let score=0, rightMCQ=0, rightTF=0;
     const lines=[];
     state.current.forEach((q,i)=>{
@@ -148,7 +152,7 @@
     score=Math.round(score*100)/100;
     const result=document.createElement('div');result.className='exam-result';
     const heading=document.createElement('h3');heading.textContent='Kết quả: '+score.toFixed(2)+'/10 điểm';result.append(heading);
-    const summary=document.createElement('p');summary.textContent='Trắc nghiệm đúng '+rightMCQ+'/24; Đúng/Sai đúng hoàn toàn '+rightTF+'/6.';result.append(summary);
+    const summary=document.createElement('p');summary.textContent='Trắc nghiệm đúng '+rightMCQ+'/24; Đúng/Sai đúng hoàn toàn '+rightTF+'/4.';result.append(summary);
     const details=document.createElement('details');const label=document.createElement('summary');label.textContent='Xem đáp án các câu chưa đúng';details.append(label);
     for(const line of lines){const p=document.createElement('p');p.textContent=line;details.append(p);}
     result.append(details);$('test-result').replaceChildren(result);
