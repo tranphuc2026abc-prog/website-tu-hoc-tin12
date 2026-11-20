@@ -63,3 +63,6 @@ Các bản nháp lưu trong data/exams/ocr-drafts; chỉ data/exams/questions.js
 - /data/exams/ocr-progress.json
 
 Báo cáo này là checkpoint triển khai từng phần, không phải nghiệm thu hoàn thành ngân hàng 96 đề.
+
+## Cập nhật đợt tiếp theo
+Xem [báo cáo đợt 0502–0504](GRADUATION_VERIFIED_BATCH_2026-11-20.md): tổng hiện tại 4 mã/120 câu đã xác minh, còn 92 mã. Các số liệu 1 mã/30 câu phía trên là checkpoint lịch sử.
