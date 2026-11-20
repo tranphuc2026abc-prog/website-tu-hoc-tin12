@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Kiểm tra dữ liệu ôn thi tốt nghiệp; không sửa học liệu 10–11–12."""
+import ast
+import unicodedata
 import hashlib
 import json
 import re
@@ -46,6 +48,8 @@ def main():
         questions = []
     counts = Counter()
     seen = set()
+    ids = set()
+    source_hashes = {item['path']: item['sha256'] for item in audit['exams']}
     for i, q in enumerate(questions, 1):
         if not isinstance(q, dict):
             errors.append(f"Câu {i}: không phải object")
@@ -71,9 +75,28 @@ def main():
         key = q.get("canonical_id") or (
             str(typ) + ":" + " ".join(str(q.get("prompt", "")).lower().split())
         )
-        if key in seen:
-            errors.append(f"Câu {i}: trùng canonical_id/nội dung")
+        # Original papers retain repeated content; only occurrence IDs must be unique.
+        if q.get('id') in ids:
+            errors.append(f'Câu {i}: trùng ID')
+        ids.add(q.get('id'))
         seen.add(key)
+        if q.get('verification') != 'verified' or q.get('answer_source', {}).get('kind') != 'official':
+            errors.append(f'Câu {i}: chưa xác minh nội dung/đáp án chính thức')
+        if source_hashes.get(q.get('source_pdf')) != q.get('source_sha256'):
+            errors.append(f'Câu {i}: không khớp nguồn PDF')
+        for field, expected in ((q.get('source_image'), q.get('source_image_sha256')),
+                                (q.get('answer_source', {}).get('pdf'), q.get('answer_source', {}).get('sha256'))):
+            path = ROOT / str(field)
+            if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+                errors.append(f'Câu {i}: sai/thiếu tài nguyên đã kiểm chứng {field}')
+        if unicodedata.normalize('NFC', q.get('prompt', '')) != q.get('prompt'):
+            errors.append(f'Câu {i}: Unicode chưa chuẩn hóa NFC')
+        for block in q.get('code_blocks', []):
+            if block['language'] == 'python':
+                try:
+                    ast.parse(block['code'])
+                except SyntaxError as e:
+                    errors.append(f'Câu {i}: cú pháp Python sai: {e}')
         counts[typ] += 1
     print(f"PDF hợp lệ: {total}/96 | Câu: {len(questions)} | MCQ: {counts['mcq']} | Đ/S: {counts['tf']}")
     if total != 96:
@@ -86,6 +109,20 @@ def main():
             specific = sum(q.get('type') == 'tf' and q.get('track') == track for q in questions)
             if common < 2 or specific < 2:
                 errors.append(f'Thiếu 2 câu chung + 2 câu riêng cho {track}')
+    question_map = {q['id']: q for q in questions}
+    for year, papers in manifest.get('papers', {}).items():
+        for code, path in papers.items():
+            paper = json.loads((ROOT / path).read_text(encoding='utf-8'))
+            expected = [('I', n) for n in range(1, 25)] + [('II', n) for n in range(1, 7)]
+            rows = [question_map.get(qid) for qid in paper.get('question_ids', [])]
+            if paper.get('status') != 'verified' or len(rows) != 30 or any(q is None for q in rows):
+                errors.append(f'{year}/{code}: đề chưa xác minh đủ 30 câu')
+                continue
+            if [(q['part'], q['number']) for q in rows] != expected:
+                errors.append(f'{year}/{code}: sai thứ tự câu trong đề gốc')
+            if any(str(q['year']) != year or q['code'] != code for q in rows):
+                errors.append(f'{year}/{code}: ghép nhầm mã đề')
+    print(f'Câu trùng nội dung trong ngân hàng đã xác minh: {len(questions)-len(seen)} (giữ nguyên trong đề gốc)')
     for error in errors:
         print("ERROR:", error)
     return 1 if errors else 0

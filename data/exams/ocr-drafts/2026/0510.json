@@ -1,0 +1,1707 @@
+{
+  "schema_version": 1,
+  "year": 2026,
+  "code": "0510",
+  "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+  "source_sha256": "eea9070be0c1e4c20bd96b5a9f0308ef6b00f9835cdbd6de7d5f2344ce99a365",
+  "engine": "tesseract-5.5.3/vie+eng",
+  "model_set": "tessdata_fast",
+  "status": "needs_visual_review",
+  "pages": [
+    {
+      "page": 1,
+      "text": "BO GIÁO DỤC VA ĐÀO TẠO KY THI TOT NGHIỆP TRUNG HỌC PHO THONG NĂM 2026\n\nĐÈ THI CHÍNH THỨC Môn thi: TIN HỌC .\n` Thời gian làm bài: 50 phút, không kê thời gian phát dé\n(Dé thi có 04 trang)\n\nHo, tên thí SHWE .......................... ..- Gà cv HH Hy ng ngư\nSO bao damhe 0 .....................\n\nPHAN I: Thí sinh tra lời từ câu 1 đến câu 24. Mỗi câu hói thi sinh chi chon một phương án.\n\nCâu 1. Giao thức TCP không có vai trò nảo sau đây?\n\nA. Qui định việc phân chia và đánh số thứ tự các gói tin.\n\nB. Qui định cách thức định tuyến cho gói tin khi truyền.\n\nC. Dam bảo dữ liệu được truyền tải tin cậy và chính xác.\n\nD. Cung cấp cơ chế phát hiện và xử lí sai sót khi truyền dir liệu.\n\nCâu 2. Bảng dữ liệu lưu trữ thông tin nhập hàng của một cửa hàng có các cột sau: Ma hóa đơn, Ma hàng, Ngày nhập,\nSố lượng, Giá nhập. Cần cập nhật dữ liệu cho bảng này trong trường hợp nào sau đây?\n\nA. Tìm các mã hàng có giá nhập bằng một giá trị cho trước.\n\nB. Tính và đưa ra giá nhập trung bình của các mặt hàng.\n\nC. Thống kê số lượng mã hàng được nhập trước ngày 20/11/2025.\n\nD. Bồ sung các mặt hàng được nhập vào ngày 20/1 1/2025.\n\nCâu 3. Phương án nào sau đây mô tả đặc trưng của Trí tuệ nhân tạo tạo sinh?\n\nA. Xác thực danh tính người dùng thông qua sinh trắc học.\n\nB. Tìm kiếm và trả về thông tin có sẵn từ cơ sở đữ liệu lớn.\n\nC. Phân tích đữ liệu dé đưa ra dự đoán hoặc phân loại đối tượng.\n\nD. Tạo ra các nội dung mới như văn bản, hình ảnh, mã nguồn.\n\nCâu 4. Việc chia sẻ một thư mục trên máy tính với quyền đọc cho một hoặc một nhóm người dùng trên các máy tính\nkhác trong cùng mạng LAN có các thao tác sau:\n\nMã dé: 0510\n\n(1) Thiết lập quyền đọc cho người dùng. (2) Tìm và chọn thư mục cần chia sẻ trên máy tính.\n(3) Mở ứng dụng quản lí tệp. (4) Chọn tên một hoặc nhóm người dùng cần được chia sẻ.\nPhương án nào sau đây nêu đúng thứ tự thực hiện các thao tác trên?\nA. (1), (2), (3), (4). B. (3), (2), (4),(D. C. (1), (4). (2), (3). D. (3), (1), (2), (4).\nCâu 5. Lựa chọn ngôn ngữ lập trình Python hoặc C++ dé tìm hiéu đoạn chương trình sau:\nDòng Python CH\n1 L = (4, 6, 2] int n= 3, T= 0, LI] = (4, 6, 2};\n2 n, T = 3, 0 for (int i = 0; i < nj itt) {\n3 for i in range(0, n): int k= 1;\n4 k=1 for (int j = 0; 3 < i+ 1; j++) {\n5 for j in range(0, i + 1): T=T+k* L[j];\n6 T=T+k * L[j] k = -1 * kj\n7 k=-1*k }\n8 }\n\nSau khi thực hiện đoạn chương trình trên, biến 7 có giá trị nào sau đây?\n\nA.4. B. -4. C.2. D. -2.\n\nCâu 6. Chị B nhận được cuộc điện thoại từ một người tự xưng là nhân viên hai quan. Người nay thong báo có một\nmón quà giá trị cao được gửi cho chị từ nước ngoài, đồng thời yêu cầu chị nộp thuế bằng cách chuyển ngay cho hải\nquan thco số tài khoản được cung cấp dé nhận món qua đó. Đề ứng xử an toan trong tình huống này, chị B không nên\nthực hiện hành động nào sau đây?\n\nA. Chất vấn người gọi một cách thận trọng về món quà tặng.\n\nB. Chia sẻ thông tin vé cuộc gọi va xin tư vấn từ người thân.\n\nC. Thanh toán thuế theo yêu cầu mà không xác minh thông tin.\n\nD. Liên lac trực tiếp với cơ quan hải quan dé xác minh thông tin.\n\nCâu 7. Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau:\n\nDòng Python CH\n1 x, a, b= 1, 2, 6 int x = 1, a=2, b= 6;\n2 for i in range(a, b): for (int i = a; i < b; itt) {\n3 if (x <i): x =x*i if (x <i) x =x * i;\n4 else: x = x //i else x = x / i;\n5 print (x) }\n6 cout << x;\n\nSau khi thực hiện đoạn chương trình trên, giá trị nào sau đây được hiền thị trên màn hình?\nA.2. B. 6. C. 5. D. 1.\n\nTrang 1/4 - Mã đề thi 0510\n",
+      "low_confidence_words": [
+        {
+          "text": ".",
+          "confidence": 63.834465,
+          "bbox": [
+            1299,
+            142,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "`",
+          "confidence": 39.403252,
+          "bbox": [
+            255,
+            166,
+            3,
+            4
+          ]
+        },
+        {
+          "text": "SHWE",
+          "confidence": 30.551666,
+          "bbox": [
+            240,
+            220,
+            55,
+            19
+          ]
+        },
+        {
+          "text": "..........................",
+          "confidence": 29.005608,
+          "bbox": [
+            305,
+            236,
+            505,
+            3
+          ]
+        },
+        {
+          "text": "..-",
+          "confidence": 29.658394,
+          "bbox": [
+            465,
+            216,
+            17,
+            31
+          ]
+        },
+        {
+          "text": "Gà",
+          "confidence": 0,
+          "bbox": [
+            486,
+            216,
+            29,
+            31
+          ]
+        },
+        {
+          "text": "cv",
+          "confidence": 0,
+          "bbox": [
+            527,
+            216,
+            42,
+            31
+          ]
+        },
+        {
+          "text": "HH",
+          "confidence": 0,
+          "bbox": [
+            584,
+            216,
+            37,
+            31
+          ]
+        },
+        {
+          "text": "Hy",
+          "confidence": 17.491081,
+          "bbox": [
+            641,
+            216,
+            19,
+            31
+          ]
+        },
+        {
+          "text": "ng",
+          "confidence": 4.50058,
+          "bbox": [
+            664,
+            216,
+            48,
+            31
+          ]
+        },
+        {
+          "text": "ngư",
+          "confidence": 20.293564,
+          "bbox": [
+            744,
+            216,
+            71,
+            31
+          ]
+        },
+        {
+          "text": "damhe",
+          "confidence": 52.493866,
+          "bbox": [
+            194,
+            252,
+            66,
+            18
+          ]
+        },
+        {
+          "text": "0",
+          "confidence": 37.193893,
+          "bbox": [
+            271,
+            268,
+            57,
+            2
+          ]
+        },
+        {
+          "text": ".....................",
+          "confidence": 0,
+          "bbox": [
+            332,
+            268,
+            478,
+            2
+          ]
+        },
+        {
+          "text": "chế",
+          "confidence": 66.722054,
+          "bbox": [
+            287,
+            445,
+            36,
+            25
+          ]
+        },
+        {
+          "text": "dir",
+          "confidence": 63.514114,
+          "bbox": [
+            726,
+            451,
+            28,
+            19
+          ]
+        },
+        {
+          "text": "dữ",
+          "confidence": 62.010456,
+          "bbox": [
+            488,
+            517,
+            29,
+            20
+          ]
+        },
+        {
+          "text": "(2),",
+          "confidence": 51.514023,
+          "bbox": [
+            565,
+            1015,
+            36,
+            24
+          ]
+        },
+        {
+          "text": "(4),(D.",
+          "confidence": 25.654297,
+          "bbox": [
+            610,
+            1015,
+            82,
+            24
+          ]
+        },
+        {
+          "text": "C.",
+          "confidence": 67.181168,
+          "bbox": [
+            815,
+            1015,
+            27,
+            31
+          ]
+        },
+        {
+          "text": "T=",
+          "confidence": 43.174927,
+          "bbox": [
+            955,
+            1113,
+            37,
+            15
+          ]
+        },
+        {
+          "text": "0,",
+          "confidence": 43.174927,
+          "bbox": [
+            1012,
+            1113,
+            21,
+            19
+          ]
+        },
+        {
+          "text": "(4,",
+          "confidence": 66.698471,
+          "bbox": [
+            1150,
+            1101,
+            39,
+            35
+          ]
+        },
+        {
+          "text": "nj",
+          "confidence": 63.581959,
+          "bbox": [
+            1086,
+            1147,
+            23,
+            14
+          ]
+        },
+        {
+          "text": "itt)",
+          "confidence": 64.548676,
+          "bbox": [
+            1132,
+            1142,
+            51,
+            19
+          ]
+        },
+        {
+          "text": "k=",
+          "confidence": 45.922424,
+          "bbox": [
+            906,
+            1173,
+            41,
+            15
+          ]
+        },
+        {
+          "text": "1;",
+          "confidence": 45.922424,
+          "bbox": [
+            967,
+            1173,
+            21,
+            17
+          ]
+        },
+        {
+          "text": "3",
+          "confidence": 37.011906,
+          "bbox": [
+            1089,
+            1201,
+            5,
+            21
+          ]
+        },
+        {
+          "text": "i+",
+          "confidence": 49.762276,
+          "bbox": [
+            1149,
+            1201,
+            39,
+            17
+          ]
+        },
+        {
+          "text": "1;",
+          "confidence": 49.762276,
+          "bbox": [
+            1207,
+            1202,
+            21,
+            18
+          ]
+        },
+        {
+          "text": "L[j];",
+          "confidence": 49.166584,
+          "bbox": [
+            1086,
+            1231,
+            68,
+            21
+          ]
+        },
+        {
+          "text": "L[j]",
+          "confidence": 34.200172,
+          "bbox": [
+            513,
+            1262,
+            51,
+            20
+          ]
+        },
+        {
+          "text": "kj",
+          "confidence": 56.17012,
+          "bbox": [
+            1041,
+            1262,
+            23,
+            17
+          ]
+        },
+        {
+          "text": "b=",
+          "confidence": 0,
+          "bbox": [
+            307,
+            1750,
+            37,
+            16
+          ]
+        },
+        {
+          "text": "=",
+          "confidence": 0,
+          "bbox": [
+            896,
+            1756,
+            9,
+            5
+          ]
+        },
+        {
+          "text": "itt)",
+          "confidence": 22.740952,
+          "bbox": [
+            1150,
+            1779,
+            50,
+            19
+          ]
+        },
+        {
+          "text": "<i):",
+          "confidence": 48.207443,
+          "bbox": [
+            364,
+            1808,
+            66,
+            20
+          ]
+        },
+        {
+          "text": "x",
+          "confidence": 55.025314,
+          "bbox": [
+            455,
+            1814,
+            9,
+            11
+          ]
+        },
+        {
+          "text": "=x*i",
+          "confidence": 55.025314,
+          "bbox": [
+            486,
+            1808,
+            98,
+            17
+          ]
+        },
+        {
+          "text": "x",
+          "confidence": 52.716274,
+          "bbox": [
+            1031,
+            1814,
+            10,
+            11
+          ]
+        },
+        {
+          "text": "=x",
+          "confidence": 52.716274,
+          "bbox": [
+            1059,
+            1814,
+            42,
+            11
+          ]
+        },
+        {
+          "text": "=",
+          "confidence": 65.53363,
+          "bbox": [
+            970,
+            1835,
+            18,
+            30
+          ]
+        },
+        {
+          "text": "x",
+          "confidence": 65.53363,
+          "bbox": [
+            997,
+            1835,
+            16,
+            30
+          ]
+        }
+      ],
+      "status": "ocr_unverified"
+    },
+    {
+      "page": 2,
+      "text": "Câu 8. Phuong án nao sau đây chỉ ra ưu điểm của giao tiếp trên không gian mang?\n\nA. Tạo cơ hội mở rộng các mối quan hệ xã hội. B. Không phụ thuộc vào thiết bị công nghệ.\n\nC. Luôn quan sát được thái độ của người nói. D. Dam bảo tin cậy và bảo mật thông tin tuyệt đối.\nCâu 9. Nhận định nào sau đây đúng khi nói về tác động của Trí tuệ nhân tạo (AI) đối với thị trường lao động?\n\nA. AI quyết định độ tuổi lao động của con người.\n\nB. Các công việc đòi hỏi sự thấu hiểu cảm xúc bị AI thay thế.\n\nC. Lao động phổ thông bị AI thay thé hoàn toàn.\n\nD. AI thúc đây tự động hóa các công việc có tính lặp lại.\n\nCâu 10. Phương án nào sau đây chỉ ra một thao tác khai thác cơ sở dữ liệu?\n\nA. Thêm mới. B. Xóa bỏ. C. Tìm kiếm. D. Chỉnh sửa.\nCâu 11. Ứng dụng nào sau đây là một Chatbot có sử dụng Trí tuệ nhân tạo?\nA. Calculator. B. Unikey. C. Notepad. D. Gemini.\n\nCâu 12. Cho đoạn mã HTML va CSS sau:\n<head> <style> table {border: lpx solid red; }</style></head>\n<body><table>\n\n<tr> <td> San phẩm </td> <td> Don giá (VND) </td> </tr>\n\n<tr> <td> Máy tinh xách tay </td> <td> 7 000 000 </td> </tr>\n\n</table></body>\n\nBảng được tao boi đoạn mã trên có đặc điểm nào sau đây?\n\nA. Viền của bảng có màu đỏ. B. Viền của bảng và ô đều có màu đỏ.\nC. Viền của dòng tiêu đề có màu đỏ. D. Viền của các ô có màu đỏ.\n\nCâu 13. Cho đoạn mã HTML sau:\n<ol start=\"5\"><li> Khoa học máy tính </li><li> Tin học ứng dụng </1li></ol>\n\nPhương á án nào sau đây mô tả đúng cách đánh thứ tự của danh sách được tạo bởi đoạn mã trên?\n\nA. Kiểu số nguyên, bắt đầu từ 5. B. Kiéu số La Mã in hoa, bắt đầu từ V.\nC. Kiểu số La Mã in thường, bắt đầu từ v. D. Kiểu chữ cái in hoa, bắt đầu từ E.\nCâu 14. Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau:\nDòng Python C++\n1 n=1 int n=1;\n2 while n%at!=0 orn 3b !=0: while (n 3 a !=0 || n 3b != 0)\n3 n=n+1 n=n+ 1;\n\nGiả sử a và b là hai số nguyên dương khác nhau, sau khi thực hiện đoạn chương trình trên, z là số nguyên dương thỏa\nmãn tính chất nào sau đây?\n\nA. Lớn nhất va là ước số của cả a và b. B. Nhỏ nhất va chia hết cho cả a và ở.\n\nC. Lớn nhất và là ước số của a hoặc b. D. Nhỏ nhất và chia hết cho a hoặc 2.\n\nCâu 15. Phương án nào sau đây nêu đúng đoạn mã HTML dùng để chèn ảnh từ tệp anhtotnghiep.jpg với chiều rộng\nvà chiều cao tương ứng là 800 và 300 pixel vào một trang web, biết rằng tệp ảnh nằm trong cùng thư mục với tệp\nHTML?\n\nA.<img href=\"anhtotnghiep\" width=\"800\" height=\"300\">\n\nB.<img href=\"anhtotnghiep.jpg\" width=\"800px\" height=\"300px\">\n\n€.<img src=\"anhtotnghiep.jpg\" width=\"800\" height=\"300\">\n\nD. <img src=\"anhtotnghiep\" width=\"800px\" height=\"300px\">\n\nCâu 16. Tiêu dé của một trang web được khai báo bởi phan tử HTML nào sau đây?\n\nA. head B. hl C.title D.th\n\nCâu 17. Cho các bộ chọn CSS sau:\n\n.dong {font-size: 30px; color: green; border-style: dotted;}\n\n#doan {font-size: 30px; color: green; border-style: solid; }\n\nDoan mã HTML nào sau đây áp dụng một bộ chon CSS trên đề định dạng dòng chữ “Chúc em thi tốt!” với cỡ chữ 30\npixel, màu xanh lá cây và đường viền nét liền bao quanh?\n\nA.<p class=\"doan\">Chúc em thi tốt!</p>\n\nB.<p id=\"dong\">Chúc em thi tốt!</p>\n\nC.<p id=\"doan\">Chúc em thi tốt!</p>\n\nD.<p class=\"dong\">Chúc em thi tét!</p>\n\nCâu 18. Lĩnh vực nao sau đây có nhiệm vụ giúp máy tính hiểu và xử lí được ngôn ngữ tự nhiên của con người?\n\nA. Điều khiển rô-bốt. B. Thị giác máy tính.\n\nC. Xử lí ngôn ngữ tự nhiên. D. Học máy.\n\nCâu 19. Phương án nào sau đây liệt kê đơn vị đo dung lượng bộ nhớ theo thứ tự tăng dần?\n\nA. Gigabyte, Megabyte, Terabyte. B. Megabyte, Terabyte, Gigabyte.\nC. Terabyte, Megabyte, Gigabyte. D. Megabyte, Gigabyte, Terabyte.\n\nTrang 2/4 - Ma dé thi 0510\n",
+      "low_confidence_words": [
+        {
+          "text": "toàn.",
+          "confidence": 51.894184,
+          "bbox": [
+            589,
+            276,
+            51,
+            21
+          ]
+        },
+        {
+          "text": "</1li></ol>",
+          "confidence": 55.377464,
+          "bbox": [
+            1069,
+            788,
+            146,
+            18
+          ]
+        },
+        {
+          "text": "C++",
+          "confidence": 40.476929,
+          "bbox": [
+            1065,
+            954,
+            44,
+            18
+          ]
+        },
+        {
+          "text": "while",
+          "confidence": 64.652893,
+          "bbox": [
+            211,
+            1014,
+            73,
+            16
+          ]
+        },
+        {
+          "text": "n%at!=0",
+          "confidence": 46.881813,
+          "bbox": [
+            301,
+            1014,
+            147,
+            16
+          ]
+        },
+        {
+          "text": "3b",
+          "confidence": 61.80748,
+          "bbox": [
+            543,
+            1014,
+            42,
+            16
+          ]
+        },
+        {
+          "text": "3",
+          "confidence": 54.780827,
+          "bbox": [
+            921,
+            1014,
+            10,
+            16
+          ]
+        },
+        {
+          "text": "||",
+          "confidence": 55.832054,
+          "bbox": [
+            1061,
+            1014,
+            16,
+            19
+          ]
+        },
+        {
+          "text": "n",
+          "confidence": 55.832054,
+          "bbox": [
+            1101,
+            1019,
+            12,
+            11
+          ]
+        },
+        {
+          "text": "3b",
+          "confidence": 53.434643,
+          "bbox": [
+            1132,
+            1014,
+            41,
+            16
+          ]
+        },
+        {
+          "text": "z",
+          "confidence": 62.857239,
+          "bbox": [
+            1114,
+            1083,
+            11,
+            13
+          ]
+        },
+        {
+          "text": "ở.",
+          "confidence": 55.068207,
+          "bbox": [
+            1214,
+            1143,
+            19,
+            20
+          ]
+        },
+        {
+          "text": "2.",
+          "confidence": 45.998596,
+          "bbox": [
+            1211,
+            1176,
+            18,
+            19
+          ]
+        },
+        {
+          "text": "€.<img",
+          "confidence": 67.153198,
+          "bbox": [
+            108,
+            1374,
+            88,
+            21
+          ]
+        },
+        {
+          "text": "D.",
+          "confidence": 11.078705,
+          "bbox": [
+            108,
+            1406,
+            22,
+            16
+          ]
+        },
+        {
+          "text": "<img",
+          "confidence": 11.078705,
+          "bbox": [
+            139,
+            1407,
+            58,
+            20
+          ]
+        },
+        {
+          "text": "solid;",
+          "confidence": 24.912369,
+          "bbox": [
+            890,
+            1565,
+            96,
+            18
+          ]
+        },
+        {
+          "text": "}",
+          "confidence": 24.912369,
+          "bbox": [
+            976,
+            1561,
+            15,
+            28
+          ]
+        }
+      ],
+      "status": "ocr_unverified"
+    },
+    {
+      "page": 3,
+      "text": "Câu 20. Nếu thay bài đăng trên mạng xã hội kêu gọi cộng đồng quyên góp dé ủng hộ một hoàn cảnh khó khăn, hành\nđộng nào sau đây vừa đảm bảo an toàn vừa có tính nhân văn?\n\nA. Tìm hiểu kĩ nguồn tin trước khi quyên góp. B. Lập tức chia sẻ bài đăng lên trang cá nhân.\nC. Xem qua va không quan tâm bài đăng. D. Bình luận không ủng hộ người đăng tin.\nCâu 21. Người làm nghề lập trình nhất thiết phải có khả năng nào sau đây?\n\nA. Phân tích số liệu thống kê. B. Bảo trì cơ sở dữ liệu.\n\nC. Thiết kế và cài đặt thuật toán. D. Bảo trì mạng máy tính.\n\nCâu 22. Người quản trị cơ sở dữ liệu cần lam công việc nao sau đây dé xác định quyền truy cập đối với từng nhóm\nngười dùng khác nhau?\n\nA. Điều chỉnh cấu trúc cơ sở dữ liệu. B. Tìm kiếm dữ liệu theo yêu cầu.\n\nC. Phân quyền truy cập dữ liệu. D. Sao lưu dự phòng dữ liệu.\n\nCâu 23. Nghề nào sau đây thuộc nhóm nghề dịch vụ trong ngành Công nghệ thông tin?\n\nA. Quản trị mạng máy tính. B. Bảo mật hệ thống thông tin.\n\nC. Quan trị cơ sở dữ liệu. D. Sửa chữa và bảo trì máy tính.\n\nCâu 24. Phương án nào sau đây nêu đúng công việc chính của người làm nghề sửa chữa và bảo trì máy tính?\n\nA. Xây dựng, phát triển hệ thống mạng máy tính. B. Quản lí và duy trì một hệ thống thông tin.\n\nC. Lắp đặt, sửa chữa phần cứng máy tính. D. Cải thiện hiệu suất hoạt động hệ thống mạng.\n\nPHAN II: Thí sinh trả lời 4 câu hỏi. Trong mỗi ý a), b), e), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.\nA. Phần chung dành cho tat cả các thí sinh\nCâu 1. Người quản trị trang web Đoàn thanh niên của một trường trung học phô thông đã tạo biểu mẫu bằng đoạn mã\nHTML sau để các bạn học sinh đăng kí tham gia các hoạt động văn nghệ, thể thao trong trường:\n<form action=\"dangki.php\">\n\nHo tén: <input type=\"text\" name=\"hoten\" value=\"\">\n\nEmail: <input type=\"email\" name=\"email\" value=\"\">\n\n<input type=\"submit\" value=\"Dang kí\">\n</form>\nCó một số nhận xét sau về đoạn mã trên:\na) Biểu mẫu này có hai ô nhập dữ liệu và một nút gửi dữ liệu.\nb) Giá trị của thuộc tính value ‘cua hai 6 nhập dữ liệu không được đề trồng.\ne) Nếu nhập dữ liệu vào biểu mau và nhắn nút Đăng ki thì dữ liệu được gửi đến trang dangki.php.\nd) Dé học sinh chỉ được lựa chọn một trong hai loại hoạt động Văn nghệ hoặc Thể thao khi đăng kí tham gia, cần chèn\nthêm hai dong sau vào đoạn mã tạo biểu mẫu trên:\n<input type=\"radio\" name=\"optvannghe\">Văn nghệ\n<input type=\"radio\" name=\"optthethao\">Thể thao\nCâu 2. Một nhóm giảng viên của trường đại học A được cử đi tập huấn năng lực số cho cán bộ tại một số xã vùng cao.\nĐịa điểm tập huấn tại các xã đã được trang bị đầy đủ hệ thống cáp quang và hạ tầng kết nối Internet. Trước khi lên\nđường, lãnh đạo nhà trường giao cho trưởng nhóm hai nhiệm vụ về hoạt động của nhóm: (1) gửi bao cáo vào cuối mỗi\nngày đến địa chi email baocao@dha.edu.vn; (2) ba ngày một lần, đăng các bài viết vào mục được phân công trên\nwebsite của trường tại địa chỉ https://dha.edu.vn. Khi tìm hiểu tình huống trên, có các nhận định sau:\na) hitps trong địa chỉ website https://dha.edu.vn là giao thức truyền tải thư điện tử.\nb) Tên miễn website của trường đại học A đóng vai trò là một địa chỉ thay thế cho địa chỉ IP của máy chủ web.\n©) Trong trường hợp máy chủ thư điện tử của trường đại học A thay đổi địa chỉ IP, trưởng nhóm vẫn có thẻ gửi báo cáo\nthành công đến dia chỉ email đã được cung cap.\nđ) Học viên cần sử dụng điện thoại thông minh kết nối trực tiếp vào bộ chuyển mach (Switch) dé xem tài liệu học tập\ndược cung cấp trên website của trường đại học A.\nB. Phần riêng\nThi sinh chỉ được phép chọn một trong hai phan: Khoa học máy tính (Câu 3 và Câu 4) hoặc Tin học ứng dụng (Câu 5\nvà Câu 6). Thí sinh không được tính điểm nếu làm cả hai phân.\n\nBI. Khoa học máy tinh\nCâu 3. Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python và C++, trong đó A là một mảng gồm ø số nguyên dương:\nDòng Python C++\n1 def F(A, n): int F(int A[], int n) {\n2 j= 0 int j = 0;\n3 for i in range(n): for (int i = 0; i < n; i++)\n4 if A[i] 3% 2 != 0: if (A[i] 3% 2 != 0) {\n5 if Alj] % 2 == 0: if (Alj] %2 == 0) (\n6 t = A[i] int t = A[il];\n7 Afi] = Alj] A[i] = A[7];\n8 Alj] =t A[j] = te\n9 3-541 }\n10 return A[0] + A[n - 1] J3 = j + 1;\n\nTrang 3/4 - Mã đề thi 0510\n",
+      "low_confidence_words": [
+        {
+          "text": "biểu",
+          "confidence": 67.477997,
+          "bbox": [
+            1143,
+            693,
+            46,
+            25
+          ]
+        },
+        {
+          "text": "‘cua",
+          "confidence": 51.608521,
+          "bbox": [
+            456,
+            976,
+            45,
+            33
+          ]
+        },
+        {
+          "text": "huấn",
+          "confidence": 61.140133,
+          "bbox": [
+            833,
+            1161,
+            53,
+            25
+          ]
+        },
+        {
+          "text": "https://dha.edu.vn.",
+          "confidence": 66.689285,
+          "bbox": [
+            440,
+            1297,
+            203,
+            25
+          ]
+        },
+        {
+          "text": "n;",
+          "confidence": 42.457016,
+          "bbox": [
+            1140,
+            1781,
+            23,
+            14
+          ]
+        },
+        {
+          "text": "(A[i]",
+          "confidence": 68.578362,
+          "bbox": [
+            950,
+            1804,
+            61,
+            20
+          ]
+        },
+        {
+          "text": "%2",
+          "confidence": 59.27195,
+          "bbox": [
+            1097,
+            1833,
+            39,
+            16
+          ]
+        },
+        {
+          "text": "A[il];",
+          "confidence": 63.267639,
+          "bbox": [
+            1139,
+            1861,
+            68,
+            20
+          ]
+        },
+        {
+          "text": "Afi]",
+          "confidence": 64.853348,
+          "bbox": [
+            449,
+            1889,
+            53,
+            20
+          ]
+        },
+        {
+          "text": "Alj]",
+          "confidence": 55.063507,
+          "bbox": [
+            555,
+            1890,
+            52,
+            20
+          ]
+        },
+        {
+          "text": "A[7];",
+          "confidence": 64.838036,
+          "bbox": [
+            1124,
+            1889,
+            68,
+            21
+          ]
+        },
+        {
+          "text": "Alj]",
+          "confidence": 66.964111,
+          "bbox": [
+            449,
+            1918,
+            53,
+            21
+          ]
+        },
+        {
+          "text": "te",
+          "confidence": 69.896317,
+          "bbox": [
+            1126,
+            1920,
+            22,
+            16
+          ]
+        },
+        {
+          "text": "3-541",
+          "confidence": 22.1437,
+          "bbox": [
+            391,
+            1947,
+            130,
+            20
+          ]
+        },
+        {
+          "text": "J3",
+          "confidence": 56.34016,
+          "bbox": [
+            960,
+            1974,
+            8,
+            21
+          ]
+        }
+      ],
+      "status": "ocr_unverified"
+    },
+    {
+      "page": 4,
+      "text": "11 }\n12 return A[0] + A[n - 1];\n13 }\n\nSau khi chọn một trong hai ngôn ngữ lập trình Python hoặc C++ đề tìm hiéu hàm trên, có các ý kiên sau:\n\na) Hàm # có hai tham só.\n\nb) Sau khi thực hiện hàm F, mang A không tồn tại phan tử có giá trị chan nào có chi số lớn hơn chỉ số của phần tử có\ngiá trị lẻ.\n\nc) Néu nhận vào hai đối sỐ, mảng 4 là (2, 7, 6, 7, 4, 3, 5) van = 7, thì hàm F trả về giá trị 9.\n\nđ) Với mảng A bắt ki, giả sử mang B được tạo ra bằng cách sao chép mảng 4 rồi hoán đổi vị trí của một số phan tử thì\nkết quả trả về của hai lần gọi hàm F(A, n) và F(B, n) là bằng nhau.\n\nCâu 4. Một hợp tác xã ứng dụng công nghệ IoT (Internet vạn vật) đề thu thập dữ liệu một cách tự động. Dữ liệu bao\ngồm: loại đất, độ âm đất, nhiệt độ không khí, cường độ ánh sáng, giống cây trồng và được thu thập từ 2 000 lô đất trồng\ncây trong 5 vụ mùa. Cuối mỗi vụ mùa, các kĩ sư nông nghiệp của hợp tác xã sẽ đưa ra kết luận về tình trạng cây trồng\nlà khỏe mạnh hoặc bị sâu bệnh trên từng lô đất. Các kết luận được đưa ra dựa trên quan sát thực địa và được xem là\nthông tin đáng tin cậy. Dựa trên tập dữ liệu đã thu thập, hợp tác xã muốn sử dụng mô hình học may để xây dựng một\nhệ thống dự đoán tình trạng cây trồng cho lô đất mới. Có các nhận định như sau:\n\na) Bài toán dự đoán tình trạng cây trồng thuộc loại bài toán học máy có giám sát.\n\nb) Tinh trạng khỏe mạnh hoặc bị sâu bệnh là các nhãn cần dự đoán.\n\nc) Dé dự đoán về tình trang cây trồng cho một 16 đất mới, hệ thống có thé đưa ra kết quả mà không cần dữ liệu về thời\ntiết hay loại đất của lô đất đó.\n\nđ) Hệ thống có thé thay thé hoàn toàn kĩ sư nông nghiệp trong việc ra quyết định phun thuốc bảo vệ thực vật.\n\nB2. Tin học ứng dụng\n\nCâu 5. Một chủ nông trại dùng phần mềm để quản lí dữ liệu về các vườn cây với cơ sở dữ liệu gồm các bảng sau:\n\n« VUON_CAY(maVC, tenVC, diaDiem, dienTich) lưu mã vườn cây, tên vườn cây, địa điểm và diện tích của từng\nvườn; Mỗi mã vườn cây xác định duy nhất một vườn.\n\ns LOẠI CAY(naLC, tenLC) lưu mã loại cây, tên loại cây; Mỗi mã loại cây xác định duy nhất một loại cây.\n\ns THONG_KE(maVC, maLC, namTK, soLuong, sanLuong) lưu mã vườn cây, mã loại cây, năm thống kê, số đượng\nvà sản lượng của từng loại cây (tính bằng kilôgam) trong từng vườn theo năm; Mỗi vườn trồng một hoặc nhiêu loại\ncây, mỗi loại cây được trồng ở một sô vườn khác nhau.\n\nCó một số nhận xét như sau về việc sử dụng phần mềm dé tạo và khai thác cơ sở dữ liệu trên:\n\na) Để tạo cấu trúc bảng LOAI_ CAY, có các thao tác sau cần thực hiện: Tạo bảng mới; Đặt tên bảng; Tạo và xác định\nkiểu đữ liệu cho các trường: Thiết lập khóa chính.\n\nb) Trong bảng LOAI_ CAY, không thê thiết lập trường maLC có kiểu số nguyên và tự động tăng.\n\ne) Dé đảm bảo tính nhất quán của dữ liệu, khi nhập dữ liệu cho trường maVC của bảng THONG _KE, cần nhập giá trị\nlà một trong các giá trị đã có của trường maVC của bảng VUON_ CAY.\n\nd) Dé đưa ra thông tin gồm tên loại cây, tên vườn và sản lượng của các loại cây trong các vườn có sản lượng năm 2025\nlớn hơn 3 000 kilôgam, cần thực hiện truy van với các thành phan sau:\n\n« Các trường và bảng được chọn: LOAI_CAY.tenLC, VUON_CAY.tenVC, THONG_KE.sanLuong.\n\n« Các cặp bảng được liên kết qua khóa tương ứng: VUON_CAY và THONG_KE qua maVC; VUON_CAY và\nLOAI_CAY qua maLC.\n\n« Điều kiện truy van: THONG_KE.namTK = 2025 va THONG_KE.sanLuong > 3000.\n\nCâu 6. Một trường đại học phát động cuộc thi thiết kế website bằng phần mềm tạo trang web. Trong đó, yêu cầu\nwebsite có các trang: Trang chủ, Giới thiệu, Tuyển dung. Trang chủ hiển thị các tin tức nổi bật về hoạt động của nhà\ntrường. Trang Giới thiệu có bải viết tóm tắt thông tin các khoa và liên kết đến trang chỉ tiết của từng khoa. Trang Tuyển\ndụng đăng thông báo tuyên dung và một biểu mẫu dé ứng viên nhập thông tin đăng kí dự tuyển. Một số người nhận xét\nnhư sau:\n\na) Nếu đưa logo của từng khoa vào trang Giới thiệu thì có thể thiết lập liên kết từng logo này đến trang chỉ tiết của\nkhoa tương ứng.\n\nb) Thanh điều hướng chỉ có ở Trang chủ đề người dùng dễ dàng di chuyền giữa các trang trong website.\n\ne) Có thé thiết kế biéu mẫu đã nêu bằng một công cụ trực tuyến phù hợp, sau đó chèn liên kết của biểu mẫu này vào\ntrang Tuyền dụng.\n\nd) Dé xem được nội dung của website sau khi xuất bản, máy tính của người dùng cần sử dụng phần mềm tao trang web.\n\n- Thí sinh không được sử dụng tài liệu;\n- Giám thị không giải thích gì thêm.\n\nTrang 4/4 - Mã đề thi 0510\n",
+      "low_confidence_words": [
+        {
+          "text": "van",
+          "confidence": 66.651848,
+          "bbox": [
+            739,
+            299,
+            45,
+            18
+          ]
+        },
+        {
+          "text": "F(A,",
+          "confidence": 46.935081,
+          "bbox": [
+            486,
+            364,
+            46,
+            25
+          ]
+        },
+        {
+          "text": "«",
+          "confidence": 46.227489,
+          "bbox": [
+            126,
+            837,
+            9,
+            8
+          ]
+        },
+        {
+          "text": "s",
+          "confidence": 0,
+          "bbox": [
+            126,
+            903,
+            9,
+            9
+          ]
+        },
+        {
+          "text": "LOẠI",
+          "confidence": 68.77758,
+          "bbox": [
+            143,
+            896,
+            64,
+            20
+          ]
+        },
+        {
+          "text": "CAY(naLC,",
+          "confidence": 0,
+          "bbox": [
+            208,
+            896,
+            151,
+            25
+          ]
+        },
+        {
+          "text": "đượng",
+          "confidence": 58.528236,
+          "bbox": [
+            1334,
+            928,
+            70,
+            33
+          ]
+        },
+        {
+          "text": "LOAI_",
+          "confidence": 61.198727,
+          "bbox": [
+            381,
+            1062,
+            70,
+            25
+          ]
+        },
+        {
+          "text": "CAY,",
+          "confidence": 61.198727,
+          "bbox": [
+            458,
+            1058,
+            50,
+            33
+          ]
+        },
+        {
+          "text": "maLC",
+          "confidence": 59.205254,
+          "bbox": [
+            710,
+            1128,
+            68,
+            19
+          ]
+        },
+        {
+          "text": "THONG",
+          "confidence": 60.120628,
+          "bbox": [
+            1088,
+            1152,
+            73,
+            39
+          ]
+        },
+        {
+          "text": "_KE,",
+          "confidence": 60.120628,
+          "bbox": [
+            1166,
+            1152,
+            52,
+            39
+          ]
+        },
+        {
+          "text": "«",
+          "confidence": 52.109764,
+          "bbox": [
+            126,
+            1302,
+            9,
+            8
+          ]
+        },
+        {
+          "text": "«",
+          "confidence": 60.867096,
+          "bbox": [
+            126,
+            1335,
+            9,
+            9
+          ]
+        },
+        {
+          "text": "maLC.",
+          "confidence": 68.082321,
+          "bbox": [
+            330,
+            1361,
+            72,
+            20
+          ]
+        },
+        {
+          "text": "THONG_KE.sanLuong",
+          "confidence": 53.938313,
+          "bbox": [
+            721,
+            1394,
+            261,
+            25
+          ]
+        },
+        {
+          "text": "mềm",
+          "confidence": 66.729347,
+          "bbox": [
+            962,
+            1421,
+            53,
+            26
+          ]
+        },
+        {
+          "text": "hiển",
+          "confidence": 48.93095,
+          "bbox": [
+            868,
+            1455,
+            45,
+            25
+          ]
+        },
+        {
+          "text": "biểu",
+          "confidence": 61.244225,
+          "bbox": [
+            555,
+            1521,
+            45,
+            25
+          ]
+        },
+        {
+          "text": "tuyển.",
+          "confidence": 68.224091,
+          "bbox": [
+            1083,
+            1521,
+            66,
+            31
+          ]
+        }
+      ],
+      "status": "ocr_unverified"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "draft-2026-0510-01",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 1,
+      "ocr_heading": "Câu 1. Giao thức TCP không có vai trò nảo sau đây?",
+      "raw_number_ocr": "1",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Giao thức TCP không có vai trò nảo sau đây?\n\nA. Qui định việc phân chia và đánh số thứ tự các gói tin.\n\nB. Qui định cách thức định tuyến cho gói tin khi truyền.\n\nC. Dam bảo dữ liệu được truyền tải tin cậy và chính xác.\n\nD. Cung cấp cơ chế phát hiện và xử lí sai sót khi truyền dir liệu.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Giao thức TCP không có vai trò nảo sau đây?",
+      "options_ocr": [
+        "Qui định việc phân chia và đánh số thứ tự các gói tin.",
+        "Qui định cách thức định tuyến cho gói tin khi truyền.",
+        "Dam bảo dữ liệu được truyền tải tin cậy và chính xác.",
+        "Cung cấp cơ chế phát hiện và xử lí sai sót khi truyền dir liệu."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-02",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 2,
+      "ocr_heading": "Câu 2. Bảng dữ liệu lưu trữ thông tin nhập hàng của một cửa hàng có các cột sau: Ma hóa đơn, Ma hàng, Ngày nhập,",
+      "raw_number_ocr": "2",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Bảng dữ liệu lưu trữ thông tin nhập hàng của một cửa hàng có các cột sau: Ma hóa đơn, Ma hàng, Ngày nhập,\nSố lượng, Giá nhập. Cần cập nhật dữ liệu cho bảng này trong trường hợp nào sau đây?\n\nA. Tìm các mã hàng có giá nhập bằng một giá trị cho trước.\n\nB. Tính và đưa ra giá nhập trung bình của các mặt hàng.\n\nC. Thống kê số lượng mã hàng được nhập trước ngày 20/11/2025.\n\nD. Bồ sung các mặt hàng được nhập vào ngày 20/1 1/2025.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Bảng dữ liệu lưu trữ thông tin nhập hàng của một cửa hàng có các cột sau: Ma hóa đơn, Ma hàng, Ngày nhập,\nSố lượng, Giá nhập. Cần cập nhật dữ liệu cho bảng này trong trường hợp nào sau đây?",
+      "options_ocr": [
+        "Tìm các mã hàng có giá nhập bằng một giá trị cho trước.",
+        "Tính và đưa ra giá nhập trung bình của các mặt hàng.",
+        "Thống kê số lượng mã hàng được nhập trước ngày 20/11/2025.",
+        "Bồ sung các mặt hàng được nhập vào ngày 20/1 1/2025."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-03",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 3,
+      "ocr_heading": "Câu 3. Phương án nào sau đây mô tả đặc trưng của Trí tuệ nhân tạo tạo sinh?",
+      "raw_number_ocr": "3",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Phương án nào sau đây mô tả đặc trưng của Trí tuệ nhân tạo tạo sinh?\n\nA. Xác thực danh tính người dùng thông qua sinh trắc học.\n\nB. Tìm kiếm và trả về thông tin có sẵn từ cơ sở đữ liệu lớn.\n\nC. Phân tích đữ liệu dé đưa ra dự đoán hoặc phân loại đối tượng.\n\nD. Tạo ra các nội dung mới như văn bản, hình ảnh, mã nguồn.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Phương án nào sau đây mô tả đặc trưng của Trí tuệ nhân tạo tạo sinh?",
+      "options_ocr": [
+        "Xác thực danh tính người dùng thông qua sinh trắc học.",
+        "Tìm kiếm và trả về thông tin có sẵn từ cơ sở đữ liệu lớn.",
+        "Phân tích đữ liệu dé đưa ra dự đoán hoặc phân loại đối tượng.",
+        "Tạo ra các nội dung mới như văn bản, hình ảnh, mã nguồn."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-04",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 4,
+      "ocr_heading": "Câu 4. Việc chia sẻ một thư mục trên máy tính với quyền đọc cho một hoặc một nhóm người dùng trên các máy tính",
+      "raw_number_ocr": "4",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Việc chia sẻ một thư mục trên máy tính với quyền đọc cho một hoặc một nhóm người dùng trên các máy tính\nkhác trong cùng mạng LAN có các thao tác sau:\n\nMã dé: 0510\n\n(1) Thiết lập quyền đọc cho người dùng. (2) Tìm và chọn thư mục cần chia sẻ trên máy tính.\n(3) Mở ứng dụng quản lí tệp. (4) Chọn tên một hoặc nhóm người dùng cần được chia sẻ.\nPhương án nào sau đây nêu đúng thứ tự thực hiện các thao tác trên?\nA. (1), (2), (3), (4). B. (3), (2), (4),(D. C. (1), (4). (2), (3). D. (3), (1), (2), (4).",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-05",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 5,
+      "ocr_heading": "Câu 5. Lựa chọn ngôn ngữ lập trình Python hoặc C++ dé tìm hiéu đoạn chương trình sau:",
+      "raw_number_ocr": "5",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ dé tìm hiéu đoạn chương trình sau:\nDòng Python CH\n1 L = (4, 6, 2] int n= 3, T= 0, LI] = (4, 6, 2};\n2 n, T = 3, 0 for (int i = 0; i < nj itt) {\n3 for i in range(0, n): int k= 1;\n4 k=1 for (int j = 0; 3 < i+ 1; j++) {\n5 for j in range(0, i + 1): T=T+k* L[j];\n6 T=T+k * L[j] k = -1 * kj\n7 k=-1*k }\n8 }\n\nSau khi thực hiện đoạn chương trình trên, biến 7 có giá trị nào sau đây?\n\nA.4. B. -4. C.2. D. -2.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-06",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 6,
+      "ocr_heading": "Câu 6. Chị B nhận được cuộc điện thoại từ một người tự xưng là nhân viên hai quan. Người nay thong báo có một",
+      "raw_number_ocr": "6",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Chị B nhận được cuộc điện thoại từ một người tự xưng là nhân viên hai quan. Người nay thong báo có một\nmón quà giá trị cao được gửi cho chị từ nước ngoài, đồng thời yêu cầu chị nộp thuế bằng cách chuyển ngay cho hải\nquan thco số tài khoản được cung cấp dé nhận món qua đó. Đề ứng xử an toan trong tình huống này, chị B không nên\nthực hiện hành động nào sau đây?\n\nA. Chất vấn người gọi một cách thận trọng về món quà tặng.\n\nB. Chia sẻ thông tin vé cuộc gọi va xin tư vấn từ người thân.\n\nC. Thanh toán thuế theo yêu cầu mà không xác minh thông tin.\n\nD. Liên lac trực tiếp với cơ quan hải quan dé xác minh thông tin.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Chị B nhận được cuộc điện thoại từ một người tự xưng là nhân viên hai quan. Người nay thong báo có một\nmón quà giá trị cao được gửi cho chị từ nước ngoài, đồng thời yêu cầu chị nộp thuế bằng cách chuyển ngay cho hải\nquan thco số tài khoản được cung cấp dé nhận món qua đó. Đề ứng xử an toan trong tình huống này, chị B không nên\nthực hiện hành động nào sau đây?",
+      "options_ocr": [
+        "Chất vấn người gọi một cách thận trọng về món quà tặng.",
+        "Chia sẻ thông tin vé cuộc gọi va xin tư vấn từ người thân.",
+        "Thanh toán thuế theo yêu cầu mà không xác minh thông tin.",
+        "Liên lac trực tiếp với cơ quan hải quan dé xác minh thông tin."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-07",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 7,
+      "ocr_heading": "Câu 7. Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau:",
+      "raw_number_ocr": "7",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        1
+      ],
+      "text_ocr": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau:\n\nDòng Python CH\n1 x, a, b= 1, 2, 6 int x = 1, a=2, b= 6;\n2 for i in range(a, b): for (int i = a; i < b; itt) {\n3 if (x <i): x =x*i if (x <i) x =x * i;\n4 else: x = x //i else x = x / i;\n5 print (x) }\n6 cout << x;\n\nSau khi thực hiện đoạn chương trình trên, giá trị nào sau đây được hiền thị trên màn hình?\nA.2. B. 6. C. 5. D. 1.\n\nTrang 1/4 - Mã đề thi 0510",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-08",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 8,
+      "ocr_heading": "Câu 8. Phuong án nao sau đây chỉ ra ưu điểm của giao tiếp trên không gian mang?",
+      "raw_number_ocr": "8",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Phuong án nao sau đây chỉ ra ưu điểm của giao tiếp trên không gian mang?\n\nA. Tạo cơ hội mở rộng các mối quan hệ xã hội. B. Không phụ thuộc vào thiết bị công nghệ.\n\nC. Luôn quan sát được thái độ của người nói. D. Dam bảo tin cậy và bảo mật thông tin tuyệt đối.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Phuong án nao sau đây chỉ ra ưu điểm của giao tiếp trên không gian mang?",
+      "options_ocr": [
+        "Tạo cơ hội mở rộng các mối quan hệ xã hội.",
+        "Không phụ thuộc vào thiết bị công nghệ.",
+        "Luôn quan sát được thái độ của người nói.",
+        "Dam bảo tin cậy và bảo mật thông tin tuyệt đối."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-09",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 9,
+      "ocr_heading": "Câu 9. Nhận định nào sau đây đúng khi nói về tác động của Trí tuệ nhân tạo (AI) đối với thị trường lao động?",
+      "raw_number_ocr": "9",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Nhận định nào sau đây đúng khi nói về tác động của Trí tuệ nhân tạo (AI) đối với thị trường lao động?\n\nA. AI quyết định độ tuổi lao động của con người.\n\nB. Các công việc đòi hỏi sự thấu hiểu cảm xúc bị AI thay thế.\n\nC. Lao động phổ thông bị AI thay thé hoàn toàn.\n\nD. AI thúc đây tự động hóa các công việc có tính lặp lại.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Nhận định nào sau đây đúng khi nói về tác động của Trí tuệ nhân tạo (AI) đối với thị trường lao động?",
+      "options_ocr": [
+        "AI quyết định độ tuổi lao động của con người.",
+        "Các công việc đòi hỏi sự thấu hiểu cảm xúc bị AI thay thế.",
+        "Lao động phổ thông bị AI thay thé hoàn toàn.",
+        "AI thúc đây tự động hóa các công việc có tính lặp lại."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-10",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 10,
+      "ocr_heading": "Câu 10. Phương án nào sau đây chỉ ra một thao tác khai thác cơ sở dữ liệu?",
+      "raw_number_ocr": "10",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Phương án nào sau đây chỉ ra một thao tác khai thác cơ sở dữ liệu?\n\nA. Thêm mới. B. Xóa bỏ. C. Tìm kiếm. D. Chỉnh sửa.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Phương án nào sau đây chỉ ra một thao tác khai thác cơ sở dữ liệu?",
+      "options_ocr": [
+        "Thêm mới.",
+        "Xóa bỏ.",
+        "Tìm kiếm.",
+        "Chỉnh sửa."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-11",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 11,
+      "ocr_heading": "Câu 11. Ứng dụng nào sau đây là một Chatbot có sử dụng Trí tuệ nhân tạo?",
+      "raw_number_ocr": "11",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Ứng dụng nào sau đây là một Chatbot có sử dụng Trí tuệ nhân tạo?\nA. Calculator. B. Unikey. C. Notepad. D. Gemini.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Ứng dụng nào sau đây là một Chatbot có sử dụng Trí tuệ nhân tạo?",
+      "options_ocr": [
+        "Calculator.",
+        "Unikey.",
+        "Notepad.",
+        "Gemini."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-12",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 12,
+      "ocr_heading": "Câu 12. Cho đoạn mã HTML va CSS sau:",
+      "raw_number_ocr": "12",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Cho đoạn mã HTML va CSS sau:\n<head> <style> table {border: lpx solid red; }</style></head>\n<body><table>\n\n<tr> <td> San phẩm </td> <td> Don giá (VND) </td> </tr>\n\n<tr> <td> Máy tinh xách tay </td> <td> 7 000 000 </td> </tr>\n\n</table></body>\n\nBảng được tao boi đoạn mã trên có đặc điểm nào sau đây?\n\nA. Viền của bảng có màu đỏ. B. Viền của bảng và ô đều có màu đỏ.\nC. Viền của dòng tiêu đề có màu đỏ. D. Viền của các ô có màu đỏ.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Cho đoạn mã HTML va CSS sau:\n<head> <style> table {border: lpx solid red; }</style></head>\n<body><table>\n\n<tr> <td> San phẩm </td> <td> Don giá (VND) </td> </tr>\n\n<tr> <td> Máy tinh xách tay </td> <td> 7 000 000 </td> </tr>\n\n</table></body>\n\nBảng được tao boi đoạn mã trên có đặc điểm nào sau đây?",
+      "options_ocr": [
+        "Viền của bảng có màu đỏ.",
+        "Viền của bảng và ô đều có màu đỏ.",
+        "Viền của dòng tiêu đề có màu đỏ.",
+        "Viền của các ô có màu đỏ."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-13",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 13,
+      "ocr_heading": "Câu 13. Cho đoạn mã HTML sau:",
+      "raw_number_ocr": "13",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Cho đoạn mã HTML sau:\n<ol start=\"5\"><li> Khoa học máy tính </li><li> Tin học ứng dụng </1li></ol>\n\nPhương á án nào sau đây mô tả đúng cách đánh thứ tự của danh sách được tạo bởi đoạn mã trên?\n\nA. Kiểu số nguyên, bắt đầu từ 5. B. Kiéu số La Mã in hoa, bắt đầu từ V.\nC. Kiểu số La Mã in thường, bắt đầu từ v. D. Kiểu chữ cái in hoa, bắt đầu từ E.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Cho đoạn mã HTML sau:\n<ol start=\"5\"><li> Khoa học máy tính </li><li> Tin học ứng dụng </1li></ol>\n\nPhương á án nào sau đây mô tả đúng cách đánh thứ tự của danh sách được tạo bởi đoạn mã trên?",
+      "options_ocr": [
+        "Kiểu số nguyên, bắt đầu từ 5.",
+        "Kiéu số La Mã in hoa, bắt đầu từ V.",
+        "Kiểu số La Mã in thường, bắt đầu từ v.",
+        "Kiểu chữ cái in hoa, bắt đầu từ E."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-14",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 14,
+      "ocr_heading": "Câu 14. Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau:",
+      "raw_number_ocr": "14",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau:\nDòng Python C++\n1 n=1 int n=1;\n2 while n%at!=0 orn 3b !=0: while (n 3 a !=0 || n 3b != 0)\n3 n=n+1 n=n+ 1;\n\nGiả sử a và b là hai số nguyên dương khác nhau, sau khi thực hiện đoạn chương trình trên, z là số nguyên dương thỏa\nmãn tính chất nào sau đây?\n\nA. Lớn nhất va là ước số của cả a và b. B. Nhỏ nhất va chia hết cho cả a và ở.\n\nC. Lớn nhất và là ước số của a hoặc b. D. Nhỏ nhất và chia hết cho a hoặc 2.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau:\nDòng Python C++\n1 n=1 int n=1;\n2 while n%at!=0 orn 3b !=0: while (n 3 a !=0 || n 3b != 0)\n3 n=n+1 n=n+ 1;\n\nGiả sử a và b là hai số nguyên dương khác nhau, sau khi thực hiện đoạn chương trình trên, z là số nguyên dương thỏa\nmãn tính chất nào sau đây?",
+      "options_ocr": [
+        "Lớn nhất va là ước số của cả a và b.",
+        "Nhỏ nhất va chia hết cho cả a và ở.",
+        "Lớn nhất và là ước số của a hoặc b.",
+        "Nhỏ nhất và chia hết cho a hoặc 2."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-15",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 15,
+      "ocr_heading": "Câu 15. Phương án nào sau đây nêu đúng đoạn mã HTML dùng để chèn ảnh từ tệp anhtotnghiep.jpg với chiều rộng",
+      "raw_number_ocr": "15",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Phương án nào sau đây nêu đúng đoạn mã HTML dùng để chèn ảnh từ tệp anhtotnghiep.jpg với chiều rộng\nvà chiều cao tương ứng là 800 và 300 pixel vào một trang web, biết rằng tệp ảnh nằm trong cùng thư mục với tệp\nHTML?\n\nA.<img href=\"anhtotnghiep\" width=\"800\" height=\"300\">\n\nB.<img href=\"anhtotnghiep.jpg\" width=\"800px\" height=\"300px\">\n\n€.<img src=\"anhtotnghiep.jpg\" width=\"800\" height=\"300\">\n\nD. <img src=\"anhtotnghiep\" width=\"800px\" height=\"300px\">\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-16",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 16,
+      "ocr_heading": "Câu 16. Tiêu dé của một trang web được khai báo bởi phan tử HTML nào sau đây?",
+      "raw_number_ocr": "16",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Tiêu dé của một trang web được khai báo bởi phan tử HTML nào sau đây?\n\nA. head B. hl C.title D.th\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-17",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 17,
+      "ocr_heading": "Câu 17. Cho các bộ chọn CSS sau:",
+      "raw_number_ocr": "17",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Cho các bộ chọn CSS sau:\n\n.dong {font-size: 30px; color: green; border-style: dotted;}\n\n#doan {font-size: 30px; color: green; border-style: solid; }\n\nDoan mã HTML nào sau đây áp dụng một bộ chon CSS trên đề định dạng dòng chữ “Chúc em thi tốt!” với cỡ chữ 30\npixel, màu xanh lá cây và đường viền nét liền bao quanh?\n\nA.<p class=\"doan\">Chúc em thi tốt!</p>\n\nB.<p id=\"dong\">Chúc em thi tốt!</p>\n\nC.<p id=\"doan\">Chúc em thi tốt!</p>\n\nD.<p class=\"dong\">Chúc em thi tét!</p>\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-18",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 18,
+      "ocr_heading": "Câu 18. Lĩnh vực nao sau đây có nhiệm vụ giúp máy tính hiểu và xử lí được ngôn ngữ tự nhiên của con người?",
+      "raw_number_ocr": "18",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Lĩnh vực nao sau đây có nhiệm vụ giúp máy tính hiểu và xử lí được ngôn ngữ tự nhiên của con người?\n\nA. Điều khiển rô-bốt. B. Thị giác máy tính.\n\nC. Xử lí ngôn ngữ tự nhiên. D. Học máy.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Lĩnh vực nao sau đây có nhiệm vụ giúp máy tính hiểu và xử lí được ngôn ngữ tự nhiên của con người?",
+      "options_ocr": [
+        "Điều khiển rô-bốt.",
+        "Thị giác máy tính.",
+        "Xử lí ngôn ngữ tự nhiên.",
+        "Học máy."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-19",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 19,
+      "ocr_heading": "Câu 19. Phương án nào sau đây liệt kê đơn vị đo dung lượng bộ nhớ theo thứ tự tăng dần?",
+      "raw_number_ocr": "19",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        2
+      ],
+      "text_ocr": "Phương án nào sau đây liệt kê đơn vị đo dung lượng bộ nhớ theo thứ tự tăng dần?\n\nA. Gigabyte, Megabyte, Terabyte. B. Megabyte, Terabyte, Gigabyte.\nC. Terabyte, Megabyte, Gigabyte. D. Megabyte, Gigabyte, Terabyte.\n\nTrang 2/4 - Ma dé thi 0510",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Phương án nào sau đây liệt kê đơn vị đo dung lượng bộ nhớ theo thứ tự tăng dần?",
+      "options_ocr": [
+        "Gigabyte, Megabyte, Terabyte.",
+        "Megabyte, Terabyte, Gigabyte.",
+        "Terabyte, Megabyte, Gigabyte.",
+        "Megabyte, Gigabyte, Terabyte.\n\nTrang 2/4 - Ma dé thi 0510"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-20",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 20,
+      "ocr_heading": "Câu 20. Nếu thay bài đăng trên mạng xã hội kêu gọi cộng đồng quyên góp dé ủng hộ một hoàn cảnh khó khăn, hành",
+      "raw_number_ocr": "20",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Nếu thay bài đăng trên mạng xã hội kêu gọi cộng đồng quyên góp dé ủng hộ một hoàn cảnh khó khăn, hành\nđộng nào sau đây vừa đảm bảo an toàn vừa có tính nhân văn?\n\nA. Tìm hiểu kĩ nguồn tin trước khi quyên góp. B. Lập tức chia sẻ bài đăng lên trang cá nhân.\nC. Xem qua va không quan tâm bài đăng. D. Bình luận không ủng hộ người đăng tin.",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Nếu thay bài đăng trên mạng xã hội kêu gọi cộng đồng quyên góp dé ủng hộ một hoàn cảnh khó khăn, hành\nđộng nào sau đây vừa đảm bảo an toàn vừa có tính nhân văn?",
+      "options_ocr": [
+        "Tìm hiểu kĩ nguồn tin trước khi quyên góp.",
+        "Lập tức chia sẻ bài đăng lên trang cá nhân.",
+        "Xem qua va không quan tâm bài đăng.",
+        "Bình luận không ủng hộ người đăng tin."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-21",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 21,
+      "ocr_heading": "Câu 21. Người làm nghề lập trình nhất thiết phải có khả năng nào sau đây?",
+      "raw_number_ocr": "21",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Người làm nghề lập trình nhất thiết phải có khả năng nào sau đây?\n\nA. Phân tích số liệu thống kê. B. Bảo trì cơ sở dữ liệu.\n\nC. Thiết kế và cài đặt thuật toán. D. Bảo trì mạng máy tính.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Người làm nghề lập trình nhất thiết phải có khả năng nào sau đây?",
+      "options_ocr": [
+        "Phân tích số liệu thống kê.",
+        "Bảo trì cơ sở dữ liệu.",
+        "Thiết kế và cài đặt thuật toán.",
+        "Bảo trì mạng máy tính."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-22",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 22,
+      "ocr_heading": "Câu 22. Người quản trị cơ sở dữ liệu cần lam công việc nao sau đây dé xác định quyền truy cập đối với từng nhóm",
+      "raw_number_ocr": "22",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Người quản trị cơ sở dữ liệu cần lam công việc nao sau đây dé xác định quyền truy cập đối với từng nhóm\nngười dùng khác nhau?\n\nA. Điều chỉnh cấu trúc cơ sở dữ liệu. B. Tìm kiếm dữ liệu theo yêu cầu.\n\nC. Phân quyền truy cập dữ liệu. D. Sao lưu dự phòng dữ liệu.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Người quản trị cơ sở dữ liệu cần lam công việc nao sau đây dé xác định quyền truy cập đối với từng nhóm\nngười dùng khác nhau?",
+      "options_ocr": [
+        "Điều chỉnh cấu trúc cơ sở dữ liệu.",
+        "Tìm kiếm dữ liệu theo yêu cầu.",
+        "Phân quyền truy cập dữ liệu.",
+        "Sao lưu dự phòng dữ liệu."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-23",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 23,
+      "ocr_heading": "Câu 23. Nghề nào sau đây thuộc nhóm nghề dịch vụ trong ngành Công nghệ thông tin?",
+      "raw_number_ocr": "23",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Nghề nào sau đây thuộc nhóm nghề dịch vụ trong ngành Công nghệ thông tin?\n\nA. Quản trị mạng máy tính. B. Bảo mật hệ thống thông tin.\n\nC. Quan trị cơ sở dữ liệu. D. Sửa chữa và bảo trì máy tính.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "prompt_ocr": "Nghề nào sau đây thuộc nhóm nghề dịch vụ trong ngành Công nghệ thông tin?",
+      "options_ocr": [
+        "Quản trị mạng máy tính.",
+        "Bảo mật hệ thống thông tin.",
+        "Quan trị cơ sở dữ liệu.",
+        "Sửa chữa và bảo trì máy tính."
+      ]
+    },
+    {
+      "id": "draft-2026-0510-24",
+      "year": 2026,
+      "code": "0510",
+      "part": "I",
+      "number": 24,
+      "ocr_heading": "Câu 24. Phương án nào sau đây nêu đúng công việc chính của người làm nghề sửa chữa và bảo trì máy tính?",
+      "raw_number_ocr": "24",
+      "type": "mcq",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Phương án nào sau đây nêu đúng công việc chính của người làm nghề sửa chữa và bảo trì máy tính?\n\nA. Xây dựng, phát triển hệ thống mạng máy tính. B. Quản lí và duy trì một hệ thống thông tin.\n\nC. Lắp đặt, sửa chữa phần cứng máy tính. D. Cải thiện hiệu suất hoạt động hệ thống mạng.\n\nPHAN II: Thí sinh trả lời 4 câu hỏi. Trong mỗi ý a), b), e), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.\nA. Phần chung dành cho tat cả các thí sinh",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-25",
+      "year": 2026,
+      "code": "0510",
+      "part": "II",
+      "number": 1,
+      "ocr_heading": "Câu 1. Người quản trị trang web Đoàn thanh niên của một trường trung học phô thông đã tạo biểu mẫu bằng đoạn mã",
+      "raw_number_ocr": "1",
+      "type": "tf",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Người quản trị trang web Đoàn thanh niên của một trường trung học phô thông đã tạo biểu mẫu bằng đoạn mã\nHTML sau để các bạn học sinh đăng kí tham gia các hoạt động văn nghệ, thể thao trong trường:\n<form action=\"dangki.php\">\n\nHo tén: <input type=\"text\" name=\"hoten\" value=\"\">\n\nEmail: <input type=\"email\" name=\"email\" value=\"\">\n\n<input type=\"submit\" value=\"Dang kí\">\n</form>\nCó một số nhận xét sau về đoạn mã trên:\na) Biểu mẫu này có hai ô nhập dữ liệu và một nút gửi dữ liệu.\nb) Giá trị của thuộc tính value ‘cua hai 6 nhập dữ liệu không được đề trồng.\ne) Nếu nhập dữ liệu vào biểu mau và nhắn nút Đăng ki thì dữ liệu được gửi đến trang dangki.php.\nd) Dé học sinh chỉ được lựa chọn một trong hai loại hoạt động Văn nghệ hoặc Thể thao khi đăng kí tham gia, cần chèn\nthêm hai dong sau vào đoạn mã tạo biểu mẫu trên:\n<input type=\"radio\" name=\"optvannghe\">Văn nghệ\n<input type=\"radio\" name=\"optthethao\">Thể thao",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-26",
+      "year": 2026,
+      "code": "0510",
+      "part": "II",
+      "number": 2,
+      "ocr_heading": "Câu 2. Một nhóm giảng viên của trường đại học A được cử đi tập huấn năng lực số cho cán bộ tại một số xã vùng cao.",
+      "raw_number_ocr": "2",
+      "type": "tf",
+      "track": "common",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        3
+      ],
+      "text_ocr": "Một nhóm giảng viên của trường đại học A được cử đi tập huấn năng lực số cho cán bộ tại một số xã vùng cao.\nĐịa điểm tập huấn tại các xã đã được trang bị đầy đủ hệ thống cáp quang và hạ tầng kết nối Internet. Trước khi lên\nđường, lãnh đạo nhà trường giao cho trưởng nhóm hai nhiệm vụ về hoạt động của nhóm: (1) gửi bao cáo vào cuối mỗi\nngày đến địa chi email baocao@dha.edu.vn; (2) ba ngày một lần, đăng các bài viết vào mục được phân công trên\nwebsite của trường tại địa chỉ https://dha.edu.vn. Khi tìm hiểu tình huống trên, có các nhận định sau:\na) hitps trong địa chỉ website https://dha.edu.vn là giao thức truyền tải thư điện tử.\nb) Tên miễn website của trường đại học A đóng vai trò là một địa chỉ thay thế cho địa chỉ IP của máy chủ web.\n©) Trong trường hợp máy chủ thư điện tử của trường đại học A thay đổi địa chỉ IP, trưởng nhóm vẫn có thẻ gửi báo cáo\nthành công đến dia chỉ email đã được cung cap.\nđ) Học viên cần sử dụng điện thoại thông minh kết nối trực tiếp vào bộ chuyển mach (Switch) dé xem tài liệu học tập\ndược cung cấp trên website của trường đại học A.\nB. Phần riêng\nThi sinh chỉ được phép chọn một trong hai phan: Khoa học máy tính (Câu 3 và Câu 4) hoặc Tin học ứng dụng (Câu 5\nvà Câu 6). Thí sinh không được tính điểm nếu làm cả hai phân.\n\nBI. Khoa học máy tinh",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-27",
+      "year": 2026,
+      "code": "0510",
+      "part": "II",
+      "number": 3,
+      "ocr_heading": "Câu 3. Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python và C++, trong đó A là một mảng gồm ø số nguyên dương:",
+      "raw_number_ocr": "3",
+      "type": "tf",
+      "track": "cs",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        3,
+        4
+      ],
+      "text_ocr": "Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python và C++, trong đó A là một mảng gồm ø số nguyên dương:\nDòng Python C++\n1 def F(A, n): int F(int A[], int n) {\n2 j= 0 int j = 0;\n3 for i in range(n): for (int i = 0; i < n; i++)\n4 if A[i] 3% 2 != 0: if (A[i] 3% 2 != 0) {\n5 if Alj] % 2 == 0: if (Alj] %2 == 0) (\n6 t = A[i] int t = A[il];\n7 Afi] = Alj] A[i] = A[7];\n8 Alj] =t A[j] = te\n9 3-541 }\n10 return A[0] + A[n - 1] J3 = j + 1;\n\nTrang 3/4 - Mã đề thi 0510\n11 }\n12 return A[0] + A[n - 1];\n13 }\n\nSau khi chọn một trong hai ngôn ngữ lập trình Python hoặc C++ đề tìm hiéu hàm trên, có các ý kiên sau:\n\na) Hàm # có hai tham só.\n\nb) Sau khi thực hiện hàm F, mang A không tồn tại phan tử có giá trị chan nào có chi số lớn hơn chỉ số của phần tử có\ngiá trị lẻ.\n\nc) Néu nhận vào hai đối sỐ, mảng 4 là (2, 7, 6, 7, 4, 3, 5) van = 7, thì hàm F trả về giá trị 9.\n\nđ) Với mảng A bắt ki, giả sử mang B được tạo ra bằng cách sao chép mảng 4 rồi hoán đổi vị trí của một số phan tử thì\nkết quả trả về của hai lần gọi hàm F(A, n) và F(B, n) là bằng nhau.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-28",
+      "year": 2026,
+      "code": "0510",
+      "part": "II",
+      "number": 4,
+      "ocr_heading": "Câu 4. Một hợp tác xã ứng dụng công nghệ IoT (Internet vạn vật) đề thu thập dữ liệu một cách tự động. Dữ liệu bao",
+      "raw_number_ocr": "4",
+      "type": "tf",
+      "track": "cs",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        4
+      ],
+      "text_ocr": "Một hợp tác xã ứng dụng công nghệ IoT (Internet vạn vật) đề thu thập dữ liệu một cách tự động. Dữ liệu bao\ngồm: loại đất, độ âm đất, nhiệt độ không khí, cường độ ánh sáng, giống cây trồng và được thu thập từ 2 000 lô đất trồng\ncây trong 5 vụ mùa. Cuối mỗi vụ mùa, các kĩ sư nông nghiệp của hợp tác xã sẽ đưa ra kết luận về tình trạng cây trồng\nlà khỏe mạnh hoặc bị sâu bệnh trên từng lô đất. Các kết luận được đưa ra dựa trên quan sát thực địa và được xem là\nthông tin đáng tin cậy. Dựa trên tập dữ liệu đã thu thập, hợp tác xã muốn sử dụng mô hình học may để xây dựng một\nhệ thống dự đoán tình trạng cây trồng cho lô đất mới. Có các nhận định như sau:\n\na) Bài toán dự đoán tình trạng cây trồng thuộc loại bài toán học máy có giám sát.\n\nb) Tinh trạng khỏe mạnh hoặc bị sâu bệnh là các nhãn cần dự đoán.\n\nc) Dé dự đoán về tình trang cây trồng cho một 16 đất mới, hệ thống có thé đưa ra kết quả mà không cần dữ liệu về thời\ntiết hay loại đất của lô đất đó.\n\nđ) Hệ thống có thé thay thé hoàn toàn kĩ sư nông nghiệp trong việc ra quyết định phun thuốc bảo vệ thực vật.\n\nB2. Tin học ứng dụng\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-29",
+      "year": 2026,
+      "code": "0510",
+      "part": "II",
+      "number": 5,
+      "ocr_heading": "Câu 5. Một chủ nông trại dùng phần mềm để quản lí dữ liệu về các vườn cây với cơ sở dữ liệu gồm các bảng sau:",
+      "raw_number_ocr": "5",
+      "type": "tf",
+      "track": "ict",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        4
+      ],
+      "text_ocr": "Một chủ nông trại dùng phần mềm để quản lí dữ liệu về các vườn cây với cơ sở dữ liệu gồm các bảng sau:\n\n« VUON_CAY(maVC, tenVC, diaDiem, dienTich) lưu mã vườn cây, tên vườn cây, địa điểm và diện tích của từng\nvườn; Mỗi mã vườn cây xác định duy nhất một vườn.\n\ns LOẠI CAY(naLC, tenLC) lưu mã loại cây, tên loại cây; Mỗi mã loại cây xác định duy nhất một loại cây.\n\ns THONG_KE(maVC, maLC, namTK, soLuong, sanLuong) lưu mã vườn cây, mã loại cây, năm thống kê, số đượng\nvà sản lượng của từng loại cây (tính bằng kilôgam) trong từng vườn theo năm; Mỗi vườn trồng một hoặc nhiêu loại\ncây, mỗi loại cây được trồng ở một sô vườn khác nhau.\n\nCó một số nhận xét như sau về việc sử dụng phần mềm dé tạo và khai thác cơ sở dữ liệu trên:\n\na) Để tạo cấu trúc bảng LOAI_ CAY, có các thao tác sau cần thực hiện: Tạo bảng mới; Đặt tên bảng; Tạo và xác định\nkiểu đữ liệu cho các trường: Thiết lập khóa chính.\n\nb) Trong bảng LOAI_ CAY, không thê thiết lập trường maLC có kiểu số nguyên và tự động tăng.\n\ne) Dé đảm bảo tính nhất quán của dữ liệu, khi nhập dữ liệu cho trường maVC của bảng THONG _KE, cần nhập giá trị\nlà một trong các giá trị đã có của trường maVC của bảng VUON_ CAY.\n\nd) Dé đưa ra thông tin gồm tên loại cây, tên vườn và sản lượng của các loại cây trong các vườn có sản lượng năm 2025\nlớn hơn 3 000 kilôgam, cần thực hiện truy van với các thành phan sau:\n\n« Các trường và bảng được chọn: LOAI_CAY.tenLC, VUON_CAY.tenVC, THONG_KE.sanLuong.\n\n« Các cặp bảng được liên kết qua khóa tương ứng: VUON_CAY và THONG_KE qua maVC; VUON_CAY và\nLOAI_CAY qua maLC.\n\n« Điều kiện truy van: THONG_KE.namTK = 2025 va THONG_KE.sanLuong > 3000.\n",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    },
+    {
+      "id": "draft-2026-0510-30",
+      "year": 2026,
+      "code": "0510",
+      "part": "II",
+      "number": 6,
+      "ocr_heading": "Câu 6. Một trường đại học phát động cuộc thi thiết kế website bằng phần mềm tạo trang web. Trong đó, yêu cầu",
+      "raw_number_ocr": "6",
+      "type": "tf",
+      "track": "ict",
+      "source_pdf": "data/exams/2026/TIN_HOC_2026_0510.pdf",
+      "source_pages": [
+        4
+      ],
+      "text_ocr": "Một trường đại học phát động cuộc thi thiết kế website bằng phần mềm tạo trang web. Trong đó, yêu cầu\nwebsite có các trang: Trang chủ, Giới thiệu, Tuyển dung. Trang chủ hiển thị các tin tức nổi bật về hoạt động của nhà\ntrường. Trang Giới thiệu có bải viết tóm tắt thông tin các khoa và liên kết đến trang chỉ tiết của từng khoa. Trang Tuyển\ndụng đăng thông báo tuyên dung và một biểu mẫu dé ứng viên nhập thông tin đăng kí dự tuyển. Một số người nhận xét\nnhư sau:\n\na) Nếu đưa logo của từng khoa vào trang Giới thiệu thì có thể thiết lập liên kết từng logo này đến trang chỉ tiết của\nkhoa tương ứng.\n\nb) Thanh điều hướng chỉ có ở Trang chủ đề người dùng dễ dàng di chuyền giữa các trang trong website.\n\ne) Có thé thiết kế biéu mẫu đã nêu bằng một công cụ trực tuyến phù hợp, sau đó chèn liên kết của biểu mẫu này vào\ntrang Tuyền dụng.\n\nd) Dé xem được nội dung của website sau khi xuất bản, máy tính của người dùng cần sử dụng phần mềm tao trang web.\n\n- Thí sinh không được sử dụng tài liệu;\n- Giám thị không giải thích gì thêm.\n\nTrang 4/4 - Mã đề thi 0510",
+      "answer": null,
+      "verification": "needs_review",
+      "parse_issues": [
+        "option_labels_not_reliably_recognized"
+      ]
+    }
+  ],
+  "structure_matches_expected": true,
+  "parser_version": 3,
+  "models_sha256": {
+    "vie": "79df64caf7bcfb2a27df5042ecb6121e196eada34da774956995747636d5bfa1",
+    "eng": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+  }
+}

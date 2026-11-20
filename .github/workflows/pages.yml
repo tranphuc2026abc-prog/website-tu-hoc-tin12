@@ -76,7 +76,9 @@ jobs:
         env:
           PW: ${{ github.workspace }}/node_modules/playwright
         run: |
-          python scripts/validate_graduation_exams.py --pdf-only
+          python scripts/validate_graduation_exams.py
+          node --test tests/graduation-core.test.cjs
+          python tests/test_graduation_ocr.py
           node tests/graduation-e2e.js
 
       - name: Prepare GitHub Pages artifact
