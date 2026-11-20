@@ -139,7 +139,7 @@
       "path": "data/exams/2025/TIN_HOC_2025_0513.pdf",
       "bytes": 502952,
       "sha256": "01cfa0d18470573b664b7b1739ff9831e13268bb94bd76b6a6325d63dca13ce9",
-      "status": "ocr_draft_needs_review",
+      "status": "verified_question_bank",
       "pages": 4,
       "text_chars": 0,
       "ocr_draft": "data/exams/ocr-drafts/2025/0513.json"
@@ -150,7 +150,7 @@
       "path": "data/exams/2025/TIN_HOC_2025_0514.pdf",
       "bytes": 514544,
       "sha256": "5642a32c6faddf1121597d7fc3a92045eb614d45eeef907725dd3c293ae25e7b",
-      "status": "ocr_draft_needs_review",
+      "status": "verified_question_bank",
       "pages": 4,
       "text_chars": 0,
       "ocr_draft": "data/exams/ocr-drafts/2025/0514.json"
@@ -161,7 +161,7 @@
       "path": "data/exams/2025/TIN_HOC_2025_0515.pdf",
       "bytes": 513588,
       "sha256": "5a77bb01377930561e4cf78d6eaaa80f748db7409633c25b8166b4dba2b087eb",
-      "status": "ocr_draft_needs_review",
+      "status": "verified_question_bank",
       "pages": 4,
       "text_chars": 0,
       "ocr_draft": "data/exams/ocr-drafts/2025/0515.json"
@@ -172,7 +172,7 @@
       "path": "data/exams/2025/TIN_HOC_2025_0516.pdf",
       "bytes": 524394,
       "sha256": "92fc96f033a066d880fde8d9a7990be1f86a27169a2553706f969276724acf84",
-      "status": "ocr_draft_needs_review",
+      "status": "verified_question_bank",
       "pages": 4,
       "text_chars": 0,
       "ocr_draft": "data/exams/ocr-drafts/2025/0516.json"
@@ -1060,6 +1060,6 @@
   ],
   "question_status": "partially_verified",
   "answer_2026": "official_pdf_available; 0501 key transcribed; no verified paper joined",
-  "verified_questions": 360,
-  "verified_papers": 12
+  "verified_questions": 480,
+  "verified_papers": 16
 }

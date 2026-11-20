@@ -11,7 +11,7 @@ manifest=json.loads((base/"manifest.json").read_text(encoding="utf-8"))
 verified_papers=[json.loads((ROOT/p).read_text(encoding="utf-8")) for items in manifest.get("papers",{}).values() for p in items.values()]
 verified_keys={(p["year"],p["code"]) for p in verified_papers if p["status"]=="verified"}
 stats={
- "schema_version":1,"date":"2026-11-20","base_commit":"c834075229c99c76cfea18fb1b28f16bb7a8716f",
+ "schema_version":1,"date":"2026-11-20","base_commit":"ae03eb3c3c1d05c2602e15090e76532e8751fbfb",
  "pdfs":96,"pdf_pages":384,"ocr_papers":len(rows),"ocr_pages":sum(len(r["pages"]) for r in rows),
  "ocr_candidate_questions":sum(len(r["candidates"]) for r in rows),
  "ocr_four_options_parsed":sum("options_ocr" in q for r in rows for q in r["candidates"]),
