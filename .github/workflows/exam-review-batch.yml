@@ -10,6 +10,10 @@ on:
         description: Number of pending papers to prepare (1–8)
         default: "8"
         type: string
+      start_offset:
+        description: Zero-based offset in the remaining papers (0, 8, 16, ...)
+        default: "0"
+        type: string
 
 permissions:
   contents: read
@@ -33,6 +37,7 @@ jobs:
       - name: Render sources and prepare OCR for visual review
         env:
           BATCH_SIZE: ${{ inputs.batch_size || '8' }}
+          START_OFFSET: ${{ inputs.start_offset || '0' }}
           SOURCE_COMMIT: ${{ github.sha }}
         run: |
           python - <<'PY'
@@ -71,6 +76,9 @@ jobs:
                   return len(pdf)
 
           size = int(os.environ["BATCH_SIZE"])
+          offset = int(os.environ["START_OFFSET"])
+          if offset < 0:
+              raise ValueError("start_offset must be >= 0")
           if not 1 <= size <= 8:
               raise ValueError("batch_size must be between 1 and 8")
           data = Path("data/exams")
@@ -87,16 +95,31 @@ jobs:
           report = {
               "source_commit": os.environ["SOURCE_COMMIT"],
               "status": "pending_visual_and_answer_review",
+              "start_offset": offset,
+              "batch_size": size,
+              "total_remaining": len(remaining),
+              "selected_codes": [],
               "answers": {},
               "papers": [],
           }
-          for year, code in remaining[:size]:
+          selected = remaining[offset:offset + size]
+          if not selected:
+              raise ValueError(f"No remaining papers at offset {offset}; total {len(remaining)}")
+          for year, code in selected:
+              report["selected_codes"].append(f"{year}-{code}")
               if code in manifest.get("papers", {}).get(year, {}):
                   raise ValueError(f"Published paper still appears as pending: {year}-{code}")
               if year not in report["answers"]:
                   answer = Path(manifest["answers"][year])
                   pages = render(answer, output / year / "answers")
                   report["answers"][year] = {"path": str(answer), "sha256": digest(answer), "pages": pages}
+                  for page_image in sorted((output / year / "answers").glob("page-*.png")):
+                      result = subprocess.run(
+                          ["tesseract", str(page_image), "stdout", "-l", "vie+eng", "--psm", "6"],
+                          text=True, encoding="utf-8", capture_output=True,
+                          check=True, timeout=90,
+                      )
+                      page_image.with_suffix(".ocr.txt").write_text(result.stdout, encoding="utf-8")
               source = Path(manifest["files"][year][code])
               target = output / year / code
               pages = render(source, target, expected_pages=4, ocr=True)
@@ -109,6 +132,13 @@ jobs:
                   "source_sha256": digest(source), "files_sha256": files,
               })
               print(f"Prepared {year}-{code}: {pages} pages for visual review")
+          (output / "NEXT-STEPS.txt").write_text(
+              "Review the original PDF images against OCR text and official answer columns.\\n"
+              "Do not mark a paper verified from OCR alone.\\n"
+              "This package is source evidence, not a released exam.\\n"
+              f"Prepared {len(report['papers'])} codes; remaining total {len(remaining)}.\\n",
+              encoding="utf-8",
+          )
           (output / "batch-report.json").write_text(
               json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
           )
@@ -120,3 +150,20 @@ jobs:
           path: exam-review-artifacts/
           if-no-files-found: error
           retention-days: 30
+      - name: Write GitHub Actions summary
+        if: always()
+        run: |
+          echo '## Graduation exam review on Ubuntu' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f exam-review-artifacts/batch-report.json ]; then
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          r = json.loads(Path("exam-review-artifacts/batch-report.json").read_text(encoding="utf-8"))
+          print(f"- Remaining papers at run start: {r['total_remaining']}")
+          print(f"- Offset: {r['start_offset']}; prepared: {len(r['papers'])}")
+          print("- Prepared codes: " + ", ".join(r["selected_codes"]))
+          print("- Status: source evidence prepared; **not verified or released**")
+          PY
+          else
+            echo '- Review package not generated; inspect job logs.' >> "$GITHUB_STEP_SUMMARY"
+          fi
