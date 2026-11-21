@@ -1,0 +1,122 @@
+name: Prepare graduation exam review batch
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/exam-review-batch.yml
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: Number of pending papers to prepare (1–8)
+        default: "4"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PDF and OCR tools
+        run: |
+          python -m pip install pymupdf
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-vie
+      - name: Render sources and prepare OCR for visual review
+        env:
+          BATCH_SIZE: ${{ inputs.batch_size || '4' }}
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          import shutil
+          import subprocess
+          from pathlib import Path
+
+          import pymupdf
+
+          def read_json(path):
+              return json.loads(path.read_text(encoding="utf-8"))
+
+          def digest(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()
+
+          def render(pdf_path, destination, expected_pages=None, ocr=False):
+              destination.mkdir(parents=True)
+              with pymupdf.open(pdf_path) as pdf:
+                  if not len(pdf) or (expected_pages is not None and len(pdf) != expected_pages):
+                      raise ValueError(f"Unexpected page count in {pdf_path}: {len(pdf)}")
+                  for index, page in enumerate(pdf, start=1):
+                      image = destination / f"page-{index:02}.png"
+                      page.get_pixmap(dpi=220, alpha=False).save(image)
+                      if ocr:
+                          result = subprocess.run(
+                              ["tesseract", str(image), "stdout", "-l", "vie+eng", "--psm", "3"],
+                              text=True, encoding="utf-8", capture_output=True,
+                              check=True, timeout=90,
+                          )
+                          if not result.stdout.strip():
+                              raise ValueError(f"Empty OCR output for {image}")
+                          image.with_suffix(".ocr.txt").write_text(result.stdout, encoding="utf-8")
+                  return len(pdf)
+
+          size = int(os.environ["BATCH_SIZE"])
+          if not 1 <= size <= 8:
+              raise ValueError("batch_size must be between 1 and 8")
+          data = Path("data/exams")
+          manifest = read_json(data / "manifest.json")
+          checkpoint = data / "ocr-progress.json"
+          remaining = sorted(
+              (str(row["year"]), row["code"]) for row in read_json(checkpoint)["remaining"]
+          )
+          if len(remaining) != len(set(remaining)):
+              raise ValueError("Duplicate papers in checkpoint")
+          output = Path("exam-review-artifacts")
+          output.mkdir()
+          shutil.copyfile(checkpoint, output / checkpoint.name)
+          report = {
+              "source_commit": os.environ["SOURCE_COMMIT"],
+              "status": "pending_visual_and_answer_review",
+              "answers": {},
+              "papers": [],
+          }
+          for year, code in remaining[:size]:
+              if code in manifest.get("papers", {}).get(year, {}):
+                  raise ValueError(f"Published paper still appears as pending: {year}-{code}")
+              if year not in report["answers"]:
+                  answer = Path(manifest["answers"][year])
+                  pages = render(answer, output / year / "answers")
+                  report["answers"][year] = {"path": str(answer), "sha256": digest(answer), "pages": pages}
+              source = Path(manifest["files"][year][code])
+              target = output / year / code
+              pages = render(source, target, expected_pages=4, ocr=True)
+              draft = data / "ocr-drafts" / year / f"{code}.json"
+              read_json(draft)
+              shutil.copyfile(draft, target / "existing-ocr-draft.json")
+              files = {item.name: digest(item) for item in sorted(target.iterdir())}
+              report["papers"].append({
+                  "year": year, "code": code, "source": str(source), "pages": pages,
+                  "source_sha256": digest(source), "files_sha256": files,
+              })
+              print(f"Prepared {year}-{code}: {pages} pages for visual review")
+          (output / "batch-report.json").write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+          )
+          PY
+      - name: Upload review package
+        uses: actions/upload-artifact@v4
+        with:
+          name: graduation-exam-review-batch
+          path: exam-review-artifacts/
+          if-no-files-found: error
+          retention-days: 30
