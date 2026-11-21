@@ -191,3 +191,58 @@ jobs:
           else
             echo '- Review package not generated; inspect job logs.' >> "$GITHUB_STEP_SUMMARY"
           fi
+
+  export-next-2025:
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.head_ref == 'review/export-2025-0529'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Render reference pages as directly readable GitHub files
+        run: |
+          python -m pip install pymupdf
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import pymupdf
+
+          output = Path("review-evidence")
+          manifest = json.loads(Path("data/exams/manifest.json").read_text())
+          sources = {
+              f"2025-{code}/exam": manifest["files"]["2025"][code]
+              for code in (f"{value:04}" for value in range(530, 549))
+          }
+          for kind, source in sources.items():
+              with pymupdf.open(source) as pdf:
+                  for number, page in enumerate(pdf, start=1):
+                      zoom = 2.4
+                      for side, bounds in enumerate((page.rect,), start=1):
+                          pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom),
+                                                   clip=bounds, colorspace=pymupdf.csGRAY)
+                          stem = output / f"{kind}-{number:02}"
+                          stem.parent.mkdir(parents=True, exist_ok=True)
+                          raw = pix.tobytes("png")
+                          if len(raw) <= 700_000:
+                              stem.with_suffix(".png").write_bytes(raw)
+                          else:
+                              for index in range(3):
+                                  rect = page.rect
+                                  band = pymupdf.Rect(rect.x0, rect.y0 + rect.height * index / 3 - 8,
+                                                      rect.x1, rect.y0 + rect.height * (index + 1) / 3 + 8)
+                                  page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom),
+                                                     clip=band, colorspace=pymupdf.csGRAY).save(
+                                                         stem.parent / f"{stem.name}-{index + 1}.png")
+                          print(f"{kind} page {number}")
+          PY
+      - name: Publish images to the review evidence branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add review-evidence
+          git commit -m 'Render original 2025 exams 0530 through 0548 for review'
+          git push origin HEAD:refs/heads/review/evidence-2025-0530-0548
