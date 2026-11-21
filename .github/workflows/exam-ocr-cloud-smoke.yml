@@ -1,0 +1,77 @@
+name: Graduation OCR cloud environment smoke test
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/exam-ocr-cloud-smoke.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ocr-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDF and Vietnamese OCR prerequisites
+        run: |
+          python -m pip install --disable-pip-version-check pymupdf pillow
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-vie
+          python --version
+          tesseract --version
+          tesseract --list-langs
+
+      - name: Read source PDF, answer PDFs, and OCR a page
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          import pymupdf
+
+          paths = {
+              "source_2025_0525": Path("data/exams/2025/TIN_HOC_2025_0525.pdf"),
+              "answers_2025": Path("data/exams/answers/2025.pdf"),
+              "answers_2026": Path("data/exams/answers/2026.pdf"),
+          }
+          out = Path("ocr-smoke-artifacts")
+          out.mkdir(exist_ok=True)
+          for label, path in paths.items():
+              assert path.is_file(), f"Missing PDF: {path}"
+              with pymupdf.open(path) as pdf:
+                  assert len(pdf) > 0, f"Empty PDF: {path}"
+                  if label == "source_2025_0525":
+                      assert len(pdf) == 4, f"Expected four source pages, found {len(pdf)}"
+                  png = out / f"{label}-page1.png"
+                  pdf[0].get_pixmap(matrix=pymupdf.Matrix(1.7, 1.7)).save(str(png))
+                  print(f"{label}: {len(pdf)} pages; rendered {png}")
+
+          source_image = out / "source_2025_0525-page1.png"
+          run = subprocess.run(
+              ["tesseract", str(source_image), "stdout", "-l", "vie+eng", "--psm", "3"],
+              capture_output=True, text=True, check=True, timeout=90,
+          )
+          text = run.stdout.strip()
+          (out / "source-0525-ocr.txt").write_text(text, encoding="utf-8")
+          assert len(text) >= 100, f"OCR unexpectedly short: {len(text)} characters"
+          print(f"PASS: Python, PyMuPDF, PDFs, Vietnamese Tesseract OCR ({len(text)} characters)")
+          print("NOTE: This is an environment smoke test, not verification of exam questions or answers.")
+          PY
+
+      - name: Upload diagnostic images and draft OCR
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: exam-ocr-environment-smoke
+          path: ocr-smoke-artifacts/
+          if-no-files-found: warn
+          retention-days: 7
