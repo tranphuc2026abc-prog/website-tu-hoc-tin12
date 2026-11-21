@@ -200,6 +200,13 @@ jobs:
       actions: read
       contents: read
     steps:
+      - name: Identify the Ubuntu data build for 2026-0501
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          gh api "repos/$REPOSITORY/actions/runs?branch=feat%2Fverify-2026-0501&event=push&per_page=8" \
+            --jq '.workflow_runs[] | {id, name, head_sha, status, conclusion}'
       - name: Check Pages serves the newly released exams
         run: |
           python - <<'PY'
@@ -215,11 +222,11 @@ jobs:
               try:
                   assert b"test-start" in read("de-thi-tot-nghiep.html")
                   manifest = json.loads(read("data/exams/manifest.json"))
-                  for code in ("0529", "0530", "0531"):
+                  for code in ("0529", "0530", "0531", "0532", "0533", "0534", "0535"):
                       paper = json.loads(read(manifest["papers"]["2025"][code]))
                       assert paper["status"] == "verified" and len(paper["question_ids"]) == 30
                       assert set(paper["tracks"]) == {"ict", "cs"} and paper["scored_question_count"] == 28
-                  print("GitHub Pages serves verified 0529, 0530 and 0531 for both tracks")
+                  print("GitHub Pages serves verified 0529 through 0535 for both tracks")
                   break
               except (OSError, ValueError, KeyError, AssertionError) as error:
                   if attempt == 19:
