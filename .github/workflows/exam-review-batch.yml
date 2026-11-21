@@ -8,7 +8,7 @@ on:
     inputs:
       batch_size:
         description: Number of pending papers to prepare (1–8)
-        default: "4"
+        default: "8"
         type: string
 
 permissions:
@@ -32,7 +32,7 @@ jobs:
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-vie
       - name: Render sources and prepare OCR for visual review
         env:
-          BATCH_SIZE: ${{ inputs.batch_size || '4' }}
+          BATCH_SIZE: ${{ inputs.batch_size || '8' }}
           SOURCE_COMMIT: ${{ github.sha }}
         run: |
           python - <<'PY'
