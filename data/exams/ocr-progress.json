@@ -159,21 +159,22 @@
       "code": "0525",
       "questions": 30,
       "scored_per_track": 28
+    },
+    {
+      "year": 2025,
+      "code": "0526",
+      "questions": 30,
+      "scored_per_track": 28
     }
   ],
-  "verified_questions": 750,
-  "confirmed_duplicates_in_verified_bank": 690,
+  "verified_questions": 780,
+  "confirmed_duplicates_in_verified_bank": 720,
   "global_duplicates_status": "not_reviewed",
-  "answers_2025_matched_questions": 750,
+  "answers_2025_matched_questions": 780,
   "answers_2026_transcribed_questions": 30,
   "answers_2026_matched_to_verified_questions": 0,
   "drafts_are_scored": false,
   "remaining": [
-    {
-      "year": 2025,
-      "code": "0526",
-      "status": "needs_visual_and_answer_review"
-    },
     {
       "year": 2025,
       "code": "0527",
@@ -529,6 +530,7 @@
     "Heading sequence checks do not verify OCR content or programming syntax.",
     "Verified occurrences also exist in OCR drafts; do not sum OCR and verified occurrence counts.",
     "All 96 PDFs and every lesson/source/question bank for grades 10-11-12 remain unchanged.",
-    "2025/0525: four source pages + official 2025 answer column visually compared; 24 MCQ option permutations and six T/F answers verified; source images, test run and build recorded in workflow 44855807909."
+    "2025/0525: four source pages + official 2025 answer column visually compared; 24 MCQ option permutations and six T/F answers verified; source images, test run and build recorded in workflow 44855807909.",
+    "2025/0526: four page images and official answer column visually compared, 24 MCQ template orders and six TF sets validated; Ubuntu build and tests passed."
   ]
 }
