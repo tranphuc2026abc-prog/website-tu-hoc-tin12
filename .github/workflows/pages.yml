@@ -13,12 +13,14 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'deploy' }}
   cancel-in-progress: true
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    outputs:
+      exam_manifest_sha: ${{ steps.exam-manifest.outputs.sha }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -81,6 +83,10 @@ jobs:
           python tests/test_graduation_ocr.py
           node tests/graduation-e2e.js
 
+      - name: Record the validated exam manifest digest
+        id: exam-manifest
+        run: echo "sha=$(sha256sum data/exams/manifest.json | cut -d ' ' -f 1)" >> "$GITHUB_OUTPUT"
+
       - name: Prepare GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -97,3 +103,20 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify the new exam manifest on GitHub Pages
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_SHA: ${{ needs.validate.outputs.exam_manifest_sha }}
+        run: |
+          set -euo pipefail
+          for attempt in {1..12}; do
+            if curl --fail --silent --show-error --location --max-time 15 \
+              "${PAGE_URL%/}/data/exams/manifest.json?revision=${GITHUB_SHA}&attempt=${attempt}" -o /tmp/exam-manifest.json \
+              && printf '%s  %s\n' "$EXPECTED_SHA" /tmp/exam-manifest.json | sha256sum --check; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "The public exam manifest did not match the validated artifact." >&2
+          exit 1
