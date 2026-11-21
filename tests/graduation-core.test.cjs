@@ -6,4 +6,20 @@ const papers=Object.values(manifest.papers).flatMap(rows=>Object.values(rows)).m
 test('all released occurrences have verified provenance and unique IDs',()=>{assert.equal(bank.length,papers.length*30);assert.equal(bank.filter(q=>C.valid(q)).length,bank.length);assert.equal(new Set(bank.map(q=>q.id)).size,bank.length);});
 for(const paper of papers)for(const track of ['ict','cs'])test(paper.year+'/'+paper.code+' '+track+' order, isolation, 10/0 and partial TF',()=>{const rows=C.originalPaper(bank,paper,track);assert.equal(rows.length,28);assert.equal(rows.filter(q=>q.type==='mcq').length,24);assert.equal(rows.filter(q=>q.type==='tf'&&q.track==='common').length,2);assert.equal(rows.filter(q=>q.type==='tf'&&q.track===track).length,2);assert.ok(rows.every(q=>q.code===paper.code&&q.year===paper.year));assert.ok(!rows.some(q=>q.track!=='common'&&q.track!==track));assert.deepEqual(rows.slice(0,24).map(q=>q.number),Array.from({length:24},(_,i)=>i+1));const answers=Object.fromEntries(rows.map((q,i)=>[i,q.answer]));assert.equal(C.grade(rows,answers).score,10);assert.equal(C.grade(rows,{}).score,0);const partial={};for(let i=24;i<28;i++){const hits=i-23;partial[i]=rows[i].answer.map((a,j)=>j<hits?a:!a);}assert.equal(C.grade(rows,partial).score,1.85);});
 test('unverified or incorrectly mapped occurrences are rejected',()=>{const paper=papers[0],i=bank.findIndex(q=>q.id===paper.question_ids[0]);for(const bad of [{verification:'needs_review'},{answer:null},{answer_source:{kind:'reference'}},{source_sha256:''}]){const altered=bank.map((q,j)=>j===i?{...q,...bad}:q);assert.ok(!C.valid(altered[i]));assert.equal(C.originalPaper(altered,paper,'ict'),null);}assert.equal(C.originalPaper(bank,{...paper,question_ids:[...paper.question_ids.slice(0,29),paper.question_ids[0]]},'ict'),null);assert.equal(C.originalPaper(bank,{...paper,code:'0548'},'ict'),null);assert.throws(()=>C.grade(C.originalPaper(bank,paper,'ict').slice(0,27),{}));});
-test('random practice deduplicates; original occurrences stay intact',()=>{const unique=C.unique(bank);assert.equal(unique.length,new Set(bank.map(q=>q.canonical_id)).size);assert.equal(bank.length,papers.length*30);for(const track of ['ict','cs']){const rows=C.randomPaper(bank,'2025',track);assert.equal(rows.length,28);assert.equal(new Set(rows.map(q=>q.canonical_id)).size,28);assert.ok(rows.every(q=>q.track==='common'||q.track===track));}assert.equal(C.randomPaper(bank,'2026','ict'),null);});
+test('random practice deduplicates within the requested year', () => {
+  const unique = C.unique(bank);
+  assert.equal(unique.length, new Set(bank.map(q => q.canonical_id)).size);
+  assert.equal(bank.length, papers.length * 30);
+  for (const year of ['2025', '2026']) {
+    for (const track of ['ict', 'cs']) {
+      const rows = C.randomPaper(bank, year, track);
+      if (!papers.some(paper => String(paper.year) === year)) {
+        assert.equal(rows, null);
+        continue;
+      }
+      assert.equal(rows.length, 28);
+      assert.equal(new Set(rows.map(q => q.canonical_id)).size, 28);
+      assert.ok(rows.every(q => String(q.year) === year && (q.track === 'common' || q.track === track)));
+    }
+  }
+});

@@ -1,0 +1,485 @@
+{
+  "status": "reviewed_content_templates_not_papers",
+  "sources": [
+    "2026/0501"
+  ],
+  "note": "Each occurrence requires source-image and option-order review.",
+  "templates": [
+    {
+      "template_id": "A-I-1",
+      "type": "mcq",
+      "prompt": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau: Sau khi thực hiện đoạn chương trình trên, biến T có giá trị nào sau đây?",
+      "options": [
+        "6.",
+        "-5.",
+        "2.",
+        "-11."
+      ],
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "L = [2, 5, 4]\nk, n, T = 1, 3, 0\nfor i in range(0, n):\n    for j in range(0, i + 1):\n        T = T + k * L[j]\n    k = -1 * k"
+        },
+        {
+          "language": "cpp",
+          "code": "int k = 1, n = 3, T = 0, L[] = {2, 5, 4};\nfor (int i = 0; i < n; i++) {\n    for (int j = 0; j < i + 1; j++) {\n        T = T + k * L[j];\n    }\n    k = -1 * k;\n}"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "template_id": "A-I-2",
+      "type": "mcq",
+      "prompt": "Phương án nào sau đây liệt kê đơn vị đo dung lượng bộ nhớ theo thứ tự giảm dần?",
+      "options": [
+        "Terabyte, Kilobyte, Megabyte.",
+        "Megabyte, Kilobyte, Terabyte.",
+        "Terabyte, Megabyte, Kilobyte.",
+        "Megabyte, Terabyte, Kilobyte."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "A-I-3",
+      "type": "mcq",
+      "prompt": "Phương án nào sau đây chỉ ra ưu điểm của giao tiếp trên không gian mạng?",
+      "options": [
+        "Luôn quan sát được thái độ của người nói.",
+        "Tạo cơ hội mở rộng các mối quan hệ xã hội.",
+        "Không phụ thuộc vào thiết bị công nghệ.",
+        "Đảm bảo tin cậy và bảo mật thông tin tuyệt đối."
+      ],
+      "code_blocks": [],
+      "answer": 1
+    },
+    {
+      "template_id": "A-I-4",
+      "type": "mcq",
+      "prompt": "Cặp thẻ HTML nào sau đây được dùng để tạo các mục của danh sách?",
+      "options": [
+        "<ul> </ul>",
+        "<td> </td>",
+        "<li> </li>",
+        "<ol> </ol>"
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "A-I-5",
+      "type": "mcq",
+      "prompt": "Đoạn mã CSS nào sau đây được áp dụng để định dạng đoạn văn bản theo cỡ chữ 20 pixel với đường viền bao quanh là các dấu chấm liền nhau màu đen?",
+      "options": [
+        "p{font-size: 20px; border-style: solid;}",
+        "p{font-size: 20px; border-style: dotted;}",
+        "p{font-size: 20pt; border-style: solid;}",
+        "p{font-size: 20pt; border-style: dotted;}"
+      ],
+      "code_blocks": [],
+      "answer": 1
+    },
+    {
+      "template_id": "A-I-6",
+      "type": "mcq",
+      "prompt": "Cách ứng xử nào sau đây thể hiện tính nhân văn khi thấy một người bạn thường xuyên chia sẻ các thông tin chưa được kiểm chứng lên mạng xã hội?",
+      "options": [
+        "Nhắn tin riêng phân tích và khuyên nhủ bạn.",
+        "Công khai phê phán về hành động của bạn.",
+        "Lập nhóm riêng với các bạn khác để bàn luận.",
+        "Hủy kết nối với bạn đó trên mạng xã hội."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "A-I-7",
+      "type": "mcq",
+      "prompt": "Hệ thống camera thông minh của một bãi giữ xe được trang bị khả năng nhận dạng biển số xe. Chức năng xử lí dữ liệu hình ảnh của camera này thuộc lĩnh vực nào sau đây của Trí tuệ nhân tạo?",
+      "options": [
+        "Xử lí tiếng nói.",
+        "Điều khiển rô-bốt.",
+        "Thị giác máy tính.",
+        "Xử lí ngôn ngữ tự nhiên."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "A-I-8",
+      "type": "mcq",
+      "prompt": "Cho đoạn mã HTML và CSS sau. Khi thực hiện đoạn mã trên, dòng chữ “Tin học” sẽ được hiển thị trên trình duyệt theo định dạng nào dưới đây?",
+      "options": [
+        "Màu vàng, in đậm và không nghiêng.",
+        "Màu đỏ, in đậm và nghiêng.",
+        "Màu đỏ, in nghiêng và không đậm.",
+        "Màu vàng, in đậm và nghiêng."
+      ],
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<html> <head> <style> .tieude{color: yellow; font-weight: bold;}\n                     #tieude{color: red; font-style: italic;}\n</style> </head> <body> <h2 id=\"tieude\" class=\"tieude\">Tin học</h2> </body> </html>"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "template_id": "A-I-9",
+      "type": "mcq",
+      "prompt": "Ứng dụng nào sau đây là một Chatbot có sử dụng Trí tuệ nhân tạo?",
+      "options": [
+        "Copilot.",
+        "Notepad.",
+        "Geogebra.",
+        "WinRAR."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "A-I-10",
+      "type": "mcq",
+      "prompt": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau: Sau khi thực hiện đoạn chương trình trên, giá trị nào sau đây được hiển thị trên màn hình?",
+      "options": [
+        "4.",
+        "21.",
+        "3.",
+        "20."
+      ],
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "x, a, b = 1, 4, 8\nwhile (a < b):\n    if (x < a): x = x * a\n    else: x = x // a\n    a = a + 1\nprint(x)"
+        },
+        {
+          "language": "cpp",
+          "code": "int x = 1, a = 4, b = 8;\nwhile (a < b) {\n    if (x < a) x = x * a;\n    else x = x / a;\n    a = a + 1;\n}\ncout << x;"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "template_id": "A-I-11",
+      "type": "mcq",
+      "prompt": "Phát biểu nào sau đây nêu đúng chức năng chính của Switch?",
+      "options": [
+        "Phân giải tên miền thành địa chỉ IP dưới dạng nhị phân.",
+        "Định danh các máy tính có trong mạng thông qua địa chỉ IPv4.",
+        "Định tuyến cho gói dữ liệu khi truyền đi giữa các mạng.",
+        "Chuyển dữ liệu đến đúng thiết bị nhận thông qua địa chỉ MAC."
+      ],
+      "code_blocks": [],
+      "answer": 3
+    },
+    {
+      "template_id": "A-I-12",
+      "type": "mcq",
+      "prompt": "Thành phần nào sau đây thuộc hệ cơ sở dữ liệu?",
+      "options": [
+        "Không gian lưu trữ đám mây.",
+        "Hệ quản trị cơ sở dữ liệu.",
+        "Máy chủ dữ liệu của tổ chức.",
+        "Tập hợp các trang tính."
+      ],
+      "code_blocks": [],
+      "answer": 1
+    },
+    {
+      "template_id": "A-I-13",
+      "type": "mcq",
+      "prompt": "Một học sinh đã tạo siêu liên kết sau trong một trang web. Cần thực hiện đoạn mã HTML nào sau đây để khi nhấn vào liên kết này người dùng được điều hướng đến vùng nhập dữ liệu có 10 dòng 8 cột trong cùng trang web trên?",
+      "options": [
+        "<textarea name=\"binhluan\" rows=\"10\" cols=\"8\"></textarea>",
+        "<textarea id=\"binhluan\" rows=\"8\" cols=\"10\"></textarea>",
+        "<textarea name=\"binhluan\" rows=\"8\" cols=\"10\"></textarea>",
+        "<textarea id=\"binhluan\" rows=\"10\" cols=\"8\"></textarea>"
+      ],
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<a href=\"#binhluan\">Bình luận</a>"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "template_id": "A-I-14",
+      "type": "mcq",
+      "prompt": "Việc chia sẻ một thư mục trên máy tính với quyền sửa cho một hoặc một nhóm người dùng trên các máy tính khác trong cùng mạng LAN có các thao tác sau:\n(1) Tìm và chọn thư mục cần chia sẻ trên máy tính.\n(2) Thiết lập quyền sửa cho người dùng.\n(3) Chọn tên một hoặc nhóm người dùng cần được chia sẻ.\n(4) Mở ứng dụng quản lí tệp.\nPhương án nào sau đây nêu đúng thứ tự thực hiện các thao tác trên?",
+      "options": [
+        "(4), (1), (3), (2).",
+        "(4), (3), (1), (2).",
+        "(1), (4), (2), (3).",
+        "(1), (3), (2), (4)."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "A-I-15",
+      "type": "mcq",
+      "prompt": "Nhận định nào sau đây phản ánh đúng một rủi ro về an toàn thông tin do ảnh hưởng của Trí tuệ nhân tạo?",
+      "options": [
+        "Trí tuệ nhân tạo có thể bị lợi dụng để tạo ra các nội dung giả mạo.",
+        "Trí tuệ nhân tạo khiến cho tốc độ truyền dữ liệu qua Internet bị chậm lại.",
+        "Dung lượng bộ nhớ trên các thiết bị lưu trữ của người dùng giảm đáng kể.",
+        "Chi phí đầu tư hạ tầng mạng Internet tăng cao do yêu cầu xử lí dữ liệu lớn."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "A-I-16",
+      "type": "mcq",
+      "prompt": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau: Giả sử a và b là hai số nguyên dương khác nhau, sau khi thực hiện đoạn chương trình trên, n là số nguyên dương thỏa mãn tính chất nào sau đây?",
+      "options": [
+        "Nhỏ nhất và chia hết cho a hoặc b.",
+        "Nhỏ nhất và chia hết cho cả a và b.",
+        "Lớn nhất và là ước số của a hoặc b.",
+        "Lớn nhất và là ước số của cả a và b."
+      ],
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "n = 1\nwhile n % a != 0 and n % b != 0:\n    n = n + 1"
+        },
+        {
+          "language": "cpp",
+          "code": "int n = 1;\nwhile (n % a != 0 && n % b != 0)\n    n = n + 1;"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "template_id": "A-I-17",
+      "type": "mcq",
+      "prompt": "Nhiệm vụ nào sau đây thể hiện đặc trưng tạo nội dung mới của Trí tuệ nhân tạo tạo sinh?",
+      "options": [
+        "Chẩn đoán bệnh dựa trên việc phân loại hình ảnh chụp X-quang.",
+        "Tạo ra đoạn mã chương trình từ mô tả yêu cầu bằng ngôn ngữ tự nhiên.",
+        "Nhận diện và đếm số lượng phương tiện giao thông trong một bức ảnh.",
+        "Dự báo lượng mưa dựa trên dữ liệu khí tượng của mười năm trước đó."
+      ],
+      "code_blocks": [],
+      "answer": 1
+    },
+    {
+      "template_id": "A-I-18",
+      "type": "mcq",
+      "prompt": "Cho đoạn mã HTML và CSS sau. Đoạn mã trên định dạng dòng chữ “Chúc em thi tốt!” với các thuộc tính cỡ chữ, vùng lề, vùng đệm tương ứng với các giá trị nào sau đây?",
+      "options": [
+        "30px, 20px, 25px.",
+        "25px, 20px, 30px.",
+        "20px, 30px, 25px.",
+        "25px, 30px, 20px."
+      ],
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<style> p {font-size: 25px; padding: 30px; margin: 20px;} </style>\n<body> <p>Chúc em thi tốt!</p> </body>"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "template_id": "A-I-19",
+      "type": "mcq",
+      "prompt": "Bảng dữ liệu các bộ phim được công chiếu tại một rạp chiếu phim có các cột sau: Mã phim, Tên phim, Loại phim, Thời lượng, Ngày khởi chiếu, Giá vé. Cần thực hiện khai thác dữ liệu từ bảng này trong trường hợp nào sau đây?",
+      "options": [
+        "Đưa ra tên các bộ phim được chiếu từ ngày 20/11/2025.",
+        "Xóa khỏi bảng các bộ phim có thời lượng ít hơn 60 phút.",
+        "Điều chỉnh lại giá vé của các bộ phim khoa học viễn tưởng.",
+        "Bổ sung thêm các bộ phim được phát hành mới nhất."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "A-I-20",
+      "type": "mcq",
+      "prompt": "Trong một buổi học trực tuyến, một bạn liên tục ngắt lời cô giáo để đặt câu hỏi. Bạn lớp trưởng nên xử lí tình huống này theo cách nào sau đây để đảm bảo mọi người trong lớp đều được tôn trọng?",
+      "options": [
+        "Nhắn tin kêu gọi các thành viên khác phê phán hành động đó.",
+        "Bật micro và phê bình bạn đó vì đã liên tục ngắt lời cô giáo.",
+        "Nhắn tin riêng giải thích và khuyên bạn không nên ngắt lời cô giáo.",
+        "Khuyến khích bạn đó tiếp tục phát biểu để thể hiện tư duy phản biện."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "A-I-21",
+      "type": "mcq",
+      "prompt": "Kiến thức về chủ đề nào sau đây không nằm trong yêu cầu đối với người làm nghề lập trình?",
+      "options": [
+        "Phần mềm thiết kế đồ họa.",
+        "Cấu trúc dữ liệu và giải thuật.",
+        "Ngôn ngữ truy vấn SQL.",
+        "Ngôn ngữ lập trình bậc cao."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "A-I-22",
+      "type": "mcq",
+      "prompt": "Người quản trị cơ sở dữ liệu cần thực hiện được công việc nào sau đây?",
+      "options": [
+        "Phát triển phần mềm ứng dụng cơ sở dữ liệu.",
+        "Đảm bảo an toàn và bảo mật mạng máy tính.",
+        "Cài đặt, cập nhật hệ quản trị cơ sở dữ liệu.",
+        "Kiểm thử và đảm bảo chất lượng phần mềm."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "A-I-23",
+      "type": "mcq",
+      "prompt": "Phương án nào sau đây nêu đúng một công việc chính của người làm nghề quản trị mạng máy tính?",
+      "options": [
+        "Kiểm tra và tháo lắp linh kiện phần cứng.",
+        "Khắc phục lỗi và sửa chữa máy tính.",
+        "Quản lí và duy trì hệ thống thông tin.",
+        "Cài đặt và điều chỉnh hiệu năng mạng."
+      ],
+      "code_blocks": [],
+      "answer": 3
+    },
+    {
+      "template_id": "A-I-24",
+      "type": "mcq",
+      "prompt": "Nghề nào sau đây thuộc nhóm nghề dịch vụ trong ngành Công nghệ thông tin?",
+      "options": [
+        "Bảo mật hệ thống thông tin.",
+        "Sửa chữa và bảo trì máy tính.",
+        "Quản trị mạng máy tính.",
+        "Quản trị và bảo trì hệ thống."
+      ],
+      "code_blocks": [],
+      "answer": 1
+    },
+    {
+      "template_id": "A-II-1",
+      "type": "tf",
+      "prompt": "Một nhóm sinh viên của trường đại học A được cử đến một xã miền núi để thực hiện các hoạt động thiện nguyện. Xã này đã được trang bị đầy đủ hệ thống cáp quang và hạ tầng kết nối Internet. Trước ngày lên đường, Ban giám hiệu giao cho trưởng nhóm hai nhiệm vụ về hoạt động của nhóm: (1) gửi báo cáo vào cuối mỗi ngày đến địa chỉ email baocao@dha.edu.vn; (2) ba ngày một lần, đăng các bài viết vào mục được phân công trên website của trường tại địa chỉ https://dha.edu.vn. Khi tìm hiểu tình huống trên, có những nhận định sau:",
+      "options": [
+        "https trong địa chỉ website https://dha.edu.vn là giao thức gửi thư điện tử.",
+        "Tên miền website của trường đại học A đóng vai trò là một địa chỉ thay thế cho địa chỉ IP của máy chủ web.",
+        "Trong trường hợp máy chủ web của trường đại học A thay đổi địa chỉ IP, trưởng nhóm vẫn có thể đăng bài viết thành công lên website của trường.",
+        "Trong trường hợp nơi cư trú của nhóm chỉ được trang bị hạ tầng kết nối Internet có dây, nếu trưởng nhóm muốn sử dụng máy tính xách tay để gửi báo cáo và đăng bài lên website thông qua mạng Wi-Fi thì cần lắp đặt thêm Access Point."
+      ],
+      "code_blocks": [],
+      "answer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "template_id": "A-II-2",
+      "type": "tf",
+      "prompt": "Câu lạc bộ Thiết kế đồ họa của một trường trung học phổ thông muốn xây dựng một trang web để quảng bá hoạt động, trong đó có biểu mẫu cho các bạn học sinh đăng kí tham gia. Biểu mẫu được tạo bởi đoạn mã HTML sau. Có một số ý kiến về đoạn mã HTML trên như sau:",
+      "options": [
+        "Biểu mẫu trên có sử dụng một ô nhập văn bản chỉ cho phép nhập một dòng.",
+        "Nhãn của nút lệnh được tạo bởi đoạn mã HTML trên là gui.",
+        "Trong các mục chọn của biểu mẫu trên, chỉ được lựa chọn một mục để đăng kí tham gia vào một ban của câu lạc bộ.",
+        "Để dòng chữ trong thẻ <h3> hiển thị trên trình duyệt web có chữ màu vàng và nền màu đỏ thì phần đầu của đoạn mã HTML đã cho cần khai báo bộ chọn CSS sau:\n<style> h3.header{color: yellow; background-color: red;} </style>"
+      ],
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<form action=\"dangki.php\"> <h3> Đăng kí thành viên Câu lạc bộ Thiết kế đồ họa </h3>\n    Họ tên: <input type=\"text\" name=\"ten\"> <br>\n    Ban muốn đăng kí:\n    <input type=\"radio\" name=\"optban\" value=\"thietke\"> Ban thiết kế\n    <input type=\"radio\" name=\"optban\" value=\"truyenthong\"> Ban truyền thông <br>\n    <input type=\"submit\" name=\"gui\" value=\"Gửi\"> </form>"
+        }
+      ],
+      "answer": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "template_id": "A-II-3",
+      "type": "tf",
+      "prompt": "Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python và C++, trong đó A là một mảng gồm n số nguyên dương. Sau khi chọn một trong hai ngôn ngữ lập trình Python hoặc C++ để tìm hiểu hàm trên, có các ý kiến sau:",
+      "options": [
+        "Hàm F có đúng một tham số.",
+        "Sau khi thực hiện hàm F, mảng A không tồn tại phần tử có giá trị chẵn nào có chỉ số lớn hơn chỉ số của phần tử có giá trị lẻ.",
+        "Nếu nhận vào hai đối số, mảng A là (5, 6, 7, 4, 2, 3, 1) và n = 7, thì hàm F trả về giá trị 7.",
+        "Với mảng A bất kì, giả sử mảng B được tạo ra bằng cách sao chép mảng A rồi hoán đổi vị trí của một số phần tử thì kết quả trả về của hai lần gọi hàm F(A, n) và F(B, n) là bằng nhau."
+      ],
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "def F(A, n):\n    j = 0\n    for i in range(n):\n        if A[i] % 2 == 0:\n            if A[j] % 2 != 0:\n                t = A[i]\n                A[i] = A[j]\n                A[j] = t\n            j = j + 1\n    return A[0] + A[n - 1]"
+        },
+        {
+          "language": "cpp",
+          "code": "int F(int A[], int n) {\n    int j = 0;\n    for (int i = 0; i < n; i++)\n        if (A[i] % 2 == 0) {\n            if (A[j] % 2 != 0) {\n                int t = A[i];\n                A[i] = A[j];\n                A[j] = t;\n            }\n            j = j + 1;\n        }\n    return A[0] + A[n - 1];\n}"
+        }
+      ],
+      "answer": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template_id": "A-II-4",
+      "type": "tf",
+      "prompt": "Khoa Tim mạch của một bệnh viện đa khoa lưu trữ hồ sơ của 20 000 người đến khám bệnh trong 5 năm gần nhất. Hồ sơ của mỗi người đến khám bệnh có các thông tin gồm mã hồ sơ, tuổi, giới tính, các triệu chứng lâm sàng, các chỉ số xét nghiệm máu, điện tâm đồ và kết luận chẩn đoán có bệnh tim hoặc không có bệnh tim của bác sĩ. Lãnh đạo bệnh viện muốn sử dụng mô hình học máy để xây dựng một hệ thống tự động sàng lọc người đến khám bệnh tim trong tương lai. Khi xây dựng hệ thống, có một số nhận định như sau:",
+      "options": [
+        "Bệnh viện nên sử dụng mô hình học máy có giám sát để xây dựng hệ thống này.",
+        "Kết luận chẩn đoán của bác sĩ đối với mỗi hồ sơ khám bệnh nêu trên là nhãn của dữ liệu.",
+        "Sử dụng toàn bộ 20 000 hồ sơ nói trên để tạo tập dữ liệu huấn luyện mô hình học máy, sau đó sử dụng một phần tập dữ liệu này để đánh giá mô hình.",
+        "Trong trường hợp hệ thống dự đoán một người đến khám là có bệnh tim, bác sĩ có thể tiếp tục sử dụng hệ thống để xác định loại bệnh tim (bệnh van tim, bệnh cơ tim,…) của người đó."
+      ],
+      "code_blocks": [],
+      "answer": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "template_id": "A-II-5",
+      "type": "tf",
+      "prompt": "Một công ty vận tải đường bộ quản lí dữ liệu vận chuyển hành khách với cơ sở dữ liệu gồm các bảng sau:\n• HANH_KHACH(maHK, tenHK) lưu mã hành khách, tên hành khách; Mỗi mã hành khách xác định duy nhất một hành khách.\n• XE(maXe, bienSo, soLuongGhe) lưu mã xe, biển số xe, số lượng ghế của xe; Mỗi mã xe xác định duy nhất một xe. Mỗi xe có một biển số duy nhất được cấp bởi cơ quan có thẩm quyền.\n• VE_XE(maVe, maHK, maXe, soGhe, ngayDi, gioDi, diemDon, diemTra) lưu mã vé, mã hành khách, mã xe, số ghế, ngày đi, giờ đi, điểm đón, điểm trả khách; Mỗi hành khách đi xe cần mua một vé, mỗi vé có mã duy nhất. Với mỗi vé, hành khách được xếp một ghế ngồi trên xe.\nCó một số nhận xét như sau về việc sử dụng phần mềm để tạo và khai thác cơ sở dữ liệu trên:",
+      "options": [
+        "Để tạo cấu trúc bảng HANH_KHACH, có các thao tác sau cần thực hiện: Tạo bảng mới; Đặt tên bảng; Tạo và xác định kiểu dữ liệu cho các trường; Thiết lập khóa chính.",
+        "Để đảm bảo tính nhất quán của dữ liệu, trước khi nhập dữ liệu cho bảng VE_XE, cần nhập dữ liệu cho bảng HANH_KHACH và XE.",
+        "Trong bảng XE, không thể thiết lập bienSo làm khóa chính và tự động tăng.",
+        "Để đưa ra thông tin gồm tên và số ghế của hành khách đi xe có biển số “10A-123.45” và có điểm trả là “Hà Nội”, cần thực hiện truy vấn với các thành phần sau:\n• Các trường và bảng được chọn: HANH_KHACH.tenHK, VE_XE.soGhe.\n• Các cặp bảng được liên kết qua khóa tương ứng: HANH_KHACH và VE_XE qua maHK; HANH_KHACH và XE qua maXe.\n• Điều kiện truy vấn: XE.bienSo = “10A-123.45” và VE_XE.diemTra = “Hà Nội”."
+      ],
+      "code_blocks": [],
+      "answer": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template_id": "A-II-6",
+      "type": "tf",
+      "prompt": "Khoa Mắt của một bệnh viện muốn xây dựng một trang web để giới thiệu các gói phẫu thuật tật khúc xạ mắt. Trang web này cần có một thư viện đa phương tiện gồm ảnh các trang thiết bị hỗ trợ phẫu thuật và video phỏng vấn bệnh nhân đã phục hồi thị lực. Ngoài ra, trang web cũng cần có một biểu mẫu đặt lịch khám trực tuyến để người dùng nhập họ tên, số điện thoại và ngày giờ muốn khám. Phòng công nghệ thông tin của bệnh viện dự định sử dụng một phần mềm để tạo trang web này. Có một số nhận xét sau:",
+      "options": [
+        "Để chèn hình ảnh các trang thiết bị y tế vào trang web, tệp ảnh đó bắt buộc phải được chuyển đổi sang tệp có phần mở rộng là .html.",
+        "Các phần mềm tạo trang web cung cấp công cụ để thiết kế được biểu mẫu đặt lịch khám với các thông tin đã nêu.",
+        "Sau khi xuất bản, nếu bổ sung thêm các video mới mà không xuất bản lại thì nội dung của trang web vẫn không thay đổi.",
+        "Để trang web tải nhanh ảnh khi xem bằng điện thoại di động, nên sử dụng phần mềm xử lí ảnh chuyên dụng để giảm độ phân giải của ảnh trước khi tải lên thư viện đa phương tiện của trang web."
+      ],
+      "code_blocks": [],
+      "answer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}
