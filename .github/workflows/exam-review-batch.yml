@@ -192,53 +192,62 @@ jobs:
             echo '- Review package not generated; inspect job logs.' >> "$GITHUB_STEP_SUMMARY"
           fi
 
-  check-live-site:
+  export-remaining-2026:
     if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.head_ref == 'review/export-2025-0529'
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 10
     permissions:
-      actions: read
-      contents: read
+      contents: write
     steps:
-      - name: Identify the Ubuntu data build for 2026-0501
-        env:
-          GH_TOKEN: ${{ github.token }}
-          REPOSITORY: ${{ github.repository }}
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Render original review images for remaining 2026 sources
         run: |
-          gh api "repos/$REPOSITORY/actions/runs?branch=feat%2Fverify-2026-0501&event=push&per_page=8" \
-            --jq '.workflow_runs[] | {id, name, head_sha, status, conclusion}'
-      - name: Check Pages serves the newly released exams
-        run: |
+          python -m pip install pymupdf
           python - <<'PY'
           import json
-          import time
-          import urllib.request
+          from pathlib import Path
+          import pymupdf
 
-          base = "https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/"
-          def read(path):
-              with urllib.request.urlopen(f"{base}{path}?review={time.time_ns()}", timeout=10) as response:
-                  return response.read()
-          for attempt in range(20):
-              try:
-                  assert b"test-start" in read("de-thi-tot-nghiep.html")
-                  manifest = json.loads(read("data/exams/manifest.json"))
-                  for code in ("0529", "0530", "0531", "0532", "0533", "0534", "0535"):
-                      paper = json.loads(read(manifest["papers"]["2025"][code]))
-                      assert paper["status"] == "verified" and len(paper["question_ids"]) == 30
-                      assert set(paper["tracks"]) == {"ict", "cs"} and paper["scored_question_count"] == 28
-                  print("GitHub Pages serves verified 0529 through 0535 for both tracks")
-                  break
-              except (OSError, ValueError, KeyError, AssertionError) as error:
-                  if attempt == 19:
-                      raise
-                  print(f"Awaiting deployment: {error!r}")
-                  time.sleep(12)
+          manifest = json.loads(Path("data/exams/manifest.json").read_text())
+          output = Path("review-evidence")
+          matrix = pymupdf.Matrix(2.4, 2.4)
+
+          def render(source, stem, landscape=False):
+              directory = (output / stem).parent
+              directory.mkdir(parents=True, exist_ok=True)
+              with pymupdf.open(source) as pdf:
+                  for number, page in enumerate(pdf, 1):
+                      if landscape and page.rect.height > page.rect.width:
+                          page.set_rotation((page.rotation + 90) % 360)
+                      name = f"{stem}-{number:02}"
+                      pix = page.get_pixmap(matrix=matrix, colorspace=pymupdf.csGRAY)
+                      png = pix.tobytes("png")
+                      if len(png) <= 700_000:
+                          (output / f"{name}.png").write_bytes(png)
+                          continue
+                      rect = page.rect
+                      for index in range(3):
+                          band = pymupdf.Rect(
+                              rect.x0, rect.y0 + rect.height * index / 3 - 8,
+                              rect.x1, rect.y0 + rect.height * (index + 1) / 3 + 8,
+                          )
+                          page.get_pixmap(matrix=matrix, clip=band, colorspace=pymupdf.csGRAY).save(
+                              output / f"{name}-{index + 1}.png"
+                          )
+
+          render(manifest["answers"]["2026"], "2026/answers", landscape=True)
+          for value in range(509, 549):
+              code = f"{value:04}"
+              render(manifest["files"]["2026"][code], f"2026-{code}/exam")
+              print(f"Rendered 2026-{code}")
           PY
-      - name: Identify the Pages deployment runs
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-          REPOSITORY: ${{ github.repository }}
+      - name: Publish the review images
         run: |
-          gh api "repos/$REPOSITORY/actions/workflows/pages.yml/runs?branch=main&event=push&per_page=5" \
-            --jq '.workflow_runs[] | {id, head_sha, status, conclusion}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add review-evidence
+          git commit -m 'Render 2026 exams 0509 through 0548 and official answer pages'
+          git push origin HEAD:refs/heads/review/evidence-2026-0509-0548
