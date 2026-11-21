@@ -1,4 +1,4 @@
-name: Build reviewed exam 2025-0530
+name: Build reviewed exam 2025-0531
 on:
   push:
     branches: [feat/verify-2025-0530]
@@ -17,7 +17,7 @@ jobs:
       - run: python -m pip install pymupdf pillow
       - name: Build and validate
         run: |
-          python scripts/build_verified_exam_batch.py --codes 0530 --layout-dir data/exams/layout/2025
+          python scripts/build_verified_exam_batch.py --codes 0531 --layout-dir data/exams/layout/2025
           python scripts/validate_graduation_exams.py
           python tests/test_graduation_ocr.py
           node --test tests/graduation-core.test.cjs
@@ -26,12 +26,12 @@ jobs:
           from pathlib import Path
           path = Path("data/exams/ocr-progress.json")
           progress = json.loads(path.read_text(encoding="utf-8"))
-          if not any(row["year"] == 2025 and row["code"] == "0530" for row in progress["verified_papers"]):
-              progress["verified_papers"].append({"year": 2025, "code": "0530", "questions": 30, "scored_per_track": 28})
+          if not any(row["year"] == 2025 and row["code"] == "0531" for row in progress["verified_papers"]):
+              progress["verified_papers"].append({"year": 2025, "code": "0531", "questions": 30, "scored_per_track": 28})
               for key in ("verified_questions", "confirmed_duplicates_in_verified_bank", "answers_2025_matched_questions"):
                   progress[key] += 30
               progress["remaining"] = [
-                  row for row in progress["remaining"] if (row["year"], row["code"]) != (2025, "0530")
+                  row for row in progress["remaining"] if (row["year"], row["code"]) != (2025, "0531")
               ]
               path.write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           PY
@@ -40,5 +40,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/exams
-          git commit -m 'Publish 30 verified questions for 2025-0530'
+          git commit -m 'Publish 30 verified questions for 2025-0531'
           git push origin HEAD:refs/heads/feat/verify-2025-0530
