@@ -23,7 +23,11 @@ for code in a.codes:
  assert review['review'].get('answer_column',code)==code
  assert len(review['mcq'])==24 and len(review['answer_mcq'])==24 and len(review['answer_tf'])==6
  source=manifest['files'][year][code];assert sha(ROOT/source)==audit[source]['sha256']
- all_specs=review['mcq']+[[f"{review['tf']}-II-{n}",'0123'] for n in range(1,7)]
+ tf_order=review.get('tf_order',list(range(1,7)))
+ assert len(tf_order)==6
+ for start in (0,2,4):
+  assert sorted(tf_order[start:start+2])==[start+1,start+2]
+ all_specs=review['mcq']+[[f"{review['tf']}-II-{n}",'0123'] for n in tf_order]
  rows=[]
  for i,(template_id,permutation) in enumerate(all_specs):
   t=templates[template_id];perm=[int(c) for c in permutation];assert sorted(perm)==[0,1,2,3]
