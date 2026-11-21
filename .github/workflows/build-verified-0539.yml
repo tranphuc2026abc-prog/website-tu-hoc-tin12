@@ -1,0 +1,49 @@
+name: Build reviewed exam 2025-0539
+on:
+  push:
+    branches: [feat/verify-2025-0539]
+    paths: [.github/workflows/build-verified-0539.yml]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pymupdf pillow
+      - name: Build and validate
+        run: |
+          python scripts/build_verified_exam_batch.py --year 2025 --codes 0539 --layout-dir data/exams/layout/2025
+          python scripts/validate_graduation_exams.py
+          python tests/test_graduation_ocr.py
+          node --test tests/graduation-core.test.cjs
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path("data/exams/ocr-progress.json")
+          progress = json.loads(path.read_text(encoding="utf-8"))
+          codes = {"0539"}
+          existing = {row["code"] for row in progress["verified_papers"] if row["year"] == 2025}
+          for code in sorted(codes - existing):
+              progress["verified_papers"].append({"year": 2025, "code": code, "questions": 30, "scored_per_track": 28})
+          questions = json.loads(Path("data/exams/questions.json").read_text(encoding="utf-8"))["questions"]
+          canonical = {q["canonical_id"] for q in questions}
+          progress["verified_questions"] = len(questions)
+          progress["confirmed_duplicates_in_verified_bank"] = len(questions) - len(canonical)
+          progress["answers_2025_matched_questions"] = sum(q["year"] == 2025 for q in questions)
+          progress["remaining"] = [
+              row for row in progress["remaining"] if not (row["year"] == 2025 and row["code"] in codes)
+          ]
+          path.write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+      - name: Commit verified data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/exams
+          git commit -m 'Publish 30 verified questions for 2025-0539'
+          git push origin HEAD:refs/heads/feat/verify-2025-0539
