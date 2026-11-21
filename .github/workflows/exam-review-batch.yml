@@ -10,6 +10,9 @@ on:
         description: Number of pending papers to prepare (1–8)
         default: "8"
         type: string
+      paper:
+        description: Optional pending paper (YYYY-NNNN)
+        type: string
       start_offset:
         description: Zero-based offset in the remaining papers (0, 8, 16, ...)
         default: "0"
@@ -34,9 +37,15 @@ jobs:
           python -m pip install pymupdf
           sudo apt-get update -qq
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-vie
+      - name: Validate published exams before preparing review evidence
+        run: |
+          python scripts/validate_graduation_exams.py
+          python -m unittest discover -s tests -p test_graduation_ocr.py
+          node --test tests/graduation-core.test.cjs
       - name: Render sources and prepare OCR for visual review
         env:
           BATCH_SIZE: ${{ inputs.batch_size || '8' }}
+          REVIEW_PAPER: ${{ inputs.paper || '' }}
           START_OFFSET: ${{ inputs.start_offset || '0' }}
           SOURCE_COMMIT: ${{ github.sha }}
         run: |
@@ -87,8 +96,18 @@ jobs:
           remaining = sorted(
               (str(row["year"]), row["code"]) for row in read_json(checkpoint)["remaining"]
           )
-          if len(remaining) != len(set(remaining)):
-              raise ValueError("Duplicate papers in checkpoint")
+          published = {
+              (year, code)
+              for year, papers in manifest["papers"].items()
+              for code in papers
+          }
+          originals = {
+              (year, code)
+              for year, papers in manifest["files"].items()
+              for code in papers
+          }
+          if len(remaining) != len(set(remaining)) or set(remaining) != originals - published:
+              raise ValueError("Checkpoint and manifest disagree about pending papers")
           output = Path("exam-review-artifacts")
           output.mkdir()
           shutil.copyfile(checkpoint, output / checkpoint.name)
@@ -102,7 +121,12 @@ jobs:
               "answers": {},
               "papers": [],
           }
+          target_paper = os.environ['REVIEW_PAPER'].strip()
           selected = remaining[offset:offset + size]
+          if target_paper:
+              selected = [item for item in remaining if '-'.join(item) == target_paper]
+              if not selected:
+                  raise ValueError(f'Paper is not pending: {target_paper}')
           if not selected:
               raise ValueError(f"No remaining papers at offset {offset}; total {len(remaining)}")
           for year, code in selected:
