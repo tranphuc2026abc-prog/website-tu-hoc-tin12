@@ -60262,6 +60262,1843 @@
         }
       ],
       "source_image_sha256": "f88cdfcb6731e0ff489dabe6a4deabcaea88f58165024a1a1d9a0e384ada89d2"
+    },
+    {
+      "prompt": "Đoạn mã CSS nào sau đây thiết lập đường viền có độ dày 5 pixel và kiểu nét liền đậm bao quanh các đối tượng nội dung khi hiển thị trên trình duyệt?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "p.border {border-width: 5px; border-style: groove;}",
+        "p {border-width: 5px; border-style: double;}",
+        "p.border {border-width: 5px; border-style: dashed;}",
+        "p {border-width: 5px; border-style: solid;}"
+      ],
+      "id": "2025-0534-I-01",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 1,
+      "answer": 3,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 1,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-5",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          3,
+          2,
+          0,
+          1
+        ]
+      },
+      "canonical_id": "13757f9dc415e61aad772665cfa5348a50163999a389ddc9c975e673febc5e8f",
+      "source_image": "data/exams/images/2025/0534/I-01.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            156.3,
+            573.260009765625,
+            235.9
+          ]
+        }
+      ],
+      "source_image_sha256": "40c1a50aab9a52d0f1f7138c34168ef4406917673b3e82ce46a9c529f520ea64"
+    },
+    {
+      "prompt": "Trí tuệ nhân tạo có thể gây ra khó khăn đối với công việc nào sau đây của giáo viên?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Đánh giá mức độ đóng góp của học sinh thông qua sản phẩm học tập.",
+        "Mở rộng và đào sâu kiến thức trong quá trình nâng cao chuyên môn.",
+        "Chuẩn bị hình ảnh và video minh họa cho các bài giảng trên lớp.",
+        "Tìm hướng tiếp cận hiệu quả và thú vị cho việc tổ chức dạy học trên lớp."
+      ],
+      "id": "2025-0534-I-02",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 2,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 2,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-22",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "0bb9c8a1dbd49bb908243e50bdf366d12be4e38105b323795d63b9c9221cbc63",
+      "source_image": "data/exams/images/2025/0534/I-02.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            235.9,
+            573.260009765625,
+            301.3
+          ]
+        }
+      ],
+      "source_image_sha256": "df6457ee3013bda2ab9194d4e5ad31d73516ad0ab61728de46d733e0e7ebf87a"
+    },
+    {
+      "prompt": "Cho đoạn mã HTML trong ảnh gốc. Phương án nào sau đây nêu đúng số lượng hàng và cột của một bảng được tạo bởi đoạn mã trên?",
+      "type": "mcq",
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<table border=\"1\" width=\"50%\" height=\"30%\">\n  <tr> <th> </th> <th> </th> </tr>\n  <tr> <td> </td> <td> </td> </tr>\n  <tr> <td> </td> <td> </td> </tr>\n</table>"
+        }
+      ],
+      "options": [
+        "3 hàng, 2 cột.",
+        "2 hàng, 3 cột.",
+        "3 hàng, 3 cột.",
+        "3 hàng, 1 cột."
+      ],
+      "id": "2025-0534-I-03",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 3,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 3,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-9",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          0,
+          3,
+          2
+        ]
+      },
+      "canonical_id": "9805e26df2b4c8a5a5520703e00114a0c047bcfbfe8e68cdc6b1aefa82e4e28f",
+      "source_image": "data/exams/images/2025/0534/I-03.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            301.3,
+            573.260009765625,
+            394.3
+          ]
+        }
+      ],
+      "source_image_sha256": "14dccac115759b63ea911a499200ba1e50264f79df378d18fbf23ed34f37d1ee"
+    },
+    {
+      "prompt": "Trí tuệ nhân tạo chưa thực hiện được công việc nào sau đây?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Gợi ý sản phẩm cho người mua hàng trực tuyến.",
+        "Nhận dạng được chữ viết tay tiếng Việt.",
+        "Chẩn đoán bệnh với độ chính xác tuyệt đối.",
+        "Giao tiếp với con người bằng ngôn ngữ tự nhiên."
+      ],
+      "id": "2025-0534-I-04",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 4,
+      "answer": 2,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 4,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-4",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          2,
+          3,
+          0,
+          1
+        ]
+      },
+      "canonical_id": "bfe722230a0f8dbd4a7565cf744af9ffc956e95a74ff447221b1d4d6af4de2c6",
+      "source_image": "data/exams/images/2025/0534/I-04.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            394.3,
+            573.260009765625,
+            434.3
+          ]
+        }
+      ],
+      "source_image_sha256": "ee323a09bbad71cac069cfb62a7aaeb6f92f2ed837067b4d9ebb24ffac297adb"
+    },
+    {
+      "prompt": "Tên phông chữ của văn bản được thiết lập bởi thuộc tính CSS nào sau đây?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "font-size",
+        "font-weight",
+        "font-style",
+        "font-family"
+      ],
+      "id": "2025-0534-I-05",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 5,
+      "answer": 3,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 5,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-24",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          2,
+          0,
+          1,
+          3
+        ]
+      },
+      "canonical_id": "12ab00afb15d3419720ff9c6f6bd5f60afc23b2e294efdd1319beb53a893e98a",
+      "source_image": "data/exams/images/2025/0534/I-05.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            434.3,
+            573.260009765625,
+            460.5
+          ]
+        }
+      ],
+      "source_image_sha256": "888fe083d6d69f226ff35257118c1901de2840bd8638b156ee917e6a8fa97933"
+    },
+    {
+      "prompt": "Trong các phần tử HTML sau, phần tử nào chứa các phần tử còn lại?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "style",
+        "body",
+        "html",
+        "head"
+      ],
+      "id": "2025-0534-I-06",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 6,
+      "answer": 2,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 6,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-3",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          2,
+          3,
+          1,
+          0
+        ]
+      },
+      "canonical_id": "98c654a711a372a8d5d0a7e49ee92236533dddcd1bc0e48cf28376db937a7682",
+      "source_image": "data/exams/images/2025/0534/I-06.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            460.5,
+            573.260009765625,
+            487.2
+          ]
+        }
+      ],
+      "source_image_sha256": "1c0cb45cac5fca0fb063a76aba9cb0168306e4336c769fab438d8e53158093fc"
+    },
+    {
+      "prompt": "Trong bộ giao thức TCP/IP, giao thức TCP có vai trò nào sau đây?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Đảm bảo truyền dữ liệu tin cậy và đúng thứ tự.",
+        "Loại bỏ các kết nối có nguy cơ chứa mã độc.",
+        "Đảm bảo gửi thư điện tử đến đúng địa chỉ nhận.",
+        "Cấp phát địa chỉ IP cho các thiết bị trong mạng."
+      ],
+      "id": "2025-0534-I-07",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 7,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 7,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-1",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          3,
+          2
+        ]
+      },
+      "canonical_id": "f282f376701e639f0375c7047d5f28e226d3428bd122255ac88f1ddb70610ed6",
+      "source_image": "data/exams/images/2025/0534/I-07.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            487.2,
+            573.260009765625,
+            526.3
+          ]
+        }
+      ],
+      "source_image_sha256": "07579fb7e0853e3463861b1cac403957a5c4551690221bd90bcb7065d6bfa0bb"
+    },
+    {
+      "prompt": "Switch có chức năng chính nào sau đây?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Thiết lập kết nối không dây giữa các thiết bị trong mạng.",
+        "Định tuyến cho gói dữ liệu khi truyền đi giữa các mạng.",
+        "Chuyển từ tín hiệu số sang tín hiệu tương tự và ngược lại.",
+        "Thiết lập các kết nối để truyền dữ liệu trong mạng LAN."
+      ],
+      "id": "2025-0534-I-08",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 8,
+      "answer": 3,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 8,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-17",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          2,
+          3,
+          0
+        ]
+      },
+      "canonical_id": "63f820580ff7c7346903e3ac127088a6c6b961b2dc67c5505f08fe0984f4a66e",
+      "source_image": "data/exams/images/2025/0534/I-08.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            526.3,
+            573.260009765625,
+            592.2
+          ]
+        }
+      ],
+      "source_image_sha256": "e296b1c19d3adb3697468d1079eac8af429320280db191e7c1f9767ae1dc888c"
+    },
+    {
+      "prompt": "Trong một mạng LAN có máy tính X được kết nối trực tiếp với máy in qua dây cáp. Để tất cả các máy tính trong mạng sử dụng được máy in này, công việc nào sau đây không nhất thiết phải thực hiện?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Chia sẻ thư mục chứa trình điều khiển máy in trên máy tính X.",
+        "Chia sẻ quyền truy cập máy in qua mạng trên máy tính X.",
+        "Cài đặt trình điều khiển máy in cho máy tính X.",
+        "Cài đặt máy in (đã được máy tính X chia sẻ) cho các máy tính còn lại."
+      ],
+      "id": "2025-0534-I-09",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 9,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 9,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-12",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          3,
+          1,
+          2,
+          0
+        ]
+      },
+      "canonical_id": "616c30a973398cc45f57dd7679790c717c07b41773e267ff67e391e9c6265d76",
+      "source_image": "data/exams/images/2025/0534/I-09.png",
+      "source_pages": [
+        1
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            592.2,
+            573.260009765625,
+            670.5
+          ]
+        }
+      ],
+      "source_image_sha256": "71d7a3d6e3257283bfe9f321d67b20bd30868d4703be6806259895dee398f725"
+    },
+    {
+      "prompt": "Lựa chọn ngôn ngữ Python hoặc C++ để tìm hiểu đoạn chương trình trong ảnh gốc. Sau khi thực hiện đoạn chương trình trên, kí tự nào sau đây được hiển thị trên màn hình?",
+      "type": "mcq",
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "s = \"DOI_MOI_SANG_TAO\"\nx = 6\nfor i in range(5, 8):\n    if i % 2 == 0: x = x * 3\n    else: x = x // 2\nprint(s[x])"
+        },
+        {
+          "language": "cpp",
+          "code": "char s[] = \"DOI_MOI_SANG_TAO\";\nint x = 6;\nfor (int i = 5; i < 8; i++) {\n    if (i % 2 == 0) x = x * 3;\n    else x = x / 2;\n}\ncout << s[x];"
+        }
+      ],
+      "options": [
+        "M",
+        "N",
+        "T",
+        "S"
+      ],
+      "id": "2025-0534-I-10",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 10,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 10,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-6",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          2,
+          0,
+          3
+        ]
+      },
+      "canonical_id": "b1649b49dbc7d6c8e030813a56235f4aa2d218c431b4f4de8022ba6f05e26d53",
+      "source_image": "data/exams/images/2025/0534/I-10.png",
+      "source_pages": [
+        1,
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 1,
+          "rect_points": [
+            30,
+            670.5,
+            573.260009765625,
+            802.8599853515625
+          ]
+        },
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            20,
+            573.260009765625,
+            71.3
+          ]
+        }
+      ],
+      "source_image_sha256": "786b62481a88dabcc7a6e8c5d77ff1f2e453ef79cf5e9e189e8dbb4c3740468c"
+    },
+    {
+      "prompt": "Công việc nào sau đây không phải là trách nhiệm chính của người làm nghề sửa chữa và bảo trì máy tính?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Xây dựng các phần mềm nghiệp vụ.",
+        "Duy trì sự ổn định của hệ thống máy tính.",
+        "Hướng dẫn sử dụng phần cứng và phần mềm.",
+        "Tư vấn việc nâng cấp phần cứng và phần mềm."
+      ],
+      "id": "2025-0534-I-11",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 11,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 11,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-23",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "6da2e757aec85a59712c1b37424dd725ebbe027227d9f132f9a6c4f16efb4a83",
+      "source_image": "data/exams/images/2025/0534/I-11.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            71.3,
+            573.260009765625,
+            137.2
+          ]
+        }
+      ],
+      "source_image_sha256": "b479c91473f44e679e91cfbbd0dcc0f241c3c0cf8c8b715cf8ae36de01eab0ec"
+    },
+    {
+      "prompt": "Khi thực hiện đoạn mã HTML trong ảnh gốc, dòng chữ “Chúc các em thi tốt!” sẽ được hiển thị trên trình duyệt theo định dạng nào dưới đây?",
+      "type": "mcq",
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<html><head><style> #mau{color: red; font-weight: bold;}\n                     .mau{color: green; font-style: italic;}\n</style></head><body><p class=\"mau\">Chúc các em thi tốt!</p></body></html>"
+        }
+      ],
+      "options": [
+        "Màu xanh lá cây, in nghiêng.",
+        "Màu xanh lá cây, in đậm.",
+        "Màu đỏ, in đậm.",
+        "Màu đỏ, in nghiêng."
+      ],
+      "id": "2025-0534-I-12",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 12,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 12,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-7",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "canonical_id": "ecbdf38e208cb0602905936c7fb17330d4f93593193d876dc1e6d0caca71f342",
+      "source_image": "data/exams/images/2025/0534/I-12.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            137.2,
+            573.260009765625,
+            220.9
+          ]
+        }
+      ],
+      "source_image_sha256": "7bca9f51ef3c27233f747d0ed40d9149ea4408747e2038f137a23bf401117952"
+    },
+    {
+      "prompt": "Nếu nhận được một sản phẩm mua trên mạng không đúng như đã mô tả khi đặt hàng, cách ứng xử nào sau đây thể hiện tính nhân văn?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Kêu gọi cộng đồng mạng tẩy chay.",
+        "Đổ lỗi cho đơn vị vận chuyển.",
+        "Phản ánh với bộ phận chăm sóc khách hàng.",
+        "Tố cáo và khởi kiện bên bán hàng."
+      ],
+      "id": "2025-0534-I-13",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 13,
+      "answer": 2,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 13,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-13",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          3,
+          0,
+          1,
+          2
+        ]
+      },
+      "canonical_id": "4bf1e5ae961c3818e27693e0486270b1a2c3c9d2e7acb3003699fc4879314601",
+      "source_image": "data/exams/images/2025/0534/I-13.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            220.9,
+            573.260009765625,
+            272.6
+          ]
+        }
+      ],
+      "source_image_sha256": "9eea090207adbb89618defdb78791680fd6f1d2ce0a7b4e9c108584502667d6c"
+    },
+    {
+      "prompt": "Một người nhận được Email thông báo trúng thưởng từ một công ty với yêu cầu truy cập vào một đường liên kết (link) để làm thủ tục nhận thưởng. Trong tình huống này, cách ứng xử nào sau đây đảm bảo sự an toàn trong giao tiếp trên không gian mạng?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Thận trọng xác minh thông tin trước khi đưa ra quyết định.",
+        "Mượn máy tính của người khác để truy cập vào đường link.",
+        "Truy cập ngay vào đường link và làm theo chỉ dẫn.",
+        "Chuyển tiếp Email cho bạn bè để cùng biết thông tin."
+      ],
+      "id": "2025-0534-I-14",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 14,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 14,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-21",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          2,
+          3,
+          0
+        ]
+      },
+      "canonical_id": "79cb87151430e0c5061140d3376811c9d07339505f525a7d26a8983fed4737cc",
+      "source_image": "data/exams/images/2025/0534/I-14.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            272.6,
+            573.260009765625,
+            364.3
+          ]
+        }
+      ],
+      "source_image_sha256": "4eb472ade22e04bbed8683458a61caba247ea0c496d5ad5e317cad99a3950c96"
+    },
+    {
+      "prompt": "Khả năng hiểu ngôn ngữ của Trí tuệ nhân tạo được thể hiện trong hệ thống nào sau đây?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Dự báo thời tiết dựa trên ảnh vệ tinh.",
+        "Tóm tắt nội dung văn bản.",
+        "Dự báo cháy rừng qua ảnh vệ tinh.",
+        "Nhận dạng khuôn mặt."
+      ],
+      "id": "2025-0534-I-15",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 15,
+      "answer": 1,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 15,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-16",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          0,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "531272ba1edbd6b265699e3102fb81f93e3784610d0253f7776a24c72b87ec06",
+      "source_image": "data/exams/images/2025/0534/I-15.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            364.3,
+            573.260009765625,
+            429.7
+          ]
+        }
+      ],
+      "source_image_sha256": "5a8419c1286e57f4136d3a3916ad54e98b20dc0249f8745cbd7c8898a2601b60"
+    },
+    {
+      "prompt": "Trí tuệ nhân tạo hẹp không có khả năng nào sau đây?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Giải quyết được một số vấn đề cụ thể nhờ học từ dữ liệu huấn luyện.",
+        "Đưa ra được các gợi ý hỗ trợ con người giải quyết vấn đề.",
+        "Thực hiện được những nhiệm vụ nhất định trong một số lĩnh vực.",
+        "Học và giải quyết được tất cả các vấn đề trong tự nhiên và xã hội."
+      ],
+      "id": "2025-0534-I-16",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 16,
+      "answer": 3,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 16,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-15",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          3,
+          2,
+          0
+        ]
+      },
+      "canonical_id": "0d09394541893d643aba2389fb0e2e955aae35962a800cacd574c7292eb9822f",
+      "source_image": "data/exams/images/2025/0534/I-16.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            429.7,
+            573.260009765625,
+            495.9
+          ]
+        }
+      ],
+      "source_image_sha256": "b4015d68d44b54edd64326e94882da97b1bcd6738143b1d119deaff8b55be95e"
+    },
+    {
+      "prompt": "Thiết bị nào sau đây là điểm truy cập không dây trong mạng LAN?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Access Point.",
+        "Hub.",
+        "Switch.",
+        "Router."
+      ],
+      "id": "2025-0534-I-17",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 17,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 17,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-8",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          3,
+          0,
+          2
+        ]
+      },
+      "canonical_id": "57b00ae458b4a6ae3b9dc483ba1cd7ebce872255dc6817e523df24a9aabddb1c",
+      "source_image": "data/exams/images/2025/0534/I-17.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            495.9,
+            573.260009765625,
+            521.8
+          ]
+        }
+      ],
+      "source_image_sha256": "b0e40fbe33f970d5f9ba255d3b3556696680c6bf1d68748691a963e641046e92"
+    },
+    {
+      "prompt": "Thẻ HTML nào sau đây được dùng để chèn tệp ảnh vào trang web?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "<img>",
+        "<p>",
+        "<i>",
+        "<ol>"
+      ],
+      "id": "2025-0534-I-18",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 18,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 18,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-18",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          3,
+          2,
+          0,
+          1
+        ]
+      },
+      "canonical_id": "2f2e810a75b80eb246ebd6b4cdb7112492d0cf4168128a11d614c0520bf7a55f",
+      "source_image": "data/exams/images/2025/0534/I-18.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            521.8,
+            573.260009765625,
+            548.4
+          ]
+        }
+      ],
+      "source_image_sha256": "44fbed32e9d5228f35ea7ac09ded3e7d00ce27ad68ba25bbf4d96543aecf670a"
+    },
+    {
+      "prompt": "Đoạn mã HTML nào sau đây được dùng để tạo một danh sách có thứ tự là chữ số La Mã bắt đầu từ II?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "<ol type=\"I\" start=\"2\"> <li> Mục A </li> <li> Mục B </li> </ol>",
+        "<ol type=\"1\" start=\"II\"> <li> Mục A </li> <li> Mục B </li> </ol>",
+        "<ol style=\"I\" begin=\"2\"> <li> Mục A </li> <li> Mục B </li> </ol>",
+        "<ol type=\"I\" start=\"II\"> <li> Mục A </li> <li> Mục B </li> </ol>"
+      ],
+      "id": "2025-0534-I-19",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 19,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 19,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-11",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          2,
+          3,
+          0
+        ]
+      },
+      "canonical_id": "c0c7484bccc8aab57e16dfddba5491c4e17cb332ac9ac80956301da027f17594",
+      "source_image": "data/exams/images/2025/0534/I-19.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            548.4,
+            573.260009765625,
+            615.5
+          ]
+        }
+      ],
+      "source_image_sha256": "9efaa70df790c827f4d05bbe3efa5b65d9b4ee4c1a3da502389cf5eedc653411"
+    },
+    {
+      "prompt": "Lựa chọn ngôn ngữ Python hoặc C++ để tìm hiểu đoạn chương trình trong ảnh gốc. Phương án nào sau đây chỉ ra đúng số lần lặp của câu lệnh while ở Dòng 2?",
+      "type": "mcq",
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "n, i, S = 11, 7, 0\nwhile i < n:\n    S = S + i\n    i = i + 2\nprint(S)"
+        },
+        {
+          "language": "cpp",
+          "code": "int n = 11, i = 7, S = 0;\nwhile (i < n) {\n    S = S + i;\n    i = i + 2;\n}\ncout << S;"
+        }
+      ],
+      "options": [
+        "0.",
+        "3.",
+        "1.",
+        "2."
+      ],
+      "id": "2025-0534-I-20",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 20,
+      "answer": 3,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 20,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-2",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          0,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "ebab3a5440abb834a7b1890fda9f4973f29b13b87498c71695e5951660a9c9f7",
+      "source_image": "data/exams/images/2025/0534/I-20.png",
+      "source_pages": [
+        2
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            615.5,
+            573.260009765625,
+            740.5
+          ]
+        }
+      ],
+      "source_image_sha256": "81d10716431c3929edbb414dc9be33e18f832efca64c0c8a38b493327de8fb4b"
+    },
+    {
+      "prompt": "Người sửa chữa và bảo trì máy tính thực hiện công việc nào sau đây liên quan đến phần mềm?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Thay thế linh kiện hỏng.",
+        "Lắp đặt thiết bị mạng.",
+        "Tư vấn nâng cấp phần cứng.",
+        "Cập nhật hệ điều hành."
+      ],
+      "id": "2025-0534-I-21",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 21,
+      "answer": 3,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 21,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-14",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "418a0c7d64100f5d13baa7c34488425a53ea870e301cbc2da7e828f91f7851b7",
+      "source_image": "data/exams/images/2025/0534/I-21.png",
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_segments": [
+        {
+          "page": 2,
+          "rect_points": [
+            30,
+            740.5,
+            573.260009765625,
+            802.8599853515625
+          ]
+        },
+        {
+          "page": 3,
+          "rect_points": [
+            30,
+            20,
+            573.260009765625,
+            45.5
+          ]
+        }
+      ],
+      "source_image_sha256": "be9fdef8946bdf7b5517f034aa526f3ad644962057a0ccc9e3585786216ed74e"
+    },
+    {
+      "prompt": "Một bạn học sinh đăng bài lên mạng xã hội kèm theo hình ảnh mình đang trồng cây tại vườn nhà với thông điệp “Hãy bảo vệ môi trường”. Hành động nào sau đây của một số bạn trong lớp thể hiện ứng xử có văn hoá?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Đăng ảnh cây của những người khác trồng để so bì với cây của bạn đó.",
+        "Nhận xét rằng việc trồng một vài cây không có tác dụng gì đến môi trường.",
+        "Bình luận rằng việc làm của bạn đó chỉ nhằm mục đích phô trương bản thân.",
+        "Chia sẻ bài đăng của bạn đó lên trang cá nhân để lan tỏa thông điệp đến bạn bè."
+      ],
+      "id": "2025-0534-I-22",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 22,
+      "answer": 3,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 22,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-20",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          1,
+          2,
+          3,
+          0
+        ]
+      },
+      "canonical_id": "ef4b640e4115eb348271d74a25034d06c6523f87256f961909fffef54150572e",
+      "source_image": "data/exams/images/2025/0534/I-22.png",
+      "source_pages": [
+        3
+      ],
+      "source_segments": [
+        {
+          "page": 3,
+          "rect_points": [
+            30,
+            45.5,
+            573.260009765625,
+            123.4
+          ]
+        }
+      ],
+      "source_image_sha256": "997a9ba239c1bac77c049ab7cb743b555a2b528fb0edd836bc7fc6d6a3f1dc29"
+    },
+    {
+      "prompt": "Đoạn mã CSS nào sau đây quy định tiêu đề cấp một và nội dung văn bản được hiển thị theo khối?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "h1, p {display: inline;}",
+        "h1, p {display: block;}",
+        "h1, p {display: flex;}",
+        "h1, p {display: none;}"
+      ],
+      "id": "2025-0534-I-23",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 23,
+      "answer": 1,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 23,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-10",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          3,
+          1,
+          2
+        ]
+      },
+      "canonical_id": "ef84e9bb6b0b6a49a3954204dd58b371a03abb36a92c7129e92e9232aefbb2b9",
+      "source_image": "data/exams/images/2025/0534/I-23.png",
+      "source_pages": [
+        3
+      ],
+      "source_segments": [
+        {
+          "page": 3,
+          "rect_points": [
+            30,
+            123.4,
+            573.260009765625,
+            163.4
+          ]
+        }
+      ],
+      "source_image_sha256": "a654de94493f4ee194527ba34f77d9d91e091fa9d9fbd842caf14de556c2b113"
+    },
+    {
+      "prompt": "Nghề nào sau đây thuộc nhóm nghề quản trị trong ngành Công nghệ thông tin?",
+      "type": "mcq",
+      "code_blocks": [],
+      "options": [
+        "Bảo mật hệ thống thông tin.",
+        "Kiểm thử phần mềm.",
+        "Sửa chữa, bảo trì máy tính.",
+        "Thiết kế đồ họa."
+      ],
+      "id": "2025-0534-I-24",
+      "year": 2025,
+      "code": "0534",
+      "part": "I",
+      "number": 24,
+      "answer": 0,
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 24,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-I-19",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          3,
+          1,
+          2
+        ]
+      },
+      "canonical_id": "0beb75463475d578fd1d897a92a75d3ee2957bca9949222cfe245280a8755e79",
+      "source_image": "data/exams/images/2025/0534/I-24.png",
+      "source_pages": [
+        3
+      ],
+      "source_segments": [
+        {
+          "page": 3,
+          "rect_points": [
+            30,
+            163.4,
+            573.260009765625,
+            240.5
+          ]
+        }
+      ],
+      "source_image_sha256": "34f35a4189bc6e4b0d4462da3bd91b24fec12426e970e11421c1664989bc2654"
+    },
+    {
+      "prompt": "Một gia đình chuyển đến căn nhà mới có bốn tầng. Họ được nhà cung cấp dịch vụ viễn thông lắp đặt một Modem để sử dụng Internet trong nhà. Các thành viên trong gia đình thường sử dụng điện thoại thông minh để truy cập Internet, tuy nhiên, tín hiệu Internet không ổn định tại một số phòng. Hơn nữa, gia đình còn có nhu cầu sử dụng Internet trên các máy tính để bàn không có chức năng kết nối mạng không dây. Các thành viên trong gia đình đã đưa ra các ý kiến sau:",
+      "type": "tf",
+      "code_blocks": [],
+      "options": [
+        "Việc truy cập Internet bằng điện thoại thông minh mà không dùng dữ liệu mạng di động chứng tỏ Modem của gia đình đã được tích hợp chức năng phát Wi-Fi.",
+        "Để tránh tình trạng tín hiệu Internet không ổn định trong một số phòng, có thể dùng thêm Access Point để kết nối với Modem và đặt Access Point này ở vị trí gần các phòng đó.",
+        "Nếu gia đình muốn sử dụng Internet bằng máy tính để bàn thì cách đơn giản nhất là dùng cáp mạng để kết nối giữa máy tính đó với Modem.",
+        "Để tất cả các máy tính để bàn truy cập được Internet, gia đình cần kết nối các máy tính đó với nhau thông qua một Switch nhưng không kết nối Switch với Modem."
+      ],
+      "id": "2025-0534-II-01",
+      "year": 2025,
+      "code": "0534",
+      "part": "II",
+      "number": 1,
+      "answer": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 25,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-II-1",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "6361e5a554d324bc8ea70113e18a9c4c76e32987e73758ba5492b5166a1e5a51",
+      "source_image": "data/exams/images/2025/0534/II-01.png",
+      "source_pages": [
+        3
+      ],
+      "source_segments": [
+        {
+          "page": 3,
+          "rect_points": [
+            30,
+            240.5,
+            573.260009765625,
+            394.3
+          ]
+        }
+      ],
+      "source_image_sha256": "dceeb517b2543474d1501cbdcd0fd197ee105e2b3f97861667eac8b5e44c7da9"
+    },
+    {
+      "prompt": "Dữ liệu về thời tiết ở nước ta từ năm 2019 đến năm 2023 có trong niên giám số liệu thống kê của Tổng cục thống kê. Nguồn dữ liệu này được thu thập từ các trạm quan trắc đặt tại nhiều địa điểm khác nhau. Trong đó, lượng mưa trung bình tháng và nhiệt độ trung bình hàng năm là các dữ liệu thường được quan tâm nhiều nhất. Để lưu trữ và khai thác nguồn dữ liệu này, có thể tạo cơ sở dữ liệu với các bảng sau:\n• TRAM (maTram, tenTram): lưu thông tin mã trạm quan trắc và tên trạm quan trắc; mỗi trạm có một mã duy nhất.\n• MUA (maTram, nam, thang, luongMua): lưu thông tin mã trạm quan trắc, năm, tháng và lượng mưa của tháng trong năm.\n• NHIETDO (maTram, nam, nhietDoTB): lưu thông tin mã trạm quan trắc, năm và nhiệt độ trung bình của năm.\nSau khi tìm hiểu cơ sở dữ liệu trên, một số học sinh đã đưa ra các nhận xét sau:",
+      "type": "tf",
+      "code_blocks": [],
+      "options": [
+        "Trường maTram là khóa chính của bảng TRAM.",
+        "Nhóm hai trường maTram và nam là khóa chính của bảng MUA.",
+        "Chỉ cần liên kết hai bảng TRAM và MUA theo khóa maTram là có thể kết xuất được thông tin gồm: tên trạm quan trắc, năm, tháng và lượng mưa của tháng trong năm.",
+        "Để đưa ra thông tin gồm tên trạm quan trắc, năm và nhiệt độ trung bình của năm 2020, cần thực hiện câu truy vấn với các thành phần sau:\n○ Các bảng và trường được chọn: TRAM.tenTram, NHIETDO.nam, NHIETDO.nhietDoTB.\n○ Các bảng được liên kết qua khóa: TRAM liên kết MUA qua khóa maTram.\n○ Điều kiện kết xuất dữ liệu: NHIETDO.nam = 2020."
+      ],
+      "id": "2025-0534-II-02",
+      "year": 2025,
+      "code": "0534",
+      "part": "II",
+      "number": 2,
+      "answer": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "track": "common",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 26,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-II-2",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "a5a85ab2582dc84261ca4bd3ccafa1fce9090013f1a774e0c711bef89b69e3e0",
+      "source_image": "data/exams/images/2025/0534/II-02.png",
+      "source_pages": [
+        3
+      ],
+      "source_segments": [
+        {
+          "page": 3,
+          "rect_points": [
+            30,
+            394.3,
+            573.260009765625,
+            687.6
+          ]
+        }
+      ],
+      "source_image_sha256": "2ca6e6915470ed7e29d5a34b40e18af2bc70f48bdbadfc0c9cb20362b5a98cfd"
+    },
+    {
+      "prompt": "Một quỹ đầu tư (sau đây gọi tắt là Quỹ) muốn xây dựng mô hình học máy để tự động hóa việc ra quyết định mua hoặc bán cổ phiếu. Quỹ tiến hành tổng hợp các tin tức trên báo và bài đăng trên mạng xã hội liên quan đến các công ty có niêm yết cổ phiếu. Sau đó, mỗi mẫu dữ liệu (tin tức, bài đăng) sẽ được gán nhãn là “tích cực” hoặc “tiêu cực”. Dữ liệu sau gán nhãn được tổng hợp để huấn luyện mô hình. Cuối cùng, kết quả dự đoán của mô hình sẽ được sử dụng để hỗ trợ Quỹ nhanh chóng ra quyết định mua hoặc bán cổ phiếu.\nSau khi tìm hiểu mô hình trên, một số nhân sự của Quỹ đưa ra các nhận định sau:",
+      "type": "tf",
+      "code_blocks": [],
+      "options": [
+        "Mô hình học máy trong tình huống này thể hiện khả năng hiểu ngôn ngữ của Trí tuệ nhân tạo.",
+        "Phải sử dụng phương pháp Học không giám sát để huấn luyện mô hình học máy nói trên.",
+        "Cần phải sử dụng toàn bộ các tin tức và bài đăng đã thu thập để làm tập dữ liệu huấn luyện mô hình.",
+        "Sau khi triển khai, mô hình có thể được đánh giá chất lượng bằng lợi nhuận giao dịch thực tế của Quỹ."
+      ],
+      "id": "2025-0534-II-03",
+      "year": 2025,
+      "code": "0534",
+      "part": "II",
+      "number": 3,
+      "answer": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "track": "cs",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 27,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-II-3",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "89cd8ad06d0b7fda1c80e7a4566f92c0f25a985027ae3339be12d4d8f500b8fe",
+      "source_image": "data/exams/images/2025/0534/II-03.png",
+      "source_pages": [
+        3,
+        4
+      ],
+      "source_segments": [
+        {
+          "page": 3,
+          "rect_points": [
+            30,
+            687.6,
+            573.260009765625,
+            802.8599853515625
+          ]
+        },
+        {
+          "page": 4,
+          "rect_points": [
+            30,
+            20,
+            573.260009765625,
+            71.3
+          ]
+        }
+      ],
+      "source_image_sha256": "a70f12cb6be79c62de035ddcf18f974375272868daee7e1ce028d0f42c10b7ed"
+    },
+    {
+      "prompt": "Cho hàm trong ảnh gốc được viết bằng ngôn ngữ lập trình Python và C++. Sau khi chọn một trong hai ngôn ngữ Python hoặc C++ để tìm hiểu hàm trên, một số bạn học sinh đã nêu các ý kiến sau:",
+      "type": "tf",
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "def F(A, n):\n    for i in range(1, n):\n        x = A[i]\n        j = i - 1\n        while j >= 0 and A[j] > x:\n            A[j + 1] = A[j]\n            j = j - 1\n        A[j + 1] = x\n    return (A[0] + A[n // 2]) / 2"
+        },
+        {
+          "language": "cpp",
+          "code": "float F(int A[], int n) {\n    for (int i = 1; i < n; i++) {\n        int x = A[i];\n        int j = i - 1;\n        while (j >= 0 && A[j] > x) {\n            A[j + 1] = A[j];\n            j = j - 1;\n        }\n        A[j + 1] = x;\n    }\n    return (A[0] + A[n / 2]) / 2.0;\n}"
+        }
+      ],
+      "options": [
+        "Mảng A biểu diễn cấu trúc dữ liệu hàng đợi (Queue).",
+        "Nếu dữ liệu đầu vào là mảng A gồm n phần tử đã được sắp xếp theo chiều không giảm thì các câu lệnh tại Dòng 6 và Dòng 7 không được thực hiện lần nào.",
+        "Nếu dữ liệu đầu vào là n = 6 và mảng A là (9, 7, 5, 2, 4, 6) thì sau khi câu lệnh for tại Dòng 2 thực hiện lần lặp thứ 2, giá trị của mảng A là (2, 5, 7, 9, 4, 6).",
+        "Nếu dữ liệu đầu vào là n = 7 và mảng A là (8, 6, 4, 2, 3, 5, 7) thì hàm trả về giá trị 3.5."
+      ],
+      "id": "2025-0534-II-04",
+      "year": 2025,
+      "code": "0534",
+      "part": "II",
+      "number": 4,
+      "answer": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "track": "cs",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 28,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-II-4",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "a44a7dc9643804d0f1b98b65e67e549bb302a2ce2cf28db25d158df2f7bcb4a1",
+      "source_image": "data/exams/images/2025/0534/II-04.png",
+      "source_pages": [
+        4
+      ],
+      "source_segments": [
+        {
+          "page": 4,
+          "rect_points": [
+            30,
+            71.3,
+            573.260009765625,
+            350.5
+          ]
+        }
+      ],
+      "source_image_sha256": "b9819590868eddfb77799816155d35a6c213de8ee069785df922d681dfa69f31"
+    },
+    {
+      "prompt": "Câu lạc bộ (CLB) Tin học của một trường học cần tạo một trang web để quảng bá CLB trên Internet với các thông tin về lịch sinh hoạt, hình ảnh, video hoạt động của CLB và các nội dung khác. Trang web cần có biểu mẫu để học sinh đăng ký tham gia CLB. Ngoài ra, giao diện và bố cục của trang web phải được hiển thị một cách hợp lý trên máy tính và điện thoại thông minh. Khi tìm hiểu một số phần mềm tạo trang web, một số bạn học sinh đưa ra các ý kiến sau:",
+      "type": "tf",
+      "code_blocks": [],
+      "options": [
+        "Phần mềm tạo trang web không hỗ trợ chức năng chèn biểu mẫu đăng ký tham gia CLB vào trang web.",
+        "Nếu muốn chèn ảnh banner của CLB vào trang web bằng phần mềm tạo trang web thì tệp ảnh đó phải có định dạng PNG.",
+        "Để đạt được yêu cầu đặt ra, nên chọn phần mềm tạo trang web có tính năng tùy biến giao diện và bố cục của trang web một cách hợp lý trên các máy tính và điện thoại thông minh.",
+        "Để hiển thị video trên trang web, có thể thực hiện theo hai bước sau: (1) Tải video lên YouTube, (2) Sao chép và nhúng đường liên kết đến video đã tải vào trang web."
+      ],
+      "id": "2025-0534-II-05",
+      "year": 2025,
+      "code": "0534",
+      "part": "II",
+      "number": 5,
+      "answer": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "track": "ict",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 29,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-II-5",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "6312c089f002f697ce998a4e4c6b021a4299e28126f36816214d939fbd3615b3",
+      "source_image": "data/exams/images/2025/0534/II-05.png",
+      "source_pages": [
+        4
+      ],
+      "source_segments": [
+        {
+          "page": 4,
+          "rect_points": [
+            30,
+            350.5,
+            573.260009765625,
+            491.3
+          ]
+        }
+      ],
+      "source_image_sha256": "aff3f303a8f83ff585006365f6e20882ec1b0d138c4e7b313869f6869f4743ae"
+    },
+    {
+      "prompt": "Trong niên giám số liệu thống kê của Tổng cục thống kê có dữ liệu từ năm 2019 đến năm 2023 về tổng số lao động của các doanh nghiệp đang hoạt động (có kết quả sản xuất kinh doanh tại thời điểm 31/12 hằng năm). Dữ liệu này được phân loại theo loại hình doanh nghiệp. Để lưu trữ và khai thác nguồn dữ liệu này, cần tạo một cơ sở dữ liệu với các bảng sau đây:\n• NHOM (maNhom, tenNhom): lưu thông tin mã nhóm và tên nhóm doanh nghiệp; mỗi nhóm có một mã nhóm duy nhất.\n• LOAI (maLoai, tenLoai, maNhom): lưu thông tin mã loại hình, tên loại hình và mã nhóm doanh nghiệp; mỗi loại hình thuộc về một nhóm và mỗi nhóm có thể có nhiều loại hình.\n• LAODONG (maLoai, nam, soLaoDong): lưu thông tin mã loại hình, năm, số lượng lao động của loại hình doanh nghiệp trong năm.\nSau khi tìm hiểu cách sử dụng các phần mềm để quản trị cơ sở dữ liệu nói trên, một số bạn học sinh đưa ra các ý kiến sau:",
+      "type": "tf",
+      "code_blocks": [],
+      "options": [
+        "Phần mềm bảng tính có thể lưu trữ cơ sở dữ liệu đã nêu trong một trang tính duy nhất gồm các cột: maNhom, tenNhom, maLoai, tenLoai, nam, soLaoDong.",
+        "Khi tạo bảng LAODONG trong phần mềm quản trị cơ sở dữ liệu, chọn hai trường maLoai và nam rồi thiết lập hai trường này làm khóa chính của bảng.",
+        "Trong phần mềm quản trị cơ sở dữ liệu, mối quan hệ của 3 bảng đã cho được thiết lập dựa trên việc liên kết từ bảng NHOM đến bảng LOAI và liên kết từ bảng NHOM đến bảng LAODONG.",
+        "Để đưa ra thông tin gồm tên nhóm doanh nghiệp, tên loại hình doanh nghiệp, năm và số lượng lao động của loại hình doanh nghiệp năm 2022, thực hiện truy vấn sau:\nSELECT NHOM.tenNhom, LOAI.tenLoai, LAODONG.nam, LAODONG.soLaoDong\nFROM NHOM INNER JOIN LOAI ON NHOM.maNhom = LOAI.maNhom\nWHERE LAODONG.nam = 2022"
+      ],
+      "id": "2025-0534-II-06",
+      "year": 2025,
+      "code": "0534",
+      "part": "II",
+      "number": 6,
+      "answer": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "track": "ict",
+      "source_pdf": "data/exams/2025/TIN_HOC_2025_0534.pdf",
+      "source_sha256": "6ffa21141451582acce93b2165e8739955c5ec3ac5249ec1c078913b552c7700",
+      "verification": "verified",
+      "answer_source": {
+        "pdf": "data/exams/answers/2025.pdf",
+        "sha256": "d864236c1a7871cc1a901e487dc23a620787026ebb744e241d16ced61d5d295d",
+        "page": 2,
+        "column": "0534",
+        "row": 30,
+        "kind": "official"
+      },
+      "review": {
+        "method": "manual_visual_comparison",
+        "date": "2026-11-20",
+        "template_id": "B-II-6",
+        "occurrence_review": "data/exams/reviews/2025/0534.json",
+        "option_order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "canonical_id": "d9baafb2e79f25e253a5a909e9e5f2f285e81f3cc3735b8cfbb57d99f40625fe",
+      "source_image": "data/exams/images/2025/0534/II-06.png",
+      "source_pages": [
+        4
+      ],
+      "source_segments": [
+        {
+          "page": 4,
+          "rect_points": [
+            30,
+            491.3,
+            573.260009765625,
+            802.8599853515625
+          ]
+        }
+      ],
+      "source_image_sha256": "d6877e3e85870d80b4689e3c5431999cacc3fb6f4ab73a657810fe56c1fb1929"
     }
   ]
 }
