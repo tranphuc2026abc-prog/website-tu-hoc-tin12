@@ -192,7 +192,7 @@ jobs:
             echo '- Review package not generated; inspect job logs.' >> "$GITHUB_STEP_SUMMARY"
           fi
 
-  export-next-2025:
+  export-first-2026:
     if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.head_ref == 'review/export-2025-0529'
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -214,9 +214,10 @@ jobs:
           output = Path("review-evidence")
           manifest = json.loads(Path("data/exams/manifest.json").read_text())
           sources = {
-              f"2025-{code}/exam": manifest["files"]["2025"][code]
-              for code in (f"{value:04}" for value in range(530, 549))
+              f"2026-{code}/exam": manifest["files"]["2026"][code]
+              for code in (f"{value:04}" for value in range(501, 509))
           }
+          sources["2026/answers"] = manifest["answers"]["2026"]
           for kind, source in sources.items():
               with pymupdf.open(source) as pdf:
                   for number, page in enumerate(pdf, start=1):
@@ -244,5 +245,23 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add review-evidence
-          git commit -m 'Render original 2025 exams 0530 through 0548 for review'
-          git push origin HEAD:refs/heads/review/evidence-2025-0530-0548
+          git commit -m 'Render original 2026 exams 0501 through 0508 and answer table'
+          git push origin HEAD:refs/heads/review/evidence-2026-0501-0508
+
+      - name: Check the deployed 0529 data on GitHub Pages
+        run: |
+          python - <<'PY'
+          import json
+          import urllib.request
+
+          base = "https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/"
+          def read(path):
+              with urllib.request.urlopen(base + path, timeout=20) as response:
+                  return response.read()
+          assert b"test-start" in read("de-thi-tot-nghiep.html")
+          manifest = json.loads(read("data/exams/manifest.json"))
+          paper = json.loads(read(manifest["papers"]["2025"]["0529"]))
+          assert paper["status"] == "verified" and len(paper["question_ids"]) == 30
+          assert set(paper["tracks"]) == {"ict", "cs"} and paper["scored_question_count"] == 28
+          print("GitHub Pages serves the verified 0529 paper with both tracks")
+          PY
