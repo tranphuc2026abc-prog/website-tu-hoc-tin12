@@ -1,0 +1,8 @@
+- **Khái niệm hàm:** Là một khối câu lệnh được đặt tên để thực hiện một nhiệm vụ cụ thể. Khi cần dùng chỉ việc gọi tên hàm kèm cặp ngoặc tròn `()`.
+- **Phân loại hàm theo giá trị trả lại:**
+  - *Hàm có giá trị trả lại:* Trả về kết quả tính toán cho nơi gọi thông qua `return <giá_trị>` (ví dụ hàm sẵn: `input()`, `int()`, `float()`, `len()`, `str()`, `list()`).
+  - *Hàm không có giá trị trả lại:* Chỉ thực hiện hành động (như in ra màn hình), không có `return` hoặc chỉ viết `return` (ví dụ hàm sẵn: `print()`). Thực chất Python trả về `None`.
+- **Quy tắc định nghĩa hàm tự tạo:**
+  - Bắt đầu bằng từ khóa `def`, tiếp theo là `<tên_hàm>(<tham_số>)` và kết thúc dòng đầu bằng dấu hai chấm `:`.
+  - Toàn bộ phần thân hàm phải viết **thụt lề thẳng hàng** vào trong so với dòng `def`.
+  - Một hàm có thể có nhiều lệnh `return`; ngay khi gặp `return`, hàm dừng thực thi và trả kết quả về ngay lập tức.

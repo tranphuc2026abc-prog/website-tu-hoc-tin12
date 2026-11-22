@@ -1,0 +1,6 @@
+- **Biến cục bộ (Local variable):** Là biến được khai báo bên trong một hàm (bao gồm cả các tham số của hàm). Biến cục bộ chỉ có hiệu lực và tồn tại trong thời gian hàm thực thi; ra khỏi hàm không thể truy cập được.
+- **Biến toàn cục (Global variable):** Là biến được khai báo ở chương trình chính (bên ngoài tất cả các hàm).
+  - Bên trong hàm có thể **đọc** giá trị của biến toàn cục nếu không có biến cục bộ trùng tên.
+  - Nếu bên trong hàm thực hiện phép gán cho tên biến trùng với biến toàn cục (mà không khai báo `global`), Python sẽ tạo ra một **biến cục bộ mới**, không làm thay đổi biến toàn cục bên ngoài.
+- **Từ khóa `global`:** Dùng ở đầu thân hàm (`global <tên_biến>`) để chỉ rõ hàm sẽ thao tác và thay đổi trực tiếp giá trị của biến toàn cục bên ngoài.
+- **Lưu ý với kiểu khả biến (`list`):** Dù không dùng `global`, các phương thức thay đổi nội dung tại chỗ như `mylist.append(...)` vẫn làm thay đổi danh sách truyền vào.

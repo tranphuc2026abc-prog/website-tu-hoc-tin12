@@ -1,0 +1,7 @@
+- **Tham số (Parameter):** Là các biến được khai báo trong cặp ngoặc tròn ở dòng `def` khi định nghĩa hàm, đóng vai trò như biến nhận dữ liệu đầu vào bên trong thân hàm. Hàm có thể có 0, 1 hoặc nhiều tham số.
+- **Đối số (Argument):** Là giá trị cụ thể, biến đã có giá trị hoặc biểu thức được truyền vào trong cặp ngoặc khi gọi hàm.
+- **Quy tắc truyền dữ liệu:**
+  - Khi gọi hàm (không có tham số mặc định), số lượng đối số truyền vào **phải bằng** số lượng tham số khi khai báo hàm.
+  - Các đối số vị trí được gán tương ứng theo thứ tự từ trái sang phải cho các tham số.
+  - Mọi biến dùng làm đối số phải được gán giá trị trước khi gọi hàm, nếu không sẽ phát sinh lỗi `NameError`.
+- **Lợi ích của chương trình con:** Giảm lặp lại mã nguồn, cấu trúc chương trình rõ ràng, dễ đọc, dễ kiểm thử, dễ bảo trì và nâng cấp.
