@@ -57,10 +57,13 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Import reviewed Tin hoc 10 bank: 1117 questions"
           git push
+      - name: Stage public website files
+        run: bash scripts/package_pages.sh _site
+
       - name: Publish reviewed grade-10 data (existing grade-11/12 files untouched)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

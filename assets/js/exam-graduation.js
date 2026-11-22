@@ -124,7 +124,7 @@ async function json(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)th
 (async()=>{try{
  const [manifest,bank,audit]=await Promise.all([json('data/exams/manifest.json'),json('data/exams/questions.json'),json('data/exams/source-audit.json')]);state.manifest=manifest;
  const hashes=new Map(audit.exams.map(e=>[e.path,e.sha256]));state.bank=(bank.questions||[]).filter(q=>Core.valid(q)&&hashes.get(q.source_pdf)===q.source_sha256);
- const count=Object.values(manifest.papers||{}).reduce((n,items)=>n+Object.keys(items).length,0);$('digitization-status').textContent='Đã mở '+count+'/96 mã đề đã xác minh · '+state.bank.length+' câu hỏi. Các mã đề còn lại đang kiểm tra nội dung và đáp án; bạn vẫn có thể xem PDF.';
+ const count=Object.values(manifest.papers||{}).reduce((n,items)=>n+Object.keys(items).length,0);$('digitization-status').textContent='Đã mở '+count+'/96 mã đề đã xác minh · '+state.bank.length+' lượt câu hỏi.' + (count < 96 ? ' Các mã còn lại có thể xem ở mục Xem đề gốc.' : '');
  renderFiles();filterState();renderHistory();restore();
  }catch(e){$('bank-status').textContent='Không tải được dữ liệu xác minh. Chưa thể mở thi tự động.';$('digitization-status').textContent='Dữ liệu chưa tải được. Vui lòng kiểm tra kết nối.';console.error(e);}
 })();

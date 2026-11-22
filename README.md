@@ -1,19 +1,19 @@
 # Tự học Tin học THPT
 
-Website hỗ trợ học Tin học cho học sinh THPT khối 10, 11 và 12. Kho dữ liệu hiện có 93 bài học và 2.368 câu hỏi thuộc ba dạng trắc nghiệm, đúng/sai và tự luận. Học sinh có thể đọc bài, ôn tập, luyện câu hỏi và theo dõi tiến độ lưu trong trình duyệt. Nội dung học tập chính nằm trong các tệp tĩnh; một số mã đăng nhập/đồng bộ Supabase cũng đang có trong repository nên cần Internet khi dùng chức năng đó.
+Website hỗ trợ học Tin học cho học sinh THPT khối 10, 11 và 12. Kho dữ liệu hiện có 93 bài học và 2.830 câu hỏi thuộc bốn dạng trắc nghiệm, đúng/sai, trả lời ngắn và tự luận. Học sinh có thể đọc bài, ôn tập, luyện câu hỏi và theo dõi tiến độ lưu trong trình duyệt. Nội dung học tập chính nằm trong các tệp tĩnh; một số mã đăng nhập/đồng bộ Supabase cũng đang có trong repository nên cần Internet khi dùng chức năng đó.
 
 **Bản demo:** [Tự học Tin học THPT](https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/)
 
 ## Quy mô học liệu
 
-| Khối | Bài học | Câu hỏi trong website | Trắc nghiệm | Đúng/sai | Tự luận | Chủ đề chính |
-|---|---:|---:|---:|---:|---:|---|
-| 10 | 34 | 850 | 748 | 34 | 68 | Dữ liệu, Internet, đồ họa, Python |
-| 11 | 31 | 775 | 682 | 31 | 62 | Hệ điều hành, cơ sở dữ liệu, đồ họa, phim |
-| 12 | 28 | 743 | 651 | 33 | 59 | AI, mạng, giải quyết vấn đề, ứng dụng Tin học |
-| **Tổng** | **93** | **2.368** | **2.081** | **98** | **189** | |
+| Khối | Bài học | Trắc nghiệm | Đúng/sai | Trả lời ngắn | Tự luận | Tổng |
+|---|---:|---:|---:|---:|---:|---:|
+| 10 | 34 | 720 | 165 | 114 | 118 | 1.117 |
+| 11 | 31 | 620 | 155 | 157 | 94 | 1.026 |
+| 12 | 28 | 595 | 33 | 0 | 59 | 687 |
+| **Tổng** | **93** | **1.935** | **353** | **271** | **271** | **2.830** |
 
-Khối 10 và 11 có 25 câu mỗi bài. Khối 12 có 700 câu trong bộ nguồn; website giữ thêm 43 câu chỉ có trong ngân hàng hiện hành. Số liệu được đối chiếu với các catalog, tệp ngân hàng và báo cáo thống kê trong repository ngày 08/11/2026.
+Tổng số trên là câu hỏi luyện tập theo bài. Kho thi thử tốt nghiệp có 96 mã đề với dữ liệu chấm điểm riêng.
 
 ## Tính năng
 
@@ -24,7 +24,7 @@ Khối 10 và 11 có 25 câu mỗi bài. Khối 12 có 700 câu trong bộ ngu�
 - Theo dõi trạng thái bài học, câu trả lời, lịch sử và các lượt câu hỏi đã xuất hiện.
 - Sao lưu và khôi phục tiến độ bằng tệp JSON; có giao diện sáng/tối.
 - Mã ứng dụng có tích hợp đăng nhập và đồng bộ qua Supabase. Chức năng này dùng Internet và dịch vụ ngoài; không nên mô tả toàn bộ sản phẩm là “không tài khoản, không server” khi cấu hình hiện còn bật.
-- Mục “Ôn thi tốt nghiệp và đề tham khảo” đang tạm khóa để rà soát.
+- Xem PDF đề gốc và thi thử có chấm điểm theo 96 mã đề tốt nghiệp Tin học 2025–2026.
 
 ## Cách sử dụng
 
@@ -86,12 +86,11 @@ Nhánh đề xuất thống nhất tên thương hiệu, thêm lối tiếp tụ
 
 ## Tình trạng và hạn chế đã xác minh
 
-- Có đủ catalog 34 bài khối 10, 31 bài khối 11 và 28 bài khối 12; ngân hàng website có 2.368 bản ghi.
+- Có đủ catalog 34 bài khối 10, 31 bài khối 11 và 28 bài khối 12; ngân hàng website có 2.830 câu luyện tập.
 - 14/34 bài khối 10 đang được catalog xếp vào “Chủ đề chưa phân loại”.
 - Trên nhánh giao diện này, nhãn chế độ ôn theo học kỳ lấy khoảng bài từ catalog của khối hiện chọn: khối 10 (1–17/18–34), khối 11 (1–16/17–31), khối 12 (1–14/15–28).
 - Repository có cấu hình Supabase và mã xác thực/đồng bộ. Cần quyết định rõ phạm vi vận hành ngoại tuyến và trực tuyến trước khi giới thiệu tính năng “không tài khoản, không server”.
 - Thư mục `data/lesons/` cũ vẫn còn bên cạnh `data/lessons/`; chưa xóa vì cần rà soát tham chiếu trước.
-- Phần ôn thi tốt nghiệp và đề tham khảo đang khóa.
 - Chưa có `LICENSE`; nguồn sử dụng lại và quyền phân phối của hình ảnh (`assets/images/`) chưa có ghi chú rõ trong repository. Cần chủ sản phẩm xác nhận trước khi phát hành rộng rãi.
 - Chưa thẩm định chuyên môn thủ công toàn bộ 93 bài trong đợt cập nhật tài liệu này.
 

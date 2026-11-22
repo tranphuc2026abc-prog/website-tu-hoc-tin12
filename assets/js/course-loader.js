@@ -15,7 +15,7 @@ const load = src => new Promise((resolve,reject) => { const s=document.createEle
    T.cat.courseTitle = 'Tin học ' + grade;
    document.getElementById('course-name').textContent = 'TIN HỌC ' + grade;
    document.title = 'Tự học Tin học ' + grade;
-   await load('assets/js/app.js' + (grade === '10' ? '?v=20261122-grade10-clean' : ''));
+   await load('assets/js/app.js?v=20261122-site-clean');
    await load('assets/js/panels.js');
    await load('assets/js/supabase-config.js');
    await load('assets/js/supabase-cloud.js');

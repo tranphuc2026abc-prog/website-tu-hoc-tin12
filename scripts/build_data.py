@@ -284,6 +284,13 @@ for n in range(1, 29):
             duplicates += 1
             continue
         merged.append(q); ids_seen.add(qid); signatures.add(sig)
+    # Keep template records in the source archive, outside student-facing data.
+    merged = [
+        q for q in merged
+        if not (re.match(r"Câu hỏi trắc nghiệm gốc [0-9]+ về ", q.get("q", ""))
+                and any(re.fullmatch(r"Phương án nhiễu [0-9]+", option.get("x", ""))
+                        for option in q.get("opts", [])))
+    ]
     present = len(source_ids & old_ids)
     added = len(source_ids - old_ids)
     integration_rows.append({'n': n, 'source': len(srcq), 'present': present, 'added': added,
@@ -346,7 +353,7 @@ missing_total = sum(max(0, x['source'] - x['present'] - x['added']) for x in int
 report_lines = [
     '# Báo cáo nghiệm thu hợp nhất học liệu Tin học 12', '',
     'Nguồn kiến thức: `nguon/kien-thuc-chuan-hoa/BAI_XX.md`; ngân hàng chuẩn: `nguon/ngan-hang-cau-hoi/BAI_XX_QUESTIONS.json`.',
-    'Câu chỉ có trên website được giữ lại. Nhận diện trùng dùng ID, sau đó so nội dung cùng phương án hoặc mệnh đề.',
+    'Câu chỉ có trên website được giữ lại. Câu mẫu có phương án giữ chỗ bị loại khỏi dữ liệu phát hành.',
     '',
     '## Tổng hợp', '',
     '- Tổng câu nguồn: %d.' % source_total,

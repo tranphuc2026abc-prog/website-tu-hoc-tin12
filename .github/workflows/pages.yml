@@ -87,10 +87,13 @@ jobs:
         id: exam-manifest
         run: echo "sha=$(sha256sum data/exams/manifest.json | cut -d ' ' -f 1)" >> "$GITHUB_OUTPUT"
 
+      - name: Stage public website files
+        run: bash scripts/package_pages.sh _site
+
       - name: Prepare GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
   deploy:
     if: github.event_name != 'pull_request'
