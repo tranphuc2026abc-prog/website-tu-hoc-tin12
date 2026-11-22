@@ -52,7 +52,7 @@ print("Max =", gt_max, "tại chỉ số", cs_max)
 - **Bài 2**: Đếm số lượng số chẵn trong danh sách `A`.
   - *Giải*: Duyệt `for i in range(len(A)):`, nếu `A[i] % 2 == 0:` thì tăng biến đếm lên 1.
 
-## 5. Điểm nhấn sư phạm & Mở rộng
+## 5. Lưu ý và mở rộng
 - Danh sách là kiểu dữ liệu **khả biến (mutable)**: mọi thao tác `A[i] = ...`, `append()`, `del` đều thay đổi trực tiếp trên danh sách gốc.
 - Lưu ý phân biệt phép gán tham chiếu `B = A` (cùng trỏ một vùng nhớ) với sao chép `B = A[:]` hoặc `B = A.copy()`.
 

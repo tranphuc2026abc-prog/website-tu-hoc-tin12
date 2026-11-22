@@ -100,13 +100,14 @@ function lesson(id) {
   const m = L(id); if (!m || !T.L[id]) return `<h1>Không tìm thấy bài</h1><p>Mã bài “${esc(id)}” không có trong danh mục. <a href="#/lessons">Về danh mục bài học</a>.</p>`;
   const d = T.L[id], l = mk(id); l.o = Date.now(); S.last = id; save(); codes = [];
   const i = m.n - 1, pv = C.lessons[i - 1], nx = C.lessons[i + 1], r = C.rel[id], nq = qOf(id).length;
-  const sectionTitles = C.grade === 10 ? { ...SECT, terms: 'Thuật ngữ, cú pháp và ví dụ', ex: 'Ví dụ và bài tập', steps: 'Thực hành và vận dụng', rem: 'Tổng kết và tự kiểm tra' } : SECT;
+  const isGrade10 = C.grade === 10;
+  const sectionTitles = isGrade10 ? { ...SECT, terms: 'Thuật ngữ, cú pháp và ví dụ', ex: 'Ví dụ và bài tập', steps: 'Thực hành và vận dụng', rem: 'Tổng kết và tự kiểm tra' } : SECT;
   const rl = (a, t) => a.length ? `<p><b>${t}:</b> ${a.map(lnk).join(' · ')}</p>` : '';
   return `<p class="mut">${esc(C.topics[m.topic])} · ${m.tiet} tiết · ${m.id}</p><h1>${esc(m.title)}</h1>${prog(pct(id))}
 <div class="row toc">${KEYS.map((k, j) => `<a href="#" data-act="go" data-k="${k}">${j + 1}. ${['Mục tiêu','Trọng tâm','Thuật ngữ','Ví dụ','Thực hành','Lỗi thường gặp','Ghi nhớ'][j]}</a>`).join('')}</div>
-<div class="sum"><b>Tóm tắt nhanh</b>${ul((d.sec.rem.find(b => b.t === 'ul') || { i: [] }).i)}</div>
+${isGrade10 ? '' : `<div class="sum"><b>Tóm tắt nhanh</b>${ul((d.sec.rem.find(b => b.t === 'ul') || { i: [] }).i)}</div>`}
 ${KEYS.map((k, j) => `<section class="sheet ${k}" id="s-${k}"><h2>${j + 1}. ${esc(C.grade === 11 && k === 'steps' ? 'Nội dung học tập chi tiết' : sectionTitles[k])}</h2>${d.sec[k].map(blk).join('')}<label class="chk"><input type="checkbox" data-act="sec" data-j="${j}" ${l.s[j] ? 'checked' : ''}> Đã nắm phần này</label></section>`).join('')}
-<div class="card"><h3>Kiến thức liên quan</h3>${r.pre.length ? `<a class="btn" href="#/lesson/${r.pre[r.pre.length - 1]}">Ôn lại kiến thức nền</a>` : ''}${rl(r.pre, 'Cần học trước')}${rl(r.rel, 'Bài có nội dung liên quan')}${nx ? rl([nx.id], 'Học tiếp') : ''}${r.why.map(w => `<p class="mut">Căn cứ: ${esc(w)}</p>`).join('')}</div>
+${isGrade10 && !r.pre.length && !r.rel.length && !r.why.length ? '' : `<div class="card"><h3>Kiến thức liên quan</h3>${r.pre.length ? `<a class="btn" href="#/lesson/${r.pre[r.pre.length - 1]}">Ôn lại kiến thức nền</a>` : ''}${rl(r.pre, 'Cần học trước')}${rl(r.rel, 'Bài có nội dung liên quan')}${nx && !isGrade10 ? rl([nx.id], 'Học tiếp') : ''}${r.why.map(w => `<p class="mut">Căn cứ: ${esc(w)}</p>`).join('')}</div>`}
 <div class="row"><button class="btn pri" data-act="done">${l.d ? 'Bỏ đánh dấu đã học' : 'Đánh dấu đã học'}</button><button class="btn" data-act="flag">${l.r ? 'Bỏ đánh dấu cần ôn lại' : 'Đánh dấu cần ôn lại'}</button>
 ${nq ? `<a class="btn" href="#/practice/${id}">Luyện tập bài này (${nq} câu)</a>` : '<span class="mut">Nguồn chưa có câu hỏi cho bài này – hãy ôn bằng thẻ ghi nhớ.</span>'}<a class="btn" href="#/review/${id}">Ôn bằng thẻ ghi nhớ</a></div>
 <div class="row">${pv ? `<a class="btn" href="#/lesson/${pv.id}">← ${esc(pv.title)}</a>` : ''}<a class="btn" href="#/lessons">Danh mục</a>${nx ? `<a class="btn" href="#/lesson/${nx.id}">${esc(nx.title)} →</a>` : ''}</div>`;

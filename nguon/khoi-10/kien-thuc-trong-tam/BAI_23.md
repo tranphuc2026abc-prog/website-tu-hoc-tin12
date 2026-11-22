@@ -50,7 +50,7 @@ print(F)
 - **Bài 2**: Cho `A = [1, 2, 2, 3, 4, 5, 5]`. Chèn số `1` ngay sau số `1` đầu tiên.
   - *Giải*: `A.insert(1, 1)`.
 
-## 5. Điểm nhấn sư phạm & Mở rộng
+## 5. Lưu ý và mở rộng
 - So sánh 3 cách xóa dữ liệu thường gặp:
   - `del A[k]`: xóa theo **chỉ số** `k`.
   - `A.remove(x)`: xóa theo **giá trị** `x` (chỉ xóa phần tử đầu tiên khớp).

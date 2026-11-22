@@ -1,11 +1,9 @@
 # BÀI 26: HÀM TRONG PYTHON
 
-## 1. Thông tin chung & Mục tiêu bài học (GDPT 2018)
-- **Môn học:** Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống (Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính).
-- **Mục tiêu:**
-  - Nhận biết được các hàm thiết kế sẵn phổ biến của Python và phân loại hàm có/không có giá trị trả lại.
-  - Hiểu và viết được hàm tự định nghĩa bằng từ khóa `def` và lệnh `return`.
-  - Vận dụng hàm để chia nhỏ bài toán, tái sử dụng mã nguồn và làm chương trình rõ ràng, dễ bảo trì.
+## 1. Mục tiêu bài học
+- Nhận biết được các hàm thiết kế sẵn phổ biến của Python và phân loại hàm có/không có giá trị trả lại.
+- Hiểu và viết được hàm tự định nghĩa bằng từ khóa `def` và lệnh `return`.
+- Vận dụng hàm để chia nhỏ bài toán, tái sử dụng mã nguồn và làm chương trình rõ ràng, dễ bảo trì.
 
 ## 2. Tóm tắt kiến thức trọng tâm
 - **Khái niệm hàm:** Là một khối câu lệnh được đặt tên để thực hiện một nhiệm vụ cụ thể. Khi cần dùng chỉ việc gọi tên hàm kèm cặp ngoặc tròn `()`.

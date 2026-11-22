@@ -53,7 +53,7 @@ print("ƯCLN =", M)
 - **Bài 2 (Kiểm tra dữ liệu nhập)**: Yêu cầu nhập số dương `n`, nếu `n <= 0` bắt nhập lại.
   - *Giải*: `while n <= 0: n = int(input("Nhập lại n > 0: "))`.
 
-## 5. Điểm nhấn sư phạm & Mở rộng
+## 5. Lưu ý và mở rộng
 - So sánh trực diện: `for` phù hợp khi biết số bước hoặc duyệt tập có sẵn; `while` tối ưu cho điều kiện dừng động (tổng vượt ngưỡng, nhập liệu hợp lệ, thuật toán Euclid).
 - Giới thiệu thêm `break` (thoát vòng lặp ngay) và `continue` (bỏ qua phần còn lại của lần lặp hiện tại).
 

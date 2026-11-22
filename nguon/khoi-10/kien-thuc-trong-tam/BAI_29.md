@@ -1,11 +1,9 @@
 # BÀI 29: NHẬN BIẾT LỖI CHƯƠNG TRÌNH
 
-## 1. Thông tin chung & Mục tiêu bài học (GDPT 2018)
-- **Môn học:** Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống (Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính).
-- **Mục tiêu:**
-  - Phân biệt được 3 loại lỗi chương trình trong Python: **Lỗi cú pháp**, **Lỗi ngoại lệ** và **Lỗi logic (ngữ nghĩa)**.
-  - Nhận biết được các mã lỗi ngoại lệ phổ biến (`ZeroDivisionError`, `IndexError`, `NameError`, `TypeError`, `ValueError`, `IndentationError`, `SyntaxError`).
-  - Xác định được nguyên nhân gây lỗi từ thông báo của Python và đề xuất cách khắc phục phù hợp.
+## 1. Mục tiêu bài học
+- Phân biệt được 3 loại lỗi chương trình trong Python: **Lỗi cú pháp**, **Lỗi ngoại lệ** và **Lỗi logic (ngữ nghĩa)**.
+- Nhận biết được các mã lỗi ngoại lệ phổ biến (`ZeroDivisionError`, `IndexError`, `NameError`, `TypeError`, `ValueError`, `IndentationError`, `SyntaxError`).
+- Xác định được nguyên nhân gây lỗi từ thông báo của Python và đề xuất cách khắc phục phù hợp.
 
 ## 2. Tóm tắt kiến thức trọng tâm
 - **Lỗi cú pháp (Syntax Error):** Xảy ra khi viết câu lệnh sai quy tắc ngữ pháp của Python (thiếu dấu `:`, thiếu ngoặc, sai chính tả từ khóa, thụt lề sai). Chương trình **không thể bắt đầu chạy** (hoặc dừng ngay lập tức) và báo `SyntaxError` / `IndentationError`.

@@ -1,11 +1,9 @@
 # BÀI 10: THỰC HÀNH KHAI THÁC TÀI NGUYÊN TRÊN INTERNET
 
-## 1. Thông tin chung & Mục tiêu bài học
-- **Mã bài:** BAI_10 | **Chủ đề 2:** Mạng máy tính và Internet | **Thời lượng:** 2 tiết (SGK Tin học 10 – Kết nối tri thức với cuộc sống).
-- **Mục tiêu:**
-  - Sử dụng thành thạo phần mềm dịch đa ngữ (Google Translate) hỗ trợ việc tự học ngoại ngữ.
-  - Biết tìm kiếm, khai thác hiệu quả các nguồn học liệu mở phục vụ học tập trên Internet (igiaoduc.vn, hanhtrangso.nxbgd.vn, Google Scholar...).
-  - Vận dụng được các toán tử tìm kiếm nâng cao và kỹ năng lưu trữ, chia sẻ tài nguyên trên đám mây (Google Drive, OneDrive).
+## 1. Mục tiêu bài học
+- Sử dụng thành thạo phần mềm dịch đa ngữ (Google Translate) hỗ trợ việc tự học ngoại ngữ.
+- Biết tìm kiếm, khai thác hiệu quả các nguồn học liệu mở phục vụ học tập trên Internet (igiaoduc.vn, hanhtrangso.nxbgd.vn, Google Scholar...).
+- Vận dụng được các toán tử tìm kiếm nâng cao và kỹ năng lưu trữ, chia sẻ tài nguyên trên đám mây (Google Drive, OneDrive).
 
 ## 2. Cấu trúc kiến thức trọng tâm
 1. **Sử dụng phần mềm dịch tự động (Google Translate):** Quy trình dịch văn bản, tài liệu, giọng nói, hình ảnh và luyện phát âm.

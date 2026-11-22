@@ -61,8 +61,7 @@ else:
 - **Bài 2 (So sánh hai số)**: Nhập hai số `x`, `y`, in ra kết luận `x` lớn hơn, bằng hay nhỏ hơn `y`.
   - *Giải*: Dùng `if x > y: ... elif x == y: ... else: ...`.
 
-## 5. Điểm nhấn sư phạm & Mở rộng
-- Nhấn mạnh quy tắc **thụt lề** (indentation — chuẩn PEP 8 dùng 4 dấu cách) là đặc trưng cú pháp bắt buộc của Python thay cho cặp ngoặc nhọn `{}` ở C++/Java.
+## 5. Lưu ý và mở rộng
 - Phân biệt rõ khi nào dùng chuỗi `if ... elif ... else` (các trường hợp loại trừ lẫn nhau) với nhiều lệnh `if` độc lập.
 
 ## 6. Các lỗi chuyên môn thường gặp, nguyên nhân và cách khắc phục

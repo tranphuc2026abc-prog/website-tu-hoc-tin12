@@ -45,7 +45,7 @@ print(kq)  # Kết quả: 12PY34
 - **Bài 2**: Đảo ngược xâu `S`.
   - *Giải*: Khởi tạo `dao = ""`, lặp `for ch in S: dao = ch + dao`.
 
-## 5. Điểm nhấn sư phạm & Mở rộng
+## 5. Lưu ý và mở rộng
 - So sánh trực tiếp **Xâu (`str`)** và **Danh sách (`list`)**:
   - Giống nhau: đều là dãy có thứ tự, đánh chỉ số từ `0`, dùng được `len()`, `in`, `for`, lát cắt `[a:b]`.
   - Khác nhau: `list` là khả biến (sửa được phần tử, có `append`, `remove`, `del`), còn `str` là **bất biến** và chỉ chứa kí tự.

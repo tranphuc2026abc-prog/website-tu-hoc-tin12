@@ -1,11 +1,9 @@
 # BÀI 25: MỘT SỐ LỆNH LÀM VIỆC VỚI XÂU KÍ TỰ
 
-## 1. Thông tin chung & Mục tiêu bài học (GDPT 2018)
-- **Môn học:** Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống (Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính).
-- **Mục tiêu:**
-  - Sử dụng được toán tử `in` và phương thức `find()` để kiểm tra và tìm vị trí xâu con trong xâu mẹ.
-  - Vận dụng thành thạo các phương thức xử lí xâu phổ biến: `split()`, `join()`, `replace()`, `upper()`, `lower()`, `strip()`.
-  - Giải quyết được các bài toán thực tế về chuẩn hóa văn bản, tách họ tên và nhập nhiều dữ liệu số trên cùng một dòng.
+## 1. Mục tiêu bài học
+- Sử dụng được toán tử `in` và phương thức `find()` để kiểm tra và tìm vị trí xâu con trong xâu mẹ.
+- Vận dụng thành thạo các phương thức xử lí xâu phổ biến: `split()`, `join()`, `replace()`, `upper()`, `lower()`, `strip()`.
+- Giải quyết được các bài toán thực tế về chuẩn hóa văn bản, tách họ tên và nhập nhiều dữ liệu số trên cùng một dòng.
 
 ## 2. Tóm tắt kiến thức trọng tâm
 - **Xâu con (Substring):** Là một đoạn các kí tự liên tiếp nhau trích từ xâu mẹ (kể cả xâu rỗng hoặc chính xâu mẹ).

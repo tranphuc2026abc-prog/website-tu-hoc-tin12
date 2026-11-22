@@ -1,11 +1,9 @@
 # BÀI 9: AN TOÀN TRÊN KHÔNG GIAN MẠNG
 
-## 1. Thông tin chung & Mục tiêu bài học
-- **Mã bài:** BAI_09 | **Chủ đề 2:** Mạng máy tính và Internet | **Thời lượng:** 2 tiết (SGK Tin học 10 – Kết nối tri thức với cuộc sống).
-- **Mục tiêu:**
-  - Nhận diện được các nguy cơ mất an toàn trên không gian mạng (tin giả, lừa đảo, lộ thông tin cá nhân, bắt nạt qua mạng, nghiện mạng).
-  - Phân biệt bản chất, cơ chế lây nhiễm và tác hại của 3 loại phần mềm độc hại: Virus, Worm (sâu máy tính) và Trojan.
-  - Biết cách phòng chống mã độc, bảo vệ thông tin cá nhân và sử dụng Windows Defender để quét virus.
+## 1. Mục tiêu bài học
+- Nhận diện được các nguy cơ mất an toàn trên không gian mạng (tin giả, lừa đảo, lộ thông tin cá nhân, bắt nạt qua mạng, nghiện mạng).
+- Phân biệt bản chất, cơ chế lây nhiễm và tác hại của 3 loại phần mềm độc hại: Virus, Worm (sâu máy tính) và Trojan.
+- Biết cách phòng chống mã độc, bảo vệ thông tin cá nhân và sử dụng Windows Defender để quét virus.
 
 ## 2. Cấu trúc kiến thức trọng tâm
 1. **Một số nguy cơ trên mạng:** 5 nhóm nguy cơ phổ biến và biện pháp bảo vệ thông tin cá nhân, phòng chống bắt nạt.

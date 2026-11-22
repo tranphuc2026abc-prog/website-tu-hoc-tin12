@@ -1,11 +1,9 @@
 # BÀI 27: THAM SỐ CỦA HÀM
 
-## 1. Thông tin chung & Mục tiêu bài học (GDPT 2018)
-- **Môn học:** Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống (Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính).
-- **Mục tiêu:**
-  - Phân biệt rõ **tham số** (parameter) khi định nghĩa hàm và **đối số** (argument) khi gọi hàm.
-  - Nắm vững quy tắc truyền đối số vào hàm (số lượng, thứ tự, kiểu dữ liệu, giá trị đã xác định).
-  - Hiểu lợi ích và biết cách tổ chức chương trình sử dụng chương trình con (hàm) để giải quyết bài toán.
+## 1. Mục tiêu bài học
+- Phân biệt rõ **tham số** (parameter) khi định nghĩa hàm và **đối số** (argument) khi gọi hàm.
+- Nắm vững quy tắc truyền đối số vào hàm (số lượng, thứ tự, kiểu dữ liệu, giá trị đã xác định).
+- Hiểu lợi ích và biết cách tổ chức chương trình sử dụng chương trình con (hàm) để giải quyết bài toán.
 
 ## 2. Tóm tắt kiến thức trọng tâm
 - **Tham số (Parameter):** Là các biến được khai báo trong cặp ngoặc tròn ở dòng `def` khi định nghĩa hàm, đóng vai trò như biến nhận dữ liệu đầu vào bên trong thân hàm. Hàm có thể có 0, 1 hoặc nhiều tham số.

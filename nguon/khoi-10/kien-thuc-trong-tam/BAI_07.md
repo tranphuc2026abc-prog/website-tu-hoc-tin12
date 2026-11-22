@@ -1,10 +1,8 @@
 # BÀI 7: THỰC HÀNH SỬ DỤNG THIẾT BỊ SỐ THÔNG DỤNG
 
-## 1. Thông tin chung & Mục tiêu bài học
-- **Mã bài:** BAI_07 | **Chủ đề 1:** Máy tính và xã hội tri thức | **Thời lượng:** 2 tiết (SGK Tin học 10 – Kết nối tri thức với cuộc sống).
-- **Mục tiêu:**
-  - Nhận biết được các thiết bị số thông dụng, đặc biệt là trợ thủ số cá nhân (PDA) như điện thoại thông minh, máy tính bảng.
-  - Thực hành thành thạo các thao tác cơ bản trên điện thoại thông minh: khởi động, khóa/mở khóa, điều hướng màn hình, cài đặt ứng dụng từ kho chính thức, quản lý tệp và sao lưu dữ liệu lên đám mây.
+## 1. Mục tiêu bài học
+- Nhận biết được các thiết bị số thông dụng, đặc biệt là trợ thủ số cá nhân (PDA) như điện thoại thông minh, máy tính bảng.
+- Thực hành thành thạo các thao tác cơ bản trên điện thoại thông minh: khởi động, khóa/mở khóa, điều hướng màn hình, cài đặt ứng dụng từ kho chính thức, quản lý tệp và sao lưu dữ liệu lên đám mây.
 
 ## 2. Cấu trúc kiến thức trọng tâm
 1. **Trợ thủ số cá nhân (PDA):** Khái niệm, đặc điểm nổi bật, thiết bị tiêu biểu và kết nối phổ biến.

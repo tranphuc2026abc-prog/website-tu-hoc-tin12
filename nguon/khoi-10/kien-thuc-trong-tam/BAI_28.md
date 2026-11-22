@@ -1,11 +1,9 @@
 # BÀI 28: PHẠM VI CỦA BIẾN
 
-## 1. Thông tin chung & Mục tiêu bài học (GDPT 2018)
-- **Môn học:** Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống (Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính).
-- **Mục tiêu:**
-  - Phân biệt được **biến cục bộ (biến địa phương)** và **biến toàn cục (biến tổng thể)**.
-  - Hiểu cơ chế che khuất biến khi trùng tên và tác dụng của từ khóa `global`.
-  - Tránh được các lỗi phổ biến về phạm vi biến (`NameError`, `UnboundLocalError`) khi viết chương trình có nhiều hàm.
+## 1. Mục tiêu bài học
+- Phân biệt được **biến cục bộ (biến địa phương)** và **biến toàn cục (biến tổng thể)**.
+- Hiểu cơ chế che khuất biến khi trùng tên và tác dụng của từ khóa `global`.
+- Tránh được các lỗi phổ biến về phạm vi biến (`NameError`, `UnboundLocalError`) khi viết chương trình có nhiều hàm.
 
 ## 2. Tóm tắt kiến thức trọng tâm
 - **Biến cục bộ (Local variable):** Là biến được khai báo bên trong một hàm (bao gồm cả các tham số của hàm). Biến cục bộ chỉ có hiệu lực và tồn tại trong thời gian hàm thực thi; ra khỏi hàm không thể truy cập được.

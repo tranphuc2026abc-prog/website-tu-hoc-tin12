@@ -1,11 +1,9 @@
 # BÀI 8: MẠNG MÁY TÍNH TRONG CUỘC SỐNG HIỆN ĐẠI
 
-## 1. Thông tin chung & Mục tiêu bài học
-- **Mã bài:** BAI_08 | **Chủ đề 2:** Mạng máy tính và Internet | **Thời lượng:** 2 tiết (SGK Tin học 10 – Kết nối tri thức với cuộc sống).
-- **Mục tiêu:**
-  - Phân biệt được mạng cục bộ (LAN) và mạng diện rộng (WAN / Internet) về phạm vi, thiết bị kết nối và quyền sở hữu.
-  - Hiểu khái niệm, phân loại (SaaS, PaaS, IaaS) và lợi ích của điện toán đám mây (Cloud Computing).
-  - Hiểu khái niệm và ứng dụng thực tiễn của Kết nối vạn vật (IoT – Internet of Things).
+## 1. Mục tiêu bài học
+- Phân biệt được mạng cục bộ (LAN) và mạng diện rộng (WAN / Internet) về phạm vi, thiết bị kết nối và quyền sở hữu.
+- Hiểu khái niệm, phân loại (SaaS, PaaS, IaaS) và lợi ích của điện toán đám mây (Cloud Computing).
+- Hiểu khái niệm và ứng dụng thực tiễn của Kết nối vạn vật (IoT – Internet of Things).
 
 ## 2. Cấu trúc kiến thức trọng tâm
 1. **Mạng LAN và Internet:** Phân loại mạng theo phạm vi, vai trò bộ định tuyến (Router), nhà cung cấp dịch vụ Internet (ISP).

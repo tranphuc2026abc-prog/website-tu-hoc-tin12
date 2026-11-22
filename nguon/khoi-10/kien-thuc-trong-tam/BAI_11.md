@@ -1,11 +1,9 @@
 # BÀI 11: ỨNG XỬ TRÊN MÔI TRƯỜNG SỐ. NGHĨA VỤ TÔN TRỌNG BẢN QUYỀN
 
-## 1. Thông tin chung & Mục tiêu bài học
-- **Mã bài:** BAI_11 | **Chủ đề 3:** Đạo đức, pháp luật và văn hóa trong môi trường số | **Thời lượng:** 4 tiết (SGK Tin học 10 – Kết nối tri thức với cuộc sống).
-- **Mục tiêu:**
-  - Phân biệt được chuẩn mực đạo đức, văn hóa và các quy định pháp luật khi ứng xử, chia sẻ thông tin trên không gian mạng.
-  - Nắm được các quy định pháp lý cơ bản (Luật CNTT, Luật An ninh mạng 2018, Nghị định 15/2020/NĐ-CP, Luật Sở hữu trí tuệ).
-  - Hiểu rõ quyền tác giả (quyền nhân thân và quyền tài sản), nhận diện các hành vi vi phạm bản quyền phần mềm/tác phẩm số và thực hiện nghĩa vụ tôn trọng bản quyền.
+## 1. Mục tiêu bài học
+- Phân biệt được chuẩn mực đạo đức, văn hóa và các quy định pháp luật khi ứng xử, chia sẻ thông tin trên không gian mạng.
+- Nắm được các quy định pháp lý cơ bản (Luật CNTT, Luật An ninh mạng 2018, Nghị định 15/2020/NĐ-CP, Luật Sở hữu trí tuệ).
+- Hiểu rõ quyền tác giả (quyền nhân thân và quyền tài sản), nhận diện các hành vi vi phạm bản quyền phần mềm/tác phẩm số và thực hiện nghĩa vụ tôn trọng bản quyền.
 
 ## 2. Cấu trúc kiến thức trọng tâm
 1. **Những vấn đề đạo đức, pháp luật và văn hóa:** Ứng xử có văn hóa trên mạng xã hội, email; ranh giới giữa vi phạm đạo đức và vi phạm pháp luật.

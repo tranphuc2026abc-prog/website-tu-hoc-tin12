@@ -1,11 +1,9 @@
 # BÀI 12: PHẦN MỀM THIẾT KẾ ĐỒ HỌA
 
-## 1. Thông tin chung & Mục tiêu bài học
-- **Mã bài:** BAI_12 | **Chủ đề 4:** Ứng dụng tin học | **Thời lượng:** 2 tiết (SGK Tin học 10 – Kết nối tri thức với cuộc sống).
-- **Mục tiêu:**
-  - Phân biệt được hai loại đồ họa cơ bản: đồ họa điểm ảnh (bitmap) và đồ họa vectơ (vector) cùng ứng dụng của từng loại.
-  - Làm quen với giao diện, các thanh công cụ và thao tác cơ bản trong phần mềm thiết kế đồ họa vectơ mã nguồn mở **Inkscape**.
-  - Thực hành vẽ các hình khối cơ bản, thiết lập màu sắc (Fill/Stroke, hệ màu RGB) và sắp xếp thứ tự lớp đối tượng.
+## 1. Mục tiêu bài học
+- Phân biệt được hai loại đồ họa cơ bản: đồ họa điểm ảnh (bitmap) và đồ họa vectơ (vector) cùng ứng dụng của từng loại.
+- Làm quen với giao diện, các thanh công cụ và thao tác cơ bản trong phần mềm thiết kế đồ họa vectơ mã nguồn mở **Inkscape**.
+- Thực hành vẽ các hình khối cơ bản, thiết lập màu sắc (Fill/Stroke, hệ màu RGB) và sắp xếp thứ tự lớp đối tượng.
 
 ## 2. Cấu trúc kiến thức trọng tâm
 1. **Thiết kế đồ họa & Phân loại đồ họa:** Khái niệm thiết kế đồ họa; so sánh đồ họa điểm ảnh (bitmap) và đồ họa vectơ.

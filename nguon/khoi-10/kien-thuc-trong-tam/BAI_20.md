@@ -44,8 +44,7 @@ for i in range(5, 0, -1):
 - **Bài 2 (Tổng phân số)**: Tính `S = 1 + 1/2 + ... + 1/n`.
   - *Giải*: Khởi tạo `S = 0`, chạy `for k in range(1, n + 1): S = S + 1/k` (bắt đầu từ 1 để tránh chia cho 0).
 
-## 5. Điểm nhấn sư phạm & Mở rộng
-- Cần khắc sâu quy tắc **cận trên không bao gồm `stop`** (`range(1, n)` chỉ chạy đến `n - 1`), đây là điểm học sinh lớp 10 hay nhầm nhất khi chuyển từ phát biểu toán học "từ 1 đến n".
+## 5. Lưu ý và mở rộng
 - Mở rộng: Ngoài `range()`, `for` còn duyệt trực tiếp qua các phần tử của xâu kí tự và danh sách (sẽ học ở Bài 22–24).
 
 ## 6. Các lỗi chuyên môn thường gặp, nguyên nhân và cách khắc phục
