@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install the supplied Tin hoc 10 key sections into the existing lesson data."""
+"""Install the seven sections of the supplied Tin hoc 10 lessons."""
 import hashlib
 import json
 import re
@@ -9,6 +9,7 @@ from build_multigrade import ROOT, REG, js
 
 CATALOG = ROOT / "data/catalog-10.js"
 SOURCE = Path("nguon/khoi-10/kien-thuc-trong-tam")
+SECTION_KEYS = ("obj", "key", "terms", "ex", "steps", "err", "rem")
 SUPERSCRIPT = str.maketrans("0123456789n-", "⁰¹²³⁴⁵⁶⁷⁸⁹ⁿ⁻")
 SUBSCRIPT = str.maketrans("0123456789n-", "₀₁₂₃₄₅₆₇₈₉ₙ₋")
 
@@ -98,16 +99,21 @@ def main():
         lesson_id = lesson["id"]
         source = ROOT / SOURCE / f"BAI_{n:02d}.md"
         raw = source.read_text(encoding="utf-8")
+        sections = re.split(r"^## ([1-7])\. .+\n", raw, flags=re.MULTILINE)
+        if sections[1::2] != list("1234567"):
+            raise ValueError(f"{source}: expected sections 1 through 7 in order")
         path = ROOT / "data/lessons" / f"{lesson_id}.js"
         data = json.JSONDecoder().raw_decode(path.read_text(encoding="utf-8").split("]=", 1)[1])[0]
-        data["sec"]["key"] = knowledge_blocks(raw)
+        for key, markdown in zip(SECTION_KEYS, sections[2::2], strict=True):
+            data["sec"][key] = knowledge_blocks(markdown)
         data["txt"] = "\n".join(searchable(block for section in data["sec"].values() for block in section))
-        digest.update(js(data["sec"]["key"]).encode())
+        digest.update(path.name.encode())
+        digest.update(js(data).encode())
         digest.update((ROOT / "data/questions" / path.name).read_bytes())
         path.write_text(REG % ("L", lesson_id, js(data)), encoding="utf-8")
     catalog["dataVersion"] = "g10-" + digest.hexdigest()[:16]
     CATALOG.write_text(prefix + ".cat=" + js(catalog) + ";\n", encoding="utf-8")
-    print("Đã cập nhật Kiến thức trọng tâm cho 34 bài Tin học 10.")
+    print("Đã cập nhật đủ 7 mục cho 34 bài Tin học 10.")
 
 
 if __name__ == "__main__":

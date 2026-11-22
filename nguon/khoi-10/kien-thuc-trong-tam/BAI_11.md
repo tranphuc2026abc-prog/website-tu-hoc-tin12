@@ -1,3 +1,60 @@
+# BÀI 11: ỨNG XỬ TRÊN MÔI TRƯỜNG SỐ. NGHĨA VỤ TÔN TRỌNG BẢN QUYỀN
+
+## 1. Thông tin chung & Mục tiêu bài học
+- **Mã bài:** BAI_11 | **Chủ đề 3:** Đạo đức, pháp luật và văn hóa trong môi trường số | **Thời lượng:** 4 tiết (SGK Tin học 10 – Kết nối tri thức với cuộc sống).
+- **Mục tiêu:**
+  - Phân biệt được chuẩn mực đạo đức, văn hóa và các quy định pháp luật khi ứng xử, chia sẻ thông tin trên không gian mạng.
+  - Nắm được các quy định pháp lý cơ bản (Luật CNTT, Luật An ninh mạng 2018, Nghị định 15/2020/NĐ-CP, Luật Sở hữu trí tuệ).
+  - Hiểu rõ quyền tác giả (quyền nhân thân và quyền tài sản), nhận diện các hành vi vi phạm bản quyền phần mềm/tác phẩm số và thực hiện nghĩa vụ tôn trọng bản quyền.
+
+## 2. Cấu trúc kiến thức trọng tâm
 1. **Những vấn đề đạo đức, pháp luật và văn hóa:** Ứng xử có văn hóa trên mạng xã hội, email; ranh giới giữa vi phạm đạo đức và vi phạm pháp luật.
 2. **Quy định pháp lý đối với người dùng trên mạng:** Điều 12 Luật CNTT, Điều 8 Luật An ninh mạng 2018, Điều 101 Nghị định 15/2020/NĐ-CP.
 3. **Quyền tác giả và bản quyền:** Quyền nhân thân, quyền tài sản, các hành vi vi phạm bản quyền trong tin học và các trường hợp ngoại lệ sử dụng hợp lý (Điều 25 Luật SHTT).
+
+## 3. Kiến thức cốt lõi & Khái niệm chuẩn
+- **Đạo đức vs. Pháp luật trên môi trường số:**
+  - *Đạo đức:* Hệ thống quy tắc, chuẩn mực xã hội mà con người **tự giác** thực hiện (vi phạm bị dư luận lên án).
+  - *Pháp luật:* Quy định **bắt buộc** của Nhà nước (vi phạm bị xử phạt hành chính hoặc truy cứu hình sự).
+- **Các mốc pháp lý quan trọng cần nhớ:**
+  - **Luật An ninh mạng (ban hành năm 2018):** Khoản 1 Điều 8 nghiêm cấm sử dụng không gian mạng để đưa thông tin sai sự thật gây hoang mang trong nhân dân, xuyên tạc lịch sử, xúc phạm danh dự...
+  - **Nghị định 15/2020/NĐ-CP (Điều 101, khoản 1):** Quy định xử phạt hành chính hành vi lợi dụng mạng xã hội để cung cấp, chia sẻ thông tin giả mạo, sai sự thật (mục a: quảng cáo sai sự thật; mục d: tin giả gây hoang mang).
+  - **Luật Sở hữu trí tuệ (số 50/2005/QH11, sửa đổi 2019):**
+    - **Quyền tác giả** = **Quyền nhân thân** (đặt tên, đứng tên thật/bút danh, công bố, bảo vệ sự toàn vẹn tác phẩm) + **Quyền tài sản** (hưởng lợi ích kinh tế, sao chép, phân phối, cho thuê — có thể chuyển nhượng).
+    - **Điều 25 (Ngoại lệ không phải xin phép, không trả thù lao):** Tự sao chép 1 bản phục vụ nghiên cứu/học tập cá nhân; trích dẫn hợp lý không làm sai ý tác giả để bình luận/minh họa/giảng dạy; biểu diễn văn nghệ cổ động không thu tiền.
+    - **Điều 28:** Các hành vi xâm phạm quyền tác giả (chiếm đoạt, mạo danh, công bố/dịch/sửa chữa/truyền đạt qua mạng không phép...).
+- **Nguyên tắc mua phần mềm:** *Mua phần mềm là mua quyền sử dụng (license)*, không phải mua quyền sở hữu bản quyền; chủ sở hữu bản quyền là người đầu tư/lập trình hoặc người mua lại quyền tài sản.
+
+## 4. Hướng dẫn thực hành & Ví dụ minh họa
+- **Tình huống 1 (Chia sẻ lại tin giả):** Chia sẻ lại một bài đăng sai sự thật trên Facebook dù không tự bịa ra vẫn bị xử phạt theo điểm d khoản 1 Điều 101 Nghị định 15/2020/NĐ-CP vì thiếu trách nhiệm kiểm chứng thông tin.
+- **Tình huống 2 (Trích dẫn hợp lệ):** Khi lấy nhận xét của tác giả Nguyễn Văn B trên báo điện tử X để minh họa cho bài viết trên web trường, cần giữ nguyên nội dung/ý nghĩa gốc và ghi đầy đủ: `(Nguyễn Văn B, Báo điện tử X, ngày... tháng... năm..., nguồn: https://...)`.
+- **Tình huống 3 (Phân biệt vi phạm bản quyền phần mềm):**
+  - *Dùng nhờ phần mềm hợp pháp trên máy của bạn:* Không vi phạm.
+  - *Học chung 1 tài khoản khóa học online (không cài đặt nhân bản):* Không vi phạm.
+  - *Phá khóa phần mềm "chỉ để thử" hoặc chép đĩa cài đặt cho bạn:* Vi phạm bản quyền (vô hiệu hóa biện pháp kỹ thuật / sao chép trái phép).
+
+## 5. Phân dạng bài tập & Phương pháp giải
+- **Dạng 1 (Phân biệt Quyền nhân thân & Quyền tài sản):** Liên quan đến tên tuổi, danh dự, sự toàn vẹn tác phẩm -> Quyền nhân thân; liên quan đến tiền bạc, định giá bán, sao chép phân phối -> Quyền tài sản.
+- **Dạng 2 (Xác định hành vi vi phạm bản quyền):** Chú ý các bẫy: "trả tiền mua thẻ nhớ chép nhạc lậu" (vẫn vi phạm vì tiền trả cho thẻ nhớ, không trả cho tác giả); "không biết luật nên không có lỗi" (sai, vẫn bị xử lý); "photo 1 bản sách để tự học cá nhân" (được phép theo Điều 25 Luật SHTT).
+- **Dạng 3 (Áp dụng điều luật):** Nhớ năm ban hành Luật An ninh mạng (2018), Điều 25 (ngoại lệ hợp lý), Điều 28 (hành vi xâm hại) của Luật SHTT, Điều 101 Nghị định 15/2020/NĐ-CP.
+
+## 6. Lỗi chuyên môn thường gặp, nguyên nhân và cách khắc phục
+1. **Cho rằng "Chỉ chia sẻ lại tin của người khác, không tự viết ra thì không vi phạm":**
+   - *Nguyên nhân:* Hiểu nhầm trách nhiệm pháp lý chỉ thuộc về người khởi tạo tin giả.
+   - *Khắc phục:* Theo Luật An ninh mạng và Nghị định 15/2020/NĐ-CP, hành vi *cung cấp, chia sẻ* thông tin sai sự thật đều bị xử phạt. Luôn kiểm chứng nguồn chính thống trước khi nhấn nút Share.
+2. **Nhầm lẫn "Đã trả tiền mua USB/thẻ nhớ chứa nhạc hoặc phần mềm crack" là hợp pháp:**
+   - *Nguyên nhân:* Thấy mình có bỏ tiền mua sản phẩm vật lý nên tưởng đã có bản quyền.
+   - *Khắc phục:* Tiền đó chỉ trả cho thiết bị lưu trữ và công sao chép lậu, không đến tay tác giả/nhà phát hành. Chỉ mua phần mềm từ kênh phân phối chính thức.
+3. **Hiểu sai rằng mọi tài nguyên đăng công khai trên Internet đều miễn phí bản quyền:**
+   - *Nguyên nhân:* Thấy ảnh, bài viết, video dễ dàng tải về từ Google/YouTube nên mặc nhiên coi là tài sản chung.
+   - *Khắc phục:* Quyền tác giả tự động phát sinh ngay khi tác phẩm được sáng tạo, không cần đăng ký hay gắn chữ © mới có hiệu lực. Chỉ được dùng tự do các tài nguyên có giấy phép mở (như Creative Commons CC0) hoặc phải xin phép và ghi nguồn đúng quy định.
+4. **Đánh đồng việc "mua phần mềm" với "sở hữu bản quyền phần mềm":**
+   - *Nguyên nhân:* So sánh máy móc với việc mua đồ vật hữu hình ngoài đời thực.
+   - *Khắc phục:* Khắc sâu nguyên tắc: người dùng cuối chỉ mua *quyền sử dụng* theo điều khoản giấy phép (EULA), không được phép sao chép, sửa mã nguồn hay bán lại phần mềm đó.
+
+## 7. Liên hệ thực tế & Câu hỏi tự kiểm tra nhanh
+- **Liên hệ thực tế:** Khi làm video đăng YouTube hoặc bài thuyết trình, học sinh nên dùng kho nhạc miễn phí bản quyền (YouTube Audio Library) hoặc ảnh từ Unsplash/Pixabay thay vì tải nhạc/ảnh thương mại tùy tiện.
+- **Tự kiểm tra nhanh:**
+  1. Quyền tác giả gồm hai nhóm quyền nào? *(Gợi ý: Quyền nhân thân và quyền tài sản).*
+  2. Vì sao tự ý phá khóa một phần mềm chỉ để thử nghiệm kỹ năng (không dùng) vẫn bị coi là vi phạm bản quyền? *(Gợi ý: Đã xâm phạm bằng hành vi vô hiệu hóa biện pháp kỹ thuật bảo vệ quyền tác giả).*
+- **Nguồn tham khảo NotebookLM:** `cd3_bai_11_ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen_ket_noi_tri_thuc.docx`, `ds_tin_hoc_10_kntt_bai_11.docx`, `ndc_b11._ung_xu_tren_moi_truong_so._nghia_vu_ton_trong_ban_quyen.docx`, `tn_tin10_on_tap_chu_de_3_phan_1.docx`.

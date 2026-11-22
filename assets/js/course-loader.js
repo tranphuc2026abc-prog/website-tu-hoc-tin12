@@ -8,14 +8,14 @@ document.title = 'Tự học Tin học ' + grade;
 const load = src => new Promise((resolve,reject) => { const s=document.createElement('script'); s.src=src; s.onload=resolve; s.onerror=()=>reject(new Error(src)); document.head.append(s); });
 (async () => {
  try {
-   await load(grade === '12' ? 'data/catalog.js' : 'data/catalog-' + grade + (grade === '10' ? '.js?v=20261122-knowledge' : '.js?v=20261112-errors-v2'));
+   await load(grade === '12' ? 'data/catalog.js' : 'data/catalog-' + grade + (grade === '10' ? '.js?v=20261122-grade10-full' : '.js?v=20261112-errors-v2'));
    const T = window.T;
    if (!T || !T.cat) throw new Error('catalog');
    T.cat.grade = Number(grade);
    T.cat.courseTitle = 'Tin học ' + grade;
    document.getElementById('course-name').textContent = 'TIN HỌC ' + grade;
    document.title = 'Tự học Tin học ' + grade;
-   await load('assets/js/app.js' + (grade === '10' ? '?v=20261122-knowledge' : ''));
+   await load('assets/js/app.js' + (grade === '10' ? '?v=20261122-grade10-full' : ''));
    await load('assets/js/panels.js');
    await load('assets/js/supabase-config.js');
    await load('assets/js/supabase-cloud.js');
