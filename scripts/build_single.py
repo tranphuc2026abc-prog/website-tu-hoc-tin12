@@ -28,7 +28,7 @@ bundle = '<script>' + nl + nl.join(data).replace('</script', escape_script) + nl
 for script in scripts:
     source = read(script).replace('</script', escape_script)
     bundle += '<script>' + nl + source + nl + '</script>' + nl
-html = html.replace('<script src="assets/js/course-loader.js"></script>', '')
+html = re.sub(r'<script src="assets/js/course-loader\.js(?:\?[^"]*)?"></script>', '', html)
 for script in ('data/catalog.js',) + scripts:
     html = html.replace('<script src="%s"></script>' % script, '')
 html = html.replace('</body>', bundle + '</body>')
