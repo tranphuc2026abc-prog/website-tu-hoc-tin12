@@ -17,7 +17,7 @@ jobs:
       - run: python -m pip install pymupdf pillow
       - name: Build and validate
         run: |
-          python scripts/build_verified_exam_batch.py --year 2026 --codes 0513 0515 --layout-dir data/exams/layout/2026
+          python scripts/build_verified_exam_batch.py --year 2026 --codes 0517 --layout-dir data/exams/layout/2026
           python scripts/validate_graduation_exams.py
           python tests/test_graduation_ocr.py
           node --test tests/graduation-core.test.cjs
@@ -26,7 +26,7 @@ jobs:
           from pathlib import Path
           path = Path("data/exams/ocr-progress.json")
           progress = json.loads(path.read_text(encoding="utf-8"))
-          codes = {"0513", "0515"}
+          codes = {"0517"}
           existing = {row["code"] for row in progress["verified_papers"] if row["year"] == 2026}
           for code in sorted(codes - existing):
               progress["verified_papers"].append({"year": 2026, "code": code, "questions": 30, "scored_per_track": 28})
@@ -39,18 +39,17 @@ jobs:
               row for row in progress["remaining"] if not (row["year"] == 2026 and row["code"] in codes)
           ]
           path.write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-          manifest = json.loads(Path("data/exams/manifest.json").read_text(encoding="utf-8"))
           checkpoint_path = Path("data/exams/review-checkpoint.json")
           checkpoint = json.loads(checkpoint_path.read_text(encoding="utf-8"))
-          checkpoint.update(date="2026-11-22", verified_papers=len(progress["verified_papers"]), verified_questions=len(questions), remaining=progress["remaining"])
+          checkpoint.update(verified_papers=len(progress["verified_papers"]), verified_questions=len(questions), remaining=progress["remaining"])
           checkpoint_path.write_text(json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           audit_path = Path("data/exams/source-audit.json")
           audit = json.loads(audit_path.read_text(encoding="utf-8"))
           for row in audit["exams"]:
-              if row["code"] in manifest["papers"].get(str(row["year"]), {}):
+              if row["year"] == 2026 and row["code"] == "0517":
                   row["status"] = "verified_question_bank"
           audit.update(verified_papers=len(progress["verified_papers"]), verified_questions=len(questions),
-                       answer_2026="official_pdf_available; 8 verified papers matched")
+                       answer_2026="official_pdf_available; 9 verified papers matched")
           audit_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           PY
       - name: Commit verified data
@@ -58,5 +57,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/exams
-          git commit -m 'Publish 60 verified questions for 2026-0513 and 0515'
+          git commit -m 'Publish 30 verified questions for 2026-0517'
           git push origin HEAD:refs/heads/feat/verify-2026-0513-0515
