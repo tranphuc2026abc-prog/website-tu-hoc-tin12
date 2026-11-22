@@ -1,7 +1,8 @@
 {
   "status": "reviewed_content_templates_not_papers",
   "sources": [
-    "2026/0501"
+    "2026/0501",
+    "2026/0525"
   ],
   "note": "Each occurrence requires source-image and option-order review.",
   "templates": [
@@ -479,6 +480,128 @@
         true,
         true,
         true
+      ]
+    },
+    {
+      "template_id": "B-II-1",
+      "type": "tf",
+      "prompt": "Một nhóm giảng viên của trường đại học A được cử đi tập huấn năng lực số cho cán bộ tại một số xã vùng cao. Địa điểm tập huấn tại các xã đã được trang bị đầy đủ hệ thống cáp quang và hạ tầng kết nối Internet. Trước khi lên đường, lãnh đạo nhà trường giao cho trưởng nhóm hai nhiệm vụ về hoạt động của nhóm: (1) gửi báo cáo vào cuối mỗi ngày đến địa chỉ email baocao@dha.edu.vn; (2) ba ngày một lần, đăng các bài viết vào mục được phân công trên website của trường tại địa chỉ https://dha.edu.vn. Khi tìm hiểu tình huống trên, có các nhận định sau:",
+      "options": [
+        "https trong địa chỉ website https://dha.edu.vn là giao thức truyền tải thư điện tử.",
+        "Tên miền website của trường đại học A đóng vai trò là một địa chỉ thay thế cho địa chỉ IP của máy chủ web.",
+        "Trong trường hợp máy chủ thư điện tử của trường đại học A thay đổi địa chỉ IP, trưởng nhóm vẫn có thể gửi báo cáo thành công đến địa chỉ email đã được cung cấp.",
+        "Học viên cần sử dụng điện thoại thông minh kết nối trực tiếp vào bộ chuyển mạch (Switch) để xem tài liệu học tập được cung cấp trên website của trường đại học A."
+      ],
+      "code_blocks": [],
+      "answer": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "template_id": "B-II-2",
+      "type": "tf",
+      "prompt": "Người quản trị trang web Đoàn thanh niên của một trường trung học phổ thông đã tạo biểu mẫu bằng đoạn mã HTML sau để các bạn học sinh đăng kí tham gia các hoạt động văn nghệ, thể thao trong trường:\n\nCó một số nhận xét sau về đoạn mã trên:",
+      "options": [
+        "Biểu mẫu này có hai ô nhập dữ liệu và một nút gửi dữ liệu.",
+        "Giá trị của thuộc tính value của hai ô nhập dữ liệu không được để trống.",
+        "Nếu nhập dữ liệu vào biểu mẫu và nhấn nút Đăng kí thì dữ liệu được gửi đến trang dangki.php.",
+        "Để học sinh chỉ được lựa chọn một trong hai loại hoạt động Văn nghệ hoặc Thể thao khi đăng kí tham gia, cần chèn thêm hai dòng sau vào đoạn mã tạo biểu mẫu trên:\n<input type=\"radio\" name=\"optvannghe\">Văn nghệ\n<input type=\"radio\" name=\"optthethao\">Thể thao"
+      ],
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<form action=\"dangki.php\">\n    Họ tên: <input type=\"text\" name=\"hoten\" value=\"\">\n    Email: <input type=\"email\" name=\"email\" value=\"\">\n    <input type=\"submit\" value=\"Đăng kí\">\n</form>"
+        }
+      ],
+      "answer": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "template_id": "B-II-3",
+      "type": "tf",
+      "prompt": "Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python và C++, trong đó A là một mảng gồm n số nguyên dương. Sau khi chọn một trong hai ngôn ngữ lập trình Python hoặc C++ để tìm hiểu hàm trên, có các ý kiến sau:",
+      "options": [
+        "Hàm F có hai tham số.",
+        "Sau khi thực hiện hàm F, mảng A không tồn tại phần tử có giá trị chẵn nào có chỉ số lớn hơn chỉ số của phần tử có giá trị lẻ.",
+        "Nếu nhận vào hai đối số, mảng A là (2, 7, 6, 1, 4, 3, 5) và n = 7, thì hàm F trả về giá trị 9.",
+        "Với mảng A bất kì, giả sử mảng B được tạo ra bằng cách sao chép mảng A rồi hoán đổi vị trí của một số phần tử thì kết quả trả về của hai lần gọi hàm F(A, n) và F(B, n) là bằng nhau."
+      ],
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "def F(A, n):\n    j = 0\n    for i in range(n):\n        if A[i] % 2 != 0:\n            if A[j] % 2 == 0:\n                t = A[i]\n                A[i] = A[j]\n                A[j] = t\n            j = j + 1\n    return A[0] + A[n - 1]"
+        },
+        {
+          "language": "cpp",
+          "code": "int F(int A[], int n) {\n    int j = 0;\n    for (int i = 0; i < n; i++) {\n        if (A[i] % 2 != 0) {\n            if (A[j] % 2 == 0) {\n                int t = A[i];\n                A[i] = A[j];\n                A[j] = t;\n            }\n            j = j + 1;\n        }\n    }\n    return A[0] + A[n - 1];\n}"
+        }
+      ],
+      "answer": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "template_id": "B-II-4",
+      "type": "tf",
+      "prompt": "Một hợp tác xã ứng dụng công nghệ IoT (Internet vạn vật) để thu thập dữ liệu một cách tự động. Dữ liệu bao gồm: loại đất, độ ẩm đất, nhiệt độ không khí, cường độ ánh sáng, giống cây trồng và được thu thập từ 2 000 lô đất trồng cây trong 5 vụ mùa. Cuối mỗi vụ mùa, các kĩ sư nông nghiệp của hợp tác xã sẽ đưa ra kết luận về tình trạng cây trồng là khỏe mạnh hoặc bị sâu bệnh trên từng lô đất. Các kết luận được đưa ra dựa trên quan sát thực địa và được xem là thông tin đáng tin cậy. Dựa trên tập dữ liệu đã thu thập, hợp tác xã muốn sử dụng mô hình học máy để xây dựng một hệ thống dự đoán tình trạng cây trồng cho lô đất mới. Có các nhận định như sau:",
+      "options": [
+        "Bài toán dự đoán tình trạng cây trồng thuộc loại bài toán học máy có giám sát.",
+        "Tình trạng khỏe mạnh hoặc bị sâu bệnh là các nhãn cần dự đoán.",
+        "Để dự đoán về tình trạng cây trồng cho một lô đất mới, hệ thống có thể đưa ra kết quả mà không cần dữ liệu về thời tiết hay loại đất của lô đất đó.",
+        "Hệ thống có thể thay thế hoàn toàn kĩ sư nông nghiệp trong việc ra quyết định phun thuốc bảo vệ thực vật."
+      ],
+      "code_blocks": [],
+      "answer": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "template_id": "B-II-5",
+      "type": "tf",
+      "prompt": "Một chủ nông trại dùng phần mềm để quản lí dữ liệu về các vườn cây với cơ sở dữ liệu gồm các bảng sau:\n• VUON_CAY(maVC, tenVC, diaDiem, dienTich) lưu mã vườn cây, tên vườn cây, địa điểm và diện tích của từng vườn; Mỗi mã vườn cây xác định duy nhất một vườn.\n• LOAI_CAY(maLC, tenLC) lưu mã loại cây, tên loại cây; Mỗi mã loại cây xác định duy nhất một loại cây.\n• THONG_KE(maVC, maLC, namTK, soLuong, sanLuong) lưu mã vườn cây, mã loại cây, năm thống kê, số lượng và sản lượng của từng loại cây (tính bằng kilôgam) trong từng vườn theo năm; Mỗi vườn trồng một hoặc nhiều loại cây, mỗi loại cây được trồng ở một số vườn khác nhau.\nCó một số nhận xét như sau về việc sử dụng phần mềm để tạo và khai thác cơ sở dữ liệu trên:",
+      "options": [
+        "Để tạo cấu trúc bảng LOAI_CAY, có các thao tác sau cần thực hiện: Tạo bảng mới; Đặt tên bảng; Tạo và xác định kiểu dữ liệu cho các trường; Thiết lập khóa chính.",
+        "Trong bảng LOAI_CAY, không thể thiết lập trường maLC có kiểu số nguyên và tự động tăng.",
+        "Để đảm bảo tính nhất quán của dữ liệu, khi nhập dữ liệu cho trường maVC của bảng THONG_KE, cần nhập giá trị là một trong các giá trị đã có của trường maVC của bảng VUON_CAY.",
+        "Để đưa ra thông tin gồm tên loại cây, tên vườn và sản lượng của các loại cây trong các vườn có sản lượng năm 2025 lớn hơn 3 000 kilôgam, cần thực hiện truy vấn với các thành phần sau:\n• Các trường và bảng được chọn: LOAI_CAY.tenLC, VUON_CAY.tenVC, THONG_KE.sanLuong.\n• Các cặp bảng được liên kết qua khóa tương ứng: VUON_CAY và THONG_KE qua maVC; VUON_CAY và LOAI_CAY qua maLC.\n• Điều kiện truy vấn: THONG_KE.namTK = 2025 và THONG_KE.sanLuong > 3000."
+      ],
+      "code_blocks": [],
+      "answer": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "template_id": "B-II-6",
+      "type": "tf",
+      "prompt": "Một trường đại học phát động cuộc thi thiết kế website bằng phần mềm tạo trang web. Trong đó, yêu cầu website có các trang: Trang chủ, Giới thiệu, Tuyển dụng. Trang chủ hiển thị các tin tức nổi bật về hoạt động của nhà trường. Trang Giới thiệu có bài viết tóm tắt thông tin các khoa và liên kết đến trang chi tiết của từng khoa. Trang Tuyển dụng đăng thông báo tuyển dụng và một biểu mẫu để ứng viên nhập thông tin đăng kí dự tuyển. Một số người nhận xét như sau:",
+      "options": [
+        "Nếu đưa logo của từng khoa vào trang Giới thiệu thì có thể thiết lập liên kết từng logo này đến trang chi tiết của khoa tương ứng.",
+        "Thanh điều hướng chỉ có ở Trang chủ để người dùng dễ dàng di chuyển giữa các trang trong website.",
+        "Có thể thiết kế biểu mẫu đã nêu bằng một công cụ trực tuyến phù hợp, sau đó chèn liên kết của biểu mẫu này vào trang Tuyển dụng.",
+        "Để xem được nội dung của website sau khi xuất bản, máy tính của người dùng cần sử dụng phần mềm tạo trang web."
+      ],
+      "code_blocks": [],
+      "answer": [
+        true,
+        false,
+        true,
+        false
       ]
     }
   ]
