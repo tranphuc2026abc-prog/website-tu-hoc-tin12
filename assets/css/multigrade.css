@@ -1,6 +1,5 @@
 .portal{max-width:1080px;padding-top:clamp(12px,2vw,24px)}
 .portal-hero{margin:0 auto 18px}
-.portal-banner{display:block;width:100%;max-width:840px;height:auto;margin:auto;border-radius:clamp(10px,2vw,18px)}
 .portal-hero h1{margin:18px 0 0;font-size:clamp(1.45rem,3vw,2rem)}
 .grade-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .grade-card{

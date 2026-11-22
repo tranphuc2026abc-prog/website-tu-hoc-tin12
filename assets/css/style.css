@@ -152,6 +152,20 @@ select,input[type=number]{font:inherit;padding:9px 11px;border:1px solid var(--b
 @keyframes loadspin{to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.loading-spinner{animation:none;border-top-color:var(--primary)}}
 
-/* Shared banner stays outside the routed lesson and exam content. */
-.site-banner{width:calc(100% - 32px);max-width:780px;margin:12px auto 0}
-.site-banner img{display:block;width:100%;height:auto;border-radius:clamp(10px,2vw,16px)}
+/* Extend the artwork across the window while keeping its lettering visible. */
+.site-banner {
+  position: relative;
+  width: 100%;
+  height: clamp(108px, 17vw, 220px);
+  overflow: hidden;
+  background: #0b2651;
+}
+.site-banner img { display: block; width: 100%; height: 100%; }
+.site-banner .site-banner-backdrop {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  filter: blur(18px) brightness(.72);
+  transform: scale(1.08);
+}
+.site-banner .site-banner-art { position: relative; object-fit: contain; }
