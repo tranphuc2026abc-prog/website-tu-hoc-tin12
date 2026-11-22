@@ -46,6 +46,7 @@ const termCards = ids => cardsOf(ids).filter(c => c.k === 'Thuật ngữ');
 /* ---------- hiển thị nội dung bài ---------- */
 const ul = it => '<ul>' + it.map(n => '<li>' + inl(n.x) + (n.c ? ul(n.c) : '') + '</li>').join('') + '</ul>';
 function blk(b) {
+  if (b.t === 'h3') return '<h3>' + inl(b.x) + '</h3>';
   if (b.t === 'ul') return ul(b.i);
   if (b.t === 'p') return '<p>' + inl(b.x) + '</p>';
   if (b.t === 'tb') return '<table>' + b.r.map((r, i) => '<tr>' + r.map(c => (i ? '<td>' : '<th>') + inl(c) + (i ? '</td>' : '</th>')).join('') + '</tr>').join('') + '</table>';

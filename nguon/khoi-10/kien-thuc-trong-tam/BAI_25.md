@@ -1,0 +1,7 @@
+- **Xâu con (Substring):** Là một đoạn các kí tự liên tiếp nhau trích từ xâu mẹ (kể cả xâu rỗng hoặc chính xâu mẹ).
+- **Kiểm tra xâu con:** Toán tử `in` trả về `True` nếu xâu thứ nhất nằm trong xâu thứ hai, ngược lại trả về `False`.
+- **Tìm vị trí xâu con:** Phương thức `find()` tìm vị trí xuất hiện đầu tiên của xâu con trong xâu mẹ. Nếu không tìm thấy, hàm trả về `-1`.
+- **Tách và nối xâu:**
+  - `split()` tách một xâu thành danh sách (`list`) các xâu con dựa vào kí tự phân cách.
+  - `join()` ghép một danh sách các xâu thành một xâu duy nhất, chèn xâu nối vào giữa các phần tử.
+- **Tính bất biến của xâu (`str`):** Mọi phương thức xử lí xâu (`upper()`, `lower()`, `replace()`, `strip()`) đều tạo ra **xâu mới**, không làm thay đổi trực tiếp xâu gốc nếu không thực hiện phép gán lại.

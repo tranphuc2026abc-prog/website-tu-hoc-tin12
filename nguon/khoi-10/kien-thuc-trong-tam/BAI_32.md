@@ -1,0 +1,8 @@
+- **Đặc điểm Python:** Ngôn ngữ lập trình bậc cao, thông dịch, xác định khối lệnh bằng **thụt lề** (indentation), chú thích bằng `#`.
+- **Quy tắc đặt tên biến:** Chỉ gồm chữ cái, chữ số và dấu gạch dưới `_`; không bắt đầu bằng chữ số; phân biệt hoa/thường; không trùng từ khóa (`if`, `for`, `def`, `while`, `return`...).
+- **Các kiểu dữ liệu chuẩn thường dùng:**
+  - `int` (số nguyên), `float` (số thực), `bool` (`True`/`False`), `str` (xâu kí tự - bất biến), `list` (danh sách - có thể thay đổi phần tử).
+- **Cấu trúc điều khiển:**
+  - **Tuần tự:** Thực hiện từ trên xuống dưới.
+  - **Rẽ nhánh:** `if <đk>: ... elif <đk>: ... else: ...`.
+  - **Lặp:** `for` (biết trước số lần lặp hoặc duyệt dãy/danh sách/xâu) và `while` (lặp theo điều kiện logic).

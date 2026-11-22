@@ -1,0 +1,3 @@
+- **Lỗi cú pháp (Syntax Error):** Xảy ra khi viết câu lệnh sai quy tắc ngữ pháp của Python (thiếu dấu `:`, thiếu ngoặc, sai chính tả từ khóa, thụt lề sai). Chương trình **không thể bắt đầu chạy** (hoặc dừng ngay lập tức) và báo `SyntaxError` / `IndentationError`.
+- **Lỗi ngoại lệ (Exception / Runtime Error):** Câu lệnh đúng cú pháp nhưng không thể thực thi được khi chương trình đang chạy (ví dụ chia cho 0, truy cập chỉ số vượt giới hạn, ép kiểu sai giá trị). Chương trình dừng đột ngột tại dòng lỗi và in ra **mã lỗi ngoại lệ**.
+- **Lỗi logic (Lỗi ngữ nghĩa):** Chương trình chạy từ đầu đến cuối **không báo lỗi**, nhưng kết quả đầu ra **sai** so với yêu cầu bài toán do thuật toán hoặc công thức cài đặt chưa đúng. Đây là loại lỗi khó phát hiện nhất.

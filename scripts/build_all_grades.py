@@ -26,4 +26,5 @@ else:
     subprocess.run([sys.executable, str(ROOT / "scripts" / "build_multigrade.py"), SRC],
                    cwd=ROOT, check=True, env=ENV)
 subprocess.run([sys.executable, str(ROOT / "scripts" / "build_grade11_new.py")], cwd=ROOT, check=True, env=ENV)
+subprocess.run([sys.executable, str(ROOT / "scripts" / "build_grade10_knowledge.py")], cwd=ROOT, check=True, env=ENV)
 print("Đã dựng dữ liệu cho Tin học 10, 11 và 12.")

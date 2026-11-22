@@ -1,0 +1,6 @@
+- **Thiết kế đồ họa (Graphic Design):** Là quá trình sáng tạo các thông điệp truyền thông thông qua việc tạo mới, lựa chọn và sắp xếp các thành phần đồ họa (hình ảnh, văn bản/kiểu chữ, đường nét, hình khối cơ bản, màu sắc) để truyền tải thông tin hiệu quả và thu hút người xem.
+- **Lợi ích đối với tổ chức và các ngành nghề:**
+  - Xây dựng hình ảnh thương hiệu chuyên nghiệp (logo, danh thiếp, bộ nhận diện).
+  - Tạo trải nghiệm thị giác ấn tượng cho độc giả, người dùng.
+  - Nâng cao hiệu quả tiếp thị (marketing) và thúc đẩy doanh thu qua ấn phẩm quảng cáo, bao bì, áp phích.
+- **Tính liên ngành:** Gắn bó chặt chẽ với kiến trúc (bản vẽ 2D, phối cảnh 3D), thời trang (dựng mẫu, phối màu, cắt vải tự động), truyền thông - báo chí, phát triển web và giao diện phần mềm (UI/UX).
