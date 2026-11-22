@@ -151,3 +151,7 @@ select,input[type=number]{font:inherit;padding:9px 11px;border:1px solid var(--b
 .load-error h1{font-size:1.5rem}
 @keyframes loadspin{to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.loading-spinner{animation:none;border-top-color:var(--primary)}}
+
+/* Shared banner stays outside the routed lesson and exam content. */
+.site-banner{width:calc(100% - 32px);max-width:1040px;margin:16px auto 0}
+.site-banner img{display:block;width:100%;height:auto;border-radius:clamp(10px,2vw,16px)}

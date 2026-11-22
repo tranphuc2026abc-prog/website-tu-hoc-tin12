@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Tao ban HTML don tep tu data hien tai. Chay: python scripts/build_single.py"""
-import os, re
+import base64, os, re
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 read = lambda path: open(os.path.join(ROOT, path), encoding='utf-8').read()
@@ -20,8 +20,12 @@ html = read('course.html')
 nl = chr(10)
 escape_script = '<' + chr(92) + '/script'
 for css in ('assets/css/style.css', 'assets/css/panels.css'):
-    link = '<link rel="stylesheet" href="%s">' % css
-    html = html.replace(link, '<style>' + nl + read(css) + nl + '</style>')
+    link = r'<link rel="stylesheet" href="' + re.escape(css) + r'(?:\?[^"]*)?">'
+    html = re.sub(link, lambda _: '<style>' + nl + read(css) + nl + '</style>', html)
+banner = 'assets/images/banner-tin-hoc-10-12.webp'
+with open(os.path.join(ROOT, banner), 'rb') as image:
+    banner_uri = 'data:image/webp;base64,' + base64.b64encode(image.read()).decode('ascii')
+html = html.replace('src="' + banner + '"', 'src="' + banner_uri + '"')
 scripts = ('assets/js/app.js', 'assets/js/panels.js', 'assets/js/supabase-config.js',
            'assets/js/supabase-cloud.js', 'assets/js/teacher-dashboard.js')
 bundle = '<script>' + nl + nl.join(data).replace('</script', escape_script) + nl + '</script>' + nl
