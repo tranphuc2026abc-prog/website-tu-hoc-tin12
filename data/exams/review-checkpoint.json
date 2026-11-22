@@ -1,128 +1,12 @@
 {
   "schema_version": 1,
-  "date": "2026-11-21",
-  "base_commit": "9b29669baf4b888c79ac3525381167043753a5c9",
-  "verified_papers": 28,
-  "verified_questions": 840,
-  "active_paper": {
-    "year": 2025,
-    "code": "0529",
-    "status": "ocr_read_visual_and_official_answer_review_pending"
-  },
+  "date": "2026-11-22",
+  "verified_papers": 54,
+  "verified_questions": 1620,
   "remaining": [
-    {
-      "year": 2025,
-      "code": "0529",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0530",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0531",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0532",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0533",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0534",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0535",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0536",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0537",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0538",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0539",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0540",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0541",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0542",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0543",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0544",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0545",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0546",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0547",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2025,
-      "code": "0548",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2026,
-      "code": "0501",
-      "status": "needs_visual_and_answer_review"
-    },
     {
       "year": 2026,
       "code": "0502",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2026,
-      "code": "0503",
       "status": "needs_visual_and_answer_review"
     },
     {
@@ -132,17 +16,7 @@
     },
     {
       "year": 2026,
-      "code": "0505",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2026,
       "code": "0506",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2026,
-      "code": "0507",
       "status": "needs_visual_and_answer_review"
     },
     {
@@ -152,17 +26,7 @@
     },
     {
       "year": 2026,
-      "code": "0509",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2026,
       "code": "0510",
-      "status": "needs_visual_and_answer_review"
-    },
-    {
-      "year": 2026,
-      "code": "0511",
       "status": "needs_visual_and_answer_review"
     },
     {
@@ -361,22 +225,5 @@
       "run_id": 44859226524,
       "conclusion": "success"
     }
-  },
-  "checks_this_session": {
-    "manifest_checkpoint_counts": "passed",
-    "new_paper_validation": "not_run",
-    "desktop_mobile_pages": "blocked"
-  },
-  "blockers": [
-    {
-      "component": "windows_managed_runtime",
-      "code": "0x80073D28",
-      "detail": "Package registration requires administrator privileges. Shell and browser startup failed."
-    },
-    {
-      "component": "pdf_visual_review",
-      "detail": "Repository API returned PDF bytes, but available viewers did not render the source or answer key."
-    }
-  ],
-  "next_step": "Render the original 2025-0529 PDF and official answer column from the prepared batch, then compare 30 occurrences, generate release files and run validation."
+  }
 }
