@@ -26,6 +26,17 @@
 <p class="exam-alert" id="exam-missing">Không tìm thấy PDF phù hợp với mã đề đang lọc.</p>
 <p class="exam-muted">Đáp án chính thức: <a href="data/exams/answers/2026.pdf" target="_blank" rel="noopener">Năm 2026</a>. <a href="data/exams/answers/2025.pdf" target="_blank" rel="noopener">Mở đáp án gốc 2025</a>.</p>
 </section>
+<section class="exam-panel" id="panel-pdf" aria-label="Làm bài trên PDF gốc">
+<h2>Làm bài với đủ 96 mã đề PDF gốc</h2>
+<p class="exam-muted">Đọc đề gốc và đánh dấu đáp án trên phiếu điện tử trong 50 phút. Phiếu được lưu trên thiết bị. <strong>Chế độ này chưa chấm điểm tự động</strong> đối với mã chưa số hóa đáp án; các mã đã xác minh vẫn được chấm trong mục Thi thử.</p>
+<div class="exam-filters"><label>Năm thi <select id="pdf-year"><option value="2025">2025</option><option value="2026">2026</option></select></label><label>Mã đề <select id="pdf-code"></select></label><button type="button" id="pdf-start" disabled>Bắt đầu 50 phút</button></div>
+<p id="pdf-notice" class="exam-alert" aria-live="polite">Đang tải danh mục 96 đề gốc…</p>
+<div id="pdf-sheet" class="exam-hidden">
+<h3 id="pdf-title"></h3><p id="pdf-clock" role="timer"></p><p id="pdf-progress"></p>
+<p><a id="pdf-open" class="exam-link" target="_blank" rel="noopener">Mở đề gốc ở thẻ mới</a> <a id="pdf-key" class="exam-link" target="_blank" rel="noopener">Đối chiếu đáp án PDF chính thức</a></p>
+<iframe id="pdf-source" class="exam-viewer" title="Đề thi PDF gốc"></iframe>
+<h3>Phiếu trả lời điện tử</h3><div id="pdf-answers"></div><button id="pdf-save" type="button">Lưu phiếu trả lời</button>
+</div></section>
 <section class="exam-panel exam-hidden" id="panel-test" role="tabpanel" aria-labelledby="tab-test">
 <h2>Làm bài và luyện thi</h2><p class="exam-alert" id="digitization-status">Đang kiểm tra các mã đề đã được xác minh…</p><p class="exam-muted">Chọn năm, mã đề và định hướng để làm bài. Kết quả và bài đang làm được lưu trên thiết bị này.</p>
 <div class="exam-filters"><label>Chế độ <select id="test-mode"><option value="original">Mã đề gốc</option><option value="random">Ngẫu nhiên</option></select></label><label>Mã đề <select id="test-code"></select></label><label>Nguồn câu hỏi <select id="test-year"><option value="all">Cả hai năm</option><option value="2025">2025</option><option value="2026">2026</option></select></label><label>Định hướng <select id="test-track"><option value="ict">Tin học ứng dụng</option><option value="cs">Khoa học máy tính</option></select></label></div>
@@ -34,4 +45,4 @@
 <p id="exam-status" aria-live="polite"></p><div class="exam-session"><strong id="test-clock" role="timer"></strong><span id="test-progress" aria-live="polite"></span></div><nav id="question-nav" aria-label="Điều hướng câu hỏi"></nav><form id="test-form"></form><div id="test-result" aria-live="polite"></div><section id="exam-history" aria-label="Lịch sử làm bài"></section>
 </section>
 </main><footer class="exam-wrap">Tự học Tin học THPT · Nội dung luyện thi sử dụng nguồn đề đã cung cấp.</footer>
-<script src="assets/js/graduation-core.js" defer></script><script src="assets/js/exam-graduation.js" defer></script></body></html>
+<script src="assets/js/graduation-core.js" defer></script><script src="assets/js/exam-graduation.js" defer></script><script src="assets/js/exam-pdf-practice.js" defer></script></body></html>
