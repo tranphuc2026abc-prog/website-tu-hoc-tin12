@@ -11,3 +11,8 @@
 .locked-note strong{color:var(--ink);font-size:.95rem}
 @media(max-width:760px){.locked-note{align-items:flex-start}.continue-link{padding:13px}}
 @media(max-width:420px){.brand-copy strong{font-size:.86rem}.brand-copy small{font-size:.61rem}}
+
+.portal{padding-top:clamp(16px,3vw,36px)}
+.portal-hero{max-width:none;margin:0 auto 20px}
+.portal-banner{display:block;width:100%;height:auto;border-radius:clamp(10px,2vw,20px);box-shadow:var(--shadow-sm)}
+.portal-hero h1{margin:clamp(16px,2.5vw,28px) 0 0;font-size:clamp(1.4rem,3vw,2rem)}
