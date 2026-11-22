@@ -2,7 +2,8 @@
   "status": "reviewed_content_templates_not_papers",
   "sources": [
     "2026/0501",
-    "2026/0525"
+    "2026/0525",
+    "2026/0502"
   ],
   "note": "Each occurrence requires source-image and option-order review.",
   "templates": [
@@ -603,6 +604,347 @@
         true,
         false
       ]
+    },
+    {
+      "template_id": "C-I-1",
+      "type": "mcq",
+      "prompt": "Phương án nào sau đây mô tả đặc trưng của Trí tuệ nhân tạo tạo sinh?",
+      "options": [
+        "Xác thực danh tính người dùng thông qua sinh trắc học.",
+        "Phân tích dữ liệu để đưa ra dự đoán hoặc phân loại đối tượng.",
+        "Tạo ra các nội dung mới như văn bản, hình ảnh, mã nguồn.",
+        "Tìm kiếm và trả về thông tin có sẵn từ cơ sở dữ liệu lớn."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "C-I-2",
+      "type": "mcq",
+      "prompt": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau: Sau khi thực hiện đoạn chương trình trên, biến T có giá trị nào sau đây?",
+      "options": [
+        "4.",
+        "2.",
+        "-4.",
+        "-2."
+      ],
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "L = [4, 6, 2]\nn, T = 3, 0\nfor i in range(0, n):\n    k = 1\n    for j in range(0, i + 1):\n        T = T + k * L[j]\n        k = -1 * k"
+        },
+        {
+          "language": "cpp",
+          "code": "int n = 3, T = 0, L[] = {4, 6, 2};\nfor (int i = 0; i < n; i++) {\n    int k = 1;\n    for (int j = 0; j < i + 1; j++) {\n        T = T + k * L[j];\n        k = -1 * k;\n    }\n}"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "template_id": "C-I-3",
+      "type": "mcq",
+      "prompt": "Nhận định nào sau đây đúng khi nói về tác động của Trí tuệ nhân tạo (AI) đối với thị trường lao động?",
+      "options": [
+        "Các công việc đòi hỏi sự thấu hiểu cảm xúc bị AI thay thế.",
+        "AI quyết định độ tuổi lao động của con người.",
+        "Lao động phổ thông bị AI thay thế hoàn toàn.",
+        "AI thúc đẩy tự động hóa các công việc có tính lặp lại."
+      ],
+      "code_blocks": [],
+      "answer": 3
+    },
+    {
+      "template_id": "C-I-4",
+      "type": "mcq",
+      "prompt": "Lĩnh vực nào sau đây có nhiệm vụ giúp máy tính hiểu và xử lí được ngôn ngữ tự nhiên của con người?",
+      "options": [
+        "Xử lí ngôn ngữ tự nhiên.",
+        "Học máy.",
+        "Điều khiển rô-bốt.",
+        "Thị giác máy tính."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "C-I-5",
+      "type": "mcq",
+      "prompt": "Phương án nào sau đây liệt kê đơn vị đo dung lượng bộ nhớ theo thứ tự tăng dần?",
+      "options": [
+        "Megabyte, Gigabyte, Terabyte.",
+        "Megabyte, Terabyte, Gigabyte.",
+        "Terabyte, Megabyte, Gigabyte.",
+        "Gigabyte, Megabyte, Terabyte."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "C-I-6",
+      "type": "mcq",
+      "prompt": "Phương án nào sau đây chỉ ra một thao tác khai thác cơ sở dữ liệu?",
+      "options": [
+        "Xóa bỏ.",
+        "Thêm mới.",
+        "Tìm kiếm.",
+        "Chỉnh sửa."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "C-I-8",
+      "type": "mcq",
+      "prompt": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau: Giả sử a và b là hai số nguyên dương khác nhau, sau khi thực hiện đoạn chương trình trên, n là số nguyên dương thỏa mãn tính chất nào sau đây?",
+      "options": [
+        "Lớn nhất và là ước số của a hoặc b.",
+        "Lớn nhất và là ước số của cả a và b.",
+        "Nhỏ nhất và chia hết cho a hoặc b.",
+        "Nhỏ nhất và chia hết cho cả a và b."
+      ],
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "n = 1\nwhile n % a != 0 or n % b != 0:\n    n = n + 1"
+        },
+        {
+          "language": "cpp",
+          "code": "int n = 1;\nwhile (n % a != 0 || n % b != 0)\n    n = n + 1;"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "template_id": "C-I-9",
+      "type": "mcq",
+      "prompt": "Nếu thấy bài đăng trên mạng xã hội kêu gọi cộng đồng quyên góp để ủng hộ một hoàn cảnh khó khăn, hành động nào sau đây vừa đảm bảo an toàn vừa có tính nhân văn?",
+      "options": [
+        "Lập tức chia sẻ bài đăng lên trang cá nhân.",
+        "Tìm hiểu kĩ nguồn tin trước khi quyên góp.",
+        "Bình luận không ủng hộ người đăng tin.",
+        "Xem qua và không quan tâm bài đăng."
+      ],
+      "code_blocks": [],
+      "answer": 1
+    },
+    {
+      "template_id": "C-I-10",
+      "type": "mcq",
+      "prompt": "Chị B nhận được cuộc điện thoại từ một người tự xưng là nhân viên hải quan. Người này thông báo có một món quà giá trị cao được gửi cho chị từ nước ngoài, đồng thời yêu cầu chị nộp thuế bằng cách chuyển ngay cho hải quan theo số tài khoản được cung cấp để nhận món quà đó. Để ứng xử an toàn trong tình huống này, chị B không nên thực hiện hành động nào sau đây?",
+      "options": [
+        "Chia sẻ thông tin về cuộc gọi và xin tư vấn từ người thân.",
+        "Chất vấn người gọi một cách thận trọng về món quà tặng.",
+        "Liên lạc trực tiếp với cơ quan hải quan để xác minh thông tin.",
+        "Thanh toán thuế theo yêu cầu mà không xác minh thông tin."
+      ],
+      "code_blocks": [],
+      "answer": 3
+    },
+    {
+      "template_id": "C-I-11",
+      "type": "mcq",
+      "prompt": "Cho các bộ chọn CSS sau. Đoạn mã HTML nào sau đây áp dụng một bộ chọn CSS trên để định dạng dòng chữ “Chúc em thi tốt!” với cỡ chữ 30 pixel, màu xanh lá cây và đường viền nét liền bao quanh?",
+      "options": [
+        "<p id=\"doan\">Chúc em thi tốt!</p>",
+        "<p class=\"doan\">Chúc em thi tốt!</p>",
+        "<p id=\"dong\">Chúc em thi tốt!</p>",
+        "<p class=\"dong\">Chúc em thi tốt!</p>"
+      ],
+      "code_blocks": [
+        {
+          "language": "css",
+          "code": ".dong {font-size: 30px; color: green; border-style: dotted;}\n#doan {font-size: 30px; color: green; border-style: solid;}"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "template_id": "C-I-12",
+      "type": "mcq",
+      "prompt": "Cho đoạn mã HTML và CSS sau. Bảng được tạo bởi đoạn mã trên có đặc điểm nào sau đây?",
+      "options": [
+        "Viền của các ô có màu đỏ.",
+        "Viền của bảng và ô đều có màu đỏ.",
+        "Viền của bảng có màu đỏ.",
+        "Viền của dòng tiêu đề có màu đỏ."
+      ],
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<head> <style> table {border: 1px solid red;}</style></head>\n<body><table>\n    <tr> <td> Sản phẩm </td> <td> Đơn giá (VNĐ) </td> </tr>\n    <tr> <td> Máy tính xách tay </td> <td> 7 000 000 </td> </tr>\n</table></body>"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "template_id": "C-I-13",
+      "type": "mcq",
+      "prompt": "Cho đoạn mã HTML sau. Phương án nào sau đây mô tả đúng cách đánh thứ tự của danh sách được tạo bởi đoạn mã trên?",
+      "options": [
+        "Kiểu chữ cái in hoa, bắt đầu từ E.",
+        "Kiểu số La Mã in hoa, bắt đầu từ V.",
+        "Kiểu số La Mã in thường, bắt đầu từ v.",
+        "Kiểu số nguyên, bắt đầu từ 5."
+      ],
+      "code_blocks": [
+        {
+          "language": "html",
+          "code": "<ol start=\"5\"><li> Khoa học máy tính </li><li> Tin học ứng dụng </li></ol>"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "template_id": "C-I-14",
+      "type": "mcq",
+      "prompt": "Việc chia sẻ một thư mục trên máy tính với quyền đọc cho một hoặc một nhóm người dùng trên các máy tính khác trong cùng mạng LAN có các thao tác sau:\n(1) Thiết lập quyền đọc cho người dùng.\n(2) Tìm và chọn thư mục cần chia sẻ trên máy tính.\n(3) Mở ứng dụng quản lí tệp.\n(4) Chọn tên một hoặc nhóm người dùng cần được chia sẻ.\nPhương án nào sau đây nêu đúng thứ tự thực hiện các thao tác trên?",
+      "options": [
+        "(1), (4), (2), (3).",
+        "(1), (2), (3), (4).",
+        "(3), (1), (2), (4).",
+        "(3), (2), (4), (1)."
+      ],
+      "code_blocks": [],
+      "answer": 3
+    },
+    {
+      "template_id": "C-I-15",
+      "type": "mcq",
+      "prompt": "Lựa chọn ngôn ngữ lập trình Python hoặc C++ để tìm hiểu đoạn chương trình sau: Sau khi thực hiện đoạn chương trình trên, giá trị nào sau đây được hiển thị trên màn hình?",
+      "options": [
+        "5.",
+        "1.",
+        "2.",
+        "6."
+      ],
+      "code_blocks": [
+        {
+          "language": "python",
+          "code": "x, a, b = 1, 2, 6\nfor i in range(a, b):\n    if (x < i): x = x * i\n    else: x = x // i\nprint(x)"
+        },
+        {
+          "language": "cpp",
+          "code": "int x = 1, a = 2, b = 6;\nfor (int i = a; i < b; i++) {\n    if (x < i) x = x * i;\n    else x = x / i;\n}\ncout << x;"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "template_id": "C-I-16",
+      "type": "mcq",
+      "prompt": "Bảng dữ liệu lưu trữ thông tin nhập hàng của một cửa hàng có các cột sau: Mã hóa đơn, Mã hàng, Ngày nhập, Số lượng, Giá nhập. Cần cập nhật dữ liệu cho bảng này trong trường hợp nào sau đây?",
+      "options": [
+        "Tính và đưa ra giá nhập trung bình của các mặt hàng.",
+        "Thống kê số lượng mã hàng được nhập trước ngày 20/11/2025.",
+        "Bổ sung các mặt hàng được nhập vào ngày 20/11/2025.",
+        "Tìm các mã hàng có giá nhập bằng một giá trị cho trước."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "C-I-17",
+      "type": "mcq",
+      "prompt": "Ứng dụng nào sau đây là một Chatbot có sử dụng Trí tuệ nhân tạo?",
+      "options": [
+        "Unikey.",
+        "Calculator.",
+        "Gemini.",
+        "Notepad."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "C-I-18",
+      "type": "mcq",
+      "prompt": "Tiêu đề của một trang web được khai báo bởi phần tử HTML nào sau đây?",
+      "options": [
+        "h1",
+        "th",
+        "head",
+        "title"
+      ],
+      "code_blocks": [],
+      "answer": 3
+    },
+    {
+      "template_id": "C-I-19",
+      "type": "mcq",
+      "prompt": "Giao thức TCP không có vai trò nào sau đây?",
+      "options": [
+        "Qui định cách thức định tuyến cho gói tin khi truyền.",
+        "Cung cấp cơ chế phát hiện và xử lí sai sót khi truyền dữ liệu.",
+        "Qui định việc phân chia và đánh số thứ tự các gói tin.",
+        "Đảm bảo dữ liệu được truyền tải tin cậy và chính xác."
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "C-I-20",
+      "type": "mcq",
+      "prompt": "Phương án nào sau đây nêu đúng đoạn mã HTML dùng để chèn ảnh từ tệp anhtotnghiep.jpg với chiều rộng và chiều cao tương ứng là 800 và 300 pixel vào một trang web, biết rằng tệp ảnh nằm trong cùng thư mục với tệp HTML?",
+      "options": [
+        "<img src=\"anhtotnghiep.jpg\" width=\"800\" height=\"300\">",
+        "<img src=\"anhtotnghiep\" width=\"800px\" height=\"300px\">",
+        "<img href=\"anhtotnghiep.jpg\" width=\"800px\" height=\"300px\">",
+        "<img href=\"anhtotnghiep\" width=\"800\" height=\"300\">"
+      ],
+      "code_blocks": [],
+      "answer": 0
+    },
+    {
+      "template_id": "C-I-21",
+      "type": "mcq",
+      "prompt": "Người làm nghề lập trình nhất thiết phải có khả năng nào sau đây?",
+      "options": [
+        "Phân tích số liệu thống kê.",
+        "Thiết kế và cài đặt thuật toán.",
+        "Bảo trì cơ sở dữ liệu.",
+        "Bảo trì mạng máy tính."
+      ],
+      "code_blocks": [],
+      "answer": 1
+    },
+    {
+      "template_id": "C-I-22",
+      "type": "mcq",
+      "prompt": "Người quản trị cơ sở dữ liệu cần làm công việc nào sau đây để xác định quyền truy cập đối với từng nhóm người dùng khác nhau?",
+      "options": [
+        "Điều chỉnh cấu trúc cơ sở dữ liệu.",
+        "Tìm kiếm dữ liệu theo yêu cầu.",
+        "Phân quyền truy cập dữ liệu.",
+        "Sao lưu dự phòng dữ liệu."
+      ],
+      "code_blocks": [],
+      "answer": 2
+    },
+    {
+      "template_id": "C-I-23",
+      "type": "mcq",
+      "prompt": "Phương án nào sau đây nêu đúng công việc chính của người làm nghề sửa chữa và bảo trì máy tính?",
+      "options": [
+        "Cải thiện hiệu suất hoạt động hệ thống mạng.",
+        "Xây dựng, phát triển hệ thống mạng máy tính.",
+        "Quản lí và duy trì một hệ thống thông tin.",
+        "Lắp đặt, sửa chữa phần cứng máy tính."
+      ],
+      "code_blocks": [],
+      "answer": 3
+    },
+    {
+      "template_id": "C-I-24",
+      "type": "mcq",
+      "prompt": "Nghề nào sau đây thuộc nhóm nghề dịch vụ trong ngành Công nghệ thông tin?",
+      "options": [
+        "Sửa chữa và bảo trì máy tính.",
+        "Quản trị cơ sở dữ liệu.",
+        "Bảo mật hệ thống thông tin.",
+        "Quản trị mạng máy tính."
+      ],
+      "code_blocks": [],
+      "answer": 0
     }
   ]
 }
