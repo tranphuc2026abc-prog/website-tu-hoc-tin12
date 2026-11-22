@@ -15,7 +15,9 @@ audit={e['path']:e for e in load(BASE/'source-audit.json')['exams']};answer_pdf=
 for code in a.codes:
  if code in manifest.get('papers',{}).get(year,{}):print('Already released:',code);continue
  review=load(BASE/'reviews'/year/f'{code}.json');layout=load(a.layout_dir/f'{code}.json')
- assert review['status']=='manual_source_reviewed' and layout['sequence_ok']
+ methods={'manual_source_reviewed':'manual_visual_comparison','source_matched':'source_ocr_and_official_key_comparison'}
+ assert review['status'] in methods and layout['sequence_ok']
+ method=methods[review['status']]
  assert str(review['year'])==year and review['code']==code
  answer_page=review['review'].get('answer_pdf_page')
  if answer_page is None and year=='2025':answer_page=1 if int(code)<=524 else 2
@@ -40,7 +42,7 @@ for code in a.codes:
   q={k:t[k] for k in ['prompt','type','code_blocks']};q['options']=[t['options'][k] for k in perm]
   q.update(id=f"{year}-{code}-{part}-{number:02}",year=int(year),code=code,part=part,number=number,answer=answer,track='common' if i<26 else 'cs' if i<28 else 'ict',source_pdf=source,source_sha256=audit[source]['sha256'],verification='verified',
    answer_source={'pdf':answer_pdf,'sha256':answer_sha,'page':answer_page,'column':code,'row':i+1,'kind':'official'},
-   review={'method':'manual_visual_comparison','date':review['review'].get('date','2026-11-20'),'template_id':template_id,'occurrence_review':f'data/exams/reviews/{year}/{code}.json','option_order':perm})
+   review={'method':method,'date':review['review'].get('date','2026-11-20'),'template_id':template_id,'occurrence_review':f'data/exams/reviews/{year}/{code}.json','option_order':perm})
   q['canonical_id']=t.get('canonical_id') or hashlib.sha256(json.dumps([t['type'],t['prompt'],t['options'],t.get('code_blocks',[])],ensure_ascii=False).encode()).hexdigest()
   q['source_image']=f'data/exams/images/{year}/{code}/{part}-{number:02}.png'
   rows.append(q)

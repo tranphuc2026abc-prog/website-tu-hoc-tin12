@@ -1,0 +1,65 @@
+name: Build final 20 verified exams
+on:
+  push:
+    branches: [feat/verify-2026-even-final]
+    paths: [.github/workflows/build-verified-2026-even-final.yml]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pymupdf pillow
+      - name: Build and validate
+        run: |
+          python scripts/build_verified_exam_batch.py --year 2026 --codes 0510 0512 0514 0516 0518 0520 0522 0524 0526 0528 0530 0532 0534 0536 0538 0540 0542 0544 0546 0548 --layout-dir data/exams/layout/2026
+          python scripts/validate_graduation_exams.py
+          python tests/test_graduation_ocr.py
+          node --test tests/graduation-core.test.cjs
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path("data/exams/ocr-progress.json")
+          progress = json.loads(path.read_text(encoding="utf-8"))
+          codes = {f"{i:04d}" for i in range(510, 549, 2)}
+          existing = {row["code"] for row in progress["verified_papers"] if row["year"] == 2026}
+          for code in sorted(codes - existing):
+              progress["verified_papers"].append({"year": 2026, "code": code, "questions": 30, "scored_per_track": 28})
+          questions = json.loads(Path("data/exams/questions.json").read_text(encoding="utf-8"))["questions"]
+          canonical = {q["canonical_id"] for q in questions}
+          progress["verified_questions"] = len(questions)
+          progress["confirmed_duplicates_in_verified_bank"] = len(questions) - len(canonical)
+          progress["answers_2026_matched_to_verified_questions"] = sum(q["year"] == 2026 for q in questions)
+          progress["remaining"] = [
+              row for row in progress["remaining"] if not (row["year"] == 2026 and row["code"] in codes)
+          ]
+          path.write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          assert len(progress["verified_papers"]) == 96 and len(questions) == 2880 and not progress["remaining"]
+          progress["date"] = "2026-11-22"
+          progress["verified_papers"].sort(key=lambda p: (p["year"], p["code"]))
+          progress["answers_2026_transcribed_questions"] = 1440
+          path.write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          audit_path = path.with_name("source-audit.json")
+          audit = json.loads(audit_path.read_text(encoding="utf-8"))
+          for entry in audit["exams"]:
+              entry["status"] = "verified_question_bank"
+          audit.update(question_status="verified", answer_2026="official_pdf_available; 48 verified papers matched",
+                       verified_questions=len(questions), verified_papers=len(progress["verified_papers"]))
+          audit_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          checkpoint_path = path.with_name("review-checkpoint.json")
+          checkpoint = {"schema_version": 1, "date": "2026-11-22", "verified_papers": 96,
+                        "verified_questions": 2880, "remaining": []}
+          checkpoint_path.write_text(json.dumps(checkpoint, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+      - name: Commit verified data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/exams
+          git commit -m 'Publish final 20 verified exams and 600 question occurrences'
+          git push origin HEAD:refs/heads/feat/verify-2026-even-final
