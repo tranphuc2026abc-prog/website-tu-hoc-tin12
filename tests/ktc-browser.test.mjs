@@ -29,6 +29,9 @@ try {
         await page.setViewportSize({ width, height: 800 });
         assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
     }
+    const modelRequest = page.waitForRequest((request) => request.url().endsWith('/onnx/model_quantized.onnx'));
+    await page.getByLabel('Câu hỏi của em').fill('Ảnh không tải được.');
+    await modelRequest;
     const ask = async (question) => {
         await page.getByLabel('Câu hỏi của em').fill(question);
         const start = performance.now();
@@ -40,12 +43,12 @@ try {
         assert.match(source, /ICT12_B11$/);
         return Math.round(performance.now() - start);
     };
-    const coldMs = await ask('Ảnh không tải được. Thuộc tính nào dùng để mô tả ảnh thay thế?');
+    const firstSubmitMs = await ask('Ảnh không tải được. Thuộc tính nào dùng để mô tả ảnh thay thế?');
     const warmMs = await ask('Thuộc tính alt có tác dụng gì?');
     await page.getByRole('button', { name: 'Tìm trong cả khối' }).click();
     assert.equal(await page.locator('#chat article').count(), 0);
     assert.deepEqual(errors, []);
-    console.log(JSON.stringify({ viewports: [1280, 390, 320], menuPages: 3, coldMs, warmMs }));
+    console.log(JSON.stringify({ viewports: [1280, 390, 320], menuPages: 3, firstSubmitMs, warmMs }));
 } finally {
     await browser.close();
 }

@@ -39,12 +39,14 @@ self.onmessage = async ({ data: { id, grade, query, lesson } }) => {
                 throw error;
             });
         const [index, encode] = await Promise.all([getIndex(grade), encoder]);
+        if (query === undefined) return;
         const [vector] = await encode([query]);
         const sources = retrieve(index, query, vector, lesson)
             .map(({ id, lesson, title, section }) => ({ id, lesson, title, section }));
         self.postMessage({ id, sources });
     } catch (error) {
         console.warn('KTC retrieval unavailable', error.message);
+        if (id === undefined) return;
         self.postMessage({ id, error: 'Chưa tải được công cụ tìm học liệu. Kiểm tra mạng rồi thử lại.' });
     }
 };

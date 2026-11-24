@@ -33,9 +33,24 @@
         status.textContent = '';
     }
 
+    function getSearchWorker() {
+        searchWorker ??= new Worker('assets/js/ktc-retrieval-worker.mjs', { type: 'module' });
+        return searchWorker;
+    }
+
+    questionBox.addEventListener('input', () => {
+        const connection = navigator.connection;
+        if (connection?.saveData || ['slow-2g', '2g'].includes(connection?.effectiveType)) return;
+        try {
+            getSearchWorker().postMessage({ grade: Number(grade.value) });
+        } catch {
+            // Submission still reports an error if the browser cannot create the Worker.
+        }
+    }, { once: true });
+
     function search(query) {
         return new Promise((resolve, reject) => {
-            searchWorker ??= new Worker('assets/js/ktc-retrieval-worker.mjs', { type: 'module' });
+            getSearchWorker();
             const id = ++requestId;
             const finish = (callback, value) => {
                 clearTimeout(timer);
