@@ -19,6 +19,8 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      KTC_MODEL_DIR: ${{ github.workspace }}/.ktc-model/
     outputs:
       exam_manifest_sha: ${{ steps.exam-manifest.outputs.sha }}
     steps:
@@ -62,12 +64,48 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+          cache: npm
 
-      - name: Install Playwright
+      - name: Install locked dependencies
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Cache pinned MiniLM files
+        uses: actions/cache@v4
+        with:
+          path: .ktc-model
+          key: ktc-minilm-${{ hashFiles('assets/js/ktc-encoder.mjs', 'scripts/fetch_ktc_model.py') }}
+
+      - name: Build static KTC index and validate Worker
         run: |
-          npm install --no-save playwright
-          npx playwright install --with-deps chromium
+          python scripts/fetch_ktc_model.py
+          python tests/test_ktc_corpus.py
+          python scripts/build_ktc_index.py
+          node --test tests/ktc-worker.test.mjs
+          npx wrangler deploy --config workers/ktc/wrangler.toml --dry-run --outdir "${RUNNER_TEMP}/ktc-worker"
+
+      - name: Evaluate KTC retrieval on all 93 lessons
+        run: node tests/evaluate_ktc.mjs "${RUNNER_TEMP}/ktc-retrieval-results.json"
+
+      - name: Archive KTC retrieval evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ktc-retrieval-${{ github.sha }}
+          path: ${{ runner.temp }}/ktc-retrieval-results.json
+          if-no-files-found: ignore
+
+      - name: Archive versioned KTC index
+        uses: actions/upload-artifact@v4
+        with:
+          name: ktc-index-${{ github.sha }}
+          path: data/ktc/grade-*.json
+          if-no-files-found: error
 
       - name: Run browser end-to-end tests over HTTP
         env:
@@ -88,7 +126,31 @@ jobs:
         run: echo "sha=$(sha256sum data/exams/manifest.json | cut -d ' ' -f 1)" >> "$GITHUB_OUTPUT"
 
       - name: Stage public website files
+        env:
+          KTC_API_URL: ${{ vars.KTC_API_URL }}
         run: bash scripts/package_pages.sh _site
+
+      - name: Smoke test packaged KTC in Chromium
+        run: |
+          python -m http.server 8877 --bind 127.0.0.1 --directory _site &
+          server=$!
+          trap 'kill "$server"' EXIT
+          for attempt in {1..10}; do
+            curl --fail --silent http://127.0.0.1:8877/tro-ly-ai.html >/dev/null && break
+            sleep 1
+          done
+          node tests/ktc-browser.test.mjs http://127.0.0.1:8877/
+
+      - name: Update the production KTC Worker
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && vars.KTC_API_URL != ''
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.KTC_CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.KTC_CLOUDFLARE_ACCOUNT_ID }}
+          KTC_API_URL: ${{ vars.KTC_API_URL }}
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN" && test -n "$CLOUDFLARE_ACCOUNT_ID"
+          npx wrangler deploy --config workers/ktc/wrangler.toml --keep-vars
+          curl --fail --silent --show-error --retry 3 --max-time 15 "${KTC_API_URL%/}/health"
 
       - name: Prepare GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3

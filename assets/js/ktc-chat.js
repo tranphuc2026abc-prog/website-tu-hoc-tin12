@@ -1,1 +1,181 @@
-(()=>{'use strict';const $=id=>document.getElementById(id),p=new URLSearchParams(location.search),grade=$('grade'),chat=$('chat'),status=$('status');if(['10','11','12'].includes(p.get('grade')))grade.value=p.get('grade');let history=[];let lesson=p.get('lesson')||'';if(!/^ICT(10|11|12)_B\d{2}$/.test(lesson)||!lesson.startsWith('ICT'+grade.value))lesson='';$('context').textContent=lesson?'Đang hỗ trợ bài '+lesson:'';grade.onchange=()=>{history=[];chat.replaceChildren();lesson='';$('context').textContent=''};function message(text){const a=document.createElement('article');a.textContent=text;chat.append(a);return a} $('clear').onclick=()=>{history=[];chat.replaceChildren()};$('mic').onclick=()=>{const R=window.SpeechRecognition||window.webkitSpeechRecognition;if(!R){status.textContent='Trình duyệt chưa hỗ trợ nhận dạng giọng nói.';return}const r=new R();r.lang='vi-VN';r.onresult=e=>$('question').value=e.results[0][0].transcript;r.onerror=()=>status.textContent='Không nhận được giọng nói.';r.start()};$('form').onsubmit=async e=>{e.preventDefault();const question=$('question').value.trim(),url=window.KTC_API_URL;if(!question)return;if(!url){status.textContent='Dịch vụ AI chưa được triển khai.';return}const g=grade.value;$('send').disabled=true;message('Bạn: '+question);status.textContent='Đang tìm học liệu…';try{const r=await fetch(url.replace(/\/$/,'')+'/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({grade:Number(g),lesson,question,history:history.slice(-6)}),signal:AbortSignal.timeout(120000)});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();history.push({role:'user',content:question},{role:'assistant',content:String(d.answer).slice(0,1500)});history=history.slice(-6);const a=message('KTC: '+d.answer);const b=document.createElement('button');b.textContent='Đọc câu trả lời';b.onclick=()=>{if(!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance(d.answer);u.lang='vi-VN';speechSynthesis.cancel();speechSynthesis.speak(u)};a.append(document.createElement('br'),b);for(const s of d.sources||[]){const link=document.createElement('a');link.href='course.html?grade='+g+'#/lesson/'+encodeURIComponent(s.lesson);link.textContent='['+s.id+'] '+s.title+' ('+s.section+')';a.append(document.createElement('br'),link)}$('question').value='';status.textContent=''}catch(err){status.textContent='Chưa nhận được phản hồi. Vui lòng thử lại sau.'}finally{$('send').disabled=false}}})();
+(() => {
+    'use strict';
+
+    const $ = (id) => document.getElementById(id);
+    const params = new URLSearchParams(location.search);
+    const grade = $('grade');
+    const chat = $('chat');
+    const status = $('status');
+    const form = $('form');
+    const questionBox = $('question');
+    let history = [];
+    let searchWorker;
+    let requestId = 0;
+    let lesson = params.get('lesson') || '';
+
+    if (['10', '11', '12'].includes(params.get('grade'))) grade.value = params.get('grade');
+    if (!new RegExp('^ICT' + grade.value + '_B[0-9]{2}$').test(lesson)) lesson = '';
+
+    function showContext() {
+        $('context').hidden = !lesson;
+        $('context-link').href = 'course.html?grade=' + grade.value + '#/lesson/' + lesson;
+        $('context-link').textContent = lesson ? 'Bài ' + Number(lesson.slice(-2)) : '';
+    }
+
+    function setBusy(busy) {
+        for (const id of ['send', 'grade', 'clear', 'context-remove', 'mic']) $(id).disabled = busy;
+        form.setAttribute('aria-busy', String(busy));
+    }
+
+    function reset() {
+        history = [];
+        chat.replaceChildren();
+        status.textContent = '';
+    }
+
+    function search(query) {
+        return new Promise((resolve, reject) => {
+            searchWorker ??= new Worker('assets/js/ktc-retrieval-worker.mjs', { type: 'module' });
+            const id = ++requestId;
+            const finish = (callback, value) => {
+                clearTimeout(timer);
+                searchWorker.removeEventListener('message', onMessage);
+                searchWorker.removeEventListener('error', onError);
+                callback(value);
+            };
+            const onMessage = ({ data }) => {
+                if (data.id !== id) return;
+                if (data.error) finish(reject, new Error(data.error));
+                else finish(resolve, data.sources);
+            };
+            const onError = () => {
+                finish(reject, new Error('Trình duyệt chưa mở được công cụ tìm học liệu.'));
+                searchWorker.terminate();
+                searchWorker = undefined;
+            };
+            const timer = setTimeout(onError, 120000);
+            searchWorker.addEventListener('message', onMessage);
+            searchWorker.addEventListener('error', onError);
+            searchWorker.postMessage({ id, grade: Number(grade.value), lesson, query });
+        });
+    }
+
+    function message(author, text) {
+        const article = document.createElement('article');
+        article.dataset.author = author;
+        const name = document.createElement('strong');
+        name.textContent = author === 'student' ? 'Bạn' : 'KTC';
+        const paragraph = document.createElement('p');
+        paragraph.textContent = text;
+        article.append(name, paragraph);
+        chat.append(article);
+        return article;
+    }
+
+    function addSources(article, sources) {
+        if (!sources.length) return;
+        const list = document.createElement('ul');
+        const labels = { key: 'Kiến thức trọng tâm', err: 'Lỗi thường gặp', sum: 'Tóm tắt', ex: 'Ví dụ' };
+        for (const source of sources) {
+            const id = source.lesson;
+            if (!new RegExp('^ICT' + grade.value + '_B[0-9]{2}$').test(id)) continue;
+            const link = document.createElement('a');
+            const item = document.createElement('li');
+            link.href = 'course.html?grade=' + grade.value + '#/lesson/' + id;
+            link.textContent = (Number.isInteger(source.id) ? '[' + source.id + '] ' : '') + source.title +
+                (labels[source.section] ? ' · ' + labels[source.section] : '');
+            item.append(link);
+            list.append(item);
+        }
+        article.append(list);
+    }
+
+    grade.addEventListener('change', () => {
+        reset();
+        lesson = '';
+        showContext();
+    });
+    $('context-remove').addEventListener('click', () => {
+        lesson = '';
+        showContext();
+        reset();
+    });
+    $('clear').addEventListener('click', reset);
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    $('mic').hidden = !Recognition;
+    $('mic').addEventListener('click', () => {
+        const recognition = new Recognition();
+        recognition.lang = 'vi-VN';
+        recognition.onresult = (event) => {
+            questionBox.value = event.results[0][0].transcript.slice(0, 1000);
+        };
+        recognition.onerror = () => { status.textContent = 'Không nhận được giọng nói.'; };
+        try { recognition.start(); } catch { status.textContent = 'Chưa mở được micrô.'; }
+    });
+    showContext();
+
+    form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const question = questionBox.value.trim();
+        if (!question) return;
+        setBusy(true);
+        message('student', question);
+        status.textContent = 'Đang tìm học liệu. Lần đầu cần tải mô hình tìm kiếm…';
+        let sources = [];
+        try {
+            const previous = history.filter((turn) => turn.role === 'user').at(-1);
+            const query = previous && question.length < 100 ? question + '\n' + previous.content : question;
+            sources = await search(query);
+            if (!sources.length) {
+                status.textContent = 'Chưa tìm thấy học liệu cho bài đang chọn. Hãy thử tìm trong cả khối.';
+                return;
+            }
+
+            if (!window.KTC_API_URL) {
+                addSources(message('ktc', 'Dịch vụ hỏi đáp AI chưa mở. Em có thể xem học liệu liên quan bên dưới.'), sources);
+            } else {
+                status.textContent = 'Đang soạn câu trả lời…';
+                const response = await fetch(new URL('/ask', window.KTC_API_URL), {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        grade: Number(grade.value), lesson, question, history,
+                        sourceIds: sources.map((source) => source.id),
+                    }),
+                    signal: AbortSignal.timeout(15000),
+                });
+                if (response.status === 429) throw new Error('Đã đạt giới hạn lượt hỏi. Em thử lại sau nhé.');
+                if (!response.ok) throw new Error('KTC chưa trả lời được. Em có thể mở học liệu liên quan.');
+                const { answer, sources: citations } = await response.json();
+                history.push(
+                    { role: 'user', content: question.slice(0, 320) },
+                    { role: 'assistant', content: answer.slice(0, 320) },
+                );
+                history = history.slice(-4);
+                const article = message('ktc', answer);
+                addSources(article, citations);
+                if ('speechSynthesis' in window && 'SpeechSynthesisUtterance' in window) {
+                    const speak = document.createElement('button');
+                    speak.type = 'button';
+                    speak.className = 'btn';
+                    speak.textContent = 'Đọc câu trả lời';
+                    speak.addEventListener('click', () => {
+                        const utterance = new SpeechSynthesisUtterance(answer);
+                        utterance.lang = 'vi-VN';
+                        window.speechSynthesis.cancel();
+                        window.speechSynthesis.speak(utterance);
+                    });
+                    article.append(speak);
+                }
+            }
+            questionBox.value = '';
+            status.textContent = '';
+        } catch (error) {
+            status.textContent = error.message || 'KTC chưa phản hồi. Em thử lại sau nhé.';
+            if (sources.length) addSources(message('ktc', 'Học liệu liên quan'), sources);
+        } finally {
+            setBusy(false);
+            questionBox.focus();
+        }
+    });
+})();

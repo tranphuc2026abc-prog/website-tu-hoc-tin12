@@ -1,2 +1,11 @@
 __pycache__/
 *.py[cod]
+
+# Generated KTC data and local Worker secrets
+/data/ktc/
+/workers/ktc/sources.generated.json
+.dev.vars*
+.wrangler/
+
+/node_modules
+/.ktc-model/
