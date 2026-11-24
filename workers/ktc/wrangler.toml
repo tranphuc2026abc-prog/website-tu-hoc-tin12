@@ -6,11 +6,11 @@ preview_urls = false
 
 [vars]
 ALLOWED_ORIGIN = "https://tranphuc2026abc-prog.github.io"
-GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_MODEL = "openai/gpt-oss-20b"
 GROQ_REQUESTS_PER_MINUTE = "25"
 GROQ_REQUESTS_PER_DAY = "500"
-GROQ_TOKENS_PER_MINUTE = "5500"
-GROQ_TOKENS_PER_DAY = "450000"
+GROQ_TOKENS_PER_MINUTE = "7500"
+GROQ_TOKENS_PER_DAY = "180000"
 
 [[ratelimits]]
 name = "IP_LIMIT"

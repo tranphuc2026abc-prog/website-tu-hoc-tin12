@@ -15,7 +15,7 @@ const request = (body = requestData, headers = {}, method = 'POST') =>
 const env = {
     ALLOWED_ORIGIN: origin,
     GROQ_API_KEY: 'unit-test-key',
-    GROQ_MODEL: 'test-model',
+    GROQ_MODEL: 'openai/gpt-oss-20b',
     IP_LIMIT: { limit: async () => ({ success: true }) },
     QUOTA: {
         idFromName: (name) => name,
@@ -76,6 +76,8 @@ test('uses authoritative source text and returns only resolved citations', async
         assert.equal(url, 'https://api.groq.com/openai/v1/chat/completions');
         assert.equal(options.headers.Authorization, 'Bearer unit-test-key');
         const body = JSON.parse(options.body);
+        assert.equal(body.reasoning_effort, 'low');
+        assert.equal(body.include_reasoning, false);
         const prompt = JSON.parse(body.messages[1].content);
         assert.ok(prompt.context[0].includes(first.text));
         assert.ok(!options.body.includes('text chosen by browser'));
@@ -89,4 +91,10 @@ test('uses authoritative source text and returns only resolved citations', async
     upstream.mock.mockImplementation(async () =>
         Response.json({ choices: [{ message: { content: 'Nguồn sai [9]' } }] }));
     assert.equal((await worker.fetch(request(), env)).status, 502);
+    upstream.mock.mockImplementation(async () =>
+        Response.json({ choices: [{ message: { content: 'Một câu trả lời thiếu nguồn.' } }] }));
+    assert.equal((await worker.fetch(request(), env)).status, 502);
+    upstream.mock.mockImplementation(async () =>
+        Response.json({ choices: [{ message: { content: 'Chưa đủ học liệu. Em có thể nói rõ hơn không?' } }] }));
+    assert.equal((await worker.fetch(request(), env)).status, 200);
 });

@@ -1,6 +1,6 @@
 # Trợ lý AI KTC
 
-GitHub Pages xuất bản chỉ mục theo khối. Trình duyệt nhúng câu hỏi bằng cùng bản MiniLM q8, bộ tách từ và phép pooling với trình dựng chỉ mục. BM25 và cosine được hợp nhất bằng RRF. Khi tìm trong cả khối, khâu cuối chọn tối đa một đoạn mỗi bài để tránh một bài chiếm cả năm kết quả. Khi mở từ trang bài học, truy xuất giới hạn trong bài đang chọn. Worker chỉ nhận mã đoạn và tự tra văn bản gốc được đóng gói từ học liệu của website.
+GitHub Pages xuất bản chỉ mục theo khối. Trình duyệt nhúng câu hỏi bằng cùng bản MiniLM q8, bộ tách từ và phép pooling với trình dựng chỉ mục. BM25 và cosine được hợp nhất bằng RRF. Khi tìm trong cả khối, khâu cuối chọn tối đa một đoạn mỗi bài để tránh một bài chiếm cả năm kết quả. Khi mở từ trang bài học, truy xuất giới hạn trong bài đang chọn. Worker chỉ nhận mã đoạn và tự tra văn bản gốc được đóng gói từ học liệu của website. Dịch vụ trả lời mặc định dùng GPT-OSS 20B trên Groq với mức suy luận thấp. Groq thông báo ngừng Llama 3.1 8B Instant ngày 16/08/2026.
 
 ## Dựng và kiểm tra
 
