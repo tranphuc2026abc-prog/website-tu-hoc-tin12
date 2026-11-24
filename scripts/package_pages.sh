@@ -23,6 +23,13 @@ model_destination="$destination/data/ktc/models/$model"
 mkdir -p "$model_destination/onnx"
 cp "$model_dir/$model"/{config.json,tokenizer.json,tokenizer_config.json} "$model_destination/"
 cp "$model_dir/$model/onnx/model_quantized.onnx" "$model_destination/onnx/"
+cp "$vendor/LICENSE" "$model_destination/LICENSE"
+cat > "$model_destination/MODEL.txt" <<'MODEL'
+Source model (Apache-2.0):
+https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+q8 ONNX conversion distributed by Xenova:
+https://huggingface.co/Xenova/paraphrase-multilingual-MiniLM-L12-v2/tree/2c4055b12046f11709e9df2c122e59ffbdc2f900
+MODEL
 for grade in 10 11 12; do
   cp "data/ktc/grade-$grade.json" "$destination/data/ktc/"
 done

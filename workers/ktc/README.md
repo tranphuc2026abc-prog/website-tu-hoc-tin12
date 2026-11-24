@@ -28,6 +28,15 @@ Lệnh đánh giá chọn tối đa 5 câu trắc nghiệm có đáp án cho m�
 - Đo p50 và p95 từ lúc gửi câu hỏi đến khi hiển thị câu trả lời và nguồn. Tách lượt máy chưa có mô hình khỏi lượt đã tải mô hình. Tiến hành trên điện thoại và máy tính.
 - Thử 40 phiên cùng gửi một lượt trên Worker do trường sở hữu. Ghi số thành công, 429, 5xx và p95. Lặp một lượt với đường mạng của trường để đo tác động của IP chung. Trần mặc định là 10 yêu cầu/IP/phút và 25 yêu cầu Groq/phút, có thêm giới hạn token. Cấu hình này có thể trả 429 trong giờ học nếu cả lớp gửi cùng lúc.
 
+Lệnh thu thập minh chứng trên Worker thử nghiệm do trường quản lý. Dùng hai tệp đầu ra riêng. Tệp trả lời JSON Lines lưu từng lượt để có thể chạy tiếp; chấm chuyên môn theo rubric cạnh câu trả lời.
+
+```bash
+node tests/evaluate_ktc_live.mjs answers "$STAGING_WORKER_URL" /tmp/ktc-retrieval-results.json /tmp/ktc-answers.jsonl
+node tests/evaluate_ktc_live.mjs load40 "$STAGING_WORKER_URL" /tmp/ktc-retrieval-results.json /tmp/ktc-load40.jsonl
+```
+
+Đặt KTC_STAGING_ORIGIN nếu Worker thử nghiệm dùng origin khác mặc định. Bài đo tải gửi từ một mạng, có thể gặp giới hạn IP chung. Thời gian ghi trong tệp là của API; vẫn cần đo trên trình duyệt có MiniLM để kiểm tra thời gian đầu đến cuối.
+
 ## Phát hành sau khi nghiệm thu đạt
 
 Trong Cloudflare Workers, lưu GROQ_API_KEY dưới dạng secret. Trong GitHub Actions, cấu hình biến KTC_API_URL bằng URL workers.dev, biến KTC_CLOUDFLARE_ACCOUNT_ID và secret KTC_CLOUDFLARE_API_TOKEN của tài khoản có quyền triển khai. Sau khi PR được hợp nhất, luồng Pages dựng chỉ mục, cập nhật Worker và kiểm tra /health trước khi phát hành gói Pages. Để chạy thử cục bộ, có thể dựng riêng dữ liệu nguồn Worker bằng `python scripts/build_ktc_index.py --sources-only`.

@@ -33,9 +33,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Install Playwright
-        run: npm install --no-save playwright
+          node-version: 22
+          cache: npm
+      - name: Install locked dependencies
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+        run: npm ci
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Run website E2E tests
