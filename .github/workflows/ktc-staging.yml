@@ -16,7 +16,7 @@ jobs:
   deploy:
     if: github.ref == 'refs/heads/feature/ktc-ai-tutor'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -29,10 +29,27 @@ jobs:
       - run: |
           npm ci
           python scripts/build_all_grades.py nguon
-          python scripts/build_ktc_index.py --sources-only
+          python scripts/fetch_ktc_model.py
+          KTC_MODEL_DIR="$PWD/.ktc-model/" python scripts/build_ktc_index.py
           node --test tests/ktc-worker.test.mjs
         env:
           ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+
+      - name: Build KTC preview web assets
+        run: |
+          set -euo pipefail
+          mkdir -p _ktc-preview/assets/vendor/ktc _ktc-preview/data/ktc
+          cp tro-ly-ai.html _ktc-preview/index.html
+          cp -r assets/css assets/js _ktc-preview/assets/
+          cp data/ktc/grade-*.json _ktc-preview/data/ktc/
+          vendor=node_modules/@huggingface/transformers
+          node_modules/.bin/esbuild "$vendor/dist/transformers.web.min.js" --bundle --platform=browser --format=esm --minify --outfile=_ktc-preview/assets/vendor/ktc/transformers.web.min.mjs
+          cp "$vendor/dist"/ort-wasm-simd-threaded.jsep.* "$vendor/LICENSE" _ktc-preview/assets/vendor/ktc/
+          printf '%s\n' "window.KTC_API_URL = location.origin;" > _ktc-preview/assets/js/ktc-config.js
+          sed -i -e 's/env.allowLocalModels = true/env.allowLocalModels = false/' -e 's/env.allowRemoteModels = false/env.allowRemoteModels = true/' _ktc-preview/assets/js/ktc-retrieval-worker.mjs
+          printf '%s\n' '/index.html / 301' '/tro-ly-ai.html / 302' '/course.html https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/course.html 302' > _ktc-preview/_redirects
+          sed -i "s|'course.html?grade='|'https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/course.html?grade='|g" _ktc-preview/assets/js/ktc-chat.js
+          sed -i 's|href="index.html"|href="https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/"|g' _ktc-preview/index.html
       - name: Deploy staging Worker
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.KTC_CLOUDFLARE_API_TOKEN }}
@@ -41,4 +58,42 @@ jobs:
         run: |
           test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing KTC_CLOUDFLARE_API_TOKEN'; exit 1; }
           test -n "$CLOUDFLARE_ACCOUNT_ID" || { echo 'Missing KTC_CLOUDFLARE_ACCOUNT_ID'; exit 1; }
-          npx --no-install wrangler deploy --config workers/ktc/wrangler.toml --name ktc-ai-tutor-staging --keep-vars
+          npx --no-install wrangler deploy --config workers/ktc/wrangler.toml --name ktc-ai-tutor-staging --keep-vars --assets "$PWD/_ktc-preview" --var ALLOWED_ORIGIN:https://ktc-ai-tutor-staging.tranphuc2026abc.workers.dev
+
+      - name: Verify the public preview
+        run: |
+          set -euo pipefail
+          site=https://ktc-ai-tutor-staging.tranphuc2026abc.workers.dev
+          curl --fail --retry 3 --silent --show-error "$site/" -o /tmp/ktc-preview.html
+          grep -F 'KTC' /tmp/ktc-preview.html
+          curl --fail --retry 3 --silent --show-error "$site/health"
+          curl --fail --silent --show-error "$site/data/ktc/grade-12.json" -o /tmp/ktc-index.json
+          echo "Preview $site"
+
+      - name: Test a real question from the published browser UI
+        run: |
+          npx --no-install playwright install --with-deps chromium
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { chromium } from 'playwright';
+          const browser = await chromium.launch();
+          try {
+            const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+            page.on('console', entry => {
+              if (entry.type() === 'warning' || entry.type() === 'error') console.log(entry.text());
+            });
+            await page.goto('https://ktc-ai-tutor-staging.tranphuc2026abc.workers.dev/?grade=12&lesson=ICT12_B07');
+            await page.locator('#question').fill('Thẻ <p> trong HTML dùng để làm gì?');
+            const response = page.waitForResponse(r => new URL(r.url()).pathname === '/ask', { timeout: 125000 });
+            await page.locator('#send').click();
+            const reply = await response;
+            assert.equal(reply.status(), 200, await reply.text());
+            const body = await reply.json();
+            assert.match(body.answer, /đoạn văn/i);
+            assert.equal(body.sources[0]?.lesson, 'ICT12_B07');
+            await page.locator('#chat a[href*="ICT12_B07"]').last().waitFor();
+            console.log('Public KTC browser check passed.');
+          } finally {
+            await browser.close();
+          }
+          JS
