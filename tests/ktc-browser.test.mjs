@@ -45,7 +45,7 @@ try {
     };
     const firstSubmitMs = await ask('Ảnh không tải được. Thuộc tính nào dùng để mô tả ảnh thay thế?');
     const warmMs = await ask('Thuộc tính alt có tác dụng gì?');
-    await page.getByRole('button', { name: 'Tìm trong cả khối' }).click();
+    await page.getByRole('button', { name: 'Tìm trong mọi bài' }).click();
     assert.equal(await page.locator('#chat article').count(), 0);
     assert.deepEqual(errors, []);
     console.log(JSON.stringify({ viewports: [1280, 390, 320], menuPages: 3, firstSubmitMs, warmMs }));

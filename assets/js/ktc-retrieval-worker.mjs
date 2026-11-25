@@ -7,6 +7,10 @@ const indexes = new Map();
 async function getIndex(grade) {
     if (!indexes.has(grade)) {
         indexes.set(grade, (async () => {
+            if (grade === null) {
+                const indexes = await Promise.all([10, 11, 12].map(getIndex));
+                return prepareIndex(indexes.flatMap((index) => index.documents.map(({ chunk }) => chunk)));
+            }
             const response = await fetch(new URL('../../data/ktc/grade-' + grade + '.json', import.meta.url));
             if (!response.ok) throw new Error('Không tải được chỉ mục học liệu.');
             const { model, chunks } = await response.json();

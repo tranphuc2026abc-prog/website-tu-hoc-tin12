@@ -82,7 +82,8 @@ jobs:
             page.on('console', entry => {
               if (entry.type() === 'warning' || entry.type() === 'error') console.log(entry.text());
             });
-            await page.goto('https://ktc-ai-tutor-staging.tranphuc2026abc.workers.dev/?grade=12&lesson=ICT12_B07');
+            await page.goto('https://ktc-ai-tutor-staging.tranphuc2026abc.workers.dev/');
+            assert.equal(await page.locator('#grade').count(), 0);
             await page.locator('#question').fill('Thẻ <p> trong HTML dùng để làm gì?');
             const response = page.waitForResponse(r => new URL(r.url()).pathname === '/ask', { timeout: 125000 });
             await page.locator('#send').click();
@@ -90,7 +91,7 @@ jobs:
             assert.equal(reply.status(), 200, await reply.text());
             const body = await reply.json();
             assert.match(body.answer, /đoạn văn/i);
-            assert.equal(body.sources[0]?.lesson, 'ICT12_B07');
+            assert.ok(body.sources.some(source => source.lesson === 'ICT12_B07'));
             await page.locator('#chat a[href*="ICT12_B07"]').last().waitFor();
             console.log('Public KTC browser check passed.');
           } finally {

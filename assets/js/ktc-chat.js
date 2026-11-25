@@ -3,7 +3,6 @@
 
     const $ = (id) => document.getElementById(id);
     const params = new URLSearchParams(location.search);
-    const grade = $('grade');
     const chat = $('chat');
     const status = $('status');
     const form = $('form');
@@ -13,17 +12,17 @@
     let requestId = 0;
     let lesson = params.get('lesson') || '';
 
-    if (['10', '11', '12'].includes(params.get('grade'))) grade.value = params.get('grade');
-    if (!new RegExp('^ICT' + grade.value + '_B[0-9]{2}$').test(lesson)) lesson = '';
+    if (!/^ICT(10|11|12)_B[0-9]{2}$/.test(lesson)) lesson = '';
+    const currentGrade = () => lesson ? Number(lesson.slice(3, 5)) : null;
 
     function showContext() {
         $('context').hidden = !lesson;
-        $('context-link').href = 'course.html?grade=' + grade.value + '#/lesson/' + lesson;
+        $('context-link').href = 'course.html?grade=' + currentGrade() + '#/lesson/' + lesson;
         $('context-link').textContent = lesson ? 'Bài ' + Number(lesson.slice(-2)) : '';
     }
 
     function setBusy(busy) {
-        for (const id of ['send', 'grade', 'clear', 'context-remove', 'mic']) $(id).disabled = busy;
+        for (const id of ['send', 'clear', 'context-remove', 'mic']) $(id).disabled = busy;
         form.setAttribute('aria-busy', String(busy));
     }
 
@@ -42,7 +41,7 @@
         const connection = navigator.connection;
         if (connection?.saveData || ['slow-2g', '2g'].includes(connection?.effectiveType)) return;
         try {
-            getSearchWorker().postMessage({ grade: Number(grade.value) });
+            getSearchWorker().postMessage({ grade: currentGrade() });
         } catch {
             // Submission still reports an error if the browser cannot create the Worker.
         }
@@ -71,7 +70,7 @@
             const timer = setTimeout(onError, 120000);
             searchWorker.addEventListener('message', onMessage);
             searchWorker.addEventListener('error', onError);
-            searchWorker.postMessage({ id, grade: Number(grade.value), lesson, query });
+            searchWorker.postMessage({ id, grade: currentGrade(), lesson, query });
         });
     }
 
@@ -93,10 +92,10 @@
         const labels = { key: 'Kiến thức trọng tâm', err: 'Lỗi thường gặp', sum: 'Tóm tắt', ex: 'Ví dụ' };
         for (const source of sources) {
             const id = source.lesson;
-            if (!new RegExp('^ICT' + grade.value + '_B[0-9]{2}$').test(id)) continue;
+            if (!/^ICT(10|11|12)_B[0-9]{2}$/.test(id)) continue;
             const link = document.createElement('a');
             const item = document.createElement('li');
-            link.href = 'course.html?grade=' + grade.value + '#/lesson/' + id;
+            link.href = 'course.html?grade=' + id.slice(3, 5) + '#/lesson/' + id;
             link.textContent = (Number.isInteger(source.id) ? '[' + source.id + '] ' : '') + source.title +
                 (labels[source.section] ? ' · ' + labels[source.section] : '');
             item.append(link);
@@ -105,11 +104,6 @@
         article.append(list);
     }
 
-    grade.addEventListener('change', () => {
-        reset();
-        lesson = '';
-        showContext();
-    });
     $('context-remove').addEventListener('click', () => {
         lesson = '';
         showContext();
@@ -142,7 +136,7 @@
             const query = previous && question.length < 100 ? question + '\n' + previous.content : question;
             sources = await search(query);
             if (!sources.length) {
-                status.textContent = 'Chưa tìm thấy học liệu cho bài đang chọn. Hãy thử tìm trong cả khối.';
+                status.textContent = 'Chưa tìm thấy học liệu cho bài đang chọn. Hãy thử tìm trong mọi bài.';
                 return;
             }
 
@@ -154,7 +148,7 @@
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
-                        grade: Number(grade.value), lesson, question, history,
+                        grade: currentGrade(), lesson, question, history,
                         sourceIds: sources.map((source) => source.id),
                     }),
                     signal: AbortSignal.timeout(15000),
