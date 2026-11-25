@@ -5,6 +5,9 @@ on:
     branches: [feature/ktc-ai-tutor]
     paths:
       - '.github/workflows/ktc-staging.yml'
+      - 'workers/ktc/worker.mjs'
+      - 'assets/js/ktc-chat.js'
+      - 'tro-ly-ai.html'
   workflow_dispatch:
 
 permissions:
@@ -84,6 +87,14 @@ jobs:
             });
             await page.goto('https://ktc-ai-tutor-staging.tranphuc2026abc.workers.dev/');
             assert.equal(await page.locator('#grade').count(), 0);
+            const weather = await page.request.post(new URL('/ask', page.url()).href, {
+              headers: { Origin: new URL(page.url()).origin },
+              data: { grade: null, lesson: '', question: 'Chào, hôm nay thời tiết thế nào?', history: [], sourceIds: [] },
+            });
+            assert.equal(weather.status(), 200, await weather.text());
+            const general = await weather.json();
+            assert.equal(general.sources.length, 0);
+            assert.match(general.answer, /địa điểm|khu vực|thành phố|tỉnh|ở đâu|ở đâu|nơi nào/i);
             await page.locator('#question').fill('Thẻ <p> trong HTML dùng để làm gì?');
             const response = page.waitForResponse(r => new URL(r.url()).pathname === '/ask', { timeout: 125000 });
             await page.locator('#send').click();

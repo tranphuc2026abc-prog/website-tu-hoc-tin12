@@ -98,3 +98,16 @@ test('uses authoritative source text and returns only resolved citations', async
         Response.json({ choices: [{ message: { content: 'Chưa đủ học liệu. Em có thể nói rõ hơn không?' } }] }));
     assert.equal((await worker.fetch(request(), env)).status, 200);
 });
+
+test('answers everyday questions without a curriculum citation', async (t) => {
+    t.mock.method(globalThis, 'fetch', async (_url, options) => {
+        const body = JSON.parse(options.body);
+        assert.deepEqual(JSON.parse(body.messages[1].content).context, []);
+        return Response.json({ choices: [{ message: { content: '[GENERAL] Em muốn xem thời tiết ở đâu?' } }] });
+    });
+    const response = await worker.fetch(request({
+        ...requestData, grade: null, question: 'Hôm nay thời tiết thế nào?', sourceIds: [],
+    }), env);
+    assert.equal(response.status, 200);
+    assert.deepEqual(await response.json(), { answer: 'Em muốn xem thời tiết ở đâu?', sources: [] });
+});

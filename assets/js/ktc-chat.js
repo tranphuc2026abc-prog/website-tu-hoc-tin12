@@ -134,8 +134,17 @@
         try {
             const previous = history.filter((turn) => turn.role === 'user').at(-1);
             const query = previous && question.length < 100 ? question + '\n' + previous.content : question;
-            sources = await search(query);
-            if (!sources.length) {
+            const weather = /\bthời tiết\b/iu;
+            const greeting = /^(?:xin chào|chào|hello|hi|cảm ơn)[!.\s]*$/iu;
+            const needsSearch = !weather.test(question) && !greeting.test(question);
+            if (needsSearch) {
+                try {
+                    sources = await search(query);
+                } catch (error) {
+                    if (!window.KTC_API_URL) throw error;
+                }
+            }
+            if (!sources.length && !window.KTC_API_URL) {
                 status.textContent = 'Chưa tìm thấy học liệu cho bài đang chọn. Hãy thử tìm trong mọi bài.';
                 return;
             }
