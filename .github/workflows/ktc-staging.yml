@@ -72,7 +72,7 @@ jobs:
 
       - name: Test a real question from the published browser UI
         run: |
-          npx --no-install playwright install --with-deps chromium
+          npx --no-install playwright install --with-deps --only-shell chromium
           node --input-type=module <<'JS'
           import assert from 'node:assert/strict';
           import { chromium } from 'playwright';
@@ -91,7 +91,7 @@ jobs:
             assert.equal(reply.status(), 200, await reply.text());
             const body = await reply.json();
             assert.match(body.answer, /đoạn văn/i);
-            assert.ok(body.sources.some(source => source.lesson === 'ICT12_B07'));
+            assert.ok(body.sources.some(source => source.lesson === 'ICT12_B07'), JSON.stringify(body));
             await page.locator('#chat a[href*="ICT12_B07"]').last().waitFor();
             console.log('Public KTC browser check passed.');
           } finally {

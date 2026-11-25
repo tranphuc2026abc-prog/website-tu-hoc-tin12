@@ -1,3 +1,5 @@
+const htmlTags = (value) => value.toLowerCase().match(/<[a-z][\w-]*>/g) || [];
+
 const tokenize = (value) => value.normalize('NFC').toLowerCase().match(/[\p{L}\p{N}_]+/gu) || [];
 
 export function prepareIndex(chunks) {
@@ -17,6 +19,7 @@ export function prepareIndex(chunks) {
 export function retrieve(index, question, vector, lesson = '', limit = 5) {
     const { documents, frequency, average } = index;
     const tokens = new Set(tokenize(question));
+    const tags = new Set(htmlTags(question));
     const vectorNorm = Math.hypot(...vector);
     const scores = documents.filter(({ chunk }) => !lesson || chunk.lesson === lesson).map((doc) => {
         let bm25 = 0;
@@ -38,6 +41,14 @@ export function retrieve(index, question, vector, lesson = '', limit = 5) {
         ranked.forEach(({ chunk }, rank) => {
             fused.set(chunk, (fused.get(chunk) || 0) + weight / (61 + rank));
         });
+    }
+    for (const { chunk } of scores) {
+        const matches = htmlTags(chunk.text).some((tag) => tags.has(tag));
+        if (matches) {
+            // Prefer the core explanation over an incidental mention of the same tag.
+            const boost = chunk.section === 'key' ? 0.023 : 0.005;
+            fused.set(chunk, (fused.get(chunk) || 0) + boost);
+        }
     }
     const ranked = [...fused].sort((a, b) => b[1] - a[1]).map(([chunk]) => chunk);
     if (lesson) return ranked.slice(0, limit);
