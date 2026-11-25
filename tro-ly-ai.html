@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trợ lý AI KTC</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/ktc.css">
+</head>
+<body>
+  <header class="top">
+    <div class="bar-in">
+      <a class="brand" href="index.html">TỰ HỌC TIN HỌC THPT</a>
+      <a class="btn" href="index.html">Trang chủ</a>
+    </div>
+  </header>
+  <main class="ktc">
+    <h1>Trợ lý AI KTC</h1>
+    <div class="ktc-controls">
+      <button class="btn" type="button" id="clear">Xóa hội thoại</button>
+    </div>
+    <p id="context" hidden>Đang hỏi về <a id="context-link"></a>
+      <button type="button" class="btn" id="context-remove">Tìm trong mọi bài</button>
+    </p>
+    <section id="chat" role="log" aria-label="Hội thoại"></section>
+    <form id="form">
+      <label for="question">Câu hỏi của em</label>
+      <textarea id="question" rows="3" required maxlength="1000" placeholder="Ví dụ: SQL dùng để làm gì?"></textarea>
+      <div class="ktc-controls">
+        <button class="btn pri" id="send">Gửi câu hỏi</button>
+        <button class="btn" type="button" id="mic" hidden>Nhập giọng nói</button>
+      </div>
+    </form>
+    <p id="status" role="status"></p>
+  </main>
+  <script src="assets/js/ktc-config.js"></script>
+  <script src="assets/js/ktc-chat.js" defer></script>
+</body>
+</html>
