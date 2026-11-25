@@ -46,7 +46,7 @@ jobs:
           node_modules/.bin/esbuild "$vendor/dist/transformers.web.min.js" --bundle --platform=browser --format=esm --minify --outfile=_ktc-preview/assets/vendor/ktc/transformers.web.min.mjs
           cp "$vendor/dist"/ort-wasm-simd-threaded.jsep.* "$vendor/LICENSE" _ktc-preview/assets/vendor/ktc/
           printf '%s\n' "window.KTC_API_URL = location.origin;" > _ktc-preview/assets/js/ktc-config.js
-          sed -i -e 's/env.allowLocalModels = true/env.allowLocalModels = false/' -e 's/env.allowRemoteModels = false/env.allowRemoteModels = true/' _ktc-preview/assets/js/ktc-retrieval-worker.mjs
+          python scripts/package_ktc_preview_model.py _ktc-preview
           printf '%s\n' '/index.html / 301' '/tro-ly-ai.html / 302' '/course.html https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/course.html 302' > _ktc-preview/_redirects
           sed -i "s|'course.html?grade='|'https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/course.html?grade='|g" _ktc-preview/assets/js/ktc-chat.js
           sed -i 's|href="index.html"|href="https://tranphuc2026abc-prog.github.io/website-tu-hoc-tin12/"|g' _ktc-preview/index.html
